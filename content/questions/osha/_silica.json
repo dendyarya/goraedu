@@ -8,14 +8,14 @@
     {
       "id": "si-001",
       "topic": "Scope and definitions",
-      "question": "When does 1926.1153 not apply to an occupational exposure to respirable crystalline silica in construction work?",
+      "question": "Under its scope paragraph, which occupational exposure to respirable crystalline silica in construction work is outside the coverage of 1926.1153?",
       "options": {
-        "A": "Where employee exposure will remain below 25 µg/m3 as an 8-hour TWA under any foreseeable conditions",
+        "A": "Where the employer has fewer than ten employees",
         "B": "Where the work lasts less than one week",
-        "C": "Where the employer has fewer than ten employees",
+        "C": "Where employee exposure will remain below 25 µg/m3 as an 8-hour TWA under any foreseeable conditions",
         "D": "Where the work is done outdoors"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "The section applies to all occupational exposures in construction work \"except where employee exposure will remain below 25 micrograms per cubic meter of air (25 µg/m3) as an 8-hour time-weighted average (TWA) under any foreseeable conditions.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1153, Respirable crystalline silica (as of Nov 3, 2026)",
@@ -48,12 +48,12 @@
       "topic": "Scope and definitions",
       "question": "Under the 1926.1153 definition, what must a competent person be capable of and authorized to do?",
       "options": {
-        "A": "Sign medical opinions and order chest X-rays",
+        "A": "Identify existing and foreseeable silica hazards and take prompt corrective measures to eliminate or minimize them",
         "B": "Analyze air samples in an accredited laboratory",
-        "C": "Identify existing and foreseeable silica hazards and take prompt corrective measures to eliminate or minimize them",
+        "C": "Sign medical opinions and order chest X-rays",
         "D": "Issue OSHA citations to other employers on the site"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "A competent person is \"capable of identifying existing and foreseeable respirable crystalline silica hazards in the workplace\" and \"has authorization to take prompt corrective measures to eliminate or minimize them.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1153, Respirable crystalline silica (as of Nov 3, 2026)",
@@ -86,12 +86,12 @@
       "topic": "Specified exposure control methods (Table 1)",
       "question": "For an employee doing a task listed on Table 1, what must the employer do unless it assesses and limits the employee's exposure under paragraph (d)?",
       "options": {
-        "A": "Fully and properly implement the engineering controls, work practices and respiratory protection specified for the task on Table 1",
-        "B": "Provide a respirator only if the employee asks for one",
+        "A": "Provide a respirator only if the employee asks for one",
+        "B": "Fully and properly implement the engineering controls, work practices and respiratory protection specified for the task on Table 1",
         "C": "Do air monitoring every three months",
         "D": "Get written permission from OSHA before starting the task"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "The employer \"shall fully and properly implement the engineering controls, work practices, and respiratory protection specified for the task on Table 1, unless the employer assesses and limits the exposure of the employee\" under paragraph (d).",
       "source": {
         "title": "eCFR: 29 CFR 1926.1153, Respirable crystalline silica (as of Nov 3, 2026)",
@@ -106,11 +106,11 @@
       "question": "An employee performs more than one Table 1 task in a shift, and all tasks combined last more than four hours. Which respiratory protection applies to each task?",
       "options": {
         "A": "The protection for the single longest task only",
-        "B": "The protection specified for more than four hours per shift",
+        "B": "The protection specified for less than four hours per shift",
         "C": "No respirator, because each task alone is under four hours",
-        "D": "The protection specified for less than four hours per shift"
+        "D": "The protection specified for more than four hours per shift"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Where the total duration of all Table 1 tasks combined \"is more than four hours, the required respiratory protection for each task is the respiratory protection specified for more than four hours per shift.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1153, Respirable crystalline silica (as of Nov 3, 2026)",
@@ -143,12 +143,12 @@
       "topic": "Specified exposure control methods (Table 1)",
       "question": "For tasks done indoors or in enclosed areas while implementing Table 1 controls, what must the employer provide?",
       "options": {
-        "A": "A second worker to watch for dust",
+        "A": "A means of exhaust as needed to minimize the accumulation of visible airborne dust",
         "B": "Air monitoring every shift",
         "C": "A HEPA vacuum for each employee",
-        "D": "A means of exhaust as needed to minimize the accumulation of visible airborne dust"
+        "D": "A second worker to watch for dust"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "For tasks performed indoors or in enclosed areas, the employer must \"provide a means of exhaust as needed to minimize the accumulation of visible airborne dust.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1153, Respirable crystalline silica (as of Nov 3, 2026)",
@@ -184,7 +184,7 @@
         "A": "None",
         "B": "APF 10",
         "C": "APF 25",
-        "D": "A supplied-air respirator"
+        "D": "APF 50"
       },
       "answer": "B",
       "explanation": "For handheld power saws (any blade diameter) with water delivery, Table 1 lists \"When used indoors or in an enclosed area\" as \"APF 10\" for four hours or less and \"APF 10\" for more than four hours per shift.",
@@ -238,12 +238,12 @@
       "topic": "Alternative exposure control methods",
       "question": "Under the alternative exposure control methods, what is the permissible exposure limit (PEL) for respirable crystalline silica?",
       "options": {
-        "A": "50 µg/m3, calculated as an 8-hour TWA",
+        "A": "50 µg/m3, as a ceiling that can never be exceeded for any instant",
         "B": "25 µg/m3, calculated as a 15-minute average",
         "C": "100 µg/m3, calculated as an 8-hour TWA",
-        "D": "50 µg/m3, as a ceiling that can never be exceeded for any instant"
+        "D": "50 µg/m3, calculated as an 8-hour TWA"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "The employer must ensure that no employee is exposed \"in excess of 50 µg/m3, calculated as an 8-hour TWA.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1153, Respirable crystalline silica (as of Nov 3, 2026)",
@@ -255,14 +255,14 @@
     {
       "id": "si-014",
       "topic": "Alternative exposure control methods",
-      "question": "Under the scheduled monitoring option, the most recent monitoring shows exposures at or above the action level but at or below the PEL. When must monitoring be repeated?",
+      "question": "Under the scheduled monitoring option, the most recent monitoring shows exposures at or above the action level but at or below the PEL. What deadline does the rule set for repeating monitoring?",
       "options": {
-        "A": "Within one month",
-        "B": "Within six months of the most recent monitoring",
+        "A": "Within six months of the most recent monitoring",
+        "B": "Within one year of the most recent monitoring",
         "C": "Within three months of the most recent monitoring",
         "D": "Only when the job ends"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Where the most recent monitoring shows exposures \"at or above the action level but at or below the PEL, the employer shall repeat such monitoring within six months of the most recent monitoring.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1153, Respirable crystalline silica (as of Nov 3, 2026)",
@@ -274,12 +274,12 @@
     {
       "id": "si-015",
       "topic": "Alternative exposure control methods",
-      "question": "Under the scheduled monitoring option, the most recent monitoring shows exposures above the PEL. When must monitoring be repeated?",
+      "question": "Under the scheduled monitoring option, the most recent monitoring shows exposures above the PEL. What deadline does the rule set for repeating monitoring?",
       "options": {
         "A": "Within six months",
         "B": "Within one year",
         "C": "Within three months of the most recent monitoring",
-        "D": "Within seven days"
+        "D": "Only when the project ends"
       },
       "answer": "C",
       "explanation": "Where the most recent monitoring shows exposures \"above the PEL, the employer shall repeat such monitoring within three months of the most recent monitoring.\"",
@@ -293,14 +293,14 @@
     {
       "id": "si-016",
       "topic": "Alternative exposure control methods",
-      "question": "How soon after completing an exposure assessment must the employer notify each affected employee of the results (or post them)?",
+      "question": "What deadline does 1926.1153 set for notifying each affected employee of exposure assessment results (or posting them) after the assessment is completed?",
       "options": {
-        "A": "Within 24 hours",
-        "B": "Within 30 days",
+        "A": "Within 15 working days",
+        "B": "Within five working days",
         "C": "At the next annual training",
-        "D": "Within five working days"
+        "D": "Within 30 days"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "\"Within five working days after completing an exposure assessment\" the employer must individually notify each affected employee in writing or post the results in an appropriate location accessible to all affected employees.",
       "source": {
         "title": "eCFR: 29 CFR 1926.1153, Respirable crystalline silica (as of Nov 3, 2026)",
@@ -331,12 +331,12 @@
     {
       "id": "si-018",
       "topic": "Housekeeping and written plan",
-      "question": "How often must the employer review and evaluate the effectiveness of the written exposure control plan?",
+      "question": "How often does 1926.1153 require the employer to review and evaluate the effectiveness of the written exposure control plan?",
       "options": {
         "A": "Every five years",
         "B": "At least annually, updating it as necessary",
         "C": "Only when OSHA asks for it",
-        "D": "Every month"
+        "D": "Only when the plan is first written"
       },
       "answer": "B",
       "explanation": "\"The employer shall review and evaluate the effectiveness of the written exposure control plan at least annually and update it as necessary.\"",
@@ -354,10 +354,10 @@
       "options": {
         "A": "Every employee on the job site",
         "B": "Only employees who smoke",
-        "C": "Each employee who will be required under the section to use a respirator for 30 or more days per year",
-        "D": "Only employees with more than ten years of silica exposure"
+        "C": "Only employees with more than ten years of silica exposure",
+        "D": "Each employee who will be required under the section to use a respirator for 30 or more days per year"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Medical surveillance must be made available at no cost \"for each employee who will be required under this section to use a respirator for 30 or more days per year.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1153, Respirable crystalline silica (as of Nov 3, 2026)",
@@ -368,15 +368,15 @@
     },
     {
       "id": "si-020",
-      "topic": "Communication of hazards and training",
+      "topic": "Communication of hazards, training and records",
       "question": "Which hazards of respirable crystalline silica must the employer at least address in its hazard communication program?",
       "options": {
         "A": "Noise, vibration, heat and cold",
         "B": "Burns, cuts, falls and eye injuries",
-        "C": "Fire, explosion, corrosion and reactivity",
-        "D": "Cancer, lung effects, immune system effects and kidney effects"
+        "C": "Cancer, lung effects, immune system effects and kidney effects",
+        "D": "Fire, explosion, corrosion and reactivity"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "The employer must ensure that \"at least the following hazards are addressed: Cancer, lung effects, immune system effects, and kidney effects.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1153, Respirable crystalline silica (as of Nov 3, 2026)",
