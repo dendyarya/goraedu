@@ -3,9 +3,12 @@ import type { Guide, GuidePoint } from "@/lib/guides";
 
 /** "eCFR: 40 CFR 82.156, Proper evacuation…" → "40 CFR 82.156"; "EPA: Some page" → "EPA: Some page". */
 function shortSource(p: GuidePoint) {
-  const m = p.source.title.match(/40 CFR (?:Part 82, Subpart F, )?(82\.\d+|Appendix [A-Z]\d?)/);
-  if (m) return m[1]!.startsWith("82.") ? `40 CFR ${m[1]}` : `40 CFR Part 82, Subpart F, ${m[1]}`;
-  return p.source.title.replace(/\s*\(as of [^)]+\)/, "");
+  const t = p.source.title;
+  const sec = t.match(/40 CFR (82\.\d+)/);
+  if (sec) return `40 CFR ${sec[1]}`;
+  const app = t.match(/Part 82,? Subpart ([A-Z]),? (Appendix [A-Z]\d?)/);
+  if (app) return `40 CFR Part 82, Subpart ${app[1]}, ${app[2]}`;
+  return t.replace(/\s*\(as of [^)]+\)/, "").replace(/^eCFR: /, "");
 }
 
 /**

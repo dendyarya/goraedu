@@ -47,8 +47,8 @@ export default function Epa609StudyGuidePage() {
         }
         sourceNote={
           <>
-            Quotes from 40 CFR Part 82, Subpart B are checked against the eCFR text dated November 3, 2026. Independent.
-            Not affiliated with or endorsed by the U.S. EPA or any certifying organization. Found an error?{" "}
+            Quotes from 40 CFR Part 82, Subparts B and G are checked against the eCFR text dated November 3, 2026.
+            Independent. Not affiliated with or endorsed by the U.S. EPA or any certifying organization. Found an error?{" "}
             <Link href="/contact/" className="text-low underline">
               Tell us
             </Link>

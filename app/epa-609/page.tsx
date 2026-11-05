@@ -108,7 +108,7 @@ export default function Epa609Page() {
         { label: "EPA 609" },
       ]}
       title="EPA Section 609 certification"
-      lead="The certification U.S. technicians need to service motor vehicle air conditioning for pay. These are the rules in 40 CFR Part 82, Subpart B, with the exact words they come from."
+      lead="The certification U.S. technicians need to service motor vehicle air conditioning for pay. These are the rules in 40 CFR Part 82, Subparts B and G, with the exact words they come from."
       meta={
         <>
           Fact-checked against official sources · Last checked <time dateTime={CHECKED}>{formatDate(CHECKED)}</time>
