@@ -206,15 +206,15 @@
     {
       "id": "wd-012",
       "topic": "Ventilation and confined spaces",
-      "question": "What ceiling height does 1910.252(c)(2)(i)(B) set as the threshold below which mechanical ventilation is required for general welding or cutting in a room?",
+      "question": "General welding on metals not covered in 1910.252(c)(5) through (c)(12) is done in a large room with a high ceiling, but partitions and balconies significantly obstruct cross ventilation. What does 1910.252(c)(2)(i) require?",
       "options": {
-        "A": "6 feet",
-        "B": "8 feet",
-        "C": "16 feet (5 m)",
-        "D": "10 feet"
+        "A": "Natural ventilation only, because the room is large and the ceiling is high",
+        "B": "No ventilation, if the welder wears a helmet",
+        "C": "Mechanical ventilation",
+        "D": "An open window within 35 feet of the work"
       },
       "answer": "C",
-      "explanation": "Mechanical ventilation is required \"In a room having a ceiling height of less than 16 feet (5 m).\"",
+      "explanation": "\"Mechanical ventilation shall be provided when welding or cutting is done on metals not covered in paragraphs (c)(5) through (c)(12) of this section\", including \"where the welding space contains partitions, balconies, or other structural barriers to the extent that they significantly obstruct cross ventilation.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
@@ -332,15 +332,15 @@
     {
       "id": "wd-019",
       "topic": "Arc and resistance welding",
-      "question": "What voltage limit does 1910.254(b)(3)(i)(A) set for alternating-current machines used for manual arc welding and cutting?",
+      "question": "A special arc welding and cutting process requires open circuit voltages higher than the limits listed in 1910.254(b)(3). What does 1910.254(b)(3)(iii) then require?",
       "options": {
-        "A": "110 volts",
-        "B": "150 volts",
-        "C": "240 volts",
-        "D": "80 volts"
+        "A": "That the process be used outdoors only",
+        "B": "That a second welder hold the electrode cable",
+        "C": "Only a high-voltage warning sign at the machine",
+        "D": "Means to prevent the operator from making accidental contact with the high voltage by adequate insulation or other means"
       },
       "answer": "D",
-      "explanation": "Under \"The following limits shall not be exceeded,\" alternating-current machines are listed with \"Manual arc welding and cutting-80 volts.\"",
+      "explanation": "\"When special welding and cutting processes require values of open circuit voltages higher than the above, means shall be provided to prevent the operator from making accidental contact with the high voltage by adequate insulation or other means.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.254, Arc welding and cutting (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.254"
@@ -350,15 +350,15 @@
     {
       "id": "wd-020",
       "topic": "Arc and resistance welding",
-      "question": "On portable resistance welding guns, what maximum does 1910.255(c)(4) set for initiating switch voltage?",
+      "question": "A portable resistance welding gun and its transformer are suspended from an overhead trolley. What does 1910.255(c)(2) require for them?",
       "options": {
-        "A": "48 volts",
-        "B": "24 volts",
-        "C": "120 volts",
-        "D": "240 volts"
+        "A": "A sign telling workers not to stand below",
+        "B": "Safety chains or cables capable of supporting the total shock load if any component of the supporting system fails",
+        "C": "Daily lubrication of the trolley wheels",
+        "D": "A second worker holding a tag line during welding"
       },
       "answer": "B",
-      "explanation": "\"Initiating switch voltage shall not exceed 24 volts.\"",
+      "explanation": "Suspended portable welding guns, transformers and related equipment \"shall be equipped with safety chains or cables. Safety chains or cables shall be capable of supporting the total shock load in the event of failure of any component of the supporting system.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.255, Resistance welding (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.255"
