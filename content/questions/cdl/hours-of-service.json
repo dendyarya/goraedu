@@ -62,7 +62,7 @@
     {
       "id": "hs-004",
       "topic": "Property-carrying driver limits",
-      "question": "A property-carrying driver comes on duty at 6:00 a.m. after 10 consecutive hours off duty and has driven 9 hours by 3:00 p.m. Assuming the 30-minute break and the 60/70-hour limits are met, how much more driving does 395.3(a)(3)(i) allow in this period?",
+      "question": "A property-carrying driver comes on duty at 6:00 a.m. after 10 consecutive hours off duty and has driven 9 hours by 3:00 p.m. Assuming the 30-minute break and the 60/70-hour limits are met and no 395.1 exception (such as the adverse driving conditions extension) is used, how much more driving does 395.3(a)(3)(i) allow in this period?",
       "options": {
         "A": "5 hours",
         "B": "4 hours",
@@ -170,7 +170,7 @@
     {
       "id": "hs-010",
       "topic": "Passenger-carrying driver limits",
-      "question": "A passenger-carrying driver has had 8 consecutive hours off duty and has since driven 7 hours. Assuming the on-duty and 60/70-hour limits are not reached, how much more driving does 395.5(a)(1) allow before another 8 consecutive hours off duty?",
+      "question": "A passenger-carrying driver has had 8 consecutive hours off duty and has since driven 7 hours. Assuming the on-duty and 60/70-hour limits are not reached and no 395.1 exception (such as the adverse driving conditions extension) is used, how much more driving does 395.5(a)(1) allow before another 8 consecutive hours off duty?",
       "options": {
         "A": "4 hours",
         "B": "6 hours",
@@ -188,7 +188,7 @@
     {
       "id": "hs-011",
       "topic": "Passenger-carrying driver limits",
-      "question": "A passenger-carrying driver comes on duty at 4:00 a.m. after 8 consecutive hours off duty and stays on duty without any off-duty time. After what clock time does 395.5(a)(2) bar the driver from driving?",
+      "question": "A passenger-carrying driver comes on duty at 4:00 a.m. after 8 consecutive hours off duty and stays on duty without any off-duty time. If no 395.1 exception (such as the adverse driving conditions extension or the sleeper berth provisions) is used, after what clock time does 395.5(a)(2) bar the driver from driving?",
       "options": {
         "A": "6:00 p.m.",
         "B": "7:00 p.m.",
@@ -206,12 +206,12 @@
     {
       "id": "hs-012",
       "topic": "Sleeper berth rules",
-      "question": "Which of these two-period splits meets the period-length conditions for a property-carrying driver in 395.1(g)(1)(ii)(A) through (C)?",
+      "question": "A property-carrying driver takes two separate rest periods, with driving in between. Which pair meets the period-length conditions in 395.1(g)(1)(ii)(A) through (C)?",
       "options": {
-        "A": "6 consecutive hours in the sleeper berth plus 4 consecutive hours in the sleeper berth",
-        "B": "9 consecutive hours in the sleeper berth plus 1 hour off duty",
-        "C": "5 consecutive hours in the sleeper berth plus 5 consecutive hours in the sleeper berth",
-        "D": "7 consecutive hours in the sleeper berth plus 3 consecutive hours off duty"
+        "A": "6 consecutive hours in the sleeper berth, and later 4 consecutive hours in the sleeper berth",
+        "B": "8 consecutive hours in the sleeper berth, and later 1 hour off duty",
+        "C": "5 consecutive hours in the sleeper berth, and later 5 consecutive hours in the sleeper berth",
+        "D": "7 consecutive hours in the sleeper berth, and later 3 consecutive hours off duty"
       },
       "answer": "D",
       "explanation": "The rule requires that \"Neither rest period is shorter than 2 consecutive hours\", that \"One rest period is at least 7 consecutive hours in the sleeper berth\" and that \"The total of the two periods is at least 10 hours\". Only 7 + 3 meets all three.",
