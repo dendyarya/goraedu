@@ -72,6 +72,8 @@ body {
   font-size: 1.0625rem;
   line-height: 1.6;
   font-feature-settings: "tnum" 0;
+  /* Manrope's common ligatures turn "(c)" into "©", which corrupts rule citations such as paragraph (c). */
+  font-variant-ligatures: no-common-ligatures;
 }
 
 h1,

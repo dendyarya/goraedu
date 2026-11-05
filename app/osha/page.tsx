@@ -113,7 +113,7 @@ export default function OshaPage() {
         { label: "OSHA Construction" },
       ]}
       title="OSHA construction safety rules"
-      lead="Practice questions, study guides and tools on the OSHA construction standards in 29 CFR Part 1926, covering the hazards the OSHA 10-hour and 30-hour construction courses focus on."
+      lead="Practice questions, study guides and tools on the OSHA rules behind the OSHA 10-hour and 30-hour construction course topics: the construction standards in 29 CFR Part 1926, plus OSHA inspections, recordkeeping and hazard communication."
       meta={
         <>
           Fact-checked against official sources · Last checked <time dateTime={CHECKED}>{formatDate(CHECKED)}</time>
@@ -177,7 +177,7 @@ export default function OshaPage() {
           </div>
         </div>
 
-        <aside className="space-y-6 lg:sticky lg:top-6 lg:self-start">
+        <aside className="space-y-6">
           <div className="rounded-3xl border border-line bg-panel p-6">
             <h2 className="text-[1.25rem] font-bold">Topics</h2>
             <ul className="mt-4 space-y-3">
