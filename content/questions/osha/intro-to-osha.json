@@ -7,7 +7,7 @@
   "questions": [
     {
       "id": "io-001",
-      "topic": "OSHA poster",
+      "topic": "The OSH Act and the OSHA poster",
       "question": "On construction work, which is a physically dispersed activity, where must the OSHA notice to employees be posted?",
       "options": {
         "A": "At the employer's corporate headquarters only",
@@ -25,16 +25,16 @@
     },
     {
       "id": "io-002",
-      "topic": "Inspections",
-      "question": "When advance notice of an inspection is allowed, how far ahead may it be given, apart from apparent imminent danger and other unusual circumstances?",
+      "topic": "OSHA inspections",
+      "question": "OSHA gives an employer advance notice of an inspection in one of the situations 1903.6(a) allows, and the employer knows who the employees' authorized representative is. What does 1903.6(b) make the employer's responsibility?",
       "options": {
-        "A": "Not more than 24 hours before the inspection",
-        "B": "Not more than 7 calendar days before",
-        "C": "Not more than 15 working days before",
-        "D": "Not more than 30 days before"
+        "A": "Promptly notifying the authorized representative of employees of the inspection",
+        "B": "Getting the Area Director's written approval of the inspection date",
+        "C": "Posting the advance notice for 3 working days",
+        "D": "Sending OSHA a list of every employee on the site"
       },
       "answer": "A",
-      "explanation": "Advance notice \"shall not be given more than 24 hours before the inspection is scheduled to be conducted, except in apparent imminent danger situations and in other unusual circumstances.\"",
+      "explanation": "When advance notice is given, \"it shall be the employer's responsibility promptly to notify the authorized representative of employees of the inspection, if the identity of such representative is known to the employer.\" An employer who fails to do so may be subject to citation and penalty.",
       "source": {
         "title": "eCFR: 29 CFR 1903.6, Advance notice of inspections (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.6"
@@ -43,7 +43,7 @@
     },
     {
       "id": "io-003",
-      "topic": "Inspections",
+      "topic": "OSHA inspections",
       "question": "The representative the employees have authorized for an inspection is not an employee of the employer. Under 1903.8(c), when may this third party accompany the Compliance Safety and Health Officer?",
       "options": {
         "A": "Never, because only employees may accompany the officer",
@@ -61,7 +61,7 @@
     },
     {
       "id": "io-004",
-      "topic": "Inspections",
+      "topic": "OSHA inspections",
       "question": "If an employer refuses to let the Compliance Safety and Health Officer enter, what does the officer do?",
       "options": {
         "A": "Issues an on-the-spot fine and enters anyway",
@@ -79,7 +79,7 @@
     },
     {
       "id": "io-005",
-      "topic": "Complaints",
+      "topic": "Complaints and imminent danger",
       "question": "An employee gives the Area Director notice of an alleged violation to request an inspection. What does 1903.11(a) require of that notice?",
       "options": {
         "A": "It must be notarized",
@@ -97,7 +97,7 @@
     },
     {
       "id": "io-006",
-      "topic": "Complaints",
+      "topic": "Complaints and imminent danger",
       "question": "An inspection is made because of an employee complaint. What may the inspection cover?",
       "options": {
         "A": "Only the exact hazard named in the complaint",
@@ -115,7 +115,7 @@
     },
     {
       "id": "io-007",
-      "topic": "Imminent danger",
+      "topic": "Complaints and imminent danger",
       "question": "After an officer tells an employer about an imminent danger, the employer immediately eliminates the imminence of the danger and starts steps to abate it. What does 1903.13 say about citations?",
       "options": {
         "A": "Appropriate citations and notices of proposed penalties may still be issued",
@@ -133,7 +133,7 @@
     },
     {
       "id": "io-008",
-      "topic": "Imminent danger",
+      "topic": "Complaints and imminent danger",
       "question": "On the basis of an inspection, a Compliance Safety and Health Officer concludes that conditions could reasonably be expected to cause death or serious physical harm immediately or before the danger can be eliminated through the Act's other enforcement procedures. Whom must the officer inform?",
       "options": {
         "A": "Only the local fire department",
@@ -151,7 +151,7 @@
     },
     {
       "id": "io-009",
-      "topic": "Citations",
+      "topic": "Citations, contests and abatement",
       "question": "Besides describing the alleged violation with particularity, what must every citation also fix under 1903.14(b)?",
       "options": {
         "A": "The date of the next inspection",
@@ -169,7 +169,7 @@
     },
     {
       "id": "io-010",
-      "topic": "Posting citations",
+      "topic": "Citations, contests and abatement",
       "question": "An employer receives a notice of de minimis violations. What does 1903.16 say about posting it?",
       "options": {
         "A": "It need not be posted",
@@ -187,7 +187,7 @@
     },
     {
       "id": "io-011",
-      "topic": "Posting citations",
+      "topic": "Citations, contests and abatement",
       "question": "Where must an employer post a citation it receives, where that is practicable?",
       "options": {
         "A": "In the company's annual report",
@@ -205,7 +205,7 @@
     },
     {
       "id": "io-012",
-      "topic": "Contests",
+      "topic": "Citations, contests and abatement",
       "question": "Under 1903.17(a), what must every employer notice of intention to contest specify?",
       "options": {
         "A": "The name of the employer's attorney",
@@ -223,7 +223,7 @@
     },
     {
       "id": "io-013",
-      "topic": "Contests",
+      "topic": "Citations, contests and abatement",
       "question": "An employer posts its petition for modification of abatement date. Under 1903.14a(c)(2), within what time must affected employees or their representatives file a written objection to avoid waiving any further right to object?",
       "options": {
         "A": "Within ten (10) working days of the date of posting or service",
@@ -241,7 +241,7 @@
     },
     {
       "id": "io-014",
-      "topic": "Contests",
+      "topic": "Citations, contests and abatement",
       "question": "An employer requests an informal conference about a citation. What effect does this have on the 15-working-day period to file a notice of contest?",
       "options": {
         "A": "It doubles the period to 30 working days",
@@ -259,7 +259,7 @@
     },
     {
       "id": "io-015",
-      "topic": "Abatement",
+      "topic": "Citations, contests and abatement",
       "question": "What deadline does 1903.19 set for an employer to certify to OSHA that a cited violation has been abated, unless the compliance officer observed the abatement during the on-site inspection within 24 hours after the violation was identified and noted it in the citation?",
       "options": {
         "A": "Before the closing conference",
@@ -277,7 +277,7 @@
     },
     {
       "id": "io-016",
-      "topic": "Who keeps records",
+      "topic": "Who must keep injury and illness records",
       "question": "A company had 10 or fewer employees at all times during the last calendar year, and neither OSHA nor the Bureau of Labor Statistics has informed it in writing that it must keep records. What does Part 1904 require?",
       "options": {
         "A": "It must keep full OSHA 300, 300-A and 301 records",
@@ -295,7 +295,7 @@
     },
     {
       "id": "io-017",
-      "topic": "Recording cases",
+      "topic": "Recording cases: criteria and forms",
       "question": "An employee is cut by a sharp object contaminated with another person's blood, and the case is recordable. What does 1904.29 say about the employee's name on the OSHA 300 Log?",
       "options": {
         "A": "It may not be entered, because this is a privacy concern case",
@@ -313,7 +313,7 @@
     },
     {
       "id": "io-018",
-      "topic": "Annual summary",
+      "topic": "Annual summary, retention and employee access",
       "question": "Which person does 1904.32(b)(4) list as a company executive who may certify the annual summary?",
       "options": {
         "A": "The chair of the site safety committee",
@@ -331,7 +331,7 @@
     },
     {
       "id": "io-019",
-      "topic": "Annual summary",
+      "topic": "Annual summary, retention and employee access",
       "question": "During the five-year storage period, which stored record must the employer update to include newly discovered recordable injuries or illnesses?",
       "options": {
         "A": "The annual summary only",
@@ -349,7 +349,7 @@
     },
     {
       "id": "io-020",
-      "topic": "Reporting to OSHA",
+      "topic": "Reporting severe injuries to OSHA",
       "question": "An employer must report an employee's work-related in-patient hospitalization, and the nearest OSHA Area Office is closed. Which way of reporting does 1904.39 accept?",
       "options": {
         "A": "Leaving a message on the Area Office answering machine",

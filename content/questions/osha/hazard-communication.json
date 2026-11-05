@@ -7,7 +7,7 @@
   "questions": [
     {
       "id": "hc-001",
-      "topic": "Construction coverage",
+      "topic": "Scope and construction coverage",
       "question": "What does 29 CFR 1926.59 say about hazard communication requirements for construction work?",
       "options": {
         "A": "They are identical to those set forth at 29 CFR 1910.1200",
@@ -25,7 +25,7 @@
     },
     {
       "id": "hc-002",
-      "topic": "Scope",
+      "topic": "Scope and construction coverage",
       "question": "To which chemicals does 1910.1200 apply?",
       "options": {
         "A": "Only chemicals stored in quantities over 55 gallons",
@@ -43,7 +43,7 @@
     },
     {
       "id": "hc-003",
-      "topic": "Definitions",
+      "topic": "Key definitions",
       "question": "Under the 1910.1200 definition of employer, which businesses are expressly included?",
       "options": {
         "A": "Only chemical manufacturers",
@@ -61,7 +61,7 @@
     },
     {
       "id": "hc-004",
-      "topic": "Definitions",
+      "topic": "Key definitions",
       "question": "Under the 1910.1200 definition, which of these is excluded from being a container?",
       "options": {
         "A": "A drum",
@@ -79,7 +79,7 @@
     },
     {
       "id": "hc-005",
-      "topic": "Written program",
+      "topic": "Written hazard communication program",
       "question": "The written hazard communication program must include a list of hazardous chemicals known to be present, identified how?",
       "options": {
         "A": "Using a product identifier that is referenced on the appropriate safety data sheet",
@@ -97,7 +97,7 @@
     },
     {
       "id": "hc-006",
-      "topic": "Written program",
+      "topic": "Written hazard communication program",
       "question": "On a multi-employer workplace, what must the program of an employer whose chemicals may expose other employers' workers include?",
       "options": {
         "A": "A copy of each other employer's insurance policy",
@@ -115,7 +115,7 @@
     },
     {
       "id": "hc-007",
-      "topic": "Written program",
+      "topic": "Written hazard communication program",
       "question": "Where employees travel between workplaces during a workshift, where may the written hazard communication program be kept?",
       "options": {
         "A": "Only with the chemical supplier",
@@ -133,8 +133,8 @@
     },
     {
       "id": "hc-008",
-      "topic": "Labels",
-      "question": "Under 1910.1200(f)(3), which label elements must be located together on the label, tag, or mark of a shipped container?",
+      "topic": "Labels and other forms of warning",
+      "question": "Under the current text of 1910.1200(f)(3), as revised in 2024, which label elements must be located together on the label, tag, or mark of a shipped container?",
       "options": {
         "A": "The product identifier and the price",
         "B": "The manufacturer's U.S. address and the lot number",
@@ -142,7 +142,7 @@
         "D": "The precautionary statements and the shipping date"
       },
       "answer": "C",
-      "explanation": "The information in paragraphs (f)(1)(ii) through (iv), which are \"Signal word\", \"Hazard statement(s)\" and \"Pictogram(s)\", must be \"located together on the label, tag, or mark.\"",
+      "explanation": "The information in paragraphs (f)(1)(ii) through (iv), which are \"Signal word\", \"Hazard statement(s)\" and \"Pictogram(s)\", must be \"located together on the label, tag, or mark.\" This is the current text as revised in 2024; until the applicable compliance date in 1910.1200(j), the version revised as of July 1, 2023 may be followed instead.",
       "source": {
         "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -151,7 +151,7 @@
     },
     {
       "id": "hc-009",
-      "topic": "Labels",
+      "topic": "Labels and other forms of warning",
       "question": "Some of an employer's employees speak languages other than English. What does 1910.1200(f)(10) allow for workplace labels?",
       "options": {
         "A": "Adding the information in their language, as long as it is also presented in English",
@@ -169,7 +169,7 @@
     },
     {
       "id": "hc-010",
-      "topic": "Labels",
+      "topic": "Labels and other forms of warning",
       "question": "What does 1910.1200(f)(7) allow an employer to use instead of affixing labels to individual stationary process containers?",
       "options": {
         "A": "Verbal reminders at the start of each shift",
@@ -187,7 +187,7 @@
     },
     {
       "id": "hc-011",
-      "topic": "Labels",
+      "topic": "Labels and other forms of warning",
       "question": "When may an employer remove or deface an existing label on an incoming container of a hazardous chemical?",
       "options": {
         "A": "When the label is older than one year",
@@ -205,8 +205,8 @@
     },
     {
       "id": "hc-012",
-      "topic": "Labels",
-      "question": "A chemical manufacturer ships a substance (not a mixture) in a container of 3 ml or less. It can demonstrate that pull-out labels, fold-back labels or tags with the full label information are not feasible, and that any label interferes with the normal use of the container. Under the small container provision added to 1910.1200(f)(12) in 2024, which manufacturers evaluating substances must follow from May 19, 2026, what must the container itself bear, at a minimum?",
+      "topic": "Labels and other forms of warning",
+      "question": "A chemical manufacturer ships a substance in a container of 3 ml or less. It can demonstrate that pull-out labels, fold-back labels or tags with the full label information are not feasible, and that any label interferes with the normal use of the container. Under the current text of 1910.1200(f)(12), which manufacturers evaluating substances must follow since their transition period in (j)(4) ended on May 19, 2026, what must the container itself bear, at a minimum?",
       "options": {
         "A": "The full shipped-container label",
         "B": "The signal word and pictograms",
@@ -214,7 +214,7 @@
         "D": "Nothing at all"
       },
       "answer": "C",
-      "explanation": "Paragraph (f)(12) applies where the manufacturer \"can demonstrate that it is not feasible to use pull-out labels, fold-back labels, or tags containing the full label information\", and for 3 ml or less \"no label is required, but the container must bear, at a minimum, the product identifier.\" Under (j)(2)(i), manufacturers evaluating substances \"shall be in compliance with all modified provisions of this section no later than May 19, 2026\"; for mixtures the date in (j)(3)(i) is November 19, 2027.",
+      "explanation": "For a container of 3 ml or less, \"no label is required, but the container must bear, at a minimum, the product identifier.\" Under (j)(4), the version revised as of July 1, 2023 could be followed instead only until the dates in (j)(2) and (j)(3): for manufacturers evaluating substances, \"no later than May 19, 2026\" (November 19, 2027 for mixtures).",
       "source": {
         "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -295,7 +295,7 @@
     },
     {
       "id": "hc-017",
-      "topic": "Training",
+      "topic": "Employee information and training",
       "question": "How does 1910.1200(h)(1) allow hazard communication information and training to be designed?",
       "options": {
         "A": "To cover categories of hazards (such as flammability or carcinogenicity) or specific chemicals",
@@ -313,7 +313,7 @@
     },
     {
       "id": "hc-018",
-      "topic": "Training",
+      "topic": "Employee information and training",
       "question": "Which topic must employee training include under 1910.1200(h)(3)?",
       "options": {
         "A": "How to calculate the chemical's market price",
@@ -332,7 +332,7 @@
     {
       "id": "hc-019",
       "topic": "Trade secrets",
-      "question": "In a medical emergency, when a treating PLHCP needs a trade secret chemical identity for emergency or first-aid treatment, when must it be disclosed?",
+      "question": "Under the current text of 1910.1200(i)(2), as revised in 2024, in a medical emergency when a treating PLHCP needs a trade secret chemical identity for emergency or first-aid treatment, when must it be disclosed?",
       "options": {
         "A": "Within thirty days of a written request",
         "B": "Only after a confidentiality agreement is signed",
@@ -340,7 +340,7 @@
         "D": "Immediately, regardless of a written statement of need or confidentiality agreement"
       },
       "answer": "D",
-      "explanation": "The chemical manufacturer, importer, or employer \"shall immediately disclose the specific chemical identity\" of a trade secret chemical to the treating PLHCP, \"regardless of the existence of a written statement of need or a confidentiality agreement.\" A written statement of need and confidentiality agreement may be required \"as soon as circumstances permit.\"",
+      "explanation": "The chemical manufacturer, importer, or employer \"shall immediately disclose the specific chemical identity\" of a trade secret chemical to the treating PLHCP, \"regardless of the existence of a written statement of need or a confidentiality agreement.\" A written statement of need and confidentiality agreement may be required \"as soon as circumstances permit.\" This is the current text as revised in 2024; until the applicable compliance date in 1910.1200(j), the version revised as of July 1, 2023 may be followed instead.",
       "source": {
         "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -349,7 +349,7 @@
     },
     {
       "id": "hc-020",
-      "topic": "Dates",
+      "topic": "2024 revision dates",
       "question": "On what date did the current version of 1910.1200 become effective?",
       "options": {
         "A": "July 1, 2023",
