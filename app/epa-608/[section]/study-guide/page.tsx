@@ -128,8 +128,12 @@ export default async function StudyGuidePage({ params }: Props) {
               sources={sources}
               note={
                 <>
-                  Quotes from 40 CFR Part 82 are checked against the eCFR text dated November 3, 2026. Independent. Not
-                  affiliated with or endorsed by the U.S. EPA or any certifying organization. Found an error?{" "}
+                  Topics follow{" "}
+                  <a href="https://www.epa.gov/section608/test-topics" className="text-low underline" rel="noopener">
+                    EPA&apos;s published test topics
+                  </a>
+                  . Quotes from 40 CFR Part 82 are checked against the eCFR text dated November 3, 2026. Independent.
+                  Not affiliated with or endorsed by the U.S. EPA or any certifying organization. Found an error?{" "}
                   <Link href="/contact/" className="text-low underline">
                     Tell us
                   </Link>
