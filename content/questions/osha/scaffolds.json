@@ -26,15 +26,15 @@
     {
       "id": "sc-002",
       "topic": "Capacity",
-      "question": "The stall load of a scaffold hoist may not exceed how many times the hoist's rated load?",
+      "question": "A scaffold hoist has a rated load of 1,000 pounds. Which of these stall loads is within the limit Subpart L sets for that hoist?",
       "options": {
-        "A": "6 times",
-        "B": "3 times",
-        "C": "10 times",
-        "D": "8 times"
+        "A": "4,000 pounds",
+        "B": "2,500 pounds",
+        "C": "3,500 pounds",
+        "D": "5,000 pounds"
       },
       "answer": "B",
-      "explanation": "\"The stall load of any scaffold hoist shall not exceed 3 times its rated load.\"",
+      "explanation": "\"The stall load of any scaffold hoist shall not exceed 3 times its rated load.\" For a 1,000-pound rated load that caps the stall load at 3,000 pounds, so only 2,500 pounds is within the limit.",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -152,15 +152,15 @@
     {
       "id": "sc-009",
       "topic": "Supported scaffolds: footing and tipping",
-      "question": "What must the poles, legs, posts, frames and uprights of a supported scaffold bear on?",
+      "question": "A supported scaffold's frames rest on base plates and mud sills. What else does Subpart L require of its poles, legs, posts, frames and uprights to prevent swaying and displacement?",
       "options": {
-        "A": "Unstable objects, if they are level",
-        "B": "Any object at hand",
-        "C": "Base plates and mud sills or other adequate firm foundation",
-        "D": "Bare soil only"
+        "A": "They must lean slightly toward the building wall",
+        "B": "They must be tied to the nearest utility pole",
+        "C": "They must be plumb and braced",
+        "D": "Nothing more; a firm foundation is enough"
       },
       "answer": "C",
-      "explanation": "They \"shall bear on base plates and mud sills or other adequate firm foundation,\" and unstable objects may not be used to support scaffolds.",
+      "explanation": "\"Supported scaffold poles, legs, posts, frames, and uprights shall be plumb and braced to prevent swaying and displacement.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -170,15 +170,15 @@
     {
       "id": "sc-010",
       "topic": "Access",
-      "question": "An employee wants to step directly between a scaffold and an adjacent surface instead of using a ladder or stair. Direct access is allowed only when the scaffold is no farther from that surface than what?",
+      "question": "A scaffold platform sits 12 inches horizontally and 30 inches vertically from an adjacent floor. May an employee use direct access, stepping between the floor and the scaffold?",
       "options": {
-        "A": "24 inches horizontally and 36 inches vertically",
-        "B": "14 inches horizontally and 24 inches vertically",
-        "C": "36 inches horizontally and 48 inches vertically",
-        "D": "48 inches horizontally and 6 feet vertically"
+        "A": "Yes, because the scaffold is within 14 inches horizontally",
+        "B": "No, because the scaffold is more than 24 inches vertically from the other surface",
+        "C": "Yes, if the employee holds the guardrail while stepping across",
+        "D": "Yes, if a competent person watches the crossing"
       },
       "answer": "B",
-      "explanation": "\"Direct access to or from another surface shall be used only when the scaffold is not more than 14 inches (36 cm) horizontally and not more than 24 inches (61 cm) vertically from the other surface.\"",
+      "explanation": "\"Direct access to or from another surface shall be used only when the scaffold is not more than 14 inches (36 cm) horizontally and not more than 24 inches (61 cm) vertically from the other surface.\" Both limits must be met, and 30 inches exceeds the vertical one.",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -188,15 +188,15 @@
     {
       "id": "sc-011",
       "topic": "Fall protection on scaffolds",
-      "question": "When is crossbracing acceptable in place of a midrail?",
+      "question": "On a scaffold, two crossbraces cross 42 inches above the work platform, and their end points at each upright are no more than 48 inches apart. What part of the guardrail system may that crossbracing serve as?",
       "options": {
-        "A": "When the crossing point of two braces is between 20 and 30 inches above the work platform",
-        "B": "At any height, as long as the braces are steel",
-        "C": "When the crossing point is more than 48 inches above the work platform",
-        "D": "When the braces are also used as the means of access"
+        "A": "The toprail",
+        "B": "The midrail",
+        "C": "The means of access to the platform",
+        "D": "No part of the guardrail system"
       },
       "answer": "A",
-      "explanation": "Crossbracing may replace a midrail \"when the crossing point of two braces is between 20 inches (0.5 m) and 30 inches (0.8 m) above the work platform.\" Separately, \"Crossbraces shall not be used as a means of access.\"",
+      "explanation": "Crossbracing is acceptable \"as a toprail when the crossing point of two braces is between 38 inches (0.97 m) and 48 inches (1.3 m) above the work platform,\" while a midrail needs a crossing point between 20 and 30 inches. \"Crossbraces shall not be used as a means of access.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"

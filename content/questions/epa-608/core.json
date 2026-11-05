@@ -80,18 +80,18 @@
     {
       "id": "core-005",
       "topic": "Certification",
-      "question": "Where does EPA require a certified technician to keep a copy of their Section 608 certification?",
+      "question": "An EPA inspector visits a refrigeration contractor's shop while one of its certified technicians is out on a service call with the original wallet card. Under 40 CFR 82.161, what must be kept at the technician's place of business?",
       "options": {
-        "A": "In the service vehicle at all times",
-        "B": "With the state licensing board",
-        "C": "At their place of business",
-        "D": "Posted on every appliance they service"
+        "A": "Nothing, because the wallet card travels with the technician",
+        "B": "A letter from EPA confirming the certification",
+        "C": "A copy of the technician's certificate",
+        "D": "The technician's graded test answer sheet"
       },
       "answer": "C",
-      "explanation": "EPA requires technicians to keep a copy of their certification at their place of business. EPA does not require the card to be carried while servicing equipment.",
+      "explanation": "The rule states: \"Technicians certified under this section must keep a copy of their certificate at their place of business.\" Carrying the original card on a job does not replace that copy, and the rule asks for the certificate, not an EPA letter or a test answer sheet.",
       "source": {
-        "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
-        "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
       },
       "checked": "2026-11-05"
     },
@@ -268,7 +268,7 @@
         "D": "Only equipment that contains exempt refrigerants"
       },
       "answer": "B",
-      "explanation": "EPA explains that for equipment entering the waste stream with its charge intact, such as household refrigerators and freezers or window air conditioners, the final person in the disposal chain is responsible for ensuring the refrigerant is recovered before final disposal. Exempt refrigerants are outside these requirements altogether.",
+      "explanation": "EPA explains that for equipment that enters the waste stream with its charge intact (for example motor vehicle air conditioners, household refrigerators and freezers, and window unit air conditioners), the final person in the disposal chain, such as a scrap metal recycler or landfill owner, is responsible for ensuring that refrigerant is recovered before final disposal. Large systems taken apart on site and rooftop units removed by contractors are not the equipment this responsibility describes.",
       "source": {
         "title": "EPA: Stationary Refrigeration Safe Disposal Requirements",
         "url": "https://www.epa.gov/section608/stationary-refrigeration-safe-disposal-requirements"
@@ -282,11 +282,11 @@
       "options": {
         "A": "As full verification, because the sticker says the refrigerant is gone",
         "B": "As full verification, if the sticker is dated",
-        "C": "As not enough on its own; it still needs a signed statement naming who recovered the refrigerant, their address and the date, or must recover the refrigerant itself",
+        "C": "As not acceptable verification; the recycler must still obtain a signed statement giving the name and address of the person who recovered the refrigerant and the date it was recovered",
         "D": "As full verification, if a certified technician applied it"
       },
       "answer": "C",
-      "explanation": "EPA requires the signed statement to include the name and address of the person who recovered the refrigerant and the date it was recovered, and EPA does not mandate a sticker as verification. A bare sticker gives none of those details, so it cannot stand in for the statement.",
+      "explanation": "EPA's safe disposal page states that \"EPA does not mandate or accept a sticker as a form of verification\" that the refrigerant has been properly recovered prior to disposal. The final disposer must still obtain a signed statement that includes the name and address of the person who recovered the refrigerant and the date it was recovered; a date on the sticker or who applied it does not change this.",
       "source": {
         "title": "EPA: Stationary Refrigeration Safe Disposal Requirements",
         "url": "https://www.epa.gov/section608/stationary-refrigeration-safe-disposal-requirements"
@@ -584,15 +584,15 @@
     {
       "id": "core-033",
       "topic": "Definitions",
-      "question": "According to the definition of \"technician,\" which activity is reasonably expected to violate the integrity of the refrigerant circuit?",
+      "question": "A hotel's own maintenance employee, not an outside contractor, removes a component from the refrigerant circuit of the hotel's rooftop air conditioner. How does the definition of \"technician\" treat this employee?",
       "options": {
-        "A": "Cutting the refrigerant line",
-        "B": "Painting the appliance",
-        "C": "Rewiring an external electrical circuit",
-        "D": "Tightening nuts and bolts"
+        "A": "As a technician, because removing components can violate the refrigerant circuit and in-house personnel are covered",
+        "B": "As outside the definition, because only outside contractors can be technicians",
+        "C": "As outside the definition, because work on the owner's own equipment is not covered",
+        "D": "As a technician only if the rooftop unit is a small appliance"
       },
       "answer": "A",
-      "explanation": "The technician definition lists \"cutting the refrigerant line\" among activities reasonably expected to violate the integrity of the refrigerant circuit. Painting the appliance, rewiring an external electrical circuit and tightening nuts and bolts are listed as activities not reasonably expected to do so.",
+      "explanation": "The definition lists \"adding or removing components\" among activities reasonably expected to violate the integrity of the refrigerant circuit, and says \"Technicians could include but are not limited to installers, contractor employees, in-house service personnel, and owners and/or operators of appliances.\" Being on staff, or working on the owner's own equipment, does not take the employee outside the definition.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"

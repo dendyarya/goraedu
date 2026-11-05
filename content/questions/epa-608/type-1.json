@@ -404,15 +404,15 @@
     {
       "id": "t1-023",
       "topic": "Disposal",
-      "question": "Who is the \"final processor\" of a small appliance?",
+      "question": "A landfill operator is the final processor for a delivered, factory-sealed dehumidifier (a small appliance) that may still hold refrigerant. The operator chooses to recover the remaining refrigerant itself instead of relying on a signed statement. Which requirement must that recovery follow?",
       "options": {
-        "A": "The technician who last serviced the appliance",
-        "B": "The person who takes the final step in the disposal process, such as a scrap recycler or landfill operator",
-        "C": "The company that manufactured the appliance",
-        "D": "The reclaimer who receives the recovered refrigerant"
+        "A": "The Table 1 evacuation levels in 40 CFR 82.156(a)",
+        "B": "The small appliance requirements in 40 CFR 82.156(b), using recovery equipment that meets 40 CFR 82.158(e)",
+        "C": "None, because a final processor is not a technician",
+        "D": "Whatever level the landfill's own written procedure sets"
       },
       "answer": "B",
-      "explanation": "The final processor is the person who takes \"the final step in the disposal process,\" including but not limited to scrap recyclers and landfill operators. The final processor must either recover any remaining refrigerant or verify that it was recovered.",
+      "explanation": "The final processor may \"Recover any remaining refrigerant from the appliance in accordance with paragraph (a) of this section,\" and paragraph (a) requires evacuation \"to the levels in § 82.156(b) through (d) using recovery equipment that meets the standards in § 82.158(e) through (g)\" as applicable. For a small appliance that means 82.156(b) and 82.158(e); Table 1 excludes small appliances.",
       "source": {
         "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
