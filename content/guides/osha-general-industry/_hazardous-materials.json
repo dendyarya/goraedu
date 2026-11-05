@@ -21,7 +21,7 @@
         },
         {
           "text": "Visual and other inspections of cylinders must be done as prescribed in the Department of Transportation Hazardous Materials Regulations (49 CFR parts 171-179 and 14 CFR part 103). Where those regulations are not applicable, the inspections must follow Compressed Gas Association Pamphlets C-6-1968 and C-8-1962, which the rule incorporates by reference.",
-          "quote": "Visual and other inspections shall be conducted as prescribed in the Hazardous Materials Regulations of the Department of Transportation (49 CFR parts 171-179 and 14 CFR part 103). Where those regulations are not applicable, visual and other inspections shall be conducted in accordance with Compressed Gas Association Pamphlets C-6-1968 and C-8-1962",
+          "quote": "Visual and other inspections shall be conducted as prescribed in the Hazardous Materials Regulations of the Department of Transportation (49 CFR parts 171-179 and 14 CFR part 103). Where those regulations are not applicable, visual and other inspections shall be conducted in accordance with Compressed Gas Association Pamphlets C-6-1968 and C-8-1962, which is incorporated by reference as specified in § 1910.6.",
           "source": {
             "title": "eCFR: 29 CFR 1910.101, Compressed gases (general requirements) (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.101"
@@ -30,7 +30,7 @@
         },
         {
           "text": "The in-plant handling, storage and use of all compressed gases in cylinders, portable tanks, rail tankcars or motor vehicle cargo tanks must be in accordance with Compressed Gas Association Pamphlet P-1-1965, which the rule incorporates by reference.",
-          "quote": "The in-plant handling, storage, and utilization of all compressed gases in cylinders, portable tanks, rail tankcars, or motor vehicle cargo tanks shall be in accordance with Compressed Gas Association Pamphlet P-1-1965",
+          "quote": "The in-plant handling, storage, and utilization of all compressed gases in cylinders, portable tanks, rail tankcars, or motor vehicle cargo tanks shall be in accordance with Compressed Gas Association Pamphlet P-1-1965, which is incorporated by reference as specified in § 1910.6.",
           "source": {
             "title": "eCFR: 29 CFR 1910.101, Compressed gases (general requirements) (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.101"
@@ -177,7 +177,16 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Table H-12 (maximum allowable container size, Category 1 / 2 / 3 / 4): glass or approved plastic, 1 pt / 1 qt / 1 gal / 1 gal. A limited exception for glass or plastic containers of up to 1 gallon for Category 1 or 2 liquids is set out in 1910.106(d)(2)(iii).",
+          "text": "Containers must follow Table H-12, except that glass or plastic containers of no more than 1-gallon capacity may be used for a Category 1 or 2 flammable liquid under the conditions listed in 1910.106(d)(2)(iii).",
+          "quote": "Flammable liquid containers shall be in accordance with Table H-12, except that glass or plastic containers of no more than 1-gallon capacity may be used for a Category 1 or 2 flammable liquid if:",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Table H-12 (maximum allowable size of containers and portable tanks, Category 1 / 2 / 3 / 4): glass or approved plastic, 1 pt / 1 qt / 1 gal / 1 gal.",
           "quote": "Glass or approved plastic 1 pt 1 qt 1 gal 1 gal.",
           "source": {
             "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
@@ -256,7 +265,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "For such a metal cabinet, the door must have a three-point lock and the door sill must be raised at least 2 inches above the bottom of the cabinet. (Wooden cabinets built as described in 1910.106(d)(3)(ii)(b) are also deemed to comply.)",
+          "text": "For such a metal cabinet, the door must have a three-point lock and the door sill must be raised at least 2 inches above the bottom of the cabinet.",
           "quote": "The door shall be provided with a three-point lock, and the door sill shall be raised at least 2 inches above the bottom of the cabinet.",
           "source": {
             "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
@@ -264,7 +273,8 @@
           },
           "checked": "2026-11-05"
         }
-      ]
+      ],
+      "notCovered": "The joint requirements for metal cabinets and the construction of wooden cabinets that are deemed to comply (1910.106(d)(3)(ii)(a) and (b)) are not covered in detail."
     },
     {
       "id": "storage-rooms",
