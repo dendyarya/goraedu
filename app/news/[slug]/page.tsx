@@ -53,7 +53,7 @@ export default async function NewsPostPage({ params }: Props) {
       meta={
         <>
           <p>
-            <span className="mr-3 rounded-sm border border-low bg-low-soft px-1.5 text-[0.8125rem] leading-6 text-low">
+            <span className="mr-3 rounded-full border border-low/40 bg-low-soft px-2.5 text-[0.8125rem] font-medium leading-6 text-low">
               {post.topic}
             </span>
             Published <time dateTime={post.published}>{formatDate(post.published)}</time>

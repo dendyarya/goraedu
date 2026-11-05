@@ -27,7 +27,7 @@ export default function NewsIndex() {
           {posts.map((p) => (
             <li key={p.slug} className="py-6">
               <p className="flex flex-wrap items-center gap-3 text-[0.9375rem] text-muted">
-                <span className="rounded-sm border border-low bg-low-soft px-1.5 text-[0.8125rem] leading-6 text-low">
+                <span className="rounded-full border border-low/40 bg-low-soft px-2.5 text-[0.8125rem] font-medium leading-6 text-low">
                   {p.topic}
                 </span>
                 <time dateTime={p.published}>{formatDate(p.published)}</time>

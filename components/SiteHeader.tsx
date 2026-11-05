@@ -7,7 +7,7 @@ function NavItem({ label, href }: { label: string; href?: string }) {
     return (
       <span className="flex items-center gap-1.5 text-muted">
         {label}
-        <span className="rounded-sm border border-line px-1 text-[0.75rem] leading-5">Soon</span>
+        <span className="rounded-full border border-line px-2 text-[0.75rem] leading-5">Soon</span>
       </span>
     );
   }

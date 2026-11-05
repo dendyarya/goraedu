@@ -1,7 +1,7 @@
 // Every certification goraedu covers or plans to cover (roadmap order). One entry per cluster.
 // A cluster gets an `href` only once its overview page exists; until then it shows its status, never a dead link.
 
-export type ClusterStatus = "in-progress" | "planned";
+export type ClusterStatus = "in-progress" | "next" | "planned";
 
 export type Cluster = {
   id: string;
@@ -14,11 +14,13 @@ export type Cluster = {
   href?: string;
 };
 
-export type Family = { name: string; clusters: Cluster[] };
+export type FamilyIcon = "hvac" | "truck" | "helmet" | "car" | "bolt" | "house" | "drone";
+export type Family = { name: string; icon: FamilyIcon; clusters: Cluster[] };
 
 export const FAMILIES: Family[] = [
   {
     name: "Refrigeration and HVAC",
+    icon: "hvac",
     clusters: [
       {
         id: "epa-608",
@@ -32,7 +34,7 @@ export const FAMILIES: Family[] = [
         name: "EPA Section 609",
         summary: "For technicians who service motor vehicle air conditioning.",
         source: "U.S. EPA",
-        status: "planned",
+        status: "next",
       },
       {
         id: "hvac",
@@ -45,13 +47,14 @@ export const FAMILIES: Family[] = [
   },
   {
     name: "Transportation and warehouse",
+    icon: "truck",
     clusters: [
       {
         id: "cdl",
         name: "Commercial driver's license (CDL)",
         summary: "Knowledge tests for the commercial learner's permit and endorsements.",
         source: "FMCSA and state driver manuals",
-        status: "planned",
+        status: "next",
       },
       {
         id: "forklift",
@@ -64,18 +67,20 @@ export const FAMILIES: Family[] = [
   },
   {
     name: "Workplace safety",
+    icon: "helmet",
     clusters: [
       {
         id: "osha",
         name: "OSHA 10 and OSHA 30",
         summary: "Safety awareness courses for construction and general industry workers.",
         source: "OSHA",
-        status: "planned",
+        status: "next",
       },
     ],
   },
   {
     name: "Automotive",
+    icon: "car",
     clusters: [
       {
         id: "ase",
@@ -88,6 +93,7 @@ export const FAMILIES: Family[] = [
   },
   {
     name: "Electrical, energy and water",
+    icon: "bolt",
     clusters: [
       {
         id: "electrician",
@@ -114,6 +120,7 @@ export const FAMILIES: Family[] = [
   },
   {
     name: "Building trades",
+    icon: "house",
     clusters: [
       {
         id: "plumbing",
@@ -140,6 +147,7 @@ export const FAMILIES: Family[] = [
   },
   {
     name: "Aviation",
+    icon: "drone",
     clusters: [
       {
         id: "faa-107",
@@ -154,7 +162,11 @@ export const FAMILIES: Family[] = [
 
 export const ALL_CLUSTERS: Cluster[] = FAMILIES.flatMap((f) => f.clusters);
 
+/** Cluster with the family it belongs to, for cards that show the family icon. */
+export const WITH_FAMILY = FAMILIES.flatMap((f) => f.clusters.map((c) => ({ ...c, family: f })));
+
 export const STATUS_LABEL: Record<ClusterStatus, string> = {
   "in-progress": "In progress",
+  next: "Coming next",
   planned: "Planned",
 };

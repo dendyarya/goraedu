@@ -1,6 +1,8 @@
 import Link from "next/link";
-import ClusterGrid from "@/components/ClusterGrid";
+import { StatusTag } from "@/components/ClusterGrid";
 import SampleQuestion, { type SampleQuestionData } from "@/components/SampleQuestion";
+import TradeIcon, { IconTile, type IconName } from "@/components/TradeIcon";
+import { ALL_CLUSTERS, WITH_FAMILY } from "@/lib/clusters";
 import { formatDate, getAllNews } from "@/lib/news";
 
 const EPA_REQUIREMENTS = {
@@ -26,29 +28,45 @@ const SAMPLE: SampleQuestionData = {
   source: EPA_REQUIREMENTS,
 };
 
-const PROMISES = [
+const PROMISES: { icon: IconName; title: string; body: string }[] = [
   {
+    icon: "source",
     title: "Every answer shows its source",
     body: "Each explanation links to the official rule or agency page it comes from, with the date we last checked it.",
   },
   {
+    icon: "free",
     title: "Free, with no sign-up",
-    body: "Practice runs in your browser. We do not ask for your name or email to use any question or tool.",
+    body: "Practice runs in your browser. We never ask for your name or email to use a question or a tool.",
   },
   {
+    icon: "refresh",
     title: "Updated when the rules change",
     body: "We follow the Federal Register and agency updates, and revise study pages when a change affects the exam.",
   },
 ];
 
+const FIRST_UP = [
+  "Practice tests for Core, Type I, Type II, Type III and Universal",
+  "A study guide for every topic EPA lists for the exam",
+  "Field tools such as a pressure-temperature chart",
+  "Every answer linked to 40 CFR Part 82 or EPA.gov",
+];
+
 export default function Home() {
   const latest = getAllNews().slice(0, 3);
+  const featured = WITH_FAMILY.find((c) => c.status === "in-progress");
+  const next = WITH_FAMILY.filter((c) => c.status === "next");
 
   return (
     <main id="main">
       {/* Hero: the promise on the left, the product itself on the right */}
       <section className="relative overflow-hidden bg-[#10243a] text-white">
-        {/* A manifold gauge face drawn large behind the headline: blue low side, red high side */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-[radial-gradient(60rem_30rem_at_78%_45%,rgba(91,147,230,0.22),transparent_70%)]"
+        />
+        {/* A manifold gauge face drawn large behind the sample question: blue low side, red high side */}
         <svg
           aria-hidden="true"
           focusable="false"
@@ -86,16 +104,33 @@ export default function Home() {
               Free practice questions and study guides for U.S. skilled trades exams, starting with EPA Section 608.
               Each answer is explained and linked to the official rule behind it.
             </p>
-            <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
+            <div className="mt-8 flex flex-wrap items-center gap-3">
               <a
                 href="#try"
-                className="rounded-md bg-white px-5 py-3 font-semibold text-[#10243a] hover:bg-[#e6eefa] lg:hidden"
+                className="rounded-[10px] bg-white px-5 py-3 font-semibold text-[#10243a] hover:bg-[#e6eefa] lg:hidden"
               >
                 Try a sample question
               </a>
-              <span className="text-[0.9375rem] text-[#a9bccd]">
-                EPA 608 practice tests are in progress. More certifications follow.
-              </span>
+              <Link
+                href="/certifications/"
+                className="rounded-[10px] border border-white/35 px-5 py-3 font-semibold text-white hover:border-white hover:bg-white/10"
+              >
+                Browse certifications
+              </Link>
+            </div>
+            <div className="mt-10">
+              <p className="text-[0.9375rem] text-[#a9bccd]">Built only from official sources</p>
+              <ul className="mt-3 flex flex-wrap gap-2 text-[0.875rem]">
+                {["Code of Federal Regulations", "Agency websites", "Federal Register"].map((s) => (
+                  <li
+                    key={s}
+                    className="flex items-center gap-1.5 rounded-full border border-white/20 bg-white/5 px-3 py-1 text-[#dbe5ee]"
+                  >
+                    <TradeIcon name="check" size={14} className="text-[#8fb6f2]" />
+                    {s}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
           <div id="try" className="scroll-mt-6 text-ink">
@@ -104,72 +139,113 @@ export default function Home() {
         </div>
       </section>
 
-      {/* What makes it different */}
-      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+      {/* How it works */}
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
         <h2 className="text-[1.875rem] font-bold sm:text-[2.25rem]">How goraedu works</h2>
-        <div className="mt-8 grid gap-8 md:grid-cols-3">
+        <div className="mt-8 grid gap-5 md:grid-cols-3">
           {PROMISES.map((p) => (
-            <div key={p.title} className="border-t-2 border-ink pt-4">
-              <h3 className="text-[1.25rem] font-bold">{p.title}</h3>
+            <div key={p.title} className="rounded-2xl border border-line bg-panel p-6">
+              <span className="grid h-11 w-11 place-items-center rounded-xl bg-low-soft text-low">
+                <TradeIcon name={p.icon} />
+              </span>
+              <h3 className="mt-5 text-[1.25rem] font-bold">{p.title}</h3>
               <p className="mt-2 text-muted">{p.body}</p>
             </div>
           ))}
         </div>
-        <p className="mt-8 text-[0.9375rem]">
+        <p className="mt-6 text-[0.9375rem]">
           <Link href="/methodology/" className="text-low underline">
             Read how we write and check every question
           </Link>
         </p>
       </section>
 
-      {/* Every certification on the roadmap */}
+      {/* Certifications: the one in progress, the next three, then the full roadmap */}
       <section className="border-y border-line bg-panel">
-        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-          <div className="flex flex-wrap items-end justify-between gap-4">
-            <div>
-              <h2 className="text-[1.875rem] font-bold sm:text-[2.25rem]">Certifications</h2>
-              <p className="mt-3 max-w-[60ch] text-muted">
-                We finish one certification before starting the next, so every subject gets complete practice questions
-                and study pages. EPA Section 608 comes first.
-              </p>
-            </div>
-            <Link href="/certifications/" className="text-[0.9375rem] font-medium text-low underline">
-              See all certifications
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
+          <h2 className="text-[1.875rem] font-bold sm:text-[2.25rem]">Certifications</h2>
+          <p className="mt-3 max-w-[60ch] text-muted">
+            We finish one certification before starting the next, so each one gets complete practice questions and study
+            pages.
+          </p>
+
+          {featured ? (
+            <article className="mt-10 grid gap-8 rounded-2xl border border-low/30 bg-low-soft/50 p-6 sm:p-8 lg:grid-cols-[1fr_1.1fr]">
+              <div>
+                <div className="flex flex-wrap items-center gap-3">
+                  <IconTile name={featured.family.icon} size={52} />
+                  <StatusTag status={featured.status} />
+                </div>
+                <h3 className="mt-5 text-[1.875rem] font-bold">{featured.name}</h3>
+                <p className="mt-2 text-[1.0625rem] text-muted">{featured.summary}</p>
+                <p className="mt-3 text-[0.875rem] text-muted">Built from: {featured.source}</p>
+              </div>
+              <div className="rounded-xl bg-panel p-5 sm:p-6">
+                <h4 className="font-semibold [font-family:var(--font-body)] [font-stretch:100%]">Coming first</h4>
+                <ul className="mt-3 space-y-3">
+                  {FIRST_UP.map((item) => (
+                    <li key={item} className="flex gap-3">
+                      <span className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-low text-white">
+                        <TradeIcon name="check" size={13} />
+                      </span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </article>
+          ) : null}
+
+          <h3 className="mt-12 text-[1.375rem] font-bold">Coming next</h3>
+          <ul className="mt-5 grid gap-5 md:grid-cols-3">
+            {next.map((c) => (
+              <li key={c.id} className="flex flex-col rounded-2xl border border-line bg-paper p-6">
+                <div className="flex items-start justify-between gap-3">
+                  <IconTile name={c.family.icon} />
+                  <StatusTag status={c.status} />
+                </div>
+                <h4 className="mt-5 text-[1.1875rem] font-bold">{c.name}</h4>
+                <p className="mt-2 text-[0.9375rem] text-muted">{c.summary}</p>
+              </li>
+            ))}
+          </ul>
+
+          <p className="mt-8">
+            <Link
+              href="/certifications/"
+              className="inline-block rounded-[10px] bg-low px-5 py-3 font-semibold text-white hover:brightness-110"
+            >
+              See all {ALL_CLUSTERS.length} certifications on our roadmap
             </Link>
-          </div>
-          <div className="mt-10">
-            <ClusterGrid compact />
-          </div>
+          </p>
         </div>
       </section>
 
       {/* News */}
       {latest.length > 0 ? (
-        <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+        <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
           <div className="flex flex-wrap items-baseline justify-between gap-4">
             <h2 className="text-[1.875rem] font-bold sm:text-[2.25rem]">Certification news</h2>
             <Link href="/news/" className="text-[0.9375rem] font-medium text-low underline">
               All news
             </Link>
           </div>
-          <ul className="mt-6 divide-y divide-line border-y border-line">
+          <ul className="mt-8 grid gap-5 md:grid-cols-3">
             {latest.map((p) => (
-              <li key={p.slug} className="grid gap-1 py-5 sm:grid-cols-[10rem_1fr] sm:gap-6">
-                <p className="flex flex-col items-start gap-1.5 text-[0.9375rem] text-muted">
-                  <span className="rounded-sm border border-low bg-low-soft px-1.5 text-[0.8125rem] leading-6 text-low">
+              <li key={p.slug} className="flex flex-col rounded-2xl border border-line bg-panel p-6">
+                <p className="flex flex-wrap items-center gap-3 text-[0.875rem] text-muted">
+                  <span className="rounded-full border border-low/40 bg-low-soft px-2.5 font-medium leading-6 text-low">
                     {p.topic}
                   </span>
                   <time dateTime={p.published}>{formatDate(p.published)}</time>
                 </p>
-                <div>
-                  <Link
-                    href={`/news/${p.slug}/`}
-                    className="text-[1.1875rem] font-semibold hover:text-low hover:underline"
-                  >
-                    {p.title}
-                  </Link>
-                  <p className="mt-1 text-muted">{p.summary}</p>
-                </div>
+                <Link
+                  href={`/news/${p.slug}/`}
+                  className="mt-4 text-[1.1875rem] font-semibold leading-snug hover:text-low hover:underline"
+                >
+                  {p.title}
+                </Link>
+                <p className="mt-2 text-[0.9375rem] text-muted">{p.summary}</p>
               </li>
             ))}
           </ul>
