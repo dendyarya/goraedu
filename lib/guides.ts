@@ -84,6 +84,22 @@ function validate(file: string, raw: unknown, snapshot: string | null): Guide {
   return { ...(g as Guide), href: `/${g.cluster}/${g.slug}/study-guide/` };
 }
 
+const snapCache: Record<string, string | null> = {};
+function snapshotFor(cluster: string): string | null {
+  if (!(cluster in snapCache)) {
+    const file = SNAPSHOTS[cluster];
+    snapCache[cluster] = file && fs.existsSync(file) ? norm(stripPageChrome(fs.readFileSync(file, "utf8"))) : null;
+  }
+  return snapCache[cluster]!;
+}
+
+/** Build-time check used by tools: throws if an official quote is not in the cluster's dated snapshot. */
+export function assertQuotes(cluster: string, quotes: string[]): void {
+  const snap = snapshotFor(cluster);
+  if (!snap) throw new Error(`no source snapshot for ${cluster}`);
+  for (const q of quotes) if (!snap.includes(norm(q))) throw new Error(`quote not found in ${cluster} snapshot: ${q}`);
+}
+
 let cache: Guide[] | null = null;
 
 export function getAllGuides(): Guide[] {

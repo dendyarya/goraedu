@@ -17,7 +17,7 @@ export const SITE = {
 export const NAV: { label: string; href?: string }[] = [
   { label: "Certifications", href: "/certifications/" },
   { label: "Practice tests", href: "/practice-tests/" },
-  { label: "Tools" },
+  { label: "Tools", href: "/tools/" },
   { label: "News", href: "/news/" },
 ];
 
@@ -46,6 +46,7 @@ export const FOOTER_GROUPS: { title: string; links: { label: string; href: strin
     links: [
       { label: "Certifications", href: "/certifications/" },
       { label: "Practice tests", href: "/practice-tests/" },
+      { label: "Tools", href: "/tools/" },
       { label: "News", href: "/news/" },
       { label: "Contact", href: "/contact/" },
     ],

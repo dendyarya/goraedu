@@ -4,6 +4,7 @@ import PageShell from "@/components/PageShell";
 import SourceList, { type Source } from "@/components/SourceList";
 import TradeIcon from "@/components/TradeIcon";
 import { getAllGuides } from "@/lib/guides";
+import { TOOLS } from "@/lib/tools";
 import { formatDate } from "@/lib/news";
 import { getAllSets, SECTION_NAME, universalPool } from "@/lib/questions";
 
@@ -203,6 +204,18 @@ export default function Epa608Page() {
                 Exam format and passing score
               </Link>
             </p>
+          </div>
+          <div className="mt-6 rounded-2xl border border-line bg-panel p-6">
+            <h2 className="text-[1.25rem] font-bold">Tools</h2>
+            <ul className="mt-4 space-y-2">
+              {TOOLS.filter((t) => t.cluster === "epa-608").map((t) => (
+                <li key={t.slug}>
+                  <Link href={t.href} className="font-semibold text-low underline">
+                    {t.name.replace("EPA 608 ", "")}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
           {guides.length > 0 ? (
             <div className="mt-6 rounded-2xl border border-line bg-panel p-6">
