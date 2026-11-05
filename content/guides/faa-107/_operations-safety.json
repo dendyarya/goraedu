@@ -171,7 +171,7 @@
     {
       "id": "preflight-emergencies",
       "name": "Preflight checks and emergencies",
-      "notCovered": "The Study Guide's maintenance chapter only refers readers to chapter 7 of Advisory Circular 107-2, which is not among this guide's sources, so maintenance practices are not summarized here beyond the Part 107 rules. Preflight checks for operations over people (107.49(f)) and night operations are covered with those rules.",
+      "notCovered": "The Study Guide's maintenance chapter only refers readers to chapter 7 of Advisory Circular 107-2, which is not among this guide's sources, so maintenance practices are not summarized here beyond the Part 107 rules. The 107.49(f) preflight action for operations over human beings under subpart D is not summarized here.",
       "points": [
         {
           "text": "No person may operate a civil small UAS unless it is in a condition for safe operation, and before each flight the remote PIC must check the small UAS to determine whether it is.",
@@ -419,7 +419,16 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A hazard is a real or perceived condition, event or circumstance that a pilot encounters; risk is an assessment of the single or cumulative hazard facing a pilot.",
+          "text": "A hazard is a real or perceived condition, event or circumstance that a pilot encounters.",
+          "quote": "Hazard is a real or perceived condition, event, or circumstance that a pilot encounters.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Risk is an assessment of the single or cumulative hazard facing a pilot; different pilots see hazards differently.",
           "quote": "Therefore, risk is an assessment of the single or cumulative hazard facing a pilot; however, different pilots see hazards differently.",
           "source": {
             "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
@@ -464,8 +473,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "In the 3P model (Perceive, Process, Perform), pilots process hazards with the CARE checklist (Consequences, Alternatives, Reality, External factors) and perform risk management with the TEAM choice list (Transfer, Eliminate, Accept, or Mitigate).",
-          "quote": "They can process hazards by using the CARE checklist of: Consequences, Alternatives, Reality, External factors. Finally, pilots can perform risk management by using the TEAM choice list of: Transfer, Eliminate, Accept, or Mitigate.",
+          "text": "The six steps of risk management can be combined into the 3P model (Perceive, Process, Perform) with the PAVE, CARE and TEAM checklists: pilots perceive hazards with the PAVE checklist, process them with the CARE checklist (Consequences, Alternatives, Reality, External factors) and perform risk management with the TEAM choice list (Transfer, Eliminate, Accept, or Mitigate).",
+          "quote": "The six steps of risk management can be combined into an easy-to-remember 3P model for practical risk management: Perceive, Process, Perform with the PAVE, CARE and TEAM checklists. Pilots can help perceive hazards by using the PAVE checklist of: Pilot, Aircraft, enVironment, and External pressures. They can process hazards by using the CARE checklist of: Consequences, Alternatives, Reality, External factors. Finally, pilots can perform risk management by using the TEAM choice list of: Transfer, Eliminate, Accept, or Mitigate.",
           "source": {
             "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
             "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
