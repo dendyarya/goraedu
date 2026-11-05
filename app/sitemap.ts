@@ -6,7 +6,7 @@ import { SITE } from "@/lib/site";
 export const dynamic = "force-static";
 
 // Every indexable page goes here as it is published (noindex pages never go in the sitemap).
-const PATHS = ["/", "/certifications/", "/news/"];
+const PATHS = ["/", "/certifications/", "/practice-tests/", "/epa-608/", "/epa-608/core/practice-test/", "/news/"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages = [...PATHS, ...getAllPages().map((p) => `/${p.slug}/`)].map((path) => ({ url: `${SITE.url}${path}` }));

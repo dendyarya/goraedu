@@ -1,0 +1,459 @@
+{
+  "cluster": "epa-608",
+  "slug": "core",
+  "title": "EPA 608 Core practice test",
+  "description": "Free EPA Section 608 Core practice questions. Every answer is explained and linked to the official EPA page it comes from.",
+  "href": "/epa-608/core/practice-test/",
+  "questions": [
+    {
+      "id": "core-001",
+      "topic": "Definitions",
+      "question": "Under EPA's Section 608 program, which description fits a \"small appliance\"?",
+      "options": {
+        "A": "Any appliance that plugs into a standard household outlet",
+        "B": "An appliance fully manufactured, charged and hermetically sealed in a factory with five pounds or less of refrigerant",
+        "C": "Any air conditioner with a charge under 50 pounds",
+        "D": "An appliance that uses a low-pressure refrigerant"
+      },
+      "answer": "B",
+      "explanation": "EPA defines a small appliance by how it is built and charged: fully manufactured, charged and hermetically sealed in a factory with five pounds or less of refrigerant. Plug type, a 50-pound charge or the refrigerant's pressure class do not define it.",
+      "source": {
+        "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
+        "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-002",
+      "topic": "Sales and reclamation",
+      "question": "Under EPA's sales restriction, refrigerant for use in an appliance may be sold only to a buyer who:",
+      "options": {
+        "A": "Shows a business license",
+        "B": "Is, or employs, a certified technician",
+        "C": "Buys at least one full cylinder",
+        "D": "Signs a statement promising not to vent the refrigerant"
+      },
+      "answer": "B",
+      "explanation": "EPA states it is a violation to sell or distribute refrigerant for use in an appliance unless the recipient is, or employs, a certified technician. Sellers must verify this. A business license or a signed promise does not satisfy the rule.",
+      "source": {
+        "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
+        "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-003",
+      "topic": "Sales and reclamation",
+      "question": "Before used refrigerant recovered from an appliance can be sold to a new owner, what must happen to it?",
+      "options": {
+        "A": "It must be filtered through a liquid-line drier",
+        "B": "It must be stored for 30 days",
+        "C": "It must be reclaimed by an EPA-certified reclaimer",
+        "D": "It must be mixed with new refrigerant of the same type"
+      },
+      "answer": "C",
+      "explanation": "EPA requires recovered refrigerant that changes ownership to be reclaimed by an EPA-certified refrigerant reclaimer before it is sold. Filtering or mixing it yourself does not meet that requirement.",
+      "source": {
+        "title": "EPA: Stationary Refrigeration Service Practice Requirements",
+        "url": "https://www.epa.gov/section608/stationary-refrigeration-service-practice-requirements"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-004",
+      "topic": "Sales and reclamation",
+      "question": "Recovered refrigerant may be charged back into equipment without being reclaimed when the equipment:",
+      "options": {
+        "A": "Is owned by the same person who owned the system it came from",
+        "B": "Is less than five years old",
+        "C": "Uses a different refrigerant",
+        "D": "Belongs to any customer of the same technician"
+      },
+      "answer": "A",
+      "explanation": "EPA allows recovered refrigerant to go back into the same system, or into other systems owned by the same person, without restriction. If the refrigerant changes ownership, for example to another customer, it must be reclaimed first.",
+      "source": {
+        "title": "EPA: Stationary Refrigeration Service Practice Requirements",
+        "url": "https://www.epa.gov/section608/stationary-refrigeration-service-practice-requirements"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-005",
+      "topic": "Certification",
+      "question": "Where does EPA require a certified technician to keep a copy of their Section 608 certification?",
+      "options": {
+        "A": "In the service vehicle at all times",
+        "B": "With the state licensing board",
+        "C": "At their place of business",
+        "D": "Posted on every appliance they service"
+      },
+      "answer": "C",
+      "explanation": "EPA requires technicians to keep a copy of their certification at their place of business. EPA does not require the card to be carried while servicing equipment.",
+      "source": {
+        "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
+        "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-006",
+      "topic": "Certification",
+      "question": "How long must a technician keep a copy of their Section 608 certification?",
+      "options": {
+        "A": "Until three years after they are no longer operating as a technician",
+        "B": "For one year after the test date",
+        "C": "For five years after the test date",
+        "D": "Only until they receive the plastic card"
+      },
+      "answer": "A",
+      "explanation": "EPA says to keep the copy until three years after you are no longer operating as a technician. Because certification does not expire, there is no fixed number of years counted from the test date.",
+      "source": {
+        "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
+        "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-007",
+      "topic": "Certification",
+      "question": "How often must Section 608 technician certification be renewed?",
+      "options": {
+        "A": "Every two years",
+        "B": "Every five years",
+        "C": "Whenever EPA updates the regulations",
+        "D": "Never, because the credentials do not expire"
+      },
+      "answer": "D",
+      "explanation": "EPA states that Section 608 technician certification credentials do not expire, so there is no renewal cycle.",
+      "source": {
+        "title": "EPA: Section 608 Technician Certification Requirements",
+        "url": "https://www.epa.gov/section608/section-608-technician-certification-requirements"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-008",
+      "topic": "Certification",
+      "question": "A technician has lost their Section 608 certification card. Who should they contact for a replacement?",
+      "options": {
+        "A": "The EPA Regional Office",
+        "B": "The company that certified them, whose name is on the card",
+        "C": "The refrigerant wholesaler where they buy refrigerant",
+        "D": "Their state environmental agency"
+      },
+      "answer": "B",
+      "explanation": "EPA does not administer the tests or issue cards, and it does not keep a database of certified technicians. EPA tells technicians to contact the company that certified them, whose name appears on the card.",
+      "source": {
+        "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
+        "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-009",
+      "topic": "Certification",
+      "question": "What must a technician do to receive Universal certification?",
+      "options": {
+        "A": "Pass the Core section only",
+        "B": "Work under supervision for two years",
+        "C": "Pass the examinations at all levels",
+        "D": "Pass Type II and Type III only"
+      },
+      "answer": "C",
+      "explanation": "EPA states that to receive Universal certification, an individual must pass the examinations at all levels. Passing only some sections earns certification for those types only.",
+      "source": {
+        "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
+        "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-010",
+      "topic": "Certification",
+      "question": "Under EPA's regulations, how long do testing organizations have to issue test results after the date of the test?",
+      "options": {
+        "A": "Up to 7 days",
+        "B": "Up to 30 days",
+        "C": "Up to 90 days",
+        "D": "Up to 1 year"
+      },
+      "answer": "B",
+      "explanation": "EPA notes that its regulations allow testing organizations up to 30 days from the date of the test to issue test results.",
+      "source": {
+        "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
+        "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-011",
+      "topic": "Certification",
+      "question": "Who issues Section 608 test results and certification cards?",
+      "options": {
+        "A": "The U.S. EPA",
+        "B": "The test proctor at the end of the exam",
+        "C": "The EPA-approved certifying organization that gave the test",
+        "D": "The technician's employer"
+      },
+      "answer": "C",
+      "explanation": "EPA states that it does not administer the tests and does not issue test results or certification cards, and that proctors may not issue certification cards. Results and cards come from the certifying organization.",
+      "source": {
+        "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
+        "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-012",
+      "topic": "Certification",
+      "question": "Under EPA's rules, how long may a person work as an apprentice from the date of first registering?",
+      "options": {
+        "A": "Six months",
+        "B": "One year",
+        "C": "Two years",
+        "D": "There is no limit"
+      },
+      "answer": "C",
+      "explanation": "EPA states that a person may only be an apprentice for two years from the date of first registering, and that apprentices must be closely and continually supervised by a certified technician.",
+      "source": {
+        "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
+        "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-013",
+      "topic": "Certification",
+      "question": "Is Section 608 certification needed to add or remove refrigerant from a mini-split system as part of installation?",
+      "options": {
+        "A": "No, installation is exempt",
+        "B": "Only if the system holds more than 50 pounds",
+        "C": "Only for commercial buildings",
+        "D": "Yes, Section 608 technician certification is required"
+      },
+      "answer": "D",
+      "explanation": "EPA states that adding or removing refrigerant from a mini-split as part of installation requires Section 608 technician certification.",
+      "source": {
+        "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
+        "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-014",
+      "topic": "Disposal",
+      "question": "Section 608 technician certification is required to dispose of appliances, except for which type of appliance?",
+      "options": {
+        "A": "Small appliances",
+        "B": "High-pressure appliances",
+        "C": "Low-pressure chillers",
+        "D": "Commercial refrigeration"
+      },
+      "answer": "A",
+      "explanation": "EPA states that technician certification is required to dispose of appliances, except for small appliances (and motor vehicle air conditioners or MVAC-like appliances). High-pressure, low-pressure and commercial systems need a certified technician.",
+      "source": {
+        "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
+        "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-015",
+      "topic": "Disposal",
+      "question": "For equipment that enters the waste stream with its charge intact, such as small appliances, who is responsible for ensuring the refrigerant is recovered before final disposal?",
+      "options": {
+        "A": "The original manufacturer",
+        "B": "The final person in the disposal chain",
+        "C": "The EPA Regional Office",
+        "D": "The last technician who serviced the appliance"
+      },
+      "answer": "B",
+      "explanation": "EPA places the responsibility on the final person in the disposal chain to ensure refrigerant is recovered from this equipment before its final disposal. The people who recover refrigerant from small appliances, MVACs and MVAC-like appliances do not have to be certified technicians.",
+      "source": {
+        "title": "EPA: Stationary Refrigeration Safe Disposal Requirements",
+        "url": "https://www.epa.gov/section608/stationary-refrigeration-safe-disposal-requirements"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-016",
+      "topic": "Disposal",
+      "question": "When the final disposer relies on a signed statement from the person dropping off an appliance, what must that statement include?",
+      "options": {
+        "A": "The appliance's serial number and purchase date",
+        "B": "A sticker number issued by EPA",
+        "C": "The name and address of the person who recovered the refrigerant and the date it was recovered",
+        "D": "The weight of the appliance"
+      },
+      "answer": "C",
+      "explanation": "EPA requires the signed statement to include the name and address of the person who recovered the refrigerant and the date it was recovered. EPA does not mandate or accept a sticker as verification.",
+      "source": {
+        "title": "EPA: Stationary Refrigeration Safe Disposal Requirements",
+        "url": "https://www.epa.gov/section608/stationary-refrigeration-safe-disposal-requirements"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-017",
+      "topic": "Recovery and evacuation",
+      "question": "Recovery or recycling equipment manufactured after November 15, 1993 must be certified by:",
+      "options": {
+        "A": "An EPA-approved equipment testing organization",
+        "B": "The technician who uses it",
+        "C": "The refrigerant manufacturer",
+        "D": "A state fire marshal"
+      },
+      "answer": "A",
+      "explanation": "EPA states that, except for equipment manufactured before November 15, 1993, recovery or recycling equipment must have been certified by an EPA-approved equipment testing organization, and must be used according to the manufacturer's directions.",
+      "source": {
+        "title": "EPA: Stationary Refrigeration Service Practice Requirements",
+        "url": "https://www.epa.gov/section608/stationary-refrigeration-service-practice-requirements"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-018",
+      "topic": "Recovery and evacuation",
+      "question": "When changing refrigerant oil, EPA says it is a violation to change the oil at a pressure higher than:",
+      "options": {
+        "A": "0 psig",
+        "B": "5 psig",
+        "C": "15 psig",
+        "D": "25 psig"
+      },
+      "answer": "B",
+      "explanation": "EPA states it is a violation to change oil at higher than 5 psig. The appliance, or the receiver the oil drains into, must first be evacuated or pressurized to no more than 5 psig.",
+      "source": {
+        "title": "EPA: Stationary Refrigeration Service Practice Requirements",
+        "url": "https://www.epa.gov/section608/stationary-refrigeration-service-practice-requirements"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-019",
+      "topic": "Recovery and evacuation",
+      "question": "If leaking equipment cannot be evacuated to the required level, the leaking components must be evacuated to the lowest attainable level, which cannot exceed:",
+      "options": {
+        "A": "0 psig",
+        "B": "5 psig",
+        "C": "10 inches of mercury vacuum",
+        "D": "29.9 inches of mercury vacuum"
+      },
+      "answer": "A",
+      "explanation": "For leaking equipment, EPA says to isolate leaking components where possible, evacuate non-leaking components to the specified levels, and evacuate leaking components to the lowest level attainable without substantially contaminating the refrigerant. That level cannot exceed 0 psig.",
+      "source": {
+        "title": "EPA: Stationary Refrigeration Service Practice Requirements",
+        "url": "https://www.epa.gov/section608/stationary-refrigeration-service-practice-requirements"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-020",
+      "topic": "Refrigerants",
+      "question": "Which of these does EPA give as an example of a refrigerant that is exempt from the refrigerant management requirements?",
+      "options": {
+        "A": "R-22",
+        "B": "R-12",
+        "C": "Carbon dioxide",
+        "D": "R-410A"
+      },
+      "answer": "C",
+      "explanation": "EPA's technician fact sheet gives carbon dioxide, nitrogen and water as examples of exempt refrigerants, and points to 40 CFR 82.154(a) for the full list. R-22, R-12 and R-410A are not among those examples.",
+      "source": {
+        "title": "EPA fact sheet: Refrigerant Management Requirements, What Technicians Need to Know",
+        "url": "https://www.epa.gov/sites/default/files/2016-09/documents/608_fact_sheet_technicians_0.pdf"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-021",
+      "topic": "Environmental impact",
+      "question": "Which element in CFC and HCFC refrigerants is responsible for destroying stratospheric ozone?",
+      "options": {
+        "A": "Fluorine",
+        "B": "Hydrogen",
+        "C": "Carbon",
+        "D": "Chlorine"
+      },
+      "answer": "D",
+      "explanation": "EPA's Core test topics list the destruction of ozone by chlorine and the presence of chlorine in CFC and HCFC refrigerants. HFCs contain no chlorine.",
+      "source": {
+        "title": "EPA: Section 608 Technician Certification Test Topics",
+        "url": "https://www.epa.gov/section608/test-topics"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-022",
+      "topic": "Environmental impact",
+      "question": "How do CFC, HCFC and HFC refrigerants compare in ozone-depletion potential (ODP)?",
+      "options": {
+        "A": "CFCs are higher than HCFCs, which are higher than HFCs",
+        "B": "HFCs are higher than HCFCs, which are higher than CFCs",
+        "C": "HCFCs are higher than CFCs, which are higher than HFCs",
+        "D": "All three have the same ODP"
+      },
+      "answer": "A",
+      "explanation": "EPA's test topics state the idea that CFCs have a higher ozone-depletion potential than HCFCs, which in turn have a higher ODP than HFCs.",
+      "source": {
+        "title": "EPA: Section 608 Technician Certification Test Topics",
+        "url": "https://www.epa.gov/section608/test-topics"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-023",
+      "topic": "Safety",
+      "question": "According to EPA's test topics, which gas should be used for leak detection instead of oxygen or compressed air?",
+      "options": {
+        "A": "Nitrogen",
+        "B": "Hydrogen",
+        "C": "Propane",
+        "D": "Acetylene"
+      },
+      "answer": "A",
+      "explanation": "EPA's Core safety topics include the use of nitrogen rather than oxygen or compressed air for leak detection, together with a pressure regulator and relief valve.",
+      "source": {
+        "title": "EPA: Section 608 Technician Certification Test Topics",
+        "url": "https://www.epa.gov/section608/test-topics"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-024",
+      "topic": "Safety",
+      "question": "When pressurizing a system with nitrogen for leak testing, what equipment do EPA's test topics call for?",
+      "options": {
+        "A": "A vacuum pump and micron gauge",
+        "B": "A pressure regulator and a relief valve",
+        "C": "A recovery cylinder and scale",
+        "D": "A refrigerant identifier"
+      },
+      "answer": "B",
+      "explanation": "EPA's Core safety topics include the use of a pressure regulator and relief valve with nitrogen. A vacuum pump, recovery cylinder or refrigerant identifier serves a different job.",
+      "source": {
+        "title": "EPA: Section 608 Technician Certification Test Topics",
+        "url": "https://www.epa.gov/section608/test-topics"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-025",
+      "topic": "Safety",
+      "question": "EPA's test topics warn of the risks of filling refrigerant cylinders more than what percent full?",
+      "options": {
+        "A": "50 percent",
+        "B": "65 percent",
+        "C": "80 percent",
+        "D": "100 percent"
+      },
+      "answer": "C",
+      "explanation": "EPA's Core safety topics include the risks of filling cylinders more than 80 percent full, and the difference between reusable recovery cylinders and disposable cylinders.",
+      "source": {
+        "title": "EPA: Section 608 Technician Certification Test Topics",
+        "url": "https://www.epa.gov/section608/test-topics"
+      },
+      "checked": "2026-11-05"
+    }
+  ]
+}

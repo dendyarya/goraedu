@@ -16,7 +16,7 @@ export const SITE = {
 /** Main navigation. Pages that are not built yet have no href and show as "Soon" (no links to missing pages). */
 export const NAV: { label: string; href?: string }[] = [
   { label: "Certifications", href: "/certifications/" },
-  { label: "Practice tests" },
+  { label: "Practice tests", href: "/practice-tests/" },
   { label: "Tools" },
   { label: "News", href: "/news/" },
 ];
@@ -45,6 +45,7 @@ export const FOOTER_GROUPS: { title: string; links: { label: string; href: strin
     title: "Explore",
     links: [
       { label: "Certifications", href: "/certifications/" },
+      { label: "Practice tests", href: "/practice-tests/" },
       { label: "News", href: "/news/" },
       { label: "Contact", href: "/contact/" },
     ],

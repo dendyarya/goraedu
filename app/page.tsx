@@ -47,7 +47,7 @@ const PROMISES: { icon: IconName; title: string; body: string }[] = [
 ];
 
 const FIRST_UP = [
-  "Practice tests for Core, Type I, Type II, Type III and Universal",
+  "Core practice test, available now, with Type I, II, III and Universal to follow",
   "A study guide for every topic EPA lists for the exam",
   "Field tools such as a pressure-temperature chart",
   "Every answer linked to 40 CFR Part 82 or EPA.gov",
@@ -179,9 +179,25 @@ export default function Home() {
                 <h3 className="mt-5 text-[1.875rem] font-bold">{featured.name}</h3>
                 <p className="mt-2 text-[1.0625rem] text-muted">{featured.summary}</p>
                 <p className="mt-3 text-[0.875rem] text-muted">Built from: {featured.source}</p>
+                <div className="mt-6 flex flex-wrap gap-3">
+                  <Link
+                    href="/epa-608/core/practice-test/"
+                    className="rounded-[10px] bg-low px-5 py-3 font-semibold text-white hover:brightness-110"
+                  >
+                    Start the Core practice test
+                  </Link>
+                  {featured.href ? (
+                    <Link
+                      href={featured.href}
+                      className="rounded-[10px] border border-line bg-panel px-5 py-3 font-semibold hover:border-low hover:text-low"
+                    >
+                      About EPA 608
+                    </Link>
+                  ) : null}
+                </div>
               </div>
               <div className="rounded-xl bg-panel p-5 sm:p-6">
-                <h4 className="font-semibold [font-family:var(--font-body)] [font-stretch:100%]">Coming first</h4>
+                <h4 className="font-semibold [font-family:var(--font-body)] [font-stretch:100%]">What you get</h4>
                 <ul className="mt-3 space-y-3">
                   {FIRST_UP.map((item) => (
                     <li key={item} className="flex gap-3">
