@@ -170,15 +170,15 @@
     {
       "id": "m-010",
       "topic": "Required practices",
-      "question": "A technician extracts refrigerant from a car with equipment that extracts and recycles refrigerant, and plans to put it back into the same car. What does \"properly using\" the equipment require?",
+      "question": "A shop is paid to replace a leaking hose on a car's air conditioner that still holds refrigerant, a job during which discharge of refrigerant from the MVAC can reasonably be expected. Under 40 CFR 82.32(e)(2), when must approved equipment be used to extract the refrigerant?",
       "options": {
-        "A": "Return it without recycling, because it came from that car",
-        "B": "Return it without recycling if the customer agrees",
-        "C": "Return it without recycling if the system was open less than one hour",
-        "D": "Recycle the refrigerant before returning it, even to the same car"
+        "A": "Only after the old hose has been removed from the system",
+        "B": "Only if the system still holds more than half of its charge",
+        "C": "Never, because the leaking hose has already released refrigerant",
+        "D": "Before the service is performed"
       },
       "answer": "D",
-      "explanation": "For recycling equipment, properly using means \"to recycle refrigerant before it is returned to a motor vehicle air conditioner or MVAC-like appliance, including to the motor vehicle air conditioner or MVAC-like appliance from which the refrigerant was extracted.\" Coming from the same car is no exception.",
+      "explanation": "Section 82.32(e)(2) says \"approved equipment must be used to extract refrigerant prior to performing any service during which discharge of refrigerant from the motor vehicle air conditioner can reasonably be expected.\" It adds that \"Intentionally venting or disposing of refrigerant to the atmosphere is an improper use of equipment.\"",
       "source": {
         "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
@@ -1070,15 +1070,15 @@
     {
       "id": "m-060",
       "topic": "Fittings and labels",
-      "question": "Under the HFO-1234yf use conditions in Appendix B (as of June 3, 2022), what fittings must be used for connections with small refrigerant cans for consumer or professional use?",
+      "question": "In the Appendix B HFO-1234yf use conditions (as of June 3, 2022), the use fitting with a 0.5-inch diameter, 16 threads per inch and a left thread direction is specified for connections with which containers?",
       "options": {
-        "A": "Fittings with a diameter of 0.25 inches and a right thread direction",
-        "B": "The same fittings used on CFC-12 cans",
-        "C": "Fittings with a diameter of 0.5 inches, a thread pitch of 16 threads per inch, and a left thread direction, consistent with SAE J2844",
-        "D": "Any fitting, as long as an adapter is used"
+        "A": "Recovery cylinders on CFC-12 recycling equipment",
+        "B": "CO2 refrigerant service containers",
+        "C": "Small refrigerant cans for consumer or professional use",
+        "D": "Containers of HFC-134a used to retrofit CFC-12 systems"
       },
       "answer": "C",
-      "explanation": "The condition says small-can use fittings \"must have a diameter of 0.5 inches, a thread pitch of 16 thread per inch, and a left thread direction, consistent with SAE J2844.\" The condition names one specific fitting, so a CFC-12 fitting or some other fitting does not meet it.",
+      "explanation": "The condition reads: \"For connections with small refrigerant cans for consumer or professional use, use fittings must have a diameter of 0.5 inches, a thread pitch of 16 thread per inch, and a left thread direction, consistent with SAE J2844.\" For containers used in professional servicing, a separate sentence says use fittings \"must be consistent with SAE J2844,\" and CO2 service containers get a right-hand thread in the CO2 entry.",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
