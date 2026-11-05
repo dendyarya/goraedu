@@ -188,7 +188,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "De minimis releases during good faith attempts to recycle or recover refrigerant are not subject to the venting prohibition. Except for exempt substitutes, releases count as de minimis only when the rule's listed conditions are met: the required practices, certified recovery equipment, technician certification and reclamation rules are all followed, or the MVAC rules in subpart B are followed.",
+          "text": "De minimis releases during good faith attempts to recycle or recover refrigerant are not subject to the venting prohibition. Except for exempt substitutes, releases count as de minimis only if they occur under the conditions the rule lists (next point).",
           "quote": "De minimis releases associated with good faith attempts to recycle or recover refrigerants are not subject to this prohibition. Except for exempt substitutes, refrigerant releases are de minimis only if they occur when:",
           "source": {
             "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
@@ -197,8 +197,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Those conditions are: the applicable practices in §§ 82.155 and 82.156 (and § 82.157 for class I or class II refrigerants) are observed, certified recovery and/or recycling machines are used whenever refrigerant is removed, and the technician certification and reclamation requirements are observed; or the MVAC requirements in subpart B are observed.",
-          "quote": "The applicable practices in §§ 82.155 and 82.156 are observed, the applicable practices in § 82.157 are observed for appliances that contain any class I or class II refrigerant or blend containing a class I or class II refrigerant, recovery and/or recycling machines that meet the requirements in § 82.158 are used whenever refrigerant is removed from an appliance, the technician certification provisions in § 82.161 are observed, and the reclamation requirements in § 82.164 are observed; or",
+          "text": "Those conditions are either: the applicable practices in §§ 82.155 and 82.156 (and § 82.157 for appliances with class I or class II refrigerant) are observed, recovery and/or recycling machines meeting § 82.158 are used whenever refrigerant is removed, and the technician certification (§ 82.161) and reclamation (§ 82.164) requirements are observed; or the requirements of subpart B (motor vehicle air conditioners) are observed.",
+          "quote": "The applicable practices in §§ 82.155 and 82.156 are observed, the applicable practices in § 82.157 are observed for appliances that contain any class I or class II refrigerant or blend containing a class I or class II refrigerant, recovery and/or recycling machines that meet the requirements in § 82.158 are used whenever refrigerant is removed from an appliance, the technician certification provisions in § 82.161 are observed, and the reclamation requirements in § 82.164 are observed; or (ii) The requirements in subpart B of this part are observed.",
           "source": {
             "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
@@ -357,8 +357,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Anyone servicing or disposing of an appliance with class I, class II or non-exempt substitute refrigerant must use recovery and/or recycling equipment certified for that type of refrigerant and appliance.",
-          "quote": "Using recovery and/or recycling equipment that is certified for that type of refrigerant and appliance under § 82.158.",
+          "text": "No one may maintain, service, repair or dispose of an appliance containing class I, class II or non-exempt substitute refrigerant without observing the applicable practices in §§ 82.155, 82.156 and 82.157 and using recovery and/or recycling equipment certified for that type of refrigerant and appliance under § 82.158.",
+          "quote": "No person may maintain, service, repair, or dispose of an appliance containing a class I or class II refrigerant or a non-exempt substitute refrigerant without: (1) Observing the applicable practices in §§ 82.155, 82.156, and 82.157; and (2) Using recovery and/or recycling equipment that is certified for that type of refrigerant and appliance under § 82.158.",
           "source": {
             "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
@@ -384,8 +384,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Manufacturers and importers of equipment certified under 82.158(d) or (e) must label each piece stating that an approved equipment testing organization certified it to meet EPA's minimum requirements.",
-          "quote": "Manufacturers and importers of equipment certified under paragraphs (d) and (e) of this section must place a label on each piece of equipment stating the following:",
+          "text": "Recovery and/or recycling equipment made or imported on or after January 1, 2017 for appliances other than small appliances, MVACs and MVAC-like appliances must be certified as reaching the Table 2 levels under appendix B3 (non-flammable refrigerants) or appendix B4 (flammable refrigerants).",
+          "quote": "Recovery and/or recycling equipment manufactured or imported on or after January 1, 2017, intended for use during the maintenance, service, repair, or disposal of appliances (except small appliances, MVACs, and MVAC-like appliances) must be certified by an approved equipment testing organization as being capable of achieving the level of evacuation specified in Table 2 of this section under the conditions of appendix B3 (for non-flammable refrigerants) based upon AHRI Standard 740-2016 or appendix B4 (for flammable refrigerants) of this subpart.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Manufacturers and importers of equipment certified under 82.158(d) or (e) must label each piece stating that the named approved equipment testing organization certified it to meet EPA's minimum requirements for recycling or recovery equipment for the appropriate category of appliance.",
+          "quote": "Manufacturers and importers of equipment certified under paragraphs (d) and (e) of this section must place a label on each piece of equipment stating the following: THIS EQUIPMENT HAS BEEN CERTIFIED BY [APPROVED EQUIPMENT TESTING ORGANIZATION] TO MEET EPA's MINIMUM REQUIREMENTS FOR RECYCLING OR RECOVERY EQUIPMENT INTENDED FOR USE WITH [APPROPRIATE CATEGORY OF APPLIANCE].",
           "source": {
             "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
@@ -447,8 +456,26 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Used class I, class II or non-exempt substitute refrigerant may be sold for use as a refrigerant only if a certified reclaimer has reclaimed it, with limited exceptions: refrigerant used only in MVACs or MVAC-like appliances, recycled under subpart B and used only in them; refrigerant in an appliance sold with a fully assembled refrigerant circuit; and transfers between a parent company and its subsidiaries or within one federal agency.",
+          "text": "Used class I, class II or non-exempt substitute refrigerant may be sold or distributed for use as a refrigerant only if a certified reclaimer has reclaimed it, or one of the other cases listed in the rule applies (next two points).",
           "quote": "No person may sell or distribute, or offer for sale or distribution, for use as a refrigerant any class I or class II substance or non-exempt substitute consisting wholly or in part of used refrigerant unless the refrigerant: (1) Has been reclaimed by a person who has been certified as a reclaimer under § 82.164;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "One such case: the refrigerant was used only in an MVAC or MVAC-like appliance, is to be used only in one, and is recycled under subpart B. Another: it is contained in an appliance sold or offered for sale together with a fully assembled refrigerant circuit.",
+          "quote": "was used only in an MVAC or MVAC-like appliance and is to be used only in an MVAC or MVAC-like appliance and recycled in accordance with 40 CFR part 82, subpart B; (3) is contained in an appliance that is sold or offered for sale together with a fully assembled refrigerant circuit;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The other cases are transfers between or among a parent company and its subsidiaries (or subsidiaries of the same parent), and transfers between or among a Federal agency or department and facilities it owns.",
+          "quote": "is being transferred between or among a parent company and one or more of its subsidiaries, or between or among subsidiaries having the same parent company; or (5) is being transferred between or among a Federal agency or department and a facility or facilities owned by the same Federal agency or department.",
           "source": {
             "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
@@ -499,6 +526,51 @@
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
           },
           "checked": "2026-11-05"
+        },
+        {
+          "text": "A leak inspection is an examination of an appliance to find where refrigerant leaks are. Methods include ultrasonic tests, gas-imaging cameras, bubble tests as appropriate, or a leak detection device operated and maintained according to the manufacturer's guidelines.",
+          "quote": "Leak inspection means the examination of an appliance to determine the location of refrigerant leaks. Potential methods include, but are not limited to, ultrasonic tests, gas-imaging cameras, bubble tests as appropriate, or the use of a leak detection device operated and maintained according to manufacturer guidelines.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Methods that only show whether an appliance is leaking (pressure or vacuum decay tests, sight glass checks, receiver levels, pressure checks, charging charts) must be used together with a method that locates the leak.",
+          "quote": "Methods that determine whether the appliance is leaking refrigerant but not the location of a leak, such as standing pressure/vacuum decay tests, sight glass checks, viewing receiver levels, pressure checks, and charging charts, must be used in conjunction with methods that can determine the location of a leak.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An initial verification test is a leak test done after the repair and before refrigerant is added back.",
+          "quote": "Initial verification test means those leak tests that are conducted after the repair is finished to verify that a leak or leaks have been repaired before refrigerant is added back to the appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A follow-up verification test checks the repairs after a successful initial verification test, once the appliance has returned to normal operating characteristics and conditions.",
+          "quote": "Follow-up verification test means those tests that involve checking the repairs to an appliance after a successful initial verification test and after the appliance has returned to normal operating characteristics and conditions to verify that the repairs were successful.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Methods for follow-up verification tests include soap bubbles, electronic or ultrasonic leak detectors, pressure or vacuum tests, fluorescent dye and black light, infrared or near infrared tests, and handheld gas detection devices.",
+          "quote": "Potential methods for follow-up verification tests include, but are not limited to, the use of soap bubbles as appropriate, electronic or ultrasonic leak detectors, pressure or vacuum tests, fluorescent dye and black light, infrared or near infrared tests, and handheld gas detection devices.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
         }
       ]
     },
@@ -516,8 +588,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "To retrofit is to convert an appliance from one refrigerant to another. It may require changes in lubricants, gaskets, filters, driers, valves, o-rings or components.",
-          "quote": "Retrofitting includes the conversion of the appliance to achieve system compatibility with the new refrigerant and may include, but is not limited to, changes in lubricants, gaskets, filters, driers, valves, o-rings or appliance components.",
+          "text": "To retrofit is to convert an appliance from one refrigerant to another. Retrofitting includes making the appliance compatible with the new refrigerant and may include changes in lubricants, gaskets, filters, driers, valves, o-rings or components.",
+          "quote": "Retrofit means to convert an appliance from one refrigerant to another refrigerant. Retrofitting includes the conversion of the appliance to achieve system compatibility with the new refrigerant and may include, but is not limited to, changes in lubricants, gaskets, filters, driers, valves, o-rings or appliance components.",
           "source": {
             "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -593,62 +665,7 @@
     {
       "id": "refrigeration",
       "name": "Refrigeration",
-      "points": [
-        {
-          "text": "Connecting and disconnecting hoses and gauges to measure pressures, add refrigerant or recover refrigerant is not \"opening an appliance.\"",
-          "quote": "Connecting and disconnecting hoses and gauges to measure pressures, add refrigerant, or recover refrigerant from the appliance are not considered “opening an appliance.”",
-          "source": {
-            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "A leak inspection finds where refrigerant leaks are. Methods include ultrasonic tests, gas-imaging cameras, bubble tests, or a leak detection device used according to the manufacturer.",
-          "quote": "Potential methods include, but are not limited to, ultrasonic tests, gas-imaging cameras, bubble tests as appropriate, or the use of a leak detection device operated and maintained according to manufacturer guidelines.",
-          "source": {
-            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "Methods that only show whether an appliance is leaking (pressure or vacuum decay tests, sight glass checks, receiver levels, pressure checks, charging charts) must be used together with a method that locates the leak.",
-          "quote": "Methods that determine whether the appliance is leaking refrigerant but not the location of a leak, such as standing pressure/vacuum decay tests, sight glass checks, viewing receiver levels, pressure checks, and charging charts, must be used in conjunction with methods that can determine the location of a leak.",
-          "source": {
-            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "An initial verification test is a leak test done after the repair and before refrigerant is added back.",
-          "quote": "Initial verification test means those leak tests that are conducted after the repair is finished to verify that a leak or leaks have been repaired before refrigerant is added back to the appliance.",
-          "source": {
-            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "A follow-up verification test checks the repairs after a successful initial verification test, once the appliance has returned to normal operating characteristics and conditions.",
-          "quote": "Follow-up verification test means those tests that involve checking the repairs to an appliance after a successful initial verification test and after the appliance has returned to normal operating characteristics and conditions to verify that the repairs were successful.",
-          "source": {
-            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "Methods for follow-up verification tests include soap bubbles, electronic or ultrasonic leak detectors, pressure or vacuum tests, fluorescent dye and black light, infrared or near infrared tests, and handheld gas detection devices.",
-          "quote": "Potential methods for follow-up verification tests include, but are not limited to, the use of soap bubbles as appropriate, electronic or ultrasonic leak detectors, pressure or vacuum tests, fluorescent dye and black light, infrared or near infrared tests, and handheld gas detection devices.",
-          "source": {
-            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-          },
-          "checked": "2026-11-05"
-        }
-      ],
+      "points": [],
       "notCovered": "The refrigeration cycle itself (refrigerant states and pressures in each part of the system), pressure-temperature relationships, and how to read or connect gauge manifolds."
     },
     {
@@ -707,7 +724,7 @@
       "name": "Recovery techniques",
       "points": [
         {
-          "text": "Before opening or disposing of an appliance (other than small appliances, MVACs and MVAC-like appliances), technicians must evacuate the refrigerant, including all liquid, to the Table 1 levels with certified equipment. Exceptions apply for certain non-major repairs after which the appliance will not be evacuated to the atmosphere, and for leaking appliances.",
+          "text": "Before opening or disposing of an appliance (other than small appliances, MVACs and MVAC-like appliances), technicians must evacuate the refrigerant, including all liquid, to the Table 1 levels with certified equipment, unless one of the situations in § 82.156(a)(1) or (a)(2) applies (the leaking-appliance case is described below).",
           "quote": "technicians must evacuate the refrigerant, including all the liquid refrigerant, to the levels in Table 1 using a recovery and/or recycling machine certified pursuant to § 82.158 unless the situations in paragraphs (a)(1) or (2) of this section apply.",
           "source": {
             "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
@@ -725,8 +742,17 @@
           "checked": "2026-11-05"
         },
         {
+          "text": "Connecting and disconnecting hoses and gauges to measure pressures, add refrigerant or recover refrigerant is not \"opening an appliance.\"",
+          "quote": "Connecting and disconnecting hoses and gauges to measure pressures, add refrigerant, or recover refrigerant from the appliance are not considered “opening an appliance.”",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
           "text": "If leaks make the Table 1 levels unattainable, or reaching them would substantially contaminate the refrigerant, leaking components must be isolated from non-leaking ones wherever possible, and non-leaking components evacuated to Table 1 levels.",
-          "quote": "If leaks in the appliance make evacuation to the levels in Table 1 unattainable or would substantially contaminate the refrigerant being recovered, persons opening or disposing of the appliance must:",
+          "quote": "If leaks in the appliance make evacuation to the levels in Table 1 unattainable or would substantially contaminate the refrigerant being recovered, persons opening or disposing of the appliance must: (i) Isolate leaking from non-leaking components wherever possible; (ii) Evacuate non-leaking components to be opened or disposed of to the levels specified in Table 1; and",
           "source": {
             "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -799,17 +825,7 @@
     {
       "id": "safety",
       "name": "Safety",
-      "points": [
-        {
-          "text": "Recovery and/or recycling equipment made or imported on or after January 1, 2017 for appliances other than small appliances, MVACs and MVAC-like appliances must be certified as reaching the Table 2 levels under appendix B3 (non-flammable refrigerants) or appendix B4 (flammable refrigerants).",
-          "quote": "Recovery and/or recycling equipment manufactured or imported on or after January 1, 2017, intended for use during the maintenance, service, repair, or disposal of appliances (except small appliances, MVACs, and MVAC-like appliances) must be certified by an approved equipment testing organization as being capable of achieving the level of evacuation specified in Table 2 of this section under the conditions of appendix B3 (for non-flammable refrigerants) based upon AHRI Standard 740-2016 or appendix B4 (for flammable refrigerants) of this subpart.",
-          "source": {
-            "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
-          },
-          "checked": "2026-11-05"
-        }
-      ],
+      "points": [],
       "notCovered": "Health hazards of refrigerant exposure (such as oxygen displacement and decomposition products), personal protective equipment, recovery and disposable cylinder types and handling, cylinder filling limits, and which gases and pressure controls are safe for leak testing."
     },
     {
