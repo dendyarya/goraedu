@@ -52,7 +52,7 @@
         "D": "It must be mixed with new refrigerant of the same type"
       },
       "answer": "C",
-      "explanation": "EPA requires recovered refrigerant that changes ownership to be reclaimed by an EPA-certified refrigerant reclaimer before it is sold. Filtering or mixing it yourself does not meet that requirement.",
+      "explanation": "EPA states that if recovered refrigerant changes ownership, it must be reclaimed by an EPA-certified refrigerant reclaimer. Filtering or mixing it yourself does not meet that requirement.",
       "source": {
         "title": "EPA: Stationary Refrigeration Service Practice Requirements",
         "url": "https://www.epa.gov/section608/stationary-refrigeration-service-practice-requirements"
@@ -106,7 +106,7 @@
         "D": "Only until they receive the plastic card"
       },
       "answer": "A",
-      "explanation": "EPA says to keep the copy until three years after you are no longer operating as a technician. Because certification does not expire, there is no fixed number of years counted from the test date.",
+      "explanation": "EPA says to keep the copy until three years after you are no longer operating as a technician. The rule is tied to when you stop working as a technician, not to the test date.",
       "source": {
         "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
         "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
@@ -160,7 +160,7 @@
         "D": "Pass Type II and Type III only"
       },
       "answer": "C",
-      "explanation": "EPA states that to receive Universal certification, an individual must pass the examinations at all levels. Passing only some sections earns certification for those types only.",
+      "explanation": "EPA states that to receive Universal certification, an individual must pass the examinations at all levels.",
       "source": {
         "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
         "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
@@ -192,11 +192,11 @@
       "options": {
         "A": "The U.S. EPA",
         "B": "The test proctor at the end of the exam",
-        "C": "The EPA-approved certifying organization that gave the test",
+        "C": "The EPA-approved testing and certification organization that gave the test",
         "D": "The technician's employer"
       },
       "answer": "C",
-      "explanation": "EPA states that it does not administer the tests and does not issue test results or certification cards, and that proctors may not issue certification cards. Results and cards come from the certifying organization.",
+      "explanation": "EPA states that it does not administer the tests and does not issue test results or certification cards, and that proctors may not issue certification cards. Results and cards come from the EPA-approved testing and certification organization.",
       "source": {
         "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
         "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
@@ -260,7 +260,7 @@
     {
       "id": "core-015",
       "topic": "Disposal",
-      "question": "For equipment that enters the waste stream with its charge intact, such as small appliances, who is responsible for ensuring the refrigerant is recovered before final disposal?",
+      "question": "For equipment that enters the waste stream with its charge intact, such as household refrigerators and freezers or window air conditioners, who is responsible for ensuring the refrigerant is recovered before final disposal?",
       "options": {
         "A": "The original manufacturer",
         "B": "The final person in the disposal chain",
@@ -296,7 +296,7 @@
     {
       "id": "core-017",
       "topic": "Recovery and evacuation",
-      "question": "Recovery or recycling equipment manufactured after November 15, 1993 must be certified by:",
+      "question": "Except for equipment manufactured before November 15, 1993, recovery or recycling equipment must be certified by:",
       "options": {
         "A": "An EPA-approved equipment testing organization",
         "B": "The technician who uses it",
@@ -430,7 +430,7 @@
         "D": "A refrigerant identifier"
       },
       "answer": "B",
-      "explanation": "EPA's Core safety topics include the use of a pressure regulator and relief valve with nitrogen. A vacuum pump, recovery cylinder or refrigerant identifier serves a different job.",
+      "explanation": "EPA's Core safety topics include the use of a pressure regulator and relief valve with nitrogen.",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
