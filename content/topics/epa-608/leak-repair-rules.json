@@ -209,7 +209,7 @@
       "name": "Repair deadlines",
       "points": [
         {
-          "text": "The owner or operator must identify and repair leaks within 30 days (or 120 days if an industrial process shutdown is required) of when refrigerant is added to an appliance exceeding its applicable leak rate, unless more time is allowed (see the extensions below) or the owner or operator elects to retrofit or retire the appliance.",
+          "text": "The owner or operator must identify and repair leaks within 30 days (or 120 days if an industrial process shutdown is required) of when refrigerant is added to an appliance exceeding its applicable leak rate in 82.157(c). (Extensions and the option to retrofit or retire are covered under their own headings.)",
           "quote": "Owners or operators must identify and repair leaks in accordance with this paragraph within 30 days (or 120 days if an industrial process shutdown is required) of when refrigerant is added to an appliance exceeding the applicable leak rate in paragraph (c) of this section.",
           "source": {
             "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
@@ -296,7 +296,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The follow-up verification test must be done within 10 days of the successful initial test, or within 10 days of the appliance reaching normal operating characteristics and conditions if it was evacuated for the repair.",
+          "text": "The follow-up verification test must be done within 10 days of the successful initial test, or within 10 days of the appliance reaching normal operating characteristics and conditions if the appliance or isolated component was evacuated for the repair.",
           "quote": "A follow-up verification test must be performed within 10 days of the successful initial verification test or 10 days of the appliance reaching normal operating characteristics and conditions (if the appliance or isolated component was evacuated for the repair(s)).",
           "source": {
             "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
@@ -320,8 +320,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Requirement (f)(1) is that at least one of three conditions applies. One condition: parts that must be replaced are not available within 30 days (or 120 days). Extra time then runs up to 30 days after the parts arrive, but no more than 180 days (or 270 days with an industrial process shutdown) from the date the leak rate was exceeded.",
-          "quote": "Components that must be replaced as part of the repair are not available within 30 days (or 120 days if an industrial process shutdown is required). Additional time is permitted up to 30 days after receiving delivery of the necessary components, not to exceed 180 days (or 270 days if an industrial process shutdown is required) from the date the appliance exceeded the applicable leak rate.",
+          "text": "Requirement (f)(1): one or more of three conditions must apply. One condition: the appliance is in an area subject to radiological contamination, or shutting it down will directly lead to radiological contamination. Extra time is then allowed as needed to finish repairs in a safe working environment.",
+          "quote": "One or more of the following conditions must apply: (i) The appliance is located in an area subject to radiological contamination or shutting down the appliance will directly lead to radiological contamination. Additional time is permitted to the extent needed to conduct and finish repairs in a safe working environment.",
           "source": {
             "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -329,17 +329,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Another (f)(1) condition: the appliance is in an area subject to radiological contamination, or shutting it down would directly cause radiological contamination. Extra time is then allowed as needed to finish repairs in a safe working environment.",
-          "quote": "The appliance is located in an area subject to radiological contamination or shutting down the appliance will directly lead to radiological contamination. Additional time is permitted to the extent needed to conduct and finish repairs in a safe working environment.",
-          "source": {
-            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "Another (f)(1) condition: other federal, state or local regulations make a repair within 30 days (or 120 days) impossible. Extra time is then allowed as needed to comply with those regulations.",
+          "text": "Another (f)(1) condition: other federal, state or local regulations make a repair within 30 days (or 120 days if an industrial process shutdown is required) impossible. Extra time is then allowed as needed to comply with those regulations.",
           "quote": "Requirements of other applicable Federal, state, or local regulations make a repair within 30 days (or 120 days if an industrial process shutdown is required) impossible. Additional time is permitted to the extent needed to comply with the pertinent regulations.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Another (f)(1) condition: parts that must be replaced are not available within 30 days (or 120 days if an industrial process shutdown is required). Extra time then runs up to 30 days after the parts arrive, but no more than 180 days (or 270 days with an industrial process shutdown) from the date the leak rate was exceeded.",
+          "quote": "Components that must be replaced as part of the repair are not available within 30 days (or 120 days if an industrial process shutdown is required). Additional time is permitted up to 30 days after receiving delivery of the necessary components, not to exceed 180 days (or 270 days if an industrial process shutdown is required) from the date the appliance exceeded the applicable leak rate.",
           "source": {
             "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -380,7 +380,7 @@
       "name": "Retrofit or retirement plans",
       "points": [
         {
-          "text": "A retrofit or retirement plan is due within 30 days of an appliance leaking above its applicable leak rate if the owner or operator intends to retrofit or retire instead of repair, or takes no action to find or repair the leak.",
+          "text": "The owner or operator must create a retrofit or retirement plan within 30 days in any of three cases. The first two: an appliance leaks above its applicable leak rate and the owner or operator intends to retrofit or retire rather than repair the leak, or fails to take any action to identify or repair the leak.",
           "quote": "The owner or operator must create a retrofit or retirement plan within 30 days of: (i) an appliance leaking above the applicable leak rate in paragraph (c) of this section if the owner or operator intends to retrofit or retire rather than repair the leak; (ii) an appliance leaking above the applicable leak rate in paragraph (c) of this section if the owner or operator fails to take any action to identify or repair the leak; or",
           "source": {
             "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
@@ -450,7 +450,7 @@
       "name": "Chronically leaking appliances",
       "points": [
         {
-          "text": "An appliance with 50 or more pounds of refrigerant that leaks 125 percent or more of its full charge in a calendar year needs a report to EPA by March 1 of the next year, describing efforts to find and repair the leaks.",
+          "text": "Owners or operators of appliances containing 50 pounds or more of refrigerant that leak 125 percent or more of the full charge in a calendar year must submit a report to EPA by March 1 of the following year, describing efforts to identify leaks and repair the appliance.",
           "quote": "Owners or operators of appliances containing 50 pounds or more of refrigerant that leak 125 percent or more of the full charge in a calendar year must submit a report to EPA at the address in paragraph (m) of this section. This report must be submitted by March 1 of the subsequent year and describe efforts to identify leaks and repair the appliance.",
           "source": {
             "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
@@ -483,7 +483,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A service record is needed each time a 50-pound-or-more appliance is maintained, serviced, repaired or disposed of. If someone other than the owner or operator does the work, that person must give the owner or operator a record with that information, except the full charge and leak rate items ((l)(2)(vii) and (viii)).",
+          "text": "Owners or operators must keep a record each time an appliance with a full charge of 50 or more pounds is maintained, serviced, repaired or disposed of, when applicable. If someone other than the owner or operator does the work, that person must give the owner or operator a record with that information, except the full charge and leak rate items ((l)(2)(vii) and (viii)).",
           "quote": "Owners or operators must maintain a record including the following information for each time an appliance with a full charge of 50 or more pounds is maintained, serviced, repaired, or disposed of, when applicable. If the maintenance, service, repair, or disposal is done by someone other than the owner or operator, that person must provide a record containing the following information, with the exception of (l)(2)(vii) and (viii) of this section, to the owner or operator:",
           "source": {
             "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",

@@ -62,8 +62,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "For equipment likely to need examination, adjustment, servicing or maintenance while energized (600 volts or less), the depth of working space in the direction of access to live parts may not be less than Table S-1 shows, except as required or permitted elsewhere in Subpart S: for 0-150 volts to ground, 3.0 ft under Conditions A, B and C; for 151-600 volts, 3.0 ft (Condition A), 3.5 ft (Condition B) and 4.0 ft (Condition C). Note 1 to the table allows 2.5 ft for installations built before April 16, 1981, but only for the entries it marks: Conditions A and B at 0-150 volts and Condition A at 151-600 volts.",
-          "quote": "Working space for equipment likely to require examination, adjustment, servicing, or maintenance while energized shall comply with the following dimensions, except as required or permitted elsewhere in this subpart: (A) The depth of the working space in the direction of access to live parts may not be less than indicated in Table S-1.",
+          "text": "For equipment operating at 600 volts or less that is likely to need examination, adjustment, servicing or maintenance while energized, the depth of the working space in the direction of access to live parts may not be less than Table S-1 shows, except as required or permitted elsewhere in Subpart S. Distances are measured from the live parts if they are exposed, or from the enclosure front or opening if they are enclosed. Table S-1 lists 3.0 ft (0.9 m) for 0-150 volts to ground under Conditions A, B and C, and for 151-600 volts 3.0 ft (0.9 m) under Condition A, 3.5 ft (1.0 m) under Condition B and 4.0 ft (1.2 m) under Condition C.",
+          "quote": "Working space for equipment likely to require examination, adjustment, servicing, or maintenance while energized shall comply with the following dimensions, except as required or permitted elsewhere in this subpart: (A) The depth of the working space in the direction of access to live parts may not be less than indicated in Table S-1. Distances shall be measured from the live parts if they are exposed or from the enclosure front or opening if they are enclosed;",
           "source": {
             "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
@@ -71,7 +71,25 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The width of the working space in front of the equipment must be the width of the equipment or 762 mm (30 in.), whichever is greater, and the space must always permit at least a 90-degree opening of equipment doors or hinged panels.",
+          "text": "Note 1 to Table S-1 allows minimum clear distances of 0.7 m (2.5 ft) for installations built before April 16, 1981. In the table the note is marked only on Conditions A and B at 0-150 volts and on Condition A at 151-600 volts.",
+          "quote": "1. Minimum clear distances may be 0.7 m (2.5 ft) for installations built before April 16, 1981.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Note 3 to Table S-1: working space is not required in back of assemblies such as dead-front switchboards or motor control centers where there are no renewable or adjustable parts (such as fuses or switches) on the back and where all connections are accessible from locations other than the back. Where rear access is required to work on deenergized parts on the back of enclosed equipment, a minimum working space of 762 mm (30 in.) horizontally must be provided.",
+          "quote": "3. Working space is not required in back of assemblies such as dead-front switchboards or motor control centers where there are no renewable or adjustable parts (such as fuses or switches) on the back and where all connections are accessible from locations other than the back. Where rear access is required to work on deenergized parts on the back of enclosed equipment, a minimum working space of 762 mm (30 in.) horizontally shall be provided.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For that same equipment (likely to need examination, adjustment, servicing or maintenance while energized), the width of the working space in front of it must be the width of the equipment or 762 mm (30 in.), whichever is greater, and the space must always permit at least a 90-degree opening of equipment doors or hinged panels.",
           "quote": "The width of working space in front of the electric equipment shall be the width of the equipment or 762 mm (30 in.), whichever is greater. In all cases, the working space shall permit at least a 90-degree opening of equipment doors or hinged panels",
           "source": {
             "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
@@ -412,8 +430,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Before circuits or equipment can be considered and worked as deenergized, a qualified person must use test equipment to test the circuit elements and electrical parts employees will be exposed to and verify that they are deenergized. The test must also determine whether any energized condition exists from inadvertently induced voltage or unrelated voltage backfeed. If the circuit is over 600 volts, nominal, the test equipment must be checked for proper operation immediately before and immediately after the test.",
-          "quote": "A qualified person shall use test equipment to test the circuit elements and electrical parts of equipment to which employees will be exposed and shall verify that the circuit elements and equipment parts are deenergized. The test shall also determine if any energized condition exists as a result of inadvertently induced voltage or unrelated voltage backfeed even though specific parts of the circuit have been deenergized and presumed to be safe. If the circuit to be tested is over 600 volts, nominal, the test equipment shall be checked for proper operation immediately before and immediately after this test.",
+          "text": "Before circuits or equipment can be considered and worked as deenergized, a qualified person must operate the equipment operating controls or otherwise verify that the equipment cannot be restarted, and a qualified person must use test equipment to test the circuit elements and electrical parts employees will be exposed to and verify that they are deenergized. The test must also determine whether any energized condition exists from inadvertently induced voltage or unrelated voltage backfeed. If the circuit is over 600 volts, nominal, the test equipment must be checked for proper operation immediately before and immediately after the test.",
+          "quote": "Verification of deenergized condition. The requirements of this paragraph shall be met before any circuits or equipment can be considered and worked as deenergized. (A) A qualified person shall operate the equipment operating controls or otherwise verify that the equipment cannot be restarted. (B) A qualified person shall use test equipment to test the circuit elements and electrical parts of equipment to which employees will be exposed and shall verify that the circuit elements and equipment parts are deenergized. The test shall also determine if any energized condition exists as a result of inadvertently induced voltage or unrelated voltage backfeed even though specific parts of the circuit have been deenergized and presumed to be safe. If the circuit to be tested is over 600 volts, nominal, the test equipment shall be checked for proper operation immediately before and immediately after this test.",
           "source": {
             "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
