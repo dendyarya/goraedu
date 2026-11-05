@@ -48,7 +48,8 @@ function stripPageChrome(text: string): string {
       (l) =>
         !/^\s*Recycling and Emissions Reduction\s*$/.test(l) &&
         !/^\s*40 CFR Part 82 Subpart F \(up to date/.test(l) &&
-        !/^\s{20,}40 CFR 82\.\S+\s*$/.test(l),
+        !/^\s{20,}40 CFR 82\.\S+\s*$/.test(l) &&
+        !/\(enhanced display\)\s+page \d+ of \d+\s*$/.test(l),
     )
     .join("\n");
 }

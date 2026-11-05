@@ -28,6 +28,15 @@
           "checked": "2026-11-05"
         },
         {
+          "text": "Since January 1, 2018, the evacuation rules apply to appliances containing any class I or class II (ozone-depleting) refrigerant or any non-exempt substitute refrigerant.",
+          "quote": "Starting on January 1, 2018, this section applies to evacuation of refrigerant from appliances containing any class I or class II refrigerant or any non-exempt substitute refrigerant",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
           "text": "Before opening a small appliance, or when disposing of one, you must recover the refrigerant with a recovery and/or recycling machine certified under 40 CFR 82.158.",
           "quote": "Before opening a small appliance or when disposing of a small appliance, persons must recover refrigerant, using a recovery and/or recycling machine certified pursuant to § 82.158, according to the following conditions:",
           "source": {
@@ -73,7 +82,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Equipment made or imported before November 15, 1993, counts as certified if it can recover 80 percent of the refrigerant, with or without the compressor running, or reach a four-inch vacuum.",
+          "text": "Equipment made or imported before November 15, 1993, counts as certified if it can recover 80 percent of the refrigerant, whether or not the test stand's compressor is running, or reach a four-inch vacuum when tested with a properly calibrated pressure gauge.",
           "quote": "Equipment manufactured or imported before November 15, 1993, will be considered certified if it is capable of either recovering 80 percent of the refrigerant in the system, whether or not the compressor of the test stand is operational, or achieving a four-inch vacuum when tested using a properly calibrated pressure gauge.",
           "source": {
             "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
@@ -82,7 +91,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Equipment used to evacuate regulated refrigerant from small appliances before disposal may also be certified if it can reach a four-inch vacuum.",
+          "text": "Equipment used to evacuate a class I or class II refrigerant or a non-exempt substitute from small appliances before they are disposed of may also be certified if it can reach a four-inch vacuum when tested with a properly calibrated pressure gauge.",
           "quote": "Equipment used to evacuate any class I or class II refrigerant or any non-exempt substitute refrigerant from small appliances before they are disposed of may also be certified if it is capable of achieving a four-inch vacuum when tested using a properly calibrated pressure gauge.",
           "source": {
             "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
@@ -100,8 +109,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The final processor is whoever takes the final step in disposing of a small appliance, such as a scrap recycler or landfill operator. It must either recover any remaining refrigerant or verify that it was recovered.",
-          "quote": "The final processor—i.e., persons who take the final step in the disposal process (including but not limited to scrap recyclers and landfill operators) of a small appliance, MVAC, or MVAC-like appliance—must either: (1) Recover any remaining refrigerant from the appliance in accordance with paragraph (a) of this section; or (2) Verify",
+          "text": "The final processor is whoever takes the final step in disposing of a small appliance, such as a scrap recycler or landfill operator. It must either recover any remaining refrigerant itself or verify, with a signed statement or a contract, that all refrigerant that had not already leaked out was recovered.",
+          "quote": "The final processor—i.e., persons who take the final step in the disposal process (including but not limited to scrap recyclers and landfill operators) of a small appliance, MVAC, or MVAC-like appliance—must either: (1) Recover any remaining refrigerant from the appliance in accordance with paragraph (a) of this section; or (2) Verify using a signed statement or a contract that all refrigerant that had not leaked previously has been recovered from the appliance or shipment of appliances in accordance with paragraph (a) of this section.",
           "source": {
             "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
@@ -178,7 +187,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "System-dependent (passive) recovery equipment needs the appliance's own components to remove the refrigerant.",
+          "text": "System-dependent recovery equipment needs the help of components in the appliance to remove the refrigerant.",
           "quote": "System-dependent recovery equipment means refrigerant recovery equipment that requires the assistance of components contained in an appliance to remove the refrigerant from the appliance.",
           "source": {
             "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
@@ -214,7 +223,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Attaching or detaching hoses and gauges, adding or removing refrigerant, and cutting the refrigerant line are activities the rule treats as reasonably expected to break the refrigerant circuit.",
+          "text": "The rule lists activities reasonably expected to violate the integrity of the refrigerant circuit. They include, but are not limited to, attaching or detaching hoses and gauges, adding or removing refrigerant, adding or removing components, and cutting the refrigerant line.",
           "quote": "Activities reasonably expected to violate the integrity of the refrigerant circuit include but are not limited to: Attaching or detaching hoses and gauges to and from the appliance; adding or removing refrigerant; adding or removing components; and cutting the refrigerant line.",
           "source": {
             "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
@@ -245,8 +254,17 @@
       "name": "Type I certification",
       "points": [
         {
-          "text": "People who maintain, service or repair small appliances must be certified as Type I technicians.",
+          "text": "People who maintain, service or repair small appliances must be certified as Type I technicians. Like the rest of § 82.161, this applies to appliances containing a class I or class II refrigerant or a non-exempt substitute.",
           "quote": "Persons who maintain, service, or repair small appliances must be certified as Type I technicians.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Apprentices are exempt from the certification requirement while a certified technician closely and continually supervises them.",
+          "quote": "Apprentices are exempt from the requirement in paragraph (a)(1) of this section provided the apprentice is closely and continually supervised by a certified technician",
           "source": {
             "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
@@ -290,7 +308,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Each Type I test has 25 questions from Group I (general topics) and 25 from Group II (sector-specific topics).",
+          "text": "Each Type I test includes 25 questions from Group I and 25 from Group II (sector-specific topics).",
           "quote": "All Type I, Type II and Type III, certification tests will include 25 questions from Group I and 25 questions from Group II.",
           "source": {
             "title": "eCFR: 40 CFR Part 82 Subpart F, Appendix D, Standards for Becoming a Certifying Program for Technicians (as of Nov 3, 2026)",
