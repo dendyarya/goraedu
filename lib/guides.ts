@@ -31,6 +31,22 @@ const ECFR_DIR = path.join(process.cwd(), "data", "sources", "ecfr");
 // as laid out on the page and in reading order (one table cell after another); a quote may match either copy.
 const SNAPSHOTS: Record<string, string[]> = {
   "epa-608": ["40cfr82-subpartF-2026-11-03.txt"],
+  osha: [
+    "29cfr1926-subpartC-2026-11-03.txt",
+    "29cfr1926-subpartE-2026-11-03.txt",
+    "29cfr1926-subpartK-2026-11-03.txt",
+    "29cfr1926-subpartL-2026-11-03.txt",
+    "29cfr1926-subpartM-2026-11-03.txt",
+    "29cfr1926-subpartP-2026-11-03.txt",
+    "29cfr1926-subpartX-2026-11-03.txt",
+    "29cfr1926-subpartC-2026-11-03.reading-order.txt",
+    "29cfr1926-subpartE-2026-11-03.reading-order.txt",
+    "29cfr1926-subpartK-2026-11-03.reading-order.txt",
+    "29cfr1926-subpartL-2026-11-03.reading-order.txt",
+    "29cfr1926-subpartM-2026-11-03.reading-order.txt",
+    "29cfr1926-subpartP-2026-11-03.reading-order.txt",
+    "29cfr1926-subpartX-2026-11-03.reading-order.txt",
+  ],
   "epa-609": [
     "40cfr82-subpartB-2026-11-03.txt",
     "40cfr82-subpartG-2026-11-03.txt",
@@ -50,21 +66,35 @@ const norm = (s: string) =>
     .toLowerCase();
 
 /** Drops the running page headers and footers the eCFR PDF export puts between lines of rule text. */
+// Running page titles the eCFR PDF export repeats on every page (one per subpart we keep).
+const PAGE_TITLES = [
+  "Recycling and Emissions Reduction",
+  "Servicing of Motor Vehicle Air Conditioners",
+  "Significant New Alternatives Policy Program",
+  "General Safety and Health Provisions",
+  "Personal Protective and Life Saving Equipment",
+  "Electrical",
+  "Scaffolds",
+  "Fall Protection",
+  "Excavations",
+  "Stairways and Ladders",
+];
+
 function stripPageChrome(text: string): string {
   return text
     .split("\n")
-    .filter(
-      (l) =>
-        !/^\s*(Recycling and Emissions Reduction|Servicing of Motor Vehicle Air Conditioners|Significant New Alternatives Policy Program)\s*$/.test(
-          l,
-        ) &&
-        !/^\s*40 CFR 82\.[\d()a-z]+\s*$/.test(l) &&
-        !/^\s*page \d+ of \d+\s*$/.test(l) &&
-        !/\(enhanced display\)\s*$/.test(l) &&
-        !/^\s*40 CFR Part 82 Subpart [A-Z] \(up to date/.test(l) &&
-        !/^\s{20,}40 CFR \S.*$/.test(l) &&
-        !/\(enhanced display\)\s+page \d+ of \d+\s*$/.test(l),
-    )
+    .filter((l) => {
+      const t = l.trim();
+      return !(
+        PAGE_TITLES.includes(t) ||
+        /^\d+ CFR Part \d+ Subpart [A-Z] \(up to date/.test(t) ||
+        /^\d+ CFR [\d.]+[\d()a-z]*$/.test(t) ||
+        /^page \d+ of \d+$/.test(t) ||
+        /\(enhanced display\)(\s+page \d+ of \d+)?$/.test(t) ||
+        /^\s{20,}\d+ CFR \S/.test(l) ||
+        /\S\s{15,}(\d+ CFR |Part-\d+\()\S*\s*$/.test(l)
+      );
+    })
     .join("\n");
 }
 

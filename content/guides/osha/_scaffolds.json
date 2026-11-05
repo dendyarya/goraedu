@@ -1,0 +1,596 @@
+{
+  "cluster": "osha",
+  "slug": "scaffolds",
+  "href": "/osha/scaffolds/study-guide/",
+  "title": "OSHA construction scaffolds study guide",
+  "description": "OSHA scaffold rules (29 CFR 1926 Subpart L): capacity, platforms, access, use, fall and falling object protection, training, each quoted from the rule.",
+  "intro": "Subpart L of the OSHA construction standards (29 CFR 1926.450 to 1926.454) sets the federal rules for scaffolds used in construction. This guide sets out what the rule text states on capacity, platform construction, access, safe use, fall protection, falling object protection, the duties of competent and qualified persons, and training. Every point links to the section it comes from, with the exact words quoted. It is a study aid, not training, and the appendices to Subpart L are non-mandatory.",
+  "topics": [
+    {
+      "id": "scope-definitions",
+      "name": "Scope and key definitions",
+      "points": [
+        {
+          "text": "Subpart L applies to all scaffolds used in workplaces covered by Part 1926. It does not apply to crane or derrick suspended personnel platforms, and aerial lifts are covered only by 1926.453.",
+          "quote": "This subpart applies to all scaffolds used in workplaces covered by this part. It does not apply to crane or derrick suspended personnel platforms. The criteria for aerial lifts are set out exclusively in § 1926.453.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.450, Scope, application and definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.450"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A scaffold is any temporary elevated platform, supported or suspended, with its supporting structure (including points of anchorage), used to support employees, materials or both.",
+          "quote": "Scaffold means any temporary elevated platform (supported or suspended) and its supporting structure (including points of anchorage), used for supporting employees or materials or both.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.450, Scope, application and definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.450"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A competent person can identify existing and predictable hazards and has the authority to take prompt corrective measures to eliminate them. Both parts are needed.",
+          "quote": "Competent person means one who is capable of identifying existing and predictable hazards in the surroundings or working conditions which are unsanitary, hazardous, or dangerous to employees, and who has authorization to take prompt corrective measures to eliminate them.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.450, Scope, application and definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.450"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A qualified person has a recognized degree, certificate or professional standing, or has shown by extensive knowledge, training and experience that they can solve problems related to the subject matter, the work or the project.",
+          "quote": "Qualified means one who, by possession of a recognized degree, certificate, or professional standing, or who by extensive knowledge, training, and experience, has successfully demonstrated his/her ability to solve or resolve problems related to the subject matter, the work, or the project.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.450, Scope, application and definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.450"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Maximum intended load is the total of all persons, equipment, tools, materials, transmitted loads and other loads reasonably expected on the scaffold or component at any one time.",
+          "quote": "Maximum intended load means the total load of all persons, equipment, tools, materials, transmitted loads, and other loads reasonably anticipated to be applied to a scaffold or scaffold component at any one time.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.450, Scope, application and definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.450"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": "Capacity",
+      "points": [
+        {
+          "text": "Apart from the listed exceptions (suspension ropes, connections and counterweights, hoists, and fall protection), each scaffold and scaffold component must support its own weight and at least 4 times the maximum intended load without failure.",
+          "quote": "each scaffold and scaffold component shall be capable of supporting, without failure, its own weight and at least 4 times the maximum intended load applied or transmitted to it.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each suspension rope, including connecting hardware, on a non-adjustable suspension scaffold must support at least 6 times the maximum intended load applied or transmitted to that rope.",
+          "quote": "Each suspension rope, including connecting hardware, used on non-adjustable suspension scaffolds shall be capable of supporting, without failure, at least 6 times the maximum intended load applied or transmitted to that rope.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The stall load of a scaffold hoist may not be more than 3 times its rated load.",
+          "quote": "The stall load of any scaffold hoist shall not exceed 3 times its rated load.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Scaffolds must be designed by a qualified person and built and loaded according to that design. Appendix A, which is non-mandatory, gives example criteria.",
+          "quote": "Scaffolds shall be designed by a qualified person and shall be constructed and loaded in accordance with that design.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Scaffolds and components may not be loaded beyond their maximum intended loads or rated capacities, whichever is less.",
+          "quote": "Scaffolds and scaffold components shall not be loaded in excess of their maximum intended loads or rated capacities, whichever is less.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "platform-construction",
+      "name": "Platform construction",
+      "points": [
+        {
+          "text": "Each platform on all working levels must be fully planked or decked between the front uprights and the guardrail supports. Gaps between units, and between the platform and the uprights, may be no more than 1 inch wide unless the employer can show a wider space is needed (for example, to fit around uprights when side brackets are used).",
+          "quote": "Each platform unit (e.g., scaffold plank, fabricated plank, fabricated deck, or fabricated platform) shall be installed so that the space between adjacent units and the space between the platform and the uprights is no more than 1 inch (2.5 cm) wide, except where the employer can demonstrate that a wider space is necessary",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Full planking is not required on platforms used only as walkways or only by employees erecting or dismantling the scaffold. There, only the planking the employer establishes is necessary for safe working conditions is required.",
+          "quote": "The requirement in paragraph (b)(1) to provide full planking or decking does not apply to platforms used solely as walkways or solely by employees performing scaffold erection or dismantling.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each scaffold platform and walkway must be at least 18 inches wide, except for the specific scaffold types and narrow areas listed in (b)(2)(i) and (ii).",
+          "quote": "each scaffold platform and walkway shall be at least 18 inches (46 cm) wide.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Ladder jack, top plate bracket, roof bracket and pump jack scaffolds must be at least 12 inches wide, and boatswains' chairs have no minimum width. The 12-inch rule for roof bracket scaffolds is under an administrative stay noted in the rule.",
+          "quote": "Each ladder jack scaffold, top plate bracket scaffold, roof bracket scaffold, and pump jack scaffold shall be at least 12 inches (30 cm) wide. There is no minimum width requirement for boatswains' chairs.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The front edge of a platform may be no more than 14 inches from the face of the work unless guardrails are erected along the front edge and/or personal fall arrest systems are used. The limit is 3 inches for outrigger scaffolds and 18 inches for plastering and lathing.",
+          "quote": "the front edge of all platforms shall not be more than 14 inches (36 cm) from the face of the work, unless guardrail systems are erected along the front edge and/or personal fall arrest systems are used",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Unless cleated or otherwise restrained by hooks or equivalent means, each end of a platform must extend over the centerline of its support by at least 6 inches.",
+          "quote": "Each end of a platform, unless cleated or otherwise restrained by hooks or equivalent means, shall extend over the centerline of its support at least 6 inches (15 cm).",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A platform 10 feet or less long may not extend more than 12 inches past its support, and one longer than 10 feet no more than 18 inches, unless the cantilevered part is designed and installed to hold the load without tipping or guardrails block access to it.",
+          "quote": "Each end of a platform 10 feet or less in length shall not extend over its support more than 12 inches (30 cm)",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Where platforms are overlapped to make a long platform, the overlap must be only over supports and at least 12 inches, unless the platforms are nailed together or otherwise restrained from moving.",
+          "quote": "the overlap shall occur only over supports, and shall not be less than 12 inches (30 cm) unless the platforms are nailed together or otherwise restrained to prevent movement.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Wood platforms may not be covered with opaque finishes, except that edges may be covered or marked for identification.",
+          "quote": "Wood platforms shall not be covered with opaque finishes, except that platform edges may be covered or marked for identification.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Components from different manufacturers may not be intermixed unless they fit together without force and the user maintains the scaffold's structural integrity.",
+          "quote": "Scaffold components manufactured by different manufacturers shall not be intermixed unless the components fit together without force and the scaffold's structural integrity is maintained by the user.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A loaded platform may not deflect more than 1/60 of its span.",
+          "quote": "Platforms shall not deflect more than 1⁄60 of the span when loaded.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "supported-scaffolds",
+      "name": "Supported scaffolds: footing and tipping",
+      "points": [
+        {
+          "text": "A supported scaffold with a height to base width ratio of more than 4:1 (including outrigger supports, if used) must be restrained from tipping by guying, tying, bracing or equivalent means.",
+          "quote": "Supported scaffolds with a height to base width (including outrigger supports, if used) ratio of more than four to one (4:1) shall be restrained from tipping by guying, tying, bracing, or equivalent means",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Poles, legs, posts, frames and uprights of supported scaffolds must bear on base plates and mud sills or another adequate firm foundation.",
+          "quote": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Unstable objects may not be used to support scaffolds or platform units, or as working platforms.",
+          "quote": "Unstable objects shall not be used to support scaffolds or platform units.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Fork-lifts may support scaffold platforms only if the entire platform is attached to the fork and the fork-lift is not moved horizontally while the platform is occupied.",
+          "quote": "Fork-lifts shall not be used to support scaffold platforms unless the entire platform is attached to the fork and the fork-lift is not moved horizontally while the platform is occupied.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "access",
+      "name": "Access",
+      "points": [
+        {
+          "text": "When a scaffold platform is more than 2 feet above or below a point of access, a listed means of access (ladders, stair towers, ramps, walkways, integral access, direct access and similar) must be used. Crossbraces may not be used as a means of access.",
+          "quote": "When scaffold platforms are more than 2 feet (0.6 m) above or below a point of access, portable ladders, hook-on ladders, attachable ladders, stair towers (scaffold stairways/towers), stairway-type ladders (such as ladder stands), ramps, walkways, integral prefabricated scaffold access, or direct access from another scaffold, structure, personnel hoist, or similar surface shall be used. Crossbraces shall not be used as a means of access.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Hook-on and attachable ladders must have their bottom rung no more than 24 inches above the scaffold supporting level.",
+          "quote": "Hook-on and attachable ladders shall be positioned so that their bottom rung is not more than 24 inches (61 cm) above the scaffold supporting level",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On a supported scaffold more than 35 feet high, hook-on and attachable ladders need rest platforms at no more than 35-foot vertical intervals.",
+          "quote": "When hook-on and attachable ladders are used on a supported scaffold more than 35 feet (10.7 m) high, they shall have rest platforms at 35-foot (10.7 m) maximum vertical intervals.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Ramps and walkways 6 feet or more above lower levels need guardrail systems that comply with Subpart M, and no ramp or walkway may be steeper than 1 vertical to 3 horizontal.",
+          "quote": "Ramps and walkways 6 feet (1.8 m) or more above lower levels shall have guardrail systems which comply with subpart M of this part",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Direct access to or from another surface is allowed only when the scaffold is no more than 14 inches horizontally and no more than 24 inches vertically from that surface.",
+          "quote": "Direct access to or from another surface shall be used only when the scaffold is not more than 14 inches (36 cm) horizontally and not more than 24 inches (61 cm) vertically from the other surface.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For employees erecting or dismantling supported scaffolds, the employer must provide safe access where it is feasible and does not create a greater hazard, and a competent person decides that, based on site conditions and the type of scaffold.",
+          "quote": "The employer shall have a competent person determine whether it is feasible or would pose a greater hazard to provide, and have employees use a safe means of access. This determination shall be based on site conditions and the type of scaffold being erected or dismantled.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "use",
+      "name": "Use of scaffolds",
+      "points": [
+        {
+          "text": "A competent person must inspect scaffolds and components for visible defects before each work shift and after any occurrence that could affect structural integrity.",
+          "quote": "Scaffolds and scaffold components shall be inspected for visible defects by a competent person before each work shift, and after any occurrence which could affect a scaffold's structural integrity.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Any part weakened below the strength paragraph (a) requires must be immediately repaired or replaced, braced to meet the requirement, or removed from service until repaired.",
+          "quote": "shall be immediately repaired or replaced, braced to meet those provisions, or removed from service until repaired.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Scaffolds may not be moved horizontally with employees on them unless designed by a registered professional engineer for that movement or, for mobile scaffolds, the rules in 1926.452(w) are followed.",
+          "quote": "Scaffolds shall not be moved horizontally while employees are on them, unless they have been designed by a registered professional engineer specifically for such movement or, for mobile scaffolds, where the provisions of § 1926.452(w) are followed.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Minimum clearance from exposed energized power lines: 3 feet for insulated lines under 300 volts; 10 feet for insulated lines from 300 volts to 50 kV and for uninsulated lines under 50 kV; above 50 kV, 10 feet plus 0.4 inches per kV over 50 kV. Closer work is allowed only after the utility or system operator has been notified and has deenergized, relocated or covered the lines.",
+          "quote": "the utility company, or electrical system operator, has deenergized the lines, relocated the lines, or installed protective coverings to prevent accidental contact with the lines.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Scaffolds may be erected, moved, dismantled or altered only under the supervision and direction of a competent person qualified in that work, and only by experienced and trained employees the competent person selects.",
+          "quote": "Scaffolds shall be erected, moved, dismantled, or altered only under the supervision and direction of a competent person qualified in scaffold erection, moving, dismantling or alteration. Such activities shall be performed only by experienced and trained employees selected for such work by the competent person.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Employees may not work on scaffolds covered with snow, ice or other slippery material, except as needed to remove it.",
+          "quote": "Employees shall be prohibited from working on scaffolds covered with snow, ice, or other slippery material except as necessary for removal of such materials.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Work during storms or high winds is prohibited unless a competent person has determined it is safe and the employees are protected by a personal fall arrest system or wind screens.",
+          "quote": "Work on or from scaffolds is prohibited during storms or high winds unless a competent person has determined that it is safe for employees to be on the scaffold and those employees are protected by a personal fall arrest system or wind screens.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Debris may not accumulate on platforms, and makeshift devices such as boxes and barrels may not be used on platforms to raise the working height.",
+          "quote": "Makeshift devices, such as but not limited to boxes and barrels, shall not be used on top of scaffold platforms to increase the working level height of employees.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Ladders may not be used on scaffolds to raise working height, except on large area scaffolds where the employer meets the four listed conditions.",
+          "quote": "Ladders shall not be used on scaffolds to increase the working level height of employees, except on large area scaffolds where employers have satisfied the following criteria",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On mobile scaffolds, employees may ride only if all listed conditions are met, including a surface within 3 degrees of level and free of pits, holes and obstructions, and a height to base width ratio of two to one or less during movement (unless the scaffold meets nationally recognized stability tests).",
+          "quote": "The surface on which the scaffold is being moved is within 3 degrees of level, and free of pits, holes, and obstructions",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.452, Additional requirements applicable to specific types of scaffolds (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.452"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "fall-protection",
+      "name": "Fall protection on scaffolds",
+      "points": [
+        {
+          "text": "Each employee on a scaffold more than 10 feet above a lower level must be protected from falling to that lower level. The type of protection depends on the type of scaffold.",
+          "quote": "Each employee on a scaffold more than 10 feet (3.1 m) above a lower level shall be protected from falling to that lower level.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On a boatswains' chair, catenary, float, needle beam or ladder jack scaffold, each employee must be protected by a personal fall arrest system.",
+          "quote": "Each employee on a boatswains' chair, catenary scaffold, float scaffold, needle beam scaffold, or ladder jack scaffold shall be protected by a personal fall arrest system",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On a single-point or two-point adjustable suspension scaffold, each employee needs both a personal fall arrest system and a guardrail system.",
+          "quote": "Each employee on a single-point or two-point adjustable suspension scaffold shall be protected by both a personal fall arrest system and guardrail system",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On scaffolds not otherwise listed, each employee must be protected by personal fall arrest systems or guardrail systems that meet (g)(4).",
+          "quote": "For all scaffolds not otherwise specified in paragraphs (g)(1)(i) through (g)(1)(vi) of this section, each employee shall be protected by the use of personal fall arrest systems or guardrail systems meeting the requirements of paragraph (g)(4) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For employees erecting or dismantling supported scaffolds, a competent person must determine the feasibility and safety of fall protection, and the employer must provide it where it is feasible and does not create a greater hazard.",
+          "quote": "the employer shall have a competent person determine the feasibility and safety of providing fall protection for employees erecting or dismantling supported scaffolds.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Vertical lifelines must be fastened to a fixed safe anchorage independent of the scaffold. Safe anchorages do not include standpipes, vents, other piping, electrical conduit, outrigger beams or counterweights.",
+          "quote": "Safe points of anchorage include structural members of buildings, but do not include standpipes, vents, other piping systems, electrical conduit, outrigger beams, or counterweights.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Guardrails go along all open sides and ends of platforms and must be installed before the scaffold is released for use by employees other than erection/dismantling crews.",
+          "quote": "Guardrail systems shall be installed before the scaffold is released for use by employees other than erection/dismantling crews.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On supported scaffolds manufactured or placed in service after January 1, 2000, the top edge of the toprail must be between 38 and 45 inches above the platform. Older supported scaffolds, and suspended scaffolds that need both a guardrail and a personal fall arrest system, use 36 to 45 inches.",
+          "quote": "The top edge height of toprails or equivalent member on supported scaffolds manufactured or placed in service after January 1, 2000 shall be installed between 38 inches (0.97 m) and 45 inches (1.2 m) above the platform surface.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Toprails must withstand at least 100 pounds on single-point or two-point adjustable suspension scaffolds and at least 200 pounds on all other scaffolds. Midrails and similar members need 75 pounds or 150 pounds, matching those two toprail capacities.",
+          "quote": "at least 100 pounds (445 n) for guardrail systems installed on single-point adjustable suspension scaffolds or two-point adjustable suspension scaffolds, and at least 200 pounds (890 n) for guardrail systems installed on all other scaffolds.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Crossbracing may replace a midrail when the braces cross between 20 and 30 inches above the platform, or a toprail when they cross between 38 and 48 inches; end points at each upright may be no more than 48 inches apart. Steel or plastic banding may not be used as a toprail or midrail.",
+          "quote": "Crossbracing is acceptable in place of a midrail when the crossing point of two braces is between 20 inches (0.5 m) and 30 inches (0.8 m) above the work platform",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "We do not cover aerial lifts (1926.453), which set their own rules and largely incorporate ANSI A92.2-1969, or the type-by-type rules in 1926.452 beyond mobile scaffolds."
+    },
+    {
+      "id": "falling-objects",
+      "name": "Falling object protection",
+      "points": [
+        {
+          "text": "In addition to hardhats, each employee on a scaffold must get added protection from falling hand tools, debris and other small objects, such as toeboards, screens, guardrail systems, debris nets, catch platforms or canopies.",
+          "quote": "In addition to wearing hardhats each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Where objects could fall and strike employees below, one option is to barricade the area below and keep employees out of it.",
+          "quote": "The area below the scaffold to which objects can fall shall be barricaded, and employees shall not be permitted to enter the hazard area",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Another option is a toeboard along the edge of platforms more than 10 feet above lower levels, for a distance sufficient to protect employees below (float scaffolds may use a wood edging instead).",
+          "quote": "A toeboard shall be erected along the edge of platforms more than 10 feet (3.1 m) above lower levels for a distance sufficient to protect employees below",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Where used, toeboards must withstand at least 50 pounds and be at least 3.5 inches high, with no more than 1/4 inch clearance above the surface and openings no more than 1 inch.",
+          "quote": "At least three and one-half inches (9 cm) high from the top edge of the toeboard to the level of the walking/working surface.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "name": "Training",
+      "points": [
+        {
+          "text": "Each employee who works while on a scaffold must be trained by a person qualified in the subject matter to recognize the hazards of the type of scaffold used and understand the procedures to control or minimize them.",
+          "quote": "The employer shall have each employee who performs work while on a scaffold trained by a person qualified in the subject matter to recognize the hazards associated with the type of scaffold being used and to understand the procedures to control or minimize those hazards.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.454, Training requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.454"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "That training includes, as applicable, the maximum intended load and the load-carrying capacities of the scaffolds used, along with electrical, fall and falling object hazards, proper use and material handling.",
+          "quote": "The maximum intended load and the load-carrying capacities of the scaffolds used",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.454, Training requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.454"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each employee involved in erecting, disassembling, moving, operating, repairing, maintaining or inspecting a scaffold must be trained by a competent person.",
+          "quote": "The employer shall have each employee who is involved in erecting, disassembling, moving, operating, repairing, maintaining, or inspecting a scaffold trained by a competent person to recognize any hazards associated with the work in question.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.454, Training requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.454"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Retraining is required at least when worksite changes, or changes in scaffolds, fall protection, falling object protection or other equipment, present a hazard the employee was not trained on, or when the employee's work shows they have not retained proficiency.",
+          "quote": "Where inadequacies in an affected employee's work involving scaffolds indicate that the employee has not retained the requisite proficiency.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.454, Training requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.454"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    }
+  ]
+}

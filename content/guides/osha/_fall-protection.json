@@ -1,0 +1,515 @@
+{
+  "cluster": "osha",
+  "slug": "fall-protection",
+  "href": "/osha/fall-protection/study-guide/",
+  "title": "OSHA construction fall protection study guide",
+  "description": "OSHA construction fall protection (29 CFR 1926 Subpart M) study guide: the 6-foot rule, guardrails, nets, fall arrest, covers and training.",
+  "intro": "Subpart M of the OSHA construction standards (29 CFR 1926.500 to 1926.503) sets when employers must provide fall protection, how each kind of system must be built and used, and how employees must be trained. This guide sets out what the rule text states, with the exact words quoted and a link to the section each point comes from. Points from appendices say so, because the Subpart M appendices are non-mandatory guidelines.",
+  "topics": [
+    {
+      "id": "scope-definitions",
+      "name": "Scope and definitions",
+      "points": [
+        {
+          "text": "Subpart M does not apply when employees are inspecting, investigating or assessing workplace conditions before construction work actually starts or after all construction work is finished.",
+          "quote": "The provisions of this subpart do not apply when employees are making an inspection, investigation, or assessment of workplace conditions prior to the actual start of construction work or after all construction work has been completed.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.500, Scope, application, and definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.500"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A hole is a gap or void 2 inches or more in its least dimension in a floor, roof or other walking/working surface.",
+          "quote": "Hole means a gap or void 2 inches (5.1 cm) or more in its least dimension, in a floor, roof, or other walking/working surface.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.500, Scope, application, and definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.500"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An opening is a gap or void in a wall or partition at least 30 inches high and at least 18 inches wide that an employee can fall through to a lower level.",
+          "quote": "Opening means a gap or void 30 inches (76 cm) or more high and 18 inches (48 cm) or more wide, in a wall or partition, through which employees can fall to a lower level.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.500, Scope, application, and definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.500"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A low-slope roof has a slope of 4 in 12 or less (vertical to horizontal); a steep roof has a slope greater than 4 in 12.",
+          "quote": "Low-slope roof means a roof having a slope less than or equal to 4 in 12 (vertical to horizontal).",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.500, Scope, application, and definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.500"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An unprotected side or edge is any side or edge of a walking/working surface (except at entrances to points of access) without a wall or guardrail system at least 39 inches high.",
+          "quote": "Unprotected sides and edges means any side or edge (except at entrances to points of access) of a walking/working surface, e.g., floor, roof, ramp, or runway where there is no wall or guardrail system at least 39 inches (1.0 m) high.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.500, Scope, application, and definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.500"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A leading edge counts as an unprotected side and edge whenever it is not actively and continuously under construction.",
+          "quote": "A leading edge is considered to be an “unprotected side and edge” during periods when it is not actively and continuously under construction.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.500, Scope, application, and definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.500"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Infeasible means it is impossible to do the construction work with a conventional fall protection system (guardrail, safety net or personal fall arrest system), or technologically impossible to use any one of them.",
+          "quote": "Infeasible means that it is impossible to perform the construction work using a conventional fall protection system (i.e., guardrail system, safety net system, or personal fall arrest system) or that it is technologically impossible to use any one of these systems to provide fall protection.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.500, Scope, application, and definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.500"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "We do not cover the fall protection rules of the other subparts that § 1926.500(a)(2) points to (scaffolds, cranes and derricks, steel erection, tunneling, tank and tower erection, power lines, stairways and ladders); they have their own study material or are outside this set."
+    },
+    {
+      "id": "duty",
+      "name": "Duty to have fall protection",
+      "points": [
+        {
+          "text": "The employer must find out whether a walking/working surface is strong enough to support employees safely, and may let employees work on it only when it is.",
+          "quote": "Employees shall be allowed to work on those surfaces only when the surfaces have the requisite strength and structural integrity.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An employee on a walking/working surface with an unprotected side or edge 6 feet or more above a lower level must be protected by a guardrail system, safety net system or personal fall arrest system.",
+          "quote": "Each employee on a walking/working surface (horizontal and vertical surface) with an unprotected side or edge which is 6 feet (1.8 m) or more above a lower level shall be protected from falling by the use of guardrail systems, safety net systems, or personal fall arrest systems.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For leading edge work, precast concrete erection and residential construction 6 feet or more up, a fall protection plan may replace those systems only when the employer can show they are infeasible or create a greater hazard. The rule presumes at least one system is feasible, and the employer carries the burden of proof.",
+          "quote": "There is a presumption that it is feasible and will not create a greater hazard to implement at least one of the above-listed fall protection systems.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In a hoist area, an employee who must lean through the access opening or out over its edge after guardrails (or a chain or gate) are removed must be protected by a personal fall arrest system.",
+          "quote": "and an employee must lean through the access opening or out over the edge of the access opening (to receive or guide equipment and materials, for example), that employee shall be protected from fall hazards by a personal fall arrest system.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Employees must be protected from falling through holes (including skylights) more than 6 feet above lower levels by personal fall arrest systems, covers or guardrail systems; protection from tripping or stepping into holes, and from objects falling through them, must be by covers.",
+          "quote": "Each employee on a walking/working surface shall be protected from tripping in or stepping into or through holes (including skylights) by covers.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An employee on the face of formwork or reinforcing steel must be protected from falling 6 feet or more by personal fall arrest systems, safety net systems or positioning device systems.",
+          "quote": "Each employee on the face of formwork or reinforcing steel shall be protected from falling 6 feet (1.8 m) or more to lower levels by personal fall arrest systems, safety net systems, or positioning device systems.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Dangerous equipment has no height trigger: an employee less than 6 feet above it must be protected from falling into or onto it by guardrail systems or equipment guards.",
+          "quote": "Each employee less than 6 feet (1.8 m) above dangerous equipment shall be protected from falling into or onto the dangerous equipment by guardrail systems or by equipment guards.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "During overhand bricklaying, an employee reaching more than 10 inches below the level of the surface they work on must be protected by a guardrail, safety net or personal fall arrest system.",
+          "quote": "Each employee reaching more than 10 inches (25 cm) below the level of the walking/working surface on which they are working, shall be protected from falling by a guardrail system, safety net system, or personal fall arrest system.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On low-slope roofs with edges 6 feet or more up, a safety monitoring system alone (without a warning line) is allowed only on roofs 50 feet or less in width.",
+          "quote": "on roofs 50-feet (15.25 m) or less in width (see appendix A to subpart M of this part), the use of a safety monitoring system alone [i.e. without the warning line system] is permitted.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On a steep roof with edges 6 feet or more up, guardrail systems must have toeboards; safety nets or personal fall arrest systems are the other choices.",
+          "quote": "Each employee on a steep roof with unprotected sides and edges 6 feet (1.8 m) or more above lower levels shall be protected from falling by guardrail systems with toeboards, safety net systems, or personal fall arrest systems.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When an employee is exposed to falling objects, the employer must have each employee wear a hard hat and also use one of three measures: toeboards, screens or guardrails; a canopy with objects kept back from the edge; or a barricaded area employees may not enter, with objects kept back from the edge.",
+          "quote": "When an employee is exposed to falling objects, the employer shall have each employee wear a hard hat and shall implement one of the following measures:",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "name": "Guardrail systems",
+      "points": [
+        {
+          "text": "The top edge of a guardrail must be 42 inches plus or minus 3 inches above the walking/working level; it may be higher when conditions warrant if all other criteria are met. When employees use stilts, the height goes up by the height of the stilts.",
+          "quote": "When employees are using stilts, the top edge height of the top rail, or equivalent member, shall be increased an amount equal to the height of the stilts.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Midrails, screens, mesh or similar members are required when there is no wall or parapet wall at least 21 inches high. Midrails go midway between the top edge and the walking/working level.",
+          "quote": "Midrails, when used, shall be installed at a height midway between the top edge of the guardrail system and the walking/working level.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Intermediate members such as balusters may be no more than 19 inches apart, and other structural members must leave no openings wider than 19 inches.",
+          "quote": "Intermediate members (such as balusters), when used between posts, shall be not more than 19 inches (48 cm) apart.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A guardrail must withstand, without failure, at least 200 pounds applied within 2 inches of the top edge in any outward or downward direction; under that downward load the top edge may not deflect below 39 inches.",
+          "quote": "Guardrail systems shall be capable of withstanding, without failure, a force of at least 200 pounds (890 N) applied within 2 inches (5.1 cm) of the top edge, in any outward or downward direction, at any point along the top edge.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "We do not cover the sample guardrail dimensions and lumber sizes in the non-mandatory Appendix B."
+    },
+    {
+      "id": "safety-nets",
+      "name": "Safety net systems",
+      "points": [
+        {
+          "text": "Safety nets must be installed as close as practicable under the work surface, and never more than 30 feet below it.",
+          "quote": "Safety nets shall be installed as close as practicable under the walking/working surface on which employees are working, but in no case more than 30 feet (9.1 m) below such level.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The net's outer edge must extend out from the edge of the working surface at least 8 feet when the net is up to 5 feet below, 10 feet when more than 5 and up to 10 feet below, and 13 feet when more than 10 feet below.",
+          "quote": "Safety nets shall extend outward from the outermost projection of the work surface as follows:",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Nets are drop-tested at the jobsite after initial installation and before use, whenever relocated, after major repair, and every 6 months if left in one place, using a 400-pound bag of sand. If the employer can show the drop test is unreasonable, a certification record is prepared instead.",
+          "quote": "safety nets and safety net installations shall be drop-tested at the jobsite after initial installation and before being used as a fall protection system, whenever relocated, after major repair, and at 6-month intervals if left in one place.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Safety nets must be inspected at least once a week and after any occurrence that could affect their integrity; defective nets may not be used.",
+          "quote": "Safety nets shall be inspected at least once a week for wear, damage, and other deterioration.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "personal-fall-arrest",
+      "name": "Personal fall arrest and positioning device systems",
+      "points": [
+        {
+          "text": "Since January 1, 1998, body belts are not acceptable as part of a personal fall arrest system; a body belt in a positioning device system is still acceptable.",
+          "quote": "Effective January 1, 1998, body belts are not acceptable as part of a personal fall arrest system.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Dee-rings and snaphooks need a minimum tensile strength of 5,000 pounds and must be proof-tested to at least 3,600 pounds. Since January 1, 1998, only locking type snaphooks may be used.",
+          "quote": "Dee-rings and snaphooks shall have a minimum tensile strength of 5,000 pounds (22.2 kN).",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Anchorages for personal fall arrest equipment must be independent of any anchorage supporting or suspending platforms and support at least 5,000 pounds per employee attached, or else be designed, installed and used as part of a complete system with a safety factor of at least two, under the supervision of a qualified person.",
+          "quote": "Anchorages used for attachment of personal fall arrest equipment shall be independent of any anchorage being used to support or suspend platforms and capable of supporting at least 5,000 pounds (22.2 kN) per employee attached",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When stopping a fall, a system used with a body harness must limit the maximum arresting force to 1,800 pounds, be rigged so the employee can neither free fall more than 6 feet nor contact any lower level, and limit deceleration distance to 3.5 feet.",
+          "quote": "be rigged such that an employee can neither free fall more than 6 feet (1.8 m), nor contact any lower level;",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Systems and components subjected to impact loading must be removed from service right away and not used again until a competent person inspects them and finds them undamaged and suitable for reuse.",
+          "quote": "Personal fall arrest systems and components subjected to impact loading shall be immediately removed from service and shall not be used again for employee protection until inspected and determined by a competent person to be undamaged and suitable for reuse.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The employer must provide for prompt rescue after a fall, or make sure employees can rescue themselves.",
+          "quote": "The employer shall provide for prompt rescue of employees in the event of a fall or shall assure that employees are able to rescue themselves.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A positioning device must be rigged so the employee cannot free fall more than 2 feet, and secured to an anchorage that supports at least twice the potential impact load or 3,000 pounds, whichever is greater.",
+          "quote": "Positioning devices shall be rigged such that an employee cannot free fall more than 2 feet (.6 m).",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "We do not cover the test methods and the guidance on selecting and using systems in the non-mandatory Appendices C and D."
+    },
+    {
+      "id": "covers",
+      "name": "Covers",
+      "points": [
+        {
+          "text": "Covers in roadways and vehicle aisles must support at least twice the maximum axle load of the largest vehicle expected to cross; all other covers must support at least twice the weight of employees, equipment and materials that may be on them at one time.",
+          "quote": "All other covers shall be capable of supporting, without failure, at least twice the weight of employees, equipment, and materials that may be imposed on the cover at any one time.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Covers must be secured so wind, equipment or employees cannot accidentally move them, and must be color coded or marked \"HOLE\" or \"COVER\" (this marking rule does not apply to cast iron manhole covers or steel grates on streets or roadways).",
+          "quote": "All covers shall be color coded or they shall be marked with the word “HOLE” or “COVER” to provide warning of the hazard.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "warning-lines-caz-monitoring",
+      "name": "Warning lines, controlled access zones and safety monitoring",
+      "points": [
+        {
+          "text": "A warning line goes around all sides of the roof work area, at least 6 feet from the roof edge when no mechanical equipment is used. With mechanical equipment it must be at least 6 feet from edges parallel to the equipment's direction of travel and at least 10 feet from edges perpendicular to it.",
+          "quote": "and not less than 10 feet (3.1 m) from the roof edge which is perpendicular to the direction of mechanical equipment operation.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The warning line's lowest point (including sag) must be at least 34 inches, and its highest point no more than 39 inches, above the walking/working surface.",
+          "quote": "its lowest point (including sag) is no less than 34 inches (.9 m) from the walking/working surface and its highest point is no more than 39 inches (1.0 m) from the walking/working surface",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For leading edge work, control lines go not less than 6 feet nor more than 25 feet from the edge (precast concrete erection has its own distances). For overhand bricklaying, the control line goes 10 to 15 feet from the working edge.",
+          "quote": "The controlled access zone shall be defined by a control line erected not less than 10 feet (3.1 m) nor more than 15 feet (4.5 m) from the working edge.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Only employees doing overhand bricklaying or related work may be in a bricklaying controlled access zone.",
+          "quote": "Only employees engaged in overhand bricklaying or related work shall be permitted in the controlled access zone.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A safety monitor must be a competent person, on the same walking/working surface and within sight of the employee, close enough to talk to them, and without other duties that could distract from monitoring.",
+          "quote": "The safety monitor shall be on the same walking/working surface and within visual sighting distance of the employee being monitored;",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "falling-objects",
+      "name": "Falling object protection",
+      "points": [
+        {
+          "text": "During roofing work, materials and equipment may not be stored within 6 feet of a roof edge unless guardrails are erected at the edge. During overhand bricklaying, only masonry and mortar may be stored within 4 feet of the working edge.",
+          "quote": "Materials and equipment shall not be stored within 6 feet (1.8 m) of a roof edge unless guardrails are erected at the edge.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "fall-protection-plan",
+      "name": "Fall protection plans",
+      "points": [
+        {
+          "text": "A fall protection plan is available only for leading edge work, precast concrete erection work or residential construction work, where it can be shown that conventional fall protection is infeasible or creates a greater hazard.",
+          "quote": "This option is available only to employees engaged in leading edge work, precast concrete erection work, or residential construction work",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The plan must be prepared by a qualified person, written specifically for the site and kept up to date; changes must be approved by a qualified person, and a copy with all approved changes must be kept at the job site.",
+          "quote": "The fall protection plan shall be prepared by a qualified person and developed specifically for the site where the leading edge work, precast concrete work, or residential construction work is being performed and the plan must be maintained up to date.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Implementing the plan must be supervised by a competent person.",
+          "quote": "The implementation of the fall protection plan shall be under the supervision of a competent person.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The plan must identify each location where conventional fall protection cannot be used; those locations are classified as controlled access zones. It must also name or otherwise identify each employee designated to work in them.",
+          "quote": "These locations shall then be classified as controlled access zones and the employer must comply with the criteria in paragraph (g) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "We do not cover the sample plan in the non-mandatory Appendix E."
+    },
+    {
+      "id": "training",
+      "name": "Training requirements",
+      "points": [
+        {
+          "text": "The employer must provide a training program for each employee who might be exposed to fall hazards.",
+          "quote": "The employer shall provide a training program for each employee who might be exposed to fall hazards.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.503, Training requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.503"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Training must be given, as necessary, by a competent person qualified in the listed areas, such as the nature of fall hazards in the work area and the use and operation of the protection to be used.",
+          "quote": "The employer shall assure that each employee has been trained, as necessary, by a competent person qualified in the following areas:",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.503, Training requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.503"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The written certification record must contain the name or other identity of the employee trained, the date(s) of training, and the signature of the trainer or the employer. The latest training certification must be kept.",
+          "quote": "The written certification record shall contain the name or other identity of the employee trained, the date(s) of the training, and the signature of the person who conducted the training or the signature of the employer.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.503, Training requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.503"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Retraining is required when the employer has reason to believe a trained employee lacks the needed understanding and skill, for example after workplace changes or changes in fall protection systems or equipment make earlier training obsolete.",
+          "quote": "Changes in the types of fall protection systems or equipment to be used render previous training obsolete",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.503, Training requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.503"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    }
+  ]
+}

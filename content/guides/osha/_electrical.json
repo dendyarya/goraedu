@@ -1,0 +1,483 @@
+{
+  "cluster": "osha",
+  "slug": "electrical",
+  "href": "/osha/electrical/study-guide/",
+  "title": "OSHA construction electrical safety study guide",
+  "description": "OSHA construction electrical study guide: GFCIs, assured grounding programs, temporary wiring, cords, live parts and circuit tagging, linked to 29 CFR 1926 Subpart K.",
+  "intro": "OSHA's electrical rules for construction work are in 29 CFR Part 1926, Subpart K (Electrical). This guide sets out what the federal rule text states on the parts a construction worker meets most: ground-fault protection, temporary wiring, flexible cords, guarding of live parts, working near circuits and tagging circuits. Every point links to the rule text it comes from, with the exact words quoted.",
+  "topics": [
+    {
+      "id": "scope",
+      "name": "Scope of Subpart K",
+      "points": [
+        {
+          "text": "The installation rules (1926.402 through 1926.408) apply to both temporary and permanent installations used on the jobsite, but not to existing permanent installations that were in place before the construction activity started.",
+          "quote": "These sections apply to installations, both temporary and permanent, used on the jobsite; but these sections do not apply to existing permanent installations that were in place before the construction activity commenced.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.402, Applicability (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.402"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The installation rules do not cover installations for generating, transmitting and distributing electric energy, but they do cover portable and vehicle-mounted generators that power equipment used at the jobsite. Power line construction is in Subpart V.",
+          "quote": "(However, these regulations do cover portable and vehicle-mounted generators used to provide power for equipment used at the jobsite.) See subpart V of this part for the construction of power distribution and transmission lines.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.402, Applicability (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.402"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "general-requirements",
+      "name": "General requirements for equipment",
+      "points": [
+        {
+          "text": "All electrical conductors and equipment must be approved. In Subpart K, \"approved\" means acceptable to the Assistant Secretary of Labor for Occupational Safety and Health.",
+          "quote": "All electrical conductors and equipment shall be approved.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.403, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.403"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The employer must make sure electrical equipment is free from recognized hazards that are likely to cause death or serious physical harm to employees.",
+          "quote": "The employer shall ensure that electrical equipment is free from recognized hazards that are likely to cause death or serious physical harm to employees.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.403, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.403"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "All splices, joints and free ends of conductors must be covered with insulation equivalent to that of the conductors, or with an insulating device designed for the purpose.",
+          "quote": "All splices and joints and the free ends of conductors shall be covered with an insulation equivalent to that of the conductors or with an insulating device designed for the purpose.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.403, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.403"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "working-space-guarding",
+      "name": "Working space and guarding of live parts",
+      "notCovered": "We do not cover the working-space depths for equipment over 600 volts (Table K-2), elevations of unguarded parts over 600 volts (Table K-3) or the design rules for hazardous (classified) locations and special systems, because they are installation design details beyond this guide's focus on what a construction worker needs.",
+      "points": [
+        {
+          "text": "Sufficient access and working space must be provided and maintained around all electric equipment so it can be operated and maintained readily and safely. (This paragraph covers equipment at 600 volts, nominal, or less.)",
+          "quote": "Sufficient access and working space shall be provided and maintained about all electric equipment to permit ready and safe operation and maintenance of such equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.403, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.403"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For live parts at 600 volts or less that are likely to be worked on while alive, the working space must also be at least 30 inches wide in front of the equipment, on top of the depths in Table K-1.",
+          "quote": "In addition to the dimensions shown in Table K-1, workspace shall not be less than 30 inches (762 mm) wide in front of the electric equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.403, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.403"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Working space required by Subpart K may not be used for storage. When normally enclosed live parts are exposed for inspection or servicing, a working space in a passageway or general open space must be guarded.",
+          "quote": "Working space required by this subpart shall not be used for storage. When normally enclosed live parts are exposed for inspection or servicing, the working space, if in a passageway or general open space, shall be guarded.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.403, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.403"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Except where Subpart K requires or permits otherwise, live parts of equipment operating at 50 volts or more must be guarded against accidental contact by cabinets or other enclosures, or by location in a room, vault or similar enclosure open only to qualified persons, by partitions or screens, by an elevated balcony, gallery or platform, or by elevation of 8 feet or more.",
+          "quote": "live parts of electric equipment operating at 50 volts or more shall be guarded against accidental contact by cabinets or other forms of enclosures, or by any of the following means:",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.403, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.403"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "ground-fault-protection",
+      "name": "Ground-fault protection (GFCI or assured grounding program)",
+      "points": [
+        {
+          "text": "To protect employees on construction sites, the employer must use either ground-fault circuit interrupters (GFCIs) or an assured equipment grounding conductor program. These are in addition to any other equipment grounding requirements.",
+          "quote": "The employer shall use either ground fault circuit interrupters as specified in paragraph (b)(1)(ii) of this section or an assured equipment grounding conductor program as specified in paragraph (b)(1)(iii) of this section to protect employees on construction sites.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "GFCI option: all 120-volt, single-phase, 15- and 20-ampere receptacle outlets on construction sites that are not part of the permanent wiring of the building or structure and that are in use by employees must have approved GFCIs for personnel protection.",
+          "quote": "All 120-volt, single-phase, 15- and 20-ampere receptacle outlets on construction sites, which are not a part of the permanent wiring of the building or structure and which are in use by employees, shall have approved ground-fault circuit interrupters for personnel protection.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Exception: receptacles on a two-wire, single-phase portable or vehicle-mounted generator rated not more than 5kW need no GFCI if the generator's circuit conductors are insulated from the generator frame and all other grounded surfaces.",
+          "quote": "Receptacles on a two-wire, single-phase portable or vehicle-mounted generator rated not more than 5kW, where the circuit conductors of the generator are insulated from the generator frame and all other grounded surfaces",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A GFCI is a device for protecting personnel that de-energizes a circuit, or part of it, within an established time when current to ground exceeds a set value that is less than what would operate the circuit's overcurrent device.",
+          "quote": "Ground-fault circuit interrupter. A device for the protection of personnel that functions to deenergize a circuit or portion thereof within an established period of time when a current to ground exceeds some predetermined value that is less than that required to operate the overcurrent protective device of the supply circuit.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.449, Definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.449"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Assured program option: it covers all cord sets, receptacles that are not part of the building or structure, and cord-and-plug connected equipment available for use or used by employees. A written description of the program must be available at the jobsite.",
+          "quote": "A written description of the program, including the specific procedures adopted by the employer, shall be available at the jobsite for inspection and copying by the Assistant Secretary and any affected employee.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The employer must designate one or more competent persons (as defined in 1926.32(f)) to implement the assured program.",
+          "quote": "The employer shall designate one or more competent persons (as defined in § 1926.32(f)) to implement the program.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Under the program, each cord set, attachment cap, plug and receptacle of cord sets, and any cord-and-plug connected equipment must be visually inspected before each day's use, except cord sets and receptacles that are fixed and not exposed to damage. Damaged or defective equipment may not be used until repaired.",
+          "quote": "shall be visually inspected before each day's use for external defects, such as deformed or missing pins or insulation damage, and for indications of possible internal damage. Equipment found damaged or defective shall not be used until repaired.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Two tests are required: all equipment grounding conductors must be tested for continuity, and each receptacle and attachment cap or plug must be tested for correct attachment of the equipment grounding conductor.",
+          "quote": "All equipment grounding conductors shall be tested for continuity and shall be electrically continuous.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The tests must be done before first use, before return to service after repairs, after any incident reasonably suspected to have caused damage (such as a cord set being run over), and at intervals of no more than 3 months; cord sets and receptacles that are fixed and not exposed to damage are tested at least every 6 months.",
+          "quote": "At intervals not to exceed 3 months, except that cord sets and receptacles which are fixed and not exposed to damage shall be tested at intervals not exceeding 6 months.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Tests must be recorded, identifying each item that passed and the last date it was tested or the interval tested for. The record may be kept by logs, color coding or other effective means.",
+          "quote": "This record shall be kept by means of logs, color coding, or other effective means and shall be maintained until replaced by a more current record.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "grounding",
+      "name": "Grounding and polarity",
+      "notCovered": "We do not cover system grounding design (which AC and DC systems must be grounded, grounding electrode connections, made electrodes or high-voltage grounding), because they are installation design details beyond this guide's focus.",
+      "points": [
+        {
+          "text": "A grounding terminal or grounding-type device on a receptacle, cord connector or attachment plug may be used only for grounding.",
+          "quote": "A grounding terminal or grounding-type device on a receptacle, cord connector, or attachment plug shall not be used for purposes other than grounding.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No grounded conductor may be attached to any terminal or lead so as to reverse the designated polarity.",
+          "quote": "No grounded conductor shall be attached to any terminal or lead so as to reverse designated polarity.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Listed or labeled portable tools and appliances protected by a system of double insulation, or its equivalent, need not be grounded, but they must be distinctively marked as double insulated.",
+          "quote": "Listed or labeled portable tools and appliances protected by a system of double insulation, or its equivalent, need not be grounded. If such a system is employed, the equipment shall be distinctively marked to indicate that the tool or appliance utilizes a system of double insulation.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "temporary-wiring",
+      "name": "Temporary wiring",
+      "points": [
+        {
+          "text": "Temporary wiring must be removed immediately when construction, or the purpose the wiring was installed for, is complete.",
+          "quote": "Temporary wiring shall be removed immediately upon completion of construction or the purpose for which the wiring was installed.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.405"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Branch-circuit conductors may not be laid on the floor. Runs of open conductors must be placed where they will not be physically damaged and fastened at intervals of no more than 10 feet.",
+          "quote": "No branch-circuit conductors shall be laid on the floor.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.405"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "All lamps for general illumination must be protected from accidental contact or breakage, and metal-case sockets must be grounded. Temporary lights may not be hung by their cords unless the cords and lights are designed for it.",
+          "quote": "Temporary lights shall not be suspended by their electric cords unless cords and lights are designed for this means of suspension.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.405"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Portable lighting used in wet or other conductive locations, such as drums, tanks and vessels, must run at 12 volts or less, but 120-volt lights may be used if they are protected by a GFCI.",
+          "quote": "Portable electric lighting used in wet and/or other conductive locations, as for example, drums, tanks, and vessels, shall be operated at 12 volts or less. However, 120-volt lights may be used if protected by a ground-fault circuit interrupter.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.405"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Extension cord sets used with portable electric tools and appliances must be three-wire type and designed for hard or extra-hard usage.",
+          "quote": "Extension cord sets used with portable electric tools and appliances shall be of three-wire type and shall be designed for hard or extra-hard usage.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.405"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "flexible-cords",
+      "name": "Flexible cords and cables",
+      "points": [
+        {
+          "text": "Flexible cords and cables must be protected from damage and sharp corners and projections avoided. They may pass through doorways or other pinch points only if protection is provided to avoid damage.",
+          "quote": "Flexible cords and cables shall be protected from damage. Sharp corners and projections shall be avoided. Flexible cords and cables may pass through doorways or other pinch points, if protection is provided to avoid damage.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.405"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Unless needed for a permitted use, flexible cords may not be used as a substitute for the fixed wiring of a structure, run through holes in walls, ceilings or floors, attached to building surfaces, or concealed behind walls, ceilings or floors.",
+          "quote": "As a substitute for the fixed wiring of a structure;",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.405"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Flexible cords may be used only in continuous lengths without splice or tap. Hard service flexible cords No. 12 or larger may be repaired by a splice that keeps the insulation, outer sheath properties and usage characteristics of the cord.",
+          "quote": "Flexible cords shall be used only in continuous lengths without splice or tap.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.405"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Worn or frayed electric cords or cables may not be used.",
+          "quote": "Worn or frayed electric cords or cables shall not be used.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.416, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.416"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Extension cords may not be fastened with staples, hung from nails or suspended by wire.",
+          "quote": "Extension cords shall not be fastened with staples, hung from nails, or suspended by wire.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.416, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.416"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "work-practices",
+      "name": "Safe work practices near circuits",
+      "points": [
+        {
+          "text": "No employer may let an employee work so close to any part of an electric power circuit that the employee could contact it in the course of work, unless the employee is protected against shock by de-energizing and grounding the circuit or by guarding it effectively by insulation or other means.",
+          "quote": "unless the employee is protected against electric shock by deenergizing the circuit and grounding it or by guarding it effectively by insulation or other means.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.416, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.416"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Where the exact location of underground electric powerlines is unknown, employees using jack-hammers, bars or other hand tools that may contact a line must be provided with insulated protective gloves.",
+          "quote": "In work areas where the exact location of underground electric powerlines is unknown, employees using jack-hammers, bars, or other hand tools which may contact a line shall be provided with insulated protective gloves.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.416, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.416"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Before work begins, the employer must find out, by inquiry, direct observation or instruments, whether any energized circuit, exposed or concealed, is located where the work could bring a person, tool or machine into contact with it. The employer must post warning signs and tell employees where the lines are, the hazards and the protective measures.",
+          "quote": "Before work is begun the employer shall ascertain by inquiry or direct observation, or by instruments, whether any part of an energized electric power circuit, exposed or concealed, is so located that the performance of the work may bring any person, tool, or machine into physical or electrical contact with the electric power circuit.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.416, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.416"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When fuses are installed or removed with one or both terminals energized, special tools insulated for the voltage must be used.",
+          "quote": "When fuses are installed or removed with one or both terminals energized, special tools insulated for the voltage shall be used.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.416, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.416"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "lockout-tagging",
+      "name": "Lockout and tagging of circuits",
+      "points": [
+        {
+          "text": "Controls that are to be deactivated during work on energized or de-energized equipment or circuits must be tagged.",
+          "quote": "Controls that are to be deactivated during the course of work on energized or deenergized equipment or circuits shall be tagged.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.417, Lockout and tagging of circuits (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.417"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "De-energized equipment or circuits must be rendered inoperative and have tags attached at all points where they can be energized.",
+          "quote": "Equipment or circuits that are deenergized shall be rendered inoperative and shall have tags attached at all points where such equipment or circuits can be energized.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.417, Lockout and tagging of circuits (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.417"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Tags must be placed so they plainly identify the equipment or circuits being worked on.",
+          "quote": "Tags shall be placed to identify plainly the equipment or circuits being worked on.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.417, Lockout and tagging of circuits (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.417"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "clearances-environment",
+      "name": "Overhead clearances and wet locations",
+      "points": [
+        {
+          "text": "Open outdoor conductors of 600 volts or less must be at least 10 feet above finished grade, sidewalks, or any platform or projection from which they might be reached; 12 feet over areas with vehicle traffic other than trucks; 15 feet over other areas with truck traffic; and 18 feet over public streets, alleys, roads and driveways.",
+          "quote": "10 feet (3.05 m)-above finished grade, sidewalks, or from any platform or projection from which they might be reached.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Such conductors must be at least 3 feet from windows, doors, fire escapes or similar locations; conductors run above the top level of a window are considered out of reach from it.",
+          "quote": "Conductors shall have a clearance of at least 3 feet (914 mm) from windows, doors, fire escapes, or similar locations.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.404"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Switches, circuit breakers and switchboards installed in wet locations must be in weatherproof enclosures.",
+          "quote": "Switches, circuit breakers, and switchboards installed in wet locations shall be enclosed in weatherproof enclosures.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.405"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "definitions",
+      "name": "Definitions",
+      "points": [
+        {
+          "text": "In Subpart K, a qualified person is one familiar with the construction and operation of the equipment and the hazards involved. This definition replaces the general one in 1926.32 for Subpart K.",
+          "quote": "Qualified person. One familiar with the construction and operation of the equipment and the hazards involved.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.449, Definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.449"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Exposed (as applied to live parts) means capable of being inadvertently touched or approached nearer than a safe distance by a person; it applies to parts not suitably guarded, isolated or insulated.",
+          "quote": "Exposed. (As applied to live parts.) Capable of being inadvertently touched or approached nearer than a safe distance by a person. It is applied to parts not suitably guarded, isolated, or insulated.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.449, Definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.449"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A wet location includes installations underground or in concrete slabs or masonry in direct contact with the earth, and locations subject to saturation with water or other liquids, such as places exposed to weather and unprotected.",
+          "quote": "Wet location. Installations underground or in concrete slabs or masonry in direct contact with the earth, and locations subject to saturation with water or other liquids, such as locations exposed to weather and unprotected.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.449, Definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.449"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    }
+  ]
+}
