@@ -9,10 +9,11 @@ export const SITE = {
     "Free practice questions and study guides for U.S. skilled trades certifications, starting with EPA Sections 608 and 609. Every answer links to the official source.",
   indexable: production,
   /**
-   * Google Analytics 4 measurement ID (public, not a secret). Empty = no analytics at all. Loaded only on
-   * production builds, and never for visitors who send the Global Privacy Control signal.
+   * Google Tag Manager container (public, not a secret). It carries the Google Analytics 4 tag; what it may
+   * contain is limited by the privacy policy (analytics only, no advertising tags). Empty = nothing loads.
+   * Loaded only on production builds, and never for visitors who send the Global Privacy Control signal.
    */
-  gaId: "" as string,
+  gtmId: "GTM-K2T7WGS4" as string,
   contactEmail: "contact@goraedu.com",
   independence:
     "Independent. Not affiliated with or endorsed by any government agency or certifying organization. Certification names are used only to identify each exam.",
