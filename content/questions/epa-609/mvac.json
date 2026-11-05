@@ -2,7 +2,7 @@
   "cluster": "epa-609",
   "slug": "mvac",
   "title": "EPA 609 practice test",
-  "description": "Free EPA Section 609 motor vehicle air conditioning practice questions. Every answer is explained and linked to the section of 40 CFR Part 82, Subpart B it comes from.",
+  "description": "Free EPA Section 609 motor vehicle air conditioning practice questions. Every answer is explained and linked to the section of 40 CFR Part 82 (Subparts B and G) it comes from.",
   "href": "/epa-609/practice-test/",
   "questions": [
     {
@@ -902,6 +902,456 @@
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-051",
+      "topic": "Substitute refrigerants",
+      "question": "Under 40 CFR 82.170(a), what is the purpose of the SNAP regulations in Subpart G?",
+      "options": {
+        "A": "To implement section 609 of the Clean Air Act on technician certification for motor vehicle air conditioner service",
+        "B": "To implement section 612 of the Clean Air Act on the acceptability of substitutes for ozone-depleting compounds",
+        "C": "To set the purity standard for recycled refrigerant returned to motor vehicle air conditioners",
+        "D": "To set the sign that stores must post where small cans of refrigerant are sold"
+      },
+      "answer": "B",
+      "explanation": "Section 82.170(a) says the purpose is \"to implement section 612 of the Clean Air Act\" regarding \"the acceptability of substitutes for ozone-depleting compounds.\" Section 609 technician certification is handled in Subpart B, not in the SNAP program.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.170, Purpose and scope (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G/section-82.170"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-052",
+      "topic": "Substitute refrigerants",
+      "question": "How does 40 CFR 82.172 define a \"substitute\" (or \"alternative\") under the SNAP program?",
+      "options": {
+        "A": "Any chemical, product substitute, or alternative manufacturing process, existing or new, intended for use as a replacement for a class I or II compound",
+        "B": "Only a newly invented chemical that has never been sold before",
+        "C": "Only a refrigerant that EPA has already listed as acceptable without conditions",
+        "D": "Any mixture or blend of two or more compounds"
+      },
+      "answer": "A",
+      "explanation": "The definition covers \"any chemical, product substitute, or alternative manufacturing process, whether existing or new, intended for use as a replacement for a class I or II compound.\" It is not limited to new chemicals (\"whether existing or new\"), and \"any mixture or blend of two or more compounds\" is the separate definition of \"mixture.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.172, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G/section-82.172"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-053",
+      "topic": "Prohibitions",
+      "question": "Under 40 CFR 82.172, what are \"use restrictions\" on a substitute?",
+      "options": {
+        "A": "Limits on the price at which a substitute may be sold",
+        "B": "Rules on who may take the technician certification test",
+        "C": "Conditions on how the substitute can be used across a sector end-use, or limits on the end-uses or specific applications where it can be used within a sector",
+        "D": "Recordkeeping rules for shops that buy refrigerant in containers under 20 pounds"
+      },
+      "answer": "C",
+      "explanation": "The rule defines use restrictions as restrictions imposing \"either conditions on how the substitute can be used across a sector end-use or limits on the end-uses or specific applications where it can be used within a sector.\" The definition says nothing about price, testing or small-container sales records.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.172, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G/section-82.172"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-054",
+      "topic": "Prohibitions",
+      "question": "EPA has listed a substitute as acceptable subject to use restrictions, and the rulemaking imposing them is in effect. What does 40 CFR 82.174(c) require of any person who uses that substitute?",
+      "options": {
+        "A": "Notify EPA within 90 days after first using it",
+        "B": "Get the vehicle owner's written consent before using it",
+        "C": "Nothing, because use restrictions bind only the company that produces the substitute",
+        "D": "Adhere to any use restrictions set by the acceptability decision"
+      },
+      "answer": "D",
+      "explanation": "Section 82.174(c) says \"No person may use a substitute without adhering to any use restrictions set by the acceptability decision\" after the effective date of the rulemaking. It applies to any person who uses the substitute, so it is wrong to say only the producer is bound.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.174, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G/section-82.174"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-055",
+      "topic": "Prohibitions",
+      "question": "A rulemaking adds a substitute to the list of unacceptable substitutes. Under 40 CFR 82.174(d), when does the ban on using it apply?",
+      "options": {
+        "A": "Only after the person's current supply of the substitute runs out",
+        "B": "After the effective date of the rulemaking adding it to the list",
+        "C": "Only to people who bought the substitute after the listing",
+        "D": "Only to the substitute's producer, not to the people who use it"
+      },
+      "answer": "B",
+      "explanation": "Section 82.174(d) says \"No person may use a substitute after the effective date of any rulemaking adding such substitute to the list of unacceptable substitutes.\" The rule contains no exception for existing supply or earlier purchases.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.174, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G/section-82.174"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-056",
+      "topic": "Prohibitions",
+      "question": "A shop is offered a substitute refrigerant that it has reason to know was imported in violation of the Subpart G regulations. What does 40 CFR 82.174(b) say?",
+      "options": {
+        "A": "The shop may use it if it pays the import duty",
+        "B": "The shop may use it as long as it does not resell it",
+        "C": "The shop may not use it",
+        "D": "The shop may use it until EPA sends a warning letter"
+      },
+      "answer": "C",
+      "explanation": "Section 82.174(b) says \"No person may use a substitute which a person knows or has reason to know was manufactured, processed or imported in violation of the regulations in this subpart.\" The rule offers no exception for paying duties, not reselling, or waiting for a warning.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.174, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G/section-82.174"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-057",
+      "topic": "Prohibitions",
+      "question": "In Appendix B, which flammable substitutes are listed as unacceptable for CFC-12 motor vehicle air conditioners (retrofit and new equipment)?",
+      "options": {
+        "A": "Flammable substitutes other than R-152a or HFO-1234yf in new equipment",
+        "B": "R-152a and HFO-1234yf in new equipment",
+        "C": "Only flammable substitutes sold in cans under 20 pounds",
+        "D": "Only flammable substitutes used by uncertified persons"
+      },
+      "answer": "A",
+      "explanation": "The table lists \"Flammable Substitutes, other than R-152a or HFO-1234yf in new equipment\" as \"Unacceptable.\" EPA's comments in the table note that R-152a and HFO-1234yf \"may be used in new equipment with the use conditions in appendix B,\" so listing them as unacceptable is wrong.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-058",
+      "topic": "Prohibitions",
+      "question": "Appendix B lists Hydrocarbon Blend B as unacceptable in CFC-12 motor vehicle air conditioners (retrofit and new equipment). What reason do EPA's comments in the table give?",
+      "options": {
+        "A": "It contains R-c318, a PFC with an extremely high GWP and lifetime",
+        "B": "It contains HCFCs that deplete the ozone layer",
+        "C": "It requires recovery equipment that does not exist",
+        "D": "Flammability is a serious concern, and data have not been submitted to show it can be used safely in this end-use"
+      },
+      "answer": "D",
+      "explanation": "For Hydrocarbon Blend B, EPA's comment says \"Flammability is a serious concern. Data have not been submitted to demonstrate it can be used safely in this end-use.\" The PFC (R-c318) reason is the comment for a different entry, R-405A.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-059",
+      "topic": "Substitute refrigerants",
+      "question": "In the Appendix B entry that lists HFO-1234yf as a CFC-12 substitute in automobile motor vehicle air conditioning, which equipment does the application cover?",
+      "options": {
+        "A": "New equipment in passenger cars and light-duty trucks only",
+        "B": "Retrofit of existing CFC-12 systems in any vehicle",
+        "C": "Household refrigerators and freezers",
+        "D": "Any vehicle, as long as the shop owns approved recovery equipment"
+      },
+      "answer": "A",
+      "explanation": "The application column reads \"New equipment in passenger cars and light-duty trucks only,\" and the decision is \"Acceptable subject to use conditions.\" The entry does not cover retrofits of CFC-12 systems, and other Appendix B rows cover other kinds of new vehicles separately.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-060",
+      "topic": "Fittings and labels",
+      "question": "Under the HFO-1234yf use conditions in Appendix B (as of June 3, 2022), what fittings must be used for connections with small refrigerant cans for consumer or professional use?",
+      "options": {
+        "A": "Fittings with a diameter of 0.25 inches and a right thread direction",
+        "B": "The same fittings used on CFC-12 cans",
+        "C": "Fittings with a diameter of 0.5 inches, a thread pitch of 16 threads per inch, and a left thread direction, consistent with SAE J2844",
+        "D": "Any fitting, as long as an adapter is used"
+      },
+      "answer": "C",
+      "explanation": "The condition says small-can use fittings \"must have a diameter of 0.5 inches, a thread pitch of 16 thread per inch, and a left thread direction, consistent with SAE J2844.\" The condition names one specific fitting, so a CFC-12 fitting or some other fitting does not meet it.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-061",
+      "topic": "Fittings and labels",
+      "question": "As of June 3, 2022, HFO-1234yf MVAC systems must adhere to all of the safety requirements of SAE J639. Which item does the Appendix B condition name among those requirements?",
+      "options": {
+        "A": "A refrigerant identifier built into each service port",
+        "B": "A flammable refrigerant warning label",
+        "C": "A sight glass on the receiver-drier",
+        "D": "A 5-pound maximum system charge"
+      },
+      "answer": "B",
+      "explanation": "The condition says the systems must meet SAE J639 \"including requirements for a flammable refrigerant warning label, high-pressure compressor cutoff switch and pressure relief devices, and unique fittings.\" None of the other options is named in the condition.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-062",
+      "topic": "Fittings and labels",
+      "question": "Under the HFO-1234yf use conditions in Appendix B (as of June 3, 2022), use fittings for connections with refrigerant containers for professional servicing must be consistent with which SAE standard?",
+      "options": {
+        "A": "SAE J1739",
+        "B": "SAE J1052",
+        "C": "SAE J2773",
+        "D": "SAE J2844"
+      },
+      "answer": "D",
+      "explanation": "The condition says that for containers \"for use in professional servicing, use fittings must be consistent with SAE J2844.\" SAE J1739 is the standard the conditions name for manufacturers' Failure Mode and Effect Analysis (FMEA), not for container fittings.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-063",
+      "topic": "Substitute refrigerants",
+      "question": "Under condition (2) for HFO-1234yf in Appendix B (as of June 3, 2022), who must conduct a Failure Mode and Effect Analysis (FMEA) as provided in SAE J1739, and how long must it be kept on file?",
+      "options": {
+        "A": "Manufacturers, for at least three years from the date of creation",
+        "B": "Service technicians, for at least three years after each repair",
+        "C": "Manufacturers, for at least one year from the date of creation",
+        "D": "Shop owners, for at least five years after buying the refrigerant"
+      },
+      "answer": "A",
+      "explanation": "Condition (2) says \"Manufacturers must conduct Failure Mode and Effect Analysis (FMEA)\" and \"must keep the FMEA on file for at least three years from the date of creation.\" This condition binds manufacturers, not service technicians or shop owners.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-064",
+      "topic": "Substitute refrigerants",
+      "question": "What do EPA's comments in the Appendix B HFO-1234yf entries note about recharging MVAC systems with HFO-1234yf, consistent with EPA's Significant New Use Rule under the Toxic Substances Control Act?",
+      "options": {
+        "A": "Anyone may recharge any MVAC system with HFO-1234yf",
+        "B": "Only the original equipment manufacturer may ever recharge an HFO-1234yf system",
+        "C": "Commercial users or consumers can only recharge MVAC systems with HFO-1234yf where the original charging with HFO-1234yf was done by the original equipment manufacturer",
+        "D": "HFO-1234yf may be used to top off a CFC-12 system"
+      },
+      "answer": "C",
+      "explanation": "EPA's comments in the table note that \"commercial users or consumers can only recharge MVAC systems with HFO-1234yf where the original charging of the system with HFO-1234yf was done by the original equipment manufacturer.\" This is a comment pointing to a separate TSCA rule, not one of the SNAP use conditions, and it lets commercial users and consumers recharge such systems, so the option limiting recharging to the original equipment manufacturer is wrong.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-065",
+      "topic": "Substitute refrigerants",
+      "question": "R-152a is acceptable subject to use conditions in new CFC-12 automobile MVAC equipment. Under the Appendix B condition, foreseeable leaks into the passenger compartment must not result in what?",
+      "options": {
+        "A": "Any measurable R-152a in the engine compartment",
+        "B": "R-152a concentrations of 3.7% v/v or above in any part of the free space inside the passenger compartment for more than 15 seconds when the car ignition is on",
+        "C": "R-152a concentrations of 10% v/v or above in the trunk for more than one hour",
+        "D": "R-152a concentrations of 3.7% v/v or above only while the car is parked with the ignition off"
+      },
+      "answer": "B",
+      "explanation": "The condition requires engineering strategies and/or devices so that leaks \"do not result in R-152a concentrations of 3.7% v/v or above in any part of the free space\" inside the passenger compartment \"for more than 15 seconds when the car ignition is on.\" The limit applies while the ignition is on, not while it is off. This condition is a design requirement for the vehicle system.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-066",
+      "topic": "Fittings and labels",
+      "question": "For R-152a in new CFC-12 automobile MVAC equipment, Appendix B says manufacturers must adhere to all the safety requirements of SAE Standard J639 (adopted 2011). Which items does the condition say those requirements include?",
+      "options": {
+        "A": "A high pressure system warning label and right-hand thread fittings",
+        "B": "Barrier hoses and an \"ozone depleter\" label",
+        "C": "A label with the technician's name and the date of the retrofit",
+        "D": "Unique fittings and a flammable refrigerant warning label"
+      },
+      "answer": "D",
+      "explanation": "The R-152a condition names SAE J639 \"including unique fittings and a flammable refrigerant warning label,\" as well as SAE Standard J2773. The high pressure system warning label is named in the CO2 entry, and the technician-name label is an Appendix D retrofit condition.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-067",
+      "topic": "Substitute refrigerants",
+      "question": "Appendix D lists R-406A and certain other blends as acceptable substitutes for CFC-12 in retrofitted MVACs. What hose-related use condition applies to a retrofit to these refrigerants?",
+      "options": {
+        "A": "The retrofit must include replacing non-barrier hoses with barrier hoses",
+        "B": "The retrofit must keep the original non-barrier hoses",
+        "C": "Hoses must be replaced only if the vehicle is more than ten years old",
+        "D": "Hoses must be wrapped with a label stating \"ozone depleter\""
+      },
+      "answer": "A",
+      "explanation": "Appendix D says these blends are acceptable \"subject to the use condition that a retrofit to these refrigerants must include replacing non-barrier hoses with barrier hoses.\" The condition has no vehicle-age exception. This Appendix D listing covers retrofits only. For new equipment in passenger cars and light-duty trucks, Appendix B lists R-406A and several of these blends as unacceptable as of Model Year 2017.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-068",
+      "topic": "Fittings and labels",
+      "question": "Appendix B lists carbon dioxide (CO2) as acceptable subject to use conditions in new CFC-12 motor vehicle air conditioning equipment. Which label does the condition list by name?",
+      "options": {
+        "A": "A flammable refrigerant warning label",
+        "B": "An \"ozone depleter\" label",
+        "C": "A high pressure system warning label",
+        "D": "A label with the price of the refrigerant charge"
+      },
+      "answer": "C",
+      "explanation": "The CO2 condition says its use must follow SAE J639 (2011 version) \"including: Installation of a high pressure system warning label; Installation of a compressor cut-off switch\" and unique fittings. The flammable refrigerant warning label is named in the R-152a and HFO-1234yf entries, not in the CO2 entry.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-069",
+      "topic": "Fittings and labels",
+      "question": "Under the Appendix B use conditions for CO2 in new motor vehicle air conditioning equipment, what thread direction must the unique fitting for CO2 refrigerant service containers have?",
+      "options": {
+        "A": "Left-hand thread direction",
+        "B": "Right-hand thread direction",
+        "C": "Either direction, as long as the thread pitch differs from CFC-12",
+        "D": "No thread; only quick-connect fittings are allowed"
+      },
+      "answer": "B",
+      "explanation": "The condition calls for an outside diameter of 20.955 mm (0.825 inches) \"and righthand thread direction for CO2 refrigerant service containers.\" A table footnote adds that this container fitting requirement applies only to service containers used during MVAC servicing; the left thread direction is the HFO-1234yf small-can requirement.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-070",
+      "topic": "Substitute refrigerants",
+      "question": "Appendix B lists HFC-134a, R-401C and HCFC Blend Beta (R-416A) as acceptable subject to use conditions for retrofitting CFC-12 automobile MVACs. Besides unique fittings and detailed labels, what does the listing require?",
+      "options": {
+        "A": "The CFC-12 may stay in the system and be topped off with the new refrigerant",
+        "B": "Half of the CFC-12 must be removed before retrofitting",
+        "C": "The CFC-12 may stay in the system if the new label lists both refrigerants",
+        "D": "All CFC-12 must be removed from the system prior to retrofitting"
+      },
+      "answer": "D",
+      "explanation": "The conditions for the retrofit listing include \"—all CFC-12 must be removed from the system prior to retrofitting.\" Leaving CFC-12 in the system, whether topped off or labeled, or removing only part of it does not meet that condition.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-071",
+      "topic": "Prohibitions",
+      "question": "Under the use conditions in Appendix D for CFC-12 substitutes in MVACs, what must happen before a system that uses another refrigerant is charged with a substitute?",
+      "options": {
+        "A": "The original refrigerant must be recovered in accordance with the section 609 regulations",
+        "B": "The substitute may be added to \"top-off\" the remaining original refrigerant",
+        "C": "The original refrigerant may be released if the system holds less than 1 pound",
+        "D": "The system must be flushed with the substitute while the original refrigerant is still inside"
+      },
+      "answer": "A",
+      "explanation": "Appendix D says \"No substitute refrigerant may be used to 'top-off' a system that uses another refrigerant\" and \"The original refrigerant must be recovered in accordance with regulations issued under section 609 of the CAA prior to charging with a substitute.\" Topping off with the substitute is exactly what the condition bars.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-072",
+      "topic": "Fittings and labels",
+      "question": "Under the Appendix D use conditions for CFC-12 substitutes in MVACs, how is it treated when a person uses an adapter or deliberately modifies a fitting to use a different refrigerant?",
+      "options": {
+        "A": "It is allowed if the adapter is made by the refrigerant manufacturer",
+        "B": "It is allowed for small cans only",
+        "C": "It is a violation of the use condition",
+        "D": "It is allowed if the technician is certified"
+      },
+      "answer": "C",
+      "explanation": "Appendix D says \"Using an adapter or deliberately modifying a fitting to use a different refrigerant is a violation of this use condition.\" Each refrigerant may only be used with the fittings and can taps specifically intended for it, and the condition makes no exception for certified technicians or small cans.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-073",
+      "topic": "Fittings and labels",
+      "question": "Under Appendix D, the person conducting a retrofit must apply a label to the air conditioning system in the engine compartment. Which information must the label contain?",
+      "options": {
+        "A": "The vehicle owner's name and phone number",
+        "B": "The date of the retrofit",
+        "C": "The price charged for the retrofit",
+        "D": "The mileage of the vehicle at the time of the retrofit"
+      },
+      "answer": "B",
+      "explanation": "The label list includes \"The name and address of the technician and the company performing the retrofit\" and \"The date of the retrofit,\" along with refrigerant and lubricant details. The owner's contact details, the price and the mileage are not on that list.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-074",
+      "topic": "Fittings and labels",
+      "question": "Under Appendix D, where must the retrofit label be affixed?",
+      "options": {
+        "A": "On the inside of the driver's door, where the owner can see it",
+        "B": "On the refrigerant container used for the retrofit",
+        "C": "Anywhere in the engine compartment, next to the original refrigerant label",
+        "D": "Over information related to the previous refrigerant, in a location not normally replaced during vehicle repair"
+      },
+      "answer": "D",
+      "explanation": "Appendix D says \"The label must be affixed to the system over information related to the previous refrigerant, in a location not normally replaced during vehicle repair.\" Placing it next to the old label is wrong, because old-refrigerant information that cannot be covered must be \"rendered permanently unreadable.\"",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "m-075",
+      "topic": "Fittings and labels",
+      "question": "Under Appendix H's criteria for unique fittings for alternative motor vehicle refrigerants, what makes two screw-on fittings \"differ\"?",
+      "options": {
+        "A": "The diameter differs by at least 1/16 inch, or the thread direction is reversed",
+        "B": "Only the thread pitch is changed",
+        "C": "The fittings are a different color",
+        "D": "The fittings come from different manufacturers"
+      },
+      "answer": "A",
+      "explanation": "For screw-on fittings, \"differ\" means \"either the diameter must differ by at least 1⁄16 inch or the thread direction must be reversed.\" The rule says \"Simply changing the thread pitch is not sufficient.\"",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix H (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
       },
       "checked": "2026-11-05"
     }

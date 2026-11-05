@@ -10,7 +10,7 @@ import { getSet, lastChecked, topicsOf } from "@/lib/questions";
 export const metadata: Metadata = {
   title: "EPA 609 Practice Test (Free, with Official Sources)",
   description:
-    "Free EPA Section 609 motor vehicle air conditioning practice questions. Every answer is explained and linked to the section of 40 CFR Part 82, Subpart B it comes from.",
+    "Free EPA Section 609 motor vehicle air conditioning practice questions. Every answer is explained and linked to the section of 40 CFR Part 82 (Subparts B and G) it comes from.",
   alternates: { canonical: "/epa-609/practice-test/" },
 };
 
@@ -60,8 +60,8 @@ export default function Epa609PracticeTestPage() {
           </div>
           <div className="rounded-3xl border border-line bg-panel p-5 text-muted">
             <p>
-              These are our own questions, written from 40 CFR Part 82, Subpart B. They are not questions from any real
-              exam or any approved training program&apos;s test. We add questions as each one passes our{" "}
+              These are our own questions, written from 40 CFR Part 82, Subparts B and G. They are not questions from
+              any real exam or any approved training program&apos;s test. We add questions as each one passes our{" "}
               <Link href="/question-writing-standards/" className="text-low underline">
                 writing standards
               </Link>
