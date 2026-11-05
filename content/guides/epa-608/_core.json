@@ -1,0 +1,660 @@
+{
+  "cluster": "epa-608",
+  "slug": "core",
+  "title": "EPA 608 Core study guide",
+  "description": "Free EPA 608 Core study guide: ozone science, the venting ban, Section 608 rules, the three Rs and recovery, each fact linked to eCFR or EPA.",
+  "intro": "The Core section covers what every Section 608 technician must know: environmental impacts, the Clean Air Act and Montreal Protocol, the Section 608 rules, substitute refrigerants, the three Rs, recovery, safety and shipping. Every point below links to the rule text in 40 CFR Part 82 Subpart F or to an EPA page, with the exact words that support it.",
+  "topics": [
+    {
+      "id": "environmental-impacts",
+      "name": "Environmental impacts",
+      "points": [
+        {
+          "text": "The ozone layer is in the stratosphere, about 10 to 25 miles (15 to 40 km) above the Earth's surface.",
+          "quote": "The ozone layer lies approximately 15-40 kilometers (10-25 miles) above the Earth's surface, in the stratosphere.",
+          "source": {
+            "title": "EPA: Basic Ozone Layer Science",
+            "url": "https://www.epa.gov/ozone-layer-protection/basic-ozone-layer-science"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Some human-made chemicals that contain chlorine and bromine can deplete stratospheric ozone.",
+          "quote": "certain human-made chemicals containing chlorine and bromine can cause the depletion of stratospheric ozone",
+          "source": {
+            "title": "EPA: Information about Ozone and Ozone Depletion",
+            "url": "https://www.epa.gov/ozone-layer-protection/information-ozone-and-ozone-depletion"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In the stratosphere, strong ultraviolet radiation breaks these chemicals down. They release chlorine atoms, which react with ozone.",
+          "quote": "are broken down by strong ultraviolet radiation, release chlorine atoms, and then react with ozone molecules.",
+          "source": {
+            "title": "EPA: Basic Ozone Layer Science",
+            "url": "https://www.epa.gov/ozone-layer-protection/basic-ozone-layer-science"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "EPA states that one chlorine atom can destroy over 100,000 ozone molecules before it is removed from the stratosphere.",
+          "quote": "One chlorine atom can destroy over 100,000 ozone molecules before it is removed from the stratosphere.",
+          "source": {
+            "title": "EPA: Basic Ozone Layer Science",
+            "url": "https://www.epa.gov/ozone-layer-protection/basic-ozone-layer-science"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Ozone-depleting substances (ODS) include CFCs, HCFCs and halons, among others.",
+          "quote": "ODS include chlorofluorocarbons (CFCs), hydrochlorofluorocarbons (HCFCs), halons",
+          "source": {
+            "title": "EPA: Basic Ozone Layer Science",
+            "url": "https://www.epa.gov/ozone-layer-protection/basic-ozone-layer-science"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Ozone layer depletion increases the amount of UVB radiation that reaches the Earth's surface.",
+          "quote": "Ozone layer depletion increases the amount of UVB that reaches the Earth’s surface.",
+          "source": {
+            "title": "EPA: Health and Environmental Effects of Ozone Layer Depletion",
+            "url": "https://www.epa.gov/ozone-layer-protection/health-and-environmental-effects-ozone-layer-depletion"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For people, too much UVB raises the risk of skin cancer, cataracts and a suppressed immune system.",
+          "quote": "increases the risks of skin cancer, cataracts, and a suppressed immune system for humans.",
+          "source": {
+            "title": "EPA: Health and Environmental Effects of Ozone Layer Depletion",
+            "url": "https://www.epa.gov/ozone-layer-protection/health-and-environmental-effects-ozone-layer-depletion"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "UVB also affects plants: it affects their physiological and developmental processes.",
+          "quote": "UVB radiation affects the physiological and developmental processes of plants.",
+          "source": {
+            "title": "EPA: Health and Environmental Effects of Ozone Layer Depletion",
+            "url": "https://www.epa.gov/ozone-layer-protection/health-and-environmental-effects-ozone-layer-depletion"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In marine animals such as fish, shrimp and crab, EPA names decreased reproductive capacity and impaired larval development as the most severe effects of UVB.",
+          "quote": "The most severe effects are decreased reproductive capacity and impaired larval development.",
+          "source": {
+            "title": "EPA: Health and Environmental Effects of Ozone Layer Depletion",
+            "url": "https://www.epa.gov/ozone-layer-protection/health-and-environmental-effects-ozone-layer-depletion"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "How CFCs, HCFCs and HFCs compare in ozone depletion potential and global warming potential, and HFCs' effect on climate."
+    },
+    {
+      "id": "clean-air-act-montreal-protocol",
+      "name": "Clean Air Act and Montreal Protocol",
+      "points": [
+        {
+          "text": "The Montreal Protocol was signed in 1987. It was the first step in international efforts to protect stratospheric ozone.",
+          "quote": "signed in 1987, was the first step in international efforts to protect stratospheric ozone.",
+          "source": {
+            "title": "EPA: International Treaties and Cooperation about the Protection of the Stratospheric Ozone Layer",
+            "url": "https://www.epa.gov/ozone-layer-protection/international-treaties-and-cooperation-about-protection-stratospheric-ozone"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Under the Montreal Protocol, developed countries had to begin phasing out CFCs in 1993.",
+          "quote": "were required to begin phasing out CFCs in 1993",
+          "source": {
+            "title": "EPA: International Treaties and Cooperation about the Protection of the Stratospheric Ozone Layer",
+            "url": "https://www.epa.gov/ozone-layer-protection/international-treaties-and-cooperation-about-protection-stratospheric-ozone"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The Kigali Amendment (2016) extended the Protocol to phase down production and consumption of HFCs.",
+          "quote": "extended controls to phase down the production and consumption of hydrofluorocarbons (HFCs).",
+          "source": {
+            "title": "EPA: International Treaties and Cooperation about the Protection of the Stratospheric Ozone Layer",
+            "url": "https://www.epa.gov/ozone-layer-protection/international-treaties-and-cooperation-about-protection-stratospheric-ozone"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Class I substances (such as CFCs) have been completely phased out, except for limited exemptions allowed under the Montreal Protocol.",
+          "quote": "have been completely phased out, except for limited exemptions allowed under the Montreal Protocol.",
+          "source": {
+            "title": "EPA: Phaseout of Ozone-Depleting Substances under the Clean Air Act",
+            "url": "https://www.epa.gov/ods-phaseout/phaseout-ods-under-clean-air-act"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "New production and import of most HCFCs were phased out as of 2020.",
+          "quote": "New production and import of most HCFCs were phased out as of 2020.",
+          "source": {
+            "title": "EPA: Phaseout of Ozone-Depleting Substances (ODS)",
+            "url": "https://www.epa.gov/ods-phaseout"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "U.S. production and import of HCFC-22 (R-22) ended on January 1, 2020.",
+          "quote": "U.S. production and import of HCFC-22 ended on January 1, 2020,",
+          "source": {
+            "title": "EPA: Residential Air Conditioning and the Phaseout of HCFC-22: What You Need to Know (PDF)",
+            "url": "https://www.epa.gov/sites/production/files/2020-03/documents/residential_air_conditioning_and_the_phaseout_of_hcfc-22_what_you_need_to_know_final_508.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "EPA says recovered and reclaimed R-22, along with R-22 produced before 2020, will help meet the needs of owners of existing R-22 systems.",
+          "quote": "will help meet the needs of owners of existing HCFC-22 systems.",
+          "source": {
+            "title": "EPA: Residential Air Conditioning and the Phaseout of HCFC-22: What You Need to Know (PDF)",
+            "url": "https://www.epa.gov/sites/production/files/2020-03/documents/residential_air_conditioning_and_the_phaseout_of_hcfc-22_what_you_need_to_know_final_508.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The Section 608 rules carry out Title VI of the Clean Air Act. Their purpose is to cut refrigerant emissions to the lowest achievable level by maximizing recapture and recycling during service and disposal.",
+          "quote": "to the lowest achievable level by maximizing the recapture and recycling of such refrigerants during the maintenance, service, repair, and disposal of appliances",
+          "source": {
+            "title": "eCFR: 40 CFR 82.150, Purpose and scope (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.150"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No one maintaining, servicing, repairing or disposing of an appliance or industrial process refrigeration may knowingly vent or release its refrigerant into the environment.",
+          "quote": "No person maintaining, servicing, repairing, or disposing of an appliance or industrial process refrigeration may knowingly vent or otherwise release into the environment any refrigerant from such appliances.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Knowingly releasing a class I, class II or non-exempt substitute refrigerant after it has been recovered from an appliance also violates the venting prohibition.",
+          "quote": "The knowing release of a class I or class II refrigerant or a non-exempt substitute refrigerant after its recovery from an appliance is a violation of the venting prohibition.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Small (de minimis) releases during good faith attempts to recycle or recover refrigerant are not covered by the prohibition, but only when the required practices, certified equipment and certification rules are followed.",
+          "quote": "De minimis releases associated with good faith attempts to recycle or recover refrigerants are not subject to this prohibition.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The dates the venting prohibition took effect, the CFC phaseout dates in the U.S., and the maximum Clean Air Act penalty amount (no current EPA Section 608 page or Subpart F text we checked states the dollar figure)."
+    },
+    {
+      "id": "section-608-regulations",
+      "name": "Section 608 regulations",
+      "points": [
+        {
+          "text": "An appliance is any device that contains and uses a class I or class II substance or a substitute as a refrigerant for household or commercial purposes. Each independent circuit of a multi-circuit system counts as a separate appliance.",
+          "quote": "For a system with multiple circuits, each independent circuit is considered a separate appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A high-pressure appliance uses a refrigerant with a liquid phase saturation pressure between 170 and 355 psia at 104 °F, such as R-22, R-407A, R-407C, R-410A or R-502.",
+          "quote": "High-pressure appliance means an appliance that uses a refrigerant with a liquid phase saturation pressure between 170 psia and 355 psia at 104 °F. Examples include but are not limited to appliances using R-22, R-407A, R-407C, R-410A, and R-502.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A very high-pressure appliance uses a refrigerant with a critical temperature below 104 °F, or a saturation pressure above 355 psia at 104 °F, such as R-13, R-23, R-503, R-508A or R-508B.",
+          "quote": "Very high-pressure appliance means an appliance that uses a refrigerant with a critical temperature below 104 °F or with a liquid phase saturation pressure above 355 psia at 104 °F.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A medium-pressure appliance uses a refrigerant with a saturation pressure between 45 and 170 psia at 104 °F, such as R-114, R-124, R-12, R-134a or R-500.",
+          "quote": "Medium-pressure appliance means an appliance that uses a refrigerant with a liquid phase saturation pressure between 45 psia and 170 psia at 104 °F.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A low-pressure appliance uses a refrigerant with a saturation pressure below 45 psia at 104 °F, such as R-11, R-123, R-113 or R-245fa.",
+          "quote": "Low-pressure appliance means an appliance that uses a refrigerant with a liquid phase saturation pressure below 45 psia at 104 °F. Examples include but are not limited to appliances using R-11, R-123, R-113, and R-245fa.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A small appliance is fully manufactured, charged and hermetically sealed in a factory with 5 pounds or less of refrigerant (for example refrigerators, window air conditioners, dehumidifiers, vending machines).",
+          "quote": "Small appliance means any appliance that is fully manufactured, charged, and hermetically sealed in a factory with five (5) pounds or less of refrigerant",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Subpart F applies to anyone maintaining, servicing or repairing appliances that contain class I, class II or non-exempt substitute refrigerants, and to people disposing of such appliances.",
+          "quote": "This subpart applies to any person maintaining, servicing, or repairing appliances containing class I, class II or non-exempt substitute refrigerants.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.150, Purpose and scope (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.150"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Type I certification is for small appliances; Type II for medium-, high- and very high-pressure appliances (except small appliances, MVACs and MVAC-like appliances); Type III for low-pressure appliances; Universal for all three.",
+          "quote": "Persons who maintain, service, or repair small appliances must be certified as Type I technicians.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Certified technicians must keep a copy of their certificate at their place of business, until three years after they stop working as a technician.",
+          "quote": "Technicians must maintain a copy of their certificate until three years after no longer operating as a technician.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Anyone servicing or disposing of an appliance with class I, class II or non-exempt substitute refrigerant must use recovery and/or recycling equipment certified for that type of refrigerant and appliance.",
+          "quote": "Using recovery and/or recycling equipment that is certified for that type of refrigerant and appliance under § 82.158.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Recovery and recycling equipment may not be made or imported unless it is certified. Manufacturers must have it certified by an EPA-approved equipment testing organization (third party).",
+          "quote": "Manufacturers and importers of recovery and/or recycling equipment must have such equipment certified by an approved equipment testing organization as follows:",
+          "source": {
+            "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Certified equipment must carry a permanent label stating that an approved testing organization certified it, with the date of manufacture and serial number (if applicable).",
+          "quote": "Manufacturers and importers of equipment certified under paragraphs (d) and (e) of this section must place a label on each piece of equipment stating the following:",
+          "source": {
+            "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Certified recovery and/or recycling equipment for appliances other than small appliances, MVACs and MVAC-like appliances must have low-loss fittings on all hoses.",
+          "quote": "The equipment must be equipped with low-loss fittings on all hoses.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A reclaimer selling used refrigerant to a new owner must reclaim it to the specifications in appendix A (based on AHRI Standard 700-2016) and verify each batch.",
+          "quote": "Reclaim such refrigerant to all the specifications in appendix A of this subpart (based on AHRI Standard 700-2016, Specifications for Refrigerants) that are applicable to that refrigerant;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.164, Reclaimer certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.164"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A certified reclaimer may release no more than 1.5 percent of the refrigerant during reclamation.",
+          "quote": "Release no more than 1.5 percent of the refrigerant during the reclamation process;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.164, Reclaimer certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.164"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Used refrigerant may be sold for use as a refrigerant only if a certified reclaimer has reclaimed it, with limited exceptions (for example MVAC refrigerant, refrigerant inside an appliance, or transfers within one company or federal agency).",
+          "quote": "consisting wholly or in part of used refrigerant unless the refrigerant: (1) Has been reclaimed by a person who has been certified as a reclaimer under § 82.164;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Sales restriction: refrigerant containing a class I or class II substance, and since January 1, 2018 any non-exempt substitute, may be sold only to certified technicians or under the other listed exceptions.",
+          "quote": "No person may sell or distribute, or offer for sale or distribution, any substance that consists in whole or in part of a class I or class II substance or, starting on January 1, 2018, any non-exempt substitute for use as a refrigerant unless:",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A buyer who is not certified can still buy if they employ at least one certified technician and give the seller proof.",
+          "quote": "The buyer employs at least one technician who is certified as a Type I, Type II, Type III, or Universal technician under § 82.161 and provides proof of such to the seller;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "EPA notes that Section 609 (motor vehicle) certified technicians cannot buy refrigerant intended for stationary equipment.",
+          "quote": "Section 609 certified technicians cannot purchase refrigerants that are intended for use with stationary equipment",
+          "source": {
+            "title": "EPA: Refrigerant Sales Restriction",
+            "url": "https://www.epa.gov/section608/refrigerant-sales-restriction"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Appliances (other than small appliances and those with only exempt refrigerants) must be sold with a servicing aperture; small appliances must have a process stub, so refrigerant can be removed at servicing and disposal.",
+          "quote": "unless it is equipped with a servicing aperture to facilitate the removal of refrigerant at servicing and disposal.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "substitute-refrigerants-and-oils",
+      "name": "Substitute refrigerants and oils",
+      "points": [
+        {
+          "text": "A substitute is any chemical or product used as a refrigerant to replace a class I or II ozone-depleting substance, such as HFCs, HFOs, hydrocarbons, ammonia, carbon dioxide and blends.",
+          "quote": "Substitute means any chemical or product, whether existing or new, that is used as a refrigerant to replace a class I or II ozone-depleting substance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "To retrofit is to convert an appliance from one refrigerant to another. It may require changes in lubricants, gaskets, filters, driers, valves, o-rings or components.",
+          "quote": "Retrofitting includes the conversion of the appliance to achieve system compatibility with the new refrigerant and may include, but is not limited to, changes in lubricants, gaskets, filters, driers, valves, o-rings or appliance components.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Carbon dioxide, nitrogen and water are exempt from the venting prohibition and from Subpart F in any application.",
+          "quote": "the following substitutes in the following end-uses are exempt from this prohibition and from the requirements of this subpart: (i) Carbon dioxide in any application; (ii) Nitrogen in any application; (iii) Water in any application;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Ammonia is exempt only in commercial or industrial process refrigeration or in absorption units.",
+          "quote": "Ammonia in commercial or industrial process refrigeration or in absorption units;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Isobutane (R-600a) is exempt only in stand-alone retail food refrigerators and freezers, household refrigerators and freezers, and vending machines. Propane (R-290) and R-441A are exempt only in the end-uses the rule lists.",
+          "quote": "Isobutane (R-600a) in retail food refrigerators and freezers (stand-alone units only); household refrigerators, freezers, and combination refrigerators and freezers; and vending machines;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "\"Non-exempt substitutes\" means all substitutes and end-uses not listed as exempt. They are covered by the venting prohibition and the rest of Subpart F.",
+          "quote": "the term “non-exempt substitutes” refers to all other substitutes and end-uses not so specified in § 82.154(a)(1).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Since January 1, 2018, the evacuation requirements apply to appliances with non-exempt substitute refrigerants (such as HFCs), not only class I and class II refrigerants.",
+          "quote": "Starting on January 1, 2018, this section applies to evacuation of refrigerant from appliances containing any class I or class II refrigerant or any non-exempt substitute refrigerant,",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "Why substitutes are not drop-in replacements, which lubricants (mineral, alkylbenzene, POE, PAG) go with which refrigerants, and fractionation or temperature glide of blends during leaks."
+    },
+    {
+      "id": "refrigeration",
+      "name": "Refrigeration",
+      "points": [
+        {
+          "text": "Connecting and disconnecting hoses and gauges to measure pressures, add refrigerant or recover refrigerant is not \"opening an appliance.\"",
+          "quote": "Connecting and disconnecting hoses and gauges to measure pressures, add refrigerant, or recover refrigerant from the appliance are not considered “opening an appliance.”",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A leak inspection finds where refrigerant leaks are. Methods include ultrasonic tests, gas-imaging cameras, bubble tests, or a leak detection device used according to the manufacturer.",
+          "quote": "Potential methods include, but are not limited to, ultrasonic tests, gas-imaging cameras, bubble tests as appropriate, or the use of a leak detection device operated and maintained according to manufacturer guidelines.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Methods that only show whether an appliance is leaking (pressure or vacuum decay tests, sight glass checks, receiver levels, pressure checks, charging charts) must be used together with a method that locates the leak.",
+          "quote": "Methods that determine whether the appliance is leaking refrigerant but not the location of a leak, such as standing pressure/vacuum decay tests, sight glass checks, viewing receiver levels, pressure checks, and charging charts, must be used in conjunction with methods that can determine the location of a leak.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An initial verification test is a leak test done after the repair and before refrigerant is added back.",
+          "quote": "Initial verification test means those leak tests that are conducted after the repair is finished to verify that a leak or leaks have been repaired before refrigerant is added back to the appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A follow-up verification test checks the repair after the appliance returns to normal operation. Methods include soap bubbles, electronic or ultrasonic detectors, pressure or vacuum tests, fluorescent dye and black light.",
+          "quote": "Potential methods for follow-up verification tests include, but are not limited to, the use of soap bubbles as appropriate, electronic or ultrasonic leak detectors, pressure or vacuum tests, fluorescent dye and black light, infrared or near infrared tests, and handheld gas detection devices.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The refrigeration cycle itself (refrigerant states and pressures in each part of the system), pressure-temperature relationships, and how to read or connect gauge manifolds."
+    },
+    {
+      "id": "three-rs",
+      "name": "The three Rs: recover, recycle, reclaim",
+      "points": [
+        {
+          "text": "Recover: remove refrigerant in any condition from an appliance and store it in an external container, without necessarily testing or processing it.",
+          "quote": "Recover means to remove refrigerant in any condition from an appliance and to store it in an external container without necessarily testing or processing it in any way.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Recycle: extract refrigerant from an appliance (except MVACs) and clean it for reuse in equipment of the same owner, without meeting all reclamation requirements.",
+          "quote": "Recycle, when referring to refrigerant, means to extract refrigerant from an appliance (except MVACs) and clean it for reuse in equipment of the same owner without meeting all of the requirements for reclamation.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Recycled refrigerant is generally cleaned by oil separation and one or more passes through devices such as replaceable core filter-driers, which reduce moisture, acidity and particulates.",
+          "quote": "In general, recycled refrigerant is cleaned using oil separation and single or multiple passes through devices, such as replaceable core filter-driers, which reduce moisture, acidity, and particulate matter.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Reclaim: reprocess recovered refrigerant to all the applicable specifications in appendix A (based on AHRI Standard 700-2016) and verify it with the analytical method in appendix A.",
+          "quote": "Reclaim means to reprocess recovered refrigerant to all of the specifications in appendix A of this subpart (based on AHRI Standard 700-2016, Specifications for Refrigerants) that are applicable to that refrigerant",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Recovered refrigerant may go back into the same appliance, or another appliance of the same owner, without being recycled or reclaimed, unless it is an MVAC or MVAC-like appliance.",
+          "quote": "Refrigerant may be returned to the appliance from which it is recovered or to another appliance owned by the same person without being recycled or reclaimed, unless the appliance is an MVAC or MVAC-like appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "recovery-techniques",
+      "name": "Recovery techniques",
+      "points": [
+        {
+          "text": "Before opening or disposing of an appliance (other than small appliances, MVACs and MVAC-like appliances), technicians must evacuate the refrigerant, including all liquid, to the Table 1 levels with certified equipment.",
+          "quote": "technicians must evacuate the refrigerant, including all the liquid refrigerant, to the levels in Table 1 using a recovery and/or recycling machine certified pursuant to § 82.158",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Technicians may evacuate the whole appliance or only the part being serviced, if that part's refrigerant can be isolated to a system receiver. They must verify the required level before opening.",
+          "quote": "Technicians may evacuate either the entire appliance or the part to be serviced, if the refrigerant in the part can be isolated to a system receiver.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If leaks make Table 1 levels unattainable, isolate leaking from non-leaking parts where possible, evacuate non-leaking parts to Table 1, and evacuate leaking parts as low as possible without contaminating the refrigerant, never above 0 psig.",
+          "quote": "Evacuate leaking components to be opened or disposed of to the lowest level that can be attained without substantially contaminating the refrigerant. This level may not exceed 0 psig.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Self-contained recovery equipment removes refrigerant without help from the appliance's components. System-dependent equipment needs the appliance's components to do so.",
+          "quote": "Self-contained recovery equipment means refrigerant recovery and/or recycling equipment that is capable of removing the refrigerant from an appliance without the assistance of components contained in the appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "System-dependent recovery equipment may not be used on appliances with a full charge of more than 15 pounds, unless it is permanently attached as a pump-out unit.",
+          "quote": "System-dependent equipment may not be used with appliances with a full charge of more than 15 pounds of refrigerant, unless the system-dependent equipment is permanently attached to the appliance as a pump-out unit.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Recovery and recycling equipment must be used according to the manufacturer's directions, unless they conflict with Subpart F.",
+          "quote": "All recovery and/or recycling equipment must be used in accordance with the manufacturer's directions unless such directions conflict with the requirements of this subpart.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Recovery efficiency is the percentage of the refrigerant in an appliance that a piece of recovery or recycling equipment recovers.",
+          "quote": "Recovery efficiency means the percentage of refrigerant in an appliance that is recovered by a piece of recovery and/or recycling equipment.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "How to avoid mixing refrigerants in a recovery cylinder, and the factors that affect recovery speed (such as temperature, hose length and diameter)."
+    },
+    {
+      "id": "dehydration-evacuation",
+      "name": "Dehydration evacuation",
+      "points": [],
+      "notCovered": "Evacuating a system after service to remove air and moisture (dehydration), including target vacuum levels and how to measure them; Subpart F sets recovery evacuation levels but not dehydration practice."
+    },
+    {
+      "id": "safety",
+      "name": "Safety",
+      "points": [
+        {
+          "text": "Recovery equipment made or imported on or after January 1, 2017 must be certified under appendix B3 for non-flammable refrigerants, or appendix B4 for flammable refrigerants.",
+          "quote": "under the conditions of appendix B3 (for non-flammable refrigerants) based upon AHRI Standard 740-2016 or appendix B4 (for flammable refrigerants) of this subpart.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "Health hazards of refrigerant exposure (such as oxygen displacement and decomposition products), personal protective equipment, recovery and disposable cylinder types and handling, cylinder filling limits, and which gases and pressure controls are safe for leak testing."
+    },
+    {
+      "id": "shipping",
+      "name": "Shipping",
+      "points": [],
+      "notCovered": "Labeling and paperwork for shipping refrigerant cylinders; these come from U.S. Department of Transportation rules, not Section 608."
+    }
+  ]
+}
