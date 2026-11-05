@@ -53,10 +53,11 @@ export const FAMILIES: Family[] = [
     clusters: [
       {
         id: "cdl",
-        name: "Commercial driver's license (CDL)",
-        summary: "Knowledge tests for the commercial learner's permit and endorsements.",
-        source: "FMCSA and state driver manuals",
-        status: "next",
+        name: "CDL federal rules (FMCSA)",
+        summary: "The federal motor carrier safety rules in 49 CFR that CDL drivers must know.",
+        source: "FMCSA, 49 CFR Parts 382 to 396",
+        status: "available",
+        href: "/cdl/",
       },
       {
         id: "forklift",

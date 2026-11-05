@@ -2,7 +2,7 @@
 // the OSHA Outreach Training Program course topics for each industry.
 
 export type OshaSet = { slug: string; name: string; rule: string; focus: string | null };
-export type OshaClusterId = "osha" | "osha-general-industry";
+export type OshaClusterId = "osha" | "osha-general-industry" | "cdl";
 
 const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "intro-to-osha", name: "Introduction to OSHA", rule: "29 CFR Parts 1903 and 1904", focus: null },
@@ -16,6 +16,17 @@ const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "hazard-communication", name: "Hazard communication", rule: "29 CFR 1926.59 and 1910.1200", focus: null },
   { slug: "silica", name: "Respirable crystalline silica", rule: "29 CFR 1926.1153", focus: null },
   { slug: "general-safety", name: "General safety and health", rule: "29 CFR 1926 Subpart C", focus: null },
+];
+
+const CDL_SETS: OshaSet[] = [
+  { slug: "cdl-standards", name: "License standards", rule: "49 CFR Part 383", focus: null },
+  { slug: "driver-qualifications", name: "Driver qualifications", rule: "49 CFR Part 391", focus: null },
+  { slug: "driving-rules", name: "Driving rules", rule: "49 CFR Part 392", focus: null },
+  { slug: "hours-of-service", name: "Hours of service", rule: "49 CFR Part 395", focus: null },
+  { slug: "inspection-maintenance", name: "Inspection and maintenance", rule: "49 CFR Part 396", focus: null },
+  { slug: "brakes", name: "Brakes", rule: "49 CFR Part 393 Subpart C", focus: null },
+  { slug: "cargo-securement", name: "Cargo securement", rule: "49 CFR Part 393 Subpart I", focus: null },
+  { slug: "drug-alcohol-testing", name: "Drug and alcohol testing", rule: "49 CFR Part 382", focus: null },
 ];
 
 const GENERAL_INDUSTRY_SETS: OshaSet[] = [
@@ -35,17 +46,50 @@ const GENERAL_INDUSTRY_SETS: OshaSet[] = [
   { slug: "noise", name: "Occupational noise exposure", rule: "29 CFR 1910.95", focus: null },
 ];
 
+const OSHA_INDEPENDENCE_TEXT =
+  "goraedu is not an OSHA Outreach Training Program provider and does not issue OSHA 10 or OSHA 30 cards. Our practice questions do not count toward training hours. Not affiliated with or endorsed by OSHA or the U.S. Department of Labor.";
+
+export const CDL_INDEPENDENCE_TEXT =
+  "goraedu does not issue licenses or permits, and our questions are not a state CDL knowledge test. Not affiliated with or endorsed by FMCSA, the U.S. Department of Transportation or any state driver licensing agency.";
+
 export const OSHA_CLUSTERS: Record<
   OshaClusterId,
-  { id: OshaClusterId; label: string; href: string; part: string; sets: OshaSet[] }
+  {
+    id: OshaClusterId;
+    label: string;
+    href: string;
+    part: string;
+    sets: OshaSet[];
+    independence: string;
+    notFrom: string;
+  }
 > = {
-  osha: { id: "osha", label: "OSHA Construction", href: "/osha/", part: "29 CFR Part 1926", sets: CONSTRUCTION_SETS },
+  osha: {
+    id: "osha",
+    label: "OSHA Construction",
+    href: "/osha/",
+    part: "29 CFR Part 1926",
+    sets: CONSTRUCTION_SETS,
+    independence: OSHA_INDEPENDENCE_TEXT,
+    notFrom: "any OSHA Outreach course or trainer",
+  },
   "osha-general-industry": {
     id: "osha-general-industry",
     label: "OSHA General Industry",
     href: "/osha-general-industry/",
     part: "29 CFR Part 1910",
     sets: GENERAL_INDUSTRY_SETS,
+    independence: OSHA_INDEPENDENCE_TEXT,
+    notFrom: "any OSHA Outreach course or trainer",
+  },
+  cdl: {
+    id: "cdl",
+    label: "CDL",
+    href: "/cdl/",
+    part: "49 CFR Parts 382 to 396",
+    sets: CDL_SETS,
+    independence: CDL_INDEPENDENCE_TEXT,
+    notFrom: "any state CDL knowledge test, driver manual or prep course",
   },
 };
 
@@ -55,8 +99,7 @@ export const OSHA_SETS = CONSTRUCTION_SETS;
 /** Topics shared by both OSHA clusters, published once under /osha/. */
 export const OSHA_SHARED = ["intro-to-osha", "hazard-communication"];
 
-export const OSHA_INDEPENDENCE =
-  "goraedu is not an OSHA Outreach Training Program provider and does not issue OSHA 10 or OSHA 30 cards. Our practice questions do not count toward training hours. Not affiliated with or endorsed by OSHA or the U.S. Department of Labor.";
+export const OSHA_INDEPENDENCE = OSHA_INDEPENDENCE_TEXT;
 
 export const oshaSetName = (slug: string, cluster: OshaClusterId = "osha") =>
   OSHA_CLUSTERS[cluster].sets.find((s) => s.slug === slug)?.name ?? slug;

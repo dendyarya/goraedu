@@ -66,4 +66,12 @@ export const TOOLS: Tool[] = [
     summary:
       "Work out a noise dose and 8-hour TWA from sound levels and hours with Table G-16a of 29 CFR 1910.95, and compare it with the 85 dBA action level.",
   },
+  {
+    slug: "hours-of-service-calculator",
+    cluster: "cdl",
+    name: "CDL hours of service calculator",
+    href: "/cdl/tools/hours-of-service-calculator/",
+    summary:
+      "See how much driving time is left under the property-carrying limits in 49 CFR 395.3: 11 hours, the 14-hour period, the 30-minute break and 60/70 hours.",
+  },
 ];

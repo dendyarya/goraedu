@@ -8,7 +8,7 @@ import PracticeTest from "@/components/PracticeTest";
 import QuestionReview from "@/components/QuestionReview";
 import { getAllGuides, guideChecked } from "@/lib/guides";
 import { formatDate } from "@/lib/news";
-import { OSHA_CLUSTERS, OSHA_INDEPENDENCE, type OshaClusterId, oshaPageTitle, oshaRank, oshaSetName } from "@/lib/osha";
+import { OSHA_CLUSTERS, type OshaClusterId, oshaPageTitle, oshaRank, oshaSetName } from "@/lib/osha";
 import { getAllSets, lastChecked, topicsOf } from "@/lib/questions";
 
 type Props = { params: Promise<{ set: string }> };
@@ -43,7 +43,7 @@ export function practiceRoute(cluster: OshaClusterId) {
       const topics = topicsOf(set);
       const guide = getAllGuides().find((g) => g.cluster === cluster && g.slug === set.slug);
       const others = setsFor().filter((s) => s.slug !== set.slug);
-      const label = intro(name) ? name : `OSHA ${name}`;
+      const label = intro(name) ? name : `${cluster === "cdl" ? "CDL" : "OSHA"} ${name}`;
 
       return (
         <PageShell
@@ -100,10 +100,9 @@ export function practiceRoute(cluster: OshaClusterId) {
               ) : null}
               <div className="rounded-3xl border border-line bg-panel p-5 text-muted">
                 <p>
-                  Our own questions, written from {meta ? meta.rule : c.part}. They are not questions from any OSHA
-                  Outreach course or trainer.
+                  Our own questions, written from {meta ? meta.rule : c.part}. They are not questions from {c.notFrom}.
                 </p>
-                <p className="mt-3">{OSHA_INDEPENDENCE}</p>
+                <p className="mt-3">{c.independence}</p>
                 <p className="mt-3">
                   Spot an error?{" "}
                   <Link href="/contact/" className="text-low underline">
@@ -174,7 +173,7 @@ export function guideRoute(cluster: OshaClusterId) {
             sourceNote={
               <>
                 Quotes from {meta ? meta.rule : c.part} are checked against the eCFR text dated November 3, 2026.{" "}
-                {OSHA_INDEPENDENCE} Found an error?{" "}
+                {c.independence} Found an error?{" "}
                 <Link href="/contact/" className="text-low underline">
                   Tell us
                 </Link>
