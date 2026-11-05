@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HeaderDismiss from "@/components/HeaderDismiss";
 import HeaderSearch from "@/components/HeaderSearch";
 import Logo from "@/components/Logo";
 import { FAMILIES, STATUS_LABEL } from "@/lib/clusters";
@@ -68,6 +69,7 @@ export default function SiteHeader() {
   const [certs, ...rest] = NAV;
   return (
     <header className="relative z-30 border-b border-line bg-panel">
+      <HeaderDismiss />
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6">
         <Link href="/" className="text-ink" aria-label="goraedu home">
           <Logo />

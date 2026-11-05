@@ -31,6 +31,8 @@ export default function HeaderSearch() {
   const [index, setIndex] = useState<Entry[] | null>(null);
   const [failed, setFailed] = useState(false);
   const input = useRef<HTMLInputElement>(null);
+  const panel = useRef<HTMLDivElement>(null);
+  const button = useRef<HTMLButtonElement>(null);
   const id = useId();
 
   useEffect(() => {
@@ -42,8 +44,17 @@ export default function HeaderSearch() {
         .then(setIndex)
         .catch(() => setFailed(true));
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    // Clicking or tapping anywhere outside the search panel and its button closes it.
+    const onPointer = (e: PointerEvent) => {
+      const t = e.target as Node;
+      if (!panel.current?.contains(t) && !button.current?.contains(t)) setOpen(false);
+    };
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    document.addEventListener("pointerdown", onPointer);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.removeEventListener("pointerdown", onPointer);
+    };
   }, [open, index, failed]);
 
   const results = useMemo(() => {
@@ -73,6 +84,7 @@ export default function HeaderSearch() {
   return (
     <>
       <button
+        ref={button}
         type="button"
         aria-label={open ? "Close search" : "Search"}
         aria-expanded={open}
@@ -113,6 +125,7 @@ export default function HeaderSearch() {
       {open ? (
         <div
           id={id}
+          ref={panel}
           role="search"
           className="absolute inset-x-0 top-full border-y border-line bg-panel shadow-[0_24px_48px_-28px_rgba(14,27,44,0.45)]"
         >

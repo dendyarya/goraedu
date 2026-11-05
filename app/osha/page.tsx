@@ -7,6 +7,7 @@ import { assertQuotes, getAllGuides } from "@/lib/guides";
 import { formatDate } from "@/lib/news";
 import { OSHA_INDEPENDENCE, OSHA_SETS } from "@/lib/osha";
 import { getAllSets } from "@/lib/questions";
+import { TOOLS } from "@/lib/tools";
 
 export const metadata: Metadata = {
   title: "OSHA Construction Safety (29 CFR 1926): Free Practice Questions and Study Guides",
@@ -101,7 +102,7 @@ export default function OshaPage() {
         { label: "OSHA Construction" },
       ]}
       title="OSHA construction safety rules"
-      lead="Practice questions and study guides on the OSHA construction standards in 29 CFR Part 1926, covering the hazards the OSHA 10-hour and 30-hour construction courses focus on."
+      lead="Practice questions, study guides and tools on the OSHA construction standards in 29 CFR Part 1926, covering the hazards the OSHA 10-hour and 30-hour construction courses focus on."
       meta={
         <>
           Fact-checked against official sources · Last checked <time dateTime={CHECKED}>{formatDate(CHECKED)}</time>
@@ -165,7 +166,7 @@ export default function OshaPage() {
           </div>
         </div>
 
-        <aside className="lg:sticky lg:top-6 lg:self-start">
+        <aside className="space-y-6 lg:sticky lg:top-6 lg:self-start">
           <div className="rounded-3xl border border-line bg-panel p-6">
             <h2 className="text-[1.25rem] font-bold">Topics</h2>
             <ul className="mt-4 space-y-3">
@@ -188,6 +189,18 @@ export default function OshaPage() {
                       </Link>
                     ) : null}
                   </p>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="rounded-3xl border border-line bg-panel p-6">
+            <h2 className="text-[1.25rem] font-bold">Tools</h2>
+            <ul className="mt-4 space-y-2">
+              {TOOLS.filter((t) => t.cluster === "osha").map((t) => (
+                <li key={t.slug}>
+                  <Link href={t.href} className="font-semibold text-low underline">
+                    {t.name.replace("OSHA ", "").replace(/^./, (c) => c.toUpperCase())}
+                  </Link>
                 </li>
               ))}
             </ul>
