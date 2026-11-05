@@ -1,0 +1,557 @@
+{
+  "cluster": "faa-107",
+  "slug": "operations-over-people",
+  "href": "/faa-107/operations-over-people/study-guide/",
+  "title": "FAA Part 107 operations over people and at night study guide",
+  "description": "Part 107 operations over people and at night: the 107.39 rule, Categories 1 to 4, open-air assemblies, moving vehicles and anti-collision lighting.",
+  "intro": "Part 107 starts from a general rule in 107.39: no flight over a person unless that person is directly participating, is under a covered structure or inside a stationary vehicle that can provide reasonable protection, or the operation meets one of the four categories in Subpart D (107.100 to 107.165). This guide sets out what the rule text states for each category: the weight and injury-severity limits, labels, declarations of compliance, the Category 3 site and sustained-flight limits, the Category 4 airworthiness and maintenance rules, open-air assemblies and the Remote ID condition, and flights over moving vehicles. It also covers 107.29 on night and civil twilight operations: the knowledge test or training condition and anti-collision lighting. Many limits differ by category and carry conditions, so the exact words matter. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "general-rule",
+      "name": "The general rule and Subpart D",
+      "points": [
+        {
+          "text": "No person may operate a small unmanned aircraft over a human being unless one of the conditions in 107.39 is met.",
+          "quote": "No person may operate a small unmanned aircraft over a human being unless—",
+          "source": {
+            "title": "eCFR: 14 CFR 107.39, Operation over human beings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.39"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The first condition: that human being is directly participating in the operation of the small unmanned aircraft.",
+          "quote": "(a) That human being is directly participating in the operation of the small unmanned aircraft;",
+          "source": {
+            "title": "eCFR: 14 CFR 107.39, Operation over human beings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.39"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The second condition: that human being is under a covered structure or inside a stationary vehicle that can provide reasonable protection from a falling small unmanned aircraft.",
+          "quote": "(b) That human being is located under a covered structure or inside a stationary vehicle that can provide reasonable protection from a falling small unmanned aircraft; or",
+          "source": {
+            "title": "eCFR: 14 CFR 107.39, Operation over human beings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.39"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The third condition: the operation meets the requirements of at least one of the operational categories in Subpart D.",
+          "quote": "(c) The operation meets the requirements of at least one of the operational categories specified in subpart D of this part.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.39, Operation over human beings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.39"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Subpart D sets the eligibility and operating requirements for civil small unmanned aircraft to operate over human beings or over moving vehicles in the United States, in addition to the operations 107.39(a) and (b) already permit.",
+          "quote": "This subpart prescribes the eligibility and operating requirements for civil small unmanned aircraft to operate over human beings or over moving vehicles in the United States, in addition to those operations permitted by § 107.39(a) and (b).",
+          "source": {
+            "title": "eCFR: 14 CFR 107.100, Applicability (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.100"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Except as provided in 107.39(a) and (b) and 107.145, operations over human beings follow 107.110 for Category 1, 107.115 and 107.120 for Category 2, 107.125 and 107.130 for Category 3, or 107.140 for Category 4, as applicable.",
+          "quote": "Except as provided in §§ 107.39(a) and (b) and 107.145, a remote pilot in command may conduct operations over human beings only in accordance with the following, as applicable: § 107.110 for Category 1 operations; §§ 107.115 and 107.120 for Category 2 operations; §§ 107.125 and 107.130 for Category 3 operations; or § 107.140 for Category 4 operations.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.105, Limitations on operations over human beings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.105"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A certificate of waiver may authorize a deviation from 107.39 (operation over people).",
+          "quote": "(g) Section 107.39—Operation over people.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.205, List of regulations subject to waiver (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-E/section-107.205"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A certificate of waiver may also authorize a deviation from 107.145 (operations over moving vehicles).",
+          "quote": "Section 107.145—Operations over moving vehicles.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.205, List of regulations subject to waiver (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-E/section-107.205"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "category-1",
+      "name": "Category 1",
+      "points": [
+        {
+          "text": "A Category 1 aircraft must weigh 0.55 pounds or less on takeoff and throughout each Category 1 operation, including everything on board or otherwise attached to it.",
+          "quote": "Weighs 0.55 pounds or less on takeoff and throughout the duration of each operation under Category 1, including everything that is on board or otherwise attached to the aircraft; and",
+          "source": {
+            "title": "eCFR: 14 CFR 107.110, Category 1 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.110"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A Category 1 aircraft must not contain any exposed rotating parts that would lacerate human skin upon impact with a human being.",
+          "quote": "Does not contain any exposed rotating parts that would lacerate human skin upon impact with a human being.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.110, Category 1 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.110"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Declarations of compliance under 107.160 are submitted for Category 2 or Category 3 operations.",
+          "quote": "In order for an applicant to declare a small unmanned aircraft is compliant with the requirements of this subpart for Category 2 or Category 3 operations, an applicant must submit a declaration of compliance for acceptance by the FAA",
+          "source": {
+            "title": "eCFR: 14 CFR 107.160, Declaration of compliance (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.160"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "category-2",
+      "name": "Category 2",
+      "points": [
+        {
+          "text": "A Category 2 aircraft must be designed, produced or modified so that it will not cause injury to a human being equivalent to or greater than the severity of injury caused by a transfer of 11 foot-pounds of kinetic energy upon impact from a rigid object.",
+          "quote": "Will not cause injury to a human being that is equivalent to or greater than the severity of injury caused by a transfer of 11 foot-pounds of kinetic energy upon impact from a rigid object;",
+          "source": {
+            "title": "eCFR: 14 CFR 107.120, Category 2 operations: Eligibility of small unmanned aircraft and other applicant requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.120"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "It must also have no exposed rotating parts that would lacerate human skin on impact, and no safety defects.",
+          "quote": "Does not contain any exposed rotating parts that would lacerate human skin upon impact with a human being; and (3) Does not contain any safety defects.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.120, Category 2 operations: Eligibility of small unmanned aircraft and other applicant requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.120"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "To conduct Category 2 operations, the remote pilot in command must use an aircraft that is eligible under 107.120(a), listed on an FAA-accepted declaration of compliance as eligible for Category 2 under 107.160, and labeled as eligible under 107.120(b)(1).",
+          "quote": "(1) Is eligible for Category 2 operations pursuant to § 107.120(a); (2) Is listed on an FAA-accepted declaration of compliance as eligible for Category 2 operations in accordance with § 107.160; and (3) Is labeled as eligible to conduct Category 2 operations in accordance with § 107.120(b)(1).",
+          "source": {
+            "title": "eCFR: 14 CFR 107.115, Category 2 operations: Operating requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.115"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The declaration applicant must display a Category 2 eligibility label on the aircraft, in English, legible, prominent and permanently affixed.",
+          "quote": "Display a label on the small unmanned aircraft indicating eligibility to conduct Category 2 operations. The label must be in English and be legible, prominent, and permanently affixed to the small unmanned aircraft.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.120, Category 2 operations: Eligibility of small unmanned aircraft and other applicant requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.120"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For Category 2, the applicant's product support and notification process must notify the public and the FAA of any identified safety defect that causes the aircraft to exceed a low probability of casualty.",
+          "quote": "Any identified safety defect that causes the small unmanned aircraft to exceed a low probability of casualty.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.120, Category 2 operations: Eligibility of small unmanned aircraft and other applicant requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.120"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "category-3",
+      "name": "Category 3",
+      "points": [
+        {
+          "text": "A Category 3 aircraft must be designed, produced or modified so that it will not cause injury equivalent to or greater than the severity of the injury caused by a transfer of 25 foot-pounds of kinetic energy upon impact from a rigid object.",
+          "quote": "Will not cause injury to a human being that is equivalent to or greater than the severity of the injury caused by a transfer of 25 foot-pounds of kinetic energy upon impact from a rigid object;",
+          "source": {
+            "title": "eCFR: 14 CFR 107.130, Category 3 operations: Eligibility of small unmanned aircraft and other applicant requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.130"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "As in Category 2, it must have no exposed rotating parts that would lacerate human skin on impact and no safety defects.",
+          "quote": "Does not contain any exposed rotating parts that would lacerate human skin upon impact with a human being; and (3) Does not contain any safety defects.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.130, Category 3 operations: Eligibility of small unmanned aircraft and other applicant requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.130"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The aircraft must be eligible under 107.130(a), listed on an FAA-accepted declaration of compliance as eligible for Category 3, and labeled as eligible under 107.130(b)(1).",
+          "quote": "(1) Is eligible for Category 3 operations pursuant to § 107.130(a); (2) Is listed on an FAA-accepted declaration of compliance as eligible for Category 3 operations in accordance with § 107.160; and (3) Is labeled as eligible for Category 3 operations in accordance with § 107.130(b)(1);",
+          "source": {
+            "title": "eCFR: 14 CFR 107.125, Category 3 operations: Operating requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.125"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A Category 3 aircraft may fly above a human being if the operation is within or over a closed- or restricted-access site and all human beings within the site are on notice that a small unmanned aircraft may fly over them.",
+          "quote": "The operation is within or over a closed- or restricted-access site and all human beings located within the closed- or restricted-access site must be on notice that a small unmanned aircraft may fly over them; or",
+          "source": {
+            "title": "eCFR: 14 CFR 107.125, Category 3 operations: Operating requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.125"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Or, as the other option, the aircraft does not maintain sustained flight over any human being unless that person is directly participating in the operation, or is under a covered structure or inside a stationary vehicle that can provide reasonable protection.",
+          "quote": "The small unmanned aircraft does not maintain sustained flight over any human being unless that human being is— (i) Directly participating in the operation of the small unmanned aircraft; or (ii) Located under a covered structure or inside a stationary vehicle that can provide reasonable protection from a falling small unmanned aircraft.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.125, Category 3 operations: Operating requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.125"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For Category 3, the notification process covers any identified safety defect that causes the aircraft to exceed a low probability of fatality.",
+          "quote": "Any identified safety defect that causes the small unmanned aircraft to exceed a low probability of fatality.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.130, Category 3 operations: Eligibility of small unmanned aircraft and other applicant requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.130"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "category-4",
+      "name": "Category 4",
+      "points": [
+        {
+          "text": "A Category 4 aircraft must have an airworthiness certificate issued under part 21.",
+          "quote": "Have an airworthiness certificate issued under part 21 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.140, Category 4 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.140"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "It must be operated in accordance with the operating limitations in the approved Flight Manual or as otherwise specified by the Administrator, and those limitations must not prohibit operations over human beings.",
+          "quote": "Be operated in accordance with the operating limitations specified in the approved Flight Manual or as otherwise specified by the Administrator. The operating limitations must not prohibit operations over human beings.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.140, Category 4 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.140"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The owner must meet the Category 4 maintenance requirements, unless the owner enters into an agreement with an operator to meet them, in which case the operator must.",
+          "quote": "The owner must (unless the owner enters into an agreement with an operator to meet the requirements of this paragraph (c), then the operator must) meet the requirements of this paragraph (c):",
+          "source": {
+            "title": "eCFR: 14 CFR 107.140, Category 4 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.140"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Maintenance records must contain the description of the work performed, the date the work was completed, and the name of the person who performed the work.",
+          "quote": "The records must contain the description of the work performed, the date the work was completed, and the name of the person who performed the work.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.140, Category 4 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.140"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Records of maintenance, preventive maintenance or alterations must be kept for 1 year from when the work is completed, or until the maintenance is repeated or superseded by other work.",
+          "quote": "The records documenting maintenance, preventive maintenance, or alterations performed must be retained for 1 year from when the work is completed or until the maintenance is repeated or superseded by other work.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.140, Category 4 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.140"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Records on life-limited parts, airworthiness directive compliance and inspection status must be retained and transferred with the aircraft upon change in ownership.",
+          "quote": "The records documenting the status of life-limited parts, compliance with airworthiness directives, and inspection status of the small unmanned aircraft must be retained and transferred with the aircraft upon change in ownership.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.140, Category 4 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.140"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Compliance with part 43 and part 91, subpart E, fulfills the Category 4 maintenance and record requirements in 107.140(b)(3) and (c).",
+          "quote": "Compliance with part 43 and part 91, subpart E, of this chapter fulfills the requirements in paragraphs (b)(3) and (c) of this section.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.140, Category 4 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.140"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "Part 21 airworthiness certification itself, and the details of part 43 and part 91 subpart E, are not summarized here."
+    },
+    {
+      "id": "assemblies-vehicles",
+      "name": "Open-air assemblies and moving vehicles",
+      "points": [
+        {
+          "text": "Category 1: no sustained flight over open-air assemblies of human beings unless the operation meets either 89.110 or 89.115(a) (Remote ID).",
+          "quote": "No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.110, Category 1 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.110"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Category 2 has the same condition for sustained flight over open-air assemblies: the operation must meet either 89.110 or 89.115(a).",
+          "quote": "(b) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.115, Category 2 operations: Operating requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.115"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Category 4 has the same condition for sustained flight over open-air assemblies.",
+          "quote": "(2) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.140, Category 4 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.140"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Category 3 aircraft must not be operated over open-air assemblies of human beings at all.",
+          "quote": "Must not operate the small unmanned aircraft over open-air assemblies of human beings; and",
+          "source": {
+            "title": "eCFR: 14 CFR 107.125, Category 3 operations: Operating requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.125"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Under 89.110, a standard remote identification unmanned aircraft must broadcast the message elements of 89.305 from takeoff to shutdown.",
+          "quote": "From takeoff to shutdown, the standard remote identification unmanned aircraft must broadcast the message elements of § 89.305.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.110, Operation of standard remote identification unmanned aircraft (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.110"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No person may operate a small unmanned aircraft over a human being inside a moving vehicle unless the operation follows 107.110 (Category 1), 107.115 (Category 2), 107.125 (Category 3) or 107.140 (Category 4) and the conditions of 107.145 are met.",
+          "quote": "No person may operate a small unmanned aircraft over a human being located inside a moving vehicle unless the following conditions are met: (a) The operation occurs in accordance with § 107.110 for Category 1 operations; § 107.115 for Category 2 operations; § 107.125 for Category 3 operations; or § 107.140 for Category 4 operations.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.145, Operations over moving vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.145"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For Category 1, 2 or 3, throughout the operation the aircraft must either remain within or over a closed- or restricted-access site where everyone inside a moving vehicle is on notice, or not maintain sustained flight over moving vehicles.",
+          "quote": "Must remain within or over a closed- or restricted-access site, and all human beings located inside a moving vehicle within the closed- or restricted-access site must be on notice that a small unmanned aircraft may fly over them; or (2) Must not maintain sustained flight over moving vehicles.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.145, Operations over moving vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.145"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For Category 4, the aircraft must have a part 21 airworthiness certificate and operating limitations that do not prohibit operations over human beings inside moving vehicles.",
+          "quote": "The operating limitations must not prohibit operations over human beings located inside moving vehicles.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.145, Operations over moving vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.145"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The full Remote ID rules in 14 CFR Part 89 (broadcast message elements, broadcast modules, FAA-recognized identification areas) are covered in the Remote ID set."
+    },
+    {
+      "id": "labels-declarations",
+      "name": "Labels, variable modes and declarations of compliance",
+      "points": [
+        {
+          "text": "A declaration of compliance is a record submitted to the FAA that certifies the small unmanned aircraft conforms to the Category 2 or Category 3 requirements under Subpart D.",
+          "quote": "Declaration of compliance means a record submitted to the FAA that certifies the small unmanned aircraft conforms to the Category 2 or Category 3 requirements under subpart D of this part.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.3, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.3"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If a Category 2 or 3 label is damaged, destroyed or missing, the remote pilot in command must label the aircraft in English, legibly and prominently, so that the label will remain on for the duration of the operation, before conducting operations over human beings.",
+          "quote": "If a Category 2 or Category 3 label affixed to a small unmanned aircraft is damaged, destroyed, or missing, a remote pilot in command must label the aircraft in English such that the label is legible, prominent, and will remain on the small unmanned aircraft for the duration of the operation before conducting operations over human beings.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.135, Labeling by remote pilot in command for Category 2 and 3 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.135"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "That label must correctly identify the category or categories the aircraft is qualified to conduct.",
+          "quote": "The label must correctly identify the category or categories of operation over human beings that the small unmanned aircraft is qualified to conduct in accordance with this subpart.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.135, Labeling by remote pilot in command for Category 2 and 3 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.135"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A small UAS may be eligible for one or more categories, as long as a remote pilot in command cannot inadvertently switch between modes or configurations.",
+          "quote": "A small unmanned aircraft system may be eligible for one or more categories of operation over human beings under this subpart, as long as a remote pilot in command cannot inadvertently switch between modes or configurations.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.150, Variable mode and variable configuration of small unmanned aircraft systems (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.150"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A means of compliance for Category 2 (107.120(a)) or Category 3 (107.130(a)) must consist of test, analysis, or inspection.",
+          "quote": "To meet the requirements of § 107.120(a) for operations in Category 2, or the requirements of § 107.130(a) for operations in Category 3, the means of compliance must consist of test, analysis, or inspection.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.155, Means of compliance (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.155"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No person may operate an aircraft identified on a declaration of compliance that the FAA has rescinded while that declaration is rescinded.",
+          "quote": "No person may operate a small unmanned aircraft identified on a declaration of compliance that the FAA has rescinded pursuant to this subpart while that declaration of compliance is rescinded.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.160, Declaration of compliance (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.160"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A declarant who produces the aircraft must keep the supporting information for two years after production of the system ends.",
+          "quote": "that person must retain the information described in paragraph (a)(1) of this section for two years after the cessation of production of the small unmanned aircraft system for which the person declared compliance.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.165, Record retention (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.165"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A declarant who designs or modifies the aircraft must keep it for two years after submitting the declaration of compliance.",
+          "quote": "If the person who submits a declaration of compliance designs or modifies a small unmanned aircraft, that person must retain the information described in paragraph (a)(1) of this section for two years after the person submitted the declaration of compliance.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.165, Record retention (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.165"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The full list of information a declaration of compliance must contain (107.160(a)) and the rescission grounds and procedures are only outlined here."
+    },
+    {
+      "id": "night",
+      "name": "Night and civil twilight",
+      "points": [
+        {
+          "text": "Except as provided in 107.29(d), no person may operate a small UAS at night unless the remote pilot in command has completed an initial knowledge test or training, as applicable, under 107.65 after April 6, 2021.",
+          "quote": "The remote pilot in command of the small unmanned aircraft has completed an initial knowledge test or training, as applicable, under § 107.65 after April 6, 2021; and",
+          "source": {
+            "title": "eCFR: 14 CFR 107.29, Operation at night (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "At night the aircraft must also have lighted anti-collision lighting visible for at least 3 statute miles with a flash rate sufficient to avoid a collision.",
+          "quote": "The small unmanned aircraft has lighted anti-collision lighting visible for at least 3 statute miles that has a flash rate sufficient to avoid a collision.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.29, Operation at night (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The remote pilot in command may reduce the intensity of the anti-collision lighting, but may not extinguish it, if he or she determines that, because of operating conditions, it would be in the interest of safety.",
+          "quote": "The remote pilot in command may reduce the intensity of, but may not extinguish, the anti-collision lighting if he or she determines that, because of operating conditions, it would be in the interest of safety to do so.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.29, Operation at night (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "During periods of civil twilight, the same anti-collision lighting (visible for at least 3 statute miles, sufficient flash rate) is required.",
+          "quote": "No person may operate a small unmanned aircraft system during periods of civil twilight unless the small unmanned aircraft has lighted anti-collision lighting visible for at least 3 statute miles that has a flash rate sufficient to avoid a collision.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.29, Operation at night (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Except for Alaska, morning civil twilight begins 30 minutes before official sunrise and ends at official sunrise.",
+          "quote": "Except for Alaska, a period of time that begins 30 minutes before official sunrise and ends at official sunrise;",
+          "source": {
+            "title": "eCFR: 14 CFR 107.29, Operation at night (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Except for Alaska, evening civil twilight begins at official sunset and ends 30 minutes after official sunset.",
+          "quote": "Except for Alaska, a period of time that begins at official sunset and ends 30 minutes after official sunset; and",
+          "source": {
+            "title": "eCFR: 14 CFR 107.29, Operation at night (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In Alaska, civil twilight is the period defined in the Air Almanac.",
+          "quote": "In Alaska, the period of civil twilight as defined in the Air Almanac.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.29, Operation at night (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "After May 17, 2021, no one may operate at night under a certificate of waiver issued before April 21, 2021 under 107.200.",
+          "quote": "After May 17, 2021, no person may operate a small unmanned aircraft system at night in accordance with a certificate of waiver issued prior to April 21, 2021 under § 107.200.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.29, Operation at night (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Of 107.29, only the anti-collision light requirement in 107.29(a)(2) and (b) is listed as subject to waiver.",
+          "quote": "(b) Section 107.29(a)(2) and (b)—Anti-collision light required for operations at night and during periods of civil twilight.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.205, List of regulations subject to waiver (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-E/section-107.205"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Operation at night is one of the areas of knowledge covered by the initial aeronautical knowledge test and recurrent training.",
+          "quote": "(m) Operation at night.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.73, Knowledge and training (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.73"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The definition of \"night\" is in 14 CFR 1.1, which is not quoted here."
+    }
+  ]
+}

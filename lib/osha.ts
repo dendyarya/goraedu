@@ -2,7 +2,7 @@
 // the OSHA Outreach Training Program course topics for each industry.
 
 export type OshaSet = { slug: string; name: string; rule: string; focus: string | null };
-export type OshaClusterId = "osha" | "osha-general-industry" | "cdl";
+export type OshaClusterId = "osha" | "osha-general-industry" | "cdl" | "faa-107";
 
 const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "intro-to-osha", name: "Introduction to OSHA", rule: "29 CFR Parts 1903 and 1904", focus: null },
@@ -29,6 +29,31 @@ const CDL_SETS: OshaSet[] = [
   { slug: "drug-alcohol-testing", name: "Drug and alcohol testing", rule: "49 CFR Part 382", focus: null },
 ];
 
+const FAA_SETS: OshaSet[] = [
+  { slug: "operating-rules", name: "Operating rules", rule: "14 CFR Part 107 Subpart B", focus: null },
+  { slug: "airspace", name: "Airspace", rule: "14 CFR Part 107 and FAA-G-8082-22", focus: null },
+  {
+    slug: "operations-over-people",
+    name: "Operations over people and at night",
+    rule: "14 CFR Part 107 Subpart D",
+    focus: null,
+  },
+  {
+    slug: "remote-pilot-certificate",
+    name: "Remote pilot certificate and waivers",
+    rule: "14 CFR Part 107 Subparts C and E",
+    focus: null,
+  },
+  { slug: "registration-remote-id", name: "Registration and Remote ID", rule: "14 CFR Parts 48 and 89", focus: null },
+  { slug: "weather", name: "Weather", rule: "FAA-G-8082-22", focus: null },
+  {
+    slug: "operations-safety",
+    name: "Loading, performance and safe operations",
+    rule: "FAA-G-8082-22 and 14 CFR Part 107",
+    focus: null,
+  },
+];
+
 const GENERAL_INDUSTRY_SETS: OshaSet[] = [
   { slug: "walking-working-surfaces", name: "Walking-working surfaces", rule: "29 CFR 1910 Subpart D", focus: null },
   { slug: "exit-routes", name: "Exit routes and emergency planning", rule: "29 CFR 1910 Subpart E", focus: null },
@@ -51,6 +76,9 @@ const OSHA_INDEPENDENCE_TEXT =
 
 export const CDL_INDEPENDENCE_TEXT =
   "goraedu does not issue licenses or permits, and our questions are not a state CDL knowledge test. Not affiliated with or endorsed by FMCSA, the U.S. Department of Transportation or any state driver licensing agency.";
+
+export const FAA_INDEPENDENCE_TEXT =
+  "goraedu is not an FAA knowledge testing center or training provider, and our questions are not the FAA knowledge test. Not affiliated with or endorsed by the FAA or the U.S. Department of Transportation.";
 
 export const OSHA_CLUSTERS: Record<
   OshaClusterId,
@@ -90,6 +118,15 @@ export const OSHA_CLUSTERS: Record<
     sets: CDL_SETS,
     independence: CDL_INDEPENDENCE_TEXT,
     notFrom: "any state CDL knowledge test, driver manual or prep course",
+  },
+  "faa-107": {
+    id: "faa-107",
+    label: "FAA Part 107",
+    href: "/faa-107/",
+    part: "14 CFR Part 107",
+    sets: FAA_SETS,
+    independence: FAA_INDEPENDENCE_TEXT,
+    notFrom: "the FAA knowledge test, FAA sample test questions or any prep course",
   },
 };
 

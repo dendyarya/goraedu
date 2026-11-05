@@ -163,10 +163,11 @@ export const FAMILIES: Family[] = [
     clusters: [
       {
         id: "faa-107",
-        name: "FAA Part 107 drone pilot",
-        summary: "The knowledge test for commercial small drone operators.",
-        source: "FAA, 14 CFR Part 107",
-        status: "planned",
+        name: "FAA Part 107 remote pilot",
+        summary: "The rules and knowledge areas behind the FAA Remote Pilot (drone) knowledge test.",
+        source: "FAA, 14 CFR Parts 48, 89 and 107",
+        status: "available",
+        href: "/faa-107/",
       },
     ],
   },

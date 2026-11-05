@@ -26,7 +26,10 @@ export type Guide = {
   href: string;
 };
 
-const ECFR_DIR = path.join(process.cwd(), "data", "sources", "ecfr");
+const SOURCES_DIR = path.join(process.cwd(), "data", "sources");
+const ECFR_DIR = path.join(SOURCES_DIR, "ecfr");
+// Official sources whose quotes are checked: eCFR rule text and, for FAA Part 107, FAA's own publications.
+const CHECKED_HOSTS = ["ecfr.gov", "faa.gov"];
 // Dated rule text each cluster's quotes are checked against. Subpart G (SNAP) has wide tables, so it is kept twice:
 // as laid out on the page and in reading order (one table cell after another); a quote may match either copy.
 const SNAPSHOTS: Record<string, string[]> = {
@@ -113,6 +116,18 @@ const SNAPSHOTS: Record<string, string[]> = {
     "49cfr393-subpartI-2026-11-03.txt",
     "49cfr393-subpartI-2026-11-03.reading-order.txt",
   ],
+  "faa-107": [
+    "14cfr107-2026-11-03.txt",
+    "14cfr107-2026-11-03.reading-order.txt",
+    "14cfr89-2026-11-03.txt",
+    "14cfr89-2026-11-03.reading-order.txt",
+    "14cfr48-2026-11-03.txt",
+    "14cfr48-2026-11-03.reading-order.txt",
+    "faa/uas-acs.txt",
+    "faa/uas-acs.reading-order.txt",
+    "faa/remote-pilot-study-guide.txt",
+    "faa/remote-pilot-study-guide.reading-order.txt",
+  ],
   "epa-609": [
     "40cfr82-subpartB-2026-11-03.txt",
     "40cfr82-subpartG-2026-11-03.txt",
@@ -171,6 +186,9 @@ const PAGE_TITLES = [
   "Protection Against Shifting and Falling Cargo",
   "Hours of Service of Drivers",
   "Inspection, Repair, and Maintenance",
+  "Small Unmanned Aircraft Systems",
+  "Registration and Marking Requirements for Small Unmanned Aircraft",
+  "Remote Identification of Unmanned Aircraft",
 ];
 
 function stripPageChrome(text: string): string {
@@ -213,7 +231,7 @@ function validate(file: string, raw: unknown, snapshot: string | null, kind: "gu
       if (!p.text?.trim()) fail(`${at}: text is required`);
       if (!DATE.test(p.checked ?? "")) fail(`${at}: checked must be YYYY-MM-DD`);
       if (!p.source?.title || !/^https:\/\//.test(p.source?.url ?? "")) fail(`${at}: source needs a title and URL`);
-      if (p.source.url.includes("ecfr.gov")) {
+      if (CHECKED_HOSTS.some((h) => p.source.url.includes(h))) {
         if (!p.quote?.trim()) fail(`${at}: eCFR points need a quote`);
         if (snapshot && !snapshot.includes(norm(p.quote))) fail(`${at}: quote not found in the eCFR snapshot`);
       }
@@ -232,7 +250,9 @@ function validate(file: string, raw: unknown, snapshot: string | null, kind: "gu
 const snapCache: Record<string, string | null> = {};
 function snapshotFor(cluster: string): string | null {
   if (!(cluster in snapCache)) {
-    const files = (SNAPSHOTS[cluster] ?? []).map((f) => path.join(ECFR_DIR, f)).filter((f) => fs.existsSync(f));
+    const files = (SNAPSHOTS[cluster] ?? [])
+      .map((f) => (f.includes("/") ? path.join(SOURCES_DIR, f) : path.join(ECFR_DIR, f)))
+      .filter((f) => fs.existsSync(f));
     snapCache[cluster] = files.length
       ? files.map((f) => norm(stripPageChrome(fs.readFileSync(f, "utf8")))).join("\n\u0000\n")
       : null;

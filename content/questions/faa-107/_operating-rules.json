@@ -1,0 +1,389 @@
+{
+  "cluster": "faa-107",
+  "slug": "operating-rules",
+  "title": "FAA Part 107 operating rules practice questions",
+  "description": "Free FAA Part 107 operating rules practice questions on 14 CFR 107 Subparts A and B. Every answer is explained and linked to its section.",
+  "href": "/faa-107/operating-rules/practice-test/",
+  "questions": [
+    {
+      "id": "or-001",
+      "topic": "Applicability and definitions",
+      "question": "How does 107.3 define a small unmanned aircraft?",
+      "options": {
+        "A": "An unmanned aircraft weighing less than 55 pounds on takeoff, including everything that is on board or otherwise attached to the aircraft",
+        "B": "An unmanned aircraft weighing less than 55 pounds empty, not counting any payload",
+        "C": "An unmanned aircraft weighing less than 25 pounds on takeoff, including its payload",
+        "D": "Any unmanned aircraft flown within visual line of sight, regardless of weight"
+      },
+      "answer": "A",
+      "explanation": "107.3: \"Small unmanned aircraft means an unmanned aircraft weighing less than 55 pounds on takeoff, including everything that is on board or otherwise attached to the aircraft.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.3, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.3"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Small unmanned aircraft means an unmanned aircraft weighing less than 55 pounds on takeoff, including everything that is on board or otherwise attached to the aircraft."
+    },
+    {
+      "id": "or-002",
+      "topic": "Applicability and definitions",
+      "question": "Which of these does 107.1(b) list as an operation to which Part 107 does not apply?",
+      "options": {
+        "A": "Any commercial photography operation",
+        "B": "Air carrier operations",
+        "C": "Any flight at night",
+        "D": "Any flight in Class G airspace"
+      },
+      "answer": "B",
+      "explanation": "107.1(b) states that \"This part does not apply to the following\" and lists first \"Air carrier operations\".",
+      "source": {
+        "title": "eCFR: 14 CFR 107.1, Applicability (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.1"
+      },
+      "checked": "2026-11-05",
+      "evidence": "(1) Air carrier operations;"
+    },
+    {
+      "id": "or-003",
+      "topic": "Applicability and definitions",
+      "question": "How does 107.3 define a visual observer?",
+      "options": {
+        "A": "Any person who watches the flight from the ground",
+        "B": "A person who holds a remote pilot certificate and controls a second aircraft",
+        "C": "A person designated by the remote pilot in command to assist the remote pilot in command and the person manipulating the flight controls to see and avoid other air traffic or objects aloft or on the ground",
+        "D": "An FAA inspector who observes the operation to check compliance"
+      },
+      "answer": "C",
+      "explanation": "107.3: a visual observer is \"a person who is designated by the remote pilot in command to assist the remote pilot in command and the person manipulating the flight controls of the small UAS to see and avoid other air traffic or objects aloft or on the ground.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.3, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.3"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Visual observer means a person who is designated by the remote pilot in command to assist the remote pilot in command and the person manipulating the flight controls of the small UAS to see and avoid other air traffic or objects aloft or on the ground."
+    },
+    {
+      "id": "or-004",
+      "topic": "Remote pilot in command and crew",
+      "question": "Under 107.12(a)(2), when may a person without a remote pilot certificate manipulate the flight controls of a small UAS?",
+      "options": {
+        "A": "When the flight stays below 200 feet above ground level",
+        "B": "When the person holds a student pilot certificate for manned aircraft",
+        "C": "When a visual observer is watching the aircraft",
+        "D": "When the person is under the direct supervision of a remote pilot in command who has the ability to immediately take direct control of the flight"
+      },
+      "answer": "D",
+      "explanation": "107.12(a)(2) allows a person who is \"under the direct supervision of a remote pilot in command\" when \"the remote pilot in command has the ability to immediately take direct control of the flight of the small unmanned aircraft.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.12, Requirement for a remote pilot certificate with a small UAS rating (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.12"
+      },
+      "checked": "2026-11-05",
+      "evidence": "That person is under the direct supervision of a remote pilot in command and the remote pilot in command has the ability to immediately take direct control of the flight of the small unmanned aircraft."
+    },
+    {
+      "id": "or-005",
+      "topic": "Remote pilot in command and crew",
+      "question": "According to 107.19(b), who is directly responsible for and is the final authority as to the operation of the small UAS?",
+      "options": {
+        "A": "The remote pilot in command",
+        "B": "The owner of the aircraft",
+        "C": "The visual observer",
+        "D": "The nearest air traffic control facility"
+      },
+      "answer": "A",
+      "explanation": "107.19(b): \"The remote pilot in command is directly responsible for and is the final authority as to the operation of the small unmanned aircraft system.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.19, Remote pilot in command (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.19"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The remote pilot in command is directly responsible for and is the final authority as to the operation of the small unmanned aircraft system."
+    },
+    {
+      "id": "or-006",
+      "topic": "Remote pilot in command and crew",
+      "question": "What does 107.21 allow the remote pilot in command to do in an in-flight emergency requiring immediate action?",
+      "options": {
+        "A": "Deviate from any rule of this part to the extent necessary to meet that emergency",
+        "B": "Deviate from 107.51 only, and only after contacting ATC",
+        "C": "Hand control to any bystander without supervision",
+        "D": "Nothing; no deviation from Part 107 is allowed"
+      },
+      "answer": "A",
+      "explanation": "107.21(a): \"the remote pilot in command may deviate from any rule of this part to the extent necessary to meet that emergency.\" A written report is due \"upon request of the Administrator\".",
+      "source": {
+        "title": "eCFR: 14 CFR 107.21, In-flight emergency (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.21"
+      },
+      "checked": "2026-11-05",
+      "evidence": "In an in-flight emergency requiring immediate action, the remote pilot in command may deviate from any rule of this part to the extent necessary to meet that emergency."
+    },
+    {
+      "id": "or-007",
+      "topic": "Remote pilot in command and crew",
+      "question": "What does 107.35 say about operating more than one unmanned aircraft?",
+      "options": {
+        "A": "A remote pilot in command may operate up to three aircraft at once if each has a visual observer",
+        "B": "A person may operate two aircraft at once if both are in Class G airspace",
+        "C": "A person may not manipulate flight controls or act as a remote pilot in command or visual observer in the operation of more than one unmanned aircraft at the same time",
+        "D": "Only the visual observer may watch more than one aircraft at the same time"
+      },
+      "answer": "C",
+      "explanation": "107.35: \"A person may not manipulate flight controls or act as a remote pilot in command or visual observer in the operation of more than one unmanned aircraft at the same time.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.35, Operation of multiple small unmanned aircraft (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.35"
+      },
+      "checked": "2026-11-05",
+      "evidence": "A person may not manipulate flight controls or act as a remote pilot in command or visual observer in the operation of more than one unmanned aircraft at the same time."
+    },
+    {
+      "id": "or-008",
+      "topic": "Remote pilot in command and crew",
+      "question": "Which regulations does 107.27 require a person manipulating the flight controls, the remote pilot in command and the visual observer to comply with on alcohol or drugs?",
+      "options": {
+        "A": "Part 120 only",
+        "B": "§§ 91.17 and 91.19",
+        "C": "49 CFR Part 382",
+        "D": "§ 61.53 only"
+      },
+      "answer": "B",
+      "explanation": "107.27 requires these persons to \"comply with the provisions of §§ 91.17 and 91.19 of this chapter.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.27, Alcohol or drugs (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.27"
+      },
+      "checked": "2026-11-05",
+      "evidence": "A person manipulating the flight controls of a small unmanned aircraft system or acting as a remote pilot in command or visual observer must comply with the provisions of §§ 91.17 and 91.19 of this chapter."
+    },
+    {
+      "id": "or-009",
+      "topic": "Preflight and condition for safe operation",
+      "question": "When does 107.15(a) require the remote pilot in command to check the small UAS to determine whether it is in a condition for safe operation?",
+      "options": {
+        "A": "Once each calendar month",
+        "B": "Only after a repair",
+        "C": "Prior to each flight",
+        "D": "Only before the first flight of the day"
+      },
+      "answer": "C",
+      "explanation": "107.15(a): \"Prior to each flight, the remote pilot in command must check the small unmanned aircraft system to determine whether it is in a condition for safe operation.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.15, Condition for safe operation (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.15"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Prior to each flight, the remote pilot in command must check the small unmanned aircraft system to determine whether it is in a condition for safe operation."
+    },
+    {
+      "id": "or-010",
+      "topic": "Preflight and condition for safe operation",
+      "question": "Which item does 107.49(a) list as part of the operating environment assessment the remote pilot in command must make prior to flight?",
+      "options": {
+        "A": "The aircraft's resale value",
+        "B": "The pilot's flight hours in the last 90 days",
+        "C": "The manufacturer's warranty status",
+        "D": "Local airspace and any flight restrictions"
+      },
+      "answer": "D",
+      "explanation": "The 107.49(a) assessment \"must include\" \"Local weather conditions\", \"Local airspace and any flight restrictions\", \"The location of persons and property on the surface\" and \"Other ground hazards.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.49, Preflight familiarization, inspection, and actions for aircraft operation (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49"
+      },
+      "checked": "2026-11-05",
+      "evidence": "(2) Local airspace and any flight restrictions;"
+    },
+    {
+      "id": "or-011",
+      "topic": "Preflight and condition for safe operation",
+      "question": "What does 107.49(d) require prior to flight if the small unmanned aircraft is powered?",
+      "options": {
+        "A": "That the power source has been inspected by an FAA-certificated mechanic",
+        "B": "That there is enough available power for the small unmanned aircraft system to operate for the intended operational time",
+        "C": "That a spare battery is carried by the visual observer",
+        "D": "That power levels are reported to ATC"
+      },
+      "answer": "B",
+      "explanation": "107.49(d): \"If the small unmanned aircraft is powered, ensure that there is enough available power for the small unmanned aircraft system to operate for the intended operational time\".",
+      "source": {
+        "title": "eCFR: 14 CFR 107.49, Preflight familiarization, inspection, and actions for aircraft operation (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49"
+      },
+      "checked": "2026-11-05",
+      "evidence": "If the small unmanned aircraft is powered, ensure that there is enough available power for the small unmanned aircraft system to operate for the intended operational time"
+    },
+    {
+      "id": "or-012",
+      "topic": "Visual line of sight and visual observers",
+      "question": "Under 107.31(a), what vision must the remote pilot in command, the visual observer (if one is used) and the person manipulating the flight controls use to see the aircraft?",
+      "options": {
+        "A": "Vision aided by binoculars",
+        "B": "Vision that is unaided by any device other than corrective lenses",
+        "C": "The live video feed on the control station",
+        "D": "Vision aided by night-vision goggles after sunset"
+      },
+      "answer": "B",
+      "explanation": "107.31(a) requires them to see the aircraft \"With vision that is unaided by any device other than corrective lenses\", and 107.3 defines corrective lenses as \"spectacles or contact lenses.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.31, Visual line of sight aircraft operation (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.31"
+      },
+      "checked": "2026-11-05",
+      "evidence": "With vision that is unaided by any device other than corrective lenses"
+    },
+    {
+      "id": "or-013",
+      "topic": "Visual line of sight and visual observers",
+      "question": "If a visual observer is used, what does 107.33(a) require of the remote pilot in command, the person manipulating the flight controls and the visual observer?",
+      "options": {
+        "A": "They must all hold remote pilot certificates",
+        "B": "They must stand within 10 feet of each other",
+        "C": "They must maintain effective communication with each other at all times",
+        "D": "They must log the flight with ATC"
+      },
+      "answer": "C",
+      "explanation": "107.33(a): they \"must maintain effective communication with each other at all times.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.33, Visual observer (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.33"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The remote pilot in command, the person manipulating the flight controls of the small unmanned aircraft system, and the visual observer must maintain effective communication with each other at all times."
+    },
+    {
+      "id": "or-014",
+      "topic": "Night and civil twilight",
+      "question": "What anti-collision lighting does 107.29 require for operations at night and during periods of civil twilight?",
+      "options": {
+        "A": "Lighted anti-collision lighting visible for at least 3 statute miles that has a flash rate sufficient to avoid a collision",
+        "B": "Steady white position lights only, visible for 1 statute mile",
+        "C": "No lighting, as long as the aircraft stays within visual line of sight",
+        "D": "Red and green navigation lights visible for 500 feet"
+      },
+      "answer": "A",
+      "explanation": "107.29(a)(2) and (b) both require \"lighted anti-collision lighting visible for at least 3 statute miles that has a flash rate sufficient to avoid a collision.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.29, Operation at night (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29"
+      },
+      "checked": "2026-11-05",
+      "evidence": "lighted anti-collision lighting visible for at least 3 statute miles that has a flash rate sufficient to avoid a collision"
+    },
+    {
+      "id": "or-015",
+      "topic": "Night and civil twilight",
+      "question": "Except for Alaska, how does 107.29(c) define the evening period of civil twilight?",
+      "options": {
+        "A": "The hour before official sunset",
+        "B": "A period that begins at official sunset and ends 60 minutes after official sunset",
+        "C": "The period from official sunset until midnight",
+        "D": "A period of time that begins at official sunset and ends 30 minutes after official sunset"
+      },
+      "answer": "D",
+      "explanation": "107.29(c)(2): \"Except for Alaska, a period of time that begins at official sunset and ends 30 minutes after official sunset\". In Alaska it is \"the period of civil twilight as defined in the Air Almanac.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.29, Operation at night (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Except for Alaska, a period of time that begins at official sunset and ends 30 minutes after official sunset"
+    },
+    {
+      "id": "or-016",
+      "topic": "Hazardous operations and right of way",
+      "question": "Under 107.25(b), when may a person operate a small UAS from a moving land or water-borne vehicle?",
+      "options": {
+        "A": "Whenever the vehicle moves at less than 30 miles per hour",
+        "B": "Only when a visual observer rides in the vehicle",
+        "C": "Only when the vehicle is on a closed course",
+        "D": "When the small unmanned aircraft is flown over a sparsely populated area and is not transporting another person's property for compensation or hire"
+      },
+      "answer": "D",
+      "explanation": "107.25(b) bars operation from a moving land or water-borne vehicle \"unless the small unmanned aircraft is flown over a sparsely populated area and is not transporting another person's property for compensation or hire.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.25, Operation from a moving vehicle or aircraft (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.25"
+      },
+      "checked": "2026-11-05",
+      "evidence": "From a moving land or water-borne vehicle unless the small unmanned aircraft is flown over a sparsely populated area and is not transporting another person's property for compensation or hire."
+    },
+    {
+      "id": "or-017",
+      "topic": "Hazardous operations and right of way",
+      "question": "How does 107.37(a) describe yielding the right of way?",
+      "options": {
+        "A": "The small unmanned aircraft may pass ahead of other aircraft if it is faster",
+        "B": "Manned aircraft must give way to the small unmanned aircraft when it is lower",
+        "C": "The small unmanned aircraft must give way to the aircraft or vehicle and may not pass over, under, or ahead of it unless well clear",
+        "D": "The small unmanned aircraft must land immediately whenever any aircraft is seen"
+      },
+      "answer": "C",
+      "explanation": "107.37(a): \"Yielding the right of way means that the small unmanned aircraft must give way to the aircraft or vehicle and may not pass over, under, or ahead of it unless well clear.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.37, Operation near aircraft; right-of-way rules (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.37"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Yielding the right of way means that the small unmanned aircraft must give way to the aircraft or vehicle and may not pass over, under, or ahead of it unless well clear."
+    },
+    {
+      "id": "or-018",
+      "topic": "Airspace and operating limitations",
+      "question": "What does 107.41 require before a person operates a small unmanned aircraft in Class B, Class C or Class D airspace?",
+      "options": {
+        "A": "A Remote ID broadcast only",
+        "B": "Prior authorization from Air Traffic Control (ATC)",
+        "C": "A visual observer only",
+        "D": "A phone call to the nearest airport manager after the flight"
+      },
+      "answer": "B",
+      "explanation": "107.41 bars these operations \"unless that person has prior authorization from Air Traffic Control (ATC).\" The rule also covers \"the lateral boundaries of the surface area of Class E airspace designated for an airport.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.41, Operation in certain airspace (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.41"
+      },
+      "checked": "2026-11-05",
+      "evidence": "unless that person has prior authorization from Air Traffic Control (ATC)."
+    },
+    {
+      "id": "or-019",
+      "topic": "Airspace and operating limitations",
+      "question": "What maximum groundspeed does 107.51(a) set for a small unmanned aircraft?",
+      "options": {
+        "A": "87 knots (100 miles per hour)",
+        "B": "100 knots (115 miles per hour)",
+        "C": "50 knots (58 miles per hour)",
+        "D": "150 knots (173 miles per hour)"
+      },
+      "answer": "A",
+      "explanation": "107.51(a): \"The groundspeed of the small unmanned aircraft may not exceed 87 knots (100 miles per hour).\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.51, Operating limitations for small unmanned aircraft (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.51"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The groundspeed of the small unmanned aircraft may not exceed 87 knots (100 miles per hour)."
+    },
+    {
+      "id": "or-020",
+      "topic": "Airspace and operating limitations",
+      "question": "What minimum distance from clouds does 107.51(d) set for a small unmanned aircraft?",
+      "options": {
+        "A": "250 feet below and 1,000 feet horizontally",
+        "B": "1,000 feet below and 1 statute mile horizontally",
+        "C": "No minimum, as long as the aircraft stays within visual line of sight",
+        "D": "500 feet below the cloud and 2,000 feet horizontally from the cloud"
+      },
+      "answer": "D",
+      "explanation": "107.51(d): the minimum distance \"must be no less than: (1) 500 feet below the cloud; and (2) 2,000 feet horizontally from the cloud.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.51, Operating limitations for small unmanned aircraft (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.51"
+      },
+      "checked": "2026-11-05",
+      "evidence": "(1) 500 feet below the cloud; and (2) 2,000 feet horizontally from the cloud."
+    }
+  ]
+}

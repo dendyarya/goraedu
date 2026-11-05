@@ -74,4 +74,12 @@ export const TOOLS: Tool[] = [
     summary:
       "See how much driving time is left under the property-carrying limits in 49 CFR 395.3: 11 hours, the 14-hour period, the 30-minute break and 60/70 hours.",
   },
+  {
+    slug: "part-107-flight-limits",
+    cluster: "faa-107",
+    name: "Part 107 flight limits checker",
+    href: "/faa-107/tools/part-107-flight-limits/",
+    summary:
+      "Check a planned drone flight against 14 CFR 107.51: groundspeed, altitude and the structure exception, flight visibility and cloud clearance.",
+  },
 ];

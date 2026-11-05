@@ -1,0 +1,526 @@
+{
+  "cluster": "faa-107",
+  "slug": "airspace",
+  "href": "/faa-107/airspace/study-guide/",
+  "title": "FAA Part 107 airspace study guide",
+  "description": "FAA Part 107 airspace study guide: the 107.41-107.47 rules, Class A-G airspace, special use and other airspace, TFRs and NOTAMs, linked to official FAA sources.",
+  "intro": "Four sections of 14 CFR Part 107 deal with airspace: 107.41 (prior ATC authorization for Class B, C and D airspace and the surface area of Class E airspace designated for an airport), 107.43 (no interference with airport operations and traffic patterns), 107.45 (prohibited and restricted areas) and 107.47 (flight restrictions designated by notice to airmen). This guide quotes those rules from the current eCFR text. The descriptions of the airspace classes, special use airspace, other airspace areas, TFRs and NOTAMs come from the FAA Remote Pilot Study Guide (FAA-G-8082-22, August 2016). That guide predates later Part 107 amendments, so it is used here only to describe airspace, never for what a remote pilot must do. Chart excerpts and figures are not covered. Every point links to its official source and quotes its exact words.",
+  "topics": [
+    {
+      "id": "part-107-rules",
+      "name": "Part 107 airspace rules",
+      "points": [
+        {
+          "text": "No person may operate a small unmanned aircraft in Class B, Class C or Class D airspace unless that person has prior authorization from Air Traffic Control (ATC).",
+          "quote": "No person may operate a small unmanned aircraft in Class B, Class C, or Class D airspace or within the lateral boundaries of the surface area of Class E airspace designated for an airport unless that person has prior authorization from Air Traffic Control (ATC).",
+          "source": {
+            "title": "eCFR: 14 CFR 107.41, Operation in certain airspace (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.41"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The same prior ATC authorization is required within the lateral boundaries of the surface area of Class E airspace designated for an airport.",
+          "quote": "No person may operate a small unmanned aircraft in Class B, Class C, or Class D airspace or within the lateral boundaries of the surface area of Class E airspace designated for an airport unless that person has prior authorization from Air Traffic Control (ATC).",
+          "source": {
+            "title": "eCFR: 14 CFR 107.41, Operation in certain airspace (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.41"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No person may operate a small unmanned aircraft in a manner that interferes with operations and traffic patterns at any airport, heliport or seaplane base.",
+          "quote": "No person may operate a small unmanned aircraft in a manner that interferes with operations and traffic patterns at any airport, heliport, or seaplane base.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.43, Operation in the vicinity of airports (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.43"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No person may operate a small unmanned aircraft in prohibited or restricted areas unless that person has permission from the using or controlling agency, as appropriate.",
+          "quote": "No person may operate a small unmanned aircraft in prohibited or restricted areas unless that person has permission from the using or controlling agency, as appropriate.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.45, Operation in prohibited or restricted areas (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.45"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A person acting as remote pilot in command must comply with §§ 91.137 through 91.145 and 99.7 of 14 CFR, the flight restrictions in the proximity of certain areas designated by notice to airmen.",
+          "quote": "A person acting as a remote pilot in command must comply with the provisions of §§ 91.137 through 91.145 and 99.7 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.47, Flight restrictions in the proximity of certain areas designated by notice to airmen (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.47"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The text of §§ 91.137 through 91.145 and 99.7, how to request ATC authorization, and waivers under Subpart E of Part 107 are not covered here."
+    },
+    {
+      "id": "airspace-overview",
+      "name": "Airspace categories and controlled airspace",
+      "points": [
+        {
+          "text": "The Study Guide describes two categories of airspace: regulatory and nonregulatory.",
+          "quote": "The two categories of airspace are: regulatory and nonregulatory.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Within those two categories there are four types: controlled, uncontrolled, special use and other airspace.",
+          "quote": "Within these two categories, there are four types: controlled, uncontrolled, special use, and other airspace.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The categories and types of airspace are dictated by the complexity or density of aircraft movements, the nature of the operations, the level of safety required, and national and public interest.",
+          "quote": "The categories and types of airspace are dictated by the complexity or density of aircraft movements, nature of the operations conducted within the airspace, the level of safety required, and national and public interest.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Controlled airspace is a generic term for the classes and defined dimensions of airspace within which ATC service is provided in accordance with the airspace classification.",
+          "quote": "Controlled airspace is a generic term that covers the different classifications of airspace and defined dimensions within which air traffic control (ATC) service is provided in accordance with the airspace classification.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The controlled airspace the Study Guide names as of concern to the remote pilot is Class B, Class C, Class D and Class E.",
+          "quote": "Controlled airspace that is of concern to the remote pilot is: • Class B • Class C • Class D • Class E",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "class-b-c-d",
+      "name": "Class B, C and D airspace",
+      "points": [
+        {
+          "text": "Class B airspace is generally from the surface to 10,000 feet MSL, surrounding the nation's busiest airports in terms of airport operations or passenger enplanements.",
+          "quote": "Class B airspace is generally airspace from the surface to 10,000 feet mean sea level (MSL) surrounding the nation's busiest airports in terms of airport operations or passenger enplanements.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each Class B area is individually tailored and consists of a surface area and two or more layers; some resemble upside-down wedding cakes.",
+          "quote": "The configuration of each Class B airspace area is individually tailored, consists of a surface area and two or more layers (some Class B airspace areas resemble upside-down wedding cakes)",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Class C airspace is generally from the surface to 4,000 feet above the airport elevation (charted in MSL), around airports that have an operational control tower, are serviced by a radar approach control, and have a certain number of IFR operations or passenger enplanements.",
+          "quote": "Class C airspace is generally airspace from the surface to 4,000 feet above the airport elevation (charted in MSL) surrounding those airports that have an operational control tower, are serviced by a radar approach control, and have a certain number of instrument flight rules (IFR) operations or passenger enplanements.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Although each Class C area is individually tailored, it usually consists of a surface area with a five nautical mile (NM) radius and an outer circle with a ten NM radius that extends from 1,200 feet to 4,000 feet above the airport elevation.",
+          "quote": "Although the configuration of each Class C area is individually tailored, the airspace usually consists of a surface area with a five nautical mile (NM) radius, an outer circle with a ten NM radius that extends from 1,200 feet to 4,000 feet above the airport elevation.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Class D airspace is generally from the surface to 2,500 feet above the airport elevation (charted in MSL), surrounding airports that have an operational control tower.",
+          "quote": "Class D airspace is generally airspace from the surface to 2,500 feet above the airport elevation (charted in MSL) surrounding those airports that have an operational control tower.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each Class D area is individually tailored and, when instrument procedures are published, is normally designed to contain the procedures.",
+          "quote": "The configuration of each Class D airspace area is individually tailored and, when instrument procedures are published, the airspace is normally designed to contain the procedures.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "What a remote pilot needs before flying in Class B, C or D airspace is set by 14 CFR 107.41 (see Part 107 airspace rules above), not by the 2016 Study Guide."
+    },
+    {
+      "id": "class-e-g",
+      "name": "Class E, Class G and the Class A floor",
+      "points": [
+        {
+          "text": "Class E airspace is the controlled airspace not classified as Class A, B, C or D airspace.",
+          "quote": "Class E airspace is the controlled airspace not classified as Class A, B, C, or D airspace.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Sectional and other charts depict all locations of Class E airspace with bases below 14,500 feet MSL; where charts do not depict a Class E base, Class E begins at 14,500 feet MSL.",
+          "quote": "Sectional and other charts depict all locations of Class E airspace with bases below 14,500 feet MSL. In areas where charts do not depict a class E base, class E begins at 14,500 feet MSL.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In most areas the Class E base is 1,200 feet AGL; in many other areas it is either the surface or 700 feet AGL.",
+          "quote": "In most areas, the Class E airspace base is 1,200 feet above ground level (AGL). In many other areas, the Class E airspace base is either the surface or 700 feet AGL.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Class E airspace typically extends up to, but not including, 18,000 feet MSL, which is the lower limit of Class A airspace.",
+          "quote": "Class E airspace typically extends up to, but not including, 18,000 feet MSL (the lower limit of Class A airspace).",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "All airspace above FL 600 is Class E airspace.",
+          "quote": "All airspace above FL 600 is Class E airspace.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Federal Airways, shown as blue lines on a sectional chart, are usually found within Class E airspace and start at 1,200 feet AGL and go up to, but not including, 18,000 feet MSL.",
+          "quote": "Federal Airways, which are shown as blue lines on a sectional chart, are usually found within Class E airspace. Federal Airways start at 1,200' AGL and go up to, but, not including 18,000' MSL.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Uncontrolled (Class G) airspace is the portion of the airspace that has not been designated as Class A, B, C, D or E.",
+          "quote": "Uncontrolled airspace or Class G airspace is the portion of the airspace that has not been designated as Class A, B, C, D, or E.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Class G airspace extends from the surface to the base of the overlying Class E airspace.",
+          "quote": "Class G airspace extends from the surface to the base of the overlying Class E airspace.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The prior ATC authorization rule for the surface area of Class E airspace designated for an airport is in 14 CFR 107.41 (see Part 107 airspace rules above)."
+    },
+    {
+      "id": "special-use",
+      "name": "Special use airspace",
+      "points": [
+        {
+          "text": "Special use airspace, or special area of operation (SAO), is airspace in which certain activities must be confined, or where limitations may be imposed on aircraft operations that are not part of those activities.",
+          "quote": "Special use airspace or special area of operation (SAO) is the designation for airspace in which certain activities must be confined, or where limitations may be imposed on aircraft operations that are not part of those activities.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Special use airspace usually consists of prohibited areas, restricted areas, warning areas, military operation areas (MOAs), alert areas and controlled firing areas (CFAs).",
+          "quote": "Special use airspace usually consists of: • Prohibited areas • Restricted areas • Warning areas • Military operation areas (MOAs) • Alert areas • Controlled firing areas (CFAs)",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Prohibited areas contain airspace of defined dimensions within which the flight of aircraft is prohibited, established for security or other reasons associated with the national welfare.",
+          "quote": "Prohibited areas contain airspace of defined dimensions within which the flight of aircraft is prohibited. Such areas are established for security or other reasons associated with the national welfare.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Prohibited areas are published in the Federal Register, depicted on aeronautical charts, and charted as a \"P\" followed by a number (e.g., P-40).",
+          "quote": "These areas are published in the Federal Register and are depicted on aeronautical charts. The area is charted as a \"P\" followed by a number (e.g., P-40).",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Restricted areas are areas where operations are hazardous to nonparticipating aircraft, and flight within them, while not wholly prohibited, is subject to restrictions.",
+          "quote": "Restricted areas are areas where operations are hazardous to nonparticipating aircraft and contain airspace within which the flight of aircraft, while not wholly prohibited, is subject to restrictions.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Restricted areas denote unusual, often invisible, hazards to aircraft (e.g., artillery firing, aerial gunnery or guided missiles); penetration without authorization from the using or controlling agency may be extremely hazardous to the aircraft.",
+          "quote": "Restricted areas denote the existence of unusual, often invisible, hazards to aircraft (e.g., artillery firing, aerial gunnery, or guided missiles). Penetration of restricted areas without authorization from the using or controlling agency may be extremely hazardous to the aircraft.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Restricted areas are charted with an \"R\" followed by a number (e.g., R-4401).",
+          "quote": "Restricted areas are charted with an \"R\" followed by a number (e.g., R-4401)",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Warning areas are similar to restricted areas, but the United States government does not have sole jurisdiction over the airspace; a warning area extends from 3 NM outward from the U.S. coast and contains activity that may be hazardous to nonparticipating aircraft.",
+          "quote": "Warning areas are similar in nature to restricted areas; however, the United States government does not have sole jurisdiction over the airspace. A warning area is airspace of defined dimensions, extending from 3 NM outward from the coast of the United States, containing activity that may be hazardous to nonparticipating aircraft.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A warning area may be over domestic or international waters or both, and is designated with a \"W\" followed by a number (e.g., W-237).",
+          "quote": "A warning area may be located over domestic or international waters or both. The airspace is designated with a \"W\" followed by a number (e.g., W-237).",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "MOAs have defined vertical and lateral limits and are established to separate certain military training activities from IFR traffic.",
+          "quote": "MOAs consist of airspace with defined vertical and lateral limits established for the purpose of separating certain military training activities from IFR traffic.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Alert areas are charted with an \"A\" followed by a number (e.g., A-211) to inform nonparticipating pilots of areas that may contain a high volume of pilot training or an unusual type of aerial activity.",
+          "quote": "Alert areas are depicted on aeronautical charts with an \"A\" followed by a number (e.g., A-211) to inform nonparticipating pilots of areas that may contain a high volume of pilot training or an unusual type of aerial activity.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "CFAs differ from other special use airspace in that activities must be suspended when a spotter aircraft, radar or ground lookout position indicates an aircraft might be approaching the area.",
+          "quote": "The difference between CFAs and other special use airspace is that activities must be suspended when a spotter aircraft, radar, or ground lookout position indicates an aircraft might be approaching the area.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The permission a small unmanned aircraft operator needs for prohibited or restricted areas is set by 14 CFR 107.45 (see Part 107 airspace rules above). Chart symbols and figures are not described here."
+    },
+    {
+      "id": "other-airspace",
+      "name": "Other airspace areas",
+      "points": [
+        {
+          "text": "\"Other airspace areas\" is a general term referring to the majority of the remaining airspace; it includes, among others, local airport advisory (LAA), military training routes (MTRs), temporary flight restrictions (TFRs), parachute jump aircraft operations, published VFR routes, terminal radar service areas (TRSAs) and national security areas (NSAs).",
+          "quote": "\"Other airspace areas\" is a general term referring to the majority of the remaining airspace. It includes: • Local airport advisory (LAA) • Military training route (MTR) • Temporary flight restriction (TFR) • Parachute jump aircraft operations • Published VFR routes • Terminal radar service area (TRSA) • National security area (NSA)",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Local airport advisory (LAA) is an advisory service provided by Flight Service facilities located on the landing airport, using a discrete ground-to-air frequency or the tower frequency when the tower is closed.",
+          "quote": "An advisory service provided by Flight Service facilities, which are located on the landing airport, using a discrete ground-to-air frequency or the tower frequency when the tower is closed.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "MTRs are routes used by military aircraft to maintain proficiency in tactical flying, usually established below 10,000 feet MSL for operations at speeds in excess of 250 knots.",
+          "quote": "MTRs are routes used by military aircraft to maintain proficiency in tactical flying. These routes are usually established below 10,000 feet MSL for operations at speeds in excess of 250 knots.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "MTRs are identified as IFR (IR) or VFR (VR) followed by a number: four number characters when no segment is above 1,500 feet AGL (e.g., IR1206, VR1207), three when one or more segments are above 1,500 feet AGL (e.g., IR206, VR207).",
+          "quote": "Routes are identified as IFR (IR), and VFR (VR), followed by a number. [Figure 2-7] MTRs with no segment above 1,500 feet AGL are identified by four number characters (e.g., IR1206, VR1207). MTRs that include one or more segments above 1,500 feet AGL are identified by three number characters (e.g., IR206, VR207).",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Published VFR routes are for transitioning around, under or through some complex airspace; terms such as VFR flyway, VFR corridor, Class B airspace VFR transition route and terminal area VFR route have been applied to them.",
+          "quote": "Published VFR routes are for transitioning around, under, or through some complex airspace. Terms such as VFR flyway, VFR corridor, Class B airspace VFR transition route, and terminal area VFR route have been applied to such routes.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "TRSAs are areas where participating pilots can receive additional radar services, to provide separation between all IFR operations and participating VFR aircraft.",
+          "quote": "TRSAs are areas where participating pilots can receive additional radar services. The purpose of the service is to provide separation between all IFR operations and participating VFR aircraft.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The primary airport(s) within a TRSA become(s) Class D airspace; the rest of the TRSA overlies other controlled airspace, normally Class E airspace beginning at 700 or 1,200 feet.",
+          "quote": "The primary airport(s) within the TRSA become(s) Class D airspace. The remaining portion of the TRSA overlies other controlled airspace, which is normally Class E airspace beginning at 700 or 1,200 feet",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "NSAs consist of airspace of defined vertical and lateral dimensions established where there is a requirement for increased security and safety of ground facilities.",
+          "quote": "NSAs consist of airspace of defined vertical and lateral dimensions established at locations where there is a requirement for increased security and safety of ground facilities.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Flight in NSAs may be temporarily prohibited by regulation under 14 CFR part 99, with prohibitions disseminated via NOTAM; pilots are requested to voluntarily avoid flying through these depicted areas.",
+          "quote": "Flight in NSAs may be temporarily prohibited by regulation under the provisions of Title 14 of the Code of Federal Regulations (14 CFR) part 99 and prohibitions are disseminated via NOTAM. Pilots are requested to voluntarily avoid flying through these depicted areas.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The other entries on the Study Guide's list (ADIZ, Flight Restricted Zones, wildlife and marine areas, tethered balloons) are not summarized here."
+    },
+    {
+      "id": "tfr-notam",
+      "name": "TFRs and NOTAMs",
+      "points": [
+        {
+          "text": "A flight data center (FDC) Notice to Airmen (NOTAM) is issued to designate a TFR.",
+          "quote": "A flight data center (FDC) Notice to Airmen (NOTAM) is issued to designate a TFR.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The TFR NOTAM begins with the phrase \"FLIGHT RESTRICTIONS\" followed by the location of the temporary restriction, effective time period, area defined in statute miles and altitudes affected.",
+          "quote": "The NOTAM begins with the phrase \"FLIGHT RESTRICTIONS\" followed by the location of the temporary restriction, effective time period, area defined in statute miles, and altitudes affected.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Purposes for establishing a TFR include protecting persons and property in the air or on the surface from an existing or imminent hazard, and providing a safe environment for the operation of disaster relief aircraft.",
+          "quote": "Protect persons and property in the air or on the surface from an existing or imminent hazard. • Provide a safe environment for the operation of disaster relief aircraft.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Other listed purposes are preventing an unsafe congestion of sightseeing aircraft above an incident or event that may generate a high degree of public interest, protecting declared national disasters for humanitarian reasons in the State of Hawaii, and protecting the President, Vice President or other public figures.",
+          "quote": "Prevent an unsafe congestion of sightseeing aircraft above an incident or event, that may generate a high degree of public interest. • Protect declared national disasters for humanitarian reasons in the State of Hawaii. • Protect the President, Vice President, or other public figures.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "NOTAMs are time-critical aeronautical information either temporary in nature or not sufficiently known in advance to permit publication on aeronautical charts or in other operational publications.",
+          "quote": "Notices to Airmen, or NOTAMs, are time-critical aeronautical information either temporary in nature or not sufficiently known in advance to permit publication on aeronautical charts or in other operational publications.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Reasons NOTAMs are issued include hazards such as air shows, parachute jumps, kite flying and rocket launches; flights by important people such as heads of state; inoperable lights on tall obstructions; and temporary erection of obstacles near airfields.",
+          "quote": "Hazards, such as air shows, parachute jumps, kite flying, and rocket launches • Flights by important people such as heads of state • Inoperable lights on tall obstructions • Temporary erection of obstacles near airfields",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A NOTAM about the passage of flocks of birds through airspace is known as a BIRDTAM.",
+          "quote": "Passage of flocks of birds through airspace (a NOTAM in this category is known as a BIRDTAM)",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "What a remote pilot in command must do about these flight restrictions is set by 14 CFR 107.47 (see Part 107 airspace rules above). Where to look up NOTAMs and TFRs online today is not covered; the 2016 Study Guide's list of websites may be out of date."
+    }
+  ]
+}

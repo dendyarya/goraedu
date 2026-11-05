@@ -43,7 +43,9 @@ export function practiceRoute(cluster: OshaClusterId) {
       const topics = topicsOf(set);
       const guide = getAllGuides().find((g) => g.cluster === cluster && g.slug === set.slug);
       const others = setsFor().filter((s) => s.slug !== set.slug);
-      const label = intro(name) ? name : `${cluster === "cdl" ? "CDL" : "OSHA"} ${name}`;
+      const label = intro(name)
+        ? name
+        : `${cluster === "cdl" ? "CDL" : cluster === "faa-107" ? "Part 107" : "OSHA"} ${name}`;
 
       return (
         <PageShell
