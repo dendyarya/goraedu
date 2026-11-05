@@ -1,0 +1,597 @@
+{
+  "cluster": "epa-608",
+  "slug": "type-3",
+  "title": "EPA 608 Type III study guide",
+  "description": "EPA 608 Type III (low-pressure appliances): leak inspections, leak rates, 25 mm Hg evacuation, pressurizing for repairs, with the federal rule text.",
+  "intro": "Type III covers low-pressure appliances, such as chillers that use R-11, R-123, R-113 or R-245fa. This guide follows EPA's Type III test topics: leak detection, leak repair, recovery and recharging, recovery requirements, refrigeration and safety. Every point quotes the federal rule (40 CFR Part 82, Subpart F) and links to it.",
+  "topics": [
+    {
+      "id": "leak-detection",
+      "name": "Leak detection",
+      "points": [
+        {
+          "text": "The leak repair and inspection rules in § 82.157 apply only to appliances with a full charge of 50 pounds or more of a class I or class II refrigerant (or a blend that contains one).",
+          "quote": "As of April 10, 2020, this section applies only to appliances with a full charge of 50 or more pounds of any class I or class II refrigerant or blend containing a class I or class II refrigerant.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "These leak repair and inspection rules do not apply to appliances that contain only substitute refrigerants.",
+          "quote": "Notwithstanding the use of the term refrigerant in this section, the requirements of this section do not apply to appliances containing solely substitute refrigerants.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A leak inspection is an examination to find where refrigerant is leaking. Methods named in the rule include ultrasonic tests, gas-imaging cameras, bubble tests and leak detection devices used per the manufacturer's guidelines.",
+          "quote": "Leak inspection means the examination of an appliance to determine the location of refrigerant leaks. Potential methods include, but are not limited to, ultrasonic tests, gas-imaging cameras, bubble tests as appropriate, or the use of a leak detection device operated and maintained according to manufacturer guidelines.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Methods that show that an appliance leaks but not where (for example pressure or vacuum decay tests, sight glass checks or charging charts) must be combined with a method that finds the leak's location.",
+          "quote": "Methods that determine whether the appliance is leaking refrigerant but not the location of a leak, such as standing pressure/vacuum decay tests, sight glass checks, viewing receiver levels, pressure checks, and charging charts, must be used in conjunction with methods that can determine the location of a leak.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Commercial refrigeration and industrial process refrigeration appliances of 500 pounds or more that exceed the leak rate must get a leak inspection every three months, until the leak rate calculations show four quarters in a row without exceeding it.",
+          "quote": "For commercial refrigeration and industrial process refrigeration appliances with a full charge of 500 or more pounds, leak inspections must be conducted once every three months until the owner or operator can demonstrate",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Commercial refrigeration and industrial process refrigeration appliances of 50 to less than 500 pounds that exceed the leak rate must get a leak inspection once per calendar year, until the calculations show one year without exceeding it.",
+          "quote": "For commercial refrigeration and industrial process refrigeration appliances with a full charge of 50 or more pounds but less than 500 pounds, leak inspections must be conducted once per calendar year",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Comfort cooling appliances (such as chillers) and other covered appliances that exceed the leak rate must get a leak inspection once per calendar year, until the calculations show one year without exceeding it.",
+          "quote": "For comfort cooling appliances and other appliances not covered by paragraphs (g)(1)(i) and (ii) of this section, leak inspections must be conducted once per calendar year until the owner or operator can demonstrate",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A certified technician must do the leak inspection, using the method or methods the technician judges right for that appliance.",
+          "quote": "Leak inspections must be conducted by a certified technician using method(s) determined by the technician to be appropriate for that appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Every visible and accessible component must be inspected. Exceptions include components that are insulated, under ice, underground, behind walls or otherwise inaccessible.",
+          "quote": "All visible and accessible components of an appliance must be inspected, with the following exceptions: (i) Where components are insulated, under ice that forms on the outside of equipment, underground, behind walls, or are otherwise inaccessible;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Quarterly or annual leak inspections are not required on appliances (or parts of them) that are continuously monitored by an automatic leak detection system audited or calibrated every year.",
+          "quote": "Quarterly or annual leak inspections are not required on appliances, or portions of appliances, continuously monitored by an automatic leak detection system that is audited or calibrated annually.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An automatic system that detects refrigerant in air must accurately detect 10 parts per million of the refrigerant used and alert the owner or operator at 100 parts per million.",
+          "quote": "Accurately detect a concentration level of 10 parts per million of vapor of the specific refrigerant or refrigerants used in the refrigeration appliance(s); and (D) Alert the owner or operator when a refrigerant concentration of 100 parts per million of vapor",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Chronic leakers: owners or operators of appliances with 50 pounds or more of refrigerant that leak 125 percent or more of the full charge in a calendar year must report to EPA.",
+          "quote": "Owners or operators of appliances containing 50 pounds or more of refrigerant that leak 125 percent or more of the full charge in a calendar year must submit a report to EPA",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The chronic leaker report is due by March 1 of the following year and must describe the efforts to find the leaks and repair the appliance.",
+          "quote": "This report must be submitted by March 1 of the subsequent year and describe efforts to identify leaks and repair the appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Leak inspection records must include the date, the methods used, the location of each leak found and a certification that all visible and accessible parts were inspected. The technician must give this documentation to the owner or operator.",
+          "quote": "Owners or operators must keep records of leak inspections that include the date of inspection, the method(s) used to conduct the leak inspection, a list of the location of each leak that was identified, and a certification that all visible and accessible parts of the appliance were inspected.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The order of preference for leak test pressurization methods (hot water, built-in heating devices, nitrogen), signs of leakage such as excessive purging, and the maximum leak test pressure for low-pressure centrifugal chillers are not stated in the federal rule text, so they are not covered here."
+    },
+    {
+      "id": "leak-repair-requirements",
+      "name": "Leak repair requirements",
+      "points": [
+        {
+          "text": "Owners or operators must repair an appliance whose leak rate is over the applicable rate, unless they choose to retrofit or retire it. If repairs fail to bring the rate below the limit, they must make and carry out a retrofit or retirement plan.",
+          "quote": "If the owner or operator elects to repair leaks, but fails to bring the leak rate below the applicable leak rate, the owner or operator must create and implement a retrofit or retirement plan",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The leak rate limit is 20 percent for commercial refrigeration equipment and 30 percent for industrial process refrigeration equipment.",
+          "quote": "20 percent leak rate for commercial refrigeration equipment; (ii) 30 percent leak rate for industrial process refrigeration equipment; and",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The leak rate limit is 10 percent for comfort cooling appliances and for other appliances with a full charge of 50 pounds or more that are not commercial or industrial process refrigeration.",
+          "quote": "10 percent leak rate for comfort cooling appliances or other appliances with a full charge of 50 or more pounds of refrigerant not covered by (c)(2)(i) or (ii) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Comfort cooling means air conditioning that cools occupied buildings. The rule names chillers, commercial split systems and packaged roof-top units as examples.",
+          "quote": "Comfort cooling means the air-conditioning appliances used to provide cooling in order to control heat and/or humidity in occupied facilities including but not limited to residential, office, and commercial buildings. Comfort cooling appliances include but are not limited to chillers, commercial split systems, and packaged roof-top units.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The leak rate is the percentage of the full charge that would be lost over 12 months if the current rate of loss continued. One method must be used for all covered appliances at a facility.",
+          "quote": "The leak rate is expressed in terms of the percentage of the appliance's full charge that would be lost over a 12-month period if the current rate of loss were to continue over that period.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Leaks must be found and repaired within 30 days (120 days if an industrial process shutdown is required) of adding refrigerant to an appliance that exceeds its leak rate.",
+          "quote": "Owners or operators must identify and repair leaks in accordance with this paragraph within 30 days (or 120 days if an industrial process shutdown is required) of when refrigerant is added to an appliance exceeding the applicable leak rate",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Repairs must bring the leak rate below the limit, and each repair must be documented by an initial and a follow-up verification test.",
+          "quote": "Leaks must be repaired such that the leak rate is brought below the applicable leak rate. This must be confirmed by the leak rate calculation performed upon the next refrigerant addition.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The follow-up verification test must be done within 10 days of the successful initial test, or within 10 days of the appliance reaching normal operating conditions if it was evacuated for the repair.",
+          "quote": "A follow-up verification test must be performed within 10 days of the successful initial verification test or 10 days of the appliance reaching normal operating characteristics and conditions (if the appliance or isolated component was evacuated for the repair(s)).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If parts needed for the repair are not available in time, extra time is allowed up to 30 days after delivery, but not more than 180 days (270 days with an industrial process shutdown) from when the leak rate was exceeded.",
+          "quote": "Additional time is permitted up to 30 days after receiving delivery of the necessary components, not to exceed 180 days (or 270 days if an industrial process shutdown is required) from the date the appliance exceeded the applicable leak rate.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A retrofit or retirement plan is due within 30 days in the cases the rule lists, and unless more time is granted, the work must be finished within one year of the plan's date (no more than 13 months from when the plan was required).",
+          "quote": "Unless granted additional time, all work performed in accordance with the plan must be finished within one year of the plan's date (not to exceed 13 months from when the plan was required in paragraph (h)(1) of this section).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The repair deadlines are paused while an appliance is mothballed and start again on the day refrigerant is added back.",
+          "quote": "The time frames in paragraphs (d) through(f) of this section are temporarily suspended when an appliance is mothballed. The time will resume on the day additional refrigerant is added to the appliance",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "recovery-techniques",
+      "name": "Recovery techniques",
+      "points": [
+        {
+          "text": "Before opening or disposing of a low-pressure appliance, technicians must recover the refrigerant, including all the liquid refrigerant, to the Table 1 level with certified recovery and/or recycling equipment, unless one of the listed exceptions applies.",
+          "quote": "technicians must evacuate the refrigerant, including all the liquid refrigerant, to the levels in Table 1 using a recovery and/or recycling machine certified pursuant to § 82.158 unless the situations in paragraphs (a)(1) or (2) of this section apply.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Technicians may evacuate the whole appliance or only the part being serviced, if the refrigerant in that part can be isolated to a system receiver.",
+          "quote": "Technicians may evacuate either the entire appliance or the part to be serviced, if the refrigerant in the part can be isolated to a system receiver.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A system receiver is the isolated part of the appliance, or a vessel inside it, that holds the refrigerant charge during service or repair.",
+          "quote": "System receiver means the isolated portion of the appliance, or a specific vessel within the appliance, that is used to hold the refrigerant charge during the servicing or repair of that appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Self-contained recovery equipment can remove refrigerant without help from components inside the appliance.",
+          "quote": "Self-contained recovery equipment means refrigerant recovery and/or recycling equipment that is capable of removing the refrigerant from an appliance without the assistance of components contained in the appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "System-dependent recovery equipment may not be used on appliances with more than 15 pounds of refrigerant, unless it is permanently attached to the appliance as a pump-out unit.",
+          "quote": "System-dependent equipment may not be used with appliances with a full charge of more than 15 pounds of refrigerant, unless the system-dependent equipment is permanently attached to the appliance as a pump-out unit.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "People who service or dispose of only appliances they own that have pump-out units do not have to use certified self-contained recovery equipment.",
+          "quote": "Persons who maintain, service, repair, or dispose of only appliances that they own and that contain pump- out units are exempt from the requirement to use certified, self-contained recovery and/or recycling equipment.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Recovery and recycling equipment must be used according to the manufacturer's directions, unless they conflict with the federal rule.",
+          "quote": "All recovery and/or recycling equipment must be used in accordance with the manufacturer's directions unless such directions conflict with the requirements of this subpart.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Recovery equipment made or imported on or after January 1, 2017, for appliances other than small appliances, MVACs and MVAC-like appliances, must be certified by an approved testing organization to reach the evacuation levels in Table 2 of § 82.158.",
+          "quote": "must be certified by an approved equipment testing organization as being capable of achieving the level of evacuation specified in Table 2 of this section under the conditions of appendix B3 (for non-flammable refrigerants)",
+          "source": {
+            "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Certified recovery equipment must have low-loss fittings on all hoses.",
+          "quote": "The equipment must be equipped with low-loss fittings on all hoses.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "Recovering liquid first to speed up recovery, heating oil to 130°F before removing it, circulating or draining chiller water to prevent freezing, and the high-pressure cut-out setting of recovery devices are not stated in the federal rule text, so they are not covered here."
+    },
+    {
+      "id": "recharging-techniques",
+      "name": "Recharging techniques",
+      "points": [
+        {
+          "text": "Recovered refrigerant may be put back into the same appliance, or into another appliance of the same owner, without being recycled or reclaimed (this does not apply to MVACs or MVAC-like appliances).",
+          "quote": "Refrigerant may be returned to the appliance from which it is recovered or to another appliance owned by the same person without being recycled or reclaimed, unless the appliance is an MVAC or MVAC-like appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For appliances covered by § 82.157, the owner or operator must calculate the leak rate every time refrigerant is added, except right after a retrofit, at installation of a new appliance, or for a seasonal variance.",
+          "quote": "The owner or operator must calculate the leak rate every time refrigerant is added to an appliance unless the addition is made immediately following a retrofit, installation of a new appliance, or qualifies as a seasonal variance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Anyone who adds or removes refrigerant from a covered appliance must give the owner or operator documentation when the service is finished.",
+          "quote": "Persons adding or removing refrigerant from an appliance must, upon conclusion of that service, provide the owner or operator with documentation that meets the applicable requirements of paragraph (l)(2) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The service record for an appliance of 50 pounds or more includes the amount and type of refrigerant added (or removed, for disposal).",
+          "quote": "The amount and type of refrigerant added to, or in the case of disposal removed from, the appliance;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A seasonal variance is refrigerant removed because of a change in season and later added back in an equal or smaller amount, both within one 12-month period.",
+          "quote": "Seasonal variance means the removal of refrigerant from an appliance due to a change in ambient conditions caused by a change in season, followed by the subsequent addition of an amount that is less than or equal to the amount of refrigerant removed in the prior change in season,",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "After a leak repair that required evacuating the appliance or part of it, the initial verification test must be done before any refrigerant is added.",
+          "quote": "For repairs that require the evacuation of the appliance or portion of the appliance, the test must be performed before adding any refrigerant to the appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Leaks are presumed repaired if no refrigerant is added for 12 months after the repair, or if the required leak inspections find no leaks.",
+          "quote": "The leaks will be presumed to be repaired if there is no further refrigerant addition for 12 months after the repair or if the leak inspections required under paragraph (g) do not find any leaks in the appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "Charging vapor before liquid to prevent water freezing in the tubes, and charging centrifugal chillers through the evaporator charging valve, are not stated in the federal rule text, so they are not covered here."
+    },
+    {
+      "id": "recovery-requirements",
+      "name": "Recovery requirements",
+      "points": [
+        {
+          "text": "Table 1 sets one evacuation level for low-pressure appliances: 25 mm Hg absolute, whether the recovery equipment was made before or on or after November 15, 1993. Unlike medium- and high-pressure rows, the low-pressure row has no split by charge size.",
+          "quote": "Low-pressure appliance 25 mm Hg absolute 25 mm Hg absolute.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The Table 1 levels apply both before opening an appliance and before disposing of it.",
+          "quote": "Before opening appliances (except small appliances, MVACs, and MVAC-like appliances) or disposing of such appliances, technicians must evacuate the refrigerant, including all the liquid refrigerant, to the levels in Table 1",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The technician must verify that the required evacuation level has been reached before the appliance or part is opened.",
+          "quote": "A technician must verify that the applicable level of evacuation has been reached in the appliance or the part before it is opened.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A major repair is one that removes the compressor, condenser, evaporator or auxiliary heat exchange coil, or that uncovers an opening of more than 4 square inches of flow area for more than 15 minutes. Any other repair is non-major.",
+          "quote": "Major maintenance, service, or repair means any maintenance, service, or repair that involves the removal of any or all of the following appliance components: compressor, condenser, evaporator, or auxiliary heat exchange coil; or any maintenance, service, or repair that involves uncovering an opening of more than four (4) square inches of “flow area” for more than 15 minutes.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For a non-major repair that will not be followed by evacuating the appliance to the atmosphere, a low-pressure appliance must be pressurized to no higher than 0 psig before it is opened. Openings must be covered when isolation is not possible.",
+          "quote": "Be pressurized to a pressure no higher than 0 psig before it is opened if it is a low-pressure appliance. Persons must cover openings when isolation is not possible.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When pressurizing a low-pressure appliance whose refrigerant boils at or below 85°F at 29.9 inches of mercury, methods such as nitrogen that require later purging must not be used.",
+          "quote": "Persons pressurizing low-pressure appliances that use refrigerants with boiling points at or below 85 degrees Fahrenheit at 29.9 inches of mercury (standard atmospheric pressure), must not use methods such as nitrogen that require subsequent purging.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When the refrigerant boils above 85°F at 29.9 inches of mercury, heat must be used to raise the internal pressure as much as possible. Nitrogen may then be used to raise it from that level to atmospheric pressure.",
+          "quote": "must use heat to raise the internal pressure of the appliance as much as possible, but may use nitrogen to raise the internal pressure of the appliance from the level attainable through use of heat to atmospheric pressure;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For an oil change (non-major, no later evacuation to the atmosphere), the appliance must be evacuated or pressurized to no higher than 5 psig before opening, or the oil must be drained into a system receiver brought to no higher than 5 psig.",
+          "quote": "For the purposes of oil changes, be evacuated or pressurized to a pressure no higher than 5 psig, before it is opened; or drain the oil into a system receiver to be evacuated or pressurized to a pressure no higher than 5 psig.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If leaks make the Table 1 level unattainable or would badly contaminate the recovered refrigerant, leaking components must be isolated from non-leaking ones wherever possible, and non-leaking components must still reach the Table 1 level.",
+          "quote": "If leaks in the appliance make evacuation to the levels in Table 1 unattainable or would substantially contaminate the refrigerant being recovered, persons opening or disposing of the appliance must: (i) Isolate leaking from non-leaking components wherever possible;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Leaking components must be evacuated to the lowest level reachable without badly contaminating the refrigerant, and that level may not be above 0 psig.",
+          "quote": "Evacuate leaking components to be opened or disposed of to the lowest level that can be attained without substantially contaminating the refrigerant. This level may not exceed 0 psig.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Anyone who maintains, services, repairs or disposes of low-pressure appliances must be certified as a Type III technician (or Universal).",
+          "quote": "Persons who maintain, service, repair, or dispose of low-pressure appliances must be certified as Type III technicians.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "Hot water and built-in heating or pressurization devices (such as Prevac) as named methods, and waiting a few minutes after reaching the recovery vacuum to watch for a pressure rise, are not stated in the federal rule text, so they are not covered here."
+    },
+    {
+      "id": "refrigeration",
+      "name": "Refrigeration",
+      "points": [
+        {
+          "text": "A low-pressure appliance uses a refrigerant with a liquid phase saturation pressure below 45 psia at 104°F. Examples include R-11, R-123, R-113 and R-245fa.",
+          "quote": "Low-pressure appliance means an appliance that uses a refrigerant with a liquid phase saturation pressure below 45 psia at 104 °F. Examples include but are not limited to appliances using R-11, R-123, R-113, and R-245fa.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For appliances covered by § 82.157, purged refrigerant that is destroyed at a verifiable destruction efficiency of 98 percent or more is not counted in the annual leak rate.",
+          "quote": "In calculating annual leak rates, purged refrigerant that is destroyed at a verifiable destruction efficiency of 98 percent or greater will not be counted toward the leak rate.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Owners or operators who use this purge exclusion must keep records that support the amount of refrigerant claimed as sent for destruction, including flow rate, refrigerant quantity or concentration in the vent stream, and periods of purge flow.",
+          "quote": "Owners or operators who exclude purged refrigerants that are destroyed from annual leak rate calculations must maintain records to support the amount of refrigerant claimed as sent for destruction.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Owners or operators must notify EPA within 60 days after a facility first uses the purge exclusion.",
+          "quote": "When excluding purged refrigerants that are destroyed from annual leak rate calculations, owners or operators must notify EPA at this address within 60 days after the first time the exclusion is used by the facility where the appliance is located.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "This limit is for certified recovery and/or recycling equipment, not for the appliance: if such equipment (for appliances other than small appliances, MVACs and MVAC-like appliances) has a noncondensables purge device, it must not release more than 3 percent of the refrigerant being recycled through purging, under the test conditions of appendix B1–B4.",
+          "quote": "If the equipment is equipped with a noncondensables purge device, the equipment must not release more than 3 percent of the quantity of refrigerant being recycled through noncondensables purging under the conditions of appendix B1, B2, B3, or B4 of this subpart as applicable.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The purpose of the purge unit in low-pressure systems and the pressure-temperature relationships of low-pressure refrigerants are not explained in the federal rule text, so they are not covered here beyond the definitions and purge rules above."
+    },
+    {
+      "id": "safety",
+      "name": "Safety",
+      "points": [
+        {
+          "text": "During a leak inspection, components that personnel could reach only by being raised more than two meters above a support surface are exempt from inspection.",
+          "quote": "Where personnel must be elevated more than two meters above a support surface; or",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Components that site personnel determine are unsafe to inspect do not have to be inspected.",
+          "quote": "Where components are unsafe to inspect, as determined by site personnel.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If it is unsafe or impossible to do the follow-up verification test while the system runs at normal operating conditions, the test must, where practicable, be done before the system returns to those conditions.",
+          "quote": "Where it is unsafe to be present or otherwise impossible to conduct a follow-up verification test when the system is operating at normal operating characteristics and conditions, the verification test must, where practicable, be conducted prior to the system returning to normal operating characteristics and conditions.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "EPA's Type III safety topics (equipment room oxygen deprivation sensors and R-123 refrigerant sensors) come from ASHRAE Standard 15, which is not federal rule text, so they are not covered here."
+    }
+  ]
+}

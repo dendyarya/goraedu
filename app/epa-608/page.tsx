@@ -3,6 +3,7 @@ import Link from "next/link";
 import PageShell from "@/components/PageShell";
 import SourceList, { type Source } from "@/components/SourceList";
 import TradeIcon from "@/components/TradeIcon";
+import { getAllGuides } from "@/lib/guides";
 import { formatDate } from "@/lib/news";
 import { getAllSets, SECTION_NAME, universalPool } from "@/lib/questions";
 
@@ -69,6 +70,7 @@ export default function Epa608Page() {
     const set = sets.find((x) => x.slug === slug);
     return { name: SECTION_NAME[slug] ?? slug, href: set?.href, count: set?.questions.length };
   });
+  const guides = getAllGuides().filter((x) => x.cluster === "epa-608");
   const universal = universalPool();
   tests.push({ name: "Universal exam", href: universal.href, count: universal.sections.length * 25 });
 
@@ -202,6 +204,20 @@ export default function Epa608Page() {
               </Link>
             </p>
           </div>
+          {guides.length > 0 ? (
+            <div className="mt-6 rounded-2xl border border-line bg-panel p-6">
+              <h2 className="text-[1.25rem] font-bold">Study guides</h2>
+              <ul className="mt-4 space-y-2">
+                {guides.map((g) => (
+                  <li key={g.slug}>
+                    <Link href={g.href} className="font-semibold text-low underline">
+                      {SECTION_NAME[g.slug] ?? g.slug} study guide
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
         </aside>
       </div>
     </PageShell>

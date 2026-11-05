@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageShell from "@/components/PageShell";
 import PracticeTest from "@/components/PracticeTest";
+import { getAllGuides } from "@/lib/guides";
 import { formatDate } from "@/lib/news";
 import { getAllSets, lastChecked, SECTION_NAME, topicsOf } from "@/lib/questions";
 
@@ -38,6 +39,7 @@ export default async function SectionPracticeTestPage({ params }: Props) {
   const checked = lastChecked(set);
   const topics = topicsOf(set);
   const others = setsFor().filter((s) => s.slug !== set.slug);
+  const guide = getAllGuides().find((g) => g.cluster === "epa-608" && g.slug === set.slug);
 
   return (
     <PageShell
@@ -59,6 +61,17 @@ export default async function SectionPracticeTestPage({ params }: Props) {
           <PracticeTest title={`EPA 608 ${name}`} questions={set.questions} />
         </div>
         <aside className="space-y-6 text-[0.9375rem]">
+          {guide ? (
+            <div className="rounded-2xl border border-low/40 bg-low-soft p-5">
+              <h2 className="text-[1.125rem] font-bold">Study first</h2>
+              <p className="mt-2 text-muted">
+                Every point of the {name} rules, with the exact words of the regulation.
+              </p>
+              <Link href={guide.href} className="mt-3 inline-block font-semibold text-low underline">
+                {name} study guide
+              </Link>
+            </div>
+          ) : null}
           <div className="rounded-2xl border border-line bg-panel p-5">
             <h2 className="text-[1.125rem] font-bold">Topics in this set</h2>
             <ul className="mt-3 space-y-1.5 text-muted">

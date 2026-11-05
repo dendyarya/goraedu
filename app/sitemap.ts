@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { getAllGuides } from "@/lib/guides";
 import { getAllNews } from "@/lib/news";
 import { getAllPages } from "@/lib/pages";
 import { getAllSets } from "@/lib/questions";
@@ -18,9 +19,12 @@ const PATHS = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = [...PATHS, ...getAllSets().map((s) => s.href), ...getAllPages().map((p) => `/${p.slug}/`)].map(
-    (path) => ({ url: `${SITE.url}${path}` }),
-  );
+  const pages = [
+    ...PATHS,
+    ...getAllSets().map((s) => s.href),
+    ...getAllGuides().map((g) => g.href),
+    ...getAllPages().map((p) => `/${p.slug}/`),
+  ].map((path) => ({ url: `${SITE.url}${path}` }));
   const news = getAllNews().map((p) => ({
     url: `${SITE.url}/news/${p.slug}/`,
     lastModified: p.updated ?? p.published,
