@@ -1,0 +1,274 @@
+{
+  "cluster": "epa-608",
+  "slug": "appliance-disposal-rules",
+  "title": "EPA 608 appliance disposal rules",
+  "description": "Safe disposal rules in 40 CFR 82.155: recovery from small appliances, MVACs and MVAC-like appliances, final processor duties, signed statements and records.",
+  "summary": "Persons recovering refrigerant from a small appliance, MVAC or MVAC-like appliance for disposal must evacuate it to the levels in 82.156(b) through (d). The final processor, such as a scrap recycler or landfill operator, must either recover any remaining refrigerant or verify with a signed statement or contract that it was recovered, and keep those statements or contracts for three years. Persons who dispose of small appliances, MVACs and MVAC-like appliances do not need to be certified.",
+  "intro": "This page covers the safe disposal rules in 40 CFR 82.155, the disposal evacuation levels in 82.156 and the certification rule for disposal in 82.161. Each point quotes the rule and links to it.",
+  "topics": [
+    {
+      "id": "scope",
+      "name": "What counts as disposal",
+      "points": [
+        {
+          "text": "Since January 1, 2018, the safe disposal rules apply to appliances containing any class I or class II refrigerant or any non-exempt substitute refrigerant.",
+          "quote": "Starting on January 1, 2018, this section applies to disposal of appliances containing any class I or class II refrigerant or any non-exempt substitute refrigerant.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Disposal includes discarding an appliance onto land or into water, and taking it apart to discard its parts that way.",
+          "quote": "Disposal means the process leading to and including: (1) The discharge, deposit, dumping or placing of any discarded appliance into or on any land or water; (2) The disassembly of any appliance for discharge, deposit, dumping or placing of its discarded component parts into or on any land or water;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Disposal also includes vandalism that releases (or would release) the refrigerant, taking an appliance apart to reuse its parts, and recycling it for scrap.",
+          "quote": "(3) The vandalism of any appliance such that the refrigerant is released into the environment or would be released into the environment if it had not been recovered prior to the destructive activity; (4) The disassembly of any appliance for reuse of its component parts; or (5) The recycling of any appliance for scrap.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "required-recovery",
+      "name": "Required recovery before disposal",
+      "points": [
+        {
+          "text": "Persons recovering refrigerant from a small appliance, MVAC or MVAC-like appliance for disposal must evacuate it to the levels in 82.156(b) through (d), using recovery equipment that meets 82.158(e) through (g) or subpart B, as applicable.",
+          "quote": "Persons recovering refrigerant from a small appliance, MVAC, or MVAC-like appliance for purposes of disposal of these appliances must evacuate refrigerant to the levels in § 82.156(b) through (d) using recovery equipment that meets the standards in § 82.158(e) through (g), or 40 CFR part 82 subpart B, as applicable.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Small appliances: with recovery equipment made on or after November 15, 1993, recover 90 percent of the refrigerant if the compressor works or 80 percent if it does not.",
+          "quote": "When using recovery equipment manufactured on or after November 15, 1993, recover 90 percent of the refrigerant in the appliance when the compressor in the appliance is functioning, or 80 percent of the refrigerant in the appliance when the compressor in the appliance is not functioning; or",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Small appliances: with recovery equipment made before November 15, 1993, recover 80 percent of the refrigerant.",
+          "quote": "When using recovery equipment manufactured before November 15, 1993, recover 80 percent of the refrigerant in the small appliance; or",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Small appliances: the other option is to evacuate the appliance to four inches of mercury vacuum.",
+          "quote": "80 percent of the refrigerant in the appliance when the compressor in the appliance is not functioning; or (3) Evacuate the appliance to four inches of mercury vacuum.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "MVACs being disposed of: follow 40 CFR part 82, subpart B, or reduce the system pressure to or below 102 mm of mercury vacuum.",
+          "quote": "All persons recovering refrigerant from MVACs for purposes of disposal of these appliances must evacuate the appliance in accordance with 40 CFR part 82, subpart B or reduce the system pressure to or below 102 mm of mercury vacuum.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "MVAC-like appliances being disposed of: the same rule, subpart B or 102 mm of mercury vacuum or below.",
+          "quote": "All persons recovering refrigerant from MVAC-like appliances for purposes of disposal of these appliances must evacuate the appliance in accordance with 40 CFR part 82, subpart B or reduce the system pressure to or below 102 mm of mercury vacuum.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An MVAC-like appliance is an open-drive compressor appliance with a full charge of 20 pounds or less that cools the driver's or passenger's compartment of off-road vehicles or equipment, such as agricultural or construction vehicles. It does not cover R-22 appliances.",
+          "quote": "MVAC-like appliance means a mechanical vapor compression, open-drive compressor appliance with a full charge of 20 pounds or less of refrigerant used to cool the driver's or passenger's compartment of off- road vehicles or equipment. This includes, but is not limited to, the air-conditioning equipment found on agricultural or construction vehicles. This definition is not intended to cover appliances using R-22 refrigerant.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Other appliances (not small appliances, MVACs or MVAC-like appliances) must be evacuated to the Table 1 levels in 82.156 before disposal.",
+          "quote": "Before opening appliances (except small appliances, MVACs, and MVAC-like appliances) or disposing of such appliances, technicians must evacuate the refrigerant, including all the liquid refrigerant, to the levels in Table 1",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "final-processor",
+      "name": "Final processor duties",
+      "points": [
+        {
+          "text": "The final processor is whoever takes the final step in disposing of a small appliance, MVAC or MVAC-like appliance, including scrap recyclers and landfill operators. It must either recover any remaining refrigerant itself, or verify that it was recovered.",
+          "quote": "The final processor—i.e., persons who take the final step in the disposal process (including but not limited to scrap recyclers and landfill operators) of a small appliance, MVAC, or MVAC-like appliance—must either: (1) Recover any remaining refrigerant from the appliance in accordance with paragraph (a) of this section; or",
+          "source": {
+            "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Verification is done with a signed statement or a contract that all refrigerant that had not leaked previously has been recovered from the appliance or shipment.",
+          "quote": "Verify using a signed statement or a contract that all refrigerant that had not leaked previously has been recovered from the appliance or shipment of appliances in accordance with paragraph (a) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A signed statement must include the name and address of the person who recovered the refrigerant and the date it was recovered.",
+          "quote": "If using a signed statement, it must include the name and address of the person who recovered the refrigerant and the date the refrigerant was recovered.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A signed contract between supplier and final processor must state that the supplier will recover remaining refrigerant before delivery, or verify that it was properly recovered before the supplier received the appliance.",
+          "quote": "If using a signed contract between the supplier and the final processor, it must either state that the supplier will recover any remaining refrigerant from the appliance or shipment of appliances in accordance with paragraph (a) of this section prior to delivery or verify that the refrigerant had been properly recovered prior to receipt by the supplier.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Accepting a signed statement or contract is a violation if the receiver knew or had reason to know it was false.",
+          "quote": "It is a violation of this subpart to accept a signed statement or contract if the person receiving the statement or contract knew or had reason to know that the signed statement or contract is false.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The final processor must notify suppliers that refrigerant must be properly recovered before delivery, for example with signs or letters.",
+          "quote": "The final processor must notify suppliers of appliances that refrigerant must be properly recovered in accordance with paragraph (a) of this section before delivery of the items to the facility. The form of this notification may be signs, letters to suppliers, or other equivalent means.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If all refrigerant has leaked out, the final processor must get a signed statement saying so and that recovery is not possible. \"Leaked out\" means escape from system failures, accidents or other unavoidable events, not negligence or deliberate acts such as cutting lines.",
+          "quote": "If all the refrigerant has leaked out of the appliance, the final processor must obtain a signed statement that all the refrigerant in the appliance had leaked out prior to delivery to the final processor and recovery is not possible. “Leaked out” in this context means those situations in which the refrigerant has escaped because of system failures, accidents, or other unavoidable occurrences not caused by a person's negligence or deliberate acts such as cutting refrigerant lines.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "records",
+      "name": "Records",
+      "points": [
+        {
+          "text": "The final processor must keep a copy of all signed statements and contracts on site, on paper or electronically, for three years.",
+          "quote": "The final processor of a small appliance, MVAC, or MVAC-like appliance must keep a copy of all the signed statements or contracts obtained under paragraph (b)(2) of this section on site, in hard copy or in electronic format, for three years.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Since January 1, 2018, technicians evacuating appliances with a full charge of more than 5 and less than 50 pounds for disposal must keep records for three years.",
+          "quote": "As of January 1, 2018, technicians evacuating refrigerant from appliances with a full charge of more than 5 and less than 50 pounds of refrigerant for purposes of disposal of that appliance must keep records documenting the following for three years:",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Those records include the company name, appliance location, recovery date and refrigerant type for each appliance, plus the monthly total recovered by type.",
+          "quote": "The company name, location of the appliance, date of recovery, and type of refrigerant recovered for each appliance; (ii) The total quantity of refrigerant, by type, recovered from all disposed appliances in each calendar month; and",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "They also include the quantity sent for reclamation and/or destruction, by type, to whom it went, and the date of transfer.",
+          "quote": "The quantity of refrigerant, by type, transferred for reclamation and/or destruction, the person to whom it was transferred, and the date of transfer.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "certification",
+      "name": "Who needs certification to dispose",
+      "points": [
+        {
+          "text": "Persons who dispose of small appliances, MVACs and MVAC-like appliances do not need to be certified.",
+          "quote": "Persons who dispose of small appliances, MVACs, and MVAC-like appliances are not required to be certified.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Persons who dispose of medium-, high- or very high-pressure appliances (other than small appliances, MVACs and MVAC-like appliances) must be certified as Type II technicians.",
+          "quote": "Persons who maintain, service, repair, or dispose of medium-, high-, or very high-pressure appliances (except small appliances, MVACs, and MVAC-like appliances) must be certified as Type II technicians.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Persons who dispose of low-pressure appliances must be certified as Type III technicians.",
+          "quote": "Persons who maintain, service, repair, or dispose of low-pressure appliances must be certified as Type III technicians.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In disposal, a technician is anyone who could reasonably be expected to violate the integrity of the refrigerant circuit of an appliance other than a small appliance, MVAC or MVAC-like appliance.",
+          "quote": "Technician also means any person who in the course of disposal of an appliance (except small appliances, MVACs, and MVAC-like appliances) could be reasonably expected to violate the integrity of the refrigerant circuit and therefore release refrigerants from the appliances into the environment.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    }
+  ]
+}

@@ -97,60 +97,60 @@
     },
     {
       "id": "t3-031",
-      "topic": "Recovery equipment",
-      "question": "Recovery equipment made on or after November 15, 1993, for use with low-pressure appliances must be able to reach which evacuation level under Table 2 of §82.158?",
+      "topic": "Low-pressure basics",
+      "question": "An apprentice who is not yet certified helps recover refrigerant from a low-pressure chiller. Under what condition is the apprentice exempt from the technician certification requirement?",
       "options": {
-        "A": "0 inches of Hg vacuum",
-        "B": "10 inches of Hg vacuum",
-        "C": "25 mm Hg absolute",
-        "D": "15 inches of Hg vacuum"
+        "A": "When the apprentice has finished at least one year of training",
+        "B": "When the chiller holds less than 50 pounds of refrigerant",
+        "C": "When the apprentice is closely and continually supervised by a certified technician",
+        "D": "When the owner of the chiller gives written permission"
       },
       "answer": "C",
-      "explanation": "Table 2 lists \"Low-pressure appliances 25 mm Hg\" absolute for equipment made before and on or after November 15, 1993. The inch-of-vacuum levels (0, 4, 10 and 15 inches) are for HCFC-22, very high-, high- and medium-pressure appliances.",
+      "explanation": "Apprentices are exempt \"provided the apprentice is closely and continually supervised by a certified technician\" during work that could release refrigerant. The supervising technician and the apprentice share responsibility for compliance; training time, charge size, and owner permission are not conditions in the rule.",
       "source": {
-        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
       },
       "checked": "2026-11-05",
-      "evidence": "appliances, with a full charge of 200 pounds or more of refrigerant Low-pressure appliances 25 mm Hg 25 mm Hg"
+      "evidence": "Apprentices are exempt from the requirement in paragraph (a)(1) of this section provided the apprentice is closely and continually supervised by a certified technician while performing any maintenance, service, repair, or disposal that could reasonably be expected to release refrigerant from an appliance into the environment"
     },
     {
       "id": "t3-032",
-      "topic": "Recovery equipment",
-      "question": "Certified recovery and/or recycling equipment for low-pressure appliances must be equipped with which item on all hoses?",
+      "topic": "Evacuation",
+      "question": "A technician has recovered R-123 from a low-pressure chiller into a recovery cylinder. Later, the technician knowingly releases that recovered refrigerant to the air. How does the rule treat this?",
       "options": {
-        "A": "Sight glasses",
-        "B": "Moisture indicators",
-        "C": "Pressure relief valves",
-        "D": "Low-loss fittings"
+        "A": "It is allowed, because the refrigerant was already recovered from the appliance",
+        "B": "It is a de minimis release",
+        "C": "It is allowed if the cylinder holds less than 50 pounds",
+        "D": "It is a violation of the venting prohibition"
       },
       "answer": "D",
-      "explanation": "The equipment standard says: \"The equipment must be equipped with low-loss fittings on all hoses.\" A low-loss fitting is \"designed to close automatically or to be closed manually when disconnected,\" which limits refrigerant release from hoses.",
+      "explanation": "The rule states that \"The knowing release of a class I or class II refrigerant or a non-exempt substitute refrigerant after its recovery from an appliance is a violation of the venting prohibition.\" De minimis releases are only those tied to good faith recovery or recycling attempts while the required practices are followed.",
       "source": {
-        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
       },
       "checked": "2026-11-05",
-      "evidence": "The equipment must be equipped with low-loss fittings on all hoses."
+      "evidence": "The knowing release of a class I or class II refrigerant or a non-exempt substitute refrigerant after its recovery from an appliance is a violation of the venting prohibition."
     },
     {
       "id": "t3-033",
-      "topic": "Recovery equipment",
-      "question": "Equipment advertised as \"recycling equipment\" must be able to clean a standard contaminated sample to set levels. What is the maximum moisture level (by weight) for low-pressure (R-11, R-123, R-113) systems?",
+      "topic": "Verification and records",
+      "question": "A technician performs a follow-up verification test on a repaired leak in a chiller with a full charge of 50 or more pounds of a class I or class II refrigerant. What must the technician do when the service is finished?",
       "options": {
-        "A": "1.0 PPM",
-        "B": "20 PPM",
-        "C": "10 PPM",
-        "D": "2.0 percent"
+        "A": "Send the test results to EPA within 30 days",
+        "B": "Give the owner or operator documentation of the test that meets the recordkeeping requirements",
+        "C": "Keep the only copy of the results at the technician's place of business",
+        "D": "Nothing; verification test records are the owner's job alone"
       },
       "answer": "B",
-      "explanation": "In the §82.158(k) table, the moisture limit in the low-pressure column is \"20 PPM.\" The 10 PPM limit is for R-12 systems, 1.0 PPM is the acid content limit, and 2.0 percent is the noncondensable gas limit for other systems (listed as N/A for low-pressure).",
+      "explanation": "Technicians conducting initial or follow-up verification tests \"must, upon conclusion of that service, provide the owner or operator of the appliance with documentation that meets these requirements\" (location, dates, repaired leaks tested, test types, and results). The rule does not call for sending the results to EPA.",
       "source": {
-        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
       },
       "checked": "2026-11-05",
-      "evidence": "Acid Content (by wt.) 1.0 PPM 1.0 PPM 1.0 PPM. Moisture (by wt.) 20 PPM 10 PPM 20 PPM."
+      "evidence": "Technicians conducting initial or follow-up verification tests must, upon conclusion of that service, provide the owner or operator of the appliance with documentation that meets these requirements."
     },
     {
       "id": "t3-034",
@@ -421,40 +421,40 @@
     {
       "id": "t3-048",
       "topic": "Leak repair",
-      "question": "Instead of scheduled leak inspections, the owner of an appliance with a full charge of 50 or more pounds of a class I or class II refrigerant uses an automatic leak detection system that directly detects refrigerant in air. At what concentration must the system alert the owner or operator?",
+      "question": "The owner of a chiller with a full charge of 50 or more pounds of a class I or class II refrigerant will retrofit it to a different refrigerant under a retrofit or retirement plan. What must happen to the leaks that have been identified?",
       "options": {
-        "A": "10 parts per million of vapor",
-        "B": "50 parts per million of vapor",
-        "C": "1,000 parts per million of vapor",
-        "D": "100 parts per million of vapor"
+        "A": "They may be left as they are, because the refrigerant is being changed",
+        "B": "Only leaks larger than the applicable leak rate must be repaired",
+        "C": "They must be reported to EPA instead of repaired",
+        "D": "All identified leaks must be repaired as part of the retrofit"
       },
       "answer": "D",
-      "explanation": "The system must \"Alert the owner or operator when a refrigerant concentration of 100 parts per million of vapor\" of the refrigerant is reached. 10 parts per million is the level it must be able to detect accurately, not the alert level.",
+      "explanation": "The rule states: \"All identified leaks must be repaired as part of any retrofit under such a plan.\" Changing the refrigerant does not remove the duty to fix the leaks found.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
       },
       "checked": "2026-11-05",
-      "evidence": "Alert the owner or operator when a refrigerant concentration of 100 parts per million of vapor of the specific refrigerant or refrigerants used in the refrigeration appliance(s) is reached."
+      "evidence": "The retrofit or retirement plan must be signed by an authorized company official, dated, accessible at the site of the appliance in paper copy or electronic format, and available for EPA inspection upon request. (4) All identified leaks must be repaired as part of any retrofit under such a plan."
     },
     {
       "id": "t3-049",
       "topic": "Leak repair",
-      "question": "During a required leak inspection of an appliance with a full charge of 50 or more pounds of a class I or class II refrigerant, which component is exempt from inspection?",
+      "question": "The owner of a comfort cooling chiller with a full charge of 50 or more pounds of a class I or class II refrigerant uses a repair deadline extension because one part is on back order. Other leaks that significantly contribute to the leak rate can be fixed without extra time. When must those repairs be completed and verified?",
       "options": {
-        "A": "A visible compressor at floor level",
-        "B": "A component that personnel could reach only by being elevated more than two meters above a support surface",
-        "C": "An accessible condenser",
-        "D": "Any component the owner chooses to skip"
+        "A": "Within 30 days of receiving the back-ordered part",
+        "B": "Within the initial 30-day repair period",
+        "C": "Within 180 days of the appliance exceeding the leak rate",
+        "D": "Before the next annual leak inspection"
       },
       "answer": "B",
-      "explanation": "All visible and accessible components must be inspected, with exceptions including \"Where personnel must be elevated more than two meters above a support surface.\" Visible, accessible components such as a floor-level compressor or a reachable condenser must be inspected.",
+      "explanation": "Repairs to leaks that significantly contribute to the exceedance \"and that do not require additional time must be completed and verified within the initial 30 day repair period\" (120 days if an industrial process shutdown is required). The extra time covers only the repair that needs the missing part.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
       },
       "checked": "2026-11-05",
-      "evidence": "All visible and accessible components of an appliance must be inspected, with the following exceptions: (i) Where components are insulated, under ice that forms on the outside of equipment, underground, behind walls, or are otherwise inaccessible; (ii) Where personnel must be elevated more than two meters above a support surface; or"
+      "evidence": "Repairs to leaks that the technician has identified as significantly contributing to the exceedance of the leak rate and that do not require additional time must be completed and verified within the initial 30 day repair period"
     },
     {
       "id": "t3-050",

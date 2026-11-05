@@ -96,25 +96,6 @@
       "evidence": "Using recovery and/or Using recovery and/or Type of appliance recycling equipment recycling equipment manufactured or manufactured or imported before imported on or after November 15, 1993 November 15, 1993"
     },
     {
-      "id": "t2-031",
-      "topic": "Recovery practices",
-      "question": "A technician has evacuated a high-pressure appliance before a major repair. What does 40 CFR 82.156(a) require the technician to do before opening it?",
-      "options": {
-        "A": "Notify EPA that the appliance will be opened",
-        "B": "Pressurize the appliance with nitrogen to 5 psig",
-        "C": "Verify that the applicable level of evacuation has been reached",
-        "D": "Wait 30 days after the evacuation"
-      },
-      "answer": "C",
-      "explanation": "The rule says \"A technician must verify that the applicable level of evacuation has been reached in the appliance or the part before it is opened.\" No EPA notice or waiting period is required before opening, and 5 psig is the limit for oil changes, not a step before a major repair.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
-      },
-      "checked": "2026-11-05",
-      "evidence": "A technician must verify that the applicable level of evacuation has been reached in the appliance or the part before it is opened."
-    },
-    {
       "id": "t2-032",
       "topic": "Recovery practices",
       "question": "Leaks in a high-pressure appliance make the Table 1 levels unattainable. Its leaking and non-leaking components have been isolated from each other. To what level must the non-leaking components to be opened be evacuated?",
@@ -231,7 +212,7 @@
     {
       "id": "t2-038",
       "topic": "Leak repair",
-      "question": "An appliance covered by 40 CFR 82.157 is over its leak rate, and replacement components are not available within 30 days. No industrial process shutdown is required, and the other extension conditions are met. What is the latest the repair time can run, counted from the date the appliance exceeded the leak rate?",
+      "question": "An appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant) is over its leak rate. The only reason the repair needs more time is that replacement components are not available within 30 days. No industrial process shutdown is required, and the owner or operator meets the documentation and EPA request requirements for an extension. What is the latest the repair time can run, counted from the date the appliance exceeded the leak rate?",
       "options": {
         "A": "120 days",
         "B": "180 days",
@@ -250,7 +231,7 @@
     {
       "id": "t2-039",
       "topic": "Leak repair",
-      "question": "An appliance covered by 40 CFR 82.157 is mothballed during its repair period. When do the repair time frames start running again?",
+      "question": "An appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant) is mothballed during its repair period. When do the repair time frames start running again?",
       "options": {
         "A": "On the day additional refrigerant is added to the appliance (or the isolated leaking component)",
         "B": "On the day the appliance is mothballed",
@@ -269,7 +250,7 @@
     {
       "id": "t2-040",
       "topic": "Leak repair",
-      "question": "The owner of an appliance covered by 40 CFR 82.157 writes a retrofit or retirement plan. The plan must include a schedule for completing the work that does not exceed how long?",
+      "question": "The owner of an appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant) writes a retrofit or retirement plan. The plan must include a schedule for completing the work that does not exceed how long?",
       "options": {
         "A": "30 days",
         "B": "90 days",
@@ -310,7 +291,7 @@
       "question": "Under 40 CFR 82.157 (appliances with a full charge of 50 or more pounds of a class I or class II refrigerant), who must conduct the required leak inspections?",
       "options": {
         "A": "An EPA inspector",
-        "B": "Any employee of the owner or operator",
+        "B": "Any employee of the owner or operator, whether or not certified",
         "C": "A certified technician",
         "D": "The appliance manufacturer"
       },
@@ -326,7 +307,7 @@
     {
       "id": "t2-043",
       "topic": "Verification and inspections",
-      "question": "An automatic leak detection system that directly detects refrigerant in air is used on an appliance covered by 40 CFR 82.157. At what refrigerant concentration must it alert the owner or operator?",
+      "question": "An automatic leak detection system that directly detects refrigerant in air is used on an appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant). At what refrigerant concentration must it alert the owner or operator?",
       "options": {
         "A": "10 parts per million",
         "B": "100 parts per million",
@@ -345,7 +326,7 @@
     {
       "id": "t2-044",
       "topic": "Verification and inspections",
-      "question": "An automatic leak detection system on an appliance covered by 40 CFR 82.157 monitors the appliance's conditions instead of detecting refrigerant in air. When must it alert the owner or operator?",
+      "question": "An automatic leak detection system on an appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant) monitors the appliance's conditions instead of detecting refrigerant in air. When must it alert the owner or operator?",
       "options": {
         "A": "When measurements indicate a loss of 50 pounds of refrigerant or 10 percent of the full charge, whichever is less",
         "B": "When measurements indicate a loss of 50 pounds of refrigerant or 10 percent of the full charge, whichever is more",
@@ -364,7 +345,7 @@
     {
       "id": "t2-045",
       "topic": "Verification and inspections",
-      "question": "During a leak inspection under 40 CFR 82.157, components need not be inspected where personnel would have to be elevated more than how far above a support surface?",
+      "question": "During a leak inspection under 40 CFR 82.157 (appliances with a full charge of 50 or more pounds of a class I or class II refrigerant), components need not be inspected where personnel would have to be elevated more than how far above a support surface?",
       "options": {
         "A": "One meter",
         "B": "Six feet",
@@ -372,7 +353,7 @@
         "D": "Two meters"
       },
       "answer": "D",
-      "explanation": "The inspection exceptions include components \"Where personnel must be elevated more than two meters above a support surface.\" All other visible and accessible components must still be inspected.",
+      "explanation": "The inspection exceptions include components \"Where personnel must be elevated more than two meters above a support surface.\" The other exceptions are components that are insulated, under ice, underground, behind walls or otherwise inaccessible, and components that site personnel determine are unsafe to inspect.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -402,78 +383,21 @@
     {
       "id": "t2-047",
       "topic": "Verification and inspections",
-      "question": "After a leak repair on an appliance covered by 40 CFR 82.157, it is unsafe to be present while the system runs at normal operating characteristics and conditions. When must the follow-up verification test be done?",
+      "question": "After a leak repair on an appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant), it is unsafe to be present while the system runs at normal operating characteristics and conditions. When must the follow-up verification test be done?",
       "options": {
         "A": "Where practicable, before the system returns to normal operating characteristics and conditions",
-        "B": "It may be skipped entirely",
+        "B": "Only after the system has run at normal operating characteristics and conditions for 30 days",
         "C": "Within 12 months of the repair",
         "D": "Only after the next refrigerant addition"
       },
       "answer": "A",
-      "explanation": "Where it is unsafe or impossible to test at normal conditions, \"the verification test must, where practicable, be conducted prior to the system returning to normal operating characteristics and conditions.\" The rule moves the test earlier; it does not drop it.",
+      "explanation": "Where it is unsafe or impossible to test at normal conditions, \"the verification test must, where practicable, be conducted prior to the system returning to normal operating characteristics and conditions.\" The test moves earlier, before the system returns to normal conditions, not later.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
       },
       "checked": "2026-11-05",
       "evidence": "Where it is unsafe to be present or otherwise impossible to conduct a follow-up verification test when the system is operating at normal operating characteristics and conditions, the verification test must, where practicable, be conducted prior to the system returning to normal operating characteristics and conditions."
-    },
-    {
-      "id": "t2-048",
-      "topic": "Records and certification",
-      "question": "A Type II technician stops working as a technician. Until when must the technician keep a copy of the certificate?",
-      "options": {
-        "A": "Until one year after passing the test",
-        "B": "Until three years after no longer operating as a technician",
-        "C": "Only while still working as a technician",
-        "D": "Until five years after passing the test"
-      },
-      "answer": "B",
-      "explanation": "The rule says \"Technicians must maintain a copy of their certificate until three years after no longer operating as a technician.\" Keeping it only while working would fall short of that three-year period.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
-      },
-      "checked": "2026-11-05",
-      "evidence": "Technicians certified under this section must keep a copy of their certificate at their place of business. (ii) Technicians must maintain a copy of their certificate until three years after no longer operating as a technician."
-    },
-    {
-      "id": "t2-049",
-      "topic": "Records and certification",
-      "question": "A technician maintains, services, or repairs MVAC-like appliances. Which certification does 40 CFR 82.161 accept?",
-      "options": {
-        "A": "Type I only",
-        "B": "Type III only",
-        "C": "No certification is required for this work",
-        "D": "Type II, or certification under 40 CFR part 82, subpart B"
-      },
-      "answer": "D",
-      "explanation": "Technicians who work on MVAC-like appliances \"must either be certified as Type II technicians or be certified in accordance with 40 CFR part 82, subpart B.\" Only disposal of MVAC-like appliances is free of the certification requirement, not maintenance, service or repair.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
-      },
-      "checked": "2026-11-05",
-      "evidence": "Technicians who maintain, service, or repair MVAC-like appliances must either be certified as Type II technicians or be certified in accordance with 40 CFR part 82, subpart B."
-    },
-    {
-      "id": "t2-050",
-      "topic": "Records and certification",
-      "question": "Under the EPA standards for certifying programs, what is the passing score for the closed-book Type II certification test?",
-      "options": {
-        "A": "60 percent",
-        "B": "84 percent",
-        "C": "70 percent",
-        "D": "90 percent"
-      },
-      "answer": "C",
-      "explanation": "Appendix D says \"The passing score for the closed-book Type I, Type II, Type III and Universal certification test is 70 percent.\" The 84 percent score applies only to mail-in format Type I tests.",
-      "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
-      },
-      "checked": "2026-11-05",
-      "evidence": "The passing score for the closed-book Type I, Type II, Type III and Universal certification test is 70 percent. The passing score for Type I certification tests using the mail-in format is 84 percent."
     }
   ]
 }

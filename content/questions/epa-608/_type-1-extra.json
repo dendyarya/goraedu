@@ -77,28 +77,9 @@
       "evidence": "Propane (R-290) in retail food refrigerators and freezers—stand-alone units; household refrigerators, freezers, and combination refrigerators and freezers; self-contained room air conditioners for residential and light commercial air-conditioning and heat pumps; vending machines; self-contained commercial ice machines, very low temperature refrigeration equipment, and water coolers;"
     },
     {
-      "id": "t1-030",
-      "topic": "Definitions",
-      "question": "Under the definition of \"opening an appliance,\" how is connecting hoses and gauges to measure pressures treated?",
-      "options": {
-        "A": "It is not considered opening an appliance",
-        "B": "It is always considered opening an appliance",
-        "C": "It is considered disposal of the appliance",
-        "D": "It counts as opening an appliance only on small appliances"
-      },
-      "answer": "A",
-      "explanation": "The definition says \"connecting and disconnecting hoses and gauges to measure pressures, add refrigerant, or recover refrigerant from the appliance are not considered\" opening an appliance. Opening means work that \"would release any refrigerant in the appliance to the atmosphere,\" and the rule makes no special case for small appliances.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-      },
-      "checked": "2026-11-05",
-      "evidence": "Connecting and disconnecting hoses and gauges to measure pressures, add refrigerant, or recover refrigerant from the appliance are not considered"
-    },
-    {
       "id": "t1-031",
       "topic": "Definitions",
-      "question": "How does the technician definition classify painting an appliance?",
+      "question": "A technician paints a household refrigerator. How does the technician definition classify painting the appliance?",
       "options": {
         "A": "As opening the appliance",
         "B": "As disposal of the appliance",
@@ -117,7 +98,7 @@
     {
       "id": "t1-032",
       "topic": "Definitions",
-      "question": "An appliance has been properly evacuated under 40 CFR 82.156. According to the technician definition, work on it is reasonably expected to release refrigerant when the activity includes what?",
+      "question": "According to the technician definition, activities on an appliance that has been properly evacuated under 40 CFR 82.156 are not reasonably expected to release refrigerants unless the activity includes what?",
       "options": {
         "A": "Painting the appliance",
         "B": "Tightening nuts and bolts",
@@ -134,66 +115,9 @@
       "evidence": "82.156 are not reasonably expected to release refrigerants unless the activity includes adding refrigerant to the appliance."
     },
     {
-      "id": "t1-033",
-      "topic": "Definitions",
-      "question": "Which group of people does the technician definition say can be technicians?",
-      "options": {
-        "A": "Only employees of licensed contractors",
-        "B": "Installers, contractor employees, in-house service personnel, and owners and/or operators of appliances",
-        "C": "Only people who install new appliances",
-        "D": "Only people who hold a state trade license"
-      },
-      "answer": "B",
-      "explanation": "The definition says \"technicians could include but are not limited to installers, contractor employees, in-house service personnel, and owners and/or operators of appliances.\" It does not limit technicians to contractor employees, installers or state license holders.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-      },
-      "checked": "2026-11-05",
-      "evidence": "Technicians could include but are not limited to installers, contractor employees, in-house service personnel, and owners and/or operators of appliances."
-    },
-    {
-      "id": "t1-034",
-      "topic": "Technician certification",
-      "question": "For how long may a person be an apprentice under the regulation?",
-      "options": {
-        "A": "Six months from the date of first registering",
-        "B": "One year from the date of first registering",
-        "C": "Two years from the date of first registering",
-        "D": "As long as a certified technician supervises them"
-      },
-      "answer": "C",
-      "explanation": "An apprentice is registered with the U.S. Department of Labor's Office of Apprenticeship (or a recognized State Apprenticeship Council), and \"a person may only be an apprentice for two years from the date of first registering with that office.\" Supervision is a condition of the exemption, but it does not extend the two-year limit.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-      },
-      "checked": "2026-11-05",
-      "evidence": "A person may only be an apprentice for two years from the date of first registering with that office."
-    },
-    {
-      "id": "t1-035",
-      "topic": "Technician certification",
-      "question": "EPA may require a technician to demonstrate proper recovery procedures at their place of business. What may happen if the technician fails to demonstrate them?",
-      "options": {
-        "A": "Revocation or suspension of the certificate",
-        "B": "Nothing, because the certificate does not expire",
-        "C": "A required retest within one year, with no effect on the certificate",
-        "D": "Transfer of the certificate to the employer"
-      },
-      "answer": "A",
-      "explanation": "The rule states that \"failure to demonstrate or failure to properly use the equipment may result in revocation or suspension of the certificate.\" Although the rule sets no general recertification requirement, a certificate can still be revoked or suspended.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
-      },
-      "checked": "2026-11-05",
-      "evidence": "Failure to demonstrate or failure to properly use the equipment may result in revocation or suspension of the certificate."
-    },
-    {
       "id": "t1-036",
       "topic": "Equipment",
-      "question": "When servicing an appliance that contains a class I or class II refrigerant or a non-exempt substitute, the recovery and/or recycling equipment must be certified under 40 CFR 82.158 for what?",
+      "question": "A technician recovers refrigerant from a small appliance that contains a class I or class II refrigerant or a non-exempt substitute. Under 40 CFR 82.154(b)(2), the recovery and/or recycling equipment must be certified under 40 CFR 82.158 for what?",
       "options": {
         "A": "Any one refrigerant, which then covers all others",
         "B": "The refrigerant only, whatever the type of appliance",
@@ -212,7 +136,7 @@
     {
       "id": "t1-037",
       "topic": "Technician certification",
-      "question": "A technician's wallet-sized certification card must carry a unique number for the certified person. What must that number leave out?",
+      "question": "A technician who passed a Type I test receives a wallet-sized certification card. The card must carry a unique number for the certified person. What must that number leave out?",
       "options": {
         "A": "The type of certification",
         "B": "The technician's social security number",
@@ -250,7 +174,7 @@
     {
       "id": "t1-039",
       "topic": "Technician certification",
-      "question": "When is the Type I certification test a closed-book exam?",
+      "question": "According to the proctoring section of Appendix D, in which case is the Type I certification test a closed-book exam?",
       "options": {
         "A": "Only when it is taken by mail",
         "B": "Only when the technician asks for an oral test",
@@ -258,7 +182,7 @@
         "D": "When it is taken as part of a Universal certification"
       },
       "answer": "D",
-      "explanation": "Appendix D states that the test \"for Type I (if taken as part of a Universal certification), Type II, Type III, and Universal technicians is a closed-book exam.\" A mail-in Type I test cannot be used toward Universal certification.",
+      "explanation": "Appendix D states that the test \"for Type I (if taken as part of a Universal certification), Type II, Type III, and Universal technicians is a closed-book exam.\" It also says \"Mail-in format Type I tests cannot be used toward a Universal certification.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
@@ -307,7 +231,7 @@
     {
       "id": "t1-042",
       "topic": "Technician certification",
-      "question": "How many questions from the relevant technical group must a Type I certification test include?",
+      "question": "Under Appendix D, section d (Test Content), how many Group II (sector-specific) questions does a Type I certification test include?",
       "options": {
         "A": "10",
         "B": "25",
@@ -315,13 +239,13 @@
         "D": "75"
       },
       "answer": "B",
-      "explanation": "Each test \"must include 25 questions drawn from Group 1 and 25 questions drawn from each relevant technical Group.\" Seventy-five technical questions apply only to the Universal test, which covers all three sector-specific areas.",
+      "explanation": "Appendix D states that \"All Type I, Type II and Type III, certification tests will include 25 questions from Group I and 25 questions from Group II.\" The 75 Group II questions apply only to Universal tests, which have \"25 from each of the three sector-specific areas.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
       },
       "checked": "2026-11-05",
-      "evidence": "Each test must include 25 questions drawn from Group 1 and 25 questions drawn from each relevant technical Group."
+      "evidence": "All Type I, Type II and Type III, certification tests will include 25 questions from Group I and 25 questions from Group II."
     },
     {
       "id": "t1-043",
@@ -334,7 +258,7 @@
         "D": "Only when tested by the appliance manufacturer"
       },
       "answer": "C",
-      "explanation": "Older equipment \"will be considered certified if it is capable of either recovering 80 percent of the refrigerant in the system, whether or not the compressor of the test stand is operational,\" or of reaching a four-inch vacuum. The separate 90/80 percent split by compressor condition applies to newer equipment certified under appendix C.",
+      "explanation": "Equipment made or imported before that date \"will be considered certified if it is capable of either recovering 80 percent of the refrigerant in the system, whether or not the compressor of the test stand is operational,\" or of achieving a four-inch vacuum. The split of 90 percent with the compressor operational and 80 percent when it is not is the general appendix C standard in 82.158(e).",
       "source": {
         "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
@@ -353,7 +277,7 @@
         "D": "Recovery of 50 percent of the charge"
       },
       "answer": "A",
-      "explanation": "Such equipment \"may also be certified if it is capable of achieving a four-inch vacuum when tested using a properly calibrated pressure gauge.\" Zero psig, a one-inch vacuum or 50 percent recovery fall short of that level.",
+      "explanation": "Such equipment \"may also be certified if it is capable of achieving a four-inch vacuum when tested using a properly calibrated pressure gauge.\" The rule names a four-inch vacuum, not zero psig, a one-inch vacuum or a percentage of the charge.",
       "source": {
         "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
@@ -467,7 +391,7 @@
         "D": "Whenever the appliance was delivered by a third party"
       },
       "answer": "A",
-      "explanation": "It is a violation to accept a signed statement or contract \"if the person receiving the statement or contract knew or had reason to know that the signed statement or contract is false.\" Persons who dispose of small appliances need not be certified, and records may be kept \"in hard copy or in electronic format.\"",
+      "explanation": "It is a violation to accept a signed statement or contract \"if the person receiving the statement or contract knew or had reason to know that the signed statement or contract is false.\" The rule does not tie the violation to who delivered the appliance or whether the supplier is certified, and it allows the statements to be kept \"in hard copy or in electronic format.\"",
       "source": {
         "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"

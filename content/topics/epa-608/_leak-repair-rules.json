@@ -1,0 +1,470 @@
+{
+  "cluster": "epa-608",
+  "slug": "leak-repair-rules",
+  "title": "EPA 608 leak repair requirements",
+  "description": "EPA 608 leak repair rules (40 CFR 82.157): which appliances are covered, leak rate limits, repair deadlines, verification tests, extensions and records.",
+  "summary": "The leak repair rules apply to appliances with a full charge of 50 or more pounds of class I or class II refrigerant, not to appliances that contain only substitute refrigerants. The leak rate limits are 20 percent for commercial refrigeration, 30 percent for industrial process refrigeration and 10 percent for comfort cooling and other appliances. Leaks must be repaired within 30 days (120 days if an industrial process shutdown is required) of the refrigerant addition that shows the limit was exceeded, or the owner or operator must retrofit or retire the appliance.",
+  "intro": "This page covers the appliance maintenance and leak repair rules in 40 CFR 82.157, with the leak rate definition from 40 CFR 82.152. Each point quotes the rule and links to it.",
+  "topics": [
+    {
+      "id": "who-it-applies-to",
+      "name": "Which appliances are covered",
+      "points": [
+        {
+          "text": "Since April 10, 2020, the leak repair rules apply only to appliances with a full charge of 50 or more pounds of class I or class II refrigerant, or of a blend containing a class I or class II refrigerant.",
+          "quote": "As of April 10, 2020, this section applies only to appliances with a full charge of 50 or more pounds of any class I or class II refrigerant or blend containing a class I or class II refrigerant.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The leak repair rules do not apply to appliances that contain only substitute refrigerants.",
+          "quote": "Notwithstanding the use of the term refrigerant in this section, the requirements of this section do not apply to appliances containing solely substitute refrigerants.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Unless the rule says otherwise, the leak repair duties fall on the owner or operator of the appliance.",
+          "quote": "Unless otherwise specified, the requirements of this section apply to the owner or operator of the appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Full charge is the amount of refrigerant the appliance needs for normal operating characteristics and conditions. It is determined with one or a combination of four methods listed in the rule.",
+          "quote": "Full charge means the amount of refrigerant required for normal operating characteristics and conditions of the appliance as determined by using one or a combination of the following four methods:",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "leak-rate-thresholds",
+      "name": "Leak rate thresholds",
+      "points": [
+        {
+          "text": "Commercial refrigeration equipment: the leak rate threshold is 20 percent.",
+          "quote": "20 percent leak rate for commercial refrigeration equipment;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Industrial process refrigeration equipment: the leak rate threshold is 30 percent.",
+          "quote": "30 percent leak rate for industrial process refrigeration equipment; and",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Comfort cooling appliances, and other appliances with a full charge of 50 or more pounds that are not commercial or industrial process refrigeration: the leak rate threshold is 10 percent.",
+          "quote": "10 percent leak rate for comfort cooling appliances or other appliances with a full charge of 50 or more pounds of refrigerant not covered by (c)(2)(i) or (ii) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Commercial refrigeration means the refrigeration appliances used in the retail food and cold storage warehouse sectors.",
+          "quote": "Commercial refrigeration means the refrigeration appliances used in the retail food and cold storage warehouse sectors.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Comfort cooling means air-conditioning appliances that cool occupied facilities, such as homes, offices and commercial buildings. Examples include chillers, commercial split systems and packaged roof-top units.",
+          "quote": "Comfort cooling means the air-conditioning appliances used to provide cooling in order to control heat and/or humidity in occupied facilities including but not limited to residential, office, and commercial buildings. Comfort cooling appliances include but are not limited to chillers, commercial split systems, and packaged roof-top units.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An appliance with a leak rate over its threshold must be repaired, unless the owner or operator chooses to retrofit or retire it.",
+          "quote": "Owners or operators must repair appliances with a leak rate over the applicable leak rate in this paragraph in accordance with paragraphs (d) through (f) of this section unless the owner or operator elects to retrofit or retire the appliance in compliance with paragraphs (h) and (i) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "leak-rate-calculation",
+      "name": "How the leak rate is calculated",
+      "points": [
+        {
+          "text": "The owner or operator must calculate the leak rate every time refrigerant is added, except right after a retrofit, after installing a new appliance, or when the addition is a seasonal variance.",
+          "quote": "The owner or operator must calculate the leak rate every time refrigerant is added to an appliance unless the addition is made immediately following a retrofit, installation of a new appliance, or qualifies as a seasonal variance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The leak rate is the percentage of the full charge that would be lost over 12 months if the current rate of loss continued. It is measured between refrigerant charges.",
+          "quote": "Leak rate means the rate at which an appliance is losing refrigerant, measured between refrigerant charges. The leak rate is expressed in terms of the percentage of the appliance's full charge that would be lost over a 12-month period if the current rate of loss were to continue over that period.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "There are two methods (annualizing and rolling average). The same method must be used for all appliances under the leak repair rules at one operating facility.",
+          "quote": "The rate must be calculated using one of the following methods. The same method must be used for all appliances subject to the leak repair requirements located at an operating facility.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Annualizing method, step 1: divide the pounds added to return the appliance to full charge (one addition or several for the same leak) by the pounds of its full charge.",
+          "quote": "Take the number of pounds of refrigerant added to the appliance to return it to a full charge, whether in one addition or if multiple additions related to same leak, and divide it by the number of pounds of refrigerant the appliance normally contains at full charge;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Annualizing method, step 2: take the days since refrigerant was last added, or 365 days if that is shorter, and divide by 365.",
+          "quote": "Take the shorter of the number of days that have passed since the last day refrigerant was added or 365 days and divide that number by 365 days;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Annualizing method, step 3: divide the step 1 result by the step 2 result.",
+          "quote": "Take the number calculated in Step 1 and divide it by the number calculated in Step 2;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Annualizing method, step 4: multiply the step 3 result by 100 to get a percentage.",
+          "quote": "Multiply the number calculated in Step 3 by 100 to calculate a percentage.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Rolling average method, step 1: add up the pounds added over the previous 365 days (or since the last successful follow-up verification test showing all identified leaks repaired, if that is less than a year).",
+          "quote": "Take the sum of the pounds of refrigerant added to the appliance over the previous 365-day period (or over the period that has passed since the last successful follow-up verification test showing all identified leaks in the appliance were repaired, if that period is less than one year);",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Rolling average method, steps 2 and 3: divide the step 1 result by the full charge, then multiply by 100 to get a percentage.",
+          "quote": "Divide the result of Step 1 by the pounds of refrigerant the appliance normally contains at full charge; and (iii) Step 3. Multiply the result of Step 2 by 100 to obtain a percentage.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Purged refrigerant that is destroyed at a verifiable destruction efficiency of 98 percent or more is not counted toward the leak rate.",
+          "quote": "In calculating annual leak rates, purged refrigerant that is destroyed at a verifiable destruction efficiency of 98 percent or greater will not be counted toward the leak rate.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "repair-deadlines",
+      "name": "Repair deadlines",
+      "points": [
+        {
+          "text": "Leaks must be found and repaired within 30 days (or 120 days if an industrial process shutdown is required) of when refrigerant is added to an appliance that exceeds its leak rate threshold.",
+          "quote": "Owners or operators must identify and repair leaks in accordance with this paragraph within 30 days (or 120 days if an industrial process shutdown is required) of when refrigerant is added to an appliance exceeding the applicable leak rate in paragraph (c) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A certified technician must do a leak inspection to find where the leaks are.",
+          "quote": "A certified technician must conduct a leak inspection, as described in paragraph (g) of this section, to identify the location of leaks.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Repairs must bring the leak rate below the threshold, and this is confirmed by the leak rate calculation at the next refrigerant addition.",
+          "quote": "Leaks must be repaired such that the leak rate is brought below the applicable leak rate. This must be confirmed by the leak rate calculation performed upon the next refrigerant addition.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Leaks are presumed repaired if no refrigerant is added for 12 months after the repair, or if the required leak inspections find no leaks.",
+          "quote": "The leaks will be presumed to be repaired if there is no further refrigerant addition for 12 months after the repair or if the leak inspections required under paragraph (g) do not find any leaks in the appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The repair deadlines are paused while an appliance is mothballed. They start again on the day refrigerant is added to the appliance (or to the isolated leaking component).",
+          "quote": "The time frames in paragraphs (d) through(f) of this section are temporarily suspended when an appliance is mothballed. The time will resume on the day additional refrigerant is added to the appliance (or component of an appliance if the leaking component was isolated).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "verification-tests",
+      "name": "Verification tests",
+      "points": [
+        {
+          "text": "Each repaired leak needs both an initial and a follow-up verification test.",
+          "quote": "The owner or operator must conduct both initial and follow-up verification tests on each leak that was repaired under paragraph (d) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Unless more time is granted, the initial verification test must be done within 30 days (or 120 days if an industrial process shutdown is required) of the appliance exceeding its leak rate threshold.",
+          "quote": "Unless granted additional time, an initial verification test must be performed within 30 days (or 120 days if an industrial process shutdown is required) of an appliance exceeding the applicable leak rate in paragraph (c) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If the repair does not require opening or evacuating the appliance, the initial test is done after the repair and before any refrigerant is added.",
+          "quote": "For repairs that can be completed without the need to open or evacuate the appliance, the test must be performed after the conclusion of the repair work and before any additional refrigerant is added to the appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If the repair requires evacuating the appliance or part of it, the initial test is done before adding any refrigerant.",
+          "quote": "For repairs that require the evacuation of the appliance or portion of the appliance, the test must be performed before adding any refrigerant to the appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The follow-up verification test must be done within 10 days of the successful initial test, or within 10 days of the appliance reaching normal operating characteristics and conditions if it was evacuated for the repair.",
+          "quote": "A follow-up verification test must be performed within 10 days of the successful initial verification test or 10 days of the appliance reaching normal operating characteristics and conditions (if the appliance or isolated component was evacuated for the repair(s)).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "extensions",
+      "name": "Extensions to the repair deadline",
+      "points": [
+        {
+          "text": "More than 30 days (or 120 days) is allowed only if the conditions in 82.157(f)(1) through (4) are met or the appliance is mothballed. The request counts as approved unless EPA says otherwise.",
+          "quote": "Owners or operators are permitted more than 30 days (or 120 days if an industrial process shutdown is required) to comply with paragraphs (d) and (e) of this section if they meet the requirements of (f)(1) through (4) of this section or the appliance is mothballed. The request will be considered approved unless EPA notifies the owners or operators otherwise.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "One qualifying condition: parts that must be replaced are not available in time. Extra time then runs up to 30 days after the parts arrive, but no more than 180 days (or 270 days with an industrial process shutdown) from the date the leak rate was exceeded.",
+          "quote": "Components that must be replaced as part of the repair are not available within 30 days (or 120 days if an industrial process shutdown is required). Additional time is permitted up to 30 days after receiving delivery of the necessary components, not to exceed 180 days (or 270 days if an industrial process shutdown is required) from the date the appliance exceeded the applicable leak rate.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Another qualifying condition: the appliance is in an area subject to radiological contamination, or shutting it down would directly cause radiological contamination.",
+          "quote": "The appliance is located in an area subject to radiological contamination or shutting down the appliance will directly lead to radiological contamination.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Another qualifying condition: other federal, state or local regulations make a repair within 30 days (or 120 days) impossible.",
+          "quote": "Requirements of other applicable Federal, state, or local regulations make a repair within 30 days (or 120 days if an industrial process shutdown is required) impossible.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The extension request must be sent to EPA within 30 days (or 120 days) of the appliance exceeding its leak rate threshold.",
+          "quote": "The owner or operator must request an extension from EPA at the address specified in paragraph (m) of this section within 30 days (or 120 days if an industrial process shutdown is required) of the appliance exceeding the applicable leak rate in paragraph (c) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "retrofit-retirement-plans",
+      "name": "Retrofit or retirement plans",
+      "points": [
+        {
+          "text": "A retrofit or retirement plan is due within 30 days of an appliance leaking above its threshold if the owner or operator intends to retrofit or retire instead of repair, or takes no action to find or repair the leak.",
+          "quote": "The owner or operator must create a retrofit or retirement plan within 30 days of: (i) an appliance leaking above the applicable leak rate in paragraph (c) of this section if the owner or operator intends to retrofit or retire rather than repair the leak; (ii) an appliance leaking above the applicable leak rate in paragraph (c) of this section if the owner or operator fails to take any action to identify or repair the leak; or",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If repairs fail to bring the leak rate below the threshold, the owner or operator must create and carry out a retrofit or retirement plan.",
+          "quote": "If the owner or operator elects to repair leaks, but fails to bring the leak rate below the applicable leak rate, the owner or operator must create and implement a retrofit or retirement plan in accordance with paragraphs (h) and (i) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The plan must include a schedule of no more than one year to finish the retrofit or retirement.",
+          "quote": "A schedule, not to exceed one-year, for completion of the appliance retrofit or retirement.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The plan must be signed by an authorized company official, dated, kept at the site of the appliance (paper or electronic) and available for EPA inspection.",
+          "quote": "The retrofit or retirement plan must be signed by an authorized company official, dated, accessible at the site of the appliance in paper copy or electronic format, and available for EPA inspection upon request.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Unless more time is granted, all work under the plan must be finished within one year of the plan's date, and no more than 13 months from when the plan was required.",
+          "quote": "Unless granted additional time, all work performed in accordance with the plan must be finished within one year of the plan's date (not to exceed 13 months from when the plan was required in paragraph (h)(1) of this section).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Owners or operators who replace an appliance with one using an exempt substitute refrigerant are automatically allowed 18 months to retire it.",
+          "quote": "Owners or operators of commercial refrigeration, industrial process refrigeration, comfort-cooling, or other equipment are automatically allowed 18 months to retire an appliance if the replacement appliance uses a substitute refrigerant exempted under § 82.154(a).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "This page does not detail every field of the extension requests or the special extensions for industrial process refrigeration and federally owned equipment in 40 CFR 82.157(i)(2) and (i)(3); see the rule text."
+    },
+    {
+      "id": "chronic-leakers",
+      "name": "Chronically leaking appliances",
+      "points": [
+        {
+          "text": "An appliance with 50 or more pounds of refrigerant that leaks 125 percent or more of its full charge in a calendar year needs a report to EPA by March 1 of the next year, describing efforts to find and repair the leaks.",
+          "quote": "Owners or operators of appliances containing 50 pounds or more of refrigerant that leak 125 percent or more of the full charge in a calendar year must submit a report to EPA at the address in paragraph (m) of this section. This report must be submitted by March 1 of the subsequent year and describe efforts to identify leaks and repair the appliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "records",
+      "name": "Records",
+      "points": [
+        {
+          "text": "Leak repair records must be kept for at least three years, on paper or electronically, unless the rule says otherwise.",
+          "quote": "All records identified in this paragraph must be kept for at least three years in electronic or paper format, unless otherwise specified.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Owners or operators must determine the full charge of each appliance with 50 or more pounds and keep that information until three years after the appliance is retired.",
+          "quote": "Owners or operators must determine the full charge of all appliances with 50 or more pounds of refrigerant and maintain the following information for each appliance until three years after the appliance is retired:",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A service record is needed each time a 50-pound-or-more appliance is maintained, serviced, repaired or disposed of. If someone other than the owner or operator does the work, that person must give the owner or operator a record.",
+          "quote": "Owners or operators must maintain a record including the following information for each time an appliance with a full charge of 50 or more pounds is maintained, serviced, repaired, or disposed of, when applicable. If the maintenance, service, repair, or disposal is done by someone other than the owner or operator, that person must provide a record containing the following information,",
+          "source": {
+            "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    }
+  ]
+}
