@@ -12,7 +12,7 @@
       "options": {
         "A": "An inspection of workplace conditions before construction work actually starts",
         "B": "Constructing a leading edge on a deck 8 feet above the ground",
-        "C": "Roofing work on a low-slope roof with 12-foot edges",
+        "C": "Roofing work on a low-slope roof with edges 12 feet above the ground",
         "D": "Working on the face of reinforcing steel 10 feet up"
       },
       "answer": "A",
@@ -122,7 +122,7 @@
     {
       "id": "fp-007",
       "topic": "Duty to have fall protection",
-      "question": "For an employee on the face of formwork or reinforcing steel, which of these systems is listed as an allowed choice?",
+      "question": "For an employee on the face of formwork or reinforcing steel who could fall 6 feet or more to a lower level, which of these systems is listed as an allowed choice?",
       "options": {
         "A": "A warning line system",
         "B": "A positioning device system",
@@ -141,7 +141,7 @@
     {
       "id": "fp-008",
       "topic": "Duty to have fall protection",
-      "question": "On low-slope roofs, a safety monitoring system alone (without a warning line) is permitted on roofs up to what width?",
+      "question": "For roofing work on low-slope roofs, a safety monitoring system alone (without a warning line system) is permitted on roofs up to what width?",
       "options": {
         "A": "25 feet",
         "B": "75 feet",
@@ -377,7 +377,7 @@
         "D": "It is color coded or marked with the word \"HOLE\" or \"COVER\""
       },
       "answer": "D",
-      "explanation": "\"All covers shall be color coded or they shall be marked with the word 'HOLE' or 'COVER' to provide warning of the hazard.\"",
+      "explanation": "\"All covers shall be color coded or they shall be marked with the word “HOLE” or “COVER” to provide warning of the hazard.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -388,7 +388,7 @@
     {
       "id": "fp-021",
       "topic": "Warning lines and controlled access zones",
-      "question": "When mechanical equipment is not being used, how far from the roof edge must a warning line be erected, at a minimum?",
+      "question": "When mechanical equipment is not being used, how far from the roof edge must a roof warning line be erected, at a minimum?",
       "options": {
         "A": "6 feet",
         "B": "2 feet",
@@ -445,12 +445,12 @@
     {
       "id": "fp-024",
       "topic": "Fall protection plans",
-      "question": "Who must prepare a fall protection plan?",
+      "question": "What qualification does the rule require of the person who prepares a fall protection plan?",
       "options": {
-        "A": "The employee who will use it",
-        "B": "Any employee with a hard hat",
-        "C": "The building's future owner",
-        "D": "A qualified person"
+        "A": "They must be a licensed professional engineer",
+        "B": "They must have worked at that site for at least one year",
+        "C": "They must be the owner of the building",
+        "D": "They must be a qualified person"
       },
       "answer": "D",
       "explanation": "\"The fall protection plan shall be prepared by a qualified person and developed specifically for the site\" where the work is performed.",
