@@ -28,6 +28,8 @@ export type Guide = {
 
 const SNAPSHOTS: Record<string, string> = {
   "epa-608": path.join(process.cwd(), "data", "sources", "ecfr", "40cfr82-subpartF-2026-11-03.txt"),
+  // Filled in when the dated Subpart B text is added to data/sources/ecfr.
+  "epa-609": path.join(process.cwd(), "data", "sources", "ecfr", "40cfr82-subpartB.txt"),
 };
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -83,7 +85,13 @@ function validate(file: string, raw: unknown, snapshot: string | null, kind: "gu
       }
     });
   }
-  const href = kind === "guides" ? `/${g.cluster}/${g.slug}/study-guide/` : `/${g.cluster}/guide/${g.slug}/`;
+  // A cluster with a single exam (e.g. EPA 609) sets "href" itself, e.g. /epa-609/study-guide/.
+  const href =
+    typeof g.href === "string" && /^\/[a-z0-9-/]+\/$/.test(g.href)
+      ? g.href
+      : kind === "guides"
+        ? `/${g.cluster}/${g.slug}/study-guide/`
+        : `/${g.cluster}/guide/${g.slug}/`;
   return { ...(g as Guide), href };
 }
 
