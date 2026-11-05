@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllNews } from "@/lib/news";
+import { getAllPages } from "@/lib/pages";
 import { SITE } from "@/lib/site";
 
 export const dynamic = "force-static";
@@ -8,7 +9,7 @@ export const dynamic = "force-static";
 const PATHS = ["/", "/news/"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = PATHS.map((path) => ({ url: `${SITE.url}${path}` }));
+  const pages = [...PATHS, ...getAllPages().map((p) => `/${p.slug}/`)].map((path) => ({ url: `${SITE.url}${path}` }));
   const news = getAllNews().map((p) => ({
     url: `${SITE.url}/news/${p.slug}/`,
     lastModified: p.updated ?? p.published,

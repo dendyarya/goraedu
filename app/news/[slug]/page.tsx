@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import PageShell from "@/components/PageShell";
 import { formatDate, getAllNews, getNews } from "@/lib/news";
 import { SITE } from "@/lib/site";
 
@@ -45,57 +46,55 @@ export default async function NewsPostPage({ params }: Props) {
   };
 
   return (
-    <main id="main" className="mx-auto max-w-2xl px-4 py-12">
+    <PageShell
+      crumbs={[{ label: "Home", href: "/" }, { label: "News", href: "/news/" }, { label: post.title }]}
+      title={post.title}
+      lead={post.summary}
+      meta={
+        <>
+          <p>
+            Published <time dateTime={post.published}>{formatDate(post.published)}</time>
+            {post.updated ? (
+              <>
+                , updated <time dateTime={post.updated}>{formatDate(post.updated)}</time>
+              </>
+            ) : null}
+          </p>
+          <p className="mt-1">
+            Fact-checked against official EPA sources · Last checked{" "}
+            <time dateTime={lastChecked}>{formatDate(lastChecked)}</time>
+          </p>
+        </>
+      }
+    >
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger -- JSON-LD built from validated front matter, "<" escaped
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
-      <p className="text-sm">
-        <Link href="/" className="text-brand underline">
-          Home
-        </Link>{" "}
-        ›{" "}
-        <Link href="/news/" className="text-brand underline">
-          News
-        </Link>
-      </p>
-      <article>
-        <h1 className="mt-3 text-3xl font-bold leading-tight">{post.title}</h1>
-        <p className="mt-3 text-sm text-muted">
-          Published <time dateTime={post.published}>{formatDate(post.published)}</time>
-          {post.updated ? (
-            <>
-              {" "}
-              · Updated <time dateTime={post.updated}>{formatDate(post.updated)}</time>
-            </>
-          ) : null}
-        </p>
-        <p className="mt-1 text-sm text-muted">
-          Fact-checked against official EPA sources · Last checked{" "}
-          <time dateTime={lastChecked}>{formatDate(lastChecked)}</time>
-        </p>
-        <div className="prose-news mt-8">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.body}</ReactMarkdown>
-        </div>
-        <section className="mt-10 border-t border-line pt-6">
-          <h2 className="text-lg font-semibold">Sources</h2>
-          <ul className="mt-3 space-y-2 text-sm">
-            {post.sources.map((s) => (
-              <li key={s.url}>
-                <a href={s.url} className="text-brand underline" rel="noopener">
-                  {s.title}
-                </a>{" "}
-                <span className="text-muted">· checked {formatDate(s.checked)}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
+      <article className="prose-page">
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.body}</ReactMarkdown>
       </article>
-      <p className="mt-10 text-xs text-muted">
-        Independent. Not affiliated with or endorsed by the U.S. EPA or any certifying organization. Found an error?
-        Email {SITE.contactEmail}.
-      </p>
-    </main>
+      <section className="mt-12 max-w-[68ch] rounded-lg border border-line bg-panel p-6">
+        <h2 className="text-[1.25rem] font-bold">Sources</h2>
+        <ul className="mt-3 space-y-3 text-[0.9375rem]">
+          {post.sources.map((s) => (
+            <li key={s.url}>
+              <a href={s.url} className="text-low underline" rel="noopener">
+                {s.title}
+              </a>
+              <span className="block text-[0.875rem] text-muted">Checked {formatDate(s.checked)}</span>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-5 border-t border-line pt-4 text-[0.875rem] text-muted">
+          Found an error? Email {SITE.contactEmail}. We review reports within 7 days and log fixes on the{" "}
+          <Link href="/corrections/" className="text-low underline">
+            corrections page
+          </Link>
+          .
+        </p>
+      </section>
+    </PageShell>
   );
 }
