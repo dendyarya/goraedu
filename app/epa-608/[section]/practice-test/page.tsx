@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageShell from "@/components/PageShell";
 import PracticeTest from "@/components/PracticeTest";
+import QuestionReview from "@/components/QuestionReview";
 import { getAllGuides } from "@/lib/guides";
 import { formatDate } from "@/lib/news";
 import { getAllSets, lastChecked, SECTION_NAME, topicsOf } from "@/lib/questions";
@@ -59,6 +60,7 @@ export default async function SectionPracticeTestPage({ params }: Props) {
       <div className="grid gap-10 lg:grid-cols-[1fr_18rem]">
         <div className="min-w-0">
           <PracticeTest title={`EPA 608 ${name}`} questions={set.questions} />
+          <QuestionReview title={`EPA 608 ${name}`} questions={set.questions} />
         </div>
         <aside className="space-y-6 text-[0.9375rem]">
           {guide ? (
