@@ -1,0 +1,389 @@
+{
+  "cluster": "osha",
+  "slug": "hazard-communication",
+  "title": "OSHA construction hazard communication practice questions",
+  "description": "Free OSHA HazCom practice questions for construction on 29 CFR 1910.1200 (via 1926.59). Every answer is explained and linked to the rule text.",
+  "href": "/osha/hazard-communication/practice-test/",
+  "questions": [
+    {
+      "id": "hc-001",
+      "topic": "Construction coverage",
+      "question": "What does 29 CFR 1926.59 say about hazard communication requirements for construction work?",
+      "options": {
+        "A": "They are identical to those set forth at 29 CFR 1910.1200",
+        "B": "They apply only to general contractors with more than ten employees",
+        "C": "They replace 1910.1200 with a shorter construction-only list",
+        "D": "They apply only to work inside permanent buildings"
+      },
+      "answer": "A",
+      "explanation": "The note in 1926.59 states: \"The requirements applicable to construction work under this section are identical to those set forth at § 1910.1200 of this chapter.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.59, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-D/section-1926.59"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The requirements applicable to construction work under this section are identical to those set forth at § 1910.1200 of this chapter."
+    },
+    {
+      "id": "hc-002",
+      "topic": "Scope",
+      "question": "To which chemicals does 1910.1200 apply?",
+      "options": {
+        "A": "Only chemicals stored in quantities over 55 gallons",
+        "B": "Only chemicals bought from a distributor",
+        "C": "Any chemical known to be present so that employees may be exposed under normal conditions of use or in a foreseeable emergency",
+        "D": "Only chemicals the employer produces on site"
+      },
+      "answer": "C",
+      "explanation": "The section \"applies to any chemical which is known to be present in the workplace in such a manner that employees may be exposed under normal conditions of use or in a foreseeable emergency.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "This section applies to any chemical which is known to be present in the workplace in such a manner that employees may be exposed under normal conditions of use or in a foreseeable emergency."
+    },
+    {
+      "id": "hc-003",
+      "topic": "Definitions",
+      "question": "Under the 1910.1200 definition of employer, which businesses are expressly included?",
+      "options": {
+        "A": "Only chemical manufacturers",
+        "B": "A contractor or subcontractor",
+        "C": "Only businesses with a written safety program",
+        "D": "Only businesses that ship chemicals across state lines"
+      },
+      "answer": "B",
+      "explanation": "Employer means a person engaged in a business where chemicals are used, distributed or produced for use or distribution, \"including a contractor or subcontractor.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Employer means a person engaged in a business where chemicals are either used, distributed, or are produced for use or distribution, including a contractor or subcontractor."
+    },
+    {
+      "id": "hc-004",
+      "topic": "Definitions",
+      "question": "Under the 1910.1200 definition, which of these is excluded from being a container?",
+      "options": {
+        "A": "A drum",
+        "B": "A storage tank",
+        "C": "A cylinder",
+        "D": "A fuel tank in a vehicle"
+      },
+      "answer": "D",
+      "explanation": "\"For purposes of this section, pipes or piping systems, and engines, fuel tanks, or other operating systems in a vehicle, are not considered to be containers.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "For purposes of this section, pipes or piping systems, and engines, fuel tanks, or other operating systems in a vehicle, are not considered to be containers."
+    },
+    {
+      "id": "hc-005",
+      "topic": "Written program",
+      "question": "The written hazard communication program must include a list of hazardous chemicals known to be present, identified how?",
+      "options": {
+        "A": "Using a product identifier that is referenced on the appropriate safety data sheet",
+        "B": "By the purchase order number",
+        "C": "By the date each chemical arrived",
+        "D": "By the supplier's internal stock code only"
+      },
+      "answer": "A",
+      "explanation": "The program includes \"A list of the hazardous chemicals known to be present using a product identifier that is referenced on the appropriate safety data sheet.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "A list of the hazardous chemicals known to be present using a product identifier that is referenced on the appropriate safety data sheet (the list may be compiled for the workplace as a whole or for individual work areas)"
+    },
+    {
+      "id": "hc-006",
+      "topic": "Written program",
+      "question": "On a multi-employer workplace, what must the program of an employer whose chemicals may expose other employers' workers include?",
+      "options": {
+        "A": "A copy of each other employer's insurance policy",
+        "B": "The methods it will use to provide the other employers on-site access to safety data sheets",
+        "C": "A signed waiver from each other employer",
+        "D": "Monthly air sampling results for the whole site"
+      },
+      "answer": "B",
+      "explanation": "The program must include \"The methods the employer will use to provide the other employer(s) on-site access to safety data sheets\" for each hazardous chemical their employees may be exposed to.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The methods the employer will use to provide the other employer(s) on-site access to safety data sheets for each hazardous chemical the other employer(s)' employees may be exposed to while working"
+    },
+    {
+      "id": "hc-007",
+      "topic": "Written program",
+      "question": "Where employees travel between workplaces during a workshift, where may the written hazard communication program be kept?",
+      "options": {
+        "A": "Only with the chemical supplier",
+        "B": "At OSHA's area office",
+        "C": "In each employee's vehicle",
+        "D": "At the primary workplace facility"
+      },
+      "answer": "D",
+      "explanation": "Where employees must travel between workplaces during a workshift, \"the written hazard communication program may be kept at the primary workplace facility.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Where employees must travel between workplaces during a workshift, i.e., their work is carried out at more than one geographical location, the written hazard communication program may be kept at the primary workplace facility."
+    },
+    {
+      "id": "hc-008",
+      "topic": "Labels",
+      "question": "Which item is one of the elements required on a label of a shipped container of a hazardous chemical?",
+      "options": {
+        "A": "The price of the product",
+        "B": "The date the employer received it",
+        "C": "Pictogram(s)",
+        "D": "The name of the employee who opened it"
+      },
+      "answer": "C",
+      "explanation": "Required shipped-container label information includes the \"Product identifier\", \"Signal word\", \"Hazard statement(s)\", \"Pictogram(s)\", \"Precautionary statement(s)\" and the manufacturer, importer or responsible party's U.S. name, address and phone number.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Product identifier; (ii) Signal word; (iii) Hazard statement(s); (iv) Pictogram(s); (v) Precautionary statement(s);"
+    },
+    {
+      "id": "hc-009",
+      "topic": "Labels",
+      "question": "Which signal word is used for the more severe hazards?",
+      "options": {
+        "A": "Danger",
+        "B": "Warning",
+        "C": "Caution",
+        "D": "Notice"
+      },
+      "answer": "A",
+      "explanation": "Under the definition of signal word, \"Danger\" \"is used for the more severe hazards,\" while \"warning\" \"is used for the less severe.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "\"Danger\" is used for the more severe hazards, while \"warning\" is used for the less severe."
+    },
+    {
+      "id": "hc-010",
+      "topic": "Labels",
+      "question": "An employee pours a chemical from a labeled container into a portable container for their own immediate use. Does the portable container need a label?",
+      "options": {
+        "A": "Yes, always, with the full shipped-container label",
+        "B": "Yes, unless the container holds less than one quart",
+        "C": "Only if a supervisor did the transfer",
+        "D": "No, if it is intended only for the immediate use of the employee who performs the transfer"
+      },
+      "answer": "D",
+      "explanation": "The employer \"is not required to label portable containers into which hazardous chemicals are transferred from labeled containers, and which are intended only for the immediate use of the employee who performs the transfer.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The employer is not required to label portable containers into which hazardous chemicals are transferred from labeled containers, and which are intended only for the immediate use of the employee who performs the transfer."
+    },
+    {
+      "id": "hc-011",
+      "topic": "Labels",
+      "question": "When may an employer remove or deface an existing label on an incoming container of a hazardous chemical?",
+      "options": {
+        "A": "When the label is older than one year",
+        "B": "Only if the container is immediately marked with the required information",
+        "C": "When the chemical is used up within the shift",
+        "D": "Whenever the employer has the SDS on file"
+      },
+      "answer": "B",
+      "explanation": "\"The employer shall not remove or deface existing labels on incoming containers of hazardous chemicals, unless the container is immediately marked with the required information.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The employer shall not remove or deface existing labels on incoming containers of hazardous chemicals, unless the container is immediately marked with the required information."
+    },
+    {
+      "id": "hc-012",
+      "topic": "Labels",
+      "question": "After becoming newly aware of significant information about a chemical's hazards, within what time must the labels be revised?",
+      "options": {
+        "A": "Within 30 days",
+        "B": "Within three months",
+        "C": "Within six months",
+        "D": "Within one year"
+      },
+      "answer": "C",
+      "explanation": "Those who become newly aware of significant hazard information \"shall revise the labels for the chemical within six months of becoming aware of the new information.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "shall revise the labels for the chemical within six months of becoming aware of the new information"
+    },
+    {
+      "id": "hc-013",
+      "topic": "Safety data sheets",
+      "question": "Which heading is Section 8 of a safety data sheet?",
+      "options": {
+        "A": "Handling and storage",
+        "B": "First-aid measures",
+        "C": "Exposure controls/personal protection",
+        "D": "Toxicological information"
+      },
+      "answer": "C",
+      "explanation": "The SDS headings in order include \"Section 7, Handling and storage\" and \"Section 8, Exposure controls/personal protection\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "(vii) Section 7, Handling and storage; (viii) Section 8, Exposure controls/personal protection;"
+    },
+    {
+      "id": "hc-014",
+      "topic": "Safety data sheets",
+      "question": "Why does OSHA not enforce the information requirements in SDS Sections 12 through 15?",
+      "options": {
+        "A": "Because these areas are not under its jurisdiction",
+        "B": "Because those sections are optional for construction only",
+        "C": "Because they apply only to imported chemicals",
+        "D": "Because they were removed in the 2024 revision"
+      },
+      "answer": "A",
+      "explanation": "Note 2 to paragraph (g)(2): \"OSHA will not be enforcing information requirements in sections 12 through 15, as these areas are not under its jurisdiction.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "OSHA will not be enforcing information requirements in sections 12 through 15, as these areas are not under its jurisdiction."
+    },
+    {
+      "id": "hc-015",
+      "topic": "Safety data sheets",
+      "question": "Electronic access to safety data sheets instead of paper copies is permitted on what condition?",
+      "options": {
+        "A": "The employer files a request with OSHA",
+        "B": "Each employee owns a smartphone",
+        "C": "Paper copies are kept at the supplier",
+        "D": "No barriers to immediate employee access in each workplace are created"
+      },
+      "answer": "D",
+      "explanation": "\"Electronic access and other alternatives to maintaining paper copies of the safety data sheets are permitted as long as no barriers to immediate employee access in each workplace are created by such options.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Electronic access and other alternatives to maintaining paper copies of the safety data sheets are permitted as long as no barriers to immediate employee access in each workplace are created by such options."
+    },
+    {
+      "id": "hc-016",
+      "topic": "Safety data sheets",
+      "question": "Within what time must new significant hazard information be added to the safety data sheet by the one preparing it?",
+      "options": {
+        "A": "Within six months",
+        "B": "Within three months",
+        "C": "Within one year",
+        "D": "At the next annual review"
+      },
+      "answer": "B",
+      "explanation": "If the preparer becomes newly aware of significant information on the hazards or ways to protect against them, \"this new information shall be added to the safety data sheet within three months.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "this new information shall be added to the safety data sheet within three months."
+    },
+    {
+      "id": "hc-017",
+      "topic": "Training",
+      "question": "When must employers provide hazard communication information and training?",
+      "options": {
+        "A": "At the time of initial assignment and whenever a new chemical hazard the employees have not been trained about is introduced",
+        "B": "Only once every three years",
+        "C": "Only after an exposure incident",
+        "D": "Only when an employee asks for it"
+      },
+      "answer": "A",
+      "explanation": "Employers must provide training \"at the time of their initial assignment, and whenever a new chemical hazard the employees have not previously been trained about is introduced into their work area.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Employers shall provide employees with effective information and training on hazardous chemicals in their work area at the time of their initial assignment, and whenever a new chemical hazard the employees have not previously been trained about is introduced into their work area."
+    },
+    {
+      "id": "hc-018",
+      "topic": "Training",
+      "question": "Which topic must employee training include under 1910.1200(h)(3)?",
+      "options": {
+        "A": "How to calculate the chemical's market price",
+        "B": "How to file a workers' compensation claim",
+        "C": "Methods and observations that may be used to detect the presence or release of a hazardous chemical in the work area",
+        "D": "How to classify a chemical under Appendix A"
+      },
+      "answer": "C",
+      "explanation": "Training shall include at least \"Methods and observations that may be used to detect the presence or release of a hazardous chemical in the work area.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Methods and observations that may be used to detect the presence or release of a hazardous chemical in the work area"
+    },
+    {
+      "id": "hc-019",
+      "topic": "Trade secrets",
+      "question": "In a medical emergency, when a treating PLHCP needs a trade secret chemical identity for emergency or first-aid treatment, when must it be disclosed?",
+      "options": {
+        "A": "Within thirty days of a written request",
+        "B": "Only after a confidentiality agreement is signed",
+        "C": "Only after OSHA approves the request",
+        "D": "Immediately, regardless of a written statement of need or confidentiality agreement"
+      },
+      "answer": "D",
+      "explanation": "The chemical manufacturer, importer, or employer \"shall immediately disclose the specific chemical identity or percentage composition of a trade secret chemical to that treating PLHCP, regardless of the existence of a written statement of need or a confidentiality agreement.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "shall immediately disclose the specific chemical identity or percentage composition of a trade secret chemical to that treating PLHCP, regardless of the existence of a written statement of need or a confidentiality agreement."
+    },
+    {
+      "id": "hc-020",
+      "topic": "Dates",
+      "question": "On what date did the current version of 1910.1200 become effective?",
+      "options": {
+        "A": "July 1, 2023",
+        "B": "July 19, 2024",
+        "C": "May 19, 2026",
+        "D": "May 19, 2028"
+      },
+      "answer": "B",
+      "explanation": "Paragraph (j)(1): \"This section shall become effective July 19, 2024.\" The later dates in (j)(2) and (j)(3) are compliance dates for the modified provisions.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Effective date. This section shall become effective July 19, 2024."
+    }
+  ]
+}
