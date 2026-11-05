@@ -4,7 +4,7 @@
   "href": "/water-operator/filtration-disinfection/study-guide/",
   "title": "Drinking water filtration and disinfection study guide",
   "description": "Study guide to 40 CFR 141 Subpart H: avoiding filtration, disinfection, turbidity limits, monitoring, reporting and recycle, linked to the rule text.",
-  "intro": "Subpart H of 40 CFR Part 141 (141.70 to 141.76) sets EPA's filtration and disinfection requirements for \"subpart H systems\": public water systems that use surface water, or ground water under the direct influence of surface water, as a source. This guide sets out what the rule text states on the required Giardia and virus removal and inactivation, the conditions for avoiding filtration, disinfection for unfiltered and filtered systems, the turbidity limits for each filtration technology, monitoring, reporting to the State, and the recycle provisions. Many duties start on dates tied to a State determination, and the State decides several key points, so the exact words matter. Later rules in other subparts add further requirements. Your State drinking water program may have its own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
+  "intro": "Subpart H of 40 CFR Part 141 (141.70 to 141.76) sets EPA's filtration and disinfection requirements for \"subpart H systems\": public water systems that use surface water, or ground water under the direct influence of surface water, as a source. This guide sets out what the rule text states on the required Giardia and virus removal and inactivation, the conditions for avoiding filtration, disinfection for unfiltered and filtered systems, the turbidity limits for each filtration technology, monitoring, reporting to the State, and the recycle provisions. Many duties start on dates tied to a State determination, and the State decides several key points, so the exact words matter. Subparts P and T, which 141.70 points to, add further requirements that this guide does not cover. Your State drinking water program may have its own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "scope",
@@ -92,7 +92,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "Subparts P and T, which 141.70(d) and (e) point to, are not covered here: depending on population served, a subpart H system must also comply with one of them. Other subparts of Part 141 that add treatment and monitoring requirements are outside this set,. Your State drinking water program may have its own requirements, so check them too."
+      "notCovered": "Subparts P and T, which 141.70(d) and (e) point to, are not covered here: depending on population served, a subpart H system must also comply with one of them. Other subparts of Part 141 that add treatment and monitoring requirements are outside this set. Your State drinking water program may have its own requirements, so check them too."
     },
     {
       "id": "avoiding-filtration",
@@ -144,7 +144,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Source water turbidity just before the first or only point of disinfectant application cannot exceed 5 NTU, unless the State determines the event was caused by unusual and unpredictable circumstances and there have been no more than two events in the past 12 months, or no more than five in the past 120 months, that the system served water.",
+          "text": "Source water turbidity just before the first or only point of disinfectant application cannot exceed 5 NTU, unless the State determines that any such event was caused by unusual and unpredictable circumstances and, as a result of any such event, there have not been more than two events in the past 12 months, or more than five events in the past 120 months, that the system served water in which turbidity exceeded 5 NTU.",
           "quote": "The turbidity level cannot exceed 5 NTU (measured as specified in § 141.74 (a)(1) and (b)(2)) in representative samples of the source water immediately prior to the first or only point of disinfectant application unless: (i) the State determines that any such event was caused by circumstances that were unusual and unpredictable; and (ii) as a result of any such event, there have not been more than two events in the past 12 months the system served water to the public, or more than five events in the past 120 months the system served water to the public, in which the turbidity level exceeded 5 NTU.",
           "source": {
             "title": "eCFR: 40 CFR 141.71, Criteria for avoiding filtration (as of Nov 3, 2026)",
@@ -223,7 +223,7 @@
         },
         {
           "text": "An unfiltered system's disinfection system must have one of two safeguards: redundant components including an auxiliary power supply with automatic start-up and alarm, or automatic shut-off of delivery to the distribution system whenever the residual is below 0.2 mg/l. If the State determines automatic shut-off would cause unreasonable risk to health or interfere with fire protection, the system must use redundant components.",
-          "quote": "The disinfection system must have either (i) redundant components, including an auxiliary power supply with automatic start-up and alarm to ensure that disinfectant application is maintained continuously while water is being delivered to the distribution system, or (ii) automatic shut-off of delivery of water to the distribution system whenever there is less than 0.2 mg/l of residual disinfectant concentration in the water. If the State determines that automatic shut-off would cause unreasonable risk to health or interfere with fire protection, the system must comply with paragraph (a)(2)(i) of this section.",
+          "quote": "redundant components, including an auxiliary power supply with automatic start-up and alarm to ensure that disinfectant application is maintained continuously while water is being delivered to the distribution system, or (ii) automatic shut-off of delivery of water to the distribution system whenever there is less than 0.2 mg/l of residual disinfectant concentration in the water. If the State determines that automatic shut-off would cause unreasonable risk to health or interfere with fire protection, the system must comply with paragraph (a)(2)(i) of this section.",
           "source": {
             "title": "eCFR: 40 CFR 141.72, Disinfection (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.72"
@@ -283,8 +283,8 @@
       "name": "Filtration and turbidity limits",
       "points": [
         {
-          "text": "A surface water or GWUDI system that does not meet all of the criteria for avoiding filtration must provide both disinfection under 141.72(b) and filtration meeting 141.73, by June 29, 1993, or within 18 months of failing a criterion, whichever is later.",
-          "quote": "A public water system that uses a surface water source or a ground water source under the direct influence of surface water, and does not meet all of the criteria in § 141.71 (a) and (b) for avoiding filtration, must provide treatment consisting of both disinfection, as specified in § 141.72(b), and filtration treatment which complies with the requirements of paragraph (a), (b), (c), (d), or (e) of this section by June 29, 1993, or within 18 months of the failure to meet any one of the criteria for avoiding filtration in § 141.71 (a) and (b), whichever is later.",
+          "text": "A surface water or GWUDI system that does not meet all of the criteria in 141.71(a) and (b) for avoiding filtration must provide treatment consisting of both disinfection under 141.72(b) and filtration that complies with one of paragraphs (a) to (e) of 141.73.",
+          "quote": "A public water system that uses a surface water source or a ground water source under the direct influence of surface water, and does not meet all of the criteria in § 141.71 (a) and (b) for avoiding filtration, must provide treatment consisting of both disinfection, as specified in § 141.72(b), and filtration treatment which complies with the requirements of paragraph (a), (b), (c), (d), or (e) of this section",
           "source": {
             "title": "eCFR: 40 CFR 141.73, Filtration (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.73"
@@ -416,8 +416,17 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Filtered systems must measure filtered water turbidity every four hours (or more frequently). The State may reduce this to once per day for slow sand filtration or filtration other than conventional treatment, direct filtration or diatomaceous earth filtration, and for systems serving 500 or fewer persons regardless of filtration type, if it determines less frequent monitoring is sufficient.",
-          "quote": "Turbidity measurements as required by § 141.73 must be performed on representative samples of the system's filtered water every four hours (or more frequently) that the system serves water to the public. A public water system may substitute continuous turbidity monitoring for grab sample monitoring if it validates the continuous measurement for accuracy on a regular basis using a protocol approved by the State. For any systems using slow sand filtration or filtration treatment other than conventional treatment, direct filtration, or diatomaceous earth filtration, the State may reduce the sampling frequency to once per day if it determines that less frequent monitoring is sufficient to indicate effective filtration performance. For systems serving 500 or fewer persons, the State may reduce the turbidity sampling frequency to once per day, regardless of the type of filtration treatment used, if the State determines that less frequent monitoring is sufficient to indicate effective filtration performance.",
+          "text": "Filtered systems must measure filtered water turbidity on representative samples every four hours (or more frequently) that the system serves water; continuous monitoring may be substituted if it is validated for accuracy on a regular basis under a State-approved protocol.",
+          "quote": "Turbidity measurements as required by § 141.73 must be performed on representative samples of the system's filtered water every four hours (or more frequently) that the system serves water to the public. A public water system may substitute continuous turbidity monitoring for grab sample monitoring if it validates the continuous measurement for accuracy on a regular basis using a protocol approved by the State.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.74, Analytical and monitoring requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.74"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For filtered systems serving 500 or fewer persons, the State may reduce turbidity sampling to once per day, whatever type of filtration is used, if it determines that less frequent monitoring is sufficient to indicate effective filtration performance.",
+          "quote": "For systems serving 500 or fewer persons, the State may reduce the turbidity sampling frequency to once per day, regardless of the type of filtration treatment used, if the State determines that less frequent monitoring is sufficient to indicate effective filtration performance.",
           "source": {
             "title": "eCFR: 40 CFR 141.74, Analytical and monitoring requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.74"
@@ -434,7 +443,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The approved analytical method tables, the CT99.9 tables (1.1 to 3.1), and the population-based tables for weekly source water coliform samples (141.74(b)(1)) and daily residual grab samples (141.74(b)(5) and (c)(2)) are not reproduced here; use the regulation text itself for those values."
+      "notCovered": "The approved analytical method tables, the CT99.9 tables (1.1 to 3.1), and the population-based tables for weekly source water coliform samples (141.74(b)(1)) and daily residual grab samples (141.74(b)(5) and (c)(2)) are not reproduced here; use the regulation text itself for those values. The State's option in 141.74(c)(1) to reduce turbidity sampling to once per day for slow sand filtration and some other filtration types is not summarized here."
     },
     {
       "id": "reporting",
@@ -486,8 +495,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Filtered systems must report turbidity results within 10 days after the end of each month, including the number and percentage of filtered water measurements at or below the 141.73 limit for the filtration technology used, and the date and value of any measurement above 5 NTU.",
-          "quote": "Turbidity measurements as required by § 141.74(c)(1) must be reported within 10 days after the end of each month the system serves water to the public. Information that must be reported includes: (i) The total number of filtered water turbidity measurements taken during the month. (ii) The number and percentage of filtered water turbidity measurements taken during the month which are less than or equal to the turbidity limits specified in § 141.73 for the filtration technology being used. (iii) The date and value of any turbidity measurements taken during the month which exceed 5 NTU.",
+          "text": "Filtered systems must report the turbidity measurements required by 141.74(c)(1) within 10 days after the end of each month the system serves water.",
+          "quote": "Turbidity measurements as required by § 141.74(c)(1) must be reported within 10 days after the end of each month the system serves water to the public.",
           "source": {
             "title": "eCFR: 40 CFR 141.75, Reporting and recordkeeping requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.75"
@@ -495,7 +504,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "Public notice to consumers under Subpart Q is a separate duty and is not covered here."
+      "notCovered": "Public notice to consumers under Subpart Q is a separate duty and is not covered here. The list of turbidity items that filtered systems must include in that monthly report (141.75(b)(1)(i) to (iii)) is not summarized here."
     },
     {
       "id": "recycle",
