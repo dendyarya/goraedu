@@ -1,0 +1,533 @@
+{
+  "cluster": "cdl",
+  "slug": "drug-alcohol-testing",
+  "href": "/cdl/drug-alcohol-testing/study-guide/",
+  "title": "CDL drug and alcohol testing study guide",
+  "description": "CDL drug and alcohol testing study guide: 0.04 and 4-hour rules, refusals, post-accident, random and reasonable suspicion tests, Clearinghouse, from 49 CFR 382.",
+  "intro": "FMCSA's drug and alcohol testing rules for commercial drivers are in 49 CFR Part 382. This guide sets out what the rule text states on who is covered, the alcohol and controlled substances prohibitions, refusals, the required tests (pre-employment, post-accident, random, reasonable suspicion, return-to-duty and follow-up), removal from safety-sensitive functions, Clearinghouse queries and employer record keeping. Many duties fall on the employer rather than the driver, and the guide says which. The testing procedures themselves are in 49 CFR part 40, which is only named here. Current random testing rates are set by FMCSA notice and are not stated. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "covered",
+      "name": "Who is covered and key definitions",
+      "points": [
+        {
+          "text": "Part 382 applies to service agents and to every person, and their employers, who operates a commercial motor vehicle in commerce in any State and is subject to one of these: the CDL requirements of part 383, the Licencia Federal de Conductor (Mexico) requirements, or the CDL requirements of the Canadian National Safety Code.",
+          "quote": "This part applies to service agents and to every person and to all employers of such persons who operate a commercial motor vehicle in commerce in any State and are subject to: (1) The commercial driver's license requirements of part 383 of this subchapter; (2) The Licencia Federal de Conductor (Mexico) requirements; or (3) The commercial drivers license requirements of the Canadian National Safety Code.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.103, Applicability (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-A/section-382.103"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An employer who employs only himself or herself as a driver must run a random alcohol and controlled substances testing program with two or more covered employees in the random selection pool.",
+          "quote": "An employer who employs only himself/herself as a driver shall implement a random alcohol and controlled substances testing program of two or more covered employees in the random testing selection pool.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.103, Applicability (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-A/section-382.103"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "\"Driver\" means anyone who operates a commercial motor vehicle, including full-time drivers, casual, intermittent or occasional drivers, leased drivers and independent owner-operator contractors.",
+          "quote": "Driver means any person who operates a commercial motor vehicle. This includes, but is not limited to: Full time, regularly employed drivers; casual, intermittent or occasional drivers; leased drivers and independent owner-operator contractors.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.107, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-A/section-382.107"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A driver is \"performing\" a safety-sensitive function during any period in which he or she is actually performing, ready to perform, or immediately available to perform one.",
+          "quote": "Performing (a safety-sensitive function) means a driver is considered to be performing a safety-sensitive function during any period in which he or she is actually performing, ready to perform, or immediately available to perform any safety-sensitive functions.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.107, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-A/section-382.107"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "\"Safety-sensitive function\" covers all time from when a driver begins work, or must be ready to work, until the driver is relieved from work and all responsibility for performing work.",
+          "quote": "Safety-sensitive function means all time from the time a driver begins to work or is required to be in readiness to work until the time he/she is relieved from work and all responsibility for performing work.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.107, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-A/section-382.107"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Before each test under this part, the employer must tell the driver that the test is required by this part. No employer may falsely say a test is given under this part.",
+          "quote": "Before performing each alcohol or controlled substances test under this part, each employer shall notify a driver that the alcohol or controlled substances test is required by this part. No employer shall falsely represent that a test is administered under this part.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.113, Requirement for notice (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-A/section-382.113"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The full list of definitions in 382.107 (and in 386.2, 390.5T and 40.3, which it cross-references) and the exceptions in 382.103(d) (such as drivers covered only by the FTA rules in part 655, and drivers a State must waive or has exempted from part 383) are not set out point by point here."
+    },
+    {
+      "id": "alcohol",
+      "name": "Alcohol prohibitions",
+      "points": [
+        {
+          "text": "No driver may report for duty or remain on duty requiring safety-sensitive functions with an alcohol concentration of 0.04 or greater. An employer that knows a driver has 0.04 or greater must not let the driver perform or continue safety-sensitive functions.",
+          "quote": "No driver shall report for duty or remain on duty requiring the performance of safety-sensitive functions while having an alcohol concentration of 0.04 or greater. No employer having knowledge that a driver has an alcohol concentration of 0.04 or greater shall permit the driver to perform or continue to perform safety-sensitive functions.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.201, Alcohol concentration (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-B/section-382.201"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No driver may use alcohol while performing safety-sensitive functions.",
+          "quote": "No driver shall use alcohol while performing safety-sensitive functions.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.205, On-duty use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-B/section-382.205"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No driver may perform safety-sensitive functions within four hours after using alcohol. An employer with actual knowledge that a driver used alcohol within four hours must not let the driver perform or continue safety-sensitive functions.",
+          "quote": "No driver shall perform safety-sensitive functions within four hours after using alcohol. No employer having actual knowledge that a driver has used alcohol within four hours shall permit a driver to perform or continue to perform safety-sensitive functions.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.207, Pre-duty use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-B/section-382.207"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A driver who is required to take a post-accident alcohol test under 382.303 must not use alcohol for eight hours after the accident, or until he or she takes the post-accident alcohol test, whichever comes first.",
+          "quote": "No driver required to take a post-accident alcohol test under § 382.303 shall use alcohol for eight hours following the accident, or until he/she undergoes a post-accident alcohol test, whichever occurs first.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.209, Use following an accident (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-B/section-382.209"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A driver tested under subpart C with an alcohol concentration of 0.02 or greater but less than 0.04 must not perform safety-sensitive functions for an employer (and the employer must not permit it) until the start of the driver's next regularly scheduled duty period, but not less than 24 hours after the test.",
+          "quote": "No driver tested under the provisions of subpart C of this part who is found to have an alcohol concentration of 0.02 or greater but less than 0.04 shall perform or continue to perform safety-sensitive functions for an employer, including driving a commercial motor vehicle, nor shall an employer permit the driver to perform or continue to perform safety-sensitive functions, until the start of the driver's next regularly scheduled duty period, but not less than 24 hours following administration of the test.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.505, Other alcohol-related conduct (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-E/section-382.505"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Apart from that 0.02 to under 0.04 rule, no employer may take action under this part against a driver based only on a result below 0.04. An employer with authority independent of this part may still act as the law otherwise allows.",
+          "quote": "Except as provided in paragraph (a) of this section, no employer shall take any action under this part against a driver based solely on test results showing an alcohol concentration less than 0.04. This does not prohibit an employer with authority independent of this part from taking any action otherwise consistent with law.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.505, Other alcohol-related conduct (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-E/section-382.505"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "drugs-refusals",
+      "name": "Controlled substances and refusals",
+      "points": [
+        {
+          "text": "No driver may report for duty or remain on duty requiring safety-sensitive functions when the driver uses any drug or substance identified in 21 CFR 1308.11 Schedule I.",
+          "quote": "No driver shall report for duty or remain on duty requiring the performance of safety sensitive functions when the driver uses any drug or substance identified in 21 CFR 1308.11 Schedule I.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.213, Controlled substance use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-B/section-382.213"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For non-Schedule I drugs listed in the other schedules of 21 CFR part 1308, the same ban applies except when the use is prescribed by a licensed medical practitioner who is familiar with the driver's medical history and has advised the driver that the substance will not adversely affect the driver's ability to safely operate a CMV.",
+          "quote": "No driver shall report for duty or remain on duty requiring the performance of safety-sensitive functions when the driver uses any non-Schedule I drug or substance that is identified in the other Schedules in 21 CFR part 1308 except when the use is prescribed by a licensed medical practitioner, as defined in § 382.107, who is familiar with the driver's medical history and has advised the driver that the substance will not adversely affect the driver's ability to safely operate a commercial motor vehicle.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.213, Controlled substance use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-B/section-382.213"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No driver may report for duty, remain on duty or perform a safety-sensitive function if the driver tests positive or has adulterated or substituted a test specimen for controlled substances.",
+          "quote": "No driver shall report for duty, remain on duty or perform a safety-sensitive function, if the driver tests positive or has adulterated or substituted a test specimen for controlled substances.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.215, Controlled substances testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-B/section-382.215"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No driver may refuse a required pre-employment controlled substance test, post-accident, random, reasonable suspicion, return-to-duty or follow-up test. No employer may let a driver who refuses perform or continue safety-sensitive functions.",
+          "quote": "No driver shall refuse to submit to a pre-employment controlled substance test required under § 382.301, a post-accident alcohol or controlled substance test required under § 382.303, a random alcohol or controlled substances test required under § 382.305, a reasonable suspicion alcohol or controlled substance test required under § 382.307, a return-to-duty alcohol or controlled substances test required under § 382.309, or a follow-up alcohol or controlled substance test required under § 382.311. No employer shall permit a driver who refuses to submit to such tests to perform or continue to perform safety-sensitive functions.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.211, Refusal to submit to a required alcohol or controlled substances test (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-B/section-382.211"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "One listed form of refusal is failing to appear for any test (except a pre-employment test) within a reasonable time, as determined by the employer consistent with DOT agency rules, after being directed to do so by the employer.",
+          "quote": "Fail to appear for any test (except a pre-employment test) within a reasonable time, as determined by the employer, consistent with applicable DOT agency regulations, after being directed to do so by the employer.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.107, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-A/section-382.107"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Other listed forms of refusal include failing to cooperate with any part of the testing process, and being reported by the MRO as having a verified adulterated or substituted test result.",
+          "quote": "Fail to cooperate with any part of the testing process (e.g., refuse to empty pockets when so directed by the collector, behave in a confrontational way that disrupts the collection process); or (9) Is reported by the MRO as having a verified adulterated or substituted test result.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.107, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-A/section-382.107"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The full list of nine refusal situations in the 382.107 definition, and the part 40 procedures it cross-references, are not reproduced here."
+    },
+    {
+      "id": "pre-employment-post-accident",
+      "name": "Pre-employment and post-accident testing",
+      "points": [
+        {
+          "text": "Before a driver first performs safety-sensitive functions for an employer, the driver must be tested for controlled substances, unless the employer uses the exception in 382.301(b). The employer must not let the driver perform safety-sensitive functions until it has received a verified negative result from the MRO or C/TPA.",
+          "quote": "No employer shall allow a driver, who the employer intends to hire or use, to perform safety-sensitive functions unless the employer has received a controlled substances test result from the MRO or C/TPA indicating a verified negative test result for that driver.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.301, Pre-employment testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.301"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Pre-employment alcohol testing is optional: an employer may, but is not required to, conduct it.",
+          "quote": "An employer may, but is not required to, conduct pre-employment alcohol testing under this part.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.301, Pre-employment testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.301"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An employer that does pre-employment alcohol testing must not let a covered employee begin safety-sensitive functions unless the result is an alcohol concentration of less than 0.04.",
+          "quote": "It must not allow a covered employee to begin performing safety-sensitive functions unless the result of the employee's test indicates an alcohol concentration of less than 0.04.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.301, Pre-employment testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.301"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "After an accident involving a CMV operating on a public road in commerce, the employer must test for alcohol, as soon as practicable, each surviving driver who was performing safety-sensitive functions with respect to the vehicle, if the accident involved the loss of human life.",
+          "quote": "As soon as practicable following an occurrence involving a commercial motor vehicle operating on a public road in commerce, each employer shall test for alcohol for each of its surviving drivers: (1) Who was performing safety-sensitive functions with respect to the vehicle, if the accident involved the loss of human life; or",
+          "source": {
+            "title": "eCFR: 49 CFR 382.303, Post-accident testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If no one died, an alcohol test is required for a surviving driver who receives a citation within 8 hours for a moving traffic violation arising from the accident, if the accident involved bodily injury with immediate medical treatment away from the scene, or disabling damage requiring a tow away.",
+          "quote": "Who receives a citation within 8 hours of the occurrence under State or local law for a moving traffic violation arising from the accident, if the accident involved: (i) Bodily injury to any person who, as a result of the injury, immediately receives medical treatment away from the scene of the accident; or (ii) One or more motor vehicles incurring disabling damage as a result of the accident, requiring the motor vehicle to be transported away from the scene by a tow truck or other motor vehicle.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.303, Post-accident testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For controlled substances, the same accident types apply, but the citation window is thirty-two hours.",
+          "quote": "Who receives a citation within thirty-two hours of the occurrence under State or local law for a moving traffic violation arising from the accident, if the accident involved:",
+          "source": {
+            "title": "eCFR: 49 CFR 382.303, Post-accident testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If a required post-accident alcohol test is not given within two hours, the employer must prepare and keep a record of the reasons. If it is not given within eight hours, the employer must stop trying and prepare the same record.",
+          "quote": "If a test required by this section is not administered within two hours following the accident, the employer shall prepare and maintain on file a record stating the reasons the test was not promptly administered. If a test required by this section is not administered within eight hours following the accident, the employer shall cease attempts to administer an alcohol test and shall prepare and maintain the same record.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.303, Post-accident testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If a required post-accident controlled substances test is not given within 32 hours, the employer must stop trying and prepare and keep a record of the reasons.",
+          "quote": "If a test required by this section is not administered within 32 hours following the accident, the employer shall cease attempts to administer a controlled substances test, and prepare and maintain on file a record stating the reasons the test was not promptly administered.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.303, Post-accident testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The section does not apply to an occurrence involving only boarding or alighting from a stationary vehicle, or only the loading or unloading of cargo.",
+          "quote": "This section does not apply to: (1) An occurrence involving only boarding or alighting from a stationary motor vehicle; or (2) An occurrence involving only the loading or unloading of cargo; or",
+          "source": {
+            "title": "eCFR: 49 CFR 382.303, Post-accident testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.303"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The rules for accepting law enforcement test results (382.303(g)) and the details of the previous-program verification in 382.301(c) are not covered."
+    },
+    {
+      "id": "random-reasonable-suspicion",
+      "name": "Random and reasonable suspicion testing",
+      "points": [
+        {
+          "text": "When the minimum annual random testing rate changes, the FMCSA Administrator publishes the new rate in the Federal Register, and it applies starting January 1 of the calendar year after publication.",
+          "quote": "In the event of a change in the annual percentage rate, the FMCSA Administrator will publish in the FEDERAL REGISTER the new minimum annual percentage rate for random alcohol testing of drivers. The new minimum annual percentage rate for random alcohol testing will be applicable starting January 1 of the calendar year following publication in the FEDERAL REGISTER.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.305, Random testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.305"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Random tests must be unannounced, and their dates must be spread reasonably throughout the calendar year.",
+          "quote": "Each employer shall ensure that random alcohol and controlled substances tests conducted under this part are unannounced. (2) Each employer shall ensure that the dates for administering random alcohol and controlled substances tests conducted under this part are spread reasonably throughout the calendar year.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.305, Random testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.305"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A driver notified of selection must go to the test site immediately. If the driver is doing a safety-sensitive function other than driving a CMV when notified, the employer must make sure the driver stops that function and goes to the site as soon as possible.",
+          "quote": "Each employer shall require that each driver who is notified of selection for random alcohol and/or controlled substances testing proceeds to the test site immediately; provided, however, that if the driver is performing a safety-sensitive function, other than driving a commercial motor vehicle, at the time of notification, the employer shall instead ensure that the driver ceases to perform the safety-sensitive function and proceeds to the testing site as soon as possible.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.305, Random testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.305"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An employer must require an alcohol test when it has reasonable suspicion that the driver violated the alcohol prohibitions of subpart B. The decision must be based on specific, contemporaneous, articulable observations about the driver's appearance, behavior, speech or body odors.",
+          "quote": "An employer shall require a driver to submit to an alcohol test when the employer has reasonable suspicion to believe that the driver has violated the prohibitions of subpart B of this part concerning alcohol. The employer's determination that reasonable suspicion exists to require the driver to undergo an alcohol test must be based on specific, contemporaneous, articulable observations concerning the appearance, behavior, speech or body odors of the driver.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.307, Reasonable suspicion testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.307"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The observations must be made by a supervisor or company official trained under 382.603. The person who decides reasonable suspicion exists for an alcohol test must not conduct that alcohol test.",
+          "quote": "The required observations for alcohol and/or controlled substances reasonable suspicion testing shall be made by a supervisor or company official who is trained in accordance with § 382.603. The person who makes the determination that reasonable suspicion exists to conduct an alcohol test shall not conduct the alcohol test of the driver.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.307, Reasonable suspicion testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.307"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If a reasonable suspicion alcohol test is not given within eight hours of the determination, the employer must stop trying and state the reasons in the record (a record of reasons is already required after two hours).",
+          "quote": "If an alcohol test required by this section is not administered within two hours following the determination under paragraph (a) of this section, the employer shall prepare and maintain on file a record stating the reasons the alcohol test was not promptly administered. If an alcohol test required by this section is not administered within eight hours following the determination under paragraph (a) of this section, the employer shall cease attempts to administer an alcohol test and shall state in the record the reasons for not administering the test.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.307, Reasonable suspicion testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.307"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A written record of the observations must be made and signed by the supervisor or company official who made them, within 24 hours of the observed behavior or before the test results are released, whichever is earlier.",
+          "quote": "A written record shall be made of the observations leading to an alcohol or controlled substances reasonable suspicion test, and signed by the supervisor or company official who made the observations, within 24 hours of the observed behavior or before the results of the alcohol or controlled substances tests are released, whichever is earlier.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.307, Reasonable suspicion testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.307"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each employer must make sure all persons designated to supervise drivers get at least 60 minutes of training on alcohol misuse and at least an additional 60 minutes on controlled substances use. Recurrent training is not required.",
+          "quote": "Each employer shall ensure that all persons designated to supervise drivers receive at least 60 minutes of training on alcohol misuse and receive at least an additional 60 minutes of training on controlled substances use. The training will be used by the supervisors to determine whether reasonable suspicion exists to require a driver to undergo testing under § 382.307. The training shall include the physical, behavioral, speech, and performance indicators of probable alcohol misuse and use of controlled substances. Recurrent training for supervisory personnel is not required.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.603, Training for supervisors (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-F/section-382.603"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "This guide does not state the current minimum random testing rates. FMCSA sets them by notice in the Federal Register each year, and 382.305(c) through (h) describe how they move up or down; check FMCSA's current notice."
+    },
+    {
+      "id": "removal-return",
+      "name": "Removal, return to duty and follow-up",
+      "points": [
+        {
+          "text": "Except as provided in subpart F, no driver may perform safety-sensitive functions, including driving a CMV, after conduct prohibited by subpart B or by another DOT agency's alcohol or controlled substances rule.",
+          "quote": "Except as provided in subpart F of this part, no driver shall perform safety-sensitive functions, including driving a commercial motor vehicle, if the driver has engaged in conduct prohibited by subpart B of this part or an alcohol or controlled substances rule of another DOT agency.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.501, Removal from safety-sensitive function (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-E/section-382.501"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A driver who engaged in conduct prohibited by subpart B must not perform safety-sensitive functions until meeting the requirements of 49 CFR part 40, subpart O, and the employer must not permit it before then.",
+          "quote": "No driver who has engaged in conduct prohibited by subpart B of this part shall perform safety-sensitive functions, including driving a commercial motor vehicle, unless the driver has met the requirements of part 40, subpart O, of this title. No employer shall permit a driver who has engaged in conduct prohibited by subpart B of this part to perform safety-sensitive functions, including driving a commercial motor vehicle, unless the driver has met the requirements of part 40, subpart O, of this title.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.503, Required evaluation and testing, reinstatement of commercial driving privilege (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-E/section-382.503"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Return-to-duty testing must be done in accordance with 49 CFR part 40, subpart O.",
+          "quote": "The requirements for return-to-duty testing must be performed in accordance with 49 CFR part 40, subpart O.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.309, Return-to-duty testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.309"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Follow-up testing must also be done in accordance with 49 CFR part 40, subpart O.",
+          "quote": "The requirements for follow-up testing must be performed in accordance with 49 CFR part 40, subpart O.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.311, Follow-up testing (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.311"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A CDL holder who violated the prohibitions without completing part 40, subpart O must notify all current employers in writing (not the employer that gave the test or documented the violation), before the end of the business day after receiving notice of the violation, or before any safety-sensitive function, whichever comes first.",
+          "quote": "Each person holding a commercial driver's license and subject to the DOT controlled substances and alcohol testing requirements in this part who has violated the alcohol and controlled substances prohibitions under part 40 of this title or this part without complying with the requirements of part 40, subpart O, must notify in writing all current employers of such violation(s). The driver is not required to provide notification to the employer that administered the test or documented the circumstances that gave rise to the violation. The notification must be made before the end of the business day following the day the employee received notice of the violation, or prior to performing any safety-sensitive function, whichever comes first.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.415, Notification to employers of a controlled substances or alcohol testing program violation (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-D/section-382.415"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The substance abuse professional (SAP) evaluation, return-to-duty and follow-up procedures themselves are in 49 CFR part 40, subpart O, which this guide does not summarize."
+    },
+    {
+      "id": "clearinghouse",
+      "name": "Clearinghouse queries",
+      "points": [
+        {
+          "text": "The pre-employment Clearinghouse query must be a full query, which releases Clearinghouse information to the employer and requires the driver's specific consent.",
+          "quote": "The employer must conduct a full query under this section, which releases information in the Clearinghouse to an employer and requires that the individual driver give specific consent.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.701, Drug and Alcohol Clearinghouse (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-G/section-382.701"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Employers must query the Clearinghouse at least once per year for all employees subject to testing under this part.",
+          "quote": "Employers must conduct a query of the Clearinghouse at least once per year for information for all employees subject to controlled substance and alcohol testing under this part to determine whether information exists in the Clearinghouse about those employees.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.701, Drug and Alcohol Clearinghouse (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-G/section-382.701"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For the annual query, an employer may use a limited query (with the driver's consent) instead of a full query. A limited query shows whether information exists but does not release it.",
+          "quote": "In lieu of a full query, as described in paragraph (a)(2) of this section, an employer may obtain the individual driver's consent to conduct a limited query to satisfy the annual query requirement in paragraph (b)(1) of this section. The limited query will tell the employer whether there is information about the individual driver in the Clearinghouse, but will not release that information to the employer.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.701, Drug and Alcohol Clearinghouse (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-G/section-382.701"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If a limited query shows information exists, the employer must do a full query within 24 hours. If it does not, the driver must not continue any safety-sensitive function until the full query shows no prohibitions.",
+          "quote": "If the limited query shows that information exists in the Clearinghouse about the individual driver, the employer must conduct a full query, in accordance with paragraph (a)(2) of this section, within 24 hours of conducting the limited query. If the employer fails to conduct a full query within 24 hours, the employer must not allow the driver to continue to perform any safety-sensitive function until the employer conducts the full query and the results confirm that the driver's Clearinghouse record contains no prohibitions as defined in paragraph (d) of this section.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.701, Drug and Alcohol Clearinghouse (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-G/section-382.701"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No employer may query the Clearinghouse about a driver without first getting that driver's written or electronic consent, and the employer must keep the consent for 3 years from the date of the last query.",
+          "quote": "No employer may query the Clearinghouse to determine whether a record exists for any particular driver without first obtaining that driver's written or electronic consent. The employer conducting the search must retain the consent for 3 years from the date of the last query.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.703, Driver consent to permit access to information in the Clearinghouse (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-G/section-382.703"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A violation stops being available to querying employers only after all listed conditions are met: the SAP report, a negative return-to-duty test reported, completion of all follow-up tests reported, and five years since the violation determination.",
+          "quote": "Information about a driver's drug or alcohol violation will not be available to an employer conducting a query of the Clearinghouse after all of the following conditions relating to the violation are satisfied: (1) The SAP reports to the Clearinghouse the information required in § 382.705(d); (2) The employer reports to the Clearinghouse that the driver's return-to-duty test results are negative; (3) The driver's current employer reports that the driver has successfully completed all follow-up tests as prescribed in the SAP report in accordance with §§ 40.307, 40.309, and 40.311 of this title; and (4) Five years have passed since the date of the violation determination.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.719, Availability and removal of information (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-G/section-382.719"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "Reporting duties for MROs, employers and SAPs (382.705), Clearinghouse registration, fees and correction procedures are not covered here."
+    },
+    {
+      "id": "records",
+      "name": "Records retention",
+      "points": [
+        {
+          "text": "Each employer must keep records of its alcohol misuse and controlled substances use prevention programs in a secure location with controlled access.",
+          "quote": "Each employer shall maintain records of its alcohol misuse and controlled substances use prevention programs as provided in this section. The records shall be maintained in a secure location with controlled access.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.401, Retention of records (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-D/section-382.401"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Five years (minimum): alcohol results of 0.02 or greater, verified positive controlled substances results, documentation of refusals, driver evaluations and referrals, calibration documentation, program administration records (including all driver violations), and each annual calendar year summary.",
+          "quote": "Five years. The following records shall be maintained for a minimum of five years: (i) Records of driver alcohol test results indicating an alcohol concentration of 0.02 or greater, (ii) Records of driver verified positive controlled substances test results, (iii) Documentation of refusals to take required alcohol and/or controlled substances tests, (iv) Driver evaluation and referrals, (v) Calibration documentation, (vi) Records related to the administration of the alcohol and controlled substances testing program, including records of all driver violations, and (vii) A copy of each annual calendar year summary required by § 382.403.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.401, Retention of records (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-D/section-382.401"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Two years (minimum): records related to the alcohol and controlled substances collection process, except calibration of evidential breath testing devices.",
+          "quote": "Records related to the alcohol and controlled substances collection process (except calibration of evidential breath testing devices) shall be maintained for a minimum of 2 years.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.401, Retention of records (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-D/section-382.401"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "One year (minimum): negative and canceled controlled substances results, MRO reversals of canceled results, and alcohol results below 0.02.",
+          "quote": "Records of negative and canceled controlled substances test results and MRO reversal of canceled controlled substances test results (as defined in part 40 of this title) and alcohol test results with a concentration of less than 0.02 shall be maintained for a minimum of one year.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.401, Retention of records (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-D/section-382.401"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Training records for breath alcohol technicians, screening test technicians, supervisors and drivers are kept while the person performs the functions that require the training and for two years after the person stops.",
+          "quote": "Records related to the education and training of breath alcohol technicians, screening test technicians, supervisors, and drivers shall be maintained by the employer while the individual performs the functions which require the training and for two years after ceasing to perform those functions.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.401, Retention of records (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-D/section-382.401"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Records must be available for inspection at the employer's principal place of business within two business days after an authorized FMCSA representative asks.",
+          "quote": "All records required by this part shall be maintained as required by § 390.29 of this subchapter and shall be made available for inspection at the employer's principal place of business within two business days after a request has been made by an authorized representative of the Federal Motor Carrier Safety Administration.",
+          "source": {
+            "title": "eCFR: 49 CFR 382.401, Retention of records (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-D/section-382.401"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The full list of record types in 382.401(c) and the MRO and C/TPA retention rules in 382.409 are not reproduced here."
+    }
+  ]
+}

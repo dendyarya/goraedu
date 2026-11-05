@@ -1,0 +1,389 @@
+{
+  "cluster": "cdl",
+  "slug": "cdl-standards",
+  "title": "CDL license standards practice questions",
+  "description": "Free CDL practice questions on 49 CFR Part 383: the single license, CLPs, vehicle groups, endorsements, disqualifications and tests, with sources.",
+  "href": "/cdl/cdl-standards/practice-test/",
+  "questions": [
+    {
+      "id": "ls-001",
+      "topic": "Who the rules cover and the single license",
+      "question": "What limit does 383.21 set on the number of driver's licenses a person who operates a commercial motor vehicle may have?",
+      "options": {
+        "A": "No more than one driver's license at any time",
+        "B": "One commercial and one non-commercial license",
+        "C": "One license for each State the person drives in",
+        "D": "Up to three licenses, if all are reported to the employer"
+      },
+      "answer": "A",
+      "explanation": "383.21 says: \"No person who operates a commercial motor vehicle shall at any time have more than one driver's license.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 383.21, Number of drivers' licenses (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-B/section-383.21"
+      },
+      "checked": "2026-11-05",
+      "evidence": "No person who operates a commercial motor vehicle shall at any time have more than one driver's license."
+    },
+    {
+      "id": "ls-002",
+      "topic": "Notification duties and employer responsibilities",
+      "question": "What deadline does 383.31(a) set for a CDL holder who operates a CMV to notify the current employer of a conviction for a traffic control law violation (other than parking)?",
+      "options": {
+        "A": "Within 90 days after the conviction",
+        "B": "At the next annual review of the driving record",
+        "C": "Within 30 days after the date of the conviction",
+        "D": "Within 60 days after the conviction"
+      },
+      "answer": "C",
+      "explanation": "The driver \"shall notify his/her current employer of such conviction. The notification must be made within 30 days after the date that the person has been convicted.\" It applies to convictions \"in any type of motor vehicle\" and must be made in writing.",
+      "source": {
+        "title": "eCFR: 49 CFR 383.31, Notification of convictions for driver violations (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-C/section-383.31"
+      },
+      "checked": "2026-11-05",
+      "evidence": "shall notify his/her current employer of such conviction. The notification must be made within 30 days after the date that the person has been convicted. [...] The notification to the employer must be made in writing"
+    },
+    {
+      "id": "ls-003",
+      "topic": "Notification duties and employer responsibilities",
+      "question": "Under 383.33, when must an employee whose driver's license is suspended notify the current employer?",
+      "options": {
+        "A": "Within 30 days after the suspension",
+        "B": "Before the end of the business day following the day the employee received notice",
+        "C": "At the next license renewal",
+        "D": "Only if the suspension lasts longer than 60 days"
+      },
+      "answer": "B",
+      "explanation": "The notification \"must be made before the end of the business day following the day the employee received notice of the suspension, revocation, cancellation, lost privilege, or disqualification.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 383.33, Notification of driver's license suspensions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-C/section-383.33"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The notification must be made before the end of the business day following the day the employee received notice of the suspension, revocation, cancellation, lost privilege, or disqualification."
+    },
+    {
+      "id": "ls-004",
+      "topic": "Notification duties and employer responsibilities",
+      "question": "What period of employment history does 383.35(c) require a CMV driver applicant to present to the prospective employer?",
+      "options": {
+        "A": "The 3 years preceding the application",
+        "B": "The 5 years preceding the application",
+        "C": "The 7 years preceding the application",
+        "D": "The 10 years preceding the date the application is submitted"
+      },
+      "answer": "D",
+      "explanation": "383.35(c) covers \"employment history information for the 10 years preceding the date the application is submitted\", including the previous CMV employers, the dates of employment and the reason for leaving.",
+      "source": {
+        "title": "eCFR: 49 CFR 383.35, Notification of previous employment (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-C/section-383.35"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The following employment history information for the 10 years preceding the date the application is submitted shall be presented to the prospective employer by the applicant:"
+    },
+    {
+      "id": "ls-005",
+      "topic": "Commercial learner's permit",
+      "question": "What does 383.25(e) say about when a CLP holder may take the CDL skills test?",
+      "options": {
+        "A": "The holder may take it the day after the CLP is issued",
+        "B": "The holder is not eligible to take it in the first 14 days after initial issuance of the CLP",
+        "C": "The holder is not eligible to take it in the first 7 days after issuance",
+        "D": "The holder may take it once 48 hours have passed"
+      },
+      "answer": "B",
+      "explanation": "383.25(e): \"The CLP holder is not eligible to take the CDL skills test in the first 14 days after initial issuance of the CLP.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 383.25, Commercial learner's permit (CLP) (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-B/section-383.25"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The CLP holder is not eligible to take the CDL skills test in the first 14 days after initial issuance of the CLP."
+    },
+    {
+      "id": "ls-006",
+      "topic": "Commercial learner's permit",
+      "question": "What is the longest a CLP may be valid from its initial date of issuance without the holder having to retake the general and endorsement knowledge tests?",
+      "options": {
+        "A": "One year",
+        "B": "18 months",
+        "C": "Two years",
+        "D": "Four years"
+      },
+      "answer": "A",
+      "explanation": "\"The CLP must be valid for no more than one year from the initial date of issuance without requiring the CLP holder to retake the general and endorsement knowledge tests.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 383.25, Commercial learner's permit (CLP) (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-B/section-383.25"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The CLP must be valid for no more than one year from the initial date of issuance without requiring the CLP holder to retake the general and endorsement knowledge tests."
+    },
+    {
+      "id": "ls-007",
+      "topic": "Commercial learner's permit",
+      "question": "Under 383.25(a)(1), where must the accompanying CDL holder be when a CLP holder drives a CMV that is not a passenger vehicle?",
+      "options": {
+        "A": "Anywhere inside the vehicle",
+        "B": "In a vehicle following close enough to keep the CMV in sight",
+        "C": "Within reach by radio or phone",
+        "D": "Physically present in the front seat of the vehicle next to the CLP holder"
+      },
+      "answer": "D",
+      "explanation": "The CDL holder \"must at all times be physically present in the front seat of the vehicle next to the CLP holder or, in the case of a passenger vehicle, directly behind or in the first row behind the driver\" and must have the CLP holder \"under observation and direct supervision.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 383.25, Commercial learner's permit (CLP) (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-B/section-383.25"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The CDL holder must at all times be physically present in the front seat of the vehicle next to the CLP holder or, in the case of a passenger vehicle, directly behind or in the first row behind the driver and must have the CLP holder under observation and direct supervision."
+    },
+    {
+      "id": "ls-008",
+      "topic": "Commercial learner's permit",
+      "question": "What may a CLP holder with a tank vehicle (N) endorsement operate?",
+      "options": {
+        "A": "A tank vehicle loaded with any cargo other than hazardous materials",
+        "B": "A loaded tank vehicle, if the accompanying CDL holder has an N endorsement",
+        "C": "Only an empty tank vehicle that, if it previously contained hazardous materials, has been purged of any residue",
+        "D": "A tank vehicle filled to no more than half its capacity"
+      },
+      "answer": "C",
+      "explanation": "\"A CLP holder with an N endorsement may only operate an empty tank vehicle and is prohibited from operating any tank vehicle that previously contained hazardous materials that has not been purged of any residue.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 383.25, Commercial learner's permit (CLP) (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-B/section-383.25"
+      },
+      "checked": "2026-11-05",
+      "evidence": "A CLP holder with an N endorsement may only operate an empty tank vehicle and is prohibited from operating any tank vehicle that previously contained hazardous materials that has not been purged of any residue."
+    },
+    {
+      "id": "ls-009",
+      "topic": "Vehicle groups",
+      "question": "Under 383.91(a)(1), a combination of vehicles with a GCWR of 26,001 pounds or more is a Group A combination vehicle when the GVWR of the vehicle(s) being towed is what?",
+      "options": {
+        "A": "In excess of 10,000 pounds (4,536 kilograms)",
+        "B": "10,000 pounds or less",
+        "C": "In excess of 26,000 pounds",
+        "D": "Any weight, if the towed vehicle has air brakes"
+      },
+      "answer": "A",
+      "explanation": "Group A is \"Any combination of vehicles with a gross combination weight rating (GCWR) of 11,794 kilograms or more (26,001 pounds or more) provided the GVWR of the vehicle(s) being towed is in excess of 4,536 kilograms (10,000 pounds).\"",
+      "source": {
+        "title": "eCFR: 49 CFR 383.91, Commercial motor vehicle groups (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-F/section-383.91"
+      },
+      "checked": "2026-11-05",
+      "evidence": "(1) Combination vehicle (Group A)-Any combination of vehicles with a gross combination weight rating (GCWR) of 11,794 kilograms or more (26,001 pounds or more) provided the GVWR of the vehicle(s) being towed is in excess of 4,536 kilograms (10,000 pounds)."
+    },
+    {
+      "id": "ls-010",
+      "topic": "Vehicle groups",
+      "question": "How does 383.91(a)(2) describe a Heavy Straight Vehicle (Group B)?",
+      "options": {
+        "A": "Any single vehicle with a GVWR of 10,001 to 26,000 pounds",
+        "B": "Any single vehicle with a GVWR of 26,001 pounds or more, or any such vehicle towing a vehicle not in excess of 10,000 pounds GVWR",
+        "C": "Any combination of vehicles with a GCWR of 26,001 pounds or more towing more than 10,000 pounds",
+        "D": "Any single vehicle designed to transport 9 to 15 passengers"
+      },
+      "answer": "B",
+      "explanation": "Group B is \"Any single vehicle with a GVWR of 11,794 kilograms or more (26,001 pounds or more), or any such vehicle towing a vehicle not in excess of 4,536 kilograms (10,000 pounds) GVWR.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 383.91, Commercial motor vehicle groups (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-F/section-383.91"
+      },
+      "checked": "2026-11-05",
+      "evidence": "(2) Heavy Straight Vehicle (Group B)-Any single vehicle with a GVWR of 11,794 kilograms or more (26,001 pounds or more), or any such vehicle towing a vehicle not in excess of 4,536 kilograms (10,000 pounds) GVWR."
+    },
+    {
+      "id": "ls-011",
+      "topic": "Vehicle groups",
+      "question": "A vehicle that meets neither the Group A nor the Group B definition is a Group C small vehicle if it is used to transport hazardous materials or if it is designed to transport how many passengers?",
+      "options": {
+        "A": "8 or more passengers, not counting the driver",
+        "B": "10 or more passengers, including the driver",
+        "C": "12 or more passengers, not counting the driver",
+        "D": "16 or more passengers including the driver"
+      },
+      "answer": "D",
+      "explanation": "Group C covers a vehicle that meets neither Group A nor Group B \"but that either is designed to transport 16 or more passengers including the driver, or is used in the transportation of hazardous materials as defined in § 383.5.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 383.91, Commercial motor vehicle groups (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-F/section-383.91"
+      },
+      "checked": "2026-11-05",
+      "evidence": "but that either is designed to transport 16 or more passengers including the driver, or is used in the transportation of hazardous materials as defined in § 383.5."
+    },
+    {
+      "id": "ls-012",
+      "topic": "Endorsements and restrictions",
+      "question": "Under 383.153(a)(9), what does the endorsement code X stand for on a CDL?",
+      "options": {
+        "A": "Double/triple trailers",
+        "B": "Passenger",
+        "C": "A combination of tank vehicle and hazardous materials endorsements",
+        "D": "School bus"
+      },
+      "answer": "C",
+      "explanation": "The CDL endorsement codes include \"X for a combination of tank vehicle and hazardous materials endorsements\". Double/triple trailers is T, passenger is P and school bus is S.",
+      "source": {
+        "title": "eCFR: 49 CFR 383.153, Information on the CLP and CDL documents and applications (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-J/section-383.153"
+      },
+      "checked": "2026-11-05",
+      "evidence": "(i) T for double/triple trailers; (ii) P for passenger; (iii) N for tank vehicle; (iv) H for hazardous materials; (v) X for a combination of tank vehicle and hazardous materials endorsements; (vi) S for school bus; and"
+    },
+    {
+      "id": "ls-013",
+      "topic": "Endorsements and restrictions",
+      "question": "Under 383.95(c), what must the State indicate on the CDL, if issued, when the applicant performs the skills test in a vehicle equipped with an automatic transmission?",
+      "options": {
+        "A": "That the person is restricted to intrastate operation",
+        "B": "That the person is restricted from operating a CMV with a GVWR over 26,000 pounds",
+        "C": "That the person must retake the skills test within one year",
+        "D": "That the person is restricted from operating a CMV equipped with a manual transmission"
+      },
+      "answer": "D",
+      "explanation": "The State \"must indicate on the CDL, if issued, that the person is restricted from operating a CMV equipped with a manual transmission.\" The CDL code for this restriction is \"E for No Manual transmission equipped CMV\".",
+      "source": {
+        "title": "eCFR: 49 CFR 383.95, Restrictions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-F/section-383.95"
+      },
+      "checked": "2026-11-05",
+      "evidence": "If an applicant performs the skills test in a vehicle equipped with an automatic transmission, the State must indicate on the CDL, if issued, that the person is restricted from operating a CMV equipped with a manual transmission."
+    },
+    {
+      "id": "ls-014",
+      "topic": "Endorsements and restrictions",
+      "question": "Under 383.93(c), which endorsement requires both a knowledge test and a skills test?",
+      "options": {
+        "A": "Passenger",
+        "B": "Double/Triple Trailers",
+        "C": "Tank vehicle",
+        "D": "Hazardous Materials"
+      },
+      "answer": "A",
+      "explanation": "383.93(c) lists \"Passenger -a knowledge and a skills test\" (school bus also requires both), while double/triple trailers, tank vehicle and hazardous materials each require \"a knowledge test\".",
+      "source": {
+        "title": "eCFR: 49 CFR 383.93, Endorsements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-F/section-383.93"
+      },
+      "checked": "2026-11-05",
+      "evidence": "(1) Double/Triple Trailers -a knowledge test; (2) Passenger -a knowledge and a skills test; (3) Tank vehicle -a knowledge test; (4) Hazardous Materials -a knowledge test; and (5) School bus -a knowledge and a skills test."
+    },
+    {
+      "id": "ls-015",
+      "topic": "Disqualifications",
+      "question": "Under Table 1 to 383.51, what disqualification applies to a first conviction for having an alcohol concentration of 0.04 or greater while operating a CMV transporting hazardous materials?",
+      "options": {
+        "A": "60 days",
+        "B": "120 days",
+        "C": "3 years",
+        "D": "10 years"
+      },
+      "answer": "C",
+      "explanation": "In Table 1, row (3) (alcohol concentration of 0.04 or greater while operating a CMV) sets 1 year for a first conviction in a CMV and 3 years for a first conviction while operating a CMV transporting hazardous materials.",
+      "source": {
+        "title": "eCFR: 49 CFR 383.51, Disqualification of drivers (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-D/section-383.51"
+      },
+      "checked": "2026-11-05",
+      "evidence": "(3) Having an alcohol concentration of 0.04 or greater while operating a CMV * * * 1 year Not applicable 3 years Life Not applicable."
+    },
+    {
+      "id": "ls-016",
+      "topic": "Disqualifications",
+      "question": "Under Table 2 to 383.51, what disqualification applies to a third or subsequent conviction of serious traffic violations, in separate incidents within a 3-year period, while operating a CMV?",
+      "options": {
+        "A": "30 days",
+        "B": "120 days",
+        "C": "90 days",
+        "D": "10 years"
+      },
+      "answer": "B",
+      "explanation": "Table 2 sets 60 days for a second conviction and 120 days for a third or subsequent conviction of any combination of the listed offenses \"in a separate incident within a 3-year period\" while operating a CMV.",
+      "source": {
+        "title": "eCFR: 49 CFR 383.51, Disqualification of drivers (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-D/section-383.51"
+      },
+      "checked": "2026-11-05",
+      "evidence": "(4) Following the vehicle ahead too closely 60 days 60 days 120 days 120 days. [...] in a separate incident within a 3-year period"
+    },
+    {
+      "id": "ls-017",
+      "topic": "Disqualifications",
+      "question": "Under Table 3 to 383.51, what is the disqualification for a first conviction when a driver who is always required to stop fails to stop before driving onto a railroad-highway grade crossing?",
+      "options": {
+        "A": "No less than 10 days",
+        "B": "No less than 30 days",
+        "C": "No less than 60 days",
+        "D": "No disqualification for a first conviction"
+      },
+      "answer": "C",
+      "explanation": "Table 3 row (3), \"The driver is always required to stop, but fails to stop before driving onto the crossing\", sets no less than 60 days for a first conviction, no less than 120 days for a second and no less than 1 year for a third or subsequent conviction within a 3-year period.",
+      "source": {
+        "title": "eCFR: 49 CFR 383.51, Disqualification of drivers (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-D/section-383.51"
+      },
+      "checked": "2026-11-05",
+      "evidence": "(3) The driver is always required to stop, but fails to stop before driving onto the crossing [...] No less than 60 days No less than 120 days No less than 1 year."
+    },
+    {
+      "id": "ls-018",
+      "topic": "Disqualifications",
+      "question": "What disqualification range does Table 4 to 383.51 set for a first conviction of violating a driver or vehicle out-of-service order while transporting nonhazardous materials?",
+      "options": {
+        "A": "No less than 180 days or more than 1 year",
+        "B": "No less than 10 days or more than 60 days",
+        "C": "No less than 30 days or more than 90 days",
+        "D": "No less than 1 year or more than 10 years"
+      },
+      "answer": "A",
+      "explanation": "Table 4 row (1) sets no less than 180 days or more than 1 year for a first conviction while transporting nonhazardous materials. Row (2) (hazardous materials, or a vehicle designed to transport 16 or more passengers) allows up to 2 years for a first conviction.",
+      "source": {
+        "title": "eCFR: 49 CFR 383.51, Disqualification of drivers (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-D/section-383.51"
+      },
+      "checked": "2026-11-05",
+      "evidence": "(1) Violating a driver or No less than 180 vehicle out-of-service days or more than order while transporting 1 year nonhazardous materials"
+    },
+    {
+      "id": "ls-019",
+      "topic": "Knowledge and skills tests",
+      "question": "What passing score does 383.135(a)(1) set for each CDL knowledge test?",
+      "options": {
+        "A": "Correctly answering at least 60 percent of the questions",
+        "B": "Correctly answering at least 70 percent of the questions",
+        "C": "Correctly answering at least 75 percent of the questions",
+        "D": "Correctly answering at least 80 percent of the questions"
+      },
+      "answer": "D",
+      "explanation": "\"To achieve a passing score on each of the knowledge tests, a driver applicant must correctly answer at least 80 percent of the questions.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 383.135, Passing knowledge and skills tests (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-H/section-383.135"
+      },
+      "checked": "2026-11-05",
+      "evidence": "To achieve a passing score on each of the knowledge tests, a driver applicant must correctly answer at least 80 percent of the questions."
+    },
+    {
+      "id": "ls-020",
+      "topic": "Knowledge and skills tests",
+      "question": "In what order does 383.133(c)(6) require the skills test to be administered and successfully completed?",
+      "options": {
+        "A": "On-road skills, basic vehicle control skills, pre-trip inspection",
+        "B": "Pre-trip inspection, basic vehicle control skills, on-road skills",
+        "C": "Basic vehicle control skills, pre-trip inspection, on-road skills",
+        "D": "Pre-trip inspection, on-road skills, basic vehicle control skills"
+      },
+      "answer": "B",
+      "explanation": "\"The skills test must be administered and successfully completed in the following order: Pre-trip inspection, basic vehicle control skills, on-road skills.\" An applicant who fails one segment \"cannot continue to the next segment of the test\".",
+      "source": {
+        "title": "eCFR: 49 CFR 383.133, Test methods (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-H/section-383.133"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The skills test must be administered and successfully completed in the following order: Pre-trip inspection, basic vehicle control skills, on-road skills."
+    }
+  ]
+}

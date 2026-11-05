@@ -1,0 +1,544 @@
+{
+  "cluster": "cdl",
+  "slug": "hours-of-service",
+  "href": "/cdl/hours-of-service/study-guide/",
+  "title": "CDL hours of service study guide",
+  "description": "CDL hours of service study guide: on-duty time, the 11-, 14- and 60/70-hour limits, breaks, sleeper berth splits, exceptions and logs, linked to 49 CFR 395.",
+  "intro": "FMCSA's hours of service rules in 49 CFR Part 395 limit how long drivers of commercial motor vehicles may drive and be on duty, and require a record of duty status. This guide sets out what the rule text states on the key definitions, the separate limits for property-carrying and passenger-carrying vehicles, the sleeper berth options in 395.1(g), the main exceptions in 395.1 (adverse driving conditions, emergencies, short-haul operations, the 16-hour release exemption and travel time), and the basics of records of duty status and electronic logging devices (ELDs): who must use them and how long records are kept. Many exceptions only apply when every listed condition is met, so the exact words matter. The ELD technical specifications are not covered. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "definitions",
+      "name": "Key definitions",
+      "points": [
+        {
+          "text": "Driving time is all time spent at the driving controls of a commercial motor vehicle in operation.",
+          "quote": "Driving time means all time spent at the driving controls of a commercial motor vehicle in operation.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.2"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On-duty time runs from the time a driver begins to work, or is required to be in readiness to work, until the driver is relieved from work and all responsibility for performing work.",
+          "quote": "On-duty time means all time from the time a driver begins to work or is required to be in readiness to work until the time the driver is relieved from work and all responsibility for performing work.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.2"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On-duty time includes all time at a plant, terminal, facility or other property of a motor carrier or shipper, or on any public property, waiting to be dispatched, unless the motor carrier has relieved the driver from duty.",
+          "quote": "All time at a plant, terminal, facility, or other property of a motor carrier or shipper, or on any public property, waiting to be dispatched, unless the driver has been relieved from duty by the motor carrier;",
+          "source": {
+            "title": "eCFR: 49 CFR 395.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.2"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On-duty time includes all time inspecting, servicing or conditioning any commercial motor vehicle, and all driving time.",
+          "quote": "(2) All time inspecting, servicing, or conditioning any commercial motor vehicle at any time; (3) All driving time as defined in the term driving time;",
+          "source": {
+            "title": "eCFR: 49 CFR 395.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.2"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Time in or on a commercial motor vehicle is on-duty time, except time resting in or on a parked vehicle (subject to 397.5), time resting in a sleeper berth, and up to 3 hours riding in the passenger seat of a property-carrying vehicle moving on the highway immediately before or after at least 7 consecutive hours in the sleeper berth.",
+          "quote": "All time in or on a commercial motor vehicle, other than: (i) Time spent resting in or on a parked vehicle, except as otherwise provided in § 397.5 of this subchapter; (ii) Time spent resting in a sleeper berth; or (iii) Up to 3 hours riding in the passenger seat of a property-carrying vehicle moving on the highway immediately before or after a period of at least 7 consecutive hours in the sleeper berth;",
+          "source": {
+            "title": "eCFR: 49 CFR 395.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.2"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On-duty time also includes loading or unloading a vehicle (or supervising, assisting or attending), repairing or waiting with a disabled vehicle, and time giving a breath or urine sample for testing required by Part 382 when directed by a motor carrier, including travel to and from the collection site.",
+          "quote": "(5) All time loading or unloading a commercial motor vehicle, supervising, or assisting in the loading or unloading, attending a commercial motor vehicle being loaded or unloaded, remaining in readiness to operate the commercial motor vehicle, or in giving or receiving receipts for shipments loaded or unloaded; (6) All time repairing, obtaining assistance, or remaining in attendance upon a disabled commercial motor vehicle; (7) All time spent providing a breath sample or urine specimen, including travel time to and from the collection site, to comply with the random, reasonable suspicion, post-crash, or follow-up testing required by part 382 of this subchapter when directed by a motor carrier;",
+          "source": {
+            "title": "eCFR: 49 CFR 395.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.2"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Any other work for a motor carrier, and any paid work for a person who is not a motor carrier, is also on-duty time.",
+          "quote": "(8) Performing any other work in the capacity, employ, or service of, a motor carrier; and (9) Performing any compensated work for a person who is not a motor carrier.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.2"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "\"Seven consecutive days\" means 7 consecutive days beginning on any day at the time the motor carrier designates for a 24-hour period.",
+          "quote": "Seven consecutive days means the period of 7 consecutive days beginning on any day at the time designated by the motor carrier for a 24-hour period.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.2"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "\"Eight consecutive days\" means 8 consecutive days beginning on any day at the time the motor carrier designates for a 24-hour period.",
+          "quote": "Eight consecutive days means the period of 8 consecutive days beginning on any day at the time designated by the motor carrier for a 24-hour period.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.2"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Adverse driving conditions are snow, ice, sleet, fog, other adverse weather, or unusual road or traffic conditions that the driver did not know and could not reasonably know immediately before starting the duty day (or before driving again after a qualifying rest break or sleeper berth period), or that the motor carrier could not know immediately before dispatching the driver.",
+          "quote": "Adverse driving conditions means snow, ice, sleet, fog, or other adverse weather conditions or unusual road or traffic conditions that were not known, or could not reasonably be known, to a driver immediately prior to beginning the duty day or immediately before beginning driving after a qualifying rest break or sleeper berth period, or to a motor carrier immediately prior to dispatching the driver.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.2"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "property-limits",
+      "name": "Property-carrying driver limits",
+      "points": [
+        {
+          "text": "Except as provided in 395.1, the limits in 395.3(a) bind both sides: no motor carrier may permit or require a driver to drive a property-carrying commercial motor vehicle outside them, and no driver may drive one outside them, regardless of how many motor carriers use the driver's services.",
+          "quote": "Except as otherwise provided in § 395.1, no motor carrier shall permit or require any driver used by it to drive a property-carrying commercial motor vehicle, nor shall any such driver drive a property-carrying commercial motor vehicle, regardless of the number of motor carriers using the driver's services, unless the driver complies with the following requirements:",
+          "source": {
+            "title": "eCFR: 49 CFR 395.3, Maximum driving time for property-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.3"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Start of work shift: a driver may not drive without first taking 10 consecutive hours off duty.",
+          "quote": "Start of work shift. A driver may not drive without first taking 10 consecutive hours off duty;",
+          "source": {
+            "title": "eCFR: 49 CFR 395.3, Maximum driving time for property-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.3"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "14-hour period: a driver may not drive after 14 consecutive hours have passed since coming on duty following 10 consecutive hours off duty.",
+          "quote": "14-hour period. A driver may not drive after a period of 14 consecutive hours after coming on-duty following 10 consecutive hours off-duty.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.3, Maximum driving time for property-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.3"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Driving time: a driver may drive a total of 11 hours during that 14-hour period.",
+          "quote": "Driving time. A driver may drive a total of 11 hours during the period specified in paragraph (a)(2) of this section.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.3, Maximum driving time for property-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.3"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Break: except for drivers who qualify for either short-haul exception in 395.1(e)(1) or (2), driving is not permitted once more than 8 hours of driving time have passed without at least a consecutive 30-minute interruption in driving status.",
+          "quote": "Except for drivers who qualify for either of the short-haul exceptions in § 395.1(e)(1) or (2), driving is not permitted if more than 8 hours of driving time have passed without at least a consecutive 30-minute interruption in driving status.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.3, Maximum driving time for property-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.3"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The 30-minute interruption may be off-duty, sleeper berth or on-duty not driving time, or a combination of them.",
+          "quote": "A consecutive 30-minute interruption of driving status may be satisfied either by off-duty, sleeper berth or on-duty not driving time or by a combination of off-duty, sleeper berth and on-duty not driving time.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.3, Maximum driving time for property-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.3"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If the employing motor carrier does not operate commercial motor vehicles every day of the week, the driver may not drive after having been on duty 60 hours in any period of 7 consecutive days.",
+          "quote": "Having been on duty 60 hours in any period of 7 consecutive days if the employing motor carrier does not operate commercial motor vehicles every day of the week; or",
+          "source": {
+            "title": "eCFR: 49 CFR 395.3, Maximum driving time for property-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.3"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If the employing motor carrier operates commercial motor vehicles every day of the week, the driver may not drive after having been on duty 70 hours in any period of 8 consecutive days.",
+          "quote": "Having been on duty 70 hours in any period of 8 consecutive days if the employing motor carrier operates commercial motor vehicles every day of the week.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.3, Maximum driving time for property-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.3"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Restart: any period of 7 consecutive days, and any period of 8 consecutive days, may end with the beginning of an off-duty period of 34 or more consecutive hours.",
+          "quote": "(1) Any period of 7 consecutive days may end with the beginning of an off-duty period of 34 or more consecutive hours. (2) Any period of 8 consecutive days may end with the beginning of an off-duty period of 34 or more consecutive hours.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.3, Maximum driving time for property-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.3"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "passenger-limits",
+      "name": "Passenger-carrying driver limits",
+      "points": [
+        {
+          "text": "The passenger-carrying limits in 395.5 apply subject to the exceptions and exemptions in 395.1.",
+          "quote": "Subject to the exceptions and exemptions in § 395.1:",
+          "source": {
+            "title": "eCFR: 49 CFR 395.5, Maximum driving time for passenger-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.5"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No motor carrier may permit or require, and no driver may drive, a passenger-carrying commercial motor vehicle more than 10 hours following 8 consecutive hours off duty, or for any period after having been on duty 15 hours following 8 consecutive hours off duty.",
+          "quote": "No motor carrier shall permit or require any driver used by it to drive a passenger-carrying commercial motor vehicle, nor shall any such driver drive a passenger-carrying commercial motor vehicle: (1) More than 10 hours following 8 consecutive hours off duty; or (2) For any period after having been on duty 15 hours following 8 consecutive hours off duty.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.5, Maximum driving time for passenger-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.5"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A passenger-carrying driver may not drive after having been on duty 60 hours in any 7 consecutive days if the employing motor carrier does not operate commercial motor vehicles every day of the week.",
+          "quote": "Having been on duty 60 hours in any 7 consecutive days if the employing motor carrier does not operate commercial motor vehicles every day of the week; or",
+          "source": {
+            "title": "eCFR: 49 CFR 395.5, Maximum driving time for passenger-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.5"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A passenger-carrying driver may not drive after having been on duty 70 hours in any period of 8 consecutive days if the employing motor carrier operates commercial motor vehicles every day of the week. These weekly limits apply regardless of how many motor carriers use the driver's services.",
+          "quote": "No motor carrier shall permit or require a driver of a passenger-carrying commercial motor vehicle to drive, nor shall any driver drive a passenger-carrying commercial motor vehicle, regardless of the number of motor carriers using the driver's services, for any period after— (1) Having been on duty 60 hours in any 7 consecutive days if the employing motor carrier does not operate commercial motor vehicles every day of the week; or (2) Having been on duty 70 hours in any period of 8 consecutive days if the employing motor carrier operates commercial motor vehicles every day of the week.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.5, Maximum driving time for passenger-carrying vehicles (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.5"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "sleeper-berth",
+      "name": "Sleeper berth rules",
+      "points": [
+        {
+          "text": "A property-carrying driver whose vehicle has a sleeper berth (as defined in 395.2) and who uses it to get the 10 hours off duty required by 395.3(a)(1) must accumulate one of the options listed in 395.1(g)(1)(i).",
+          "quote": "A driver who operates a property-carrying commercial motor vehicle equipped with a sleeper berth, as defined in § 395.2, and uses the sleeper berth to obtain the off-duty time required by § 395.3(a)(1) must accumulate:",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The options include at least 10 consecutive hours off duty, at least 10 consecutive hours of sleeper berth time, or a combination of consecutive sleeper berth and off-duty time amounting to at least 10 hours.",
+          "quote": "(A) At least 10 consecutive hours off-duty; (B) At least 10 consecutive hours of sleeper berth time; (C) A combination of consecutive sleeper berth and off-duty time amounting to at least 10 hours;",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Another option is sleeper berth time of at least 7 consecutive hours plus up to 3 hours riding in the passenger seat of the moving vehicle, either immediately before or after the sleeper berth time, amounting to at least 10 consecutive hours.",
+          "quote": "A combination of sleeper berth time of at least 7 consecutive hours and up to 3 hours riding in the passenger seat of the vehicle while the vehicle is moving on the highway, either immediately before or after the sleeper berth time, amounting to at least 10 consecutive hours;",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Split option: the driver may reach the equivalent of at least 10 consecutive hours off duty with not more than two periods of either sleeper berth time or a combination of off-duty and sleeper berth time, if the conditions in 395.1(g)(1)(ii) are met.",
+          "quote": "A driver may accumulate the equivalent of at least 10 consecutive hours off-duty by taking not more than two periods of either sleeper berth time or a combination of off-duty time and sleeper berth time if:",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For the split: neither rest period may be shorter than 2 consecutive hours, one rest period must be at least 7 consecutive hours in the sleeper berth, and the two periods must total at least 10 hours.",
+          "quote": "(A) Neither rest period is shorter than 2 consecutive hours; (B) One rest period is at least 7 consecutive hours in the sleeper berth; (C) The total of the two periods is at least 10 hours; and",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Also for the split: the driving time immediately before and after each rest period, added together, must not exceed 11 hours under 395.3(a)(3) and must not violate the 14-hour duty-period limit under 395.3(a)(2).",
+          "quote": "(D) Driving time in the period immediately before and after each rest period, when added together: (1) Does not exceed 11 hours under § 395.3(a)(3); and (2) Does not violate the 14-hour duty-period limit under § 395.3(a)(2).",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "With a split, the driving time limit and the 14-hour duty-period limit are re-calculated from the end of the first of the two periods.",
+          "quote": "The driving time limit and the 14-hour duty-period limit must be re-calculated from the end of the first of the two periods used to comply with paragraph (g)(1)(i)(E) of this section.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The 14-hour driving window does not include qualifying split rest periods.",
+          "quote": "The 14-hour driving window for purposes of § 395.3(a)(2) does not include qualifying rest periods under paragraph (g)(1)(ii) of this section.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Passenger-carrying vehicles with a sleeper berth: the driver may reach the equivalent of 8 consecutive hours off duty with a combination of at least 8 consecutive hours off duty and sleeper berth time, or with two periods of rest in the sleeper berth under the conditions in 395.1(g)(3).",
+          "quote": "A driver who is driving a passenger-carrying commercial motor vehicle that is equipped with a sleeper berth, as defined in §§ 395.2 and 393.76 of this subchapter, may accumulate the equivalent of 8 consecutive hours of off-duty time by taking a combination of at least 8 consecutive hours off-duty and sleeper berth time; or by taking two periods of rest in the sleeper berth, providing:",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For a passenger-carrying split: neither rest period may be shorter than two hours, and the driving time immediately before and after each rest period, added together, must not exceed 10 hours.",
+          "quote": "(i) Neither rest period is shorter than two hours; (ii) The driving time in the period immediately before and after each rest period, when added together, does not exceed 10 hours;",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The separate sleeper berth rules for specially trained drivers of oil well servicing vehicles (395.1(g)(2)) and for driving in Alaska (395.1(h)) are not summarized here."
+    },
+    {
+      "id": "exceptions",
+      "name": "Exceptions in 395.1",
+      "points": [
+        {
+          "text": "The rules in Part 395 apply to all motor carriers and drivers, except as provided in paragraphs (b) through (x) of 395.1.",
+          "quote": "The rules in this part apply to all motor carriers and drivers, except as provided in paragraphs (b) through (x) of this section.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Adverse driving conditions: except as provided for Alaska in 395.1(h)(3), a driver who meets adverse driving conditions (as defined in 395.2) and cannot, because of them, safely complete the run within the maximum time allowed under 395.3(a) or 395.5(a) may drive for not more than two additional hours to complete that run or to reach a place offering safety for the occupants and security for the vehicle and its cargo.",
+          "quote": "Except as provided in paragraph (h)(3) of this section, a driver who encounters adverse driving conditions, as defined in § 395.2, and cannot, because of those conditions, safely complete the run within the maximum driving time or duty time during which driving is permitted under § 395.3(a) or § 395.5(a) may drive and be permitted or required to drive a commercial motor vehicle for not more than two additional hours beyond the maximum allowable hours permitted under § 395.3(a) or § 395.5(a) to complete that run or to reach a place offering safety for the occupants of the commercial motor vehicle and security for the commercial motor vehicle and its cargo.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Emergency conditions: in any emergency, a driver may complete the run without violating Part 395 if the run reasonably could have been completed absent the emergency.",
+          "quote": "In case of any emergency, a driver may complete his/her run without being in violation of the provisions of the regulations in this part, if such run reasonably could have been completed absent the emergency.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "150 air-mile short-haul exception: a driver is exempt from 395.8 (records of duty status) and 395.11 (supporting documents) only if all of its conditions are met, starting with operating within a 150 air-mile radius (172.6 statute miles) of the normal work reporting location.",
+          "quote": "A driver is exempt from the requirements of §§ 395.8 and 395.11 if: (i) The driver operates within a 150 air-mile radius (172.6 statute miles) of the normal work reporting location;",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The driver (except a driver-salesperson) must also return to the work reporting location and be released from work within 14 consecutive hours.",
+          "quote": "The driver, except a driver-salesperson, returns to the work reporting location and is released from work within 14 consecutive hours;",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The employing motor carrier must keep accurate and true time records for 6 months showing the time the driver reports for duty each day, the total hours on duty each day, the time the driver is released from duty each day, and the total time for the preceding 7 days under 395.8(j)(2) for drivers used for the first time or intermittently.",
+          "quote": "The motor carrier that employs the driver maintains and retains for a period of 6 months accurate and true time records showing: (A) The time the driver reports for duty each day; (B) The total number of hours the driver is on-duty each day; (C) The time the driver is released from duty each day; and (D) The total time for the preceding 7 days in accordance with § 395.8(j)(2) for drivers used for the first time or intermittently.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Drivers who qualify for either short-haul exception in 395.1(e)(1) or (2) are not covered by the 30-minute break rule in 395.3(a)(3)(ii).",
+          "quote": "Except for drivers who qualify for either of the short-haul exceptions in § 395.1(e)(1) or (2), driving is not permitted if more than 8 hours of driving time have passed without at least a consecutive 30-minute interruption in driving status.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Drivers of property-carrying vehicles that do not require a CDL under Part 383 have a separate short-haul exception (395.1(e)(2)); among its conditions, the driver does not drive after the 14th hour after coming on duty on 5 days of any period of 7 consecutive days, and after the 16th hour after coming on duty on 2 days of any period of 7 consecutive days.",
+          "quote": "(A) After the 14th hour after coming on duty on 5 days of any period of 7 consecutive days; and (B) After the 16th hour after coming on duty on 2 days of any period of 7 consecutive days;",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A property-carrying driver is exempt from the 14-hour limit in 395.3(a)(2) if the driver returned to the normal work reporting location and was released there for the previous five duty tours, and the carrier releases the driver there within 16 hours after coming on duty following 10 consecutive hours off duty, plus the condition on prior use below.",
+          "quote": "(1) The driver has returned to the driver's normal work reporting location and the carrier released the driver from duty at that location for the previous five duty tours the driver has worked; (2) The driver has returned to the normal work reporting location and the carrier releases the driver from duty within 16 hours after coming on duty following 10 consecutive hours off duty; and",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "That 16-hour exemption cannot be used if it was taken within the previous 6 consecutive days, except when the driver has begun a new 7- or 8-day period with an off-duty period of 34 or more consecutive hours under 395.3(c).",
+          "quote": "The driver has not taken this exemption within the previous 6 consecutive days, except when the driver has begun a new 7- or 8-consecutive day period with the beginning of any off-duty period of 34 or more consecutive hours as allowed by § 395.3(c).",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Travel time: when a property-carrying driver travels at the motor carrier's direction without driving or other responsibility to the carrier, that time counts as on-duty time unless the driver gets at least 10 consecutive hours off duty on arrival, in which case the entire period is off duty.",
+          "quote": "When a property-carrying commercial motor vehicle driver at the direction of the motor carrier is traveling, but not driving or assuming any other responsibility to the carrier, such time must be counted as on-duty time unless the driver is afforded at least 10 consecutive hours off duty when arriving at destination, in which case he/she must be considered off duty for the entire period.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.1, Scope of rules in this part (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "Other 395.1 exceptions (driver-salespersons, oilfield and ground water well drilling, retail deliveries in December, Alaska and Hawaii, agricultural operations, construction materials, utility service vehicles, motion picture production, explosives attendance, ready-mixed concrete, bees and livestock, hi-rail vehicles, railroad signal employees, covered farm vehicles and pipeline welding trucks) are not summarized here. Which carriers and vehicles Part 395 reaches in the first place is set in Part 390."
+    },
+    {
+      "id": "records",
+      "name": "Records of duty status and ELDs",
+      "points": [
+        {
+          "text": "Except for a private motor carrier of passengers (nonbusiness), a motor carrier subject to Part 395 must require each driver it uses to record duty status for each 24-hour period using the method prescribed in 395.8(a)(1).",
+          "quote": "Except for a private motor carrier of passengers (nonbusiness), as defined in § 390.5 of this subchapter, a motor carrier subject to the requirements of this part must require each driver used by the motor carrier to record the driver's duty status for each 24-hour period using the method prescribed in paragraphs (a)(1)(i) through (iii) of this section, as applicable.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.8, Driver's record of duty status (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.8"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Subject to the manual-record options in 395.8(a)(1)(ii), a motor carrier operating commercial motor vehicles must install and require each of its drivers to use an ELD, a requirement with a date of December 18, 2017.",
+          "quote": "Subject to paragraph (a)(1)(ii) of this section, a motor carrier operating commercial motor vehicles must install and require each of its drivers to use an ELD to record the driver's duty status in accordance with subpart B of this part no later than December 18, 2017.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.8, Driver's record of duty status (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.8"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A motor carrier may require manual records instead of an ELD if the driver operates a vehicle in one of the listed ways, including in a manner requiring a record of duty status on not more than 8 days within any 30-day period, or a vehicle manufactured before model year 2000 as shown by the VIN on its registration.",
+          "quote": "A motor carrier may require a driver to record the driver's duty status manually in accordance with this section, rather than require the use of an ELD, if the driver is operating a commercial motor vehicle: (1) In a manner requiring completion of a record of duty status on not more than 8 days within any 30-day period; (2) In a driveaway-towaway operation in which the vehicle being driven is part of the shipment being delivered; (3) In a driveaway-towaway operation in which the vehicle being transported is a motor home or a recreation vehicle trailer; or (4) That was manufactured before model year 2000, as reflected in the vehicle identification number as shown on the vehicle's registration.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.8, Driver's record of duty status (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.8"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The driver must record duty status using one of the methods in 395.8(a)(1) and submit the record of duty status to the motor carrier within 13 days of the 24-hour period it covers.",
+          "quote": "(i) Record the driver's duty status using one of the methods under paragraph (a)(1) of this section; and (ii) Submit the driver's record of duty status to the motor carrier within 13 days of the 24-hour period to which the record pertains.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.8, Driver's record of duty status (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.8"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No driver or motor carrier may make a false report in connection with a duty status.",
+          "quote": "No driver or motor carrier may make a false report in connection with a duty status.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.8, Driver's record of duty status (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.8"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A motor carrier must retain records of duty status and supporting documents for each of its drivers for not less than 6 months from the date of receipt.",
+          "quote": "A motor carrier shall retain records of duty status and supporting documents required under this part for each of its drivers for a period of not less than 6 months from the date of receipt.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.8, Driver's record of duty status (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.8"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The driver must keep a copy of each record of duty status for the previous 7 consecutive days in their possession and available for inspection while on duty.",
+          "quote": "The driver shall retain a copy of each record of duty status for the previous 7 consecutive days which shall be in his/her possession and available for inspection while on duty.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.8, Driver's record of duty status (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.8"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Out-of-service criteria include driving after being on duty beyond the maximum periods in Part 395, and a driver required to keep records under 395.8 not having a record of duty status current on the day of examination and for the prior seven consecutive days.",
+          "quote": "(1) No driver shall drive after being on duty in excess of the maximum periods permitted by this part. (2) No driver required to maintain a record of duty status under § 395.8 shall fail to have a record of duty status current on the day of examination and for the prior seven consecutive days.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.13, Drivers ordered out of service (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.13"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A motor carrier required to use an ELD must use only an ELD on FMCSA's registered ELDs list.",
+          "quote": "A motor carrier required to use an ELD must use only an ELD that is listed on the Federal Motor Carrier Safety Administration's registered ELDs list, accessible through the Agency's website, www.fmcsa.dot.gov/devices.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.22, Motor carrier responsibilities—In general (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-B/section-395.22"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A motor carrier must retain for 6 months a back-up copy of the ELD records on a device separate from the one holding the original data.",
+          "quote": "A motor carrier must retain for 6 months a back-up copy of the ELD records on a device separate from that on which the original data are stored.",
+          "source": {
+            "title": "eCFR: 49 CFR 395.22, Motor carrier responsibilities—In general (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-B/section-395.22"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If the ELD malfunctions, the driver must note the malfunction and give the motor carrier written notice within 24 hours, and reconstruct the record of duty status for the current 24-hour period and the previous 7 consecutive days on graph-grid paper logs that comply with 395.8, unless the driver already has the records or they can be retrieved from the ELD.",
+          "quote": "(1) Note the malfunction of the ELD and provide written notice of the malfunction to the motor carrier within 24 hours; (2) Reconstruct the record of duty status for the current 24-hour period and the previous 7 consecutive days, and record the records of duty status on graph-grid paper logs that comply with § 395.8, unless the driver already possesses the records or the records are retrievable from the ELD; and",
+          "source": {
+            "title": "eCFR: 49 CFR 395.34, ELD malfunctions and data diagnostic events (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-B/section-395.34"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The ELD technical specifications in Appendix A to Subpart B, ELD account and editing procedures, and the paper log grid layout are not covered here."
+    }
+  ]
+}
