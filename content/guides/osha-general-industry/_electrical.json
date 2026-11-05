@@ -1,0 +1,548 @@
+{
+  "cluster": "osha-general-industry",
+  "slug": "electrical",
+  "href": "/osha-general-industry/electrical/study-guide/",
+  "title": "OSHA general industry electrical safety study guide",
+  "description": "OSHA general industry electrical study guide: working space, guarding, GFCIs, cords, qualified persons, lockout and power lines, from 29 CFR 1910 Subpart S.",
+  "intro": "OSHA's electrical rules for general industry are in 29 CFR Part 1910, Subpart S (Electrical). This guide sets out what the rule text states on design safety basics in 1910.303 to 1910.305 (approval and marking, working space, guarding of live parts, grounding, GFCI protection, flexible cords and temporary wiring) and on the safety-related work practices in 1910.331 to 1910.335 (qualified and unqualified persons, training, deenergizing and lockout, overhead lines, portable equipment and protective equipment). Consensus standards are not summarized here. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "ge-approval",
+      "name": "Approval, examination and marking",
+      "points": [
+        {
+          "text": "Conductors and equipment required or permitted by Subpart S are acceptable only if they are approved, as \"approved\" is defined in 1910.399.",
+          "quote": "The conductors and equipment required or permitted by this subpart shall be acceptable only if approved, as defined in § 1910.399.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Electric equipment must be free from recognized hazards that are likely to cause death or serious physical harm to employees. The rule lists the considerations used to judge equipment safety, such as suitability, mechanical strength, insulation, heating effects and arcing effects.",
+          "quote": "Electric equipment shall be free from recognized hazards that are likely to cause death or serious physical harm to employees.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Electric equipment may not be used unless it is marked with the manufacturer's name, trademark or other descriptive marking that identifies the organization responsible for the product, and with voltage, current, wattage or other ratings as necessary. The marking must be durable enough for the environment involved.",
+          "quote": "Electric equipment may not be used unless the following markings have been placed on the equipment:",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each disconnecting means required by Subpart S for motors and appliances must be legibly marked to show its purpose, unless it is located and arranged so the purpose is evident. The same applies to each service, feeder and branch circuit at its disconnecting means or overcurrent device.",
+          "quote": "Each disconnecting means required by this subpart for motors and appliances shall be legibly marked to indicate its purpose, unless located and arranged so the purpose is evident.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Disconnecting means required by Subpart S must be capable of being locked in the open position.",
+          "quote": "Disconnecting means required by this subpart shall be capable of being locked in the open position.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "ge-working-space",
+      "name": "Working space and guarding",
+      "points": [
+        {
+          "text": "For electric equipment operating at 600 volts, nominal, or less to ground, sufficient access and working space must be provided and maintained about all electric equipment to permit ready and safe operation and maintenance.",
+          "quote": "Sufficient access and working space shall be provided and maintained about all electric equipment to permit ready and safe operation and maintenance of such equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For equipment likely to need examination, adjustment, servicing or maintenance while energized (600 volts or less), the depth of working space toward the live parts may not be less than Table S-1: 3.0 ft for 0-150 volts to ground under Conditions A, B and C; for 151-600 volts, 3.0 ft (Condition A), 3.5 ft (Condition B) and 4.0 ft (Condition C). A note to the table allows 2.5 ft for installations built before April 16, 1981.",
+          "quote": "The depth of the working space in the direction of access to live parts may not be less than indicated in Table S-1.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The width of the working space in front of the equipment must be the width of the equipment or 762 mm (30 in.), whichever is greater, and the space must always permit at least a 90-degree opening of equipment doors or hinged panels.",
+          "quote": "The width of working space in front of the electric equipment shall be the width of the equipment or 762 mm (30 in.), whichever is greater. In all cases, the working space shall permit at least a 90-degree opening of equipment doors or hinged panels",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Required working space may not be used for storage. When normally enclosed live parts are exposed for inspection or servicing, working space in a passageway or general open space must be suitably guarded.",
+          "quote": "Working space required by this standard may not be used for storage.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Minimum headroom of working spaces about service equipment, switchboards, panelboards or motor control centers is 1.91 m (6.25 ft) for installations built before August 13, 2007, and 1.98 m (6.5 ft) for installations built on or after that date (or the height of the equipment, if it is taller than 6.5 ft).",
+          "quote": "For installations built on or after August 13, 2007, 1.98 m (6.5 ft), except that where the electrical equipment exceeds 1.98 m (6.5 ft) in height, the minimum headroom may not be less than the height of the equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Except as elsewhere required or permitted, live parts operating at 50 volts or more must be guarded against accidental contact by approved cabinets or enclosures, or by location in a room or vault accessible only to qualified persons, by suitable permanent partitions or screens, by placement on a suitable elevated balcony, gallery or platform, or by elevation of 2.44 m (8.0 ft) or more above the floor or other working surface.",
+          "quote": "live parts of electric equipment operating at 50 volts or more shall be guarded against accidental contact by use of approved cabinets or other forms of approved enclosures or by any of the following means:",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Entrances to rooms and other guarded locations containing exposed live parts must be marked with conspicuous warning signs forbidding unqualified persons to enter.",
+          "quote": "Entrances to rooms and other guarded locations containing exposed live parts shall be marked with conspicuous warning signs forbidding unqualified persons to enter.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Entrances to buildings, rooms or enclosures containing exposed live parts or exposed conductors operating at over 600 volts, nominal, must be kept locked unless a qualified person observes them at all times, and must carry permanent, conspicuous warning signs reading substantially \"DANGER-HIGH VOLTAGE-KEEP OUT.\"",
+          "quote": "The entrances shall be kept locked unless they are under the observation of a qualified person at all times",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "ge-grounding-gfci",
+      "name": "Grounding and GFCI protection",
+      "points": [
+        {
+          "text": "Subpart S defines a ground-fault circuit-interrupter as a device for the protection of personnel that deenergizes a circuit, or part of one, within an established period of time when a current to ground exceeds a predetermined value that is less than what is needed to operate the overcurrent protective device of the supply circuit.",
+          "quote": "A device intended for the protection of personnel that functions to deenergize a circuit or a portion of a circuit within an established period of time when a current to ground exceeds some predetermined value that is less than that required to operate the overcurrent protective device of the supply circuit.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.399, Definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.399"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "All 125-volt, single-phase, 15- and 20-ampere receptacles installed in bathrooms or on rooftops must have ground-fault circuit-interrupter protection for personnel.",
+          "quote": "All 125-volt, single-phase, 15- and 20-ampere receptacles installed in bathrooms or on rooftops shall have ground-fault circuit-interrupter protection for personnel.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.304, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.304"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For temporary wiring installations used during what the rule calls \"construction-like activities, including certain maintenance, remodeling, or repair activities,\" all 125-volt, single-phase, 15-, 20- and 30-ampere receptacle outlets that are not part of the permanent wiring and are in use by personnel must have GFCI protection. A note says a cord connector on an extension cord set used for temporary power counts as a receptacle outlet.",
+          "quote": "All 125-volt, single-phase,15-, 20-, and 30-ampere receptacle outlets that are not part of the permanent wiring of the building or structure and that are in use by personnel shall have ground-fault circuit-interrupter protection for personnel.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.304, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.304"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Where GFCI protection is not available for the other temporary receptacles (those other than 125-volt, single-phase, 15-, 20- and 30-ampere), the employer must establish and implement an assured equipment grounding conductor program, with a written description, one or more designated competent persons, and recorded tests.",
+          "quote": "the employer shall establish and implement an assured equipment grounding conductor program",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.304, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.304"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Under that program, each cord set, attachment cap, plug and receptacle of cord sets, and any cord- and plug-connected equipment must be visually inspected before each day's use (except cord sets and receptacles that are fixed and not exposed to damage). Damaged or defective equipment may not be used until repaired.",
+          "quote": "shall be visually inspected before each day's use for external defects",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.304, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.304"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The program's continuity and terminal tests must be done before first use, after repairs, after any incident reasonably suspected to have caused damage, and at intervals not to exceed 3 months. Cord sets and receptacles that are fixed and not exposed to damage are tested at intervals not exceeding 6 months.",
+          "quote": "at intervals not to exceed 3 months, except that cord sets and receptacles which are fixed and not exposed to damage shall be tested at intervals not exceeding 6 months",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.304, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.304"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The path to ground from circuits, equipment and enclosures must be permanent, continuous and effective.",
+          "quote": "The path to ground from circuits, equipment, and enclosures shall be permanent, continuous, and effective.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.304, Wiring design and protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.304"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "System grounding design (which systems must be grounded, grounding electrodes, high-voltage grounding) and overcurrent protection design in 1910.304. They are installation design details beyond this guide's focus."
+    },
+    {
+      "id": "ge-cords-temporary",
+      "name": "Flexible cords and temporary wiring",
+      "points": [
+        {
+          "text": "Flexible cords and cables must be approved for the conditions of use and location.",
+          "quote": "Flexible cords and cables shall be approved for conditions of use and location.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Flexible cords and cables may be used only for the uses the rule lists: pendants; wiring of fixtures; connection of portable lamps or appliances; portable and mobile signs; elevator cables; wiring of cranes and hoists; connection of stationary equipment to facilitate frequent interchange; prevention of noise or vibration transmission; appliances designed to be removed for maintenance and repair; approved data processing cables; connection of moving parts; and temporary wiring as permitted in 1910.305(a)(2).",
+          "quote": "Flexible cords and cables may be used only for:",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Unless specifically permitted in the list of uses, flexible cords and cables may not be used as a substitute for the fixed wiring of a structure, run through holes in walls, ceilings or floors, run through doorways, windows or similar openings, attached to building surfaces, concealed behind building walls, ceilings or floors, or installed in raceways (except as otherwise permitted).",
+          "quote": "As a substitute for the fixed wiring of a structure;",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Flexible cords may be used only in continuous lengths without splice or tap. Hard-service cord and junior hard-service cord No. 14 and larger may be repaired if the splice keeps the insulation, outer sheath properties and usage characteristics of the cord.",
+          "quote": "Flexible cords may be used only in continuous lengths without splice or tap.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Flexible cords and cables must be connected to devices and fittings with strain relief, so that pull is not transmitted directly to joints or terminal screws.",
+          "quote": "Flexible cords and cables shall be connected to devices and fittings so that strain relief is provided that will prevent pull from being directly transmitted to joints or terminal screws.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Temporary power and lighting installations of 600 volts, nominal, or less may be used only during and for remodeling, maintenance or repair of buildings, structures or equipment and similar activities; for a period not to exceed 90 days for Christmas decorative lighting, carnivals and similar purposes; or for experimental or development work and during emergencies.",
+          "quote": "For a period not to exceed 90 days for Christmas decorative lighting, carnivals, and similar purposes",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Temporary wiring must be removed immediately when the project or purpose it was installed for is complete.",
+          "quote": "Temporary wiring shall be removed immediately upon completion of the project or purpose for which the wiring was installed.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "ge-qualified-training",
+      "name": "Qualified persons and training",
+      "points": [
+        {
+          "text": "Sections 1910.331 through 1910.335 cover electrical safety-related work practices for both qualified persons (those trained in avoiding the electrical hazards of working on or near exposed energized parts) and unqualified persons (those with little or no such training).",
+          "quote": "qualified persons (those who have training in avoiding the electrical hazards of working on or near exposed energized parts) and unqualified persons (those with little or no such training)",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.331, Scope (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.331"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Subpart S defines a qualified person as one who has received training in and has demonstrated skills and knowledge in the construction and operation of electric equipment and installations and the hazards involved. A note says a person can be qualified for some equipment in the workplace and unqualified for other equipment.",
+          "quote": "One who has received training in and has demonstrated skills and knowledge in the construction and operation of electric equipment and installations and the hazards involved.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.399, Definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.399"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An employee in on-the-job training who has shown the ability to perform duties safely at his or her level of training and who is under the direct supervision of a qualified person is considered a qualified person for those duties.",
+          "quote": "who is under the direct supervision of a qualified person is considered to be a qualified person for the performance of those duties.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.399, Definitions applicable to this subpart (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.399"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The training rules apply to employees who face a risk of electric shock that is not reduced to a safe level by the installation requirements of 1910.303 through 1910.308. A note says employees in the occupations listed in Table S-4 (for example electricians and welders) face such a risk and must be trained.",
+          "quote": "apply to employees who face a risk of electric shock that is not reduced to a safe level by the electrical installation requirements of §§ 1910.303 through 1910.308.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.332, Training (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.332"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Qualified persons must, at a minimum, be trained in and familiar with the skills and techniques to distinguish exposed live parts from other parts of electric equipment, the skills and techniques to determine the nominal voltage of exposed live parts, and the clearance distances in 1910.333(c) and the voltages they correspond to.",
+          "quote": "The skills and techniques necessary to distinguish exposed live parts from other parts of electric equipment",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.332, Training (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.332"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The training must be of the classroom or on-the-job type, and the degree of training is determined by the risk to the employee.",
+          "quote": "The training required by this section shall be of the classroom or on-the-job type. The degree of training provided shall be determined by the risk to the employee.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.332, Training (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.332"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The work excluded from 1910.331 through 1910.335 when done by qualified persons (for example generation, transmission and distribution installations covered by 1910.269, and communications work covered by 1910.268). Those sections have their own rules."
+    },
+    {
+      "id": "ge-deenergizing-lockout",
+      "name": "Deenergizing and lockout",
+      "points": [
+        {
+          "text": "Live parts an employee may be exposed to must be deenergized before the employee works on or near them, unless the employer can demonstrate that deenergizing introduces additional or increased hazards or is infeasible due to equipment design or operational limitations.",
+          "quote": "Live parts to which an employee may be exposed shall be deenergized before the employee works on or near them, unless the employer can demonstrate that deenergizing introduces additional or increased hazards or is infeasible due to equipment design or operational limitations.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Live parts that operate at less than 50 volts to ground need not be deenergized if there will be no increased exposure to electrical burns or to explosion due to electric arcs.",
+          "quote": "Live parts that operate at less than 50 volts to ground need not be deenergized if there will be no increased exposure to electrical burns or to explosion due to electric arcs.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Conductors and parts that have been deenergized but not locked out or tagged under 1910.333(b) must be treated as energized parts.",
+          "quote": "Conductors and parts of electric equipment that have been deenergized but have not been locked out or tagged in accordance with paragraph (b) of this section shall be treated as energized parts",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Lockout and tagging procedures that comply with paragraphs (c) through (f) of 1910.147 are also deemed to comply with 1910.333(b)(2), provided they address the electrical hazards of Subpart S and also include 1910.333(b)(2)(iii)(D) and (b)(2)(iv)(B).",
+          "quote": "Lockout and tagging procedures that comply with paragraphs (c) through (f) of § 1910.147 will also be deemed to comply with paragraph (b)(2) of this section provided that:",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Control circuit devices such as push buttons, selector switches and interlocks may not be used as the sole means for deenergizing circuits or equipment, and interlocks may not be used as a substitute for lockout and tagging.",
+          "quote": "Control circuit devices, such as push buttons, selector switches, and interlocks, may not be used as the sole means for deenergizing circuits or equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A lock and a tag must be placed on each disconnecting means used to deenergize circuits and equipment to be worked on, except where the rule allows a tag without a lock or a lock without a tag. A tag used without a lock must be supplemented by at least one additional safety measure giving equivalent safety.",
+          "quote": "A lock and a tag shall be placed on each disconnecting means used to deenergize circuits and equipment on which work is to be performed",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A lock may be placed without a tag only when just one circuit or piece of equipment is deenergized, the lockout period does not extend beyond the work shift, and employees exposed to reenergizing hazards are familiar with this procedure.",
+          "quote": "The lockout period does not extend beyond the work shift",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Before circuits or equipment are worked as deenergized, a qualified person must use test equipment to verify that the parts employees will be exposed to are deenergized. If the circuit is over 600 volts, nominal, the test equipment must be checked for proper operation immediately before and immediately after the test.",
+          "quote": "A qualified person shall use test equipment to test the circuit elements and electrical parts of equipment to which employees will be exposed and shall verify that the circuit elements and equipment parts are deenergized.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The full text of 1910.147 (the control of hazardous energy), which has its own study guide."
+    },
+    {
+      "id": "ge-energized-overhead",
+      "name": "Work near energized parts and overhead lines",
+      "points": [
+        {
+          "text": "Only qualified persons may work on electric circuit parts or equipment that have not been deenergized under the procedures of 1910.333(b).",
+          "quote": "Only qualified persons may work on electric circuit parts or equipment that have not been deenergized under the procedures of paragraph (b) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If work is to be performed near overhead lines, the lines must be deenergized and grounded, or other protective measures must be provided, before work is started.",
+          "quote": "If work is to be performed near overhead lines, the lines shall be deenergized and grounded, or other protective measures shall be provided before work is started.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When an unqualified person is working in an elevated position near overhead lines, the person and the longest conductive object he or she may contact cannot come closer to any unguarded, energized overhead line than 10 ft. (305 cm) for voltages to ground 50kV or below, or 10 ft. (305 cm) plus 4 in. (10 cm) for every 10kV over 50kV.",
+          "quote": "For voltages to ground 50kV or below—10 ft. (305 cm);",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An unqualified person working on the ground in the vicinity of overhead lines may not bring any conductive object closer to unguarded, energized overhead lines than those same distances.",
+          "quote": "the person may not bring any conductive object closer to unguarded, energized overhead lines than the distances given in paragraph (c)(3)(i)(A) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Any vehicle or mechanical equipment capable of having parts of its structure elevated near energized overhead lines must be operated so that a clearance of 10 ft. (305 cm) is maintained, increased by 4 in. (10 cm) for every 10kV over 50kV. The rule allows reduced clearances only under listed conditions, such as 4 ft. (122 cm) for a vehicle in transit with its structure lowered.",
+          "quote": "Any vehicle or mechanical equipment capable of having parts of its structure elevated near energized overhead lines shall be operated so that a clearance of 10 ft. (305 cm) is maintained.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Portable ladders must have nonconductive siderails if they are used where the employee or the ladder could contact exposed energized parts.",
+          "quote": "Portable ladders shall have nonconductive siderails if they are used where the employee or the ladder could contact exposed energized parts.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The Table S-5 approach distances for qualified employees, which apply to trained qualified persons rather than to the general workforce this guide is written for."
+    },
+    {
+      "id": "ge-portable-ppe",
+      "name": "Portable equipment and PPE",
+      "points": [
+        {
+          "text": "Portable equipment must be handled so it is not damaged. Flexible cords connected to equipment may not be used for raising or lowering the equipment, and cords may not be fastened with staples or hung in a way that could damage the outer jacket or insulation.",
+          "quote": "Flexible electric cords connected to equipment may not be used for raising or lowering the equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.334, Use of equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.334"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Portable cord- and plug-connected equipment and extension cords must be visually inspected before use on any shift for external defects and for evidence of possible internal damage. Items that stay connected once in place and are not exposed to damage need not be inspected until they are relocated.",
+          "quote": "shall be visually inspected before use on any shift for external defects",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.334, Use of equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.334"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Adapters that interrupt the continuity of the equipment grounding connection may not be used.",
+          "quote": "Adapters which interrupt the continuity of the equipment grounding connection may not be used.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.334, Use of equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.334"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Employees' hands may not be wet when plugging and unplugging flexible cords and cord- and plug-connected equipment, if energized equipment is involved.",
+          "quote": "Employees' hands may not be wet when plugging and unplugging flexible cords and cord- and plug-connected equipment, if energized equipment is involved.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.334, Use of equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.334"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Employees working in areas with potential electrical hazards must be provided with, and must use, electrical protective equipment appropriate for the parts of the body to be protected and for the work to be performed. That equipment must be kept in a safe, reliable condition and periodically inspected or tested as required by 1910.137.",
+          "quote": "Employees working in areas where there are potential electrical hazards shall be provided with, and shall use, electrical protective equipment that is appropriate for the specific parts of the body to be protected and for the work to be performed.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.335, Safeguards for personnel protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.335"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Employees must wear nonconductive head protection wherever there is a danger of head injury from electric shock or burns due to contact with exposed energized parts, and eye or face protection wherever there is danger of injury from electric arcs or flashes or from flying objects from an electrical explosion.",
+          "quote": "Employees shall wear nonconductive head protection wherever there is a danger of head injury from electric shock or burns due to contact with exposed energized parts.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.335, Safeguards for personnel protection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.335"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Conductive jewelry and clothing (such as watch bands, bracelets, rings, key chains, necklaces, metalized aprons, cloth with conductive thread or metal headgear) may not be worn if they might contact exposed energized parts, unless they are rendered nonconductive by covering, wrapping or other insulating means.",
+          "quote": "may not be worn if they might contact exposed energized parts. However, such articles may be worn if they are rendered nonconductive by covering, wrapping, or other insulating means.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    }
+  ]
+}

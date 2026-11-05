@@ -1,0 +1,547 @@
+{
+  "cluster": "osha-general-industry",
+  "slug": "forklifts",
+  "href": "/osha-general-industry/forklifts/study-guide/",
+  "title": "OSHA general industry powered industrial trucks (forklifts) study guide",
+  "description": "OSHA 1910.178 powered industrial truck study guide: scope, approved trucks, operator training, batteries, trailers, unattended trucks and daily examination.",
+  "intro": "29 CFR 1910.178 is OSHA's general industry section on powered industrial trucks: fork trucks, tractors, platform lift trucks, motorized hand trucks and other specialized industrial trucks powered by electric motors or internal combustion engines. This guide sets out what the rule text states on scope and approved trucks, modifications, operator training and evaluation, fuel handling and battery charging, highway trucks, trailers and railroad cars, safety guards and unattended trucks, traveling and loading, and maintenance and examination before a truck is placed in service. Consensus standards the rule incorporates (ANSI B56.1-1969, NFPA No. 30-1969 and No. 58-1969) are only named here, not summarized. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "scope",
+      "name": "Scope and approved trucks",
+      "points": [
+        {
+          "text": "Section 1910.178 covers fire protection, design, maintenance and use of fork trucks, tractors, platform lift trucks, motorized hand trucks and other specialized industrial trucks powered by electric motors or internal combustion engines.",
+          "quote": "This section contains safety requirements relating to fire protection, design, maintenance, and use of fork trucks, tractors, platform lift trucks, motorized hand trucks, and other specialized industrial trucks powered by electric motors or internal combustion engines.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The section does not apply to compressed air or nonflammable compressed gas-operated industrial trucks, to farm vehicles, or to vehicles intended primarily for earth moving or over-the-road hauling.",
+          "quote": "This section does not apply to compressed air or nonflammable compressed gas-operated industrial trucks, nor to farm vehicles, nor to vehicles intended primarily for earth moving or over-the-road hauling.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In this section, an \"approved truck\" (or \"approved industrial truck\") is one listed or approved for fire safety purposes for the intended use by a nationally recognized testing laboratory, using nationally recognized testing standards.",
+          "quote": "the term, approved truck or approved industrial truck means a truck that is listed or approved for fire safety purposes for the intended use by a nationally recognized testing laboratory, using nationally recognized testing standards.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Approved trucks must bear a label or other identifying mark showing approval by the testing laboratory.",
+          "quote": "Approved trucks shall bear a label or some other identifying mark indicating approval by the testing laboratory.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For the purpose of this standard there are eleven designations of industrial trucks or tractors: D, DS, DY, E, ES, EE, EX, G, GS, LP and LPS (D diesel, E electric, G gasoline, LP liquefied petroleum gas, with letters added for extra safeguards).",
+          "quote": "For the purpose of this standard there are eleven different designations of industrial trucks or tractors as follows: D, DS, DY, E, ES, EE, EX, G, GS, LP, and LPS.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The atmosphere or location must be classified as hazardous or nonhazardous before industrial trucks are considered for use there; the truck type required then follows the rule's location provisions.",
+          "quote": "The atmosphere or location shall have been classified as to whether it is hazardous or nonhazardous prior to the consideration of industrial trucks being used therein",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Only approved industrial trucks may be used in hazardous locations.",
+          "quote": "Only approved industrial trucks shall be used in hazardous locations.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The location-by-location rules of 1910.178(c) and Table N-1 (which truck designations are authorized in each class, group and division of hazardous location), and the content of ANSI B56.1-1969, which 1910.178(a)(2) incorporates by reference for the design and construction of new trucks."
+    },
+    {
+      "id": "modifications",
+      "name": "Modifications and nameplates",
+      "points": [
+        {
+          "text": "The customer or user may not make modifications and additions that affect capacity and safe operation without the manufacturer's prior written approval, and capacity, operation and maintenance instruction plates, tags or decals must be changed to match.",
+          "quote": "Modifications and additions which affect capacity and safe operation shall not be performed by the customer or user without manufacturers prior written approval. Capacity, operation, and maintenance instruction plates, tags, or decals shall be changed accordingly.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If a truck has front-end attachments other than factory installed ones, the user must request that the truck be marked to identify the attachments and show the approximate weight of the truck and attachment combination at maximum elevation with the load laterally centered.",
+          "quote": "If the truck is equipped with front-end attachments other than factory installed attachments, the user shall request that the truck be marked to identify the attachments and show the approximate weight of the truck and attachment combination at maximum elevation with load laterally centered.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The user must see that all nameplates and markings are in place and kept legible.",
+          "quote": "The user shall see that all nameplates and markings are in place and are maintained in a legible condition.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Industrial trucks may not be altered so that parts sit in different relative positions than when received from the manufacturer, or by adding extra parts not provided by the manufacturer or removing parts, except for the approved gasoline-to-LP-gas conversion in (q)(12).",
+          "quote": "Industrial trucks shall not be altered so that the relative positions of the various parts are different from what they were when originally received from the manufacturer, nor shall they be altered either by the addition of extra parts not provided by the manufacturer or by the elimination of any parts, except as provided in paragraph (q)(12) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Additional counterweighting of fork trucks is not allowed unless the truck manufacturer approves it.",
+          "quote": "Additional counterweighting of fork trucks shall not be done unless approved by the truck manufacturer.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "name": "Operator training",
+      "points": [
+        {
+          "text": "Before letting an employee operate a powered industrial truck (except for training purposes), the employer must ensure the operator has successfully completed the training required by paragraph (l), except as permitted by (l)(5).",
+          "quote": "Prior to permitting an employee to operate a powered industrial truck (except for training purposes), the employer shall ensure that each operator has successfully completed the training required by this paragraph (l), except as permitted by paragraph (l)(5).",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Trainees may operate a truck only under the direct supervision of persons with the knowledge, training and experience to train operators and evaluate their competence, and only where the operation does not endanger the trainee or other employees.",
+          "quote": "Trainees may operate a powered industrial truck only: (A) Under the direct supervision of persons who have the knowledge, training, and experience to train operators and evaluate their competence; and (B) Where such operation does not endanger the trainee or other employees.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Training must combine formal instruction, practical training (demonstrations by the trainer and practical exercises by the trainee) and evaluation of the operator's performance in the workplace.",
+          "quote": "Training shall consist of a combination of formal instruction (e.g., lecture, discussion, interactive computer learning, video tape, written material), practical training (demonstrations performed by the trainer and practical exercises performed by the trainee), and evaluation of the operator's performance in the workplace.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "All operator training and evaluation must be conducted by persons with the knowledge, training and experience to train powered industrial truck operators and evaluate their competence.",
+          "quote": "All operator training and evaluation shall be conducted by persons who have the knowledge, training, and experience to train powered industrial truck operators and evaluate their competence.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Initial training covers the listed truck-related topics (such as truck controls, steering, visibility, vehicle capacity and stability), workplace-related topics (such as surface conditions, pedestrian traffic, narrow aisles and ramps) and the requirements of the section, except topics the employer can demonstrate are not applicable to safe operation in that workplace.",
+          "quote": "Powered industrial truck operators shall receive initial training in the following topics, except in topics which the employer can demonstrate are not applicable to safe operation of the truck in the employer's workplace.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Refresher training in relevant topics is required when the operator has been observed operating unsafely, has been in an accident or near-miss incident, has received an evaluation showing unsafe operation, is assigned to a different type of truck, or when a workplace condition changes in a way that could affect safe operation.",
+          "quote": "Refresher training in relevant topics shall be provided to the operator when: (A) The operator has been observed to operate the vehicle in an unsafe manner; (B) The operator has been involved in an accident or near-miss incident; (C) The operator has received an evaluation that reveals that the operator is not operating the truck safely; (D) The operator is assigned to drive a different type of truck; or (E) A condition in the workplace changes in a manner that could affect safe operation of the truck.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each operator's performance must be evaluated at least once every three years.",
+          "quote": "An evaluation of each powered industrial truck operator's performance shall be conducted at least once every three years.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Training already received in a required topic need not be repeated if it is appropriate to the truck and working conditions and the operator has been evaluated and found competent to operate the truck safely.",
+          "quote": "If an operator has previously received training in a topic specified in paragraph (l)(3) of this section, and such training is appropriate to the truck and working conditions encountered, additional training in that topic is not required if the operator has been evaluated and found competent to operate the truck safely.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The employer certifies that each operator has been trained and evaluated. The certification includes the operator's name, the date of the training, the date of the evaluation and the identity of the person(s) who did the training or evaluation.",
+          "quote": "The employer shall certify that each operator has been trained and evaluated as required by this paragraph (l). The certification shall include the name of the operator, the date of the training, the date of the evaluation, and the identity of the person(s) performing the training or evaluation.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For an employee hired after December 1, 1999, initial training and evaluation must be completed before the employee is assigned to operate a powered industrial truck (employees hired before that date had to be trained by December 1, 1999).",
+          "quote": "Before the employee is assigned to operate a powered industrial truck.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Appendix A to 1910.178 (stability of powered industrial trucks) is non-mandatory guidance for implementing paragraph (l); it does not add to, alter or reduce the section's requirements.",
+          "quote": "Appendix A to this section provides non-mandatory guidance to assist employers in implementing this paragraph (l). This appendix does not add to, alter, or reduce the requirements of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The stability principles explained in the non-mandatory Appendix A (stability triangle, load center, load moment). goraedu does not train, evaluate or certify operators; under 1910.178(l)(6) the employer certifies its own operators."
+    },
+    {
+      "id": "fuel-batteries",
+      "name": "Fuel handling and battery charging",
+      "points": [
+        {
+          "text": "Storage and handling of liquid fuels such as gasoline and diesel must follow NFPA No. 30-1969, and liquefied petroleum gas fuel must follow NFPA No. 58-1969; both are incorporated by reference and only named here.",
+          "quote": "The storage and handling of liquid fuels such as gasoline and diesel fuel shall be in accordance with NFPA Flammable and Combustible Liquids Code (NFPA No. 30-1969)",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Battery charging installations must be in areas designated for that purpose.",
+          "quote": "Battery charging installations shall be located in areas designated for that purpose.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Facilities must be provided for flushing and neutralizing spilled electrolyte, for fire protection, for protecting charging apparatus from damage by trucks, and for adequate ventilation to disperse fumes from gassing batteries.",
+          "quote": "Facilities shall be provided for flushing and neutralizing spilled electrolyte, for fire protection, for protecting charging apparatus from damage by trucks, and for adequate ventilation for dispersal of fumes from gassing batteries.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When charging batteries, acid is poured into water, never water into acid.",
+          "quote": "When charging batteries, acid shall be poured into water; water shall not be poured into acid.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The truck must be properly positioned and its brake applied before anyone tries to change or charge batteries.",
+          "quote": "Trucks shall be properly positioned and brake applied before attempting to change or charge batteries.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Smoking is prohibited in the charging area, and precautions must be taken to prevent open flames, sparks or electric arcs in battery charging areas.",
+          "quote": "Smoking shall be prohibited in the charging area. (11) Precautions shall be taken to prevent open flames, sparks, or electric arcs in battery charging areas.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Fuel tanks may not be filled while the engine is running, and spillage must be avoided.",
+          "quote": "Fuel tanks shall not be filled while the engine is running. Spillage shall be avoided.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "trailers-railcars",
+      "name": "Trucks, trailers and railroad cars",
+      "points": [
+        {
+          "text": "While highway trucks are boarded with powered industrial trucks, the highway truck's brakes must be set and wheel chocks placed under its rear wheels to keep it from rolling.",
+          "quote": "The brakes of highway trucks shall be set and wheel chocks placed under the rear wheels to prevent the trucks from rolling while they are boarded with powered industrial trucks.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Wheel stops or other recognized positive protection must keep railroad cars from moving during loading or unloading.",
+          "quote": "Wheel stops or other recognized positive protection shall be provided to prevent railroad cars from moving during loading or unloading operations.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Fixed jacks may be necessary to support a semitrailer and prevent upending during loading or unloading when the trailer is not coupled to a tractor.",
+          "quote": "Fixed jacks may be necessary to support a semitrailer and prevent upending during the loading or unloading when the trailer is not coupled to a tractor.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Positive protection must keep railroad cars from being moved while dockboards or bridge plates are in position.",
+          "quote": "Positive protection shall be provided to prevent railroad cars from being moved while dockboards or bridge plates are in position.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The flooring of trucks, trailers and railroad cars must be checked for breaks and weakness before they are driven onto.",
+          "quote": "The flooring of trucks, trailers, and railroad cars shall be checked for breaks and weakness before they are driven onto.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The dockboard (bridge plate) rules themselves: 1910.178(j) refers to Subpart D of Part 1910 for them."
+    },
+    {
+      "id": "operations",
+      "name": "Safety guards and operations",
+      "points": [
+        {
+          "text": "High Lift Rider trucks must have an overhead guard manufactured in accordance with (a)(2), unless operating conditions do not permit.",
+          "quote": "High Lift Rider trucks shall be fitted with an overhead guard manufactured in accordance with paragraph (a)(2) of this section, unless operating conditions do not permit.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If the type of load presents a hazard, the user must equip fork trucks with a vertical load backrest extension manufactured in accordance with (a)(2).",
+          "quote": "If the type of load presents a hazard, the user shall equip fork trucks with a vertical load backrest extension manufactured in accordance with paragraph (a)(2) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An overhead guard is meant to protect against the impact of small packages, boxes, bagged material and the like, not to withstand the impact of a falling capacity load.",
+          "quote": "It should be noted that an overhead guard is intended to offer protection from the impact of small packages, boxes, bagged material, etc., representative of the job application, but not to withstand the impact of a falling capacity load.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No one may stand or pass under the elevated portion of any truck, loaded or empty.",
+          "quote": "No person shall be allowed to stand or pass under the elevated portion of any truck, whether loaded or empty.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When a powered industrial truck is left unattended, the load engaging means must be fully lowered, controls neutralized, power shut off and brakes set; wheels must also be blocked if the truck is parked on an incline.",
+          "quote": "When a powered industrial truck is left unattended, load engaging means shall be fully lowered, controls shall be neutralized, power shall be shut off, and brakes set. Wheels shall be blocked if the truck is parked on an incline.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A truck is \"unattended\" when the operator is 25 ft. or more away from it while it remains in view, or whenever the operator leaves it and it is not in view.",
+          "quote": "A powered industrial truck is unattended when the operator is 25 ft. or more away from the vehicle which remains in his view, or whenever the operator leaves the vehicle and it is not in his view.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When the operator is dismounted and within 25 ft. of the truck, still in view, the load engaging means must be fully lowered, controls neutralized and brakes set to prevent movement.",
+          "quote": "When the operator of an industrial truck is dismounted and within 25 ft. of the truck still in his view, the load engaging means shall be fully lowered, controls neutralized, and the brakes set to prevent movement.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "traveling-loading",
+      "name": "Traveling and loading",
+      "points": [
+        {
+          "text": "All traffic regulations, including authorized plant speed limits, must be observed; a safe distance of approximately three truck lengths is kept from the truck ahead, and the truck is kept under control at all times.",
+          "quote": "All traffic regulations shall be observed, including authorized plant speed limits. A safe distance shall be maintained approximately three truck lengths from the truck ahead, and the truck shall be kept under control at all times.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The driver slows down and sounds the horn at cross aisles and other places where vision is obstructed; if the load blocks forward view, the driver travels with the load trailing.",
+          "quote": "The driver shall be required to slow down and sound the horn at cross aisles and other locations where vision is obstructed. If the load being carried obstructs forward view, the driver shall be required to travel with the load trailing.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Railroad tracks are crossed diagonally wherever possible, and parking closer than 8 feet from the center of railroad tracks is prohibited.",
+          "quote": "Railroad tracks shall be crossed diagonally wherever possible. Parking closer than 8 feet from the center of railroad tracks is prohibited.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On grades in excess of 10 percent, loaded trucks are driven with the load upgrade, whether ascending or descending.",
+          "quote": "When ascending or descending grades in excess of 10 percent, loaded trucks shall be driven with the load upgrade.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Only loads within the truck's rated capacity may be handled.",
+          "quote": "Only loads within the rated capacity of the truck shall be handled.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Tilting forward with the load engaging means elevated is prohibited except to pick up a load, and an elevated load is tilted forward only when it is in a deposit position over a rack or stack.",
+          "quote": "Tilting forward with load engaging means elevated shall be prohibited except to pick up a load. An elevated load shall not be tilted forward except when the load is in a deposit position over a rack or stack.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "name": "Maintenance and examination",
+      "points": [
+        {
+          "text": "Industrial trucks must be examined before being placed in service and must not be placed in service if the examination shows any condition adversely affecting the vehicle's safety. The examination is made at least daily.",
+          "quote": "Industrial trucks shall be examined before being placed in service, and shall not be placed in service if the examination shows any condition adversely affecting the safety of the vehicle. Such examination shall be made at least daily.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Trucks used on a round-the-clock basis must be examined after each shift, and defects must be reported and corrected immediately.",
+          "quote": "Where industrial trucks are used on a round-the-clock basis, they shall be examined after each shift. Defects when found shall be immediately reported and corrected.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A truck found at any time to need repair, to be defective or to be unsafe in any way must be taken out of service until restored to safe operating condition.",
+          "quote": "If at any time a powered industrial truck is found to be in need of repair, defective, or in any way unsafe, the truck shall be taken out of service until it has been restored to safe operating condition.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "All repairs must be made by authorized personnel, and no repairs may be made in Class I, II and III locations.",
+          "quote": "All repairs shall be made by authorized personnel. (2) No repairs shall be made in Class I, II, and III locations.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Trucks needing repairs to the electrical system must have the battery disconnected before those repairs.",
+          "quote": "Trucks in need of repairs to the electrical system shall have the battery disconnected prior to such repairs.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Replacement parts must be equivalent as to safety with those used in the original design.",
+          "quote": "All parts of any such industrial truck requiring replacement shall be replaced only by parts equivalent as to safety with those used in the original design.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "cluster": "osha-general-industry",
+  "slug": "machine-guarding",
+  "title": "OSHA general industry machine guarding practice questions",
+  "description": "Free OSHA general industry machine guarding practice questions on 29 CFR 1910 Subpart O. Every answer is explained and linked to its section.",
+  "href": "/osha-general-industry/machine-guarding/practice-test/",
+  "questions": [
+    {
+      "id": "mg-001",
+      "topic": "General machine guarding",
+      "question": "Under 1910.212, what is the \"point of operation\" of a machine?",
+      "options": {
+        "A": "The location of the machine's main power switch",
+        "B": "The area on a machine where work is actually performed upon the material being processed",
+        "C": "The spot where the machine is anchored to the floor",
+        "D": "The aisle where the operator stands to load material"
+      },
+      "answer": "B",
+      "explanation": "1910.212(a)(3)(i) defines it: \"Point of operation is the area on a machine where work is actually performed upon the material being processed.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.212, General requirements for all machines (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.212"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Point of operation is the area on a machine where work is actually performed upon the material being processed."
+    },
+    {
+      "id": "mg-002",
+      "topic": "General machine guarding",
+      "question": "Fan blades must be guarded when the periphery of the blades is less than how high above the floor or working level?",
+      "options": {
+        "A": "4 feet",
+        "B": "5 feet",
+        "C": "6 feet",
+        "D": "7 feet"
+      },
+      "answer": "D",
+      "explanation": "\"When the periphery of the blades of a fan is less than seven (7) feet above the floor or working level, the blades shall be guarded.\" The guard's openings may be no larger than 1/2 inch.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.212, General requirements for all machines (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.212"
+      },
+      "checked": "2026-11-05",
+      "evidence": "When the periphery of the blades of a fan is less than seven (7) feet above the floor or working level, the blades shall be guarded."
+    },
+    {
+      "id": "mg-003",
+      "topic": "General machine guarding",
+      "question": "What role does 1910.212 give special hand tools used for placing and removing material?",
+      "options": {
+        "A": "They can only supplement the protection provided, not replace required guarding",
+        "B": "They may replace the guard once the operator is trained in their use",
+        "C": "They replace guarding on any machine that runs below full speed",
+        "D": "They are required in place of guards on power saws"
+      },
+      "answer": "A",
+      "explanation": "Special hand tools must let the operator handle material without placing a hand in the danger zone, but \"Such tools shall not be in lieu of other guarding required by this section, but can only be used to supplement protection provided.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.212, General requirements for all machines (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.212"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Such tools shall not be in lieu of other guarding required by this section, but can only be used to supplement protection provided."
+    },
+    {
+      "id": "mg-004",
+      "topic": "General machine guarding",
+      "question": "What does 1910.212(b) require for machines designed for a fixed location?",
+      "options": {
+        "A": "They must be painted a safety color",
+        "B": "They must be set on rubber vibration pads",
+        "C": "They must be securely anchored to prevent walking or moving",
+        "D": "They must be registered with the OSHA area office"
+      },
+      "answer": "C",
+      "explanation": "\"Machines designed for a fixed location shall be securely anchored to prevent walking or moving.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.212, General requirements for all machines (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.212"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Machines designed for a fixed location shall be securely anchored to prevent walking or moving."
+    },
+    {
+      "id": "mg-005",
+      "topic": "Woodworking machinery",
+      "question": "Under 1910.213(b)(1), the power control on each woodworking machine must let the operator do what?",
+      "options": {
+        "A": "Cut off the power from the machine without leaving his position at the point of operation",
+        "B": "Restart the machine automatically after a power failure",
+        "C": "Change the blade while the machine is running",
+        "D": "Shut down every machine in the shop from one switch"
+      },
+      "answer": "A",
+      "explanation": "A mechanical or electrical power control must be provided on each machine \"to make it possible for the operator to cut off the power from each machine without leaving his position at the point of operation.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.213, Woodworking machinery requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.213"
+      },
+      "checked": "2026-11-05",
+      "evidence": "A mechanical or electrical power control shall be provided on each machine to make it possible for the operator to cut off the power from each machine without leaving his position at the point of operation."
+    },
+    {
+      "id": "mg-006",
+      "topic": "Woodworking machinery",
+      "question": "What does 1910.213 say about an automatic cutoff saw that strokes continuously without the operator being able to control each stroke?",
+      "options": {
+        "A": "It may be used if it has a hood",
+        "B": "It may be used for ripping only",
+        "C": "It shall not be used",
+        "D": "It may be used if inspected weekly"
+      },
+      "answer": "C",
+      "explanation": "The rule says: \"Any automatic cutoff saw that strokes continuously without the operator being able to control each stroke shall not be used.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.213, Woodworking machinery requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.213"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Any automatic cutoff saw that strokes continuously without the operator being able to control each stroke shall not be used."
+    },
+    {
+      "id": "mg-007",
+      "topic": "Woodworking machinery",
+      "question": "What is the spreader on a hand-fed circular ripsaw for, according to 1910.213(c)(2)?",
+      "options": {
+        "A": "To hold the hood up while the saw runs",
+        "B": "To prevent material from squeezing the saw or being thrown back on the operator",
+        "C": "To measure the width of each cut",
+        "D": "To collect sawdust below the table"
+      },
+      "answer": "B",
+      "explanation": "\"Each hand-fed circular ripsaw shall be furnished with a spreader to prevent material from squeezing the saw or being thrown back on the operator.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.213, Woodworking machinery requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.213"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Each hand-fed circular ripsaw shall be furnished with a spreader to prevent material from squeezing the saw or being thrown back on the operator."
+    },
+    {
+      "id": "mg-008",
+      "topic": "Woodworking inspection and maintenance",
+      "question": "A jointer's knife blade must be installed and adjusted so that it protrudes no more than how far beyond the cylindrical body of the head?",
+      "options": {
+        "A": "1/4 inch",
+        "B": "1/2 inch",
+        "C": "1 inch",
+        "D": "1/8 inch"
+      },
+      "answer": "D",
+      "explanation": "\"The knife blade of jointers shall be so installed and adjusted that it does not protrude more than one-eighth inch beyond the cylindrical body of the head.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.213, Woodworking machinery requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.213"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The knife blade of jointers shall be so installed and adjusted that it does not protrude more than one-eighth inch beyond the cylindrical body of the head."
+    },
+    {
+      "id": "mg-009",
+      "topic": "Woodworking inspection and maintenance",
+      "question": "What must happen to a cracked saw in woodworking under 1910.213(s)?",
+      "options": {
+        "A": "It may be used for rough cuts only",
+        "B": "It may be run at reduced speed",
+        "C": "It may be used after a wedge is fitted at the collar",
+        "D": "It must be removed from service"
+      },
+      "answer": "D",
+      "explanation": "\"All cracked saws shall be removed from service.\" Paragraph (s) also forbids wedges between the saw disk and the collar (a \"wobble saw\").",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.213, Woodworking machinery requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.213"
+      },
+      "checked": "2026-11-05",
+      "evidence": "All cracked saws shall be removed from service."
+    },
+    {
+      "id": "mg-010",
+      "topic": "Abrasive wheels",
+      "question": "On an offhand grinding machine, what is the maximum opening between the work rest and the wheel?",
+      "options": {
+        "A": "1/8 inch",
+        "B": "1/4 inch",
+        "C": "1/2 inch",
+        "D": "1 inch"
+      },
+      "answer": "A",
+      "explanation": "Work rests \"shall be kept adjusted closely to the wheel with a maximum opening of one-eighth inch to prevent the work from being jammed between the wheel and the rest, which may cause wheel breakage.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.215, Abrasive wheel machinery (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.215"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Work rests shall be kept adjusted closely to the wheel with a maximum opening of one-eighth inch to prevent the work from being jammed between the wheel and the rest, which may cause wheel breakage."
+    },
+    {
+      "id": "mg-011",
+      "topic": "Abrasive wheels",
+      "question": "On bench and floor stand guards where the operator stands in front of the opening, the distance between the wheel periphery and the adjustable tongue must never exceed what?",
+      "options": {
+        "A": "1/2 inch",
+        "B": "1 inch",
+        "C": "1/4 inch",
+        "D": "2 inches"
+      },
+      "answer": "C",
+      "explanation": "Under 1910.215(b)(9), \"the distance between the wheel periphery and the adjustable tongue or the end of the peripheral member at the top shall never exceed one-fourth inch.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.215, Abrasive wheel machinery (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.215"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Safety guards of the types described in subparagraphs (3) and (4) of this paragraph, where the operator stands in front of the opening, shall be constructed so that the peripheral protecting member can be adjusted to the constantly decreasing diameter of the wheel. The maximum angular exposure above the horizontal plane of the wheel spindle as specified in paragraphs (b) (3) and (4) of this section shall never be exceeded, and the distance between the wheel periphery and the adjustable tongue or the end of the peripheral member at the top shall never exceed one-fourth inch."
+    },
+    {
+      "id": "mg-012",
+      "topic": "Mounting abrasive wheels",
+      "question": "When must an abrasive wheel be closely inspected and sounded by the user (the ring test)?",
+      "options": {
+        "A": "Once a year",
+        "B": "Immediately before mounting",
+        "C": "Only when it is first delivered",
+        "D": "After every 8 hours of grinding"
+      },
+      "answer": "B",
+      "explanation": "\"Immediately before mounting, all wheels shall be closely inspected and sounded by the user (ring test) to make sure they have not been damaged in transit, storage, or otherwise.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.215, Abrasive wheel machinery (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.215"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Immediately before mounting, all wheels shall be closely inspected and sounded by the user (ring test) to make sure they have not been damaged in transit, storage, or otherwise."
+    },
+    {
+      "id": "mg-013",
+      "topic": "Mounting abrasive wheels",
+      "question": "During the ring test, a wheel sounds cracked (dead) instead of giving a clear ring. What does 1910.215 say?",
+      "options": {
+        "A": "It may be used at half its marked speed",
+        "B": "It shall not be used",
+        "C": "It may be used with an extra blotter",
+        "D": "It may be used on a portable grinder only"
+      },
+      "answer": "B",
+      "explanation": "Wheels are tapped gently, and \"If they sound cracked (dead), they shall not be used.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.215, Abrasive wheel machinery (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.215"
+      },
+      "checked": "2026-11-05",
+      "evidence": "If they sound cracked (dead), they shall not be used."
+    },
+    {
+      "id": "mg-014",
+      "topic": "Mechanical power presses",
+      "question": "The employer's duty to provide point of operation guards or devices on a mechanical power press does not apply when the point of operation opening is what size?",
+      "options": {
+        "A": "One-fourth inch or less",
+        "B": "One inch or less",
+        "C": "Two inches or less",
+        "D": "Six inches or less"
+      },
+      "answer": "A",
+      "explanation": "1910.217(c)(1)(ii) says the requirement \"shall not apply when the point of operation opening is one-fourth inch or less.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.217, Mechanical power presses (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.217"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The requirement of paragraph (c)(1)(i) of this section shall not apply when the point of operation opening is one-fourth inch or less."
+    },
+    {
+      "id": "mg-015",
+      "topic": "Mechanical power presses",
+      "question": "When must the employer provide and enforce the use of safety blocks on a mechanical power press?",
+      "options": {
+        "A": "Only during continuous production runs",
+        "B": "Only when the press is being moved to a new location",
+        "C": "Only on presses with part revolution clutches",
+        "D": "Whenever dies are being adjusted or repaired in the press"
+      },
+      "answer": "D",
+      "explanation": "\"The employer shall provide and enforce the use of safety blocks for use whenever dies are being adjusted or repaired in the press.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.217, Mechanical power presses (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.217"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The employer shall provide and enforce the use of safety blocks for use whenever dies are being adjusted or repaired in the press."
+    },
+    {
+      "id": "mg-016",
+      "topic": "Mechanical power presses",
+      "question": "Within how many days of the occurrence must an employer report a point-of-operation injury on a mechanical power press?",
+      "options": {
+        "A": "90 days",
+        "B": "60 days",
+        "C": "30 days",
+        "D": "6 months"
+      },
+      "answer": "C",
+      "explanation": "\"The employer shall report, within 30 days of the occurrence, all point-of-operation injuries to operators or other employees\" to OSHA or to the State agency running an approved plan.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.217, Mechanical power presses (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.217"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The employer shall report, within 30 days of the occurrence, all point-of-operation injuries to operators or other employees"
+    },
+    {
+      "id": "mg-017",
+      "topic": "Power-transmission apparatus",
+      "question": "Exposed parts of horizontal shafting must be protected when they are how far or less from the floor or working platform (outside runways used only for oiling or running adjustments)?",
+      "options": {
+        "A": "4 feet",
+        "B": "5 feet",
+        "C": "7 feet",
+        "D": "6 feet"
+      },
+      "answer": "C",
+      "explanation": "\"All exposed parts of horizontal shafting seven (7) feet or less from floor or working platform, excepting runways used exclusively for oiling, or running adjustments, shall be protected\" by a stationary casing or a trough.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.219, Mechanical power-transmission apparatus (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.219"
+      },
+      "checked": "2026-11-05",
+      "evidence": "All exposed parts of horizontal shafting seven (7) feet or less from floor or working platform, excepting runways used exclusively for oiling, or running adjustments, shall be protected by a stationary casing enclosing shafting completely or by a trough enclosing sides and top or sides and bottom of shafting as location requires."
+    },
+    {
+      "id": "mg-018",
+      "topic": "Power-transmission apparatus",
+      "question": "Under 1910.219(f)(3), power-driven sprocket wheels and chains must be enclosed unless they are what?",
+      "options": {
+        "A": "Painted a warning color",
+        "B": "Running at 250 feet per minute or less",
+        "C": "Marked with a danger sign",
+        "D": "More than 7 feet above the floor or platform"
+      },
+      "answer": "D",
+      "explanation": "\"All sprocket wheels and chains shall be enclosed unless they are more than seven (7) feet above the floor or platform.\" The paragraph does not apply to manually operated sprockets.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.219, Mechanical power-transmission apparatus (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.219"
+      },
+      "checked": "2026-11-05",
+      "evidence": "All sprocket wheels and chains shall be enclosed unless they are more than seven (7) feet above the floor or platform."
+    },
+    {
+      "id": "mg-019",
+      "topic": "Power-transmission apparatus",
+      "question": "Power-transmission equipment must be inspected at intervals not exceeding how long?",
+      "options": {
+        "A": "60 days",
+        "B": "90 days",
+        "C": "6 months",
+        "D": "1 year"
+      },
+      "answer": "A",
+      "explanation": "\"All power-transmission equipment shall be inspected at intervals not exceeding 60 days and be kept in good working condition at all times.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.219, Mechanical power-transmission apparatus (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.219"
+      },
+      "checked": "2026-11-05",
+      "evidence": "All power-transmission equipment shall be inspected at intervals not exceeding 60 days and be kept in good working condition at all times."
+    },
+    {
+      "id": "mg-020",
+      "topic": "Power-transmission apparatus",
+      "question": "What does 1910.219(p)(7) require of the regular oilers?",
+      "options": {
+        "A": "They must work in pairs",
+        "B": "They must wear tight-fitting clothing",
+        "C": "They must oil machinery only while it is running",
+        "D": "They must hold a state oiler license"
+      },
+      "answer": "B",
+      "explanation": "\"The regular oilers shall wear tight-fitting clothing. Machinery shall be oiled when not in motion, wherever possible.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.219, Mechanical power-transmission apparatus (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.219"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The regular oilers shall wear tight-fitting clothing. Machinery shall be oiled when not in motion, wherever possible."
+    }
+  ]
+}

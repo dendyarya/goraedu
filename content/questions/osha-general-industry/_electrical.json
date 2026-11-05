@@ -1,0 +1,389 @@
+{
+  "cluster": "osha-general-industry",
+  "slug": "electrical",
+  "title": "OSHA general industry electrical safety practice questions",
+  "description": "Free OSHA general industry electrical safety practice questions. Every answer is explained and linked to the section of 29 CFR 1910 Subpart S it comes from.",
+  "href": "/osha-general-industry/electrical/practice-test/",
+  "questions": [
+    {
+      "id": "ge-001",
+      "topic": "Working space and guarding",
+      "question": "For electric equipment at 600 volts or less that is likely to be serviced while energized, how wide must the working space in front of the equipment be under 1910.303(g)(1)(i)(B)?",
+      "options": {
+        "A": "24 in., regardless of the equipment's width",
+        "B": "The width of the equipment or 30 in., whichever is greater",
+        "C": "18 in., regardless of the equipment's width",
+        "D": "The width of the equipment or 30 in., whichever is smaller"
+      },
+      "answer": "B",
+      "explanation": "The width of the working space \"shall be the width of the equipment or 762 mm (30 in.), whichever is greater.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The width of working space in front of the electric equipment shall be the width of the equipment or 762 mm (30 in.), whichever is greater."
+    },
+    {
+      "id": "ge-002",
+      "topic": "Working space and guarding",
+      "question": "What does 1910.303(g)(1)(ii) say about using the working space required around electric equipment for storage?",
+      "options": {
+        "A": "Storage is allowed if the stored items are nonconductive",
+        "B": "Storage is allowed while the equipment is deenergized",
+        "C": "Storage is allowed up to 6 inches in front of the equipment",
+        "D": "The required working space may not be used for storage"
+      },
+      "answer": "D",
+      "explanation": "The rule states: \"Working space required by this standard may not be used for storage.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Working space required by this standard may not be used for storage."
+    },
+    {
+      "id": "ge-003",
+      "topic": "Working space and guarding",
+      "question": "Under 1910.303(g)(2)(i)(D), live parts operating at 50 volts or more can be guarded by elevation if they are at what height above the floor or other working surface?",
+      "options": {
+        "A": "2.44 m (8.0 ft) or more",
+        "B": "1.83 m (6.0 ft) or more",
+        "C": "1.98 m (6.5 ft) or more",
+        "D": "2.13 m (7.0 ft) or more"
+      },
+      "answer": "A",
+      "explanation": "One of the listed means of guarding is \"elevation of 2.44 m (8.0 ft) or more above the floor or other working surface.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+      },
+      "checked": "2026-11-05",
+      "evidence": "By elevation of 2.44 m (8.0 ft) or more above the floor or other working surface."
+    },
+    {
+      "id": "ge-004",
+      "topic": "Approval, examination and marking",
+      "question": "Under 1910.303(f)(4), disconnecting means required by Subpart S must be capable of being locked in which position?",
+      "options": {
+        "A": "The closed position",
+        "B": "The test position",
+        "C": "The open position",
+        "D": "Any position chosen by the operator"
+      },
+      "answer": "C",
+      "explanation": "The rule states: disconnecting means required by this subpart \"shall be capable of being locked in the open position.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Disconnecting means required by this subpart shall be capable of being locked in the open position."
+    },
+    {
+      "id": "ge-005",
+      "topic": "Grounding and GFCI protection",
+      "question": "Which permanently installed receptacles does 1910.304(b)(3)(i) say must have ground-fault circuit-interrupter protection for personnel?",
+      "options": {
+        "A": "125-volt, single-phase, 15- and 20-ampere receptacles in bathrooms or on rooftops",
+        "B": "240-volt receptacles in offices",
+        "C": "30-ampere receptacles in hallways",
+        "D": "Receptacles mounted more than 8 feet above the floor"
+      },
+      "answer": "A",
+      "explanation": "\"All 125-volt, single-phase, 15- and 20-ampere receptacles installed in bathrooms or on rooftops shall have ground-fault circuit-interrupter protection for personnel.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.304, Wiring design and protection (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.304"
+      },
+      "checked": "2026-11-05",
+      "evidence": "All 125-volt, single-phase, 15- and 20-ampere receptacles installed in bathrooms or on rooftops shall have ground-fault circuit-interrupter protection for personnel."
+    },
+    {
+      "id": "ge-006",
+      "topic": "Grounding and GFCI protection",
+      "question": "Under an assured equipment grounding conductor program required by 1910.304(b)(3)(ii)(C), cord sets that are not fixed must be retested at intervals not exceeding how long?",
+      "options": {
+        "A": "12 months",
+        "B": "3 months",
+        "C": "6 months",
+        "D": "18 months"
+      },
+      "answer": "B",
+      "explanation": "Tests are required \"at intervals not to exceed 3 months, except that cord sets and receptacles which are fixed and not exposed to damage shall be tested at intervals not exceeding 6 months.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.304, Wiring design and protection (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.304"
+      },
+      "checked": "2026-11-05",
+      "evidence": "and at intervals not to exceed 3 months, except that cord sets and receptacles which are fixed and not exposed to damage shall be tested at intervals not exceeding 6 months;"
+    },
+    {
+      "id": "ge-007",
+      "topic": "Portable equipment and PPE",
+      "question": "What does 1910.334(a)(1) say about using a flexible cord connected to equipment to raise or lower that equipment?",
+      "options": {
+        "A": "It is allowed if the equipment weighs under 50 pounds",
+        "B": "It is allowed if the cord is hard-service cord",
+        "C": "It is allowed once the cord is unplugged",
+        "D": "Flexible cords connected to equipment may not be used for raising or lowering it"
+      },
+      "answer": "D",
+      "explanation": "The rule states: \"Flexible electric cords connected to equipment may not be used for raising or lowering the equipment.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.334, Use of equipment (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.334"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Flexible electric cords connected to equipment may not be used for raising or lowering the equipment."
+    },
+    {
+      "id": "ge-008",
+      "topic": "Flexible cords and temporary wiring",
+      "question": "Unless specifically permitted otherwise in 1910.305(g)(1)(ii), which use of flexible cords and cables does 1910.305(g)(1)(iv) prohibit?",
+      "options": {
+        "A": "Connection of portable lamps or appliances",
+        "B": "Wiring of cranes and hoists",
+        "C": "Use as a substitute for the fixed wiring of a structure",
+        "D": "Pendants"
+      },
+      "answer": "C",
+      "explanation": "Flexible cords and cables may not be used \"As a substitute for the fixed wiring of a structure.\" The other three are on the list of permitted uses in 1910.305(g)(1)(ii).",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
+      },
+      "checked": "2026-11-05",
+      "evidence": "flexible cords and cables may not be used: (A) As a substitute for the fixed wiring of a structure;"
+    },
+    {
+      "id": "ge-009",
+      "topic": "Flexible cords and temporary wiring",
+      "question": "Under 1910.305(a)(2)(i)(B), temporary power and lighting of 600 volts or less for Christmas decorative lighting, carnivals and similar purposes may be used for a period not to exceed how long?",
+      "options": {
+        "A": "90 days",
+        "B": "120 days",
+        "C": "180 days",
+        "D": "1 year"
+      },
+      "answer": "A",
+      "explanation": "Temporary installations may be used \"For a period not to exceed 90 days for Christmas decorative lighting, carnivals, and similar purposes.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
+      },
+      "checked": "2026-11-05",
+      "evidence": "For a period not to exceed 90 days for Christmas decorative lighting, carnivals, and similar purposes"
+    },
+    {
+      "id": "ge-010",
+      "topic": "Flexible cords and temporary wiring",
+      "question": "Which flexible cords does 1910.305(g)(2)(ii) allow to be repaired by splicing?",
+      "options": {
+        "A": "Any cord, if the splice is wrapped with electrical tape",
+        "B": "Only cords smaller than No. 14",
+        "C": "Only cords used for temporary wiring",
+        "D": "Hard-service and junior hard-service cord No. 14 and larger, if the splice keeps the cord's insulation, sheath properties and usage characteristics"
+      },
+      "answer": "D",
+      "explanation": "Flexible cords are used \"only in continuous lengths without splice or tap,\" but \"Hard-service cord and junior hard-service cord No. 14 and larger may be repaired if spliced so that the splice retains the insulation, outer sheath properties, and usage characteristics of the cord being spliced.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Flexible cords may be used only in continuous lengths without splice or tap. Hard-service cord and junior hard-service cord No. 14 and larger may be repaired if spliced so that the splice retains the insulation, outer sheath properties, and usage characteristics of the cord being spliced."
+    },
+    {
+      "id": "ge-011",
+      "topic": "Qualified persons and training",
+      "question": "What type of training does 1910.332(c) require for electrical safety-related work practices?",
+      "options": {
+        "A": "Online training only",
+        "B": "Classroom or on-the-job training",
+        "C": "A course certified by the equipment manufacturer",
+        "D": "A state electrician's license"
+      },
+      "answer": "B",
+      "explanation": "\"The training required by this section shall be of the classroom or on-the-job type. The degree of training provided shall be determined by the risk to the employee.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.332, Training (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.332"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The training required by this section shall be of the classroom or on-the-job type. The degree of training provided shall be determined by the risk to the employee."
+    },
+    {
+      "id": "ge-012",
+      "topic": "Qualified persons and training",
+      "question": "Which item is on the minimum training list for qualified persons in 1910.332(b)(3)?",
+      "options": {
+        "A": "Designing a building's service entrance",
+        "B": "Operating powered industrial trucks",
+        "C": "The skills and techniques necessary to determine the nominal voltage of exposed live parts",
+        "D": "Writing the employer's hazard communication program"
+      },
+      "answer": "C",
+      "explanation": "Qualified persons must at a minimum be trained in \"The skills and techniques necessary to determine the nominal voltage of exposed live parts,\" along with distinguishing exposed live parts and the clearance distances in 1910.333(c).",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.332, Training (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.332"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The skills and techniques necessary to determine the nominal voltage of exposed live parts,"
+    },
+    {
+      "id": "ge-013",
+      "topic": "Portable equipment and PPE",
+      "question": "When does 1910.335(a)(1)(iv) require employees to wear nonconductive head protection?",
+      "options": {
+        "A": "Only when working more than 10 feet above the floor",
+        "B": "Only on circuits over 600 volts",
+        "C": "Only when working outdoors",
+        "D": "Wherever there is a danger of head injury from electric shock or burns due to contact with exposed energized parts"
+      },
+      "answer": "D",
+      "explanation": "\"Employees shall wear nonconductive head protection wherever there is a danger of head injury from electric shock or burns due to contact with exposed energized parts.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.335, Safeguards for personnel protection (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.335"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Employees shall wear nonconductive head protection wherever there is a danger of head injury from electric shock or burns due to contact with exposed energized parts."
+    },
+    {
+      "id": "ge-014",
+      "topic": "Deenergizing and lockout",
+      "question": "Under 1910.333(a)(1), when may live parts that an employee may be exposed to stay energized while the employee works on or near them?",
+      "options": {
+        "A": "When the employer can demonstrate that deenergizing introduces additional or increased hazards or is infeasible due to equipment design or operational limitations",
+        "B": "When the job will take less than 30 minutes",
+        "C": "When the employee prefers to work on them energized",
+        "D": "Whenever the circuit is 600 volts or less"
+      },
+      "answer": "A",
+      "explanation": "Live parts \"shall be deenergized before the employee works on or near them, unless the employer can demonstrate that deenergizing introduces additional or increased hazards or is infeasible due to equipment design or operational limitations.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Live parts to which an employee may be exposed shall be deenergized before the employee works on or near them, unless the employer can demonstrate that deenergizing introduces additional or increased hazards or is infeasible due to equipment design or operational limitations."
+    },
+    {
+      "id": "ge-015",
+      "topic": "Deenergizing and lockout",
+      "question": "What does 1910.333(b)(2)(ii)(B) say about push buttons, selector switches and interlocks when deenergizing circuits?",
+      "options": {
+        "A": "They are the preferred way to deenergize circuits",
+        "B": "They may be used alone if a tag is attached",
+        "C": "They may not be used as the sole means for deenergizing circuits or equipment",
+        "D": "They may replace lockout for one shift"
+      },
+      "answer": "C",
+      "explanation": "\"Control circuit devices, such as push buttons, selector switches, and interlocks, may not be used as the sole means for deenergizing circuits or equipment.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Control circuit devices, such as push buttons, selector switches, and interlocks, may not be used as the sole means for deenergizing circuits or equipment."
+    },
+    {
+      "id": "ge-016",
+      "topic": "Deenergizing and lockout",
+      "question": "Under 1910.333(b)(2)(iii)(E), one of the conditions for placing a lock without a tag is that:",
+      "options": {
+        "A": "More than one circuit is deenergized",
+        "B": "The lockout period does not extend beyond the work shift",
+        "C": "The lock is painted a safety color",
+        "D": "The lockout lasts at least 24 hours"
+      },
+      "answer": "B",
+      "explanation": "A lock may be placed without a tag only if only one circuit or piece of equipment is deenergized, \"The lockout period does not extend beyond the work shift,\" and exposed employees are familiar with the procedure.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The lockout period does not extend beyond the work shift"
+    },
+    {
+      "id": "ge-017",
+      "topic": "Work near energized parts and overhead lines",
+      "question": "An unqualified person is working in an elevated position near an unguarded, energized overhead line of 50kV or below to ground. Under 1910.333(c)(3)(i)(A), how close may the person and the longest conductive object he or she may contact come to the line?",
+      "options": {
+        "A": "No closer than 10 ft. (305 cm)",
+        "B": "No closer than 3 ft.",
+        "C": "No closer than 4 ft.",
+        "D": "No closer than 6 ft."
+      },
+      "answer": "A",
+      "explanation": "The distance is \"For voltages to ground 50kV or below—10 ft. (305 cm).\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+      },
+      "checked": "2026-11-05",
+      "evidence": "the person and the longest conductive object he or she may contact cannot come closer to any unguarded, energized overhead line than the following distances: (1) For voltages to ground 50kV or below—10 ft. (305 cm);"
+    },
+    {
+      "id": "ge-018",
+      "topic": "Work near energized parts and overhead lines",
+      "question": "For an unqualified person working in an elevated position near an overhead line over 50kV to ground, what minimum distance does 1910.333(c)(3)(i)(A)(2) set?",
+      "options": {
+        "A": "10 ft., regardless of voltage",
+        "B": "4 ft. plus 4 in. for every 10kV over 50kV",
+        "C": "10 ft. minus 4 in. for every 10kV over 50kV",
+        "D": "10 ft. plus 4 in. for every 10kV over 50kV"
+      },
+      "answer": "D",
+      "explanation": "\"For voltages to ground over 50kV—10 ft. (305 cm) plus 4 in. (10 cm) for every 10kV over 50kV.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+      },
+      "checked": "2026-11-05",
+      "evidence": "For voltages to ground over 50kV—10 ft. (305 cm) plus 4 in. (10 cm) for every 10kV over 50kV."
+    },
+    {
+      "id": "ge-019",
+      "topic": "Work near energized parts and overhead lines",
+      "question": "Under 1910.333(c)(7), what must portable ladders have if they are used where the employee or the ladder could contact exposed energized parts?",
+      "options": {
+        "A": "Aluminum siderails",
+        "B": "A grounding strap",
+        "C": "Nonconductive siderails",
+        "D": "Steel rungs"
+      },
+      "answer": "C",
+      "explanation": "\"Portable ladders shall have nonconductive siderails if they are used where the employee or the ladder could contact exposed energized parts.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Portable ladders shall have nonconductive siderails if they are used where the employee or the ladder could contact exposed energized parts."
+    },
+    {
+      "id": "ge-020",
+      "topic": "Portable equipment and PPE",
+      "question": "How often does 1910.334(a)(2)(i) require portable cord- and plug-connected equipment and extension cords to be visually inspected, apart from items that stay connected and are not exposed to damage?",
+      "options": {
+        "A": "Once a month",
+        "B": "Before use on any shift",
+        "C": "Once a year",
+        "D": "Only after a reported failure"
+      },
+      "answer": "B",
+      "explanation": "Such equipment and cord sets \"shall be visually inspected before use on any shift for external defects\" and for evidence of possible internal damage.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.334, Use of equipment (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.334"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Portable cord- and plug-connected equipment and flexible cord sets (extension cords) shall be visually inspected before use on any shift for external defects"
+    }
+  ]
+}

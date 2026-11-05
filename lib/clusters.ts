@@ -79,6 +79,14 @@ export const FAMILIES: Family[] = [
         status: "available",
         href: "/osha/",
       },
+      {
+        id: "osha-general-industry",
+        name: "OSHA general industry safety",
+        summary: "The workplace safety rules behind the OSHA 10 and 30 general industry course topics.",
+        source: "OSHA, 29 CFR Part 1910",
+        status: "available",
+        href: "/osha-general-industry/",
+      },
     ],
   },
   {

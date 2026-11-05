@@ -16,6 +16,7 @@ const PATHS = [
   "/epa-608/",
   "/epa-609/",
   "/osha/",
+  "/osha-general-industry/",
   "/epa-608/guide/passing-score/",
   "/epa-608/universal/practice-test/",
   "/news/",

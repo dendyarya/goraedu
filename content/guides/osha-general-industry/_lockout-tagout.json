@@ -1,0 +1,554 @@
+{
+  "cluster": "osha-general-industry",
+  "slug": "lockout-tagout",
+  "href": "/osha-general-industry/lockout-tagout/study-guide/",
+  "title": "OSHA general industry lockout/tagout study guide",
+  "description": "OSHA lockout/tagout study guide on 29 CFR 1910.147: scope, energy control program, devices, inspections, training, application and release of controls.",
+  "intro": "OSHA's general industry standard for the control of hazardous energy (29 CFR 1910.147, often called lockout/tagout) covers servicing and maintenance of machines and equipment where unexpected energization, start up or release of stored energy could injure employees. This guide sets out what the rule text states on its scope and exceptions, definitions, the energy control program and written procedures, lockout and tagout devices, periodic inspections, training and retraining, the sequence for applying and releasing energy controls, and outside personnel, group lockout and shift changes. Appendix A to the section is a non-mandatory guideline and is marked as such. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "scope",
+      "name": "Scope and application",
+      "points": [
+        {
+          "text": "The standard covers the servicing and maintenance of machines and equipment in which the unexpected energization or start up of the machines or equipment, or release of stored energy, could cause injury to employees. It sets minimum performance requirements for controlling that hazardous energy.",
+          "quote": "This standard covers the servicing and maintenance of machines and equipment in which the unexpected energization or start up of the machines or equipment, or release of stored energy could cause injury to employees. This standard establishes minimum performance requirements for the control of such hazardous energy.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The standard does not cover construction and agriculture employment, or employment covered by parts 1915, 1917 and 1918 of Title 29.",
+          "quote": "(A) Construction and agriculture employment; (B) Employment covered by parts 1915, 1917, and 1918 of this title;",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "It also does not cover installations under the exclusive control of electric utilities for power generation, transmission and distribution (including related communication or metering equipment), exposure to electrical hazards from work on, near or with conductors or equipment in electric-utilization installations (covered by Subpart S of Part 1910), or oil and gas well drilling and servicing.",
+          "quote": "(C) Installations under the exclusive control of electric utilities for the purpose of power generation, transmission and distribution, including related equipment for communication or metering; (D) Exposure to electrical hazards from work on, near, or with conductors or equipment in electric-utilization installations, which is covered by subpart S of this part; and (E) Oil and gas well drilling and servicing.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Normal production operations are not covered by this standard (the rule points to Subpart O of Part 1910). Servicing or maintenance during normal production operations is covered only if an employee is required to remove or bypass a guard or other safety device, or to place any part of his or her body into the point of operation or an associated danger zone during a machine operating cycle.",
+          "quote": "(A) An employee is required to remove or bypass a guard or other safety device; or (B) An employee is required to place any part of his or her body into an area on a machine or piece of equipment where work is actually performed upon the material being processed (point of operation) or where an associated danger zone exists during a machine operating cycle.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Minor tool changes and adjustments and other minor servicing during normal production operations are not covered if they are routine, repetitive and integral to the use of the equipment for production, provided that the work is performed using alternative measures which provide effective protection.",
+          "quote": "Minor tool changes and adjustments, and other minor servicing activities, which take place during normal production operations, are not covered by this standard if they are routine, repetitive, and integral to the use of the equipment for production, provided that the work is performed using alternative measures which provide effective protection",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The standard does not apply to work on cord and plug connected electric equipment when the hazard is controlled by unplugging the equipment from the energy source and the plug is under the exclusive control of the employee performing the servicing or maintenance.",
+          "quote": "Work on cord and plug connected electric equipment for which exposure to the hazards of unexpected energization or start up of the equipment is controlled by the unplugging of the equipment from the energy source and by the plug being under the exclusive control of the employee performing the servicing or maintenance.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "It also does not apply to hot tap operations on pressurized pipelines in transmission and distribution systems for substances such as gas, steam, water or petroleum products, provided the employer demonstrates that continuity of service is essential, shutdown of the system is impractical, and documented procedures are followed with special equipment that provides proven effective protection.",
+          "quote": "provided that the employer demonstrates that (1) continuity of service is essential; (2) shutdown of the system is impractical; and (3) documented procedures are followed, and special equipment is used which will provide proven effective protection for employees.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "definitions",
+      "name": "Definitions",
+      "points": [
+        {
+          "text": "An affected employee is one whose job requires him or her to operate or use a machine or equipment on which servicing or maintenance is being performed under lockout or tagout, or to work in an area where such servicing or maintenance is being performed.",
+          "quote": "Affected employee. An employee whose job requires him/her to operate or use a machine or equipment on which servicing or maintenance is being performed under lockout or tagout, or whose job requires him/her to work in an area in which such servicing or maintenance is being performed.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An authorized employee is a person who locks out or tags out machines or equipment in order to perform servicing or maintenance on them. An affected employee becomes an authorized employee when that employee's duties include performing servicing or maintenance covered by the section.",
+          "quote": "Authorized employee. A person who locks out or tags out machines or equipment in order to perform servicing or maintenance on that machine or equipment. An affected employee becomes an authorized employee when that employee's duties include performing servicing or maintenance covered under this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An energy isolating device is capable of being locked out if it has a hasp or other means of attachment for a lock, or a built-in locking mechanism. Other devices also count if lockout can be achieved without dismantling, rebuilding or replacing the device or permanently altering its energy control capability.",
+          "quote": "Capable of being locked out. An energy isolating device is capable of being locked out if it has a hasp or other means of attachment to which, or through which, a lock can be affixed, or it has a locking mechanism built into it. Other energy isolating devices are capable of being locked out, if lockout can be achieved without the need to dismantle, rebuild, or replace the energy isolating device or permanently alter its energy control capability.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An energy isolating device is a mechanical device that physically prevents the transmission or release of energy, such as a manually operated circuit breaker, a disconnect switch, a line valve or a block. Push buttons, selector switches and other control circuit type devices are not energy isolating devices.",
+          "quote": "Push buttons, selector switches and other control circuit type devices are not energy isolating devices.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A lockout device uses a positive means, such as a key or combination lock, to hold an energy isolating device in a safe position and prevent energizing of a machine or equipment. Blank flanges and bolted slip blinds are included.",
+          "quote": "Lockout device. A device that utilizes a positive means such as a lock, either key or combination type, to hold an energy isolating device in a safe position and prevent the energizing of a machine or equipment. Included are blank flanges and bolted slip blinds.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A tagout device is a prominent warning device, such as a tag and a means of attachment, securely fastened to an energy isolating device to indicate that the device and the equipment it controls may not be operated until the tagout device is removed.",
+          "quote": "Tagout device. A prominent warning device, such as a tag and a means of attachment, which can be securely fastened to an energy isolating device in accordance with an established procedure, to indicate that the energy isolating device and the equipment being controlled may not be operated until the tagout device is removed.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Servicing and/or maintenance includes activities such as constructing, installing, setting up, adjusting, inspecting, modifying and maintaining or servicing machines, including lubrication, cleaning or unjamming and making adjustments or tool changes, where the employee may be exposed to unexpected energization or startup or release of hazardous energy.",
+          "quote": "These activities include lubrication, cleaning or unjamming of machines or equipment and making adjustments or tool changes, where the employee may be exposed to the unexpected energization or startup of the equipment or release of hazardous energy.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "program",
+      "name": "Energy control program and procedures",
+      "points": [
+        {
+          "text": "The employer must establish a program of energy control procedures, employee training and periodic inspections so that, before any employee services or maintains a machine where unexpected energizing, start up or release of stored energy could occur and cause injury, the machine is isolated from the energy source and rendered inoperative.",
+          "quote": "The employer shall establish a program consisting of energy control procedures, employee training and periodic inspections to ensure that before any employee performs any servicing or maintenance on a machine or equipment where the unexpected energizing, start up or release of stored energy could occur and cause injury, the machine or equipment shall be isolated from the energy source, and rendered inoperative.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If an energy isolating device is not capable of being locked out, the program must use a tagout system.",
+          "quote": "If an energy isolating device is not capable of being locked out, the employer's energy control program under paragraph (c)(1) of this section shall utilize a tagout system.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If an energy isolating device is capable of being locked out, the program must use lockout, unless the employer can demonstrate that a tagout system will provide full employee protection as set out in paragraph (c)(3).",
+          "quote": "If an energy isolating device is capable of being locked out, the employer's energy control program under paragraph (c)(1) of this section shall utilize lockout, unless the employer can demonstrate that the utilization of a tagout system will provide full employee protection as set forth in paragraph (c)(3) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "After January 2, 1990, whenever a machine undergoes replacement or major repair, renovation or modification, and whenever new machines or equipment are installed, energy isolating devices for them must be designed to accept a lockout device.",
+          "quote": "After January 2, 1990, whenever replacement or major repair, renovation or modification of a machine or equipment is performed, and whenever new machines or equipment are installed, energy isolating devices for such machine or equipment shall be designed to accept a lockout device.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When a tagout device is used on a lockable energy isolating device, the tag must be attached at the same location the lock would have been, and the employer must demonstrate that the tagout program gives a level of safety equivalent to a lockout program.",
+          "quote": "When a tagout device is used on an energy isolating device which is capable of being locked out, the tagout device shall be attached at the same location that the lockout device would have been attached, and the employer shall demonstrate that the tagout program will provide a level of safety equivalent to that obtained by using a lockout program.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The employer need not document the procedure for a particular machine only when all eight listed elements exist, including: no potential for stored or residual energy or its reaccumulation, a single readily identified energy source, a single lockout device achieving a locked-out condition under the exclusive control of the authorized employee, no hazards created for other employees, and no accidents involving unexpected activation or reenergization of that machine during servicing or maintenance.",
+          "quote": "The employer need not document the required procedure for a particular machine or equipment, when all of the following elements exist:",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The procedures must clearly and specifically outline the scope, purpose, authorization, rules and techniques for controlling hazardous energy and the means to enforce compliance, including a specific statement of intended use, steps for shutting down, isolating, blocking and securing equipment, steps for placing, removing and transferring devices and who is responsible for them, and requirements for testing the machine to verify that the energy controls work.",
+          "quote": "(D) Specific requirements for testing a machine or equipment to determine and verify the effectiveness of lockout devices, tagout devices, and other energy control measures.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "name": "Lockout and tagout devices",
+      "points": [
+        {
+          "text": "The employer must provide the locks, tags, chains, wedges, key blocks, adapter pins, self-locking fasteners or other hardware for isolating, securing or blocking machines or equipment from energy sources.",
+          "quote": "Locks, tags, chains, wedges, key blocks, adapter pins, self-locking fasteners, or other hardware shall be provided by the employer for isolating, securing or blocking of machines or equipment from energy sources.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Durable: devices must withstand their environment for the maximum expected exposure time. Tags must not deteriorate or become illegible from weather or wet and damp locations, and must not deteriorate in corrosive environments such as areas where acid and alkali chemicals are handled and stored.",
+          "quote": "Lockout and tagout devices shall be capable of withstanding the environment to which they are exposed for the maximum period of time that exposure is expected.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Standardized: devices must be standardized within the facility in at least one of color, shape or size, and for tagout devices, print and format must also be standardized.",
+          "quote": "Lockout and tagout devices shall be standardized within the facility in at least one of the following criteria: Color; shape; or size; and additionally, in the case of tagout devices, print and format shall be standardized.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Substantial (lockout devices): they must be substantial enough to prevent removal without excessive force or unusual techniques, such as bolt cutters or other metal cutting tools.",
+          "quote": "Lockout devices shall be substantial enough to prevent removal without the use of excessive force or unusual techniques, such as with the use of bolt cutters or other metal cutting tools.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Substantial (tagout devices): the attachment means must be non-reusable, attachable by hand, self-locking and non-releasable, with a minimum unlocking strength of no less than 50 pounds, and at least equivalent in general design to a one-piece, all-environment-tolerant nylon cable tie.",
+          "quote": "Tagout device attachment means shall be of a non-reusable type, attachable by hand, self-locking, and non-releasable with a minimum unlocking strength of no less than 50 pounds and having the general design and basic characteristics of being at least equivalent to a one-piece, all-environment-tolerant nylon cable tie.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Identifiable: lockout and tagout devices must indicate the identity of the employee applying them.",
+          "quote": "Lockout devices and tagout devices shall indicate the identity of the employee applying the device(s).",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Tagout devices must warn against hazardous conditions if the machine is energized and include a legend such as Do Not Start, Do Not Open, Do Not Close, Do Not Energize, Do Not Operate.",
+          "quote": "Tagout devices shall warn against hazardous conditions if the machine or equipment is energized and shall include a legend such as the following: Do Not Start, Do Not Open, Do Not Close, Do Not Energize, Do Not Operate.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "inspection",
+      "name": "Periodic inspection",
+      "points": [
+        {
+          "text": "The employer must conduct a periodic inspection of the energy control procedure at least annually to ensure that the procedure and the standard's requirements are being followed.",
+          "quote": "The employer shall conduct a periodic inspection of the energy control procedure at least annually to ensure that the procedure and the requirements of this standard are being followed.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The inspection must be performed by an authorized employee other than the one(s) using the energy control procedure being inspected, and it must be conducted to correct any deviations or inadequacies identified.",
+          "quote": "The periodic inspection shall be conducted to correct any deviations or inadequacies identified.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Where lockout is used, the inspection must include a review between the inspector and each authorized employee of that employee's responsibilities under the procedure being inspected.",
+          "quote": "Where lockout is used for energy control, the periodic inspection shall include a review, between the inspector and each authorized employee, of that employee's responsibilities under the energy control procedure being inspected.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Where tagout is used, the review must be between the inspector and each authorized and affected employee, covering that employee's responsibilities and the limitations of tags listed in paragraph (c)(7)(ii).",
+          "quote": "Where tagout is used for energy control, the periodic inspection shall include a review, between the inspector and each authorized and affected employee, of that employee's responsibilities under the energy control procedure being inspected, and the elements set forth in paragraph (c)(7)(ii) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The employer must certify that periodic inspections were performed. The certification identifies the machine or equipment, the date of the inspection, the employees included and the person performing it.",
+          "quote": "The employer shall certify that the periodic inspections have been performed. The certification shall identify the machine or equipment on which the energy control procedure was being utilized, the date of the inspection, the employees included in the inspection, and the person performing the inspection.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "name": "Training and retraining",
+      "points": [
+        {
+          "text": "Each authorized employee must be trained in recognizing applicable hazardous energy sources, the type and magnitude of energy in the workplace, and the methods and means needed for energy isolation and control.",
+          "quote": "Each authorized employee shall receive training in the recognition of applicable hazardous energy sources, the type and magnitude of the energy available in the workplace, and the methods and means necessary for energy isolation and control.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each affected employee must be instructed in the purpose and use of the energy control procedure.",
+          "quote": "Each affected employee shall be instructed in the purpose and use of the energy control procedure.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "All other employees whose work is or may be in an area where energy control procedures may be used must be instructed about the procedure and about the prohibition on attempting to restart or reenergize machines that are locked out or tagged out.",
+          "quote": "All other employees whose work operations are or may be in an area where energy control procedures may be utilized, shall be instructed about the procedure, and about the prohibition relating to attempts to restart or reenergize machines or equipment which are locked out or tagged out.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When tagout systems are used, employees must also be trained in the limitations of tags. Tags are essentially warning devices and do not provide the physical restraint of a lock.",
+          "quote": "Tags are essentially warning devices affixed to energy isolating devices, and do not provide the physical restraint on those devices that is provided by a lock.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Retraining must be provided for all authorized and affected employees whenever their job assignments change, machines, equipment or processes change in a way that presents a new hazard, or the energy control procedures change.",
+          "quote": "Retraining shall be provided for all authorized and affected employees whenever there is a change in their job assignments, a change in machines, equipment or processes that present a new hazard, or when there is a change in the energy control procedures.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Additional retraining is also required whenever a periodic inspection reveals, or the employer has reason to believe, that there are deviations from or inadequacies in the employee's knowledge or use of the energy control procedures.",
+          "quote": "Additional retraining shall also be conducted whenever a periodic inspection under paragraph (c)(6) of this section reveals, or whenever the employer has reason to believe, that there are deviations from or inadequacies in the employee's knowledge or use of the energy control procedures.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The employer must certify that employee training has been accomplished and is being kept up to date. The certification contains each employee's name and dates of training.",
+          "quote": "The employer shall certify that employee training has been accomplished and is being kept up to date. The certification shall contain each employee's name and dates of training.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "name": "Applying energy control",
+      "points": [
+        {
+          "text": "Lockout or tagout may be performed only by the authorized employees who are performing the servicing or maintenance.",
+          "quote": "Lockout or tagout shall be performed only by the authorized employees who are performing the servicing or maintenance.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Affected employees must be notified by the employer or authorized employee of the application and removal of lockout or tagout devices, before the controls are applied and after they are removed.",
+          "quote": "Notification shall be given before the controls are applied, and after they are removed from the machine or equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Before an authorized or affected employee turns off the machine, the authorized employee must know the type and magnitude of the energy, its hazards, and the method or means to control it. The shutdown itself must be orderly, using the procedures established for that machine.",
+          "quote": "Before an authorized or affected employee turns off a machine or equipment, the authorized employee shall have knowledge of the type and magnitude of the energy, the hazards of the energy to be controlled, and the method or means to control the energy.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "All energy isolating devices needed to control the energy must be physically located and operated so as to isolate the machine from its energy source(s). Lockout or tagout devices are then affixed to each energy isolating device by authorized employees.",
+          "quote": "Lockout or tagout devices shall be affixed to each energy isolating device by authorized employees.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "After the devices are applied, all potentially hazardous stored or residual energy must be relieved, disconnected, restrained and otherwise rendered safe. If stored energy could reaccumulate to a hazardous level, verification of isolation must continue until the work is completed or the possibility no longer exists.",
+          "quote": "If there is a possibility of reaccumulation of stored energy to a hazardous level, verification of isolation shall be continued until the servicing or maintenance is completed, or until the possibility of such accumulation no longer exists.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Before starting work on locked-out or tagged-out machines, the authorized employee must verify that isolation and deenergization have been accomplished.",
+          "quote": "Prior to starting work on machines or equipment that have been locked out or tagged out, the authorized employee shall verify that isolation and deenergization of the machine or equipment have been accomplished.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Appendix A, which the rule calls a non-mandatory guideline, gives a typical minimal lockout procedure. Nothing in it adds to or detracts from the requirements of the section.",
+          "quote": "Nothing in the appendix adds to or detracts from any of the requirements of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, Appendix A (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "release-special",
+      "name": "Release, testing and special situations",
+      "points": [
+        {
+          "text": "Before devices are removed and energy restored, the authorized employee(s) must inspect the work area to ensure nonessential items are removed and machine components are operationally intact, and check that all employees have been safely positioned or removed.",
+          "quote": "The work area shall be inspected to ensure that nonessential items have been removed and to ensure that machine or equipment components are operationally intact.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "After the devices are removed and before the machine is started, affected employees must be notified that the lockout or tagout devices have been removed.",
+          "quote": "After lockout or tagout devices have been removed and before a machine or equipment is started, affected employees shall be notified that the lockout or tagout device(s) have been removed.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each lockout or tagout device must be removed by the employee who applied it.",
+          "quote": "Each lockout or tagout device shall be removed from each energy isolating device by the employee who applied the device.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Exception: when the authorized employee who applied a device is not available, it may be removed under the employer's direction if specific documented procedures and training for that removal are part of the program and give equivalent safety. The procedure must include verifying the employee is not at the facility, making all reasonable efforts to contact him or her, and ensuring he or she knows before resuming work at that facility.",
+          "quote": "Ensuring that the authorized employee has this knowledge before he/she resumes work at that facility.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When devices must be temporarily removed and the machine energized to test or position it, the sequence is: clear tools and materials, remove employees from the area, remove the devices, energize and test or position, then deenergize all systems and reapply energy control measures to continue the work.",
+          "quote": "Deenergize all systems and reapply energy control measures in accordance with paragraph (d) of this section to continue the servicing and/or maintenance.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Whenever outside servicing personnel (contractors, etc.) do work covered by the standard, the on-site employer and the outside employer must inform each other of their lockout or tagout procedures. The on-site employer must ensure its employees understand and comply with the restrictions and prohibitions of the outside employer's program.",
+          "quote": "the on-site employer and the outside employer shall inform each other of their respective lockout or tagout procedures.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In group lockout or tagout, each authorized employee must affix a personal lockout or tagout device to the group lockout device, group lockbox or comparable mechanism when he or she begins work, and remove it when he or she stops working on the machine.",
+          "quote": "Each authorized employee shall affix a personal lockout or tagout device to the group lockout device, group lockbox, or comparable mechanism when he or she begins work, and shall remove those devices when he or she stops working on the machine or equipment being serviced or maintained.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "During shift or personnel changes, specific procedures must ensure continuity of lockout or tagout protection, including the orderly transfer of device protection between off-going and oncoming employees.",
+          "quote": "Specific procedures shall be utilized during shift or personnel changes to ensure the continuity of lockout or tagout protection, including provision for the orderly transfer of lockout or tagout device protection between off-going and oncoming employees,",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "Electrical safety-related work practices for work on or near conductors in electric-utilization installations, which 1910.147 leaves to Subpart S of Part 1910, and machine guarding during normal production operations (Subpart O)."
+    }
+  ]
+}

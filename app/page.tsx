@@ -7,7 +7,7 @@ import { ALL_CLUSTERS, FAMILIES, WITH_FAMILY } from "@/lib/clusters";
 import { getAllGuides, getAllTopicPages } from "@/lib/guides";
 import { getAllNews, newsCards } from "@/lib/news";
 import { getAllSets, SECTION_NAME, universalPool } from "@/lib/questions";
-import { OSHA_SETS } from "@/lib/osha";
+import { oshaRank } from "@/lib/osha";
 import { TOOLS } from "@/lib/tools";
 
 // Answer stated verbatim on the EPA page cited (accuracy principle 1).
@@ -43,9 +43,8 @@ const H2 = "text-[2rem] sm:text-[2.75rem]";
 
 export default function Home() {
   // OSHA topic sets follow the course order (falls first); other clusters keep their file order.
-  const oshaRank = (slug: string) => OSHA_SETS.findIndex((x) => x.slug === slug);
   const sets = [...getAllSets()].sort((a, b) =>
-    a.cluster === "osha" && b.cluster === "osha" ? oshaRank(a.slug) - oshaRank(b.slug) : 0,
+    a.cluster === b.cluster ? oshaRank(a.cluster, a.slug) - oshaRank(b.cluster, b.slug) : 0,
   );
   const guides = getAllGuides();
   const topicPages = getAllTopicPages();

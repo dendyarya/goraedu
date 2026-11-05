@@ -58,4 +58,12 @@ export const TOOLS: Tool[] = [
     summary:
       "Find the minimum distance between a scaffold and exposed, energized power lines from the table in 29 CFR 1926.451(f)(6), by line type and voltage.",
   },
+  {
+    slug: "noise-dose-calculator",
+    cluster: "osha-general-industry",
+    name: "OSHA noise dose calculator",
+    href: "/osha-general-industry/tools/noise-dose-calculator/",
+    summary:
+      "Work out a noise dose and 8-hour TWA from sound levels and hours with Table G-16a of 29 CFR 1910.95, and compare it with the 85 dBA action level.",
+  },
 ];
