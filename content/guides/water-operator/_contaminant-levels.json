@@ -4,7 +4,7 @@
   "href": "/water-operator/contaminant-levels/study-guide/",
   "title": "Drinking water maximum contaminant levels study guide",
   "description": "Federal MCLs and MRDLs in 40 CFR 141 Subpart G: who they cover, units, compliance basis, dates and best available technologies, with exact quotes.",
-  "intro": "Subpart G of 40 CFR Part 141 sets the federal maximum contaminant levels (MCLs) for organic, inorganic, microbiological, disinfection byproduct and radionuclide contaminants, and the maximum residual disinfectant levels (MRDLs) for chlorine, chloramines and chlorine dioxide. This guide sets out what the rule text states on which systems each limit covers, the units and the compliance basis, the effective and compliance dates, and the best available technologies (BAT) EPA lists. Monitoring and analytical methods sit in other subparts and are not covered. States with primacy may adopt stricter limits, so check your State's rules too. Every point links to the regulation and quotes its exact words.",
+  "intro": "Subpart G of 40 CFR Part 141 sets the federal maximum contaminant levels (MCLs) for organic, inorganic, microbiological, disinfection byproduct and radionuclide contaminants, and the maximum residual disinfectant levels (MRDLs) for chlorine, chloramines and chlorine dioxide. This guide sets out what the rule text states on which systems each limit covers, the units and the compliance basis, the effective and compliance dates, and the best available technologies (BAT) EPA lists. The PFAS entries in 141.61(c)(2) have an effective date of April 26, 2029. Monitoring and analytical methods sit in other subparts and are not covered. States with primacy may adopt stricter limits, so check your State's rules too. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "dates",
@@ -20,7 +20,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Under 141.60(a)(4), the PFAS MCLs in 141.61(c)(2)(i) through (vii) have an effective date of April 26, 2029.",
+          "text": "Under 141.60(a)(4), the PFAS entries in 141.61(c)(2)(i) through (vii) (the PFAS MCLs and the Hazard Index HBWCs) have an effective date of April 26, 2029.",
           "quote": "The effective date for § 141.61(c)(2)(i) through (vii) is April 26, 2029.",
           "source": {
             "title": "eCFR: 40 CFR 141.60, Effective dates (as of Nov 3, 2026)",
@@ -83,7 +83,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "Monitoring frequencies, sampling locations and analytical methods are in other subparts of Part 141 and are not covered here."
+      "notCovered": "Maximum contaminant level goals (MCLGs) and MRDLGs are set in Subpart F, not Subpart G, and are not covered here. Monitoring frequencies, sampling locations and analytical methods are in other subparts of Part 141 and are not covered here."
     },
     {
       "id": "organics",
@@ -99,8 +99,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "141.61(b) identifies granular activated carbon (GAC), packed tower aeration (PTA) or oxidation (OX), as shown in table 2, as the best technology for the organic MCLs in 141.61(a) and (c), except for PFAS.",
-          "quote": "granular activated carbon (GAC), packed tower aeration (PTA), or oxidation (OX) as the best technology, treatment technique, or other means available for achieving compliance with the maximum contaminant level for organic contaminants identified in paragraphs (a) and (c) of this section, except for per- and polyfluoroalkyl substances (PFAS).",
+          "text": "141.61(b) identifies granular activated carbon (GAC), packed tower aeration (PTA) or oxidation (OX), as indicated in table 2, as the best technology for the organic MCLs in 141.61(a) and (c), except for PFAS.",
+          "quote": "identifies as indicated in table 2 to this paragraph (b) granular activated carbon (GAC), packed tower aeration (PTA), or oxidation (OX) as the best technology, treatment technique, or other means available for achieving compliance with the maximum contaminant level for organic contaminants identified in paragraphs (a) and (c) of this section, except for per- and polyfluoroalkyl substances (PFAS).",
           "source": {
             "title": "eCFR: 40 CFR 141.61, Maximum contaminant levels for organic contaminants (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.61"
@@ -161,7 +161,8 @@
           },
           "checked": "2026-11-06"
         }
-      ]
+      ],
+      "notCovered": "The PFAS MCLs and HBWCs in 141.61(c)(2) have an effective date of April 26, 2029 (141.60(a)(4)); PFAS monitoring and other PFAS requirements outside Subpart G are not covered. This guide follows the eCFR text as of Nov 3, 2026."
     },
     {
       "id": "inorganics",
@@ -283,8 +284,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "One condition is an E. coli-positive repeat sample following a total coliform-positive routine sample.",
-          "quote": "The system has an E. coli-positive repeat sample following a total coliform-positive routine sample.",
+          "text": "Two of the conditions are an E. coli-positive repeat sample following a total coliform-positive routine sample, and a total coliform-positive repeat sample following an E. coli-positive routine sample.",
+          "quote": "(1) The system has an E. coli-positive repeat sample following a total coliform-positive routine sample. (2) The system has a total coliform-positive repeat sample following an E. coli-positive routine sample.",
           "source": {
             "title": "eCFR: 40 CFR 141.63, Maximum contaminant levels (MCLs) for microbiological contaminants (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.63"
@@ -292,7 +293,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Failing to take all required repeat samples after an E. coli-positive routine sample, or failing to test for E. coli when any repeat sample is total coliform-positive, are the other two conditions.",
+          "text": "The other two conditions are failing to take all required repeat samples after an E. coli-positive routine sample, and failing to test for E. coli when any repeat sample tests positive for total coliform.",
           "quote": "(3) The system fails to take all required repeat samples following an E. coli-positive routine sample. (4) The system fails to test for E. coli when any repeat sample tests positive for total coliform.",
           "source": {
             "title": "eCFR: 40 CFR 141.63, Maximum contaminant levels (MCLs) for microbiological contaminants (as of Nov 3, 2026)",
@@ -319,7 +320,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The listed means of compliance include keeping a disinfectant residual throughout the distribution system and proper distribution system maintenance, including cross connection control and positive water pressure in all parts of the system.",
+          "text": "Among the best technology, treatment techniques or other means 141.63(e) lists for coliform MCL compliance are keeping a disinfectant residual throughout the distribution system and proper distribution system maintenance, including cross connection control and continual positive water pressure in all parts of the system.",
           "quote": "(2) Maintenance of a disinfectant residual throughout the distribution system; (3) Proper maintenance of the distribution system including appropriate pipe replacement and repair procedures, main flushing programs, proper operation and maintenance of storage tanks and reservoirs, cross connection control, and continual maintenance of positive water pressure in all parts of the distribution system;",
           "source": {
             "title": "eCFR: 40 CFR 141.63, Maximum contaminant levels (MCLs) for microbiological contaminants (as of Nov 3, 2026)",
@@ -464,8 +465,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Except for the radionuclides in table A, the concentration causing 4 mrem is calculated on 2 liters per day of drinking water intake.",
-          "quote": "Except for the radionuclides listed in table A, the concentration of man-made radionuclides causing 4 mrem total body or organ dose equivalents must be calculated on the basis of 2 liter per day drinking water intake",
+          "text": "Except for the radionuclides in table A, the concentration of man-made radionuclides causing 4 mrem must be calculated on the basis of 2 liters per day of drinking water intake, using the 168 hour data list in NBS Handbook 69.",
+          "quote": "Except for the radionuclides listed in table A, the concentration of man-made radionuclides causing 4 mrem total body or organ dose equivalents must be calculated on the basis of 2 liter per day drinking water intake using the 168 hour data list",
           "source": {
             "title": "eCFR: 40 CFR 141.66, Maximum contaminant levels for radionuclides (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.66"
