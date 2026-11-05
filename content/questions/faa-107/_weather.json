@@ -1,0 +1,389 @@
+{
+  "cluster": "faa-107",
+  "slug": "weather",
+  "title": "FAA Part 107 weather practice questions",
+  "description": "Free FAA Part 107 weather practice questions: METAR and TAF codes, density altitude, wind shear, stability, icing, thunderstorms and 107.51 limits.",
+  "href": "/faa-107/weather/practice-test/",
+  "questions": [
+    {
+      "id": "wx-001",
+      "topic": "Weather sources and reports",
+      "question": "Which two automated systems does the FAA Remote Pilot Study Guide name as playing a major role in gathering surface aviation weather observations?",
+      "options": {
+        "A": "PIREP and SIGMET",
+        "B": "AWOS and ASOS",
+        "C": "TAF and FB",
+        "D": "AIRMET and FA"
+      },
+      "answer": "B",
+      "explanation": "The Study Guide says \"Automated weather sources, such as the Automated Weather Observing Systems (AWOS), Automated Surface Observing Systems (ASOS), as well as other automated facilities, also play a major role in the gathering of surface observations.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Automated weather sources, such as the Automated Weather Observing Systems (AWOS), Automated Surface Observing Systems (ASOS), as well as other automated facilities, also play a major role in the gathering of surface observations."
+    },
+    {
+      "id": "wx-002",
+      "topic": "Weather sources and reports",
+      "question": "Which of these is one of the conditions for which the Study Guide says convective SIGMETs are issued?",
+      "options": {
+        "A": "Severe thunderstorms with surface winds greater than 25 knots",
+        "B": "Hail at the surface of 1/4 inch in diameter",
+        "C": "Turbulence on the leeward side of a mountain",
+        "D": "Tornadoes"
+      },
+      "answer": "D",
+      "explanation": "\"Convective SIGMETs are issued for severe thunderstorms with surface winds greater than 50 knots, hail at the surface greater than or equal to ¾ inch in diameter, or tornadoes.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Convective SIGMETs are issued for severe thunderstorms with surface winds greater than 50 knots, hail at the surface greater than or equal to ¾ inch in diameter, or tornadoes."
+    },
+    {
+      "id": "wx-003",
+      "topic": "METAR and TAF codes",
+      "question": "According to the Study Guide, what does the modifier AUTO in a METAR denote?",
+      "options": {
+        "A": "The report came from an automated source",
+        "B": "The report corrects an earlier report that contained an error",
+        "C": "The report is a special report issued between routine reports",
+        "D": "The wind direction is variable"
+      },
+      "answer": "A",
+      "explanation": "The Study Guide says \"If the notation “AUTO” is listed in the METAR/SPECI, the report came from an automated source.\" A corrected report is marked COR instead.",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "If the notation “AUTO” is listed in the METAR/SPECI, the report came from an automated source."
+    },
+    {
+      "id": "wx-004",
+      "topic": "METAR and TAF codes",
+      "question": "In a METAR wind group such as 14021KT, what do the first three digits indicate, according to the Study Guide?",
+      "options": {
+        "A": "The wind speed in knots",
+        "B": "The peak gust recorded",
+        "C": "The direction the true wind is blowing from, in tens of degrees",
+        "D": "The direction the wind is blowing toward, in reference to magnetic north"
+      },
+      "answer": "C",
+      "explanation": "\"The first three digits indicate the direction the true wind is blowing from in tens of degrees.\" The last two digits give the speed in knots.",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The first three digits indicate the direction the true wind is blowing from in tens of degrees."
+    },
+    {
+      "id": "wx-005",
+      "topic": "METAR and TAF codes",
+      "question": "How does a METAR show a temperature below 0 °C, according to the Study Guide?",
+      "options": {
+        "A": "The temperature is preceded by the letter M",
+        "B": "The temperature is preceded by a minus sign",
+        "C": "The temperature is given in degrees Fahrenheit instead",
+        "D": "The temperature is preceded by the letter N"
+      },
+      "answer": "A",
+      "explanation": "The Study Guide says temperature and dew point are given in degrees Celsius and \"Temperatures below 0 °C are preceded by the letter “M” to indicate minus.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Temperatures below 0 °C are preceded by the letter “M” to indicate minus."
+    },
+    {
+      "id": "wx-006",
+      "topic": "METAR and TAF codes",
+      "question": "In a TAF, what does the forecast visibility code P6SM mean, according to the Study Guide?",
+      "options": {
+        "A": "A 6 percent probability of precipitation",
+        "B": "Forecast visibility greater than six miles",
+        "C": "Visibility of 6 statute miles in precipitation",
+        "D": "A forecast valid for the next 6 hours"
+      },
+      "answer": "B",
+      "explanation": "Forecast visibility is given in statute miles, and \"If the forecast is greater than six miles, it is coded as “P6SM.”\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "If the forecast is greater than six miles, it is coded as “P6SM.”"
+    },
+    {
+      "id": "wx-007",
+      "topic": "METAR and TAF codes",
+      "question": "According to the Study Guide, what is TEMPO used for in a TAF?",
+      "options": {
+        "A": "A rapid and significant change, usually within an hour",
+        "B": "The probability of thunderstorms and precipitation in the coming hours",
+        "C": "An amended forecast that replaces the routine TAF",
+        "D": "Temporary fluctuations of weather, expected to last less than 1 hour"
+      },
+      "answer": "D",
+      "explanation": "\"“TEMPO” is used for temporary fluctuations of weather, expected to last less than 1 hour.\" A rapid and significant change is coded FM, and probability is PROB30.",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "“FM” is used when a rapid and significant change, usually within an hour, is expected. “TEMPO” is used for temporary fluctuations of weather, expected to last less than 1 hour."
+    },
+    {
+      "id": "wx-008",
+      "topic": "Density altitude and performance",
+      "question": "Which set of conditions does the Study Guide list as resulting in a high density altitude?",
+      "options": {
+        "A": "Low elevations, high atmospheric pressure, low temperatures and low humidity",
+        "B": "High elevations, high atmospheric pressure, low temperatures and low humidity",
+        "C": "High elevations, low atmospheric pressures, high temperatures and high humidity",
+        "D": "Low elevations, low atmospheric pressures, low temperatures and dry air"
+      },
+      "answer": "C",
+      "explanation": "\"The conditions that result in a high density altitude are high elevations, low atmospheric pressures, high temperatures, high humidity, or some combination of these factors.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The conditions that result in a high density altitude are high elevations, low atmospheric pressures, high temperatures, high humidity, or some combination of these factors."
+    },
+    {
+      "id": "wx-009",
+      "topic": "Density altitude and performance",
+      "question": "According to the Study Guide, how does aircraft performance change as air density decreases (higher density altitude)?",
+      "options": {
+        "A": "It increases",
+        "B": "It does not change",
+        "C": "It decreases",
+        "D": "It increases only in humid air"
+      },
+      "answer": "C",
+      "explanation": "\"As the density of the air increases (lower density altitude), aircraft performance increases. Conversely, as air density decreases (higher density altitude), aircraft performance decreases.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Conversely, as air density decreases (higher density altitude), aircraft performance decreases."
+    },
+    {
+      "id": "wx-010",
+      "topic": "Density altitude and performance",
+      "question": "What does the Study Guide say happens as the water content of the air increases?",
+      "options": {
+        "A": "The air becomes less dense, increasing density altitude and decreasing performance",
+        "B": "The air becomes denser, lowering density altitude and increasing performance",
+        "C": "Air density stays the same because water vapor has no weight",
+        "D": "The air becomes denser, lowering density altitude and decreasing performance"
+      },
+      "answer": "A",
+      "explanation": "\"Water vapor is lighter than air; consequently, moist air is lighter than dry air. Therefore, as the water content of the air increases, the air becomes less dense, increasing density altitude and decreasing performance.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Therefore, as the water content of the air increases, the air becomes less dense, increasing density altitude and decreasing performance."
+    },
+    {
+      "id": "wx-011",
+      "topic": "Wind, obstructions and wind shear",
+      "question": "Which sequence does the Study Guide describe for an inadvertent microburst encounter by a small UA?",
+      "options": {
+        "A": "A tailwind, then downdrafts, then a headwind",
+        "B": "Downdrafts, then a headwind, then a tailwind",
+        "C": "A headwind, then a tailwind, then downdrafts",
+        "D": "A performance-increasing headwind, then performance-decreasing downdrafts, then a rapidly increasing tailwind"
+      },
+      "answer": "D",
+      "explanation": "\"During an inadvertent microburst encounter, the small UA may first experience a performance-increasing headwind, followed by performance-decreasing downdrafts, followed by a rapidly increasing tailwind.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "During an inadvertent microburst encounter, the small UA may first experience a performance-increasing headwind, followed by performance-decreasing downdrafts, followed by a rapidly increasing tailwind."
+    },
+    {
+      "id": "wx-012",
+      "topic": "Wind, obstructions and wind shear",
+      "question": "How does the Study Guide describe the airflow down the leeward side of a mountain?",
+      "options": {
+        "A": "It flows smoothly and helps carry an aircraft over the peak",
+        "B": "It follows the contour of the terrain and is increasingly turbulent",
+        "C": "It becomes calm close to the terrain",
+        "D": "It rises in steady upward currents"
+      },
+      "answer": "B",
+      "explanation": "\"As the air flows down the leeward side of the mountain, the air follows the contour of the terrain and is increasingly turbulent. This tends to push an aircraft into the side of a mountain.\" The smooth upward flow is on the windward side.",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "As the air flows down the leeward side of the mountain, the air follows the contour of the terrain and is increasingly turbulent."
+    },
+    {
+      "id": "wx-013",
+      "topic": "Ceiling, visibility and Part 107 weather limits",
+      "question": "What minimum distances from clouds does 14 CFR 107.51(d) set for a small unmanned aircraft?",
+      "options": {
+        "A": "500 feet below the cloud and 2,000 feet horizontally from the cloud",
+        "B": "1,000 feet below the cloud and 2,000 feet horizontally from the cloud",
+        "C": "500 feet below the cloud and 1,000 feet horizontally from the cloud",
+        "D": "2,000 feet below the cloud and 500 feet horizontally from the cloud"
+      },
+      "answer": "A",
+      "explanation": "107.51(d): the minimum distance from clouds \"must be no less than: (1) 500 feet below the cloud; and (2) 2,000 feet horizontally from the cloud.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.51, Operating limitations for small unmanned aircraft (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.51"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The minimum distance of the small unmanned aircraft from clouds must be no less than: (1) 500 feet below the cloud; and (2) 2,000 feet horizontally from the cloud."
+    },
+    {
+      "id": "wx-014",
+      "topic": "Atmospheric stability, inversions and fronts",
+      "question": "According to the Study Guide, when does a temperature inversion exist?",
+      "options": {
+        "A": "When the temperature of the air decreases with altitude",
+        "B": "When the temperature equals the dew point",
+        "C": "When the temperature of the air rises with altitude",
+        "D": "When atmospheric pressure rises with altitude"
+      },
+      "answer": "C",
+      "explanation": "\"When the temperature of the air rises with altitude, a temperature inversion exists.\" Normally, \"As air rises and expands in the atmosphere, the temperature decreases.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "When the temperature of the air rises with altitude, a temperature inversion exists."
+    },
+    {
+      "id": "wx-015",
+      "topic": "Atmospheric stability, inversions and fronts",
+      "question": "Which characteristics does the Study Guide's table list for stable air?",
+      "options": {
+        "A": "Cumuliform clouds and showery precipitation",
+        "B": "Stratiform clouds and fog, continuous precipitation and smooth air",
+        "C": "Rough air (turbulence) and good visibility",
+        "D": "Cumuliform clouds and smooth air"
+      },
+      "answer": "B",
+      "explanation": "The Study Guide's table pairs unstable air with cumuliform clouds, showery precipitation and rough air, and stable air with \"Stratiform clouds and fog\", \"Continuous precipitation\" and \"Smooth air\".",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Unstable Air Stable Air Cumuliform clouds Stratiform clouds and fog Showery precipitation Continuous precipitation Rough air (turbulence) Smooth air"
+    },
+    {
+      "id": "wx-016",
+      "topic": "Dew point, fog, frost and icing",
+      "question": "What two conditions does the Study Guide say are necessary for structural icing in flight?",
+      "options": {
+        "A": "Relative humidity above 50 percent and a temperature below 10 °C",
+        "B": "Clear, dry air and a temperature below freezing",
+        "C": "Flight above 12,000 feet and any cloud cover",
+        "D": "Flying through visible water such as rain or cloud droplets, and a temperature of 0 °C or colder where the moisture strikes the aircraft"
+      },
+      "answer": "D",
+      "explanation": "\"Two conditions are necessary for structural icing in flight\": the aircraft \"must be flying through visible water such as rain or cloud droplets\" and the temperature where the moisture strikes it \"must be 0° C or colder.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Two conditions are necessary for structural icing in flight: 1. The aircraft must be flying through visible water such as rain or cloud droplets 2. The temperature at the point where the moisture strikes the aircraft must be 0° C or colder."
+    },
+    {
+      "id": "wx-017",
+      "topic": "Dew point, fog, frost and icing",
+      "question": "What does the Study Guide say about frost on a small UA?",
+      "options": {
+        "A": "It poses no threat, like dew",
+        "B": "It poses a definite flight safety hazard because it disrupts airflow over the wing and can drastically reduce lift",
+        "C": "It increases lift but also increases drag",
+        "D": "It matters only when the ambient temperature is above freezing"
+      },
+      "answer": "B",
+      "explanation": "\"While dew poses no threat to a small UA, frost poses a definite flight safety hazard. Frost disrupts the flow of air over the wing and can drastically reduce the production of lift.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "While dew poses no threat to a small UA, frost poses a definite flight safety hazard. Frost disrupts the flow of air over the wing and can drastically reduce the production of lift."
+    },
+    {
+      "id": "wx-018",
+      "topic": "Clouds and thunderstorms",
+      "question": "Through which three stages does the Study Guide say a thunderstorm cell progresses during its life cycle?",
+      "options": {
+        "A": "Cumulus, mature and dissipating",
+        "B": "Cumulus, orographic and dissipating",
+        "C": "Developing, squall line and mature",
+        "D": "Mature, first gust and plow wind"
+      },
+      "answer": "A",
+      "explanation": "\"A thunderstorm cell during its life cycle progresses through three stages-( 1) the cumulus, (2) the mature, and (3) the dissipating.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "A thunderstorm cell during its life cycle progresses through three stages-( 1) the cumulus, (2) the mature, and (3) the dissipating."
+    },
+    {
+      "id": "wx-019",
+      "topic": "Clouds and thunderstorms",
+      "question": "During which stage does the Study Guide say all thunderstorm hazards reach their greatest intensity?",
+      "options": {
+        "A": "The cumulus stage",
+        "B": "The dissipating stage",
+        "C": "The mature stage",
+        "D": "The orographic stage"
+      },
+      "answer": "C",
+      "explanation": "\"All thunderstorm hazards reach their greatest intensity during the mature stage.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-05",
+      "evidence": "All thunderstorm hazards reach their greatest intensity during the mature stage."
+    },
+    {
+      "id": "wx-020",
+      "topic": "Ceiling, visibility and Part 107 weather limits",
+      "question": "What minimum flight visibility, as observed from the location of the control station, does 14 CFR 107.51(c) set?",
+      "options": {
+        "A": "1 statute mile",
+        "B": "5 statute miles",
+        "C": "500 feet",
+        "D": "3 statute miles"
+      },
+      "answer": "D",
+      "explanation": "107.51(c): \"The minimum flight visibility, as observed from the location of the control station must be no less than 3 statute miles.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.51, Operating limitations for small unmanned aircraft (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.51"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The minimum flight visibility, as observed from the location of the control station must be no less than 3 statute miles."
+    }
+  ]
+}

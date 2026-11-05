@@ -1,0 +1,547 @@
+{
+  "cluster": "faa-107",
+  "slug": "operations-safety",
+  "href": "/faa-107/operations-safety/study-guide/",
+  "title": "FAA Part 107 loading, performance and safe operations study guide",
+  "description": "Part 107 study guide: weight and balance, load factor, performance, preflight rules, fitness to fly, decision-making and radio basics, from FAA sources.",
+  "intro": "This guide covers the operations and safety knowledge areas for the Remote Pilot knowledge test: loading and weight and balance, load factor and stalls, performance and air density, physiology, aeronautical decision-making and crew resource management, and radio and airport basics. Those points come from the FAA Remote Pilot Study Guide (FAA-G-8082-22). That guide dates from August 2016, before the 2021 Part 107 amendments, so it is used here only for background knowledge. Every rule (the condition for safe operation, the preflight actions, in-flight emergencies, medical condition, and alcohol or drugs) is taken from the current 14 CFR Part 107 text. goraedu is an independent study site; these points are not the FAA test. Every point links to its source and quotes its exact words.",
+  "topics": [
+    {
+      "id": "weight-balance",
+      "name": "Weight and balance",
+      "points": [
+        {
+          "text": "The Study Guide says that before any flight the remote pilot in command (PIC) should verify the aircraft is correctly loaded by determining its weight and balance condition.",
+          "quote": "Before any flight, the remote pilot-in-command (PIC) should verify the aircraft is correctly loaded by determining the weight and balance condition of the aircraft.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "High elevations, high air temperatures and high humidity (high density altitudes) affect takeoff and climb performance and may require a reduction in weight before flight is attempted.",
+          "quote": "Conditions that affect takeoff and climb performance, such as high elevations, high air temperatures, and high humidity (high density altitudes) may require a reduction in weight before flight is attempted.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "As fuel is used the aircraft becomes lighter and performance improves, but this could have a negative effect on balance. In small UA operations, weight can change during flight when expendable items on board are used, such as a jettisonable load.",
+          "quote": "As fuel is used, the aircraft becomes lighter and performance is improved, but this could have a negative effect on balance. In small UA operations, weight change during flight may occur when expendable items are used on board (e.g., a jettisonable load).",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The center of gravity (CG) is not a fixed point marked on the aircraft; where it sits depends on how the aircraft's weight is distributed.",
+          "quote": "The CG is not a fixed point marked on the aircraft; its location depends on the distribution of aircraft weight.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If the CG is not within the allowable limits after loading, or does not stay within them for safe flight, some weight has to be relocated or shed before flight is attempted.",
+          "quote": "If the CG is not within the allowable limits after loading or do not remain within the allowable limits for safe flight, it will be necessary to relocate or shed some weight before flight is attempted.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Operating above the maximum weight limitation compromises the aircraft's structural integrity and adversely affects its performance; operating with the CG outside the approved limits results in control difficulty.",
+          "quote": "Operating above the maximum weight limitation compromises the structural integrity of an aircraft and adversely affects its performance. Operation with the center of gravity (CG) outside the approved limits results in control difficulty.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If an aircraft is not properly loaded, the first sign of poor performance usually shows during takeoff.",
+          "quote": "If not properly loaded, the initial indication of poor performance usually takes place during takeoff.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "load-factor",
+      "name": "Load factor and stalls",
+      "points": [
+        {
+          "text": "A load factor of 3 means the total load on the aircraft's structure is three times its weight.",
+          "quote": "For example, a load factor of 3 means the total load on an aircraft's structure is three times its weight.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An increased load factor increases the stalling speed and makes stalls possible at flight speeds that seem safe.",
+          "quote": "An increased load factor increases the stalling speed and makes stalls possible at seemingly safe flight speeds.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In a coordinated level turn, the load factor is 2 Gs at a 60° bank and 5.76 Gs at an 80° bank.",
+          "quote": "The load factor for any aircraft in a coordinated level turn at 60° bank is 2 Gs. The load factor in an 80° bank is 5.76 Gs.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A stall happens when a high enough angle of attack (AOA) makes the smooth airflow over an airfoil break up and separate, producing an abrupt change of flight characteristics and a sudden loss of lift.",
+          "quote": "When a sufficiently high AOA is imposed, the smooth flow of air over an airfoil breaks up and separates, producing an abrupt change of flight characteristics and a sudden loss of lift, which results in a stall.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Stalling speed increases in proportion to the square root of the load factor: an aircraft with a normal unaccelerated stalling speed of 50 knots can be stalled at 100 knots with a load factor of 4 Gs.",
+          "quote": "A study of this effect has revealed that an aircraft's stalling speed increases in proportion to the square root of the load factor. This means that an aircraft with a normal unaccelerated stalling speed of 50 knots can be stalled at 100 knots by inducing a load factor of 4 Gs.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "performance",
+      "name": "Performance and air density",
+      "points": [
+        {
+          "text": "Manufacturers' information on performance data is not standardized.",
+          "quote": "It should be emphasized that the manufacturers' information regarding performance data is not standardized.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If manufacturer-published performance data is unavailable, the Study Guide advises seeking out data already determined and published by other users of the same manufacturer model and using it as a starting point.",
+          "quote": "If manufacturer-published performance data is unavailable, it is advisable to seek out performance data that may have already been determined and published by other users of the same small UA manufacturer model and use that data as a starting point.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "At a constant pressure, air density varies inversely with temperature.",
+          "quote": "Thus, the density of air varies inversely with temperature. This statement is true only at a constant pressure.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "As the water content of the air increases, the air becomes less dense, which increases density altitude and decreases performance.",
+          "quote": "Therefore, as the water content of the air increases, the air becomes less dense, increasing density altitude and decreasing performance.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "preflight-emergencies",
+      "name": "Preflight checks and emergencies",
+      "notCovered": "The Study Guide's maintenance chapter only refers readers to chapter 7 of Advisory Circular 107-2, which is not among this guide's sources, so maintenance practices are not summarized here beyond the Part 107 rules. Preflight checks for operations over people (107.49(f)) and night operations are covered with those rules.",
+      "points": [
+        {
+          "text": "No person may operate a civil small UAS unless it is in a condition for safe operation, and before each flight the remote PIC must check the small UAS to determine whether it is.",
+          "quote": "No person may operate a civil small unmanned aircraft system unless it is in a condition for safe operation. Prior to each flight, the remote pilot in command must check the small unmanned aircraft system to determine whether it is in a condition for safe operation.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.15, Condition for safe operation (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.15"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No person may continue flight of the small unmanned aircraft when he or she knows or has reason to know that the small UAS is no longer in a condition for safe operation.",
+          "quote": "No person may continue flight of the small unmanned aircraft when he or she knows or has reason to know that the small unmanned aircraft system is no longer in a condition for safe operation.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.15, Condition for safe operation (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.15"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Before flight, the remote PIC must assess the operating environment, considering risks to persons and property nearby on the surface and in the air. The assessment must include local weather conditions, local airspace and any flight restrictions, the location of persons and property on the surface, and other ground hazards.",
+          "quote": "Assess the operating environment, considering risks to persons and property in the immediate vicinity both on the surface and in the air. This assessment must include: (1) Local weather conditions; (2) Local airspace and any flight restrictions; (3) The location of persons and property on the surface; and (4) Other ground hazards.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.49, Preflight familiarization, inspection, and actions for aircraft operation (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Before flight, the remote PIC must ensure that all persons directly participating in the operation are informed about the operating conditions, emergency procedures, contingency procedures, roles and responsibilities, and potential hazards.",
+          "quote": "Ensure that all persons directly participating in the small unmanned aircraft operation are informed about the operating conditions, emergency procedures, contingency procedures, roles and responsibilities, and potential hazards;",
+          "source": {
+            "title": "eCFR: 14 CFR 107.49, Preflight familiarization, inspection, and actions for aircraft operation (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Before flight, the remote PIC must ensure that all control links between the ground control station and the small unmanned aircraft are working properly.",
+          "quote": "Ensure that all control links between ground control station and the small unmanned aircraft are working properly;",
+          "source": {
+            "title": "eCFR: 14 CFR 107.49, Preflight familiarization, inspection, and actions for aircraft operation (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If the small unmanned aircraft is powered, the remote PIC must ensure before flight that there is enough available power for the small UAS to operate for the intended operational time.",
+          "quote": "If the small unmanned aircraft is powered, ensure that there is enough available power for the small unmanned aircraft system to operate for the intended operational time;",
+          "source": {
+            "title": "eCFR: 14 CFR 107.49, Preflight familiarization, inspection, and actions for aircraft operation (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Before flight, the remote PIC must ensure that any object attached to or carried by the small unmanned aircraft is secure and does not adversely affect its flight characteristics or controllability.",
+          "quote": "Ensure that any object attached or carried by the small unmanned aircraft is secure and does not adversely affect the flight characteristics or controllability of the aircraft;",
+          "source": {
+            "title": "eCFR: 14 CFR 107.49, Preflight familiarization, inspection, and actions for aircraft operation (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In an in-flight emergency requiring immediate action, the remote PIC may deviate from any rule of Part 107 to the extent necessary to meet that emergency.",
+          "quote": "In an in-flight emergency requiring immediate action, the remote pilot in command may deviate from any rule of this part to the extent necessary to meet that emergency.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.21, In-flight emergency (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.21"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A remote PIC who deviates from a rule because of an in-flight emergency must, upon request of the Administrator, send a written report of that deviation to the Administrator.",
+          "quote": "Each remote pilot in command who deviates from a rule under paragraph (a) of this section must, upon request of the Administrator, send a written report of that deviation to the Administrator.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.21, In-flight emergency (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.21"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "medical-alcohol-drugs",
+      "name": "Medical condition, alcohol and drugs",
+      "notCovered": "107.27 makes these persons comply with 14 CFR 91.17 and 91.19, which hold the actual alcohol and drug limits. The text of those Part 91 sections is not among this guide's sources, so their limits are not restated here; read 91.17 and 91.19 on eCFR.",
+      "points": [
+        {
+          "text": "No person may manipulate the flight controls of a small UAS or act as remote PIC, visual observer or direct participant in the operation if he or she knows or has reason to know of a physical or mental condition that would interfere with the safe operation of the small UAS.",
+          "quote": "No person may manipulate the flight controls of a small unmanned aircraft system or act as a remote pilot in command, visual observer, or direct participant in the operation of the small unmanned aircraft if he or she knows or has reason to know that he or she has a physical or mental condition that would interfere with the safe operation of the small unmanned aircraft system.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.17, Medical condition (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.17"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A person manipulating the flight controls of a small UAS, or acting as remote PIC or visual observer, must comply with 14 CFR 91.17 and 91.19.",
+          "quote": "A person manipulating the flight controls of a small unmanned aircraft system or acting as a remote pilot in command or visual observer must comply with the provisions of §§ 91.17 and 91.19 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.27, Alcohol or drugs (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.27"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Antihistamines and decongestants, some of the most commonly used over-the-counter (OTC) drugs, can cause noticeable adverse side effects, including drowsiness and cognitive deficits.",
+          "quote": "Some of the most commonly used OTC drugs, antihistamines and decongestants, have the potential to cause noticeable adverse side effects, including drowsiness and cognitive deficits.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For any new medication, OTC or prescribed, the Study Guide says you should wait at least 48 hours after the first dose before flying to determine that you have no adverse side effects that would make it unsafe to operate an aircraft.",
+          "quote": "For any new medication, OTC or prescribed, you should wait at least 48 hours after the first dose before flying to determine you do not have any adverse side effects that would make it unsafe to operate an aircraft.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "IMSAFE is a self-assessment mnemonic: Illness, Medication, Stress, Alcohol, Fatigue, and Emotion.",
+          "quote": "A great mnemonic is IMSAFE, which stands for Illness, Medication, Stress, Alcohol, Fatigue, and Emotion.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Even in small amounts, alcohol can impair judgment, decrease the sense of responsibility, affect coordination, constrict the visual field, diminish memory, reduce reasoning ability and lower attention span.",
+          "quote": "Even in small amounts, alcohol can impair judgment, decrease sense of responsibility, affect coordination, constrict visual field, diminish memory, reduce reasoning ability, and lower attention span.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "physiology",
+      "name": "Physiological factors",
+      "points": [
+        {
+          "text": "Breathing normally is both the best prevention and the best cure for hyperventilation.",
+          "quote": "Breathing normally is both the best prevention and the best cure for hyperventilation.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Pilots experiencing chronic stress are not safe and should not exercise their airman privileges; pilots who suspect chronic stress should consult a physician.",
+          "quote": "Pilots experiencing this level of stress are not safe and should not exercise their airman privileges. Pilots who suspect they are suffering from chronic stress should consult a physician.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Effects of fatigue include degraded attention and concentration, impaired coordination, and a decreased ability to communicate.",
+          "quote": "Some of the effects of fatigue include degradation of attention and concentration, impaired coordination, and decreased ability to communicate.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If suffering from acute fatigue, a remote pilot should not operate a small UA.",
+          "quote": "If suffering from acute fatigue, a remote pilot should not operate a small UA.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Dehydration is a critical loss of water from the body. Its causes are hot temperatures, wind, humidity, and diuretic drinks such as coffee, tea, alcohol and caffeinated soft drinks.",
+          "quote": "Dehydration is the term given to a critical loss of water from the body. Causes of dehydration are hot temperatures, wind, humidity, and diuretic drinks—coffee, tea, alcohol, and caffeinated soft drinks.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The first noticeable effect of dehydration is fatigue.",
+          "quote": "The first noticeable effect of dehydration is fatigue, which in turn makes top physical and mental performance difficult, if not impossible.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Heatstroke is caused by any inability of the body to control its temperature. Its onset may be recognized by the symptoms of dehydration, but it has also been recognized only upon complete collapse.",
+          "quote": "Heatstroke is a condition caused by any inability of the body to control its temperature. Onset of this condition may be recognized by the symptoms of dehydration, but also has been known to be recognized only upon complete collapse.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When scanning, each stop should cover an area about 30° wide, and no stop should last longer than 2 to 3 seconds.",
+          "quote": "For each stop, an area approximately 30° wide should be scanned. The duration of each stop is based on the degree of detail that is required, but no stop should last longer than 2 to 3 seconds.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "decision-making",
+      "name": "Decision-making and risk management",
+      "notCovered": "The Study Guide gives the antidote for each hazardous attitude, the six risk management steps and the DECIDE model only in figures, which this guide does not reproduce.",
+      "points": [
+        {
+          "text": "Aeronautical decision-making (ADM) is a systematic approach to the mental process pilots use to consistently determine the best course of action in response to a given set of circumstances.",
+          "quote": "It is a systematic approach to the mental process used by pilots to consistently determine the best course of action in response to a given set of circumstances.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The goal of risk management is to proactively identify safety-related hazards and mitigate the associated risks.",
+          "quote": "The goal of risk management is to proactively identify safety-related hazards and mitigate the associated risks.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A hazard is a real or perceived condition, event or circumstance that a pilot encounters; risk is an assessment of the single or cumulative hazard facing a pilot.",
+          "quote": "Therefore, risk is an assessment of the single or cumulative hazard facing a pilot; however, different pilots see hazards differently.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The five hazardous attitudes that can interfere with sound decisions are anti-authority, impulsivity, invulnerability, macho, and resignation.",
+          "quote": "Studies have identified five hazardous attitudes that can interfere with the ability to make sound decisions and exercise authority properly: anti-authority, impulsivity, invulnerability, macho, and resignation.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Recognizing a hazardous thought is the first step toward neutralizing it; the pilot should then label it as hazardous and state the corresponding antidote.",
+          "quote": "Recognition of hazardous thoughts is the first step toward neutralizing them. After recognizing a thought as hazardous, the pilot should label it as hazardous, then state the corresponding antidote.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The PAVE checklist divides the risks of flight into four categories: Pilot-in-command (PIC), Aircraft, enVironment, and External pressures.",
+          "quote": "the pilot divides the risks of flight into four categories: Pilot-in-command (PIC), Aircraft, enVironment, and External pressures (PAVE) which form part of a pilot's decision-making process.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Managing external pressure is the single most important key to risk management, because it is the one risk factor category that can cause a pilot to ignore all the other risk factors.",
+          "quote": "Management of external pressure is the single most important key to risk management because it is the one risk factor category that can cause a pilot to ignore all the other risk factors.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In the 3P model (Perceive, Process, Perform), pilots process hazards with the CARE checklist (Consequences, Alternatives, Reality, External factors) and perform risk management with the TEAM choice list (Transfer, Eliminate, Accept, or Mitigate).",
+          "quote": "They can process hazards by using the CARE checklist of: Consequences, Alternatives, Reality, External factors. Finally, pilots can perform risk management by using the TEAM choice list of: Transfer, Eliminate, Accept, or Mitigate.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Crew resource management (CRM) training focuses on the effective use of all available resources (human resources, hardware and information) supporting ADM, to facilitate crew cooperation and improve decision-making.",
+          "quote": "Crew resource management (CRM) training for flight crews is focused on the effective use of all available resources: human resources, hardware, and information supporting ADM to facilitate crew cooperation and improve decision-making.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "radio-airport",
+      "name": "Radio communication and airport operations",
+      "points": [
+        {
+          "text": "The Study Guide says the remote pilot should refrain from transmitting over any active aviation frequency unless there is an emergency situation.",
+          "quote": "The remote pilot should refrain from transmitting over any active aviation frequency unless there is an emergency situation.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A Common Traffic Advisory Frequency (CTAF) is a frequency designated for carrying out airport advisory practices while operating to or from an airport without an operating control tower.",
+          "quote": "A CTAF is a frequency designated for the purpose of carrying out airport advisory practices while operating to or from an airport without an operating control tower.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Most non-towered airports have a UNICOM frequency, usually 122.8, but the correct frequency should always be checked in the Chart Supplement U.S. or on the sectional chart.",
+          "quote": "Most non-towered airports will have a UNICOM frequency, which is usually 122.8; however, you should always check the Cart Supplements U.S. or sectional chart for the correct frequency.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The MULTICOM frequency of 122.9 is used at a non-towered airport that has no FSS or UNICOM.",
+          "quote": "A MULTICOM frequency of 122.9 will be used at an airport that is non-towered and does not have a FSS or UNICOM.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The preferred way to enter a non-towered airport traffic pattern from the downwind side is to approach on a course 45 degrees to the downwind leg and join the pattern at midfield.",
+          "quote": "The preferred method for entering from the downwind side of the pattern is to approach the pattern on a course 45 degrees to the downwind leg and join the pattern at midfield.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The Automated Terminal Information Service (ATIS) is a looped recording of local weather and other pertinent non-control information. It is normally updated once per hour, and more often when changing local conditions warrant.",
+          "quote": "The Automated Terminal Information Service (ATIS) is a recording of the local weather conditions and other pertinent non-control information broadcast on a local frequency in a looped format. It is normally updated once per hour but is updated more often when changing local conditions warrant.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    }
+  ]
+}

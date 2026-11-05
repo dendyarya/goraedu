@@ -27,7 +27,7 @@
     {
       "id": "as-002",
       "topic": "Part 107 airspace rules",
-      "question": "Under 107.41, whose prior authorization does a person need to operate a small unmanned aircraft in Class D airspace?",
+      "question": "Whose prior authorization does 107.41 name as the condition for operating a small unmanned aircraft in Class D airspace?",
       "options": {
         "A": "The airport manager",
         "B": "The local police department",
@@ -45,22 +45,22 @@
     },
     {
       "id": "as-003",
-      "topic": "Part 107 airspace rules",
-      "question": "Which part of Class E airspace does 107.41 cover?",
+      "topic": "Class E, Class G and the Class A floor",
+      "question": "According to the Study Guide, to what altitude does Class E airspace typically extend?",
       "options": {
-        "A": "All Class E airspace from 700 feet AGL upward",
-        "B": "Only Class E airspace above 14,500 feet MSL",
-        "C": "Only the Federal Airways within Class E airspace",
-        "D": "The airspace within the lateral boundaries of the surface area of Class E airspace designated for an airport"
+        "A": "Up to 10,000 feet MSL",
+        "B": "Up to 1,200 feet AGL",
+        "C": "Up to and including 14,500 feet MSL",
+        "D": "Up to, but not including, 18,000 feet MSL"
       },
       "answer": "D",
-      "explanation": "107.41 names the airspace \"within the lateral boundaries of the surface area of Class E airspace designated for an airport\".",
+      "explanation": "The Study Guide: \"Class E airspace typically extends up to, but not including, 18,000 feet MSL (the lower limit of Class A airspace).\"",
       "source": {
-        "title": "eCFR: 14 CFR 107.41, Operation in certain airspace (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.41"
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "No person may operate a small unmanned aircraft in Class B, Class C, or Class D airspace or within the lateral boundaries of the surface area of Class E airspace designated for an airport unless that person has prior authorization from Air Traffic Control (ATC)."
+      "evidence": "Class E airspace typically extends up to, but not including, 18,000 feet MSL (the lower limit of Class A airspace)."
     },
     {
       "id": "as-004",
@@ -83,22 +83,22 @@
     },
     {
       "id": "as-005",
-      "topic": "Part 107 airspace rules",
-      "question": "Which facilities does 107.43 name when it prohibits interference with operations and traffic patterns?",
+      "topic": "Other airspace areas",
+      "question": "According to the Study Guide, what do the primary airport(s) within a terminal radar service area (TRSA) become?",
       "options": {
-        "A": "Airports with an operating control tower only",
-        "B": "Any airport, heliport, or seaplane base",
-        "C": "Public-use airports in Class B airspace only",
-        "D": "Military airfields only"
+        "A": "Class B airspace",
+        "B": "Class D airspace",
+        "C": "Class G airspace",
+        "D": "A restricted area"
       },
       "answer": "B",
-      "explanation": "107.43 protects operations and traffic patterns \"at any airport, heliport, or seaplane base.\"",
+      "explanation": "The Study Guide: \"The primary airport(s) within the TRSA become(s) Class D airspace.\"",
       "source": {
-        "title": "eCFR: 14 CFR 107.43, Operation in the vicinity of airports (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.43"
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "No person may operate a small unmanned aircraft in a manner that interferes with operations and traffic patterns at any airport, heliport, or seaplane base."
+      "evidence": "The primary airport(s) within the TRSA become(s) Class D airspace."
     },
     {
       "id": "as-006",

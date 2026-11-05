@@ -4,7 +4,7 @@
   "href": "/faa-107/airspace/study-guide/",
   "title": "FAA Part 107 airspace study guide",
   "description": "FAA Part 107 airspace study guide: the 107.41-107.47 rules, Class A-G airspace, special use and other airspace, TFRs and NOTAMs, linked to official FAA sources.",
-  "intro": "Four sections of 14 CFR Part 107 deal with airspace: 107.41 (prior ATC authorization for Class B, C and D airspace and the surface area of Class E airspace designated for an airport), 107.43 (no interference with airport operations and traffic patterns), 107.45 (prohibited and restricted areas) and 107.47 (flight restrictions designated by notice to airmen). This guide quotes those rules from the current eCFR text. The descriptions of the airspace classes, special use airspace, other airspace areas, TFRs and NOTAMs come from the FAA Remote Pilot Study Guide (FAA-G-8082-22, August 2016). That guide predates later Part 107 amendments, so it is used here only to describe airspace, never for what a remote pilot must do. Chart excerpts and figures are not covered. Every point links to its official source and quotes its exact words.",
+  "intro": "Four sections of 14 CFR Part 107 deal with airspace: 107.41 (prior ATC authorization for Class B, C and D airspace and within the lateral boundaries of the surface area of Class E airspace designated for an airport), 107.43 (no interference with operations and traffic patterns at any airport, heliport or seaplane base), 107.45 (prohibited and restricted areas) and 107.47 (flight restrictions in the proximity of certain areas designated by notice to airmen). This guide quotes those rules from the current eCFR text. The descriptions of the airspace classes, special use airspace, other airspace areas, TFRs and NOTAMs come from the FAA Remote Pilot Study Guide (FAA-G-8082-22, August 2016). That guide predates later Part 107 amendments, so it is used here only to describe airspace, never for what a remote pilot must do. Chart excerpts and figures are not covered. Every point links to its official source and quotes its exact words.",
   "topics": [
     {
       "id": "part-107-rules",
@@ -47,7 +47,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A person acting as remote pilot in command must comply with §§ 91.137 through 91.145 and 99.7 of 14 CFR, the flight restrictions in the proximity of certain areas designated by notice to airmen.",
+          "text": "Under 107.47 (titled \"Flight restrictions in the proximity of certain areas designated by notice to airmen\"), a person acting as remote pilot in command must comply with §§ 91.137 through 91.145 and 99.7 of 14 CFR.",
           "quote": "A person acting as a remote pilot in command must comply with the provisions of §§ 91.137 through 91.145 and 99.7 of this chapter.",
           "source": {
             "title": "eCFR: 14 CFR 107.47, Flight restrictions in the proximity of certain areas designated by notice to airmen (as of Nov 3, 2026)",
@@ -396,8 +396,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "MTRs are identified as IFR (IR) or VFR (VR) followed by a number: four number characters when no segment is above 1,500 feet AGL (e.g., IR1206, VR1207), three when one or more segments are above 1,500 feet AGL (e.g., IR206, VR207).",
-          "quote": "Routes are identified as IFR (IR), and VFR (VR), followed by a number. [Figure 2-7] MTRs with no segment above 1,500 feet AGL are identified by four number characters (e.g., IR1206, VR1207). MTRs that include one or more segments above 1,500 feet AGL are identified by three number characters (e.g., IR206, VR207).",
+          "text": "MTRs with no segment above 1,500 feet AGL are identified by four number characters (e.g., IR1206, VR1207); MTRs that include one or more segments above 1,500 feet AGL are identified by three number characters (e.g., IR206, VR207).",
+          "quote": "MTRs with no segment above 1,500 feet AGL are identified by four number characters (e.g., IR1206, VR1207). MTRs that include one or more segments above 1,500 feet AGL are identified by three number characters (e.g., IR206, VR207).",
           "source": {
             "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
             "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
