@@ -26,15 +26,15 @@
     {
       "id": "cs-002",
       "topic": "Scope and definitions",
-      "question": "Which of these is one of the three elements in the 1910.146(b) definition of a confined space?",
+      "question": "What does the note to the 1910.146(b) definition of inerting say about the atmosphere that inerting produces?",
       "options": {
-        "A": "It is at least 5 feet deep",
-        "B": "It contains a hazardous atmosphere",
-        "C": "It has a single opening less than 24 inches across",
-        "D": "It is not designed for continuous employee occupancy"
+        "A": "It makes the space safe to enter without respiratory protection",
+        "B": "It produces an oxygen-enriched atmosphere",
+        "C": "It produces an atmosphere that needs no further testing",
+        "D": "It produces an IDLH oxygen-deficient atmosphere"
       },
       "answer": "D",
-      "explanation": "A confined space, among its three elements, \"Is not designed for continuous employee occupancy.\"",
+      "explanation": "Inerting means displacing the atmosphere \"by a noncombustible gas (such as nitrogen) to such an extent that the resulting atmosphere is noncombustible,\" and the note states \"This procedure produces an IDLH oxygen-deficient atmosphere.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -44,15 +44,15 @@
     {
       "id": "cs-003",
       "topic": "Scope and definitions",
-      "question": "How many of the listed characteristics must a confined space have to be a permit-required confined space under 1910.146(b)?",
+      "question": "Under the note to the 1910.146(b) definition of entry supervisor, may an entry supervisor also serve as an attendant or as an authorized entrant?",
       "options": {
-        "A": "One or more",
-        "B": "At least two",
-        "C": "At least three",
-        "D": "All four"
+        "A": "Yes, as long as that person is trained and equipped as required by the section for each role he or she fills",
+        "B": "No, the roles must always be held by different people",
+        "C": "Only in permit spaces with no atmospheric hazard",
+        "D": "Only with written approval from OSHA"
       },
       "answer": "A",
-      "explanation": "A permit space is a confined space \"that has one or more of the following characteristics\".",
+      "explanation": "The note says \"An entry supervisor also may serve as an attendant or as an authorized entrant, as long as that person is trained and equipped as required by this section for each role he or she fills.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -62,15 +62,15 @@
     {
       "id": "cs-004",
       "topic": "Hazardous atmospheres and engulfment",
-      "question": "What level of flammable gas, vapor, or mist does the 1910.146(b) definition of hazardous atmosphere set?",
+      "question": "Under the 1910.146(b) definition of hazardous atmosphere, airborne combustible dust at a concentration that meets or exceeds its LFL may be approximated as dust that obscures vision at what distance?",
       "options": {
-        "A": "In excess of 50 percent of its lower flammable limit",
-        "B": "In excess of 25 percent of its lower flammable limit",
-        "C": "In excess of 10 percent of its lower flammable limit",
-        "D": "In excess of 100 percent of its lower flammable limit"
+        "A": "1 foot or less",
+        "B": "10 feet or less",
+        "C": "5 feet (1.52 m) or less",
+        "D": "25 feet or less"
       },
       "answer": "C",
-      "explanation": "The first listed cause is \"Flammable gas, vapor, or mist in excess of 10 percent of its lower flammable limit (LFL)\".",
+      "explanation": "The note to the combustible dust cause says \"This concentration may be approximated as a condition in which the dust obscures vision at a distance of 5 feet (1.52 m) or less.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -80,15 +80,15 @@
     {
       "id": "cs-005",
       "topic": "Hazardous atmospheres and engulfment",
-      "question": "Which oxygen concentrations does the 1910.146(b) definition of hazardous atmosphere list as a cause?",
+      "question": "The note to the 1910.146(b) definition of IDLH names hydrogen fluoride gas and cadmium vapor as materials whose transient effects may be followed by sudden, possibly fatal collapse. How long after exposure?",
       "options": {
-        "A": "Below 16 percent or above 25 percent",
-        "B": "Below 19.5 percent or above 23.5 percent",
-        "C": "Below 18 percent or above 22 percent",
-        "D": "Below 20.9 percent or above 21.5 percent"
+        "A": "1-2 hours",
+        "B": "12-72 hours",
+        "C": "1-2 weeks",
+        "D": "30 days"
       },
       "answer": "B",
-      "explanation": "The definition lists \"Atmospheric oxygen concentration below 19.5 percent or above 23.5 percent\".",
+      "explanation": "The note says such materials \"may produce immediate transient effects that, even if severe, may pass without medical attention, but are followed by sudden, possibly fatal collapse 12-72 hours after exposure.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -98,15 +98,15 @@
     {
       "id": "cs-006",
       "topic": "Scope and definitions",
-      "question": "Under the 1910.146(b) definition of entry, when is entry considered to have occurred?",
+      "question": "How does 1910.146(b) define blanking or blinding?",
       "options": {
-        "A": "As soon as any part of the entrant's body breaks the plane of an opening into the space",
-        "B": "When the entrant's whole body is inside the space",
-        "C": "When the entrant's head passes through the opening",
-        "D": "When the entrant begins the assigned work inside the space"
+        "A": "The absolute closure of a pipe, line, or duct by fastening a solid plate that completely covers the bore and can withstand the maximum pressure with no leakage beyond the plate",
+        "B": "Closing a single valve in the line and tagging it",
+        "C": "Covering the entrance portal of the space with a tarp",
+        "D": "Turning off the lighting inside the space"
       },
       "answer": "A",
-      "explanation": "Entry \"is considered to have occurred as soon as any part of the entrant's body breaks the plane of an opening into the space.\"",
+      "explanation": "Blanking or blinding \"means the absolute closure of a pipe, line, or duct by the fastening of a solid plate (such as a spectacle blind or a skillet blind) that completely covers the bore and that is capable of withstanding the maximum pressure of the pipe, line, or duct with no leakage beyond the plate.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -116,15 +116,15 @@
     {
       "id": "cs-007",
       "topic": "Workplace evaluation, warning signs and contractors",
-      "question": "If the workplace contains permit spaces, how does 1910.146(c)(2) require the employer to inform exposed employees of them?",
+      "question": "If the employer decides that its employees will enter permit spaces, what does 1910.146(c)(4) require?",
       "options": {
-        "A": "Only by a verbal briefing when each employee is hired",
-        "B": "By listing the spaces on the OSHA injury and illness log",
-        "C": "Only by a written notice mailed to each employee's home",
-        "D": "By posting danger signs or by any other equally effective means"
+        "A": "An oral program explained to each entrant, with nothing in writing",
+        "B": "A program kept confidential from employees",
+        "C": "A program filed with OSHA before the first entry",
+        "D": "A written permit space program that complies with the section and is available for inspection by employees and their authorized representatives"
       },
       "answer": "D",
-      "explanation": "The employer must inform exposed employees \"by posting danger signs or by any other equally effective means\" of the existence, location and danger of the permit spaces.",
+      "explanation": "The employer \"shall develop and implement a written permit space program that complies with this section. The written program shall be available for inspection by employees and their authorized representatives.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -170,15 +170,15 @@
     {
       "id": "cs-010",
       "topic": "Alternate procedures and reclassification",
-      "question": "Under the alternate procedures in 1910.146(c)(5)(ii)(C), in what order must the internal atmosphere be tested before an employee enters?",
+      "question": "Under the alternate procedures in 1910.146(c)(5)(ii)(E), where must the air for the continuous forced air ventilation come from?",
       "options": {
-        "A": "Oxygen content, then flammable gases and vapors, then potential toxic air contaminants",
-        "B": "Potential toxic air contaminants, then flammable gases and vapors, then oxygen content",
-        "C": "Flammable gases and vapors, then oxygen content, then potential toxic air contaminants",
-        "D": "Flammable gases and vapors, then potential toxic air contaminants, then oxygen content"
+        "A": "From a clean source, and it may not increase the hazards in the space",
+        "B": "From inside the space, recirculated through the fan",
+        "C": "From a compressed oxygen cylinder",
+        "D": "From any source, as long as the fan runs continuously"
       },
       "answer": "A",
-      "explanation": "The atmosphere must be tested with a calibrated direct-reading instrument \"for oxygen content, for flammable gases and vapors, and for potential toxic air contaminants, in that order.\"",
+      "explanation": "The rule says \"The air supply for the forced air ventilation shall be from a clean source and may not increase the hazards in the space.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -260,15 +260,15 @@
     {
       "id": "cs-015",
       "topic": "Entry permits",
-      "question": "What minimum retention period does 1910.146(e)(6) set for each canceled entry permit?",
+      "question": "How does 1910.146(e)(3) require the completed entry permit to be made available to authorized entrants at the time of entry?",
       "options": {
-        "A": "At least 30 days",
-        "B": "At least 90 days",
-        "C": "At least 6 months",
-        "D": "At least 1 year"
+        "A": "By mailing it to each entrant's home",
+        "B": "By keeping it locked in the supervisor's office",
+        "C": "By reading it aloud once at the start of each year",
+        "D": "By posting it at the entry portal or by any other equally effective means"
       },
       "answer": "D",
-      "explanation": "The employer \"shall retain each canceled entry permit for at least 1 year\" to support the program review.",
+      "explanation": "The completed permit \"shall be made available at the time of entry to all authorized entrants or their authorized representatives, by posting it at the entry portal or by any other equally effective means, so that the entrants can confirm that pre-entry preparations have been completed.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -332,15 +332,15 @@
     {
       "id": "cs-019",
       "topic": "Training and duties of entry roles",
-      "question": "Under 1910.146(i)(4), how long must the attendant remain outside the permit space during entry operations?",
+      "question": "Under 1910.146(i)(8), what must an attendant do when unauthorized persons approach a permit space while entry is underway?",
       "options": {
-        "A": "Until the first hour of entry has passed",
-        "B": "Until relieved by another attendant",
-        "C": "Until the entrants have started their work",
-        "D": "Until the entry supervisor arrives"
+        "A": "Enter the space to warn the entrants in person",
+        "B": "Warn the unauthorized persons that they must stay away from the permit space",
+        "C": "Ignore them unless they enter the space",
+        "D": "Leave the post to call the local OSHA office"
       },
       "answer": "B",
-      "explanation": "Each attendant \"Remains outside the permit space during entry operations until relieved by another attendant\".",
+      "explanation": "When unauthorized persons approach or enter, the attendant must \"Warn the unauthorized persons that they must stay away from the permit space,\" advise them to exit immediately if they have entered, and inform the authorized entrants and the entry supervisor if they have entered.",
       "source": {
         "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -350,15 +350,15 @@
     {
       "id": "cs-020",
       "topic": "Rescue, emergency services and employee participation",
-      "question": "What is the longest interval 1910.146(k)(2)(iv) allows between practice permit space rescues by employees designated to provide rescue?",
+      "question": "Under 1910.146(k)(1)(v), what must an employer that designates a rescue team or service provide to it?",
       "options": {
-        "A": "18 months",
-        "B": "24 months",
-        "C": "12 months",
-        "D": "36 months"
+        "A": "A copy of each entrant's medical records",
+        "B": "Payment in advance for a full year of service",
+        "C": "Access to all permit spaces from which rescue may be necessary, so it can develop appropriate rescue plans and practice rescue operations",
+        "D": "A key to the employer's main office, with nothing else"
       },
       "answer": "C",
-      "explanation": "Affected employees must \"practice making permit space rescues at least once every 12 months\" through simulated rescue operations.",
+      "explanation": "The employer shall \"Provide the rescue team or service selected with access to all permit spaces from which rescue may be necessary so that the rescue service can develop appropriate rescue plans and practice rescue operations.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"

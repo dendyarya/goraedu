@@ -44,15 +44,15 @@
     {
       "id": "io-003",
       "topic": "Inspections",
-      "question": "Who must be given an opportunity to accompany the Compliance Safety and Health Officer during the physical inspection?",
+      "question": "The representative the employees have authorized for an inspection is not an employee of the employer. Under 1903.8(c), when may this third party accompany the Compliance Safety and Health Officer?",
       "options": {
-        "A": "Only the employer's attorney",
-        "B": "Only the general contractor's owner",
-        "C": "Any member of the public who asks",
-        "D": "A representative of the employer and a representative authorized by the employees"
+        "A": "Never, because only employees may accompany the officer",
+        "B": "Only with the employer's written consent",
+        "C": "Only if the third party is a licensed attorney",
+        "D": "When, in the officer's judgment, good cause has been shown that accompaniment by a third party is reasonably necessary to an effective and thorough physical inspection"
       },
       "answer": "D",
-      "explanation": "\"A representative of the employer and a representative authorized by his employees shall be given an opportunity to accompany\" the officer during the physical inspection, \"for the purpose of aiding such inspection.\"",
+      "explanation": "The authorized representative \"may be an employee of the employer or a third party\", and a non-employee may accompany the officer if, in the officer's judgment, \"good cause has been shown why accompaniment by a third party is reasonably necessary to the conduct of an effective and thorough physical inspection of the workplace\".",
       "source": {
         "title": "eCFR: 29 CFR 1903.8, Representatives of employers and employees (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.8"
@@ -80,15 +80,15 @@
     {
       "id": "io-005",
       "topic": "Complaints",
-      "question": "An employee files a written complaint and asks that his name be kept off the copy given to the employer. What does 1903.11 say?",
+      "question": "An employee gives the Area Director notice of an alleged violation to request an inspection. What does 1903.11(a) require of that notice?",
       "options": {
-        "A": "The complaint is rejected because it cannot be anonymous",
-        "B": "His name and the names of employees referred to must not appear in the employer's copy",
-        "C": "The employer may ask OSHA for the name after the inspection",
-        "D": "His name is withheld only if a union files the complaint"
+        "A": "It must be notarized",
+        "B": "It must be in writing, set forth the grounds with reasonable particularity, and be signed by the employee or representative of employees",
+        "C": "It must be co-signed by the employer",
+        "D": "It must be filed within 24 hours of noticing the hazard"
       },
       "answer": "B",
-      "explanation": "Upon the request of the person giving the notice, \"his name and the names of individual employees referred to therein shall not appear in such copy or on any record published, released, or made available by the Department of Labor.\"",
+      "explanation": "\"Any such notice shall be reduced to writing, shall set forth with reasonable particularity the grounds for the notice, and shall be signed by the employee or representative of employees.\"",
       "source": {
         "title": "eCFR: 29 CFR 1903.11, Complaints by employees (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.11"
@@ -116,18 +116,18 @@
     {
       "id": "io-007",
       "topic": "Imminent danger",
-      "question": "How does 1903.14(f) define \"imminent danger\" for its employee rescue policy?",
+      "question": "After an officer tells an employer about an imminent danger, the employer immediately eliminates the imminence of the danger and starts steps to abate it. What does 1903.13 say about citations?",
       "options": {
-        "A": "Any condition or practice that could reasonably be expected to cause death or serious physical harm before it can be abated",
-        "B": "Any hazard that has caused an injury in the last 12 months",
-        "C": "Any violation the employer has been cited for before",
-        "D": "Any condition reported by two or more employees"
+        "A": "Appropriate citations and notices of proposed penalties may still be issued",
+        "B": "No citation may be issued once the danger is eliminated",
+        "C": "Only a verbal warning may be given",
+        "D": "A citation may be issued only if someone was injured"
       },
       "answer": "A",
-      "explanation": "The term \"imminent danger\" means \"the existence of any condition or practice that could reasonably be expected to cause death or serious physical harm before such condition or practice can be abated.\"",
+      "explanation": "\"Appropriate citations and notices of proposed penalties may be issued with respect to an imminent danger even though, after being informed of such danger by the Compliance Safety and Health Officer, the employer immediately eliminates the imminence of the danger and initiates steps to abate such danger.\"",
       "source": {
-        "title": "eCFR: 29 CFR 1903.14, Citations; notices of de minimis violations; policy regarding employee rescue activities (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.14"
+        "title": "eCFR: 29 CFR 1903.13, Imminent danger (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.13"
       },
       "checked": "2026-11-05"
     },
@@ -142,7 +142,7 @@
         "D": "No one until the citation is mailed"
       },
       "answer": "C",
-      "explanation": "The officer \"shall inform the affected employees and employers of the danger and that he is recommending a civil action to restrain such conditions or practices.\"",
+      "explanation": "The officer \"shall inform the affected employees and employers of the danger and that he is recommending a civil action to restrain such conditions or practices\".",
       "source": {
         "title": "eCFR: 29 CFR 1903.13, Imminent danger (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.13"
@@ -152,15 +152,15 @@
     {
       "id": "io-009",
       "topic": "Citations",
-      "question": "What is the time limit for issuing a citation under 1903.14?",
+      "question": "Besides describing the alleged violation with particularity, what must every citation also fix under 1903.14(b)?",
       "options": {
-        "A": "30 days after the inspection begins",
-        "B": "15 working days after the closing conference",
-        "C": "1 year after the violation is reported",
-        "D": "6 months following the occurrence of the alleged violation"
+        "A": "The date of the next inspection",
+        "B": "The name of the employee who complained",
+        "C": "The employer's insurance deductible",
+        "D": "A reasonable time or times for the abatement of the alleged violation"
       },
       "answer": "D",
-      "explanation": "\"No citation may be issued under this section after the expiration of 6 months following the occurrence of any alleged violation.\"",
+      "explanation": "\"Any citation shall also fix a reasonable time or times for the abatement of the alleged violation.\"",
       "source": {
         "title": "eCFR: 29 CFR 1903.14, Citations; notices of de minimis violations; policy regarding employee rescue activities (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.14"
@@ -170,15 +170,15 @@
     {
       "id": "io-010",
       "topic": "Posting citations",
-      "question": "How long must a posted citation stay up?",
+      "question": "An employer receives a notice of de minimis violations. What does 1903.16 say about posting it?",
       "options": {
-        "A": "Until the violation has been abated, or for 3 working days, whichever is later",
-        "B": "Exactly 24 hours",
-        "C": "Until the employer files a notice of contest",
-        "D": "Until April 30 of the following year"
+        "A": "It need not be posted",
+        "B": "It must be posted for 3 working days",
+        "C": "It must be posted until April 30",
+        "D": "It must be mailed to each employee instead"
       },
       "answer": "A",
-      "explanation": "Each citation \"shall remain posted until the violation has been abated, or for 3 working days, whichever is later.\" Filing a notice of contest does not affect this duty \"unless and until the Review Commission issues a final order vacating the citation.\"",
+      "explanation": "Citations must be posted at or near each place of alleged violation, but \"Notices of de minimis violations need not be posted.\"",
       "source": {
         "title": "eCFR: 29 CFR 1903.16, Posting of citations (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.16"
@@ -196,7 +196,7 @@
         "D": "On the OSHA 300 Log"
       },
       "answer": "C",
-      "explanation": "The employer \"shall immediately post such citation, or a copy thereof, unedited, at or near each place an alleged violation referred to in the citation occurred.\"",
+      "explanation": "The employer \"shall immediately post such citation, or a copy thereof, unedited, at or near each place an alleged violation referred to in the citation occurred\".",
       "source": {
         "title": "eCFR: 29 CFR 1903.16, Posting of citations (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.16"
@@ -206,15 +206,15 @@
     {
       "id": "io-012",
       "topic": "Contests",
-      "question": "An employer wants to contest a citation. What deadline does 1903.17 set for postmarking its written notice of intention to contest?",
+      "question": "Under 1903.17(a), what must every employer notice of intention to contest specify?",
       "options": {
-        "A": "5 calendar days of the inspection",
-        "B": "15 working days of receiving the notice of proposed penalty",
-        "C": "30 calendar days of the closing conference",
-        "D": "6 months of the violation"
+        "A": "The name of the employer's attorney",
+        "B": "Whether it is directed to the citation or to the proposed penalty, or both",
+        "C": "The number of employees on the site",
+        "D": "The date the hazard was abated"
       },
       "answer": "B",
-      "explanation": "The notice of intention to contest \"shall be postmarked within 15 working days of the receipt by the employer of the notice of proposed penalty.\"",
+      "explanation": "\"Every notice of intention to contest shall specify whether it is directed to the citation or to the proposed penalty, or both.\"",
       "source": {
         "title": "eCFR: 29 CFR 1903.17, Employer and employee contests before the Review Commission (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.17"
@@ -224,18 +224,18 @@
     {
       "id": "io-013",
       "topic": "Contests",
-      "question": "What may an employee or employee representative contest before the Review Commission under 1903.17(b)?",
+      "question": "An employer posts its petition for modification of abatement date. Under 1903.14a(c)(2), within what time must affected employees or their representatives file a written objection to avoid waiving any further right to object?",
       "options": {
-        "A": "That the period of time fixed in the citation for abatement is unreasonable",
-        "B": "The amount of the proposed penalty",
-        "C": "Whether the employer should have been cited at all",
-        "D": "The Compliance Safety and Health Officer's choice of inspection date"
+        "A": "Within ten (10) working days of the date of posting or service",
+        "B": "Within 24 hours of the posting",
+        "C": "Within 6 months of the posting",
+        "D": "Within 30 calendar days of the original citation"
       },
       "answer": "A",
-      "explanation": "Employees or their representative may \"file a written notice with the Area Director alleging that the period of time fixed in the citation for the abatement of the violation is unreasonable.\"",
+      "explanation": "\"Failure to file such objection within ten (10) working days of the date of posting of such petition or of service upon an authorized representative shall constitute a waiver of any further right to object to said petition.\"",
       "source": {
-        "title": "eCFR: 29 CFR 1903.17, Employer and employee contests before the Review Commission (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.17"
+        "title": "eCFR: 29 CFR 1903.14a, Petitions for modification of abatement date (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.14a"
       },
       "checked": "2026-11-05"
     },
@@ -250,7 +250,7 @@
         "D": "It does not stay the 15-working-day period"
       },
       "answer": "D",
-      "explanation": "\"No such conference or request for such conference shall operate as a stay of any 15-working-day period for filing a notice of intention to contest.\"",
+      "explanation": "\"No such conference or request for such conference shall operate as a stay of any 15-working-day period for filing a notice of intention to contest\".",
       "source": {
         "title": "eCFR: 29 CFR 1903.20, Informal conferences (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.20"
@@ -286,7 +286,7 @@
         "D": "It must keep records only for supervisors"
       },
       "answer": "B",
-      "explanation": "Such a company does \"not need to keep OSHA injury and illness records unless OSHA or the Bureau of Labor Statistics informs you in writing,\" but all covered employers \"must report to OSHA any work-related incident that results in a fatality, the in-patient hospitalization of one or more employees, an employee amputation, or an employee loss of an eye.\"",
+      "explanation": "Such a company does \"not need to keep OSHA injury and illness records unless OSHA or the Bureau of Labor Statistics informs you in writing\", but all covered employers \"must report to OSHA any work-related incident that results in a fatality, the in-patient hospitalization of one or more employees, an employee amputation, or an employee loss of an eye.\"",
       "source": {
         "title": "eCFR: 29 CFR 1904.1, Partial exemption for employers with 10 or fewer employees (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-B/section-1904.1"
@@ -296,15 +296,15 @@
     {
       "id": "io-017",
       "topic": "Recording cases",
-      "question": "What deadline does 1904.29 set for entering a recordable injury or illness on the OSHA 300 Log and 301 Incident Report?",
+      "question": "An employee is cut by a sharp object contaminated with another person's blood, and the case is recordable. What does 1904.29 say about the employee's name on the OSHA 300 Log?",
       "options": {
-        "A": "Within seven (7) calendar days of receiving information that it occurred",
-        "B": "Within 8 hours",
-        "C": "By February 1 of the next year",
-        "D": "Within 30 days of the employee returning to work"
+        "A": "It may not be entered, because this is a privacy concern case",
+        "B": "It must be entered in full so the case can be tracked",
+        "C": "Only the employee's initials are entered",
+        "D": "The employee's badge number replaces it"
       },
       "answer": "A",
-      "explanation": "\"You must enter each recordable injury or illness on the OSHA 300 Log and 301 Incident Report within seven (7) calendar days of receiving information that a recordable injury or illness has occurred.\"",
+      "explanation": "Cuts from sharp objects \"that are contaminated with another person's blood or other potentially infectious material\" are privacy concern cases, and for those \"you may not enter the employee's name on the OSHA 300 Log.\" The words privacy case go in the space normally used for the name.",
       "source": {
         "title": "eCFR: 29 CFR 1904.29, Forms (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-C/section-1904.29"
@@ -314,15 +314,15 @@
     {
       "id": "io-018",
       "topic": "Annual summary",
-      "question": "What posting dates does 1904.32 set for the annual summary of injuries and illnesses?",
+      "question": "Which person does 1904.32(b)(4) list as a company executive who may certify the annual summary?",
       "options": {
-        "A": "By January 1, until March 31",
-        "B": "By March 1, until June 30",
-        "C": "No later than April 30, until July 31",
-        "D": "No later than February 1 of the following year, until April 30"
+        "A": "The chair of the site safety committee",
+        "B": "Any first-line supervisor",
+        "C": "The company's outside accountant",
+        "D": "The highest ranking company official working at the establishment"
       },
       "answer": "D",
-      "explanation": "\"You must post the summary no later than February 1 of the year following the year covered by the records and keep the posting in place until April 30.\"",
+      "explanation": "The certifying company executive must be an owner (sole proprietorship or partnership only), an officer of the corporation, \"The highest ranking company official working at the establishment\", or that official's immediate supervisor.",
       "source": {
         "title": "eCFR: 29 CFR 1904.32, Annual summary (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-D/section-1904.32"
@@ -332,15 +332,15 @@
     {
       "id": "io-019",
       "topic": "Annual summary",
-      "question": "What retention period does 1904.33 set for the OSHA 300 Log, the privacy case list, the annual summary and the 301 forms?",
+      "question": "During the five-year storage period, which stored record must the employer update to include newly discovered recordable injuries or illnesses?",
       "options": {
-        "A": "One year after the case closes",
-        "B": "Five (5) years following the end of the calendar year the records cover",
-        "C": "Two years after the employee leaves",
-        "D": "Until the next OSHA inspection"
+        "A": "The annual summary only",
+        "B": "The OSHA 300 Logs",
+        "C": "The OSHA 301 Incident Reports only",
+        "D": "None, because stored records may not be changed"
       },
       "answer": "B",
-      "explanation": "These records must be saved \"for five (5) years following the end of the calendar year that these records cover.\"",
+      "explanation": "During the storage period \"you must update your stored OSHA 300 Logs to include newly discovered recordable injuries or illnesses\"; updating the annual summary and the 301 Incident Reports is not required.",
       "source": {
         "title": "eCFR: 29 CFR 1904.33, Retention and updating (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-D/section-1904.33"
@@ -350,15 +350,15 @@
     {
       "id": "io-020",
       "topic": "Reporting to OSHA",
-      "question": "A work-related incident results in an employee's in-patient hospitalization (a formal admission for care or treatment) on the same day as the incident. What deadline does 1904.39 set for reporting it to OSHA, counted from the hospitalization?",
+      "question": "An employer must report an employee's work-related in-patient hospitalization, and the nearest OSHA Area Office is closed. Which way of reporting does 1904.39 accept?",
       "options": {
-        "A": "Within eight (8) hours",
-        "B": "Within seven (7) calendar days",
-        "C": "Within twenty-four (24) hours",
-        "D": "Within thirty (30) days"
+        "A": "Leaving a message on the Area Office answering machine",
+        "B": "Faxing the Area Office",
+        "C": "Using the 800 number or the reporting application on OSHA's public Web site",
+        "D": "Sending an email to the Area Office"
       },
       "answer": "C",
-      "explanation": "\"Within twenty-four (24) hours after the in-patient hospitalization of one or more employees or an employee's amputation or an employee's loss of an eye,\" the employer must report it to OSHA. A fatality must be reported within eight (8) hours.",
+      "explanation": "\"No, if the Area Office is closed, you must report the fatality, in-patient hospitalization, amputation, or loss of an eye using either the 800 number or the reporting application located on OSHA's public Web site at www.osha.gov.\"",
       "source": {
         "title": "eCFR: 29 CFR 1904.39, Reporting fatalities, hospitalizations, amputations, and losses of an eye as a result of work-related incidents to OSHA (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-E/section-1904.39"

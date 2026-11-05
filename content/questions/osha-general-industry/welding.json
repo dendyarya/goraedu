@@ -8,15 +8,15 @@
     {
       "id": "wd-001",
       "topic": "Fire watch",
-      "question": "What distance does 1910.252(a)(2)(iii)(A)(1) set for the fire watch condition based on appreciable combustible material, in building construction or contents, near the point of operation?",
+      "question": "Appreciable combustibles are more than 35 feet from the point of operation. Under 1910.252(a)(2)(iii)(A)(2), when are fire watchers still required?",
       "options": {
-        "A": "10 feet",
-        "B": "35 feet (10.7 m)",
-        "C": "75 feet",
-        "D": "100 feet"
+        "A": "Only when the welder works alone",
+        "B": "When the combustibles are easily ignited by sparks",
+        "C": "Only when the welding job lasts more than one hour",
+        "D": "Never, once combustibles are beyond 35 feet"
       },
       "answer": "B",
-      "explanation": "One condition requiring fire watchers is \"Appreciable combustible material, in building construction or contents, closer than 35 feet (10.7 m) to the point of operation.\"",
+      "explanation": "One of the listed conditions is: \"Appreciable combustibles are more than 35 feet (10.7 m) away but are easily ignited by sparks.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
@@ -26,15 +26,15 @@
     {
       "id": "wd-002",
       "topic": "Fire watch",
-      "question": "What minimum time does 1910.252(a)(2)(iii)(B) set for keeping a fire watch after welding or cutting is completed?",
+      "question": "Which of these does 1910.252(a)(2)(iii)(B) require of fire watchers?",
       "options": {
-        "A": "5 minutes",
-        "B": "10 minutes",
-        "C": "15 minutes",
-        "D": "At least a half hour"
+        "A": "A state firefighter certification",
+        "B": "A position at least 35 feet from the work",
+        "C": "Holding the written welding permit",
+        "D": "Fire extinguishing equipment readily available, and training in its use"
       },
       "answer": "D",
-      "explanation": "\"A fire watch shall be maintained for at least a half hour after completion of welding or cutting operations to detect and extinguish possible smoldering fires.\"",
+      "explanation": "\"Fire watchers shall have fire extinguishing equipment readily available and be trained in its use.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
@@ -224,15 +224,15 @@
     {
       "id": "wd-013",
       "topic": "Ventilation and confined spaces",
-      "question": "What minimum rate does 1910.252(c)(2)(ii) set for the mechanical ventilation required by 1910.252(c)(2)(i), where local exhaust hoods and booths or approved airline respirators are not provided?",
+      "question": "1910.252(c)(1)(i) bases its ventilation requirements on three factors that govern the amount of contamination welders may be exposed to. Which is one of them?",
       "options": {
-        "A": "2,000 cubic feet (57 m3) per minute per welder",
-        "B": "200 cubic feet per minute per welder",
-        "C": "500 cubic feet per minute per welder",
-        "D": "1,000 cubic feet per minute per welder"
+        "A": "The number of welders",
+        "B": "The outdoor air temperature",
+        "C": "The length of the welding cable",
+        "D": "The welder's years of experience"
       },
       "answer": "A",
-      "explanation": "\"Such ventilation shall be at the minimum rate of 2,000 cubic feet (57 m3) per minute per welder,\" except where local exhaust hoods and booths or approved airline respirators are provided.",
+      "explanation": "The three factors are the \"Dimensions of space in which welding is to be done (with special regard to height of ceiling)\", the \"Number of welders\", and the \"Possible evolution of hazardous fumes, gases, or dust according to the metals involved\".",
       "source": {
         "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
@@ -242,15 +242,15 @@
     {
       "id": "wd-014",
       "topic": "Ventilation and confined spaces",
-      "question": "What does 1910.252(c)(4)(v) say about using oxygen for ventilation?",
+      "question": "What does 1910.252(b)(4)(ii) say about ventilation for welding in confined spaces?",
       "options": {
-        "A": "It may be used in confined spaces if an attendant is outside",
-        "B": "It may be used when airline respirators are not available",
-        "C": "It may be used at low flow rates",
-        "D": "Oxygen shall never be used for ventilation"
+        "A": "It is optional when the job lasts less than one hour",
+        "B": "It replaces the need for an attendant outside the space",
+        "C": "It is needed only for gas welding, not arc welding",
+        "D": "Ventilation is a prerequisite to work in confined spaces"
       },
       "answer": "D",
-      "explanation": "\"Oxygen shall never be used for ventilation.\"",
+      "explanation": "The rule states: \"Ventilation is a prerequisite to work in confined spaces.\" The ventilation requirements themselves are in paragraph (c).",
       "source": {
         "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
@@ -260,15 +260,15 @@
     {
       "id": "wd-015",
       "topic": "Ventilation and confined spaces",
-      "question": "When welding or cutting is done in a confined space, where does 1910.252(b)(4)(iii) require the gas cylinders and welding machines to be?",
+      "question": "Welding in a confined space is finished, and the metal is still hot. What does 1910.252(b)(4)(vii) require of the welder?",
       "options": {
-        "A": "Inside, next to the welder",
-        "B": "Inside, at the far end of the space",
-        "C": "Left on the outside",
-        "D": "Inside, near the entry opening"
+        "A": "Cool the metal with a jet of oxygen",
+        "B": "Cover the metal with a canvas tarp",
+        "C": "Mark the hot metal or provide some other means of warning other workers",
+        "D": "Nothing; hot metal needs no warning once the arc is off"
       },
       "answer": "C",
-      "explanation": "\"When welding or cutting is being performed in any confined spaces the gas cylinders and welding machines shall be left on the outside.\"",
+      "explanation": "\"After welding operations are completed, the welder shall mark the hot metal or provide some other means of warning other workers.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
@@ -278,15 +278,15 @@
     {
       "id": "wd-016",
       "topic": "Oxygen-fuel gas cylinders",
-      "question": "What gauge pressure limit does 1910.253(a)(2) set for generating, piping (except in approved cylinder manifolds) or using acetylene?",
+      "question": "How does 1910.253(b)(1)(ii) require a compressed gas cylinder to be marked to identify its gas content?",
       "options": {
-        "A": "25 psig",
-        "B": "15 psig (103 kPa gauge pressure)",
-        "C": "50 psig",
-        "D": "100 psig"
+        "A": "By the color of the cylinder alone",
+        "B": "With the chemical or trade name of the gas, by stenciling, stamping or labeling that is not readily removable",
+        "C": "With a paper tag tied loosely to the valve",
+        "D": "With the date of the last refill only"
       },
       "answer": "B",
-      "explanation": "\"Under no condition shall acetylene be generated, piped (except in approved cylinder manifolds) or utilized at a pressure in excess of 15 psig (103 kPa gauge pressure) or 30 psia (206 kPa absolute).\"",
+      "explanation": "Cylinders \"shall be legibly marked, for the purpose of identifying the gas content, with either the chemical or the trade name of the gas. Such marking shall be by means of stenciling, stamping, or labeling, and shall not be readily removable.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.253, Oxygen-fuel gas welding and cutting (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.253"
@@ -296,15 +296,15 @@
     {
       "id": "wd-017",
       "topic": "Oxygen-fuel gas cylinders",
-      "question": "Oxygen cylinders in storage must be separated from fuel-gas cylinders by a minimum distance of 20 feet or by which alternative?",
+      "question": "A cylinder cannot be kept far enough from a cutting operation that sparks, hot slag or flame will not reach it. What does 1910.253(b)(5)(ii)(I) require?",
       "options": {
-        "A": "A wooden partition at least 5 feet high",
-        "B": "A noncombustible barrier 3 feet high with a 10-minute fire-resistance rating",
-        "C": "A noncombustible barrier at least 5 feet (1.5 m) high having a fire-resistance rating of at least one-half hour",
-        "D": "A chain-link fence of any height"
+        "A": "Wrapping the cylinder in a wet rag",
+        "B": "Laying the cylinder on its side",
+        "C": "Providing fire-resistant shields",
+        "D": "Keeping the cylinder valve half open"
       },
       "answer": "C",
-      "explanation": "They must be separated \"a minimum distance of 20 feet (6.1 m) or by a noncombustible barrier at least 5 feet (1.5 m) high having a fire-resistance rating of at least one-half hour.\"",
+      "explanation": "\"Cylinders shall be kept far enough away from the actual welding or cutting operation so that sparks, hot slag, or flame will not reach them, or fire-resistant shields shall be provided.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.253, Oxygen-fuel gas welding and cutting (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.253"
@@ -314,15 +314,15 @@
     {
       "id": "wd-018",
       "topic": "Oxygen-fuel gas cylinders",
-      "question": "How does 1910.253(b)(3)(ii) require acetylene cylinders to be stored?",
+      "question": "Oxygen cylinders are stored in an outside generator house. What must separate them from the generator or carbide storage rooms under 1910.253(b)(4)(ii)?",
       "options": {
-        "A": "Valve end up",
-        "B": "Lying on their side",
-        "C": "Valve end down",
-        "D": "In a locked cupboard with no ventilation"
+        "A": "A noncombustible, gastight partition without openings, having a fire-resistance rating of at least 1 hour",
+        "B": "A chain-link fence",
+        "C": "A curtain of fire-resistant cloth",
+        "D": "A wooden partition with a self-closing door"
       },
       "answer": "A",
-      "explanation": "\"Acetylene cylinders shall be stored valve end up.\"",
+      "explanation": "They \"shall be separated from the generator or carbide storage rooms by a noncombustible partition having a fire-resistance rating of at least 1 hour. This partition shall be without openings and shall be gastight.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.253, Oxygen-fuel gas welding and cutting (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.253"

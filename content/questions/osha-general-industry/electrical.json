@@ -8,15 +8,15 @@
     {
       "id": "ge-001",
       "topic": "Working space and guarding",
-      "question": "For electric equipment at 600 volts or less that is likely to be serviced while energized, how wide must the working space in front of the equipment be under 1910.303(g)(1)(i)(B)?",
+      "question": "Apart from its width, what must the working space in front of electric equipment of 600 volts or less that is likely to be serviced while energized permit, under 1910.303(g)(1)(i)(B)?",
       "options": {
-        "A": "24 in., regardless of the equipment's width",
-        "B": "The width of the equipment or 30 in., whichever is greater",
-        "C": "18 in., regardless of the equipment's width",
-        "D": "The width of the equipment or 30 in., whichever is smaller"
+        "A": "An opening of equipment doors of no more than 45 degrees, so the doors do not block the aisle",
+        "B": "At least a 90-degree opening of equipment doors or hinged panels",
+        "C": "Storage of spare parts beside the equipment",
+        "D": "Removal of the equipment without disconnecting it"
       },
       "answer": "B",
-      "explanation": "The width of the working space \"shall be the width of the equipment or 762 mm (30 in.), whichever is greater.\"",
+      "explanation": "After setting the width, the rule says \"In all cases, the working space shall permit at least a 90-degree opening of equipment doors or hinged panels.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
@@ -26,15 +26,15 @@
     {
       "id": "ge-002",
       "topic": "Working space and guarding",
-      "question": "What does 1910.303(g)(1)(ii) say about using the working space required around electric equipment for storage?",
+      "question": "What does 1910.303(g)(1)(v) say about controlling the illumination in electric equipment rooms?",
       "options": {
-        "A": "Storage is allowed if the stored items are nonconductive",
-        "B": "Storage is allowed while the equipment is deenergized",
-        "C": "Storage is allowed up to 6 inches in front of the equipment",
-        "D": "The required working space may not be used for storage"
+        "A": "It must be controlled by motion sensors only",
+        "B": "It must be switched from outside the building",
+        "C": "It must be on a timer that turns the lights off after 10 minutes",
+        "D": "It may not be controlled by automatic means only"
       },
       "answer": "D",
-      "explanation": "The rule states: \"Working space required by this standard may not be used for storage.\"",
+      "explanation": "Illumination must be provided for working spaces about service equipment, switchboards, panelboards, and motor control centers installed indoors, and \"In electric equipment rooms, the illumination may not be controlled by automatic means only.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.303, General (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.303"
@@ -80,15 +80,15 @@
     {
       "id": "ge-005",
       "topic": "Grounding and GFCI protection",
-      "question": "For electrical installations made after August 13, 2007, which receptacles does 1910.304(b)(3)(i) say must have ground-fault circuit-interrupter protection for personnel?",
+      "question": "No grounding means exists in a receptacle enclosure, and a nongrounding-type receptacle is replaced with a grounding-type receptacle supplied through a ground-fault circuit-interrupter. How must the replacement receptacle be marked under 1910.304(b)(2)(iv)(C)(3)?",
       "options": {
-        "A": "125-volt, single-phase, 15- and 20-ampere receptacles in bathrooms or on rooftops",
-        "B": "Permanently wired 240-volt receptacles in offices",
-        "C": "Permanently wired 30-ampere receptacles in hallways",
-        "D": "Permanently wired receptacles mounted more than 8 feet above the floor"
+        "A": "\"GFCI Protected\" and \"No Equipment Ground\"",
+        "B": "\"Grounded Outlet\"",
+        "C": "\"Temporary Use Only\"",
+        "D": "No marking is required"
       },
       "answer": "A",
-      "explanation": "\"All 125-volt, single-phase, 15- and 20-ampere receptacles installed in bathrooms or on rooftops shall have ground-fault circuit-interrupter protection for personnel.\" Section 1910.302 lists this requirement among those that \"apply only to electrical installations and utilization equipment installed after August 13, 2007.\"",
+      "explanation": "Such a receptacle may be used \"where supplied through a ground-fault circuit-interrupter; the replacement receptacle shall be marked “GFCI Protected” and “No Equipment Ground;”\" and an equipment grounding conductor may not be connected to it.",
       "source": {
         "title": "eCFR: 29 CFR 1910.304, Wiring design and protection (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.304"
@@ -98,15 +98,15 @@
     {
       "id": "ge-006",
       "topic": "Grounding and GFCI protection",
-      "question": "Under an assured equipment grounding conductor program required by 1910.304(b)(3)(ii)(C), cord sets that are not fixed must be retested at intervals not exceeding how long?",
+      "question": "How long must the test record of an assured equipment grounding conductor program under 1910.304(b)(3)(ii)(C)(6) be maintained?",
       "options": {
-        "A": "12 months",
-        "B": "3 months",
-        "C": "6 months",
-        "D": "18 months"
+        "A": "5 years",
+        "B": "Until replaced by a more current record",
+        "C": "For the life of the equipment",
+        "D": "30 days after the last test"
       },
       "answer": "B",
-      "explanation": "Tests are required \"at intervals not to exceed 3 months, except that cord sets and receptacles which are fixed and not exposed to damage shall be tested at intervals not exceeding 6 months.\"",
+      "explanation": "The record \"shall be kept by means of logs, color coding, or other effective means and shall be maintained until replaced by a more current record.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.304, Wiring design and protection (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.304"
@@ -116,15 +116,15 @@
     {
       "id": "ge-007",
       "topic": "Portable equipment and PPE",
-      "question": "What does 1910.334(a)(1) say about using a flexible cord connected to equipment to raise or lower that equipment?",
+      "question": "Before an attachment plug is connected to a receptacle, what does 1910.334(a)(2)(iii) require to be checked first?",
       "options": {
-        "A": "It is allowed if the equipment weighs under 50 pounds",
-        "B": "It is allowed if the cord is hard-service cord",
-        "C": "It is allowed once the cord is unplugged",
-        "D": "Flexible cords connected to equipment may not be used for raising or lowering it"
+        "A": "That the circuit is rated over 30 amperes",
+        "B": "That the cord is at least 25 feet long",
+        "C": "That the receptacle cover has been painted orange",
+        "D": "That the plug and receptacle contacts are of proper mating configurations"
       },
       "answer": "D",
-      "explanation": "The rule states: \"Flexible electric cords connected to equipment may not be used for raising or lowering the equipment.\"",
+      "explanation": "When an attachment plug is to be connected to a receptacle, \"the relationship of the plug and receptacle contacts shall first be checked to ensure that they are of proper mating configurations.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.334, Use of equipment (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.334"
@@ -134,15 +134,15 @@
     {
       "id": "ge-008",
       "topic": "Flexible cords and temporary wiring",
-      "question": "Unless specifically permitted otherwise in 1910.305(g)(1)(ii), which use of flexible cords and cables does 1910.305(g)(1)(iv) prohibit?",
+      "question": "How does 1910.305(g)(2)(iii) require flexible cords and cables to be connected to devices and fittings?",
       "options": {
-        "A": "Connection of portable lamps or appliances",
-        "B": "Wiring of cranes and hoists",
-        "C": "Use as a substitute for the fixed wiring of a structure",
-        "D": "Pendants"
+        "A": "With the outer jacket removed at the point of connection",
+        "B": "By twisting the conductors together and wrapping them with tape",
+        "C": "So that strain relief is provided that will prevent pull from being directly transmitted to joints or terminal screws",
+        "D": "So that the terminal screws carry the weight of the cord"
       },
       "answer": "C",
-      "explanation": "Flexible cords and cables may not be used \"As a substitute for the fixed wiring of a structure.\" The other three are on the list of permitted uses in 1910.305(g)(1)(ii).",
+      "explanation": "The rule says \"Flexible cords and cables shall be connected to devices and fittings so that strain relief is provided that will prevent pull from being directly transmitted to joints or terminal screws.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
@@ -152,15 +152,15 @@
     {
       "id": "ge-009",
       "topic": "Flexible cords and temporary wiring",
-      "question": "Under 1910.305(a)(2)(i)(B), temporary power and lighting of 600 volts or less for Christmas decorative lighting, carnivals and similar purposes may be used for a period not to exceed how long?",
+      "question": "When does 1910.305(a)(2)(ii) require temporary wiring to be removed?",
       "options": {
-        "A": "90 days",
-        "B": "120 days",
-        "C": "180 days",
-        "D": "1 year"
+        "A": "Immediately upon completion of the project or purpose for which the wiring was installed",
+        "B": "Within 30 days after the project ends",
+        "C": "At the next annual electrical inspection",
+        "D": "Only when the wiring is damaged"
       },
       "answer": "A",
-      "explanation": "Temporary installations may be used \"For a period not to exceed 90 days for Christmas decorative lighting, carnivals, and similar purposes.\"",
+      "explanation": "The rule says \"Temporary wiring shall be removed immediately upon completion of the project or purpose for which the wiring was installed.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
@@ -170,15 +170,15 @@
     {
       "id": "ge-010",
       "topic": "Flexible cords and temporary wiring",
-      "question": "Which flexible cords does 1910.305(g)(2)(ii) allow to be repaired by splicing?",
+      "question": "Under 1910.305(a)(2)(ix), how must lamps for general illumination on temporary wiring be protected?",
       "options": {
-        "A": "Any cord, if the splice is wrapped with electrical tape",
-        "B": "Only cords smaller than No. 14",
-        "C": "Only cords used for temporary wiring",
-        "D": "Hard-service and junior hard-service cord No. 14 and larger, if the splice keeps the cord's insulation, sheath properties and usage characteristics"
+        "A": "By hanging them at least 6 feet above the floor, with no other protection",
+        "B": "By painting the bulbs with a protective coating",
+        "C": "By using only LED lamps",
+        "D": "By a suitable fixture or lampholder with a guard, against accidental contact or breakage"
       },
       "answer": "D",
-      "explanation": "Flexible cords are used \"only in continuous lengths without splice or tap,\" but \"Hard-service cord and junior hard-service cord No. 14 and larger may be repaired if spliced so that the splice retains the insulation, outer sheath properties, and usage characteristics of the cord being spliced.\"",
+      "explanation": "The rule says \"All lamps for general illumination shall be protected from accidental contact or breakage by a suitable fixture or lampholder with a guard.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.305, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.305"
@@ -296,15 +296,15 @@
     {
       "id": "ge-017",
       "topic": "Work near energized parts and overhead lines",
-      "question": "An unqualified person is working in an elevated position near an unguarded, energized overhead line of 50kV or below to ground. Under 1910.333(c)(3)(i)(A), how close may the person and the longest conductive object he or she may contact come to the line?",
+      "question": "Under the note to 1910.333(c)(3)(i)(B), how are objects that do not have an insulating rating for the voltage involved treated near overhead power lines?",
       "options": {
-        "A": "No closer than 10 ft. (305 cm)",
-        "B": "No closer than 3 ft.",
-        "C": "No closer than 4 ft.",
-        "D": "No closer than 6 ft."
+        "A": "They are considered to be conductive",
+        "B": "They are considered insulating if they are made of wood",
+        "C": "They are considered insulating if they are dry",
+        "D": "They are disregarded if they are shorter than 10 feet"
       },
       "answer": "A",
-      "explanation": "The distance is \"For voltages to ground 50kV or below—10 ft. (305 cm).\"",
+      "explanation": "The note says \"For voltages normally encountered with overhead power lines, objects which do not have an insulating rating for the voltage involved are considered to be conductive.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
@@ -314,15 +314,15 @@
     {
       "id": "ge-018",
       "topic": "Work near energized parts and overhead lines",
-      "question": "For an unqualified person working in an elevated position near an overhead line over 50kV to ground, what minimum distance does 1910.333(c)(3)(i)(A)(2) set?",
+      "question": "A vehicle with a boom that can be raised near energized overhead lines is intentionally grounded. Under 1910.333(c)(3)(iii)(C), where may employees working on the ground not stand whenever there is a possibility of overhead line contact?",
       "options": {
-        "A": "10 ft., regardless of voltage",
-        "B": "4 ft. plus 4 in. for every 10kV over 50kV",
-        "C": "10 ft. minus 4 in. for every 10kV over 50kV",
-        "D": "10 ft. plus 4 in. for every 10kV over 50kV"
+        "A": "More than 50 feet from the vehicle",
+        "B": "Upwind of the vehicle",
+        "C": "On the far side of the vehicle's cab",
+        "D": "At the grounding location"
       },
       "answer": "D",
-      "explanation": "\"For voltages to ground over 50kV—10 ft. (305 cm) plus 4 in. (10 cm) for every 10kV over 50kV.\"",
+      "explanation": "In that case \"employees working on the ground near the point of grounding may not stand at the grounding location whenever there is a possibility of overhead line contact.\" Additional precautions such as barricades or insulation are also required to protect against hazardous ground potentials.",
       "source": {
         "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
@@ -332,15 +332,15 @@
     {
       "id": "ge-019",
       "topic": "Work near energized parts and overhead lines",
-      "question": "Under 1910.333(c)(7), what must portable ladders have if they are used where the employee or the ladder could contact exposed energized parts?",
+      "question": "An employee wearing a metal watch band will work where the band might contact exposed energized parts. What does 1910.333(c)(8) allow?",
       "options": {
-        "A": "Aluminum siderails",
-        "B": "A grounding strap",
-        "C": "Nonconductive siderails",
-        "D": "Steel rungs"
+        "A": "Wearing it if the band is less than 1 inch wide",
+        "B": "Wearing it if the circuit is 600 volts or less",
+        "C": "Wearing it only if it is rendered nonconductive by covering, wrapping, or other insulating means",
+        "D": "Wearing it if the employee also wears leather work gloves"
       },
       "answer": "C",
-      "explanation": "\"Portable ladders shall have nonconductive siderails if they are used where the employee or the ladder could contact exposed energized parts.\"",
+      "explanation": "Conductive articles of jewelry and clothing such as watch bands \"may not be worn if they might contact exposed energized parts. However, such articles may be worn if they are rendered nonconductive by covering, wrapping, or other insulating means.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.333, Selection and use of work practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.333"
@@ -350,15 +350,15 @@
     {
       "id": "ge-020",
       "topic": "Portable equipment and PPE",
-      "question": "How often does 1910.334(a)(2)(i) require portable cord- and plug-connected equipment and extension cords to be visually inspected, apart from items that stay connected and are not exposed to damage?",
+      "question": "What does 1910.334(a)(3)(iii) say about adapters that interrupt the continuity of the equipment grounding connection?",
       "options": {
-        "A": "Once a month",
-        "B": "Before use on any shift",
-        "C": "Once a year",
-        "D": "Only after a reported failure"
+        "A": "They are allowed on 125-volt circuits only",
+        "B": "They may not be used",
+        "C": "They are allowed if a ground-fault circuit-interrupter is present",
+        "D": "They are allowed on extension cords shorter than 25 feet"
       },
       "answer": "B",
-      "explanation": "Such equipment and cord sets \"shall be visually inspected before use on any shift for external defects\" and for evidence of possible internal damage.",
+      "explanation": "The rule says \"Adapters which interrupt the continuity of the equipment grounding connection may not be used.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.334, Use of equipment (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.334"

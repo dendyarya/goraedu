@@ -8,15 +8,15 @@
     {
       "id": "mg-001",
       "topic": "General machine guarding",
-      "question": "Under 1910.212, what is the \"point of operation\" of a machine?",
+      "question": "For some reason a machine guard cannot be attached to the machine itself. What does 1910.212(a)(2) require?",
       "options": {
-        "A": "The location of the machine's main power switch",
-        "B": "The area on a machine where work is actually performed upon the material being processed",
-        "C": "The spot where the machine is anchored to the floor",
-        "D": "The aisle where the operator stands to load material"
+        "A": "The machine may run without that guard",
+        "B": "The guard must be secured elsewhere",
+        "C": "The operator must hold the guard in place by hand",
+        "D": "A warning sign may be posted in place of the guard"
       },
       "answer": "B",
-      "explanation": "1910.212(a)(3)(i) defines it: \"Point of operation is the area on a machine where work is actually performed upon the material being processed.\"",
+      "explanation": "\"Guards shall be affixed to the machine where possible and secured elsewhere if for any reason attachment to the machine is not possible.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.212, General requirements for all machines (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.212"
@@ -26,15 +26,15 @@
     {
       "id": "mg-002",
       "topic": "General machine guarding",
-      "question": "1910.212(a)(5) sets a height limit for fan blades: the blades must be guarded when their periphery is less than this height above the floor or working level. What is that height?",
+      "question": "How must a revolving drum, barrel or container be guarded under 1910.212(a)(4)?",
       "options": {
-        "A": "4 feet",
-        "B": "5 feet",
-        "C": "6 feet",
-        "D": "7 feet"
+        "A": "With a painted floor line around it",
+        "B": "With a sign telling employees to keep clear",
+        "C": "With a railing at least 7 feet away",
+        "D": "With an enclosure interlocked with the drive mechanism, so it cannot revolve unless the guard enclosure is in place"
       },
       "answer": "D",
-      "explanation": "\"When the periphery of the blades of a fan is less than seven (7) feet above the floor or working level, the blades shall be guarded.\" The guard's openings may be no larger than 1/2 inch.",
+      "explanation": "\"Revolving drums, barrels, and containers shall be guarded by an enclosure which is interlocked with the drive mechanism, so that the barrel, drum, or container cannot revolve unless the guard enclosure is in place.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.212, General requirements for all machines (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.212"
@@ -44,15 +44,15 @@
     {
       "id": "mg-003",
       "topic": "General machine guarding",
-      "question": "What role does 1910.212 give special hand tools used for placing and removing material?",
+      "question": "Under the general requirements for machine guards in 1910.212(a)(2), what must a guard itself not do?",
       "options": {
-        "A": "They can only supplement the protection provided, not replace required guarding",
-        "B": "They may replace the guard once the operator is trained in their use",
-        "C": "They replace guarding on any machine that runs below full speed",
-        "D": "They are required in place of guards on power saws"
+        "A": "Offer an accident hazard in itself",
+        "B": "Be attached to the machine",
+        "C": "Be made of metal",
+        "D": "Stay in place while the machine runs"
       },
       "answer": "A",
-      "explanation": "Special hand tools must let the operator handle material without placing a hand in the danger zone, but \"Such tools shall not be in lieu of other guarding required by this section, but can only be used to supplement protection provided.\"",
+      "explanation": "The paragraph states: \"The guard shall be such that it does not offer an accident hazard in itself.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.212, General requirements for all machines (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.212"
@@ -134,15 +134,15 @@
     {
       "id": "mg-008",
       "topic": "Woodworking inspection and maintenance",
-      "question": "A jointer's knife blade must be installed and adjusted so that it protrudes no more than how far beyond the cylindrical body of the head?",
+      "question": "Gum has adhered to the sides of a woodworking saw. What does 1910.213(s)(1) require?",
       "options": {
-        "A": "1/4 inch",
-        "B": "1/2 inch",
-        "C": "1 inch",
-        "D": "1/8 inch"
+        "A": "The saw may run until the end of the shift",
+        "B": "The saw must be run at reduced speed",
+        "C": "The saw must be sprayed with oil while running",
+        "D": "The saw shall be immediately cleaned"
       },
       "answer": "D",
-      "explanation": "\"The knife blade of jointers shall be so installed and adjusted that it does not protrude more than one-eighth inch beyond the cylindrical body of the head.\"",
+      "explanation": "1910.213(s)(1) states: \"Saws to which gum has adhered on the sides shall be immediately cleaned.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.213, Woodworking machinery requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.213"
@@ -170,15 +170,15 @@
     {
       "id": "mg-010",
       "topic": "Abrasive wheels",
-      "question": "On an offhand grinding machine, what is the maximum opening between the work rest and the wheel?",
+      "question": "Which of these does 1910.215(a)(5) exclude from the abrasive wheel machinery section?",
       "options": {
-        "A": "1/8 inch",
-        "B": "1/4 inch",
-        "C": "1/2 inch",
-        "D": "1 inch"
+        "A": "Natural sandstone wheels",
+        "B": "Cup wheels (Types 6 and 11)",
+        "C": "Wheels used on bench and floor stands",
+        "D": "Wheels mounted on portable grinders"
       },
       "answer": "A",
-      "explanation": "Work rests \"shall be kept adjusted closely to the wheel with a maximum opening of one-eighth inch to prevent the work from being jammed between the wheel and the rest, which may cause wheel breakage.\"",
+      "explanation": "Under \"Excluded machinery\", \"Natural sandstone wheels and metal, wooden, cloth, or paper discs, having a layer of abrasive on the surface are not covered by this section.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.215, Abrasive wheel machinery (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.215"
@@ -188,15 +188,15 @@
     {
       "id": "mg-011",
       "topic": "Abrasive wheels",
-      "question": "On bench and floor stand guards where the operator stands in front of the opening, the distance between the wheel periphery and the adjustable tongue must never exceed what?",
+      "question": "Under 1910.215(a)(4), when may the work rest of an offhand grinding machine be adjusted?",
       "options": {
-        "A": "1/2 inch",
-        "B": "1 inch",
-        "C": "1/4 inch",
-        "D": "2 inches"
+        "A": "While the wheel runs at full speed",
+        "B": "While the wheel is coasting down after shutoff",
+        "C": "Only when the wheel is not in motion",
+        "D": "At any time, if the operator wears a face shield"
       },
       "answer": "C",
-      "explanation": "Under 1910.215(b)(9), \"the distance between the wheel periphery and the adjustable tongue or the end of the peripheral member at the top shall never exceed one-fourth inch.\"",
+      "explanation": "\"The work rest shall be securely clamped after each adjustment. The adjustment shall not be made with the wheel in motion.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.215, Abrasive wheel machinery (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.215"
@@ -206,15 +206,15 @@
     {
       "id": "mg-012",
       "topic": "Mounting abrasive wheels",
-      "question": "When must an abrasive wheel be closely inspected and sounded by the user (the ring test)?",
+      "question": "Before an abrasive wheel is mounted, 1910.215(d)(1) requires the spindle speed of the machine to be checked. What must the check make certain of?",
       "options": {
-        "A": "Once a year",
-        "B": "Immediately before mounting",
-        "C": "Only when it is first delivered",
-        "D": "After every 8 hours of grinding"
+        "A": "That it matches the speed of the nearest other grinder",
+        "B": "That it does not exceed the maximum operating speed marked on the wheel",
+        "C": "That it is at least twice the speed marked on the wheel",
+        "D": "That it is 10 percent above the speed marked on the wheel"
       },
       "answer": "B",
-      "explanation": "\"Immediately before mounting, all wheels shall be closely inspected and sounded by the user (ring test) to make sure they have not been damaged in transit, storage, or otherwise.\"",
+      "explanation": "\"The spindle speed of the machine shall be checked before mounting of the wheel to be certain that it does not exceed the maximum operating speed marked on the wheel.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.215, Abrasive wheel machinery (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.215"
@@ -242,15 +242,15 @@
     {
       "id": "mg-014",
       "topic": "Mechanical power presses",
-      "question": "The employer's duty to provide point of operation guards or devices on a mechanical power press does not apply when the point of operation opening is what size?",
+      "question": "How does 1910.217(b)(4)(i) require the pedal mechanism of a mechanical power press to be protected?",
       "options": {
-        "A": "One-fourth inch or less",
-        "B": "One inch or less",
-        "C": "Two inches or less",
-        "D": "Six inches or less"
+        "A": "To prevent unintended operation from falling or moving objects or by accidental stepping onto the pedal",
+        "B": "By painting the pedal yellow",
+        "C": "By removing the pedal during die setup only",
+        "D": "By placing the pedal at least 10 feet from the press"
       },
       "answer": "A",
-      "explanation": "1910.217(c)(1)(ii) says the requirement \"shall not apply when the point of operation opening is one-fourth inch or less.\"",
+      "explanation": "\"The pedal mechanism shall be protected to prevent unintended operation from falling or moving objects or by accidental stepping onto the pedal.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.217, Mechanical power presses (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.217"
@@ -296,15 +296,15 @@
     {
       "id": "mg-017",
       "topic": "Power-transmission apparatus",
-      "question": "1910.219(c)(2)(i) sets a distance for horizontal shafting: exposed parts this far or less from the floor or working platform (other than runways used exclusively for oiling or running adjustments) must be protected. What is that distance?",
+      "question": "A flywheel is located above a working area. What does 1910.219(b)(1)(vi) require of the guards installed?",
       "options": {
-        "A": "4 feet",
-        "B": "5 feet",
-        "C": "7 feet",
-        "D": "6 feet"
+        "A": "That they be painted a warning color",
+        "B": "That they include a clear plastic window for inspection",
+        "C": "That they have sufficient strength to hold the weight of the flywheel in the event of a shaft or wheel mounting failure",
+        "D": "That they be removable while the flywheel turns"
       },
       "answer": "C",
-      "explanation": "\"All exposed parts of horizontal shafting seven (7) feet or less from floor or working platform, excepting runways used exclusively for oiling, or running adjustments, shall be protected\" by a stationary casing or a trough.",
+      "explanation": "\"Wherever flywheels are above working areas, guards shall be installed having sufficient strength to hold the weight of the flywheel in the event of a shaft or wheel mounting failure.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.219, Mechanical power-transmission apparatus (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.219"
@@ -332,15 +332,15 @@
     {
       "id": "mg-019",
       "topic": "Power-transmission apparatus",
-      "question": "Power-transmission equipment must be inspected at intervals not exceeding how long?",
+      "question": "Where explosives, explosive dusts, flammable vapors or flammable liquids exist, which hazard from shafting does 1910.219(p)(2)(ii) say shall be carefully considered?",
       "options": {
-        "A": "60 days",
-        "B": "90 days",
-        "C": "6 months",
-        "D": "1 year"
+        "A": "Static sparks",
+        "B": "Excess noise",
+        "C": "Glare from polished surfaces",
+        "D": "Vibration of the floor"
       },
       "answer": "A",
-      "explanation": "\"All power-transmission equipment shall be inspected at intervals not exceeding 60 days and be kept in good working condition at all times.\"",
+      "explanation": "\"Where explosives, explosive dusts, flammable vapors or flammable liquids exist, the hazard of static sparks from shafting shall be carefully considered.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.219, Mechanical power-transmission apparatus (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-O/section-1910.219"

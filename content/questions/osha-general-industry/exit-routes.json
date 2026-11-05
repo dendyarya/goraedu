@@ -8,15 +8,15 @@
     {
       "id": "er-001",
       "topic": "Coverage and definitions",
-      "question": "Under 1910.34, an exit route consists of which three parts?",
+      "question": "Under the 1910.34(c) definition of self-luminous, which of these is given as an example of a self-contained power source?",
       "options": {
-        "A": "A hallway, a stairwell and a parking lot",
-        "B": "The exit access, the exit and the exit discharge",
-        "C": "A door, a sign and a light",
-        "D": "The occupied room, the corridor and the fire door"
+        "A": "Batteries",
+        "B": "Tritium",
+        "C": "The building's electrical service",
+        "D": "Daylight from nearby windows"
       },
       "answer": "B",
-      "explanation": "\"An exit route consists of three parts: The exit access; the exit; and, the exit discharge.\"",
+      "explanation": "Self-luminous means \"a light source that is illuminated by a self-contained power source (e.g., tritium) and that operates independently from external power sources.\" The definition adds that batteries are not acceptable self-contained power sources.",
       "source": {
         "title": "eCFR: 29 CFR 1910.34, Coverage and definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-E/section-1910.34"
@@ -44,15 +44,15 @@
     {
       "id": "er-003",
       "topic": "Exit route design and construction",
-      "question": "An exit connects five stories. What fire resistance-rating must the construction materials separating it from other parts of the workplace have?",
+      "question": "What does 1910.36(a)(3) require of each fire door that protects an opening into an exit, including its frame and hardware?",
       "options": {
-        "A": "A two-hour fire resistance-rating",
-        "B": "A 30-minute fire resistance-rating",
-        "C": "A one-hour fire resistance-rating",
-        "D": "No fire resistance-rating"
+        "A": "It must be listed or approved by a nationally recognized testing laboratory",
+        "B": "It must be painted red",
+        "C": "It must be inspected by the local fire marshal every month",
+        "D": "It must be at least 3 inches thick"
       },
       "answer": "A",
-      "explanation": "The materials must have \"a one-hour fire resistance-rating if the exit connects three or fewer stories and a two-hour fire resistance-rating if the exit connects four or more stories.\"",
+      "explanation": "The rule says \"Each fire door, including its frame and hardware, must be listed or approved by a nationally recognized testing laboratory.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.36, Design and construction requirements for exit routes (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-E/section-1910.36"
@@ -62,15 +62,15 @@
     {
       "id": "er-004",
       "topic": "Exit route design and construction",
-      "question": "Apart from the single-exit-route case in 1910.36(b)(3), how many exit routes must be available in a workplace, and where?",
+      "question": "Exit stairs continue past the level on which the exit discharge is located. What does 1910.36(c)(3) require at that level?",
       "options": {
-        "A": "One exit route in every case",
-        "B": "Two exit routes placed side by side",
-        "C": "At least two, located as far away as practical from each other",
-        "D": "None, if the building has sprinklers"
+        "A": "Nothing, as long as the stairs are lighted",
+        "B": "A ramp in place of the lower flight",
+        "C": "Doors, partitions, or other effective means that interrupt the stairs and clearly indicate the direction of travel leading to the exit discharge",
+        "D": "A handrail extension, with nothing else"
       },
       "answer": "C",
-      "explanation": "\"At least two exit routes must be available in a workplace,\" except as allowed in (b)(3), and they \"must be located as far away as practical from each other so that if one exit route is blocked by fire or smoke, employees can evacuate using the second exit route.\"",
+      "explanation": "Such exit stairs \"must be interrupted at that level by doors, partitions, or other effective means that clearly indicate the direction of travel leading to the exit discharge.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.36, Design and construction requirements for exit routes (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-E/section-1910.36"
@@ -98,15 +98,15 @@
     {
       "id": "er-006",
       "topic": "Exit doors",
-      "question": "Under 1910.36(d), how must employees be able to open an exit route door from the inside?",
+      "question": "What does 1910.36(d)(2) say about devices and alarms on exit route doors?",
       "options": {
-        "A": "At all times, without keys, tools or special knowledge",
-        "B": "With a key kept at the front desk",
-        "C": "Only during working hours",
-        "D": "With a keypad code given to all employees"
+        "A": "The doors must be free of any device or alarm that could restrict emergency use of the exit route if the device or alarm fails",
+        "B": "Every exit route door must have an alarm that locks the door when it sounds",
+        "C": "A device may restrict use of the exit route if it is tested monthly",
+        "D": "Alarms may be fitted only to doors on the ground floor"
       },
       "answer": "A",
-      "explanation": "\"Employees must be able to open an exit route door from the inside at all times without keys, tools, or special knowledge.\"",
+      "explanation": "The rule says \"Exit route doors must be free of any device or alarm that could restrict emergency use of the exit route if the device or alarm fails.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.36, Design and construction requirements for exit routes (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-E/section-1910.36"
@@ -116,15 +116,15 @@
     {
       "id": "er-007",
       "topic": "Exit doors",
-      "question": "A room is designed to be occupied by more than 50 people. How must the door connecting it to an exit route work?",
+      "question": "A storage room used by 12 workers holds contents that are likely to burn with extreme rapidity. How must the side-hinged door connecting it to an exit route swing?",
       "options": {
-        "A": "It must swing inward, into the room",
-        "B": "It must be a sliding door",
-        "C": "It must be side-hinged and swing out in the direction of exit travel",
-        "D": "It must be a revolving door"
+        "A": "In either direction, because fewer than 50 people occupy the room",
+        "B": "Inward, to keep a fire inside the room",
+        "C": "Out in the direction of exit travel, because the room is a high hazard area",
+        "D": "In either direction, as long as the door is side-hinged"
       },
       "answer": "C",
-      "explanation": "\"A side-hinged door must be used to connect any room to an exit route,\" and it \"must swing out in the direction of exit travel if the room is designed to be occupied by more than 50 people.\"",
+      "explanation": "The door \"must swing out in the direction of exit travel if the room is designed to be occupied by more than 50 people or if the room is a high hazard area (i.e., contains contents that are likely to burn with extreme rapidity or explode).\" The high hazard condition applies whatever the number of occupants.",
       "source": {
         "title": "eCFR: 29 CFR 1910.36, Design and construction requirements for exit routes (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-E/section-1910.36"
@@ -152,15 +152,15 @@
     {
       "id": "er-009",
       "topic": "Exit route capacity, height and width",
-      "question": "What minimum ceiling height does 1910.36(g) set for an exit route?",
+      "question": "What does 1910.36(f)(2) say about the capacity of an exit route along the way to the exit discharge?",
       "options": {
-        "A": "Six feet",
-        "B": "Six feet eight inches",
-        "C": "Seven feet",
-        "D": "Seven feet six inches (2.3 m)"
+        "A": "It may decrease by up to half",
+        "B": "It must double at each floor",
+        "C": "It may decrease once the route passes the first fire door",
+        "D": "It may not decrease in the direction of exit route travel to the exit discharge"
       },
       "answer": "D",
-      "explanation": "\"The ceiling of an exit route must be at least seven feet six inches (2.3 m) high.\" Six feet eight inches is the lowest point a ceiling projection may reach above the floor.",
+      "explanation": "The rule says \"The capacity of an exit route may not decrease in the direction of exit route travel to the exit discharge.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.36, Design and construction requirements for exit routes (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-E/section-1910.36"
@@ -170,15 +170,15 @@
     {
       "id": "er-010",
       "topic": "Exit route capacity, height and width",
-      "question": "What minimum width does 1910.36(g) set for an exit access?",
+      "question": "Where only one exit access leads to an exit or exit discharge, how wide does 1910.36(g)(2) require the exit and exit discharge to be?",
       "options": {
-        "A": "18 inches at all points",
-        "B": "28 inches (71.1 cm) at all points",
-        "C": "22 inches at all points",
-        "D": "24 inches, except at doors"
+        "A": "At least half the width of the exit access",
+        "B": "At least equal to the width of the exit access",
+        "C": "At least 22 inches, whatever the exit access width",
+        "D": "Exactly 36 inches"
       },
       "answer": "B",
-      "explanation": "\"An exit access must be at least 28 inches (71.1 cm) wide at all points.\"",
+      "explanation": "\"Where there is only one exit access leading to an exit or exit discharge, the width of the exit and exit discharge must be at least equal to the width of the exit access.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.36, Design and construction requirements for exit routes (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-E/section-1910.36"
@@ -206,15 +206,15 @@
     {
       "id": "er-012",
       "topic": "Maintenance and safeguards",
-      "question": "Under 1910.37(a), may materials or equipment be placed within an exit route?",
+      "question": "Under 1910.37(a)(3), which way may an exit access not go to reach an exit or exit discharge?",
       "options": {
-        "A": "Yes, during a single shift",
-        "B": "Yes, if the area is marked with floor tape",
-        "C": "No, neither permanently nor temporarily",
-        "D": "Yes, for up to 30 minutes"
+        "A": "Along a corridor",
+        "B": "Down a ramp where the exit route is not substantially level",
+        "C": "Through a room that can be locked, such as a bathroom",
+        "D": "Past a doorway marked \"Not an Exit\""
       },
       "answer": "C",
-      "explanation": "\"Exit routes must be free and unobstructed. No materials or equipment may be placed, either permanently or temporarily, within the exit route.\"",
+      "explanation": "The rule says \"The exit access must not go through a room that can be locked, such as a bathroom, to reach an exit or exit discharge, nor may it lead into a dead-end corridor.\" It also requires stairs or a ramp where the route is not substantially level.",
       "source": {
         "title": "eCFR: 29 CFR 1910.37, Maintenance, safeguards, and operational features for exit routes (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-E/section-1910.37"
@@ -242,15 +242,15 @@
     {
       "id": "er-014",
       "topic": "Exit lighting and signs",
-      "question": "What minimum letter height does 1910.37(b) set for the word \"Exit\" on an exit sign?",
+      "question": "What does 1910.37(b)(3) say about decorations and signs on an exit route door?",
       "options": {
-        "A": "Six inches (15.2 cm)",
-        "B": "Two inches",
-        "C": "Three inches",
-        "D": "Four inches"
+        "A": "The door must be free of decorations or signs that obscure its visibility",
+        "B": "Seasonal decorations are allowed if they are fire retardant",
+        "C": "Any decoration is allowed if the exit sign above the door is lit",
+        "D": "Decorations are allowed on the inside face of the door only"
       },
       "answer": "A",
-      "explanation": "Each exit sign must have the word \"Exit\" \"in plainly legible letters not less than six inches (15.2 cm) high,\" with principal strokes \"not less than three-fourths of an inch (1.9 cm) wide.\"",
+      "explanation": "The rule says \"Each exit route door must be free of decorations or signs that obscure the visibility of the exit route door.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.37, Maintenance, safeguards, and operational features for exit routes (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-E/section-1910.37"
@@ -260,15 +260,15 @@
     {
       "id": "er-015",
       "topic": "Exit lighting and signs",
-      "question": "A closet door along an exit access could be mistaken for an exit. What does 1910.37(b) require?",
+      "question": "If the direction of travel to the exit or exit discharge is not immediately apparent, what does 1910.37(b)(4) require?",
       "options": {
-        "A": "Locking the closet door",
-        "B": "Marking it \"Not an Exit\" or similar, or with a sign indicating its actual use",
-        "C": "Painting it the same color as the wall",
-        "D": "Nothing, as long as the real exit is lit"
+        "A": "A floor plan handed to each employee at hire",
+        "B": "Signs posted along the exit access indicating the direction of travel to the nearest exit and exit discharge",
+        "C": "A second exit door next to the first",
+        "D": "An employee posted at each corner during an emergency"
       },
       "answer": "B",
-      "explanation": "Each doorway or passage along an exit access that could be mistaken for an exit must be marked \"Not an Exit\" or similar designation, \"or be identified by a sign indicating its actual use (e.g., closet).\"",
+      "explanation": "In that case \"signs must be posted along the exit access indicating the direction of travel to the nearest exit and exit discharge,\" and \"the line-of-sight to an exit sign must clearly be visible at all times.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.37, Maintenance, safeguards, and operational features for exit routes (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-E/section-1910.37"
@@ -278,15 +278,15 @@
     {
       "id": "er-016",
       "topic": "Emergency action plans",
-      "question": "Which employers may communicate an emergency action plan orally instead of in writing?",
+      "question": "What does 1910.38(e) require the employer to do so that an evacuation is safe and orderly?",
       "options": {
-        "A": "An employer with 25 or fewer employees",
-        "B": "An employer with 50 or fewer employees",
-        "C": "An employer with 10 or fewer employees",
-        "D": "Any employer in a one-story building"
+        "A": "Hire an outside evacuation company",
+        "B": "Hold an evacuation drill every month",
+        "C": "Designate and train employees to assist in a safe and orderly evacuation of other employees",
+        "D": "Install a public address system on every floor"
       },
       "answer": "C",
-      "explanation": "An emergency action plan \"must be in writing, kept in the workplace, and available to employees for review. However, an employer with 10 or fewer employees may communicate the plan orally to employees.\"",
+      "explanation": "Under the training paragraph, \"An employer must designate and train employees to assist in a safe and orderly evacuation of other employees.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.38, Emergency action plans (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-E/section-1910.38"
@@ -314,15 +314,15 @@
     {
       "id": "er-018",
       "topic": "Emergency action plans",
-      "question": "Which item is one of the minimum elements of an emergency action plan under 1910.38(c)?",
+      "question": "Employees may need more information about the emergency action plan or an explanation of their duties under it. What does 1910.38(c)(6) require the plan to include for this?",
       "options": {
-        "A": "Procedures to account for all employees after evacuation",
-        "B": "Each employee's home address",
-        "C": "Each employee's medical history",
-        "D": "The building's purchase price"
+        "A": "The name or job title of every employee who may be contacted by employees who need more information about the plan or an explanation of their duties under the plan",
+        "B": "The telephone number of the nearest OSHA area office",
+        "C": "The full text of 1910.38 printed at the front of the plan",
+        "D": "Each employee's home telephone number"
       },
       "answer": "A",
-      "explanation": "The minimum elements include \"Procedures to account for all employees after evacuation.\"",
+      "explanation": "One minimum element of the plan is \"The name or job title of every employee who may be contacted by employees who need more information about the plan or an explanation of their duties under the plan.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.38, Emergency action plans (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-E/section-1910.38"

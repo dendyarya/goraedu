@@ -44,15 +44,15 @@
     {
       "id": "hm-003",
       "topic": "Definitions and categories",
-      "question": "How does 29 CFR 1910.106(a)(19) define a flammable liquid?",
+      "question": "How does 1910.106(a)(9) define a closed container?",
       "options": {
-        "A": "Any liquid having a flashpoint at or below 100 °F (37.8 °C)",
-        "B": "Any liquid having a flashpoint at or below 140 °F (60 °C)",
-        "C": "Any liquid having a flashpoint at or below 199.4 °F (93 °C)",
-        "D": "Any liquid having a boiling point at or below 212 °F (100 °C)"
+        "A": "Any container with a screw cap, whether or not vapor escapes",
+        "B": "A container kept inside a closed storage cabinet",
+        "C": "A container so sealed by means of a lid or other device that neither liquid nor vapor will escape from it at ordinary temperatures",
+        "D": "A container that holds no more than 1 gallon"
       },
       "answer": "C",
-      "explanation": "\"Flammable liquid means any liquid having a flashpoint at or below 199.4 °F (93 °C).\"",
+      "explanation": "Closed container \"shall mean a container as herein defined, so sealed by means of a lid or other device that neither liquid nor vapor will escape from it at ordinary temperatures.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
@@ -62,15 +62,15 @@
     {
       "id": "hm-004",
       "topic": "Definitions and categories",
-      "question": "A liquid has a flashpoint below 73.4 °F (23 °C) and a boiling point at or below 95 °F (35 °C). Which category does 1910.106 put it in?",
+      "question": "A Category 4 flammable liquid is heated for use to within 30 °F (16.7 °C) of its flashpoint. How does 1910.106(a)(19)(iv) say it must be handled?",
       "options": {
-        "A": "Category 1",
-        "B": "Category 2",
-        "C": "Category 3",
-        "D": "Category 4"
+        "A": "In accordance with the requirements for a Category 3 liquid with a flashpoint at or above 100 °F (37.8 °C)",
+        "B": "In accordance with the requirements for a Category 1 liquid",
+        "C": "As a liquid outside the scope of 1910.106",
+        "D": "With no change, because heating does not affect its category"
       },
       "answer": "A",
-      "explanation": "\"Category 1 shall include liquids having flashpoints below 73.4 °F (23 °C) and having a boiling point at or below 95 °F (35 °C).\"",
+      "explanation": "\"When a Category 4 flammable liquid is heated for use to within 30 °F (16.7 °C) of its flashpoint, it shall be handled in accordance with the requirements for a Category 3 liquid with a flashpoint at or above 100 °F (37.8 °C).\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
@@ -98,15 +98,15 @@
     {
       "id": "hm-006",
       "topic": "Definitions and categories",
-      "question": "What is the largest capacity the 1910.106 definition of a safety can allows?",
+      "question": "Besides a spring-closing lid and spout cover, what design feature does the 1910.106(a)(29) definition of a safety can require?",
       "options": {
-        "A": "1 gallon",
-        "B": "2 gallons",
-        "C": "5 gallons",
-        "D": "10 gallons"
+        "A": "A transparent body so the liquid level can be seen",
+        "B": "A locking cap that opens only with a key",
+        "C": "It is designed so that it will safely relieve internal pressure when subjected to fire exposure",
+        "D": "A capacity of at least 10 gallons"
       },
       "answer": "C",
-      "explanation": "A safety can is \"an approved container, of not more than 5 gallons capacity, having a spring-closing lid and spout cover\".",
+      "explanation": "A safety can is an approved container of not more than 5 gallons capacity with a spring-closing lid and spout cover \"and so designed that it will safely relieve internal pressure when subjected to fire exposure.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
@@ -170,15 +170,15 @@
     {
       "id": "hm-010",
       "topic": "Storage cabinets",
-      "question": "What is the largest quantity of Category 1, 2 or 3 flammable liquids that 1910.106(d)(3)(i) allows in one storage cabinet?",
+      "question": "For a metal flammable liquid storage cabinet built as described in 1910.106(d)(3)(ii)(a), what kind of lock must the door have?",
       "options": {
-        "A": "120 gallons",
-        "B": "240 gallons",
-        "C": "60 gallons",
-        "D": "660 gallons"
+        "A": "A padlock hasp, with no other lock",
+        "B": "An electronic keypad lock",
+        "C": "A three-point lock",
+        "D": "No lock of any kind"
       },
       "answer": "C",
-      "explanation": "\"Not more than 60 gallons of Category 1, 2, or 3 flammable liquids, nor more than 120 gallons of Category 4 flammable liquids may be stored in a storage cabinet.\"",
+      "explanation": "For metal cabinets deemed in compliance, \"The door shall be provided with a three-point lock, and the door sill shall be raised at least 2 inches above the bottom of the cabinet.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
@@ -188,15 +188,15 @@
     {
       "id": "hm-011",
       "topic": "Storage cabinets",
-      "question": "What wording does 1910.106(d)(3)(ii) require on the label of a flammable liquid storage cabinet?",
+      "question": "For a wooden flammable liquid storage cabinet built as described in 1910.106(d)(3)(ii)(b), how must the joints be made?",
       "options": {
-        "A": "Danger—No Smoking",
-        "B": "Caution—Combustibles Inside",
-        "C": "Hazardous Materials Storage",
-        "D": "Flammable—Keep Fire Away"
+        "A": "Glued, with no fasteners",
+        "B": "Nailed in one direction",
+        "C": "Held together with metal banding",
+        "D": "Rabbetted and fastened in two directions with flathead woodscrews"
       },
       "answer": "D",
-      "explanation": "\"Cabinets shall be labeled in conspicuous lettering, “Flammable—Keep Fire Away.”\"",
+      "explanation": "For wooden cabinets deemed in compliance, \"All joints shall be rabbetted and shall be fastened in two directions with flathead woodscrews.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"

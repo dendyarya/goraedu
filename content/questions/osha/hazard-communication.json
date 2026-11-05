@@ -88,7 +88,7 @@
         "D": "By the supplier's internal stock code only"
       },
       "answer": "A",
-      "explanation": "The program includes \"A list of the hazardous chemicals known to be present using a product identifier that is referenced on the appropriate safety data sheet.\"",
+      "explanation": "The program includes \"A list of the hazardous chemicals known to be present using a product identifier that is referenced on the appropriate safety data sheet\".",
       "source": {
         "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -134,15 +134,15 @@
     {
       "id": "hc-008",
       "topic": "Labels",
-      "question": "Which item is one of the elements required on a label of a shipped container of a hazardous chemical?",
+      "question": "Under 1910.1200(f)(3), which label elements must be located together on the label, tag, or mark of a shipped container?",
       "options": {
-        "A": "The price of the product",
-        "B": "The date the employer received it",
-        "C": "Pictogram(s)",
-        "D": "The name of the employee who opened it"
+        "A": "The product identifier and the price",
+        "B": "The manufacturer's U.S. address and the lot number",
+        "C": "The signal word, hazard statement(s) and pictogram(s)",
+        "D": "The precautionary statements and the shipping date"
       },
       "answer": "C",
-      "explanation": "Required shipped-container label information includes the \"Product identifier\", \"Signal word\", \"Hazard statement(s)\", \"Pictogram(s)\", \"Precautionary statement(s)\" and the name and contact information of the chemical manufacturer, importer, or other responsible party.",
+      "explanation": "The information in paragraphs (f)(1)(ii) through (iv), which are \"Signal word\", \"Hazard statement(s)\" and \"Pictogram(s)\", must be \"located together on the label, tag, or mark.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -152,15 +152,15 @@
     {
       "id": "hc-009",
       "topic": "Labels",
-      "question": "Which signal word is used for the more severe hazards?",
+      "question": "Some of an employer's employees speak languages other than English. What does 1910.1200(f)(10) allow for workplace labels?",
       "options": {
-        "A": "Danger",
-        "B": "Warning",
-        "C": "Caution",
-        "D": "Notice"
+        "A": "Adding the information in their language, as long as it is also presented in English",
+        "B": "Replacing the English text with the other language",
+        "C": "Using pictograms only, with no words",
+        "D": "Leaving off the label if a translated SDS is on file"
       },
       "answer": "A",
-      "explanation": "Under the definition of signal word, \"Danger\" \"is used for the more severe hazards,\" while \"warning\" \"is used for the less severe.\"",
+      "explanation": "\"Employers having employees who speak other languages may add the information in their language to the material presented, as long as the information is presented in English as well.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -170,15 +170,15 @@
     {
       "id": "hc-010",
       "topic": "Labels",
-      "question": "An employee pours a chemical from a labeled container into a portable container for their own immediate use. Does the portable container need a label?",
+      "question": "What does 1910.1200(f)(7) allow an employer to use instead of affixing labels to individual stationary process containers?",
       "options": {
-        "A": "Yes, always, with the full shipped-container label",
-        "B": "Yes, unless the container holds less than one quart",
-        "C": "Only if a supervisor did the transfer",
-        "D": "No, if it is intended only for the immediate use of the employee who performs the transfer"
+        "A": "Verbal reminders at the start of each shift",
+        "B": "Nothing, because stationary containers are exempt",
+        "C": "Color-coded paint with no written key",
+        "D": "Signs, placards, process sheets, batch tickets, operating procedures, or similar written materials that identify the containers and convey the required information"
       },
       "answer": "D",
-      "explanation": "The employer \"is not required to label portable containers into which hazardous chemicals are transferred from labeled containers, and which are intended only for the immediate use of the employee who performs the transfer.\"",
+      "explanation": "\"The employer may use signs, placards, process sheets, batch tickets, operating procedures, or other such written materials in lieu of affixing labels to individual stationary process containers, as long as the alternative method identifies the containers to which it is applicable and conveys the information required by paragraph (f)(6) of this section to be on a label.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -206,15 +206,15 @@
     {
       "id": "hc-012",
       "topic": "Labels",
-      "question": "A chemical manufacturer, importer, distributor, or employer becomes newly aware of significant information about a chemical's hazards. What deadline does 1910.1200(f)(11) set for revising the labels for the chemical?",
+      "question": "A container holds 3 ml or less, and the chemical manufacturer can demonstrate that any label interferes with the normal use of the container. What must the container itself bear, at a minimum?",
       "options": {
-        "A": "Within 30 days",
-        "B": "Within three months",
-        "C": "Within six months",
-        "D": "Within one year"
+        "A": "The full shipped-container label",
+        "B": "The signal word and pictograms",
+        "C": "The product identifier",
+        "D": "Nothing at all"
       },
       "answer": "C",
-      "explanation": "Those who become newly aware of significant hazard information \"shall revise the labels for the chemical within six months of becoming aware of the new information.\"",
+      "explanation": "For such a container \"no label is required, but the container must bear, at a minimum, the product identifier.\" The full label information goes on the immediate outer package.",
       "source": {
         "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -224,15 +224,15 @@
     {
       "id": "hc-013",
       "topic": "Safety data sheets",
-      "question": "Which heading is Section 8 of a safety data sheet?",
+      "question": "The preparer of a safety data sheet finds no relevant information for a sub-heading within a section. What does 1910.1200(g)(3) require?",
       "options": {
-        "A": "Handling and storage",
-        "B": "First-aid measures",
-        "C": "Exposure controls/personal protection",
-        "D": "Toxicological information"
+        "A": "Delete the sub-heading",
+        "B": "Leave the sub-heading blank",
+        "C": "Mark it to indicate that no applicable information was found",
+        "D": "Copy the information from a similar chemical's SDS"
       },
       "answer": "C",
-      "explanation": "The SDS headings in order include \"Section 7, Handling and storage\" and \"Section 8, Exposure controls/personal protection\".",
+      "explanation": "If no relevant information is found for any sub-heading, the preparer \"shall mark it to indicate that no applicable information was found.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -296,15 +296,15 @@
     {
       "id": "hc-017",
       "topic": "Training",
-      "question": "When must employers provide hazard communication information and training?",
+      "question": "How does 1910.1200(h)(1) allow hazard communication information and training to be designed?",
       "options": {
-        "A": "At the time of initial assignment and whenever a new chemical hazard the employees have not been trained about is introduced",
-        "B": "Only once every three years",
-        "C": "Only after an exposure incident",
-        "D": "Only when an employee asks for it"
+        "A": "To cover categories of hazards (such as flammability or carcinogenicity) or specific chemicals",
+        "B": "Only chemical by chemical, never by category",
+        "C": "Only as a video supplied by the manufacturer",
+        "D": "Only as a written test with no instruction"
       },
       "answer": "A",
-      "explanation": "Employers must provide training \"at the time of their initial assignment, and whenever a new chemical hazard the employees have not previously been trained about is introduced into their work area.\"",
+      "explanation": "\"Information and training may be designed to cover categories of hazards (e.g., flammability, carcinogenicity) or specific chemicals.\" Chemical-specific information must always be available through labels and safety data sheets.",
       "source": {
         "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -322,7 +322,7 @@
         "D": "How to classify a chemical under Appendix A"
       },
       "answer": "C",
-      "explanation": "Training shall include at least \"Methods and observations that may be used to detect the presence or release of a hazardous chemical in the work area.\"",
+      "explanation": "Training shall include at least \"Methods and observations that may be used to detect the presence or release of a hazardous chemical in the work area\".",
       "source": {
         "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"

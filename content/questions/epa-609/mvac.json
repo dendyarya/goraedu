@@ -620,15 +620,15 @@
     {
       "id": "m-035",
       "topic": "Shop certification and records",
-      "question": "Under 40 CFR 82.42(a)(1), who signs the statement certifying to EPA that approved equipment has been acquired and is being properly used?",
+      "question": "Besides naming the purchaser, the address and the equipment, the signed certification statement under 40 CFR 82.42(a)(1) must include a statement about the people the purchaser authorizes to perform service. What must it say about them?",
       "options": {
-        "A": "An EPA regional inspector",
-        "B": "The owner of the equipment or another responsible officer",
-        "C": "The equipment's manufacturer",
-        "D": "Each customer whose vehicle is serviced"
+        "A": "That each of them has at least two years of motor vehicle air conditioning experience",
+        "B": "That each individual authorized by the purchaser to perform service is properly trained and certified in accordance with § 82.40",
+        "C": "That each of them holds a state mechanic's license",
+        "D": "That each of them was trained by the equipment's manufacturer"
       },
       "answer": "B",
-      "explanation": "\"Certification shall take the form of a statement signed by the owner of the equipment or another responsible officer.\" The statement must also say \"that the information given is true and correct.\"",
+      "explanation": "The certification \"must also include a statement that the equipment will be properly used in servicing motor vehicle air conditioners, that each individual authorized by the purchaser to perform service is properly trained and certified in accordance with § 82.40, and that the information given is true and correct.\" Work experience, a state license or manufacturer training is not what the statement covers.",
       "source": {
         "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
@@ -800,15 +800,15 @@
     {
       "id": "m-045",
       "topic": "Service procedures",
-      "question": "Under the checking procedure in Appendix A, a stored container of recycled R-12 is at 80 °F and its pressure is above the Table 1 value for that temperature. What is the next step?",
+      "question": "Following Appendix A's checking procedure, a technician has already vented a small amount of vapor from the top of a stored container of recycled R-12 into the recycle equipment, but the container pressure still exceeds Table 1. What does the procedure call for next?",
       "options": {
-        "A": "Use it, because high pressure shows the container is full",
-        "B": "Release the container's entire contents to the atmosphere",
-        "C": "Add virgin R-12 to the container to dilute the air",
-        "D": "Slowly vent a small amount of vapor from the top of the container into the recycle equipment until the pressure is below Table 1"
+        "A": "Use the refrigerant anyway, because venting has already been tried",
+        "B": "Release the rest of the container's vapor to the atmosphere",
+        "C": "Add virgin R-12 to the container and check it again",
+        "D": "Recycle the entire contents of the container"
       },
       "answer": "D",
-      "explanation": "\"If the pressure is greater than the range and the container contains recycled material, slowly vent from the top of the container a small amount of vapor into the recycle equipment until the pressure is less than the pressure shown on Table 1.\" If it still exceeds the table, \"the entire contents of the container shall be recycled.\"",
+      "explanation": "Step 5.7 reads: \"If the container still exceeds the pressure shown on Table 1, the entire contents of the container shall be recycled.\" The refrigerant may be used only when the pressure is below the Table 1 values, and venting to the atmosphere is not part of the procedure.",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
@@ -836,15 +836,15 @@
     {
       "id": "m-047",
       "topic": "Service procedures",
-      "question": "Under the R-12 containment procedure in Appendix A, what should happen to an empty or near-empty disposable refrigerant container before it is thrown away?",
+      "question": "Under Appendix A, a near-empty disposable R-12 container is attached to the recovery unit so the remaining refrigerant can be removed before the container is thrown away. When can the container valve be closed?",
       "options": {
-        "A": "Nothing, because a container that feels empty holds no refrigerant",
-        "B": "Its remaining contents should be reclaimed with the recovery unit, and the container marked empty",
-        "C": "It should be refilled with recycled refrigerant for later use",
-        "D": "Its valve should be opened to let the rest escape"
+        "A": "After the recovery unit has run for one minute, whatever the container pressure",
+        "B": "When the container has been reduced from a pressure to a vacuum",
+        "C": "Before the recovery unit is started, so no air enters it",
+        "D": "As soon as the container feels cold to the touch"
       },
       "answer": "B",
-      "explanation": "Because \"all the refrigerant may not be removed from disposable refrigerant containers during normal system charging procedures, empty/near empty container contents should be reclaimed prior to disposal of the container.\" After it is reduced to a vacuum, \"The container should be marked empty and is ready for disposal.\"",
+      "explanation": "Step 8.2 reads: \"Attach the container to the recovery unit and remove the remaining refrigerant. When the container has been reduced from a pressure to a vacuum, the container valve can be closed.\" Then \"The container should be marked empty and is ready for disposal.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
@@ -872,15 +872,15 @@
     {
       "id": "m-049",
       "topic": "Service procedures",
-      "question": "Under the SAE J1990 equipment specification in Appendix A, what lubricant should replace the amount removed from the system during the recycle process?",
+      "question": "Under the SAE J1990 equipment specification in Appendix A, why must the equipment's lubricant measuring system take into account refrigerant dissolved in the lubricant sample?",
       "options": {
-        "A": "The used lubricant the machine separated from the refrigerant",
-        "B": "Lubricant drained from another vehicle",
-        "C": "No lubricant; the amount removed never needs replacing",
-        "D": "Only new lubricant"
+        "A": "Dissolved refrigerant makes the sample look smaller than it is, so the vehicle would get too little lubricant",
+        "B": "Dissolved refrigerant raises the moisture limit of the recycled refrigerant",
+        "C": "Dissolved refrigerant must be counted so the shop can bill the customer for it",
+        "D": "Dissolved refrigerant creates the illusion that more lubricant has been recovered than actually has been, which could lead to overcharging the vehicle system with lubricant"
       },
       "answer": "D",
-      "explanation": "The note says: \"Use only new lubricant to replace the amount removed during the recycle process. Used lubricant should be discarded per applicable federal, state, and local requirements.\"",
+      "explanation": "Item 7.7 says \"Refrigerant dissolves in lubricant sample. This creates the illusion that more lubricant has been recovered than actually has been.\" The measuring system must account for it \"to prevent overcharging the vehicle system with lubricant.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
@@ -1286,15 +1286,15 @@
     {
       "id": "m-072",
       "topic": "Fittings and labels",
-      "question": "Under the Appendix D use conditions, what must be done to CFC-12 service ports that are not retrofitted with conversion assemblies?",
+      "question": "Under the Appendix D use conditions, an existing CFC-12 service port is retrofitted with a conversion assembly. How must the assembly attach to the CFC-12 fitting?",
       "options": {
-        "A": "Leave them working so CFC-12 can be added later",
-        "B": "Close them with a standard cap that can be removed",
-        "C": "Render them permanently incompatible for use with CFC-12 related service equipment",
-        "D": "Paint them the color of the new refrigerant's label"
+        "A": "Hand-tightened only, so it can be taken off if CFC-12 service is needed later",
+        "B": "Through an adapter, so either refrigerant's equipment can connect",
+        "C": "With a thread lock adhesive and/or a separate mechanical latching mechanism, in a manner that permanently prevents the assembly from being removed",
+        "D": "With a push-on plastic cap over the old port"
       },
       "answer": "C",
-      "explanation": "\"All CFC-12 service ports not retrofitted with conversion assemblies shall be rendered permanently incompatible for use with CFC-12 related service equipment,\" using a device attached \"in a manner that prevents the device from being removed.\" A removable cap or paint does not do that.",
+      "explanation": "\"When existing CFC-12 service ports are retrofitted, conversion assemblies shall attach to the CFC-12 fitting with a thread lock adhesive and/or a separate mechanical latching mechanism in a manner that permanently prevents the assembly from being removed.\" The appendix also says \"Using an adapter or deliberately modifying a fitting to use a different refrigerant is a violation of this use condition.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
@@ -1304,15 +1304,15 @@
     {
       "id": "m-073",
       "topic": "Fittings and labels",
-      "question": "Under the Appendix D retrofit label conditions, what must be true of the label's background color?",
+      "question": "After a retrofit under Appendix D, some information about the previous refrigerant on the air conditioning system cannot be covered by the new label. What must be done with that information?",
       "options": {
-        "A": "It must be white",
-        "B": "It must be unique to the refrigerant",
-        "C": "It must match the original CFC-12 label",
-        "D": "It may be any color the shop chooses"
+        "A": "Leave it readable so later technicians know the system's history",
+        "B": "Render it permanently unreadable",
+        "C": "Nothing, as long as the new label has a different background color",
+        "D": "Cover it with a removable sticker"
       },
       "answer": "B",
-      "explanation": "\"The background color must be unique to the refrigerant.\" The label also \"must be large enough to be easily read and must be permanent.\"",
+      "explanation": "\"Information on the previous refrigerant that cannot be covered by the new label must be rendered permanently unreadable.\" The label itself \"must be affixed to the system over information related to the previous refrigerant, in a location not normally replaced during vehicle repair.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
