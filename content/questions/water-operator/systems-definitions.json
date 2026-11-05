@@ -26,10 +26,10 @@
     {
       "id": "sd-002",
       "topic": "System types and responsible parties",
-      "question": "Town B's public water system treats no water itself and buys all of its finished water from City A's public water system through a direct connection. Which 141.2 term describes Town B's system?",
+      "question": "Town B's public water system runs year-round, treats no water itself and buys all of its finished water from City A's public water system through a direct connection. Which 141.2 term describes Town B's system?",
       "options": {
         "A": "A wholesale system",
-        "B": "A combined distribution system",
+        "B": "A seasonal system",
         "C": "A special irrigation district",
         "D": "A consecutive system"
       },
@@ -49,7 +49,7 @@
         "A": "A seasonal system",
         "B": "A consecutive system",
         "C": "A wholesale system",
-        "D": "A system with a single service connection"
+        "D": "A community water system"
       },
       "answer": "A",
       "explanation": "A seasonal system \"is a non-community water system that is not operated as a public water system on a year-round basis and starts up and shuts down at the beginning and end of each operating season.\"",
@@ -62,15 +62,15 @@
     {
       "id": "sd-004",
       "topic": "System types and responsible parties",
-      "question": "Under 141.2, a non-community water system is always one of which two system types?",
+      "question": "Under 141.2, who is a \"supplier of water\"?",
       "options": {
-        "A": "A community water system or a non-transient non-community water system",
-        "B": "A subpart H system or a ground water system",
-        "C": "A transient non-community water system (TWS) or a non-transient non-community water system (NTNCWS)",
-        "D": "A consecutive system or a wholesale system"
+        "A": "Only the certified operator in direct responsible charge of the plant",
+        "B": "Only the State agency that has primary enforcement responsibility",
+        "C": "Any person who owns or operates a public water system",
+        "D": "Only a business that sells bottled water"
       },
       "answer": "C",
-      "explanation": "A non-community water system \"means a public water system that is not a community water system. A noncommunity water system is either a “transient non-community water system (TWS)” or a “non-transient non-community water system (NTNCWS).”\"",
+      "explanation": "Supplier of water \"means any person who owns or operates a public water system.\" Person \"means an individual; corporation; company; association; partnership; municipality; or state, federal, or tribal agency.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
@@ -116,15 +116,15 @@
     {
       "id": "sd-007",
       "topic": "Water sources",
-      "question": "Under the 141.2 definition of ground water under the direct influence of surface water (GWUDI), whose criteria are used to decide whether an individual source is under direct influence?",
+      "question": "Under the 141.2 definition of ground water under the direct influence of surface water (GWUDI), what may the State's determination of direct influence be based on?",
       "options": {
-        "A": "The water system operator's",
-        "B": "The certified laboratory's",
-        "C": "The U.S. Geological Survey's",
-        "D": "The State's"
+        "A": "The number of service connections the well supplies",
+        "B": "The certification grade of the system's operator",
+        "C": "The volume of water the well pumps each day",
+        "D": "Site-specific measurements of water quality and/or documentation of well construction characteristics and geology with field evaluation"
       },
       "answer": "D",
-      "explanation": "\"Direct influence must be determined for individual sources in accordance with criteria established by the State.\"",
+      "explanation": "Direct influence is determined for individual sources under State criteria, and \"The State determination of direct influence may be based on site-specific measurements of water quality and/or documentation of well construction characteristics and geology with field evaluation.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
