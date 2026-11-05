@@ -1,0 +1,694 @@
+{
+  "cluster": "epa-609",
+  "slug": "mvac",
+  "href": "/epa-609/study-guide/",
+  "title": "EPA 609 study guide",
+  "description": "EPA 609 study guide: the MVAC servicing rules in 40 CFR Part 82 Subpart B, from technician and shop certification to small-can sales, each linked to the rule.",
+  "intro": "EPA Section 609 certification is about servicing motor vehicle air conditioners. There is no official EPA topic list for the 609 test, so this guide follows the rule itself (40 CFR Part 82, Subpart B): scope, definitions, required practices, equipment, technician and shop certification, records, small-can sales, disposal facilities and, briefly, the service procedures printed in its appendices. Every point links to the rule text it comes from, with the exact words quoted.",
+  "topics": [
+    {
+      "id": "purpose-and-scope",
+      "name": "Purpose and scope",
+      "points": [
+        {
+          "text": "Subpart B carries out section 609 of the Clean Air Act on servicing motor vehicle air conditioners (MVACs). It also carries out section 608 for certain servicing, maintenance, repair and disposal of air conditioners in MVACs and MVAC-like appliances.",
+          "quote": "The purpose of the regulations in this subpart B is to implement section 609 of the Clean Air Act, as amended (Act) regarding the servicing of motor vehicle air conditioners (MVACs), and to implement section 608 of the Act regarding certain servicing, maintenance, repair and disposal of air conditioners in MVACs and MVAC-like appliances",
+          "source": {
+            "title": "eCFR: 40 CFR 82.30, Purpose and scope (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.30"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The rules apply to anyone who services a motor vehicle for consideration when the service involves the refrigerant in the motor vehicle air conditioner.",
+          "quote": "These regulations apply to any person performing service on a motor vehicle for consideration when this service involves the refrigerant in the motor vehicle air conditioner.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.30, Purpose and scope (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.30"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Service for consideration means being paid for the service, in cash, credit, goods or services. It covers all service except service done for free.",
+          "quote": "Service for consideration means being paid to perform service, whether it is in cash, credit, goods, or services. This includes all service except that done for free.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "key-definitions",
+      "name": "Key definitions",
+      "points": [
+        {
+          "text": "A motor vehicle is any self-propelled vehicle designed to carry persons or property on a street or highway, including passenger cars, light duty vehicles and heavy duty vehicles.",
+          "quote": "Motor vehicle as used in this subpart means any vehicle which is self-propelled and designed for transporting persons or property on a street or highway, including but not limited to passenger cars, light duty vehicles, and heavy duty vehicles.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A vehicle whose final assembly the original equipment manufacturer has not completed is not a motor vehicle under this definition.",
+          "quote": "This definition does not include a vehicle where final assembly of the vehicle has not been completed by the original equipment manufacturer.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Motor vehicle air conditioners are mechanical vapor compression refrigeration equipment used to cool the driver's or passenger's compartment of any motor vehicle.",
+          "quote": "Motor vehicle air conditioners means mechanical vapor compression refrigeration equipment used to cool the driver's or passenger's compartment of any motor vehicle.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The MVAC definition is not meant to cover hermetically sealed refrigeration systems for refrigerated cargo, or the air conditioning systems on passenger buses using HCFC-22.",
+          "quote": "This definition is not intended to encompass the hermetically sealed refrigeration systems used on motor vehicles for refrigerated cargo and the air conditioning systems on passenger buses using HCFC-22 refrigerant.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The term MVAC-like appliance is defined in 40 CFR 82.152 (Subpart F), not in Subpart B.",
+          "quote": "MVACs and MVAC-like appliances (as that term is defined in 40 CFR 82.152)",
+          "source": {
+            "title": "eCFR: 40 CFR 82.30, Purpose and scope (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.30"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Refrigerant means any class I or class II substance used in an MVAC; these substances are listed in Part 82, Subpart A, Appendix A. Since November 15, 1995, refrigerant also includes any substitute substance.",
+          "quote": "Refrigerant means any class I or class II substance used in a motor vehicle air conditioner. Class I and class II substances are listed in part 82, subpart A, appendix A. Effective November 15, 1995, refrigerant shall also include any substitute substance.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Service involving refrigerant is any service during which refrigerant can reasonably be expected to be discharged or released from the MVAC or MVAC-like appliance to the atmosphere.",
+          "quote": "Service involving refrigerant means any service during which discharge or release of refrigerant from the MVAC or MVAC-like appliance to the atmosphere can reasonably be expected to occur.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Charging an MVAC or MVAC-like appliance with refrigerant and doing nothing else (a \"top-off\") is also service involving refrigerant.",
+          "quote": "Service involving refrigerant includes any service in which an MVAC or MVAC-like appliance is charged with refrigerant but no other service involving refrigerant is performed (i.e., a “top-off”).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Approved refrigerant recycling equipment is equipment certified by EPA (the Administrator) or by an organization approved under 82.38 as meeting a standard in 82.36. It extracts and recycles refrigerant, or extracts it for recycling on-site or reclamation off-site.",
+          "quote": "Approved refrigerant recycling equipment means equipment certified by the Administrator or an organization approved under § 82.38 as meeting either one of the standards in § 82.36. Such equipment extracts and recycles refrigerant or extracts refrigerant for recycling on-site or reclamation off-site.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "required-practices",
+      "name": "Who must be certified and required practices",
+      "points": [
+        {
+          "text": "No person repairing or servicing MVACs for consideration, and no person repairing or servicing MVAC-like appliances, may perform service involving the refrigerant without properly using equipment approved under 82.36.",
+          "quote": "No person repairing or servicing MVACs for consideration, and no person repairing or servicing MVAC-like appliances, may perform any service involving the refrigerant for such MVAC or MVAC-like appliance: (1) Without properly using equipment approved pursuant to § 82.36;",
+          "source": {
+            "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A person repairing or servicing an MVAC must also be properly trained and certified by a technician certification program approved by EPA under 82.40.",
+          "quote": "Unless any such person repairing or servicing an MVAC has been properly trained and certified by a technician certification program approved by the Administrator pursuant to § 82.40; and",
+          "source": {
+            "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A person repairing or servicing an MVAC-like appliance must be properly trained and certified by a program approved by EPA under either 82.40 or 82.161(a)(5).",
+          "quote": "Unless any such person repairing or servicing an MVAC-like appliance has been properly trained and certified by a technician certification program approved by the Administrator pursuant to either § 82.40 or § 82.161(a)(5).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Properly using equipment means using it in line with Subpart B, including the prohibitions and required practices in 82.34 and the recommended service procedures in 82.36(a) and Appendices A to F, as applicable.",
+          "quote": "Properly using means using equipment in conformity with the regulations set forth in this subpart, including but not limited to the prohibitions and required practices set forth in § 82.34, and the recommended service procedures and practices for the containment of refrigerant set forth in § 82.36(a) and appendices A, B, C, D, E, and F to this subpart, as applicable.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Properly using also means operating the equipment according to the manufacturer's operation and maintenance guide, and using it only for the controlled substance it is designed for.",
+          "quote": "In addition, this term includes operating the equipment in accordance with the manufacturer's guide to operation and maintenance and using the equipment only for the controlled substance for which the machine is designed.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "With equipment that extracts and recycles, refrigerant must be recycled before it goes back into an MVAC or MVAC-like appliance, even the same one it came from.",
+          "quote": "For equipment that extracts and recycles refrigerant, properly using also means to recycle refrigerant before it is returned to a motor vehicle air conditioner or MVAC-like appliance, including to the motor vehicle air conditioner or MVAC-like appliance from which the refrigerant was extracted.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "With recover-only equipment, the refrigerant must be recycled on-site or sent off-site for reclamation.",
+          "quote": "For equipment that only recovers refrigerant, properly using includes the requirement to recycle the refrigerant on-site or send the refrigerant off-site for reclamation.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Approved equipment must be used to extract refrigerant before any service during which refrigerant can reasonably be expected to be discharged from the MVAC.",
+          "quote": "In any event, approved equipment must be used to extract refrigerant prior to performing any service during which discharge of refrigerant from the motor vehicle air conditioner can reasonably be expected.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Intentionally venting refrigerant, or disposing of it to the atmosphere, is an improper use of equipment.",
+          "quote": "Intentionally venting or disposing of refrigerant to the atmosphere is an improper use of equipment.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Approved refrigerant recycling equipment may be taken off-site to service at other locations, but that servicing must meet every Subpart B requirement that would apply on-site.",
+          "quote": "approved refrigerant recycling equipment may be transported off-site and used to perform service involving refrigerant at other locations where such servicing occurs. Any such servicing involving refrigerant must meet all of the requirements of this subpart B that would apply if the servicing occurred on-site.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Facilities that charge MVACs or MVAC-like appliances but do no other service involving refrigerant (top-offs only) are engaged in service involving refrigerant.",
+          "quote": "Facilities that charge MVACs or MVAC-like appliances with refrigerant but do not perform any other service involving refrigerant (i.e., perform “top-offs” only) are considered to be engaged in “service involving refrigerant”",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Top-off-only facilities are subject to all the requirements that apply to facilities doing a wider range of refrigerant servicing; for facilities that charge MVACs, this includes buying approved refrigerant recycling equipment.",
+          "quote": "are therefore subject to any and all requirements of this subsection that apply to facilities that perform a wider range of refrigerant servicing. For facilities that charge MVACs, this includes the requirement to purchase approved refrigerant recycling equipment.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Facilities that only charge MVAC-like appliances do not have to purchase approved refrigerant recycling equipment, but must be properly trained and certified by a program approved under 82.40 or 82.161(a)(5).",
+          "quote": "For facilities that only charge MVAC-like appliances, this does not include the requirement to purchase approved refrigerant recycling equipment, but does include the requirement to be properly trained and certified by a technician certification program approved by the Administrator pursuant to either § 82.40 or § 82.161(a)(5).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Anyone opening MVAC-like appliances must have at least one piece of approved recovery or recycling equipment available at their place of business.",
+          "quote": "All persons opening (as that term is defined in § 82.152) MVAC-like appliances must have at least one piece of approved recovery or recycling equipment available at their place of business.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "approved-equipment",
+      "name": "Approved refrigerant handling equipment",
+      "points": [
+        {
+          "text": "Refrigerant recycling equipment must be certified by EPA, or by an independent standards testing organization EPA approved under 82.38, to meet the applicable standard listed in 82.36(a).",
+          "quote": "Refrigerant recycling equipment must be certified by the Administrator or an independent standards testing organization approved by the Administrator under § 82.38 to meet the following standard:",
+          "source": {
+            "title": "eCFR: 40 CFR 82.36, Approved refrigerant handling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.36"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Equipment that recovers and recycles CFC-12 must meet the standards in Appendix A.",
+          "quote": "Equipment that recovers and recycles CFC-12 refrigerant must meet the standards set forth in appendix A of this subpart",
+          "source": {
+            "title": "eCFR: 40 CFR 82.36, Approved refrigerant handling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.36"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Equipment that recovers but does not recycle CFC-12 must meet the standards in Appendix B.",
+          "quote": "Equipment that recovers but does not recycle CFC-12 refrigerant must meet the standards set forth in appendix B of this subpart",
+          "source": {
+            "title": "eCFR: 40 CFR 82.36, Approved refrigerant handling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.36"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Since January 1, 2008, equipment that recovers and recycles HFC-134a, including equipment that also recharges systems with HFC-134a, must meet Appendix C, based on SAE J2788.",
+          "quote": "Effective January 1, 2008, equipment that recovers and recycles HFC-134a refrigerant and equipment that recovers and recycles HFC-134a refrigerant and recharges systems with HFC-134a refrigerant must meet the standards set forth in Appendix C of this subpart based upon J2788",
+          "source": {
+            "title": "eCFR: 40 CFR 82.36, Approved refrigerant handling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.36"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Equipment that recovers and recycles HFO-1234yf from MVACs and recharges MVAC systems with HFO-1234yf must meet SAE J2843, which is incorporated by reference.",
+          "quote": "Equipment that recovers and recycles HFO-1234yf refrigerant from MVACs and recharges MVAC systems with HFO-1234yf refrigerant must meet the standards set forth in SAE J2843 (incorporated by reference, see § 82.31).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.36, Approved refrigerant handling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.36"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Refrigerant handling equipment made or imported for servicing MVACs for consideration cannot be introduced into interstate commerce unless it meets 82.36.",
+          "quote": "Refrigerant handling equipment manufactured or imported for use during the maintenance, service or repair of MVACs for consideration cannot be introduced into interstate commerce unless meeting the requirements of § 82.36.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "EPA keeps a list of approved equipment by manufacturer and model.",
+          "quote": "The Administrator will maintain a list of approved equipment by manufacturer and model.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.36, Approved refrigerant handling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.36"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "We do not set out the technical contents of SAE J2843, J2851 and J3030, because they are incorporated by reference and their text is not printed in Subpart B."
+    },
+    {
+      "id": "technician-certification",
+      "name": "Technician training and certification",
+      "points": [
+        {
+          "text": "A technician training program may not issue certificates unless it meets all of the standards in 82.40(a).",
+          "quote": "No technician training programs may issue certificates unless the program complies with all of the standards in § 82.40(a).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Approved programs must give adequate training through on-the-job training, self-study of instructional material, or on-site training with instructors, videos or a hands-on demonstration.",
+          "quote": "Each program must provide adequate training, through one or more of the following means: on-the-job training, training through self-study of instructional material, or on-site training involving instructors, videos or a hands-on demonstration.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.40, Technician training and certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.40"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The certification test must cover the service and repair standards in 82.36(a) and Appendices A to F for MVACs and MVAC-like appliances.",
+          "quote": "The certification tests must adequately and sufficiently cover the following: (i) The standards established for the service and repair of MVACs and MVAC-like appliances as set forth in § 82.36(a) and appendices A, B, C, D, E, and F to this subpart.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.40, Technician training and certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.40"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The test must also cover expected future technology (such as HFC-134a in new MVACs) and the environmental consequences of refrigerant release and of stratospheric ozone depletion.",
+          "quote": "Anticipated future technological developments, such as the introduction of HFC-134a in new motor vehicle air conditioners. (iii) The environmental consequences of refrigerant release and the adverse effects of stratospheric ozone layer depletion.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.40, Technician training and certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.40"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Completed tests must be graded by someone who gets no benefit from the outcome; a grading fee may be charged.",
+          "quote": "Completed tests must be graded by an entity or individual who receives no benefit based on the outcome of testing; a fee may be charged for grading.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.40, Technician training and certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.40"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each program must offer individual proof of certification, such as a certificate, wallet-sized card or display card, and give each certified technician a unique number.",
+          "quote": "Each certification program must offer individual proof of certification, such as a certificate, wallet-sized card, or display card, upon successful completion of the test. Each certification program must provide a unique number for each certified technician.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.40, Technician training and certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.40"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "EPA's authorized representatives may require technicians to show, on the business premises, that they can recover and/or recycle refrigerant properly.",
+          "quote": "Authorized representatives of the Administrator may require technicians to demonstrate on the business entity's premises their ability to perform proper procedures for recovering and/or recycling refrigerant.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.40, Technician training and certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.40"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Failing to demonstrate, or failing to use the equipment properly, may lead EPA to revoke the certificate; a technician whose certificate is revoked must be recertified before servicing or repairing any MVAC.",
+          "quote": "Failure to demonstrate or failure to properly use the equipment may result in revocation of the technician's certificate by the Administrator. Technicians whose certification is revoked must be recertified before servicing or repairing any motor vehicle air conditioners.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.40, Technician training and certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.40"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "shop-certification",
+      "name": "Shop certification to EPA",
+      "points": [
+        {
+          "text": "By January 1, 1993, anyone repairing or servicing MVACs for consideration had to certify to EPA that they have acquired and are properly using approved equipment, and that each person authorized to use it is properly trained and certified.",
+          "quote": "No later than January 1, 1993, any person repairing or servicing motor vehicle air conditioners for consideration shall certify to the Administrator that such person has acquired, and is properly using, approved equipment and that each individual authorized to use the equipment is properly trained and certified.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The certification is a statement signed by the equipment owner or another responsible officer. It gives the purchaser's name, the address where the equipment will be located, and the equipment's manufacturer, model number, date of manufacture and serial number.",
+          "quote": "Certification shall take the form of a statement signed by the owner of the equipment or another responsible officer and setting forth: (i) The name of the purchaser of the equipment; (ii) The address of the establishment where the equipment will be located; and (iii) The manufacturer name and equipment model number, the date of manufacture, and the serial number of the equipment.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The statement must also say the equipment will be properly used, that each individual the purchaser authorizes to perform service is trained and certified under 82.40, and that the information is true and correct.",
+          "quote": "The certification must also include a statement that the equipment will be properly used in servicing motor vehicle air conditioners, that each individual authorized by the purchaser to perform service is properly trained and certified in accordance with § 82.40, and that the information given is true and correct.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Owners or lessees of the equipment send their certifications to the CAA section 609 Enforcement Contact at the EPA Regional office that 82.42(a)(1) lists for the states where they have their places of business; for example, Region I covers Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island and Vermont.",
+          "quote": "Owners or lessees of recycling or recovery equipment having their places of business in Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont must send their certifications to: CAA section 609 Enforcement Contact; EPA Region I",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "recordkeeping",
+      "name": "Recordkeeping",
+      "points": [
+        {
+          "text": "Owners of approved refrigerant recycling equipment certified under 82.36(a)(2) (CFC-12 recover-and-recycle equipment) must keep records of the name and address of any facility they send refrigerant to.",
+          "quote": "Any person who owns approved refrigerant recycling equipment certified under § 82.36(a)(2) must maintain records of the name and address of any facility to which refrigerant is sent.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Owners of approved refrigerant recycling equipment must keep records showing that everyone authorized to operate it is currently certified under 82.40.",
+          "quote": "Any person who owns approved refrigerant recycling equipment must retain records demonstrating that all persons authorized to operate the equipment are currently certified under § 82.40.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Records required by 82.42 must be kept for at least three years unless otherwise indicated. Entities that service MVACs for consideration must keep them on-site.",
+          "quote": "All records required to be maintained pursuant to this section must be kept for a minimum of three years unless otherwise indicated. Entities which service motor vehicle air conditioners for consideration must keep these records on-site.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Entities that service MVACs for consideration must let an authorized EPA representative who presents credentials enter the premises and see all required records.",
+          "quote": "All entities which service motor vehicle air conditioners for consideration must allow an authorized representative of the Administrator entry onto their premises (upon presentation of his or her credentials) and give the authorized representative access to all records required to be maintained pursuant to this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "small-container-sales",
+      "name": "Small-container refrigerant sales and the store sign",
+      "points": [
+        {
+          "text": "Since November 15, 1992, no one may sell or distribute (or offer to) a class I or class II substance suitable as an MVAC refrigerant in a container holding less than 20 pounds, unless the buyer is trained and certified under 82.40 or intended the containers for resale only and so certifies to the seller.",
+          "quote": "Effective November 15, 1992, no person may sell or distribute, or offer for sale or distribution, any class I or class II substance that is suitable for use as a refrigerant in motor vehicle air-conditioner and that is in a container which contains less than 20 pounds of such refrigerant to any person unless that person is properly trained and certified under § 82.40 or intended the containers for resale only, and so certifies to the seller under § 82.42(b)(3).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The seller must verify that the buyer is properly trained and certified under 82.40, and must have a reasonable basis for believing the buyer's information is accurate.",
+          "quote": "must verify that the purchaser is properly trained and certified under § 82.40. The seller must have a reasonable basis for believing that the information presented by the purchaser is accurate.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The only exception is a purchase for resale only. Then the seller must get a written statement from the buyer that the containers are for resale only, giving the buyer's name and business address.",
+          "quote": "The only exception to these requirements is if the purchaser is purchasing the small containers for resale only. In this case, the seller must obtain a written statement from the purchaser that the containers are for resale only and indicate the purchasers name and business address.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "These sales records must be kept for three years.",
+          "quote": "Records required under this paragraph must be retained for a period of three years.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Anyone making retail sales of these containers (class I or class II, suitable for MVACs, less than 20 pounds) must prominently display a sign where they are sold.",
+          "quote": "Any person who conducts any retail sales of a class I or class II substance that is suitable for use as a refrigerant in a motor vehicle air conditioner, and that is in a container of less than 20 pounds of refrigerant, must prominently display a sign where sales of such containers occur",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The sign must state that it is a violation of federal law to sell containers of class I and class II refrigerant of less than 20 pounds to anyone who is not properly trained and certified to operate approved refrigerant recycling equipment.",
+          "quote": "It is a violation of federal law to sell containers of Class I and Class II refrigerant of less than 20 pounds of such refrigerant to anyone who is not properly trained and certified to operate approved refrigerant recycling equipment.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "We do not cover sales restrictions on small containers of substitute refrigerants, because the Subpart B sales rule and sign text name only class I and class II substances."
+    },
+    {
+      "id": "disposal-facilities",
+      "name": "Motor vehicle disposal facilities",
+      "points": [
+        {
+          "text": "A motor vehicle disposal facility is a commercial facility that disposes of (dismantles, crushes or recycles) MVACs or MVAC-like appliances, such as automotive recycling facilities, scrap yards, landfills and salvage yards.",
+          "quote": "Motor vehicle disposal facility means any commercial facility that engages in the disposal (which includes dismantling, crushing or recycling) of MVACs or MVAC-like appliances, including but not limited to automotive recycling facilities, scrap yards, landfills and salvage yards engaged in such operations.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Repair and servicing facilities, including collision repair facilities, are not motor vehicle disposal facilities.",
+          "quote": "Motor vehicle repair and/or servicing facilities, including collision repair facilities, are not considered motor vehicle disposal facilities.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Refrigerant extracted at a disposal facility from an MVAC or MVAC-like appliance bound for disposal may not later be charged into an MVAC or MVAC-like appliance unless it is first handled in one of two ways.",
+          "quote": "Any refrigerant that is extracted from an MVAC or an MVAC-like appliance (as that term is defined in § 82.152) bound for disposal and located at a motor vehicle disposal facility may not be subsequently used to charge or recharge an MVAC or MVAC-like appliance, unless, prior to such charging or recharging, the refrigerant is either:",
+          "source": {
+            "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "One way: the refrigerant is recovered and reclaimed under the rules referred to in 82.32(e)(2).",
+          "quote": "Recovered, and reclaimed in accordance with the regulations promulgated under § 82.32(e)(2) of this subpart B; or",
+          "source": {
+            "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The other way: it is recovered with approved recycling equipment dedicated to MVACs and MVAC-like appliances, by a certified technician or by an employee, owner, operator or contractor of the disposal facility, and then recycled by the facility that charges it, properly using approved recycling equipment.",
+          "quote": "Recovered using approved refrigerant recycling equipment dedicated for use with MVACs and MVAC-like appliances, either by a technician certified under paragraph (a)(2) of this section, or by an employee, owner, or operator of, or contractor to, the disposal facility; and (B) Subsequently recycled by the facility that charges or recharges the refrigerant into an MVAC or MVAC-like appliance, properly using approved refrigerant recycling equipment",
+          "source": {
+            "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Refrigerant whose sale is restricted under Subpart F, extracted at a disposal facility and not reclaimed under Subpart F, may be sold before re-use only to a technician certified under 82.34(a)(2).",
+          "quote": "Any refrigerant the sale of which is restricted under subpart F that is extracted from an MVAC or an MVAC-like appliance bound for disposal and located at a motor vehicle disposal facility but not subsequently reclaimed in accordance with the regulations promulgated under subpart F, may be sold prior to its subsequent re-use only to a technician certified under paragraph (a)(2) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A certified technician who obtains such refrigerant may re-use it only in an MVAC or MVAC-like appliance, and only if it has been reclaimed or properly recycled.",
+          "quote": "Any technician certified under paragraph (a)(2) of this section who obtains such a refrigerant may subsequently re-use such refrigerant only in an MVAC or MVAC-like appliance, and only if it has been reclaimed or properly recycled.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "service-procedures",
+      "name": "Service procedures from the appendices",
+      "points": [
+        {
+          "text": "Appendix A, the standard for equipment that recovers and recycles CFC-12, includes a recommended service procedure for the containment of CFC-12 and a standard of purity for use in mobile air conditioning systems.",
+          "quote": "Equipment that recovers and recycles CFC-12 refrigerant must meet the standards set forth in appendix A of this subpart (Recommended Service Procedure for the Containment of CFC-12, Extraction and Recycle Equipment for Mobile Automotive Air-Conditioning Systems, and Standard of Purity for Use in Mobile Air Conditioning Systems).",
+          "source": {
+            "title": "eCFR: 40 CFR 82.36, Approved refrigerant handling equipment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.36"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In the recovery procedure printed in Appendix A, the recovery unit is run until the vehicle system goes from pressure to a vacuum. With the unit shut off for at least 5 minutes, the technician checks that no refrigerant remains.",
+          "quote": "Operate the recovery unit until the vehicle system has been reduced from a pressure to a vacuum. With the recovery unit shut off for at least 5 min, determine that there is no refrigerant remaining in the vehicle AC system.",
+          "source": {
+            "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If the system has pressure, more recovery is needed; the operation is repeated until the system vacuum stays stable for 2 minutes.",
+          "quote": "If the vehicle system has pressure, additional recovery operation is required to remove the remaining refrigerant. Repeat the operation until the vehicle AC system vacuum level remains stable for 2 min.",
+          "source": {
+            "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In the Appendix A procedure, manifold gage set hoses (high, low and center) must have shutoff valves within 12 in (30 cm) of the service ends, and the valves must be closed before the hoses are removed from the system.",
+          "quote": "Service hoses must have shutoff valves in the high, low, and center service hoses within 12 in (30 cm) of the service ends. Valves must be closed prior to hose removal from the air-conditioning system.",
+          "source": {
+            "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Appendix A limits the contaminants in recycled refrigerant 12 to moisture (15 ppm), refrigerant oil (4000 ppm) and noncondensable gases, air (330 ppm), all by weight.",
+          "quote": "The contaminants in this recycled refrigerant 12 shall be limited to moisture, refrigerant oil, and noncondensable gases, which shall not exceed the following level: 3.1 Moisture: 15 ppm by weight. 3.2 Refrigerant Oil: 4000 ppm by weight. 3.3 Noncondensable Gases (air): 330 ppm by wright.",
+          "source": {
+            "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Recycled refrigerant should not be stored in disposable containers (the kind virgin refrigerant is sold in); only DOT (49 CFR) or UL approved storage containers should be used.",
+          "quote": "Recycled refrigerant should not be salvaged or stored in disposable refrigerant containers. This is the type of container in which virgin refrigerant is sold. Use only DOT CFR title 49 or UL approved storage containers for recycled refrigerant.",
+          "source": {
+            "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An external portable container must be evacuated to at least 27 in of vacuum (75 mm Hg absolute) before recycled refrigerant is transferred into it.",
+          "quote": "When external portable containers are used for transfer, the container must be evacuated at least 27 in of vacuum (75 mm Hg absolute pressure) prior to transfer of the recycled refrigerant.",
+          "source": {
+            "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "We do not cover identifying refrigerants, service fitting sizes, container or label colors, or SNAP rules for substitute refrigerants, because the text of Subpart B and its appendices does not set them out."
+    }
+  ]
+}
