@@ -109,8 +109,8 @@ export default function WaterOperatorPage() {
               Everything here comes from the current eCFR text of 40 CFR Part 141 (National Primary Drinking Water
               Regulations) and Part 143 (secondary standards and lead free plumbing). Operator certification exams are
               run by each state, and many use exam content and operator manuals we do not use. Those exams also test
-              plant operation and process math, which federal rules do not cover. States with primacy can adopt stricter
-              rules, so check your state program too. {c.independence}
+              plant operation and process math, which federal rules do not cover. Your state drinking water program may
+              have its own requirements, so check them too. {c.independence}
             </p>
           </div>
 

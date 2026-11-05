@@ -4,7 +4,7 @@
   "href": "/water-operator/contaminant-levels/study-guide/",
   "title": "Drinking water maximum contaminant levels study guide",
   "description": "Federal MCLs and MRDLs in 40 CFR 141 Subpart G: who they cover, units, compliance basis, dates and best available technologies, with exact quotes.",
-  "intro": "Subpart G of 40 CFR Part 141 sets the federal maximum contaminant levels (MCLs) for organic, inorganic, microbiological, disinfection byproduct and radionuclide contaminants, and the maximum residual disinfectant levels (MRDLs) for chlorine, chloramines and chlorine dioxide. This guide sets out what the rule text states on which systems each limit covers, the units and the compliance basis, the effective and compliance dates, and the best available technologies (BAT) EPA lists. The PFAS entries in 141.61(c)(2) have an effective date of April 26, 2029. Monitoring and analytical methods sit in other subparts and are not covered. States with primacy may adopt stricter limits, so check your State's rules too. Every point links to the regulation and quotes its exact words.",
+  "intro": "Subpart G of 40 CFR Part 141 sets the federal maximum contaminant levels (MCLs) for organic, inorganic, microbiological, disinfection byproduct and radionuclide contaminants, and the maximum residual disinfectant levels (MRDLs) for chlorine, chloramines and chlorine dioxide. This guide sets out what the rule text states on which systems each limit covers, the units and the compliance basis, the effective and compliance dates, and the best available technologies (BAT) EPA lists. The PFAS entries in 141.61(c)(2) have an effective date of April 26, 2029. Monitoring and analytical methods sit in other subparts and are not covered. Your State drinking water program may have its own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "dates",
@@ -65,8 +65,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Most inorganic MCLs in 141.62(b) apply to community and non-transient, non-community water systems, but the fluoride MCL in 141.62(b)(1) applies only to community water systems.",
-          "quote": "The maximum contaminant levels for inorganic contaminants specified in paragraphs (b) (2)-(6), (b)(10), and (b) (11)-(16) of this section apply to community water systems and non-transient, non-community water systems. The maximum contaminant level specified in paragraph (b)(1) of this section only applies to community water systems.",
+          "text": "The inorganic MCLs in 141.62(b)(2)–(6), (b)(10) and (b)(11)–(16) apply to community water systems and non-transient, non-community water systems.",
+          "quote": "The maximum contaminant levels for inorganic contaminants specified in paragraphs (b) (2)-(6), (b)(10), and (b) (11)-(16) of this section apply to community water systems and non-transient, non-community water systems.",
           "source": {
             "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
@@ -108,8 +108,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "141.61(c)(2) sets an MCL of 1 (unitless) for the Hazard Index PFAS: HFPO-DA, PFBS, PFHxS and PFNA.",
-          "quote": "Hazard Index PFAS (HFPO-DA, PFBS, 1 (unitless)",
+          "text": "The 141.61(c)(2) table sets an MCL of 1 (unitless) for the Hazard Index PFAS row, which names HFPO-DA, PFBS, PFHxS and PFNA.",
+          "quote": "Hazard Index PFAS (HFPO-DA, PFBS, 1 (unitless) 1 PFHxS, and PFNA)",
           "source": {
             "title": "eCFR: 40 CFR 141.61, Maximum contaminant levels for organic contaminants (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.61"
@@ -250,7 +250,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The lead and copper action levels are in Subpart I, not Subpart G, and are not covered here."
+      "notCovered": "The lead and copper action levels are in Subpart I, not Subpart G, and are not covered here. 141.62(b) also limits the fluoride MCL in (b)(1) to community water systems; see the linked section for that sentence."
     },
     {
       "id": "microbiological",
@@ -363,7 +363,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The TTHM MCL is 0.080 mg/L and the HAA5 MCL is 0.060 mg/L.",
+          "text": "The 141.64(b)(1) table (the subpart L MCLs) lists TTHM at 0.080 mg/L and HAA5 at 0.060 mg/L. The next two points say how long these subpart L MCLs apply and how the subpart V MCLs are met.",
           "quote": "Total trihalomethanes (TTHM) 0.080 Haloacetic acids (five) (HAA5) 0.060",
           "source": {
             "title": "eCFR: 40 CFR 141.64, Maximum contaminant levels for disinfection byproducts (as of Nov 3, 2026)",
@@ -381,7 +381,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Under subpart V, the TTHM and HAA5 MCLs are met as a locational running annual average (LRAA) at each monitoring location.",
+          "text": "Beginning on the subpart V compliance date in 141.620(c), the subpart V MCLs for TTHM and HAA5 must be met as a locational running annual average (LRAA) at each monitoring location.",
           "quote": "The subpart V MCLs for TTHM and HAA5 must be complied with as a locational running annual average at each monitoring location beginning the date specified for subpart V compliance in § 141.620(c).",
           "source": {
             "title": "eCFR: 40 CFR 141.64, Maximum contaminant levels for disinfection byproducts (as of Nov 3, 2026)",
@@ -405,8 +405,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "For CWSs and NTNCWSs, subpart H systems serving 10,000 or more had to comply beginning January 1, 2002.",
-          "quote": "CWSs and NTNCWSs. Subpart H systems serving 10,000 or more persons must comply with this section beginning January 1, 2002.",
+          "text": "For CWSs and NTNCWSs, subpart H systems serving 10,000 or more persons had to comply beginning January 1, 2002; subpart H systems serving fewer than 10,000 persons and systems using only ground water not under the direct influence of surface water, beginning January 1, 2004.",
+          "quote": "CWSs and NTNCWSs. Subpart H systems serving 10,000 or more persons must comply with this section beginning January 1, 2002. Subpart H systems serving fewer than 10,000 persons and systems using only ground water not under the direct influence of surface water must comply with this subpart beginning January 1, 2004.",
           "source": {
             "title": "eCFR: 40 CFR 141.65, Maximum residual disinfectant levels (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.65"
@@ -465,7 +465,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Except for the radionuclides in table A, the concentration of man-made radionuclides causing 4 mrem must be calculated on the basis of 2 liters per day of drinking water intake, using the 168 hour data list in NBS Handbook 69.",
+          "text": "Except for the radionuclides in table A, the concentration of man-made radionuclides causing a 4 mrem total body or organ dose equivalent must be calculated on the basis of 2 liters per day of drinking water intake, using the 168 hour data list.",
           "quote": "Except for the radionuclides listed in table A, the concentration of man-made radionuclides causing 4 mrem total body or organ dose equivalents must be calculated on the basis of 2 liter per day drinking water intake using the 168 hour data list",
           "source": {
             "title": "eCFR: 40 CFR 141.66, Maximum contaminant levels for radionuclides (as of Nov 3, 2026)",

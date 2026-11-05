@@ -4,7 +4,7 @@
   "href": "/water-operator/disinfection-byproducts/study-guide/",
   "title": "Drinking water disinfectant residuals and byproducts study guide",
   "description": "Study guide to 40 CFR 141 Subpart L: who it covers, DBP and residual monitoring, compliance, reporting and enhanced coagulation TOC removal.",
-  "intro": "Subpart L of 40 CFR Part 141 sets federal requirements for disinfectant residuals (chlorine, chloramines, chlorine dioxide), disinfection byproducts (TTHM, HAA5, chlorite, bromate) and DBP precursors (TOC) for community and nontransient noncommunity systems that add a chemical disinfectant, and for transient noncommunity systems that use chlorine dioxide. This guide sets out what the text states on who is covered and when, analytical methods and laboratories, monitoring, how compliance is determined, reporting to the State, and the enhanced coagulation and enhanced softening treatment technique. Many requirements depend on system type, source water (Subpart H systems vs ground water), population served and State approval, so the exact words matter. The Subpart L TTHM and HAA5 MCLs apply only until the subpart V (Stage 2) compliance date, and subparts U and V are not covered here. States with primacy can set stricter requirements. Every point links to the regulation and quotes its exact words.",
+  "intro": "Subpart L of 40 CFR Part 141 sets federal requirements for disinfectant residuals (chlorine, chloramines, chlorine dioxide), disinfection byproducts (TTHM, HAA5, chlorite, bromate) and DBP precursors (TOC) for community and nontransient noncommunity systems that add a chemical disinfectant, and for transient noncommunity systems that use chlorine dioxide. This guide sets out what the text states on who is covered and when, analytical methods and laboratories, monitoring, how compliance is determined, reporting to the State, and the enhanced coagulation and enhanced softening treatment technique. Many requirements depend on system type, source water (Subpart H systems vs ground water), population served and State approval, so the exact words matter. The Subpart L TTHM and HAA5 MCLs apply only until the subpart V compliance date, and subparts U and V are not covered here. Your State drinking water program may have its own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "scope-dates",
@@ -74,7 +74,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "Subparts U and V of Part 141 (the Stage 2 DBP rule) are not in our sources. As 141.64(b) shows, the Subpart L running-annual-average TTHM and HAA5 MCLs apply only until the subpart V compliance date, so the TTHM and HAA5 monitoring, compliance and reporting points in this guide describe the Subpart L text only. Check subpart V and your State for the TTHM and HAA5 requirements that apply to your system now. The MCL and MRDL values themselves are in 141.64 and 141.65 (Subpart G)."
+      "notCovered": "Subparts U and V of Part 141 are not in our sources. As 141.64(b) shows, the Subpart L running-annual-average TTHM and HAA5 MCLs apply only until the subpart V compliance date, so the TTHM and HAA5 monitoring, compliance and reporting points in this guide describe the Subpart L text only. Check subpart V and your State for the TTHM and HAA5 requirements that apply to your system now. The MCL and MRDL values themselves are in 141.64 and 141.65 (Subpart G)."
     },
     {
       "id": "analytical",
@@ -290,8 +290,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Routine precursor monitoring is one paired sample (source and treated water TOC) and one source water alkalinity sample per month per plant, at a time representative of normal operating conditions and influent water quality.",
-          "quote": "Systems must take one paired sample and one source water alkalinity sample per month per plant at a time representative of normal operating conditions and influent water quality.",
+          "text": "Source water and treated water TOC samples taken at the same time are called paired samples. Routine precursor monitoring is one paired sample and one source water alkalinity sample per month per plant, at a time representative of normal operating conditions and influent water quality.",
+          "quote": "These samples (source water and treated water) are referred to as paired samples. At the same time as the source water sample is taken, all systems must monitor for alkalinity in the source water prior to any treatment. Systems must take one paired sample and one source water alkalinity sample per month per plant at a time representative of normal operating conditions and influent water quality.",
           "source": {
             "title": "eCFR: 40 CFR 141.132, Monitoring requirements (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.132"
@@ -448,7 +448,7 @@
         },
         {
           "text": "When a system switches between chlorine and chloramines, its 141.134 reports must clearly show which residual disinfectant was analyzed for each sample.",
-          "quote": "Reports submitted pursuant to § 141.134 must clearly indicate which residual disinfectant was analyzed for each sample.",
+          "quote": "In cases where systems switch between the use of chlorine and chloramines for residual disinfection during the year, compliance must be determined by including together all monitoring results of both chlorine and chloramines in calculating compliance. Reports submitted pursuant to § 141.134 must clearly indicate which residual disinfectant was analyzed for each sample.",
           "source": {
             "title": "eCFR: 40 CFR 141.133, Compliance requirements (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.133"
@@ -517,7 +517,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Systems practicing softening must meet the Step 1 TOC reductions in the far-right column of the table (source water alkalinity >120 mg/L).",
+          "text": "Systems practicing softening must meet the Step 1 TOC reductions in the far-right column of the Step 1 table.",
           "quote": "Systems practicing softening are required to meet the Step 1 TOC reductions in the far-right column",
           "source": {
             "title": "eCFR: 40 CFR 141.135, Treatment technique for control of disinfection byproduct (DBP) precursors (as of Nov 4, 2026)",

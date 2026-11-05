@@ -4,7 +4,7 @@
   "href": "/water-operator/lead-copper/study-guide/",
   "title": "Drinking water lead and copper study guide",
   "description": "Study guide to the 2024-revised Lead and Copper Rule (40 CFR 141 Subpart I, compliance by Nov 1, 2027): action levels, service lines, sampling, schools.",
-  "intro": "Subpart I of 40 CFR Part 141 holds EPA's national primary drinking water regulations for lead and copper. The text in our snapshot is the 2024 revision: it took effect on December 30, 2024, and systems must comply with it no later than November 1, 2027, except where the rule sets other dates. Until then, systems follow the July 1, 2020 text plus a list of newer provisions, and that older text is not covered here. Every point below describes the 2024-revised text with its compliance date, not what systems must meet today. The guide covers which systems the rule applies to and its dates, the action levels and 90th percentile method, corrosion control treatment, the service line inventory and replacement, public education and notices, tap sampling, monitoring in schools and child care facilities, and the small system options. States with primacy can adopt stricter rules, so check your State's rules too. Every point links to the regulation and quotes its exact words.",
+  "intro": "Subpart I of 40 CFR Part 141 holds EPA's national primary drinking water regulations for lead and copper. The text in our snapshot is the 2024 revision: it took effect on December 30, 2024, and systems must comply with it no later than November 1, 2027, except where the rule sets other dates. Until then, systems follow the July 1, 2020 text plus a list of newer provisions, and that older text is not covered here. Every point below describes the 2024-revised text with its compliance date, not what systems must meet today. The guide covers which systems the rule applies to and its dates, the action levels and 90th percentile method, corrosion control treatment, the service line inventory and replacement, public education and notices, tap sampling, monitoring in schools and child care facilities, and the small system options. Your State drinking water program may have its own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "dates",
@@ -90,7 +90,16 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), for a system with only Tier 3, 4 or 5 sites, the number of samples taken during the tap sampling period is multiplied by 0.9, and the 90th percentile is the lead or copper concentration in the numbered sample that this yields.",
+          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), a system that has no Tier 1 or Tier 2 sites and only Tier 3, 4 or 5 sites derives the 90th percentile by first placing all eligible lead or copper results from the tap sampling period in ascending order, from lowest to highest concentration.",
+          "quote": "For water systems that do not have Tier 1 and/or Tier 2 sites and only have sites identified as Tier 3, 4, or 5 under § 141.86(a): (A) The results of all lead or copper samples taken during a tap sampling period and eligible for inclusion in the 90th percentile calculation under § 141.86(e) must be placed in ascending order from the sample with the lowest concentration of lead or copper to the sample with the highest concentration of lead or copper.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.80, General requirements and action level (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.80"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), in that Tier 3, 4 or 5 case (141.80(c)(3)(i)), the number of samples taken during the tap sampling period is then multiplied by 0.9, and the 90th percentile is the lead or copper concentration in the numbered sample this yields.",
           "quote": "The number of samples taken during the tap sampling period must be multiplied by 0.9. (C) The 90th percentile concentration is the concentration of lead or copper in the numbered sample yielded after multiplying the number of samples by 0.9 in paragraph (c)(3)(i)(B) of this section.",
           "source": {
             "title": "eCFR: 40 CFR 141.80, General requirements and action level (as of Nov 3, 2026)",
@@ -99,7 +108,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), for a system with only Tier 3, 4 or 5 sites that collects five samples per tap sampling period, the 90th percentile is the average of the highest and second highest results.",
+          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), in that same Tier 3, 4 or 5 case (141.80(c)(3)(i)), a system that collects five samples per tap sampling period uses the average of the highest and second highest results as the 90th percentile.",
           "quote": "For water systems that collect five samples per tap sampling period, the 90th percentile concentration is the average of the highest and second highest concentration from the results in paragraph (c)(3)(i)(A) of this section.",
           "source": {
             "title": "eCFR: 40 CFR 141.80, General requirements and action level (as of Nov 3, 2026)",
@@ -108,8 +117,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), for a Tier 1 or 2 site, the lead result used is the higher of the first-liter and fifth-liter results (or the first-liter result if tiering is based on premise plumbing).",
-          "quote": "For lead, water systems must include the higher of the first-liter and fifth-liter lead sample results at each Tier 1 and 2 site (or first-liter lead sample if tiering is based on premise plumbing)",
+          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), for a system with enough Tier 1 and 2 sites to meet its minimum number of sites, the lead result used for each Tier 1 and 2 site is the higher of the first-liter and fifth-liter results (or the first-liter result if tiering is based on premise plumbing).",
+          "quote": "For water systems with sites identified as Tier 1 or 2 under § 141.86(a) with sufficient Tier 1 and 2 sites to meet the minimum number of sites required in § 141.86(c) or (d) as applicable: (A) For lead, water systems must include the higher of the first-liter and fifth-liter lead sample results at each Tier 1 and 2 site (or first-liter lead sample if tiering is based on premise plumbing)",
           "source": {
             "title": "eCFR: 40 CFR 141.80, General requirements and action level (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.80"
@@ -117,7 +126,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), for a system with sufficient Tier 1 and 2 sites to meet its minimum number of sites, lead or copper results from Tier 3, 4 or 5 sites cannot be included in the 90th percentile calculation.",
+          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), in that same case, all first-liter copper samples from each Tier 1 and 2 site are included, and lead or copper results from Tier 3, 4 or 5 sites cannot be included in the 90th percentile calculation.",
           "quote": "For water systems with sites identified as Tier 1 or 2 under § 141.86(a) with sufficient Tier 1 and 2 sites to meet the minimum number of sites required in § 141.86(c) or (d) as applicable: (A) For lead, water systems must include the higher of the first-liter and fifth-liter lead sample results at each Tier 1 and 2 site (or first-liter lead sample if tiering is based on premise plumbing) taken during the tap sampling period in paragraphs (c)(3)(ii)(B) through (D) of this section. For copper, water systems must include all first-liter copper samples collected at each Tier 1 and 2 site taken during the tap sampling period. Lead or copper sample results from Tier 3, 4, or 5 sites cannot be included in this calculation.",
           "source": {
             "title": "eCFR: 40 CFR 141.80, General requirements and action level (as of Nov 3, 2026)",
@@ -247,8 +256,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), where property owner consent is needed, a \"reasonable effort\" must include at least four attempts using at least two different methods of communication; the State may require more attempts or specific methods.",
-          "quote": "must include at least four attempts to engage the property owner using at least two different methods of communication (e.g., in-person conversation, phone call, text message, email, written letter, postcard, or information left at the door such as a door hanger) before the applicable deadline of mandatory service line replacement as described in paragraph (d)(4) of this section. The State may require systems to conduct additional attempts and may require specific outreach methods to be used.",
+          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), a “reasonable effort” to engage a property owner must include at least four attempts using at least two different methods of communication before the mandatory replacement deadline; the State may require more attempts or specific outreach methods.",
+          "quote": "A “reasonable effort” must include at least four attempts to engage the property owner using at least two different methods of communication (e.g., in-person conversation, phone call, text message, email, written letter, postcard, or information left at the door such as a door hanger) before the applicable deadline of mandatory service line replacement as described in paragraph (d)(4) of this section. The State may require systems to conduct additional attempts and may require specific outreach methods to be used.",
           "source": {
             "title": "eCFR: 40 CFR 141.84, Service line inventory and replacement requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.84"
@@ -265,8 +274,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), when a customer gives notice of a planned partial replacement, the system must replace the remaining portion at the same time or as soon as practicable, but no later than 45 days from the customer's partial replacement.",
-          "quote": "Replace the remaining portion of the lead or galvanized requiring replacement service line at the same time as, or as soon as practicable after, the customer-initiated replacement, but no later than 45 days from the date the customer conducted the partial replacement;",
+          "text": "Under the 2024-revised Subpart I (compliance by November 1, 2027), when a customer notifies the system that it intends to conduct a partial lead or galvanized requiring replacement service line replacement, the system must replace the remaining portion at the same time or as soon as practicable after, but no later than 45 days from the date of the customer's partial replacement.",
+          "quote": "If the water system is notified by the customer that the customer intends to conduct a partial lead or galvanized requiring replacement service line replacement, the water system must: (i) Replace the remaining portion of the lead or galvanized requiring replacement service line at the same time as, or as soon as practicable after, the customer-initiated replacement, but no later than 45 days from the date the customer conducted the partial replacement;",
           "source": {
             "title": "eCFR: 40 CFR 141.84, Service line inventory and replacement requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.84"

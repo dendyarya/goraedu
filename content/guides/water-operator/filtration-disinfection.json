@@ -4,7 +4,7 @@
   "href": "/water-operator/filtration-disinfection/study-guide/",
   "title": "Drinking water filtration and disinfection study guide",
   "description": "Study guide to 40 CFR 141 Subpart H: avoiding filtration, disinfection, turbidity limits, monitoring, reporting and recycle, linked to the rule text.",
-  "intro": "Subpart H of 40 CFR Part 141 (141.70 to 141.76) is EPA's original surface water treatment rule. It applies to \"subpart H systems\": public water systems that use surface water, or ground water under the direct influence of surface water, as a source. This guide sets out what the rule text states on the required Giardia and virus removal and inactivation, the conditions for avoiding filtration, disinfection for unfiltered and filtered systems, the turbidity limits for each filtration technology, monitoring, reporting to the State, and the recycle provisions. Many duties start on dates tied to a State determination, and the State decides several key points, so the exact words matter. Later rules in other subparts add stricter requirements, and States with primacy may be stricter than the federal text. Every point links to the regulation and quotes its exact words.",
+  "intro": "Subpart H of 40 CFR Part 141 (141.70 to 141.76) sets EPA's filtration and disinfection requirements for \"subpart H systems\": public water systems that use surface water, or ground water under the direct influence of surface water, as a source. This guide sets out what the rule text states on the required Giardia and virus removal and inactivation, the conditions for avoiding filtration, disinfection for unfiltered and filtered systems, the turbidity limits for each filtration technology, monitoring, reporting to the State, and the recycle provisions. Many duties start on dates tied to a State determination, and the State decides several key points, so the exact words matter. Later rules in other subparts add further requirements. Your State drinking water program may have its own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "scope",
@@ -75,7 +75,7 @@
         },
         {
           "text": "Each subpart H system must be operated by qualified personnel who meet requirements specified by the State.",
-          "quote": "must be operated by qualified personnel who meet the requirements specified by the State.",
+          "quote": "Each public water system using a surface water source or a ground water source under the direct influence of surface water must be operated by qualified personnel who meet the requirements specified by the State.",
           "source": {
             "title": "eCFR: 40 CFR 141.70, General requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.70"
@@ -92,7 +92,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "Subparts P and T, which 141.70(d) and (e) point to, and other later surface water treatment rules elsewhere in Part 141 (including the Cryptosporidium treatment requirements of the Long Term 2 rule) add stricter turbidity, treatment and monitoring requirements; they are not covered here. A subpart H system must meet them as well as Subpart H, and States with primacy may set stricter requirements."
+      "notCovered": "Subparts P and T, which 141.70(d) and (e) point to, are not covered here: depending on population served, a subpart H system must also comply with one of them. Other subparts of Part 141 that add treatment and monitoring requirements are outside this set,. Your State drinking water program may have its own requirements, so check them too."
     },
     {
       "id": "avoiding-filtration",
@@ -108,8 +108,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "For a GWUDI source the conditions apply beginning 18 months after the State determines it is under the direct influence of surface water, or December 30, 1991, whichever is later.",
-          "quote": "beginning 18 months after the State determines that it is under the direct influence of surface water, or December 30, 1991, whichever is later",
+          "text": "A system using a GWUDI source must meet all of the conditions in 141.71(a) and (b) beginning 18 months after the State determines that the source is under the direct influence of surface water, or December 30, 1991, whichever is later, unless the State has determined in writing that filtration is required.",
+          "quote": "A public water system that uses a ground water source under the direct influence of surface water must meet all of the conditions of paragraphs (a) and (b) of this section and is subject to paragraph (c) of this section, beginning 18 months after the State determines that it is under the direct influence of surface water, or December 30, 1991, whichever is later, unless the State has determined, in writing pursuant to § 1412(b)(7)(C)(iii), that filtration is required.",
           "source": {
             "title": "eCFR: 40 CFR 141.71, Criteria for avoiding filtration (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.71"
@@ -276,7 +276,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The CT tables in 141.74(b)(3) and the inactivation ratio formulas are not reproduced here. Disinfection profiling and benchmarking (Subparts P and T) and the disinfectant residual and disinfection byproduct limits of Subpart L are covered elsewhere."
+      "notCovered": "The CT tables in 141.74(b)(3) and the inactivation ratio formulas are not reproduced here. Requirements in Subparts P and T are not covered, and the disinfectant residual and disinfection byproduct limits of Subpart L are in the separate disinfection byproducts guide."
     },
     {
       "id": "filtration",
@@ -355,7 +355,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The stricter turbidity limits in 141.173 and 141.550 through 141.553 (and individual filter monitoring under those later rules) are outside this set. The Subpart H limits on this page differ by filtration technology and are not the only limits a system may have to meet."
+      "notCovered": "The turbidity requirements in 141.173(a) and 141.550 through 141.553, which 141.73(a)(3) and (4) point to for conventional and direct filtration, are outside this set. The Subpart H limits on this page differ by filtration technology and are not the only limits a system may have to meet."
     },
     {
       "id": "monitoring",
@@ -380,8 +380,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Unfiltered systems must measure source water turbidity on representative grab samples immediately before the first or only point of disinfectant application every four hours (or more frequently) that they serve water; continuous monitoring may be substituted if validated for accuracy on a regular basis under a State-approved protocol.",
-          "quote": "must be performed on representative grab samples of source water immediately prior to the first or only point of disinfectant application every four hours (or more frequently) that the system serves water to the public. A public water system may substitute continuous turbidity monitoring for grab sample monitoring if it validates the continuous measurement for accuracy on a regular basis using a protocol approved by the State.",
+          "text": "The source water turbidity measurements for the 141.71(a)(2) criterion must be made on representative grab samples taken immediately before the first or only point of disinfectant application, every four hours (or more frequently) that the system serves water; continuous monitoring may be substituted if it is validated for accuracy on a regular basis under a State-approved protocol.",
+          "quote": "Turbidity measurements as required by § 141.71(a)(2) must be performed on representative grab samples of source water immediately prior to the first or only point of disinfectant application every four hours (or more frequently) that the system serves water to the public. A public water system may substitute continuous turbidity monitoring for grab sample monitoring if it validates the continuous measurement for accuracy on a regular basis using a protocol approved by the State.",
           "source": {
             "title": "eCFR: 40 CFR 141.74, Analytical and monitoring requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.74"
