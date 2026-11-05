@@ -24,9 +24,13 @@ const GENERAL_INDUSTRY_SETS: OshaSet[] = [
   { slug: "fire-protection", name: "Fire protection", rule: "29 CFR 1910 Subpart L", focus: null },
   { slug: "electrical", name: "Electrical safety", rule: "29 CFR 1910 Subpart S", focus: null },
   { slug: "ppe", name: "Personal protective equipment", rule: "29 CFR 1910 Subpart I", focus: null },
+  { slug: "hazardous-materials", name: "Hazardous materials", rule: "29 CFR 1910.101 and 1910.106", focus: null },
+  { slug: "confined-spaces", name: "Permit-required confined spaces", rule: "29 CFR 1910.146", focus: null },
   { slug: "lockout-tagout", name: "Lockout/tagout", rule: "29 CFR 1910.147", focus: null },
   { slug: "machine-guarding", name: "Machine guarding", rule: "29 CFR 1910 Subpart O", focus: null },
+  { slug: "welding", name: "Welding, cutting and brazing", rule: "29 CFR 1910 Subpart Q", focus: null },
   { slug: "forklifts", name: "Powered industrial trucks (forklifts)", rule: "29 CFR 1910.178", focus: null },
+  { slug: "materials-handling", name: "Materials handling and storage", rule: "29 CFR 1910 Subpart N", focus: null },
   { slug: "bloodborne-pathogens", name: "Bloodborne pathogens", rule: "29 CFR 1910.1030", focus: null },
   { slug: "noise", name: "Occupational noise exposure", rule: "29 CFR 1910.95", focus: null },
 ];

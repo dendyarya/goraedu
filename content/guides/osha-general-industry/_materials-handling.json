@@ -1,0 +1,551 @@
+{
+  "cluster": "osha-general-industry",
+  "slug": "materials-handling",
+  "href": "/osha-general-industry/materials-handling/study-guide/",
+  "title": "OSHA general industry materials handling and storage study guide",
+  "description": "OSHA materials handling study guide: storage, rim wheel servicing, overhead and mobile cranes, crane inspections and slings, linked to 29 CFR 1910 Subpart N.",
+  "intro": "Subpart N of 29 CFR Part 1910 holds OSHA's general industry rules on materials handling and storage. This guide sets out what the rule text states in 1910.176 (clearances, secure storage, housekeeping and guarding), 1910.177 (servicing multi-piece and single piece rim wheels), 1910.179 (overhead and gantry cranes), 1910.180 (crawler, locomotive and truck cranes) and 1910.184 (slings). Powered industrial trucks (1910.178) have their own set. Consensus standards the rules incorporate by reference (such as ANSI B30.2.0-1967 and ANSI B30.5-1968) are only named here, not summarized. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "general-handling",
+      "name": "General materials handling and storage",
+      "points": [
+        {
+          "text": "Where mechanical handling equipment is used, sufficient safe clearances must be allowed for aisles, at loading docks, through doorways and wherever turns or passage must be made.",
+          "quote": "Where mechanical handling equipment is used, sufficient safe clearances shall be allowed for aisles, at loading docks, through doorways and wherever turns or passage must be made.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.176, Handling materials—general (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.176"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In the same paragraph on the use of mechanical equipment, aisles and passageways must be kept clear and in good repair, with no obstruction across or in aisles that could create a hazard, and permanent aisles and passageways must be appropriately marked.",
+          "quote": "Aisles and passageways shall be kept clear and in good repair, with no obstruction across or in aisles that could create a hazard. Permanent aisles and passageways shall be appropriately marked.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.176, Handling materials—general (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.176"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Storage of material must not create a hazard. Bags, containers, bundles and similar items stored in tiers must be stacked, blocked, interlocked and limited in height so that they are stable and secure against sliding or collapse.",
+          "quote": "Storage of material shall not create a hazard. Bags, containers, bundles, etc., stored in tiers shall be stacked, blocked, interlocked and limited in height so that they are stable and secure against sliding or collapse.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.176, Handling materials—general (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.176"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Storage areas must be kept free from accumulation of materials that constitute hazards from tripping, fire, explosion, or pest harborage. The rule adds that vegetation control will be exercised when necessary.",
+          "quote": "Storage areas shall be kept free from accumulation of materials that constitute hazards from tripping, fire, explosion, or pest harborage. Vegetation control will be exercised when necessary.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.176, Handling materials—general (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.176"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Clearance signs to warn of clearance limits must be provided.",
+          "quote": "Clearance signs to warn of clearance limits shall be provided.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.176, Handling materials—general (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.176"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Derail and/or bumper blocks must be provided on spur railroad tracks where a rolling car could contact other cars being worked, enter a building, work or traffic area.",
+          "quote": "Derail and/or bumper blocks shall be provided on spur railroad tracks where a rolling car could contact other cars being worked, enter a building, work or traffic area.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.176, Handling materials—general (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.176"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Covers and/or guardrails must be provided to protect personnel from the hazards of open pits, tanks, vats, ditches and similar openings.",
+          "quote": "Covers and/or guardrails shall be provided to protect personnel from the hazards of open pits, tanks, vats, ditches, etc.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.176, Handling materials—general (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.176"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "rim-wheels",
+      "name": "Rim wheel servicing",
+      "points": [
+        {
+          "text": "1910.177 applies to servicing multi-piece and single piece rim wheels used on large vehicles such as trucks, tractors, trailers, buses and off-road machines. It does not apply to rim wheels used on automobiles, or on pickup trucks and vans using automobile tires or truck tires designated \"LT\".",
+          "quote": "This section applies to the servicing of multi-piece and single piece rim wheels used on large vehicles such as trucks, tractors, trailers, buses and off-road machines. It does not apply to the servicing of rim wheels used on automobiles, or on pickup trucks and vans utilizing automobile tires or truck tires designated \"LT\".",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.177, Servicing multi-piece and single piece rim wheels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.177"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The section does not apply to employers and places of employment regulated under the Longshoring (Part 1918), Construction (Part 1926) or Agriculture (Part 1928) standards.",
+          "quote": "This section does not apply to employers and places of employment regulated under the Longshoring Standards, 29 CFR part 1918; Construction Safety Standards, 29 CFR part 1926; or Agriculture Standards, 29 CFR part 1928.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.177, Servicing multi-piece and single piece rim wheels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.177"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The employer must provide a program to train all employees who service rim wheels in the hazards involved and the safety procedures to be followed, and no employee may service any rim wheel without training in correct procedures for that type of wheel and in the safe operating procedures of paragraphs (f) and (g).",
+          "quote": "The employer shall provide a program to train all employees who service rim wheels in the hazards involved in servicing those rim wheels and the safety procedures to be followed. (i) The employer shall assure that no employee services any rim wheel unless the employee has been trained and instructed in correct procedures of servicing the type of wheel being serviced, and in the safe operating procedures described in paragraphs (f) and (g) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.177, Servicing multi-piece and single piece rim wheels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.177"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The employer must furnish a restraining device for inflating tires on multi-piece wheels.",
+          "quote": "The employer shall furnish a restraining device for inflating tires on multi-piece wheels.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.177, Servicing multi-piece and single piece rim wheels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.177"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For single piece wheels, the employer must provide a restraining device or barrier for inflating tires unless the rim wheel will be bolted onto a vehicle during inflation.",
+          "quote": "The employer shall provide a restraining device or barrier for inflating tires on single piece wheels unless the rim wheel will be bolted onto a vehicle during inflation.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.177, Servicing multi-piece and single piece rim wheels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.177"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each restraining device or barrier must be able to withstand the maximum force that would be transferred to it during a rim wheel separation occurring at 150 percent of the maximum tire specification pressure for the type of rim wheel being serviced.",
+          "quote": "Each restraining device or barrier shall have the capacity to withstand the maximum force that would be transferred to it during a rim wheel separation occurring at 150 percent of the maximum tire specification pressure for the type of rim wheel being serviced.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.177, Servicing multi-piece and single piece rim wheels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.177"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Restraining devices and barriers must be visually inspected prior to each day's use and after any separation of the rim wheel components or sudden release of contained air. One showing damage such as the listed defects must be immediately removed from service.",
+          "quote": "Restraining devices and barriers shall be visually inspected prior to each day's use and after any separation of the rim wheel components or sudden release of contained air. Any restraining device or barrier exhibiting damage such as the following defects shall be immediately removed from service:",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.177, Servicing multi-piece and single piece rim wheels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.177"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In the multi-piece rim wheel procedure, tires must be completely deflated by removing the valve core before a rim wheel is removed from the axle when the tire has been driven underinflated at 80% or less of its recommended pressure, or when there is obvious or suspected damage to the tire or wheel components.",
+          "quote": "Tires shall be completely deflated by removing the valve core before a rim wheel is removed from the axle in either of the following situations: (i) When the tire has been driven underinflated at 80% or less of its recommended pressure, or (ii) When there is obvious or suspected damage to the tire or wheel components.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.177, Servicing multi-piece and single piece rim wheels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.177"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In the single piece rim wheel procedure, tires may be inflated only when contained within a restraining device, positioned behind a barrier or bolted on the vehicle with the lug nuts fully tightened. Tires must not be inflated when any flat, solid surface is in the trajectory and within one foot of the sidewall.",
+          "quote": "Tires may be inflated only when contained within a restraining device, positioned behind a barrier or bolted on the vehicle with the lug nuts fully tightened. (7) Tires shall not be inflated when any flat, solid surface is in the trajectory and within one foot of the sidewall.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.177, Servicing multi-piece and single piece rim wheels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.177"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "Appendix A to 1910.177 (examples of trajectories) and the OSHA tire charts themselves. The appendix figures are images and are not in the text this guide is built from; Appendix B only gives ordering information for the charts."
+    },
+    {
+      "id": "overhead-cranes",
+      "name": "Overhead and gantry cranes",
+      "points": [
+        {
+          "text": "1910.179 applies to overhead and gantry cranes, including semigantry, cantilever gantry, wall cranes, storage bridge cranes, and others having the same fundamental characteristics.",
+          "quote": "This section applies to overhead and gantry cranes, including semigantry, cantilever gantry, wall cranes, storage bridge cranes, and others having the same fundamental characteristics.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Rated load means the maximum load for which a crane or individual hoist is designed and built by the manufacturer and shown on the equipment nameplate(s).",
+          "quote": "Rated load means the maximum load for which a crane or individual hoist is designed and built by the manufacturer and shown on the equipment nameplate(s).",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The rated load of the crane must be plainly marked on each side of the crane. If the crane has more than one hoisting unit, each hoist must have its rated load marked on it or its load block, and this marking must be clearly legible from the ground or floor.",
+          "quote": "The rated load of the crane shall be plainly marked on each side of the crane, and if the crane has more than one hoisting unit, each hoist shall have its rated load marked on it or its load block and this marking shall be clearly legible from the ground or floor.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Only designated personnel may operate a crane covered by 1910.179.",
+          "quote": "Only designated personnel shall be permitted to operate a crane covered by this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The crane must not be loaded beyond its rated load except for test purposes as provided in paragraph (k).",
+          "quote": "The crane shall not be loaded beyond its rated load except for test purposes as provided in paragraph (k) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "While any employee is on the load or hook, there must be no hoisting, lowering, or traveling, and the employer must require that the operator avoid carrying loads over people.",
+          "quote": "While any employee is on the load or hook, there shall be no hoisting, lowering, or traveling. (vi) The employer shall require that the operator avoid carrying loads over people.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The operator must test the brakes each time a load approaching the rated load is handled, by raising the load a few inches and applying the brakes. The load must not be lowered below the point where less than two full wraps of rope remain on the hoisting drum.",
+          "quote": "The operator shall test the brakes each time a load approaching the rated load is handled. The brakes shall be tested by raising the load a few inches and applying the brakes. (viii) The load shall not be lowered below the point where less than two full wraps of rope remain on the hoisting drum.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "At the beginning of each operator's shift, the upper limit switch of each hoist must be tried out under no load. If the switch does not operate properly, the appointed person must be immediately notified.",
+          "quote": "At the beginning of each operator's shift, the upper limit switch of each hoist shall be tried out under no load. Extreme care shall be exercised; the block shall be \"inched\" into the limit or run in at slow speed. If the switch does not operate properly, the appointed person shall be immediately notified.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The design specifications of ANSI B30.2.0-1967 and CMAA Specification No. 61, which 1910.179 incorporates by reference. They are only named here. Derricks (1910.181) and helicopters (1910.183) are also in Subpart N but are not covered in this set; powered industrial trucks (1910.178) have their own set."
+    },
+    {
+      "id": "crane-inspections",
+      "name": "Crane inspections and load tests",
+      "points": [
+        {
+          "text": "1910.179 divides inspection of cranes in regular service into two classifications: frequent inspection, at daily to monthly intervals, and periodic inspection, at 1 to 12-month intervals.",
+          "quote": "(a) Frequent inspection—Daily to monthly intervals. (b) Periodic inspection—1 to 12-month intervals.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Among the frequent inspection items for overhead and gantry cranes, hooks with deformation or cracks get a visual inspection daily and a monthly inspection with a certification record that includes the date, the signature of the person who performed it and the serial number, or other identifier, of the hook.",
+          "quote": "Hooks with deformation or cracks. Visual inspection daily; monthly inspection with a certification record which includes the date of inspection, the signature of the person who performed the inspection and the serial number, or other identifier, of the hook inspected.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An overhead or gantry crane idle for 1 month or more, but less than 6 months, must get an inspection under (j)(2) and (m)(2) before placing in service. One idle for over 6 months must get a complete inspection under (j)(2) and (3) and (m)(2).",
+          "quote": "A crane which has been idle for a period of 1 month or more, but less than 6 months, shall be given an inspection conforming with requirements of paragraph (j)(2) of this section and paragraph (m)(2) of this section before placing in service. (ii) A crane which has been idle for a period of over 6 months shall be given a complete inspection conforming with requirements of paragraphs (j) (2) and (3) of this section and paragraph (m)(2) of this section before placing in service.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For the rated load test of overhead and gantry cranes, test loads must not be more than 125 percent of the rated load unless otherwise recommended by the manufacturer. The test reports must be placed on file where readily available to appointed personnel.",
+          "quote": "Test loads shall not be more than 125 percent of the rated load unless otherwise recommended by the manufacturer. The test reports shall be placed on file where readily available to appointed personnel.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "On overhead and gantry cranes, a thorough inspection of all running ropes must be made at least once a month, with a certification record (date, signature of the inspector and an identifier for the ropes) kept on file where readily available to appointed personnel.",
+          "quote": "A thorough inspection of all ropes shall be made at least once a month and a certification record which includes the date of inspection, the signature of the person who performed the inspection and an identifier for the ropes which were inspected shall be kept on file where readily available to appointed personnel.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.179, Overhead and gantry cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.179"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For crawler, locomotive and truck cranes, periodic inspection is at 1- to 12-month intervals, or as specifically recommended by the manufacturer.",
+          "quote": "Periodic inspection: 1- to 12-month intervals, or as specifically recommended by the manufacturer.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.180, Crawler locomotive and truck cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.180"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For crawler, locomotive and truck cranes, certification records (date, signature of the inspector and the serial number or other identifier of the crane) must be made monthly on critical items in use such as brakes, crane hooks, and ropes, and kept readily available.",
+          "quote": "Certification records which include the date of inspection, the signature of the person who performed the inspection and the serial number, or other identifier, of the crane which was inspected shall be made monthly on critical items in use such as brakes, crane hooks, and ropes. This certification record shall be kept readily available.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.180, Crawler locomotive and truck cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.180"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For crawler, locomotive and truck cranes, rated load test loads must not exceed 110 percent of the rated load at any selected working radius.",
+          "quote": "Test loads shall not exceed 110 percent of the rated load at any selected working radius.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.180, Crawler locomotive and truck cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.180"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "mobile-cranes",
+      "name": "Crawler, locomotive and truck cranes",
+      "points": [
+        {
+          "text": "1910.180 applies to crawler cranes, locomotive cranes, wheel mounted cranes of both truck and self-propelled wheel type, and variations with the same fundamental characteristics. Cranes designed for railway and automobile wreck clearances are excepted, and the requirements apply only to machines when used as lifting cranes.",
+          "quote": "This section applies to crawler cranes, locomotive cranes, wheel mounted cranes of both truck and self-propelled wheel type, and any variations thereof which retain the same fundamental characteristics. This section includes only cranes of the above types, which are basically powered by internal combustion engines or electric motors and which utilize drums and ropes. Cranes designed for railway and automobile wreck clearances are excepted. The requirements of this section are applicable only to machines when used as lifting cranes.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.180, Crawler locomotive and truck cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.180"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The load rating table in 1910.180(c)(1)(i) sets maximum load ratings as a percent of tipping loads: locomotive without outriggers, 85 for booms 60 feet or less and over 60 feet (both marked with footnote 1, on a 30,000 pound-feet minimum net stabilizing moment about the rail); locomotive using outriggers fully extended, 80; crawler without outriggers, 75; crawler using outriggers fully extended, 85; truck and wheel mounted without outriggers or using outriggers fully extended, 85.",
+          "quote": "Maximum load ratings (percent of tipping loads) Locomotive, without outriggers: Booms 60 feet or less 1 85 Booms over 60 feet 1 85 Locomotive, using outriggers fully extended 80 Crawler, without outriggers 75 Crawler, using outriggers fully extended 85 Truck and wheel mounted without outriggers or using outriggers fully extended 85 1 Unless this results in less than 30,000 pound-feet net stabilizing moment about the rail, which shall be minimum with such booms.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.180, Crawler locomotive and truck cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.180"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A substantial and durable rating chart with clearly legible letters and figures must be provided with each crane and securely fixed to the crane cab in a location easily visible to the operator while seated at his control station.",
+          "quote": "A substantial and durable rating chart with clearly legible letters and figures shall be provided with each crane and securely fixed to the crane cab in a location easily visible to the operator while seated at his control station.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.180, Crawler locomotive and truck cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.180"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When loads limited by structural competence rather than by stability are to be handled, the weight of the load must be determined within plus or minus 10 percent before it is lifted.",
+          "quote": "When loads which are limited by structural competence rather than by stability are to be handled, it shall be ascertained that the weight of the load has been determined within plus or minus 10 percent before it is lifted.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.180, Crawler locomotive and truck cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.180"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No hoisting, lowering, swinging, or traveling may be done while anyone is on the load or hook. The rule says the operator should avoid carrying loads over people.",
+          "quote": "No hoisting, lowering, swinging, or traveling shall be done while anyone is on the load or hook. (vi) The operator should avoid carrying loads over people.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.180, Crawler locomotive and truck cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.180"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Outriggers must be used when the load to be handled at that particular radius exceeds the rated load without outriggers as given by the manufacturer for that crane.",
+          "quote": "Outriggers shall be used when the load to be handled at that particular radius exceeds the rated load without outriggers as given by the manufacturer for that crane.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.180, Crawler locomotive and truck cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.180"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The operator must not be permitted to leave his position at the controls while the load is suspended. The rule says no person should be permitted to stand or pass under a load on the hook.",
+          "quote": "The operator shall not be permitted to leave his position at the controls while the load is suspended. (ii) No person should be permitted to stand or pass under a load on the hook.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.180, Crawler locomotive and truck cranes (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.180"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The design specifications of ANSI B30.5-1968 and the SAE J765 load-stability test code, which 1910.180 incorporates by reference. They are only named here. The overhead power line clearances themselves are in 1910.333(c)(3), covered in the electrical set."
+    },
+    {
+      "id": "sling-use",
+      "name": "Sling use and daily inspection",
+      "points": [
+        {
+          "text": "1910.184 applies to slings used with other material handling equipment for moving material by hoisting, in employments covered by Part 1910. It covers slings made from alloy steel chain, wire rope, metal mesh, natural or synthetic fiber rope (conventional three strand construction), and synthetic web (nylon, polyester, and polypropylene).",
+          "quote": "This section applies to slings used in conjunction with other material handling equipment for the movement of material by hoisting, in employments covered by this part. The types of slings covered are those made from alloy steel chain, wire rope, metal mesh, natural or synthetic fiber rope (conventional three strand construction), and synthetic web (nylon, polyester, and polypropylene).",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Whenever any sling is used, slings that are damaged or defective must not be used, and slings must not be shortened with knots or bolts or other makeshift devices.",
+          "quote": "Whenever any sling is used, the following practices shall be observed: (1) Slings that are damaged or defective shall not be used. (2) Slings shall not be shortened with knots or bolts or other makeshift devices.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Slings must not be loaded in excess of their rated capacities, and slings used in a basket hitch must have the loads balanced to prevent slippage.",
+          "quote": "Slings shall not be loaded in excess of their rated capacities. (5) Slings used in a basket hitch shall have the loads balanced to prevent slippage.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "All employees must be kept clear of loads about to be lifted and of suspended loads, and hands or fingers must not be placed between the sling and its load while the sling is being tightened around the load.",
+          "quote": "All employees shall be kept clear of loads about to be lifted and of suspended loads. (10) Hands or fingers shall not be placed between the sling and its load while the sling is being tightened around the load.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Shock loading is prohibited, and a sling must not be pulled from under a load when the load is resting on the sling.",
+          "quote": "Shock loading is prohibited. (12) A sling shall not be pulled from under a load when the load is resting on the sling.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Employers must not load a sling in excess of its recommended safe working load as prescribed by the sling manufacturer on the identification markings permanently affixed to the sling, and must not use slings without affixed and legible identification markings.",
+          "quote": "Employers must not load a sling in excess of its recommended safe working load as prescribed by the sling manufacturer on the identification markings permanently affixed to the sling. (14) Employers must not use slings without affixed and legible identification markings.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Each day before being used, the sling and all fastenings and attachments must be inspected for damage or defects by a competent person designated by the employer. Additional inspections must be performed during sling use where service conditions warrant, and damaged or defective slings must be immediately removed from service.",
+          "quote": "Each day before being used, the sling and all fastenings and attachments shall be inspected for damage or defects by a competent person designated by the employer. Additional inspections shall be performed during sling use, where service conditions warrant. Damaged or defective slings shall be immediately removed from service.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "sling-removal",
+      "name": "Sling markings and removal criteria",
+      "points": [
+        {
+          "text": "Alloy steel chain slings must have permanently affixed durable identification stating size, grade, rated capacity, and reach.",
+          "quote": "Alloy steel chain slings shall have permanently affixed durable identification stating size, grade, rated capacity, and reach.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "In addition to the daily inspection, alloy steel chain slings in use must get a thorough periodic inspection on a regular basis set by frequency of use, severity of service conditions, nature of lifts and experience with similar slings, and in no event at intervals greater than once every 12 months.",
+          "quote": "In addition to the inspection required by paragraph (d) of this section, a thorough periodic inspection of alloy steel chain slings in use shall be made on a regular basis, to be determined on the basis of (A) frequency of sling use; (B) severity of service conditions; (C) nature of lifts being made; and (D) experience gained on the service life of slings used in similar circumstances. Such inspections shall in no event be at intervals greater than once every 12 months.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Employers must permanently remove an alloy steel chain sling from service if it is heated above 1000 degrees F. When exposed to service temperatures in excess of 600 degrees F, the maximum working-load limits must be reduced in accordance with the chain or sling manufacturer's recommendations.",
+          "quote": "Employers must permanently remove an alloy steel-chain slings from service if it is heated above 1000 degrees F. When exposed to service temperatures in excess of 600 degrees F, employers must reduce the maximum working-load limits permitted by the chain manufacturer in accordance with the chain or sling manufacturer's recommendations.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Alloy steel chain slings must be removed from service if hooks are cracked, have been opened more than 15 percent of the normal throat opening measured at the narrowest point, or twisted more than 10 degrees from the plane of the unbent hook.",
+          "quote": "Slings shall be removed from service if hooks are cracked, have been opened more than 15 percent of the normal throat opening measured at the narrowest point or twisted more than 10 degrees from the plane of the unbent hook.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Wire rope slings must be immediately removed from service if there are ten randomly distributed broken wires in one rope lay, or five broken wires in one strand in one rope lay. Other listed conditions include wear or scraping of one-third the original diameter of outside individual wires.",
+          "quote": "Wire rope slings shall be immediately removed from service if any of the following conditions are present: (i) Ten randomly distributed broken wires in one rope lay, or five broken wires in one strand in one rope lay. (ii) Wear or scraping of one-third the original diameter of outside individual wires.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Fiber core wire rope slings of all grades must be permanently removed from service if they are exposed to temperatures in excess of 200 °F.",
+          "quote": "Fiber core wire rope slings of all grades shall be permanently removed from service if they are exposed to temperatures in excess of 200 °F.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Natural and synthetic fiber rope slings must be immediately removed from service for abnormal wear, powdered fiber between strands, broken or cut fibers, variations in the size or roundness of strands, discoloration or rotting, or distortion of hardware in the sling.",
+          "quote": "Natural and synthetic fiber rope slings shall be immediately removed from service if any of the following conditions are present: (i) Abnormal wear. (ii) Powdered fiber between strands. (iii) Broken or cut fibers. (iv) Variations in the size or roundness of strands. (v) Discoloration or rotting. (vi) Distortion of hardware in the sling.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Nylon web slings must not be used where fumes, vapors, sprays, mists or liquids of acids or phenolics are present. Polyester and polypropylene web slings must not be used where fumes, vapors, sprays, mists or liquids of caustics are present.",
+          "quote": "Nylon web slings shall not be used where fumes, vapors, sprays, mists or liquids of acids or phenolics are present. (ii) Polyester and polypropylene web slings shall not be used where fumes, vapors, sprays, mists or liquids of caustics are present.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Synthetic web slings must be immediately removed from service for acid or caustic burns; melting or charring of any part of the sling surface; snags, punctures, tears or cuts; broken or worn stitches; or distortion of fittings.",
+          "quote": "Synthetic web slings shall be immediately removed from service if any of the following conditions are present: (i) Acid or caustic burns; (ii) Melting or charring of any part of the sling surface; (iii) Snags, punctures, tears or cuts; (iv) Broken or worn stitches; or (v) Distortion of fittings.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.184, Slings (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.184"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "Table N-184-1 (minimum allowable chain size at any point of link) and the sling figures. The table's fractions do not come through cleanly in the text copy and the figures are images; read them in the linked section. Metal mesh sling details and the proof test method of ASTM A391-65, which the rule only incorporates by reference, are not summarized here."
+    }
+  ]
+}

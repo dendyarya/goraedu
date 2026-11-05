@@ -66,6 +66,11 @@ assertQuotes(
 const SOURCES: Source[] = [
   ...[
     ["subpart-D", "29 CFR Part 1910, Subpart D, Walking-Working Surfaces"],
+    ["subpart-H/section-1910.101", "29 CFR 1910.101, Compressed gases (general requirements)"],
+    ["subpart-H/section-1910.106", "29 CFR 1910.106, Flammable liquids"],
+    ["subpart-J/section-1910.146", "29 CFR 1910.146, Permit-required confined spaces"],
+    ["subpart-N", "29 CFR Part 1910, Subpart N, Materials Handling and Storage"],
+    ["subpart-Q", "29 CFR Part 1910, Subpart Q, Welding, Cutting and Brazing"],
     ["subpart-E", "29 CFR Part 1910, Subpart E, Exit Routes and Emergency Planning"],
     ["subpart-I", "29 CFR Part 1910, Subpart I, Personal Protective Equipment"],
     ["subpart-L", "29 CFR Part 1910, Subpart L, Fire Protection"],
@@ -125,8 +130,9 @@ export default function OshaGeneralIndustryPage() {
               Under OSHA&apos;s Outreach Training Program General Industry Procedures (revised July 1, 2024), the
               10-hour general industry course must include Introduction to OSHA; Walking and Working Surfaces, including
               fall protection; Exit Routes, Emergency Action Plans, Fire Prevention Plans, and Fire Protection;
-              Electrical; Personal Protective Equipment; and Hazard Communication. Elective topics include
-              Lockout/Tagout, Machine Guarding, Bloodborne Pathogens and Powered Industrial Vehicles, among others. The
+              Electrical; Personal Protective Equipment; and Hazard Communication. Elective topics include Hazardous
+              Materials, Permit-Required Confined Spaces, Lockout/Tagout, Machine Guarding, Welding, Cutting, and
+              Brazing, Bloodborne Pathogens, Powered Industrial Vehicles and Materials Handling, among others. The
               30-hour course adds Managing Safety and Health and Materials Handling to the required topics. Our pages
               follow the general industry standards behind those topics.
             </p>

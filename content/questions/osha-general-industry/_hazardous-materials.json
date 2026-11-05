@@ -1,0 +1,389 @@
+{
+  "cluster": "osha-general-industry",
+  "slug": "hazardous-materials",
+  "title": "OSHA general industry hazardous materials practice questions",
+  "description": "Free OSHA general industry practice questions on compressed gases and flammable liquids (29 CFR 1910.101 and 1910.106), each answer quoted and linked.",
+  "href": "/osha-general-industry/hazardous-materials/practice-test/",
+  "questions": [
+    {
+      "id": "hm-001",
+      "topic": "Compressed gas cylinders",
+      "question": "Under 29 CFR 1910.101(a), what must each employer determine about the compressed gas cylinders under its control?",
+      "options": {
+        "A": "That they are in a safe condition, to the extent this can be determined by visual inspection",
+        "B": "That each cylinder has been emptied and refilled within the past 30 days",
+        "C": "That every cylinder is stored outdoors",
+        "D": "That each cylinder was bought from the employer's own state"
+      },
+      "answer": "A",
+      "explanation": "\"Each employer shall determine that compressed gas cylinders under his control are in a safe condition to the extent that this can be determined by visual inspection.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.101, Compressed gases (general requirements) (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.101"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Each employer shall determine that compressed gas cylinders under his control are in a safe condition to the extent that this can be determined by visual inspection."
+    },
+    {
+      "id": "hm-002",
+      "topic": "Compressed gas cylinders",
+      "question": "Under 29 CFR 1910.101(c), what must compressed gas cylinders, portable tanks and cargo tanks have installed and maintained?",
+      "options": {
+        "A": "Remote-reading pressure gauges",
+        "B": "Pressure relief devices",
+        "C": "GPS tracking tags",
+        "D": "Locking valve caps"
+      },
+      "answer": "B",
+      "explanation": "Compressed gas cylinders, portable tanks, and cargo tanks \"shall have pressure relief devices installed and maintained\" in accordance with the Compressed Gas Association pamphlets the rule names.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.101, Compressed gases (general requirements) (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.101"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Compressed gas cylinders, portable tanks, and cargo tanks shall have pressure relief devices installed and maintained in accordance with Compressed Gas Association Pamphlets S-1.1-1963 and 1965 addenda and S-1.2-1963"
+    },
+    {
+      "id": "hm-003",
+      "topic": "Definitions and categories",
+      "question": "How does 29 CFR 1910.106(a)(19) define a flammable liquid?",
+      "options": {
+        "A": "Any liquid having a flashpoint at or below 100 °F (37.8 °C)",
+        "B": "Any liquid having a flashpoint at or below 140 °F (60 °C)",
+        "C": "Any liquid having a flashpoint at or below 199.4 °F (93 °C)",
+        "D": "Any liquid having a boiling point at or below 212 °F (100 °C)"
+      },
+      "answer": "C",
+      "explanation": "\"Flammable liquid means any liquid having a flashpoint at or below 199.4 °F (93 °C).\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Flammable liquid means any liquid having a flashpoint at or below 199.4 °F (93 °C)."
+    },
+    {
+      "id": "hm-004",
+      "topic": "Definitions and categories",
+      "question": "A liquid has a flashpoint below 73.4 °F (23 °C) and a boiling point at or below 95 °F (35 °C). Which category does 1910.106 put it in?",
+      "options": {
+        "A": "Category 1",
+        "B": "Category 2",
+        "C": "Category 3",
+        "D": "Category 4"
+      },
+      "answer": "A",
+      "explanation": "\"Category 1 shall include liquids having flashpoints below 73.4 °F (23 °C) and having a boiling point at or below 95 °F (35 °C).\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Category 1 shall include liquids having flashpoints below 73.4 °F (23 °C) and having a boiling point at or below 95 °F (35 °C)."
+    },
+    {
+      "id": "hm-005",
+      "topic": "Definitions and categories",
+      "question": "A liquid has a flashpoint of 120 °F. Which category does 1910.106 put it in?",
+      "options": {
+        "A": "Category 1",
+        "B": "Category 2",
+        "C": "Category 4",
+        "D": "Category 3"
+      },
+      "answer": "D",
+      "explanation": "\"Category 3 shall include liquids having flashpoints at or above 73.4 °F (23 °C) and at or below 140 °F (60 °C).\" A 120 °F flashpoint falls in that range.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Category 3 shall include liquids having flashpoints at or above 73.4 °F (23 °C) and at or below 140 °F (60 °C)."
+    },
+    {
+      "id": "hm-006",
+      "topic": "Definitions and categories",
+      "question": "What is the largest capacity the 1910.106 definition of a safety can allows?",
+      "options": {
+        "A": "1 gallon",
+        "B": "2 gallons",
+        "C": "5 gallons",
+        "D": "10 gallons"
+      },
+      "answer": "C",
+      "explanation": "A safety can is \"an approved container, of not more than 5 gallons capacity, having a spring-closing lid and spout cover\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Safety can shall mean an approved container, of not more than 5 gallons capacity, having a spring-closing lid and spout cover and so designed that it will safely relieve internal pressure when subjected to fire exposure."
+    },
+    {
+      "id": "hm-007",
+      "topic": "Containers and portable tanks",
+      "question": "Under Table H-12 in 1910.106, what is the maximum allowable size of a safety can for a Category 1 flammable liquid?",
+      "options": {
+        "A": "5 gal",
+        "B": "2 gal",
+        "C": "10 gal",
+        "D": "60 gal"
+      },
+      "answer": "B",
+      "explanation": "Table H-12 lists \"Safety cans 2 gal 5 gal 5 gal 5 gal\" for Categories 1, 2, 3 and 4, so the Category 1 limit is 2 gallons.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Safety cans 2 gal 5 gal 5 gal 5 gal."
+    },
+    {
+      "id": "hm-008",
+      "topic": "Containers and portable tanks",
+      "question": "Under Table H-12 in 1910.106, what is the maximum allowable size of a metal container (other than a DOT drum) for a Category 1 flammable liquid?",
+      "options": {
+        "A": "5 gal",
+        "B": "10 gal",
+        "C": "30 gal",
+        "D": "1 gal"
+      },
+      "answer": "D",
+      "explanation": "Table H-12 lists \"Metal (other than DOT drums) 1 gal 5 gal 5 gal 5 gal\" for Categories 1, 2, 3 and 4, so the Category 1 limit is 1 gallon.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Metal (other than DOT drums) 1 gal 5 gal 5 gal 5 gal."
+    },
+    {
+      "id": "hm-009",
+      "topic": "Containers and portable tanks",
+      "question": "What individual capacity limit does 1910.106(d)(1)(i) set for the drums and other containers covered by the container and portable tank storage rules?",
+      "options": {
+        "A": "60 gallons",
+        "B": "30 gallons",
+        "C": "120 gallons",
+        "D": "660 gallons"
+      },
+      "answer": "A",
+      "explanation": "The paragraph applies \"only to the storage of flammable liquids in drums or other containers (including flammable aerosols) not exceeding 60 gallons individual capacity\"; the 660-gallon limit is for portable tanks.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "This paragraph shall apply only to the storage of flammable liquids in drums or other containers (including flammable aerosols) not exceeding 60 gallons individual capacity and those portable tanks not exceeding 660 gallons individual capacity."
+    },
+    {
+      "id": "hm-010",
+      "topic": "Storage cabinets",
+      "question": "What is the largest quantity of Category 1, 2 or 3 flammable liquids that 1910.106(d)(3)(i) allows in one storage cabinet?",
+      "options": {
+        "A": "120 gallons",
+        "B": "240 gallons",
+        "C": "60 gallons",
+        "D": "660 gallons"
+      },
+      "answer": "C",
+      "explanation": "\"Not more than 60 gallons of Category 1, 2, or 3 flammable liquids, nor more than 120 gallons of Category 4 flammable liquids may be stored in a storage cabinet.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Not more than 60 gallons of Category 1, 2, or 3 flammable liquids, nor more than 120 gallons of Category 4 flammable liquids may be stored in a storage cabinet."
+    },
+    {
+      "id": "hm-011",
+      "topic": "Storage cabinets",
+      "question": "What wording does 1910.106(d)(3)(ii) require on the label of a flammable liquid storage cabinet?",
+      "options": {
+        "A": "Danger—No Smoking",
+        "B": "Caution—Combustibles Inside",
+        "C": "Hazardous Materials Storage",
+        "D": "Flammable—Keep Fire Away"
+      },
+      "answer": "D",
+      "explanation": "\"Cabinets shall be labeled in conspicuous lettering, “Flammable—Keep Fire Away.”\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Cabinets shall be labeled in conspicuous lettering, “Flammable—Keep Fire Away.”"
+    },
+    {
+      "id": "hm-012",
+      "topic": "Storage rooms and storage areas",
+      "question": "What minimum air change rate does 1910.106(d)(4)(iv) set for the exhaust ventilation of an inside storage room?",
+      "options": {
+        "A": "One complete change of air per hour",
+        "B": "A complete change of air at least six times per hour",
+        "C": "Two complete changes of air per hour",
+        "D": "Four complete changes of air per hour"
+      },
+      "answer": "B",
+      "explanation": "The system \"shall be designed to provide for a complete change of air within the room at least six times per hour.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Such system shall be designed to provide for a complete change of air within the room at least six times per hour."
+    },
+    {
+      "id": "hm-013",
+      "topic": "Storage rooms and storage areas",
+      "question": "Where does 1910.106(d)(4)(iv) require the switch for an inside storage room's mechanical exhaust system to be located?",
+      "options": {
+        "A": "Outside of the door",
+        "B": "Inside the room, next to the door",
+        "C": "On the exhaust fan housing inside the room",
+        "D": "Inside the room, on the wall opposite the door"
+      },
+      "answer": "A",
+      "explanation": "\"If a mechanical exhaust system is used, it shall be controlled by a switch located outside of the door.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "If a mechanical exhaust system is used, it shall be controlled by a switch located outside of the door."
+    },
+    {
+      "id": "hm-014",
+      "topic": "Storage rooms and storage areas",
+      "question": "Under Table H-13 in 1910.106, what total allowable quantity (gallons per square foot of floor area) applies to an inside storage room with 2-hour fire resistance and a fire protection system provided?",
+      "options": {
+        "A": "12",
+        "B": "20",
+        "C": "25",
+        "D": "10"
+      },
+      "answer": "D",
+      "explanation": "Table H-13's first row reads \"Yes 2 hours 500 sq. ft 10\": fire protection provided, 2-hour fire resistance, 500 sq. ft maximum size, 10 gallons per square foot.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Yes 2 hours 500 sq. ft 10"
+    },
+    {
+      "id": "hm-015",
+      "topic": "Incidental use in industrial plants",
+      "question": "In an industrial plant where flammable liquid use is incidental, what is the most Category 1 flammable liquid in containers that 1910.106(e)(2)(ii)(b) allows outside an inside storage room or storage cabinet in any one fire area?",
+      "options": {
+        "A": "60 gallons",
+        "B": "120 gallons",
+        "C": "25 gallons",
+        "D": "660 gallons"
+      },
+      "answer": "C",
+      "explanation": "The quantity outside an inside storage room or storage cabinet \"in any one fire area of a building shall not exceed: (1) 25 gallons of Category 1 flammable liquids in containers\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "in any one fire area of a building shall not exceed: (1) 25 gallons of Category 1 flammable liquids in containers"
+    },
+    {
+      "id": "hm-016",
+      "topic": "Incidental use in industrial plants",
+      "question": "Under 1910.106(e)(2)(iv)(a), when must Category 1 or 2 flammable liquids (or Category 3 below 100 °F) be kept in covered containers at the point of final use?",
+      "options": {
+        "A": "Only overnight",
+        "B": "When not actually in use",
+        "C": "Only when stored for more than 30 days",
+        "D": "Only in areas open to the public"
+      },
+      "answer": "B",
+      "explanation": "These liquids \"shall be kept in covered containers when not actually in use.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Category 1 or 2 flammable liquids, or Category 3 flammable liquids with a flashpoint below 100 °F (37.8 °C), shall be kept in covered containers when not actually in use."
+    },
+    {
+      "id": "hm-017",
+      "topic": "Dispensing, bonding and grounding",
+      "question": "Which way of transferring flammable liquids inside a building does 1910.106(e)(2)(iv)(d) prohibit?",
+      "options": {
+        "A": "Through a closed piping system",
+        "B": "From safety cans",
+        "C": "By gravity through an approved self-closing valve",
+        "D": "By means of air pressure on the container"
+      },
+      "answer": "D",
+      "explanation": "\"Transferring by means of air pressure on the container or portable tanks shall be prohibited.\" The other three are among the methods the rule allows.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Transferring by means of air pressure on the container or portable tanks shall be prohibited."
+    },
+    {
+      "id": "hm-018",
+      "topic": "Dispensing, bonding and grounding",
+      "question": "Under 1910.106(e)(6)(ii), Category 1 or 2 flammable liquids (or Category 3 below 100 °F) must not be dispensed into containers unless what condition is met?",
+      "options": {
+        "A": "The nozzle and container are electrically interconnected",
+        "B": "The container is made of plastic",
+        "C": "The room temperature is below 70 °F",
+        "D": "A second employee holds the container"
+      },
+      "answer": "A",
+      "explanation": "These liquids \"shall not be dispensed into containers unless the nozzle and container are electrically interconnected.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Category 1 or 2 flammable liquids, or Category 3 flammable liquids with a flashpoint below 100 °F (37.8 °C), shall not be dispensed into containers unless the nozzle and container are electrically interconnected."
+    },
+    {
+      "id": "hm-019",
+      "topic": "Sources of ignition and fire control",
+      "question": "What is the farthest from the door of a flammable liquid storage room that 1910.106(d)(7)(i)(a) allows the required 12-B portable fire extinguisher to be located?",
+      "options": {
+        "A": "25 feet",
+        "B": "10 feet",
+        "C": "50 feet",
+        "D": "75 feet"
+      },
+      "answer": "B",
+      "explanation": "At least one 12-B extinguisher \"shall be located outside of, but not more than 10 feet from, the door opening into any room used for storage.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "At least one portable fire extinguisher having a rating of not less than 12-B units shall be located outside of, but not more than 10 feet from, the door opening into any room used for storage."
+    },
+    {
+      "id": "hm-020",
+      "topic": "Sources of ignition and fire control",
+      "question": "What disposal interval does 1910.106(e)(9)(iii) set for combustible waste material and residues in an industrial plant building or unit operating area?",
+      "options": {
+        "A": "Weekly",
+        "B": "Monthly",
+        "C": "Daily",
+        "D": "Whenever the receptacle is full"
+      },
+      "answer": "C",
+      "explanation": "Such waste \"shall be kept to a minimum, stored in covered metal receptacles and disposed of daily.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Combustible waste material and residues in a building or unit operating area shall be kept to a minimum, stored in covered metal receptacles and disposed of daily."
+    }
+  ]
+}

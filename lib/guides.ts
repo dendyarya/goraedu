@@ -84,6 +84,16 @@ const SNAPSHOTS: Record<string, string[]> = {
     "29cfr1903-2026-11-03.reading-order.txt",
     "29cfr1904-2026-11-03.txt",
     "29cfr1904-2026-11-03.reading-order.txt",
+    "29cfr1910-101-2026-11-03.txt",
+    "29cfr1910-101-2026-11-03.reading-order.txt",
+    "29cfr1910-106-2026-11-03.txt",
+    "29cfr1910-106-2026-11-03.reading-order.txt",
+    "29cfr1910-subpartN-2026-11-03.txt",
+    "29cfr1910-subpartN-2026-11-03.reading-order.txt",
+    "29cfr1910-subpartQ-2026-11-03.txt",
+    "29cfr1910-subpartQ-2026-11-03.reading-order.txt",
+    "29cfr1910-146-2026-11-03.txt",
+    "29cfr1910-146-2026-11-03.reading-order.txt",
   ],
   "epa-609": [
     "40cfr82-subpartB-2026-11-03.txt",
@@ -130,6 +140,11 @@ const PAGE_TITLES = [
   "The control of hazardous energy (lockout/tagout).",
   "Powered industrial trucks.",
   "Occupational noise exposure.",
+  "Compressed gases (general requirements).",
+  "Flammable liquids.",
+  "Materials Handling and Storage",
+  "Welding, Cutting and Brazing",
+  "Permit-required confined spaces.",
 ];
 
 function stripPageChrome(text: string): string {
