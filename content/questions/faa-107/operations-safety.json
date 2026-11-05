@@ -98,15 +98,15 @@
     {
       "id": "so-006",
       "topic": "Performance and air density",
-      "question": "According to the Study Guide, what happens as the water content of the air increases?",
+      "question": "In the atmosphere both temperature and pressure decrease with altitude. According to the Study Guide, why can pilots still expect air density to decrease with altitude?",
       "options": {
-        "A": "The air becomes less dense, increasing density altitude and decreasing performance",
-        "B": "The air becomes denser, lowering density altitude and improving performance",
-        "C": "Air density stays the same, so performance does not change",
-        "D": "The air becomes denser, raising density altitude and decreasing performance"
+        "A": "The fairly rapid drop in pressure as altitude is increased usually has the dominant effect",
+        "B": "Temperature rises with altitude and lowers the density",
+        "C": "Humidity always increases with altitude",
+        "D": "Pressure has no effect on air density"
       },
       "answer": "A",
-      "explanation": "The Study Guide says \"as the water content of the air increases, the air becomes less dense, increasing density altitude and decreasing performance.\"",
+      "explanation": "The Study Guide: \"the fairly rapid drop in pressure as altitude is increased usually has the dominant effect. Hence, pilots can expect the density to decrease with altitude.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -152,15 +152,15 @@
     {
       "id": "so-009",
       "topic": "Radio communication and airport operations",
-      "question": "How does the Study Guide describe a Common Traffic Advisory Frequency (CTAF)?",
+      "question": "According to the Study Guide, how are the features of an automated UNICOM system typically selected?",
       "options": {
-        "A": "A frequency designated for carrying out airport advisory practices while operating to or from an airport without an operating control tower",
-        "B": "A frequency reserved for emergency transmissions by remote pilots",
-        "C": "A recorded loop of local weather broadcast at towered airports",
-        "D": "A frequency used only by air traffic control to clear aircraft for takeoff"
+        "A": "By microphone clicks on the UNICOM frequency",
+        "B": "By a telephone call to Flight Service",
+        "C": "By a text message to the airport manager",
+        "D": "By entering a code in the Remote ID broadcast"
       },
       "answer": "A",
-      "explanation": "The Study Guide defines a CTAF as \"a frequency designated for the purpose of carrying out airport advisory practices while operating to or from an airport without an operating control tower.\"",
+      "explanation": "The Study Guide says automated UNICOM systems \"offer a variety of features, typically selectable by microphone clicks, on the UNICOM frequency.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -170,15 +170,15 @@
     {
       "id": "so-010",
       "topic": "Preflight checks and emergencies",
-      "question": "Under 107.49(b), whom must the remote pilot in command ensure is informed, before flight, about the operating conditions, emergency procedures, contingency procedures, roles and responsibilities, and potential hazards?",
+      "question": "Which item does 107.49(c) require the remote pilot in command to ensure prior to flight?",
       "options": {
-        "A": "The manager of the nearest airport",
-        "B": "Local law enforcement",
-        "C": "Every property owner near the operating area",
-        "D": "All persons directly participating in the small unmanned aircraft operation"
+        "A": "That the control station is at least 400 feet from any road",
+        "B": "That the aircraft's firmware is the newest version released",
+        "C": "That the flight has been announced on the CTAF",
+        "D": "That all control links between ground control station and the small unmanned aircraft are working properly"
       },
       "answer": "D",
-      "explanation": "107.49(b) requires the remote PIC to \"Ensure that all persons directly participating in the small unmanned aircraft operation are informed\" about those items.",
+      "explanation": "Prior to flight, the remote pilot in command must, under 107.49(c), \"Ensure that all control links between ground control station and the small unmanned aircraft are working properly\".",
       "source": {
         "title": "eCFR: 14 CFR 107.49, Preflight familiarization, inspection, and actions for aircraft operation (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49"

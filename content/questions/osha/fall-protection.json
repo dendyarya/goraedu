@@ -26,15 +26,15 @@
     {
       "id": "fp-002",
       "topic": "Scope and definitions",
-      "question": "Under Subpart M, a gap in a floor counts as a hole when its least dimension is at least how large?",
+      "question": "A gap in a wall is 30 inches high. Under the Subpart M definitions, what is the least width at which it counts as an \"opening\"?",
       "options": {
         "A": "6 inches",
         "B": "12 inches",
-        "C": "2 inches",
-        "D": "18 inches"
+        "C": "18 inches",
+        "D": "15 inches"
       },
       "answer": "C",
-      "explanation": "A hole is \"a gap or void 2 inches (5.1 cm) or more in its least dimension, in a floor, roof, or other walking/working surface.\"",
+      "explanation": "An opening is \"a gap or void 30 inches (76 cm) or more high and 18 inches (48 cm) or more wide, in a wall or partition, through which employees can fall to a lower level.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.500, Scope, application, and definitions applicable to this subpart (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.500"
@@ -44,15 +44,15 @@
     {
       "id": "fp-003",
       "topic": "Duty to have fall protection",
-      "question": "An unprotected side or edge triggers the general fall protection duty when it is at least how far above a lower level?",
+      "question": "Before employees are put to work on a walking/working surface, what does Subpart M require the employer to determine about it?",
       "options": {
-        "A": "4 feet",
-        "B": "6 feet",
-        "C": "10 feet",
-        "D": "15 feet"
+        "A": "Whether it has been painted a safety color",
+        "B": "Whether it has the strength and structural integrity to support employees safely",
+        "C": "Whether OSHA has inspected it within the past year",
+        "D": "Whether it is level to within 1 inch"
       },
       "answer": "B",
-      "explanation": "Each employee on a surface \"with an unprotected side or edge which is 6 feet (1.8 m) or more above a lower level\" must be protected by guardrail, safety net or personal fall arrest systems.",
+      "explanation": "\"The employer shall determine if the walking/working surfaces on which its employees are to work have the strength and structural integrity to support employees safely.\" Employees may work on them only when they have that strength and integrity.",
       "source": {
         "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
@@ -134,15 +134,15 @@
     {
       "id": "fp-008",
       "topic": "Duty to have fall protection",
-      "question": "For roofing work on low-slope roofs, what is the greatest roof width at which the rule permits a safety monitoring system alone (without a warning line system)?",
+      "question": "For roofing work on a low-slope roof with an unprotected side or edge 6 feet or more above a lower level, which pairing is one of the combinations the rule lists?",
       "options": {
-        "A": "25 feet",
-        "B": "75 feet",
-        "C": "100 feet",
-        "D": "50 feet"
+        "A": "A controlled access zone and a warning sign",
+        "B": "A safety monitoring system and a fall protection plan",
+        "C": "A warning line system and a positioning device system",
+        "D": "A warning line system and a safety monitoring system"
       },
       "answer": "D",
-      "explanation": "\"On roofs 50-feet (15.25 m) or less in width\" the rule permits \"the use of a safety monitoring system alone [i.e. without the warning line system].\"",
+      "explanation": "The listed choices include \"a combination of warning line system and guardrail system, warning line system and safety net system, or warning line system and personal fall arrest system, or warning line system and safety monitoring system.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.501, Duty to have fall protection (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.501"
@@ -188,15 +188,15 @@
     {
       "id": "fp-011",
       "topic": "Guardrail systems",
-      "question": "What height must the top edge of a guardrail system be above the walking/working level?",
+      "question": "A crew is choosing material for the top rail and midrail of a guardrail system. Which material does the rule bar from that use?",
       "options": {
-        "A": "30 inches, plus or minus 3 inches",
-        "B": "42 inches, plus or minus 3 inches",
-        "C": "36 inches, plus or minus 1 inch",
-        "D": "54 inches, plus or minus 6 inches"
+        "A": "Wire rope at least one-quarter inch thick, flagged at not more than 6-foot intervals",
+        "B": "Steel banding or plastic banding",
+        "C": "Manila rope that is inspected as often as needed to keep its strength",
+        "D": "Wood members that meet the strength requirements"
       },
       "answer": "B",
-      "explanation": "Top edge height \"shall be 42 inches (1.1 m) plus or minus 3 inches (8 cm) above the walking/working level.\"",
+      "explanation": "\"Steel banding and plastic banding shall not be used as top rails or midrails.\" Wire rope is allowed if \"flagged at not more than 6-foot (1.8 m) intervals with high-visibility material.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -206,15 +206,15 @@
     {
       "id": "fp-012",
       "topic": "Guardrail systems",
-      "question": "What force must the top edge of a guardrail system withstand, without failure, in any outward or downward direction?",
+      "question": "A guardrail system surrounds a ladderway hole that employees use as a point of access. How must the guardrail be arranged at that access point?",
       "options": {
-        "A": "At least 50 pounds",
-        "B": "At least 75 pounds",
-        "C": "At least 100 pounds",
-        "D": "At least 200 pounds"
+        "A": "Left open, with a warning sign beside the hole",
+        "B": "Closed off with caution tape only",
+        "C": "Fitted with a toeboard across the access gap",
+        "D": "Provided with a gate, or offset so a person cannot walk directly into the hole"
       },
       "answer": "D",
-      "explanation": "Guardrail systems must withstand \"a force of at least 200 pounds (890 N) applied within 2 inches (5.1 cm) of the top edge, in any outward or downward direction.\"",
+      "explanation": "Guardrail systems around holes used as points of access \"shall be provided with a gate, or be so offset that a person cannot walk directly into the hole.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -224,15 +224,15 @@
     {
       "id": "fp-013",
       "topic": "Safety net systems",
-      "question": "What is the most a safety net may be installed below the walking/working surface where employees are working?",
+      "question": "What test load does the jobsite drop-test of a safety net installation use?",
       "options": {
-        "A": "30 feet",
-        "B": "10 feet",
-        "C": "50 feet",
-        "D": "75 feet"
+        "A": "A 400-pound bag of sand about 30 inches in diameter",
+        "B": "A 200-pound steel weight",
+        "C": "An employee wearing a full body harness",
+        "D": "A 100-pound bag of sand dropped from 6 feet"
       },
       "answer": "A",
-      "explanation": "Safety nets go \"as close as practicable under the walking/working surface on which employees are working, but in no case more than 30 feet (9.1 m) below such level.\"",
+      "explanation": "\"The drop-test shall consist of a 400 pound (180 kg) bag of sand 30 ±2 inches (76 ±5 cm) in diameter dropped into the net from the highest walking/working surface\" at which employees are exposed to fall hazards.",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -242,15 +242,15 @@
     {
       "id": "fp-014",
       "topic": "Safety net systems",
-      "question": "How often must safety nets be inspected for wear, damage and other deterioration, at a minimum?",
+      "question": "Tools and scrap pieces have fallen into a safety net during the shift. When must they be removed from the net?",
       "options": {
-        "A": "Once a year",
-        "B": "Once every 6 months",
-        "C": "At least once a week",
-        "D": "Only when first installed"
+        "A": "At the end of the work week",
+        "B": "Only when the net is relocated",
+        "C": "As soon as possible, and at least before the next work shift",
+        "D": "Only when their weight approaches the net's rating"
       },
       "answer": "C",
-      "explanation": "\"Safety nets shall be inspected at least once a week for wear, damage, and other deterioration,\" and also after any occurrence that could affect their integrity.",
+      "explanation": "\"Materials, scrap pieces, equipment, and tools which have fallen into the safety net shall be removed as soon as possible from the net and at least before the next work shift.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -260,15 +260,15 @@
     {
       "id": "fp-015",
       "topic": "Personal fall arrest systems",
-      "question": "A personal fall arrest system must be rigged so an employee can free fall no more than how far?",
+      "question": "Outside of elevator shaft construction, two employees use vertical lifelines as part of their personal fall arrest systems. How must they be attached?",
       "options": {
-        "A": "10 feet",
-        "B": "6 feet",
-        "C": "12 feet",
-        "D": "15 feet"
+        "A": "Both to one lifeline, as long as it has a 5,000-pound breaking strength",
+        "B": "Each to a separate lifeline",
+        "C": "Both to one lifeline, if a safety monitor is watching",
+        "D": "One to the lifeline and the other to a guardrail"
       },
       "answer": "B",
-      "explanation": "The system must \"be rigged such that an employee can neither free fall more than 6 feet (1.8 m), nor contact any lower level.\"",
+      "explanation": "\"When vertical lifelines are used, each employee shall be attached to a separate lifeline.\" The only exception is for two employees on a guarded false car during elevator shaft construction.",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -278,15 +278,15 @@
     {
       "id": "fp-016",
       "topic": "Personal fall arrest systems",
-      "question": "When used with a body harness, a personal fall arrest system must limit the maximum arresting force on the employee to what?",
+      "question": "Which of these does Subpart M say a personal fall arrest system shall not be attached to?",
       "options": {
-        "A": "3,600 pounds",
-        "B": "5,000 pounds",
-        "C": "10,000 pounds",
-        "D": "1,800 pounds"
+        "A": "An anchorage able to support at least 5,000 pounds per employee attached",
+        "B": "An anchorage designed under a qualified person's supervision with a safety factor of at least two",
+        "C": "A self-retracting lifeline that meets the subpart's strength requirements",
+        "D": "A guardrail system"
       },
       "answer": "D",
-      "explanation": "The system must \"limit maximum arresting force on an employee to 1,800 pounds (8 kN) when used with a body harness.\"",
+      "explanation": "\"Personal fall arrest systems shall not be attached to guardrail systems, nor shall they be attached to hoists except as specified in other subparts of this part.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -296,15 +296,15 @@
     {
       "id": "fp-017",
       "topic": "Personal fall arrest systems",
-      "question": "Unless designed and used under a qualified person's supervision with a safety factor of at least two, an anchorage for personal fall arrest equipment must support at least how much?",
+      "question": "Employees work from a platform suspended from roof anchorages. What does Subpart M require of the anchorages their personal fall arrest equipment is attached to?",
       "options": {
-        "A": "5,000 pounds per employee attached",
-        "B": "500 pounds per employee attached",
-        "C": "1,000 pounds in total",
-        "D": "2,000 pounds in total"
+        "A": "They must be independent of any anchorage being used to support or suspend platforms",
+        "B": "They may be the same anchorages that suspend the platform",
+        "C": "They may be any guardrail post on the roof",
+        "D": "They must be attached to the platform's hoist"
       },
       "answer": "A",
-      "explanation": "Anchorages must be \"capable of supporting at least 5,000 pounds (22.2 kN) per employee attached,\" or be part of a complete system with a safety factor of at least two under a qualified person's supervision.",
+      "explanation": "Anchorages for personal fall arrest equipment \"shall be independent of any anchorage being used to support or suspend platforms and capable of supporting at least 5,000 pounds (22.2 kN) per employee attached,\" or meet the qualified-person design option.",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -314,15 +314,15 @@
     {
       "id": "fp-018",
       "topic": "Personal fall arrest systems",
-      "question": "What must happen to a personal fall arrest system after it has been subjected to impact loading?",
+      "question": "What does Subpart M require the employer to provide for in the event of a fall by an employee using a personal fall arrest system?",
       "options": {
-        "A": "It may stay in use for the rest of the shift",
-        "B": "It may be reused once the employee who fell says it looks fine",
-        "C": "It is removed from service until a competent person inspects it and finds it undamaged and suitable for reuse",
-        "D": "It may be used to hoist materials from then on"
+        "A": "Only a written incident report within 30 days",
+        "B": "A call to OSHA before anyone touches the system",
+        "C": "Prompt rescue of employees, or assurance that employees are able to rescue themselves",
+        "D": "Rescue by the local fire department in every case"
       },
       "answer": "C",
-      "explanation": "Systems subjected to impact loading \"shall be immediately removed from service and shall not be used again for employee protection until inspected and determined by a competent person to be undamaged and suitable for reuse.\"",
+      "explanation": "\"The employer shall provide for prompt rescue of employees in the event of a fall or shall assure that employees are able to rescue themselves.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -332,15 +332,15 @@
     {
       "id": "fp-019",
       "topic": "Positioning device systems",
-      "question": "A positioning device must be rigged so the employee cannot free fall more than how far?",
+      "question": "What load must the anchorage for a positioning device be capable of supporting?",
       "options": {
-        "A": "6 feet",
-        "B": "2 feet",
-        "C": "8 feet",
-        "D": "10 feet"
+        "A": "1,800 pounds",
+        "B": "At least twice the potential impact load of an employee's fall or 3,000 pounds, whichever is greater",
+        "C": "The weight of the employee only",
+        "D": "500 pounds per employee attached"
       },
       "answer": "B",
-      "explanation": "\"Positioning devices shall be rigged such that an employee cannot free fall more than 2 feet (.6 m).\"",
+      "explanation": "\"Positioning devices shall be secured to an anchorage capable of supporting at least twice the potential impact load of an employee's fall or 3,000 pounds (13.3 kN), whichever is greater.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -350,15 +350,15 @@
     {
       "id": "fp-020",
       "topic": "Covers",
-      "question": "How must a cover over a hole provide warning of the hazard?",
+      "question": "A cover is placed over a hole in a site roadway that delivery trucks cross. What must the cover be able to support without failure?",
       "options": {
-        "A": "It is marked with the installer's name",
-        "B": "It is marked with the date it was installed",
-        "C": "It is left loose so workers notice it move",
-        "D": "It is color coded or marked with the word \"HOLE\" or \"COVER\""
+        "A": "The weight of one employee",
+        "B": "200 pounds applied at any point",
+        "C": "The weight of the materials stored nearby",
+        "D": "At least twice the maximum axle load of the largest vehicle expected to cross it"
       },
       "answer": "D",
-      "explanation": "\"All covers shall be color coded or they shall be marked with the word “HOLE” or “COVER” to provide warning of the hazard.\"",
+      "explanation": "\"Covers located in roadways and vehicular aisles shall be capable of supporting, without failure, at least twice the maximum axle load of the largest vehicle expected to cross over the cover.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -368,15 +368,15 @@
     {
       "id": "fp-021",
       "topic": "Warning lines and controlled access zones",
-      "question": "When mechanical equipment is not being used, how far from the roof edge must a roof warning line be erected, at a minimum?",
+      "question": "A roof uses a warning line system. Who may be in the area between the roof edge and the warning line?",
       "options": {
-        "A": "6 feet",
-        "B": "2 feet",
-        "C": "3 feet",
-        "D": "4 feet"
+        "A": "Only employees performing roofing work in that area",
+        "B": "Any employee who is carrying materials",
+        "C": "Any employee, as long as a safety monitor is on the roof",
+        "D": "Only supervisors and visitors"
       },
       "answer": "A",
-      "explanation": "\"When mechanical equipment is not being used, the warning line shall be erected not less than 6 feet (1.8 m) from the roof edge.\"",
+      "explanation": "\"No employee shall be allowed in the area between a roof edge and a warning line unless the employee is performing roofing work in that area.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -386,15 +386,15 @@
     {
       "id": "fp-022",
       "topic": "Warning lines and controlled access zones",
-      "question": "For overhand bricklaying, how far from the working edge must the control line of a controlled access zone be erected?",
+      "question": "Where a controlled access zone is used for leading edge work, how must its control line run in relation to the unprotected or leading edge?",
       "options": {
-        "A": "Not less than 1 foot nor more than 3 feet",
-        "B": "Not less than 30 feet nor more than 45 feet",
-        "C": "Not less than 10 feet nor more than 15 feet",
-        "D": "Not less than 60 feet nor more than 100 feet"
+        "A": "At a right angle to the edge",
+        "B": "Along only the part of the edge nearest the work",
+        "C": "Along the entire length of the edge, approximately parallel to it",
+        "D": "In a loop around each employee at the edge"
       },
       "answer": "C",
-      "explanation": "The zone \"shall be defined by a control line erected not less than 10 feet (3.1 m) nor more than 15 feet (4.5 m) from the working edge.\"",
+      "explanation": "\"The control line shall extend along the entire length of the unprotected or leading edge and shall be approximately parallel to the unprotected or leading edge.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"
@@ -422,15 +422,15 @@
     {
       "id": "fp-024",
       "topic": "Fall protection plans",
-      "question": "What qualification does the rule require of the person who prepares a fall protection plan?",
+      "question": "Where must a copy of a fall protection plan, with all approved changes, be maintained?",
       "options": {
-        "A": "They must be a licensed professional engineer",
-        "B": "They must have worked at that site for at least one year",
-        "C": "They must be the owner of the building",
-        "D": "They must be a qualified person"
+        "A": "At the employer's main office only",
+        "B": "At the nearest OSHA area office",
+        "C": "In each employee's personnel file",
+        "D": "At the job site"
       },
       "answer": "D",
-      "explanation": "\"The fall protection plan shall be prepared by a qualified person and developed specifically for the site\" where the work is performed.",
+      "explanation": "\"A copy of the fall protection plan with all approved changes shall be maintained at the job site.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.502, Fall protection systems criteria and practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-M/section-1926.502"

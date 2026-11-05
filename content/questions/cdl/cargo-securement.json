@@ -62,15 +62,15 @@
     {
       "id": "cg-004",
       "topic": "Performance criteria",
-      "question": "For the breaking strength criterion in 393.102(a)(1), what deceleration in the forward direction does the rule set?",
+      "question": "393.102(a)(1) lists forward, rearward and lateral conditions under which the forces on tiedown assemblies must not exceed the manufacturer's breaking strength rating. How does the rule say those conditions are applied?",
       "options": {
-        "A": "0.2 g",
-        "B": "0.3 g",
-        "C": "0.4 g",
-        "D": "0.8 g"
+        "A": "All three at the same time, with the forces added together",
+        "B": "Only the forward condition, for flatbed vehicles",
+        "C": "Averaged over the length of the trip",
+        "D": "Separately"
       },
       "answer": "D",
-      "explanation": "Forces must not exceed the manufacturer's breaking strength rating under conditions applied separately, the first being \"0.8 g deceleration in the forward direction\".",
+      "explanation": "Tiedown assemblies must be maintained so \"the maximum forces acting on the devices or systems do not exceed the manufacturer's breaking strength rating under the following conditions, applied separately\".",
       "source": {
         "title": "eCFR: 49 CFR 393.102, Minimum performance criteria for cargo securement devices and systems (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-393/subpart-I/section-393.102"
@@ -170,15 +170,15 @@
     {
       "id": "cg-010",
       "topic": "Working load limits",
-      "question": "What minimum aggregate working load limit does 393.106(d) set for the tiedowns used to secure an article or group of articles against movement?",
+      "question": "A 6,000-pound machine is secured by four tiedowns, each with a working load limit of 3,000 pounds, and each running from an anchor point on the vehicle to an anchor point on the machine. What aggregate working load limit do these tiedowns provide under 393.106(d)?",
       "options": {
-        "A": "One-tenth times the weight of the article or group",
-        "B": "One-half times the weight of the article or group",
-        "C": "One-fifth times the weight of the article or group",
-        "D": "One-third times the weight of the article or group"
+        "A": "3,000 pounds",
+        "B": "6,000 pounds",
+        "C": "12,000 pounds",
+        "D": "1,500 pounds"
       },
       "answer": "B",
-      "explanation": "\"The aggregate working load limit of tiedowns used to secure an article or group of articles against movement must be at least one-half times the weight of the article or group of articles.\"",
+      "explanation": "The aggregate is the sum of \"One-half the working load limit of each tiedown that goes from an anchor point on the vehicle to an anchor point on an article of cargo\", so four tiedowns of 3,000 pounds count 1,500 pounds each, or 6,000 pounds. That meets the rule that the aggregate \"must be at least one-half times the weight of the article\".",
       "source": {
         "title": "eCFR: 49 CFR 393.106, General requirements for securing articles of cargo (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-393/subpart-I/section-393.106"
@@ -242,15 +242,15 @@
     {
       "id": "cg-014",
       "topic": "Minimum number of tiedowns",
-      "question": "An article 4 feet long that weighs 1,500 pounds is not blocked or positioned to prevent forward movement. What minimum number of tiedowns does 393.110(b) set for it?",
+      "question": "An article 8 feet long that weighs 600 pounds is not blocked or positioned to prevent forward movement. What minimum number of tiedowns does 393.110(b) set for it?",
       "options": {
         "A": "Two",
-        "B": "None, as long as the aggregate working load limit is met",
-        "C": "One",
-        "D": "One, if it is secured with chain"
+        "B": "One, because it weighs 1,100 pounds or less",
+        "C": "Three",
+        "D": "None, as long as the aggregate working load limit is met"
       },
       "answer": "A",
-      "explanation": "393.110(b)(2)(i) requires two tiedowns if the article is \"5 feet (1.52 meters) or less in length and more than 1,100 pounds (500 kg) in weight\". One tiedown is enough only when the article is both 5 feet or less and 1,100 pounds or less.",
+      "explanation": "An article \"Longer than 5 feet (1.52 meters) but less than or equal to 10 feet (3.04 meters) in length, irrespective of the weight\" needs two tiedowns. The one-tiedown rule covers only \"articles 5 feet (1.52 meters) or less in length, and 1,100 pounds (500 kg) or less in weight\".",
       "source": {
         "title": "eCFR: 49 CFR 393.110, Additional requirements for determining the minimum number of tiedowns (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-393/subpart-I/section-393.110"

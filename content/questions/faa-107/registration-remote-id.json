@@ -260,15 +260,15 @@
     {
       "id": "ri-015",
       "topic": "Standard remote ID aircraft",
-      "question": "Under 89.110(a)(2), what must the person manipulating the flight controls do if a standard remote identification unmanned aircraft is no longer broadcasting the 89.305 message elements?",
+      "question": "Under 89.110(a)(1), during what part of the operation must a standard remote identification unmanned aircraft broadcast the message elements of 89.305?",
       "options": {
-        "A": "Land the unmanned aircraft as soon as practicable",
-        "B": "Finish the planned flight and repair the equipment before the next flight",
-        "C": "Continue the flight only within visual line of sight",
-        "D": "Notify air traffic control and continue the flight"
+        "A": "From takeoff to shutdown",
+        "B": "Only while it flies in controlled airspace",
+        "C": "Only during the first five minutes after takeoff",
+        "D": "Only while it flies higher than 200 feet above ground level"
       },
       "answer": "A",
-      "explanation": "89.110(a)(2): the person manipulating the flight controls \"must land the unmanned aircraft as soon as practicable\" if the aircraft \"is no longer broadcasting the message elements of § 89.305.\"",
+      "explanation": "89.110(a)(1): \"From takeoff to shutdown, the standard remote identification unmanned aircraft must broadcast the message elements of § 89.305.\"",
       "source": {
         "title": "eCFR: 14 CFR 89.110, Operation of standard remote identification unmanned aircraft (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.110"

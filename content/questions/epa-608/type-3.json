@@ -8,51 +8,51 @@
     {
       "id": "t3-001",
       "topic": "Low-pressure basics",
-      "question": "Under the federal definition, what makes an appliance a low-pressure appliance?",
+      "question": "The rule on pressurizing low-pressure appliances sorts refrigerants by whether they boil at or below 85 °F. At what pressure is that boiling point taken?",
       "options": {
-        "A": "It uses a refrigerant with a liquid phase saturation pressure below 45 psia at 104 °F",
-        "B": "It uses a refrigerant with a liquid phase saturation pressure between 45 psia and 170 psia at 104 °F",
-        "C": "It uses a refrigerant with a liquid phase saturation pressure between 170 psia and 355 psia at 104 °F",
-        "D": "It uses a refrigerant with a liquid phase saturation pressure below 45 psia at 70 °F"
+        "A": "29.9 inches of mercury (standard atmospheric pressure)",
+        "B": "45 psia",
+        "C": "25 mm Hg absolute",
+        "D": "355 psia"
       },
       "answer": "A",
-      "explanation": "The definition says a low-pressure appliance uses a refrigerant with a liquid phase saturation pressure \"below 45 psia at 104 °F.\" The 45 to 170 psia range defines a medium-pressure appliance, and 170 to 355 psia defines a high-pressure appliance. The reference temperature is 104 °F, not 70 °F.",
+      "explanation": "The rule refers to refrigerants \"with boiling points at or below 85 degrees Fahrenheit at 29.9 inches of mercury (standard atmospheric pressure).\" The 45 and 355 psia figures come from the pressure-class definitions, and 25 mm Hg absolute is the Table 1 level for low-pressure appliances.",
       "source": {
-        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
       },
       "checked": "2026-11-05"
     },
     {
       "id": "t3-002",
       "topic": "Low-pressure basics",
-      "question": "Which refrigerant does the federal definition list as an example used in low-pressure appliances?",
+      "question": "A chiller uses a refrigerant with a liquid phase saturation pressure of 15 psia at 104 °F. Which technician certification type does 40 CFR 82.161 require to service it?",
       "options": {
-        "A": "R-22",
-        "B": "R-134a",
-        "C": "R-123",
-        "D": "R-410A"
+        "A": "Type I",
+        "B": "Type II",
+        "C": "Type III",
+        "D": "None, because chillers are exempt"
       },
       "answer": "C",
-      "explanation": "The low-pressure appliance definition gives examples including \"R-11, R-123, R-113, and R-245fa.\" The same section lists R-134a as a medium-pressure example and R-22 and R-410A as high-pressure examples.",
+      "explanation": "A pressure \"below 45 psia at 104 °F\" makes this a low-pressure appliance, and persons who service low-pressure appliances \"must be certified as Type III technicians.\" Type II covers medium-, high- and very high-pressure appliances.",
       "source": {
-        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
       },
       "checked": "2026-11-05"
     },
     {
       "id": "t3-003",
       "topic": "Low-pressure basics",
-      "question": "Persons who maintain, service, repair, or dispose of low-pressure appliances must hold which technician certification type?",
+      "question": "A technician will service small appliances, high-pressure rooftop units and low-pressure chillers. Which certification does 40 CFR 82.161 require for someone who works on all of these appliance types?",
       "options": {
-        "A": "Type I",
-        "B": "Type III",
+        "A": "Type III",
+        "B": "Universal",
         "C": "Type II",
-        "D": "Certification under 40 CFR part 82, subpart B (MVAC)"
+        "D": "Type I"
       },
       "answer": "B",
-      "explanation": "The rule states that persons working on low-pressure appliances \"must be certified as Type III technicians.\" Type I covers small appliances, Type II covers medium-, high-, and very high-pressure appliances, and subpart B certification is for motor vehicle air conditioners.",
+      "explanation": "Persons who work on all appliances described in paragraph (a)(1)(i) through (iii) \"must be certified as Universal technicians.\" Type I, II or III alone covers only one of those appliance groups.",
       "source": {
         "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
@@ -62,15 +62,15 @@
     {
       "id": "t3-004",
       "topic": "Evacuation",
-      "question": "Before opening or disposing of a low-pressure appliance, to what level must the refrigerant be evacuated under Table 1?",
+      "question": "How is the low-pressure appliance row of Table 1 in 40 CFR 82.156 stated differently from the other rows?",
       "options": {
-        "A": "0 psig",
-        "B": "10 inches of mercury vacuum",
-        "C": "15 inches of mercury vacuum",
-        "D": "25 mm Hg absolute"
+        "A": "It changes with charge size above 200 pounds",
+        "B": "It applies only to recovery equipment made before November 15, 1993",
+        "C": "It sets no required level at all",
+        "D": "Its level is given as an absolute pressure in mm Hg rather than in inches of Hg vacuum"
       },
       "answer": "D",
-      "explanation": "Table 1 lists 25 mm Hg absolute for low-pressure appliances, whatever the recovery equipment's manufacture date. The inch-of-vacuum levels (0, 4, 10 and 15 inches) apply to very high-, high- and medium-pressure appliances, depending on charge size and when the recovery equipment was made.",
+      "explanation": "The other rows give inches of Hg vacuum, while the table lists \"Low-pressure appliance\" at \"25 mm Hg absolute\" in both equipment columns. The row has no charge-size split and applies to equipment of either age.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -80,15 +80,15 @@
     {
       "id": "t3-005",
       "topic": "Verification and records",
-      "question": "For an appliance with a full charge of 50 or more pounds of a class I or class II refrigerant, what minimum retention period does the leak repair rule set for its required records, unless otherwise specified?",
+      "question": "An owner suspends the leak repair deadlines on a chiller (full charge of 50 or more pounds of a class I or class II refrigerant) by mothballing it. What must the owner's records document?",
       "options": {
-        "A": "Three years",
-        "B": "One year",
-        "C": "Five years",
-        "D": "Only until the next leak inspection"
+        "A": "When the appliance was mothballed and when additional refrigerant was added to it",
+        "B": "The name of the EPA official who approved the mothballing",
+        "C": "Daily temperature readings while it is shut down",
+        "D": "Only the date the appliance is finally retired"
       },
       "answer": "A",
-      "explanation": "The recordkeeping paragraph says all records it identifies \"must be kept for at least three years in electronic or paper format, unless otherwise specified.\" Keeping them longer is allowed, but three years is the minimum the rule sets.",
+      "explanation": "Owners or operators who suspend deadlines by mothballing \"must keep records documenting when the appliance was mothballed and when additional refrigerant was added to the appliance (or isolated component).\" No EPA approval or daily readings are called for.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -98,15 +98,15 @@
     {
       "id": "t3-006",
       "topic": "Pressurizing for repairs",
-      "question": "A low-pressure appliance It needs a repair that is not major (and not an oil change), and it will not be evacuated to the atmosphere afterward. What must be done before it is opened?",
+      "question": "For a repair that is not major, with no evacuation to the atmosphere afterward, how does the requirement for a low-pressure appliance differ from the one for a high-pressure appliance?",
       "options": {
-        "A": "Pressurize it to no higher than 10 psig",
-        "B": "Pressurize it to no higher than 5 psig",
-        "C": "Pressurize it to no higher than 0 psig",
-        "D": "No pressure requirement applies because the repair is not major"
+        "A": "The low-pressure appliance must be evacuated to 25 mm Hg absolute instead",
+        "B": "The low-pressure appliance has no pressure requirement",
+        "C": "The low-pressure appliance is pressurized to no higher than 0 psig, while the high-pressure appliance is evacuated to no higher than 0 psig",
+        "D": "The low-pressure appliance is pressurized to 5 psig"
       },
       "answer": "C",
-      "explanation": "For non-major repairs, a low-pressure appliance must \"be pressurized to a pressure no higher than 0 psig before it is opened.\" The 5 psig limit applies only to oil changes, and 10 psig is not an allowed level. A repair that is not major still has a pressure requirement.",
+      "explanation": "A medium-, high- or very high-pressure appliance must \"Be evacuated to a pressure no higher than 0 psig,\" while a low-pressure appliance must \"Be pressurized to a pressure no higher than 0 psig before it is opened.\" Both share the same 0 psig ceiling, reached from opposite directions.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -134,15 +134,15 @@
     {
       "id": "t3-008",
       "topic": "Pressurizing for repairs",
-      "question": "A low-pressure appliance uses a refrigerant that boils above 85 °F at 29.9 inches of mercury. It needs a repair that is not major (and not an oil change), and it will not be evacuated to the atmosphere afterward. How must it be pressurized before it is opened?",
+      "question": "A low-pressure appliance uses a refrigerant that boils above 85 °F at 29.9 inches of mercury. After heat has raised its internal pressure as much as possible, up to what pressure may nitrogen be used before the appliance is opened for a non-major repair?",
       "options": {
-        "A": "With nitrogen only, up to 5 psig",
-        "B": "With nitrogen alone, without using heat",
-        "C": "It may not be pressurized; it must be evacuated to 25 mm Hg absolute",
-        "D": "With heat as much as possible; nitrogen may then be used only to bring it up to atmospheric pressure"
+        "A": "5 psig",
+        "B": "10 psig",
+        "C": "25 psig",
+        "D": "Atmospheric pressure"
       },
       "answer": "D",
-      "explanation": "The rule says persons \"must use heat to raise the internal pressure of the appliance as much as possible.\" Nitrogen may then be used only to raise the pressure from the level reached with heat to atmospheric pressure, so nitrogen alone or nitrogen to 5 psig is not allowed.",
+      "explanation": "For these refrigerants, persons must use heat first, \"but may use nitrogen to raise the internal pressure of the appliance from the level attainable through use of heat to atmospheric pressure.\" Nitrogen may not push the pressure above atmospheric.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -170,33 +170,15 @@
     {
       "id": "t3-010",
       "topic": "Pressurizing for repairs",
-      "question": "For an oil change that is not major maintenance, on an appliance that will not be evacuated to the atmosphere afterward, what is the highest pressure allowed before it is opened?",
+      "question": "The oil-change provision lets oil be drained into a system receiver. How does the rule define a system receiver?",
       "options": {
-        "A": "0 psig",
-        "B": "10 psig",
-        "C": "5 psig",
-        "D": "25 mm Hg absolute"
+        "A": "A recovery cylinder outside the appliance",
+        "B": "A purge unit mounted on a chiller",
+        "C": "The isolated portion of the appliance, or a specific vessel within it, used to hold the refrigerant charge during servicing or repair",
+        "D": "A container for used oil sent to a reclaimer"
       },
       "answer": "C",
-      "explanation": "For oil changes, the appliance must \"be evacuated or pressurized to a pressure no higher than 5 psig\" before it is opened. The oil may instead be drained into a system receiver that is brought to no higher than 5 psig. The 0 psig limit is the one paragraphs (a)(1)(i) and (ii) set for opening appliances, not the oil-change limit.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
-      },
-      "checked": "2026-11-05"
-    },
-    {
-      "id": "t3-011",
-      "topic": "Evacuation",
-      "question": "Which of these jobs counts as major maintenance, service, or repair under the federal definition?",
-      "options": {
-        "A": "Connecting hoses and gauges to measure pressures",
-        "B": "Removing the evaporator",
-        "C": "Uncovering an opening of 3 square inches of flow area for 30 minutes",
-        "D": "Uncovering an opening of 6 square inches of flow area for 10 minutes"
-      },
-      "answer": "B",
-      "explanation": "Major repair includes removing the \"compressor, condenser, evaporator, or auxiliary heat exchange coil.\" An uncovered opening counts only if it is more than 4 square inches of flow area for more than 15 minutes, so options C and D each miss one condition.",
+      "explanation": "System receiver means \"the isolated portion of the appliance, or a specific vessel within the appliance, that is used to hold the refrigerant charge during the servicing or repair of that appliance.\" It is part of the appliance, not an external cylinder or oil container.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -204,17 +186,35 @@
       "checked": "2026-11-05"
     },
     {
+      "id": "t3-011",
+      "topic": "Evacuation",
+      "question": "No exemption applies. Under 40 CFR 82.156(a), what kind of machine must a technician use to evacuate a low-pressure appliance to the Table 1 level?",
+      "options": {
+        "A": "Any vacuum pump",
+        "B": "A recovery and/or recycling machine certified under 40 CFR 82.158",
+        "C": "The chiller's own purge unit",
+        "D": "Any machine approved by the chiller manufacturer"
+      },
+      "answer": "B",
+      "explanation": "Technicians must evacuate to the Table 1 levels \"using a recovery and/or recycling machine certified pursuant to § 82.158.\" A plain vacuum pump, purge unit or manufacturer approval does not meet that requirement.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+      },
+      "checked": "2026-11-05"
+    },
+    {
       "id": "t3-012",
       "topic": "Evacuation",
-      "question": "Leaks make the Table 1 evacuation level unattainable for a component that must be opened. What is the highest pressure the leaking component may be left at?",
+      "question": "Leaks in a chiller make the Table 1 level unattainable. What is the first step 40 CFR 82.156(a)(2) lists for the person opening or disposing of it?",
       "options": {
-        "A": "5 psig",
-        "B": "25 mm Hg absolute, with no exceptions",
-        "C": "10 psig",
-        "D": "0 psig"
+        "A": "Add nitrogen to the leaking components",
+        "B": "Evacuate the whole chiller to 0 psig only",
+        "C": "Notify EPA before opening the chiller",
+        "D": "Isolate leaking from non-leaking components wherever possible"
       },
       "answer": "D",
-      "explanation": "Leaking components must be evacuated to the lowest level attainable without substantially contaminating the refrigerant, and \"This level may not exceed 0 psig.\" Non-leaking components must still reach the Table 1 levels.",
+      "explanation": "The first step is: \"Isolate leaking from non-leaking components wherever possible.\" Non-leaking components then go to the Table 1 levels, and leaking ones to the lowest level attainable without substantially contaminating the refrigerant.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -242,15 +242,33 @@
     {
       "id": "t3-014",
       "topic": "Low-pressure basics",
-      "question": "Under the federal definition, how is connecting and disconnecting hoses and gauges to recover refrigerant treated?",
+      "question": "The table of maximum contaminant levels for equipment advertised as recycling equipment has a column for low-pressure (R-11, R-123, R-113) systems. Which contaminant is listed as not applicable (N/A) for those systems?",
       "options": {
-        "A": "It is not considered opening an appliance",
-        "B": "It is opening an appliance only on low-pressure appliances",
-        "C": "It counts as major maintenance, service, or repair",
-        "D": "It is opening an appliance unless done by a Type III technician"
+        "A": "Noncondensable gas",
+        "B": "Moisture",
+        "C": "Acid content",
+        "D": "Particulates"
       },
       "answer": "A",
-      "explanation": "Opening an appliance means work that would release refrigerant to the atmosphere. The definition states that connecting and disconnecting hoses and gauges to measure pressures, add refrigerant, or recover refrigerant \"are not considered\" opening an appliance.",
+      "explanation": "The \"MAXIMUM LEVELS OF CONTAMINANTS PERMISSIBLE IN REFRIGERANT PROCESSED\" table shows N/A for noncondensable gas in the \"Low-pressure (R-11, R-123, R-113)\" column, with 2.0% for the other columns. Moisture, acid content and particulates all have listed limits for low-pressure systems.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-015",
+      "topic": "Leak repair",
+      "question": "An ice rink is cooled by a low-pressure chiller with a full charge of 50 or more pounds of a class I or class II refrigerant. Which category in the definitions does the ice rink appliance belong to for leak repair purposes?",
+      "options": {
+        "A": "Commercial refrigeration",
+        "B": "Industrial process refrigeration",
+        "C": "Comfort cooling",
+        "D": "Small appliance"
+      },
+      "answer": "B",
+      "explanation": "The industrial process refrigeration definition states: \"This sector also includes industrial ice machines, appliances used directly in the generation of electricity, and ice rinks.\" Commercial refrigeration covers retail food and cold storage, and comfort cooling covers occupied buildings.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -258,38 +276,20 @@
       "checked": "2026-11-05"
     },
     {
-      "id": "t3-015",
-      "topic": "Leak repair",
-      "question": "A low-pressure chiller used for comfort cooling has a full charge of 50 or more pounds of a class I or class II refrigerant. Above what leak rate must the owner repair it (or retrofit or retire it)?",
-      "options": {
-        "A": "20 percent",
-        "B": "10 percent",
-        "C": "30 percent",
-        "D": "35 percent"
-      },
-      "answer": "B",
-      "explanation": "The leak repair rule sets a \"10 percent leak rate for comfort cooling appliances\" with a full charge of 50 or more pounds. The 20 percent rate is for commercial refrigeration and 30 percent is for industrial process refrigeration.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
-      },
-      "checked": "2026-11-05"
-    },
-    {
       "id": "t3-016",
       "topic": "Leak repair",
-      "question": "A low-pressure appliance used for industrial process refrigeration has a full charge of 50 or more pounds of a class I or class II refrigerant. What leak rate triggers the repair requirement?",
+      "question": "Under the rolling average method in the leak rate definition, step 1 adds up the refrigerant added to the appliance over what period?",
       "options": {
-        "A": "10 percent",
-        "B": "20 percent",
-        "C": "35 percent",
-        "D": "30 percent"
+        "A": "The last 30 days",
+        "B": "The time since the appliance was installed",
+        "C": "The current calendar month",
+        "D": "The previous 365-day period, or the shorter period since the last successful follow-up verification test showing all identified leaks were repaired"
       },
       "answer": "D",
-      "explanation": "The rule sets a \"30 percent leak rate for industrial process refrigeration equipment.\" The 10 percent rate is for comfort cooling and other appliances, and 20 percent is for commercial refrigeration.",
+      "explanation": "Step 1 takes \"the sum of the pounds of refrigerant added to the appliance over the previous 365-day period (or over the period that has passed since the last successful follow-up verification test showing all identified leaks in the appliance were repaired, if that period is less than one year).\" The sum is then divided by the full charge and multiplied by 100.",
       "source": {
-        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
       },
       "checked": "2026-11-05"
     },
@@ -314,15 +314,15 @@
     {
       "id": "t3-018",
       "topic": "Leak repair",
-      "question": "A comfort cooling chiller with a full charge of 50 or more pounds of a class I or class II refrigerant is found leaking above the applicable rate when refrigerant is added. No industrial process shutdown is involved. How long does the owner have to identify and repair the leaks?",
+      "question": "A chiller owner (full charge of 50 or more pounds of a class I or class II refrigerant) asks EPA for more than 30 days to finish leak repairs. Which item must the extension request include?",
       "options": {
-        "A": "10 days",
-        "B": "120 days",
-        "C": "30 days",
-        "D": "180 days"
+        "A": "A letter of support from the chiller manufacturer",
+        "B": "Copies of the technicians' certification cards",
+        "C": "The reasons why more than 30 days are needed to complete the repair",
+        "D": "A photograph of each leak"
       },
       "answer": "C",
-      "explanation": "Leaks must be identified and repaired \"within 30 days (or 120 days if an industrial process shutdown is required)\" of the refrigerant addition. Because no shutdown is involved, the 120-day period does not apply.",
+      "explanation": "Extension requests must include, among other items, \"the reasons why more than 30 days (or 120 days if an industrial process shutdown is required) are needed to complete the repair.\" Manufacturer letters, certification cards and photographs are not on the list.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -530,18 +530,18 @@
     {
       "id": "t3-030",
       "topic": "Evacuation",
-      "question": "Refrigerant recovered from a low-pressure chiller may be put into which appliance without first being recycled or reclaimed?",
+      "question": "A low-pressure chiller must be evacuated to the Table 1 level before it is disposed of. Which activity does the definition of disposal include?",
       "options": {
-        "A": "The same chiller, or another appliance owned by the same person",
-        "B": "Any appliance that uses the same refrigerant, whoever owns it",
-        "C": "Only a new appliance from the same manufacturer",
-        "D": "Any appliance, once the refrigerant has been stored for 30 days"
+        "A": "Disassembling the chiller for reuse of its component parts",
+        "B": "Replacing a filter on its purge unit",
+        "C": "Adding refrigerant to it",
+        "D": "Measuring its pressures with gauges"
       },
       "answer": "A",
-      "explanation": "Refrigerant \"may be returned to the appliance from which it is recovered or to another appliance owned by the same person without being recycled or reclaimed\" (this does not apply to MVACs or MVAC-like appliances). Using the same refrigerant type does not allow putting it into another owner's appliance.",
+      "explanation": "Disposal means the process leading to and including several activities, one of which is \"The disassembly of any appliance for reuse of its component parts.\" Routine filter changes, charging or pressure readings are service work, not disposal.",
       "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
       },
       "checked": "2026-11-05"
     },
@@ -854,15 +854,15 @@
     {
       "id": "t3-050",
       "topic": "Low-pressure basics",
-      "question": "Under EPA's standards for technician certification programs, what must a Type III certification test include?",
+      "question": "Before a closed-book Type III test, how must proctors verify the identity of the people taking it?",
       "options": {
-        "A": "50 questions, all from the Type III group",
-        "B": "100 questions covering all appliance types",
-        "C": "25 questions from Group I and 25 questions from Group II",
-        "D": "25 questions in total"
+        "A": "By asking for their Social Security number",
+        "B": "By checking a recent utility bill",
+        "C": "By examining photo identification",
+        "D": "No identity check is required"
       },
       "answer": "C",
-      "explanation": "Appendix D says Type I, Type II and Type III tests \"will include 25 questions from Group I and 25 questions from Group II.\" The 100-question test is the Universal test.",
+      "explanation": "Appendix D states: \"Proctors are required to verify the identity of individuals taking the test by examining photo identification.\" Accepted forms include drivers' licenses, government identification cards, passports and military identification.",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"

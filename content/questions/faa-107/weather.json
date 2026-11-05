@@ -26,15 +26,15 @@
     {
       "id": "wx-002",
       "topic": "Weather sources and reports",
-      "question": "Which of these is one of the conditions for which the Study Guide says convective SIGMETs are issued?",
+      "question": "Which two products does the Study Guide group together as inflight weather advisories?",
       "options": {
-        "A": "Rain showers with surface winds of 20 knots",
-        "B": "Hail at the surface of 1/4 inch in diameter",
-        "C": "Turbulence on the leeward side of a mountain",
-        "D": "Tornadoes"
+        "A": "METAR and PIREP",
+        "B": "TAF and FB",
+        "C": "ASOS and AWOS",
+        "D": "Significant Meteorological Information (SIGMET) and Airman's Meteorological Information (AIRMET)"
       },
       "answer": "D",
-      "explanation": "\"Convective SIGMETs are issued for severe thunderstorms with surface winds greater than 50 knots, hail at the surface greater than or equal to ¾ inch in diameter, or tornadoes.\"",
+      "explanation": "The Study Guide lists the forecasts pilots need to know, including \"inflight weather advisories (Significant Meteorological Information (SIGMET), Airman’s Meteorological Information (AIRMET))\".",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -98,15 +98,15 @@
     {
       "id": "wx-006",
       "topic": "METAR and TAF codes",
-      "question": "According to the Study Guide, what area is a terminal aerodrome forecast (TAF) established for?",
+      "question": "According to the Study Guide, which two types of report can a TAF be?",
       "options": {
-        "A": "A 50 nautical mile radius around an airport",
-        "B": "The five statute mile radius around an airport",
-        "C": "An entire state",
-        "D": "Only the runway surface"
+        "A": "A surface observation or a pilot report",
+        "B": "A routine forecast (TAF) or an amended forecast (TAF AMD)",
+        "C": "A special report (SPECI) or a corrected report (COR)",
+        "D": "A convective forecast or a winds aloft forecast"
       },
       "answer": "B",
-      "explanation": "The Study Guide: \"A TAF is a report established for the five statute mile radius around an airport.\"",
+      "explanation": "The Study Guide: \"Type of report—a TAF can be either a routine forecast (TAF) or an amended forecast (TAF AMD).\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -134,15 +134,15 @@
     {
       "id": "wx-008",
       "topic": "Density altitude and performance",
-      "question": "How does the Study Guide define density altitude?",
+      "question": "According to the Study Guide, how is air density related to pressure when the temperature is constant?",
       "options": {
-        "A": "The height above ground level shown by a barometric altimeter",
-        "B": "The altitude at which the air becomes saturated",
-        "C": "The altitude in the standard atmosphere corresponding to a particular value of air density",
-        "D": "The altitude above which air density no longer affects performance"
+        "A": "Density varies inversely with pressure",
+        "B": "Density does not change with pressure",
+        "C": "Density is directly proportional to pressure",
+        "D": "Density depends on pressure only above 18,000 feet MSL"
       },
       "answer": "C",
-      "explanation": "The Study Guide defines density altitude as \"the altitude in the standard atmosphere corresponding to a particular value of air density.\"",
+      "explanation": "The Study Guide: \"density is directly proportional to pressure. If the pressure is doubled, the density is doubled\", and \"This statement is true only at a constant temperature.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -314,15 +314,15 @@
     {
       "id": "wx-018",
       "topic": "Clouds and thunderstorms",
-      "question": "Through which three stages does the Study Guide say a thunderstorm cell progresses during its life cycle?",
+      "question": "Why does the Study Guide say it is inadvisable to operate a small UA in an area of rapidly building cumulus clouds?",
       "options": {
-        "A": "Cumulus, mature and dissipating",
-        "B": "Cumulus, orographic and dissipating",
-        "C": "Developing, squall line and mature",
-        "D": "Mature, first gust and plow wind"
+        "A": "The growth rate of the cloud may exceed 3,000 feet per minute",
+        "B": "Every cumulus cloud grows into a thunderstorm",
+        "C": "Cumulus clouds always produce hail at the surface",
+        "D": "Cumulus clouds block the Remote ID broadcast"
       },
       "answer": "A",
-      "explanation": "\"A thunderstorm cell during its life cycle progresses through three stages-( 1) the cumulus, (2) the mature, and (3) the dissipating.\"",
+      "explanation": "The Study Guide says the growth rate of a building cumulus cloud \"may exceed 3,000 feet per minute, so it is inadvisable to operate a small UA in an area of rapidly building cumulus clouds.\" It also notes that \"most cumulus clouds do not grow into thunderstorms\".",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -350,12 +350,12 @@
     {
       "id": "wx-020",
       "topic": "Ceiling, visibility and Part 107 weather limits",
-      "question": "What minimum flight visibility, observed from the location of the control station, does 107.51(c) set?",
+      "question": "From what location does 107.51(c) say the minimum flight visibility is observed?",
       "options": {
-        "A": "1 statute mile",
-        "B": "5 statute miles",
-        "C": "2,000 feet",
-        "D": "3 statute miles"
+        "A": "The location of the small unmanned aircraft",
+        "B": "The nearest airport weather station",
+        "C": "The position of the visual observer",
+        "D": "The location of the control station"
       },
       "answer": "D",
       "explanation": "107.51(c): \"The minimum flight visibility, as observed from the location of the control station must be no less than 3 statute miles.\"",

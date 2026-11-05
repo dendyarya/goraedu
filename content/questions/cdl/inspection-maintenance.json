@@ -8,15 +8,15 @@
     {
       "id": "im-001",
       "topic": "General maintenance duty",
-      "question": "Under 49 CFR 396.3(a), who must systematically inspect, repair, and maintain (or cause this to be done for) all motor vehicles subject to its control?",
+      "question": "Under 396.3(a)(1), which parts and accessories must be in safe and proper operating condition at all times?",
       "options": {
-        "A": "Each driver, for the vehicle the driver is assigned",
-        "B": "Every motor carrier",
-        "C": "The State agency that registered the vehicle",
-        "D": "The vehicle manufacturer, during the warranty period"
+        "A": "Only the parts listed on the most recent driver vehicle inspection report",
+        "B": "Those specified in part 393 and any additional parts and accessories which may affect safety of operation, such as frames, suspension systems, axles, wheels and rims, and steering systems",
+        "C": "Only brakes and lights",
+        "D": "Only parts still under the manufacturer's warranty"
       },
       "answer": "B",
-      "explanation": "\"Every motor carrier and intermodal equipment provider must systematically inspect, repair, and maintain, or cause to be systematically inspected, repaired, and maintained, all motor vehicles and intermodal equipment subject to its control.\"",
+      "explanation": "\"Parts and accessories shall be in safe and proper operating condition at all times. These include those specified in part 393 of this subchapter and any additional parts and accessories which may affect safety of operation\", including \"frame and frame assemblies, suspension systems, axles and attaching parts, wheels and rims, and steering systems.\"",
       "source": {
         "title": "eCFR: 49 CFR 396.3, Inspection, repair, and maintenance (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396/section-396.3"
@@ -134,15 +134,15 @@
     {
       "id": "im-008",
       "topic": "Roadside inspections and out-of-service vehicles",
-      "question": "What deadline does 396.9(d)(3) set for the motor carrier to certify that all violations noted on a roadside inspection report have been corrected?",
+      "question": "Under 396.9(d)(3)(ii), where must the motor carrier retain a copy of the completed roadside inspection form?",
       "options": {
-        "A": "30 days following the date of the inspection",
-        "B": "60 days following the date of the inspection",
-        "C": "15 days following the date of the inspection",
-        "D": "90 days following the date of the inspection"
+        "A": "In the vehicle's glove box only",
+        "B": "With the issuing State agency only",
+        "C": "At the motor carrier's principal place of business or where the vehicle is housed",
+        "D": "At the driver's home address"
       },
       "answer": "C",
-      "explanation": "\"Within 15 days following the date of the inspection, the motor carrier or intermodal equipment provider shall\" \"Certify that all violations noted have been corrected.\"",
+      "explanation": "The carrier must \"retain a copy at the motor carrier's principal place of business, at the intermodal equipment provider's principal place of business, or where the vehicle is housed for 12 months from the date of the inspection\".",
       "source": {
         "title": "eCFR: 49 CFR 396.9, Inspection of motor vehicles and intermodal equipment in operation (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396/section-396.9"
@@ -188,15 +188,15 @@
     {
       "id": "im-011",
       "topic": "Driver vehicle inspection reports",
-      "question": "Under 396.11(a)(1), when does a driver prepare the written driver vehicle inspection report on each vehicle operated?",
+      "question": "A driver operates three different trucks during one day and finds a defect on each. Under 396.11(a)(2)(i), how many driver vehicle inspection reports must the driver prepare?",
       "options": {
-        "A": "Before the start of each trip",
-        "B": "Once at the end of each week",
-        "C": "At the completion of each day's work",
-        "D": "Only after a roadside inspection"
+        "A": "One combined report for the day",
+        "B": "One, for the last truck driven",
+        "C": "One for each vehicle operated, so three",
+        "D": "None until the end of the week"
       },
       "answer": "C",
-      "explanation": "\"Every driver shall prepare a report in writing at the completion of each day's work on each vehicle operated.\"",
+      "explanation": "\"If a driver operates more than one vehicle during the day, a report must be prepared for each vehicle operated.\"",
       "source": {
         "title": "eCFR: 49 CFR 396.11, Driver vehicle inspection report(s) (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396/section-396.11"
@@ -260,15 +260,15 @@
     {
       "id": "im-015",
       "topic": "Driver vehicle inspection reports",
-      "question": "What retention period does 396.11(a)(4) set for the driver vehicle inspection report, the certification of repairs, and the certification of the driver's review?",
+      "question": "Which motor carrier does 396.11(a)(5) exempt from the driver vehicle inspection report rules?",
       "options": {
-        "A": "24 hours from the end of the trip",
-        "B": "Three months from the date the written report was prepared",
-        "C": "30 days from the date the written report was prepared",
-        "D": "7 days from the date the written report was prepared"
+        "A": "Any motor carrier with fewer than 10 drivers",
+        "B": "A motor carrier operating only one commercial motor vehicle",
+        "C": "Any for-hire motor carrier of property",
+        "D": "Any motor carrier whose vehicles are less than 2 years old"
       },
       "answer": "B",
-      "explanation": "\"Every motor carrier shall maintain the driver vehicle inspection report, the certification of repairs, and the certification of the driver's review for three months from the date the written report was prepared.\"",
+      "explanation": "\"The rules in this section shall not apply to a private motor carrier of passengers (nonbusiness), a driveaway-towaway operation, or any motor carrier operating only one commercial motor vehicle.\"",
       "source": {
         "title": "eCFR: 49 CFR 396.11, Driver vehicle inspection report(s) (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396/section-396.11"
@@ -296,15 +296,15 @@
     {
       "id": "im-017",
       "topic": "Driver vehicle inspection reports",
-      "question": "Under 396.13(a), what must the driver be satisfied of before driving a motor vehicle?",
+      "question": "Under 396.13(c), for which listed defects does the requirement that the driver sign the last driver vehicle inspection report not apply?",
       "options": {
-        "A": "That the motor carrier has approved the trip in writing",
-        "B": "That the motor vehicle is in safe operating condition",
-        "C": "That the vehicle has been washed and fueled",
-        "D": "That a State inspector has checked the vehicle that day"
+        "A": "Defects the driver considers minor",
+        "B": "Listed defects on a towed unit which is no longer part of the vehicle combination",
+        "C": "Defects reported by a mechanic",
+        "D": "Defects in the tractor's lighting devices"
       },
       "answer": "B",
-      "explanation": "\"Before driving a motor vehicle, the driver shall: (a) Be satisfied that the motor vehicle is in safe operating condition\".",
+      "explanation": "The driver must \"Sign the report to acknowledge that the driver has reviewed it\", but \"The signature requirement does not apply to listed defects on a towed unit which is no longer part of the vehicle combination.\"",
       "source": {
         "title": "eCFR: 49 CFR 396.13, Driver inspection (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396/section-396.13"
@@ -314,15 +314,15 @@
     {
       "id": "im-018",
       "topic": "Periodic inspection",
-      "question": "What inspection period does 396.17(c) set before a motor carrier may use a commercial motor vehicle, for each component in Appendix A (with documentation on the vehicle)?",
+      "question": "Under 396.17(c)(2), what must a sticker or decal used as documentation of the periodic inspection contain?",
       "options": {
-        "A": "At least once during the preceding 12 months",
-        "B": "At least once during the preceding 24 months",
-        "C": "At least once during the preceding 36 months",
-        "D": "Only once, when the vehicle is first placed in service"
+        "A": "The date of inspection, the name and address of the entity where the inspection report is kept, information identifying the vehicle if it is not clearly marked, and a certification that it passed a 396.17 inspection",
+        "B": "Only the inspector's initials",
+        "C": "Only the vehicle's odometer reading",
+        "D": "The driver's CDL number"
       },
       "answer": "A",
-      "explanation": "Each component must have \"passed an inspection in accordance with the terms of this section at least once during the preceding 12 months and documentation of such inspection is on the vehicle.\"",
+      "explanation": "Documentation other than the report must contain \"The date of inspection\", the \"Name and address of the motor carrier, intermodal equipment provider, or other entity where the inspection report is maintained\", \"Information uniquely identifying the vehicle inspected if not clearly marked on the motor vehicle\" and \"A certification that the vehicle has passed an inspection in accordance with § 396.17.\"",
       "source": {
         "title": "eCFR: 49 CFR 396.17, Periodic inspection (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396/section-396.17"
@@ -350,15 +350,15 @@
     {
       "id": "im-020",
       "topic": "Inspector qualifications and inspection reports",
-      "question": "What retention period does 396.21(b)(1) set for the original or a copy of the periodic inspection report?",
+      "question": "A motor carrier did not perform the last annual inspection of a CMV it operates. Under 396.21(b)(3), what is the motor carrier responsible for?",
       "options": {
-        "A": "3 months from the date of the inspection report",
-        "B": "6 months from the date of the inspection report",
-        "C": "30 days from the date of the inspection report",
-        "D": "Fourteen months from the date of the inspection report"
+        "A": "Nothing; the inspecting business answers all requests",
+        "B": "Performing a new annual inspection before every trip",
+        "C": "Keeping the report in the driver's sleeper berth",
+        "D": "Obtaining the original or a copy of the last annual inspection report upon demand of an authorized Federal, State, or local official"
       },
       "answer": "D",
-      "explanation": "The report \"shall be retained by the motor carrier, intermodal equipment provider, or other entity that is responsible for the inspection for a period of fourteen months from the date of the inspection report.\"",
+      "explanation": "\"If the motor carrier operating the commercial motor vehicles did not perform the commercial motor vehicle's last annual inspection\", it \"is responsible for obtaining the original or a copy of the last annual inspection report upon demand of an authorized Federal, State, or local official.\"",
       "source": {
         "title": "eCFR: 49 CFR 396.21, Periodic inspection recordkeeping requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396/section-396.21"

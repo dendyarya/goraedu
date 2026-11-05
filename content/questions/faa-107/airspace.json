@@ -98,15 +98,15 @@
     {
       "id": "as-006",
       "topic": "Part 107 airspace rules",
-      "question": "Under 107.45, what must a person have to operate a small unmanned aircraft in a prohibited or restricted area?",
+      "question": "107.45 names two kinds of special use airspace in which no person may operate a small unmanned aircraft unless that person has permission from the using or controlling agency. Which two?",
       "options": {
-        "A": "A Federal Airways clearance from Flight Service",
-        "B": "Written consent from the nearest landowner",
-        "C": "Permission from the using or controlling agency, as appropriate",
-        "D": "A NOTAM published by the person"
+        "A": "Warning areas and alert areas",
+        "B": "Military operations areas and controlled firing areas",
+        "C": "Prohibited or restricted areas",
+        "D": "Military training routes and parachute jump areas"
       },
       "answer": "C",
-      "explanation": "107.45 bars operation in prohibited or restricted areas \"unless that person has permission from the using or controlling agency, as appropriate.\"",
+      "explanation": "107.45: \"No person may operate a small unmanned aircraft in prohibited or restricted areas unless that person has permission from the using or controlling agency, as appropriate.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.45, Operation in prohibited or restricted areas (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.45"
@@ -224,15 +224,15 @@
     {
       "id": "as-013",
       "topic": "Class B, C and D airspace",
-      "question": "According to the Study Guide, how does the outer circle that a Class C area usually has extend?",
+      "question": "According to the Study Guide, when instrument procedures are published for an airport with Class D airspace, how is that airspace normally designed?",
       "options": {
-        "A": "With a three NM radius, from the surface to 1,200 feet AGL",
-        "B": "With a 30 NM radius, from the surface to 10,000 feet MSL",
-        "C": "With a five NM radius, from 700 feet AGL to 18,000 feet MSL",
-        "D": "With a ten NM radius, from 1,200 feet to 4,000 feet above the airport elevation"
+        "A": "To leave the instrument approach paths outside the Class D area",
+        "B": "As a single ring with a 30 NM radius",
+        "C": "To extend upward to 18,000 feet MSL",
+        "D": "To contain the procedures"
       },
       "answer": "D",
-      "explanation": "The Study Guide says a Class C area usually has \"an outer circle with a ten NM radius that extends from 1,200 feet to 4,000 feet above the airport elevation.\"",
+      "explanation": "The Study Guide: \"The configuration of each Class D airspace area is individually tailored and, when instrument procedures are published, the airspace is normally designed to contain the procedures.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -260,15 +260,15 @@
     {
       "id": "as-015",
       "topic": "Class E, Class G and the Class A floor",
-      "question": "How does the Study Guide define Class G airspace?",
+      "question": "According to the Study Guide, up to what boundary does Class G airspace extend from the surface?",
       "options": {
-        "A": "The airspace above FL 600",
-        "B": "The portion of the airspace that has not been designated as Class A, B, C, D, or E",
-        "C": "The controlled airspace not classified as Class A, B, C, or D",
-        "D": "The airspace within 5 NM of an airport without a control tower"
+        "A": "18,000 feet MSL",
+        "B": "The base of the overlying Class E airspace",
+        "C": "400 feet AGL",
+        "D": "FL 600"
       },
       "answer": "B",
-      "explanation": "The Study Guide: \"Uncontrolled airspace or Class G airspace is the portion of the airspace that has not been designated as Class A, B, C, D, or E.\"",
+      "explanation": "The Study Guide: \"Class G airspace extends from the surface to the base of the overlying Class E airspace.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -296,15 +296,15 @@
     {
       "id": "as-017",
       "topic": "Special use airspace",
-      "question": "According to the Study Guide, how does a warning area differ from a restricted area?",
+      "question": "According to the Study Guide, over which waters may a warning area be located?",
       "options": {
-        "A": "A warning area is located only over land",
-        "B": "A warning area is charted with the letter P followed by a number",
-        "C": "Flight of aircraft within a warning area is wholly prohibited",
-        "D": "The United States government does not have sole jurisdiction over the airspace"
+        "A": "Only over inland lakes",
+        "B": "Only over international waters",
+        "C": "Only over land within the United States",
+        "D": "Over domestic or international waters or both"
       },
       "answer": "D",
-      "explanation": "The Study Guide: \"Warning areas are similar in nature to restricted areas; however, the United States government does not have sole jurisdiction over the airspace.\"",
+      "explanation": "The Study Guide: a warning area is airspace \"extending from 3 NM outward from the coast of the United States\", and \"A warning area may be located over domestic or international waters or both.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -314,15 +314,15 @@
     {
       "id": "as-018",
       "topic": "Special use airspace",
-      "question": "What does the Study Guide name as the difference between controlled firing areas (CFAs) and other special use airspace?",
+      "question": "Why does the Study Guide say there is no need to chart controlled firing areas (CFAs)?",
       "options": {
-        "A": "CFAs are always charted with a \"C\" followed by a number",
-        "B": "CFAs are closed to all aircraft at all times",
-        "C": "Activities must be suspended when a spotter aircraft, radar, or ground lookout position indicates an aircraft might be approaching the area",
-        "D": "CFAs exist only over international waters"
+        "A": "They are active only at night",
+        "B": "They always lie inside restricted areas",
+        "C": "They do not cause a nonparticipating aircraft to change its flight path",
+        "D": "They are listed only in the Chart Supplement U.S."
       },
       "answer": "C",
-      "explanation": "The Study Guide: \"The difference between CFAs and other special use airspace is that activities must be suspended when a spotter aircraft, radar, or ground lookout position indicates an aircraft might be approaching the area.\"",
+      "explanation": "The Study Guide: \"There is no need to chart CFAs since they do not cause a nonparticipating aircraft to change its flight path.\" Activities in a CFA \"must be suspended\" when an aircraft might be approaching the area.",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -332,15 +332,15 @@
     {
       "id": "as-019",
       "topic": "TFRs and NOTAMs",
-      "question": "According to the Study Guide, what is issued to designate a temporary flight restriction (TFR)?",
+      "question": "According to the Study Guide, with what phrase does the NOTAM that designates a temporary flight restriction (TFR) begin?",
       "options": {
-        "A": "A flight data center (FDC) Notice to Airmen (NOTAM)",
-        "B": "A sectional chart revision",
-        "C": "A pilot report (PIREP)",
-        "D": "An entry in the Chart Supplement U.S."
+        "A": "FLIGHT RESTRICTIONS",
+        "B": "AIRSPACE CLOSED",
+        "C": "SPECIAL NOTICE",
+        "D": "NO FLY ZONE"
       },
       "answer": "A",
-      "explanation": "The Study Guide: \"A flight data center (FDC) Notice to Airmen (NOTAM) is issued to designate a TFR.\"",
+      "explanation": "The Study Guide: \"The NOTAM begins with the phrase “FLIGHT RESTRICTIONS” followed by the location of the temporary restriction, effective time period, area defined in statute miles, and altitudes affected.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -350,15 +350,15 @@
     {
       "id": "as-020",
       "topic": "Other airspace areas",
-      "question": "According to the Study Guide, where and for what speeds are military training routes (MTRs) usually established?",
+      "question": "According to the Study Guide, what are military training routes (MTRs) used for?",
       "options": {
-        "A": "Below 1,500 feet AGL, for speeds under 100 knots",
-        "B": "Above 18,000 feet MSL, for speeds in excess of 500 knots",
-        "C": "Below 400 feet AGL, for speeds in excess of 87 knots",
-        "D": "Below 10,000 feet MSL, for operations at speeds in excess of 250 knots"
+        "A": "Arrivals and departures of air carriers at Class B airports",
+        "B": "Long-range small unmanned aircraft delivery flights",
+        "C": "FAA flight checks of navigation aids",
+        "D": "Military aircraft maintaining proficiency in tactical flying"
       },
       "answer": "D",
-      "explanation": "The Study Guide says MTRs \"are usually established below 10,000 feet MSL for operations at speeds in excess of 250 knots.\"",
+      "explanation": "The Study Guide: \"MTRs are routes used by military aircraft to maintain proficiency in tactical flying.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"

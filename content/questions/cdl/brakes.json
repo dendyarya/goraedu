@@ -188,15 +188,15 @@
     {
       "id": "bk-011",
       "topic": "Breakaway and emergency braking",
-      "question": "For air-braked towing units, between what air pressures on the towing vehicle does 393.43(a) require the tractor protection valve or similar device to operate automatically?",
+      "question": "An air-braked truck tractor that tows air-braked trailers must have two means of activating the emergency features of the trailer brakes under 393.43(b). What does the rule say about how the manual means may be arranged?",
       "options": {
-        "A": "Between 60 psi and 90 psi",
-        "B": "Between 70 psi and 85 psi",
-        "C": "Between 100 psi and 120 psi",
-        "D": "Between 20 psi and 45 psi"
+        "A": "It must be mounted outside the cab, behind the driver's seat",
+        "B": "It may be arranged so the driver can use it to block the automatic means",
+        "C": "It must always be a device separate from the automatic means",
+        "D": "It may never be arranged so that its use prevents operation of the automatic means"
       },
       "answer": "D",
-      "explanation": "The tractor protection valve or similar device \"shall operate automatically when the air pressure on the towing vehicle is between 138 kPa and 310 kPa (20 psi and 45 psi).\"",
+      "explanation": "The manual means must be \"readily operable by a person seated in the driving seat\", and \"In no instance may the manual means be so arranged as to permit its use to prevent operation of the automatic means.\" The two means \"may be, but are not required to be, separate.\"",
       "source": {
         "title": "eCFR: 49 CFR 393.43, Breakaway and emergency braking (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-393/subpart-C/section-393.43"
@@ -224,15 +224,15 @@
     {
       "id": "bk-013",
       "topic": "Automatic brake adjusters and ABS",
-      "question": "Under 393.53(b), air-braked commercial motor vehicles manufactured on or after which date must meet the automatic brake adjustment requirements of FMVSS No. 121?",
+      "question": "On a CMV manufactured on or after October 20, 1994 with an air brake system that has an external automatic adjustment mechanism and an exposed pushrod, what must display the condition of service brake under-adjustment under 393.53(c)?",
       "options": {
-        "A": "March 1, 2001",
-        "B": "March 1, 1975",
-        "C": "September 2, 1983",
-        "D": "October 20, 1994"
+        "A": "A pressure gauge on the dashboard reading in psi",
+        "B": "A label showing the date of the last manual brake adjustment",
+        "C": "The ABS malfunction lamp in the cab",
+        "D": "A brake adjustment indicator conforming to FMVSS No. 121"
       },
       "answer": "D",
-      "explanation": "\"Each commercial motor vehicle manufactured on or after October 20, 1994, and equipped with an air brake system must meet the automatic brake adjustment system requirements\" of FMVSS No. 121.",
+      "explanation": "Under 393.53(c), \"the condition of service brake under-adjustment must be displayed by a brake adjustment indicator conforming to the requirements of Federal Motor Vehicle Safety Standard No. 121\".",
       "source": {
         "title": "eCFR: 49 CFR 393.53, Automatic brake adjusters and brake adjustment indicators (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-393/subpart-C/section-393.53"
@@ -278,15 +278,15 @@
     {
       "id": "bk-016",
       "topic": "Reservoirs, gauges and warning signals",
-      "question": "For power units to which FMVSS No. 121 did not apply when made, at what service reservoir air pressure must the warning signal in 393.51(c)(2) give a continuous warning?",
+      "question": "Which vehicles does 393.51(f) exclude from the warning signal and gauge rules for air brakes, vacuum brakes and air- or vacuum-assisted hydraulic brakes in paragraphs (c), (d) and (e)?",
       "options": {
-        "A": "At 55 psi and below, or one-half of the compressor governor cutout pressure, whichever is less",
-        "B": "At 20 psi and below",
-        "C": "Only when the pressure falls to 0 psi",
-        "D": "At 30 psi and below, or one-quarter of the compressor governor cutout pressure, whichever is less"
+        "A": "Property-carrying CMVs with less than three axles that were manufactured before July 1, 1973 and have a manufacturer's GVWR less than 10,001 pounds",
+        "B": "All buses manufactured before March 1, 1975",
+        "C": "Any vehicle used only in intrastate commerce",
+        "D": "Property-carrying CMVs with three or more axles manufactured before July 1, 1973"
       },
       "answer": "A",
-      "explanation": "The signal must warn \"whenever the air pressure in the service reservoir system is at 379 kPa (55 psi) and below, or one-half of the compressor governor cutout pressure, whichever is less.\"",
+      "explanation": "\"The rules in paragraphs (c), (d) and (e) of this section do not apply to property carrying commercial motor vehicles which have less than three axles and\" both \"were manufactured before July 1, 1973\" and \"have a manufacturer's gross vehicle weight rating less than 4,536 kg (10,001 pounds).\"",
       "source": {
         "title": "eCFR: 49 CFR 393.51, Warning signals, air pressure and vacuum gauges (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-393/subpart-C/section-393.51"
@@ -350,15 +350,15 @@
     {
       "id": "bk-020",
       "topic": "Automatic brake adjusters and ABS",
-      "question": "Under 393.55(c)(1), truck tractors manufactured on or after which date (outside driveaway-towaway operations) must have an antilock brake system?",
+      "question": "Under 393.55(e), which vehicles must be equipped with an exterior ABS malfunction indicator lamp?",
       "options": {
-        "A": "October 20, 1993",
-        "B": "January 1, 1975",
-        "C": "March 1, 1997",
-        "D": "March 1, 2001"
+        "A": "Each truck tractor manufactured on or after March 1, 1997",
+        "B": "Only trailers used in driveaway-towaway operations",
+        "C": "Each trailer (including a trailer converter dolly) manufactured on or after March 1, 1998 and subject to 393.55(c)(2)",
+        "D": "Every trailer, regardless of its date of manufacture"
       },
       "answer": "C",
-      "explanation": "\"Each truck tractor manufactured on or after March 1, 1997 (except truck tractors engaged in driveaway-towaway operations), shall be equipped with an antilock brake system.\"",
+      "explanation": "\"Each trailer (including a trailer converter dolly) manufactured on or after March 1, 1998, and subject to the requirements of paragraph (c)(2) of this section, shall be equipped with an ABS malfunction indicator lamp which meets the requirements of FMVSS No. 121\".",
       "source": {
         "title": "eCFR: 49 CFR 393.55, Antilock brake systems (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-393/subpart-C/section-393.55"

@@ -8,15 +8,15 @@
     {
       "id": "t1-001",
       "topic": "Definitions",
-      "question": "What is the largest refrigerant charge an appliance can be factory-sealed with and still meet the definition of a small appliance?",
+      "question": "A university lab buys a factory-sealed research freezer that holds 3 pounds of refrigerant. How does the small appliance definition treat medical or industrial research refrigeration equipment?",
       "options": {
-        "A": "15 pounds",
-        "B": "5 pounds",
-        "C": "50 pounds",
-        "D": "2 pounds"
+        "A": "It excludes all research equipment from the small appliance category",
+        "B": "It names it as an example of a small appliance",
+        "C": "It treats it as industrial process refrigeration",
+        "D": "It treats it as an MVAC-like appliance"
       },
       "answer": "B",
-      "explanation": "A small appliance is \"fully manufactured, charged, and hermetically sealed in a factory with five (5) pounds or less of refrigerant.\" The 15-pound figure is a different limit: the largest charge on which system-dependent recovery equipment may be used.",
+      "explanation": "The small appliance definition lists examples that include \"medical or industrial research refrigeration equipment,\" provided the appliance is factory-sealed with five pounds or less of refrigerant. A 3-pound factory-sealed research freezer meets both conditions.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -26,15 +26,15 @@
     {
       "id": "t1-002",
       "topic": "Definitions",
-      "question": "Which of these is named in the regulation's definition as an example of a small appliance?",
+      "question": "The definition of \"appliance\" covers devices that contain and use a class I or class II substance or substitute as a refrigerant. For which purposes must the device be used?",
       "options": {
-        "A": "A motor vehicle air conditioner (MVAC)",
-        "B": "An MVAC-like appliance",
-        "C": "An appliance holding 50 pounds of refrigerant",
-        "D": "An under-the-counter ice maker"
+        "A": "Only industrial process purposes",
+        "B": "Only military purposes",
+        "C": "Only motor vehicle purposes",
+        "D": "Household or commercial purposes"
       },
       "answer": "D",
-      "explanation": "The definition of small appliance lists examples that include dehumidifiers, vending machines, drinking water coolers and \"under-the-counter ice makers.\" MVACs and MVAC-like appliances are handled as separate categories, and a 50-pound charge is far above the five-pound limit.",
+      "explanation": "Appliance means any such device \"which is used for household or commercial purposes, including any air conditioner, motor vehicle air conditioner, refrigerator, chiller, or freezer.\" The definition is not limited to industrial, military or vehicle use.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -44,15 +44,15 @@
     {
       "id": "t1-003",
       "topic": "Definitions",
-      "question": "What is a process stub?",
+      "question": "According to its definition, when can a process stub be resealed?",
       "options": {
-        "A": "A length of tubing that gives access to the refrigerant in a small appliance and can be resealed after service",
-        "B": "A valve on a refrigerant container that seals automatically when not dispensing",
-        "C": "The isolated portion of an appliance used to hold the refrigerant charge during service",
-        "D": "A device that releases its refrigerant to the environment to provide cooling"
+        "A": "At the conclusion of repair or service",
+        "B": "Only before any refrigerant has been recovered",
+        "C": "Only when the appliance is disposed of",
+        "D": "Never; it is cut open and left that way"
       },
       "answer": "A",
-      "explanation": "A process stub is \"a length of tubing that provides access to the refrigerant\" inside a small appliance or room air conditioner, and it can be resealed when the repair or service is done. The other options describe a self-sealing valve, a system receiver and a one-time expansion device.",
+      "explanation": "A process stub is a length of tubing giving access to the refrigerant in a small appliance or room air conditioner \"that can be resealed at the conclusion of repair or service.\" It is designed to be closed again after the work, not left open or used only at disposal.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -62,15 +62,15 @@
     {
       "id": "t1-004",
       "topic": "Equipment",
-      "question": "A small appliance that uses a non-exempt refrigerant may not be sold unless it is equipped with what?",
+      "question": "Small appliances normally must be equipped with a process stub before they can be sold. Which small appliances are excepted from that requirement?",
       "options": {
-        "A": "A servicing aperture",
-        "B": "A pump-out unit",
-        "C": "A process stub",
-        "D": "A system receiver"
+        "A": "Those holding less than one pound of refrigerant",
+        "B": "Those sold for export",
+        "C": "Those containing only refrigerants exempted under 40 CFR 82.154(a)(1)",
+        "D": "Those sold only to certified technicians"
       },
       "answer": "C",
-      "explanation": "No one may sell or distribute a small appliance (other than one with only exempt refrigerants) \"unless it is equipped with a process stub\" to help remove refrigerant at servicing and disposal. The servicing aperture requirement applies to appliances other than small appliances.",
+      "explanation": "No one may sell or distribute a small appliance \"(except appliances containing only refrigerants that have been exempted under paragraph (a)(1) of this section)\" unless it has a process stub. The rule sets no exception for charge size, export or the buyer's certification.",
       "source": {
         "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
@@ -80,15 +80,15 @@
     {
       "id": "t1-005",
       "topic": "Recovery requirements",
-      "question": "Using recovery equipment made on or after November 15, 1993, what recovery level does the rule set for a small appliance whose compressor is working?",
+      "question": "With small-appliance recovery equipment made on or after November 15, 1993, which fact decides whether the 90 percent or the 80 percent recovery level applies?",
       "options": {
-        "A": "80 percent",
-        "B": "70 percent",
-        "C": "90 percent",
-        "D": "99 percent"
+        "A": "The type of refrigerant in the appliance",
+        "B": "The age of the appliance",
+        "C": "Whether the compressor in the appliance is functioning",
+        "D": "The type of certification the technician holds"
       },
       "answer": "C",
-      "explanation": "With equipment made on or after November 15, 1993, you must recover \"90 percent of the refrigerant in the appliance when the compressor in the appliance is functioning.\" The 80 percent figure applies when the compressor is not working.",
+      "explanation": "With this equipment, technicians recover 90 percent \"when the compressor in the appliance is functioning,\" or 80 percent \"when the compressor in the appliance is not functioning.\" The rule ties the level to the compressor, not to the refrigerant, appliance age or certification type.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -98,15 +98,15 @@
     {
       "id": "t1-006",
       "topic": "Recovery requirements",
-      "question": "Using recovery equipment made on or after November 15, 1993, what recovery level does the rule set for a small appliance whose compressor is not working?",
+      "question": "A technician uses a certified recovery machine built in 2019 on a dormitory refrigerator whose compressor has seized. The technician pulls the appliance down to four inches of mercury vacuum but cannot tell what percentage was recovered. Does this meet 40 CFR 82.156(b)?",
       "options": {
-        "A": "80 percent",
-        "B": "90 percent",
-        "C": "95 percent",
-        "D": "50 percent"
+        "A": "Yes, because evacuating to four inches of mercury vacuum is an alternative to the recovery percentages",
+        "B": "No, because the technician must document 90 percent recovery",
+        "C": "No, because only the 80 percent level can be used when the compressor has failed",
+        "D": "No, because small appliances must be evacuated to 0 psig"
       },
       "answer": "A",
-      "explanation": "With equipment made on or after November 15, 1993, the rule requires recovering 80 percent of the refrigerant \"when the compressor in the appliance is not functioning.\" The higher 90 percent level applies only when the compressor is working.",
+      "explanation": "The small appliance rule lists the recovery percentages and then, as another option, \"Evacuate the appliance to four inches of mercury vacuum.\" Because the options are joined by \"or,\" reaching four inches satisfies the rule without proving a percentage.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -116,15 +116,15 @@
     {
       "id": "t1-007",
       "topic": "Recovery requirements",
-      "question": "Using recovery equipment manufactured before November 15, 1993, what recovery level does the rule set for a small appliance?",
+      "question": "When do the small appliance recovery requirements in 40 CFR 82.156(b) apply?",
       "options": {
-        "A": "90 percent",
-        "B": "95 percent",
-        "C": "70 percent",
-        "D": "80 percent"
+        "A": "Only when the appliance is disposed of",
+        "B": "Only when the appliance's compressor has failed",
+        "C": "Only when the recovered refrigerant will be sold",
+        "D": "Before opening a small appliance or when disposing of a small appliance"
       },
       "answer": "D",
-      "explanation": "When using recovery equipment manufactured before November 15, 1993, you must \"recover 80 percent of the refrigerant in the small appliance.\" For this older equipment the rule does not set a different level based on whether the compressor works.",
+      "explanation": "Paragraph (b) begins: \"Before opening a small appliance or when disposing of a small appliance, persons must recover refrigerant.\" It covers both service and disposal, whatever the compressor's condition or what happens to the refrigerant.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -134,15 +134,15 @@
     {
       "id": "t1-008",
       "topic": "Recovery requirements",
-      "question": "Instead of meeting a recovery percentage, what evacuation level does the rule set for a small appliance before it is opened or disposed of?",
+      "question": "Table 1 in 40 CFR 82.156 sets required evacuation levels in inches of mercury vacuum. How does it treat small appliances?",
       "options": {
-        "A": "0 psig",
-        "B": "4 inches of mercury vacuum",
-        "C": "5 psig",
-        "D": "2 inches of mercury vacuum"
+        "A": "It applies to small appliances that hold more than 2 pounds",
+        "B": "It excludes them; small appliances follow the separate requirements in paragraph (b)",
+        "C": "Small appliances use the low-pressure row",
+        "D": "Small appliances use the very high-pressure row"
       },
       "answer": "B",
-      "explanation": "The small appliance rule lets you meet either the recovery percentages or \"evacuate the appliance to four inches of mercury vacuum.\" The 0 psig and 5 psig levels appear in 82.156(a), which covers appliances \"except small appliances, MVACs, and MVAC-like appliances,\" and a 2-inch vacuum does not reach the four-inch level.",
+      "explanation": "Table 1 is titled \"REQUIRED LEVELS OF EVACUATION FOR APPLIANCES\" with the note \"[EXCEPT FOR SMALL APPLIANCES, MVACS, AND MVAC-LIKE APPLIANCES]\". Small appliances instead follow paragraph (b), which uses recovery percentages or a four-inch vacuum.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -170,15 +170,15 @@
     {
       "id": "t1-010",
       "topic": "Recovery requirements",
-      "question": "Unless it is permanently attached to the appliance as a pump-out unit, what is the largest full charge an appliance may have for system-dependent recovery equipment to be used on it?",
+      "question": "A technician wants to use certified system-dependent recovery equipment on a household refrigerator that holds 6 ounces of refrigerant. What does the charge limit in 40 CFR 82.156(e) mean for this job?",
       "options": {
-        "A": "5 pounds",
-        "B": "50 pounds",
-        "C": "15 pounds",
-        "D": "200 pounds"
+        "A": "System-dependent equipment may not be used on any small appliance",
+        "B": "It may be used only if the refrigerator's compressor is working",
+        "C": "It may be used, because the limit only bars appliances with a full charge of more than 15 pounds",
+        "D": "Only a Universal technician may use it"
       },
       "answer": "C",
-      "explanation": "System-dependent equipment \"may not be used with appliances with a full charge of more than 15 pounds\" of refrigerant, unless it is permanently attached as a pump-out unit, so 15 pounds is the largest charge allowed. Charges of 50 or 200 pounds are over that limit, and five pounds is the small appliance limit.",
+      "explanation": "System-dependent equipment \"may not be used with appliances with a full charge of more than 15 pounds of refrigerant,\" unless it is permanently attached as a pump-out unit. A 6-ounce refrigerator is far below that limit, and the paragraph sets no compressor or certification-type condition.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -188,15 +188,15 @@
     {
       "id": "t1-011",
       "topic": "Definitions",
-      "question": "What makes recovery equipment \"system-dependent\"?",
+      "question": "Under the definitions, what is a self-sealing valve?",
       "options": {
-        "A": "It can remove refrigerant without help from any part of the appliance",
-        "B": "It needs the help of components contained in the appliance to remove the refrigerant",
-        "C": "It reprocesses refrigerant to the purity specifications in appendix A",
-        "D": "It can only be used on motor vehicle air conditioners"
+        "A": "A length of tubing that is resealed after service",
+        "B": "A valve affixed to a container of refrigerant that automatically seals when not dispensing refrigerant",
+        "C": "The part of an appliance that holds the charge during service",
+        "D": "An opening built into an appliance for removing refrigerant at disposal"
       },
       "answer": "B",
-      "explanation": "System-dependent recovery equipment \"requires the assistance of components contained in an appliance\" to remove the refrigerant. Equipment that works without that help is self-contained, and reprocessing to appendix A specifications is reclaiming.",
+      "explanation": "A self-sealing valve is \"a valve affixed to a container of refrigerant that automatically seals when not dispensing refrigerant\" and meets the criteria in 82.154(c)(2). The other options describe a process stub, a system receiver and a servicing aperture.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -206,15 +206,15 @@
     {
       "id": "t1-012",
       "topic": "Definitions",
-      "question": "What is recovery equipment called if it can remove refrigerant from an appliance without the help of components in the appliance?",
+      "question": "Under the definitions, what is a one-time expansion device?",
       "options": {
-        "A": "System-dependent recovery equipment",
-        "B": "A pump-out unit",
-        "C": "A system receiver",
-        "D": "Self-contained recovery equipment"
+        "A": "A valve on a refrigerant container that seals automatically",
+        "B": "A length of tubing that gives access to the refrigerant in a small appliance",
+        "C": "A vessel within an appliance that holds the charge during service",
+        "D": "An appliance that relies on the release of its refrigerant charge to the environment to provide a cooling effect"
       },
       "answer": "D",
-      "explanation": "Self-contained recovery equipment is \"capable of removing the refrigerant from an appliance without the assistance of components contained in the appliance.\" System-dependent equipment is the opposite: it relies on the appliance's own components.",
+      "explanation": "A one-time expansion device is \"an appliance that relies on the release of its refrigerant charge to the environment in order to provide a cooling effect.\" Under 82.154(f), one may be made or imported only if all its refrigerants are exempt.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -242,15 +242,15 @@
     {
       "id": "t1-014",
       "topic": "Equipment",
-      "question": "Who must certify recovery equipment made or imported on or after November 15, 1993, for use on small appliances?",
+      "question": "A shop alters the design of its certified small-appliance recovery machine in a way that affects its ability to meet the certification standards. Until the altered design is tested and shown to meet them, how is the machine treated?",
       "options": {
-        "A": "The technician's certifying program",
-        "B": "An approved equipment testing organization",
-        "C": "The manufacturer of the small appliance",
-        "D": "A certified refrigerant reclaimer"
+        "A": "As certified, because the original model was certified",
+        "B": "As uncertified",
+        "C": "As certified for 90 days",
+        "D": "As certified if a Type I technician approves the change"
       },
       "answer": "B",
-      "explanation": "Equipment used on small appliances \"must be certified by an approved equipment testing organization\" to meet the required recovery levels. Equipment made or imported before November 15, 1993, instead \"will be considered certified if it is capable\" of the levels in 82.158(e)(1).",
+      "explanation": "No one may alter certified equipment this way without resubmitting the design for testing, and \"Until it is tested and shown to meet the certification standards in this section, equipment so altered will be considered uncertified.\" The original certification does not carry over to the altered machine.",
       "source": {
         "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
@@ -278,15 +278,15 @@
     {
       "id": "t1-016",
       "topic": "Technician certification",
-      "question": "What is the passing score for a Type I certification test given in the mail-in format?",
+      "question": "What does Appendix D forbid in the training material that accompanies mail-in Type I tests?",
       "options": {
-        "A": "84 percent",
-        "B": "70 percent",
-        "C": "80 percent",
-        "D": "90 percent"
+        "A": "Sample test questions mimicking the language of the certification test",
+        "B": "Diagrams of recovery equipment",
+        "C": "Excerpts from the regulations",
+        "D": "Contact information for the certifying program"
       },
       "answer": "A",
-      "explanation": "Appendix D states: \"The passing score for Type I certification tests using the mail-in format is 84 percent.\" The 70 percent score applies to the closed-book Type I, Type II, Type III and Universal tests.",
+      "explanation": "Appendix D states: \"Training material accompanying mail-in Type I tests must not include sample test questions mimicking the language of the certification test.\" All mail-in material is also subject to review by EPA.",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
@@ -296,15 +296,15 @@
     {
       "id": "t1-017",
       "topic": "Definitions",
-      "question": "Removing refrigerant in any condition from an appliance and storing it in an external container, without necessarily testing or processing it, is called what?",
+      "question": "Recycled refrigerant is generally cleaned using oil separation and single or multiple passes through which kind of device?",
       "options": {
-        "A": "Reclaiming",
-        "B": "Recovering",
-        "C": "Recycling",
-        "D": "Venting"
+        "A": "Distillation columns at a reclamation plant",
+        "B": "Replaceable core filter-driers",
+        "C": "Process stubs",
+        "D": "Self-sealing valves"
       },
       "answer": "B",
-      "explanation": "To recover means \"to remove refrigerant in any condition from an appliance\" and store it in an external container without necessarily testing or processing it. Recycling cleans the refrigerant for reuse, and reclaiming reprocesses it to the appendix A specifications.",
+      "explanation": "The definition of recycle says recycled refrigerant is cleaned \"using oil separation and single or multiple passes through devices, such as replaceable core filter-driers, which reduce moisture, acidity, and particulate matter.\" Process stubs and self-sealing valves are access and container fittings, not cleaning devices.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -314,15 +314,15 @@
     {
       "id": "t1-018",
       "topic": "Recovery requirements",
-      "question": "Refrigerant recovered from a small appliance has not been recycled or reclaimed. Where may it be returned?",
+      "question": "Recovered refrigerant may go back into the same appliance, or another appliance owned by the same person, without being recycled or reclaimed. Which appliances are left out of that allowance?",
       "options": {
-        "A": "To the same appliance, or to another appliance owned by the same person",
-        "B": "To any appliance, owned by anyone",
-        "C": "Nowhere; it must always be reclaimed first",
-        "D": "Only to a motor vehicle air conditioner"
+        "A": "MVACs and MVAC-like appliances",
+        "B": "Small appliances",
+        "C": "Household refrigerators",
+        "D": "Window air conditioners"
       },
       "answer": "A",
-      "explanation": "Refrigerant \"may be returned to the appliance from which it is recovered\" or to another appliance owned by the same person without being recycled or reclaimed. This does not apply to MVACs or MVAC-like appliances.",
+      "explanation": "Refrigerant may be returned this way \"unless the appliance is an MVAC or MVAC-like appliance.\" Small appliances such as household refrigerators and window units are not excluded.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -332,15 +332,15 @@
     {
       "id": "t1-019",
       "topic": "Technician certification",
-      "question": "Which certification must a person hold to maintain, service or repair small appliances?",
+      "question": "What does the technician certification rule encourage programs to do for non-English speaking technicians?",
       "options": {
-        "A": "Type II",
-        "B": "Type III",
-        "C": "MVAC certification under subpart B",
-        "D": "Type I"
+        "A": "Require an English course before testing",
+        "B": "Waive the Type I test",
+        "C": "Allow an open-book test",
+        "D": "Provide tests in other languages or allow the use of a translator"
       },
       "answer": "D",
-      "explanation": "The rule states that \"persons who maintain, service, or repair small appliances must be certified as Type I technicians.\" Type II covers medium-, high- and very high-pressure appliances, and Type III covers low-pressure appliances.",
+      "explanation": "Programs \"are encouraged to make provisions for non-English speaking technicians by providing tests in other languages or allowing the use of a translator when taking the test.\" The rule does not waive the test or make it open-book.",
       "source": {
         "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
@@ -368,33 +368,33 @@
     {
       "id": "t1-021",
       "topic": "Technician certification",
-      "question": "When is a registered apprentice exempt from the technician certification requirement?",
+      "question": "For Section 608 purposes, a person counts as an apprentice when currently registered as an apprentice with which office?",
       "options": {
-        "A": "When closely and continually supervised by a certified technician",
-        "B": "When working only on appliances the apprentice owns",
-        "C": "When working only on weekends",
-        "D": "When the apprentice has passed a practice test"
+        "A": "The U.S. Department of Labor's Office of Apprenticeship, or a State Apprenticeship Council it recognizes",
+        "B": "An EPA Regional Office",
+        "C": "A state contractor licensing board",
+        "D": "An EPA-approved technician certification program"
       },
       "answer": "A",
-      "explanation": "Apprentices are exempt if the apprentice \"is closely and continually supervised by a certified technician\" during work that could release refrigerant. The supervising technician and the apprentice share responsibility for following the rules.",
+      "explanation": "An apprentice is a person registered as an apprentice in appliance maintenance, service, repair or disposal \"with the U.S. Department of Labor's Office of Apprenticeship (or a State Apprenticeship Council recognized by the Office of Apprenticeship).\" Registration with EPA, a licensing board or a certifying program does not meet the definition.",
       "source": {
-        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
       },
       "checked": "2026-11-05"
     },
     {
       "id": "t1-022",
       "topic": "Technician certification",
-      "question": "How long must a technician keep a copy of their certificate?",
+      "question": "A technician's Section 608 certificate is revoked. What must the technician do before maintaining, servicing, repairing or disposing of any appliances again?",
       "options": {
-        "A": "One year after passing the test",
-        "B": "Only while working on small appliances",
-        "C": "Until three years after no longer operating as a technician",
-        "D": "Five years after passing the test"
+        "A": "Wait 12 months and then resume work",
+        "B": "Pay a fine to the certifying program",
+        "C": "Recertify",
+        "D": "Nothing; revocation only cancels the wallet card"
       },
       "answer": "C",
-      "explanation": "Technicians must keep a copy of their certificate at their place of business and maintain it \"until three years after no longer operating as a technician.\" The rule does not set a one-year or five-year period.",
+      "explanation": "The rule states: \"If a technician's certificate is revoked, the technician would need to recertify before maintaining, servicing, repairing, or disposing of any appliances.\" A waiting period or fine does not restore the right to do the work.",
       "source": {
         "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
@@ -422,15 +422,15 @@
     {
       "id": "t1-024",
       "topic": "Disposal",
-      "question": "A final processor accepts a signed statement that refrigerant was recovered from a small appliance. What must the statement include?",
+      "question": "A final processor verifies recovery with a signed statement instead of recovering the refrigerant itself. What must the statement or contract verify?",
       "options": {
-        "A": "The serial number of the recovery machine",
-        "B": "The technician's certification number",
-        "C": "The weight of refrigerant recovered",
-        "D": "The name and address of the person who recovered the refrigerant, and the date it was recovered"
+        "A": "That the appliance was serviced within the last year",
+        "B": "That the refrigerant was reclaimed to appendix A specifications",
+        "C": "That the appliance contains no compressor oil",
+        "D": "That all refrigerant that had not leaked previously has been recovered from the appliance or shipment"
       },
       "answer": "D",
-      "explanation": "A signed statement \"must include the name and address of the person who recovered the refrigerant\" and the date it was recovered. The rule does not list a machine serial number, certification number or refrigerant weight for this statement.",
+      "explanation": "The final processor may \"Verify using a signed statement or a contract that all refrigerant that had not leaked previously has been recovered from the appliance or shipment of appliances.\" Service history, reclamation or oil content is not what the statement verifies.",
       "source": {
         "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"

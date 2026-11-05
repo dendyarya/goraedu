@@ -8,15 +8,15 @@
     {
       "id": "sc-001",
       "topic": "Capacity",
-      "question": "Each scaffold and scaffold component (outside the listed exceptions) must support its own weight plus at least how many times the maximum intended load?",
+      "question": "A scaffold's maximum intended load and its rated capacity are different figures. Which one sets the limit on how heavily it may be loaded?",
       "options": {
-        "A": "4 times",
-        "B": "2 times",
-        "C": "1.5 times",
-        "D": "10 times"
+        "A": "Whichever of the two is less",
+        "B": "Whichever of the two is greater",
+        "C": "The rated capacity, in every case",
+        "D": "The maximum intended load plus 25 percent"
       },
       "answer": "A",
-      "explanation": "The rule says each scaffold and component \"shall be capable of supporting, without failure, its own weight and at least 4 times the maximum intended load applied or transmitted to it.\"",
+      "explanation": "\"Scaffolds and scaffold components shall not be loaded in excess of their maximum intended loads or rated capacities, whichever is less.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -26,15 +26,15 @@
     {
       "id": "sc-002",
       "topic": "Capacity",
-      "question": "Each suspension rope on a non-adjustable suspension scaffold, including connecting hardware, must support at least how many times the maximum intended load applied to that rope?",
+      "question": "The stall load of a scaffold hoist may not exceed how many times the hoist's rated load?",
       "options": {
-        "A": "2 times",
-        "B": "6 times",
-        "C": "3 times",
-        "D": "1 time"
+        "A": "6 times",
+        "B": "3 times",
+        "C": "10 times",
+        "D": "8 times"
       },
       "answer": "B",
-      "explanation": "Each such rope \"shall be capable of supporting, without failure, at least 6 times the maximum intended load applied or transmitted to that rope.\"",
+      "explanation": "\"The stall load of any scaffold hoist shall not exceed 3 times its rated load.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -44,12 +44,12 @@
     {
       "id": "sc-003",
       "topic": "Capacity",
-      "question": "Who must design a scaffold?",
+      "question": "A qualified person has designed a scaffold. A foreman wants to put more load on it than the design allows because the planks look sturdy. What does the rule require?",
       "options": {
-        "A": "Any employee who will work on it",
-        "B": "The scaffold's first user",
-        "C": "A qualified person",
-        "D": "The hoist manufacturer only"
+        "A": "Extra load is allowed if a competent person approves it",
+        "B": "Extra load is allowed for one work shift",
+        "C": "The scaffold must be constructed and loaded in accordance with that design",
+        "D": "The design governs erection only, not loading"
       },
       "answer": "C",
       "explanation": "\"Scaffolds shall be designed by a qualified person and shall be constructed and loaded in accordance with that design.\"",
@@ -62,15 +62,15 @@
     {
       "id": "sc-004",
       "topic": "Scope and key definitions",
-      "question": "Which two things together make someone a competent person under Subpart L?",
+      "question": "Under Subpart L's definition, what does a scaffold's \"maximum intended load\" take in?",
       "options": {
-        "A": "A college degree and ten years of experience",
-        "B": "Ownership of the scaffold and a state license",
-        "C": "Membership in a union and a first aid card",
-        "D": "The ability to identify existing and predictable hazards, and authorization to take prompt corrective measures to eliminate them"
+        "A": "The weight of the workers only",
+        "B": "The weight of stored materials only",
+        "C": "The scaffold's own weight multiplied by four",
+        "D": "The total of all persons, equipment, tools, materials, transmitted loads and other loads reasonably anticipated at any one time"
       },
       "answer": "D",
-      "explanation": "A competent person is \"capable of identifying existing and predictable hazards\" and \"has authorization to take prompt corrective measures to eliminate them.\"",
+      "explanation": "Maximum intended load \"means the total load of all persons, equipment, tools, materials, transmitted loads, and other loads reasonably anticipated to be applied to a scaffold or scaffold component at any one time.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.450, Scope, application and definitions applicable to this subpart (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.450"
@@ -98,15 +98,15 @@
     {
       "id": "sc-006",
       "topic": "Platform construction",
-      "question": "Apart from the listed exceptions, what is the minimum width of each scaffold platform and walkway?",
+      "question": "Platforms are overlapped to create a long scaffold platform. Where may the overlap occur?",
       "options": {
-        "A": "12 inches",
-        "B": "18 inches",
-        "C": "24 inches",
-        "D": "36 inches"
+        "A": "Anywhere along the span",
+        "B": "Only over supports",
+        "C": "Only at midspan between supports",
+        "D": "Only at the two ends of the scaffold"
       },
       "answer": "B",
-      "explanation": "Except as provided in (b)(2)(i) and (ii), \"each scaffold platform and walkway shall be at least 18 inches (46 cm) wide.\"",
+      "explanation": "\"On scaffolds where platforms are overlapped to create a long platform, the overlap shall occur only over supports,\" with a minimum overlap unless the platforms are nailed together or otherwise restrained.",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -116,15 +116,15 @@
     {
       "id": "sc-007",
       "topic": "Platform construction",
-      "question": "Unless the platform end is cleated or otherwise restrained by hooks or equivalent means, how far must each end extend over the centerline of its support?",
+      "question": "What does the rule say about covering wood scaffold platforms with opaque finishes?",
       "options": {
-        "A": "At least 1 inch",
-        "B": "At least 3 inches",
-        "C": "At least 6 inches",
-        "D": "No extension is allowed"
+        "A": "Opaque paint is allowed on the whole surface if it is slip-resistant",
+        "B": "Every wood platform must be painted with an opaque finish",
+        "C": "They shall not be covered with opaque finishes, except that platform edges may be covered or marked for identification",
+        "D": "Opaque finishes are allowed on the top surface only"
       },
       "answer": "C",
-      "explanation": "Each end of a platform, unless cleated or restrained, \"shall extend over the centerline of its support at least 6 inches (15 cm).\"",
+      "explanation": "\"Wood platforms shall not be covered with opaque finishes, except that platform edges may be covered or marked for identification.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -134,15 +134,15 @@
     {
       "id": "sc-008",
       "topic": "Supported scaffolds: footing and tipping",
-      "question": "A supported scaffold must be restrained from tipping by guying, tying, bracing or equivalent means when its height to base width ratio is more than what?",
+      "question": "When may a fork-lift be used to support a scaffold platform?",
       "options": {
-        "A": "1 to 1",
-        "B": "2 to 1",
-        "C": "3 to 1",
-        "D": "4 to 1"
+        "A": "Whenever the fork-lift's wheels are chocked",
+        "B": "Whenever the platform simply rests on the forks and the ground is level",
+        "C": "Whenever the employees on the platform wear harnesses",
+        "D": "Only when the entire platform is attached to the fork and the fork-lift is not moved horizontally while the platform is occupied"
       },
       "answer": "D",
-      "explanation": "Supported scaffolds with a height to base width ratio \"of more than four to one (4:1) shall be restrained from tipping by guying, tying, bracing, or equivalent means.\"",
+      "explanation": "\"Fork-lifts shall not be used to support scaffold platforms unless the entire platform is attached to the fork and the fork-lift is not moved horizontally while the platform is occupied.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -170,15 +170,15 @@
     {
       "id": "sc-010",
       "topic": "Access",
-      "question": "A means of access such as a ladder, stair tower or ramp must be used when a scaffold platform is more than how far above or below a point of access?",
+      "question": "An employee wants to step directly between a scaffold and an adjacent surface instead of using a ladder or stair. Direct access is allowed only when the scaffold is no farther from that surface than what?",
       "options": {
-        "A": "6 feet",
-        "B": "2 feet",
-        "C": "10 feet",
-        "D": "4 feet"
+        "A": "24 inches horizontally and 36 inches vertically",
+        "B": "14 inches horizontally and 24 inches vertically",
+        "C": "36 inches horizontally and 48 inches vertically",
+        "D": "48 inches horizontally and 6 feet vertically"
       },
       "answer": "B",
-      "explanation": "Access must be provided \"when scaffold platforms are more than 2 feet (0.6 m) above or below a point of access,\" and crossbraces may not be used as access.",
+      "explanation": "\"Direct access to or from another surface shall be used only when the scaffold is not more than 14 inches (36 cm) horizontally and not more than 24 inches (61 cm) vertically from the other surface.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -224,15 +224,15 @@
     {
       "id": "sc-013",
       "topic": "Use of scaffolds",
-      "question": "When must a competent person inspect scaffolds and scaffold components for visible defects?",
+      "question": "A scaffold part is found damaged so that its strength is below what the rule requires. What must happen to it?",
       "options": {
-        "A": "Before each work shift, and after any occurrence which could affect structural integrity",
-        "B": "Once a month",
-        "C": "Only when the scaffold is first erected",
-        "D": "Only after an accident"
+        "A": "It must be immediately repaired or replaced, braced to meet the requirements, or removed from service until repaired",
+        "B": "It may stay in use until the job is finished",
+        "C": "It may stay in use if a warning sign is attached",
+        "D": "It must be reported at the next monthly safety meeting"
       },
       "answer": "A",
-      "explanation": "Scaffolds \"shall be inspected for visible defects by a competent person before each work shift, and after any occurrence which could affect a scaffold's structural integrity.\"",
+      "explanation": "\"Any part of a scaffold damaged or weakened such that its strength is less than that required by paragraph (a) of this section shall be immediately repaired or replaced, braced to meet those provisions, or removed from service until repaired.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -242,15 +242,15 @@
     {
       "id": "sc-014",
       "topic": "Use of scaffolds",
-      "question": "Under whose supervision and direction may scaffolds be erected, moved, dismantled or altered?",
+      "question": "A scaffold is covered with ice. When may employees work on it?",
       "options": {
-        "A": "Any employee on the crew",
-        "B": "A competent person qualified in scaffold erection, moving, dismantling or alteration",
-        "C": "The building owner",
-        "D": "The hoist operator"
+        "A": "Whenever they wear slip-resistant boots",
+        "B": "Only as necessary to remove the ice",
+        "C": "Whenever a competent person is on site",
+        "D": "Whenever the ice covers less than half the platform"
       },
       "answer": "B",
-      "explanation": "These activities may happen \"only under the supervision and direction of a competent person qualified in scaffold erection, moving, dismantling or alteration.\"",
+      "explanation": "\"Employees shall be prohibited from working on scaffolds covered with snow, ice, or other slippery material except as necessary for removal of such materials.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -260,15 +260,15 @@
     {
       "id": "sc-015",
       "topic": "Clearance from power lines",
-      "question": "What minimum clearance does the rule set between a scaffold and an exposed, energized, uninsulated power line of less than 50 kV (without the utility exception)?",
+      "question": "Scaffold work must be done closer to a power line than the clearance table allows. What must happen before that work proceeds?",
       "options": {
-        "A": "3 feet",
-        "B": "5 feet",
-        "C": "10 feet",
-        "D": "50 feet"
+        "A": "A competent person must watch the line during the work",
+        "B": "Employees on the scaffold must wear rubber gloves",
+        "C": "The utility company or electrical system operator must be notified and must deenergize the lines, relocate them, or install protective coverings",
+        "D": "A warning sign must be posted at the scaffold base"
       },
       "answer": "C",
-      "explanation": "For uninsulated lines under 50 kV the table sets a minimum distance of \"10 feet (3.1 m)\"; closer work needs the utility or system operator to have deenergized, relocated or covered the lines.",
+      "explanation": "Closer work is allowed \"only after the utility company, or electrical system operator, has been notified of the need to work closer and the utility company, or electrical system operator, has deenergized the lines, relocated the lines, or installed protective coverings to prevent accidental contact with the lines.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -278,15 +278,15 @@
     {
       "id": "sc-016",
       "topic": "Fall protection on scaffolds",
-      "question": "Above what height must each employee on a scaffold be protected from falling to a lower level?",
+      "question": "An employee works on a crawling board (chicken ladder). Which of these is listed as acceptable fall protection for that employee?",
       "options": {
-        "A": "4 feet",
-        "B": "6 feet",
-        "C": "15 feet",
-        "D": "10 feet"
+        "A": "A warning line system",
+        "B": "A safety monitoring system",
+        "C": "A controlled access zone",
+        "D": "A three-fourth inch diameter grabline or equivalent handhold securely fastened beside each crawling board"
       },
       "answer": "D",
-      "explanation": "\"Each employee on a scaffold more than 10 feet (3.1 m) above a lower level shall be protected from falling to that lower level.\"",
+      "explanation": "Each employee on a crawling board \"shall be protected by a personal fall arrest system, a guardrail system (with minimum 200 pound toprail capacity), or by a three-fourth inch (1.9 cm) diameter grabline or equivalent handhold securely fastened beside each crawling board.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -314,15 +314,15 @@
     {
       "id": "sc-018",
       "topic": "Fall protection on scaffolds",
-      "question": "On a supported scaffold manufactured or placed in service after January 1, 2000, where must the top edge of the toprail be?",
+      "question": "Manila or synthetic rope is being used as the toprails and midrails of a scaffold guardrail. What does the rule require?",
       "options": {
-        "A": "Between 30 and 34 inches above the platform",
-        "B": "Between 38 and 45 inches above the platform",
-        "C": "Between 20 and 26 inches above the platform",
-        "D": "Between 12 and 18 inches above the platform"
+        "A": "Rope may never be used for toprails or midrails",
+        "B": "A competent person must inspect it as frequently as necessary to ensure it continues to meet the strength requirements",
+        "C": "It must be replaced every 30 days",
+        "D": "It needs inspection only when first installed"
       },
       "answer": "B",
-      "explanation": "On those scaffolds the top edge \"shall be installed between 38 inches (0.97 m) and 45 inches (1.2 m) above the platform surface.\"",
+      "explanation": "\"Manila or plastic (or other synthetic) rope being used for toprails or midrails shall be inspected by a competent person as frequently as necessary to ensure that it continues to meet the strength requirements\" of the rule.",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -332,15 +332,15 @@
     {
       "id": "sc-019",
       "topic": "Falling object protection",
-      "question": "Where used on a scaffold, what minimum height does the rule set for a toeboard, measured from its top edge to the walking/working surface?",
+      "question": "Besides hardhats, which of these is listed as a way to protect employees on a scaffold from falling hand tools, debris and other small objects?",
       "options": {
-        "A": "At least 1 inch",
-        "B": "At least 2 inches",
-        "C": "At least three and one-half inches",
-        "D": "At least one-half inch"
+        "A": "Warning signs at the scaffold base",
+        "B": "A safety monitor on the platform",
+        "C": "Debris nets, catch platforms, or canopy structures that contain or deflect the falling objects",
+        "D": "Body belts worn by the employees below"
       },
       "answer": "C",
-      "explanation": "Toeboards must be \"at least three and one-half inches (9 cm) high from the top edge of the toeboard to the level of the walking/working surface.\"",
+      "explanation": "Additional protection may come from \"toeboards, screens, or guardrail systems, or through the erection of debris nets, catch platforms, or canopy structures that contain or deflect the falling objects.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -350,15 +350,15 @@
     {
       "id": "sc-020",
       "topic": "Training",
-      "question": "Who must train each employee involved in erecting, disassembling, moving, operating, repairing, maintaining or inspecting a scaffold?",
+      "question": "Which of these is listed as a situation in which an employer must retrain a scaffold worker?",
       "options": {
-        "A": "The employee's coworker",
-        "B": "A scaffold manufacturer's salesperson",
-        "C": "The building inspector",
-        "D": "A competent person"
+        "A": "Every six months, whatever the employee's performance",
+        "B": "Whenever the weather changes",
+        "C": "Whenever the employee moves to a new crew on the same site",
+        "D": "Inadequacies in the employee's work involving scaffolds show the employee has not retained the requisite proficiency"
       },
       "answer": "D",
-      "explanation": "The employer must have each such employee \"trained by a competent person to recognize any hazards associated with the work in question.\"",
+      "explanation": "Retraining is required in situations including \"Where inadequacies in an affected employee's work involving scaffolds indicate that the employee has not retained the requisite proficiency.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.454, Training requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.454"
