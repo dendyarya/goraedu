@@ -46,6 +46,16 @@ const SNAPSHOTS: Record<string, string[]> = {
     "29cfr1926-subpartM-2026-11-03.reading-order.txt",
     "29cfr1926-subpartP-2026-11-03.reading-order.txt",
     "29cfr1926-subpartX-2026-11-03.reading-order.txt",
+    "29cfr1903-2026-11-03.txt",
+    "29cfr1903-2026-11-03.reading-order.txt",
+    "29cfr1904-2026-11-03.txt",
+    "29cfr1904-2026-11-03.reading-order.txt",
+    "29cfr1926-subpartD-2026-11-03.txt",
+    "29cfr1926-subpartD-2026-11-03.reading-order.txt",
+    "29cfr1926-1153-2026-11-03.txt",
+    "29cfr1926-1153-2026-11-03.reading-order.txt",
+    "29cfr1910-1200-2026-11-03.txt",
+    "29cfr1910-1200-2026-11-03.reading-order.txt",
   ],
   "epa-609": [
     "40cfr82-subpartB-2026-11-03.txt",
@@ -78,6 +88,11 @@ const PAGE_TITLES = [
   "Fall Protection",
   "Excavations",
   "Stairways and Ladders",
+  "Inspections, Citations and Proposed Penalties",
+  "Recording and Reporting Occupational Injuries and Illnesses",
+  "Occupational Health and Environmental Controls",
+  "Hazard communication.",
+  "Respirable crystalline silica.",
 ];
 
 function stripPageChrome(text: string): string {
@@ -87,7 +102,7 @@ function stripPageChrome(text: string): string {
       const t = l.trim();
       return !(
         PAGE_TITLES.includes(t) ||
-        /^\d+ CFR Part \d+ Subpart [A-Z] \(up to date/.test(t) ||
+        /^\d+ CFR (Part \d+( Subpart [A-Z])?|[\d.]+) \(up to date/.test(t) ||
         /^\d+ CFR [\d.]+[\d()a-z]*$/.test(t) ||
         /^page \d+ of \d+$/.test(t) ||
         /\(enhanced display\)(\s+page \d+ of \d+)?$/.test(t) ||

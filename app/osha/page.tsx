@@ -12,7 +12,7 @@ import { TOOLS } from "@/lib/tools";
 export const metadata: Metadata = {
   title: "OSHA Construction Safety (29 CFR 1926): Free Practice Questions and Study Guides",
   description:
-    "Free practice questions and study guides on the OSHA construction standards behind the OSHA 10 and 30 topics: falls, electrical, excavations, ladders, PPE.",
+    "Free practice questions, study guides and tools on the OSHA rules behind the OSHA 10 and 30 construction topics: falls, electrical, excavations, health hazards.",
   alternates: { canonical: "/osha/" },
 };
 
@@ -67,6 +67,7 @@ assertQuotes(
 const SOURCES: Source[] = [
   ...[
     ["C", "General Safety and Health Provisions"],
+    ["D", "Occupational Health and Environmental Controls"],
     ["E", "Personal Protective and Life Saving Equipment"],
     ["K", "Electrical"],
     ["L", "Scaffolds"],
@@ -76,6 +77,16 @@ const SOURCES: Source[] = [
   ].map(([s, t]) => ({
     title: `eCFR: 29 CFR Part 1926, Subpart ${s}, ${t} (as of Nov 3, 2026)`,
     url: `${BASE}/subpart-${s}`,
+    checked: CHECKED,
+  })),
+  ...[
+    ["part-1903", "29 CFR Part 1903, Inspections, Citations and Proposed Penalties"],
+    ["part-1904", "29 CFR Part 1904, Recording and Reporting Occupational Injuries and Illnesses"],
+    ["part-1926/subpart-Z/section-1926.1153", "29 CFR 1926.1153, Respirable crystalline silica"],
+    ["part-1910/subpart-Z/section-1910.1200", "29 CFR 1910.1200, Hazard communication"],
+  ].map(([p, t]) => ({
+    title: `eCFR: ${t} (as of Nov 3, 2026)`,
+    url: `https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/${p}`,
     checked: CHECKED,
   })),
   {
@@ -174,7 +185,7 @@ export default function OshaPage() {
                 <li key={r.slug} className="rounded-2xl border border-line p-3">
                   <p className="font-bold">{r.name}</p>
                   <p className="text-[0.8125rem] text-muted">
-                    Subpart {r.subpart}
+                    {r.rule}
                     {r.focus ? ` · Focus Four: ${r.focus}` : ""}
                   </p>
                   <p className="mt-1.5 flex flex-wrap gap-x-3 text-[0.9375rem]">

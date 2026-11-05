@@ -48,7 +48,7 @@ export default async function OshaPracticePage({ params }: Props) {
         { label: `${name} practice` },
       ]}
       title={`OSHA construction ${name.toLowerCase()} practice questions`}
-      lead={`${set.questions.length} free practice questions from 29 CFR Part 1926${meta ? `, Subpart ${meta.subpart}` : ""}. Each answer is explained and linked to the rule it comes from.`}
+      lead={`${set.questions.length} free practice questions from ${meta ? meta.rule : "29 CFR Part 1926"}. Each answer is explained and linked to the rule it comes from.`}
       meta={
         <>
           Fact-checked against official sources · Last checked <time dateTime={checked}>{formatDate(checked)}</time>
