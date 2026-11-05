@@ -188,12 +188,12 @@
     {
       "id": "pn-011",
       "topic": "Tier 2 notices",
-      "question": "Under 141.203(b)(1), if a system posts its Tier 2 public notice, how long must the posted notice stay in place?",
+      "question": "A system posts its Tier 2 public notice, and the violation is resolved two days later. What minimum posting period does 141.203(b)(1) set for that posted notice?",
       "options": {
-        "A": "24 hours after posting",
-        "B": "Only until the violation is resolved, even if that takes fewer than seven days",
-        "C": "Exactly 30 days, whether or not the violation persists",
-        "D": "As long as the violation or situation persists, but in no case for less than seven days, even if the violation or situation is resolved"
+        "A": "Two days, ending when the violation was resolved",
+        "B": "24 hours",
+        "C": "Three days",
+        "D": "Seven days"
       },
       "answer": "D",
       "explanation": "\"If the public notice is posted, the notice must remain in place for as long as the violation or situation persists, but in no case for less than seven days, even if the violation or situation is resolved.\"",
@@ -278,15 +278,15 @@
     {
       "id": "pn-016",
       "topic": "Tier 3 notices",
-      "question": "Which violation is listed in Table 1 to 141.204 as requiring a Tier 3 public notice?",
+      "question": "Under 141.204(b)(2), what may a public water system use instead of individual Tier 3 public notices?",
       "options": {
-        "A": "Violation of the MCL for E. coli",
-        "B": "Violation of the MCL for nitrate",
-        "C": "Reporting and recordkeeping violations under Subpart Y",
-        "D": "Failure to comply with the terms and conditions of a variance or exemption in place"
+        "A": "A report to the primacy agency only, with no notice to persons served",
+        "B": "Notices given only to customers who ask for them",
+        "C": "An annual report detailing all violations and situations that occurred during the previous twelve months, as long as the timing requirements of 141.204(b)(1) are met",
+        "D": "A single notice published once every five years"
       },
       "answer": "C",
-      "explanation": "Table 1 to 141.204 lists \"Reporting and Recordkeeping violations under subpart Y of 40 CFR part 141.\" The E. coli and nitrate MCL violations are Tier 1, and failure to comply with variance terms is Tier 2.",
+      "explanation": "\"Instead of individual Tier 3 public notices, a public water system may use an annual report detailing all violations and situations that occurred during the previous twelve months, as long as the timing requirements of paragraph (b)(1) of this section are met.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.204, Tier 3 Public Notice—Form, manner, and frequency of notice (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Q/section-141.204"
@@ -340,7 +340,7 @@
         "D": "Community water systems that exceed the fluoride SMCL of 2 mg/l but do not exceed the fluoride MCL of 4 mg/l"
       },
       "answer": "D",
-      "explanation": "\"Community water systems that exceed the fluoride secondary maximum contaminant level (SMCL) of 2 mg/l as specified in § 143.3 ... but do not exceed the maximum contaminant level (MCL) of 4 mg/l for fluoride\" must give this notice.",
+      "explanation": "141.208(a) covers \"Community water systems that exceed the fluoride secondary maximum contaminant level (SMCL) of 2 mg/l as specified in § 143.3\" (determined by the last single sample) \"but do not exceed the maximum contaminant level (MCL) of 4 mg/l for fluoride\".",
       "source": {
         "title": "eCFR: 40 CFR 141.208, Special notice for exceedance of the SMCL for fluoride (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Q/section-141.208"
