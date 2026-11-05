@@ -134,15 +134,15 @@
     {
       "id": "hm-008",
       "topic": "Containers and portable tanks",
-      "question": "Under Table H-12 in 1910.106, what is the maximum allowable size of a metal container (other than a DOT drum) for a Category 1 flammable liquid?",
+      "question": "The note to Table H-12 in 1910.106 exempts certain items from the container rules in 1910.106(d)(2)(i) and (ii) when they are packaged according to commonly accepted practices. Which items?",
       "options": {
-        "A": "5 gal",
-        "B": "10 gal",
-        "C": "30 gal",
-        "D": "1 gal"
+        "A": "Flammable aerosols kept in stock for resale",
+        "B": "Category 1 flammable liquids used for cleaning machine parts",
+        "C": "Waste solvents awaiting disposal",
+        "D": "Medicines, beverages, foodstuffs, cosmetics, and other common consumer items"
       },
       "answer": "D",
-      "explanation": "Table H-12 lists \"Metal (other than DOT drums) 1 gal 5 gal 5 gal 5 gal\" for Categories 1, 2, 3 and 4, so the Category 1 limit is 1 gallon.",
+      "explanation": "The note to Table H-12 says \"Medicines, beverages, foodstuffs, cosmetics, and other common consumer items, when packaged according to commonly accepted practices, shall be exempt from the requirements of 1910.106(d)(2)(i) and (ii).\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
@@ -206,15 +206,15 @@
     {
       "id": "hm-012",
       "topic": "Storage rooms and storage areas",
-      "question": "What minimum air change rate does 1910.106(d)(4)(iv) set for the exhaust ventilation of an inside storage room?",
+      "question": "An inside storage room has a mechanical exhaust system controlled by a switch outside the door. When does 1910.106(d)(4)(iv) require a pilot light adjacent to that switch?",
       "options": {
-        "A": "One complete change of air per hour",
-        "B": "A complete change of air at least six times per hour",
-        "C": "Two complete changes of air per hour",
-        "D": "Four complete changes of air per hour"
+        "A": "Only when the room is larger than 500 square feet",
+        "B": "When Category 1 or 2 flammable liquids, or Category 3 flammable liquids with a flashpoint below 100 °F (37.8 °C), are dispensed within the room",
+        "C": "Only when the room has no windows",
+        "D": "Only when the room stores Category 4 flammable liquids and nothing else"
       },
       "answer": "B",
-      "explanation": "The system \"shall be designed to provide for a complete change of air within the room at least six times per hour.\"",
+      "explanation": "The ventilating equipment and any lighting fixtures are run from the same switch, and \"A pilot light shall be installed adjacent to the switch if Category 1 or 2 flammable liquids, or Category 3 flammable liquids with a flashpoint below 100 °F (37.8 °C), are dispensed within the room.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
@@ -332,15 +332,15 @@
     {
       "id": "hm-019",
       "topic": "Sources of ignition and fire control",
-      "question": "What is the farthest from the door of a flammable liquid storage room that 1910.106(d)(7)(i)(a) allows the required 12-B portable fire extinguisher to be located?",
+      "question": "Under the fire control rules for container and portable tank storage in 1910.106(d)(7), which materials may not be stored in the same room with flammable liquids?",
       "options": {
-        "A": "25 feet",
-        "B": "10 feet",
-        "C": "50 feet",
-        "D": "75 feet"
+        "A": "Empty metal safety cans",
+        "B": "Materials which will react with water",
+        "C": "Approved flammable liquid storage cabinets",
+        "D": "Spare portable fire extinguishers"
       },
       "answer": "B",
-      "explanation": "At least one 12-B extinguisher \"shall be located outside of, but not more than 10 feet from, the door opening into any room used for storage.\"",
+      "explanation": "Under the water reactive materials paragraph, \"Materials which will react with water shall not be stored in the same room with flammable liquids.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.106, Flammable liquids (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.106"
