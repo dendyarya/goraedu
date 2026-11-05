@@ -3,7 +3,7 @@ const production = process.env.SITE_ENV === "production";
 
 export const SITE = {
   name: "goraedu",
-  url: process.env.SITE_URL?.trim() || "https://goraedu.com",
+  url: process.env.SITE_URL?.trim() || "https://www.goraedu.com",
   tagline: "Learn. Get Certified. Build Your Career.",
   description:
     "Free practice questions and study guides for U.S. skilled trades certifications, starting with EPA Section 608. Every answer links to the official source.",

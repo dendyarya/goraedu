@@ -20,7 +20,7 @@ switch() { ln -sfn "$1" "$BASE/current.tmp" && mv -Tf "$BASE/current.tmp" "$BASE
 healthy() {
   # ask the local Nginx for the home page exactly as Cloudflare would
   for _ in 1 2 3 4 5; do
-    code=$(curl -ks -o /dev/null -w '%{http_code}' --resolve goraedu.com:443:127.0.0.1 https://goraedu.com/ || true)
+    code=$(curl -ks -o /dev/null -w '%{http_code}' --resolve www.goraedu.com:443:127.0.0.1 https://www.goraedu.com/ || true)
     [ "$code" = 200 ] && return 0
     sleep 1
   done

@@ -1,6 +1,6 @@
 # Check, build and deploy goraedu.com to the VPS (docs/deploy.md).
 #   pull request to "main"  -> all checks, no deploy
-#   push to "main"          -> checks, then live on https://goraedu.com
+#   push to "main"          -> checks, then live on https://www.goraedu.com
 #   daily schedule          -> same as a push (refreshes the news sitemap)
 # Actions are pinned to commit SHAs (same pins as cybercareerfinder).
 name: Deploy

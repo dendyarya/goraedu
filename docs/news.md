@@ -8,7 +8,7 @@ accuracy principles in `CLAUDE.md`: only what an official source states, with li
 
 1. Open https://github.com/dendyarya/goraedu/tree/main/content/news and choose **Add file → Create new file**.
 2. Name the file after the URL, lowercase words joined by hyphens, ending in `.md`:
-   `epa-proposes-new-leak-repair-rule.md` becomes https://goraedu.com/news/epa-proposes-new-leak-repair-rule/.
+   `epa-proposes-new-leak-repair-rule.md` becomes https://www.goraedu.com/news/epa-proposes-new-leak-repair-rule/.
    The name can never change after publishing.
 3. Paste the template below, fill it in, and **Commit changes** to `main`. The site deploys in about two minutes.
 

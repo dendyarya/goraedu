@@ -1,6 +1,6 @@
 # goraedu: working notes for Claude
 
-goraedu.com is a practice site for all U.S. skilled trades certifications (roadmap: lib/clusters.ts). The site
+goraedu (https://www.goraedu.com, always with www) is a practice site for all U.S. skilled trades certifications (roadmap: lib/clusters.ts). The site
 itself is general; each certification ("cluster") lives in its own folder. Cluster 1 is EPA Section 608, cluster 2
 is EPA 609. Content is in English; planning documents are in Indonesian. Never make site-wide pages (home, header,
 footer, trust pages) specific to one cluster.
