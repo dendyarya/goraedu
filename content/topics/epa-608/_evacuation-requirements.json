@@ -3,7 +3,7 @@
   "slug": "evacuation-requirements",
   "title": "EPA 608 evacuation requirements",
   "description": "Required evacuation levels before opening or disposing of an appliance under 40 CFR 82.156: Table 1, small appliances, MVACs and leaking systems.",
-  "summary": "Before opening or disposing of an appliance other than a small appliance, MVAC or MVAC-like appliance, technicians must evacuate the refrigerant to the levels in Table 1 using a certified recovery machine, and verify the level before opening. The Table 1 level depends on the appliance's pressure class, its full charge, and whether the recovery equipment was made or imported before or on or after November 15, 1993. For small appliances, persons must recover 80 or 90 percent of the refrigerant, depending on the equipment date and whether the compressor works, or evacuate to four inches of mercury vacuum.",
+  "summary": "Before opening or disposing of an appliance other than a small appliance, MVAC or MVAC-like appliance, technicians must evacuate the refrigerant to the levels in Table 1 using a certified recovery machine, unless an exception applies (repairs that are not major, or leaks that make the Table 1 levels unattainable), and verify the level before opening. The Table 1 level depends on the appliance's pressure class, for high- and medium-pressure appliances also on its full charge, and on whether the recovery equipment was manufactured or imported before or on or after November 15, 1993. For small appliances, persons must recover 80 or 90 percent of the refrigerant, depending on the equipment date and whether the compressor works, or evacuate to four inches of mercury vacuum.",
   "intro": "This page covers the evacuation rules in 40 CFR 82.156(a) through (g), with definitions from 40 CFR 82.152. Each point quotes the rule and links to it.",
   "topics": [
     {
@@ -20,7 +20,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Table 1 gives levels in inches of mercury (Hg) vacuum, relative to standard atmospheric pressure of 29.9 inches Hg. It has two columns: recovery equipment manufactured or imported before November 15, 1993, and equipment manufactured or imported on or after November 15, 1993.",
+          "text": "Table 1 gives levels in inches of mercury (Hg) vacuum, relative to standard atmospheric pressure of 29.9 inches Hg (the low-pressure row is given in mm Hg absolute instead). It has two columns: recovery equipment manufactured or imported before November 15, 1993, and equipment manufactured or imported on or after November 15, 1993.",
           "quote": "Inches of Hg vacuum (relative to standard atmospheric pressure of 29.9 inches Hg) Using recovery and/or Using recovery and/or Type of appliance recycling equipment recycling equipment manufactured or manufactured or imported before imported on or after November 15, 1993 November 15, 1993",
           "source": {
             "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
@@ -158,7 +158,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "When pressurizing a low-pressure appliance whose refrigerant boils at or below 85 °F at 29.9 inches of mercury, methods that need later purging, such as nitrogen, must not be used.",
+          "text": "Under the same exception (82.156(a)(1)(ii)), when pressurizing a low-pressure appliance whose refrigerant boils at or below 85 °F at 29.9 inches of mercury, methods that need later purging, such as nitrogen, must not be used.",
           "quote": "Persons pressurizing low-pressure appliances that use refrigerants with boiling points at or below 85 degrees Fahrenheit at 29.9 inches of mercury (standard atmospheric pressure), must not use methods such as nitrogen that require subsequent purging.",
           "source": {
             "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
@@ -167,7 +167,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "When the refrigerant boils above 85 °F at 29.9 inches of mercury, heat must be used to raise the internal pressure as much as possible; nitrogen may then be used to go from that level up to atmospheric pressure.",
+          "text": "Under the same exception, when the refrigerant boils above 85 °F at 29.9 inches of mercury, heat must be used to raise the internal pressure as much as possible; nitrogen may then be used to go from that level up to atmospheric pressure.",
           "quote": "Persons pressurizing low-pressure appliances that use refrigerants with boiling points above 85 degrees Fahrenheit at 29.9 inches of mercury, must use heat to raise the internal pressure of the appliance as much as possible, but may use nitrogen to raise the internal pressure of the appliance from the level attainable through use of heat to atmospheric pressure;",
           "source": {
             "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
@@ -218,7 +218,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Leaking components must be evacuated to the lowest level reachable without substantially contaminating the refrigerant, and that level may not be higher than 0 psig.",
+          "text": "Under the same leaking-appliance rule quoted in the previous point (82.156(a)(2)(iii)), leaking components must be evacuated to the lowest level reachable without substantially contaminating the refrigerant, and that level may not be higher than 0 psig.",
           "quote": "Evacuate leaking components to be opened or disposed of to the lowest level that can be attained without substantially contaminating the refrigerant. This level may not exceed 0 psig.",
           "source": {
             "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
@@ -242,7 +242,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "With recovery equipment made before November 15, 1993: recover 80 percent of the refrigerant.",
+          "text": "First condition (82.156(b)(1), under the lead-in quoted in the previous point): with recovery equipment manufactured before November 15, 1993, recover 80 percent of the refrigerant in the small appliance.",
           "quote": "When using recovery equipment manufactured before November 15, 1993, recover 80 percent of the refrigerant in the small appliance; or",
           "source": {
             "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
@@ -251,7 +251,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "With recovery equipment made on or after November 15, 1993: recover 90 percent if the appliance's compressor works, or 80 percent if it does not.",
+          "text": "Second condition (82.156(b)(2)): with recovery equipment manufactured on or after November 15, 1993, recover 90 percent if the appliance's compressor works, or 80 percent if it does not.",
           "quote": "When using recovery equipment manufactured on or after November 15, 1993, recover 90 percent of the refrigerant in the appliance when the compressor in the appliance is functioning, or 80 percent of the refrigerant in the appliance when the compressor in the appliance is not functioning; or",
           "source": {
             "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
@@ -260,8 +260,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The other option is to evacuate the small appliance to four inches of mercury vacuum.",
-          "quote": "80 percent of the refrigerant in the appliance when the compressor in the appliance is not functioning; or (3) Evacuate the appliance to four inches of mercury vacuum.",
+          "text": "Third condition (82.156(b)(3)): evacuate the small appliance to four inches of mercury vacuum.",
+          "quote": "Evacuate the appliance to four inches of mercury vacuum.",
           "source": {
             "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"

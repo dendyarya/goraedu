@@ -3,7 +3,7 @@
   "slug": "appliance-disposal-rules",
   "title": "EPA 608 appliance disposal rules",
   "description": "Safe disposal rules in 40 CFR 82.155: recovery from small appliances, MVACs and MVAC-like appliances, final processor duties, signed statements and records.",
-  "summary": "Persons recovering refrigerant from a small appliance, MVAC or MVAC-like appliance for disposal must evacuate it to the levels in 82.156(b) through (d). The final processor, such as a scrap recycler or landfill operator, must either recover any remaining refrigerant or verify with a signed statement or contract that it was recovered, and keep those statements or contracts for three years. Persons who dispose of small appliances, MVACs and MVAC-like appliances do not need to be certified.",
+  "summary": "Persons recovering refrigerant from a small appliance, MVAC or MVAC-like appliance for disposal must evacuate it to the levels in 82.156(b) through (d). The final processor of such an appliance, such as a scrap recycler or landfill operator, must either recover any remaining refrigerant or verify with a signed statement or contract that it was recovered, and keep those statements or contracts for three years. Persons who dispose of small appliances, MVACs and MVAC-like appliances do not need to be certified.",
   "intro": "This page covers the safe disposal rules in 40 CFR 82.155, the disposal evacuation levels in 82.156 and the certification rule for disposal in 82.161. Each point quotes the rule and links to it.",
   "topics": [
     {
@@ -49,6 +49,15 @@
           "source": {
             "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Before opening or disposing of a small appliance, refrigerant must be recovered with a recovery and/or recycling machine certified under 82.158, meeting one of the three options below.",
+          "quote": "Before opening a small appliance or when disposing of a small appliance, persons must recover refrigerant, using a recovery and/or recycling machine certified pursuant to § 82.158, according to the following conditions:",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
           },
           "checked": "2026-11-05"
         },
@@ -107,8 +116,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Other appliances (not small appliances, MVACs or MVAC-like appliances) must be evacuated to the Table 1 levels in 82.156 before disposal.",
-          "quote": "Before opening appliances (except small appliances, MVACs, and MVAC-like appliances) or disposing of such appliances, technicians must evacuate the refrigerant, including all the liquid refrigerant, to the levels in Table 1",
+          "text": "Before disposing of other appliances (not small appliances, MVACs or MVAC-like appliances), technicians must evacuate the refrigerant, including all the liquid refrigerant, to the Table 1 levels in 82.156 using a recovery and/or recycling machine certified under 82.158, unless the situations in 82.156(a)(1) or (a)(2) apply.",
+          "quote": "Before opening appliances (except small appliances, MVACs, and MVAC-like appliances) or disposing of such appliances, technicians must evacuate the refrigerant, including all the liquid refrigerant, to the levels in Table 1 using a recovery and/or recycling machine certified pursuant to § 82.158 unless the situations in paragraphs (a)(1) or (2) of this section apply.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If leaks make the Table 1 levels unattainable or would substantially contaminate the recovered refrigerant, persons disposing of the appliance must isolate leaking from non-leaking components where possible, evacuate non-leaking components to Table 1 levels, and evacuate leaking components to the lowest level attainable without substantial contamination, which may not exceed 0 psig.",
+          "quote": "If leaks in the appliance make evacuation to the levels in Table 1 unattainable or would substantially contaminate the refrigerant being recovered, persons opening or disposing of the appliance must: (i) Isolate leaking from non-leaking components wherever possible; (ii) Evacuate non-leaking components to be opened or disposed of to the levels specified in Table 1; and (iii) Evacuate leaking components to be opened or disposed of to the lowest level that can be attained without substantially contaminating the refrigerant. This level may not exceed 0 psig.",
           "source": {
             "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -251,6 +269,15 @@
           "checked": "2026-11-05"
         },
         {
+          "text": "Certification is required for any person who could reasonably be expected to violate the integrity of the refrigerant circuit while maintaining, servicing, repairing or disposing of appliances containing a class I, class II or non-exempt substitute refrigerant. Within that group:",
+          "quote": "Any person who could be reasonably expected to violate the integrity of the refrigerant circuit during the maintenance, service, repair, or disposal of appliances (as follows in this paragraph) containing a class I or class II refrigerant or a non-exempt substitute refrigerant must pass a certification exam offered by an approved technician certification program.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+          },
+          "checked": "2026-11-05"
+        },
+        {
           "text": "Persons who dispose of medium-, high- or very high-pressure appliances (other than small appliances, MVACs and MVAC-like appliances) must be certified as Type II technicians.",
           "quote": "Persons who maintain, service, repair, or dispose of medium-, high-, or very high-pressure appliances (except small appliances, MVACs, and MVAC-like appliances) must be certified as Type II technicians.",
           "source": {
@@ -262,6 +289,15 @@
         {
           "text": "Persons who dispose of low-pressure appliances must be certified as Type III technicians.",
           "quote": "Persons who maintain, service, repair, or dispose of low-pressure appliances must be certified as Type III technicians.",
+          "source": {
+            "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Apprentices are exempt from the certification requirement, including for disposal, if a certified technician closely and continually supervises them during any work that could reasonably be expected to release refrigerant. The supervising technician and the apprentice are both responsible for the apprentice's compliance.",
+          "quote": "Apprentices are exempt from the requirement in paragraph (a)(1) of this section provided the apprentice is closely and continually supervised by a certified technician while performing any maintenance, service, repair, or disposal that could reasonably be expected to release refrigerant from an appliance into the environment, except those substitute refrigerants exempted under paragraph (a)(1) of this section. The supervising certified technician and the apprentice have the responsibility to ensure that the apprentice complies with this subpart.",
           "source": {
             "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
