@@ -6,7 +6,7 @@ import PracticeTest from "@/components/PracticeTest";
 import QuestionReview from "@/components/QuestionReview";
 import { getAllGuides } from "@/lib/guides";
 import { formatDate } from "@/lib/news";
-import { OSHA_INDEPENDENCE, OSHA_SETS, oshaSetName } from "@/lib/osha";
+import { OSHA_INDEPENDENCE, OSHA_SETS, oshaPageTitle, oshaSetName } from "@/lib/osha";
 import { getAllSets, lastChecked, topicsOf } from "@/lib/questions";
 
 export const dynamicParams = false;
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const set = find((await params).set);
   if (!set) return {};
   return {
-    title: `OSHA Construction ${oshaSetName(set.slug)} Practice Questions (29 CFR 1926)`,
+    title: oshaPageTitle(set.slug, "Practice Questions"),
     description: set.description,
     alternates: { canonical: set.href },
   };
@@ -47,7 +47,7 @@ export default async function OshaPracticePage({ params }: Props) {
         { label: "OSHA Construction", href: "/osha/" },
         { label: `${name} practice` },
       ]}
-      title={`OSHA construction ${name.toLowerCase()} practice questions`}
+      title={set.title}
       lead={`${set.questions.length} free practice questions from ${meta ? meta.rule : "29 CFR Part 1926"}. Each answer is explained and linked to the rule it comes from.`}
       meta={
         <>
@@ -57,14 +57,17 @@ export default async function OshaPracticePage({ params }: Props) {
     >
       <div className="grid gap-10 lg:grid-cols-[1fr_18rem]">
         <div className="min-w-0">
-          <PracticeTest title={`OSHA ${name}`} questions={set.questions} />
-          <QuestionReview title={`OSHA ${name}`} questions={set.questions} />
+          <PracticeTest title={name.startsWith("Introduction") ? name : `OSHA ${name}`} questions={set.questions} />
+          <QuestionReview title={name.startsWith("Introduction") ? name : `OSHA ${name}`} questions={set.questions} />
         </div>
         <aside className="space-y-6 text-[0.9375rem]">
           {guide ? (
             <div className="rounded-3xl border border-low/40 bg-low-soft p-5">
               <h2 className="text-[1.125rem] font-bold">Study first</h2>
-              <p className="mt-2 text-muted">The {name.toLowerCase()} rules, with the exact words of the regulation.</p>
+              <p className="mt-2 text-muted">
+                The {name.startsWith("Introduction") ? "OSHA inspection and recordkeeping" : name.toLowerCase()} rules,
+                with the exact words of the regulation.
+              </p>
               <Link href={guide.href} className="mt-3 inline-block font-semibold text-low underline">
                 {name} study guide
               </Link>

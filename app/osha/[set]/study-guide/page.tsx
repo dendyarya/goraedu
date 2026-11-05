@@ -5,7 +5,7 @@ import GuideBody from "@/components/guide/GuideBody";
 import PageShell from "@/components/PageShell";
 import { getAllGuides, guideChecked } from "@/lib/guides";
 import { formatDate } from "@/lib/news";
-import { OSHA_INDEPENDENCE, oshaSetName } from "@/lib/osha";
+import { OSHA_INDEPENDENCE, oshaPageTitle, oshaSetName } from "@/lib/osha";
 import { getAllSets } from "@/lib/questions";
 
 export const dynamicParams = false;
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const g = find((await params).set);
   if (!g) return {};
   return {
-    title: `OSHA Construction ${oshaSetName(g.slug)} Study Guide (29 CFR 1926)`,
+    title: oshaPageTitle(g.slug, "Study Guide"),
     description: g.description,
     alternates: { canonical: g.href },
   };
