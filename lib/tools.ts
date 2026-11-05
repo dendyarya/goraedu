@@ -19,4 +19,19 @@ export const TOOLS: Tool[] = [
     summary:
       "Find the required evacuation level before opening or disposing of an appliance, from Table 1 of § 82.156 and the small appliance rules.",
   },
+  {
+    slug: "certification-checker",
+    cluster: "epa-609",
+    name: "EPA 609 certification checker",
+    href: "/epa-609/tools/certification-checker/",
+    summary: "Three questions to see whether the Section 609 certification rule in 40 CFR 82.34(a) covers your work.",
+  },
+  {
+    slug: "equipment-standards",
+    cluster: "epa-609",
+    name: "EPA 609 equipment standards finder",
+    href: "/epa-609/tools/equipment-standards/",
+    summary:
+      "Find which standard 40 CFR 82.36(a) requires for MVAC refrigerant handling equipment, by refrigerant and job.",
+  },
 ];

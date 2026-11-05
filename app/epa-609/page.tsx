@@ -6,6 +6,7 @@ import TradeIcon from "@/components/TradeIcon";
 import { assertQuotes, getAllGuides, getAllTopicPages } from "@/lib/guides";
 import { formatDate } from "@/lib/news";
 import { getAllSets } from "@/lib/questions";
+import { TOOLS } from "@/lib/tools";
 
 export const metadata: Metadata = {
   title: "EPA 609 Certification: Who Needs It, Shop Rules and a Free Practice Test",
@@ -204,6 +205,18 @@ export default function Epa609Page() {
                   </Link>
                 </li>
               ) : null}
+            </ul>
+          </div>
+          <div className="rounded-2xl border border-line bg-panel p-6">
+            <h2 className="text-[1.25rem] font-bold">Tools</h2>
+            <ul className="mt-4 space-y-2">
+              {TOOLS.filter((t) => t.cluster === "epa-609").map((t) => (
+                <li key={t.slug}>
+                  <Link href={t.href} className="font-semibold text-low underline">
+                    {t.name.replace("EPA 609 ", "").replace(/^./, (c) => c.toUpperCase())}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
           {topics.length > 0 ? (
