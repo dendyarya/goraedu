@@ -4,7 +4,7 @@
   "href": "/faa-107/registration-remote-id/study-guide/",
   "title": "FAA Part 107 registration and Remote ID study guide",
   "description": "Small drone registration and Remote ID study guide: who must register, certificates and renewal, marking, standard Remote ID, broadcast modules and FRIAs.",
-  "intro": "Two FAA rules decide whether a small drone can be identified: 14 CFR Part 48 covers registration and marking of small unmanned aircraft, and 14 CFR Part 89 covers remote identification (Remote ID). This guide sets out what the rule text states on who must register and the exceptions in 48.15, who is eligible and who applies, how long a Certificate of Aircraft Registration lasts and how it is renewed and kept current, how the aircraft must be marked, and the three ways to meet the Remote ID requirement in 89.105: a standard remote identification unmanned aircraft, a remote identification broadcast module, or flying inside an FAA-recognized identification area. Each way has its own conditions, so the exact words matter. Fees and the manufacturer design, production and means-of-compliance rules are not covered. Every point links to the regulation and quotes its exact words.",
+  "intro": "Two FAA rules decide whether a small drone can be identified: 14 CFR Part 48 covers registration and marking of small unmanned aircraft, and 14 CFR Part 89 covers remote identification (Remote ID). This guide sets out what the rule text states on who must register and the exceptions in 48.15, who is eligible and who applies, how long a Certificate of Aircraft Registration lasts and how it is renewed and kept current, how the aircraft must be marked, and the three ways Part 89 sets out to meet the Remote ID requirement in 89.105 (unless the Administrator authorizes otherwise or 89.120 applies): a standard remote identification unmanned aircraft, a remote identification broadcast module, or flying inside an FAA-recognized identification area. Each way has its own conditions, so the exact words matter. Fees and the manufacturer design, production and means-of-compliance rules are not covered. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "who-must-register",
@@ -81,7 +81,7 @@
       "name": "Eligibility and applicants",
       "points": [
         {
-          "text": "A small unmanned aircraft may be registered under Part 48 only when it is not registered under the laws of a foreign country and is owned by a U.S. citizen or by an individual citizen of a foreign country lawfully admitted for permanent residence in the United States.",
+          "text": "A small unmanned aircraft may be registered under Part 48 only when it is not registered under the laws of a foreign country and meets one of the 48.20 conditions. Two of them: it is owned by a U.S. citizen, or by an individual citizen of a foreign country lawfully admitted for permanent residence in the United States.",
           "quote": "A small unmanned aircraft may be registered under 49 U.S.C. 44103 and under this part only when the aircraft is not registered under the laws of a foreign country and is— (a) Owned by a U.S. citizen; (b) Owned by an individual citizen of a foreign country lawfully admitted for permanent residence in the United States;",
           "source": {
             "title": "eCFR: 14 CFR 48.20, Eligibility for registration (as of Nov 3, 2026)",
@@ -169,7 +169,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "An aircraft is registered when the applicant receives the Certificate of Aircraft Registration for that aircraft; the effective date is the date of issue shown on the certificate.",
+          "text": "For a certificate under 48.100, an aircraft is registered when the applicant receives the Certificate of Aircraft Registration for that aircraft; the effective date is the date of issue shown on the certificate.",
           "quote": "An aircraft is registered when the applicant receives a Certificate of Aircraft Registration for the specific aircraft. The effective date of registration is shown by the date of issue on the Certificate of Aircraft Registration issued for the aircraft.",
           "source": {
             "title": "eCFR: 14 CFR 48.100, Registration: Small unmanned aircraft operated for any purpose other than exclusively limited recreational operations (as of Nov 3, 2026)",
@@ -405,7 +405,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Its message elements include the identity of the unmanned aircraft (a serial number assigned by the producer, or a session ID) and the latitude, longitude and geometric altitude of the control station.",
+          "text": "A standard remote identification unmanned aircraft must be capable of broadcasting message elements that include the identity of the unmanned aircraft (a serial number assigned by the producer, or a session ID) and the latitude, longitude and geometric altitude of the control station.",
           "quote": "(a) The identity of the unmanned aircraft, consisting of: (1) A serial number assigned to the unmanned aircraft by the person responsible for the production of the standard remote identification unmanned aircraft; or (2) A session ID. (b) An indication of the latitude and longitude of the control station. (c) An indication of the geometric altitude of the control station.",
           "source": {
             "title": "eCFR: 14 CFR 89.305, Minimum message elements broadcast by standard remote identification unmanned aircraft (as of Nov 3, 2026)",
@@ -414,7 +414,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "They also include the latitude, longitude, geometric altitude and velocity of the unmanned aircraft, a UTC time mark for the position source output, and the emergency status of the unmanned aircraft.",
+          "text": "The 89.305 elements also include the latitude, longitude, geometric altitude and velocity of the unmanned aircraft, a UTC time mark for the position source output, and the emergency status of the unmanned aircraft.",
           "quote": "(d) An indication of the latitude and longitude of the unmanned aircraft. (e) An indication of the geometric altitude of the unmanned aircraft. (f) An indication of the velocity of the unmanned aircraft. (g) A time mark identifying the Coordinated Universal Time (UTC) time of applicability of a position source output. (h) An indication of the emergency status of the unmanned aircraft.",
           "source": {
             "title": "eCFR: 14 CFR 89.305, Minimum message elements broadcast by standard remote identification unmanned aircraft (as of Nov 3, 2026)",
@@ -439,7 +439,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Under 89.115(a), the aircraft must be equipped with a remote identification broadcast module that meets 89.320, and the module's serial number must be listed on an FAA-accepted declaration of compliance.",
+          "text": "Under 89.115(a), unless otherwise authorized by the Administrator, the aircraft must be equipped with a remote identification broadcast module that meets 89.320, and the module's serial number must be listed on an FAA-accepted declaration of compliance.",
           "quote": "The unmanned aircraft used in the operation must be equipped with a remote identification broadcast module that meets the requirements of § 89.320 and the serial number of the remote identification broadcast module must be listed on an FAA-accepted declaration of compliance.",
           "source": {
             "title": "eCFR: 14 CFR 89.115, Alternative remote identification (as of Nov 3, 2026)",
@@ -457,7 +457,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The person manipulating the flight controls must be able to see the unmanned aircraft at all times throughout the operation.",
+          "text": "Under 89.115(a)(2)(ii), the person manipulating the flight controls must be able to see the unmanned aircraft at all times throughout the operation.",
           "quote": "The person manipulating the flight controls of the unmanned aircraft system must be able to see the unmanned aircraft at all times throughout the operation.",
           "source": {
             "title": "eCFR: 14 CFR 89.115, Alternative remote identification (as of Nov 3, 2026)",
@@ -484,7 +484,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A broadcast module identifies the aircraft by the module's serial number and broadcasts the aircraft's position, altitude and velocity, the latitude, longitude and geometric altitude of the take-off location, and a UTC time mark.",
+          "text": "A broadcast module must be capable of broadcasting the identity of the unmanned aircraft (the module's serial number), the aircraft's latitude, longitude, geometric altitude and velocity, the latitude, longitude and geometric altitude of the take-off location, and a UTC time mark.",
           "quote": "(a) The identity of the unmanned aircraft, consisting of the serial number assigned to the remote identification broadcast module by the person responsible for the production of the remote identification broadcast module. (b) An indication of the latitude and longitude of the unmanned aircraft. (c) An indication of the geometric altitude of the unmanned aircraft. (d) An indication of the velocity of the unmanned aircraft. (e) An indication of the latitude and longitude of the take-off location of the unmanned aircraft. (f) An indication of the geometric altitude of the take-off location of the unmanned aircraft. (g) A time mark identifying the Coordinated Universal Time (UTC) time of applicability of a position source output.",
           "source": {
             "title": "eCFR: 14 CFR 89.315, Minimum message elements broadcast by remote identification broadcast modules (as of Nov 3, 2026)",
@@ -536,8 +536,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Any change to the information in the application, such as the point of contact or organizational affiliation, must be submitted to the FAA within 10 calendar days of the change.",
-          "quote": "any change to the information submitted in the application including but not limited to a change to the point of contact for the FAA-recognized identification area or a change to the FAA-recognized identification area's organizational affiliation must be submitted to the FAA within 10 calendar days of the change.",
+          "text": "From the time of application until expiration or termination of an FAA-recognized identification area, any change to the information in the application, such as the point of contact or organizational affiliation, must be submitted to the FAA within 10 calendar days of the change.",
+          "quote": "From the time of application until expiration or termination of an FAA-recognized identification area, any change to the information submitted in the application including but not limited to a change to the point of contact for the FAA-recognized identification area or a change to the FAA-recognized identification area's organizational affiliation must be submitted to the FAA within 10 calendar days of the change.",
           "source": {
             "title": "eCFR: 14 CFR 89.220, Amendment (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-C/section-89.220"

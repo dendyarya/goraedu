@@ -8,7 +8,7 @@
     {
       "id": "ri-001",
       "topic": "Who must register",
-      "question": "Under 48.15(b), an aircraft operated exclusively in compliance with 49 U.S.C. 44809 meets the registration requirement without Part 48 registration if it weighs how much on takeoff?",
+      "question": "What takeoff weight limit does 48.15(b) set for an aircraft that is operated exclusively in compliance with 49 U.S.C. 44809 without being registered?",
       "options": {
         "A": "0.55 pounds or less, including everything that is on board or otherwise attached to the aircraft",
         "B": "Less than 55 pounds, including everything that is on board or otherwise attached to the aircraft",
@@ -65,12 +65,12 @@
     {
       "id": "ri-004",
       "topic": "Eligibility and applicants",
-      "question": "Under 48.25(b), who must register a small unmanned aircraft whose owner is less than 13 years of age?",
+      "question": "What minimum age does 48.25(b) set for the person who registers a small unmanned aircraft whose owner is less than 13 years of age?",
       "options": {
-        "A": "The owner, using the owner's legal name",
-        "B": "A person who is at least 13 years of age",
-        "C": "A parent or legal guardian who holds a remote pilot certificate",
-        "D": "The retailer that sold the aircraft"
+        "A": "16 years of age",
+        "B": "13 years of age",
+        "C": "18 years of age",
+        "D": "21 years of age"
       },
       "answer": "B",
       "explanation": "48.25(b): \"If the owner is less than 13 years of age, then the small unmanned aircraft must be registered by a person who is at least 13 years of age.\"",
@@ -84,12 +84,12 @@
     {
       "id": "ri-005",
       "topic": "Eligibility and applicants",
-      "question": "According to 48.25(c), what is registration not evidence of in a proceeding in which ownership of an unmanned aircraft by a particular person is in issue?",
+      "question": "What does 48.25(c) state about registration in a proceeding in which ownership of an unmanned aircraft by a particular person is in issue?",
       "options": {
-        "A": "Remote pilot certification",
-        "B": "Aircraft ownership",
-        "C": "Airworthiness of the aircraft",
-        "D": "Compliance with Remote ID"
+        "A": "Registration is conclusive evidence of ownership",
+        "B": "Registration is not evidence of aircraft ownership",
+        "C": "Registration is evidence of ownership only while the certificate is current",
+        "D": "Registration is evidence of ownership only for aircraft registered under 48.100"
       },
       "answer": "B",
       "explanation": "48.25(c): \"registration is not evidence of aircraft ownership in any proceeding in which ownership of an unmanned aircraft by a particular person is in issue.\"",
@@ -355,7 +355,7 @@
         "A": "Any individual who holds a remote pilot certificate",
         "B": "A manufacturer of remote identification broadcast modules",
         "C": "An educational institution, such as a trade school or university",
-        "D": "A commercial drone service company"
+        "D": "An individual who owns the land where the flying site is located"
       },
       "answer": "C",
       "explanation": "89.205 says \"Only the following persons are eligible\": \"A community-based organization recognized by the Administrator\" and \"An educational institution, including primary and secondary educational institutions, trade schools, colleges, and universities.\"",
