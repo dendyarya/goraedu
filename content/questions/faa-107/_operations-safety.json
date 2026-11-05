@@ -46,59 +46,59 @@
     {
       "id": "so-003",
       "topic": "Load factor and stalls",
-      "question": "In the Study Guide, what does a load factor of 3 mean?",
+      "question": "In what unit does the Study Guide say load factor is measured?",
       "options": {
-        "A": "The total load on the aircraft's structure is three times its weight",
-        "B": "The aircraft can climb three times faster than in level flight",
-        "C": "The stalling speed is one-third of normal",
-        "D": "The aircraft weighs three times its empty weight"
+        "A": "In Gs (acceleration of gravity)",
+        "B": "In foot-pounds of kinetic energy",
+        "C": "In knots of airspeed",
+        "D": "In inches of mercury"
       },
       "answer": "A",
-      "explanation": "The Study Guide explains that \"a load factor of 3 means the total load on an aircraft's structure is three times its weight.\"",
+      "explanation": "The Study Guide: \"The load factor is measured in Gs (acceleration of gravity), a unit of force equal to the force exerted by gravity on a body at rest\".",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "For example, a load factor of 3 means the total load on an aircraft's structure is three times its weight."
+      "evidence": "The load factor is measured in Gs (acceleration of gravity), a unit of force equal to the force exerted by gravity on a body at rest and indicates the force to which a body is subjected when it is accelerated."
     },
     {
       "id": "so-004",
       "topic": "Weight and balance",
-      "question": "According to the Study Guide, which conditions may require a reduction in weight before flight is attempted?",
+      "question": "Besides high density altitude conditions, which factors does the Study Guide say to consider prior to takeoff because they may require a reduction in weight?",
       "options": {
-        "A": "Low elevations, cold air and dry air",
-        "B": "Calm wind and a long, level launch area",
-        "C": "High elevations, high air temperatures, and high humidity (high density altitudes)",
-        "D": "A low density altitude with light overcast skies"
+        "A": "The aircraft's registration date and serial number",
+        "B": "The number of satellites the control station receives",
+        "C": "Runway/launch area length, surface, slope, surface wind, and the presence of obstacles",
+        "D": "The frequency band used by the control link"
       },
       "answer": "C",
-      "explanation": "The Study Guide names \"high elevations, high air temperatures, and high humidity (high density altitudes)\" as conditions that \"may require a reduction in weight before flight is attempted.\"",
+      "explanation": "The Study Guide: \"Other factors to consider prior to takeoff are runway/launch area length, surface, slope, surface wind, and the presence of obstacles. These factors may require a reduction in weight prior to flight.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "Conditions that affect takeoff and climb performance, such as high elevations, high air temperatures, and high humidity (high density altitudes) may require a reduction in weight before flight is attempted."
+      "evidence": "Other factors to consider prior to takeoff are runway/launch area length, surface, slope, surface wind, and the presence of obstacles. These factors may require a reduction in weight prior to flight."
     },
     {
       "id": "so-005",
       "topic": "Load factor and stalls",
-      "question": "According to the Study Guide, how does an aircraft's stalling speed relate to load factor?",
+      "question": "According to the Study Guide, during a coordinated turn at a constant altitude, which two forces result in the load factor?",
       "options": {
-        "A": "It decreases as the load factor increases",
-        "B": "It stays the same at every load factor",
-        "C": "It increases in proportion to the square root of the load factor",
-        "D": "It changes only when the bank angle passes 90°"
+        "A": "Lift and drag",
+        "B": "Thrust and drag",
+        "C": "Centrifugal force and weight",
+        "D": "Thrust and lift"
       },
       "answer": "C",
-      "explanation": "The Study Guide states that \"an aircraft's stalling speed increases in proportion to the square root of the load factor\", so an aircraft with a normal unaccelerated stalling speed of 50 knots \"can be stalled at 100 knots by inducing a load factor of 4 Gs.\"",
+      "explanation": "The Study Guide: \"At a constant altitude, during a coordinated turn in any aircraft, the load factor is the result of two forces: centrifugal force and weight.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "A study of this effect has revealed that an aircraft's stalling speed increases in proportion to the square root of the load factor. This means that an aircraft with a normal unaccelerated stalling speed of 50 knots can be stalled at 100 knots by inducing a load factor of 4 Gs."
+      "evidence": "At a constant altitude, during a coordinated turn in any aircraft, the load factor is the result of two forces: centrifugal force and weight."
     },
     {
       "id": "so-006",
@@ -141,21 +141,21 @@
     {
       "id": "so-008",
       "topic": "Preflight checks and emergencies",
-      "question": "Under 14 CFR 107.15(a), at what point must the remote pilot in command check the small UAS to determine whether it is in a condition for safe operation?",
+      "question": "Under 107.15(b), when may no person continue flight of the small unmanned aircraft?",
       "options": {
-        "A": "Once every 30 days",
-        "B": "Prior to each flight",
-        "C": "Only after maintenance or repairs",
-        "D": "Only before the first flight of each day"
+        "A": "When the battery charge falls below half",
+        "B": "When he or she knows or has reason to know that the small unmanned aircraft system is no longer in a condition for safe operation",
+        "C": "When the flight has lasted more than 30 minutes",
+        "D": "When a light breeze begins to blow"
       },
       "answer": "B",
-      "explanation": "107.15(a): \"Prior to each flight, the remote pilot in command must check the small unmanned aircraft system to determine whether it is in a condition for safe operation.\"",
+      "explanation": "107.15(b): \"No person may continue flight of the small unmanned aircraft when he or she knows or has reason to know that the small unmanned aircraft system is no longer in a condition for safe operation.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.15, Condition for safe operation (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.15"
       },
       "checked": "2026-11-05",
-      "evidence": "Prior to each flight, the remote pilot in command must check the small unmanned aircraft system to determine whether it is in a condition for safe operation."
+      "evidence": "No person may continue flight of the small unmanned aircraft when he or she knows or has reason to know that the small unmanned aircraft system is no longer in a condition for safe operation."
     },
     {
       "id": "so-009",
@@ -198,21 +198,21 @@
     {
       "id": "so-011",
       "topic": "Preflight checks and emergencies",
-      "question": "Under 107.21(a), to what extent may the remote pilot in command deviate from the rules of Part 107 in an in-flight emergency requiring immediate action?",
+      "question": "What does 107.49(e) require the remote pilot in command to ensure, prior to flight, about any object attached or carried by the small unmanned aircraft?",
       "options": {
-        "A": "Only from the altitude limit in 107.51",
-        "B": "To the extent necessary to meet that emergency",
-        "C": "Only after air traffic control approves the deviation",
-        "D": "From any rule for the rest of that day"
+        "A": "That it weighs less than 5 pounds",
+        "B": "That it is secure and does not adversely affect the flight characteristics or controllability of the aircraft",
+        "C": "That it is registered separately with the FAA",
+        "D": "That it is painted a high-visibility color"
       },
       "answer": "B",
-      "explanation": "107.21(a): \"the remote pilot in command may deviate from any rule of this part to the extent necessary to meet that emergency.\" Under 107.21(b), the remote PIC must send a written report of the deviation \"upon request of the Administrator.\"",
+      "explanation": "107.49(e): \"Ensure that any object attached or carried by the small unmanned aircraft is secure and does not adversely affect the flight characteristics or controllability of the aircraft\".",
       "source": {
-        "title": "eCFR: 14 CFR 107.21, In-flight emergency (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.21"
+        "title": "eCFR: 14 CFR 107.49, Preflight familiarization, inspection, and actions for aircraft operation (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49"
       },
       "checked": "2026-11-05",
-      "evidence": "In an in-flight emergency requiring immediate action, the remote pilot in command may deviate from any rule of this part to the extent necessary to meet that emergency."
+      "evidence": "Ensure that any object attached or carried by the small unmanned aircraft is secure and does not adversely affect the flight characteristics or controllability of the aircraft;"
     },
     {
       "id": "so-012",
@@ -274,21 +274,21 @@
     {
       "id": "so-015",
       "topic": "Physiological factors",
-      "question": "According to the Study Guide, what is the first noticeable effect of dehydration?",
+      "question": "Which diuretic drinks does the Study Guide name among the causes of dehydration?",
       "options": {
-        "A": "Muscle spasms",
-        "B": "Fatigue",
-        "C": "Visual impairment",
-        "D": "Hot and cold sensations"
+        "A": "Plain water and sport drinks",
+        "B": "Coffee, tea, alcohol, and caffeinated soft drinks",
+        "C": "Milk and fruit juice",
+        "D": "Energy drinks only"
       },
       "answer": "B",
-      "explanation": "The Study Guide states: \"The first noticeable effect of dehydration is fatigue\".",
+      "explanation": "The Study Guide: \"Causes of dehydration are hot temperatures, wind, humidity, and diuretic drinks—coffee, tea, alcohol, and caffeinated soft drinks.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "The first noticeable effect of dehydration is fatigue, which in turn makes top physical and mental performance difficult, if not impossible."
+      "evidence": "Causes of dehydration are hot temperatures, wind, humidity, and diuretic drinks—coffee, tea, alcohol, and caffeinated soft drinks."
     },
     {
       "id": "so-016",
@@ -331,21 +331,21 @@
     {
       "id": "so-018",
       "topic": "Decision-making and risk management",
-      "question": "Which list matches the five hazardous attitudes named in the Study Guide?",
+      "question": "According to the Study Guide, what is the first step toward neutralizing hazardous thoughts?",
       "options": {
-        "A": "Anti-authority, complacency, invulnerability, fatigue, and resignation",
-        "B": "Impulsivity, stress, macho, pride, and haste",
-        "C": "Illness, medication, stress, alcohol, and fatigue",
-        "D": "Anti-authority, impulsivity, invulnerability, macho, and resignation"
+        "A": "Continuing the flight until the thought passes",
+        "B": "Asking air traffic control for advice",
+        "C": "Switching off the control station",
+        "D": "Recognition of hazardous thoughts"
       },
       "answer": "D",
-      "explanation": "The Study Guide lists the five hazardous attitudes as \"anti-authority, impulsivity, invulnerability, macho, and resignation.\"",
+      "explanation": "The Study Guide: \"Recognition of hazardous thoughts is the first step toward neutralizing them.\" The pilot should then \"label it as hazardous, then state the corresponding antidote.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "Studies have identified five hazardous attitudes that can interfere with the ability to make sound decisions and exercise authority properly: anti-authority, impulsivity, invulnerability, macho, and resignation."
+      "evidence": "Recognition of hazardous thoughts is the first step toward neutralizing them. After recognizing a thought as hazardous, the pilot should label it as hazardous, then state the corresponding antidote."
     },
     {
       "id": "so-019",
@@ -369,21 +369,21 @@
     {
       "id": "so-020",
       "topic": "Radio communication and airport operations",
-      "question": "According to the Study Guide, which frequency is used at a non-towered airport that does not have a flight service station (FSS) or UNICOM?",
+      "question": "According to the Study Guide, what are the three ways for pilots to communicate their intention and obtain airport/traffic information at an airport that does not have an operating tower?",
       "options": {
-        "A": "122.8, the usual UNICOM frequency",
-        "B": "122.9, the MULTICOM frequency",
-        "C": "121.5, the emergency frequency",
-        "D": "118.0, a tower frequency"
+        "A": "By telephone, e-mail, or text message to the airport manager",
+        "B": "By communicating with an FSS, a UNICOM operator, or by making a self-announce broadcast",
+        "C": "By ADS-B Out, a transponder, or a Remote ID broadcast",
+        "D": "Only by calling the nearest approach control"
       },
       "answer": "B",
-      "explanation": "The Study Guide: \"A MULTICOM frequency of 122.9 will be used at an airport that is non-towered and does not have a FSS or UNICOM.\"",
+      "explanation": "The Study Guide names three ways at an airport without an operating tower: \"by communicating with an FSS, a UNICOM operator, or by making a self-announce broadcast.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "A MULTICOM frequency of 122.9 will be used at an airport that is non-towered and does not have a FSS or UNICOM."
+      "evidence": "There are three ways for pilots to communicate their intention and obtain airport/traffic information when operating at an airport that does not have an operating tower—by communicating with an FSS, a UNICOM operator, or by making a self-announce broadcast."
     }
   ]
 }

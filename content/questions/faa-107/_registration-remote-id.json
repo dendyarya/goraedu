@@ -8,21 +8,21 @@
     {
       "id": "ri-001",
       "topic": "Who must register",
-      "question": "What takeoff weight limit does 48.15(b) set for an aircraft that is operated exclusively in compliance with 49 U.S.C. 44809 without being registered?",
+      "question": "Under 48.15(a), what must the owner have done for an aircraft eligible for registration to be operated under that criterion?",
       "options": {
-        "A": "0.55 pounds or less, including everything that is on board or otherwise attached to the aircraft",
-        "B": "Less than 55 pounds, including everything that is on board or otherwise attached to the aircraft",
-        "C": "0.55 pounds or less, counting only the airframe and battery",
-        "D": "2 pounds or less, including everything that is on board or otherwise attached to the aircraft"
+        "A": "Registered and marked the aircraft in accordance with Part 48",
+        "B": "Bought liability insurance for the aircraft",
+        "C": "Filed a flight plan with Flight Service",
+        "D": "Obtained a certificate of waiver under Part 107"
       },
       "answer": "A",
-      "explanation": "48.15(b) covers an aircraft \"operated exclusively in compliance with 49 U.S.C. 44809\" that \"weighs 0.55 pounds or less on takeoff, including everything that is on board or otherwise attached to the aircraft\".",
+      "explanation": "48.15 allows operation when, under (a), \"The owner has registered and marked the aircraft in accordance with this part\".",
       "source": {
         "title": "eCFR: 14 CFR 48.15, Requirement to register (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.15"
       },
       "checked": "2026-11-05",
-      "evidence": "The aircraft is operated exclusively in compliance with 49 U.S.C. 44809 and weighs 0.55 pounds or less on takeoff, including everything that is on board or otherwise attached to the aircraft"
+      "evidence": "No person may operate a small unmanned aircraft that is eligible for registration under 49 U.S.C. 44101-44103 unless one of the following criteria has been satisfied: (a) The owner has registered and marked the aircraft in accordance with this part;"
     },
     {
       "id": "ri-002",
@@ -65,21 +65,21 @@
     {
       "id": "ri-004",
       "topic": "Eligibility and applicants",
-      "question": "What minimum age does 48.25(b) set for the person who registers a small unmanned aircraft whose owner is less than 13 years of age?",
+      "question": "Under 48.25(d), whom does the term owner include in Part 48?",
       "options": {
-        "A": "16 years of age",
-        "B": "13 years of age",
-        "C": "18 years of age",
-        "D": "21 years of age"
+        "A": "Any person who has flown the aircraft at least once",
+        "B": "A buyer in possession, a bailee, a lessee of a small unmanned aircraft under a contract of conditional sale, and the assignee of that person",
+        "C": "The manufacturer, until the warranty ends",
+        "D": "The retailer that sold the aircraft"
       },
       "answer": "B",
-      "explanation": "48.25(b): \"If the owner is less than 13 years of age, then the small unmanned aircraft must be registered by a person who is at least 13 years of age.\"",
+      "explanation": "48.25(d): in Part 48, owner \"includes a buyer in possession, a bailee, a lessee of a small unmanned aircraft under a contract of conditional sale, and the assignee of that person.\"",
       "source": {
         "title": "eCFR: 14 CFR 48.25, Applicants (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.25"
       },
       "checked": "2026-11-05",
-      "evidence": "If the owner is less than 13 years of age, then the small unmanned aircraft must be registered by a person who is at least 13 years of age."
+      "evidence": "In this part, “owner” includes a buyer in possession, a bailee, a lessee of a small unmanned aircraft under a contract of conditional sale, and the assignee of that person."
     },
     {
       "id": "ri-005",
@@ -122,21 +122,21 @@
     {
       "id": "ri-007",
       "topic": "Certificates, renewal and updates",
-      "question": "What expiration period does 48.100(c) set for a Certificate of Aircraft Registration that is not renewed?",
+      "question": "Under 48.100(b), what shows the effective date of registration?",
       "options": {
-        "A": "3 years after the date of issue",
-        "B": "1 year after the date of issue",
-        "C": "5 years after the date of issue",
-        "D": "It does not expire while the owner keeps the aircraft"
+        "A": "The date of issue on the Certificate of Aircraft Registration issued for the aircraft",
+        "B": "The date of the aircraft's first flight",
+        "C": "The date on the manufacturer's sales receipt",
+        "D": "The date the owner's remote pilot certificate was issued"
       },
       "answer": "A",
-      "explanation": "48.100(c): a certificate \"expires 3 years after the date of issue unless it is renewed.\"",
+      "explanation": "48.100(b): \"The effective date of registration is shown by the date of issue on the Certificate of Aircraft Registration issued for the aircraft.\"",
       "source": {
         "title": "eCFR: 14 CFR 48.100, Registration: Small unmanned aircraft operated for any purpose other than exclusively limited recreational operations (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-B/section-48.100"
       },
       "checked": "2026-11-05",
-      "evidence": "A Certificate of Aircraft registration issued under this part expires 3 years after the date of issue unless it is renewed."
+      "evidence": "The effective date of registration is shown by the date of issue on the Certificate of Aircraft Registration issued for the aircraft."
     },
     {
       "id": "ri-008",
@@ -198,21 +198,21 @@
     {
       "id": "ri-011",
       "topic": "Marking the aircraft",
-      "question": "Where does 48.205(c) require the unique identifier to be legibly displayed?",
+      "question": "How does 48.205(b) require the unique identifier to be affixed to the small unmanned aircraft?",
       "options": {
-        "A": "Inside the battery compartment",
-        "B": "On the control station or remote controller",
-        "C": "On the Certificate of Aircraft Registration only",
-        "D": "On an external surface of the small unmanned aircraft"
+        "A": "Only by engraving it into a metal plate",
+        "B": "Only on a removable tag attached to the controller",
+        "C": "Only on a fire-resistant plate inside the fuselage",
+        "D": "By any means necessary to ensure that it will remain affixed for the duration of each operation"
       },
       "answer": "D",
-      "explanation": "48.205(c): \"The unique identifier must be legibly displayed on an external surface of the small unmanned aircraft.\"",
+      "explanation": "48.205(b): \"The unique identifier must be affixed to the small unmanned aircraft by any means necessary to ensure that it will remain affixed for the duration of each operation.\"",
       "source": {
         "title": "eCFR: 14 CFR 48.205, Display and location of unique identifier (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-C/section-48.205"
       },
       "checked": "2026-11-05",
-      "evidence": "The unique identifier must be legibly displayed on an external surface of the small unmanned aircraft."
+      "evidence": "The unique identifier must be affixed to the small unmanned aircraft by any means necessary to ensure that it will remain affixed for the duration of each operation."
     },
     {
       "id": "ri-012",
@@ -236,21 +236,21 @@
     {
       "id": "ri-013",
       "topic": "Remote ID: who and when",
-      "question": "After what date does 89.105 bar operating an unmanned aircraft within U.S. airspace unless the operation meets 89.110 or 89.115 (except as otherwise authorized or as provided in 89.120)?",
+      "question": "For which operations does 89.120 allow the Administrator to authorize operation without remote identification?",
       "options": {
-        "A": "January 15, 2021",
-        "B": "September 16, 2023",
-        "C": "December 21, 2015",
-        "D": "June 28, 2016"
+        "A": "Any commercial operation flown under Part 107",
+        "B": "Operations solely for the purpose of aeronautical research or to show compliance with regulations",
+        "C": "Any operation below 200 feet above ground level",
+        "D": "Any operation within visual line of sight"
       },
       "answer": "B",
-      "explanation": "89.105: \"after September 16, 2023, no person may operate an unmanned aircraft within the airspace of the United States unless the operation meets the requirements of § 89.110 or § 89.115.\"",
+      "explanation": "89.120: \"The Administrator may authorize operations without remote identification where the operation is solely for the purpose of aeronautical research or to show compliance with regulations.\"",
       "source": {
-        "title": "eCFR: 14 CFR 89.105, Remote identification requirement (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.105"
+        "title": "eCFR: 14 CFR 89.120, Operations for aeronautical research or to show compliance with regulations (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.120"
       },
       "checked": "2026-11-05",
-      "evidence": "after September 16, 2023, no person may operate an unmanned aircraft within the airspace of the United States unless the operation meets the requirements of § 89.110 or § 89.115."
+      "evidence": "The Administrator may authorize operations without remote identification where the operation is solely for the purpose of aeronautical research or to show compliance with regulations."
     },
     {
       "id": "ri-014",

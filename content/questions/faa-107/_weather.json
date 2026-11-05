@@ -65,97 +65,97 @@
     {
       "id": "wx-004",
       "topic": "METAR and TAF codes",
-      "question": "In a METAR wind group such as 14021KT, what do the first three digits indicate, according to the Study Guide?",
+      "question": "In a METAR wind group, what does the Study Guide say follows the wind speed when the winds are gusting?",
       "options": {
-        "A": "The wind speed in knots",
-        "B": "The peak gust recorded",
-        "C": "The direction the true wind is blowing from, in tens of degrees",
-        "D": "The direction the wind is blowing toward, in reference to magnetic north"
+        "A": "The letters VRB",
+        "B": "A separate group of numbers separated by a V",
+        "C": "The letter G, followed by the peak gust recorded",
+        "D": "The letters RMK"
       },
       "answer": "C",
-      "explanation": "\"The first three digits indicate the direction the true wind is blowing from in tens of degrees.\" The last two digits give the speed in knots.",
+      "explanation": "The Study Guide says that when winds are gusting the letter G \"follows the wind speed (G26KT)\", and that after the G \"the peak gust recorded is provided.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "The first three digits indicate the direction the true wind is blowing from in tens of degrees."
+      "evidence": "If the winds are gusting, the letter “G” follows the wind speed (G26KT). After the letter “G,” the peak gust recorded is provided."
     },
     {
       "id": "wx-005",
       "topic": "METAR and TAF codes",
-      "question": "How does a METAR show a temperature below 0 °C, according to the Study Guide?",
+      "question": "How does the Study Guide say the altimeter setting is reported in a METAR?",
       "options": {
-        "A": "The temperature is preceded by the letter M",
-        "B": "The temperature is preceded by a minus sign",
-        "C": "The temperature is given in degrees Fahrenheit instead",
-        "D": "The temperature is preceded by the letter N"
+        "A": "In inches of mercury, as a four-digit group always preceded by the letter A",
+        "B": "In millibars, as a three-digit group preceded by the letter Q",
+        "C": "In hundreds of feet AGL, as a three-digit group",
+        "D": "In degrees Celsius, preceded by the letter M"
       },
       "answer": "A",
-      "explanation": "The Study Guide says temperature and dew point are given in degrees Celsius and \"Temperatures below 0 °C are preceded by the letter “M” to indicate minus.\"",
+      "explanation": "The Study Guide: the altimeter setting is \"reported as inches of mercury\" \"in a four-digit number group (A2970)\", and \"It is always preceded by the letter\" A.",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "Temperatures below 0 °C are preceded by the letter “M” to indicate minus."
+      "evidence": "Altimeter setting—reported as inches of mercury (\"Hg) in a four-digit number group (A2970). It is always preceded by the letter “A.”"
     },
     {
       "id": "wx-006",
       "topic": "METAR and TAF codes",
-      "question": "In a TAF, what does the forecast visibility code P6SM mean, according to the Study Guide?",
+      "question": "According to the Study Guide, what area is a terminal aerodrome forecast (TAF) established for?",
       "options": {
-        "A": "A 6 percent probability of precipitation",
-        "B": "Forecast visibility greater than six miles",
-        "C": "Visibility of 6 statute miles in precipitation",
-        "D": "A forecast valid for the next 6 hours"
+        "A": "A 50 nautical mile radius around an airport",
+        "B": "The five statute mile radius around an airport",
+        "C": "An entire state",
+        "D": "Only the runway surface"
       },
       "answer": "B",
-      "explanation": "Forecast visibility is given in statute miles, and \"If the forecast is greater than six miles, it is coded as “P6SM.”\"",
+      "explanation": "The Study Guide: \"A TAF is a report established for the five statute mile radius around an airport.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "If the forecast is greater than six miles, it is coded as “P6SM.”"
+      "evidence": "A TAF is a report established for the five statute mile radius around an airport."
     },
     {
       "id": "wx-007",
       "topic": "METAR and TAF codes",
-      "question": "According to the Study Guide, what is TEMPO used for in a TAF?",
+      "question": "According to the Study Guide, how often is a TAF updated?",
       "options": {
-        "A": "A rapid and significant change, usually within an hour",
-        "B": "The probability of thunderstorms and precipitation in the coming hours",
-        "C": "An amended forecast that replaces the routine TAF",
-        "D": "Temporary fluctuations of weather, expected to last less than 1 hour"
+        "A": "Every hour, on the hour",
+        "B": "Twice a day, at 0000Z and 1200Z",
+        "C": "Once a day, at 1200Z",
+        "D": "Four times a day, at 0000Z, 0600Z, 1200Z, and 1800Z"
       },
       "answer": "D",
-      "explanation": "\"“TEMPO” is used for temporary fluctuations of weather, expected to last less than 1 hour.\" A rapid and significant change is coded FM, and probability is PROB30.",
+      "explanation": "The Study Guide: \"Each TAF is valid for a 24 or 30-hour time period and is updated four times a day at 0000Z, 0600Z, 1200Z, and 1800Z.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "“FM” is used when a rapid and significant change, usually within an hour, is expected. “TEMPO” is used for temporary fluctuations of weather, expected to last less than 1 hour."
+      "evidence": "Each TAF is valid for a 24 or 30-hour time period and is updated four times a day at 0000Z, 0600Z, 1200Z, and 1800Z."
     },
     {
       "id": "wx-008",
       "topic": "Density altitude and performance",
-      "question": "Which set of conditions does the Study Guide describe as more indicative of low density altitude?",
+      "question": "How does the Study Guide define density altitude?",
       "options": {
-        "A": "High elevations, low atmospheric pressures, high temperatures and high humidity",
-        "B": "Lower elevations, low atmospheric pressure, high temperatures and high humidity",
-        "C": "Lower elevations, high atmospheric pressure, low temperatures and low humidity",
-        "D": "High elevations, high atmospheric pressure, high temperatures and low humidity"
+        "A": "The height above ground level shown by a barometric altimeter",
+        "B": "The altitude at which the air becomes saturated",
+        "C": "The altitude in the standard atmosphere corresponding to a particular value of air density",
+        "D": "The altitude above which air density no longer affects performance"
       },
       "answer": "C",
-      "explanation": "\"Lower elevations, high atmospheric pressure, low temperatures, and low humidity are more indicative of low density altitude.\" High elevations, low pressures, high temperatures and high humidity result in a high density altitude.",
+      "explanation": "The Study Guide defines density altitude as \"the altitude in the standard atmosphere corresponding to a particular value of air density.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "Lower elevations, high atmospheric pressure, low temperatures, and low humidity are more indicative of low density altitude."
+      "evidence": "The more appropriate term for correlating aerodynamic performance in the nonstandard atmosphere is density altitude—the altitude in the standard atmosphere corresponding to a particular value of air density."
     },
     {
       "id": "wx-009",
@@ -236,21 +236,21 @@
     {
       "id": "wx-013",
       "topic": "Ceiling, visibility and Part 107 weather limits",
-      "question": "What minimum distances from clouds does 14 CFR 107.51(d) set for a small unmanned aircraft?",
+      "question": "According to the Study Guide, when are clouds reported as broken?",
       "options": {
-        "A": "500 feet below the cloud and 2,000 feet horizontally from the cloud",
-        "B": "1,000 feet below the cloud and 2,000 feet horizontally from the cloud",
-        "C": "500 feet below the cloud and 1,000 feet horizontally from the cloud",
-        "D": "2,000 feet below the cloud and 500 feet horizontally from the cloud"
+        "A": "When five-eighths to seven-eighths of the sky is covered with clouds",
+        "B": "When the entire sky is covered with clouds",
+        "C": "When one-eighth to two-eighths of the sky is covered with clouds",
+        "D": "When the clouds are more than 12,000 feet above the station"
       },
       "answer": "A",
-      "explanation": "107.51(d): the minimum distance from clouds \"must be no less than: (1) 500 feet below the cloud; and (2) 2,000 feet horizontally from the cloud.\"",
+      "explanation": "The Study Guide: \"Clouds are reported as broken when five-eighths to seven-eighths of the sky is covered with clouds.\" \"Overcast means the entire sky is covered with clouds.\"",
       "source": {
-        "title": "eCFR: 14 CFR 107.51, Operating limitations for small unmanned aircraft (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.51"
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "The minimum distance of the small unmanned aircraft from clouds must be no less than: (1) 500 feet below the cloud; and (2) 2,000 feet horizontally from the cloud."
+      "evidence": "Clouds are reported as broken when five-eighths to seven-eighths of the sky is covered with clouds."
     },
     {
       "id": "wx-014",
@@ -369,12 +369,12 @@
     {
       "id": "wx-020",
       "topic": "Ceiling, visibility and Part 107 weather limits",
-      "question": "What minimum flight visibility, as observed from the location of the control station, does 14 CFR 107.51(c) set?",
+      "question": "From what location does 107.51(c) say the minimum flight visibility is observed?",
       "options": {
-        "A": "1 statute mile",
-        "B": "5 statute miles",
-        "C": "500 feet",
-        "D": "3 statute miles"
+        "A": "From the position of the small unmanned aircraft",
+        "B": "From the nearest airport's weather station",
+        "C": "From the position of the visual observer",
+        "D": "From the location of the control station"
       },
       "answer": "D",
       "explanation": "107.51(c): \"The minimum flight visibility, as observed from the location of the control station must be no less than 3 statute miles.\"",

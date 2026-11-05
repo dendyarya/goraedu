@@ -46,21 +46,21 @@
     {
       "id": "op-003",
       "topic": "Category 1",
-      "question": "What maximum weight does 107.110(a)(1) set for a small unmanned aircraft used in Category 1 operations?",
+      "question": "Besides its weight limit, what does 107.110(a)(2) require of a small unmanned aircraft used in Category 1 operations?",
       "options": {
-        "A": "0.55 pounds",
-        "B": "1.55 pounds",
-        "C": "5.5 pounds",
-        "D": "55 pounds"
+        "A": "It does not contain any exposed rotating parts that would lacerate human skin upon impact with a human being",
+        "B": "It is listed on an FAA-accepted declaration of compliance",
+        "C": "It has an airworthiness certificate issued under part 21",
+        "D": "It displays a Category 1 label in English"
       },
       "answer": "A",
-      "explanation": "A Category 1 aircraft \"Weighs 0.55 pounds or less on takeoff and throughout the duration of each operation under Category 1\".",
+      "explanation": "107.110(a)(2): the aircraft \"Does not contain any exposed rotating parts that would lacerate human skin upon impact with a human being.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.110, Category 1 operations (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.110"
       },
       "checked": "2026-11-05",
-      "evidence": "Weighs 0.55 pounds or less on takeoff and throughout the duration of each operation under Category 1"
+      "evidence": "Does not contain any exposed rotating parts that would lacerate human skin upon impact with a human being."
     },
     {
       "id": "op-004",
@@ -84,21 +84,21 @@
     {
       "id": "op-005",
       "topic": "Category 2",
-      "question": "Which kinetic-energy transfer does 107.120(a)(1) use as the injury-severity benchmark for Category 2 eligibility?",
+      "question": "Which condition in 107.120(a)(3) must a small unmanned aircraft meet to be eligible for Category 2 operations?",
       "options": {
-        "A": "11 foot-pounds upon impact from a rigid object",
-        "B": "25 foot-pounds upon impact from a rigid object",
-        "C": "55 foot-pounds upon impact from a rigid object",
-        "D": "100 foot-pounds upon impact from a rigid object"
+        "A": "It does not contain any safety defects",
+        "B": "It does not carry a camera",
+        "C": "It weighs 0.55 pounds or less",
+        "D": "It has been flown for at least 100 hours"
       },
       "answer": "A",
-      "explanation": "A Category 2 aircraft must not cause injury \"equivalent to or greater than the severity of injury caused by a transfer of 11 foot-pounds of kinetic energy upon impact from a rigid object\".",
+      "explanation": "107.120(a) requires the aircraft to be designed, produced, or modified such that it, under (a)(3), \"Does not contain any safety defects.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.120, Category 2 operations: Eligibility of small unmanned aircraft and other applicant requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.120"
       },
       "checked": "2026-11-05",
-      "evidence": "caused by a transfer of 11 foot-pounds of kinetic energy upon impact from a rigid object"
+      "evidence": "Does not contain any safety defects."
     },
     {
       "id": "op-006",
@@ -141,21 +141,21 @@
     {
       "id": "op-008",
       "topic": "Category 3",
-      "question": "Which kinetic-energy transfer does 107.130(a)(1) use as the injury-severity benchmark for Category 3 eligibility?",
+      "question": "Under 107.130(b)(3)(ii), which identified safety defects must the product support and notification procedures of a Category 3 declaration-of-compliance applicant cover?",
       "options": {
-        "A": "5 foot-pounds upon impact from a rigid object",
-        "B": "11 foot-pounds upon impact from a rigid object",
-        "C": "25 foot-pounds upon impact from a rigid object",
-        "D": "75 foot-pounds upon impact from a rigid object"
+        "A": "Only defects that affect the aircraft's paint or labels",
+        "B": "Only defects reported by more than ten owners",
+        "C": "Any identified safety defect that causes the small unmanned aircraft to exceed a low probability of fatality",
+        "D": "None, because Category 3 applicants need no product support process"
       },
       "answer": "C",
-      "explanation": "A Category 3 aircraft must not cause injury \"equivalent to or greater than the severity of the injury caused by a transfer of 25 foot-pounds of kinetic energy upon impact from a rigid object\".",
+      "explanation": "107.130(b)(3) requires procedures to notify the public and the FAA of, under (ii), \"Any identified safety defect that causes the small unmanned aircraft to exceed a low probability of fatality.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.130, Category 3 operations: Eligibility of small unmanned aircraft and other applicant requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.130"
       },
       "checked": "2026-11-05",
-      "evidence": "caused by a transfer of 25 foot-pounds of kinetic energy upon impact from a rigid object"
+      "evidence": "Any identified safety defect that causes the small unmanned aircraft to exceed a low probability of fatality."
     },
     {
       "id": "op-009",
@@ -312,40 +312,40 @@
     {
       "id": "op-017",
       "topic": "Night and civil twilight",
-      "question": "What visibility distance does 107.29(a)(2) set for the anti-collision lighting on a small unmanned aircraft operated at night?",
+      "question": "What does 107.29(a)(2) require of the flash rate of the anti-collision lighting on a small unmanned aircraft operated at night?",
       "options": {
-        "A": "1 statute mile",
-        "B": "2 statute miles",
-        "C": "2 nautical miles",
-        "D": "3 statute miles"
+        "A": "That it flashes exactly once every 10 seconds",
+        "B": "That it is synchronized with the Remote ID broadcast",
+        "C": "That it matches the flash rate of manned-aircraft strobes",
+        "D": "That it is sufficient to avoid a collision"
       },
       "answer": "D",
-      "explanation": "The aircraft must have \"lighted anti-collision lighting visible for at least 3 statute miles that has a flash rate sufficient to avoid a collision.\"",
+      "explanation": "107.29(a)(2) requires \"lighted anti-collision lighting visible for at least 3 statute miles that has a flash rate sufficient to avoid a collision.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.29, Operation at night (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29"
       },
       "checked": "2026-11-05",
-      "evidence": "lighted anti-collision lighting visible for at least 3 statute miles that has a flash rate sufficient to avoid a collision."
+      "evidence": "The small unmanned aircraft has lighted anti-collision lighting visible for at least 3 statute miles that has a flash rate sufficient to avoid a collision."
     },
     {
       "id": "op-018",
       "topic": "Night and civil twilight",
-      "question": "Outside Alaska, how does 107.29(c)(1) define the morning period of civil twilight?",
+      "question": "Which area of knowledge do both 107.73(m), for the initial test and recurrent training, and 107.74(h), for part 61 pilots, list?",
       "options": {
-        "A": "From 30 minutes before official sunrise until official sunrise",
-        "B": "From 60 minutes before official sunrise until official sunrise",
-        "C": "From official sunrise until 30 minutes after official sunrise",
-        "D": "From 30 minutes before until 30 minutes after official sunrise"
+        "A": "Operation at night",
+        "B": "Use of night vision goggles",
+        "C": "Celestial navigation",
+        "D": "Instrument flight rules procedures"
       },
       "answer": "A",
-      "explanation": "Except for Alaska, civil twilight includes \"a period of time that begins 30 minutes before official sunrise and ends at official sunrise\".",
+      "explanation": "107.73 lists \"(m) Operation at night\" and 107.74 lists \"(h) Operation at night\".",
       "source": {
-        "title": "eCFR: 14 CFR 107.29, Operation at night (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29"
+        "title": "eCFR: 14 CFR 107.73, Knowledge and training (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.73"
       },
       "checked": "2026-11-05",
-      "evidence": "Except for Alaska, a period of time that begins 30 minutes before official sunrise and ends at official sunrise;"
+      "evidence": "Maintenance and preflight inspection procedures; and (m) Operation at night."
     },
     {
       "id": "op-019",

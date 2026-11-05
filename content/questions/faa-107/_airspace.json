@@ -27,15 +27,15 @@
     {
       "id": "as-002",
       "topic": "Part 107 airspace rules",
-      "question": "Whose prior authorization does 107.41 name as the condition for operating a small unmanned aircraft in Class D airspace?",
+      "question": "Which Class E airspace does 107.41 cover with its requirement for prior authorization from Air Traffic Control (ATC)?",
       "options": {
-        "A": "The airport manager",
-        "B": "The local police department",
-        "C": "Air Traffic Control (ATC)",
-        "D": "The nearest Flight Service station"
+        "A": "All Class E airspace below 1,200 feet AGL",
+        "B": "Only Class E airspace above FL 600",
+        "C": "The airspace within the lateral boundaries of the surface area of Class E airspace designated for an airport",
+        "D": "Every Federal Airway, at any altitude"
       },
       "answer": "C",
-      "explanation": "107.41 bars operation in Class D airspace \"unless that person has prior authorization from Air Traffic Control (ATC).\"",
+      "explanation": "107.41 bars operation in Class B, C or D airspace \"or within the lateral boundaries of the surface area of Class E airspace designated for an airport unless that person has prior authorization from Air Traffic Control (ATC).\"",
       "source": {
         "title": "eCFR: 14 CFR 107.41, Operation in certain airspace (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.41"
@@ -46,21 +46,21 @@
     {
       "id": "as-003",
       "topic": "Class E, Class G and the Class A floor",
-      "question": "According to the Study Guide, to what altitude does Class E airspace typically extend?",
+      "question": "According to the Study Guide, what does designating a large amount of the airspace over the United States as Class E airspace provide?",
       "options": {
-        "A": "Up to 10,000 feet MSL",
-        "B": "Up to 1,200 feet AGL",
-        "C": "Up to and including 14,500 feet MSL",
-        "D": "Up to, but not including, 18,000 feet MSL"
+        "A": "Airspace reserved for military training routes only",
+        "B": "Airspace in which no ATC service is provided",
+        "C": "Airspace closed to all unmanned aircraft",
+        "D": "Sufficient airspace for the safe control and separation of aircraft during IFR operations"
       },
       "answer": "D",
-      "explanation": "The Study Guide: \"Class E airspace typically extends up to, but not including, 18,000 feet MSL (the lower limit of Class A airspace).\"",
+      "explanation": "The Study Guide: \"A large amount of the airspace over the United States is designated as Class E airspace. This provides sufficient airspace for the safe control and separation of aircraft during IFR operations.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "Class E airspace typically extends up to, but not including, 18,000 feet MSL (the lower limit of Class A airspace)."
+      "evidence": "A large amount of the airspace over the United States is designated as Class E airspace. This provides sufficient airspace for the safe control and separation of aircraft during IFR operations."
     },
     {
       "id": "as-004",
@@ -179,97 +179,97 @@
     {
       "id": "as-010",
       "topic": "Class B, C and D airspace",
-      "question": "According to the Study Guide, Class B airspace generally extends from the surface to what altitude?",
+      "question": "How does the Study Guide describe the configuration of each Class B airspace area?",
       "options": {
-        "A": "2,500 feet above the airport elevation",
-        "B": "4,000 feet above the airport elevation",
-        "C": "10,000 feet MSL",
-        "D": "18,000 feet MSL"
+        "A": "A single cylinder with a five nautical mile radius",
+        "B": "A surface area only, with no layers above it",
+        "C": "Individually tailored, consisting of a surface area and two or more layers",
+        "D": "A ring from 1,200 feet AGL to 18,000 feet MSL, with no surface area"
       },
       "answer": "C",
-      "explanation": "The Study Guide: \"Class B airspace is generally airspace from the surface to 10,000 feet mean sea level (MSL) surrounding the nation's busiest airports\".",
+      "explanation": "The Study Guide: \"The configuration of each Class B airspace area is individually tailored, consists of a surface area and two or more layers\" and is designed to contain all published instrument procedures once an aircraft enters the airspace.",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "Class B airspace is generally airspace from the surface to 10,000 feet mean sea level (MSL) surrounding the nation's busiest airports"
+      "evidence": "The configuration of each Class B airspace area is individually tailored, consists of a surface area and two or more layers (some Class B airspace areas resemble upside-down wedding cakes), and is designed to contain all published instrument procedures once an aircraft enters the airspace."
     },
     {
       "id": "as-011",
       "topic": "Class B, C and D airspace",
-      "question": "According to the Study Guide, Class C airspace generally extends from the surface to what height?",
+      "question": "According to the Study Guide, which airports does Class C airspace generally surround?",
       "options": {
-        "A": "1,200 feet AGL",
-        "B": "4,000 feet above the airport elevation (charted in MSL)",
-        "C": "10,000 feet MSL",
-        "D": "14,500 feet MSL"
+        "A": "Airports with no control tower and no radar service",
+        "B": "Airports that have an operational control tower, are serviced by a radar approach control, and have a certain number of IFR operations or passenger enplanements",
+        "C": "Airports served only by a UNICOM station",
+        "D": "Airports with no radar approach control, whatever their traffic"
       },
       "answer": "B",
-      "explanation": "The Study Guide: \"Class C airspace is generally airspace from the surface to 4,000 feet above the airport elevation (charted in MSL)\".",
+      "explanation": "The Study Guide says Class C airspace surrounds \"those airports that have an operational control tower, are serviced by a radar approach control, and have a certain number of instrument flight rules (IFR) operations or passenger enplanements.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "Class C airspace is generally airspace from the surface to 4,000 feet above the airport elevation (charted in MSL)"
+      "evidence": "Class C airspace is generally airspace from the surface to 4,000 feet above the airport elevation (charted in MSL) surrounding those airports that have an operational control tower, are serviced by a radar approach control, and have a certain number of instrument flight rules (IFR) operations or passenger enplanements."
     },
     {
       "id": "as-012",
       "topic": "Class B, C and D airspace",
-      "question": "How does the Study Guide describe Class D airspace?",
+      "question": "According to the Study Guide, what may arrival extensions for instrument approach procedures (IAPs) be?",
       "options": {
-        "A": "Generally from the surface to 2,500 feet above the airport elevation (charted in MSL), surrounding airports that have an operational control tower",
-        "B": "Generally from 1,200 feet AGL to 18,000 feet MSL over open country",
-        "C": "All airspace from 18,000 feet MSL up to FL 600",
-        "D": "Airspace over the busiest airports, built in two or more layers"
+        "A": "Class D or Class E airspace",
+        "B": "Class A airspace",
+        "C": "Prohibited areas",
+        "D": "Class B airspace only"
       },
       "answer": "A",
-      "explanation": "The Study Guide: \"Class D airspace is generally airspace from the surface to 2,500 feet above the airport elevation (charted in MSL) surrounding those airports that have an operational control tower.\"",
+      "explanation": "The Study Guide, describing Class D airspace: \"Arrival extensions for instrument approach procedures (IAPs) may be Class D or Class E airspace.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "Class D airspace is generally airspace from the surface to 2,500 feet above the airport elevation (charted in MSL) surrounding those airports that have an operational control tower."
+      "evidence": "Arrival extensions for instrument approach procedures (IAPs) may be Class D or Class E airspace."
     },
     {
       "id": "as-013",
       "topic": "Class B, C and D airspace",
-      "question": "What radius does the Study Guide give for the surface area that Class C airspace usually consists of?",
+      "question": "According to the Study Guide, how does the outer circle that a Class C area usually has extend?",
       "options": {
-        "A": "Two nautical miles",
-        "B": "Three nautical miles",
-        "C": "Ten nautical miles",
-        "D": "Five nautical miles"
+        "A": "With a three NM radius, from the surface to 1,200 feet AGL",
+        "B": "With a 30 NM radius, from the surface to 10,000 feet MSL",
+        "C": "With a five NM radius, from 700 feet AGL to 18,000 feet MSL",
+        "D": "With a ten NM radius, from 1,200 feet to 4,000 feet above the airport elevation"
       },
       "answer": "D",
-      "explanation": "The Study Guide says Class C airspace \"usually consists of a surface area with a five nautical mile (NM) radius, an outer circle with a ten NM radius\".",
+      "explanation": "The Study Guide says a Class C area usually has \"an outer circle with a ten NM radius that extends from 1,200 feet to 4,000 feet above the airport elevation.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "the airspace usually consists of a surface area with a five nautical mile (NM) radius, an outer circle with a ten NM radius"
+      "evidence": "Although the configuration of each Class C area is individually tailored, the airspace usually consists of a surface area with a five nautical mile (NM) radius, an outer circle with a ten NM radius that extends from 1,200 feet to 4,000 feet above the airport elevation."
     },
     {
       "id": "as-014",
       "topic": "Class E, Class G and the Class A floor",
-      "question": "According to the Study Guide, where charts do not depict a Class E base, at what altitude does Class E airspace begin?",
+      "question": "Which locations of Class E airspace does the Study Guide say sectional and other charts depict?",
       "options": {
-        "A": "700 feet AGL",
-        "B": "1,200 feet AGL",
-        "C": "14,500 feet MSL",
-        "D": "18,000 feet MSL"
+        "A": "Only Class E airspace that begins at the surface",
+        "B": "None; Class E airspace is described only in the AIM",
+        "C": "All locations of Class E airspace with bases below 14,500 feet MSL",
+        "D": "Only Class E airspace above FL 600"
       },
       "answer": "C",
-      "explanation": "The Study Guide: \"In areas where charts do not depict a class E base, class E begins at 14,500 feet MSL.\"",
+      "explanation": "The Study Guide: \"Sectional and other charts depict all locations of Class E airspace with bases below 14,500 feet MSL.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "In areas where charts do not depict a class E base, class E begins at 14,500 feet MSL."
+      "evidence": "Sectional and other charts depict all locations of Class E airspace with bases below 14,500 feet MSL."
     },
     {
       "id": "as-015",
@@ -312,21 +312,21 @@
     {
       "id": "as-017",
       "topic": "Special use airspace",
-      "question": "According to the Study Guide, from what distance off the U.S. coast does a warning area extend outward?",
+      "question": "According to the Study Guide, how does a warning area differ from a restricted area?",
       "options": {
-        "A": "12 NM",
-        "B": "1 NM",
-        "C": "50 NM",
-        "D": "3 NM"
+        "A": "A warning area is located only over land",
+        "B": "A warning area is charted with the letter P followed by a number",
+        "C": "Flight of aircraft within a warning area is wholly prohibited",
+        "D": "The United States government does not have sole jurisdiction over the airspace"
       },
       "answer": "D",
-      "explanation": "The Study Guide describes a warning area as \"extending from 3 NM outward from the coast of the United States\".",
+      "explanation": "The Study Guide: \"Warning areas are similar in nature to restricted areas; however, the United States government does not have sole jurisdiction over the airspace.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "A warning area is airspace of defined dimensions, extending from 3 NM outward from the coast of the United States"
+      "evidence": "Warning areas are similar in nature to restricted areas; however, the United States government does not have sole jurisdiction over the airspace."
     },
     {
       "id": "as-018",
@@ -369,21 +369,21 @@
     {
       "id": "as-020",
       "topic": "Other airspace areas",
-      "question": "According to the Study Guide, how are military training routes (MTRs) with no segment above 1,500 feet AGL identified?",
+      "question": "According to the Study Guide, where and for what speeds are military training routes (MTRs) usually established?",
       "options": {
-        "A": "By three number characters (e.g., IR206)",
-        "B": "By name only (e.g., \"Camden Ridge\")",
-        "C": "By an \"A\" followed by a number",
-        "D": "By four number characters (e.g., IR1206, VR1207)"
+        "A": "Below 1,500 feet AGL, for speeds under 100 knots",
+        "B": "Above 18,000 feet MSL, for speeds in excess of 500 knots",
+        "C": "Below 400 feet AGL, for speeds in excess of 87 knots",
+        "D": "Below 10,000 feet MSL, for operations at speeds in excess of 250 knots"
       },
       "answer": "D",
-      "explanation": "The Study Guide: \"MTRs with no segment above 1,500 feet AGL are identified by four number characters (e.g., IR1206, VR1207).\"",
+      "explanation": "The Study Guide says MTRs \"are usually established below 10,000 feet MSL for operations at speeds in excess of 250 knots.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "MTRs with no segment above 1,500 feet AGL are identified by four number characters (e.g., IR1206, VR1207)."
+      "evidence": "These routes are usually established below 10,000 feet MSL for operations at speeds in excess of 250 knots."
     }
   ]
 }
