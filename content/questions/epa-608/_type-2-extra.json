@@ -398,6 +398,63 @@
       },
       "checked": "2026-11-05",
       "evidence": "Where it is unsafe to be present or otherwise impossible to conduct a follow-up verification test when the system is operating at normal operating characteristics and conditions, the verification test must, where practicable, be conducted prior to the system returning to normal operating characteristics and conditions."
+    },
+    {
+      "id": "t2-048",
+      "topic": "Verification and inspections",
+      "question": "A leak in a high-pressure appliance (full charge of 50 or more pounds of a class I or class II refrigerant) is repaired without opening or evacuating the appliance. When must the initial verification test be performed?",
+      "options": {
+        "A": "Before the repair work begins",
+        "B": "Within 12 months after the repair",
+        "C": "After the repair work is finished and before any additional refrigerant is added",
+        "D": "Only after the next refrigerant addition"
+      },
+      "answer": "C",
+      "explanation": "For repairs done without opening or evacuating the appliance, the test \"must be performed after the conclusion of the repair work and before any additional refrigerant is added to the appliance.\" Waiting until after the next refrigerant addition would be too late under this rule.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05",
+      "evidence": "For repairs that can be completed without the need to open or evacuate the appliance, the test must be performed after the conclusion of the repair work and before any additional refrigerant is added to the appliance."
+    },
+    {
+      "id": "t2-049",
+      "topic": "Verification and inspections",
+      "question": "A commercial refrigeration appliance (full charge of 50 or more pounds of a class I or class II refrigerant) has exceeded its leak rate. An automatic leak detection system monitors only part of the appliance. What applies to the rest of the appliance?",
+      "options": {
+        "A": "It is exempt from leak inspections because part of the appliance is monitored",
+        "B": "It must be retired within one year",
+        "C": "It needs a leak inspection only once every five years",
+        "D": "It continues to be subject to any applicable leak inspection requirements"
+      },
+      "answer": "D",
+      "explanation": "When the system monitors only portions of an appliance, \"the remainder of the appliance continues to be subject to any applicable leak inspection requirements.\" The exemption from quarterly or annual inspections covers only portions \"continuously monitored by an automatic leak detection system that is audited or calibrated annually.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05",
+      "evidence": "When automatic leak detection equipment is only being used to monitor portions of an appliance, the remainder of the appliance continues to be subject to any applicable leak inspection requirements."
+    },
+    {
+      "id": "t2-050",
+      "topic": "Verification and inspections",
+      "question": "On a high-pressure appliance (full charge of 50 or more pounds of a class I or class II refrigerant), the initial verification test shows that a leak repair was not successful. What does 40 CFR 82.157 allow the owner or operator to do?",
+      "options": {
+        "A": "Nothing more; the appliance must be retired the same day",
+        "B": "Wait 12 months before trying another repair",
+        "C": "Conduct as many additional repairs and initial verification tests as needed within the applicable time period",
+        "D": "Skip the follow-up verification test for that leak"
+      },
+      "answer": "C",
+      "explanation": "If the initial test shows the repairs failed, the owner or operator \"may conduct as many additional repairs and initial verification tests as needed within the applicable time period.\" The rule does not require same-day retirement, and both initial and follow-up tests are still required for each repaired leak.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05",
+      "evidence": "If the initial verification test indicates that the repairs have not been successful, the owner or operator may conduct as many additional repairs and initial verification tests as needed within the applicable time period."
     }
   ]
 }

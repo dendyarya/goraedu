@@ -20,11 +20,12 @@ export type Guide = {
   title: string;
   description: string;
   intro: string;
+  /** Topic pages only: a short direct answer, every claim of which is also a quoted point. */
+  summary?: string;
   topics: GuideTopic[];
   href: string;
 };
 
-const ROOT = path.join(process.cwd(), "content", "guides");
 const SNAPSHOTS: Record<string, string> = {
   "epa-608": path.join(process.cwd(), "data", "sources", "ecfr", "40cfr82-subpartF-2026-11-03.txt"),
 };
@@ -54,14 +55,15 @@ function stripPageChrome(text: string): string {
     .join("\n");
 }
 
-function validate(file: string, raw: unknown, snapshot: string | null): Guide {
+function validate(file: string, raw: unknown, snapshot: string | null, kind: "guides" | "topics"): Guide {
   const fail = (msg: string): never => {
-    throw new Error(`content/guides/${file}: ${msg}`);
+    throw new Error(`content/${kind}/${file}: ${msg}`);
   };
   const g = raw as Partial<Guide>;
   for (const k of ["cluster", "slug", "title", "description", "intro"] as const) {
     if (typeof g[k] !== "string" || !g[k]) fail(`${k} is required`);
   }
+  if (kind === "topics" && (typeof g.summary !== "string" || !g.summary)) fail("summary is required");
   if (!Array.isArray(g.topics) || g.topics.length === 0) fail("topics must be a non-empty list");
   const ids = new Set<string>();
   for (const t of g.topics!) {
@@ -81,7 +83,8 @@ function validate(file: string, raw: unknown, snapshot: string | null): Guide {
       }
     });
   }
-  return { ...(g as Guide), href: `/${g.cluster}/${g.slug}/study-guide/` };
+  const href = kind === "guides" ? `/${g.cluster}/${g.slug}/study-guide/` : `/${g.cluster}/guide/${g.slug}/`;
+  return { ...(g as Guide), href };
 }
 
 const snapCache: Record<string, string | null> = {};
@@ -100,27 +103,32 @@ export function assertQuotes(cluster: string, quotes: string[]): void {
   for (const q of quotes) if (!snap.includes(norm(q))) throw new Error(`quote not found in ${cluster} snapshot: ${q}`);
 }
 
-let cache: Guide[] | null = null;
+const cache: Partial<Record<"guides" | "topics", Guide[]>> = {};
 
-export function getAllGuides(): Guide[] {
-  if (cache) return cache;
+function load(kind: "guides" | "topics"): Guide[] {
+  if (cache[kind]) return cache[kind]!;
+  const root = path.join(process.cwd(), "content", kind);
   const out: Guide[] = [];
-  if (fs.existsSync(ROOT)) {
-    for (const cluster of fs.readdirSync(ROOT)) {
-      const dir = path.join(ROOT, cluster);
+  if (fs.existsSync(root)) {
+    for (const cluster of fs.readdirSync(root)) {
+      const dir = path.join(root, cluster);
       if (!fs.statSync(dir).isDirectory()) continue;
-      const snapFile = SNAPSHOTS[cluster];
-      const snap =
-        snapFile && fs.existsSync(snapFile) ? norm(stripPageChrome(fs.readFileSync(snapFile, "utf8"))) : null;
+      const snap = snapshotFor(cluster);
       // files starting with "_" are drafts and never published
       for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json") && !x.startsWith("_"))) {
-        out.push(validate(`${cluster}/${f}`, JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")), snap));
+        out.push(validate(`${cluster}/${f}`, JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")), snap, kind));
       }
     }
   }
-  cache = out;
+  cache[kind] = out;
   return out;
 }
+
+/** Section study guides: content/guides/<cluster>/<section>.json, published at /<cluster>/<section>/study-guide/. */
+export const getAllGuides = () => load("guides");
+
+/** Focused topic pages: content/topics/<cluster>/<slug>.json, published at /<cluster>/guide/<slug>/. */
+export const getAllTopicPages = () => load("topics");
 
 export function guideChecked(g: Guide): string {
   return g.topics

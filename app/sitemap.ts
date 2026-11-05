@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllGuides } from "@/lib/guides";
+import { getAllGuides, getAllTopicPages } from "@/lib/guides";
 import { getAllNews } from "@/lib/news";
 import { getAllPages } from "@/lib/pages";
 import { TOOLS } from "@/lib/tools";
@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...PATHS,
     ...getAllSets().map((s) => s.href),
     ...getAllGuides().map((g) => g.href),
+    ...getAllTopicPages().map((g) => g.href),
     ...TOOLS.map((t) => t.href),
     ...getAllPages().map((p) => `/${p.slug}/`),
   ].map((path) => ({ url: `${SITE.url}${path}` }));
