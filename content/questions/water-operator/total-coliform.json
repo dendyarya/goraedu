@@ -8,15 +8,15 @@
     {
       "id": "tc-001",
       "topic": "General provisions and laboratory methods",
-      "question": "What standard sample volume does 141.852(a)(1) set for total coliform analysis, regardless of the analytical method used?",
+      "question": "What does 141.852(a)(2) require systems to determine about total coliforms and E. coli in a sample?",
       "options": {
-        "A": "10 ml",
-        "B": "50 ml",
-        "C": "100 ml",
-        "D": "1 liter"
+        "A": "The density in colonies per 100 ml",
+        "B": "The most probable number per liter",
+        "C": "Only their presence or absence; a determination of density is not required",
+        "D": "The density of E. coli only"
       },
       "answer": "C",
-      "explanation": "141.852(a)(1): \"The standard sample volume required for analysis, regardless of analytical method used, is 100 ml.\"",
+      "explanation": "\"Systems need only determine the presence or absence of total coliforms and E. coli; a determination of density is not required.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.852, Analytical methods and laboratory certification (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.852"
@@ -26,15 +26,15 @@
     {
       "id": "tc-002",
       "topic": "General provisions and laboratory methods",
-      "question": "What limit does 141.852(a)(3) set on the time from sample collection to initiation of test medium incubation?",
+      "question": "Footnote 4 to the method table in 141.852(a)(5) says exposure of filtration equipment to UV light is not adequate to ensure sterilization. Unless pre-sterilized disposable funnel units are used, how must every membrane filtration series begin?",
       "options": {
-        "A": "It may not exceed 30 hours",
-        "B": "It may not exceed 6 hours",
-        "C": "It may not exceed 72 hours",
-        "D": "There is no limit if the sample is held below 10 deg. C"
+        "A": "With membrane filtration equipment that has been sterilized by autoclaving",
+        "B": "With equipment exposed to UV light for at least 2 minutes",
+        "C": "With equipment rinsed in sodium thiosulfate",
+        "D": "With equipment wiped down with chlorine bleach"
       },
       "answer": "A",
-      "explanation": "\"The time from sample collection to initiation of test medium incubation may not exceed 30 hours.\" Holding samples below 10 deg. C is \"encouraged but not required\".",
+      "explanation": "\"All filtration series must begin with membrane filtration equipment that has been sterilized by autoclaving. Exposure of filtration equipment to UV light is not adequate to ensure sterilization.\" UV may be used afterward only \"to sanitize the funnels between filtrations within a filtration series.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.852, Analytical methods and laboratory certification (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.852"
@@ -62,15 +62,15 @@
     {
       "id": "tc-004",
       "topic": "Sample siting plans and sample validity",
-      "question": "Unless the alternatives in 141.853(a)(5)(i) or (ii) apply, where must a system take its repeat samples after a total coliform-positive sample?",
+      "question": "A system takes special purpose samples to check whether disinfection was sufficient after a main repair. How does 141.853(b) treat those samples?",
       "options": {
-        "A": "At least one at the original tap and two at any other routine sampling sites",
-        "B": "At least one at the original tap, one at a tap within five service connections upstream and one at a tap within five service connections downstream",
-        "C": "At least one at the entry point to the distribution system and two at the original tap",
-        "D": "At least one at a tap within ten service connections upstream and one within ten service connections downstream"
+        "A": "They must be included when calculating whether the coliform treatment technique trigger has been exceeded",
+        "B": "They must not be used to determine whether the coliform treatment technique trigger has been exceeded",
+        "C": "They count as repeat samples under 141.858",
+        "D": "They count toward the trigger only if they are total coliform-positive"
       },
       "answer": "B",
-      "explanation": "The system must collect \"at least one repeat sample from the sampling tap where the original total coliform-positive sample was taken, and at least one repeat sample at a tap within five service connections upstream and at least one repeat sample at a tap within five service connections downstream of the original sampling site.\"",
+      "explanation": "Special purpose samples, \"such as those taken to determine whether disinfection practices are sufficient following pipe placement, replacement, or repair, must not be used to determine whether the coliform treatment technique trigger has been exceeded.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.853, General monitoring requirements for all public water systems (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.853"
@@ -206,15 +206,15 @@
     {
       "id": "tc-012",
       "topic": "Subpart H systems and systems serving more than 1,000",
-      "question": "What minimum number of total coliform samples per month does the table in 141.857(b) set for a public water system serving 3,000 people?",
+      "question": "141.857(d) says systems serving more than 1,000 people may not reduce monitoring, with one exception. Which systems does that exception cover?",
       "options": {
-        "A": "2",
-        "B": "4",
-        "C": "3",
-        "D": "5"
+        "A": "Subpart H community water systems serving fewer than 3,300 people",
+        "B": "Any community water system using only ground water",
+        "C": "Non-community water systems using only ground water (not GWUDI) that serve 1,000 or fewer people in some months and more than 1,000 in other months",
+        "D": "Consecutive systems that buy all of their water from a wholesale system"
       },
       "answer": "C",
-      "explanation": "The 141.857(b) table row \"2,501 to 3,300\" sets a minimum of 3 samples per month.",
+      "explanation": "\"Systems may not reduce monitoring, except for non-community water systems using only ground water (and not ground water under the direct influence of surface water) serving 1,000 or fewer people in some months and more than 1,000 persons in other months.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.857, Routine monitoring requirements for public water systems serving more than 1,000 people (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.857"
@@ -224,15 +224,15 @@
     {
       "id": "tc-013",
       "topic": "Repeat monitoring and E. coli testing",
-      "question": "After a sample is total coliform-positive, what minimum number of repeat samples does 141.858(a)(1) set for each total coliform-positive sample found?",
+      "question": "Under 141.858(a)(2), repeat samples are normally collected on the same day. What may the State allow a system with a single service connection to do instead?",
       "options": {
-        "A": "Three",
-        "B": "One",
-        "C": "Two",
-        "D": "Four"
+        "A": "Collect the set over a three-day period, or collect a larger volume repeat sample(s) totaling at least 300 ml",
+        "B": "Skip repeat sampling if next month's routine sample is negative",
+        "C": "Collect a single 100 ml repeat sample",
+        "D": "Collect the set at any time within 30 days"
       },
       "answer": "A",
-      "explanation": "\"The system must collect no fewer than three repeat samples for each total coliform-positive sample found.\"",
+      "explanation": "\"The State may allow a system with a single service connection to collect the required set of repeat samples over a three-day period or to collect a larger volume repeat sample(s) in one or more sample containers of any size, as long as the total volume collected is at least 300 ml.\" The State \"cannot waive the requirement for a system to collect repeat samples\".",
       "source": {
         "title": "eCFR: 40 CFR 141.858, Repeat monitoring and E. coli requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.858"
@@ -242,15 +242,15 @@
     {
       "id": "tc-014",
       "topic": "Repeat monitoring and E. coli testing",
-      "question": "Absent a State extension, what deadline does 141.858(a)(1) set for collecting the set of repeat samples after a total coliform-positive sample?",
+      "question": "A system collects a routine sample and, before it learns the result, collects another routine sample from within five adjacent service connections. The first sample is then found to contain total coliforms. What does 141.858(a)(4) allow?",
       "options": {
-        "A": "Within 24 hours of collecting the original sample",
-        "B": "Within 10 days of being notified of the positive result",
-        "C": "Within 30 days of being notified of the positive result",
-        "D": "Within 24 hours of being notified of the positive result"
+        "A": "The system must discard the second sample",
+        "B": "The State must invalidate the first sample",
+        "C": "The second sample becomes a special purpose sample",
+        "D": "The system may count the second sample as a repeat sample instead of as a routine sample"
       },
       "answer": "D",
-      "explanation": "\"The system must collect a set of repeat samples within 24 hours of being notified of the positive result.\" The State may extend this case by case for a logistical problem beyond the system's control.",
+      "explanation": "If the system \"collects another routine sample(s) from within five adjacent service connections of the initial sample, and the initial sample, after analysis, is found to contain total coliforms, then the system may count the subsequent sample(s) as a repeat sample instead of as a routine sample.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.858, Repeat monitoring and E. coli requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.858"
@@ -260,15 +260,15 @@
     {
       "id": "tc-015",
       "topic": "Repeat monitoring and E. coli testing",
-      "question": "A total coliform-positive culture is found to contain E. coli, and the system is notified while the State office is open. Under 141.858(b)(1), when must the system notify the State?",
+      "question": "Under 141.858(b)(2), on what basis may the State allow a system, case by case, to forgo E. coli testing on a total coliform-positive sample?",
       "options": {
-        "A": "Within 10 days after the system is notified",
-        "B": "By the end of the day when the system is notified of the test result",
-        "C": "Within 30 days after the system is notified",
-        "D": "With the next monthly monitoring report"
+        "A": "All repeat samples are total coliform-negative",
+        "B": "The system assumes that the total coliform-positive sample is E. coli-positive",
+        "C": "The system serves fewer than 25 people",
+        "D": "The sample was collected at the end of the distribution system"
       },
       "answer": "B",
-      "explanation": "\"If E. coli are present, the system must notify the State by the end of the day when the system is notified of the test result\"; the next-business-day option applies only when the State office is closed without an after-hours line or alternative procedure.",
+      "explanation": "The State may allow a system \"to forgo E. coli testing on a total coliform-positive sample if that system assumes that the total coliform-positive sample is E. coli-positive.\" The system must then notify the State as in (b)(1), and \"the provisions of § 141.63(c) apply.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.858, Repeat monitoring and E. coli requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.858"
@@ -278,15 +278,15 @@
     {
       "id": "tc-016",
       "topic": "Treatment technique triggers and assessments",
-      "question": "A system takes 50 total coliform samples per month. Under 141.859(a)(1)(i), what sample result is its Level 1 treatment technique trigger?",
+      "question": "Which item does 141.859(b)(2) list among the minimum elements the assessor must review when conducting a Level 1 or Level 2 assessment?",
       "options": {
-        "A": "Exceeding 10.0% total coliform-positive samples for the month",
-        "B": "Any single total coliform-positive sample",
-        "C": "Exceeding 5.0% total coliform-positive samples for the month",
-        "D": "Exceeding 1.0% total coliform-positive samples for the month"
+        "A": "The system's water rates and billing records",
+        "B": "The operators' certification exam scores",
+        "C": "Sample sites, sampling protocol and sample processing",
+        "D": "The system's public notification history under subpart Q"
       },
       "answer": "C",
-      "explanation": "\"For systems taking 40 or more samples per month, the system exceeds 5.0% total coliform-positive samples for the month.\"",
+      "explanation": "The assessor evaluates \"minimum elements that include review and identification of inadequacies in sample sites; sampling protocol; sample processing\", along with atypical events, distribution system changes, source and treatment considerations and \"existing water quality monitoring data.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.859, Coliform treatment technique triggers and assessment requirements for protection against potential fecal contamination (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.859"
@@ -296,15 +296,15 @@
     {
       "id": "tc-017",
       "topic": "Treatment technique triggers and assessments",
-      "question": "Which event does 141.859(a)(2) list as a Level 2 treatment technique trigger?",
+      "question": "For a system with approved annual monitoring, which pattern does 141.859(a)(2) list as a Level 2 treatment technique trigger?",
       "options": {
-        "A": "An E. coli MCL violation",
-        "B": "A single total coliform-positive routine sample",
-        "C": "One missed routine sample in a compliance period",
-        "D": "A source water turbidity reading above 1 NTU"
+        "A": "A Level 1 trigger in two consecutive years",
+        "B": "One total coliform-positive sample in a year",
+        "C": "One missed annual routine sample",
+        "D": "Submitting a monthly monitoring report late"
       },
       "answer": "A",
-      "explanation": "The Level 2 triggers include \"An E. coli MCL violation, as specified in § 141.860(a).\"",
+      "explanation": "Level 2 triggers include, \"For systems with approved annual monitoring, a Level 1 trigger in two consecutive years.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.859, Coliform treatment technique triggers and assessment requirements for protection against potential fecal contamination (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.859"
@@ -314,15 +314,15 @@
     {
       "id": "tc-018",
       "topic": "Treatment technique triggers and assessments",
-      "question": "What deadline does 141.859(b)(3)(i) set for submitting the completed Level 1 assessment form to the State?",
+      "question": "A completed assessment found sanitary defects that were not all corrected by the time the form was submitted. What does 141.859(c) require for the remaining corrections?",
       "options": {
-        "A": "Within 24 hours after the system learns that it has exceeded a trigger",
-        "B": "Within 30 days after the system learns that it has exceeded a trigger",
-        "C": "By the end of the next business day after the trigger",
-        "D": "Within one year after the trigger"
+        "A": "Complete them within 24 hours of submitting the form",
+        "B": "Complete them on a timetable approved by the State in consultation with the system, and notify the State when each scheduled corrective action is completed",
+        "C": "Nothing further, because submitting the form ends the system's duties",
+        "D": "Repeat the full assessment every month until all defects are corrected"
       },
       "answer": "B",
-      "explanation": "\"The system must submit the completed Level 1 assessment form to the State within 30 days after the system learns that it has exceeded a trigger.\"",
+      "explanation": "\"For corrections not completed by the time of submission of the assessment form, the system must complete the corrective action(s) in compliance with a timetable approved by the State in consultation with the system. The system must notify the State when each scheduled corrective action is completed.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.859, Coliform treatment technique triggers and assessment requirements for protection against potential fecal contamination (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.859"

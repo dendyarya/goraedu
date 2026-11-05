@@ -26,15 +26,15 @@
     {
       "id": "sd-002",
       "topic": "System types and responsible parties",
-      "question": "A mobile home park supplies piped water to 20 service connections, all used by year-round residents. Under the 141.2 definitions, what kind of system is it?",
+      "question": "Town B's public water system treats no water itself and buys all of its finished water from City A's public water system through a direct connection. Which 141.2 term describes Town B's system?",
       "options": {
-        "A": "A non-transient non-community water system",
-        "B": "A transient non-community water system",
-        "C": "Not a public water system, because it has fewer than 25 connections",
-        "D": "A community water system"
+        "A": "A wholesale system",
+        "B": "A combined distribution system",
+        "C": "A special irrigation district",
+        "D": "A consecutive system"
       },
       "answer": "D",
-      "explanation": "A community water system is a public water system \"which serves at least 15 service connections used by year-round residents or regularly serves at least 25 year-round residents.\"",
+      "explanation": "A consecutive system \"is a public water system that receives some or all of its finished water from one or more wholesale systems.\" A wholesale system is the one that \"treats source water as necessary to produce finished water and then delivers some or all of that finished water to another public water system.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
@@ -44,15 +44,15 @@
     {
       "id": "sd-003",
       "topic": "System types and responsible parties",
-      "question": "A factory has its own well and piped system. It has no residents, but the same 30 employees drink its water every workday all year. Which 141.2 system type fits?",
+      "question": "A summer camp's non-community water system is shut down every fall and started up again each spring, and it is not run as a public water system the rest of the year. Which 141.2 term covers it?",
       "options": {
-        "A": "A non-transient non-community water system",
-        "B": "A community water system",
-        "C": "A transient non-community water system",
-        "D": "A seasonal system"
+        "A": "A seasonal system",
+        "B": "A consecutive system",
+        "C": "A wholesale system",
+        "D": "A system with a single service connection"
       },
       "answer": "A",
-      "explanation": "A non-transient non-community water system is \"a public water system that is not a community water system and that regularly serves at least 25 of the same persons over 6 months per year.\"",
+      "explanation": "A seasonal system \"is a non-community water system that is not operated as a public water system on a year-round basis and starts up and shuts down at the beginning and end of each operating season.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
@@ -62,15 +62,15 @@
     {
       "id": "sd-004",
       "topic": "System types and responsible parties",
-      "question": "A highway rest area open all year serves water to about 200 different travelers each day through its own piped system. Its small staff is well under 25 people and nobody lives there. Which 141.2 system type fits?",
+      "question": "Under 141.2, a non-community water system is always one of which two system types?",
       "options": {
-        "A": "A community water system",
-        "B": "A non-transient non-community water system",
-        "C": "A transient non-community water system",
-        "D": "Not a public water system, because travelers are not service connections"
+        "A": "A community water system or a non-transient non-community water system",
+        "B": "A subpart H system or a ground water system",
+        "C": "A transient non-community water system (TWS) or a non-transient non-community water system (NTNCWS)",
+        "D": "A consecutive system or a wholesale system"
       },
       "answer": "C",
-      "explanation": "A transient non-community water system is \"a non-community water system that does not regularly serve at least 25 of the same persons over six months per year.\" The rest area still meets the public water system test of serving \"an average of at least twenty-five individuals daily at least 60 days out of the year\".",
+      "explanation": "A non-community water system \"means a public water system that is not a community water system. A noncommunity water system is either a “transient non-community water system (TWS)” or a “non-transient non-community water system (NTNCWS).”\"",
       "source": {
         "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
@@ -80,15 +80,15 @@
     {
       "id": "sd-005",
       "topic": "Scope and coverage",
-      "question": "A campground's piped system has only 10 service connections. Which test in the 141.2 public water system definition can still make it a public water system?",
+      "question": "A system delivers water through a constructed conveyance other than a pipe. Under the 141.2 definition of \"service connection\", which listed condition keeps a connection to that system from counting as a service connection?",
       "options": {
-        "A": "It serves at least 15 individuals daily for at least 30 days a year",
-        "B": "It serves at least 25 individuals on any single day of the year",
-        "C": "It regularly serves an average of at least 25 individuals daily at least 60 days out of the year",
-        "D": "It serves at least 100 individuals daily during its peak month"
+        "A": "The water is used for drinking without any treatment",
+        "B": "The connection serves fewer than 25 people",
+        "C": "The water is used exclusively for purposes other than residential uses (drinking, bathing, cooking or similar uses)",
+        "D": "The connection was made before August 5, 1998"
       },
       "answer": "C",
-      "explanation": "A public water system is one that \"has at least fifteen service connections or regularly serves an average of at least twenty-five individuals daily at least 60 days out of the year.\"",
+      "explanation": "Service connection \"does not include a connection to a system that delivers water by a constructed conveyance other than a pipe if\" one of three conditions is met, the first being \"(1) The water is used exclusively for purposes other than residential uses (consisting of drinking, bathing, and cooking, or other similar uses)\".",
       "source": {
         "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
@@ -170,15 +170,15 @@
     {
       "id": "sd-010",
       "topic": "Standards and goals",
-      "question": "Where does the 141.2 definition of a maximum contaminant level (MCL) place the level it limits?",
+      "question": "Notwithstanding the MRDLs in 141.65, the 141.2 MRDL definition lets operators raise residual disinfectant levels in the distribution system for a time to address specific microbiological contamination problems. Which disinfectants does that allowance cover?",
       "options": {
-        "A": "At the plant intake",
-        "B": "In water delivered to any user of a public water system",
-        "C": "In the raw source water before treatment",
-        "D": "Only at the entrance to the distribution system"
+        "A": "Chlorine dioxide only",
+        "B": "Chlorine or chloramines, but not chlorine dioxide",
+        "C": "Chlorine, chloramines and chlorine dioxide",
+        "D": "Ozone only"
       },
       "answer": "B",
-      "explanation": "\"Maximum contaminant level means the maximum permissible level of a contaminant in water which is delivered to any user of a public water system.\"",
+      "explanation": "\"Notwithstanding the MRDLs listed in § 141.65, operators may increase residual disinfectant levels of chlorine or chloramines (but not chlorine dioxide) in the distribution system to a level and for a time necessary to protect public health\".",
       "source": {
         "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
@@ -188,15 +188,15 @@
     {
       "id": "sd-011",
       "topic": "Standards and goals",
-      "question": "How does 141.2 describe the legal status of maximum contaminant level goals (MCLGs)?",
+      "question": "According to the 141.2 definition of maximum residual disinfectant level goal (MRDLG), what do MRDLGs not reflect?",
       "options": {
-        "A": "They are enforceable in the same manner as MCLs",
-        "B": "They are enforceable only for community water systems",
-        "C": "They become enforceable once a State adopts them",
-        "D": "They are nonenforceable health goals"
+        "A": "An adequate margin of safety",
+        "B": "Known or anticipated adverse effects on the health of persons",
+        "C": "The level of a disinfectant added for water treatment",
+        "D": "The benefit of the addition of the chemical for control of waterborne microbial contaminants"
       },
       "answer": "D",
-      "explanation": "\"Maximum contaminant level goals are nonenforceable health goals.\"",
+      "explanation": "\"MRDLGs are nonenforceable health goals and do not reflect the benefit of the addition of the chemical for control of waterborne microbial contaminants.\" The definition itself is built on the level \"at which no known or anticipated adverse effect on the health of persons would occur, and which allows an adequate margin of safety.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
@@ -260,15 +260,15 @@
     {
       "id": "sd-015",
       "topic": "Treatment and monitoring terms",
-      "question": "How is a compliance cycle built under 141.2?",
+      "question": "Which dates does 141.2 give for the third calendar year compliance cycle?",
       "options": {
-        "A": "A six-year cycle made of two three-year compliance periods",
-        "B": "A twelve-year cycle made of four three-year compliance periods",
-        "C": "A nine-year calendar year cycle made of three three-year compliance periods",
-        "D": "A nine-year cycle made of nine one-year compliance periods"
+        "A": "January 1, 1993 to December 31, 2001",
+        "B": "January 1, 2002 to December 31, 2010",
+        "C": "January 1, 2011 to December 31, 2019",
+        "D": "January 1, 2020 to December 31, 2028"
       },
       "answer": "C",
-      "explanation": "\"Compliance cycle means the nine-year calendar year cycle during which public water systems must monitor. Each compliance cycle consists of three three-year compliance periods.\"",
+      "explanation": "\"The first calendar year cycle begins January 1, 1993 and ends December 31, 2001; the second begins January 1, 2002 and ends December 31, 2010; the third begins January 1, 2011 and ends December 31, 2019.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
@@ -278,15 +278,15 @@
     {
       "id": "sd-016",
       "topic": "Treatment and monitoring terms",
-      "question": "A plant adds coagulant chemicals and then filters the water, with no sedimentation step in between. Which 141.2 term describes this treatment?",
+      "question": "A reservoir stores finished water that gets no further treatment to reduce microbial pathogens except residual disinfection, and it is directly open to the atmosphere. Which 141.2 term fits it?",
       "options": {
-        "A": "Conventional filtration treatment",
-        "B": "Slow sand filtration",
-        "C": "Diatomaceous earth filtration",
-        "D": "Direct filtration"
+        "A": "Presedimentation",
+        "B": "Plant intake",
+        "C": "Combined distribution system",
+        "D": "Uncovered finished water storage facility"
       },
       "answer": "D",
-      "explanation": "\"Direct filtration means a series of processes including coagulation and filtration but excluding sedimentation resulting in substantial particulate removal.\" Conventional filtration treatment includes sedimentation.",
+      "explanation": "An uncovered finished water storage facility \"is a tank, reservoir, or other facility used to store water that will undergo no further treatment to reduce microbial pathogens except residual disinfection and is directly open to the atmosphere.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"

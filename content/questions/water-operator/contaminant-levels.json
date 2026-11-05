@@ -116,15 +116,15 @@
     {
       "id": "mc-007",
       "topic": "Inorganic contaminants",
-      "question": "Under 141.62(b), which systems does the nitrate MCL in paragraph (b)(7) apply to?",
+      "question": "Which of these 141.62(b) MCLs applies to transient non-community water systems as well as to community and non-transient, non-community water systems?",
       "options": {
-        "A": "Community water systems only",
-        "B": "Community, non-transient non-community and transient non-community water systems",
-        "C": "Non-transient, non-community water systems only",
-        "D": "Transient non-community water systems only"
+        "A": "Arsenic",
+        "B": "Nitrite",
+        "C": "Fluoride",
+        "D": "Barium"
       },
       "answer": "B",
-      "explanation": "The MCLs \"specified in (b)(7), (b)(8), and (b)(9) of this section apply to community water systems; non-transient, non-community water systems; and transient non-community water systems.\"",
+      "explanation": "The MCLs \"specified in (b)(7), (b)(8), and (b)(9) of this section apply to community water systems; non-transient, non-community water systems; and transient non-community water systems.\" Nitrite is \"(8) Nitrite\"; barium and arsenic apply to community and non-transient, non-community systems, and fluoride \"only applies to community water systems.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
@@ -134,15 +134,15 @@
     {
       "id": "mc-008",
       "topic": "Inorganic contaminants",
-      "question": "In what terms does 141.62(b)(2) express the asbestos MCL?",
+      "question": "Which systems and which MCL does the small system compliance technology table in 141.62(d) address?",
       "options": {
-        "A": "Milligrams per liter as total solids",
-        "B": "Picocuries per liter",
-        "C": "Nephelometric turbidity units",
-        "D": "Million fibers per liter, counting fibers longer than 10 µm"
+        "A": "Systems serving more than 10,000 persons, for all inorganic MCLs",
+        "B": "Systems with fewer than 500 service connections, for the fluoride MCL",
+        "C": "Transient non-community water systems, for the nitrate MCL",
+        "D": "Systems serving 10,000 persons or fewer, for the arsenic MCL"
       },
       "answer": "D",
-      "explanation": "The asbestos MCL is \"7 Million Fibers/liter (longer than 10 µm)\".",
+      "explanation": "141.62(d) identifies \"the affordable technology, treatment technique, or other means available to systems serving 10,000 persons or fewer for achieving compliance with the maximum contaminant level for arsenic\".",
       "source": {
         "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
@@ -242,15 +242,15 @@
     {
       "id": "mc-014",
       "topic": "Disinfection byproducts",
-      "question": "On what basis must the subpart V MCLs for TTHM and HAA5 be complied with under 141.64(b)(2)?",
+      "question": "For the subpart V TTHM and HAA5 MCLs in 141.64(b)(2), what best available technology does 141.64(b)(2)(iii) list for consecutive systems serving fewer than 10,000, for the disinfected water they buy or otherwise receive?",
       "options": {
-        "A": "As a single-sample maximum at the entry point",
-        "B": "As a system-wide monthly average",
-        "C": "As the highest result of any one quarter",
-        "D": "As a locational running annual average at each monitoring location"
+        "A": "Control of ozone treatment process",
+        "B": "Packed tower aeration",
+        "C": "Coagulation/filtration followed by lime softening",
+        "D": "Improved distribution system and storage tank management to reduce residence time"
       },
       "answer": "D",
-      "explanation": "\"The subpart V MCLs for TTHM and HAA5 must be complied with as a locational running annual average at each monitoring location\".",
+      "explanation": "The (b)(2)(iii) table, which \"applies only to the disinfected water that consecutive systems buy or otherwise receive\", lists \"Systems serving <10,000: Improved distribution system and storage tank management to reduce residence time\".",
       "source": {
         "title": "eCFR: 40 CFR 141.64, Maximum contaminant levels for disinfection byproducts (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.64"
@@ -296,15 +296,15 @@
     {
       "id": "mc-017",
       "topic": "Maximum residual disinfectant levels",
-      "question": "What MRDL does 141.65(a) set for chlorine dioxide?",
+      "question": "What does 141.65(c) identify as the best technology, treatment techniques, or other means available for achieving compliance with the MRDLs?",
       "options": {
-        "A": "0.8 mg/L (as ClO2)",
-        "B": "4.0 mg/L (as Cl2)",
-        "C": "1.0 mg/L (as ClO2)",
-        "D": "0.010 mg/L (as ClO2)"
+        "A": "Control of treatment processes to reduce disinfectant demand and control of disinfection treatment processes to reduce disinfectant levels",
+        "B": "Enhanced coagulation or enhanced softening, plus GAC10",
+        "C": "Control of ozone treatment process to reduce production of bromate",
+        "D": "Packed tower aeration"
       },
       "answer": "A",
-      "explanation": "The MRDL table lists \"Chlorine dioxide 0.8 (as ClO2).\"",
+      "explanation": "141.65(c) identifies \"control of treatment processes to reduce disinfectant demand and control of disinfection treatment processes to reduce disinfectant levels.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.65, Maximum residual disinfectant levels (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.65"

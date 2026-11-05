@@ -8,15 +8,15 @@
     {
       "id": "ss-001",
       "topic": "Purpose and status of secondary standards",
-      "question": "How does 143.1 describe the federal status of the National Secondary Drinking Water Regulations?",
+      "question": "According to 143.1, what may exist at considerably higher concentrations of the contaminants the secondary regulations control?",
       "options": {
-        "A": "They are Federally enforceable maximum contaminant levels for every public water system",
-        "B": "They are not Federally enforceable but are intended as guidelines for the States",
-        "C": "They are Federally enforceable only for community water systems",
-        "D": "They become Federally enforceable once a system exceeds a level twice in a year"
+        "A": "Federal enforcement duties for every public water system",
+        "B": "Health implications as well as aesthetic degradation",
+        "C": "Automatic MCL violations under Part 141",
+        "D": "A duty to stop serving water"
       },
       "answer": "B",
-      "explanation": "143.1 states: \"The regulations in this subpart are not Federally enforceable but are intended as guidelines for the States.\"",
+      "explanation": "143.1: \"At considerably higher concentrations of these contaminants, health implications may also exist as well as aesthetic degradation.\"",
       "source": {
         "title": "eCFR: 40 CFR 143.1, Purpose (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.1"
@@ -26,18 +26,18 @@
     {
       "id": "ss-002",
       "topic": "Purpose and status of secondary standards",
-      "question": "According to 143.1, the contaminants controlled by the secondary regulations primarily affect what?",
+      "question": "Under 143.2(f), SMCLs are levels that, in the judgement of the Administrator, are requisite to protect what?",
       "options": {
-        "A": "The aesthetic qualities relating to the public acceptance of drinking water",
-        "B": "The acute microbial safety of drinking water",
-        "C": "The structural life of treatment plant equipment",
-        "D": "The radiological quality of source water"
+        "A": "The public welfare",
+        "B": "Treatment plant equipment",
+        "C": "Source water ecosystems",
+        "D": "The structural life of distribution mains"
       },
       "answer": "A",
-      "explanation": "143.1 says these regulations \"control contaminants in drinking water that primarily affect the aesthetic qualities relating to the public acceptance of drinking water.\"",
+      "explanation": "143.2(f): \"Secondary maximum contaminant levels means SMCLs which apply to public water systems and which, in the judgement of the Administrator, are requisite to protect the public welfare.\"",
       "source": {
-        "title": "eCFR: 40 CFR 143.1, Purpose (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.1"
+        "title": "eCFR: 40 CFR 143.2, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.2"
       },
       "checked": "2026-11-06"
     },
@@ -134,15 +134,15 @@
     {
       "id": "ss-008",
       "topic": "Secondary maximum contaminant levels",
-      "question": "What pH range does the 143.3 table list as the secondary level?",
+      "question": "Which contaminant does the 143.3 table give a secondary level stated as a range, 0.05 to 0.2 mg/l?",
       "options": {
-        "A": "6.0-9.0",
-        "B": "7.0-8.0",
-        "C": "6.5-8.5",
-        "D": "5.5-9.5"
+        "A": "Manganese",
+        "B": "Iron",
+        "C": "Aluminum",
+        "D": "Foaming agents"
       },
       "answer": "C",
-      "explanation": "The 143.3 table lists \"pH 6.5-8.5.\"",
+      "explanation": "The 143.3 table lists \"Aluminum\" at \"0.05 to 0.2 mg/l.\" Manganese is 0.05 mg/l, iron 0.3 mg/l and foaming agents 0.5 mg/l.",
       "source": {
         "title": "eCFR: 40 CFR 143.3, Secondary maximum contaminant levels (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.3"
@@ -242,15 +242,15 @@
     {
       "id": "ss-014",
       "topic": "What lead free means",
-      "question": "What weighted average lead limit does 143.12(a)(2) set for \"lead free\" with respect to the wetted surfaces of pipes, pipe fittings, plumbing fittings and fixtures?",
+      "question": "A coating is applied to the internal surfaces of a fitting component. Under 143.12(c), what lead content must be used to calculate the lead content of that component?",
       "options": {
-        "A": "1.0 percent",
-        "B": "0.5 percent",
-        "C": "2.5 percent",
-        "D": "0.25 percent"
+        "A": "The lead content of the coating only",
+        "B": "The lead content of the alloy only",
+        "C": "The average of the coating and the alloy",
+        "D": "The maximum lead content of both the coating and the alloy"
       },
       "answer": "D",
-      "explanation": "Lead free means \"Not more than a weighted average of 0.25 percent lead when used with respect to the wetted surfaces of pipes, pipe fittings, plumbing fittings, and fixtures.\"",
+      "explanation": "143.12(c): if a coating \"is applied to the internal surfaces of a pipe, fitting or fixture component, the maximum lead content of both the coating and the alloy must be used to calculate the lead content of the component.\"",
       "source": {
         "title": "eCFR: 40 CFR 143.12, Definition of lead free and calculation methodology (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.12"
