@@ -1,0 +1,389 @@
+{
+  "cluster": "water-operator",
+  "slug": "total-coliform",
+  "title": "Drinking water total coliform (RTCR) practice questions",
+  "description": "Free total coliform (RTCR) practice questions on 40 CFR 141 Subpart Y. Every answer is explained and linked to the section it comes from.",
+  "href": "/water-operator/total-coliform/practice-test/",
+  "questions": [
+    {
+      "id": "tc-001",
+      "topic": "General provisions and laboratory methods",
+      "question": "What standard sample volume does 141.852(a)(1) set for total coliform analysis, regardless of the analytical method used?",
+      "options": {
+        "A": "10 ml",
+        "B": "50 ml",
+        "C": "100 ml",
+        "D": "1 liter"
+      },
+      "answer": "C",
+      "explanation": "141.852(a)(1): \"The standard sample volume required for analysis, regardless of analytical method used, is 100 ml.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.852, Analytical methods and laboratory certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.852"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The standard sample volume required for analysis, regardless of analytical method used, is 100 ml."
+    },
+    {
+      "id": "tc-002",
+      "topic": "General provisions and laboratory methods",
+      "question": "What limit does 141.852(a)(3) set on the time from sample collection to initiation of test medium incubation?",
+      "options": {
+        "A": "It may not exceed 30 hours",
+        "B": "It may not exceed 6 hours",
+        "C": "It may not exceed 72 hours",
+        "D": "There is no limit if the sample is held below 10 deg. C"
+      },
+      "answer": "A",
+      "explanation": "\"The time from sample collection to initiation of test medium incubation may not exceed 30 hours.\" Holding samples below 10 deg. C is \"encouraged but not required\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.852, Analytical methods and laboratory certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.852"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The time from sample collection to initiation of test medium incubation may not exceed 30 hours. Systems are encouraged but not required to hold samples below 10 deg. C during transit."
+    },
+    {
+      "id": "tc-003",
+      "topic": "Sample siting plans and sample validity",
+      "question": "Under 141.853(a)(2), which systems may collect all required total coliform samples on a single day, if the samples are taken from different sites?",
+      "options": {
+        "A": "Any community water system serving 10,000 or fewer people",
+        "B": "Subpart H systems serving 1,000 or fewer people",
+        "C": "Systems serving more than 4,900 people that use surface water",
+        "D": "Systems that use only ground water and serve 4,900 or fewer people"
+      },
+      "answer": "D",
+      "explanation": "Samples go at regular intervals through the month, \"except that systems that use only ground water and serve 4,900 or fewer people may collect all required samples on a single day if they are taken from different sites.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.853, General monitoring requirements for all public water systems (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.853"
+      },
+      "checked": "2026-11-06",
+      "evidence": "except that systems that use only ground water and serve 4,900 or fewer people may collect all required samples on a single day if they are taken from different sites."
+    },
+    {
+      "id": "tc-004",
+      "topic": "Sample siting plans and sample validity",
+      "question": "Unless the alternatives in 141.853(a)(5)(i) or (ii) apply, where must a system take its repeat samples after a total coliform-positive sample?",
+      "options": {
+        "A": "At least one at the original tap and two at any other routine sampling sites",
+        "B": "At least one at the original tap, one at a tap within five service connections upstream and one at a tap within five service connections downstream",
+        "C": "At least one at the entry point to the distribution system and two at the original tap",
+        "D": "At least one at a tap within ten service connections upstream and one within ten service connections downstream"
+      },
+      "answer": "B",
+      "explanation": "The system must collect \"at least one repeat sample from the sampling tap where the original total coliform-positive sample was taken, and at least one repeat sample at a tap within five service connections upstream and at least one repeat sample at a tap within five service connections downstream of the original sampling site.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.853, General monitoring requirements for all public water systems (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.853"
+      },
+      "checked": "2026-11-06",
+      "evidence": "at least one repeat sample from the sampling tap where the original total coliform-positive sample was taken, and at least one repeat sample at a tap within five service connections upstream and at least one repeat sample at a tap within five service connections downstream of the original sampling site."
+    },
+    {
+      "id": "tc-005",
+      "topic": "Sample siting plans and sample validity",
+      "question": "Under 141.853(c)(1)(i), what may the laboratory establish that allows the State to invalidate a total coliform-positive sample?",
+      "options": {
+        "A": "That all repeat samples are total coliform-negative",
+        "B": "That improper sample analysis caused the total coliform-positive result",
+        "C": "That the sample was collected on a weekend",
+        "D": "That the system has only one service connection"
+      },
+      "answer": "B",
+      "explanation": "The State may invalidate a total coliform-positive sample when \"The laboratory establishes that improper sample analysis caused the total coliform-positive result.\" It \"may not invalidate a total coliform-positive sample solely on the grounds that all repeat samples are total coliform-negative.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.853, General monitoring requirements for all public water systems (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.853"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The laboratory establishes that improper sample analysis caused the total coliform-positive result."
+    },
+    {
+      "id": "tc-006",
+      "topic": "Non-community ground water systems serving 1,000 or fewer",
+      "question": "Under 141.854(b), how often must a non-community water system serving 1,000 or fewer people using only ground water monitor for total coliforms, when it is not a seasonal system and none of paragraphs (c) through (h) and (j) changes its schedule?",
+      "options": {
+        "A": "Each calendar quarter that the system provides water to the public",
+        "B": "Each week that the system provides water to the public",
+        "C": "Once every three years",
+        "D": "Twice a month"
+      },
+      "answer": "A",
+      "explanation": "\"Systems must monitor each calendar quarter that the system provides water to the public, except for seasonal systems or as provided under paragraphs (c) through (h) and (j) of this section.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.854, Routine monitoring requirements for non-community water systems serving 1,000 or fewer people using only ground water (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.854"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Systems must monitor each calendar quarter that the system provides water to the public, except for seasonal systems or as provided under paragraphs (c) through (h) and (j) of this section."
+    },
+    {
+      "id": "tc-007",
+      "topic": "Non-community ground water systems serving 1,000 or fewer",
+      "question": "A non-community ground water system serving 1,000 or fewer people is on annual monitoring and has one subpart Y monitoring violation, with no other listed event. What does 141.854(f) require?",
+      "options": {
+        "A": "Begin weekly monitoring the week following the event",
+        "B": "Stop serving water until a Level 2 assessment is completed",
+        "C": "Take one make-up sample and remain on annual monitoring",
+        "D": "Begin quarterly monitoring the quarter following the event"
+      },
+      "answer": "D",
+      "explanation": "Under 141.854(f), \"A system on annual monitoring that experiences the event identified in paragraphs (f)(5) of this section must begin quarterly monitoring the quarter following the event\"; (f)(5) is \"one subpart Y monitoring violation for a system on annual monitoring.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.854, Routine monitoring requirements for non-community water systems serving 1,000 or fewer people using only ground water (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.854"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A system on annual monitoring that experiences the event identified in paragraphs (f)(5) of this section must begin quarterly monitoring the quarter following the event."
+    },
+    {
+      "id": "tc-008",
+      "topic": "Community ground water systems serving 1,000 or fewer",
+      "question": "A community water system serving 1,000 or fewer people using only ground water is on reduced (quarterly) monitoring and loses its certified operator. What does 141.855(d)(1) require?",
+      "options": {
+        "A": "Return to monthly monitoring after a rolling 12-month period",
+        "B": "Complete a Level 2 assessment within 30 days",
+        "C": "Return to monthly monitoring the month following that loss",
+        "D": "Stay on quarterly monitoring until the next sanitary survey"
+      },
+      "answer": "C",
+      "explanation": "\"A system that loses its certified operator must return to monthly monitoring the month following that loss.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.855, Routine monitoring requirements for community water systems serving 1,000 or fewer people using only ground water (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.855"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A system that loses its certified operator must return to monthly monitoring the month following that loss."
+    },
+    {
+      "id": "tc-009",
+      "topic": "Community ground water systems serving 1,000 or fewer",
+      "question": "What floor does 141.855(d)(1) set when the State reduces the monitoring frequency of a community water system serving 1,000 or fewer people using only ground water?",
+      "options": {
+        "A": "No less than quarterly monitoring",
+        "B": "No less than annual monitoring",
+        "C": "No less than once every three years",
+        "D": "No less than once every six years"
+      },
+      "answer": "A",
+      "explanation": "\"The State may reduce the monitoring frequency from monthly monitoring to no less than quarterly monitoring\" if the system meets the listed criteria.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.855, Routine monitoring requirements for community water systems serving 1,000 or fewer people using only ground water (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.855"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The State may reduce the monitoring frequency from monthly monitoring to no less than quarterly monitoring"
+    },
+    {
+      "id": "tc-010",
+      "topic": "Subpart H systems and systems serving more than 1,000",
+      "question": "Under 141.856(b), what routine total coliform monitoring frequency applies to a subpart H system serving 1,000 or fewer people, including a consecutive system?",
+      "options": {
+        "A": "Quarterly, once it has a clean compliance history for 12 months",
+        "B": "Annually, after a State site visit equivalent to a Level 2 assessment",
+        "C": "Quarterly, if it is in compliance with State-certified operator provisions",
+        "D": "Monthly, with no reduction allowed"
+      },
+      "answer": "D",
+      "explanation": "\"Subpart H systems of this part (including consecutive systems) must monitor monthly. Systems may not reduce monitoring.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.856, Routine monitoring requirements for subpart H public water systems serving 1,000 or fewer people (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.856"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Subpart H systems of this part (including consecutive systems) must monitor monthly. Systems may not reduce monitoring."
+    },
+    {
+      "id": "tc-011",
+      "topic": "Subpart H systems and systems serving more than 1,000",
+      "question": "Under 141.857(c), what must a subpart H system that does not practice filtration in compliance with subparts H, P, T and W do on each day its source water turbidity (measured as specified in 141.74(b)(2)) exceeds 1 NTU?",
+      "options": {
+        "A": "Collect three repeat samples at the entry point to the distribution system",
+        "B": "Collect at least one total coliform sample near the first service connection",
+        "C": "Double the number of routine samples for that month",
+        "D": "Collect a coliform sample at the farthest point of the distribution system"
+      },
+      "answer": "B",
+      "explanation": "The system \"must collect at least one total coliform sample near the first service connection each day the turbidity level of the source water, measured as specified in § 141.74(b)(2), exceeds 1 NTU.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.857, Routine monitoring requirements for public water systems serving more than 1,000 people (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.857"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must collect at least one total coliform sample near the first service connection each day the turbidity level of the source water, measured as specified in § 141.74(b)(2), exceeds 1 NTU."
+    },
+    {
+      "id": "tc-012",
+      "topic": "Subpart H systems and systems serving more than 1,000",
+      "question": "What minimum number of total coliform samples per month does the table in 141.857(b) set for a public water system serving 3,000 people?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "3",
+        "D": "5"
+      },
+      "answer": "C",
+      "explanation": "The 141.857(b) table row \"2,501 to 3,300\" sets a minimum of 3 samples per month.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.857, Routine monitoring requirements for public water systems serving more than 1,000 people (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.857"
+      },
+      "checked": "2026-11-06",
+      "evidence": "2,501 to 3,300 3"
+    },
+    {
+      "id": "tc-013",
+      "topic": "Repeat monitoring and E. coli testing",
+      "question": "After a sample is total coliform-positive, what minimum number of repeat samples does 141.858(a)(1) set for each total coliform-positive sample found?",
+      "options": {
+        "A": "Three",
+        "B": "One",
+        "C": "Two",
+        "D": "Four"
+      },
+      "answer": "A",
+      "explanation": "\"The system must collect no fewer than three repeat samples for each total coliform-positive sample found.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.858, Repeat monitoring and E. coli requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.858"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The system must collect no fewer than three repeat samples for each total coliform-positive sample found."
+    },
+    {
+      "id": "tc-014",
+      "topic": "Repeat monitoring and E. coli testing",
+      "question": "Absent a State extension, what deadline does 141.858(a)(1) set for collecting the set of repeat samples after a total coliform-positive sample?",
+      "options": {
+        "A": "Within 24 hours of collecting the original sample",
+        "B": "Within 10 days of being notified of the positive result",
+        "C": "Within 30 days of being notified of the positive result",
+        "D": "Within 24 hours of being notified of the positive result"
+      },
+      "answer": "D",
+      "explanation": "\"The system must collect a set of repeat samples within 24 hours of being notified of the positive result.\" The State may extend this case by case for a logistical problem beyond the system's control.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.858, Repeat monitoring and E. coli requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.858"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the system must collect a set of repeat samples within 24 hours of being notified of the positive result."
+    },
+    {
+      "id": "tc-015",
+      "topic": "Repeat monitoring and E. coli testing",
+      "question": "A total coliform-positive culture is found to contain E. coli, and the system is notified while the State office is open. Under 141.858(b)(1), when must the system notify the State?",
+      "options": {
+        "A": "Within 10 days after the system is notified",
+        "B": "By the end of the day when the system is notified of the test result",
+        "C": "Within 30 days after the system is notified",
+        "D": "With the next monthly monitoring report"
+      },
+      "answer": "B",
+      "explanation": "\"If E. coli are present, the system must notify the State by the end of the day when the system is notified of the test result\"; the next-business-day option applies only when the State office is closed without an after-hours line or alternative procedure.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.858, Repeat monitoring and E. coli requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.858"
+      },
+      "checked": "2026-11-06",
+      "evidence": "If E. coli are present, the system must notify the State by the end of the day when the system is notified of the test result"
+    },
+    {
+      "id": "tc-016",
+      "topic": "Treatment technique triggers and assessments",
+      "question": "A system takes 50 total coliform samples per month. Under 141.859(a)(1)(i), what sample result is its Level 1 treatment technique trigger?",
+      "options": {
+        "A": "Exceeding 10.0% total coliform-positive samples for the month",
+        "B": "Any single total coliform-positive sample",
+        "C": "Exceeding 5.0% total coliform-positive samples for the month",
+        "D": "Exceeding 1.0% total coliform-positive samples for the month"
+      },
+      "answer": "C",
+      "explanation": "\"For systems taking 40 or more samples per month, the system exceeds 5.0% total coliform-positive samples for the month.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.859, Coliform treatment technique triggers and assessment requirements for protection against potential fecal contamination (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.859"
+      },
+      "checked": "2026-11-06",
+      "evidence": "For systems taking 40 or more samples per month, the system exceeds 5.0% total coliform-positive samples for the month."
+    },
+    {
+      "id": "tc-017",
+      "topic": "Treatment technique triggers and assessments",
+      "question": "Which event does 141.859(a)(2) list as a Level 2 treatment technique trigger?",
+      "options": {
+        "A": "An E. coli MCL violation",
+        "B": "A single total coliform-positive routine sample",
+        "C": "One missed routine sample in a compliance period",
+        "D": "A source water turbidity reading above 1 NTU"
+      },
+      "answer": "A",
+      "explanation": "The Level 2 triggers include \"An E. coli MCL violation, as specified in § 141.860(a).\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.859, Coliform treatment technique triggers and assessment requirements for protection against potential fecal contamination (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.859"
+      },
+      "checked": "2026-11-06",
+      "evidence": "An E. coli MCL violation, as specified in § 141.860(a)."
+    },
+    {
+      "id": "tc-018",
+      "topic": "Treatment technique triggers and assessments",
+      "question": "What deadline does 141.859(b)(3)(i) set for submitting the completed Level 1 assessment form to the State?",
+      "options": {
+        "A": "Within 24 hours after the system learns that it has exceeded a trigger",
+        "B": "Within 30 days after the system learns that it has exceeded a trigger",
+        "C": "By the end of the next business day after the trigger",
+        "D": "Within one year after the trigger"
+      },
+      "answer": "B",
+      "explanation": "\"The system must submit the completed Level 1 assessment form to the State within 30 days after the system learns that it has exceeded a trigger.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.859, Coliform treatment technique triggers and assessment requirements for protection against potential fecal contamination (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.859"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The system must submit the completed Level 1 assessment form to the State within 30 days after the system learns that it has exceeded a trigger."
+    },
+    {
+      "id": "tc-019",
+      "topic": "Violations, reporting and recordkeeping",
+      "question": "Which situation does 141.860(a) list as a violation of the MCL for E. coli?",
+      "options": {
+        "A": "The system has one total coliform-positive routine sample in which E. coli are not present",
+        "B": "The system fails to take every required routine sample in a compliance period",
+        "C": "The system fails to submit a completed assessment form after properly conducting the assessment",
+        "D": "The system fails to take all required repeat samples following an E. coli-positive routine sample"
+      },
+      "answer": "D",
+      "explanation": "141.860(a)(3): \"The system fails to take all required repeat samples following an E. coli-positive routine sample.\" Missing routine samples is a monitoring violation and a late assessment form is a reporting violation.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.860, Violations (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.860"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The system fails to take all required repeat samples following an E. coli-positive routine sample."
+    },
+    {
+      "id": "tc-020",
+      "topic": "Violations, reporting and recordkeeping",
+      "question": "What deadline does 141.861(a)(4) set for a system to report a coliform monitoring violation to the State?",
+      "options": {
+        "A": "By the end of the day the system discovers the violation",
+        "B": "Within 48 hours after the system discovers the violation",
+        "C": "Within 10 days after the system discovers the violation",
+        "D": "Within 90 days after the system discovers the violation"
+      },
+      "answer": "C",
+      "explanation": "A system that failed a coliform monitoring requirement \"must report the monitoring violation to the State within 10 days after the system discovers the violation, and notify the public in accordance with subpart Q of this part.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.861, Reporting and recordkeeping (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-Y/section-141.861"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must report the monitoring violation to the State within 10 days after the system discovers the violation, and notify the public in accordance with subpart Q of this part."
+    }
+  ]
+}
