@@ -350,15 +350,15 @@
     {
       "id": "mc-020",
       "topic": "Radionuclides",
-      "question": "Under 141.66(d)(2), on what drinking water intake must the concentration of man-made radionuclides causing 4 mrem total body or organ dose equivalents be calculated, for radionuclides not listed in table A?",
+      "question": "Table A in 141.66(d) gives average annual concentrations assumed to produce a total body or organ dose of 4 mrem/yr. Which radionuclides does it list?",
       "options": {
-        "A": "1 liter per day",
-        "B": "2 liters per day",
-        "C": "3 liters per day",
-        "D": "5 liters per day"
+        "A": "Radium-226 and radium-228",
+        "B": "Tritium and strontium-90",
+        "C": "Uranium and radon",
+        "D": "Gross alpha emitters and radium-226"
       },
       "answer": "B",
-      "explanation": "\"Except for the radionuclides listed in table A, the concentration of man-made radionuclides causing 4 mrem total body or organ dose equivalents must be calculated on the basis of 2 liter per day drinking water intake using the 168 hour data list\" in NBS Handbook 69.",
+      "explanation": "Table A, \"Average annual concentrations assumed to produce: a total body or organ dose of 4 mrem/yr\", has two rows: \"Tritium Total body 20,000\" and \"Strontium-90 Bone Marrow 8\" (pCi per liter). For other man-made radionuclides the concentration is calculated under 141.66(d)(2).",
       "source": {
         "title": "eCFR: 40 CFR 141.66, Maximum contaminant levels for radionuclides (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.66"
