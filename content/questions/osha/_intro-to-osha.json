@@ -1,7 +1,7 @@
 {
   "cluster": "osha",
   "slug": "intro-to-osha",
-  "title": "OSHA construction Introduction to OSHA practice questions",
+  "title": "Introduction to OSHA practice questions",
   "description": "Free Introduction to OSHA practice questions on 29 CFR 1903 and 1904. Every answer is explained and linked to the section it comes from.",
   "href": "/osha/intro-to-osha/practice-test/",
   "questions": [
@@ -141,7 +141,7 @@
     {
       "id": "io-008",
       "topic": "Imminent danger",
-      "question": "When a Compliance Safety and Health Officer concludes that an imminent danger exists, whom must the officer inform?",
+      "question": "On the basis of an inspection, a Compliance Safety and Health Officer concludes that conditions could reasonably be expected to cause death or serious physical harm immediately or before the danger can be eliminated through the Act's other enforcement procedures. Whom must the officer inform?",
       "options": {
         "A": "Only the local fire department",
         "B": "Only the employer's insurance carrier",
@@ -187,13 +187,13 @@
         "D": "Until April 30 of the following year"
       },
       "answer": "A",
-      "explanation": "Each citation \"shall remain posted until the violation has been abated, or for 3 working days, whichever is later.\" Filing a notice of contest does not end this duty unless the Review Commission vacates the citation.",
+      "explanation": "Each citation \"shall remain posted until the violation has been abated, or for 3 working days, whichever is later.\" Filing a notice of contest does not affect this duty \"unless and until the Review Commission issues a final order vacating the citation.\"",
       "source": {
         "title": "eCFR: 29 CFR 1903.16, Posting of citations (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.16"
       },
       "checked": "2026-11-05",
-      "evidence": "Each citation, or a copy thereof, shall remain posted until the violation has been abated, or for 3 working days, whichever is later."
+      "evidence": "Each citation, or a copy thereof, shall remain posted until the violation has been abated, or for 3 working days, whichever is later. The filing by the employer of a notice of intention to contest under § 1903.17 shall not affect his posting responsibility under this section unless and until the Review Commission issues a final order vacating the citation."
     },
     {
       "id": "io-011",
@@ -274,7 +274,7 @@
     {
       "id": "io-015",
       "topic": "Abatement",
-      "question": "Unless the officer saw and noted the abatement during the on-site inspection, when must an employer certify to OSHA that a cited violation has been abated?",
+      "question": "When must an employer certify to OSHA that a cited violation has been abated, unless the compliance officer observed the abatement during the on-site inspection within 24 hours after the violation was identified and noted it in the citation?",
       "options": {
         "A": "Before the closing conference",
         "B": "Within 24 hours of receiving the citation",
@@ -288,12 +288,12 @@
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.19"
       },
       "checked": "2026-11-05",
-      "evidence": "Within 10 calendar days after the abatement date, the employer must certify to OSHA (the Agency) that each cited violation has been abated, except as provided in paragraph (c)(2) of this section."
+      "evidence": "Within 10 calendar days after the abatement date, the employer must certify to OSHA (the Agency) that each cited violation has been abated, except as provided in paragraph (c)(2) of this section. (2) The employer is not required to certify abatement if the OSHA Compliance Officer, during the on-site portion of the inspection: (i) Observes, within 24 hours after a violation is identified, that abatement has occurred; and (ii) Notes in the citation that abatement has occurred."
     },
     {
       "id": "io-016",
       "topic": "Who keeps records",
-      "question": "A company had 10 or fewer employees at all times during the last calendar year, and OSHA has not told it in writing to keep records. What does Part 1904 require?",
+      "question": "A company had 10 or fewer employees at all times during the last calendar year, and neither OSHA nor the Bureau of Labor Statistics has informed it in writing that it must keep records. What does Part 1904 require?",
       "options": {
         "A": "It must keep full OSHA 300, 300-A and 301 records",
         "B": "It need not keep OSHA injury and illness records, but must still report fatalities, in-patient hospitalizations, amputations and eye losses",
@@ -369,7 +369,7 @@
     {
       "id": "io-020",
       "topic": "Reporting to OSHA",
-      "question": "An employee's work-related incident results in in-patient hospitalization. Within what time must the employer report it to OSHA?",
+      "question": "A work-related incident results in an employee's in-patient hospitalization (a formal admission for care or treatment) on the same day as the incident. Within what time after the hospitalization must the employer report it to OSHA?",
       "options": {
         "A": "Within eight (8) hours",
         "B": "Within seven (7) calendar days",
@@ -383,7 +383,7 @@
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-E/section-1904.39"
       },
       "checked": "2026-11-05",
-      "evidence": "Within twenty-four (24) hours after the in-patient hospitalization of one or more employees or an employee's amputation or an employee's loss of an eye, as a result of a work-related incident, you must report the in-patient hospitalization, amputation, or loss of an eye to OSHA."
+      "evidence": "Within eight (8) hours after the death of any employee as a result of a work-related incident, you must report the fatality to the Occupational Safety and Health Administration (OSHA), U.S. Department of Labor. (2) Within twenty-four (24) hours after the in-patient hospitalization of one or more employees or an employee's amputation or an employee's loss of an eye, as a result of a work-related incident, you must report the in-patient hospitalization, amputation, or loss of an eye to OSHA."
     }
   ]
 }

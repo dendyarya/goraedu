@@ -4,7 +4,7 @@
   "href": "/osha/hazard-communication/study-guide/",
   "title": "OSHA construction hazard communication study guide",
   "description": "OSHA HazCom study guide for construction: scope, the written program, labels, safety data sheets, training and 2024 revision dates, linked to 29 CFR 1910.1200.",
-  "intro": "OSHA's construction rules at 29 CFR 1926.59 say the hazard communication requirements for construction work are identical to 29 CFR 1910.1200, the Hazard Communication Standard. This guide sets out what that rule text states on scope, key definitions, the written hazard communication program, labels, safety data sheets, employee information and training, trade secrets and the dates of the 2024 revision. The detailed hazard classification criteria in Appendices A and B are not summarized. Every point links to the regulation and quotes its exact words. It is an independent study aid, not OSHA training.",
+  "intro": "OSHA's construction rules at 29 CFR 1926.59 say the hazard communication requirements for construction work are identical to 29 CFR 1910.1200, the Hazard Communication Standard. This guide sets out what that rule text states on scope, key definitions, the written hazard communication program, labels, safety data sheets, employee information and training, trade secrets and the dates of the 2024 revision. The detailed hazard classification criteria in Appendices A and B are not summarized. Every point links to the regulation and quotes its exact words, as revised in 2024; until the compliance dates in 1910.1200(j), the version revised as of July 1, 2023 may also be followed. It is an independent study aid, not OSHA training.",
   "topics": [
     {
       "id": "scope",
@@ -38,7 +38,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Employers who do not produce or import chemicals (most construction contractors) need only focus on the parts about setting up a workplace program and communicating information to their workers.",
+          "text": "Employers who do not produce or import chemicals need only focus on the parts of the rule about setting up a workplace program and communicating information to their workers.",
           "quote": "Employers who do not produce or import chemicals need only focus on those parts of this rule that deal with establishing a workplace program and communicating information to their workers.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
@@ -56,8 +56,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Wood and wood products can be exempt only where the manufacturer or importer shows the only hazard is flammability or combustibility. Treated wood, and wood that may later be sawed or cut and generate dust, is not exempted.",
-          "quote": "wood or wood products which have been treated with a hazardous chemical covered by this standard, and wood which may be subsequently sawed or cut, generating dust, are not exempted",
+          "text": "The standard does not apply to wood or wood products, including lumber which will not be processed, where the chemical manufacturer or importer can establish that the only hazard to employees is the potential for flammability or combustibility. Wood or wood products treated with a hazardous chemical covered by the standard, and wood which may later be sawed or cut, generating dust, are not exempted.",
+          "quote": "Wood or wood products, including lumber which will not be processed, where the chemical manufacturer or importer can establish that the only hazard they pose to employees is the potential for flammability or combustibility (wood or wood products which have been treated with a hazardous chemical covered by this standard, and wood which may be subsequently sawed or cut, generating dust, are not exempted)",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -65,7 +65,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Consumer products are excluded only where the employer can show they are used for the purpose the manufacturer intended, with exposure no longer or more frequent than consumers could reasonably experience.",
+          "text": "A consumer product or hazardous substance (as defined in the Consumer Product Safety Act and the Federal Hazardous Substances Act) is outside the standard only where the employer can show it is used in the workplace for the purpose intended by the chemical manufacturer or importer, and the duration and frequency of exposure are not greater than the range consumers could reasonably experience when using it for that purpose.",
           "quote": "where the employer can show that it is used in the workplace for the purpose intended by the chemical manufacturer or importer of the product, and the use results in a duration and frequency of exposure which is not greater than the range of exposures that could reasonably be experienced by consumers when used for the purpose intended",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
@@ -74,8 +74,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Chemical manufacturers and importers classify the hazards of their chemicals. Other employers do not have to classify chemicals unless they choose not to rely on the manufacturer's or importer's classification, and there is no requirement to test a chemical to classify it.",
-          "quote": "Employers are not required to classify chemicals unless they choose not to rely on the classification performed by the chemical manufacturer or importer for the chemical to satisfy this paragraph (d)(1).",
+          "text": "Chemical manufacturers and importers must evaluate the chemicals they produce or import to classify them. Other employers are not required to classify chemicals unless they choose not to rely on the classification performed by the chemical manufacturer or importer.",
+          "quote": "Chemical manufacturers and importers shall evaluate chemicals produced in their workplaces or imported by them to classify the chemicals in accordance with this section. Employers are not required to classify chemicals unless they choose not to rely on the classification performed by the chemical manufacturer or importer for the chemical to satisfy this paragraph (d)(1).",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -83,7 +83,7 @@
           "checked": "2026-11-05"
         }
       ],
-      "notCovered": "The other exclusions in 1910.1200(b)(5) and (b)(6) (pesticides, food, drugs, hazardous waste and others, each with its own conditions), the limited rules for laboratories and sealed-container operations, and the classification criteria in mandatory Appendices A and B."
+      "notCovered": "The labeling exemptions in 1910.1200(b)(5) and the other exclusions in (b)(6) (pesticides, food, drugs, hazardous waste and others, each with its own conditions), the limited rules for laboratories and sealed-container operations, and the classification criteria in mandatory Appendices A and B."
     },
     {
       "id": "definitions",
@@ -135,8 +135,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A container is any bag, barrel, bottle, box, can, cylinder, drum, tank or the like holding a hazardous chemical. Pipes and piping systems, and engines, fuel tanks or other operating systems in a vehicle, are not containers under this section.",
-          "quote": "For purposes of this section, pipes or piping systems, and engines, fuel tanks, or other operating systems in a vehicle, are not considered to be containers.",
+          "text": "A container is any bag, barrel, bottle, box, can, cylinder, drum, reaction vessel, storage tank or the like that contains a hazardous chemical. Pipes and piping systems, and engines, fuel tanks or other operating systems in a vehicle, are not containers under this section.",
+          "quote": "Container means any bag, barrel, bottle, box, can, cylinder, drum, reaction vessel, storage tank, or the like that contains a hazardous chemical. For purposes of this section, pipes or piping systems, and engines, fuel tanks, or other operating systems in a vehicle, are not considered to be containers.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -153,8 +153,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The product identifier is the name or number used for a hazardous chemical on the label or SDS. It must allow cross-references among the written program's chemical list, the label and the SDS.",
-          "quote": "The product identifier used shall permit cross-references to be made among the list of hazardous chemicals required in the written hazard communication program, the label and the SDS.",
+          "text": "The product identifier is the name or number used for a hazardous chemical on a label or in the SDS. It must allow cross-references among the written program's chemical list, the label and the SDS.",
+          "quote": "Product identifier means the name or number used for a hazardous chemical on a label or in the SDS. It provides a unique means by which the user can identify the chemical. The product identifier used shall permit cross-references to be made among the list of hazardous chemicals required in the written hazard communication program, the label and the SDS.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -196,8 +196,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "On multi-employer workplaces, an employer whose chemicals may expose other employers' workers (the rule's example is a construction contractor working on-site) must add how it will give those employers on-site access to the SDSs.",
-          "quote": "The methods the employer will use to provide the other employer(s) on-site access to safety data sheets for each hazardous chemical the other employer(s)' employees may be exposed to while working",
+          "text": "On multi-employer workplaces, employers who produce, use or store hazardous chemicals so that employees of other employers may be exposed (the rule's example: employees of a construction contractor working on-site) must add to their program the methods they will use to give those other employers on-site access to the SDSs.",
+          "quote": "Employers who produce, use, or store hazardous chemicals at a workplace in such a way that the employees of other employer(s) may be exposed (for example, employees of a construction contractor working on-site) shall additionally ensure that the hazard communication programs developed and implemented under this paragraph (e) include the following: (i) The methods the employer will use to provide the other employer(s) on-site access to safety data sheets",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -238,8 +238,8 @@
       "name": "Labels and other forms of warning",
       "points": [
         {
-          "text": "Labels on shipped containers (the duty of the chemical manufacturer, importer or distributor) must show the product identifier, signal word, hazard statements, pictograms, precautionary statements, and the U.S. name, address and phone number of the manufacturer, importer or other responsible party.",
-          "quote": "Product identifier; (ii) Signal word; (iii) Hazard statement(s); (iv) Pictogram(s); (v) Precautionary statement(s); (vi) Name, U.S. address, and U.S. telephone number of the chemical manufacturer, importer, or other responsible party.",
+          "text": "Where the chemical manufacturer, importer or distributor must label, tag or mark a container, the label must show the product identifier, signal word, hazard statement(s), pictogram(s), precautionary statement(s), and the name, U.S. address and U.S. telephone number of the chemical manufacturer, importer or other responsible party (wording of the 2024 revision; see the transition dates below).",
+          "quote": "Where the chemical manufacturer, importer, or distributor is required to label, tag or mark the following shall be provided: (i) Product identifier; (ii) Signal word; (iii) Hazard statement(s); (iv) Pictogram(s); (v) Precautionary statement(s); (vi) Name, U.S. address, and U.S. telephone number of the chemical manufacturer, importer, or other responsible party.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -265,8 +265,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Mandatory Appendix C: a pictogram is a square set at a point, with a black hazard symbol on a white background and a red frame wide enough to be clearly visible. The standard designates eight pictograms.",
-          "quote": "Pictograms shall be in the shape of a square set at a point and shall include a black hazard symbol on a white background with a red frame sufficiently wide to be clearly visible.",
+          "text": "Mandatory Appendix C: a pictogram is a square set at a point, with a black hazard symbol on a white background and a red frame wide enough to be clearly visible. A red frame without a hazard symbol is not a pictogram and is not permitted on the label. Each pictogram uses one of eight standard hazard symbols.",
+          "quote": "Pictograms shall be in the shape of a square set at a point and shall include a black hazard symbol on a white background with a red frame sufficiently wide to be clearly visible. A square red frame set at a point without a hazard symbol is not a pictogram and is not permitted on the label. C.2.3.2 One of eight standard hazard symbols shall be used in each pictogram.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Appendix C (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -274,8 +274,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "In the workplace, each container of hazardous chemicals must be labeled, tagged or marked either with the full shipped-container information, or with the product identifier plus words, pictures or symbols giving at least general hazard information (exceptions in (f)(7) and (f)(8)).",
-          "quote": "Product identifier and words, pictures, symbols, or combination thereof, which provide at least general information regarding the hazards of the chemicals",
+          "text": "In the workplace, each container of hazardous chemicals must be labeled, tagged or marked either with the full shipped-container information, or with the product identifier plus words, pictures or symbols giving at least general hazard information, which together with the other information immediately available under the program gives employees the specific physical and health hazard information (exceptions in (f)(7) and (f)(8)).",
+          "quote": "Product identifier and words, pictures, symbols, or combination thereof, which provide at least general information regarding the hazards of the chemicals, and which, in conjunction with the other information immediately available to employees under the hazard communication program, will provide employees with the specific information regarding the physical and health hazards of the hazardous chemical.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -292,8 +292,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Portable containers filled from labeled containers need no label if they are intended only for the immediate use of the employee who does the transfer. Immediate use means used only by that person and only within the work shift of the transfer.",
+          "text": "The employer is not required to label portable containers filled from labeled containers if they are intended only for the immediate use of the employee who performs the transfer.",
           "quote": "The employer is not required to label portable containers into which hazardous chemicals are transferred from labeled containers, and which are intended only for the immediate use of the employee who performs the transfer.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Immediate use means the hazardous chemical is under the control of, and used only by, the person who transfers it from a labeled container, and only within the work shift in which it is transferred.",
+          "quote": "Immediate use means that the hazardous chemical will be under the control of and used only by the person who transfers it from a labeled container and only within the work shift in which it is transferred.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -310,8 +319,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Workplace labels must be legible, in English, and prominently displayed or readily available in the work area. Information in other languages may be added as long as it is also in English.",
-          "quote": "Employers having employees who speak other languages may add the information in their language to the material presented, as long as the information is presented in English as well.",
+          "text": "Workplace labels or other forms of warning must be legible, in English, and prominently displayed on the container or readily available in the work area throughout each work shift. Information in other languages may be added as long as it is also in English.",
+          "quote": "The employer shall ensure that workplace labels or other forms of warning are legible, in English, and prominently displayed on the container, or readily available in the work area throughout each work shift. Employers having employees who speak other languages may add the information in their language to the material presented, as long as the information is presented in English as well.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -319,8 +328,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Whoever becomes newly aware of significant hazard information must revise the labels within six months.",
-          "quote": "shall revise the labels for the chemical within six months of becoming aware of the new information",
+          "text": "Chemical manufacturers, importers, distributors or employers who become newly aware of significant information about a chemical's hazards must revise the labels within six months.",
+          "quote": "Chemical manufacturers, importers, distributors, or employers who become newly aware of any significant information regarding the hazards of a chemical shall revise the labels for the chemical within six months of becoming aware of the new information",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -336,7 +345,7 @@
       "points": [
         {
           "text": "Chemical manufacturers and importers must obtain or develop an SDS for each hazardous chemical they produce or import. Employers must have an SDS in the workplace for each hazardous chemical they use.",
-          "quote": "Employers shall have a safety data sheet in the workplace for each hazardous chemical which they use.",
+          "quote": "Chemical manufacturers and importers shall obtain or develop a safety data sheet for each hazardous chemical they produce or import. Employers shall have a safety data sheet in the workplace for each hazardous chemical which they use.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -344,7 +353,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The SDS must be in English (copies in other languages are allowed) and use these section numbers and headings in order, starting with Section 1 Identification through Section 8 Exposure controls/personal protection.",
+          "text": "The chemical manufacturer or importer must make sure the SDS is in English (the employer may keep copies in other languages as well) and includes at least these section numbers and headings in the order listed, starting with Section 1 Identification through Section 8 Exposure controls/personal protection.",
           "quote": "Section 1, Identification; (ii) Section 2, Hazard(s) identification; (iii) Section 3, Composition/information on ingredients; (iv) Section 4, First-aid measures; (v) Section 5, Fire-fighting measures; (vi) Section 6, Accidental release measures; (vii) Section 7, Handling and storage; (viii) Section 8, Exposure controls/personal protection;",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
@@ -362,8 +371,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "OSHA does not enforce the information in Sections 12 to 15 because those areas are not under its jurisdiction. Mandatory Appendix D says Sections 12 to 15 may be included but are not mandatory.",
-          "quote": "OSHA will not be enforcing information requirements in sections 12 through 15, as these areas are not under its jurisdiction.",
+          "text": "To be consistent with the GHS, an SDS must also include the headings for Sections 12 to 15 in order, but OSHA will not enforce the information requirements in Sections 12 to 15 because those areas are not under its jurisdiction.",
+          "quote": "To be consistent with the GHS, an SDS must also include the headings in paragraphs (g)(2)(xii) through (g)(2)(xv) of this section in order. Note 2 to paragraph (g)(2): OSHA will not be enforcing information requirements in sections 12 through 15, as these areas are not under its jurisdiction.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -380,7 +389,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "New significant information about a chemical's hazards, or ways to protect against them, must be added to the SDS within three months.",
+          "text": "If the preparer of the SDS becomes newly aware of significant information about a chemical's hazards, or ways to protect against them, the new information must be added to the SDS within three months.",
           "quote": "this new information shall be added to the safety data sheet within three months.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
@@ -390,7 +399,7 @@
         },
         {
           "text": "Employers must keep copies of the required SDSs in the workplace and make them readily accessible to employees in their work areas during each work shift. Electronic access is allowed if it creates no barriers to immediate employee access.",
-          "quote": "Electronic access and other alternatives to maintaining paper copies of the safety data sheets are permitted as long as no barriers to immediate employee access in each workplace are created by such options.",
+          "quote": "The employer shall maintain in the workplace copies of the required safety data sheets for each hazardous chemical, and shall ensure that they are readily accessible during each work shift to employees when they are in their work area(s). (Electronic access and other alternatives to maintaining paper copies of the safety data sheets are permitted as long as no barriers to immediate employee access in each workplace are created by such options.)",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -399,7 +408,7 @@
         },
         {
           "text": "Where employees travel between workplaces during a workshift, SDSs may be kept at the primary workplace facility, but employees must be able to get the information immediately in an emergency.",
-          "quote": "In this situation, the employer shall ensure that employees can immediately obtain the required information in an emergency.",
+          "quote": "Where employees must travel between workplaces during a workshift, i.e., their work is carried out at more than one geographical location, the safety data sheets may be kept at the primary workplace facility. In this situation, the employer shall ensure that employees can immediately obtain the required information in an emergency.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -433,7 +442,7 @@
         },
         {
           "text": "Employees must be informed of the requirements of the standard, operations in their work area where hazardous chemicals are present, and where the written program, chemical list and SDSs are and how to get them.",
-          "quote": "The location and availability of the written hazard communication program, including the required list(s) of hazardous chemicals, and safety data sheets required by this section.",
+          "quote": "Employees shall be informed of: (i) The requirements of this section; (ii) Any operations in their work area where hazardous chemicals are present; and, (iii) The location and availability of the written hazard communication program, including the required list(s) of hazardous chemicals, and safety data sheets required by this section.",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -450,8 +459,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Training must cover the hazards of the chemicals in the work area and the protective measures employees can take, including the employer's work practices, emergency procedures and personal protective equipment.",
-          "quote": "The measures employees can take to protect themselves from these hazards, including specific procedures the employer has implemented to protect employees from exposure to hazardous chemicals, such as appropriate work practices, emergency procedures, and personal protective equipment to be used",
+          "text": "Training must cover the physical, health, simple asphyxiation, combustible dust and pyrophoric gas hazards, and hazards not otherwise classified, of the chemicals in the work area, and the protective measures employees can take, including the employer's work practices, emergency procedures and personal protective equipment.",
+          "quote": "The physical, health, simple asphyxiation, combustible dust, and pyrophoric gas hazards, as well as hazards not otherwise classified, of the chemicals in the work area; (iii) The measures employees can take to protect themselves from these hazards, including specific procedures the employer has implemented to protect employees from exposure to hazardous chemicals, such as appropriate work practices, emergency procedures, and personal protective equipment to be used",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -474,8 +483,8 @@
       "name": "Trade secrets",
       "points": [
         {
-          "text": "A manufacturer, importer or employer may withhold the specific chemical identity or exact concentration from Section 3 of the SDS as a trade secret, only under the conditions in (i)(1), including that the SDS discloses the chemical's properties and effects and says the information is being withheld.",
-          "quote": "The safety data sheet indicates that the specific chemical identity and/or concentration or concentration range of composition is being withheld as a trade secret;",
+          "text": "A manufacturer, importer or employer may withhold the specific chemical identity or the exact concentration of a substance in a mixture from Section 3 of the SDS as a trade secret only under the conditions in (i)(1). These include that the claim can be supported, that the SDS discloses the chemical's properties and effects, and that the SDS says the information is being withheld as a trade secret.",
+          "quote": "The claim that the information withheld is a trade secret can be supported; (ii) Information contained in the safety data sheet concerning the properties and effects of the hazardous chemical is disclosed; (iii) The safety data sheet indicates that the specific chemical identity and/or concentration or concentration range of composition is being withheld as a trade secret;",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -493,7 +502,7 @@
         },
         {
           "text": "A denial of a written (non-emergency) request for disclosure must be given within thirty days of the request, in writing, with evidence and specific reasons.",
-          "quote": "Be provided to the health professional, employee, or designated representative, within thirty days of the request;",
+          "quote": "Be provided to the health professional, employee, or designated representative, within thirty days of the request; (ii) Be in writing; (iii) Include evidence to support the claim that the specific chemical identity or percent of composition is a trade secret; (iv) State the specific reasons why the request is being denied;",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
@@ -501,7 +510,7 @@
           "checked": "2026-11-05"
         }
       ],
-      "notCovered": "The prescribed concentration ranges in (i)(1)(iv), the non-emergency request process in (i)(3) to (i)(13), and Appendix E's trade secret definition."
+      "notCovered": "The prescribed concentration ranges in (i)(1)(iv), the rest of the non-emergency request process in (i)(3) to (i)(13), and the trade secret criteria in mandatory Appendix E."
     },
     {
       "id": "dates",
@@ -517,8 +526,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The modified provisions phase in. For substances: manufacturers, importers and distributors by May 19, 2026, and all employers must, as necessary, update alternative workplace labeling, the program and added training by November 20, 2026. For mixtures: manufacturers, importers and distributors by November 19, 2027, and all employers by May 19, 2028.",
-          "quote": "provide any additional employee training in accordance with paragraph (h)(3) of this section for newly identified physical hazard, or health hazards or other hazards covered under this section no later than November 20, 2026.",
+          "text": "Substances: manufacturers, importers and distributors evaluating substances had to comply with all modified provisions by May 19, 2026. All employers must, as necessary, update alternative workplace labeling, the hazard communication program and additional training for newly identified hazards of substances by November 20, 2026.",
+          "quote": "Manufacturers, importers, and distributors, evaluating substances shall be in compliance with all modified provisions of this section no later than May 19, 2026. (ii) For substances, all employers shall, as necessary, update any alternative workplace labeling used under paragraph (f)(6) of this section, update the hazard communication program required by paragraph (h)(1) of this section, and provide any additional employee training",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Mixtures: chemical manufacturers, importers and distributors evaluating mixtures must comply with all modified provisions by November 19, 2027. All employers must, as necessary, make the same labeling, program and training updates for mixtures by May 19, 2028.",
+          "quote": "Chemical manufacturers, importers, and distributors evaluating mixtures shall be in compliance with all modified provisions of this section no later than November 19, 2027. (ii) For mixtures, all employers shall, as necessary, update any alternative workplace labeling used under paragraph (f)(6) of this section",
           "source": {
             "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1200"

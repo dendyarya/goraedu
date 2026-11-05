@@ -2,7 +2,7 @@
   "cluster": "osha",
   "slug": "intro-to-osha",
   "href": "/osha/intro-to-osha/study-guide/",
-  "title": "OSHA construction Introduction to OSHA study guide",
+  "title": "Introduction to OSHA study guide",
   "description": "Introduction to OSHA study guide: the OSHA poster, inspections, complaints, citations, contests, injury records and severe injury reporting (29 CFR 1903, 1904).",
   "intro": "This guide covers two OSHA rules that apply to construction employers as they do to other employers: 29 CFR Part 1903 (inspections, complaints, citations and contests) and 29 CFR Part 1904 (recording and reporting work-related injuries and illnesses). It sets out what the rule text states on the OSHA poster, how inspections and the walkaround work, employee complaints, imminent danger, citations and their posting, contests and abatement, who must keep injury records, the 300, 300-A and 301 forms, and reporting fatalities and severe injuries. Penalty dollar amounts are left out because they change every year. Every point links to the regulation and quotes its exact words.",
   "topics": [
@@ -45,15 +45,6 @@
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.2"
           },
           "checked": "2026-11-05"
-        },
-        {
-          "text": "If the employer has obtained copies of the Act, the regulations and the applicable standards, it must make them available on request to any employee or the employee's authorized representative, on the same day or at the earliest mutually convenient time.",
-          "quote": "If an employer has obtained copies of these materials, he shall make them available upon request to any employee or his authorized representative for review in the establishment where the employee is employed on the same day the request is made or at the earliest time mutually convenient to the employee or his authorized representative and the employer.",
-          "source": {
-            "title": "eCFR: 29 CFR 1903.2, Posting of notice; availability of the Act, regulations and applicable standards (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.2"
-          },
-          "checked": "2026-11-05"
         }
       ]
     },
@@ -71,8 +62,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "If entry or an employee representative's accompaniment is refused, the CSHO must end the inspection or limit it to areas with no objection, find out why, and immediately report the refusal to the Area Director, who consults the Regional Solicitor about action that can include compulsory process (such as an inspection warrant).",
-          "quote": "the Safety and Health Officer shall terminate the inspection or confine the inspection to other areas, conditions, structures, machines, apparatus, devices, equipment, materials, records, or interviews concerning which no objection is raised.",
+          "text": "If the employer refuses to let the CSHO enter, inspect, review records or question people, or refuses to let an employee representative accompany the CSHO, the CSHO must end the inspection or limit it to areas and items with no objection, try to find out why, and immediately report the refusal and the reason to the Area Director, who consults the Regional Solicitor about appropriate action, including compulsory process if necessary.",
+          "quote": "the Safety and Health Officer shall terminate the inspection or confine the inspection to other areas, conditions, structures, machines, apparatus, devices, equipment, materials, records, or interviews concerning which no objection is raised. The Compliance Safety and Health Officer shall endeavor to ascertain the reason for such refusal, and shall immediately report the refusal and the reason therefor to the Area Director. The Area Director shall consult with the Regional Solicitor, who shall take appropriate action, including compulsory process, if necessary.",
           "source": {
             "title": "eCFR: 29 CFR 1903.4, Objection to inspection (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.4"
@@ -99,7 +90,7 @@
         },
         {
           "text": "At the end of the inspection, the CSHO confers with the employer and informally advises it of any apparent violations, and the employer may bring pertinent information to the CSHO's attention.",
-          "quote": "At the conclusion of an inspection, the Compliance Safety and Health Officer shall confer with the employer or his representative and informally advise him of any apparent safety or health violations disclosed by the inspection.",
+          "quote": "At the conclusion of an inspection, the Compliance Safety and Health Officer shall confer with the employer or his representative and informally advise him of any apparent safety or health violations disclosed by the inspection. During such conference, the employer shall be afforded an opportunity to bring to the attention of the Compliance Safety and Health Officer any pertinent information regarding conditions in the workplace.",
           "source": {
             "title": "eCFR: 29 CFR 1903.7, Conduct of inspections (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.7"
@@ -109,6 +100,15 @@
         {
           "text": "A representative of the employer and a representative authorized by the employees must be given an opportunity to accompany the CSHO during the physical inspection, to aid the inspection.",
           "quote": "A representative of the employer and a representative authorized by his employees shall be given an opportunity to accompany the Compliance Safety and Health Officer during the physical inspection of any workplace for the purpose of aiding such inspection.",
+          "source": {
+            "title": "eCFR: 29 CFR 1903.8, Representatives of employers and employees (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.8"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The employees' authorized representative may be an employee of the employer or a third party. A third party may accompany the CSHO only if, in the CSHO's judgment, good cause has been shown that this is reasonably necessary to an effective and thorough physical inspection.",
+          "quote": "The representative(s) authorized by employees may be an employee of the employer or a third party. When the representative(s) authorized by employees is not an employee of the employer, they may accompany the Compliance Safety and Health Officer during the inspection if, in the judgment of the Compliance Safety and Health Officer, good cause has been shown why accompaniment by a third party is reasonably necessary to the conduct of an effective and thorough physical inspection of the workplace",
           "source": {
             "title": "eCFR: 29 CFR 1903.8, Representatives of employers and employees (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.8"
@@ -159,7 +159,7 @@
         },
         {
           "text": "If the complaint meets the requirements and there are reasonable grounds to believe the violation exists, the Area Director must have an inspection made as soon as practicable. The inspection is not limited to the matters in the complaint.",
-          "quote": "Inspections under this section shall not be limited to matters referred to in the complaint.",
+          "quote": "If upon receipt of such notification the Area Director determines that the complaint meets the requirements set forth in paragraph (a) of this section, and that there are reasonable grounds to believe that the alleged violation exists, he shall cause an inspection to be made as soon as practicable, to determine if such alleged violation exists. Inspections under this section shall not be limited to matters referred to in the complaint.",
           "source": {
             "title": "eCFR: 29 CFR 1903.11, Complaints by employees (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.11"
@@ -168,7 +168,7 @@
         },
         {
           "text": "Section 11(c)(1) of the Act, quoted in 1903.11, prohibits discharging or discriminating against an employee for filing a complaint, testifying, or exercising any right under the Act.",
-          "quote": "No person shall discharge or in any manner discriminate against any employee because such employee has filed any complaint or instituted or caused to be instituted any proceeding under or related to this Act",
+          "quote": "No person shall discharge or in any manner discriminate against any employee because such employee has filed any complaint or instituted or caused to be instituted any proceeding under or related to this Act or has testified or is about to testify in any such proceeding or because of the exercise by such employee on behalf of himself or others of any right afforded by this Act.",
           "source": {
             "title": "eCFR: 29 CFR 1903.11, Complaints by employees (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.11"
@@ -183,15 +183,6 @@
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.13"
           },
           "checked": "2026-11-05"
-        },
-        {
-          "text": "Citations and proposed penalties may still be issued for an imminent danger even if the employer immediately eliminates the imminence of the danger after being told.",
-          "quote": "Appropriate citations and notices of proposed penalties may be issued with respect to an imminent danger even though, after being informed of such danger by the Compliance Safety and Health Officer, the employer immediately eliminates the imminence of the danger and initiates steps to abate such danger.",
-          "source": {
-            "title": "eCFR: 29 CFR 1903.13, Imminent danger (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.13"
-          },
-          "checked": "2026-11-05"
         }
       ]
     },
@@ -200,8 +191,8 @@
       "name": "Citations, contests and abatement",
       "points": [
         {
-          "text": "After reviewing the inspection report, the Area Director issues either a citation or a notice of de minimis violations (violations with no direct or immediate relationship to safety or health). It is issued even if the employer immediately abates the violation.",
-          "quote": "An appropriate citation or notice of de minimis violations shall be issued even though after being informed of an alleged violation by the Compliance Safety and Health Officer, the employer immediately abates, or initiates steps to abate, such alleged violation.",
+          "text": "If, after reviewing the CSHO's inspection report, the Area Director believes the employer has violated the Act or a standard, rule or order, he or she issues either a citation or a notice of de minimis violations (violations with no direct or immediate relationship to safety or health). It is issued even if the employer immediately abates, or starts steps to abate, the alleged violation after the CSHO informs it.",
+          "quote": "he shall issue to the employer either a citation or a notice of de minimis violations which have no direct or immediate relationship to safety or health. An appropriate citation or notice of de minimis violations shall be issued even though after being informed of an alleged violation by the Compliance Safety and Health Officer, the employer immediately abates, or initiates steps to abate, such alleged violation.",
           "source": {
             "title": "eCFR: 29 CFR 1903.14, Citations; notices of de minimis violations; policy regarding employee rescue activities (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.14"
@@ -218,7 +209,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "In setting a proposed penalty, the Area Director considers the size of the business, the gravity of the violation, the employer's good faith, and the history of previous violations. No penalties are proposed for de minimis violations.",
+          "text": "In setting a proposed penalty, the Area Director gives due consideration to the size of the business, the gravity of the violation, the employer's good faith, and the history of previous violations.",
           "quote": "giving due consideration to the appropriateness of the penalty with respect to the size of the business of the employer being charged, the gravity of the violation, the good faith of the employer, and the history of previous violations",
           "source": {
             "title": "eCFR: 29 CFR 1903.15, Proposed penalties (as of Nov 3, 2026)",
@@ -227,7 +218,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "On receiving a citation, the employer must immediately post it (or a copy), unedited, at or near each place an alleged violation occurred. Notices of de minimis violations need not be posted.",
+          "text": "On receiving a citation, the employer must immediately post it (or a copy), unedited, at or near each place an alleged violation referred to in the citation occurred, except as the rule otherwise provides.",
           "quote": "Upon receipt of any citation under the Act, the employer shall immediately post such citation, or a copy thereof, unedited, at or near each place an alleged violation referred to in the citation occurred, except as provided below.",
           "source": {
             "title": "eCFR: 29 CFR 1903.16, Posting of citations (as of Nov 3, 2026)",
@@ -236,8 +227,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The citation must stay posted until the violation is abated or for 3 working days, whichever is later. Filing a notice of contest does not end this duty unless the Review Commission issues a final order vacating the citation.",
-          "quote": "Each citation, or a copy thereof, shall remain posted until the violation has been abated, or for 3 working days, whichever is later.",
+          "text": "Where the nature of the operations makes posting at or near each place impracticable, the citation is posted, unedited, in a prominent place readily observable by all affected employees. For physically dispersed activities, it may be posted at the location to which employees report each day.",
+          "quote": "Where, because of the nature of the employer's operations, it is not practicable to post the citation at or near each place of alleged violation, such citation shall be posted, unedited, in a prominent place where it will be readily observable by all affected employees. For example, where employers are engaged in activities which are physically dispersed (see § 1903.2(b)), the citation may be posted at the location to which employees report each day.",
+          "source": {
+            "title": "eCFR: 29 CFR 1903.16, Posting of citations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.16"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The citation must stay posted until the violation is abated or for 3 working days, whichever is later. Filing a notice of contest does not change this duty unless and until the Review Commission issues a final order vacating the citation.",
+          "quote": "Each citation, or a copy thereof, shall remain posted until the violation has been abated, or for 3 working days, whichever is later. The filing by the employer of a notice of intention to contest under § 1903.17 shall not affect his posting responsibility under this section unless and until the Review Commission issues a final order vacating the citation.",
           "source": {
             "title": "eCFR: 29 CFR 1903.16, Posting of citations (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.16"
@@ -246,7 +246,7 @@
         },
         {
           "text": "An employer that wants to contest a citation or proposed penalty must notify the Area Director in writing, postmarked within 15 working days of receiving the notice of proposed penalty, and say whether it contests the citation, the penalty, or both.",
-          "quote": "Such notice of intention to contest shall be postmarked within 15 working days of the receipt by the employer of the notice of proposed penalty. Every notice of intention to contest shall specify whether it is directed to the citation or to the proposed penalty, or both.",
+          "quote": "notify the Area Director in writing that he intends to contest such citation or proposed penalty before the Review Commission. Such notice of intention to contest shall be postmarked within 15 working days of the receipt by the employer of the notice of proposed penalty. Every notice of intention to contest shall specify whether it is directed to the citation or to the proposed penalty, or both.",
           "source": {
             "title": "eCFR: 29 CFR 1903.17, Employer and employee contests before the Review Commission (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.17"
@@ -254,8 +254,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "An employee or employee representative may file a written notice alleging that the abatement period fixed in the citation is unreasonable, postmarked within 15 working days of the employer's receipt of the notice of proposed penalty or notice that no penalty is proposed.",
-          "quote": "file a written notice with the Area Director alleging that the period of time fixed in the citation for the abatement of the violation is unreasonable.",
+          "text": "An employee or employee representative of a cited employer may file a written notice with the Area Director alleging that the abatement period fixed in the citation is unreasonable. It must be postmarked within 15 working days of the employer's receipt of the notice of proposed penalty or notice that no penalty is being proposed.",
+          "quote": "file a written notice with the Area Director alleging that the period of time fixed in the citation for the abatement of the violation is unreasonable. Such notice shall be postmarked within 15 working days of the receipt by the employer of the notice of proposed penalty or notice that no penalty is being proposed.",
           "source": {
             "title": "eCFR: 29 CFR 1903.17, Employer and employee contests before the Review Commission (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.17"
@@ -272,7 +272,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "An affected employer, employee or employee representative may request an informal conference with the Assistant Regional Director. A conference or request does not stop the 15-working-day period for filing a notice of contest.",
+          "text": "An informal conference with the Assistant Regional Director, or a request for one, does not stay (pause) the 15-working-day period for filing a notice of intention to contest under 1903.17.",
           "quote": "No such conference or request for such conference shall operate as a stay of any 15-working-day period for filing a notice of intention to contest as prescribed in § 1903.17.",
           "source": {
             "title": "eCFR: 29 CFR 1903.20, Informal conferences (as of Nov 3, 2026)",
@@ -281,8 +281,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Within 10 calendar days after the abatement date, the employer must certify to OSHA that each cited violation has been abated, unless the CSHO saw the abatement within 24 hours during the on-site inspection and noted it in the citation.",
-          "quote": "Within 10 calendar days after the abatement date, the employer must certify to OSHA (the Agency) that each cited violation has been abated, except as provided in paragraph (c)(2) of this section.",
+          "text": "Within 10 calendar days after the abatement date, the employer must certify to OSHA that each cited violation has been abated. This is not required if the OSHA Compliance Officer, during the on-site part of the inspection, observes within 24 hours after a violation is identified that abatement has occurred and notes this in the citation.",
+          "quote": "Within 10 calendar days after the abatement date, the employer must certify to OSHA (the Agency) that each cited violation has been abated, except as provided in paragraph (c)(2) of this section. (2) The employer is not required to certify abatement if the OSHA Compliance Officer, during the on-site portion of the inspection: (i) Observes, within 24 hours after a violation is identified, that abatement has occurred; and (ii) Notes in the citation that abatement has occurred.",
           "source": {
             "title": "eCFR: 29 CFR 1903.19, Abatement verification (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1903/section-1903.19"
@@ -297,17 +297,17 @@
       "name": "Who must keep injury and illness records",
       "points": [
         {
-          "text": "Part 1904 requires employers to record and report work-related fatalities, injuries and illnesses. Recording or reporting a case does not mean anyone was at fault or that an OSHA rule was violated.",
-          "quote": "Recording or reporting a work-related injury, illness, or fatality does not mean that the employer or employee was at fault, that an OSHA rule has been violated, or that the employee is eligible for workers' compensation or other benefits.",
+          "text": "A company that had 10 or fewer employees at all times during the last calendar year does not need to keep OSHA injury and illness records unless OSHA or BLS informs it in writing that it must.",
+          "quote": "If your company had 10 or fewer employees at all times during the last calendar year, you do not need to keep OSHA injury and illness records unless OSHA or the Bureau of Labor Statistics informs you in writing that you must keep records under § 1904.41 or § 1904.42.",
           "source": {
-            "title": "eCFR: 29 CFR 1904.0, Purpose (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-A/section-1904.0"
+            "title": "eCFR: 29 CFR 1904.1, Partial exemption for employers with 10 or fewer employees (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-B/section-1904.1"
           },
           "checked": "2026-11-05"
         },
         {
-          "text": "A company that had 10 or fewer employees at all times during the last calendar year does not need to keep OSHA injury and illness records unless OSHA or BLS informs it in writing that it must.",
-          "quote": "If your company had 10 or fewer employees at all times during the last calendar year, you do not need to keep OSHA injury and illness records unless OSHA or the Bureau of Labor Statistics informs you in writing that you must keep records under § 1904.41 or § 1904.42.",
+          "text": "The size exemption is based on the number of employees in the entire company, not in one establishment.",
+          "quote": "The partial exemption for size is based on the number of employees in the entire company.",
           "source": {
             "title": "eCFR: 29 CFR 1904.1, Partial exemption for employers with 10 or fewer employees (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-B/section-1904.1"
@@ -324,7 +324,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Establishments in the industries listed in non-mandatory Appendix A to Subpart B (retail, information, finance, professional services, schools, health offices, restaurants and similar) are partially exempt unless asked in writing to keep records. No construction industry appears on that list.",
+          "text": "Establishments classified in the NAICS industries listed in non-mandatory Appendix A to Subpart B (for example certain retail stores, finance and insurance, professional services, schools, physicians' and dentists' offices, and restaurants) do not have to keep OSHA injury and illness records unless OSHA, the BLS or a state agency operating under their authority asks them in writing. No construction industry appears on that list.",
           "quote": "Employers are not required to keep OSHA injury and illness records for any establishment classified in the following North American Industry Classification System (NAICS) codes, unless they are asked in writing to do so by OSHA, the Bureau of Labor Statistics (BLS), or a state agency operating under the authority of OSHA or the BLS.",
           "source": {
             "title": "eCFR: 29 CFR Part 1904, Subpart B, Appendix A (as of Nov 3, 2026)",
@@ -334,7 +334,7 @@
         },
         {
           "text": "Employers record the cases of all employees on their payroll (labor, executive, hourly, salary, part-time, seasonal or migrant) and of employees not on their payroll whom they supervise on a day-to-day basis.",
-          "quote": "You also must record the recordable injuries and illnesses that occur to employees who are not on your payroll if you supervise these employees on a day-to-day basis.",
+          "quote": "You must record on the OSHA 300 Log the recordable injuries and illnesses of all employees on your payroll, whether they are labor, executive, hourly, salary, part-time, seasonal, or migrant workers. You also must record the recordable injuries and illnesses that occur to employees who are not on your payroll if you supervise these employees on a day-to-day basis.",
           "source": {
             "title": "eCFR: 29 CFR 1904.31, Covered employees (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-D/section-1904.31"
@@ -343,7 +343,7 @@
         },
         {
           "text": "If a contractor's employee is under the contractor's day-to-day supervision, the contractor records the case. If you supervise that worker day to day, you record it.",
-          "quote": "If the contractor's employee is under the day-to-day supervision of the contractor, the contractor is responsible for recording the injury or illness.",
+          "quote": "If the contractor's employee is under the day-to-day supervision of the contractor, the contractor is responsible for recording the injury or illness. If you supervise the contractor employee's work on a day-to-day basis, you must record the injury or illness.",
           "source": {
             "title": "eCFR: 29 CFR 1904.31, Covered employees (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-D/section-1904.31"
@@ -368,7 +368,7 @@
       "points": [
         {
           "text": "An employer that must keep records records each fatality, injury and illness that is work-related, is a new case, and meets one or more of the general recording criteria (or the specific-case rules in 1904.8 to 1904.12).",
-          "quote": "must record each fatality, injury and illness that: (1) Is work-related; and (2) Is a new case; and",
+          "quote": "must record each fatality, injury and illness that: (1) Is work-related; and (2) Is a new case; and (3) Meets one or more of the general recording criteria of § 1904.7 or the application to specific cases of §§ 1904.8 through 1904.12.",
           "source": {
             "title": "eCFR: 29 CFR 1904.4, Recording criteria (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-C/section-1904.4"
@@ -377,7 +377,7 @@
         },
         {
           "text": "An injury or illness is work-related if an event or exposure in the work environment caused or contributed to it or significantly aggravated a preexisting condition. Work-relatedness is presumed for events or exposures in the work environment unless a listed exception applies.",
-          "quote": "Work-relatedness is presumed for injuries and illnesses resulting from events or exposures occurring in the work environment, unless an exception in § 1904.5(b)(2) specifically applies.",
+          "quote": "You must consider an injury or illness to be work-related if an event or exposure in the work environment either caused or contributed to the resulting condition or significantly aggravated a pre-existing injury or illness. Work-relatedness is presumed for injuries and illnesses resulting from events or exposures occurring in the work environment, unless an exception in § 1904.5(b)(2) specifically applies.",
           "source": {
             "title": "eCFR: 29 CFR 1904.5, Determination of work-relatedness (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-C/section-1904.5"
@@ -386,7 +386,7 @@
         },
         {
           "text": "A case meets the general recording criteria if it results in death, days away from work, restricted work or transfer to another job, medical treatment beyond first aid, or loss of consciousness, or is a significant injury or illness diagnosed by a physician or other licensed health care professional.",
-          "quote": "if it results in any of the following: death, days away from work, restricted work or transfer to another job, medical treatment beyond first aid, or loss of consciousness.",
+          "quote": "if it results in any of the following: death, days away from work, restricted work or transfer to another job, medical treatment beyond first aid, or loss of consciousness. You must also consider a case to meet the general recording criteria if it involves a significant injury or illness diagnosed by a physician or other licensed health care professional",
           "source": {
             "title": "eCFR: 29 CFR 1904.7, General recording criteria (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-C/section-1904.7"
@@ -394,8 +394,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "First aid, as defined in 1904.7, includes items such as cleaning, flushing or soaking surface wounds and using wound coverings like bandages; sutures and staples are medical treatment.",
-          "quote": "Using wound coverings such as bandages, Band-AidsTM, gauze pads, etc.; or using butterfly bandages or Steri-StripsTM (other wound closing devices such as sutures, staples, etc., are considered medical treatment);",
+          "text": "The complete list of first aid treatments in 1904.7 includes cleaning, flushing or soaking wounds on the surface of the skin and using wound coverings such as bandages or butterfly bandages; other wound closing devices such as sutures and staples are medical treatment.",
+          "quote": "Cleaning, flushing or soaking wounds on the surface of the skin; (D) Using wound coverings such as bandages, Band-AidsTM, gauze pads, etc.; or using butterfly bandages or Steri-StripsTM (other wound closing devices such as sutures, staples, etc., are considered medical treatment);",
           "source": {
             "title": "eCFR: 29 CFR 1904.7, General recording criteria (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-C/section-1904.7"
@@ -403,8 +403,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Employers use the OSHA 300 (Log of Work-Related Injuries and Illnesses), 300-A (Summary) and 301 (Injury and Illness Incident Report) forms, or equivalent forms.",
-          "quote": "The OSHA 300 form is called the Log of Work-Related Injuries and Illnesses, the 300-A is the Summary of Work-Related Injuries and Illnesses, and the OSHA 301 form is called the Injury and Illness Incident Report.",
+          "text": "Recordable injuries and illnesses must be entered on the OSHA 300 (Log of Work-Related Injuries and Illnesses), 300-A (Summary) and 301 (Injury and Illness Incident Report) forms, or equivalent forms.",
+          "quote": "You must use OSHA 300, 300-A, and 301 forms, or equivalent forms, for recordable injuries and illnesses. The OSHA 300 form is called the Log of Work-Related Injuries and Illnesses, the 300-A is the Summary of Work-Related Injuries and Illnesses, and the OSHA 301 form is called the Injury and Illness Incident Report.",
           "source": {
             "title": "eCFR: 29 CFR 1904.29, Forms (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-C/section-1904.29"
@@ -437,7 +437,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The 300 Log, the privacy case list (if any), the annual summary and the 301 forms must be kept for five (5) years following the end of the calendar year they cover, and stored 300 Logs must be updated during that period.",
+          "text": "The 300 Log, the privacy case list (if any), the annual summary and the 301 forms must be saved for five (5) years following the end of the calendar year they cover.",
           "quote": "You must save the OSHA 300 Log, the privacy case list (if one exists), the annual summary, and the OSHA 301 Incident Report forms for five (5) years following the end of the calendar year that these records cover.",
           "source": {
             "title": "eCFR: 29 CFR 1904.33, Retention and updating (as of Nov 3, 2026)",
@@ -447,7 +447,7 @@
         },
         {
           "text": "Employers must set up a reasonable procedure for employees to report work-related injuries and illnesses promptly and accurately. A procedure is not reasonable if it would deter or discourage a reasonable employee from reporting.",
-          "quote": "A procedure is not reasonable if it would deter or discourage a reasonable employee from accurately reporting a workplace injury or illness;",
+          "quote": "You must establish a reasonable procedure for employees to report work-related injuries and illnesses promptly and accurately. A procedure is not reasonable if it would deter or discourage a reasonable employee from accurately reporting a workplace injury or illness;",
           "source": {
             "title": "eCFR: 29 CFR 1904.35, Employee involvement (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-D/section-1904.35"
@@ -455,8 +455,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Employers must tell each employee that employees have the right to report work-related injuries and illnesses and that employers may not discharge or discriminate against them for reporting.",
-          "quote": "Employers are prohibited from discharging or in any manner discriminating against employees for reporting work-related injuries or illnesses; and",
+          "text": "Employers must inform each employee that employees have the right to report work-related injuries and illnesses, and that employers are prohibited from discharging or in any way discriminating against them for reporting.",
+          "quote": "You must inform each employee that: (A) Employees have the right to report work-related injuries and illnesses; and (B) Employers are prohibited from discharging or in any manner discriminating against employees for reporting work-related injuries or illnesses; and",
           "source": {
             "title": "eCFR: 29 CFR 1904.35, Employee involvement (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-D/section-1904.35"
@@ -464,8 +464,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "When an employee, former employee, personal representative or authorized employee representative asks for a copy of the 300 Log, it must be provided by the end of the next business day, free the first time.",
-          "quote": "you must give the requester a copy of the relevant OSHA 300 Log(s) by the end of the next business day.",
+          "text": "When an employee, former employee, personal representative or authorized employee representative asks for copies of the current or stored 300 Log(s) for an establishment the employee or former employee has worked in, the employer must give a copy by the end of the next business day.",
+          "quote": "When an employee, former employee, personal representative, or authorized employee representative asks for copies of your current or stored OSHA 300 Log(s) for an establishment the employee or former employee has worked in, you must give the requester a copy of the relevant OSHA 300 Log(s) by the end of the next business day.",
           "source": {
             "title": "eCFR: 29 CFR 1904.35, Employee involvement (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-D/section-1904.35"
@@ -506,8 +506,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Reports are made by telephone or in person to the nearest OSHA Area Office, by the toll-free number 1-800-321-OSHA (1-800-321-6742), or electronically on osha.gov. If the Area Office is closed, a message, fax or email is not enough.",
-          "quote": "By telephone to the OSHA toll-free central telephone number, 1-800-321-OSHA (1-800-321-6742).",
+          "text": "If the employer does not learn of a reportable event when it takes place, the report is due within eight (8) hours for a fatality and twenty-four (24) hours for an in-patient hospitalization, amputation or loss of an eye after it is reported to the employer or any of its agents. The same periods run from when the employer learns that the event was work-related, if that comes later.",
+          "quote": "If you do not learn about a reportable fatality, in-patient hospitalization, amputation, or loss of an eye at the time it takes place, you must make the report to OSHA within the following time period after the fatality, in-patient hospitalization, amputation, or loss of an eye is reported to you or to any of your agent(s): Eight (8) hours for a fatality, and twenty-four (24) hours for an in-patient hospitalization, an amputation, or a loss of an eye.",
           "source": {
             "title": "eCFR: 29 CFR 1904.39, Reporting fatalities, hospitalizations, amputations, and losses of an eye as a result of work-related incidents to OSHA (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-E/section-1904.39"
@@ -515,8 +515,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A motor vehicle accident in a construction work zone must be reported. One on a public street or highway outside a construction work zone does not have to be reported, but must still be recorded if the employer keeps records.",
-          "quote": "If the motor vehicle accident occurred in a construction work zone, you must report the fatality, in-patient hospitalization, amputation, or loss of an eye.",
+          "text": "Reports are made by telephone or in person to the OSHA Area Office nearest the site of the incident, by telephone to 1-800-321-OSHA (1-800-321-6742), or electronically with the reporting application on www.osha.gov.",
+          "quote": "By telephone or in person to the OSHA Area Office that is nearest to the site of the incident. (ii) By telephone to the OSHA toll-free central telephone number, 1-800-321-OSHA (1-800-321-6742). (iii) By electronic submission using the reporting application located on OSHA's public Web site at www.osha.gov.",
+          "source": {
+            "title": "eCFR: 29 CFR 1904.39, Reporting fatalities, hospitalizations, amputations, and losses of an eye as a result of work-related incidents to OSHA (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-E/section-1904.39"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A motor vehicle accident in a construction work zone must be reported. One on a public street or highway outside a construction work zone does not have to be reported to OSHA.",
+          "quote": "If the motor vehicle accident occurred in a construction work zone, you must report the fatality, in-patient hospitalization, amputation, or loss of an eye. If the motor vehicle accident occurred on a public street or highway, but not in a construction work zone, you do not have to report the fatality, in-patient hospitalization, amputation, or loss of an eye to OSHA.",
           "source": {
             "title": "eCFR: 29 CFR 1904.39, Reporting fatalities, hospitalizations, amputations, and losses of an eye as a result of work-related incidents to OSHA (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-E/section-1904.39"
@@ -525,7 +534,7 @@
         },
         {
           "text": "A fatality must be reported only if it occurs within thirty (30) days of the incident; an in-patient hospitalization, amputation or loss of an eye only if it occurs within twenty-four (24) hours of the incident.",
-          "quote": "You must only report a fatality to OSHA if the fatality occurs within thirty (30) days of the work-related incident.",
+          "quote": "You must only report a fatality to OSHA if the fatality occurs within thirty (30) days of the work-related incident. For an in-patient hospitalization, amputation, or loss of an eye, you must only report the event to OSHA if it occurs within twenty-four (24) hours of the work-related incident.",
           "source": {
             "title": "eCFR: 29 CFR 1904.39, Reporting fatalities, hospitalizations, amputations, and losses of an eye as a result of work-related incidents to OSHA (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-E/section-1904.39"
@@ -534,7 +543,7 @@
         },
         {
           "text": "In-patient hospitalization means a formal admission to the in-patient service of a hospital or clinic for care or treatment. Admission only for observation or diagnostic testing does not have to be reported.",
-          "quote": "OSHA defines in-patient hospitalization as a formal admission to the in-patient service of a hospital or clinic for care or treatment.",
+          "quote": "OSHA defines in-patient hospitalization as a formal admission to the in-patient service of a hospital or clinic for care or treatment. (10) Do I have to report an in-patient hospitalization that involves only observation or diagnostic testing? No, you do not have to report an in-patient hospitalization that involves only observation or diagnostic testing.",
           "source": {
             "title": "eCFR: 29 CFR 1904.39, Reporting fatalities, hospitalizations, amputations, and losses of an eye as a result of work-related incidents to OSHA (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-E/section-1904.39"
