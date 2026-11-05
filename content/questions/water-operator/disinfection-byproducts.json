@@ -98,15 +98,15 @@
     {
       "id": "db-006",
       "topic": "TTHM and HAA5 monitoring",
-      "question": "In the Subpart L routine monitoring table in 141.132(b)(1)(i), what minimum TTHM and HAA5 monitoring frequency is set for a Subpart H system serving at least 10,000 persons?",
+      "question": "Under the Subpart L routine monitoring table in 141.132(b)(1)(i), a Subpart H system serving fewer than 500 persons takes its one yearly TTHM and HAA5 sample per plant, and the sample exceeds the MCL. What must the system do next?",
       "options": {
-        "A": "One water sample per quarter per treatment plant",
-        "B": "Four water samples per quarter per treatment plant",
-        "C": "One sample per year per treatment plant during the month of warmest water temperature",
-        "D": "One sample per three-year monitoring cycle"
+        "A": "Take four samples per quarter per treatment plant at average residence time locations",
+        "B": "Increase monitoring to one sample per treatment plant per quarter at a point reflecting the maximum residence time, until it meets the criteria in 141.132(b)(1)(iv)",
+        "C": "Move to one sample per treatment plant per three-year monitoring cycle",
+        "D": "Stop TTHM and HAA5 sampling until the State's next sanitary survey"
       },
       "answer": "B",
-      "explanation": "The table row reads \"Subpart H system serving at least 10,000 persons Four water samples per quarter per treatment plant\". Under 141.64(b)(1)(i), the Subpart L TTHM and HAA5 MCLs apply only until the subpart V compliance date.",
+      "explanation": "The table says that if the sample exceeds the MCL, \"the system must increase monitoring to one sample per treatment plant per quarter, taken at a point reflecting the maximum residence time in the distribution system, until the system meets criteria in paragraph (b)(1)(iv) of this section.\" Under 141.64(b)(1)(i), the Subpart L TTHM and HAA5 MCLs apply only until the subpart V compliance date.",
       "source": {
         "title": "eCFR: 40 CFR 141.132, Monitoring requirements (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.132"
@@ -332,15 +332,15 @@
     {
       "id": "db-019",
       "topic": "Enhanced coagulation and TOC removal",
-      "question": "In the Step 1 table in 141.135(b)(2), what TOC removal is required for source water TOC >4.0-8.0 mg/L with source water alkalinity >60-120 mg/L as CaCO3?",
+      "question": "Under 141.135(b)(2), which column of the Step 1 TOC removal table must a Subpart H conventional treatment system practicing softening meet for its source water TOC?",
       "options": {
-        "A": "45.0 percent",
-        "B": "25.0 percent",
-        "C": "40.0 percent",
-        "D": "35.0 percent"
+        "A": "The 0-60 mg/L source water alkalinity column",
+        "B": "The >60-120 mg/L source water alkalinity column",
+        "C": "A column the system picks again each quarter",
+        "D": "The far-right column (source water alkalinity >120 mg/L)"
       },
       "answer": "D",
-      "explanation": "The table row reads \">4.0-8.0 45.0 35.0 25.0\" for the alkalinity columns 0-60, >60-120 and >120, so the >60-120 column is 35.0 percent.",
+      "explanation": "\"Systems practicing softening are required to meet the Step 1 TOC reductions in the far-right column\", and the table's footnote adds: \"System practicing softening must meet the TOC removal requirements in this column.\"",
       "source": {
         "title": "eCFR: 40 CFR 141.135, Treatment technique for control of disinfection byproduct (DBP) precursors (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.135"
