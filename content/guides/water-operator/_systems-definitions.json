@@ -1,0 +1,546 @@
+{
+  "cluster": "water-operator",
+  "slug": "systems-definitions",
+  "href": "/water-operator/systems-definitions/study-guide/",
+  "title": "Drinking water systems and definitions study guide",
+  "description": "Study guide to 40 CFR 141 Subpart A: what a public water system is, the system types, sources, MCLs and MRDLs, variances, siting and dates.",
+  "intro": "Subpart A of EPA's National Primary Drinking Water Regulations (40 CFR Part 141) sets the ground rules the rest of the part builds on: what counts as a public water system, which systems Part 141 covers, and what key terms such as community water system, GWUDI, MCL, MCLG and MRDL mean. It also states when variances and exemptions may not be granted, what a person must do before siting a new or expanded system, and when parts of the rule took effect. Thresholds like 15 service connections or 25 persons over 6 months decide which system type applies, so the exact words matter. States with primary enforcement responsibility may adopt stricter rules. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "scope",
+      "name": "Scope and coverage",
+      "points": [
+        {
+          "text": "Part 141 sets the national primary drinking water regulations under section 1412 of the Public Health Service Act, as amended by the Safe Drinking Water Act, and related regulations for public water systems.",
+          "quote": "This part establishes primary drinking water regulations pursuant to section 1412 of the Public Health Service Act, as amended by the Safe Drinking Water Act (Pub. L. 93-523); and related regulations applicable to public water systems.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.1, Applicability (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A public water system provides water for human consumption to the public through pipes or, after August 5, 1998, other constructed conveyances, and has at least 15 service connections or regularly serves an average of at least 25 individuals daily at least 60 days out of the year.",
+          "quote": "Public water system means a system for the provision to the public of water for human consumption through pipes or, after August 5, 1998, other constructed conveyances, if such system has at least fifteen service connections or regularly serves an average of at least twenty-five individuals daily at least 60 days out of the year.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The system includes collection, treatment, storage and distribution facilities under the operator's control and used primarily with the system, and also collection or pretreatment storage facilities not under that control that are used primarily with the system.",
+          "quote": "Such term includes: any collection, treatment, storage, and distribution facilities under control of the operator of such system and used primarily in connection with such system; and any collection or pretreatment storage facilities not under such control which are used primarily in connection with such system.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A special irrigation district is not a public water system. Every public water system is either a community water system or a noncommunity water system.",
+          "quote": "Such term does not include any \"special irrigation district.\" A public water system is either a \"community water system\" or a \"noncommunity water system.\"",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For a system that delivers water by a constructed conveyance other than a pipe, a connection does not count as a service connection if one of three listed conditions is met.",
+          "quote": "Service connection, as used in the definition of public water system, does not include a connection to a system that delivers water by a constructed conveyance other than a pipe if:",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "One of the options: the water is used only for purposes other than residential uses (drinking, bathing, cooking or similar uses).",
+          "quote": "(1) The water is used exclusively for purposes other than residential uses (consisting of drinking, bathing, and cooking, or other similar uses);",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Another option: the State determines that alternative water giving the equivalent level of public health protection is provided for residential or similar uses for drinking and cooking.",
+          "quote": "(2) The State determines that alternative water to achieve the equivalent level of public health protection provided by the applicable national primary drinking water regulation is provided for residential or similar uses for drinking and cooking; or",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The third option: the State determines that water for residential or similar uses is centrally treated, or treated at the point of entry by the provider, a pass-through entity or the user, to the equivalent level of protection.",
+          "quote": "(3) The State determines that the water provided for residential or similar uses for drinking, cooking, and bathing is centrally treated or treated at the point of entry by the provider, a pass-through entity, or the user to achieve the equivalent level of protection provided by the applicable national primary drinking water regulations.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Part 141 applies to every public water system unless it meets all four conditions: only distribution and storage facilities (no collection or treatment), all water obtained from a regulated public water system that does not own or operate it, no water sold to any person, and not a carrier conveying passengers in interstate commerce.",
+          "quote": "This part shall apply to each public water system, unless the public water system meets all of the following conditions: (a) Consists only of distribution and storage facilities (and does not have any collection and treatment facilities); (b) Obtains all of its water from, but is not owned or operated by, a public water system to which such regulations apply: (c) Does not sell water to any person; and (d) Is not a carrier which conveys passengers in interstate commerce.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.3, Coverage (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.3"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Section 1411 of the Safe Drinking Water Act, which 141.3 mirrors, and the special irrigation district exclusion provisions of section 1401(4)(B) are not summarized here."
+    },
+    {
+      "id": "system-types",
+      "name": "System types",
+      "points": [
+        {
+          "text": "A community water system serves at least 15 service connections used by year-round residents or regularly serves at least 25 year-round residents.",
+          "quote": "Community water system means a public water system which serves at least 15 service connections used by year-round residents or regularly serves at least 25 year-round residents.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A non-community water system is any public water system that is not a community water system; it is either transient or non-transient.",
+          "quote": "Non-community water system means a public water system that is not a community water system. A noncommunity water system is either a \"transient non-community water system (TWS)\" or a \"non-transient non-community water system (NTNCWS).\"",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A non-transient non-community water system (NTNCWS) is not a community water system and regularly serves at least 25 of the same persons over 6 months per year.",
+          "quote": "Non-transient non-community water system or NTNCWS means a public water system that is not a community water system and that regularly serves at least 25 of the same persons over 6 months per year.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A transient non-community water system (TWS) is a non-community water system that does not regularly serve at least 25 of the same persons over six months per year.",
+          "quote": "Transient non-community water system or TWS means a non-community water system that does not regularly serve at least 25 of the same persons over six months per year.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A seasonal system is a non-community water system that is not operated as a public water system year-round and starts up and shuts down at the beginning and end of each operating season.",
+          "quote": "Seasonal system is a non-community water system that is not operated as a public water system on a year-round basis and starts up and shuts down at the beginning and end of each operating season.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A wholesale system treats source water as needed to produce finished water and delivers some or all of it to another public water system.",
+          "quote": "Wholesale system is a public water system that treats source water as necessary to produce finished water and then delivers some or all of that finished water to another public water system.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A consecutive system receives some or all of its finished water from one or more wholesale systems, through a direct connection or through the distribution system of other consecutive systems.",
+          "quote": "Consecutive system is a public water system that receives some or all of its finished water from one or more wholesale systems. Delivery may be through a direct connection or through the distribution system of one or more consecutive systems.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Subpart H systems are public water systems that use surface water or ground water under the direct influence of surface water as a source and are subject to subpart H.",
+          "quote": "Subpart H systems means public water systems using surface water or ground water under the direct influence of surface water as a source that are subject to the requirements of subpart H of this part.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A supplier of water is any person who owns or operates a public water system.",
+          "quote": "Supplier of water means any person who owns or operates a public water system.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "\"State\" means the State or Tribal agency with jurisdiction over public water systems; while a State or Tribe lacks primary enforcement responsibility, it means the EPA Regional Administrator.",
+          "quote": "State means the agency of the State or Tribal government which has jurisdiction over public water systems. During any period when a State or Tribal government does not have primary enforcement responsibility pursuant to section 1413 of the Act, the term \"State\" means the Regional Administrator, U.S. Environmental Protection Agency.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The size categories small, medium and large water system are defined in 141.2 for subpart I only and belong with the lead and copper rule. States with primacy may apply their own, stricter classifications and rules."
+    },
+    {
+      "id": "sources",
+      "name": "Water sources",
+      "points": [
+        {
+          "text": "Surface water is all water open to the atmosphere and subject to surface runoff.",
+          "quote": "Surface water means all water which is open to the atmosphere and subject to surface runoff.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Ground water under the direct influence of surface water (GWUDI) is water beneath the ground surface with significant occurrence of insects or other macroorganisms, algae, or large-diameter pathogens such as Giardia lamblia or Cryptosporidium, or with significant and relatively rapid shifts in turbidity, temperature, conductivity or pH that closely track climatological or surface water conditions.",
+          "quote": "Ground water under the direct influence of surface water (GWUDI) means any water beneath the surface of the ground with significant occurrence of insects or other macroorganisms, algae, or large-diameter pathogens such as Giardia lamblia or Cryptosporidium, or significant and relatively rapid shifts in water characteristics such as turbidity, temperature, conductivity, or pH which closely correlate to climatological or surface water conditions.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Direct influence is decided source by source using criteria set by the State, which may base its determination on site-specific water quality measurements and/or well construction and geology documentation with field evaluation.",
+          "quote": "Direct influence must be determined for individual sources in accordance with criteria established by the State. The State determination of direct influence may be based on site-specific measurements of water quality and/or documentation of well construction characteristics and geology with field evaluation.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Finished water is water introduced into the distribution system and intended for distribution and consumption without further treatment, except treatment needed to maintain water quality in the distribution system, such as booster disinfection or corrosion control chemicals.",
+          "quote": "Finished water is water that is introduced into the distribution system of a public water system and is intended for distribution and consumption without further treatment, except as treatment necessary to maintain water quality in the distribution system (e.g., booster disinfection, addition of corrosion control chemicals).",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A flowing stream is a course of running water flowing in a definite channel.",
+          "quote": "Flowing stream is a course of running water flowing in a definite channel.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A lake/reservoir is a natural or man-made basin where water collects or is stored, which may or may not have a current or single direction of flow.",
+          "quote": "Lake/reservoir refers to a natural or man made basin or hollow on the Earth's surface in which water collects or is stored that may or may not have a current or single direction of flow.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Bank filtration uses a well to recover surface water that has naturally infiltrated into ground water through a river bed or bank(s).",
+          "quote": "Bank filtration is a water treatment process that uses a well to recover surface water that has naturally infiltrated into ground water through a river bed or bank(s).",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "standards",
+      "name": "Standards and goals",
+      "points": [
+        {
+          "text": "A maximum contaminant level (MCL) is the maximum permissible level of a contaminant in water delivered to any user of a public water system.",
+          "quote": "Maximum contaminant level means the maximum permissible level of a contaminant in water which is delivered to any user of a public water system.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A maximum contaminant level goal (MCLG) is the level at which no known or anticipated adverse health effect would occur, with an adequate margin of safety. MCLGs are nonenforceable health goals.",
+          "quote": "Maximum contaminant level goal or MCLG means the maximum level of a contaminant in drinking water at which no known or anticipated adverse effect on the health of persons would occur, and which allows an adequate margin of safety. Maximum contaminant level goals are nonenforceable health goals.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A maximum residual disinfectant level (MRDL) is a level of an added disinfectant that may not be exceeded at the consumer's tap without an unacceptable possibility of adverse health effects.",
+          "quote": "Maximum residual disinfectant level (MRDL) means a level of a disinfectant added for water treatment that may not be exceeded at the consumer's tap without an unacceptable possibility of adverse health effects.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For chlorine and chloramines, a system complies with the MRDL when the running annual average of monthly averages of distribution system samples, computed quarterly, is at or below the MRDL.",
+          "quote": "For chlorine and chloramines, a PWS is in compliance with the MRDL when the running annual average of monthly averages of samples taken in the distribution system, computed quarterly, is less than or equal to the MRDL.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For chlorine dioxide, a system complies with the MRDL when daily samples are taken at the entrance to the distribution system and no two consecutive daily samples exceed the MRDL.",
+          "quote": "For chlorine dioxide, a PWS is in compliance with the MRDL when daily samples are taken at the entrance to the distribution system and no two consecutive daily samples exceed the MRDL.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Notwithstanding the MRDLs in 141.65, operators may raise chlorine or chloramine residuals (but not chlorine dioxide) in the distribution system, to a level and for a time necessary to protect public health, to address specific microbiological contamination problems such as line breaks, storm runoff events, source water contamination or cross-connections.",
+          "quote": "Notwithstanding the MRDLs listed in § 141.65, operators may increase residual disinfectant levels of chlorine or chloramines (but not chlorine dioxide) in the distribution system to a level and for a time necessary to protect public health to address specific microbiological contamination problems caused by circumstances such as distribution line breaks, storm runoff events, source water contamination, or cross-connections.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A maximum residual disinfectant level goal (MRDLG) is a nonenforceable health goal that does not reflect the benefit of adding the chemical for microbial control.",
+          "quote": "MRDLGs are nonenforceable health goals and do not reflect the benefit of the addition of the chemical for control of waterborne microbial contaminants.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "\"Action level\" is defined for subpart I only. The current text (the 2024 revision of the Lead and Copper Rule, with compliance required by November 1, 2027) states a lead action level of 0.010 mg/L and a copper action level of 1.3 mg/L.",
+          "quote": "Action level, for the purpose of subpart I of this part only, means the concentrations of lead or copper in water as specified in § 141.80(c) which determines requirements under subpart I of this part. The lead action level is 0.010 mg/L and the copper action level is 1.3 mg/L.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Best available technology (BAT) is what the Administrator finds available after examination for efficacy under field conditions, not only in the laboratory, taking cost into consideration. For MCLs for synthetic organic chemicals, any BAT must be at least as effective as granular activated carbon.",
+          "quote": "Best available technology or BAT means the best technology, treatment techniques, or other means which the Administrator finds, after examination for efficacy under field conditions and not solely under laboratory conditions, are available (taking cost into consideration). For the purposes of setting MCLs for synthetic organic chemicals, any BAT must be at least as effective as granular activated carbon.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For PFAS, a mixture Hazard Index greater than 1 (unitless) is an exceedance of the MCL.",
+          "quote": "For PFAS, a mixture Hazard Index greater than 1 (unitless) is an exceedance of the MCL.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "141.2 has no general definition of \"treatment technique\". The individual MCL, MRDL and MCLG values are set in subpart G and are not listed here."
+    },
+    {
+      "id": "terms",
+      "name": "Treatment and monitoring terms",
+      "points": [
+        {
+          "text": "A compliance cycle is the nine-year calendar year cycle during which systems must monitor, made of three three-year compliance periods.",
+          "quote": "Compliance cycle means the nine-year calendar year cycle during which public water systems must monitor. Each compliance cycle consists of three three-year compliance periods.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The third compliance cycle began January 1, 2011 and ended December 31, 2019.",
+          "quote": "the third begins January 1, 2011 and ends December 31, 2019.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A locational running annual average (LRAA) is the average of results for samples taken at one monitoring location during the previous four calendar quarters.",
+          "quote": "Locational running annual average (LRAA) is the average of sample analytical results for samples taken at a particular monitoring location during the previous four calendar quarters.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "\"Near the first service connection\" means one of the 20 percent of all service connections nearest the treatment facility, measured by water transport time in the distribution system.",
+          "quote": "Near the first service connection means at one of the 20 percent of all service connections in the entire system that are nearest the water supply treatment facility, as measured by water transport time within the distribution system.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A sanitary survey is an onsite review of the water source, facilities, equipment, operation and maintenance of a public water system to evaluate their adequacy for producing and distributing safe drinking water.",
+          "quote": "Sanitary survey means an onsite review of the water source, facilities, equipment, operation and maintenance of a public water system for the purpose of evaluating the adequacy of such source, facilities, equipment, operation and maintenance for producing and distributing safe drinking water.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Conventional filtration treatment is coagulation, flocculation, sedimentation and filtration resulting in substantial particulate removal.",
+          "quote": "Conventional filtration treatment means a series of processes including coagulation, flocculation, sedimentation, and filtration resulting in substantial particulate removal.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Direct filtration includes coagulation and filtration but excludes sedimentation.",
+          "quote": "Direct filtration means a series of processes including coagulation and filtration but excluding sedimentation resulting in substantial particulate removal.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Slow sand filtration passes raw water through a bed of sand at low velocity (generally less than 0.4 m/h), removing particulates by physical and biological mechanisms.",
+          "quote": "Slow sand filtration means a process involving passage of raw water through a bed of sand at low velocity (generally less than 0.4 m/h) resulting in substantial particulate removal by physical and biological mechanisms.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A Level 1 assessment, under the coliform rules, is conducted by the system operator or owner.",
+          "quote": "It is conducted by the system operator or owner.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A Level 2 assessment is a more detailed examination than a Level 1 and is conducted by an individual approved by the State, which may include the system operator.",
+          "quote": "It is conducted by an individual approved by the State, which may include the system operator.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "CT and disinfectant contact time, the membrane, bag and cartridge filter definitions, the PFAS chemical identities, and the subpart I sampling and service line terms are not summarized here."
+    },
+    {
+      "id": "variances-siting-dates",
+      "name": "Variances, siting and effective dates",
+      "points": [
+        {
+          "text": "Variances or exemptions from certain provisions may be granted by the entity with primary enforcement responsibility under sections 1415 and 1416 of the Act and subpart K of part 142 (small system variances), except that variances or exemptions from the total coliform and E. coli MCLs, and variances from subpart H treatment technique requirements, may not be granted.",
+          "quote": "Variances or exemptions from certain provisions of these regulations may be granted pursuant to sections 1415 and 1416 of the Act and subpart K of part 142 of this chapter (for small system variances) by the entity with primary enforcement responsibility, except that variances or exemptions from the MCLs for total coliforms and E. coli and variances from any of the treatment technique requirements of subpart H of this part may not be granted.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.4, Variances and exemptions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.4"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Small system variances are not available for rules addressing microbial contaminants, which include subparts H, P, S, T, W and Y.",
+          "quote": "small system variances are not available for rules addressing microbial contaminants, which would include subparts H, P, S, T, W, and Y of this part.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.4, Variances and exemptions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.4"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The stay of 141.4 for the total coliform MCL in 141.63(a) lasted until March 31, 2016, when the total coliform MCL stopped being effective.",
+          "quote": "This is stayed until March 31, 2016, at which time the total coliform MCL is no longer effective.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.4, Variances and exemptions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.4"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Before a person enters into a financial commitment for or starts construction of a new public water system, or increases an existing system's capacity, the person must notify the State and, to the extent practicable, avoid sites with the listed risks.",
+          "quote": "Before a person may enter into a financial commitment for or initiate construction of a new public water system or increase the capacity of an existing public water system, he shall notify the State and, to the extent practicable, avoid locating part or all of the new or expanded facility at a site which:",
+          "source": {
+            "title": "eCFR: 40 CFR 141.5, Siting requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.5"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "One listed risk: a site subject to a significant risk from earthquakes, floods, fires or other disasters that could cause a breakdown of the system or part of it.",
+          "quote": "(a) Is subject to a significant risk from earthquakes, floods, fires or other disasters which could cause a breakdown of the public water system or a portion thereof; or",
+          "source": {
+            "title": "eCFR: 40 CFR 141.5, Siting requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.5"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The other listed risk: except for intake structures, a site within the floodplain of a 100-year flood or lower than any recorded high tide where records exist. EPA will not seek to override State or local land use decisions on siting.",
+          "quote": "(b) Except for intake structures, is within the floodplain of a 100-year flood or is lower than any recorded high tide where appropriate records exist. The U.S. Environmental Protection Agency will not seek to override land use decisions affecting public water systems siting which are made at the State or local government levels.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.5, Siting requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.5"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Except as provided in 141.6(b) through (l), the Part 141 regulations took effect on June 24, 1977.",
+          "quote": "Except as provided in paragraphs (b) through (l) of this section the regulations set forth in this part take effect on June 24, 1977.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.6, Effective dates (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.6"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The arsenic MCL in 141.62 became effective for the purpose of compliance on January 23, 2006.",
+          "quote": "The arsenic maximum contaminant levels (MCL) listed in § 141.62 is effective for the purpose of compliance on January 23, 2006.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.6, Effective dates (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.6"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The PFAS regulations in subpart Z are effective June 25, 2024; reporting under the consumer confidence and public notification rules is required April 26, 2027 (except 141.203 notices of MCL violations); and the compliance date for the PFAS MCLs and their 141.203 violation notices is April 26, 2029.",
+          "quote": "The regulations pertaining to the per- and polyfluoroalkyl substances (PFAS) chemicals set forth in subpart Z of this part are effective June 25, 2024. See § 141.900 for the compliance dates for provisions under subpart Z. Compliance with reporting requirements under subpart Z, in accordance with subparts O (the consumer confidence rule) and Q (the public notification rule) of this part are required on April 26, 2027, except for notification requirements in § 141.203 related to violations of the MCLs. The compliance date for the PFAS MCLs in § 141.61, as specified in § 141.60, and for § 141.203 notifications of violations of the PFAS MCLs is April 26, 2029.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.6, Effective dates (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.6"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The older effective dates in 141.6(b) through (h) and (k), and the variance and exemption procedures in Part 142, are not summarized here. Subpart I (lead and copper) compliance dates are set in 141.80."
+    }
+  ]
+}

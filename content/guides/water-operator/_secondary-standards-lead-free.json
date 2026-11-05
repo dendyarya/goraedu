@@ -1,0 +1,503 @@
+{
+  "cluster": "water-operator",
+  "slug": "secondary-standards-lead-free",
+  "href": "/water-operator/secondary-standards-lead-free/study-guide/",
+  "title": "Drinking water secondary standards and lead free plumbing study guide",
+  "description": "Study guide to 40 CFR Part 143: secondary drinking water standards (SMCLs, monitoring) and the lead free rules for pipes, fittings, fixtures, solder and flux.",
+  "intro": "40 CFR Part 143 has two parts that matter to drinking water operators. Subpart A sets the National Secondary Drinking Water Regulations: secondary maximum contaminant levels (SMCLs) for contaminants that mainly affect taste, odor, color and other aesthetic qualities. As 143.1 states, they are not Federally enforceable but are guidelines for the States, and 143.3 says States may establish higher or lower levels. Subpart B sets the lead free rules under section 1417 of the Safe Drinking Water Act: what \"lead free\" means for pipes, fittings, fixtures, solder and flux, the use and sale prohibitions, the exemptions, and how manufacturers and importers certify products. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "secondary-purpose",
+      "name": "Purpose and status of secondary standards",
+      "points": [
+        {
+          "text": "Subpart A of Part 143 sets the National Secondary Drinking Water Regulations under section 1412 of the Safe Drinking Water Act.",
+          "quote": "This subpart establishes National Secondary Drinking Water Regulations pursuant to section 1412 of the Safe Drinking Water Act",
+          "source": {
+            "title": "eCFR: 40 CFR 143.1, Purpose (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The secondary regulations control contaminants that mainly affect the aesthetic qualities of drinking water, which relate to the public's acceptance of the water.",
+          "quote": "The regulations in this subpart control contaminants in drinking water that primarily affect the aesthetic qualities relating to the public acceptance of drinking water.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.1, Purpose (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The secondary regulations are not Federally enforceable. They are intended as guidelines for the States.",
+          "quote": "The regulations in this subpart are not Federally enforceable but are intended as guidelines for the States.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.1, Purpose (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In Subpart A, a public water system is a system providing piped water to the public for human consumption that has at least 15 service connections or regularly serves an average of at least 25 individuals daily at least 60 days out of the year.",
+          "quote": "Public water system means a system for the provision to the public of piped water for human consumption, if such a system has at least fifteen service connections or regularly serves an average of at least twenty-five individuals daily at least 60 days out of the year.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "SMCLs apply to public water systems and are the levels the EPA Administrator judges requisite to protect the public welfare.",
+          "quote": "Secondary maximum contaminant levels means SMCLs which apply to public water systems and which, in the judgement of the Administrator, are requisite to protect the public welfare.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An SMCL is the maximum permissible level of a contaminant in water delivered to the free flowing outlet of the ultimate user of the public water system.",
+          "quote": "The SMCL means the maximum permissible level of a contaminant in water which is delivered to the free flowing outlet of the ultimate user of public water system.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Contaminants added to the water under circumstances the user controls are excluded from the SMCL definition, except those resulting from corrosion of piping and plumbing caused by water quality.",
+          "quote": "Contaminants added to the water under circumstances controlled by the user, except those resulting from corrosion of piping and plumbing caused by water quality, are excluded from this definition.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.2"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "smcl-table",
+      "name": "Secondary maximum contaminant levels",
+      "points": [
+        {
+          "text": "The 143.3 table lists aluminum at a range of 0.05 to 0.2 mg/l.",
+          "quote": "Aluminum 0.05 to 0.2 mg/l.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.3, Secondary maximum contaminant levels (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Color is expressed in color units: 15 color units.",
+          "quote": "Color 15 color units.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.3, Secondary maximum contaminant levels (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Corrosivity has no number; the listed level is \"Non-corrosive.\"",
+          "quote": "Corrosivity Non-corrosive.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.3, Secondary maximum contaminant levels (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Odor is expressed as a threshold odor number: 3.",
+          "quote": "Odor 3 threshold odor number.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.3, Secondary maximum contaminant levels (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "pH is given as a range of 6.5-8.5.",
+          "quote": "pH 6.5-8.5.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.3, Secondary maximum contaminant levels (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Total dissolved solids (TDS) are listed at 500 mg/l.",
+          "quote": "Total dissolved solids (TDS) 500 mg/l.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.3, Secondary maximum contaminant levels (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The listed levels are reasonable goals for drinking water quality. States may set higher or lower levels where appropriate to local conditions, such as no alternate source water or other compelling factors, provided public health and welfare are not adversely affected.",
+          "quote": "These levels represent reasonable goals for drinking water quality. The States may establish higher or lower levels which may be appropriate dependent upon local conditions such as unavailability of alternate source waters or other compelling factors, provided that public health and welfare are not adversely affected.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.3, Secondary maximum contaminant levels (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.3"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The 143.3 table also lists chloride, copper, fluoride, foaming agents, iron, manganese, silver, sulfate and zinc; see the linked section for their levels. Primary (enforceable) MCLs, including those for fluoride, are in 40 CFR Part 141, Subpart G, and are covered in a separate guide."
+    },
+    {
+      "id": "secondary-monitoring",
+      "name": "Monitoring for secondary contaminants",
+      "points": [
+        {
+          "text": "143.4(a) recommends monitoring the secondary parameters at intervals no less frequent than the monitoring for inorganic chemical contaminants in the National Interim Primary Drinking Water Regulations as applicable to community water systems. It is a recommendation (\"should\").",
+          "quote": "(a) It is recommended that the parameters in these regulations should be monitored at intervals no less frequent than the monitoring performed for inorganic chemical contaminants listed in the National Interim Primary Drinking Water Regulations as applicable to community water systems.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.4, Monitoring (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.4"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "More frequent monitoring of specific parameters such as pH, color or odor would be appropriate under certain circumstances as directed by the State.",
+          "quote": "More frequent monitoring would be appropriate for specific parameters such as pH, color, odor or others under certain circumstances as directed by the State.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.4, Monitoring (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.4"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "pH, copper and fluoride may be measured with one of the methods in 141.23(k)(1).",
+          "quote": "(b) Measurement of pH, copper and fluoride to determine compliance under § 143.3 may be conducted with one of the methods in § 141.23(k)(1).",
+          "source": {
+            "title": "eCFR: 40 CFR 143.4, Monitoring (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.4"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The other secondary contaminants (aluminum, chloride, foaming agents, iron, manganese, odor, silver, sulfate, TDS and zinc) may be analyzed with the methods in the 143.4(b) table or the alternative methods in appendix A to subpart C of part 141.",
+          "quote": "Analyses of aluminum, chloride, foaming agents, iron, manganese, odor, silver, sulfate, total dissolved solids (TDS) and zinc to determine compliance under § 143.3 may be conducted with the methods in the following table or alternative methods listed in appendix A to subpart C of part 141.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.4, Monitoring (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-A/section-143.4"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The individual method numbers in the 143.4(b) table and their footnotes are not listed here."
+    },
+    {
+      "id": "lead-free-scope",
+      "name": "Lead free scope and definitions",
+      "points": [
+        {
+          "text": "Subpart B applies to anyone who introduces pipes, fittings, fixtures, solder or flux into commerce, such as manufacturers, importers, wholesalers, distributors, re-sellers and retailers.",
+          "quote": "It applies to any person who introduces these products into commerce, such as manufacturers, importers, wholesalers, distributors, re-sellers, and retailers.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.10, Applicability and scope (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.10"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "It also applies to anyone who uses these products to install or repair a public water system or a residential or nonresidential facility providing water for human consumption.",
+          "quote": "It also applies to any person who uses these products in the installation or repair of: (1) A public water system; or (2) A residential or nonresidential facility providing water for human consumption.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.10, Applicability and scope (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.10"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Potable uses, for Subpart B only, are services or applications that provide water for human ingestion, such as drinking, cooking, food preparation, dishwashing, teeth brushing or oral hygiene.",
+          "quote": "Potable uses, for purposes only of this subpart, means services or applications that provide water for human ingestion, such as for drinking, cooking, food preparation, dishwashing, teeth brushing, or maintaining oral hygiene.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.11, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.11"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Fixtures used for potable uses include water heaters, water meters, water pumps and water tanks, unless those fixtures are not used for potable uses.",
+          "quote": "(3) Water heaters, water meters, water pumps, and water tanks, unless such fixtures are not used for potable uses.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.11, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.11"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An accredited third party certification body is one accredited by ANSI to certify products to the lead free requirement of not more than a 0.25 percent weighted average on wetted surfaces, such as certification to NSF/ANSI 372.",
+          "quote": "Accredited third party certification body means those bodies that are accredited by the American National Standards Institute (ANSI) to provide product certification to meet the lead free requirements of not more than a weighted average of 0.25 percent lead content when used with respect to the wetted surfaces, consistent with section 1417 of the Safe Drinking Water Act and § 143.12, such as certification to the NSF/ANSI 372 standard.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.11, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.11"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Other 143.11 definitions (alloy, coating, liner, custom fabricated product, manufacturer, importer and others) are used in the points below where they matter."
+    },
+    {
+      "id": "lead-free-definition",
+      "name": "What lead free means",
+      "points": [
+        {
+          "text": "For solder and flux, lead free means not containing more than 0.2 percent lead.",
+          "quote": "(1) Not containing more than 0.2 percent lead when used with respect to solder and flux; and",
+          "source": {
+            "title": "eCFR: 40 CFR 143.12, Definition of lead free and calculation methodology (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.12"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For the wetted surfaces of pipes, pipe fittings, plumbing fittings and fixtures, lead free means not more than a weighted average of 0.25 percent lead.",
+          "quote": "(2) Not more than a weighted average of 0.25 percent lead when used with respect to the wetted surfaces of pipes, pipe fittings, plumbing fittings, and fixtures.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.12, Definition of lead free and calculation methodology (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.12"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The weighted average is calculated by multiplying each wetted component's lead percentage by its share of the product's total wetted surface area, then adding the results.",
+          "quote": "For each wetted component, the percentage of lead in the component is multiplied by the ratio of the wetted surface area of that component to the total wetted surface area of the entire product to arrive at the weighted percentage of lead of the component. The weighted percentage of lead of each wetted component is added together, and the sum of these weighted percentages constitutes the weighted average lead content of the product.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.12, Definition of lead free and calculation methodology (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.12"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Where a material's lead content is given as a range, the maximum of the range must be used.",
+          "quote": "For lead content of materials that are provided as a range, the maximum content of the range must be used.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.12, Definition of lead free and calculation methodology (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.12"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Filter media in a fixture, such as activated carbon or ion exchange resin, are not counted in the total wetted surface area of the product.",
+          "quote": "(e) If a fixture contains any media (e.g., activated carbon, ion exchange resin) contained in filters, the media are not to be used in determining the “total wetted surface area of the entire product” in paragraph (b) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.12, Definition of lead free and calculation methodology (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.12"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A drinking water cooler is not lead free if solder, flux or a storage tank interior surface that may contact drinking water contains more than 0.2 percent lead.",
+          "quote": "no drinking water cooler, which contains any solder, flux, or storage tank interior surface, which may come into contact with drinking water, is lead free if the solder, flux, or storage tank interior surface contains more than 0.2 percent lead.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.12, Definition of lead free and calculation methodology (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.12"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each part of a drinking water cooler that may contact drinking water must not contain more than 8 percent lead, while the whole product still meets the 0.25 percent weighted average for wetted surfaces.",
+          "quote": "Drinking water coolers must be manufactured such that each individual part or component that may come in contact with drinking water shall not contain more than 8 percent lead while still meeting the maximum 0.25 percent weighted average lead content of the wetted surfaces of the entire product.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.12, Definition of lead free and calculation methodology (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.12"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "prohibitions",
+      "name": "Use, sale and labeling prohibitions",
+      "points": [
+        {
+          "text": "No person may use any pipe, pipe or plumbing fitting or fixture, solder or flux that is not lead free (as defined in 143.12) in an installation or repair covered by 143.13(a).",
+          "quote": "(a) No person may use any pipe, any pipe or plumbing fitting or fixture, any solder or any flux that is not lead free as defined in § 143.12 in the installation or repair of:",
+          "source": {
+            "title": "eCFR: 40 CFR 143.13, Use prohibitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.13"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The installations and repairs covered are those of any public water system, or of any plumbing in a residential or nonresidential facility providing water for human consumption.",
+          "quote": "(1) Any public water system; or (2) Any plumbing in a residential or nonresidential facility providing water for human consumption.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.13, Use prohibitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.13"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The use prohibition does not apply to leaded joints necessary for the repair of cast iron pipes.",
+          "quote": "(b) Paragraph (a) of this section shall not apply to leaded joints necessary for the repair of cast iron pipes.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.13, Use prohibitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.13"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "As a condition of receiving a full allotment of Public Water System Supervision grants, States must enforce the use prohibitions through State or local plumbing codes or other means the State considers appropriate.",
+          "quote": "As a condition of receiving a full allotment of Public Water System Supervision grants under section 1443(a) of the Safe Drinking Water Act, States must enforce the requirements of section 1417(a)(1) of the Safe Drinking Water Act and § 143.13 through State or local plumbing codes, or such other means of enforcement as the State may determine to be appropriate.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.14, State enforcement of use prohibitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.14"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "No person may introduce into commerce a pipe, pipe or plumbing fitting or fixture that is not lead free, except a pipe used in manufacturing or industrial processing.",
+          "quote": "(a) No person may introduce into commerce any pipe, or any pipe or plumbing fitting or fixture, that is not lead free, except for a pipe that is used in manufacturing or industrial processing;",
+          "source": {
+            "title": "eCFR: 40 CFR 143.15, Introduction into commerce prohibitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "No one in the business of selling plumbing supplies in the United States, except manufacturers, may sell solder or flux that is not lead free.",
+          "quote": "(b) No person engaged in the business of selling plumbing supplies in the United States, except manufacturers, may sell solder or flux that is not lead free; and",
+          "source": {
+            "title": "eCFR: 40 CFR 143.15, Introduction into commerce prohibitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Solder and flux that is not lead free must bear a prominent label stating that it is illegal to use it in installing or repairing any plumbing providing water for human consumption.",
+          "quote": "Solder and flux that is not “lead free” as defined in § 143.12(a)(1) must bear a prominent label stating that it is illegal to use the solder or flux in the installation or repair of any plumbing providing water for human consumption.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.18, Required labeling of solder and flux that is not lead free (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.18"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "exemptions",
+      "name": "Exemptions",
+      "points": [
+        {
+          "text": "The 143.16 exemptions cover the use prohibitions in 143.13, the commerce prohibitions in 143.15 and the certification requirements in 143.19.",
+          "quote": "The prohibitions in §§ 143.13 and 143.15 and the product certification requirements in § 143.19 shall not apply to the products listed in paragraphs (a) through (c) of this section:",
+          "source": {
+            "title": "eCFR: 40 CFR 143.16, Exemptions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.16"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Exempt are pipes, fittings and fixtures, including backflow preventers, used exclusively for nonpotable services such as manufacturing, industrial processing, irrigation or outdoor watering, where the water is not anticipated to be used for human consumption.",
+          "quote": "(a) Pipes, pipe fittings, plumbing fittings, or fixtures, including backflow preventers, that are used exclusively for nonpotable services such as manufacturing, industrial processing, irrigation, outdoor watering, or any other uses where the water is not anticipated to be used for human consumption.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.16, Exemptions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.16"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "One way a product can count as used exclusively for nonpotable services is a clear label on the product, package or tag such as \"Not for use with water for human consumption\" or a plain-language equivalent.",
+          "quote": "(1) Products that are clearly labeled, on the product, package, or tag with a phrase such as: “Not for use with water for human consumption” or another phrase that conveys the same meaning in plain language;",
+          "source": {
+            "title": "eCFR: 40 CFR 143.16, Exemptions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.16"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Also exempt: toilets, bidets, urinals, fill valves, flushometer valves, tub fillers, shower valves, fire hydrants, service saddles, and water distribution main gate valves 2 inches in diameter or larger.",
+          "quote": "(b) Toilets, bidets, urinals, fill valves, flushometer valves, tub fillers, shower valves, fire hydrants, service saddles, and water distribution main gate valves (provided that such valves are 2 inches in diameter or larger).",
+          "source": {
+            "title": "eCFR: 40 CFR 143.16, Exemptions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.16"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Also exempt: clothes washing machines, emergency drench showers, emergency face wash equipment, eyewash devices, fire suppression sprinklers, steam capable clothes dryers and sump pumps.",
+          "quote": "(c) Clothes washing machines, emergency drench showers, emergency face wash equipment, eyewash devices, fire suppression sprinklers, steam capable clothes dryers, and sump pumps.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.16, Exemptions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.16"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "certification",
+      "name": "Product certification and compliance",
+      "points": [
+        {
+          "text": "Manufacturers and importers must ensure products that must be lead free are certified by September 1, 2023, or before the product is introduced into commerce, whichever is later, subject to the exceptions in 143.19(a)(1)-(3).",
+          "quote": "Manufacturers or importers that introduce into commerce products that must meet the lead free requirements of section 1417 of the Safe Drinking Water Act and § 143.12 must ensure, except as provided in paragraphs (a)(1) through (3) of this section, that the products are certified to be in compliance as specified in paragraphs (b) and (c) of this section by September 1, 2023, or prior to product introduction into commerce, whichever occurs later.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.19, Required certification of products (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.19"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "They must keep documentation supporting the certification for at least 5 years from the date of the last sale of the product by the manufacturer or importer.",
+          "quote": "Such manufacturers or importers must maintain documentation to substantiate the certification for at least 5 years from the date of the last sale of the product by the manufacturer or importer.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.19, Required certification of products (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.19"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The exceptions: components of an assembled product need not be certified individually if the entire assembled product is lead free certified; direct replacement parts for previously installed lead free certified products need not be certified individually if their weighted average lead content does not exceed the original part's; and dishwashers do not need to be certified.",
+          "quote": "(1) Product components of assembled pipes, fittings, or fixtures do not need to be individually certified if the entire product in its final assembled form is lead free certified. (2) Direct replacement parts for previously installed lead free certified products do not need to be individually certified if the weighted average lead content of wetted surface area for the part does not exceed such lead content of the original part. (3) Dishwashers do not need to be certified.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.19, Required certification of products (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.19"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Certification is obtained from an accredited third party certification body, except where self-certification is allowed under 143.19(c).",
+          "quote": "(b) Certification of products must be obtained by manufacturers or importers from an accredited third party certification body, except as provided in paragraph (c) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.19, Required certification of products (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.19"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Manufacturers with fewer than 10 employees (counting affiliated entities), or importers of their products, may elect to self-certify instead of using a third party.",
+          "quote": "(1) Manufacturers having fewer than 10 employees, or importers entering products purchased from or manufactured by manufacturers having fewer than 10 employees, may elect to self-certify products in lieu of obtaining certification from an accredited third party certification body.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.19, Required certification of products (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.19"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Any custom fabricated product may be self-certified, regardless of the number of employees.",
+          "quote": "(2) Manufacturers or importers may elect to self-certify any custom fabricated product in lieu of obtaining certification from an ANSI accredited third party certification body, regardless of the number of persons employed by the manufacturer.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.19, Required certification of products (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.19"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Noncompliance with the Act or Subpart B may be subject to enforcement, which may include injunctive or declaratory relief, civil penalties or criminal penalties.",
+          "quote": "(a) Noncompliance with the Safe Drinking Water Act or this subpart may be subject to enforcement. Enforcement actions may include seeking injunctive or declaratory relief, civil penalties, or criminal penalties.",
+          "source": {
+            "title": "eCFR: 40 CFR 143.20, Compliance provisions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-143/subpart-B/section-143.20"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The full contents required in a certificate of conformity (143.19(e)) and the employee-averaging rules for self-certification (143.19(c)(1)) are not listed point by point here."
+    }
+  ]
+}

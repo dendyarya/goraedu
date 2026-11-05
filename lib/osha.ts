@@ -2,7 +2,7 @@
 // the OSHA Outreach Training Program course topics for each industry.
 
 export type OshaSet = { slug: string; name: string; rule: string; focus: string | null };
-export type OshaClusterId = "osha" | "osha-general-industry" | "cdl" | "faa-107";
+export type OshaClusterId = "osha" | "osha-general-industry" | "cdl" | "faa-107" | "water-operator";
 
 const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "intro-to-osha", name: "Introduction to OSHA", rule: "29 CFR Parts 1903 and 1904", focus: null },
@@ -54,6 +54,32 @@ const FAA_SETS: OshaSet[] = [
   },
 ];
 
+const WATER_SETS: OshaSet[] = [
+  { slug: "systems-definitions", name: "Systems and definitions", rule: "40 CFR Part 141 Subpart A", focus: null },
+  { slug: "contaminant-levels", name: "Maximum contaminant levels", rule: "40 CFR Part 141 Subpart G", focus: null },
+  { slug: "total-coliform", name: "Total coliform (RTCR)", rule: "40 CFR Part 141 Subpart Y", focus: null },
+  {
+    slug: "filtration-disinfection",
+    name: "Filtration and disinfection",
+    rule: "40 CFR Part 141 Subpart H",
+    focus: null,
+  },
+  {
+    slug: "disinfection-byproducts",
+    name: "Disinfectant residuals and byproducts",
+    rule: "40 CFR Part 141 Subpart L",
+    focus: null,
+  },
+  { slug: "lead-copper", name: "Lead and copper", rule: "40 CFR Part 141 Subpart I", focus: null },
+  { slug: "public-notification", name: "Public notification", rule: "40 CFR Part 141 Subpart Q", focus: null },
+  {
+    slug: "secondary-standards-lead-free",
+    name: "Secondary standards and lead free plumbing",
+    rule: "40 CFR Part 143",
+    focus: null,
+  },
+];
+
 const GENERAL_INDUSTRY_SETS: OshaSet[] = [
   { slug: "walking-working-surfaces", name: "Walking-working surfaces", rule: "29 CFR 1910 Subpart D", focus: null },
   { slug: "exit-routes", name: "Exit routes and emergency planning", rule: "29 CFR 1910 Subpart E", focus: null },
@@ -79,6 +105,9 @@ export const CDL_INDEPENDENCE_TEXT =
 
 export const FAA_INDEPENDENCE_TEXT =
   "goraedu is not an FAA knowledge testing center or training provider, and our questions are not the FAA knowledge test. Not affiliated with or endorsed by the FAA or the U.S. Department of Transportation.";
+
+export const WATER_INDEPENDENCE_TEXT =
+  "goraedu does not certify water operators, and our questions are not a state operator certification exam. Not affiliated with or endorsed by the U.S. EPA, any state drinking water program or any operator certification body.";
 
 export const OSHA_CLUSTERS: Record<
   OshaClusterId,
@@ -127,6 +156,15 @@ export const OSHA_CLUSTERS: Record<
     sets: FAA_SETS,
     independence: FAA_INDEPENDENCE_TEXT,
     notFrom: "the FAA knowledge test, FAA sample test questions or any prep course",
+  },
+  "water-operator": {
+    id: "water-operator",
+    label: "Drinking water operator",
+    href: "/water-operator/",
+    part: "40 CFR Parts 141 and 143",
+    sets: WATER_SETS,
+    independence: WATER_INDEPENDENCE_TEXT,
+    notFrom: "any state operator certification exam, operator manual or prep course",
   },
 };
 

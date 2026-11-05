@@ -128,6 +128,24 @@ const SNAPSHOTS: Record<string, string[]> = {
     "faa/remote-pilot-study-guide.txt",
     "faa/remote-pilot-study-guide.reading-order.txt",
   ],
+  "water-operator": [
+    "40cfr141-subpartA-2026-11-03.txt",
+    "40cfr141-subpartA-2026-11-03.reading-order.txt",
+    "40cfr141-subpartG-2026-11-03.txt",
+    "40cfr141-subpartG-2026-11-03.reading-order.txt",
+    "40cfr141-subpartH-2026-11-03.txt",
+    "40cfr141-subpartH-2026-11-03.reading-order.txt",
+    "40cfr141-subpartI-2026-11-03.txt",
+    "40cfr141-subpartI-2026-11-03.reading-order.txt",
+    "40cfr141-subpartY-2026-11-03.txt",
+    "40cfr141-subpartY-2026-11-03.reading-order.txt",
+    "40cfr141-subpartQ-2026-11-03.txt",
+    "40cfr141-subpartQ-2026-11-03.reading-order.txt",
+    "40cfr141-subpartL-2026-11-04.txt",
+    "40cfr141-subpartL-2026-11-04.reading-order.txt",
+    "40cfr143-2026-11-04.txt",
+    "40cfr143-2026-11-04.reading-order.txt",
+  ],
   "epa-609": [
     "40cfr82-subpartB-2026-11-03.txt",
     "40cfr82-subpartG-2026-11-03.txt",
@@ -189,6 +207,14 @@ const PAGE_TITLES = [
   "Small Unmanned Aircraft Systems",
   "Registration and Marking Requirements for Small Unmanned Aircraft",
   "Remote Identification of Unmanned Aircraft",
+  "General",
+  "National Primary Drinking Water Regulations: Maximum Contaminant Levels...",
+  "Filtration and Disinfection",
+  "Control of Lead and Copper",
+  "Disinfectant Residuals, Disinfection Byproducts, and Disinfection...",
+  "Public Notification of Drinking Water Violations",
+  "Revised Total Coliform Rule",
+  "Other Safe Drinking Water Act Regulations",
 ];
 
 function stripPageChrome(text: string): string {
@@ -199,7 +225,10 @@ function stripPageChrome(text: string): string {
       return !(
         PAGE_TITLES.includes(t) ||
         /^\d+ CFR (Part \d+( Subpart [A-Z])?|[\d.]+) \(up to date/.test(t) ||
-        /^\d+ CFR [\d.]+[\d()a-z]*$/.test(t) ||
+        /^\d+ CFR [\d.]+[\d()a-zA-Z]*$/.test(t) ||
+        /^\d+ CFR [\d.]+-[\d.]+$/.test(t) ||
+        /^\d+ CFR Appendix-\S+( \d+\.)?$/.test(t) ||
+        /^\d+ CFR Part \d+( Subpart [A-Z])? \([A-Z][a-z]+\.? \d+, \d{4}\)$/.test(t) ||
         /^page \d+ of \d+$/.test(t) ||
         /\(enhanced display\)(\s+page \d+ of \d+)?$/.test(t) ||
         /^\s{20,}\d+ CFR \S/.test(l) ||

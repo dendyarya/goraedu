@@ -1,0 +1,389 @@
+{
+  "cluster": "water-operator",
+  "slug": "systems-definitions",
+  "title": "Drinking water systems and definitions practice questions",
+  "description": "Free practice questions on 40 CFR 141 Subpart A: public water system types, key definitions, coverage, variances, siting and effective dates.",
+  "href": "/water-operator/systems-definitions/practice-test/",
+  "questions": [
+    {
+      "id": "sd-001",
+      "topic": "Scope and coverage",
+      "question": "A system has only distribution and storage facilities, buys all of its water from a regulated public water system that does not own or operate it, and is not a carrier that conveys passengers in interstate commerce. Under 141.3, which added fact would make Part 141 apply to it?",
+      "options": {
+        "A": "It stores the water in an elevated tank",
+        "B": "It sells water to the people it serves",
+        "C": "It has no collection or treatment facilities",
+        "D": "It gets all of its water from a public water system to which the regulations apply"
+      },
+      "answer": "B",
+      "explanation": "Part 141 applies \"unless the public water system meets all of the following conditions\", one of which is that it \"Does not sell water to any person\". Selling water means it no longer meets every condition.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.3, Coverage (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Does not sell water to any person"
+    },
+    {
+      "id": "sd-002",
+      "topic": "System types",
+      "question": "A mobile home park supplies piped water to 20 service connections, all used by year-round residents. Under the 141.2 definitions, what kind of system is it?",
+      "options": {
+        "A": "A non-transient non-community water system",
+        "B": "A transient non-community water system",
+        "C": "Not a public water system, because it has fewer than 25 connections",
+        "D": "A community water system"
+      },
+      "answer": "D",
+      "explanation": "A community water system is a public water system \"which serves at least 15 service connections used by year-round residents or regularly serves at least 25 year-round residents.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Community water system means a public water system which serves at least 15 service connections used by year-round residents or regularly serves at least 25 year-round residents."
+    },
+    {
+      "id": "sd-003",
+      "topic": "System types",
+      "question": "A factory has its own well and piped system. It has no residents, but the same 30 employees drink its water every workday all year. Which 141.2 system type fits?",
+      "options": {
+        "A": "A non-transient non-community water system",
+        "B": "A community water system",
+        "C": "A transient non-community water system",
+        "D": "A seasonal system"
+      },
+      "answer": "A",
+      "explanation": "A non-transient non-community water system is \"a public water system that is not a community water system and that regularly serves at least 25 of the same persons over 6 months per year.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "regularly serves at least 25 of the same persons over 6 months per year"
+    },
+    {
+      "id": "sd-004",
+      "topic": "System types",
+      "question": "A highway rest area open all year serves water to about 200 different travelers each day through its own piped system. Its small staff is well under 25 people and nobody lives there. Which 141.2 system type fits?",
+      "options": {
+        "A": "A community water system",
+        "B": "A non-transient non-community water system",
+        "C": "A transient non-community water system",
+        "D": "Not a public water system, because travelers are not service connections"
+      },
+      "answer": "C",
+      "explanation": "A transient non-community water system is \"a non-community water system that does not regularly serve at least 25 of the same persons over six months per year.\" The rest area still meets the public water system test of serving \"an average of at least twenty-five individuals daily at least 60 days out of the year\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Transient non-community water system or TWS means a non-community water system that does not regularly serve at least 25 of the same persons over six months per year."
+    },
+    {
+      "id": "sd-005",
+      "topic": "Scope and coverage",
+      "question": "A campground's piped system has only 10 service connections. Which test in the 141.2 public water system definition can still make it a public water system?",
+      "options": {
+        "A": "It serves at least 15 individuals daily for at least 30 days a year",
+        "B": "It serves at least 25 individuals on any single day of the year",
+        "C": "It regularly serves an average of at least 25 individuals daily at least 60 days out of the year",
+        "D": "It serves at least 100 individuals daily during its peak month"
+      },
+      "answer": "C",
+      "explanation": "A public water system is one that \"has at least fifteen service connections or regularly serves an average of at least twenty-five individuals daily at least 60 days out of the year.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "if such system has at least fifteen service connections or regularly serves an average of at least twenty-five individuals daily at least 60 days out of the year"
+    },
+    {
+      "id": "sd-006",
+      "topic": "Scope and coverage",
+      "question": "Which facilities NOT under the operator's control does the 141.2 public water system definition still include in the system?",
+      "options": {
+        "A": "Collection or pretreatment storage facilities used primarily in connection with the system",
+        "B": "Distribution mains owned by the customers",
+        "C": "Any special irrigation district that supplies the system",
+        "D": "The plumbing inside each customer's building"
+      },
+      "answer": "A",
+      "explanation": "The term includes \"any collection or pretreatment storage facilities not under such control which are used primarily in connection with such system.\" Special irrigation districts are excluded from the term.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "any collection or pretreatment storage facilities not under such control which are used primarily in connection with such system"
+    },
+    {
+      "id": "sd-007",
+      "topic": "Water sources",
+      "question": "Under the 141.2 definition of ground water under the direct influence of surface water (GWUDI), whose criteria are used to decide whether an individual source is under direct influence?",
+      "options": {
+        "A": "The water system operator's",
+        "B": "The certified laboratory's",
+        "C": "The U.S. Geological Survey's",
+        "D": "The State's"
+      },
+      "answer": "D",
+      "explanation": "\"Direct influence must be determined for individual sources in accordance with criteria established by the State.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Direct influence must be determined for individual sources in accordance with criteria established by the State."
+    },
+    {
+      "id": "sd-008",
+      "topic": "Water sources",
+      "question": "After each heavy rain, a well's turbidity and temperature shift quickly and closely track a nearby river. Which element of the 141.2 GWUDI definition does this observation match?",
+      "options": {
+        "A": "Significant occurrence of insects or other macroorganisms",
+        "B": "Significant and relatively rapid shifts in water characteristics that closely correlate to climatological or surface water conditions",
+        "C": "Water that is open to the atmosphere and subject to surface runoff",
+        "D": "Water introduced into the distribution system without further treatment"
+      },
+      "answer": "B",
+      "explanation": "GWUDI includes ground water with \"significant and relatively rapid shifts in water characteristics such as turbidity, temperature, conductivity, or pH which closely correlate to climatological or surface water conditions.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "significant and relatively rapid shifts in water characteristics such as turbidity, temperature, conductivity, or pH which closely correlate to climatological or surface water conditions"
+    },
+    {
+      "id": "sd-009",
+      "topic": "System types",
+      "question": "A system's only source is a well that the State has determined is ground water under the direct influence of surface water, and the system is subject to subpart H. How does 141.2 classify it?",
+      "options": {
+        "A": "As a subpart H system, because GWUDI counts the same as surface water for that term",
+        "B": "As a ground water system only, because subpart H systems use surface water alone",
+        "C": "As a subpart H system only if it serves more than 10,000 persons",
+        "D": "As a subpart H system only if it is a community water system"
+      },
+      "answer": "A",
+      "explanation": "Subpart H systems are \"public water systems using surface water or ground water under the direct influence of surface water as a source that are subject to the requirements of subpart H of this part.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Subpart H systems means public water systems using surface water or ground water under the direct influence of surface water as a source that are subject to the requirements of subpart H of this part."
+    },
+    {
+      "id": "sd-010",
+      "topic": "Standards and goals",
+      "question": "Where does the 141.2 definition of a maximum contaminant level (MCL) place the level it limits?",
+      "options": {
+        "A": "At the plant intake",
+        "B": "In water delivered to any user of a public water system",
+        "C": "In the raw source water before treatment",
+        "D": "Only at the entrance to the distribution system"
+      },
+      "answer": "B",
+      "explanation": "\"Maximum contaminant level means the maximum permissible level of a contaminant in water which is delivered to any user of a public water system.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Maximum contaminant level means the maximum permissible level of a contaminant in water which is delivered to any user of a public water system."
+    },
+    {
+      "id": "sd-011",
+      "topic": "Standards and goals",
+      "question": "How does 141.2 describe the legal status of maximum contaminant level goals (MCLGs)?",
+      "options": {
+        "A": "They are enforceable in the same manner as MCLs",
+        "B": "They are enforceable only for community water systems",
+        "C": "They become enforceable once a State adopts them",
+        "D": "They are nonenforceable health goals"
+      },
+      "answer": "D",
+      "explanation": "\"Maximum contaminant level goals are nonenforceable health goals.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Maximum contaminant level goals are nonenforceable health goals."
+    },
+    {
+      "id": "sd-012",
+      "topic": "Standards and goals",
+      "question": "For chlorine dioxide, what compliance basis does the 141.2 MRDL definition set?",
+      "options": {
+        "A": "A running annual average of monthly averages of distribution system samples, computed quarterly",
+        "B": "A locational running annual average at each monitoring location",
+        "C": "Daily samples at the entrance to the distribution system, with no two consecutive daily samples above the MRDL",
+        "D": "One sample per month at the tap of the first customer"
+      },
+      "answer": "C",
+      "explanation": "\"For chlorine dioxide, a PWS is in compliance with the MRDL when daily samples are taken at the entrance to the distribution system and no two consecutive daily samples exceed the MRDL.\" The running annual average basis is the one stated for chlorine and chloramines.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "For chlorine dioxide, a PWS is in compliance with the MRDL when daily samples are taken at the entrance to the distribution system and no two consecutive daily samples exceed the MRDL."
+    },
+    {
+      "id": "sd-013",
+      "topic": "Standards and goals",
+      "question": "The 141.2 text states the lead and copper action levels as revised in 2024 (Subpart I compliance required by November 1, 2027). For what purpose does 141.2 define the term \"action level\"?",
+      "options": {
+        "A": "For every contaminant that has an MCL in subpart G",
+        "B": "For subpart I only, as the lead or copper concentrations that determine requirements under that subpart",
+        "C": "For disinfectant levels at the consumer's tap",
+        "D": "For the secondary standards in Part 143"
+      },
+      "answer": "B",
+      "explanation": "\"Action level, for the purpose of subpart I of this part only, means the concentrations of lead or copper in water as specified in § 141.80(c) which determines requirements under subpart I of this part.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Action level, for the purpose of subpart I of this part only, means the concentrations of lead or copper in water"
+    },
+    {
+      "id": "sd-014",
+      "topic": "Treatment and monitoring terms",
+      "question": "How does 141.2 decide which service connections are \"near the first service connection\"?",
+      "options": {
+        "A": "The 20 percent of all service connections nearest the treatment facility, measured by water transport time",
+        "B": "The 10 service connections closest to the treatment facility by straight-line distance",
+        "C": "The 20 percent of service connections with the shortest pipe length from the plant",
+        "D": "Any service connection within one mile of the treatment facility"
+      },
+      "answer": "A",
+      "explanation": "It means \"at one of the 20 percent of all service connections in the entire system that are nearest the water supply treatment facility, as measured by water transport time within the distribution system.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Near the first service connection means at one of the 20 percent of all service connections in the entire system that are nearest the water supply treatment facility, as measured by water transport time within the distribution system."
+    },
+    {
+      "id": "sd-015",
+      "topic": "Treatment and monitoring terms",
+      "question": "How is a compliance cycle built under 141.2?",
+      "options": {
+        "A": "A six-year cycle made of two three-year compliance periods",
+        "B": "A twelve-year cycle made of four three-year compliance periods",
+        "C": "A nine-year calendar year cycle made of three three-year compliance periods",
+        "D": "A nine-year cycle made of nine one-year compliance periods"
+      },
+      "answer": "C",
+      "explanation": "\"Compliance cycle means the nine-year calendar year cycle during which public water systems must monitor. Each compliance cycle consists of three three-year compliance periods.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Each compliance cycle consists of three three-year compliance periods."
+    },
+    {
+      "id": "sd-016",
+      "topic": "Treatment and monitoring terms",
+      "question": "A plant adds coagulant chemicals and then filters the water, with no sedimentation step in between. Which 141.2 term describes this treatment?",
+      "options": {
+        "A": "Conventional filtration treatment",
+        "B": "Slow sand filtration",
+        "C": "Diatomaceous earth filtration",
+        "D": "Direct filtration"
+      },
+      "answer": "D",
+      "explanation": "\"Direct filtration means a series of processes including coagulation and filtration but excluding sedimentation resulting in substantial particulate removal.\" Conventional filtration treatment includes sedimentation.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Direct filtration means a series of processes including coagulation and filtration but excluding sedimentation resulting in substantial particulate removal."
+    },
+    {
+      "id": "sd-017",
+      "topic": "Variances, siting and effective dates",
+      "question": "Which contaminant's MCL does 141.4(a) name as one from which variances or exemptions may not be granted?",
+      "options": {
+        "A": "E. coli",
+        "B": "Arsenic",
+        "C": "Fluoride",
+        "D": "Nitrite"
+      },
+      "answer": "A",
+      "explanation": "Variances or exemptions may be granted, \"except that variances or exemptions from the MCLs for total coliforms and E. coli and variances from any of the treatment technique requirements of subpart H of this part may not be granted.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.4, Variances and exemptions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.4"
+      },
+      "checked": "2026-11-06",
+      "evidence": "except that variances or exemptions from the MCLs for total coliforms and E. coli and variances from any of the treatment technique requirements of subpart H of this part may not be granted"
+    },
+    {
+      "id": "sd-018",
+      "topic": "Variances, siting and effective dates",
+      "question": "Under 141.5, what must a person do before entering into a financial commitment for, or starting construction of, a new public water system?",
+      "options": {
+        "A": "Get a construction permit from the EPA Administrator",
+        "B": "Notify the system's future customers in writing",
+        "C": "File a report with EPA within 30 days after construction ends",
+        "D": "Notify the State and, to the extent practicable, avoid sites with the risks the section lists"
+      },
+      "answer": "D",
+      "explanation": "Before that step \"he shall notify the State and, to the extent practicable, avoid locating part or all of the new or expanded facility at a site which\" has the listed risks.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.5, Siting requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.5"
+      },
+      "checked": "2026-11-06",
+      "evidence": "he shall notify the State and, to the extent practicable, avoid locating part or all of the new or expanded facility at a site which"
+    },
+    {
+      "id": "sd-019",
+      "topic": "Variances, siting and effective dates",
+      "question": "Which part of a facility does 141.5(b) leave out of the siting criterion about the floodplain of a 100-year flood?",
+      "options": {
+        "A": "Storage tanks",
+        "B": "Treatment buildings",
+        "C": "Intake structures",
+        "D": "Pumping stations"
+      },
+      "answer": "C",
+      "explanation": "141.5(b) lists a site that, \"Except for intake structures, is within the floodplain of a 100-year flood or is lower than any recorded high tide where appropriate records exist.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.5, Siting requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.5"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Except for intake structures, is within the floodplain of a 100-year flood or is lower than any recorded high tide where appropriate records exist."
+    },
+    {
+      "id": "sd-020",
+      "topic": "Variances, siting and effective dates",
+      "question": "What compliance date does 141.6(l) give for the PFAS MCLs in 141.61?",
+      "options": {
+        "A": "June 25, 2024",
+        "B": "April 26, 2029",
+        "C": "April 26, 2027",
+        "D": "January 23, 2006"
+      },
+      "answer": "B",
+      "explanation": "\"The compliance date for the PFAS MCLs in § 141.61, as specified in § 141.60, and for § 141.203 notifications of violations of the PFAS MCLs is April 26, 2029.\" June 25, 2024 is the effective date and April 26, 2027 the reporting compliance date.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.6, Effective dates (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.6"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The compliance date for the PFAS MCLs in § 141.61, as specified in § 141.60, and for § 141.203 notifications of violations of the PFAS MCLs is April 26, 2029."
+    }
+  ]
+}

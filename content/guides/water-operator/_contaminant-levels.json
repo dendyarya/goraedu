@@ -1,0 +1,523 @@
+{
+  "cluster": "water-operator",
+  "slug": "contaminant-levels",
+  "href": "/water-operator/contaminant-levels/study-guide/",
+  "title": "Drinking water maximum contaminant levels study guide",
+  "description": "Federal MCLs and MRDLs in 40 CFR 141 Subpart G: who they cover, units, compliance basis, dates and best available technologies, with exact quotes.",
+  "intro": "Subpart G of 40 CFR Part 141 sets the federal maximum contaminant levels (MCLs) for organic, inorganic, microbiological, disinfection byproduct and radionuclide contaminants, and the maximum residual disinfectant levels (MRDLs) for chlorine, chloramines and chlorine dioxide. This guide sets out what the rule text states on which systems each limit covers, the units and the compliance basis, the effective and compliance dates, and the best available technologies (BAT) EPA lists. Monitoring and analytical methods sit in other subparts and are not covered. States with primacy may adopt stricter limits, so check your State's rules too. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "dates",
+      "name": "Effective dates and who the limits cover",
+      "points": [
+        {
+          "text": "Under 141.60(a)(1), the volatile organic MCLs in 141.61(a)(1) through (a)(8) took effect on January 9, 1989.",
+          "quote": "The effective date for paragraphs (a)(1) through (a)(8) of § 141.61 is January 9, 1989.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.60, Effective dates (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.60"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Under 141.60(a)(4), the PFAS MCLs in 141.61(c)(2)(i) through (vii) have an effective date of April 26, 2029.",
+          "quote": "The effective date for § 141.61(c)(2)(i) through (vii) is April 26, 2029.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.60, Effective dates (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.60"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Under 141.60(b)(1), the fluoride MCL in 141.62(b)(1) took effect on October 2, 1987.",
+          "quote": "The effective date of paragraph (b)(1) of § 141.62 is October 2, 1987.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.60, Effective dates (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.60"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Under 141.60(b)(4), the arsenic MCL in 141.62(b)(16) took effect on January 23, 2006.",
+          "quote": "The effective date for § 141.62(b)(16) is January 23, 2006.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.60, Effective dates (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.60"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The volatile organic contaminant MCLs in 141.61(a) apply to community and non-transient, non-community water systems.",
+          "quote": "The following maximum contaminant levels for volatile organic contaminants apply to community and non-transient, non-community water systems.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.61, Maximum contaminant levels for organic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The synthetic organic contaminant MCLs in 141.61(c)(1) and (2), including the PFAS MCLs, apply to community water systems and non-transient, non-community water systems.",
+          "quote": "The following maximum contaminant levels (MCLs) in paragraphs (c)(1) and (2) of this section for synthetic organic contaminants apply to community water systems and non-transient, non-community water systems",
+          "source": {
+            "title": "eCFR: 40 CFR 141.61, Maximum contaminant levels for organic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Most inorganic MCLs in 141.62(b) apply to community and non-transient, non-community water systems, but the fluoride MCL in 141.62(b)(1) applies only to community water systems.",
+          "quote": "The maximum contaminant levels for inorganic contaminants specified in paragraphs (b) (2)-(6), (b)(10), and (b) (11)-(16) of this section apply to community water systems and non-transient, non-community water systems. The maximum contaminant level specified in paragraph (b)(1) of this section only applies to community water systems.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The nitrate, nitrite and total nitrate and nitrite MCLs in 141.62(b)(7) through (9) also apply to transient non-community water systems.",
+          "quote": "The maximum contaminant levels specified in (b)(7), (b)(8), and (b)(9) of this section apply to community water systems; non-transient, non-community water systems; and transient non-community water systems.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Monitoring frequencies, sampling locations and analytical methods are in other subparts of Part 141 and are not covered here."
+    },
+    {
+      "id": "organics",
+      "name": "Organic contaminants and PFAS",
+      "points": [
+        {
+          "text": "Table 1 to 141.61(a) sets the vinyl chloride MCL at 0.002 mg/l.",
+          "quote": "(1) 75-01-4 Vinyl chloride 0.002",
+          "source": {
+            "title": "eCFR: 40 CFR 141.61, Maximum contaminant levels for organic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "141.61(b) identifies granular activated carbon (GAC), packed tower aeration (PTA) or oxidation (OX), as shown in table 2, as the best technology for the organic MCLs in 141.61(a) and (c), except for PFAS.",
+          "quote": "granular activated carbon (GAC), packed tower aeration (PTA), or oxidation (OX) as the best technology, treatment technique, or other means available for achieving compliance with the maximum contaminant level for organic contaminants identified in paragraphs (a) and (c) of this section, except for per- and polyfluoroalkyl substances (PFAS).",
+          "source": {
+            "title": "eCFR: 40 CFR 141.61, Maximum contaminant levels for organic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "141.61(c)(2) sets an MCL of 1 (unitless) for the Hazard Index PFAS: HFPO-DA, PFBS, PFHxS and PFNA.",
+          "quote": "Hazard Index PFAS (HFPO-DA, PFBS, 1 (unitless)",
+          "source": {
+            "title": "eCFR: 40 CFR 141.61, Maximum contaminant levels for organic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "PFOA has an MCL of 0.0000040 mg/l in 141.61(c)(2); its HBWC column reads \"Not applicable.\"",
+          "quote": "PFOA 0.0000040 Not applicable.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.61, Maximum contaminant levels for organic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "PFBS has no individual MCL; its HBWC for the Hazard Index calculation is 0.002 mg/l.",
+          "quote": "PFBS No individual MCL 0.002.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.61, Maximum contaminant levels for organic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Hazard Index is the sum of hazard quotients, each found by dividing the measured PFAS concentration by its health-based water concentration in the same units.",
+          "quote": "The PFAS Mixture Hazard Index (HI) is the sum of component hazard quotients (HQs), which are calculated by dividing the measured component PFAS concentration in water by the relevant health-based water concentration when expressed in the same units",
+          "source": {
+            "title": "eCFR: 40 CFR 141.61, Maximum contaminant levels for organic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Table 3 to 141.61(d) lists anion exchange, GAC, reverse osmosis and nanofiltration as the best available technologies for PFOA.",
+          "quote": "PFOA Anion exchange, GAC, reverse osmosis, nanofiltration.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.61, Maximum contaminant levels for organic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Table 4 to 141.61(e), the small system compliance technologies for PFAS, lists GAC and anion exchange for all size categories, and reverse osmosis or nanofiltration for the 3,301-10,000 category.",
+          "quote": "Granular Activated Carbon All size categories. Anion Exchange All size categories. Reverse Osmosis, Nanofiltration 3 3,301-10,000.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.61, Maximum contaminant levels for organic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.61"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "inorganics",
+      "name": "Inorganic contaminants",
+      "points": [
+        {
+          "text": "141.62(b) sets the fluoride MCL at 4.0 mg/l.",
+          "quote": "(1) Fluoride 4.0",
+          "source": {
+            "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The asbestos MCL is expressed as fibers, not mg/l: 7 million fibers per liter longer than 10 µm.",
+          "quote": "(2) Asbestos 7 Million Fibers/liter (longer than 10 µm)",
+          "source": {
+            "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Nitrate and nitrite MCLs are expressed as nitrogen: nitrate 10, nitrite 1, and total nitrate and nitrite 10 mg/l.",
+          "quote": "(7) Nitrate 10 (as Nitrogen) (8) Nitrite 1 (as Nitrogen) (9) Total Nitrate and Nitrite 10 (as Nitrogen)",
+          "source": {
+            "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "141.62(b)(16) sets the arsenic MCL at 0.010 mg/l.",
+          "quote": "(16) Arsenic 0.010",
+          "source": {
+            "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "141.62(c) identifies best available technologies for the inorganic contaminants in 141.62(b), except fluoride.",
+          "quote": "the best technology, treatment technique, or other means available for achieving compliance with the maximum contaminant levels for inorganic contaminants identified in paragraph (b) of this section, except fluoride",
+          "source": {
+            "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In the key to the inorganic BAT table, coagulation/filtration is not BAT for systems with fewer than 500 service connections.",
+          "quote": "2 = Coagulation/Filtration (not BAT for systems <500 service connections)",
+          "source": {
+            "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The arsenic BATs apply to Arsenic V, and pre-oxidation may be required to convert Arsenic III to Arsenic V.",
+          "quote": "BATs for Arsenic V. Pre-oxidation may be required to convert Arsenic III to Arsenic V.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "141.62(d) lists small system compliance technologies for arsenic for systems serving 10,000 persons or fewer.",
+          "quote": "the affordable technology, treatment technique, or other means available to systems serving 10,000 persons or fewer for achieving compliance with the maximum contaminant level for arsenic",
+          "source": {
+            "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When point-of-use (POU) or point-of-entry (POE) devices are used for arsenic compliance, the water system must provide programs for long-term operation, maintenance and monitoring.",
+          "quote": "When POU or POE devices are used for compliance, programs to ensure proper long-term operation, maintenance, and monitoring must be provided by the water system to ensure adequate performance.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.62, Maximum contaminant levels for inorganic contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The lead and copper action levels are in Subpart I, not Subpart G, and are not covered here."
+    },
+    {
+      "id": "microbiological",
+      "name": "Microbiological contaminants",
+      "points": [
+        {
+          "text": "Until March 31, 2016, the total coliform MCL was based on presence or absence of total coliforms in a sample, not coliform density.",
+          "quote": "Until March 31, 2016, the total coliform MCL is based on the presence or absence of total coliforms in a sample, rather than coliform density.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.63, Maximum contaminant levels (MCLs) for microbiological contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Under that pre-2016 rule, a system collecting at least 40 samples a month complied if no more than 5.0 percent of the month's samples were total coliform-positive.",
+          "quote": "For a system that collects at least 40 samples per month, if no more than 5.0 percent of the samples collected during a month are total coliform-positive, the system is in compliance with the MCL for total coliforms.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.63, Maximum contaminant levels (MCLs) for microbiological contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Beginning April 1, 2016, a system complies with the E. coli MCL for samples taken under subpart Y unless one of the conditions in 141.63(c)(1) through (4) occurs.",
+          "quote": "Beginning April 1, 2016, a system is in compliance with the MCL for E. coli for samples taken under the provisions of subpart Y of this part unless any of the conditions identified in paragraphs (c)(1) through (c)(4) of this section occur.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.63, Maximum contaminant levels (MCLs) for microbiological contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "One condition is an E. coli-positive repeat sample following a total coliform-positive routine sample.",
+          "quote": "The system has an E. coli-positive repeat sample following a total coliform-positive routine sample.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.63, Maximum contaminant levels (MCLs) for microbiological contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Failing to take all required repeat samples after an E. coli-positive routine sample, or failing to test for E. coli when any repeat sample is total coliform-positive, are the other two conditions.",
+          "quote": "(3) The system fails to take all required repeat samples following an E. coli-positive routine sample. (4) The system fails to test for E. coli when any repeat sample tests positive for total coliform.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.63, Maximum contaminant levels (MCLs) for microbiological contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For public notification under subpart Q, a violation of the E. coli MCL may pose an acute risk to health.",
+          "quote": "For purposes of the public notification requirements in subpart Q of this part, violation of the MCL may pose an acute risk to health.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.63, Maximum contaminant levels (MCLs) for microbiological contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Beginning April 1, 2016, a public water system determines E. coli MCL compliance for each month in which it is required to monitor for total coliforms.",
+          "quote": "Beginning April 1, 2016, a public water system must determine compliance with the MCL for E. coli in paragraph (c) of this section for each month in which it is required to monitor for total coliforms.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.63, Maximum contaminant levels (MCLs) for microbiological contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The listed means of compliance include keeping a disinfectant residual throughout the distribution system and proper distribution system maintenance, including cross connection control and positive water pressure in all parts of the system.",
+          "quote": "(2) Maintenance of a disinfectant residual throughout the distribution system; (3) Proper maintenance of the distribution system including appropriate pipe replacement and repair procedures, main flushing programs, proper operation and maintenance of storage tanks and reservoirs, cross connection control, and continual maintenance of positive water pressure in all parts of the distribution system;",
+          "source": {
+            "title": "eCFR: 40 CFR 141.63, Maximum contaminant levels (MCLs) for microbiological contaminants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.63"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Routine and repeat sampling rules for coliforms are in Subpart Y and are not covered here."
+    },
+    {
+      "id": "dbps",
+      "name": "Disinfection byproducts",
+      "points": [
+        {
+          "text": "141.64(a) sets the bromate MCL at 0.010 mg/L and the chlorite MCL at 1.0 mg/L.",
+          "quote": "Bromate 0.010 Chlorite 1.0",
+          "source": {
+            "title": "eCFR: 40 CFR 141.64, Maximum contaminant levels for disinfection byproducts (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.64"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For CWSs and NTNCWSs, subpart H systems serving 10,000 or more had to comply with the bromate and chlorite MCLs beginning January 1, 2002; smaller subpart H systems and systems using only ground water not under the direct influence of surface water, beginning January 1, 2004.",
+          "quote": "Compliance dates for CWSs and NTNCWSs. Subpart H systems serving 10,000 or more persons must comply with this paragraph (a) beginning January 1, 2002. Subpart H systems serving fewer than 10,000 persons and systems using only ground water not under the direct influence of surface water must comply with this paragraph (a) beginning January 1, 2004.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.64, Maximum contaminant levels for disinfection byproducts (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.64"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The BAT for bromate is control of the ozone treatment process to reduce production of bromate.",
+          "quote": "Bromate Control of ozone treatment process to reduce production of bromate",
+          "source": {
+            "title": "eCFR: 40 CFR 141.64, Maximum contaminant levels for disinfection byproducts (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.64"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The TTHM MCL is 0.080 mg/L and the HAA5 MCL is 0.060 mg/L.",
+          "quote": "Total trihalomethanes (TTHM) 0.080 Haloacetic acids (five) (HAA5) 0.060",
+          "source": {
+            "title": "eCFR: 40 CFR 141.64, Maximum contaminant levels for disinfection byproducts (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.64"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "All systems must comply with the subpart L TTHM and HAA5 MCLs in 141.64(b)(1) until the subpart V compliance date in 141.620(c).",
+          "quote": "All systems must comply with these MCLs until the date specified for subpart V compliance in § 141.620(c).",
+          "source": {
+            "title": "eCFR: 40 CFR 141.64, Maximum contaminant levels for disinfection byproducts (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.64"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Under subpart V, the TTHM and HAA5 MCLs are met as a locational running annual average (LRAA) at each monitoring location.",
+          "quote": "The subpart V MCLs for TTHM and HAA5 must be complied with as a locational running annual average at each monitoring location beginning the date specified for subpart V compliance in § 141.620(c).",
+          "source": {
+            "title": "eCFR: 40 CFR 141.64, Maximum contaminant levels for disinfection byproducts (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.64"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "mrdls",
+      "name": "Maximum residual disinfectant levels",
+      "points": [
+        {
+          "text": "The MRDL for chloramines is 4.0 mg/L (as Cl2) and for chlorine dioxide 0.8 mg/L (as ClO2).",
+          "quote": "Chloramines 4.0 (as Cl2). Chlorine dioxide 0.8 (as ClO2).",
+          "source": {
+            "title": "eCFR: 40 CFR 141.65, Maximum residual disinfectant levels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.65"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For CWSs and NTNCWSs, subpart H systems serving 10,000 or more had to comply beginning January 1, 2002.",
+          "quote": "CWSs and NTNCWSs. Subpart H systems serving 10,000 or more persons must comply with this section beginning January 1, 2002.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.65, Maximum residual disinfectant levels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.65"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Transient non-community subpart H systems serving 10,000 or more persons that use chlorine dioxide as a disinfectant or oxidant had to comply with the chlorine dioxide MRDL beginning January 1, 2002.",
+          "quote": "Transient NCWSs. Subpart H systems serving 10,000 or more persons and using chlorine dioxide as a disinfectant or oxidant must comply with the chlorine dioxide MRDL beginning January 1, 2002.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.65, Maximum residual disinfectant levels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.65"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The BAT for the MRDLs is control of treatment processes to reduce disinfectant demand and control of disinfection treatment processes to reduce disinfectant levels.",
+          "quote": "control of treatment processes to reduce disinfectant demand and control of disinfection treatment processes to reduce disinfectant levels.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.65, Maximum residual disinfectant levels (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.65"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "radionuclides",
+      "name": "Radionuclides",
+      "points": [
+        {
+          "text": "The MCL for combined radium-226 and radium-228 is 5 pCi/L, found by adding the radium-226 and radium-228 results.",
+          "quote": "The maximum contaminant level for combined radium-226 and radium-228 is 5 pCi/L. The combined radium-226 and radium-228 value is determined by the addition of the results of the analysis for radium-226 and the analysis for radium-228.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.66, Maximum contaminant levels for radionuclides (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.66"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The gross alpha MCL is 15 pCi/L, including radium-226 but excluding radon and uranium.",
+          "quote": "The maximum contaminant level for gross alpha particle activity (including radium-226 but excluding radon and uranium) is 15 pCi/L.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.66, Maximum contaminant levels for radionuclides (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.66"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Beta particle and photon radioactivity from man-made radionuclides must not produce an annual dose equivalent to the total body or any internal organ greater than 4 mrem/year.",
+          "quote": "The average annual concentration of beta particle and photon radioactivity from man-made radionuclides in drinking water must not produce an annual dose equivalent to the total body or any internal organ greater than 4 millirem/year (mrem/year).",
+          "source": {
+            "title": "eCFR: 40 CFR 141.66, Maximum contaminant levels for radionuclides (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.66"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Except for the radionuclides in table A, the concentration causing 4 mrem is calculated on 2 liters per day of drinking water intake.",
+          "quote": "Except for the radionuclides listed in table A, the concentration of man-made radionuclides causing 4 mrem total body or organ dose equivalents must be calculated on the basis of 2 liter per day drinking water intake",
+          "source": {
+            "title": "eCFR: 40 CFR 141.66, Maximum contaminant levels for radionuclides (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.66"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If two or more radionuclides are present, the sum of their annual dose equivalents must not exceed 4 mrem/year.",
+          "quote": "If two or more radionuclides are present, the sum of their annual dose equivalent to the total body or to any organ shall not exceed 4 mrem/year.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.66, Maximum contaminant levels for radionuclides (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.66"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The uranium MCL is 30 µg/L.",
+          "quote": "The maximum contaminant level for uranium is 30 µg/L.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.66, Maximum contaminant levels for radionuclides (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.66"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Community water systems must comply with the radium, gross alpha, beta/photon and uranium MCLs beginning December 8, 2003, with compliance determined under 141.25 and 141.26.",
+          "quote": "Community water systems must comply with the MCLs listed in paragraphs (b), (c), (d), and (e) of this section beginning December 8, 2003 and compliance shall be determined in accordance with the requirements of §§ 141.25 and 141.26.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.66, Maximum contaminant levels for radionuclides (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.66"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Table B lists ion exchange, reverse osmosis and lime softening as BAT for combined radium, and adds coagulation/filtration for uranium.",
+          "quote": "1. Combined radium-226 and radium-228 Ion exchange, reverse osmosis, lime softening. 2. Uranium Ion exchange, reverse osmosis, lime softening, coagulation/filtration.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.66, Maximum contaminant levels for radionuclides (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.66"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Table B lists ion exchange and reverse osmosis as BAT for beta particle and photon radioactivity.",
+          "quote": "4. Beta particle and photon radioactivity Ion exchange, reverse osmosis.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.66, Maximum contaminant levels for radionuclides (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.66"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    }
+  ]
+}

@@ -82,4 +82,12 @@ export const TOOLS: Tool[] = [
     summary:
       "Check a planned drone flight against 14 CFR 107.51: groundspeed, altitude and the structure exception, flight visibility and cloud clearance.",
   },
+  {
+    slug: "lead-copper-90th-percentile",
+    cluster: "water-operator",
+    name: "Lead and copper 90th percentile calculator",
+    href: "/water-operator/tools/lead-copper-90th-percentile/",
+    summary:
+      "Find the 90th percentile of lead or copper tap results the way 40 CFR 141.80(c)(3) describes it and compare it with the 2024-revised action levels.",
+  },
 ];

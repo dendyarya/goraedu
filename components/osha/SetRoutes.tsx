@@ -15,6 +15,9 @@ type Props = { params: Promise<{ set: string }> };
 
 const intro = (name: string) => name.startsWith("Introduction");
 
+/** Lowercases word-initial capitals but keeps acronyms such as RTCR or ID. */
+const lower = (name: string) => name.replace(/\b([A-Z])(?=[a-z])/g, (m) => m.toLowerCase());
+
 export function practiceRoute(cluster: OshaClusterId) {
   const c = OSHA_CLUSTERS[cluster];
   const setsFor = () =>
@@ -45,7 +48,9 @@ export function practiceRoute(cluster: OshaClusterId) {
       const others = setsFor().filter((s) => s.slug !== set.slug);
       const label = intro(name)
         ? name
-        : `${cluster === "cdl" ? "CDL" : cluster === "faa-107" ? "Part 107" : "OSHA"} ${name}`;
+        : cluster === "water-operator"
+          ? `Drinking water ${lower(name)}`
+          : `${cluster === "cdl" ? "CDL" : cluster === "faa-107" ? "Part 107" : "OSHA"} ${name}`;
 
       return (
         <PageShell
@@ -68,8 +73,8 @@ export function practiceRoute(cluster: OshaClusterId) {
                 <div className="rounded-3xl border border-low/40 bg-low-soft p-5">
                   <h2 className="text-[1.125rem] font-bold">Study first</h2>
                   <p className="mt-2 text-muted">
-                    The {intro(name) ? "OSHA inspection and recordkeeping" : name.toLowerCase()} rules, with the exact
-                    words of the regulation.
+                    The {intro(name) ? "OSHA inspection and recordkeeping" : lower(name)} rules, with the exact words of
+                    the regulation.
                   </p>
                   <Link href={guide.href} className="mt-3 inline-block font-semibold text-low underline">
                     {name} study guide
@@ -168,7 +173,7 @@ export function guideRoute(cluster: OshaClusterId) {
                   href={test.href}
                   className="mt-6 inline-block rounded-full bg-low px-4 py-2.5 font-semibold text-white hover:brightness-110"
                 >
-                  Practice {name.toLowerCase()}
+                  Practice {lower(name)}
                 </Link>
               ) : null
             }
