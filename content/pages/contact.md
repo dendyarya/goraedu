@@ -18,10 +18,9 @@ We review every error report within 7 days and log fixes on the [corrections pag
 
 ## What we cannot help with
 
-We are an independent education website, not EPA and not a certifying organization. We cannot issue, look up or
-replace certification cards, schedule exams, or give legal or compliance advice for a specific job. For your
-certification card, contact the organization that gave you the test. EPA lists approved programs on its
-[Section 608 technician certification page](https://www.epa.gov/section608/section-608-technician-certification-0).
+We are an independent education website, not a government agency, a testing company or a certifying organization.
+We cannot issue, look up or replace certificates, cards or licenses, schedule exams, or give legal or compliance
+advice for a specific job. For a certificate or card, contact the organization or agency that gave you the test.
 
 ## Privacy requests
 

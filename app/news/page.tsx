@@ -4,9 +4,9 @@ import PageShell from "@/components/PageShell";
 import { formatDate, getAllNews } from "@/lib/news";
 
 export const metadata: Metadata = {
-  title: "EPA Refrigerant and Certification News",
+  title: "Certification News",
   description:
-    "Changes to EPA refrigerant rules and Section 608 technician certification, each linked to the official source.",
+    "Official rule changes that affect U.S. skilled trades certifications, each linked to the official source.",
   alternates: { canonical: "/news/" },
 };
 
@@ -15,18 +15,23 @@ export default function NewsIndex() {
   return (
     <PageShell
       crumbs={[{ label: "Home", href: "/" }, { label: "News" }]}
-      title="EPA refrigerant and certification news"
-      lead="Changes to EPA refrigerant rules and Section 608 technician certification. Every post links to the Federal Register, eCFR or EPA.gov, and says whether a rule is proposed or final."
+      title="Certification news"
+      lead="Official changes that affect the certifications we cover. Every post links to the Federal Register, the eCFR or the agency's own site, and says whether a rule is proposed or final."
     >
       {posts.length === 0 ? (
-        <p>No news yet. New posts appear here when EPA publishes a change that affects technicians.</p>
+        <p>
+          No posts yet. New posts appear here when an agency publishes a change that affects one of our certifications.
+        </p>
       ) : (
         <ul className="max-w-3xl divide-y divide-line border-y border-line">
           {posts.map((p) => (
             <li key={p.slug} className="py-6">
-              <time dateTime={p.published} className="text-[0.9375rem] text-muted">
-                {formatDate(p.published)}
-              </time>
+              <p className="flex flex-wrap items-center gap-3 text-[0.9375rem] text-muted">
+                <span className="rounded-sm border border-low bg-low-soft px-1.5 text-[0.8125rem] leading-6 text-low">
+                  {p.topic}
+                </span>
+                <time dateTime={p.published}>{formatDate(p.published)}</time>
+              </p>
               <h2 className="mt-1 text-[1.5rem] font-bold">
                 <Link href={`/news/${p.slug}/`} className="hover:text-low hover:underline">
                   {p.title}

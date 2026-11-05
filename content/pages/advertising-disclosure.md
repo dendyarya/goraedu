@@ -16,7 +16,7 @@ or tools. If we do:
 - Ads will be clearly separated from our content and never placed inside a practice question, its answers or a
   tool's results.
 - Affiliate links will be disclosed on the page where they appear, as the U.S. Federal Trade Commission requires.
-- Free and official options, including EPA's own resources, will still be mentioned where they exist.
+- Free and official options, including the agency's own resources, will still be mentioned where they exist.
 - No payment will change a question, an answer, an explanation or what the official rules say.
 
 We will update this page and our [privacy policy](/privacy/) before any advertising or affiliate program starts.

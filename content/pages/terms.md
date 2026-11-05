@@ -10,8 +10,8 @@ By using goraedu.com, you agree to these terms. If you do not agree, please do n
 
 ## Educational use
 
-goraedu provides study material for the EPA Section 608 technician certification exam. It is for education only.
-It is not the official exam, it is not legal or compliance advice, and it does not certify anyone. Our
+goraedu provides study material for U.S. skilled trades certification exams. It is for education only. It is not
+any official exam, it is not legal or compliance advice, and it does not certify anyone. Our
 [disclaimer](/disclaimer/) explains the limits in more detail.
 
 ## Using our content

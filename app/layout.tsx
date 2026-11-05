@@ -27,7 +27,7 @@ const publicSans = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name}: Free EPA 608 Practice Questions with Official Sources`,
+    default: `${SITE.name}: Free Skilled Trades Certification Practice with Official Sources`,
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,

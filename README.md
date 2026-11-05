@@ -1,6 +1,7 @@
 # goraedu
 
-Free practice tests and study guides for U.S. skilled trades certifications, starting with EPA Section 608.
+Free practice tests and study guides for U.S. skilled trades certifications (roadmap in lib/clusters.ts),
+starting with EPA Section 608.
 Every answer links to the official source, with the date it was checked.
 
 Stack: Next.js 16 (static export), served by Nginx on the shared VPS behind Cloudflare.

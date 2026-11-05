@@ -9,6 +9,8 @@ export type NewsSource = { title: string; url: string; checked: string };
 export type NewsPost = {
   slug: string;
   title: string;
+  /** Certification the post is about, e.g. "EPA 608" or "CDL" */
+  topic: string;
   summary: string;
   published: string; // ISO date or date-time of first publication on goraedu
   updated?: string;
@@ -35,6 +37,7 @@ function load(file: string): NewsPost | null {
   const slug = file.replace(/\.md$/, "");
   if (!SLUG.test(slug)) fail(file, "file name must be lowercase words joined by hyphens");
   const title = str(data.title) ?? fail(file, "title is required");
+  const topic = str(data.topic) ?? fail(file, "topic is required (the certification the post is about, e.g. EPA 608)");
   const summary = str(data.summary) ?? fail(file, "summary is required");
   const published = str(data.published) ?? fail(file, "published date is required");
   if (!DATE.test(published)) fail(file, "published must be YYYY-MM-DD or an ISO date-time");
@@ -52,7 +55,7 @@ function load(file: string): NewsPost | null {
     if (!DATE.test(checked)) fail(file, `sources[${i}].checked must be YYYY-MM-DD`);
     return { title: t, url, checked };
   });
-  return { slug, title, summary, published, updated, sources, body: content.trim() };
+  return { slug, title, topic, summary, published, updated, sources, body: content.trim() };
 }
 
 let cache: NewsPost[] | null = null;

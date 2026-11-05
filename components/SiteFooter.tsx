@@ -10,7 +10,7 @@ export default function SiteFooter() {
           <div>
             <Logo className="text-white" />
             <p className="mt-4 max-w-xs text-[0.9375rem] leading-relaxed">
-              Free EPA 608 study material for U.S. technicians. Every answer links to the official rule.
+              Free practice for U.S. skilled trades certifications. Every answer links to the official rule.
             </p>
           </div>
           {FOOTER_GROUPS.map((group) => (

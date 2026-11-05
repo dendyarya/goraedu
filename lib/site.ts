@@ -6,16 +6,16 @@ export const SITE = {
   url: process.env.SITE_URL?.trim() || "https://goraedu.com",
   tagline: "Learn. Get Certified. Build Your Career.",
   description:
-    "Free EPA 608 practice questions and study guides for U.S. HVAC and refrigeration technicians. Every answer links to the official source.",
+    "Free practice questions and study guides for U.S. skilled trades certifications, starting with EPA Section 608. Every answer links to the official source.",
   indexable: production,
   contactEmail: "contact@goraedu.com",
   independence:
-    "Independent. Not affiliated with or endorsed by the U.S. EPA or any certifying organization. Certification names are used only to identify each exam.",
+    "Independent. Not affiliated with or endorsed by any government agency or certifying organization. Certification names are used only to identify each exam.",
 } as const;
 
 /** Main navigation. Pages that are not built yet have no href and show as "Soon" (no links to missing pages). */
 export const NAV: { label: string; href?: string }[] = [
-  { label: "EPA 608" },
+  { label: "Certifications", href: "/certifications/" },
   { label: "Practice tests" },
   { label: "Tools" },
   { label: "News", href: "/news/" },
@@ -42,9 +42,10 @@ export const FOOTER_GROUPS: { title: string; links: { label: string; href: strin
     ],
   },
   {
-    title: "Keep up",
+    title: "Explore",
     links: [
-      { label: "EPA news", href: "/news/" },
+      { label: "Certifications", href: "/certifications/" },
+      { label: "News", href: "/news/" },
       { label: "Contact", href: "/contact/" },
     ],
   },

@@ -53,6 +53,9 @@ export default async function NewsPostPage({ params }: Props) {
       meta={
         <>
           <p>
+            <span className="mr-3 rounded-sm border border-low bg-low-soft px-1.5 text-[0.8125rem] leading-6 text-low">
+              {post.topic}
+            </span>
             Published <time dateTime={post.published}>{formatDate(post.published)}</time>
             {post.updated ? (
               <>
@@ -61,7 +64,7 @@ export default async function NewsPostPage({ params }: Props) {
             ) : null}
           </p>
           <p className="mt-1">
-            Fact-checked against official EPA sources · Last checked{" "}
+            Fact-checked against official sources · Last checked{" "}
             <time dateTime={lastChecked}>{formatDate(lastChecked)}</time>
           </p>
         </>

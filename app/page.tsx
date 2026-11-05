@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ClusterGrid from "@/components/ClusterGrid";
 import SampleQuestion, { type SampleQuestionData } from "@/components/SampleQuestion";
 import { formatDate, getAllNews } from "@/lib/news";
 
@@ -10,7 +11,7 @@ const EPA_REQUIREMENTS = {
 
 // Answer stated verbatim on the EPA page above (accuracy principle 1).
 const SAMPLE: SampleQuestionData = {
-  topic: "Certification types",
+  topic: "EPA 608: certification types",
   question:
     "Which Section 608 certification type covers servicing or disposing of high- or very high-pressure appliances, except small appliances and motor vehicle air conditioners?",
   options: [
@@ -25,28 +26,18 @@ const SAMPLE: SampleQuestionData = {
   source: EPA_REQUIREMENTS,
 };
 
-const TYPES = [
-  { name: "Type I", covers: "Servicing small appliances" },
-  {
-    name: "Type II",
-    covers: "Servicing or disposing of high- or very high-pressure appliances, except small appliances and MVACs",
-  },
-  { name: "Type III", covers: "Servicing or disposing of low-pressure appliances" },
-  { name: "Universal", covers: "Servicing all types of equipment" },
-];
-
 const PROMISES = [
   {
     title: "Every answer shows its source",
-    body: "Each explanation links to the EPA rule or page it comes from, with the date we last checked it.",
+    body: "Each explanation links to the official rule or agency page it comes from, with the date we last checked it.",
   },
   {
     title: "Free, with no sign-up",
     body: "Practice runs in your browser. We do not ask for your name or email to use any question or tool.",
   },
   {
-    title: "Updated when EPA changes the rules",
-    body: "We follow the Federal Register and update study pages when a change affects technicians.",
+    title: "Updated when the rules change",
+    body: "We follow the Federal Register and agency updates, and revise study pages when a change affects the exam.",
   },
 ];
 
@@ -89,11 +80,11 @@ export default function Home() {
         <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 md:py-20 lg:grid-cols-[1.05fr_1fr] lg:gap-16">
           <div>
             <h1 className="text-[2.5rem] font-[750] text-white sm:text-[3.25rem] lg:text-[3.75rem]">
-              Study for the EPA 608 exam with answers you can check.
+              Practice for your trade certification with answers you can check.
             </h1>
             <p className="mt-5 max-w-[52ch] text-[1.1875rem] leading-relaxed text-[#c3d1de]">
-              Free practice questions for Core, Type I, Type II, Type III and Universal. Each answer is explained and
-              linked to the official EPA rule behind it.
+              Free practice questions and study guides for U.S. skilled trades exams, starting with EPA Section 608.
+              Each answer is explained and linked to the official rule behind it.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
               <a
@@ -102,7 +93,9 @@ export default function Home() {
               >
                 Try a sample question
               </a>
-              <span className="text-[0.9375rem] text-[#a9bccd]">Full practice tests are coming soon.</span>
+              <span className="text-[0.9375rem] text-[#a9bccd]">
+                EPA 608 practice tests are in progress. More certifications follow.
+              </span>
             </div>
           </div>
           <div id="try" className="scroll-mt-6 text-ink">
@@ -129,53 +122,23 @@ export default function Home() {
         </p>
       </section>
 
-      {/* EPA 608 at a glance, in EPA's own words */}
+      {/* Every certification on the roadmap */}
       <section className="border-y border-line bg-panel">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-          <div className="grid gap-10 lg:grid-cols-[1fr_1.6fr]">
+          <div className="flex flex-wrap items-end justify-between gap-4">
             <div>
-              <h2 className="text-[1.875rem] font-bold sm:text-[2.25rem]">The four certification types</h2>
-              <p className="mt-4 text-muted">
-                Technicians who service or dispose of refrigeration and air-conditioning equipment must pass an
-                EPA-approved test for the type of equipment they work on. EPA states that Section 608 certification
-                credentials do not expire.
+              <h2 className="text-[1.875rem] font-bold sm:text-[2.25rem]">Certifications</h2>
+              <p className="mt-3 max-w-[60ch] text-muted">
+                We finish one certification before starting the next, so every subject gets complete practice questions
+                and study pages. EPA Section 608 comes first.
               </p>
             </div>
-            <div>
-              <table className="w-full border-collapse text-left">
-                <caption className="sr-only">EPA Section 608 technician certification types</caption>
-                <thead>
-                  <tr className="border-b-2 border-ink">
-                    <th scope="col" className="w-32 py-2 pr-4 font-semibold">
-                      Type
-                    </th>
-                    <th scope="col" className="py-2 font-semibold">
-                      What it covers
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {TYPES.map((t) => (
-                    <tr key={t.name} className="border-b border-line align-top">
-                      <th
-                        scope="row"
-                        className="py-3.5 pr-4 font-[family-name:var(--font-display)] text-[1.1875rem] font-bold [font-stretch:88%]"
-                      >
-                        {t.name}
-                      </th>
-                      <td className="py-3.5">{t.covers}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-              <p className="mt-4 text-[0.875rem] text-muted">
-                Source:{" "}
-                <a href={EPA_REQUIREMENTS.url} className="text-low underline" rel="noopener">
-                  {EPA_REQUIREMENTS.title}
-                </a>
-                , checked {EPA_REQUIREMENTS.checked}
-              </p>
-            </div>
+            <Link href="/certifications/" className="text-[0.9375rem] font-medium text-low underline">
+              See all certifications
+            </Link>
+          </div>
+          <div className="mt-10">
+            <ClusterGrid compact />
           </div>
         </div>
       </section>
@@ -184,7 +147,7 @@ export default function Home() {
       {latest.length > 0 ? (
         <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <div className="flex flex-wrap items-baseline justify-between gap-4">
-            <h2 className="text-[1.875rem] font-bold sm:text-[2.25rem]">EPA rule changes</h2>
+            <h2 className="text-[1.875rem] font-bold sm:text-[2.25rem]">Certification news</h2>
             <Link href="/news/" className="text-[0.9375rem] font-medium text-low underline">
               All news
             </Link>
@@ -192,9 +155,12 @@ export default function Home() {
           <ul className="mt-6 divide-y divide-line border-y border-line">
             {latest.map((p) => (
               <li key={p.slug} className="grid gap-1 py-5 sm:grid-cols-[10rem_1fr] sm:gap-6">
-                <time dateTime={p.published} className="text-[0.9375rem] text-muted">
-                  {formatDate(p.published)}
-                </time>
+                <p className="flex flex-col items-start gap-1.5 text-[0.9375rem] text-muted">
+                  <span className="rounded-sm border border-low bg-low-soft px-1.5 text-[0.8125rem] leading-6 text-low">
+                    {p.topic}
+                  </span>
+                  <time dateTime={p.published}>{formatDate(p.published)}</time>
+                </p>
                 <div>
                   <Link
                     href={`/news/${p.slug}/`}
