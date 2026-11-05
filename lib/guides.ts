@@ -28,8 +28,7 @@ export type Guide = {
 
 const SNAPSHOTS: Record<string, string> = {
   "epa-608": path.join(process.cwd(), "data", "sources", "ecfr", "40cfr82-subpartF-2026-11-03.txt"),
-  // Filled in when the dated Subpart B text is added to data/sources/ecfr.
-  "epa-609": path.join(process.cwd(), "data", "sources", "ecfr", "40cfr82-subpartB.txt"),
+  "epa-609": path.join(process.cwd(), "data", "sources", "ecfr", "40cfr82-subpartB-2026-11-03.txt"),
 };
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -49,9 +48,9 @@ function stripPageChrome(text: string): string {
     .split("\n")
     .filter(
       (l) =>
-        !/^\s*Recycling and Emissions Reduction\s*$/.test(l) &&
-        !/^\s*40 CFR Part 82 Subpart F \(up to date/.test(l) &&
-        !/^\s{20,}40 CFR 82\.\S+\s*$/.test(l) &&
+        !/^\s*(Recycling and Emissions Reduction|Servicing of Motor Vehicle Air Conditioners)\s*$/.test(l) &&
+        !/^\s*40 CFR Part 82 Subpart [A-Z] \(up to date/.test(l) &&
+        !/^\s{20,}40 CFR \S.*$/.test(l) &&
         !/\(enhanced display\)\s+page \d+ of \d+\s*$/.test(l),
     )
     .join("\n");

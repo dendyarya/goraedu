@@ -4,7 +4,7 @@ import { FAMILIES, STATUS_LABEL, type Cluster } from "@/lib/clusters";
 
 export function StatusTag({ status }: { status: Cluster["status"] }) {
   const style =
-    status === "in-progress"
+    status === "available" || status === "in-progress"
       ? "border-low/40 bg-low-soft text-low"
       : status === "next"
         ? "border-hose/60 bg-hose-soft text-hose-ink"
@@ -13,7 +13,9 @@ export function StatusTag({ status }: { status: Cluster["status"] }) {
     <span
       className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 text-[0.8125rem] font-medium leading-6 ${style}`}
     >
-      {status === "in-progress" ? <span className="h-1.5 w-1.5 rounded-full bg-low" aria-hidden="true" /> : null}
+      {status === "available" || status === "in-progress" ? (
+        <span className="h-1.5 w-1.5 rounded-full bg-low" aria-hidden="true" />
+      ) : null}
       {STATUS_LABEL[status]}
     </span>
   );

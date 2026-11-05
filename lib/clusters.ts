@@ -1,7 +1,7 @@
 // Every certification goraedu covers or plans to cover (roadmap order). One entry per cluster.
 // A cluster gets an `href` only once its overview page exists; until then it shows its status, never a dead link.
 
-export type ClusterStatus = "in-progress" | "next" | "planned";
+export type ClusterStatus = "available" | "in-progress" | "next" | "planned";
 
 export type Cluster = {
   id: string;
@@ -27,15 +27,16 @@ export const FAMILIES: Family[] = [
         name: "EPA Section 608",
         summary: "Required to service or dispose of stationary refrigeration and air-conditioning equipment.",
         source: "U.S. EPA, 40 CFR Part 82, Subpart F",
-        status: "in-progress",
+        status: "available",
         href: "/epa-608/",
       },
       {
         id: "epa-609",
         name: "EPA Section 609",
-        summary: "For technicians who service motor vehicle air conditioning.",
-        source: "U.S. EPA",
-        status: "next",
+        summary: "Required to service motor vehicle air conditioning for pay.",
+        source: "U.S. EPA, 40 CFR Part 82, Subpart B",
+        status: "available",
+        href: "/epa-609/",
       },
       {
         id: "hvac",
@@ -167,6 +168,7 @@ export const ALL_CLUSTERS: Cluster[] = FAMILIES.flatMap((f) => f.clusters);
 export const WITH_FAMILY = FAMILIES.flatMap((f) => f.clusters.map((c) => ({ ...c, family: f })));
 
 export const STATUS_LABEL: Record<ClusterStatus, string> = {
+  available: "Available",
   "in-progress": "In progress",
   next: "Coming next",
   planned: "Planned",

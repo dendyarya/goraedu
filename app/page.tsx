@@ -55,7 +55,8 @@ const FIRST_UP = [
 
 export default function Home() {
   const latest = getAllNews().slice(0, 3);
-  const featured = WITH_FAMILY.find((c) => c.status === "in-progress");
+  const featured = WITH_FAMILY.find((c) => c.id === "epa-608");
+  const alsoAvailable = WITH_FAMILY.filter((c) => c.status === "available" && c.id !== "epa-608" && c.href);
   const next = WITH_FAMILY.filter((c) => c.status === "next");
 
   return (
@@ -101,8 +102,8 @@ export default function Home() {
               Practice for your trade certification with answers you can check.
             </h1>
             <p className="mt-5 max-w-[52ch] text-[1.1875rem] leading-relaxed text-[#c3d1de]">
-              Free practice questions and study guides for U.S. skilled trades exams, starting with EPA Section 608.
-              Each answer is explained and linked to the official rule behind it.
+              Free practice questions and study guides for U.S. skilled trades exams, starting with EPA Sections 608 and
+              609. Each answer is explained and linked to the official rule behind it.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <a
@@ -210,6 +211,30 @@ export default function Home() {
                 </ul>
               </div>
             </article>
+          ) : null}
+
+          {alsoAvailable.length > 0 ? (
+            <>
+              <h3 className="mt-12 text-[1.375rem] font-bold">Also available</h3>
+              <ul className="mt-5 grid gap-5 md:grid-cols-3">
+                {alsoAvailable.map((c) => (
+                  <li key={c.id}>
+                    <Link
+                      href={c.href!}
+                      className="flex h-full flex-col rounded-2xl border border-low/30 bg-low-soft/50 p-6 hover:border-low"
+                    >
+                      <div className="flex items-start justify-between gap-3">
+                        <IconTile name={c.family.icon} />
+                        <StatusTag status={c.status} />
+                      </div>
+                      <h4 className="mt-5 text-[1.1875rem] font-bold">{c.name}</h4>
+                      <p className="mt-2 text-[0.9375rem] text-muted">{c.summary}</p>
+                      <span className="mt-4 font-semibold text-low">Practice test, study guide and rules</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </>
           ) : null}
 
           <h3 className="mt-12 text-[1.375rem] font-bold">Coming next</h3>
