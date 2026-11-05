@@ -47,7 +47,7 @@ const PROMISES: { icon: IconName; title: string; body: string }[] = [
 ];
 
 const FIRST_UP = [
-  "Practice tests for Core, Type I, Type II and Type III, available now",
+  "Practice tests for Core, Type I, Type II and Type III, plus a 100-question Universal practice exam",
   "A study guide for every topic EPA lists for the exam",
   "Field tools such as a pressure-temperature chart",
   "Every answer linked to the section of 40 CFR Part 82 or the EPA page it comes from",

@@ -29,7 +29,16 @@ type Phase = "start" | "quiz" | "done";
  * Practice mode: one question at a time, the explanation and its official source right after each answer,
  * then a score by topic and a review of missed questions. Everything stays in the browser.
  */
-export default function PracticeTest({ title, questions }: { title: string; questions: Question[] }) {
+export default function PracticeTest({
+  title,
+  questions,
+  drawPerTopic,
+}: {
+  title: string;
+  questions: Question[];
+  /** Exam mode: each start draws this many random questions from every topic, and there is no topic filter. */
+  drawPerTopic?: number;
+}) {
   const topics = useMemo(() => [...new Set(questions.map((q) => q.topic))], [questions]);
   const [phase, setPhase] = useState<Phase>("start");
   const [topic, setTopic] = useState<string>("all");
@@ -85,6 +94,36 @@ export default function PracticeTest({ title, questions }: { title: string; ques
 
   const pool = topic === "all" ? questions : questions.filter((q) => q.topic === topic);
 
+  function draw() {
+    return topics.flatMap((t) => shuffle(questions.filter((q) => q.topic === t)).slice(0, drawPerTopic));
+  }
+
+  if (phase === "start" && drawPerTopic) {
+    const size = topics.reduce((n, t) => n + Math.min(drawPerTopic, questions.filter((q) => q.topic === t).length), 0);
+    return (
+      <div className="rounded-2xl border border-line bg-panel p-6 sm:p-8">
+        <h2 className="text-[1.5rem] font-bold">{title}</h2>
+        <p className="mt-2 text-muted">
+          Each exam draws {drawPerTopic} random questions from each of {new Intl.ListFormat("en-US").format(topics)},{" "}
+          {size} questions in all, from our bank of {questions.length}. Start again for a new draw. After each answer
+          you see why it is right, with a link to the official source, and your results are shown by section.
+        </p>
+        <div className="mt-6">
+          <button
+            type="button"
+            onClick={() => start(draw())}
+            className="rounded-[10px] bg-low px-5 py-3 font-semibold text-white hover:brightness-110"
+          >
+            Start the exam ({size} questions)
+          </button>
+        </div>
+        <p className="mt-4 text-[0.875rem] text-muted">
+          Tip: press A, B, C or D to answer and Enter for the next question. Nothing you answer leaves your browser.
+        </p>
+      </div>
+    );
+  }
+
   if (phase === "start") {
     return (
       <div className="rounded-2xl border border-line bg-panel p-6 sm:p-8">
@@ -129,10 +168,12 @@ export default function PracticeTest({ title, questions }: { title: string; ques
     const correct = order.filter((q) => answers[q.id] === q.answer);
     const missed = order.filter((q) => answers[q.id] !== q.answer);
     const pct = Math.round((correct.length / order.length) * 100);
-    const byTopic = [...new Set(order.map((q) => q.topic))].map((t) => {
-      const qs = order.filter((q) => q.topic === t);
-      return { t, total: qs.length, right: qs.filter((q) => answers[q.id] === q.answer).length };
-    });
+    const byTopic = topics
+      .filter((t) => order.some((q) => q.topic === t))
+      .map((t) => {
+        const qs = order.filter((q) => q.topic === t);
+        return { t, total: qs.length, right: qs.filter((q) => answers[q.id] === q.answer).length };
+      });
     return (
       <div className="rounded-2xl border border-line bg-panel p-6 sm:p-8">
         <h2 ref={headingRef} tabIndex={-1} className="text-[1.5rem] font-bold outline-none">
@@ -145,7 +186,7 @@ export default function PracticeTest({ title, questions }: { title: string; ques
           This is a practice score, not a prediction of your result on the official exam.
         </p>
 
-        <h3 className="mt-8 text-[1.1875rem] font-bold">By topic</h3>
+        <h3 className="mt-8 text-[1.1875rem] font-bold">{drawPerTopic ? "By section" : "By topic"}</h3>
         <table className="mt-3 w-full max-w-xl border-collapse text-left text-[0.9375rem]">
           <thead>
             <tr className="border-b-2 border-ink">

@@ -4,7 +4,7 @@ import PageShell from "@/components/PageShell";
 import SourceList, { type Source } from "@/components/SourceList";
 import TradeIcon from "@/components/TradeIcon";
 import { formatDate } from "@/lib/news";
-import { getAllSets, SECTION_NAME } from "@/lib/questions";
+import { getAllSets, SECTION_NAME, universalPool } from "@/lib/questions";
 
 export const metadata: Metadata = {
   title: "EPA 608 Certification: Types, Requirements and Free Practice Tests",
@@ -65,10 +65,12 @@ const FACTS = [
 
 export default function Epa608Page() {
   const sets = getAllSets().filter((x) => x.cluster === "epa-608");
-  const tests = ["core", "type-1", "type-2", "type-3", "universal"].map((slug) => {
+  const tests = ["core", "type-1", "type-2", "type-3"].map((slug) => {
     const set = sets.find((x) => x.slug === slug);
     return { name: SECTION_NAME[slug] ?? slug, href: set?.href, count: set?.questions.length };
   });
+  const universal = universalPool();
+  tests.push({ name: "Universal exam", href: universal.href, count: universal.sections.length * 25 });
 
   return (
     <PageShell

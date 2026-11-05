@@ -108,3 +108,19 @@ export const SECTION_NAME: Record<string, string> = {
 export function topicsOf(set: QuestionSet): string[] {
   return [...new Set(set.questions.map((q) => q.topic))];
 }
+
+/**
+ * The EPA 608 Universal practice exam pools every published section set, with each question's topic set to its
+ * section, so the exam can draw 25 per section the way Appendix D lays out the Universal test.
+ */
+export function universalPool(): { href: string; sections: string[]; questions: Question[] } {
+  const order = ["core", "type-1", "type-2", "type-3"];
+  const sets = order
+    .map((slug) => getAllSets().find((s) => s.cluster === "epa-608" && s.slug === slug))
+    .filter((s): s is QuestionSet => Boolean(s));
+  return {
+    href: "/epa-608/universal/practice-test/",
+    sections: sets.map((s) => SECTION_NAME[s.slug]!),
+    questions: sets.flatMap((s) => s.questions.map((q) => ({ ...q, topic: SECTION_NAME[s.slug]! }))),
+  };
+}

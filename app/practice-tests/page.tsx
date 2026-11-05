@@ -3,7 +3,7 @@ import Link from "next/link";
 import PageShell from "@/components/PageShell";
 import { IconTile } from "@/components/TradeIcon";
 import { WITH_FAMILY } from "@/lib/clusters";
-import { getAllSets } from "@/lib/questions";
+import { getAllSets, universalPool } from "@/lib/questions";
 
 export const metadata: Metadata = {
   title: "Free Practice Tests",
@@ -13,7 +13,27 @@ export const metadata: Metadata = {
 };
 
 export default function PracticeTestsPage() {
-  const sets = getAllSets();
+  const u = universalPool();
+  const sets = [
+    ...getAllSets().map((s) => ({
+      cluster: s.cluster,
+      slug: s.slug,
+      href: s.href,
+      title: s.title,
+      count: s.questions.length,
+    })),
+    ...(u.sections.length
+      ? [
+          {
+            cluster: "epa-608",
+            slug: "universal",
+            href: u.href,
+            title: "EPA 608 Universal practice exam",
+            count: u.sections.length * 25,
+          },
+        ]
+      : []),
+  ];
   return (
     <PageShell
       crumbs={[{ label: "Home", href: "/" }, { label: "Practice tests" }]}
@@ -34,7 +54,7 @@ export default function PracticeTestsPage() {
                   <span className="text-[0.875rem] text-muted">{cluster?.name}</span>
                 </div>
                 <h2 className="mt-5 text-[1.375rem] font-bold">{s.title}</h2>
-                <p className="mt-2 text-[0.9375rem] text-muted">{s.questions.length} questions</p>
+                <p className="mt-2 text-[0.9375rem] text-muted">{s.count} questions</p>
                 <span className="mt-4 font-semibold text-low">Start practicing</span>
               </Link>
             </li>
