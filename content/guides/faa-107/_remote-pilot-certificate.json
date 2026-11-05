@@ -3,7 +3,7 @@
   "slug": "remote-pilot-certificate",
   "href": "/faa-107/remote-pilot-certificate/study-guide/",
   "title": "FAA Part 107 remote pilot certificate and waivers study guide",
-  "description": "FAA Part 107 remote pilot certificate study guide: eligibility, knowledge test, 24-month recency, part 61 path, address changes and waivers, linked to 14 CFR 107.",
+  "description": "FAA Part 107 remote pilot certificate study guide: eligibility, knowledge test, 24-month recency, part 61 path, address changes and waivers, from 14 CFR 107.",
   "intro": "Subpart C of 14 CFR Part 107 sets who can get a remote pilot certificate with a small UAS rating and how to keep exercising its privileges; Subpart E sets how the FAA issues certificates of waiver. This guide sets out what the rule text states on who needs a certificate, eligibility (age, English language and physical or mental condition), alcohol and drug offenses, applying for the certificate and the temporary certificate, knowledge tests and the areas of knowledge they cover, aeronautical knowledge recency within the previous 24 calendar months, the separate path for part 61 pilot certificate holders, carrying and presenting the certificate, name and address changes, and which sections can be waived. goraedu is an independent study site, not an FAA testing center, and these are not FAA test questions. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
@@ -30,7 +30,7 @@
         },
         {
           "text": "A person may manipulate the flight controls of a small UAS either with that certificate (and meeting 107.65), or under the direct supervision of a remote pilot in command who has the ability to immediately take direct control of the flight, except as provided in 107.12(c).",
-          "quote": "That person is under the direct supervision of a remote pilot in command and the remote pilot in command has the ability to immediately take direct control of the flight of the small unmanned aircraft.",
+          "quote": "Except as provided in paragraph (c) of this section, no person may manipulate the flight controls of a small unmanned aircraft system unless: (1) That person has a remote pilot certificate with a small UAS rating issued pursuant to subpart C of this part and satisfies the requirements of § 107.65; or (2) That person is under the direct supervision of a remote pilot in command and the remote pilot in command has the ability to immediately take direct control of the flight of the small unmanned aircraft.",
           "source": {
             "title": "eCFR: 14 CFR 107.12, Requirement for a remote pilot certificate with a small UAS rating (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.12"
@@ -43,15 +43,6 @@
           "source": {
             "title": "eCFR: 14 CFR 107.12, Requirement for a remote pilot certificate with a small UAS rating (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.12"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "Unless otherwise authorized by the Administrator, no one may operate a small UAS under Part 107 with a transponder on.",
-          "quote": "Unless otherwise authorized by the Administrator, no person may operate a small unmanned aircraft system under this part with a transponder on.",
-          "source": {
-            "title": "eCFR: 14 CFR 107.52, ATC transponder equipment prohibition (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.52"
           },
           "checked": "2026-11-05"
         },
@@ -70,15 +61,6 @@
       "id": "eligibility",
       "name": "Eligibility",
       "points": [
-        {
-          "text": "The eligibility requirements in 107.61 are subject to the alcohol and drug provisions of 107.57 and 107.59.",
-          "quote": "Subject to the provisions of §§ 107.57 and 107.59, in order to be eligible for a remote pilot certificate with a small UAS rating under this subpart, a person must:",
-          "source": {
-            "title": "eCFR: 14 CFR 107.61, Eligibility (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.61"
-          },
-          "checked": "2026-11-05"
-        },
         {
           "text": "An applicant must be at least 16 years of age.",
           "quote": "Be at least 16 years of age;",
@@ -264,7 +246,7 @@
         },
         {
           "text": "A temporary certificate expires on the expiration date shown on it, upon receipt of the permanent certificate, or upon receipt of a notice that the certificate sought is denied or revoked.",
-          "quote": "On the expiration date shown on the certificate; (2) Upon receipt of the permanent certificate; or (3) Upon receipt of a notice that the certificate sought is denied or revoked.",
+          "quote": "A temporary remote pilot certificate with a small UAS rating expires: (1) On the expiration date shown on the certificate; (2) Upon receipt of the permanent certificate; or (3) Upon receipt of a notice that the certificate sought is denied or revoked.",
           "source": {
             "title": "eCFR: 14 CFR 107.64, Temporary certificate (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.64"
@@ -338,7 +320,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "At the time of application for a knowledge test, an applicant's identification must contain a photograph, signature, date of birth and permanent mailing address.",
+          "text": "At the time of application for a knowledge test, an applicant's identification must contain the applicant's photograph, signature and date of birth.",
           "quote": "An applicant for a knowledge test must have proper identification at the time of application that contains the applicant's: (1) Photograph; (2) Signature; (3) Date of birth",
           "source": {
             "title": "eCFR: 14 CFR 107.67, Knowledge tests: General procedures and passing grades (as of Nov 3, 2026)",
@@ -347,16 +329,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The date of birth must show the applicant meets or will meet the age requirements for the certificate before the expiration date of the airman knowledge test report.",
-          "quote": "Date of birth, which shows the applicant meets or will meet the age requirements of this part for the certificate and rating sought before the expiration date of the airman knowledge test report; and",
-          "source": {
-            "title": "eCFR: 14 CFR 107.67, Knowledge tests: General procedures and passing grades (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.67"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "If the permanent mailing address is a post office box number, the applicant must also provide a current residential address.",
+          "text": "The identification must also contain the applicant's permanent mailing address; if that is a post office box number, the applicant must also provide a current residential address.",
           "quote": "Permanent mailing address. If the applicant's permanent mailing address is a post office box number, then the applicant must also provide a current residential address.",
           "source": {
             "title": "eCFR: 14 CFR 107.67, Knowledge tests: General procedures and passing grades (as of Nov 3, 2026)",
@@ -365,17 +338,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The minimum passing grade is specified by the Administrator.",
-          "quote": "The minimum passing grade for the knowledge test will be specified by the Administrator.",
-          "source": {
-            "title": "eCFR: 14 CFR 107.67, Knowledge tests: General procedures and passing grades (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.67"
-          },
-          "checked": "2026-11-05"
-        },
-        {
           "text": "An applicant who the Administrator finds has cheated or committed other prohibited conduct on a knowledge test is prohibited for 1 year after the act from applying for any certificate, rating, or authorization under this chapter and from applying for and taking any test under this chapter.",
-          "quote": "is prohibited, for 1 year after the date of committing that act, from: (1) Applying for any certificate, rating, or authorization issued under this chapter; and (2) Applying for and taking any test under this chapter.",
+          "quote": "An applicant who the Administrator finds has committed an act prohibited by paragraph (a) of this section is prohibited, for 1 year after the date of committing that act, from: (1) Applying for any certificate, rating, or authorization issued under this chapter; and (2) Applying for and taking any test under this chapter.",
           "source": {
             "title": "eCFR: 14 CFR 107.69, Knowledge tests: Cheating or other unauthorized conduct (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.69"
@@ -420,7 +384,7 @@
         },
         {
           "text": "Training for qualifying part 61 pilots covers: applicable regulations, effects of weather on performance, loading, emergency procedures, crew resource management, determining performance, maintenance and preflight inspection procedures, and operation at night.",
-          "quote": "(a) Applicable regulations relating to small unmanned aircraft system rating privileges, limitations, and flight operation; (b) Effects of weather on small unmanned aircraft performance; (c) Small unmanned aircraft loading; (d) Emergency procedures; (e) Crew resource management; (f) Determining the performance of the small unmanned aircraft; (g) Maintenance and preflight inspection procedures; and (h) Operation at night.",
+          "quote": "Training for pilots who hold a pilot certificate (other than a student pilot certificate) issued under part 61 of this chapter and meet the flight review requirements specified in § 61.56 covers the following areas of knowledge: (a) Applicable regulations relating to small unmanned aircraft system rating privileges, limitations, and flight operation; (b) Effects of weather on small unmanned aircraft performance; (c) Small unmanned aircraft loading; (d) Emergency procedures; (e) Crew resource management; (f) Determining the performance of the small unmanned aircraft; (g) Maintenance and preflight inspection procedures; and (h) Operation at night.",
           "source": {
             "title": "eCFR: 14 CFR 107.74, Small unmanned aircraft system training (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.74"
@@ -436,7 +400,7 @@
       "points": [
         {
           "text": "A remote pilot in command, owner, or person manipulating the flight controls must have the remote pilot certificate and identification in physical possession and readily accessible when exercising the certificate's privileges.",
-          "quote": "Have in that person's physical possession and readily accessible the remote pilot certificate with a small UAS rating and identification when exercising the privileges of that remote pilot certificate.",
+          "quote": "A remote pilot in command, owner, or person manipulating the flight controls of a small unmanned aircraft system must- (1) Have in that person's physical possession and readily accessible the remote pilot certificate with a small UAS rating and identification when exercising the privileges of that remote pilot certificate.",
           "source": {
             "title": "eCFR: 14 CFR 107.7, Inspection, testing, and demonstration of compliance (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.7"
@@ -445,7 +409,7 @@
         },
         {
           "text": "The certificate and identification must be presented for inspection on request from the Administrator, an authorized NTSB representative, any Federal, State, or local law enforcement officer, or an authorized TSA representative.",
-          "quote": "(i) The Administrator; (ii) An authorized representative of the National Transportation Safety Board; (iii) Any Federal, State, or local law enforcement officer; or (iv) An authorized representative of the Transportation Security Administration.",
+          "quote": "Present his or her remote pilot certificate with a small UAS rating and identification that contains the information listed at § 107.67(b)(1) through (3) for inspection upon a request from- (i) The Administrator; (ii) An authorized representative of the National Transportation Safety Board; (iii) Any Federal, State, or local law enforcement officer; or (iv) An authorized representative of the Transportation Security Administration.",
           "source": {
             "title": "eCFR: 14 CFR 107.7, Inspection, testing, and demonstration of compliance (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.7"
@@ -454,7 +418,7 @@
         },
         {
           "text": "An application to change the name on the certificate must include the remote pilot certificate and a copy of the marriage license, court order, or other document verifying the name change; these are returned after inspection.",
-          "quote": "Remote pilot certificate with small UAS rating; and (2) A copy of the marriage license, court order, or other document verifying the name change. (b) The documents in paragraph (a) of this section will be returned to the applicant after inspection.",
+          "quote": "An application to change the name on a certificate issued under this subpart must be accompanied by the applicant's: (1) Remote pilot certificate with small UAS rating; and (2) A copy of the marriage license, court order, or other document verifying the name change. (b) The documents in paragraph (a) of this section will be returned to the applicant after inspection.",
           "source": {
             "title": "eCFR: 14 CFR 107.77, Change of name or address (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.77"
@@ -471,17 +435,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The FAA may be notified by letter to the FAA Airman Certification Branch in Oklahoma City or through the FAA website portal at www.faa.gov.",
-          "quote": "By letter to the FAA Airman Certification Branch, P.O. Box 25082, Oklahoma City, OK 73125",
-          "source": {
-            "title": "eCFR: 14 CFR 107.77, Change of name or address (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.77"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "If the new permanent mailing address includes a post office box number, the notice provides the holder's current residential address.",
-          "quote": "if the permanent mailing address includes a post office box number, then the holder's current residential address.",
+          "text": "The FAA may be notified by letter to the FAA Airman Certification Branch in Oklahoma City or through the FAA website portal at www.faa.gov; if the permanent mailing address includes a post office box number, the notice gives the holder's current residential address.",
+          "quote": "By letter to the FAA Airman Certification Branch, P.O. Box 25082, Oklahoma City, OK 73125 providing the new permanent mailing address, or if the permanent mailing address includes a post office box number, then the holder's current residential address; or (2) By using the FAA Web site portal at www.faa.gov",
           "source": {
             "title": "eCFR: 14 CFR 107.77, Change of name or address (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.77"
@@ -499,7 +454,7 @@
         },
         {
           "text": "The request must include a signed statement (or its equivalent) acknowledging that the certificate will not be reissued unless the holder again completes the requirements of 107.61 and 107.63.",
-          "quote": "with full knowledge that my certificate will not be reissued to me unless I again complete the requirements specified in §§ 107.61 and 107.63.",
+          "quote": "Any request made under paragraph (a) of this section must include the following signed statement or its equivalent: \"I voluntarily surrender my remote pilot certificate with a small UAS rating for cancellation. This request is made for my own reasons, with full knowledge that my certificate will not be reissued to me unless I again complete the requirements specified in §§ 107.61 and 107.63.\"",
           "source": {
             "title": "eCFR: 14 CFR 107.79, Voluntary surrender of certificate (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-C/section-107.79"
@@ -541,7 +496,7 @@
         },
         {
           "text": "A waiver holder may deviate from Part 107 only to the extent specified in the certificate of waiver, and must comply with any conditions or limitations it specifies.",
-          "quote": "May deviate from the regulations of this part to the extent specified in the certificate of waiver; and (2) Must comply with any conditions or limitations that are specified in the certificate of waiver.",
+          "quote": "A person who receives a certificate of waiver issued under this section: (1) May deviate from the regulations of this part to the extent specified in the certificate of waiver; and (2) Must comply with any conditions or limitations that are specified in the certificate of waiver.",
           "source": {
             "title": "eCFR: 14 CFR 107.200, Waiver policy and requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-E/section-107.200"
@@ -549,8 +504,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "107.25 (operation from a moving vehicle or aircraft) may be waived, but no waiver of it will be issued to allow the carriage of property of another by aircraft for compensation or hire.",
-          "quote": "Section 107.25-Operation from a moving vehicle or aircraft. However, no waiver of this provision will be issued to allow the carriage of property of another by aircraft for compensation or hire.",
+          "text": "The 107.205 list of regulations a waiver may cover starts with 107.25 (operation from a moving vehicle or aircraft), but no waiver of it will be issued to allow the carriage of property of another by aircraft for compensation or hire.",
+          "quote": "A certificate of waiver issued pursuant to § 107.200 may authorize a deviation from the following regulations of this part: (a) Section 107.25-Operation from a moving vehicle or aircraft. However, no waiver of this provision will be issued to allow the carriage of property of another by aircraft for compensation or hire.",
           "source": {
             "title": "eCFR: 14 CFR 107.205, List of regulations subject to waiver (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-E/section-107.205"
@@ -558,7 +513,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "107.29(a)(2) and (b), the anti-collision light required for operations at night and during periods of civil twilight, may be waived.",
+          "text": "The 107.205 list includes 107.29(a)(2) and (b), the anti-collision light required for operations at night and during periods of civil twilight.",
           "quote": "Section 107.29(a)(2) and (b)-Anti-collision light required for operations at night and during periods of civil twilight.",
           "source": {
             "title": "eCFR: 14 CFR 107.205, List of regulations subject to waiver (as of Nov 3, 2026)",
@@ -567,7 +522,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "107.31 (visual line of sight aircraft operation) may be waived, but no waiver of it will be issued to allow the carriage of property of another by aircraft for compensation or hire.",
+          "text": "The list includes 107.31 (visual line of sight aircraft operation), but no waiver of it will be issued to allow the carriage of property of another by aircraft for compensation or hire.",
           "quote": "Section 107.31-Visual line of sight aircraft operation. However, no waiver of this provision will be issued to allow the carriage of property of another by aircraft for compensation or hire.",
           "source": {
             "title": "eCFR: 14 CFR 107.205, List of regulations subject to waiver (as of Nov 3, 2026)",
@@ -576,7 +531,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "107.33 (visual observer), 107.35 (operation of multiple small UAS) and 107.37(a) (yielding the right of way) may be waived.",
+          "text": "The list includes 107.33 (visual observer), 107.35 (operation of multiple small UAS) and 107.37(a) (yielding the right of way).",
           "quote": "Section 107.33-Visual observer. (e) Section 107.35-Operation of multiple small unmanned aircraft systems. (f) Section 107.37(a)-Yielding the right of way.",
           "source": {
             "title": "eCFR: 14 CFR 107.205, List of regulations subject to waiver (as of Nov 3, 2026)",
@@ -585,7 +540,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "107.39 (operation over people), 107.41 (operation in certain airspace), 107.51 (operating limitations) and 107.145 (operations over moving vehicles) may be waived.",
+          "text": "The list ends with 107.39 (operation over people), 107.41 (operation in certain airspace), 107.51 (operating limitations for small unmanned aircraft) and 107.145 (operations over moving vehicles).",
           "quote": "Section 107.39-Operation over people. (h) Section 107.41-Operation in certain airspace. (i) Section 107.51-Operating limitations for small unmanned aircraft. (j) Section 107.145-Operations over moving vehicles.",
           "source": {
             "title": "eCFR: 14 CFR 107.205, List of regulations subject to waiver (as of Nov 3, 2026)",

@@ -1,0 +1,551 @@
+{
+  "cluster": "faa-107",
+  "slug": "registration-remote-id",
+  "href": "/faa-107/registration-remote-id/study-guide/",
+  "title": "FAA Part 107 registration and Remote ID study guide",
+  "description": "Small drone registration and Remote ID study guide: who must register, certificates and renewal, marking, standard Remote ID, broadcast modules and FRIAs.",
+  "intro": "Two FAA rules decide whether a small drone can be identified: 14 CFR Part 48 covers registration and marking of small unmanned aircraft, and 14 CFR Part 89 covers remote identification (Remote ID). This guide sets out what the rule text states on who must register and the exceptions in 48.15, who is eligible and who applies, how long a Certificate of Aircraft Registration lasts and how it is renewed and kept current, how the aircraft must be marked, and the three ways to meet the Remote ID requirement in 89.105: a standard remote identification unmanned aircraft, a remote identification broadcast module, or flying inside an FAA-recognized identification area. Each way has its own conditions, so the exact words matter. Fees and the manufacturer design, production and means-of-compliance rules are not covered. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "who-must-register",
+      "name": "Who must register",
+      "points": [
+        {
+          "text": "Part 107 defines a small unmanned aircraft as an unmanned aircraft weighing less than 55 pounds on takeoff, including everything that is on board or otherwise attached to the aircraft.",
+          "quote": "Small unmanned aircraft means an unmanned aircraft weighing less than 55 pounds on takeoff, including everything that is on board or otherwise attached to the aircraft.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.3, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.3"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "No person may operate a small unmanned aircraft that is eligible for registration under 49 U.S.C. 44101-44103 unless one of the 48.15 criteria is met. The first is that the owner has registered and marked the aircraft in accordance with Part 48.",
+          "quote": "No person may operate a small unmanned aircraft that is eligible for registration under 49 U.S.C. 44101-44103 unless one of the following criteria has been satisfied: (a) The owner has registered and marked the aircraft in accordance with this part;",
+          "source": {
+            "title": "eCFR: 14 CFR 48.15, Requirement to register (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.15"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The second criterion: the aircraft is operated exclusively in compliance with 49 U.S.C. 44809 and weighs 0.55 pounds or less on takeoff, including everything that is on board or otherwise attached to the aircraft.",
+          "quote": "The aircraft is operated exclusively in compliance with 49 U.S.C. 44809 and weighs 0.55 pounds or less on takeoff, including everything that is on board or otherwise attached to the aircraft",
+          "source": {
+            "title": "eCFR: 14 CFR 48.15, Requirement to register (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.15"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The third criterion: the aircraft is an aircraft of the Armed Forces of the United States.",
+          "quote": "The aircraft is an aircraft of the Armed Forces of the United States.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.15, Requirement to register (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.15"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Small unmanned aircraft eligible for registration in the United States must be registered and identified under either the requirements of Part 48, or the registration requirements of Part 47 together with the identification and registration marking requirements in subparts A and C of Part 45.",
+          "quote": "Small unmanned aircraft eligible for registration in the United States must be registered and identified in accordance with either: (1) The registration and identification requirements in this part; or (2) The registration requirements in part 47 and the identification and registration marking requirements in subparts A and C of part 45.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.1, Applicability (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Small unmanned aircraft intended to be operated outside the territorial airspace of the United States, or registered through a trust or voting trust, must be registered under subparts A and B of Part 47 and meet the identification and registration marking requirements of subparts A and C of Part 45.",
+          "quote": "Small unmanned aircraft intended to be operated outside of the territorial airspace of the United States, or registered through a trust or voting trust, must be registered in accordance with subparts A and B of part 47 and satisfy the identification and registration marking requirements of subparts A and C of part 45.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.1, Applicability (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.1"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Part 107 requires a person operating a civil small unmanned aircraft system for purposes of flight to comply with 14 CFR 91.203(a)(2).",
+          "quote": "A person operating a civil small unmanned aircraft system for purposes of flight must comply with the provisions of § 91.203(a)(2) of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.13, Registration (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.13"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The text of 14 CFR 91.203(a)(2), which 107.13 points to, the registration fees in 48.30, and registration under Part 47 and marking under Part 45 are not summarized here."
+    },
+    {
+      "id": "eligibility",
+      "name": "Eligibility and applicants",
+      "points": [
+        {
+          "text": "A small unmanned aircraft may be registered under Part 48 only when it is not registered under the laws of a foreign country and is owned by a U.S. citizen or by an individual citizen of a foreign country lawfully admitted for permanent residence in the United States.",
+          "quote": "A small unmanned aircraft may be registered under 49 U.S.C. 44103 and under this part only when the aircraft is not registered under the laws of a foreign country and is— (a) Owned by a U.S. citizen; (b) Owned by an individual citizen of a foreign country lawfully admitted for permanent residence in the United States;",
+          "source": {
+            "title": "eCFR: 14 CFR 48.20, Eligibility for registration (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.20"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A corporation that is not a U.S. citizen may also own an eligible aircraft when the corporation is organized and doing business under U.S. or State law and the aircraft is based and primarily used in the United States.",
+          "quote": "Owned by a corporation not a citizen of the United States when the corporation is organized and doing business under the laws of the United States or a State within the United States, and the aircraft is based and primarily used in the United States",
+          "source": {
+            "title": "eCFR: 14 CFR 48.20, Eligibility for registration (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.20"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Aircraft of the United States Government, or of a State, the District of Columbia, a U.S. territory or possession, or a political subdivision of one, are also eligible.",
+          "quote": "An aircraft of— (1) The United States Government; or (2) A State, the District of Columbia, a territory or possession of the United States, or a political subdivision of a State, territory, or possession.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.20, Eligibility for registration (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.20"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "To register, a person provides the information required by 48.110 to the Registry in the form and manner the Administrator prescribes; on submission, the FAA issues a Certificate of Aircraft Registration to that person.",
+          "quote": "To register a small unmanned aircraft in the United States under this part, a person must provide the information required by § 48.110 to the Registry in a form and manner prescribed by the Administrator. Upon submission of this information, the FAA issues a Certificate of Aircraft Registration to that person.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.25, Applicants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.25"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The owner registers the aircraft using the owner's legal name. If the owner is less than 13 years of age, a person who is at least 13 years of age must register it.",
+          "quote": "A small unmanned aircraft must be registered by its owner using the legal name of its owner, unless the owner is less than 13 years of age. If the owner is less than 13 years of age, then the small unmanned aircraft must be registered by a person who is at least 13 years of age.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.25, Applicants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.25"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Registration is not evidence of aircraft ownership in any proceeding in which ownership of an unmanned aircraft by a particular person is in issue.",
+          "quote": "registration is not evidence of aircraft ownership in any proceeding in which ownership of an unmanned aircraft by a particular person is in issue.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.25, Applicants (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-A/section-48.25"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A registration is invalid if, at the time it is made, the aircraft is registered in a foreign country, or the applicant is not the owner (except when registering on behalf of an owner under 13).",
+          "quote": "The registration of a small unmanned aircraft is invalid if, at the time it is made— (a) The aircraft is registered in a foreign country; (b) The applicant is not the owner, except when the applicant registers on behalf of an owner who is under 13 years of age;",
+          "source": {
+            "title": "eCFR: 14 CFR 48.120, Invalid registration (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-B/section-48.120"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The other 48.120 grounds (an ineligible applicant, a transaction not entered into in good faith), the full Part 48 definitions of U.S. citizen and resident alien (48.10), what \"owner\" includes (48.25(d)) and recognition of ownership for foreign civil aircraft (48.125) are not summarized here."
+    },
+    {
+      "id": "certificates",
+      "name": "Certificates, renewal and updates",
+      "points": [
+        {
+          "text": "For an aircraft used for any purpose other than operating exclusively in compliance with 49 U.S.C. 44809, the Certificate of Aircraft Registration constitutes registration for the small unmanned aircraft identified on the application.",
+          "quote": "A Certificate of Aircraft Registration issued in accordance with § 48.110 to a small unmanned aircraft used for any purpose other than operating exclusively in compliance with 49 U.S.C. 44809 constitutes registration for the small unmanned aircraft identified on the application.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.100, Registration: Small unmanned aircraft operated for any purpose other than exclusively limited recreational operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-B/section-48.100"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For aircraft operated exclusively in compliance with 49 U.S.C. 44809 (limited recreational operations), one certificate constitutes registration for all such small unmanned aircraft owned by the individual identified on the application.",
+          "quote": "A Certificate of Aircraft Registration issued in accordance with § 48.110 for small unmanned aircraft to be operated exclusively in compliance with 49 U.S.C. 44809 constitutes registration for all the small unmanned aircraft used exclusively for operations in compliance with 49 U.S.C. 44809 owned by the individual identified on the application.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.105, Registration: Small unmanned aircraft intended exclusively for limited recreational operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-B/section-48.105"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An aircraft is registered when the applicant receives the Certificate of Aircraft Registration for that aircraft; the effective date is the date of issue shown on the certificate.",
+          "quote": "An aircraft is registered when the applicant receives a Certificate of Aircraft Registration for the specific aircraft. The effective date of registration is shown by the date of issue on the Certificate of Aircraft Registration issued for the aircraft.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.100, Registration: Small unmanned aircraft operated for any purpose other than exclusively limited recreational operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-B/section-48.100"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A Certificate of Aircraft Registration expires 3 years after the date of issue unless it is renewed.",
+          "quote": "A Certificate of Aircraft registration issued under this part expires 3 years after the date of issue unless it is renewed.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.100, Registration: Small unmanned aircraft operated for any purpose other than exclusively limited recreational operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-B/section-48.100"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "To renew, the holder verifies that the 48.110 information is accurate and, if it is not, provides updated information. The verification may take place at any time within the six months preceding the month in which the certificate expires.",
+          "quote": "The holder of a Certificate of Aircraft Registration must renew the Certificate by verifying, in a form and manner prescribed by the Administrator, that the information provided in accordance with § 48.110 is accurate and if it is not, provide updated information. The verification may take place at any time within the six months preceding the month in which the Certificate of Aircraft registration expires.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.100, Registration: Small unmanned aircraft operated for any purpose other than exclusively limited recreational operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-B/section-48.100"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A renewed certificate expires three years from the expiration date of the previous certificate.",
+          "quote": "A certificate issued under this paragraph expires three years from the expiration date of the previous certificate.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.100, Registration: Small unmanned aircraft operated for any purpose other than exclusively limited recreational operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-B/section-48.100"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Unless registration has already ended (revoked, canceled, expired or ownership transferred), a 48.100 certificate stays effective until one of the events in 48.100(d) occurs, such as the aircraft being registered under the laws of a foreign country, the aircraft being totally destroyed or scrapped, the holder losing U.S. citizenship, or thirty days having elapsed since the holder's death.",
+          "quote": "Each Certificate of Aircraft Registration issued by the FAA under this subpart is effective, unless registration has ended by reason of having been revoked, canceled, expired, or the ownership is transferred, until the date upon which one of the following events occurs: (1) Subject to the Convention on the International Recognition of Rights in Aircraft when applicable, the aircraft is registered under the laws of a foreign country. (2) The small unmanned aircraft is totally destroyed or scrapped. (3) The holder of the Certificate of Aircraft Registration loses U.S. citizenship. (4) Thirty days have elapsed since the death of the holder of the Certificate of Aircraft Registration.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.100, Registration: Small unmanned aircraft operated for any purpose other than exclusively limited recreational operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-B/section-48.100"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The application must list the aircraft manufacturer and model name and, for any standard remote identification unmanned aircraft, the serial number issued by the manufacturer under Part 89. That serial number must not be listed on more than one Certificate of Aircraft Registration at the same time.",
+          "quote": "(5) The aircraft manufacturer and model name. (6) For any standard remote identification unmanned aircraft, the serial number issued by the manufacturer of the unmanned aircraft in accordance with the design and production requirements of part 89 of this chapter. The serial number provided in this application must not be listed on more than one Certificate of Aircraft Registration at the same time.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.110, Application (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-B/section-48.110"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The holder must update the information using the web-based small unmanned aircraft registration system within 14 calendar days of a change in the 48.110 information, or when registration requires cancellation for any reason, including sale or transfer, destruction, or export.",
+          "quote": "The holder of a Certificate of Aircraft Registration must update the information using the web-based small unmanned aircraft registration system within 14 calendar days of the following: (1) A change in the information provided under § 48.110. (2) When aircraft registration requires cancellation for any reason including sale or transfer, destruction, or export.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.115, Requirement to maintain current information (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-B/section-48.115"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The other 48.100(d) events for non-citizen owners and corporations, and the 48.105(d) events for certificates for limited recreational operations, are not listed here. Carrying and presenting registration under 91.203 is outside the sources used for this guide."
+    },
+    {
+      "id": "marking",
+      "name": "Marking the aircraft",
+      "points": [
+        {
+          "text": "No person may operate a small unmanned aircraft registered under Part 48 unless the aircraft displays a unique identifier as 48.205 requires.",
+          "quote": "No person may operate a small unmanned aircraft registered in accordance with this part unless the aircraft displays a unique identifier in accordance with the requirements of § 48.205 of this subpart.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.200, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-C/section-48.200"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The unique identifier is the registration number issued by the Registry (to an individual or to the aircraft), or, if authorized by the Administrator, the small unmanned aircraft serial number provided with the registration application.",
+          "quote": "(1) The registration number issued to an individual or the registration number issued to the aircraft by the Registry upon completion of the registration process provided by this part; or (2) If authorized by the Administrator, the small unmanned aircraft serial number provided with the application for Certificate of Aircraft Registration under § 48.110(a).",
+          "source": {
+            "title": "eCFR: 14 CFR 48.200, General (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-C/section-48.200"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The unique identifier must be maintained in a legible condition.",
+          "quote": "The unique identifier must be maintained in a condition that is legible.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.205, Display and location of unique identifier (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-C/section-48.205"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "It must be affixed to the small unmanned aircraft by any means necessary to ensure that it will remain affixed for the duration of each operation.",
+          "quote": "The unique identifier must be affixed to the small unmanned aircraft by any means necessary to ensure that it will remain affixed for the duration of each operation.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.205, Display and location of unique identifier (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-C/section-48.205"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "It must be legibly displayed on an external surface of the small unmanned aircraft.",
+          "quote": "The unique identifier must be legibly displayed on an external surface of the small unmanned aircraft.",
+          "source": {
+            "title": "eCFR: 14 CFR 48.205, Display and location of unique identifier (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-48/subpart-C/section-48.205"
+          },
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "remote-id-rule",
+      "name": "Remote ID: who and when",
+      "points": [
+        {
+          "text": "Subpart B of Part 89 applies to persons operating unmanned aircraft registered or required to be registered under Part 47 or 48, and to persons operating foreign civil unmanned aircraft in the United States.",
+          "quote": "(1) Persons operating unmanned aircraft registered or required to be registered under part 47 or 48 of this chapter. (2) Persons operating foreign civil unmanned aircraft in the United States.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.101, Applicability (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.101"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "It does not apply to unmanned aircraft operations under Part 91 that are transmitting ADS-B Out under 91.225.",
+          "quote": "This subpart does not apply to unmanned aircraft operations under part 91 of this chapter that are transmitting ADS-B Out pursuant to § 91.225.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.101, Applicability (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.101"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Except as otherwise authorized by the Administrator or as provided in 89.120, after September 16, 2023, no person may operate an unmanned aircraft within U.S. airspace unless the operation meets 89.110 (standard remote ID) or 89.115 (alternative remote ID).",
+          "quote": "Except as otherwise authorized by the Administrator or as provided in § 89.120, after September 16, 2023, no person may operate an unmanned aircraft within the airspace of the United States unless the operation meets the requirements of § 89.110 or § 89.115.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.105, Remote identification requirement (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.105"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "ADS-B Out equipment cannot be used to comply with the remote identification requirements of Part 89.",
+          "quote": "Automatic Dependent Surveillance-Broadcast (ADS-B) Out equipment cannot be used to comply with the remote identification requirements of this part.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.125, Automatic Dependent Surveillance-Broadcast (ADS-B) Out prohibition (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.125"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Before operating a foreign registered civil unmanned aircraft with remote identification in U.S. airspace, the person must submit a notice of identification in a form and manner acceptable to the Administrator.",
+          "quote": "No person may operate a foreign registered civil unmanned aircraft with remote identification in the airspace of the United States unless, prior to the operation, the person submits a notice of identification in a form and manner acceptable to the Administrator.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.130, Confirmation of identification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.130"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The person must obtain a Confirmation of Identification, keep it at the unmanned aircraft's control station, and produce it when requested by the FAA or a law enforcement officer.",
+          "quote": "No person may operate a foreign registered civil unmanned aircraft with remote identification in the United States unless the person obtains a Confirmation of Identification under paragraph (b)(1) of this section, maintains such Confirmation of Identification at the unmanned aircraft's control station, and produces the Confirmation of Identification when requested by the FAA or a law enforcement officer.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.130, Confirmation of identification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.130"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For Category 1 operations over people, no remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets 89.110 or 89.115(a).",
+          "quote": "No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.110, Category 1 operations (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D/section-107.110"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "Operations the Administrator authorizes without remote identification for aeronautical research or to show compliance with regulations (89.120) are not detailed here."
+    },
+    {
+      "id": "standard-remote-id",
+      "name": "Standard remote ID aircraft",
+      "points": [
+        {
+          "text": "From takeoff to shutdown, a standard remote identification unmanned aircraft must broadcast the message elements of 89.305.",
+          "quote": "From takeoff to shutdown, the standard remote identification unmanned aircraft must broadcast the message elements of § 89.305.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.110, Operation of standard remote identification unmanned aircraft (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.110"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If it is no longer broadcasting those message elements, the person manipulating the flight controls must land the unmanned aircraft as soon as practicable.",
+          "quote": "The person manipulating the flight controls of the unmanned aircraft system must land the unmanned aircraft as soon as practicable if the standard remote identification unmanned aircraft is no longer broadcasting the message elements of § 89.305.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.110, Operation of standard remote identification unmanned aircraft (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.110"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Its serial number must be listed on an FAA-accepted declaration of compliance, or the aircraft must be covered by a Part 21 design or production approval and meet subpart F of Part 89.",
+          "quote": "Its serial number is listed on an FAA-accepted declaration of compliance, or the standard remote identification unmanned aircraft is covered by a design approval or production approval issued under part 21 of this chapter and meets the requirements of subpart F of this part.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.110, Operation of standard remote identification unmanned aircraft (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.110"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Its remote identification equipment must be functional and comply with Part 89 from takeoff to shutdown, and the equipment and functionality must not have been disabled.",
+          "quote": "(2) Its remote identification equipment is functional and complies with the requirements of this part from takeoff to shutdown. (3) Its remote identification equipment and functionality have not been disabled.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.110, Operation of standard remote identification unmanned aircraft (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.110"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The aircraft's Certificate of Aircraft Registration must include the aircraft's serial number, or the serial number must be provided to the FAA in a notice of identification under 89.130 before the operation.",
+          "quote": "The Certificate of Aircraft Registration of the unmanned aircraft used in the operation must include the serial number of the unmanned aircraft, as per applicable requirements of parts 47 and 48 of this chapter, or the serial number of the unmanned aircraft must be provided to the FAA in a notice of identification pursuant to § 89.130 prior to the operation.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.110, Operation of standard remote identification unmanned aircraft (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.110"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Its message elements include the identity of the unmanned aircraft (a serial number assigned by the producer, or a session ID) and the latitude, longitude and geometric altitude of the control station.",
+          "quote": "(a) The identity of the unmanned aircraft, consisting of: (1) A serial number assigned to the unmanned aircraft by the person responsible for the production of the standard remote identification unmanned aircraft; or (2) A session ID. (b) An indication of the latitude and longitude of the control station. (c) An indication of the geometric altitude of the control station.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.305, Minimum message elements broadcast by standard remote identification unmanned aircraft (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-D/section-89.305"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "They also include the latitude, longitude, geometric altitude and velocity of the unmanned aircraft, a UTC time mark for the position source output, and the emergency status of the unmanned aircraft.",
+          "quote": "(d) An indication of the latitude and longitude of the unmanned aircraft. (e) An indication of the geometric altitude of the unmanned aircraft. (f) An indication of the velocity of the unmanned aircraft. (g) A time mark identifying the Coordinated Universal Time (UTC) time of applicability of a position source output. (h) An indication of the emergency status of the unmanned aircraft.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.305, Minimum message elements broadcast by standard remote identification unmanned aircraft (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-D/section-89.305"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The minimum performance requirements in 89.310 and the design, production and means-of-compliance rules in subparts E and F of Part 89 are not covered here."
+    },
+    {
+      "id": "broadcast-modules",
+      "name": "Remote ID broadcast modules",
+      "points": [
+        {
+          "text": "An unmanned aircraft that is not a standard remote identification unmanned aircraft may comply by meeting all of the requirements of either 89.115(a) (broadcast module) or 89.115(b) (FAA-recognized identification area).",
+          "quote": "A person operating an unmanned aircraft that is not a standard remote identification unmanned aircraft may comply with the remote identification requirement of § 89.105 by meeting all of the requirements of either paragraph (a) or (b) of this section.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.115, Alternative remote identification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.115"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Under 89.115(a), the aircraft must be equipped with a remote identification broadcast module that meets 89.320, and the module's serial number must be listed on an FAA-accepted declaration of compliance.",
+          "quote": "The unmanned aircraft used in the operation must be equipped with a remote identification broadcast module that meets the requirements of § 89.320 and the serial number of the remote identification broadcast module must be listed on an FAA-accepted declaration of compliance.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.115, Alternative remote identification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.115"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "From takeoff to shutdown, the person operating must ensure the module broadcasts the 89.315 message elements directly from the unmanned aircraft.",
+          "quote": "From takeoff to shutdown, the person operating the unmanned aircraft must ensure that the remote identification broadcast module broadcasts the remote identification message elements of § 89.315 directly from the unmanned aircraft.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.115, Alternative remote identification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.115"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The person manipulating the flight controls must be able to see the unmanned aircraft at all times throughout the operation.",
+          "quote": "The person manipulating the flight controls of the unmanned aircraft system must be able to see the unmanned aircraft at all times throughout the operation.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.115, Alternative remote identification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.115"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Before takeoff, the person manipulating the flight controls must ensure the broadcast module is functioning in accordance with subpart B.",
+          "quote": "Prior to takeoff, the person manipulating the flight controls of the unmanned aircraft system must ensure the remote identification broadcast module is functioning in accordance with this subpart.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.115, Alternative remote identification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.115"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If the aircraft is no longer broadcasting the 89.315 message elements in flight, the person manipulating the flight controls must land it as soon as practicable.",
+          "quote": "The person manipulating the flight controls of the unmanned aircraft system must land the unmanned aircraft as soon as practicable if the unmanned aircraft is no longer broadcasting the message elements of § 89.315.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.115, Alternative remote identification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.115"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A broadcast module identifies the aircraft by the module's serial number and broadcasts the aircraft's position, altitude and velocity, the latitude, longitude and geometric altitude of the take-off location, and a UTC time mark.",
+          "quote": "(a) The identity of the unmanned aircraft, consisting of the serial number assigned to the remote identification broadcast module by the person responsible for the production of the remote identification broadcast module. (b) An indication of the latitude and longitude of the unmanned aircraft. (c) An indication of the geometric altitude of the unmanned aircraft. (d) An indication of the velocity of the unmanned aircraft. (e) An indication of the latitude and longitude of the take-off location of the unmanned aircraft. (f) An indication of the geometric altitude of the take-off location of the unmanned aircraft. (g) A time mark identifying the Coordinated Universal Time (UTC) time of applicability of a position source output.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.315, Minimum message elements broadcast by remote identification broadcast modules (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-D/section-89.315"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The registration certificate or notice of identification requirement for a module (89.115(a)(1)(ii)) and the module performance requirements in 89.320 are not covered here."
+    },
+    {
+      "id": "fria",
+      "name": "FAA-recognized identification areas",
+      "points": [
+        {
+          "text": "Unless otherwise authorized, an unmanned aircraft may be operated without remote identification equipment only if the aircraft and the person manipulating the flight controls remain within the boundaries of an FAA-recognized identification area throughout the operation, and that person is able to see the aircraft at all times.",
+          "quote": "Unless otherwise authorized by the Administrator, a person may operate an unmanned aircraft without remote identification equipment only if all of the following conditions are met: (1) The unmanned aircraft and the person manipulating the flight controls of the unmanned aircraft system remain within the boundaries of an FAA-recognized identification area throughout the operation; and (2) The person manipulating the flight controls of the unmanned aircraft system must be able to see the unmanned aircraft at all times throughout the operation.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.115, Alternative remote identification (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-B/section-89.115"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Only a community-based organization recognized by the Administrator, or an educational institution (including primary and secondary schools, trade schools, colleges and universities), is eligible to apply for an FAA-recognized identification area.",
+          "quote": "Only the following persons are eligible to apply for the establishment of an FAA-recognized identification area under this subpart: (a) A community-based organization recognized by the Administrator. (b) An educational institution, including primary and secondary educational institutions, trade schools, colleges, and universities.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.205, Eligibility (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-C/section-89.205"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Except as otherwise provided in subpart C, an FAA-recognized identification area is in effect for 48 calendar months after the date the FAA approves the request.",
+          "quote": "Except as otherwise provided in this subpart, an FAA-recognized identification area will be in effect for 48 calendar months after the date the FAA approves the request for establishment of an FAA-recognized identification area.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.225, Duration of an FAA-recognized identification area (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-C/section-89.225"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A renewal request must be submitted no later than 120 days before expiration; the Administrator may deny requests submitted after that deadline or after expiration.",
+          "quote": "A person wishing to renew an FAA-recognized identification area must submit a request for renewal no later than 120 days prior to the expiration of the FAA-recognized identification area in a form and manner acceptable to the Administrator. The Administrator may deny requests submitted after that deadline or requests submitted after the expiration.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.225, Duration of an FAA-recognized identification area (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-C/section-89.225"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Any change to the information in the application, such as the point of contact or organizational affiliation, must be submitted to the FAA within 10 calendar days of the change.",
+          "quote": "any change to the information submitted in the application including but not limited to a change to the point of contact for the FAA-recognized identification area or a change to the FAA-recognized identification area's organizational affiliation must be submitted to the FAA within 10 calendar days of the change.",
+          "source": {
+            "title": "eCFR: 14 CFR 89.220, Amendment (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89/subpart-C/section-89.220"
+          },
+          "checked": "2026-11-05"
+        }
+      ],
+      "notCovered": "The application contents (89.210), how the FAA assesses applications (89.215), boundary changes (89.220(b)) and termination and reconsideration (89.230) are not summarized here."
+    }
+  ]
+}
