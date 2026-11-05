@@ -134,15 +134,15 @@
     {
       "id": "el-008",
       "topic": "Temporary wiring",
-      "question": "Portable electric lighting used inside a tank (a wet or conductive location) without GFCI protection must operate at what voltage?",
+      "question": "A crew needs portable lights inside a steel tank, a conductive location, and wants to use 120-volt lights. Under what condition does Subpart K allow it?",
       "options": {
-        "A": "240 volts or less",
-        "B": "120 volts or less",
-        "C": "48 volts or less",
-        "D": "12 volts or less"
+        "A": "If the tank is dry at the time",
+        "B": "If the lights are suspended by their cords",
+        "C": "If a worker stands watch outside the tank",
+        "D": "If the lights are protected by a ground-fault circuit interrupter"
       },
       "answer": "D",
-      "explanation": "Such lighting \"shall be operated at 12 volts or less. However, 120-volt lights may be used if protected by a ground-fault circuit interrupter.\"",
+      "explanation": "Portable lighting in conductive locations such as tanks \"shall be operated at 12 volts or less. However, 120-volt lights may be used if protected by a ground-fault circuit interrupter.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.405"
@@ -278,15 +278,15 @@
     {
       "id": "el-016",
       "topic": "Live parts and working space",
-      "question": "For equipment at 600 volts or less with live parts likely to be serviced while alive, the working space in front of the equipment must be at least how wide?",
+      "question": "A contractor wants to stack boxes of fittings in the required working space in front of a panelboard. What does Subpart K say?",
       "options": {
-        "A": "12 inches",
-        "B": "18 inches",
-        "C": "24 inches",
-        "D": "30 inches"
+        "A": "Storage is allowed if the boxes are less than 30 inches high",
+        "B": "Storage is allowed if the panel is deenergized at night",
+        "C": "Storage is allowed if a warning sign is posted",
+        "D": "Working space required by the subpart shall not be used for storage"
       },
       "answer": "D",
-      "explanation": "\"In addition to the dimensions shown in Table K-1, workspace shall not be less than 30 inches (762 mm) wide in front of the electric equipment.\"",
+      "explanation": "\"Working space required by this subpart shall not be used for storage.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.403, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-K/section-1926.403"
