@@ -100,9 +100,9 @@ export default function HoursOfService() {
               <p className="mt-3">
                 {left <= 0 ? `No driving: the ${binding.key} is used up.` : `The ${binding.key} runs out first.`}{" "}
                 {breakIn <= 0
-                  ? "A consecutive 30-minute interruption is due before driving again, unless a short-haul exception applies."
+                  ? "A consecutive 30-minute interruption is due before driving again, unless an exception in 395.1 applies."
                   : breakIn < left
-                    ? `A 30-minute interruption is due within ${hm(breakIn)} of driving, unless a short-haul exception applies.`
+                    ? `A 30-minute interruption is due within ${hm(breakIn)} of driving, unless an exception in 395.1 applies.`
                     : ""}
               </p>
               <ul className="mt-3 space-y-1 text-[0.9375rem] text-muted">
