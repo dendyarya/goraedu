@@ -29,7 +29,7 @@
       "topic": "Weather sources and reports",
       "question": "Which of these is one of the conditions for which the Study Guide says convective SIGMETs are issued?",
       "options": {
-        "A": "Severe thunderstorms with surface winds greater than 25 knots",
+        "A": "Rain showers with surface winds of 20 knots",
         "B": "Hail at the surface of 1/4 inch in diameter",
         "C": "Turbulence on the leeward side of a mountain",
         "D": "Tornadoes"
@@ -141,78 +141,78 @@
     {
       "id": "wx-008",
       "topic": "Density altitude and performance",
-      "question": "Which set of conditions does the Study Guide list as resulting in a high density altitude?",
+      "question": "Which set of conditions does the Study Guide describe as more indicative of low density altitude?",
       "options": {
-        "A": "Low elevations, high atmospheric pressure, low temperatures and low humidity",
-        "B": "High elevations, high atmospheric pressure, low temperatures and low humidity",
-        "C": "High elevations, low atmospheric pressures, high temperatures and high humidity",
-        "D": "Low elevations, low atmospheric pressures, low temperatures and dry air"
+        "A": "High elevations, low atmospheric pressures, high temperatures and high humidity",
+        "B": "Lower elevations, low atmospheric pressure, high temperatures and high humidity",
+        "C": "Lower elevations, high atmospheric pressure, low temperatures and low humidity",
+        "D": "High elevations, high atmospheric pressure, high temperatures and low humidity"
       },
       "answer": "C",
-      "explanation": "\"The conditions that result in a high density altitude are high elevations, low atmospheric pressures, high temperatures, high humidity, or some combination of these factors.\"",
+      "explanation": "\"Lower elevations, high atmospheric pressure, low temperatures, and low humidity are more indicative of low density altitude.\" High elevations, low pressures, high temperatures and high humidity result in a high density altitude.",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "The conditions that result in a high density altitude are high elevations, low atmospheric pressures, high temperatures, high humidity, or some combination of these factors."
+      "evidence": "Lower elevations, high atmospheric pressure, low temperatures, and low humidity are more indicative of low density altitude."
     },
     {
       "id": "wx-009",
       "topic": "Density altitude and performance",
-      "question": "According to the Study Guide, how does aircraft performance change as air density decreases (higher density altitude)?",
+      "question": "According to the Study Guide, how does the density of air vary with temperature when the pressure is constant?",
       "options": {
-        "A": "It increases",
-        "B": "It does not change",
-        "C": "It decreases",
-        "D": "It increases only in humid air"
+        "A": "Directly: increasing the temperature increases the density",
+        "B": "It does not vary with temperature",
+        "C": "Inversely: increasing the temperature decreases the density",
+        "D": "Inversely, but only above 12,000 feet"
       },
       "answer": "C",
-      "explanation": "\"As the density of the air increases (lower density altitude), aircraft performance increases. Conversely, as air density decreases (higher density altitude), aircraft performance decreases.\"",
+      "explanation": "\"Increasing the temperature of a substance decreases its density.\" The Study Guide adds: \"Thus, the density of air varies inversely with temperature. This statement is true only at a constant pressure.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "Conversely, as air density decreases (higher density altitude), aircraft performance decreases."
+      "evidence": "Thus, the density of air varies inversely with temperature. This statement is true only at a constant pressure."
     },
     {
       "id": "wx-010",
       "topic": "Density altitude and performance",
-      "question": "What does the Study Guide say happens as the water content of the air increases?",
+      "question": "According to the Study Guide, why is moist air lighter than dry air?",
       "options": {
-        "A": "The air becomes less dense, increasing density altitude and decreasing performance",
-        "B": "The air becomes denser, lowering density altitude and increasing performance",
-        "C": "Air density stays the same because water vapor has no weight",
-        "D": "The air becomes denser, lowering density altitude and decreasing performance"
+        "A": "Water vapor is lighter than air",
+        "B": "Moist air is always at a higher pressure",
+        "C": "Moist air always has a lower temperature",
+        "D": "Moisture raises the dew point above the air temperature"
       },
       "answer": "A",
-      "explanation": "\"Water vapor is lighter than air; consequently, moist air is lighter than dry air. Therefore, as the water content of the air increases, the air becomes less dense, increasing density altitude and decreasing performance.\"",
+      "explanation": "\"Water vapor is lighter than air; consequently, moist air is lighter than dry air.\" So as the water content increases, \"the air becomes less dense, increasing density altitude and decreasing performance.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "Therefore, as the water content of the air increases, the air becomes less dense, increasing density altitude and decreasing performance."
+      "evidence": "Water vapor is lighter than air; consequently, moist air is lighter than dry air."
     },
     {
       "id": "wx-011",
       "topic": "Wind, obstructions and wind shear",
-      "question": "Which sequence does the Study Guide describe for an inadvertent microburst encounter by a small UA?",
+      "question": "According to the Study Guide, what can an inadvertent microburst encounter result in?",
       "options": {
-        "A": "A tailwind, then downdrafts, then a headwind",
-        "B": "Downdrafts, then a headwind, then a tailwind",
-        "C": "A headwind, then a tailwind, then downdrafts",
-        "D": "A performance-increasing headwind, then performance-decreasing downdrafts, then a rapidly increasing tailwind"
+        "A": "A steady, smooth climb away from the ground",
+        "B": "Structural icing on the airfoil",
+        "C": "A lower density altitude and better performance",
+        "D": "Terrain impact or flight dangerously close to the ground"
       },
       "answer": "D",
-      "explanation": "\"During an inadvertent microburst encounter, the small UA may first experience a performance-increasing headwind, followed by performance-decreasing downdrafts, followed by a rapidly increasing tailwind.\"",
+      "explanation": "The small UA may meet \"a performance-increasing headwind, followed by performance-decreasing downdrafts, followed by a rapidly increasing tailwind. This can result in terrain impact or flight dangerously close to the ground.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "During an inadvertent microburst encounter, the small UA may first experience a performance-increasing headwind, followed by performance-decreasing downdrafts, followed by a rapidly increasing tailwind."
+      "evidence": "This can result in terrain impact or flight dangerously close to the ground."
     },
     {
       "id": "wx-012",
@@ -254,79 +254,79 @@
     },
     {
       "id": "wx-014",
-      "topic": "Atmospheric stability, inversions and fronts",
-      "question": "According to the Study Guide, when does a temperature inversion exist?",
+      "topic": "Stability, pressure, inversions and fronts",
+      "question": "According to the Study Guide, how does the air at the top of an inversion layer act?",
       "options": {
-        "A": "When the temperature of the air decreases with altitude",
-        "B": "When the temperature equals the dew point",
-        "C": "When the temperature of the air rises with altitude",
-        "D": "When atmospheric pressure rises with altitude"
+        "A": "As a source of strong updrafts that build cumulus clouds",
+        "B": "As a barrier that clears fog and haze from the layer below",
+        "C": "As a lid, keeping weather and pollutants trapped below",
+        "D": "As the level where low-level wind shear always ends"
       },
       "answer": "C",
-      "explanation": "\"When the temperature of the air rises with altitude, a temperature inversion exists.\" Normally, \"As air rises and expands in the atmosphere, the temperature decreases.\"",
+      "explanation": "\"When the temperature of the air rises with altitude, a temperature inversion exists.\" The Study Guide says \"The air at the top of the layer acts as a lid, keeping weather and pollutants trapped below.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "When the temperature of the air rises with altitude, a temperature inversion exists."
+      "evidence": "The air at the top of the layer acts as a lid, keeping weather and pollutants trapped below."
     },
     {
       "id": "wx-015",
-      "topic": "Atmospheric stability, inversions and fronts",
-      "question": "Which characteristics does the Study Guide's table list for stable air?",
+      "topic": "Stability, pressure, inversions and fronts",
+      "question": "According to the Study Guide, what happens to small vertical disturbances in a stable atmosphere?",
       "options": {
-        "A": "Cumuliform clouds and showery precipitation",
-        "B": "Stratiform clouds and fog, continuous precipitation and smooth air",
-        "C": "Rough air (turbulence) and good visibility",
-        "D": "Cumuliform clouds and smooth air"
+        "A": "They tend to become larger, resulting in turbulent airflow",
+        "B": "They dampen out and disappear",
+        "C": "They grow into thunderstorms on a daily basis",
+        "D": "They raise the density altitude"
       },
       "answer": "B",
-      "explanation": "The Study Guide's table pairs unstable air with cumuliform clouds, showery precipitation and rough air, and stable air with \"Stratiform clouds and fog\", \"Continuous precipitation\" and \"Smooth air\".",
+      "explanation": "\"A stable atmosphere makes vertical movement difficult, and small vertical disturbances dampen out and disappear.\" Growth into turbulent airflow happens \"In an unstable atmosphere\".",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "Unstable Air Stable Air Cumuliform clouds Stratiform clouds and fog Showery precipitation Continuous precipitation Rough air (turbulence) Smooth air"
+      "evidence": "A stable atmosphere makes vertical movement difficult, and small vertical disturbances dampen out and disappear."
     },
     {
       "id": "wx-016",
       "topic": "Dew point, fog, frost and icing",
-      "question": "What two conditions does the Study Guide say are necessary for structural icing in flight?",
+      "question": "What does the Study Guide say aerodynamic cooling can do to an airfoil?",
       "options": {
-        "A": "Relative humidity above 50 percent and a temperature below 10 °C",
-        "B": "Clear, dry air and a temperature below freezing",
-        "C": "Flight above 12,000 feet and any cloud cover",
-        "D": "Flying through visible water such as rain or cloud droplets, and a temperature of 0 °C or colder where the moisture strikes the aircraft"
+        "A": "Keep the airfoil above freezing when the ambient temperature is below 0 °C",
+        "B": "Remove frost from the airfoil during takeoff",
+        "C": "Raise the dew point of the air flowing over the airfoil",
+        "D": "Lower its temperature to 0 °C even though the ambient temperature is a few degrees warmer"
       },
       "answer": "D",
-      "explanation": "\"Two conditions are necessary for structural icing in flight\": the aircraft \"must be flying through visible water such as rain or cloud droplets\" and the temperature where the moisture strikes it \"must be 0° C or colder.\"",
+      "explanation": "\"Aerodynamic cooling can lower temperature of an airfoil to 0° C even though the ambient temperature is a few degrees warmer.\" Structural icing needs the temperature where moisture strikes the aircraft to be \"0° C or colder.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "Two conditions are necessary for structural icing in flight: 1. The aircraft must be flying through visible water such as rain or cloud droplets 2. The temperature at the point where the moisture strikes the aircraft must be 0° C or colder."
+      "evidence": "Aerodynamic cooling can lower temperature of an airfoil to 0° C even though the ambient temperature is a few degrees warmer."
     },
     {
       "id": "wx-017",
       "topic": "Dew point, fog, frost and icing",
-      "question": "What does the Study Guide say about frost on a small UA?",
+      "question": "Which of these is one of the four methods the Study Guide gives by which air can reach the saturation point?",
       "options": {
-        "A": "It poses no threat, like dew",
-        "B": "It poses a definite flight safety hazard because it disrupts airflow over the wing and can drastically reduce lift",
-        "C": "It increases lift but also increases drag",
-        "D": "It matters only when the ambient temperature is above freezing"
+        "A": "Air warming as it flows down the leeward side of a mountain",
+        "B": "Air cooling at night through contact with the cooler ground",
+        "C": "Air pressure rising at a single weather station",
+        "D": "Water vapor being removed from the air"
       },
       "answer": "B",
-      "explanation": "\"While dew poses no threat to a small UA, frost poses a definite flight safety hazard. Frost disrupts the flow of air over the wing and can drastically reduce the production of lift.\"",
+      "explanation": "\"There are four methods by which air can reach the saturation point.\" The third: \"when air cools at night through contact with the cooler ground, air reaches its saturation point.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "While dew poses no threat to a small UA, frost poses a definite flight safety hazard. Frost disrupts the flow of air over the wing and can drastically reduce the production of lift."
+      "evidence": "Third, when air cools at night through contact with the cooler ground, air reaches its saturation point."
     },
     {
       "id": "wx-018",
@@ -350,21 +350,21 @@
     {
       "id": "wx-019",
       "topic": "Clouds and thunderstorms",
-      "question": "During which stage does the Study Guide say all thunderstorm hazards reach their greatest intensity?",
+      "question": "How does the Study Guide describe the transition of a thunderstorm cell from one stage to another?",
       "options": {
-        "A": "The cumulus stage",
-        "B": "The dissipating stage",
-        "C": "The mature stage",
-        "D": "The orographic stage"
+        "A": "Abrupt and easy to see from the ground",
+        "B": "Marked by the cloud top reaching 12,000 feet",
+        "C": "Subtle, and virtually impossible to detect visually",
+        "D": "Always complete within 5–15 minutes"
       },
       "answer": "C",
-      "explanation": "\"All thunderstorm hazards reach their greatest intensity during the mature stage.\"",
+      "explanation": "\"It is virtually impossible to visually detect the transition from one stage to another; the transition is subtle and by no means abrupt.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
       },
       "checked": "2026-11-05",
-      "evidence": "All thunderstorm hazards reach their greatest intensity during the mature stage."
+      "evidence": "It is virtually impossible to visually detect the transition from one stage to another; the transition is subtle and by no means abrupt."
     },
     {
       "id": "wx-020",

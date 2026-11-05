@@ -11,7 +11,7 @@
       "name": "Weather sources and reports",
       "points": [
         {
-          "text": "The FAA Remote Pilot ACS lists internet weather briefing and sources of weather available for flight planning purposes among the weather knowledge areas.",
+          "text": "One of the knowledge elements in the ACS weather area (Sources of Weather) is internet weather briefing and sources of weather available for flight planning purposes.",
           "quote": "Internet weather briefing and sources of weather available for flight planning purposes.",
           "source": {
             "title": "FAA-S-ACS-10B, Remote Pilot – Small Unmanned Aircraft Systems Airman Certification Standards (April 2021)",
@@ -81,7 +81,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "In the wind group, the first three digits give the direction the true wind is blowing from in tens of degrees, and the last two give the speed in knots (three digits if over 99 knots). G followed by a number gives the peak gust; VRB means variable.",
+          "text": "In the wind group, the first three digits give the direction the true wind is blowing from in tens of degrees (VRB if variable), and the last two give the speed in knots (three digits if over 99 knots). If the wind is gusting, G follows the wind speed, and after the G the peak gust recorded is given.",
           "quote": "The first three digits indicate the direction the true wind is blowing from in tens of degrees. If the wind is variable, it is reported as “VRB.” The last two digits indicate the speed of the wind in knots unless the wind is greater than 99 knots, in which case it is indicated by three digits. If the winds are gusting, the letter “G” follows the wind speed (G26KT). After the letter “G,” the peak gust recorded is provided.",
           "source": {
             "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
@@ -255,8 +255,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "In an inadvertent microburst encounter, the small UA may first meet a performance-increasing headwind, then performance-decreasing downdrafts, then a rapidly increasing tailwind.",
-          "quote": "During an inadvertent microburst encounter, the small UA may first experience a performance-increasing headwind, followed by performance-decreasing downdrafts, followed by a rapidly increasing tailwind.",
+          "text": "In an inadvertent microburst encounter, the small UA may first meet a performance-increasing headwind, then performance-decreasing downdrafts, then a rapidly increasing tailwind. This can result in terrain impact or flight dangerously close to the ground.",
+          "quote": "During an inadvertent microburst encounter, the small UA may first experience a performance-increasing headwind, followed by performance-decreasing downdrafts, followed by a rapidly increasing tailwind. This can result in terrain impact or flight dangerously close to the ground.",
           "source": {
             "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
             "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -267,7 +267,7 @@
     },
     {
       "id": "stability",
-      "name": "Atmospheric stability, inversions and fronts",
+      "name": "Stability, pressure, inversions and fronts",
       "points": [
         {
           "text": "The stability of the atmosphere depends on its ability to resist vertical motion. In a stable atmosphere small vertical disturbances dampen out; in an unstable atmosphere they tend to become larger, resulting in turbulent airflow and convective activity.",
@@ -297,7 +297,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A temperature inversion exists when the temperature of the air rises with altitude. If relative humidity is high, it can contribute to clouds, fog, haze or smoke and diminished visibility in the inversion layer.",
+          "text": "A temperature inversion exists when the temperature of the air rises with altitude. Inversion layers are commonly shallow layers of smooth, stable air close to the ground, and the air at the top of the layer acts as a lid, keeping weather and pollutants trapped below. If relative humidity is high, it can contribute to clouds, fog, haze or smoke and diminished visibility in the inversion layer.",
           "quote": "When the temperature of the air rises with altitude, a temperature inversion exists. Inversion layers are commonly shallow layers of smooth, stable air close to the ground. The temperature of the air increases with altitude to a certain point, which is the top of the inversion. The air at the top of the layer acts as a lid, keeping weather and pollutants trapped below. If the relative humidity of the air is high, it can contribute to the formation of clouds, fog, haze, or smoke resulting in diminished visibility in the inversion layer.",
           "source": {
             "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
@@ -328,6 +328,7 @@
     {
       "id": "moisture",
       "name": "Dew point, fog, frost and icing",
+      "notCovered": "The Study Guide's weather chapters do not describe individual types of fog, so fog types are not covered here.",
       "points": [
         {
           "text": "The dew point is the temperature at which the air can hold no more moisture. When air is cooled to the dew point, it is saturated and moisture begins to condense as fog, dew, frost, clouds, rain or snow.",
@@ -400,8 +401,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Standing lenticular altocumulus clouds are a good indication of very strong turbulence and should be avoided.",
-          "quote": "The presence of these clouds is a good indication of very strong turbulence and should be avoided.",
+          "text": "Standing lenticular altocumulus clouds form on the crests of waves created by barriers in the wind flow and have smooth, polished edges. The Study Guide says their presence is a good indication of very strong turbulence and they should be avoided.",
+          "quote": "Standing lenticular altocumulus clouds are formed on the crests of waves created by barriers in the wind flow. The clouds show little movement, hence the name standing. Wind, however, can be quite strong blowing through such clouds. They are characterized by their smooth, polished edges. The presence of these clouds is a good indication of very strong turbulence and should be avoided.",
           "source": {
             "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
             "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -497,8 +498,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Before flight, the remote pilot in command must assess the operating environment, and the assessment must include local weather conditions.",
-          "quote": "Assess the operating environment, considering risks to persons and property in the immediate vicinity both on the surface and in the air. This assessment must include: (1) Local weather conditions;",
+          "text": "Prior to flight, the remote pilot in command must assess the operating environment, and the assessment must include local weather conditions.",
+          "quote": "Prior to flight, the remote pilot in command must: (a) Assess the operating environment, considering risks to persons and property in the immediate vicinity both on the surface and in the air. This assessment must include: (1) Local weather conditions;",
           "source": {
             "title": "eCFR: 14 CFR 107.49, Preflight familiarization, inspection, and actions for aircraft operation (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49"
@@ -533,7 +534,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Section 107.51 is on the list of regulations a certificate of waiver may authorize a deviation from.",
+          "text": "14 CFR 107.205, the list of regulations subject to waiver, includes Section 107.51 (operating limitations for small unmanned aircraft).",
           "quote": "Section 107.51—Operating limitations for small unmanned aircraft.",
           "source": {
             "title": "eCFR: 14 CFR 107.205, List of regulations subject to waiver (as of Nov 3, 2026)",
