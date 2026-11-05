@@ -15,7 +15,7 @@ export default function SiteFooter() {
           </div>
           {FOOTER_GROUPS.map((group) => (
             <div key={group.title}>
-              <h2 className="text-[0.9375rem] font-semibold text-white [font-family:var(--font-body)] [font-stretch:100%]">
+              <h2 className="text-[0.9375rem] font-semibold text-white [font-family:var(--font-body)]">
                 {group.title}
               </h2>
               <ul className="mt-3 space-y-2 text-[0.9375rem]">

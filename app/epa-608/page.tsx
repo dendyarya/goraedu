@@ -116,7 +116,7 @@ export default function Epa608Page() {
                   <tr key={t.name} className="border-b border-line align-top">
                     <th
                       scope="row"
-                      className="py-3.5 pr-4 font-[family-name:var(--font-display)] text-[1.1875rem] font-bold [font-stretch:88%]"
+                      className="py-3.5 pr-4 font-[family-name:var(--font-display)] text-[1.1875rem] font-bold"
                     >
                       {t.name}
                     </th>
@@ -178,7 +178,7 @@ export default function Epa608Page() {
         </div>
 
         <aside className="lg:sticky lg:top-6 lg:self-start">
-          <div className="rounded-2xl border border-line bg-panel p-6">
+          <div className="rounded-3xl border border-line bg-panel p-6">
             <h2 className="text-[1.25rem] font-bold">Practice tests</h2>
             <ul className="mt-4 space-y-2">
               {tests.map((t) => (
@@ -186,13 +186,13 @@ export default function Epa608Page() {
                   {t.href ? (
                     <Link
                       href={t.href}
-                      className="flex items-center justify-between rounded-xl border border-low/40 bg-low-soft px-4 py-3 font-semibold text-low hover:border-low"
+                      className="flex items-center justify-between rounded-2xl border border-low/40 bg-low-soft px-4 py-3 font-semibold text-low hover:border-low"
                     >
                       {t.name}
                       <span className="text-[0.875rem] font-medium">{t.count} questions</span>
                     </Link>
                   ) : (
-                    <span className="flex items-center justify-between rounded-xl border border-line px-4 py-3 text-muted">
+                    <span className="flex items-center justify-between rounded-2xl border border-line px-4 py-3 text-muted">
                       {t.name}
                       <span className="rounded-full border border-line px-2 text-[0.75rem] leading-5">Soon</span>
                     </span>
@@ -206,7 +206,7 @@ export default function Epa608Page() {
               </Link>
             </p>
           </div>
-          <div className="mt-6 rounded-2xl border border-line bg-panel p-6">
+          <div className="mt-6 rounded-3xl border border-line bg-panel p-6">
             <h2 className="text-[1.25rem] font-bold">Tools</h2>
             <ul className="mt-4 space-y-2">
               {TOOLS.filter((t) => t.cluster === "epa-608").map((t) => (
@@ -219,7 +219,7 @@ export default function Epa608Page() {
             </ul>
           </div>
           {topicPages.length > 0 ? (
-            <div className="mt-6 rounded-2xl border border-line bg-panel p-6">
+            <div className="mt-6 rounded-3xl border border-line bg-panel p-6">
               <h2 className="text-[1.25rem] font-bold">Rules explained</h2>
               <ul className="mt-4 space-y-2">
                 {topicPages.map((g) => (
@@ -233,7 +233,7 @@ export default function Epa608Page() {
             </div>
           ) : null}
           {guides.length > 0 ? (
-            <div className="mt-6 rounded-2xl border border-line bg-panel p-6">
+            <div className="mt-6 rounded-3xl border border-line bg-panel p-6">
               <h2 className="text-[1.25rem] font-bold">Study guides</h2>
               <ul className="mt-4 space-y-2">
                 {guides.map((g) => (

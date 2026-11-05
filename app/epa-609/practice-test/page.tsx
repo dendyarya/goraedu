@@ -38,7 +38,7 @@ export default function Epa609PracticeTestPage() {
         </div>
         <aside className="space-y-6 text-[0.9375rem]">
           {guide ? (
-            <div className="rounded-2xl border border-low/40 bg-low-soft p-5">
+            <div className="rounded-3xl border border-low/40 bg-low-soft p-5">
               <h2 className="text-[1.125rem] font-bold">Study first</h2>
               <p className="mt-2 text-muted">
                 Every point of the Section 609 rules, with the exact words of the regulation.
@@ -48,7 +48,7 @@ export default function Epa609PracticeTestPage() {
               </Link>
             </div>
           ) : null}
-          <div className="rounded-2xl border border-line bg-panel p-5">
+          <div className="rounded-3xl border border-line bg-panel p-5">
             <h2 className="text-[1.125rem] font-bold">Topics in this set</h2>
             <ul className="mt-3 space-y-1.5 text-muted">
               {topics.map((t) => (
@@ -58,7 +58,7 @@ export default function Epa609PracticeTestPage() {
               ))}
             </ul>
           </div>
-          <div className="rounded-2xl border border-line bg-panel p-5 text-muted">
+          <div className="rounded-3xl border border-line bg-panel p-5 text-muted">
             <p>
               These are our own questions, written from 40 CFR Part 82, Subpart B. They are not questions from any real
               exam or any approved training program&apos;s test. We add questions as each one passes our{" "}

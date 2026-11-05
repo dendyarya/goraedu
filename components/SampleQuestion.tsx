@@ -21,7 +21,7 @@ export default function SampleQuestion({ q }: { q: SampleQuestionData }) {
   const correct = picked === q.answer;
 
   return (
-    <div className="rounded-2xl border border-line bg-panel shadow-[0_1px_0_var(--color-line),0_18px_40px_-24px_rgba(16,36,58,0.35)]">
+    <div className="rounded-3xl border border-line bg-panel shadow-[0_1px_0_var(--color-line),0_18px_40px_-24px_rgba(16,36,58,0.35)]">
       <div className="flex items-center justify-between gap-3 border-b border-line px-5 py-3 text-[0.875rem] text-muted">
         <span>Sample question</span>
         <span>{q.topic}</span>
@@ -47,7 +47,7 @@ export default function SampleQuestion({ q }: { q: SampleQuestionData }) {
                   onClick={() => setPicked(o.id)}
                   disabled={answered}
                   aria-pressed={isPicked}
-                  className={`flex w-full items-center gap-3 rounded-xl border px-3 py-2.5 text-left transition-colors disabled:cursor-default ${state}`}
+                  className={`flex w-full items-center gap-3 rounded-2xl border px-3 py-2.5 text-left transition-colors disabled:cursor-default ${state}`}
                 >
                   <span
                     aria-hidden="true"

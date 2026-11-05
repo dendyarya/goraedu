@@ -15,7 +15,7 @@ export default function Equipment609Finder() {
 
   return (
     <div className="grid gap-8 lg:grid-cols-[1fr_1fr]">
-      <form className="space-y-6 rounded-2xl border border-line bg-panel p-6" onSubmit={(e) => e.preventDefault()}>
+      <form className="space-y-6 rounded-3xl border border-line bg-panel p-6" onSubmit={(e) => e.preventDefault()}>
         <Segmented
           legend="Refrigerant the equipment handles"
           value={r}
@@ -43,17 +43,17 @@ export default function Equipment609Finder() {
 
       <div aria-live="polite" className="space-y-5">
         {hit ? (
-          <div className="rounded-2xl border border-low/40 bg-low-soft p-6">
+          <div className="rounded-3xl border border-low/40 bg-low-soft p-6">
             <p className="flex flex-wrap items-center gap-2 text-[0.9375rem]">
               Required standard <Label kind="official" />
             </p>
-            <p className="mt-2 font-[family-name:var(--font-display)] text-[2rem] font-bold leading-tight [font-stretch:88%]">
+            <p className="mt-2 font-[family-name:var(--font-display)] text-[2rem] font-bold leading-tight">
               {hit.standard}
             </p>
             <RuleQuote source={hit.source} />
           </div>
         ) : (
-          <div className="rounded-2xl border border-line bg-panel p-6">
+          <div className="rounded-3xl border border-line bg-panel p-6">
             <p className="text-[1.25rem] font-bold">Paragraph (a) names no standard for this combination</p>
             <p className="mt-2 text-muted">
               40 CFR 82.36(a) lists equipment by what it does and which refrigerant it handles. Pick the description
@@ -61,7 +61,7 @@ export default function Equipment609Finder() {
             </p>
           </div>
         )}
-        <div className="rounded-2xl border border-line bg-panel p-6 text-[0.9375rem]">
+        <div className="rounded-3xl border border-line bg-panel p-6 text-[0.9375rem]">
           <h2 className="text-[1.125rem] font-bold">Certified, not just compatible</h2>
           <RuleQuote source={R609.equipmentCertified} />
           <RuleQuote source={R609.list} />

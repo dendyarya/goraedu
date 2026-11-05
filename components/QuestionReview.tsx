@@ -28,7 +28,7 @@ export default function QuestionReview({ title, questions }: { title: string; qu
               .map((q) => {
                 n += 1;
                 return (
-                  <li key={q.id} id={q.id} className="scroll-mt-6 rounded-xl border border-line bg-panel p-5">
+                  <li key={q.id} id={q.id} className="scroll-mt-6 rounded-2xl border border-line bg-panel p-5">
                     <p className="font-semibold">
                       <span className="text-muted">{n}. </span>
                       {q.question}

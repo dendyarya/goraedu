@@ -115,7 +115,10 @@ const TINT: Record<FamilyIcon, string> = {
 
 export function IconTile({ name, size = 44 }: { name: FamilyIcon; size?: number }) {
   return (
-    <span className={`grid shrink-0 place-items-center rounded-xl ${TINT[name]}`} style={{ width: size, height: size }}>
+    <span
+      className={`grid shrink-0 place-items-center rounded-2xl ${TINT[name]}`}
+      style={{ width: size, height: size }}
+    >
       <TradeIcon name={name} size={Math.round(size * 0.55)} />
     </span>
   );

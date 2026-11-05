@@ -57,7 +57,7 @@ export function Segmented<T extends string>({
         {options.map((o) => (
           <label
             key={o.value}
-            className={`flex cursor-pointer gap-3 rounded-xl border px-3 py-2.5 ${
+            className={`flex cursor-pointer gap-3 rounded-2xl border px-3 py-2.5 ${
               value === o.value ? "border-low bg-low-soft" : "border-line bg-paper hover:border-low/60"
             }`}
           >

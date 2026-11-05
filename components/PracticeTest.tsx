@@ -101,7 +101,7 @@ export default function PracticeTest({
   if (phase === "start" && drawPerTopic) {
     const size = topics.reduce((n, t) => n + Math.min(drawPerTopic, questions.filter((q) => q.topic === t).length), 0);
     return (
-      <div className="rounded-2xl border border-line bg-panel p-6 sm:p-8">
+      <div className="rounded-3xl border border-line bg-panel p-6 sm:p-8">
         <h2 className="text-[1.5rem] font-bold">{title}</h2>
         <p className="mt-2 text-muted">
           Each exam draws {drawPerTopic} random questions from each of {new Intl.ListFormat("en-US").format(topics)},{" "}
@@ -112,7 +112,7 @@ export default function PracticeTest({
           <button
             type="button"
             onClick={() => start(draw())}
-            className="rounded-[10px] bg-low px-5 py-3 font-semibold text-white hover:brightness-110"
+            className="rounded-full bg-low px-5 py-3 font-semibold text-white hover:brightness-110"
           >
             Start the exam ({size} questions)
           </button>
@@ -126,7 +126,7 @@ export default function PracticeTest({
 
   if (phase === "start") {
     return (
-      <div className="rounded-2xl border border-line bg-panel p-6 sm:p-8">
+      <div className="rounded-3xl border border-line bg-panel p-6 sm:p-8">
         <h2 className="text-[1.5rem] font-bold">{title}</h2>
         <p className="mt-2 text-muted">
           {questions.length} questions across {topics.length} topics. After each answer you see why it is right, with a
@@ -139,7 +139,7 @@ export default function PracticeTest({
           id="topic"
           value={topic}
           onChange={(e) => setTopic(e.target.value)}
-          className="mt-2 w-full max-w-md rounded-xl border border-line bg-paper px-3 py-2.5"
+          className="mt-2 w-full max-w-md rounded-2xl border border-line bg-paper px-3 py-2.5"
         >
           <option value="all">All topics ({questions.length} questions)</option>
           {topics.map((t) => (
@@ -152,7 +152,7 @@ export default function PracticeTest({
           <button
             type="button"
             onClick={() => start(pool)}
-            className="rounded-[10px] bg-low px-5 py-3 font-semibold text-white hover:brightness-110"
+            className="rounded-full bg-low px-5 py-3 font-semibold text-white hover:brightness-110"
           >
             Start practice ({pool.length} questions)
           </button>
@@ -175,7 +175,7 @@ export default function PracticeTest({
         return { t, total: qs.length, right: qs.filter((q) => answers[q.id] === q.answer).length };
       });
     return (
-      <div className="rounded-2xl border border-line bg-panel p-6 sm:p-8">
+      <div className="rounded-3xl border border-line bg-panel p-6 sm:p-8">
         <h2 ref={headingRef} tabIndex={-1} className="text-[1.5rem] font-bold outline-none">
           You answered {correct.length} of {order.length} correctly ({pct}%)
         </h2>
@@ -215,7 +215,7 @@ export default function PracticeTest({
             <button
               type="button"
               onClick={() => start(missed)}
-              className="rounded-[10px] bg-low px-5 py-3 font-semibold text-white hover:brightness-110"
+              className="rounded-full bg-low px-5 py-3 font-semibold text-white hover:brightness-110"
             >
               Practice the {missed.length} you missed
             </button>
@@ -223,7 +223,7 @@ export default function PracticeTest({
           <button
             type="button"
             onClick={() => setPhase("start")}
-            className="rounded-[10px] border border-line px-5 py-3 font-semibold hover:border-low hover:text-low"
+            className="rounded-full border border-line px-5 py-3 font-semibold hover:border-low hover:text-low"
           >
             Start over
           </button>
@@ -234,7 +234,7 @@ export default function PracticeTest({
             <h3 className="mt-10 text-[1.1875rem] font-bold">Review what you missed</h3>
             <ol className="mt-4 space-y-5">
               {missed.map((q) => (
-                <li key={q.id} className="rounded-xl border border-line p-5">
+                <li key={q.id} className="rounded-2xl border border-line p-5">
                   <p className="font-semibold">{q.question}</p>
                   <p className="mt-2 text-[0.9375rem]">
                     <span className="text-high">Your answer: {q.options[answers[q.id]!]}</span>
@@ -264,7 +264,7 @@ export default function PracticeTest({
   const q = current!;
   const progress = Math.round((index / order.length) * 100);
   return (
-    <div className="rounded-2xl border border-line bg-panel">
+    <div className="rounded-3xl border border-line bg-panel">
       <div className="border-b border-line px-5 py-4 sm:px-7">
         <div className="flex flex-wrap items-center justify-between gap-2 text-[0.875rem] text-muted">
           <span>
@@ -284,7 +284,7 @@ export default function PracticeTest({
           ref={headingRef}
           tabIndex={-1}
           id={`q-${q.id}`}
-          className="text-[1.1875rem] font-semibold leading-snug outline-none [font-family:var(--font-body)] [font-stretch:100%]"
+          className="text-[1.1875rem] font-semibold leading-snug outline-none [font-family:var(--font-body)]"
         >
           {q.question}
         </h2>
@@ -303,7 +303,7 @@ export default function PracticeTest({
                   onClick={() => pick(c)}
                   disabled={answered}
                   aria-pressed={isPicked}
-                  className={`flex w-full items-center gap-3 rounded-xl border px-3.5 py-3 text-left transition-colors disabled:cursor-default ${state}`}
+                  className={`flex w-full items-center gap-3 rounded-2xl border px-3.5 py-3 text-left transition-colors disabled:cursor-default ${state}`}
                 >
                   <span
                     aria-hidden="true"
@@ -341,7 +341,7 @@ export default function PracticeTest({
               <button
                 type="button"
                 onClick={next}
-                className="mt-5 rounded-[10px] bg-low px-5 py-3 font-semibold text-white hover:brightness-110"
+                className="mt-5 rounded-full bg-low px-5 py-3 font-semibold text-white hover:brightness-110"
               >
                 {index + 1 < order.length ? "Next question" : "See my results"}
               </button>

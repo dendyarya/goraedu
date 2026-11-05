@@ -184,14 +184,14 @@ export default function Epa609Page() {
         </div>
 
         <aside className="space-y-6 lg:sticky lg:top-6 lg:self-start">
-          <div className="rounded-2xl border border-line bg-panel p-6">
+          <div className="rounded-3xl border border-line bg-panel p-6">
             <h2 className="text-[1.25rem] font-bold">Study and practice</h2>
             <ul className="mt-4 space-y-2">
               {set ? (
                 <li>
                   <Link
                     href={set.href}
-                    className="flex items-center justify-between rounded-xl border border-low/40 bg-low-soft px-4 py-3 font-semibold text-low hover:border-low"
+                    className="flex items-center justify-between rounded-2xl border border-low/40 bg-low-soft px-4 py-3 font-semibold text-low hover:border-low"
                   >
                     Practice test
                     <span className="text-[0.875rem] font-medium">{set.questions.length} questions</span>
@@ -207,7 +207,7 @@ export default function Epa609Page() {
               ) : null}
             </ul>
           </div>
-          <div className="rounded-2xl border border-line bg-panel p-6">
+          <div className="rounded-3xl border border-line bg-panel p-6">
             <h2 className="text-[1.25rem] font-bold">Tools</h2>
             <ul className="mt-4 space-y-2">
               {TOOLS.filter((t) => t.cluster === "epa-609").map((t) => (
@@ -220,7 +220,7 @@ export default function Epa609Page() {
             </ul>
           </div>
           {topics.length > 0 ? (
-            <div className="rounded-2xl border border-line bg-panel p-6">
+            <div className="rounded-3xl border border-line bg-panel p-6">
               <h2 className="text-[1.25rem] font-bold">Rules explained</h2>
               <ul className="mt-4 space-y-2">
                 {topics.map((g) => (

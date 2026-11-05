@@ -72,7 +72,7 @@ export default function Cert609Checker() {
 
   return (
     <div className="grid gap-8 lg:grid-cols-[1fr_1fr]">
-      <form className="space-y-6 rounded-2xl border border-line bg-panel p-6" onSubmit={(e) => e.preventDefault()}>
+      <form className="space-y-6 rounded-3xl border border-line bg-panel p-6" onSubmit={(e) => e.preventDefault()}>
         <Segmented
           legend="What are you working on?"
           value={kind}
@@ -127,13 +127,11 @@ export default function Cert609Checker() {
         </p>
       </form>
 
-      <div aria-live="polite" className={`rounded-2xl border p-6 ${box}`}>
+      <div aria-live="polite" className={`rounded-3xl border p-6 ${box}`}>
         <p className="flex flex-wrap items-center gap-2 text-[0.9375rem]">
           Result <Label kind="official" />
         </p>
-        <p className="mt-2 font-[family-name:var(--font-display)] text-[1.875rem] font-bold leading-tight [font-stretch:88%]">
-          {verdict}
-        </p>
+        <p className="mt-2 font-[family-name:var(--font-display)] text-[1.875rem] font-bold leading-tight">{verdict}</p>
         <p className="mt-3">{detail}</p>
         {sources.map((s) => (
           <RuleQuote key={s.title} source={s} />

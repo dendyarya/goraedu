@@ -64,7 +64,7 @@ export default async function SectionPracticeTestPage({ params }: Props) {
         </div>
         <aside className="space-y-6 text-[0.9375rem]">
           {guide ? (
-            <div className="rounded-2xl border border-low/40 bg-low-soft p-5">
+            <div className="rounded-3xl border border-low/40 bg-low-soft p-5">
               <h2 className="text-[1.125rem] font-bold">Study first</h2>
               <p className="mt-2 text-muted">
                 Every point of the {name} rules, with the exact words of the regulation.
@@ -74,7 +74,7 @@ export default async function SectionPracticeTestPage({ params }: Props) {
               </Link>
             </div>
           ) : null}
-          <div className="rounded-2xl border border-line bg-panel p-5">
+          <div className="rounded-3xl border border-line bg-panel p-5">
             <h2 className="text-[1.125rem] font-bold">Topics in this set</h2>
             <ul className="mt-3 space-y-1.5 text-muted">
               {topics.map((t) => (
@@ -85,7 +85,7 @@ export default async function SectionPracticeTestPage({ params }: Props) {
             </ul>
           </div>
           {others.length > 0 ? (
-            <div className="rounded-2xl border border-line bg-panel p-5">
+            <div className="rounded-3xl border border-line bg-panel p-5">
               <h2 className="text-[1.125rem] font-bold">Other EPA 608 sections</h2>
               <ul className="mt-3 space-y-1.5">
                 {others.map((s) => (
@@ -103,7 +103,7 @@ export default async function SectionPracticeTestPage({ params }: Props) {
               </p>
             </div>
           ) : null}
-          <div className="rounded-2xl border border-line bg-panel p-5 text-muted">
+          <div className="rounded-3xl border border-line bg-panel p-5 text-muted">
             <p>
               These are our own questions, written from the EPA rules in 40 CFR Part 82 and EPA&apos;s published
               guidance. They are not questions from any real exam. We add questions as each one passes our{" "}

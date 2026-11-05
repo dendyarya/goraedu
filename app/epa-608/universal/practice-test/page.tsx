@@ -42,7 +42,7 @@ export default function UniversalPracticeTestPage() {
           <PracticeTest title="EPA 608 Universal" questions={pool.questions} drawPerTopic={PER_SECTION} />
         </div>
         <aside className="space-y-6 text-[0.9375rem]">
-          <div className="rounded-2xl border border-line bg-panel p-5">
+          <div className="rounded-3xl border border-line bg-panel p-5">
             <h2 className="text-[1.125rem] font-bold">How the real Universal test is built</h2>
             <p className="mt-3 text-muted">
               Under Appendix D of 40 CFR Part 82 Subpart F, Universal tests have 100 questions: 25 from Group 1 (Core)
@@ -55,7 +55,7 @@ export default function UniversalPracticeTestPage() {
               </Link>
             </p>
           </div>
-          <div className="rounded-2xl border border-line bg-panel p-5">
+          <div className="rounded-3xl border border-line bg-panel p-5">
             <h2 className="text-[1.125rem] font-bold">Practice one section</h2>
             <ul className="mt-3 space-y-1.5">
               {[
@@ -74,7 +74,7 @@ export default function UniversalPracticeTestPage() {
                 ))}
             </ul>
           </div>
-          <div className="rounded-2xl border border-line bg-panel p-5 text-muted">
+          <div className="rounded-3xl border border-line bg-panel p-5 text-muted">
             <p>
               These are our own questions, written from the EPA rules in 40 CFR Part 82 and EPA&apos;s published
               guidance. They are not questions from any real exam.

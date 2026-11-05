@@ -1,49 +1,64 @@
 @import "tailwindcss";
 
 /*
-  goraedu design tokens.
-  The palette comes from a refrigeration manifold gauge set: blue is the low side, red the high side,
-  yellow the service hose. Blue carries links and primary actions, red marks wrong answers and warnings,
-  yellow is the keyboard focus ring. Ink is a deep navy, paper a cool white.
+  goraedu design tokens (theme 2).
+  A bright, airy palette: a clear blue for links and primary actions, a pale blue ground, white cards, deep navy
+  text and a warm yellow accent (focus ring, highlights). Red stays for wrong answers and warnings.
+  Headings: Space Grotesk 700. Body: Manrope.
 */
 @theme {
-  --color-ink: #10243a;
-  --color-paper: #f5f8fa;
+  --color-ink: #0e1b2c;
+  --color-paper: #f3f8fe;
   --color-panel: #ffffff;
-  --color-low: #1d5fbf;
-  --color-low-soft: #e6eefa;
+  --color-low: #1673e0;
+  --color-low-soft: #e7f1fd;
+  --color-sky: #2e90fa;
   --color-high: #b93a2e;
   --color-high-soft: #fbeceb;
-  --color-hose: #e9b32a;
-  --color-hose-soft: #fdf4dc;
+  --color-hose: #f5b82e;
+  --color-hose-soft: #fdf6e3;
   --color-hose-ink: #7a5300;
-  --color-muted: #4b5c6b;
-  --color-line: #d5dee6;
-  --color-night: #0d1d2e;
+  --color-muted: #44566d;
+  --color-line: #dbe8f8;
+  --color-night: #0e1b2c;
+  --color-ok: #146c3b;
+  --color-ok-soft: #e9f7ef;
 
-  --font-display: var(--font-archivo), "Arial Narrow", Arial, sans-serif;
-  --font-body: var(--font-public-sans), system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-display: var(--font-space-grotesk), system-ui, sans-serif;
+  --font-body: var(--font-manrope), system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+
+  --radius-card: 1.75rem;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-ink: #e4edf5;
-    --color-paper: #0e1a26;
-    --color-panel: #142434;
-    --color-low: #7aa9f0;
-    --color-low-soft: #18304c;
+    --color-ink: #e6eef8;
+    --color-paper: #0b1522;
+    --color-panel: #12202f;
+    --color-low: #7ab3f7;
+    --color-low-soft: #16304d;
+    --color-sky: #5aa8fb;
     --color-high: #f08a7e;
     --color-high-soft: #3a1f1d;
     --color-hose-soft: #3a2f12;
     --color-hose-ink: #f2cf74;
-    --color-muted: #a3b3c2;
-    --color-line: #263a4e;
-    --color-night: #08131e;
+    --color-muted: #a6b6c8;
+    --color-line: #22364c;
+    --color-night: #060e18;
+    --color-ok: #7fd6a3;
+    --color-ok-soft: #13301f;
   }
 }
 
 :root {
   color-scheme: light dark;
+}
+
+/* In dark mode the blue turns light, so filled blue buttons switch to dark text to keep contrast. */
+@media (prefers-color-scheme: dark) {
+  .bg-low.text-white {
+    color: #0b1522;
+  }
 }
 
 html {
@@ -61,11 +76,12 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--font-display);
-  font-stretch: 88%;
-  letter-spacing: -0.01em;
-  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
   text-wrap: balance;
 }
 
@@ -86,8 +102,9 @@ a {
   top: -3rem;
   z-index: 50;
   background: var(--color-hose);
-  color: #10243a;
+  color: #0e1b2c;
   padding: 0.5rem 0.875rem;
+  border-radius: 999px;
   font-weight: 600;
 }
 .skip-link:focus {

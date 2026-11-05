@@ -54,7 +54,7 @@ export default async function StudyGuidePage({ params }: Props) {
           test ? (
             <Link
               href={test.href}
-              className="mt-6 inline-block rounded-[10px] bg-low px-4 py-2.5 font-semibold text-white hover:brightness-110"
+              className="mt-6 inline-block rounded-full bg-low px-4 py-2.5 font-semibold text-white hover:brightness-110"
             >
               Take the {name} practice test
             </Link>

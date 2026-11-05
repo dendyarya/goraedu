@@ -32,7 +32,7 @@ function ClusterRow({ c }: { c: Cluster }) {
   return (
     <li className="border-t border-line py-4 first:border-t-0 first:pt-0">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <h3 className="text-[1.0625rem] font-semibold [font-family:var(--font-body)] [font-stretch:100%]">{name}</h3>
+        <h3 className="text-[1.0625rem] font-semibold [font-family:var(--font-body)]">{name}</h3>
         <StatusTag status={c.status} />
       </div>
       <p className="mt-1.5 text-[0.9375rem] text-muted">{c.summary}</p>
@@ -46,7 +46,7 @@ export default function ClusterGrid() {
   return (
     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       {FAMILIES.map((f) => (
-        <section key={f.name} className="rounded-2xl border border-line bg-panel p-6">
+        <section key={f.name} className="rounded-3xl border border-line bg-panel p-6">
           <div className="flex items-center gap-3">
             <IconTile name={f.icon} />
             <h2 className="text-[1.25rem] font-bold">{f.name}</h2>

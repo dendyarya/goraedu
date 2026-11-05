@@ -43,7 +43,7 @@ export default function EvacuationLevels() {
 
   return (
     <div className="grid gap-8 lg:grid-cols-[1fr_1fr]">
-      <form className="space-y-6 rounded-2xl border border-line bg-panel p-6" onSubmit={(e) => e.preventDefault()}>
+      <form className="space-y-6 rounded-3xl border border-line bg-panel p-6" onSubmit={(e) => e.preventDefault()}>
         <Segmented
           legend="Appliance type (by the refrigerant it uses)"
           value={cls}
@@ -84,13 +84,11 @@ export default function EvacuationLevels() {
       </form>
 
       <div aria-live="polite" className="space-y-5">
-        <div className="rounded-2xl border border-low/40 bg-low-soft p-6">
+        <div className="rounded-3xl border border-low/40 bg-low-soft p-6">
           <p className="flex flex-wrap items-center gap-2 text-[0.9375rem]">
             Required level <Label kind="official" />
           </p>
-          <p className="mt-2 font-[family-name:var(--font-display)] text-[2rem] font-bold leading-tight [font-stretch:88%]">
-            {result}
-          </p>
+          <p className="mt-2 font-[family-name:var(--font-display)] text-[2rem] font-bold leading-tight">{result}</p>
           <p className="mt-3 text-muted">{detail}</p>
           <RuleQuote source={isSmall ? (equipment === "old" ? SRC.smallOld : SRC.small) : SRC.table1} />
           {!isSmall ? (
@@ -99,7 +97,7 @@ export default function EvacuationLevels() {
             </p>
           ) : null}
         </div>
-        <div className="rounded-2xl border border-line bg-panel p-6 text-[0.9375rem]">
+        <div className="rounded-3xl border border-line bg-panel p-6 text-[0.9375rem]">
           <h2 className="text-[1.125rem] font-bold">Before you open the appliance</h2>
           <RuleQuote source={SRC.verify} />
           <p className="mt-4 text-muted">

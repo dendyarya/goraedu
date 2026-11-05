@@ -59,7 +59,7 @@ export default function LeakRateCalculator() {
 
   return (
     <div className="grid gap-8 lg:grid-cols-[1fr_1fr]">
-      <form className="space-y-6 rounded-2xl border border-line bg-panel p-6" onSubmit={(e) => e.preventDefault()}>
+      <form className="space-y-6 rounded-3xl border border-line bg-panel p-6" onSubmit={(e) => e.preventDefault()}>
         <Segmented
           legend="Refrigerant in the appliance"
           value={refrigerant}
@@ -74,7 +74,7 @@ export default function LeakRateCalculator() {
             id={`${id}-cat`}
             value={category}
             onChange={(e) => setCategory(e.target.value as typeof category)}
-            className="w-full rounded-xl border border-line bg-paper px-3 py-2.5"
+            className="w-full rounded-2xl border border-line bg-paper px-3 py-2.5"
           >
             {LEAK_RATES.map((r) => (
               <option key={r.id} value={r.id}>
@@ -89,7 +89,7 @@ export default function LeakRateCalculator() {
             inputMode="decimal"
             value={charge}
             onChange={(e) => setCharge(e.target.value)}
-            className="w-full rounded-xl border border-line bg-paper px-3 py-2.5"
+            className="w-full rounded-2xl border border-line bg-paper px-3 py-2.5"
             placeholder="e.g. 300"
           />
         </Field>
@@ -115,7 +115,7 @@ export default function LeakRateCalculator() {
             inputMode="decimal"
             value={added}
             onChange={(e) => setAdded(e.target.value)}
-            className="w-full rounded-xl border border-line bg-paper px-3 py-2.5"
+            className="w-full rounded-2xl border border-line bg-paper px-3 py-2.5"
             placeholder="e.g. 12"
           />
         </Field>
@@ -126,7 +126,7 @@ export default function LeakRateCalculator() {
               inputMode="numeric"
               value={days}
               onChange={(e) => setDays(e.target.value)}
-              className="w-full rounded-xl border border-line bg-paper px-3 py-2.5"
+              className="w-full rounded-2xl border border-line bg-paper px-3 py-2.5"
               placeholder="e.g. 90"
             />
           </Field>
@@ -143,26 +143,26 @@ export default function LeakRateCalculator() {
 
       <div aria-live="polite" className="space-y-5">
         {error ? (
-          <div className="rounded-2xl border border-high/50 bg-high-soft p-6 text-high">{error}</div>
+          <div className="rounded-3xl border border-high/50 bg-high-soft p-6 text-high">{error}</div>
         ) : notApplicable ? (
-          <div className="rounded-2xl border border-line bg-panel p-6">
+          <div className="rounded-3xl border border-line bg-panel p-6">
             <h2 className="text-[1.375rem] font-bold">Not covered by § 82.157</h2>
             <p className="mt-2">{notApplicable.reason}</p>
             <RuleQuote source={notApplicable.source} />
           </div>
         ) : !ready ? (
-          <div className="rounded-2xl border border-dashed border-line p-6 text-muted">
+          <div className="rounded-3xl border border-dashed border-line p-6 text-muted">
             Enter the full charge, the refrigerant added
             {method === "annualizing" ? " and the days since the last addition" : ""} to see the leak rate.
           </div>
         ) : (
           <div
-            className={`rounded-2xl border p-6 ${over ? "border-high/50 bg-high-soft" : "border-low/40 bg-low-soft"}`}
+            className={`rounded-3xl border p-6 ${over ? "border-high/50 bg-high-soft" : "border-low/40 bg-low-soft"}`}
           >
             <p className="flex flex-wrap items-center gap-2 text-[0.9375rem]">
               Leak rate <Label kind="calc" />
             </p>
-            <p className="mt-1 font-[family-name:var(--font-display)] text-[3rem] font-bold leading-none [font-stretch:88%]">
+            <p className="mt-1 font-[family-name:var(--font-display)] text-[3rem] font-bold leading-none">
               {rate.toFixed(1)}%
             </p>
             <p className="mt-2 text-[0.9375rem] text-muted">
@@ -192,7 +192,7 @@ export default function LeakRateCalculator() {
             <RuleQuote source={SRC.rates} />
           </div>
         )}
-        <div className="rounded-2xl border border-line bg-panel p-6 text-[0.9375rem]">
+        <div className="rounded-3xl border border-line bg-panel p-6 text-[0.9375rem]">
           <h2 className="text-[1.125rem] font-bold">What the rule says about the calculation</h2>
           <RuleQuote source={SRC.leakRate} />
           <RuleQuote source={SRC.sameMethod} />

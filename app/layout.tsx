@@ -5,22 +5,18 @@ import SiteHeader from "@/components/SiteHeader";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
-// Self-hosted variable fonts (SIL Open Font License): no request to Google at build or run time.
-// Archivo for headings (set slightly narrow, like stamped equipment labels); Public Sans, the U.S. Web Design
-// System typeface, for body text, a nod to the official sources every answer cites.
-const archivo = localFont({
-  src: "./fonts/archivo-variable.woff2",
-  variable: "--font-archivo",
-  weight: "100 900",
+// Self-hosted variable fonts (SIL Open Font License 1.1): no request to Google at build or run time.
+// Space Grotesk for headings, Manrope for body text.
+const spaceGrotesk = localFont({
+  src: "./fonts/space-grotesk-variable.woff2",
+  variable: "--font-space-grotesk",
+  weight: "300 700",
   display: "swap",
 });
-const publicSans = localFont({
-  src: [
-    { path: "./fonts/public-sans-variable.woff2", style: "normal" },
-    { path: "./fonts/public-sans-variable-italic.woff2", style: "italic" },
-  ],
-  variable: "--font-public-sans",
-  weight: "100 900",
+const manrope = localFont({
+  src: "./fonts/manrope-variable.woff2",
+  variable: "--font-manrope",
+  weight: "200 800",
   display: "swap",
 });
 
@@ -41,14 +37,14 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f5f8fa" },
-    { media: "(prefers-color-scheme: dark)", color: "#0e1a26" },
+    { media: "(prefers-color-scheme: light)", color: "#f3f8fe" },
+    { media: "(prefers-color-scheme: dark)", color: "#0b1522" },
   ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-US" className={`${archivo.variable} ${publicSans.variable}`}>
+    <html lang="en-US" className={`${spaceGrotesk.variable} ${manrope.variable}`}>
       <body className="flex min-h-screen flex-col">
         <a href="#main" className="skip-link">
           Skip to content

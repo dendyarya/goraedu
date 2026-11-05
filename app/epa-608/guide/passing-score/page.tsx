@@ -136,7 +136,7 @@ export default function PassingScorePage() {
         <section className="mt-12">
           <h2 className="text-[1.75rem] font-bold">What the questions cover</h2>
           <div className="mt-4 grid gap-5 sm:grid-cols-2">
-            <div className="rounded-2xl border border-line bg-panel p-5">
+            <div className="rounded-3xl border border-line bg-panel p-5">
               <h3 className="text-[1.1875rem] font-bold">Group I (Core)</h3>
               <ul className="mt-3 list-disc space-y-1.5 pl-5">
                 <li>Environmental impact of CFCs, HCFCs and substitute refrigerants</li>
@@ -144,7 +144,7 @@ export default function PassingScorePage() {
                 <li>Changing industry outlook</li>
               </ul>
             </div>
-            <div className="rounded-2xl border border-line bg-panel p-5">
+            <div className="rounded-3xl border border-line bg-panel p-5">
               <h3 className="text-[1.1875rem] font-bold">Group II (Type I, II or III)</h3>
               <ul className="mt-3 list-disc space-y-1.5 pl-5">
                 <li>Leak detection</li>
@@ -173,7 +173,7 @@ export default function PassingScorePage() {
           </ul>
         </section>
 
-        <section className="mt-12 rounded-2xl border border-low/30 bg-low-soft/50 p-6">
+        <section className="mt-12 rounded-3xl border border-low/30 bg-low-soft/50 p-6">
           <h2 className="text-[1.375rem] font-bold">Practice before the test</h2>
           <p className="mt-2">
             Try our free{" "}

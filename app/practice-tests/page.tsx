@@ -47,7 +47,7 @@ export default function PracticeTestsPage() {
             <li key={`${s.cluster}/${s.slug}`}>
               <Link
                 href={s.href}
-                className="flex h-full flex-col rounded-2xl border border-line bg-panel p-6 hover:border-low"
+                className="flex h-full flex-col rounded-3xl border border-line bg-panel p-6 hover:border-low"
               >
                 <div className="flex items-center gap-3">
                   {cluster ? <IconTile name={cluster.family.icon} /> : null}

@@ -12,7 +12,7 @@ function fmt(iso: string) {
 /** Sources box shown at the end of every study page. */
 export default function SourceList({ sources, note }: { sources: Source[]; note?: React.ReactNode }) {
   return (
-    <section className="max-w-[68ch] rounded-2xl border border-line bg-panel p-6">
+    <section className="max-w-[68ch] rounded-3xl border border-line bg-panel p-6">
       <h2 className="text-[1.25rem] font-bold">Sources</h2>
       <ul className="mt-3 space-y-3 text-[0.9375rem]">
         {sources.map((s) => (

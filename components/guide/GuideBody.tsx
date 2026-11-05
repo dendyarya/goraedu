@@ -74,7 +74,7 @@ export default function GuideBody({
               </ul>
             ) : null}
             {t.notCovered ? (
-              <div className="mt-6 rounded-xl border border-hose/60 bg-hose-soft p-4 text-[0.9375rem]">
+              <div className="mt-6 rounded-2xl border border-hose/60 bg-hose-soft p-4 text-[0.9375rem]">
                 <p className="font-semibold text-hose-ink">Not covered here</p>
                 <p className="mt-1">
                   {t.notCovered} We only write what an official source states, so study these parts with your certifying

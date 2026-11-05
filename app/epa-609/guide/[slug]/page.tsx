@@ -54,7 +54,7 @@ export default async function TopicPage({ params }: Props) {
         </>
       }
     >
-      <div className="mb-12 max-w-[70ch] rounded-2xl border border-low/40 bg-low-soft p-6 lg:ml-[18rem]">
+      <div className="mb-12 max-w-[70ch] rounded-3xl border border-low/40 bg-low-soft p-6 lg:ml-[18rem]">
         <h2 className="text-[1.25rem] font-bold">The short answer</h2>
         <p className="mt-2 text-[1.0625rem]">{g.summary}</p>
         <p className="mt-2 text-[0.9375rem] text-muted">Each part of this answer is quoted from the rule below.</p>
@@ -65,7 +65,7 @@ export default async function TopicPage({ params }: Props) {
           tool ? (
             <Link
               href={tool.href}
-              className="mt-6 inline-block rounded-[10px] bg-low px-4 py-2.5 font-semibold text-white hover:brightness-110"
+              className="mt-6 inline-block rounded-full bg-low px-4 py-2.5 font-semibold text-white hover:brightness-110"
             >
               Open the {tool.name.replace("EPA 609 ", "")}
             </Link>
