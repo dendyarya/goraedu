@@ -7,6 +7,7 @@ import { ALL_CLUSTERS, FAMILIES, WITH_FAMILY } from "@/lib/clusters";
 import { getAllGuides, getAllTopicPages } from "@/lib/guides";
 import { getAllNews, newsCards } from "@/lib/news";
 import { getAllSets, SECTION_NAME, universalPool } from "@/lib/questions";
+import { OSHA_SETS } from "@/lib/osha";
 import { TOOLS } from "@/lib/tools";
 
 // Answer stated verbatim on the EPA page cited (accuracy principle 1).
@@ -41,7 +42,11 @@ const STEPS = [
 const H2 = "text-[2rem] sm:text-[2.75rem]";
 
 export default function Home() {
-  const sets = getAllSets();
+  // OSHA topic sets follow the course order (falls first); other clusters keep their file order.
+  const oshaRank = (slug: string) => OSHA_SETS.findIndex((x) => x.slug === slug);
+  const sets = [...getAllSets()].sort((a, b) =>
+    a.cluster === "osha" && b.cluster === "osha" ? oshaRank(a.slug) - oshaRank(b.slug) : 0,
+  );
   const guides = getAllGuides();
   const topicPages = getAllTopicPages();
   const latest = getAllNews().slice(0, 8);
@@ -52,7 +57,15 @@ export default function Home() {
   const universal = universalPool();
   const quick: QuickStartOption[] = live.map((c) => {
     const own = sets.filter((s) => s.cluster === c.id);
-    const tests = own.map((s) => ({ label: SECTION_NAME[s.slug] ?? "Practice test", href: s.href }));
+    const tests = own.map((s) => ({
+      label:
+        SECTION_NAME[s.slug] ??
+        s.title
+          .replace(/^OSHA construction /, "")
+          .replace(/ practice (questions|test)$/, "")
+          .replace(/^./, (x) => x.toUpperCase()),
+      href: s.href,
+    }));
     if (c.id === "epa-608" && universal.sections.length) tests.push({ label: "Universal exam", href: universal.href });
     return { cert: c.name, tests };
   });

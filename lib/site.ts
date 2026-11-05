@@ -6,7 +6,7 @@ export const SITE = {
   url: process.env.SITE_URL?.trim() || "https://www.goraedu.com",
   tagline: "Learn. Get Certified. Build Your Career.",
   description:
-    "Free practice questions and study guides for U.S. skilled trades certifications, starting with EPA Sections 608 and 609. Every answer links to the official source.",
+    "Free practice questions and study guides for U.S. skilled trades certifications, including EPA Sections 608 and 609 and OSHA construction safety. Every answer links to the official source.",
   indexable: production,
   /**
    * Google Tag Manager container (public, not a secret). It carries the Google Analytics 4 tag; what it may

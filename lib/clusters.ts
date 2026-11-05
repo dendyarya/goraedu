@@ -73,10 +73,11 @@ export const FAMILIES: Family[] = [
     clusters: [
       {
         id: "osha",
-        name: "OSHA 10 and OSHA 30",
-        summary: "Safety awareness courses for construction and general industry workers.",
-        source: "OSHA",
-        status: "next",
+        name: "OSHA construction safety",
+        summary: "The construction safety rules behind the OSHA 10 and 30 course topics.",
+        source: "OSHA, 29 CFR Part 1926",
+        status: "available",
+        href: "/osha/",
       },
     ],
   },
