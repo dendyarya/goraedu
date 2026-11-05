@@ -1,0 +1,14 @@
+# dependencies and builds
+node_modules/
+.next/
+out/
+.wrangler/
+*.tsbuildinfo
+
+# env and local files (never commit real values)
+.env
+.env.*
+!.env.example
+.dev.vars
+.DS_Store
+next-env.d.ts
