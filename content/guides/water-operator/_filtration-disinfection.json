@@ -48,7 +48,7 @@
         },
         {
           "text": "Treatment must reliably achieve at least 99.9 percent (3-log) removal and/or inactivation of Giardia lamblia cysts, between a point where the raw water is not subject to recontamination by surface water runoff and a point before or at the first customer.",
-          "quote": "At least 99.9 percent (3-log) removal and/or inactivation of Giardia lamblia cysts between a point where the raw water is not subject to recontamination by surface water runoff and a point downstream before or at the first customer",
+          "quote": "The treatment technique requirements consist of installing and properly operating water treatment processes which reliably achieve: (1) At least 99.9 percent (3-log) removal and/or inactivation of Giardia lamblia cysts between a point where the raw water is not subject to recontamination by surface water runoff and a point downstream before or at the first customer",
           "source": {
             "title": "eCFR: 40 CFR 141.70, General requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.70"
@@ -249,7 +249,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "In the distribution system, the residual (measured as total chlorine, combined chlorine or chlorine dioxide) cannot be undetectable in more than 5 percent of the samples each month, for any two consecutive months the system serves water.",
+          "text": "For filtered systems, the residual in the distribution system (measured as total chlorine, combined chlorine or chlorine dioxide) cannot be undetectable in more than 5 percent of the samples each month, for any two consecutive months the system serves water.",
           "quote": "The residual disinfectant concentration in the distribution system, measured as total chlorine, combined chlorine, or chlorine dioxide, as specified in § 141.74 (a)(2) and (c)(3), cannot be undetectable in more than 5 percent of the samples each month, for any two consecutive months that the system serves water to the public.",
           "source": {
             "title": "eCFR: 40 CFR 141.72, Disinfection (as of Nov 3, 2026)",
@@ -260,6 +260,15 @@
         {
           "text": "Distribution system water with a heterotrophic plate count (HPC) of 500/ml or less is deemed to have a detectable disinfectant residual for this requirement.",
           "quote": "Water in the distribution system with a heterotrophic bacteria concentration less than or equal to 500/ml, measured as heterotrophic plate count (HPC) as specified in § 141.74(a)(1), is deemed to have a detectable disinfectant residual for purposes of determining compliance with this requirement.",
+          "source": {
+            "title": "eCFR: 40 CFR 141.72, Disinfection (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.72"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "That distribution system residual requirement does not apply to a filtered system if the State determines, based on site-specific considerations, that the system has no means for having a sample transported and analyzed for HPC by a certified laboratory under the required time and temperature conditions, and that it is providing adequate disinfection in the distribution system.",
+          "quote": "If the State determines, based on site-specific considerations, that a system has no means for having a sample transported and analyzed for HPC by a certified laboratory under the requisite time and temperature conditions specified in § 141.74(a)(1) and that the system is providing adequate disinfection in the distribution system, the requirements of paragraph (b)(3)(i) of this section do not apply.",
           "source": {
             "title": "eCFR: 40 CFR 141.72, Disinfection (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.72"
@@ -337,8 +346,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Another filtration technology may be used if the system demonstrates to the State, using pilot plant studies or other means, that with disinfection it consistently achieves 99.9 percent Giardia and 99.99 percent virus removal and/or inactivation; the slow sand requirements of 141.73(b) then apply.",
-          "quote": "if it demonstrates to the State, using pilot plant studies or other means, that the alternative filtration technology, in combination with disinfection treatment that meets the requirements of § 141.72(b), consistently achieves 99.9 percent removal and/or inactivation of Giardia lamblia cysts and 99.99 percent removal and/or inactivation of viruses. For a system that makes this demonstration, the requirements of paragraph (b) of this section apply.",
+          "text": "A system may use a filtration technology not listed in 141.73(a) through (c) if it demonstrates to the State, using pilot plant studies or other means, that with disinfection meeting 141.72(b) it consistently achieves 99.9 percent Giardia and 99.99 percent virus removal and/or inactivation; the slow sand requirements of 141.73(b) then apply.",
+          "quote": "A public water system may use a filtration technology not listed in paragraphs (a) through (c) of this section if it demonstrates to the State, using pilot plant studies or other means, that the alternative filtration technology, in combination with disinfection treatment that meets the requirements of § 141.72(b), consistently achieves 99.9 percent removal and/or inactivation of Giardia lamblia cysts and 99.99 percent removal and/or inactivation of viruses. For a system that makes this demonstration, the requirements of paragraph (b) of this section apply.",
           "source": {
             "title": "eCFR: 40 CFR 141.73, Filtration (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.73"
@@ -362,7 +371,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Unfiltered systems sample source water for fecal or total coliforms weekly at a frequency set by system size; a coliform measurement is also required every day the system serves water and the source water turbidity exceeds 1 NTU (these count toward the weekly requirement), unless the State determines the system cannot, for logistical reasons outside its control, have the sample analyzed within 30 hours.",
+          "text": "An unfiltered system must make one fecal or total coliform density measurement every day it serves water and the source water turbidity exceeds 1 NTU (these samples count toward the weekly coliform sampling requirement), unless the State determines the system, for logistical reasons outside its control, cannot have the sample analyzed within 30 hours of collection.",
           "quote": "Also, one fecal or total coliform density measurement must be made every day the system serves water to the public and the turbidity of the source water exceeds 1 NTU (these samples count towards the weekly coliform sampling requirement) unless the State determines that the system, for logistical reasons outside the system's control, cannot have the sample analyzed within 30 hours of collection.",
           "source": {
             "title": "eCFR: 40 CFR 141.74, Analytical and monitoring requirements (as of Nov 3, 2026)",
@@ -371,7 +380,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Unfiltered systems must measure source water turbidity on grab samples every four hours (or more frequently); continuous monitoring may be substituted if validated for accuracy under a State-approved protocol.",
+          "text": "Unfiltered systems must measure source water turbidity on representative grab samples immediately before the first or only point of disinfectant application every four hours (or more frequently) that they serve water; continuous monitoring may be substituted if validated for accuracy on a regular basis under a State-approved protocol.",
           "quote": "must be performed on representative grab samples of source water immediately prior to the first or only point of disinfectant application every four hours (or more frequently) that the system serves water to the public. A public water system may substitute continuous turbidity monitoring for grab sample monitoring if it validates the continuous measurement for accuracy on a regular basis using a protocol approved by the State.",
           "source": {
             "title": "eCFR: 40 CFR 141.74, Analytical and monitoring requirements (as of Nov 3, 2026)",
@@ -380,7 +389,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "For the daily CT determination, the disinfectant contact time (T) and the residual concentration (C) before or at the first customer are determined each day during peak hourly flow.",
+          "text": "For an unfiltered system's daily inactivation determination, the disinfectant contact time (T) is determined each day during peak hourly flow, and the residual concentration (C) before or at the first customer is measured each day during peak hourly flow.",
           "quote": "(iii) The disinfectant contact time(s) (“T”) must be determined for each day during peak hourly flow. (iv) The residual disinfectant concentration(s) (“C”) of the water before or at the first customer must be measured each day during peak hourly flow.",
           "source": {
             "title": "eCFR: 40 CFR 141.74, Analytical and monitoring requirements (as of Nov 3, 2026)",
@@ -389,8 +398,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The residual entering the distribution system must be monitored continuously with the lowest value recorded each day; if the equipment fails, grab samples every 4 hours may be used for no more than 5 working days.",
-          "quote": "The residual disinfectant concentration of the water entering the distribution system must be monitored continuously, and the lowest value must be recorded each day, except that if there is a failure in the continuous monitoring equipment, grab sampling every 4 hours may be conducted in lieu of continuous monitoring, but for no more than 5 working days following the failure of the equipment",
+          "text": "The residual entering the distribution system must be monitored continuously with the lowest value recorded each day; if the equipment fails, grab samples every 4 hours may be used for no more than 5 working days. Systems serving 3,300 or fewer persons may take grab samples instead of continuous monitoring on an ongoing basis, at daily frequencies set by population.",
+          "quote": "The residual disinfectant concentration of the water entering the distribution system must be monitored continuously, and the lowest value must be recorded each day, except that if there is a failure in the continuous monitoring equipment, grab sampling every 4 hours may be conducted in lieu of continuous monitoring, but for no more than 5 working days following the failure of the equipment, and systems serving 3,300 or fewer persons may take grab samples in lieu of providing continuous monitoring on an ongoing basis at the frequencies each day prescribed below",
           "source": {
             "title": "eCFR: 40 CFR 141.74, Analytical and monitoring requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.74"
@@ -398,7 +407,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Systems serving 3,300 or fewer persons may take grab samples instead of continuous monitoring, at a daily frequency set by population. If the residual falls below 0.2 mg/l in a system using grab sampling, it must take a grab sample every 4 hours until it is back at 0.2 mg/l or more.",
+          "text": "If the residual falls below 0.2 mg/l at any time in a system using grab sampling instead of continuous monitoring, the system must take a grab sample every 4 hours until the residual is back at 0.2 mg/l or more.",
           "quote": "If at any time the residual disinfectant concentration falls below 0.2 mg/l in a system using grab sampling in lieu of continuous monitoring, the system must take a grab sample every 4 hours until the residual disinfectant concentration is equal to or greater than 0.2 mg/l.",
           "source": {
             "title": "eCFR: 40 CFR 141.74, Analytical and monitoring requirements (as of Nov 3, 2026)",
@@ -425,7 +434,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The approved analytical method tables and the CT99.9 tables (1.1 to 3.1) in 141.74 are not reproduced here; use the regulation text itself for those values."
+      "notCovered": "The approved analytical method tables, the CT99.9 tables (1.1 to 3.1), and the population-based tables for weekly source water coliform samples (141.74(b)(1)) and daily residual grab samples (141.74(b)(5) and (c)(2)) are not reproduced here; use the regulation text itself for those values."
     },
     {
       "id": "reporting",
