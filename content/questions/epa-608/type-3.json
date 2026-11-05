@@ -1,0 +1,459 @@
+{
+  "cluster": "epa-608",
+  "slug": "type-3",
+  "title": "EPA 608 Type III practice test",
+  "description": "Free EPA Section 608 Type III (low-pressure appliances) practice questions. Every answer is explained and linked to the section of 40 CFR Part 82 it comes from.",
+  "href": "/epa-608/type-3/practice-test/",
+  "questions": [
+    {
+      "id": "t3-001",
+      "topic": "Low-pressure basics",
+      "question": "Under the federal definition, what makes an appliance a low-pressure appliance?",
+      "options": {
+        "A": "It uses a refrigerant with a liquid phase saturation pressure below 45 psia at 104 °F",
+        "B": "It uses a refrigerant with a liquid phase saturation pressure between 45 psia and 170 psia at 104 °F",
+        "C": "It uses a refrigerant with a liquid phase saturation pressure between 170 psia and 355 psia at 104 °F",
+        "D": "It uses a refrigerant with a liquid phase saturation pressure below 45 psia at 70 °F"
+      },
+      "answer": "A",
+      "explanation": "The definition says a low-pressure appliance uses a refrigerant with a liquid phase saturation pressure \"below 45 psia at 104 °F.\" The 45 to 170 psia range defines a medium-pressure appliance, and 170 to 355 psia defines a high-pressure appliance. The reference temperature is 104 °F, not 70 °F.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-002",
+      "topic": "Low-pressure basics",
+      "question": "Which refrigerant does the federal definition list as an example used in low-pressure appliances?",
+      "options": {
+        "A": "R-22",
+        "B": "R-134a",
+        "C": "R-123",
+        "D": "R-410A"
+      },
+      "answer": "C",
+      "explanation": "The low-pressure appliance definition gives examples including \"R-11, R-123, R-113, and R-245fa.\" The same section lists R-134a as a medium-pressure example and R-22 and R-410A as high-pressure examples.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-003",
+      "topic": "Low-pressure basics",
+      "question": "Persons who maintain, service, repair, or dispose of low-pressure appliances must hold which technician certification type?",
+      "options": {
+        "A": "Type I",
+        "B": "Type III",
+        "C": "Type II",
+        "D": "Certification under 40 CFR part 82, subpart B (MVAC)"
+      },
+      "answer": "B",
+      "explanation": "The rule states that persons working on low-pressure appliances \"must be certified as Type III technicians.\" Type I covers small appliances, Type II covers medium-, high-, and very high-pressure appliances, and subpart B certification is for motor vehicle air conditioners.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-004",
+      "topic": "Evacuation",
+      "question": "Before opening or disposing of a low-pressure appliance, to what level must the refrigerant be evacuated under Table 1?",
+      "options": {
+        "A": "0 psig",
+        "B": "10 inches of mercury vacuum",
+        "C": "15 inches of mercury vacuum",
+        "D": "25 mm Hg absolute"
+      },
+      "answer": "D",
+      "explanation": "Table 1 of the evacuation rule lists the required level for a low-pressure appliance as 25 mm Hg absolute. The 10- and 15-inch vacuum levels apply to certain high- and medium-pressure appliances, and 0 is listed for very high-pressure and smaller high-pressure appliances.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-005",
+      "topic": "Verification and records",
+      "question": "For an appliance with a full charge of 50 or more pounds of a class I or class II refrigerant, how long must the records required by the leak repair rule be kept, unless otherwise specified?",
+      "options": {
+        "A": "At least three years",
+        "B": "At least one year",
+        "C": "At least five years",
+        "D": "Until the next leak inspection"
+      },
+      "answer": "A",
+      "explanation": "The recordkeeping paragraph says all records it identifies \"must be kept for at least three years in electronic or paper format, unless otherwise specified.\" One year, five years, or the next inspection are not the stated period.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-006",
+      "topic": "Pressurizing for repairs",
+      "question": "A low-pressure appliance needs a repair that is not major, and it will not be evacuated to the atmosphere afterward. What must be done before it is opened?",
+      "options": {
+        "A": "Pressurize it to no higher than 10 psig",
+        "B": "Pressurize it to no higher than 5 psig",
+        "C": "Pressurize it to no higher than 0 psig",
+        "D": "Evacuate it to 10 inches of mercury vacuum"
+      },
+      "answer": "C",
+      "explanation": "For non-major repairs, a low-pressure appliance must \"be pressurized to a pressure no higher than 0 psig before it is opened.\" The 5 psig limit applies only to oil changes, and 10 psig is not an allowed level.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-007",
+      "topic": "Pressurizing for repairs",
+      "question": "A low-pressure appliance uses a refrigerant that boils at or below 85 °F at 29.9 inches of mercury. When pressurizing it for a non-major repair, what does the rule prohibit?",
+      "options": {
+        "A": "Using heat to raise the internal pressure",
+        "B": "Using methods such as nitrogen that require subsequent purging",
+        "C": "Covering openings when isolation is not possible",
+        "D": "Raising the internal pressure to 0 psig"
+      },
+      "answer": "B",
+      "explanation": "For these refrigerants, persons \"must not use methods such as nitrogen that require subsequent purging.\" The rule does not forbid heat, it requires covering openings when isolation is not possible, and 0 psig is the required pressure limit, not a prohibited one.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-008",
+      "topic": "Pressurizing for repairs",
+      "question": "A low-pressure appliance uses a refrigerant that boils above 85 °F at 29.9 inches of mercury. How must it be pressurized for a non-major repair?",
+      "options": {
+        "A": "With nitrogen only, up to 5 psig",
+        "B": "With nitrogen alone, without using heat",
+        "C": "It may not be pressurized; it must be evacuated to 25 mm Hg absolute",
+        "D": "With heat as much as possible, then nitrogen only up to atmospheric pressure"
+      },
+      "answer": "D",
+      "explanation": "The rule says persons \"must use heat to raise the internal pressure of the appliance as much as possible.\" Nitrogen may then be used only to raise the pressure from the level reached with heat to atmospheric pressure, so nitrogen alone or nitrogen to 5 psig is not allowed.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-009",
+      "topic": "Pressurizing for repairs",
+      "question": "While pressurizing a low-pressure appliance for a non-major repair, a technician finds that the part cannot be isolated. What does the rule require?",
+      "options": {
+        "A": "Cover openings",
+        "B": "Add nitrogen to 5 psig",
+        "C": "Notify EPA within 30 days",
+        "D": "Replace the system receiver"
+      },
+      "answer": "A",
+      "explanation": "In the paragraph on pressurizing low-pressure appliances, the rule states: \"Persons must cover openings when isolation is not possible.\" Nothing in that paragraph calls for adding nitrogen to 5 psig, notifying EPA, or replacing a receiver.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-010",
+      "topic": "Pressurizing for repairs",
+      "question": "For an oil change on an appliance that will not be evacuated to the atmosphere afterward, what is the highest pressure allowed before it is opened?",
+      "options": {
+        "A": "0 psig",
+        "B": "10 psig",
+        "C": "5 psig",
+        "D": "25 mm Hg absolute"
+      },
+      "answer": "C",
+      "explanation": "For oil changes, the appliance must \"be evacuated or pressurized to a pressure no higher than 5 psig\" before it is opened. The oil may instead be drained into a system receiver that is brought to no higher than 5 psig. The 0 psig limit is for other non-major repairs.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-011",
+      "topic": "Evacuation",
+      "question": "Which of these jobs counts as major maintenance, service, or repair under the federal definition?",
+      "options": {
+        "A": "Connecting hoses and gauges to measure pressures",
+        "B": "Removing the evaporator",
+        "C": "Uncovering an opening of 3 square inches of flow area for 30 minutes",
+        "D": "Uncovering an opening of 6 square inches of flow area for 10 minutes"
+      },
+      "answer": "B",
+      "explanation": "Major repair includes removing the \"compressor, condenser, evaporator, or auxiliary heat exchange coil.\" An uncovered opening counts only if it is more than 4 square inches of flow area for more than 15 minutes, so options C and D each miss one condition.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-012",
+      "topic": "Evacuation",
+      "question": "Leaks make the Table 1 evacuation level unattainable for a component that must be opened. What is the highest pressure the leaking component may be left at?",
+      "options": {
+        "A": "5 psig",
+        "B": "25 mm Hg absolute, with no exceptions",
+        "C": "10 psig",
+        "D": "0 psig"
+      },
+      "answer": "D",
+      "explanation": "Leaking components must be evacuated to the lowest level attainable without substantially contaminating the refrigerant, and \"This level may not exceed 0 psig.\" Non-leaking components must still reach the Table 1 levels.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-013",
+      "topic": "Evacuation",
+      "question": "Under the evacuation rule, who must verify that the required evacuation level has been reached, and when?",
+      "options": {
+        "A": "The technician, before the appliance or part is opened",
+        "B": "The owner, within 30 days after the repair",
+        "C": "EPA, during an inspection",
+        "D": "The recovery equipment manufacturer, when the machine is certified"
+      },
+      "answer": "A",
+      "explanation": "The rule says \"A technician must verify that the applicable level of evacuation has been reached\" in the appliance or part before it is opened. The duty falls on the technician at the time of the job, not on the owner, EPA, or the equipment maker.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-014",
+      "topic": "Low-pressure basics",
+      "question": "Which activity is NOT considered \"opening an appliance\" under the federal definition?",
+      "options": {
+        "A": "Removing the compressor",
+        "B": "Disposing of an appliance in a way that would release refrigerant",
+        "C": "Connecting hoses and gauges to recover refrigerant",
+        "D": "A repair that would release refrigerant to the atmosphere"
+      },
+      "answer": "C",
+      "explanation": "Opening an appliance means work that would release refrigerant to the atmosphere. The definition states that connecting and disconnecting hoses and gauges to measure pressures, add refrigerant, or recover refrigerant \"are not considered\" opening an appliance.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-015",
+      "topic": "Leak repair",
+      "question": "A low-pressure chiller used for comfort cooling has a full charge of 50 or more pounds of a class I or class II refrigerant. Above what leak rate must the owner repair it (or retrofit or retire it)?",
+      "options": {
+        "A": "20 percent",
+        "B": "10 percent",
+        "C": "30 percent",
+        "D": "35 percent"
+      },
+      "answer": "B",
+      "explanation": "The leak repair rule sets a \"10 percent leak rate for comfort cooling appliances\" with a full charge of 50 or more pounds. The 20 percent rate is for commercial refrigeration and 30 percent is for industrial process refrigeration.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-016",
+      "topic": "Leak repair",
+      "question": "A low-pressure appliance used for industrial process refrigeration has a full charge of 50 or more pounds of a class I or class II refrigerant. What leak rate triggers the repair requirement?",
+      "options": {
+        "A": "10 percent",
+        "B": "20 percent",
+        "C": "35 percent",
+        "D": "30 percent"
+      },
+      "answer": "D",
+      "explanation": "The rule sets a \"30 percent leak rate for industrial process refrigeration equipment.\" The 10 percent rate is for comfort cooling and other appliances, and 20 percent is for commercial refrigeration.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-017",
+      "topic": "Leak repair",
+      "question": "As of April 10, 2020, which of these low-pressure chillers is covered by the federal leak repair rule in 40 CFR 82.157?",
+      "options": {
+        "A": "A chiller with a full charge of 60 pounds of a class II refrigerant",
+        "B": "A chiller with a full charge of 40 pounds of a class II refrigerant",
+        "C": "A chiller with a full charge of 300 pounds of a substitute refrigerant only",
+        "D": "A chiller with a full charge of 45 pounds of a class I refrigerant"
+      },
+      "answer": "A",
+      "explanation": "Since April 10, 2020, the section applies only to appliances with \"a full charge of 50 or more pounds\" of a class I or class II refrigerant or a blend containing one. It does not apply to appliances containing solely substitute refrigerants, and the 40- and 45-pound chillers are under 50 pounds.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-018",
+      "topic": "Leak repair",
+      "question": "A comfort cooling chiller with a full charge of 50 or more pounds of a class I or class II refrigerant is found leaking above the applicable rate when refrigerant is added. No industrial process shutdown is involved. How long does the owner have to identify and repair the leaks?",
+      "options": {
+        "A": "10 days",
+        "B": "120 days",
+        "C": "30 days",
+        "D": "180 days"
+      },
+      "answer": "C",
+      "explanation": "Leaks must be identified and repaired \"within 30 days (or 120 days if an industrial process shutdown is required)\" of the refrigerant addition. Because no shutdown is involved, the 120-day period does not apply.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-019",
+      "topic": "Verification and records",
+      "question": "On an appliance covered by the leak repair rule (full charge of 50 or more pounds of a class I or class II refrigerant), a repair passed its initial verification test without the appliance being evacuated. When must the follow-up verification test be done?",
+      "options": {
+        "A": "Within 30 days of the initial test",
+        "B": "Within one year of the repair",
+        "C": "Within 60 days of the initial test",
+        "D": "Within 10 days of the successful initial test"
+      },
+      "answer": "D",
+      "explanation": "A follow-up verification test must be performed \"within 10 days of the successful initial verification test.\" If the appliance was evacuated, the 10 days instead run from when it reaches normal operating characteristics and conditions.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-020",
+      "topic": "Verification and records",
+      "question": "On an appliance covered by the leak repair rule (full charge of 50 or more pounds of a class I or class II refrigerant), a leak repair required evacuating part of the appliance. When must the initial verification test be performed?",
+      "options": {
+        "A": "Before adding any refrigerant to the appliance",
+        "B": "Only after the appliance returns to normal operating conditions",
+        "C": "Within 10 days after the appliance is recharged",
+        "D": "One year after the repair"
+      },
+      "answer": "A",
+      "explanation": "For repairs that require evacuation, \"the test must be performed before adding any refrigerant to the appliance.\" Testing after the appliance returns to normal operation is the follow-up verification test, not the initial one.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-021",
+      "topic": "Leak repair",
+      "question": "A comfort cooling chiller with a full charge of 50 or more pounds of a class I or class II refrigerant has exceeded its applicable leak rate. How often must leak inspections be conducted on it, unless an automatic leak detection system is used?",
+      "options": {
+        "A": "Once every three months",
+        "B": "Once every five years",
+        "C": "Once per calendar year",
+        "D": "Once per month"
+      },
+      "answer": "C",
+      "explanation": "For comfort cooling appliances, leak inspections \"must be conducted once per calendar year\" until the owner shows the appliance has not leaked above the applicable rate for one year. Inspections every three months apply to commercial and industrial process refrigeration appliances of 500 pounds or more.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-022",
+      "topic": "Leak repair",
+      "question": "The owner of a chiller with a full charge of 50 or more pounds of a class I or class II refrigerant chooses to retire it instead of repairing leaks. What is the longest schedule the retrofit or retirement plan may set for completing the work?",
+      "options": {
+        "A": "Six months",
+        "B": "One year",
+        "C": "Three years",
+        "D": "Two years"
+      },
+      "answer": "B",
+      "explanation": "A retrofit or retirement plan must include \"A schedule, not to exceed one-year\" for completing the work. More time is possible only through the specific extensions the rule describes, not as a default plan schedule.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-023",
+      "topic": "Leak repair",
+      "question": "An appliance with a full charge of 50 or more pounds of a class I or class II refrigerant must be reported to EPA as chronically leaking if it leaks what share of its full charge in a calendar year?",
+      "options": {
+        "A": "35 percent or more",
+        "B": "50 percent or more",
+        "C": "100 percent or more",
+        "D": "125 percent or more"
+      },
+      "answer": "D",
+      "explanation": "Owners of appliances that \"leak 125 percent or more of the full charge in a calendar year\" must report to EPA. The report is due by March 1 of the following year and must describe efforts to find and repair the leaks.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-024",
+      "topic": "Purge units",
+      "question": "For an appliance with a full charge of 50 or more pounds of a class I or class II refrigerant, purged refrigerant is left out of the annual leak rate only if it is destroyed at what verifiable destruction efficiency?",
+      "options": {
+        "A": "98 percent or greater",
+        "B": "90 percent or greater",
+        "C": "80 percent or greater",
+        "D": "75 percent or greater"
+      },
+      "answer": "A",
+      "explanation": "Purged refrigerant \"destroyed at a verifiable destruction efficiency of 98 percent or greater\" is not counted toward the leak rate. Owners who use this exclusion must also keep monitoring records and notify EPA within 60 days of first using it.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "t3-025",
+      "topic": "Purge units",
+      "question": "If certified recovery or recycling equipment has a noncondensables purge device, what is the most refrigerant it may release through purging, under the test conditions in the appendices?",
+      "options": {
+        "A": "1 percent of the refrigerant being recycled",
+        "B": "3 percent of the refrigerant being recycled",
+        "C": "5 percent of the refrigerant being recycled",
+        "D": "10 percent of the refrigerant being recycled"
+      },
+      "answer": "B",
+      "explanation": "The equipment standard says such equipment \"must not release more than 3 percent\" of the refrigerant being recycled through noncondensables purging. This is measured under the conditions of the applicable test appendix (B1, B2, B3, or B4).",
+      "source": {
+        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+      },
+      "checked": "2026-11-05"
+    }
+  ]
+}

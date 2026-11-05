@@ -4,7 +4,7 @@ import PageShell from "@/components/PageShell";
 import SourceList, { type Source } from "@/components/SourceList";
 import TradeIcon from "@/components/TradeIcon";
 import { formatDate } from "@/lib/news";
-import { getSet } from "@/lib/questions";
+import { getAllSets, SECTION_NAME } from "@/lib/questions";
 
 export const metadata: Metadata = {
   title: "EPA 608 Certification: Types, Requirements and Free Practice Tests",
@@ -32,6 +32,11 @@ const SOURCES: Source[] = [
     checked: CHECKED,
   },
   {
+    title: "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
+    url: "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F",
+    checked: CHECKED,
+  },
+  {
     title: "EPA: Section 608 Technician Certification Test Topics",
     url: "https://www.epa.gov/section608/test-topics",
     checked: CHECKED,
@@ -52,20 +57,18 @@ const FACTS = [
   "Section 608 technician certification credentials do not expire.",
   "EPA does not give the tests or issue cards. EPA-approved certifying organizations do, and they have up to 30 days after the test to issue results.",
   "Universal certification requires passing the examinations at all levels.",
+  "The passing score for the closed-book Type I, Type II, Type III and Universal tests is 70 percent (84 percent for mail-in Type I tests).",
   "Keep a copy of your certification at your place of business until three years after you stop working as a technician. EPA does not require you to carry the card while servicing.",
   "A small appliance is one fully manufactured, charged and hermetically sealed in a factory with five pounds or less of refrigerant.",
   "If you lose your card, contact the organization that certified you. Its name is on the card.",
 ];
 
 export default function Epa608Page() {
-  const core = getSet("epa-608", "core");
-  const tests = [
-    { name: "Core", href: core.href, count: core.questions.length },
-    { name: "Type I" },
-    { name: "Type II" },
-    { name: "Type III" },
-    { name: "Universal" },
-  ];
+  const sets = getAllSets().filter((x) => x.cluster === "epa-608");
+  const tests = ["core", "type-1", "type-2", "type-3", "universal"].map((slug) => {
+    const set = sets.find((x) => x.slug === slug);
+    return { name: SECTION_NAME[slug] ?? slug, href: set?.href, count: set?.questions.length };
+  });
 
   return (
     <PageShell
@@ -191,6 +194,11 @@ export default function Epa608Page() {
                 </li>
               ))}
             </ul>
+            <p className="mt-4 text-[0.9375rem]">
+              <Link href="/epa-608/guide/passing-score/" className="text-low underline">
+                Exam format and passing score
+              </Link>
+            </p>
           </div>
         </aside>
       </div>

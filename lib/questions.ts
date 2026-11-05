@@ -70,7 +70,8 @@ export function getAllSets(): QuestionSet[] {
     for (const cluster of fs.readdirSync(ROOT)) {
       const dir = path.join(ROOT, cluster);
       if (!fs.statSync(dir).isDirectory()) continue;
-      for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json"))) {
+      // files starting with "_" are drafts and never published
+      for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json") && !x.startsWith("_"))) {
         const rel = `${cluster}/${f}`;
         sets.push(validate(rel, JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"))));
       }
@@ -93,6 +94,15 @@ export function lastChecked(set: QuestionSet): string {
     .sort()
     .at(-1)!;
 }
+
+/** Display name of an EPA 608 section slug. */
+export const SECTION_NAME: Record<string, string> = {
+  core: "Core",
+  "type-1": "Type I",
+  "type-2": "Type II",
+  "type-3": "Type III",
+  universal: "Universal",
+};
 
 /** Distinct topics in the order they first appear. */
 export function topicsOf(set: QuestionSet): string[] {
