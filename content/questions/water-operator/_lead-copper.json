@@ -1,0 +1,389 @@
+{
+  "cluster": "water-operator",
+  "slug": "lead-copper",
+  "title": "Drinking water lead and copper practice questions",
+  "description": "Free practice questions on the 2024-revised Lead and Copper Rule (40 CFR 141 Subpart I, compliance by Nov 1, 2027), each linked to its section.",
+  "href": "/water-operator/lead-copper/practice-test/",
+  "questions": [
+    {
+      "id": "lc-001",
+      "topic": "Applicability, effective and compliance dates",
+      "question": "Under the 2024-revised Subpart I, what date does 141.80(a)(3) set as the deadline for community and non-transient non-community water systems to comply with the subpart, apart from the stated exceptions and exemptions?",
+      "options": {
+        "A": "December 30, 2024",
+        "B": "October 16, 2024",
+        "C": "November 1, 2027",
+        "D": "January 1, 2030"
+      },
+      "answer": "C",
+      "explanation": "Systems \"must comply with the requirements of this subpart no later than November 1, 2027\", except where 141.81, 141.84, 141.85, 141.86 and 141.90 say otherwise or an exemption has been issued. December 30, 2024 is the effective date.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.80, General requirements and action level (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.80"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must comply with the requirements of this subpart no later than November 1, 2027"
+    },
+    {
+      "id": "lc-002",
+      "topic": "Applicability, effective and compliance dates",
+      "question": "Under 141.80(a)(4)(i) of the 2024-revised Subpart I, which text of 141.80 through 141.91 must community and non-transient non-community systems comply with between October 30, 2024, and November 1, 2027?",
+      "options": {
+        "A": "The text as codified on July 1, 2020, plus specific newer provisions that the paragraph lists",
+        "B": "The full 2024-revised text, with no earlier version applying",
+        "C": "Only the text as first published in 1991",
+        "D": "No lead and copper requirements apply during that period"
+      },
+      "answer": "A",
+      "explanation": "In that period systems \"must comply with 40 CFR 141.2, 141.31(d), and 141.80 through 141.91, as codified on July 1, 2020, except systems must also comply with\" a list of newer provisions, such as 141.84(a)(1) through (10).",
+      "source": {
+        "title": "eCFR: 40 CFR 141.80, General requirements and action level (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.80"
+      },
+      "checked": "2026-11-06",
+      "evidence": "as codified on July 1, 2020, except systems must also comply with 40 CFR 141.84(a)(1) through (10)"
+    },
+    {
+      "id": "lc-003",
+      "topic": "Applicability, effective and compliance dates",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), which public water systems does 141.80(a)(1) make subject to the subpart?",
+      "options": {
+        "A": "Every public water system, including transient non-community water systems",
+        "B": "Only community water systems serving more than 10,000 people",
+        "C": "Only systems using surface water or ground water under the direct influence of surface water",
+        "D": "Community water systems and non-transient, non-community water systems"
+      },
+      "answer": "D",
+      "explanation": "\"The provisions of this subpart apply to community water systems and non-transient, non-community water systems\" as defined at 141.2.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.80, General requirements and action level (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.80"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The provisions of this subpart apply to community water systems and non-transient, non-community water systems"
+    },
+    {
+      "id": "lc-004",
+      "topic": "Action levels and the 90th percentile",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), what 90th percentile lead concentration does 141.80(c)(1) set as the level that must be exceeded for a lead action level exceedance?",
+      "options": {
+        "A": "0.005 mg/L",
+        "B": "0.010 mg/L",
+        "C": "1.3 mg/L",
+        "D": "0.10 mg/L"
+      },
+      "answer": "B",
+      "explanation": "\"The lead action level is exceeded if the 90th percentile concentration of lead as specified in paragraph (c)(3) of this section is greater than 0.010 mg/L.\" The 0.005 mg/L figure is the lead practical quantitation limit, and 1.3 mg/L is the copper action level.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.80, General requirements and action level (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.80"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The lead action level is exceeded if the 90th percentile concentration of lead as specified in paragraph (c)(3) of this section is greater than 0.010 mg/L."
+    },
+    {
+      "id": "lc-005",
+      "topic": "Action levels and the 90th percentile",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), a system with only Tier 3, 4 and 5 sites takes 20 samples in a tap sampling period and numbers them from 1 (lowest) to 20 (highest). Under 141.80(c)(3)(i), which numbered sample gives the 90th percentile concentration?",
+      "options": {
+        "A": "Sample number 2",
+        "B": "Sample number 20",
+        "C": "Sample number 10",
+        "D": "Sample number 18"
+      },
+      "answer": "D",
+      "explanation": "\"The number of samples taken during the tap sampling period must be multiplied by 0.9.\" The 90th percentile is \"the concentration of lead or copper in the numbered sample yielded after multiplying the number of samples by 0.9\", here 20 x 0.9 = 18.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.80, General requirements and action level (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.80"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The number of samples taken during the tap sampling period must be multiplied by 0.9."
+    },
+    {
+      "id": "lc-006",
+      "topic": "Action levels and the 90th percentile",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), how does 141.80(c)(3)(i)(D) set the 90th percentile concentration for a system with only Tier 3, 4 and 5 sites that collects five samples per tap sampling period?",
+      "options": {
+        "A": "The average of the highest and second highest results",
+        "B": "The average of all five results",
+        "C": "The third (middle) result",
+        "D": "The lowest of the five results"
+      },
+      "answer": "A",
+      "explanation": "\"For water systems that collect five samples per tap sampling period, the 90th percentile concentration is the average of the highest and second highest concentration\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.80, General requirements and action level (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.80"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the 90th percentile concentration is the average of the highest and second highest concentration"
+    },
+    {
+      "id": "lc-007",
+      "topic": "Action levels and the 90th percentile",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), for a Tier 1 or 2 site where tiering is based on a lead service line, which lead result does 141.80(c)(3)(ii)(A) put into the 90th percentile calculation?",
+      "options": {
+        "A": "Only the first-liter result",
+        "B": "The average of the first-liter and fifth-liter results",
+        "C": "The higher of the first-liter and fifth-liter results",
+        "D": "Only the fifth-liter result"
+      },
+      "answer": "C",
+      "explanation": "\"For lead, water systems must include the higher of the first-liter and fifth-liter lead sample results at each Tier 1 and 2 site\". Only first-liter results are used where \"tiering is based on premise plumbing\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.80, General requirements and action level (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.80"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the higher of the first-liter and fifth-liter lead sample results at each Tier 1 and 2 site"
+    },
+    {
+      "id": "lc-008",
+      "topic": "Corrosion control treatment",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), a large water system (serving more than 50,000 people) without corrosion control treatment has a 90th percentile lead result above 0.005 mg/L but not above the lead action level. What does 141.81(a)(1)(v) require?",
+      "options": {
+        "A": "Nothing, because the lead action level was not exceeded",
+        "B": "Complete steps to study and install OCCT as specified in 141.81(e)",
+        "C": "Deliver public education materials only",
+        "D": "Replace every service line within 180 days"
+      },
+      "answer": "B",
+      "explanation": "Large systems without corrosion control treatment whose 90th percentile results \"exceed either the lead practical quantitation limit of 0.005 mg/L or the copper action level must complete steps to study and install OCCT, as specified in paragraph (e) of this section.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.81, Applicability of corrosion control treatment steps to small, medium, and large water systems (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.81"
+      },
+      "checked": "2026-11-06",
+      "evidence": "exceed either the lead practical quantitation limit of 0.005 mg/L or the copper action level must complete steps to study and install OCCT"
+    },
+    {
+      "id": "lc-009",
+      "topic": "Corrosion control treatment",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), an individual tap sample site in the site sample plan has a lead result above 0.010 mg/L. What deadline does 141.82(j)(2) set for collecting and analyzing a follow-up lead sample at that site?",
+      "options": {
+        "A": "Within 30 days of receiving the tap sampling results",
+        "B": "Within six months after the end of the tap sampling period",
+        "C": "Within 12 months of receiving State notification",
+        "D": "By the next standard tap monitoring period"
+      },
+      "answer": "A",
+      "explanation": "\"Within 30 days of receiving the tap sampling results, water systems must collect and analyze a follow-up sample for lead at any tap sample site that exceeds 0.010 mg/L.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.82, Description of corrosion control treatment requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.82"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Within 30 days of receiving the tap sampling results, water systems must collect and analyze a follow-up sample for lead at any tap sample site that exceeds 0.010 mg/L."
+    },
+    {
+      "id": "lc-010",
+      "topic": "Service line inventory and replacement",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), what deadline does 141.84(d)(4) set for replacing all lead and galvanized requiring replacement service lines under the system's control, when no shortened or deferred deadline applies?",
+      "options": {
+        "A": "5 program years after October 16, 2024",
+        "B": "20 calendar years after December 30, 2024",
+        "C": "15 program years after the compliance date",
+        "D": "10 program years after the compliance date in 141.80(a)(3)"
+      },
+      "answer": "D",
+      "explanation": "The deadline \"is no later than 10 program years after the compliance date specified in § 141.80(a)(3) unless the system is subject to a different deadline under paragraphs (d)(5)(v) and (vi) of this section.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.84, Service line inventory and replacement requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.84"
+      },
+      "checked": "2026-11-06",
+      "evidence": "is no later than 10 program years after the compliance date specified in § 141.80(a)(3)"
+    },
+    {
+      "id": "lc-011",
+      "topic": "Service line inventory and replacement",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), where full replacement needs property owner consent, what must a reasonable effort to obtain that consent include under 141.84(d)(3)(i)?",
+      "options": {
+        "A": "One certified letter to the property owner",
+        "B": "At least four attempts, all made by written letter",
+        "C": "At least four attempts using at least two different methods of communication",
+        "D": "Two attempts using two different methods of communication"
+      },
+      "answer": "C",
+      "explanation": "A reasonable effort \"must include at least four attempts to engage the property owner using at least two different methods of communication\", and \"The State may require systems to conduct additional attempts\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.84, Service line inventory and replacement requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.84"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must include at least four attempts to engage the property owner using at least two different methods of communication"
+    },
+    {
+      "id": "lc-012",
+      "topic": "Service line inventory and replacement",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), a customer tells the system they intend to replace their portion of a lead service line. What deadline does 141.84(f)(1)(i) set for the system to replace the remaining portion?",
+      "options": {
+        "A": "No later than 7 days from the customer's replacement",
+        "B": "No later than 45 days from the date the customer conducted the partial replacement",
+        "C": "No later than 120 days from the customer's notice",
+        "D": "No later than two years from the customer's replacement"
+      },
+      "answer": "B",
+      "explanation": "The system must replace the remaining portion \"at the same time as, or as soon as practicable after, the customer-initiated replacement, but no later than 45 days from the date the customer conducted the partial replacement\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.84, Service line inventory and replacement requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.84"
+      },
+      "checked": "2026-11-06",
+      "evidence": "but no later than 45 days from the date the customer conducted the partial replacement"
+    },
+    {
+      "id": "lc-013",
+      "topic": "Public education and notices",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), what deadline does 141.85(d)(2) set for the consumer notice of individual lead and copper tap results?",
+      "options": {
+        "A": "One year after the tap sampling period ends",
+        "B": "No later than three business days after the water system learns of the tap monitoring results",
+        "C": "In the next Consumer Confidence Report",
+        "D": "Ten days after the end of the calendar year"
+      },
+      "answer": "B",
+      "explanation": "\"A water system must provide the consumer notice as soon as practicable but no later than three business days after the water system learns of the tap monitoring results.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.85, Public education and supplemental monitoring and mitigation requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.85"
+      },
+      "checked": "2026-11-06",
+      "evidence": "no later than three business days after the water system learns of the tap monitoring results"
+    },
+    {
+      "id": "lc-014",
+      "topic": "Public education and notices",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), what triggers the additional filter and outreach requirements of 141.85(j)?",
+      "options": {
+        "A": "Exceeding the lead action level at least three times in a rolling five-year period",
+        "B": "One individual tap sample above 0.010 mg/L",
+        "C": "Exceeding the copper action level twice in one year",
+        "D": "Missing one annual service line inventory update"
+      },
+      "answer": "A",
+      "explanation": "\"A water system that exceeds the lead action level at least three times in a rolling five-year period, based on tap water samples collected in accordance with § 141.86, must conduct the activities in this section.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.85, Public education and supplemental monitoring and mitigation requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.85"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A water system that exceeds the lead action level at least three times in a rolling five-year period"
+    },
+    {
+      "id": "lc-015",
+      "topic": "Public education and notices",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), how does 141.85(b)(4) require a non-transient non-community water system to deliver public education after a lead action level exceedance?",
+      "options": {
+        "A": "By submitting a press release to media outlets only",
+        "B": "By printing a message on each water bill only",
+        "C": "By posting it on the system's website only",
+        "D": "By posting informational posters in a public place or common area in each building served and distributing pamphlets and/or brochures to each person served"
+      },
+      "answer": "D",
+      "explanation": "The system must \"Post informational posters on lead in drinking water in a public place or common area in each of the buildings served by the system\" and \"Distribute informational pamphlets and/or brochures on lead in drinking water to each person served\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.85, Public education and supplemental monitoring and mitigation requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.85"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Post informational posters on lead in drinking water in a public place or common area in each of the buildings served by the system"
+    },
+    {
+      "id": "lc-016",
+      "topic": "Tap sampling",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), apart from the samples described in 141.86(b)(1)(iii) and (iv), what volume and minimum standing time does 141.86(b)(1) set for lead and copper tap samples?",
+      "options": {
+        "A": "250 ml, standing 8 to 18 hours",
+        "B": "500 ml, standing at least 12 hours",
+        "C": "One liter, standing at least six hours",
+        "D": "One liter, standing at least 30 minutes"
+      },
+      "answer": "C",
+      "explanation": "Tap samples \"must be one liter in volume and have stood motionless in the plumbing system and/or service line of each sampling site for at least six hours.\" The 250 ml sample is the school and child care protocol in 141.92.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.86, Monitoring requirements for lead and copper in tap water (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.86"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must be one liter in volume and have stood motionless in the plumbing system and/or service line of each sampling site for at least six hours"
+    },
+    {
+      "id": "lc-017",
+      "topic": "Tap sampling",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), which sites does 141.86(a)(4)(i) define as Tier 1 sampling sites?",
+      "options": {
+        "A": "Buildings, including multiple-family residences, with lead premise plumbing and/or served by a lead service line",
+        "B": "Sites served by a lead connector",
+        "C": "Sites representative of sites throughout the distribution system",
+        "D": "Single-family structures with premise plumbing made of lead and/or served by a lead service line"
+      },
+      "answer": "D",
+      "explanation": "\"Tier 1 sampling sites are single-family structures with premise plumbing made of lead and/or served by a lead service line.\" Multiple-family buildings are Tier 2 and lead connector sites are Tier 3.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.86, Monitoring requirements for lead and copper in tap water (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.86"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Tier 1 sampling sites are single-family structures with premise plumbing made of lead and/or served by a lead service line."
+    },
+    {
+      "id": "lc-018",
+      "topic": "Schools and child care facilities",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), how many lead samples does 141.92(f)(1) require a community water system to collect per school and per child care facility?",
+      "options": {
+        "A": "Two per school and five per child care facility",
+        "B": "Three per school and three per child care facility",
+        "C": "Five per school and two per child care facility",
+        "D": "Ten per school and five per child care facility"
+      },
+      "answer": "C",
+      "explanation": "\"Community water systems must collect five samples per school and two samples per child care facility at outlets typically used to provide water for human consumption.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.92, Monitoring for lead in schools and child care facilities (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.92"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Community water systems must collect five samples per school and two samples per child care facility"
+    },
+    {
+      "id": "lc-019",
+      "topic": "Schools and child care facilities",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), starting with the compliance date, when does 141.92(e)(1) require a community water system to sample a secondary school it serves?",
+      "options": {
+        "A": "When requested by the secondary school",
+        "B": "Every year at every secondary school",
+        "C": "Only when the school is regulated as a public water system",
+        "D": "Only after the system exceeds the lead action level"
+      },
+      "answer": "A",
+      "explanation": "\"Starting with the compliance date in § 141.80(a)(3), community water systems must conduct sampling as specified in paragraph (f) of this section when requested by a secondary school.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.92, Monitoring for lead in schools and child care facilities (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.92"
+      },
+      "checked": "2026-11-06",
+      "evidence": "community water systems must conduct sampling as specified in paragraph (f) of this section when requested by a secondary school."
+    },
+    {
+      "id": "lc-020",
+      "topic": "Small system flexibility",
+      "question": "Under the 2024-revised Subpart I (compliance required by November 1, 2027), which systems may elect the 141.93 compliance flexibility, if approved by the State?",
+      "options": {
+        "A": "All systems serving 10,000 or fewer persons that exceed the copper action level",
+        "B": "Small community water systems serving 3,300 or fewer persons and all non-transient non-community water systems that exceed the lead action level but not the copper action level",
+        "C": "Large water systems that exceed the lead practical quantitation limit",
+        "D": "Transient non-community water systems that exceed either action level"
+      },
+      "answer": "B",
+      "explanation": "\"Small community water systems serving 3,300 or fewer persons and all non-transient non-community water systems that exceed the lead action level, but do not exceed the copper action level, may elect to use this provision\" if approved by the State.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.93, Small water system compliance flexibility (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-I/section-141.93"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Small community water systems serving 3,300 or fewer persons and all non-transient non-community water systems that exceed the lead action level, but do not exceed the copper action level"
+    }
+  ]
+}

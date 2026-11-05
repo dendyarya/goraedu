@@ -1,0 +1,389 @@
+{
+  "cluster": "water-operator",
+  "slug": "filtration-disinfection",
+  "title": "Drinking water filtration and disinfection practice questions",
+  "description": "Free practice questions on 40 CFR 141 Subpart H filtration and disinfection. Every answer is explained and linked to the section it comes from.",
+  "href": "/water-operator/filtration-disinfection/practice-test/",
+  "questions": [
+    {
+      "id": "fd-001",
+      "topic": "Scope and general requirements",
+      "question": "Under the 141.2 definition, which public water systems are \"subpart H systems\"?",
+      "options": {
+        "A": "Systems whose only source is ground water that the State has found not to be under the direct influence of surface water",
+        "B": "Systems using surface water or ground water under the direct influence of surface water as a source that are subject to subpart H",
+        "C": "Any system that adds a chemical disinfectant to its water, whatever the source",
+        "D": "Only community water systems serving at least 10,000 people"
+      },
+      "answer": "B",
+      "explanation": "\"Subpart H systems means public water systems using surface water or ground water under the direct influence of surface water as a source that are subject to the requirements of subpart H of this part.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Subpart H systems means public water systems using surface water or ground water under the direct influence of surface water as a source that are subject to the requirements of subpart H of this part."
+    },
+    {
+      "id": "fd-002",
+      "topic": "Scope and general requirements",
+      "question": "141.70(a) says Subpart H sets treatment technique requirements in lieu of maximum contaminant levels for which contaminants?",
+      "options": {
+        "A": "Lead, copper and turbidity",
+        "B": "Total trihalomethanes, haloacetic acids (five) and bromate",
+        "C": "Nitrate, nitrite and arsenic",
+        "D": "Giardia lamblia, viruses, heterotrophic plate count bacteria, Legionella and turbidity"
+      },
+      "answer": "D",
+      "explanation": "Subpart H establishes \"treatment technique requirements in lieu of maximum contaminant levels for the following contaminants: Giardia lamblia, viruses, heterotrophic plate count bacteria, Legionella, and turbidity.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.70, General requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.70"
+      },
+      "checked": "2026-11-06",
+      "evidence": "treatment technique requirements in lieu of maximum contaminant levels for the following contaminants: Giardia lamblia, viruses, heterotrophic plate count bacteria, Legionella, and turbidity."
+    },
+    {
+      "id": "fd-003",
+      "topic": "Scope and general requirements",
+      "question": "Under 141.70(c), whose requirements must the personnel operating a surface water or GWUDI system meet?",
+      "options": {
+        "A": "Requirements set by the system's own governing board",
+        "B": "Requirements set by the laboratory that analyzes the system's samples",
+        "C": "Requirements specified by the State",
+        "D": "Requirements set by the system's largest wholesale customer"
+      },
+      "answer": "C",
+      "explanation": "Each such system \"must be operated by qualified personnel who meet the requirements specified by the State.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.70, General requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.70"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must be operated by qualified personnel who meet the requirements specified by the State."
+    },
+    {
+      "id": "fd-004",
+      "topic": "Criteria for avoiding filtration",
+      "question": "An unfiltered system measures both fecal coliforms and total coliforms in its source water. Under 141.71(a)(1), which criterion must it meet?",
+      "options": {
+        "A": "The fecal coliform criterion, but not the total coliform criterion",
+        "B": "The total coliform criterion, but not the fecal coliform criterion",
+        "C": "Both the fecal and the total coliform criteria",
+        "D": "Whichever criterion the system chooses each month"
+      },
+      "answer": "A",
+      "explanation": "\"If a system measures both fecal and total coliforms, the fecal coliform criterion, but not the total coliform criterion, in this paragraph must be met.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.71, Criteria for avoiding filtration (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.71"
+      },
+      "checked": "2026-11-06",
+      "evidence": "If a system measures both fecal and total coliforms, the fecal coliform criterion, but not the total coliform criterion, in this paragraph must be met."
+    },
+    {
+      "id": "fd-005",
+      "topic": "Criteria for avoiding filtration",
+      "question": "How does 141.71(a)(2) define a turbidity \"event\" for source water?",
+      "options": {
+        "A": "Any single turbidity measurement above 1 NTU",
+        "B": "Any calendar month whose average turbidity exceeds 5 NTU",
+        "C": "A series of consecutive days during which at least one turbidity measurement each day exceeds 5 NTU",
+        "D": "Any four-hour period in which every measurement exceeds 5 NTU"
+      },
+      "answer": "C",
+      "explanation": "Under 141.71(a)(2), an event \"is a series of consecutive days during which at least one turbidity measurement each day exceeds 5 NTU.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.71, Criteria for avoiding filtration (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.71"
+      },
+      "checked": "2026-11-06",
+      "evidence": "is a series of consecutive days during which at least one turbidity measurement each day exceeds 5 NTU."
+    },
+    {
+      "id": "fd-006",
+      "topic": "Criteria for avoiding filtration",
+      "question": "Under 141.71(b)(3), who must conduct the annual on-site inspection of an unfiltered system's watershed control program and disinfection treatment process?",
+      "options": {
+        "A": "The system's chief operator, without any State involvement",
+        "B": "Either the State or a party approved by the State",
+        "C": "The laboratory certified to analyze the system's coliform samples",
+        "D": "The system's largest customer"
+      },
+      "answer": "B",
+      "explanation": "\"Either the State or a party approved by the State must conduct the on-site inspection.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.71, Criteria for avoiding filtration (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.71"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Either the State or a party approved by the State must conduct the on-site inspection."
+    },
+    {
+      "id": "fd-007",
+      "topic": "Disinfection requirements",
+      "question": "141.72(a)(1) requires an unfiltered system's disinfection to ensure 3-log Giardia lamblia and 4-log virus inactivation every day it serves water, with what exception stated in the rule?",
+      "options": {
+        "A": "Except any one day each month",
+        "B": "Except any two consecutive days",
+        "C": "Except one week in each calendar quarter",
+        "D": "Except on days when the source water turbidity is below 1 NTU"
+      },
+      "answer": "A",
+      "explanation": "Disinfection must ensure the inactivation \"every day the system serves water to the public, except any one day each month.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.72, Disinfection (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.72"
+      },
+      "checked": "2026-11-06",
+      "evidence": "every day the system serves water to the public, except any one day each month."
+    },
+    {
+      "id": "fd-008",
+      "topic": "Disinfection requirements",
+      "question": "Under 141.72(a)(2), an unfiltered system's disinfection system must have either redundant components (including an auxiliary power supply with automatic start-up and alarm) or what other safeguard?",
+      "options": {
+        "A": "A second certified operator on site at all times",
+        "B": "A doubled disinfectant dose during peak hourly flow",
+        "C": "A daily report of residuals to the State",
+        "D": "Automatic shut-off of delivery of water to the distribution system whenever the residual disinfectant concentration is less than 0.2 mg/l"
+      },
+      "answer": "D",
+      "explanation": "The alternative is \"automatic shut-off of delivery of water to the distribution system whenever there is less than 0.2 mg/l of residual disinfectant concentration in the water.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.72, Disinfection (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.72"
+      },
+      "checked": "2026-11-06",
+      "evidence": "automatic shut-off of delivery of water to the distribution system whenever there is less than 0.2 mg/l of residual disinfectant concentration in the water."
+    },
+    {
+      "id": "fd-009",
+      "topic": "Disinfection requirements",
+      "question": "For the distribution system residual requirement in 141.72(b)(3)(i), what water is deemed to have a detectable disinfectant residual?",
+      "options": {
+        "A": "Water in which no total coliforms are found",
+        "B": "Water with a turbidity of 1 NTU or less",
+        "C": "Water with a heterotrophic bacteria concentration less than or equal to 500/ml, measured as HPC",
+        "D": "Water with a pH between 6.5 and 8.5"
+      },
+      "answer": "C",
+      "explanation": "\"Water in the distribution system with a heterotrophic bacteria concentration less than or equal to 500/ml, measured as heterotrophic plate count (HPC) as specified in § 141.74(a)(1), is deemed to have a detectable disinfectant residual\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.72, Disinfection (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.72"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Water in the distribution system with a heterotrophic bacteria concentration less than or equal to 500/ml, measured as heterotrophic plate count (HPC) as specified in § 141.74(a)(1), is deemed to have a detectable disinfectant residual"
+    },
+    {
+      "id": "fd-010",
+      "topic": "Filtration and turbidity limits",
+      "question": "To which filtration technologies does the 0.5 NTU limit (in at least 95 percent of monthly measurements) in 141.73(a)(1) apply?",
+      "options": {
+        "A": "Slow sand filtration",
+        "B": "Conventional filtration or direct filtration",
+        "C": "Diatomaceous earth filtration",
+        "D": "Alternative technologies approved by the State under 141.73(d)"
+      },
+      "answer": "B",
+      "explanation": "\"For systems using conventional filtration or direct filtration, the turbidity level of representative samples of a system's filtered water must be less than or equal to 0.5 NTU in at least 95 percent of the measurements taken each month\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.73, Filtration (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.73"
+      },
+      "checked": "2026-11-06",
+      "evidence": "For systems using conventional filtration or direct filtration, the turbidity level of representative samples of a system's filtered water must be less than or equal to 0.5 NTU in at least 95 percent of the measurements taken each month"
+    },
+    {
+      "id": "fd-011",
+      "topic": "Filtration and turbidity limits",
+      "question": "Under 141.73(b)(1), on what basis may the State substitute a turbidity limit higher than 1 NTU for a slow sand filtration system?",
+      "options": {
+        "A": "If the State determines there is no significant interference with disinfection at the higher turbidity level",
+        "B": "If the system serves 500 or fewer persons",
+        "C": "If the source water turbidity has never exceeded 1 NTU",
+        "D": "If the system installs continuous turbidity monitoring"
+      },
+      "answer": "A",
+      "explanation": "The 1 NTU limit applies \"except that if the State determines there is no significant interference with disinfection at a higher turbidity level, the State may substitute this higher turbidity limit for that system.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.73, Filtration (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.73"
+      },
+      "checked": "2026-11-06",
+      "evidence": "except that if the State determines there is no significant interference with disinfection at a higher turbidity level, the State may substitute this higher turbidity limit for that system."
+    },
+    {
+      "id": "fd-012",
+      "topic": "Filtration and turbidity limits",
+      "question": "A system demonstrates to the State that an alternative filtration technology meets 141.73(d). The requirements of which paragraph of 141.73 then apply to it?",
+      "options": {
+        "A": "Paragraph (a), conventional filtration treatment or direct filtration",
+        "B": "Paragraph (b), slow sand filtration",
+        "C": "Paragraph (c), diatomaceous earth filtration",
+        "D": "None; no turbidity limit applies to an approved alternative technology"
+      },
+      "answer": "B",
+      "explanation": "\"For a system that makes this demonstration, the requirements of paragraph (b) of this section apply.\" Paragraph (b) covers slow sand filtration.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.73, Filtration (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.73"
+      },
+      "checked": "2026-11-06",
+      "evidence": "For a system that makes this demonstration, the requirements of paragraph (b) of this section apply."
+    },
+    {
+      "id": "fd-013",
+      "topic": "Monitoring",
+      "question": "For a filtered system serving 500 or fewer persons, when does 141.74(c)(1) allow the State to reduce filtered water turbidity sampling to once per day?",
+      "options": {
+        "A": "Only when the system uses slow sand filtration",
+        "B": "Automatically, without any State determination",
+        "C": "Only after the system has reported 12 months of data with no measurement above 1 NTU",
+        "D": "Regardless of the type of filtration used, if the State determines that less frequent monitoring is sufficient to indicate effective filtration performance"
+      },
+      "answer": "D",
+      "explanation": "\"For systems serving 500 or fewer persons, the State may reduce the turbidity sampling frequency to once per day, regardless of the type of filtration treatment used, if the State determines that less frequent monitoring is sufficient to indicate effective filtration performance.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.74, Analytical and monitoring requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.74"
+      },
+      "checked": "2026-11-06",
+      "evidence": "For systems serving 500 or fewer persons, the State may reduce the turbidity sampling frequency to once per day, regardless of the type of filtration treatment used, if the State determines that less frequent monitoring is sufficient to indicate effective filtration performance."
+    },
+    {
+      "id": "fd-014",
+      "topic": "Monitoring",
+      "question": "When the continuous monitoring equipment for the residual entering the distribution system fails, 141.74(c)(2) allows grab sampling every 4 hours in lieu of continuous monitoring for what stated period?",
+      "options": {
+        "A": "No more than 24 hours following the failure",
+        "B": "No more than 30 days following the failure",
+        "C": "No more than 5 working days following the failure",
+        "D": "Until the next annual on-site inspection"
+      },
+      "answer": "C",
+      "explanation": "Grab sampling every 4 hours may be conducted \"in lieu of continuous monitoring, but for no more than 5 working days following the failure of the equipment\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.74, Analytical and monitoring requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.74"
+      },
+      "checked": "2026-11-06",
+      "evidence": "grab sampling every 4 hours may be conducted in lieu of continuous monitoring, but for no more than 5 working days following the failure of the equipment"
+    },
+    {
+      "id": "fd-015",
+      "topic": "Monitoring",
+      "question": "Under 141.74(a), who must conduct measurements of pH, turbidity, temperature and residual disinfectant concentrations used to show compliance with Subpart H?",
+      "options": {
+        "A": "A person approved by the State",
+        "B": "Only EPA staff",
+        "C": "Any person the system hires, with no approval needed",
+        "D": "The system's wholesale water supplier"
+      },
+      "answer": "A",
+      "explanation": "\"Measurements for pH, turbidity, temperature and residual disinfectant concentrations must be conducted by a person approved by the State.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.74, Analytical and monitoring requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.74"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Measurements for pH, turbidity, temperature and residual disinfectant concentrations must be conducted by a person approved by the State."
+    },
+    {
+      "id": "fd-016",
+      "topic": "Reporting to the State",
+      "question": "Under 141.75(b)(3)(ii), what must a filtered system do if its turbidity exceeds 5 NTU at any time?",
+      "options": {
+        "A": "Include the result in its next monthly report, with no earlier contact",
+        "B": "Notify the State within 10 days after the end of the month",
+        "C": "Consult with the primacy agency as soon as practical, but no later than 24 hours after the exceedance is known",
+        "D": "Wait for the next annual on-site inspection to discuss it"
+      },
+      "answer": "C",
+      "explanation": "\"If at any time the turbidity exceeds 5 NTU, the system must consult with the primacy agency as soon as practical, but no later than 24 hours after the exceedance is known, in accordance with the public notification requirements under § 141.203(b)(3).\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.75, Reporting and recordkeeping requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.75"
+      },
+      "checked": "2026-11-06",
+      "evidence": "If at any time the turbidity exceeds 5 NTU, the system must consult with the primacy agency as soon as practical, but no later than 24 hours after the exceedance is known"
+    },
+    {
+      "id": "fd-017",
+      "topic": "Reporting to the State",
+      "question": "After the residual entering the distribution system falls below 0.2 mg/l, what else must the system tell the State by the end of the next business day under 141.75(b)(3)(iii)?",
+      "options": {
+        "A": "The name of the operator on duty at the time",
+        "B": "The planned date of its next sanitary survey",
+        "C": "The cost of any repairs to the disinfection equipment",
+        "D": "Whether or not the residual was restored to at least 0.2 mg/l within 4 hours"
+      },
+      "answer": "D",
+      "explanation": "\"The system also must notify the State by the end of the next business day whether or not the residual was restored to at least 0.2 mg/l within 4 hours.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.75, Reporting and recordkeeping requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.75"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The system also must notify the State by the end of the next business day whether or not the residual was restored to at least 0.2 mg/l within 4 hours."
+    },
+    {
+      "id": "fd-018",
+      "topic": "Reporting to the State",
+      "question": "What deadline does 141.75(a)(3) set for an unfiltered system's report summarizing its compliance with the watershed control program requirements?",
+      "options": {
+        "A": "Within 10 days after the end of each month",
+        "B": "No later than ten days after the end of each Federal fiscal year (September 30)",
+        "C": "By December 31 of each calendar year",
+        "D": "Within 30 days after each on-site inspection"
+      },
+      "answer": "B",
+      "explanation": "\"No later than ten days after the end of each Federal fiscal year (September 30), each system must provide to the State a report which summarizes its compliance with all watershed control program requirements\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.75, Reporting and recordkeeping requirements (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.75"
+      },
+      "checked": "2026-11-06",
+      "evidence": "No later than ten days after the end of each Federal fiscal year (September 30), each system must provide to the State a report which summarizes its compliance with all watershed control program requirements"
+    },
+    {
+      "id": "fd-019",
+      "topic": "Recycle provisions",
+      "question": "Which systems do the recycle provisions of 141.76 apply to?",
+      "options": {
+        "A": "All subpart H systems that employ conventional or direct filtration and recycle spent filter backwash water, thickener supernatant, or liquids from dewatering processes",
+        "B": "Every public water system that backwashes filters, whatever its source",
+        "C": "Only subpart H systems using slow sand filtration",
+        "D": "Only ground water systems that recycle backwash water"
+      },
+      "answer": "A",
+      "explanation": "141.76 applies to \"All subpart H systems that employ conventional filtration or direct filtration treatment and that recycle spent filter backwash water, thickener supernatant, or liquids from dewatering processes\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.76, Recycle provisions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.76"
+      },
+      "checked": "2026-11-06",
+      "evidence": "All subpart H systems that employ conventional filtration or direct filtration treatment and that recycle spent filter backwash water, thickener supernatant, or liquids from dewatering processes"
+    },
+    {
+      "id": "fd-020",
+      "topic": "Recycle provisions",
+      "question": "Under 141.76(c), where must a system return recycled spent filter backwash water, thickener supernatant, or liquids from dewatering processes?",
+      "options": {
+        "A": "Directly into the clearwell after filtration",
+        "B": "Into the distribution system after disinfection",
+        "C": "Into any point the system chooses, without State review",
+        "D": "Through the processes of the system's existing conventional or direct filtration system, or at an alternate location approved by the State"
+      },
+      "answer": "D",
+      "explanation": "The system \"must return these flows through the processes of a system's existing conventional or direct filtration system as defined in § 141.2 or at an alternate location approved by the State\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.76, Recycle provisions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-H/section-141.76"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must return these flows through the processes of a system's existing conventional or direct filtration system as defined in § 141.2 or at an alternate location approved by the State"
+    }
+  ]
+}
