@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { NewsThumb } from "@/components/NewsFigure";
+import NewsGrid from "@/components/NewsGrid";
 import QuickStart, { type QuickStartOption } from "@/components/QuickStart";
 import SampleQuestion, { type SampleQuestionData } from "@/components/SampleQuestion";
 import TradeIcon, { IconTile } from "@/components/TradeIcon";
 import { ALL_CLUSTERS, FAMILIES, WITH_FAMILY } from "@/lib/clusters";
 import { getAllGuides, getAllTopicPages } from "@/lib/guides";
-import { formatDate, getAllNews } from "@/lib/news";
+import { getAllNews, newsCards } from "@/lib/news";
 import { getAllSets, SECTION_NAME, universalPool } from "@/lib/questions";
 import { TOOLS } from "@/lib/tools";
 
@@ -44,7 +44,7 @@ export default function Home() {
   const sets = getAllSets();
   const guides = getAllGuides();
   const topicPages = getAllTopicPages();
-  const latest = getAllNews().slice(0, 3);
+  const latest = getAllNews().slice(0, 8);
   const live = WITH_FAMILY.filter((c) => c.status === "available" && c.href);
   const next = WITH_FAMILY.filter((c) => c.status === "next");
   const totalQuestions = sets.reduce((n, s) => n + s.questions.length, 0);
@@ -330,7 +330,7 @@ export default function Home() {
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div>
               <h2 className={H2}>
-                Rule <span className="text-low">news</span>
+                Latest <span className="text-low">news</span>
               </h2>
               <p className="mt-3 max-w-[36em] text-[1.0625rem] text-muted">
                 Official rule changes for the certifications we cover, from the Federal Register, the eCFR and agency
@@ -341,53 +341,8 @@ export default function Home() {
               All news
             </Link>
           </div>
-          <div className="mt-7 flex flex-wrap gap-5">
-            <div className="grid min-w-0 flex-[2_1_32rem] gap-5">
-              {latest.map((p) => (
-                <article
-                  key={p.slug}
-                  className="flex flex-wrap gap-6 rounded-[1.75rem] border border-line bg-panel p-7"
-                >
-                  {p.image ? (
-                    <div className="min-w-0 flex-[1_1_14rem]">
-                      <NewsThumb image={p.image} />
-                    </div>
-                  ) : null}
-                  <div className="flex min-w-0 flex-[2_1_20rem] flex-col">
-                    <p className="flex flex-wrap items-center gap-2.5 text-[0.875rem]">
-                      <span className="rounded-full bg-low-soft px-3 font-bold leading-7 text-low">{p.topic}</span>
-                      <time dateTime={p.published} className="font-semibold text-muted">
-                        {formatDate(p.published)}
-                      </time>
-                    </p>
-                    <h3 className="mt-4 text-[1.5rem] sm:text-[1.875rem]">
-                      <Link href={`/news/${p.slug}/`} className="hover:text-low hover:underline">
-                        {p.title}
-                      </Link>
-                    </h3>
-                    <p className="mt-3 text-[1.0625rem] text-muted">{p.summary}</p>
-                  </div>
-                </article>
-              ))}
-            </div>
-            <aside className="flex min-w-0 flex-[1_1_18rem] flex-col gap-3 rounded-[1.75rem] border border-[#f3dca0] bg-hose-soft p-7">
-              <h3 className="text-[1.375rem]">How we cover news</h3>
-              <ul className="space-y-2.5 text-[0.9375rem]">
-                {[
-                  "Only official sources: Federal Register, eCFR and agency sites",
-                  "Every post says whether a rule is proposed or final",
-                  "Study pages are updated when a change affects the exam",
-                ].map((x) => (
-                  <li key={x} className="flex gap-2.5">
-                    <span aria-hidden="true" className="mt-2 h-2 w-2 shrink-0 rounded-full bg-low" />
-                    {x}
-                  </li>
-                ))}
-              </ul>
-              <Link href="/news/" className="mt-auto pt-2 font-bold text-low underline">
-                Read the latest news
-              </Link>
-            </aside>
+          <div className="mt-8">
+            <NewsGrid posts={newsCards(latest)} filters />
           </div>
         </section>
       ) : null}

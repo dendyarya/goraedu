@@ -130,3 +130,18 @@ export function formatDate(iso: string): string {
   const d = new Date(iso.length === 10 ? `${iso}T12:00:00Z` : iso);
   return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
 }
+
+/** Card data for news grids (plain values, safe to pass to client components). */
+export function newsCards(posts: NewsPost[]) {
+  return posts.map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    topic: p.topic,
+    date: p.published,
+    dateLabel: new Date(p.published.length === 10 ? `${p.published}T12:00:00Z` : p.published).toLocaleDateString(
+      "en-US",
+      { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" },
+    ),
+    image: p.image ? { src: p.image.src, width: p.image.width, height: p.image.height } : undefined,
+  }));
+}
