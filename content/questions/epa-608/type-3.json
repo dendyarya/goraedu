@@ -80,15 +80,15 @@
     {
       "id": "t3-005",
       "topic": "Verification and records",
-      "question": "For an appliance with a full charge of 50 or more pounds of a class I or class II refrigerant, how long must the records required by the leak repair rule be kept, unless otherwise specified?",
+      "question": "For an appliance with a full charge of 50 or more pounds of a class I or class II refrigerant, what minimum retention period does the leak repair rule set for its required records, unless otherwise specified?",
       "options": {
-        "A": "At least three years",
-        "B": "At least one year",
-        "C": "At least five years",
-        "D": "Until the next leak inspection"
+        "A": "Three years",
+        "B": "One year",
+        "C": "Five years",
+        "D": "Only until the next leak inspection"
       },
       "answer": "A",
-      "explanation": "The recordkeeping paragraph says all records it identifies \"must be kept for at least three years in electronic or paper format, unless otherwise specified.\" One year, five years, or the next inspection are not the stated period.",
+      "explanation": "The recordkeeping paragraph says all records it identifies \"must be kept for at least three years in electronic or paper format, unless otherwise specified.\" Keeping them longer is allowed, but three years is the minimum the rule sets.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -98,7 +98,7 @@
     {
       "id": "t3-006",
       "topic": "Pressurizing for repairs",
-      "question": "A low-pressure appliance needs a repair that is not major, and it will not be evacuated to the atmosphere afterward. What must be done before it is opened?",
+      "question": "A low-pressure appliance It needs a repair that is not major (and not an oil change), and it will not be evacuated to the atmosphere afterward. What must be done before it is opened?",
       "options": {
         "A": "Pressurize it to no higher than 10 psig",
         "B": "Pressurize it to no higher than 5 psig",
@@ -116,7 +116,7 @@
     {
       "id": "t3-007",
       "topic": "Pressurizing for repairs",
-      "question": "A low-pressure appliance uses a refrigerant that boils at or below 85 °F at 29.9 inches of mercury. When pressurizing it for a non-major repair, what does the rule prohibit?",
+      "question": "A low-pressure appliance uses a refrigerant that boils at or below 85 °F at 29.9 inches of mercury. It needs a repair that is not major (and not an oil change), and it will not be evacuated to the atmosphere afterward. When pressurizing it before it is opened, what does the rule prohibit?",
       "options": {
         "A": "Using heat to raise the internal pressure",
         "B": "Using methods such as nitrogen that require subsequent purging",
@@ -134,7 +134,7 @@
     {
       "id": "t3-008",
       "topic": "Pressurizing for repairs",
-      "question": "A low-pressure appliance uses a refrigerant that boils above 85 °F at 29.9 inches of mercury. How must it be pressurized for a non-major repair?",
+      "question": "A low-pressure appliance uses a refrigerant that boils above 85 °F at 29.9 inches of mercury. It needs a repair that is not major (and not an oil change), and it will not be evacuated to the atmosphere afterward. How must it be pressurized before it is opened?",
       "options": {
         "A": "With nitrogen only, up to 5 psig",
         "B": "With nitrogen alone, without using heat",
@@ -152,7 +152,7 @@
     {
       "id": "t3-009",
       "topic": "Pressurizing for repairs",
-      "question": "While pressurizing a low-pressure appliance for a non-major repair, a technician finds that the part cannot be isolated. What does the rule require?",
+      "question": "A low-pressure appliance It needs a repair that is not major (and not an oil change), and it will not be evacuated to the atmosphere afterward. While pressurizing it, the technician finds that the part cannot be isolated. What does the rule require?",
       "options": {
         "A": "Cover openings",
         "B": "Add nitrogen to 5 psig",
@@ -178,7 +178,7 @@
         "D": "25 mm Hg absolute"
       },
       "answer": "C",
-      "explanation": "For oil changes, the appliance must \"be evacuated or pressurized to a pressure no higher than 5 psig\" before it is opened. The oil may instead be drained into a system receiver that is brought to no higher than 5 psig. The 0 psig limit is for other non-major repairs.",
+      "explanation": "For oil changes, the appliance must \"be evacuated or pressurized to a pressure no higher than 5 psig\" before it is opened. The oil may instead be drained into a system receiver that is brought to no higher than 5 psig. The 0 psig limit is the one paragraphs (a)(1)(i) and (ii) set for opening appliances, not the oil-change limit.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -368,12 +368,12 @@
     {
       "id": "t3-021",
       "topic": "Leak repair",
-      "question": "A comfort cooling chiller with a full charge of 50 or more pounds of a class I or class II refrigerant has exceeded its applicable leak rate. How often must leak inspections be conducted on it, unless an automatic leak detection system is used?",
+      "question": "A comfort cooling chiller with a full charge of 50 or more pounds of a class I or class II refrigerant has exceeded its applicable leak rate. Unless an automatic leak detection system is used, what leak inspection schedule does 40 CFR 82.157 set for it?",
       "options": {
         "A": "Once every three months",
         "B": "Once every five years",
         "C": "Once per calendar year",
-        "D": "Once per month"
+        "D": "Once every two years"
       },
       "answer": "C",
       "explanation": "For comfort cooling appliances, leak inspections \"must be conducted once per calendar year\" until the owner shows the appliance has not leaked above the applicable rate for one year. Inspections every three months apply to commercial and industrial process refrigeration appliances of 500 pounds or more.",
@@ -588,7 +588,7 @@
       "options": {
         "A": "Once every three months, until the leak rate calculations show four quarters in a row without exceeding the leak rate",
         "B": "Once per calendar year, until the leak rate calculations show one year without exceeding the leak rate",
-        "C": "Once per month, for one year",
+        "C": "Once every two years, until the leak rate calculations show one year without exceeding the leak rate",
         "D": "Only once, right after the repair"
       },
       "answer": "A",

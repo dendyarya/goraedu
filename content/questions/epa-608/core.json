@@ -206,7 +206,7 @@
     {
       "id": "core-012",
       "topic": "Certification",
-      "question": "Under EPA's rules, how long may a person work as an apprentice from the date of first registering?",
+      "question": "Under EPA's rules, what is the longest time a person may be an apprentice, counted from the date of first registering?",
       "options": {
         "A": "Six months",
         "B": "One year",
@@ -247,10 +247,10 @@
         "A": "Small appliances",
         "B": "High-pressure appliances",
         "C": "Low-pressure chillers",
-        "D": "Commercial refrigeration"
+        "D": "Very high-pressure appliances"
       },
       "answer": "A",
-      "explanation": "EPA states that technician certification is required to dispose of appliances, except for small appliances (and motor vehicle air conditioners or MVAC-like appliances). High-pressure, low-pressure and commercial systems need a certified technician.",
+      "explanation": "EPA states that technician certification is required to dispose of appliances, except for small appliances (and motor vehicle air conditioners or MVAC-like appliances). High-pressure, very high-pressure and low-pressure appliances need a certified technician.",
       "source": {
         "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
         "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
@@ -314,7 +314,7 @@
     {
       "id": "core-018",
       "topic": "Recovery and evacuation",
-      "question": "When changing refrigerant oil, EPA says it is a violation to change the oil at a pressure higher than:",
+      "question": "When changing refrigerant oil, what is the highest pressure EPA allows the appliance, or the receiver the oil drains into, to be at?",
       "options": {
         "A": "0 psig",
         "B": "5 psig",
@@ -332,7 +332,7 @@
     {
       "id": "core-019",
       "topic": "Recovery and evacuation",
-      "question": "If leaking equipment cannot be evacuated to the required level, the leaking components must be evacuated to the lowest attainable level, which cannot exceed:",
+      "question": "If leaking equipment cannot be evacuated to the required level, the leaking components must be evacuated to the lowest attainable level. What is the highest pressure EPA allows that level to be?",
       "options": {
         "A": "0 psig",
         "B": "5 psig",
@@ -548,7 +548,7 @@
     {
       "id": "core-031",
       "topic": "Definitions",
-      "question": "An MVAC-like appliance, such as the air conditioning on a farm tractor, has a full charge of how much refrigerant?",
+      "question": "The definition of an MVAC-like appliance, such as the air conditioning on a farm tractor, sets what limit on its full charge of refrigerant?",
       "options": {
         "A": "5 pounds or less",
         "B": "50 pounds or more",
@@ -692,7 +692,7 @@
     {
       "id": "core-039",
       "topic": "Sales and reclamation",
-      "question": "A seller of non-exempt refrigerant must keep invoices showing the purchaser's name, date of sale and quantity. How long must these records be kept?",
+      "question": "A seller of non-exempt refrigerant must keep invoices showing the purchaser's name, date of sale and quantity. What retention period does the rule set for these records?",
       "options": {
         "A": "One year",
         "B": "Two years",
@@ -728,7 +728,7 @@
     {
       "id": "core-041",
       "topic": "Sales and reclamation",
-      "question": "A certified reclaimer may release no more than what percent of the refrigerant during the reclamation process?",
+      "question": "What is the largest percentage of the refrigerant a certified reclaimer may release during the reclamation process?",
       "options": {
         "A": "1.5 percent",
         "B": "0.5 percent",
@@ -746,7 +746,7 @@
     {
       "id": "core-042",
       "topic": "Sales and reclamation",
-      "question": "By what date must reclaimers send EPA their annual report on the material they received and the refrigerant they reclaimed?",
+      "question": "What deadline does the rule set for reclaimers to send EPA their annual report on the material they received and the refrigerant they reclaimed?",
       "options": {
         "A": "December 31 of the same calendar year",
         "B": "February 1 of the next calendar year",
@@ -764,15 +764,15 @@
     {
       "id": "core-043",
       "topic": "Sales and reclamation",
-      "question": "When a refrigerant reclamation business changes owners, what does the rule require of the new owner?",
+      "question": "When a refrigerant reclamation business changes owners, what deadline does the rule set for the new owner to certify with EPA?",
       "options": {
-        "A": "Nothing, because the old certificate transfers with the business",
-        "B": "To certify with EPA within one year",
-        "C": "To certify with EPA within 30 days of the change",
-        "D": "To certify with EPA within 90 days of the change"
+        "A": "No deadline, because the old certificate transfers with the business",
+        "B": "Within one year of the change",
+        "C": "Within 30 days of the change",
+        "D": "Within 90 days of the change"
       },
       "answer": "C",
-      "explanation": "The rule states \"Certificates are not transferable,\" and the new owner must certify with EPA within 30 days of the change in ownership. So the old owner's certificate does not carry over to the new owner.",
+      "explanation": "The rule states \"Certificates are not transferable,\" and the new owner must certify with EPA \"within 30 days of the change\" that they will meet the reclaimer certification requirements. The old owner's certificate does not carry over, and the rule sets no one-year or 90-day period.",
       "source": {
         "title": "eCFR: 40 CFR 82.164, Reclaimer certification (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.164"

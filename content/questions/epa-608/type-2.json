@@ -70,7 +70,7 @@
         "D": "Uncovering an opening of 2 square inches of flow area for 30 minutes"
       },
       "answer": "A",
-      "explanation": "Major repair includes any work that involves removal of the compressor, condenser, evaporator, or auxiliary heat exchange coil. An opening only counts if it is \"more than four (4) square inches of 'flow area' for more than 15 minutes,\" so the 2- and 3-square-inch openings do not qualify.",
+      "explanation": "Major repair includes any work that involves removal of the compressor, condenser, evaporator, or auxiliary heat exchange coil. An opening only counts if it is \"more than four (4) square inches of “flow area” for more than 15 minutes,\" so the 2- and 3-square-inch openings do not qualify.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -98,7 +98,7 @@
     {
       "id": "t2-006",
       "topic": "Evacuation levels",
-      "question": "A high-pressure appliance with no leaks has a full charge of less than 200 pounds. Before a major repair or disposal, using recovery equipment manufactured on or after November 15, 1993, to what level must it be evacuated?",
+      "question": "A high-pressure appliance with no leaks has a full charge of less than 200 pounds. Before a major repair or disposal, using recovery equipment manufactured on or after November 15, 1993, which evacuation level does Table 1 in 40 CFR 82.156 set for it?",
       "options": {
         "A": "4 inches of Hg vacuum",
         "B": "10 inches of Hg vacuum",
@@ -116,7 +116,7 @@
     {
       "id": "t2-007",
       "topic": "Evacuation levels",
-      "question": "A high-pressure appliance with no leaks has a full charge of 200 pounds or more. Before a major repair or disposal, using recovery equipment manufactured on or after November 15, 1993, to what level must it be evacuated?",
+      "question": "A high-pressure appliance with no leaks has a full charge of 200 pounds or more. Before a major repair or disposal, using recovery equipment manufactured on or after November 15, 1993, which evacuation level does Table 1 in 40 CFR 82.156 set for it?",
       "options": {
         "A": "0 inches of Hg vacuum",
         "B": "4 inches of Hg vacuum",
@@ -124,7 +124,7 @@
         "D": "10 inches of Hg vacuum"
       },
       "answer": "D",
-      "explanation": "Table 1 sets 10 inches of Hg vacuum for a high-pressure appliance with a full charge of 200 pounds or more when the recovery equipment was made on or after November 15, 1993. The 4-inch level is for older equipment, and 25 mm Hg absolute is for low-pressure appliances. For a repair that is not major and is not followed by evacuation to the atmosphere, the requirement is no higher than 0 psig instead.",
+      "explanation": "Table 1 sets 10 inches of Hg vacuum for a high-pressure appliance with a full charge of 200 pounds or more when the recovery equipment was made on or after November 15, 1993. The 4-inch level is for older equipment, and 25 mm Hg absolute is for low-pressure appliances. For a repair that is not major and is not followed by evacuation to the atmosphere, paragraph (a)(1) sets pressure limits (0 psig, or 5 psig for oil changes) instead.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -134,7 +134,7 @@
     {
       "id": "t2-008",
       "topic": "Evacuation levels",
-      "question": "A high-pressure appliance with no leaks has a full charge of 200 pounds or more. Before a major repair or disposal, using recovery equipment manufactured before November 15, 1993, to what level must it be evacuated?",
+      "question": "A high-pressure appliance with no leaks has a full charge of 200 pounds or more. Before a major repair or disposal, using recovery equipment manufactured before November 15, 1993, which evacuation level does Table 1 in 40 CFR 82.156 set for it?",
       "options": {
         "A": "4 inches of Hg vacuum",
         "B": "10 inches of Hg vacuum",
@@ -152,7 +152,7 @@
     {
       "id": "t2-009",
       "topic": "Evacuation levels",
-      "question": "A very high-pressure appliance with no leaks is about to undergo a major repair. Using recovery equipment manufactured on or after November 15, 1993, to what level must it be evacuated?",
+      "question": "A very high-pressure appliance with no leaks is about to undergo a major repair. Using recovery equipment manufactured on or after November 15, 1993, which evacuation level does Table 1 in 40 CFR 82.156 set for it?",
       "options": {
         "A": "10 inches of Hg vacuum",
         "B": "0 inches of Hg vacuum",
@@ -170,15 +170,15 @@
     {
       "id": "t2-010",
       "topic": "Recovery practices",
-      "question": "A high-pressure appliance needs a repair that is not major, and it will not be evacuated to the atmosphere afterward. To what pressure must it be evacuated before it is opened?",
+      "question": "A high-pressure appliance needs a repair that is not major and is not an oil change, and it will not be evacuated to the atmosphere afterward. What is the highest pressure the rule allows it to be evacuated to before it is opened?",
       "options": {
-        "A": "No higher than 5 psig",
+        "A": "5 psig",
         "B": "10 inches of Hg vacuum",
-        "C": "No higher than 0 psig",
+        "C": "0 psig",
         "D": "25 mm Hg absolute"
       },
       "answer": "C",
-      "explanation": "For non-major repairs not followed by evacuation to the atmosphere, a medium-, high- or very high-pressure appliance must be evacuated \"to a pressure no higher than 0 psig before it is opened.\" The 5 psig level is only for oil changes.",
+      "explanation": "In this case a medium-, high- or very high-pressure appliance must be evacuated \"to a pressure no higher than 0 psig before it is opened,\" so a deeper vacuum also complies but 0 psig is the highest pressure allowed. The 5 psig limit is set separately \"For the purposes of oil changes.\"",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -188,15 +188,15 @@
     {
       "id": "t2-011",
       "topic": "Recovery practices",
-      "question": "For an oil change on a high-pressure appliance (a non-major repair, with no evacuation to the atmosphere afterward), to what pressure must the appliance be evacuated before it is opened?",
+      "question": "For an oil change on a high-pressure appliance (not major maintenance, service, or repair, and with no evacuation to the atmosphere afterward), what is the highest pressure the rule allows the appliance to be evacuated or pressurized to before it is opened?",
       "options": {
-        "A": "No higher than 5 psig",
-        "B": "No higher than 0 psig",
-        "C": "4 inches of Hg vacuum",
-        "D": "10 inches of Hg vacuum"
+        "A": "5 psig",
+        "B": "0 psig",
+        "C": "10 psig",
+        "D": "15 psig"
       },
       "answer": "A",
-      "explanation": "For oil changes, the appliance must be evacuated or pressurized \"to a pressure no higher than 5 psig\" before it is opened, or the oil can be drained into a system receiver brought to that level. The 0 psig level applies to other non-major repairs.",
+      "explanation": "For oil changes, the appliance must \"be evacuated or pressurized to a pressure no higher than 5 psig, before it is opened,\" or the oil can be drained into a system receiver brought to that level. 0 psig is the limit paragraph (a)(1)(i) sets for opening medium-, high- or very high-pressure appliances, not the oil-change limit, and 10 or 15 psig would exceed 5 psig.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -422,10 +422,10 @@
     {
       "id": "t2-024",
       "topic": "Verification and inspections",
-      "question": "A commercial refrigeration appliance with a full charge of 500 or more pounds of a class I or class II refrigerant has exceeded its allowed leak rate. It has no automatic leak detection system. How often must leak inspections be done?",
+      "question": "A commercial refrigeration appliance with a full charge of 500 or more pounds of a class I or class II refrigerant has exceeded its allowed leak rate. It has no automatic leak detection system. What leak inspection schedule does 40 CFR 82.157 set for it?",
       "options": {
         "A": "Once per calendar year",
-        "B": "Once a month",
+        "B": "Once every two years",
         "C": "Once every five years",
         "D": "Once every three months"
       },
@@ -440,11 +440,11 @@
     {
       "id": "t2-025",
       "topic": "Records and certification",
-      "question": "Unless otherwise specified, for how long must the records required by 40 CFR 82.157 (for appliances with a full charge of 50 or more pounds of a class I or class II refrigerant) be kept?",
+      "question": "Unless otherwise specified, what minimum retention period does 40 CFR 82.157 set for the records it requires (for appliances with a full charge of 50 or more pounds of a class I or class II refrigerant)?",
       "options": {
-        "A": "At least one year",
-        "B": "At least three years",
-        "C": "At least five years",
+        "A": "One year",
+        "B": "Three years",
+        "C": "Five years",
         "D": "Only until the next leak inspection"
       },
       "answer": "B",
@@ -476,7 +476,7 @@
     {
       "id": "t2-027",
       "topic": "Evacuation levels",
-      "question": "A medium-pressure appliance with no leaks has a full charge of less than 200 pounds. Before a major repair or disposal, using recovery equipment manufactured or imported on or after November 15, 1993, to what level must it be evacuated?",
+      "question": "A medium-pressure appliance with no leaks has a full charge of less than 200 pounds. Before a major repair or disposal, using recovery equipment manufactured or imported on or after November 15, 1993, which evacuation level does Table 1 in 40 CFR 82.156 set for it?",
       "options": {
         "A": "0 inches of Hg vacuum",
         "B": "10 inches of Hg vacuum",
@@ -512,7 +512,7 @@
     {
       "id": "t2-029",
       "topic": "Evacuation levels",
-      "question": "A medium-pressure appliance with no leaks has a full charge of less than 200 pounds. Before a major repair or disposal, using recovery equipment manufactured or imported before November 15, 1993, to what level must it be evacuated?",
+      "question": "A medium-pressure appliance with no leaks has a full charge of less than 200 pounds. Before a major repair or disposal, using recovery equipment manufactured or imported before November 15, 1993, which evacuation level does Table 1 in 40 CFR 82.156 set for it?",
       "options": {
         "A": "4 inches of Hg vacuum",
         "B": "10 inches of Hg vacuum",
@@ -646,7 +646,7 @@
         "D": "12 months"
       },
       "answer": "D",
-      "explanation": "The rule says \"The leaks will be presumed to be repaired if there is no further refrigerant addition for 12 months after the repair.\" The 10- and 30-day periods are deadlines for verification tests and repairs, not the presumption period.",
+      "explanation": "The rule says the leaks \"will be presumed to be repaired if there is no further refrigerant addition for 12 months after the repair\" or if the required leak inspections find no leaks. The 10- and 30-day periods are deadlines for verification tests and repairs, not the presumption period.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -692,7 +692,7 @@
     {
       "id": "t2-040",
       "topic": "Leak repair",
-      "question": "The owner of an appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant) writes a retrofit or retirement plan. The plan must include a schedule for completing the work that does not exceed how long?",
+      "question": "The owner of an appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant) writes a retrofit or retirement plan. What is the longest schedule for completing the work that the plan may set?",
       "options": {
         "A": "30 days",
         "B": "90 days",
@@ -710,7 +710,7 @@
     {
       "id": "t2-041",
       "topic": "Leak repair",
-      "question": "An appliance with 50 pounds or more of a class I or class II refrigerant leaked 125 percent or more of its full charge this calendar year. By what date must the owner or operator submit a report to EPA?",
+      "question": "An appliance with 50 pounds or more of a class I or class II refrigerant leaked 125 percent or more of its full charge this calendar year. What deadline does 40 CFR 82.157 set for the owner or operator to submit a report to EPA?",
       "options": {
         "A": "December 31 of the same year",
         "B": "January 30 of the next year",
@@ -746,7 +746,7 @@
     {
       "id": "t2-043",
       "topic": "Verification and inspections",
-      "question": "An automatic leak detection system that directly detects refrigerant in air is used on an appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant). At what refrigerant concentration must it alert the owner or operator?",
+      "question": "An automatic leak detection system that directly detects refrigerant in air is used on an appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant). What refrigerant concentration does the rule set as the level at which it must alert the owner or operator?",
       "options": {
         "A": "10 parts per million",
         "B": "100 parts per million",

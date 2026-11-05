@@ -8,7 +8,7 @@
     {
       "id": "t1-001",
       "topic": "Definitions",
-      "question": "To count as a small appliance, an appliance must be factory-sealed with no more than how much refrigerant?",
+      "question": "What is the largest refrigerant charge an appliance can be factory-sealed with and still meet the definition of a small appliance?",
       "options": {
         "A": "15 pounds",
         "B": "5 pounds",
@@ -80,7 +80,7 @@
     {
       "id": "t1-005",
       "topic": "Recovery requirements",
-      "question": "Using recovery equipment made on or after November 15, 1993, how much of the refrigerant must you recover from a small appliance whose compressor is working?",
+      "question": "Using recovery equipment made on or after November 15, 1993, what recovery level does the rule set for a small appliance whose compressor is working?",
       "options": {
         "A": "80 percent",
         "B": "70 percent",
@@ -98,7 +98,7 @@
     {
       "id": "t1-006",
       "topic": "Recovery requirements",
-      "question": "Using recovery equipment made on or after November 15, 1993, how much of the refrigerant must you recover from a small appliance whose compressor is not working?",
+      "question": "Using recovery equipment made on or after November 15, 1993, what recovery level does the rule set for a small appliance whose compressor is not working?",
       "options": {
         "A": "80 percent",
         "B": "90 percent",
@@ -116,7 +116,7 @@
     {
       "id": "t1-007",
       "topic": "Recovery requirements",
-      "question": "Using recovery equipment manufactured before November 15, 1993, how much of the refrigerant must you recover from a small appliance?",
+      "question": "Using recovery equipment manufactured before November 15, 1993, what recovery level does the rule set for a small appliance?",
       "options": {
         "A": "90 percent",
         "B": "95 percent",
@@ -134,15 +134,15 @@
     {
       "id": "t1-008",
       "topic": "Recovery requirements",
-      "question": "Instead of meeting a recovery percentage, to what level may you evacuate a small appliance before opening or disposing of it?",
+      "question": "Instead of meeting a recovery percentage, what evacuation level does the rule set for a small appliance before it is opened or disposed of?",
       "options": {
-        "A": "10 inches of mercury vacuum",
+        "A": "0 psig",
         "B": "4 inches of mercury vacuum",
-        "C": "15 inches of mercury vacuum",
-        "D": "25 mm of mercury absolute"
+        "C": "5 psig",
+        "D": "2 inches of mercury vacuum"
       },
       "answer": "B",
-      "explanation": "The small appliance rule lets you meet either the recovery percentages or \"evacuate the appliance to four inches of mercury vacuum.\" The 10-inch, 15-inch and 25 mm absolute levels appear in Table 1, which does not apply to small appliances.",
+      "explanation": "The small appliance rule lets you meet either the recovery percentages or \"evacuate the appliance to four inches of mercury vacuum.\" The 0 psig and 5 psig levels appear in 82.156(a), which covers appliances \"except small appliances, MVACs, and MVAC-like appliances,\" and a 2-inch vacuum does not reach the four-inch level.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -170,7 +170,7 @@
     {
       "id": "t1-010",
       "topic": "Recovery requirements",
-      "question": "Unless it is permanently attached as a pump-out unit, system-dependent recovery equipment may not be used on appliances with a full charge of more than how much refrigerant?",
+      "question": "Unless it is permanently attached to the appliance as a pump-out unit, what is the largest full charge an appliance may have for system-dependent recovery equipment to be used on it?",
       "options": {
         "A": "5 pounds",
         "B": "50 pounds",
@@ -178,7 +178,7 @@
         "D": "200 pounds"
       },
       "answer": "C",
-      "explanation": "System-dependent equipment \"may not be used with appliances with a full charge of more than 15 pounds\" of refrigerant, unless it is permanently attached as a pump-out unit. Five pounds is the small appliance limit, not the system-dependent equipment limit.",
+      "explanation": "System-dependent equipment \"may not be used with appliances with a full charge of more than 15 pounds\" of refrigerant, unless it is permanently attached as a pump-out unit, so 15 pounds is the largest charge allowed. Charges of 50 or 200 pounds are over that limit, and five pounds is the small appliance limit.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -242,7 +242,7 @@
     {
       "id": "t1-014",
       "topic": "Equipment",
-      "question": "Who must certify recovery equipment used on small appliances?",
+      "question": "Who must certify recovery equipment made or imported on or after November 15, 1993, for use on small appliances?",
       "options": {
         "A": "The technician's certifying program",
         "B": "An approved equipment testing organization",
@@ -250,7 +250,7 @@
         "D": "A certified refrigerant reclaimer"
       },
       "answer": "B",
-      "explanation": "Equipment used on small appliances \"must be certified by an approved equipment testing organization\" to meet the required recovery levels.",
+      "explanation": "Equipment used on small appliances \"must be certified by an approved equipment testing organization\" to meet the required recovery levels. Equipment made or imported before November 15, 1993, instead \"will be considered certified if it is capable\" of the levels in 82.158(e)(1).",
       "source": {
         "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
@@ -638,7 +638,7 @@
     {
       "id": "t1-038",
       "topic": "Technician certification",
-      "question": "A Type I program uses the mail-in format. By when must it issue a certification card to a technician who passed?",
+      "question": "A Type I program uses the mail-in format. What deadline does Appendix D set for it to issue a certification card to a technician who passed?",
       "options": {
         "A": "No later than 60 days from the date the technician mailed the test",
         "B": "No later than 30 days from the date the program receives the completed test and any required documentation",
@@ -674,7 +674,7 @@
     {
       "id": "t1-040",
       "topic": "Technician certification",
-      "question": "For an in-person Type I test, how many registered proctors must a certifying program designate?",
+      "question": "For an in-person Type I test, what proctor ratio does Appendix D set for a certifying program?",
       "options": {
         "A": "At least one for every 10 people testing at the same time at a site",
         "B": "At least one for every 25 people testing at the same time at a site",
