@@ -1,6 +1,15 @@
 import Link from "next/link";
 import Logo from "@/components/Logo";
+import { ALL_CLUSTERS } from "@/lib/clusters";
 import { NAV } from "@/lib/site";
+
+// Certifications that are live get their own menu link, read from the roadmap, so the header never hard-codes
+// one cluster. Short names: "EPA Section 608" → "EPA 608".
+const LIVE = ALL_CLUSTERS.filter((c) => c.status === "available" && c.href).map((c) => ({
+  label: c.name.replace(/Section /, ""),
+  href: c.href!,
+}));
+const ITEMS = [NAV[0]!, ...LIVE, ...NAV.slice(1)];
 
 function NavItem({ label, href }: { label: string; href?: string }) {
   if (!href) {
@@ -28,7 +37,7 @@ export default function SiteHeader() {
 
         <nav aria-label="Main" className="hidden md:block">
           <ul className="flex items-center gap-7 text-[0.9375rem]">
-            {NAV.map((item) => (
+            {ITEMS.map((item) => (
               <li key={item.label}>
                 <NavItem {...item} />
               </li>
@@ -49,7 +58,7 @@ export default function SiteHeader() {
             className="absolute right-0 z-40 mt-2 w-56 rounded-md border border-line bg-panel p-2 shadow-[0_8px_24px_rgba(16,36,58,0.12)]"
           >
             <ul className="text-[0.9375rem]">
-              {NAV.map((item) => (
+              {ITEMS.map((item) => (
                 <li key={item.label} className="px-2 py-2">
                   <NavItem {...item} />
                 </li>
