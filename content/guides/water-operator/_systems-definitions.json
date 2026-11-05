@@ -74,7 +74,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The third option: the State determines that water for residential or similar uses is centrally treated, or treated at the point of entry by the provider, a pass-through entity or the user, to the equivalent level of protection.",
+          "text": "The third option: the State determines that the water provided for residential or similar uses for drinking, cooking and bathing is centrally treated, or treated at the point of entry by the provider, a pass-through entity or the user, to the equivalent level of protection.",
           "quote": "(3) The State determines that the water provided for residential or similar uses for drinking, cooking, and bathing is centrally treated or treated at the point of entry by the provider, a pass-through entity, or the user to achieve the equivalent level of protection provided by the applicable national primary drinking water regulations.",
           "source": {
             "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
@@ -96,7 +96,7 @@
     },
     {
       "id": "system-types",
-      "name": "System types",
+      "name": "System types and responsible parties",
       "points": [
         {
           "text": "A community water system serves at least 15 service connections used by year-round residents or regularly serves at least 25 year-round residents.",
@@ -274,7 +274,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A maximum contaminant level goal (MCLG) is the level at which no known or anticipated adverse health effect would occur, with an adequate margin of safety. MCLGs are nonenforceable health goals.",
+          "text": "A maximum contaminant level goal (MCLG) is the maximum level of a contaminant in drinking water at which no known or anticipated adverse effect on the health of persons would occur, and which allows an adequate margin of safety. MCLGs are nonenforceable health goals.",
           "quote": "Maximum contaminant level goal or MCLG means the maximum level of a contaminant in drinking water at which no known or anticipated adverse effect on the health of persons would occur, and which allows an adequate margin of safety. Maximum contaminant level goals are nonenforceable health goals.",
           "source": {
             "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
@@ -283,7 +283,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A maximum residual disinfectant level (MRDL) is a level of an added disinfectant that may not be exceeded at the consumer's tap without an unacceptable possibility of adverse health effects.",
+          "text": "A maximum residual disinfectant level (MRDL) is a level of a disinfectant added for water treatment that may not be exceeded at the consumer's tap without an unacceptable possibility of adverse health effects.",
           "quote": "Maximum residual disinfectant level (MRDL) means a level of a disinfectant added for water treatment that may not be exceeded at the consumer's tap without an unacceptable possibility of adverse health effects.",
           "source": {
             "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
@@ -328,7 +328,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "\"Action level\" is defined for subpart I only. The current text (the 2024 revision of the Lead and Copper Rule, with compliance required by November 1, 2027) states a lead action level of 0.010 mg/L and a copper action level of 1.3 mg/L.",
+          "text": "\"Action level\" is defined for subpart I only, as the lead or copper concentrations specified in 141.80(c) that determine requirements under subpart I. The current text, from the 2024 revision of the Lead and Copper Rule (community and non-transient non-community systems must comply with the revised subpart I no later than November 1, 2027, with exceptions stated in 141.80), sets a lead action level of 0.010 mg/L and a copper action level of 1.3 mg/L.",
           "quote": "Action level, for the purpose of subpart I of this part only, means the concentrations of lead or copper in water as specified in § 141.80(c) which determines requirements under subpart I of this part. The lead action level is 0.010 mg/L and the copper action level is 1.3 mg/L.",
           "source": {
             "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
@@ -434,8 +434,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A Level 1 assessment, under the coliform rules, is conducted by the system operator or owner.",
-          "quote": "It is conducted by the system operator or owner.",
+          "text": "A Level 1 assessment is an evaluation to identify the possible presence of sanitary defects, defects in distribution system coliform monitoring practices, and (when possible) the likely reason the system triggered the assessment. It is conducted by the system operator or owner.",
+          "quote": "Level 1 assessment is an evaluation to identify the possible presence of sanitary defects, defects in distribution system coliform monitoring practices, and (when possible) the likely reason that the system triggered the assessment. It is conducted by the system operator or owner.",
           "source": {
             "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
@@ -443,8 +443,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A Level 2 assessment is a more detailed examination than a Level 1 and is conducted by an individual approved by the State, which may include the system operator.",
-          "quote": "It is conducted by an individual approved by the State, which may include the system operator.",
+          "text": "A Level 2 assessment provides a more detailed examination of the system (including its monitoring and operational practices) than a Level 1 assessment. It is conducted by an individual approved by the State, which may include the system operator.",
+          "quote": "A Level 2 assessment provides a more detailed examination of the system (including the system's monitoring and operational practices) than does a Level 1 assessment through the use of more comprehensive investigation and review of available information, additional internal and external resources, and other relevant practices. It is conducted by an individual approved by the State, which may include the system operator.",
           "source": {
             "title": "eCFR: 40 CFR 141.2, Definitions (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.2"
@@ -477,8 +477,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The stay of 141.4 for the total coliform MCL in 141.63(a) lasted until March 31, 2016, when the total coliform MCL stopped being effective.",
-          "quote": "This is stayed until March 31, 2016, at which time the total coliform MCL is no longer effective.",
+          "text": "EPA stayed the effective date of 141.4 for the total coliform MCL of 141.63(a) only for systems that demonstrate to the State that the violation is due to persistent growth of total coliforms in the distribution system rather than fecal or pathogenic contamination, a treatment lapse or deficiency, or an operation or maintenance problem. The stay ran until March 31, 2016, when the total coliform MCL stopped being effective.",
+          "quote": "EPA has stayed the effective date of this section relating to the total coliform MCL of § 141.63(a) for systems that demonstrate to the State that the violation of the total coliform MCL is due to a persistent growth of total coliforms in the distribution system rather than fecal or pathogenic contamination, a treatment lapse or deficiency, or a problem in the operation or maintenance of the distribution system. This is stayed until March 31, 2016, at which time the total coliform MCL is no longer effective.",
           "source": {
             "title": "eCFR: 40 CFR 141.4, Variances and exemptions (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-A/section-141.4"
