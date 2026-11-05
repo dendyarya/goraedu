@@ -47,7 +47,7 @@ export default async function TopicPage({ params }: Props) {
       crumbs={[
         { label: "Home", href: "/" },
         { label: "EPA 608", href: "/epa-608/" },
-        { label: g.title.replace(/^EPA 608 /, "") },
+        { label: g.title.replace(/^EPA 608 (.)/, (_, c: string) => c.toUpperCase()) },
       ]}
       title={g.title}
       lead={g.intro}
