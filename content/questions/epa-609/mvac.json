@@ -8,15 +8,15 @@
     {
       "id": "m-001",
       "topic": "Who must be certified",
-      "question": "Under 40 CFR 82.30(b), who do the Subpart B regulations on motor vehicle air conditioners apply to?",
+      "question": "A mechanic is paid to replace a car's water pump and does no work on the air conditioning refrigerant circuit. Under 40 CFR 82.30(b), do the Subpart B motor vehicle air conditioner rules apply to that job?",
       "options": {
-        "A": "Only people who own a repair shop",
-        "B": "Any person performing service on a motor vehicle for consideration when the service involves the refrigerant in the motor vehicle air conditioner",
-        "C": "Only people who service a vehicle's engine cooling system",
-        "D": "Only dealers that sell new motor vehicles"
+        "A": "Yes, because they cover every paid repair on a motor vehicle",
+        "B": "No, because the service does not involve the refrigerant in the motor vehicle air conditioner",
+        "C": "Yes, whenever the vehicle is equipped with an air conditioner",
+        "D": "Yes, but only if the mechanic works at a new-car dealership"
       },
       "answer": "B",
-      "explanation": "The rules apply to \"any person performing service on a motor vehicle for consideration when this service involves the refrigerant in the motor vehicle air conditioner.\" Owning a shop is not the test; being paid for service that involves the refrigerant is. Separately, the prohibitions in § 82.34(a) also name \"no person repairing or servicing MVAC-like appliances\" without the \"for consideration\" condition.",
+      "explanation": "Subpart B applies to \"any person performing service on a motor vehicle for consideration when this service involves the refrigerant in the motor vehicle air conditioner.\" Being paid is only half of the test; a job that never touches the refrigerant is outside it.",
       "source": {
         "title": "eCFR: 40 CFR 82.30, Purpose and scope (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.30"
@@ -26,15 +26,15 @@
     {
       "id": "m-002",
       "topic": "Definitions",
-      "question": "A mechanic repairs a customer's car air conditioner and is paid with a set of tires instead of money. Under EPA's definition, is this \"service for consideration\"?",
+      "question": "Under 40 CFR 82.32(b), who certifies equipment as \"approved refrigerant recycling equipment\" meeting one of the standards in § 82.36?",
       "options": {
-        "A": "Yes, because payment in goods counts as consideration",
-        "B": "No, because only cash payments count",
-        "C": "No, because no invoice was written",
-        "D": "Yes, but only if the tires are worth more than the repair"
+        "A": "The EPA Administrator or an organization approved under § 82.38",
+        "B": "The equipment's manufacturer, by its own declaration",
+        "C": "Any repair shop that has used the equipment for a year",
+        "D": "The state agency that registers motor vehicles"
       },
       "answer": "A",
-      "explanation": "\"Service for consideration\" means being paid to perform service, \"whether it is in cash, credit, goods, or services.\" Payment in goods counts, so the cash-only answer is wrong; the only service left out is service \"done for free.\"",
+      "explanation": "Approved refrigerant recycling equipment means \"equipment certified by the Administrator or an organization approved under § 82.38 as meeting either one of the standards in § 82.36.\" A manufacturer's own claim, a shop's experience or a state vehicle agency is not named.",
       "source": {
         "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
@@ -44,15 +44,15 @@
     {
       "id": "m-003",
       "topic": "Definitions",
-      "question": "A technician adds refrigerant to a car's air conditioner and does no other refrigerant work (a \"top-off\"). How does EPA classify this?",
+      "question": "Under 40 CFR 82.32(e)(1), \"properly using\" equipment means using it in conformity with the Subpart B regulations. Which of these does the definition expressly include?",
       "options": {
-        "A": "It is not regulated because no refrigerant is removed",
-        "B": "It counts only if more than one pound is added",
-        "C": "It is \"service involving refrigerant\"",
-        "D": "It counts only for vehicles built after 1995"
+        "A": "The repair shop's own pricing policy for refrigerant work",
+        "B": "Whatever procedure the vehicle owner asks for",
+        "C": "The recommended service procedures and practices for the containment of refrigerant set forth in § 82.36(a) and the appendices to Subpart B",
+        "D": "The state's vehicle emissions inspection schedule"
       },
       "answer": "C",
-      "explanation": "\"Service involving refrigerant\" includes \"any service in which an MVAC or MVAC-like appliance is charged with refrigerant but no other service involving refrigerant is performed (i.e., a \"top-off\").\" Removing refrigerant is not required for the work to count.",
+      "explanation": "Properly using includes \"the prohibitions and required practices set forth in § 82.34, and the recommended service procedures and practices for the containment of refrigerant set forth in § 82.36(a) and appendices A, B, C, D, E, and F to this subpart, as applicable.\" Pricing, owner requests and inspection schedules are not part of the definition.",
       "source": {
         "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
@@ -116,15 +116,15 @@
     {
       "id": "m-007",
       "topic": "Definitions",
-      "question": "Which system fits EPA's definition of a \"motor vehicle air conditioner\" (MVAC)?",
+      "question": "EPA's definition of \"motor vehicle air conditioners\" in 40 CFR 82.32(d) describes them as which kind of equipment?",
       "options": {
-        "A": "A hermetically sealed refrigeration system for refrigerated cargo on a truck",
-        "B": "The air conditioning system on a passenger bus using HCFC-22 refrigerant",
-        "C": "Vapor compression equipment that cools the driver's compartment of a pickup truck",
-        "D": "A window air conditioner in a car dealership's office"
+        "A": "Absorption refrigeration equipment driven by engine exhaust heat",
+        "B": "Thermoelectric cooling modules mounted in the dashboard",
+        "C": "Mechanical vapor compression refrigeration equipment used to cool the driver's or passenger's compartment",
+        "D": "Evaporative coolers that spray water into the incoming air"
       },
       "answer": "C",
-      "explanation": "An MVAC is \"mechanical vapor compression refrigeration equipment used to cool the driver's or passenger's compartment of any motor vehicle.\" The definition is not meant to cover sealed refrigerated-cargo systems or passenger buses using HCFC-22.",
+      "explanation": "Motor vehicle air conditioners means \"mechanical vapor compression refrigeration equipment used to cool the driver's or passenger's compartment of any motor vehicle.\" The definition names vapor compression, not absorption, thermoelectric or evaporative cooling.",
       "source": {
         "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
@@ -224,72 +224,72 @@
     {
       "id": "m-013",
       "topic": "Required practices",
-      "question": "Refrigerant from a reclamation facility is going to be used to recharge motor vehicle air conditioners. What purity must it meet?",
+      "question": "A technician certified under § 82.34(a)(2) buys refrigerant whose sale is restricted under Subpart F. It was extracted from an MVAC bound for disposal at a motor vehicle disposal facility and was not reclaimed. Under § 82.34(d)(2), how may the technician re-use it?",
       "options": {
-        "A": "At or above the ARI 700-93 standard of purity",
-        "B": "Any purity, because reclaimed refrigerant is always clean",
-        "C": "Only the purity printed on the vehicle's label",
-        "D": "At least 50 percent pure"
+        "A": "Only in an MVAC or MVAC-like appliance, and only if it has been reclaimed or properly recycled",
+        "B": "In any refrigeration or air conditioning appliance, as long as it is used within one year",
+        "C": "In any MVAC exactly as it came from the disposal facility",
+        "D": "Only after selling it back to the disposal facility"
       },
       "answer": "A",
-      "explanation": "Reclaimed refrigerant used to recharge MVACs \"must be at or above the standard of purity developed by the Air-conditioning and Refrigeration Institute (ARI 700-93).\" The rule sets a specific standard, so accepting any purity is wrong.",
+      "explanation": "The paragraph says such a technician \"may subsequently re-use such refrigerant only in an MVAC or MVAC-like appliance, and only if it has been reclaimed or properly recycled.\" Using it as-is, or in other kinds of appliances, does not meet both conditions.",
       "source": {
-        "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+        "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
       },
       "checked": "2026-11-05"
     },
     {
       "id": "m-014",
       "topic": "Required practices",
-      "question": "When must approved equipment be used to extract refrigerant from a motor vehicle air conditioner?",
+      "question": "Under 40 CFR 82.34(e), when may refrigerant handling equipment manufactured or imported for use during the maintenance, service or repair of MVACs for consideration be introduced into interstate commerce?",
       "options": {
-        "A": "Only when the whole system is being replaced",
-        "B": "Only when the customer asks for it",
-        "C": "Only when the vehicle is more than ten years old",
-        "D": "Before performing any service during which discharge of refrigerant can reasonably be expected"
+        "A": "Whenever it is labeled for professional use",
+        "B": "After it has been used in the field for one year",
+        "C": "Whenever the importer pays a registration fee",
+        "D": "Only if it meets the requirements of § 82.36"
       },
       "answer": "D",
-      "explanation": "\"In any event, approved equipment must be used to extract refrigerant prior to performing any service during which discharge of refrigerant from the motor vehicle air conditioner can reasonably be expected.\" The trigger is the expected discharge, not the customer's request.",
+      "explanation": "Such equipment \"cannot be introduced into interstate commerce unless meeting the requirements of § 82.36.\" A label, field use or a fee does not replace meeting the equipment standards.",
       "source": {
-        "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+        "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
       },
       "checked": "2026-11-05"
     },
     {
       "id": "m-015",
       "topic": "Required practices",
-      "question": "How does Subpart B treat intentionally venting refrigerant to the atmosphere?",
+      "question": "Refrigerant is recovered from an MVAC bound for disposal at a motor vehicle disposal facility, using approved refrigerant recycling equipment dedicated for use with MVACs and MVAC-like appliances. It will not be reclaimed. Under § 82.34(d)(1)(ii)(B), what must happen before it is charged into another MVAC?",
       "options": {
-        "A": "It is allowed if the amount is small",
-        "B": "It is allowed for top-offs",
-        "C": "It is an improper use of equipment",
-        "D": "It is allowed if the refrigerant is contaminated"
+        "A": "Nothing; it may be charged into another MVAC as recovered",
+        "B": "It must be returned to the company that originally produced it",
+        "C": "It must be recycled by the facility that charges or recharges it, properly using approved refrigerant recycling equipment",
+        "D": "It must be inspected at an EPA regional office"
       },
       "answer": "C",
-      "explanation": "The rule states: \"Intentionally venting or disposing of refrigerant to the atmosphere is an improper use of equipment.\" It gives no small-amount or top-off allowance.",
+      "explanation": "The refrigerant must be \"Subsequently recycled by the facility that charges or recharges the refrigerant into an MVAC or MVAC-like appliance, properly using approved refrigerant recycling equipment in accordance with any applicable recommended service procedures set forth in the appendices to this subpart B.\" Recovery alone is not enough.",
       "source": {
-        "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+        "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
       },
       "checked": "2026-11-05"
     },
     {
       "id": "m-016",
       "topic": "Approved equipment",
-      "question": "A shop's machine is designed for one specific refrigerant. Besides following the manufacturer's operating and maintenance guide, what does \"properly using\" the machine include?",
+      "question": "Under the SAE J1990 equipment specification in Appendix A, how must CFC-12 (R-12) recycling equipment deal with noncondensable gases (NCGs)?",
       "options": {
-        "A": "Using it for any refrigerant once the filter is changed",
-        "B": "Using it only for the controlled substance for which the machine is designed",
-        "C": "Using it for any refrigerant with the same pressure range",
-        "D": "Using it for other refrigerants if the shop labels the tank"
+        "A": "It must release all refrigerant along with the NCGs at the end of each job",
+        "B": "It must automatically purge NCGs if the acceptable level is exceeded, or have a device that alerts the operator that the NCG level has been exceeded",
+        "C": "It may ignore NCGs, because only moisture matters",
+        "D": "It must ship every container with NCGs to a reclaimer"
       },
       "answer": "B",
-      "explanation": "Properly using includes \"operating the equipment in accordance with the manufacturer's guide to operation and maintenance and using the equipment only for the controlled substance for which the machine is designed.\" A filter change or label does not change what the machine is designed for.",
+      "explanation": "\"The equipment shall either automatically purge noncondensables (NCGs) if the acceptable level is exceeded or incorporate a device to alert the operator that NCG level has been exceeded.\" NCG removal \"must be part of normal operation of the equipment.\"",
       "source": {
-        "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
+        "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
       },
       "checked": "2026-11-05"
     },
@@ -332,15 +332,15 @@
     {
       "id": "m-019",
       "topic": "Who must be certified",
-      "question": "A technician repairs MVACs for paying customers and does service involving the refrigerant. Who must have trained and certified the technician?",
+      "question": "Under 40 CFR 82.34(c), when may a technician training program issue certificates?",
       "options": {
-        "A": "The vehicle's manufacturer",
-        "B": "A technician certification program approved by the EPA Administrator under § 82.40",
-        "C": "The state motor vehicle department",
-        "D": "The refrigerant supplier"
+        "A": "Once it has trained at least 100 technicians",
+        "B": "Only if the program complies with all of the standards in § 82.40(a)",
+        "C": "Whenever a technician pays the program's fee",
+        "D": "Once a state licensing board has reviewed its test"
       },
       "answer": "B",
-      "explanation": "No person servicing MVACs for consideration may do service involving the refrigerant \"unless any such person repairing or servicing an MVAC has been properly trained and certified by a technician certification program approved by the Administrator pursuant to § 82.40.\"",
+      "explanation": "\"No technician training programs may issue certificates unless the program complies with all of the standards in § 82.40(a).\" Those standards cover training, test subject material, test administration and proof of certification.",
       "source": {
         "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
@@ -368,15 +368,15 @@
     {
       "id": "m-021",
       "topic": "Refrigerant sales",
-      "question": "The sales restriction in § 82.34(b) on class I and class II MVAC refrigerant applies to containers holding how much refrigerant?",
+      "question": "As a promotion, a parts store gives away a 12-ounce can of CFC-12 refrigerant, free, to a customer who is not certified under § 82.40 and is not buying for resale. Does § 82.34(b) reach this giveaway?",
       "options": {
-        "A": "More than 20 pounds",
-        "B": "Less than 50 pounds",
-        "C": "Less than 20 pounds",
-        "D": "Exactly 30 pounds"
+        "A": "No, because no money changed hands",
+        "B": "No, because cans holding less than one pound are exempt",
+        "C": "Yes, because the paragraph covers distributing such containers, not only selling them",
+        "D": "No, because the rule regulates only the person who receives the can"
       },
       "answer": "C",
-      "explanation": "The restriction covers refrigerant \"in a container which contains less than 20 pounds of such refrigerant.\" Containers of more than 20 pounds are outside this paragraph.",
+      "explanation": "Section 82.34(b) says \"no person may sell or distribute, or offer for sale or distribution\" such refrigerant in \"a container which contains less than 20 pounds of such refrigerant to any person unless that person is properly trained and certified under § 82.40 or intended the containers for resale only.\" A free can is still distributed, and a 12-ounce can is well under 20 pounds.",
       "source": {
         "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
@@ -422,15 +422,15 @@
     {
       "id": "m-024",
       "topic": "Approved equipment",
-      "question": "A shop buys a machine that recovers and recycles HFO-1234yf refrigerant from MVACs and recharges MVAC systems with HFO-1234yf. Which standard must it meet?",
+      "question": "Under 40 CFR 82.36(c), how does the EPA Administrator maintain the list of approved refrigerant handling equipment?",
       "options": {
-        "A": "SAE J2851",
-        "B": "SAE J3030",
-        "C": "SAE J2843",
-        "D": "Appendix B of Subpart B"
+        "A": "By the name of each repair shop that owns the equipment",
+        "B": "By the state where the equipment was sold",
+        "C": "By manufacturer and model",
+        "D": "By the price of the equipment"
       },
       "answer": "C",
-      "explanation": "Equipment that \"recovers and recycles HFO-1234yf refrigerant from MVACs and recharges MVAC systems with HFO-1234yf refrigerant must meet the standards set forth in SAE J2843.\" SAE J3030 is for machines that handle both HFO-1234yf and R-134a.",
+      "explanation": "\"The Administrator will maintain a list of approved equipment by manufacturer and model.\" The list is not organized by owner, state or price.",
       "source": {
         "title": "eCFR: 40 CFR 82.36, Approved refrigerant handling equipment (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.36"
@@ -440,15 +440,15 @@
     {
       "id": "m-025",
       "topic": "Approved equipment",
-      "question": "Which standard applies to equipment that recovers, but does not recycle, contaminated HFC-134a and/or HFO-1234yf refrigerant from MVACs?",
+      "question": "A machine recovers, but does not recycle, a single, specific MVAC refrigerant that is not CFC-12, HFC-134a or HFO-1234yf. Under 40 CFR 82.36(a)(7), which standards must it meet?",
       "options": {
-        "A": "SAE J2851",
-        "B": "SAE J2843",
-        "C": "SAE J3030",
-        "D": "Appendix A of Subpart B"
+        "A": "Appendix F of Subpart B",
+        "B": "Appendix A of Subpart B",
+        "C": "Appendix E of Subpart B",
+        "D": "Appendix H of Subpart G"
       },
       "answer": "A",
-      "explanation": "Equipment that \"recovers but does not recycle contaminated HFC-134a and/or HFO-1234yf refrigerant from MVACs must meet the standards set forth in SAE J2851.\" SAE J2843 covers HFO-1234yf recover, recycle and recharge machines instead.",
+      "explanation": "\"Equipment that recovers but does not recycle refrigerants other than CFC-12, HFC-134a, and HFO-1234yf must meet the standards set forth in appendix F of this subpart.\" Appendix A covers CFC-12 recover-and-recycle equipment and Appendix E covers CFC-12 and HFC-134a equipment using common circuitry.",
       "source": {
         "title": "eCFR: 40 CFR 82.36, Approved refrigerant handling equipment (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.36"
@@ -620,15 +620,15 @@
     {
       "id": "m-035",
       "topic": "Shop certification and records",
-      "question": "Under 40 CFR 82.42(a), who must certify to EPA that they have acquired, and are properly using, approved equipment?",
+      "question": "Under 40 CFR 82.42(a)(1), who signs the statement certifying to EPA that approved equipment has been acquired and is being properly used?",
       "options": {
-        "A": "Only vehicle manufacturers",
-        "B": "Any person repairing or servicing motor vehicle air conditioners for consideration",
-        "C": "Only shops with more than ten technicians",
-        "D": "Only people who service their own vehicles at home"
+        "A": "An EPA regional inspector",
+        "B": "The owner of the equipment or another responsible officer",
+        "C": "The equipment's manufacturer",
+        "D": "Each customer whose vehicle is serviced"
       },
       "answer": "B",
-      "explanation": "\"Any person repairing or servicing motor vehicle air conditioners for consideration shall certify to the Administrator\" that they have and properly use approved equipment and that each authorized user is trained and certified. The rule covers anyone who services MVACs \"for consideration\" (for pay), so shop size does not matter and people working on their own car are not the group named.",
+      "explanation": "\"Certification shall take the form of a statement signed by the owner of the equipment or another responsible officer.\" The statement must also say \"that the information given is true and correct.\"",
       "source": {
         "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
@@ -692,15 +692,15 @@
     {
       "id": "m-039",
       "topic": "Shop certification and records",
-      "question": "What is the minimum period for keeping the records required by 40 CFR 82.42, unless otherwise indicated?",
+      "question": "An authorized representative of the EPA Administrator arrives at a business that services MVACs for consideration and presents credentials. Under 40 CFR 82.42(b)(5), what must the business do?",
       "options": {
-        "A": "One year",
-        "B": "Three years",
-        "C": "Six months",
-        "D": "Until the equipment is sold"
+        "A": "Refuse entry until a court order is shown",
+        "B": "Allow entry onto its premises and give access to all records required under § 82.42",
+        "C": "Allow entry but keep its records closed",
+        "D": "Mail copies of its records to EPA within 90 days instead"
       },
       "answer": "B",
-      "explanation": "\"All records required to be maintained pursuant to this section must be kept for a minimum of three years unless otherwise indicated.\" The rule sets three years as the minimum; one year, six months or the date the equipment is sold are not the period it names.",
+      "explanation": "Such entities \"must allow an authorized representative of the Administrator entry onto their premises (upon presentation of his or her credentials) and give the authorized representative access to all records required to be maintained pursuant to this section.\" Both entry and record access are required.",
       "source": {
         "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.42"
@@ -800,15 +800,15 @@
     {
       "id": "m-045",
       "topic": "Service procedures",
-      "question": "Under the purity standard in Appendix A, what is the moisture limit for recycled CFC-12 (R-12) that was removed from, and will be returned to, a mobile air-conditioning system?",
+      "question": "Under the checking procedure in Appendix A, a stored container of recycled R-12 is at 80 °F and its pressure is above the Table 1 value for that temperature. What is the next step?",
       "options": {
-        "A": "150 ppm by weight",
-        "B": "4000 ppm by weight",
-        "C": "1 percent by weight",
-        "D": "15 ppm by weight"
+        "A": "Use it, because high pressure shows the container is full",
+        "B": "Release the container's entire contents to the atmosphere",
+        "C": "Add virgin R-12 to the container to dilute the air",
+        "D": "Slowly vent a small amount of vapor from the top of the container into the recycle equipment until the pressure is below Table 1"
       },
       "answer": "D",
-      "explanation": "The refrigerant covered \"shall have been directly removed from, and intended to be returned to, a mobile air-conditioning system,\" and the standard lists \"Moisture: 15 ppm by weight.\" The 4000 ppm figure is the standard's limit for refrigerant oil (\"Refrigerant Oil: 4000 ppm by weight\"), not for moisture.",
+      "explanation": "\"If the pressure is greater than the range and the container contains recycled material, slowly vent from the top of the container a small amount of vapor into the recycle equipment until the pressure is less than the pressure shown on Table 1.\" If it still exceeds the table, \"the entire contents of the container shall be recycled.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
@@ -818,15 +818,15 @@
     {
       "id": "m-046",
       "topic": "Service procedures",
-      "question": "Under the R-12 containment procedure in Appendix A, how must a stored container of recycled refrigerant be kept before checking it for excess noncondensable gases (air)?",
+      "question": "Under the R-12 containment procedure in Appendix A, a manifold gage set is being disconnected from the vehicle's air-conditioning system. What should be done with the gage set hoses first?",
       "options": {
-        "A": "At 65 °F (18.3 °C) or above for 12 hours, protected from direct sun",
-        "B": "In direct sun for one hour",
-        "C": "Below 32 °F overnight",
-        "D": "At any temperature for five minutes"
+        "A": "Attach them to the reclaim equipment to recover the refrigerant from the hoses",
+        "B": "Open the hose valves so the hoses empty to the air",
+        "C": "Cap the hose ends and store them still charged",
+        "D": "Empty them into a disposable refrigerant can"
       },
       "answer": "A",
-      "explanation": "The container \"must be stored at a temperature of 65 °F (18.3 °C) or above for a period of time, 12 h, protected from direct sun.\" Direct sun, freezing temperatures or a five-minute wait do not meet the procedure.",
+      "explanation": "\"When the manifold gage set is disconnected from the air-conditioning system or when the center hose is moved to another device which cannot accept refrigerant pressure, the gage set hoses should first be attached to the reclaim equipment to recover the refrigerant from the hoses.\" The procedure also says recycled refrigerant \"should not be salvaged or stored in disposable refrigerant containers.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
@@ -836,15 +836,15 @@
     {
       "id": "m-047",
       "topic": "Service procedures",
-      "question": "Under the R-12 containment procedure in Appendix A, which containers should be used to store recycled refrigerant?",
+      "question": "Under the R-12 containment procedure in Appendix A, what should happen to an empty or near-empty disposable refrigerant container before it is thrown away?",
       "options": {
-        "A": "The disposable containers that virgin refrigerant is sold in",
-        "B": "Only DOT CFR title 49 or UL approved storage containers",
-        "C": "Any clean metal can with a screw cap",
-        "D": "Any container, if it is labeled with the date"
+        "A": "Nothing, because a container that feels empty holds no refrigerant",
+        "B": "Its remaining contents should be reclaimed with the recovery unit, and the container marked empty",
+        "C": "It should be refilled with recycled refrigerant for later use",
+        "D": "Its valve should be opened to let the rest escape"
       },
       "answer": "B",
-      "explanation": "The procedure says to \"Use only DOT CFR title 49 or UL approved storage containers for recycled refrigerant,\" and that recycled refrigerant \"should not be salvaged or stored in disposable refrigerant containers,\" which are the type virgin refrigerant is sold in.",
+      "explanation": "Because \"all the refrigerant may not be removed from disposable refrigerant containers during normal system charging procedures, empty/near empty container contents should be reclaimed prior to disposal of the container.\" After it is reduced to a vacuum, \"The container should be marked empty and is ready for disposal.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
@@ -854,15 +854,15 @@
     {
       "id": "m-048",
       "topic": "Service procedures",
-      "question": "Under the R-12 containment procedure in Appendix A, how far must an external portable container be evacuated before recycled refrigerant is transferred into it?",
+      "question": "Under Appendix A's procedure for checking a stored container of recycled R-12 for excess noncondensable gases, where is the air temperature measured?",
       "options": {
-        "A": "It does not need to be evacuated",
-        "B": "To about 10 in of vacuum",
-        "C": "To at least 27 in of vacuum (75 mm Hg absolute pressure)",
-        "D": "To 5 psig of pressure"
+        "A": "Outdoors, in the shade",
+        "B": "Inside the passenger compartment of the vehicle",
+        "C": "Within 4 in (10 cm) of the container surface",
+        "D": "At the shop's wall thermostat"
       },
       "answer": "C",
-      "explanation": "\"The container must be evacuated at least 27 in of vacuum (75 mm Hg absolute pressure) prior to transfer of the recycled refrigerant.\" Skipping evacuation, a shallower 10 in vacuum or positive pressure does not meet this.",
+      "explanation": "The step reads: \"With a calibrated thermometer, measure the air temperature within 4 in (10 cm) of the container surface.\" The pressure is read with \"a calibrated pressure gage, with 1 psig divisions.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
@@ -872,15 +872,15 @@
     {
       "id": "m-049",
       "topic": "Service procedures",
-      "question": "Under the R-12 containment procedure in Appendix A, how is the safe filling level controlled when transferring recycled refrigerant into an external container?",
+      "question": "Under the SAE J1990 equipment specification in Appendix A, what lubricant should replace the amount removed from the system during the recycle process?",
       "options": {
-        "A": "By eye, until liquid shows at the valve",
-        "B": "By weight, up to 90% of the container's gross weight rating",
-        "C": "By filling until the container stops accepting refrigerant",
-        "D": "By weight, not exceeding 60% of the container's gross weight rating"
+        "A": "The used lubricant the machine separated from the refrigerant",
+        "B": "Lubricant drained from another vehicle",
+        "C": "No lubricant; the amount removed never needs replacing",
+        "D": "Only new lubricant"
       },
       "answer": "D",
-      "explanation": "\"The safe filling level must be controlled by weight and must not exceed 60% of container gross weight rating.\" The step is there \"to prevent on-site overfilling,\" and filling by eye, to 90%, or until the container stops accepting refrigerant does not meet the weight-based 60% limit.",
+      "explanation": "The note says: \"Use only new lubricant to replace the amount removed during the recycle process. Used lubricant should be discarded per applicable federal, state, and local requirements.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
@@ -890,15 +890,15 @@
     {
       "id": "m-050",
       "topic": "Service procedures",
-      "question": "Under the R-12 recovery procedure in Appendix A, after the vehicle system has been reduced from a pressure to a vacuum, what minimum time does the procedure set for the recovery unit to be shut off before checking that no refrigerant remains?",
+      "question": "Under the R-12 recovery procedure in Appendix A, once recovery from the vehicle is complete, what is done before proceeding with the repair?",
       "options": {
-        "A": "No wait; disconnect the hoses right away",
-        "B": "At least 30 seconds",
-        "C": "At least 5 minutes",
-        "D": "At least 1 minute"
+        "A": "Remove the service lines first, then close their valves",
+        "B": "Leave the service lines connected with valves open during the repair",
+        "C": "Close the valves in the service lines, then remove the service lines from the vehicle system",
+        "D": "Vent the refrigerant left in the service lines"
       },
       "answer": "C",
-      "explanation": "\"With the recovery unit shut off for at least 5 min, determine that there is no refrigerant remaining in the vehicle AC system.\" If the system has pressure, more recovery is needed until the vacuum \"remains stable for 2 min.\"",
+      "explanation": "The step reads: \"Close the valves in the service lines and then remove the service lines from the vehicle system. Proceed with the repair/service.\" Removing the lines before closing the valves reverses that order.",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
@@ -1196,15 +1196,15 @@
     {
       "id": "m-067",
       "topic": "Substitute refrigerants",
-      "question": "Appendix D lists R-406A and certain other blends as acceptable substitutes for CFC-12 in retrofitted MVACs. What hose-related use condition applies to a retrofit to these refrigerants?",
+      "question": "Under Appendix D, SNAP submissions for MVAC refrigerants must include fitting specifications, samples of all fittings and the detailed label, or the submission is considered incomplete. What does the appendix say about a substitute whose submission is incomplete?",
       "options": {
-        "A": "The retrofit must include replacing non-barrier hoses with barrier hoses",
-        "B": "The retrofit must keep the original non-barrier hoses",
-        "C": "Hoses must be replaced only if the vehicle is more than ten years old",
-        "D": "Hoses must be wrapped with a label stating \"ozone depleter\""
+        "A": "It may not be sold or used, regardless of other acceptability determinations",
+        "B": "It may be sold, but not used, while EPA reviews it",
+        "C": "It may be used in retrofitted systems only",
+        "D": "It becomes acceptable automatically 90 days after it is submitted"
       },
       "answer": "A",
-      "explanation": "Appendix D says these blends are acceptable \"subject to the use condition that a retrofit to these refrigerants must include replacing non-barrier hoses with barrier hoses.\" The condition has no vehicle-age exception. This Appendix D listing covers retrofits only. For new equipment in passenger cars and light-duty trucks, Appendix B lists R-406A and several of these blends as unacceptable as of Model Year 2017.",
+      "explanation": "\"Under section 612 of the Clean Air Act, substitutes for which submissions are incomplete may not be sold or used, regardless of other acceptability determinations.\" The sale prohibition \"will not end until 90 days after EPA determines the submission is complete,\" not 90 days after submission.",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
@@ -1250,17 +1250,17 @@
     {
       "id": "m-070",
       "topic": "Substitute refrigerants",
-      "question": "Appendix B lists HFC-134a, R-401C and HCFC Blend Beta (R-416A) as acceptable subject to use conditions for retrofitting CFC-12 automobile MVACs. Besides unique fittings and detailed labels, what does the listing require?",
+      "question": "Under the Appendix D use conditions for CFC-12 substitutes in MVACs, what must systems have to prevent discharge of refrigerant to the atmosphere?",
       "options": {
-        "A": "The CFC-12 may stay in the system and be topped off with the new refrigerant",
-        "B": "Half of the CFC-12 must be removed before retrofitting",
-        "C": "The CFC-12 may stay in the system if the new label lists both refrigerants",
-        "D": "All CFC-12 must be removed from the system prior to retrofitting"
+        "A": "A refrigerant identifier built into the service port",
+        "B": "A sight glass on the receiver-drier",
+        "C": "A second pressure relief valve that vents into the engine compartment",
+        "D": "A device to limit compressor operation before the pressure relief device will vent refrigerant"
       },
       "answer": "D",
-      "explanation": "The conditions for the retrofit listing include \"—all CFC-12 must be removed from the system prior to retrofitting.\" Leaving CFC-12 in the system, whether topped off or labeled, or removing only part of it does not meet that condition.",
+      "explanation": "\"In order to prevent discharge of refrigerant to the atmosphere, systems shall have a device to limit compressor operation before the pressure relief device will vent refrigerant.\" The aim is to stop the compressor before the relief device releases refrigerant.",
       "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix B (as of Nov 3, 2026)",
+        "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
       },
       "checked": "2026-11-05"
@@ -1268,15 +1268,15 @@
     {
       "id": "m-071",
       "topic": "Prohibitions",
-      "question": "Under the use conditions in Appendix D for CFC-12 substitutes in MVACs, what must happen before a system that uses another refrigerant is charged with a substitute?",
+      "question": "A shop wants to use a CFC-12 substitute in MVACs with fittings designed by a third-party parts maker, not by the refrigerant's manufacturer. The fittings differ from those used with every other refrigerant. Under Appendix D, may it?",
       "options": {
-        "A": "The original refrigerant must be recovered in accordance with the section 609 regulations",
-        "B": "The substitute may be added to \"top-off\" the remaining original refrigerant",
-        "C": "The original refrigerant may be released if the system holds less than 1 pound",
-        "D": "The system must be flushed with the substitute while the original refrigerant is still inside"
+        "A": "No; using a refrigerant with a fitting designed by anyone other than the refrigerant's manufacturer violates the use condition",
+        "B": "Yes, because the fittings are unique to that refrigerant",
+        "C": "Yes, if a certified technician installs them",
+        "D": "Yes, if the fittings are used only on the shop's own equipment"
       },
       "answer": "A",
-      "explanation": "Appendix D says no substitute refrigerant may be used to \"top-off\" a system \"that uses another refrigerant\" and \"The original refrigerant must be recovered in accordance with regulations issued under section 609 of the CAA prior to charging with a substitute.\" Topping off with the substitute is exactly what the condition bars.",
+      "explanation": "A refrigerant may only be used with fittings \"specifically intended for that refrigerant and designed by the manufacturer of the refrigerant.\" \"Using a refrigerant with a fitting designed by anyone else, even if it is different from fittings used with other refrigerants, is a violation of this use condition.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
@@ -1286,15 +1286,15 @@
     {
       "id": "m-072",
       "topic": "Fittings and labels",
-      "question": "Under the Appendix D use conditions for CFC-12 substitutes in MVACs, how is it treated when a person uses an adapter or deliberately modifies a fitting to use a different refrigerant?",
+      "question": "Under the Appendix D use conditions, what must be done to CFC-12 service ports that are not retrofitted with conversion assemblies?",
       "options": {
-        "A": "It is allowed if the adapter is made by the refrigerant manufacturer",
-        "B": "It is allowed for small cans only",
-        "C": "It is a violation of the use condition",
-        "D": "It is allowed if the technician is certified"
+        "A": "Leave them working so CFC-12 can be added later",
+        "B": "Close them with a standard cap that can be removed",
+        "C": "Render them permanently incompatible for use with CFC-12 related service equipment",
+        "D": "Paint them the color of the new refrigerant's label"
       },
       "answer": "C",
-      "explanation": "Appendix D says \"Using an adapter or deliberately modifying a fitting to use a different refrigerant is a violation of this use condition.\" Each refrigerant may only be used with the fittings and can taps specifically intended for it, and the condition makes no exception for certified technicians or small cans.",
+      "explanation": "\"All CFC-12 service ports not retrofitted with conversion assemblies shall be rendered permanently incompatible for use with CFC-12 related service equipment,\" using a device attached \"in a manner that prevents the device from being removed.\" A removable cap or paint does not do that.",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
@@ -1304,15 +1304,15 @@
     {
       "id": "m-073",
       "topic": "Fittings and labels",
-      "question": "Under Appendix D, the person conducting a retrofit must apply a label to the air conditioning system in the engine compartment. Which information must the label contain?",
+      "question": "Under the Appendix D retrofit label conditions, what must be true of the label's background color?",
       "options": {
-        "A": "The vehicle owner's name and phone number",
-        "B": "The date of the retrofit",
-        "C": "The price charged for the retrofit",
-        "D": "The mileage of the vehicle at the time of the retrofit"
+        "A": "It must be white",
+        "B": "It must be unique to the refrigerant",
+        "C": "It must match the original CFC-12 label",
+        "D": "It may be any color the shop chooses"
       },
       "answer": "B",
-      "explanation": "The label list includes \"The name and address of the technician and the company performing the retrofit\" and \"The date of the retrofit,\" along with refrigerant and lubricant details. The owner's contact details, the price and the mileage are not on that list.",
+      "explanation": "\"The background color must be unique to the refrigerant.\" The label also \"must be large enough to be easily read and must be permanent.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
@@ -1322,15 +1322,15 @@
     {
       "id": "m-074",
       "topic": "Fittings and labels",
-      "question": "Under Appendix D, where must the retrofit label be affixed?",
+      "question": "Under Appendix D, a vehicle is retrofitted to a refrigerant that displays flammability limits as measured according to ASTM E681. Which statement must the retrofit label carry for that reason?",
       "options": {
-        "A": "On the inside of the driver's door, where the owner can see it",
-        "B": "On the refrigerant container used for the retrofit",
-        "C": "Anywhere in the engine compartment, next to the original refrigerant label",
-        "D": "Over information related to the previous refrigerant, in a location not normally replaced during vehicle repair"
+        "A": "No statement, because flammability is shown only by the label color",
+        "B": "\"Caution—Should Be Operated By Qualified Personnel\"",
+        "C": "\"High pressure system\"",
+        "D": "\"This refrigerant is FLAMMABLE. Take appropriate precautions.\""
       },
       "answer": "D",
-      "explanation": "Appendix D says \"The label must be affixed to the system over information related to the previous refrigerant, in a location not normally replaced during vehicle repair.\" Placing it next to the old label is wrong, because old-refrigerant information that cannot be covered must be \"rendered permanently unreadable.\"",
+      "explanation": "If the refrigerant \"displays flammability limits as measured according to ASTM E681,\" the label must carry the statement \"This refrigerant is FLAMMABLE. Take appropriate precautions.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
