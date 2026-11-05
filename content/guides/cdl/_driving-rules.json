@@ -4,7 +4,7 @@
   "href": "/cdl/driving-rules/study-guide/",
   "title": "CDL driving rules study guide",
   "description": "CDL driving rules study guide on 49 CFR Part 392: fatigue, drugs, alcohol, rail crossings, warning devices, seat belts, fueling and phones.",
-  "intro": "49 CFR Part 392 sets FMCSA's rules for driving commercial motor vehicles (CMVs). This guide sets out what the rule text states on ill or fatigued drivers, drugs and alcohol, schedules and speed, equipment and cargo checks before and during a trip, railroad-highway grade crossings, hazard flashers and warning devices for stopped vehicles, seat belts, fueling precautions, and texting and hand-held mobile telephones. Many duties fall on both the driver and the motor carrier; each point says who the rule names. These are federal rules, not your State's knowledge test or manual. Every point links to the regulation and quotes its exact words.",
+  "intro": "49 CFR Part 392 sets FMCSA's rules for driving commercial motor vehicles (CMVs). This guide sets out what the rule text states on ill or fatigued drivers, drugs and alcohol, schedules and speed, equipment and cargo checks before and during a trip, railroad-highway grade crossings, hazard flashers and warning devices for stopped vehicles, seat belts, fueling precautions, and texting and hand-held mobile telephones. Many duties fall on both the driver and the motor carrier; where the rule names who the duty falls on, the point says so. These are federal rules, not your State's knowledge test or manual. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "scope-schedules",
@@ -38,7 +38,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Extreme caution is required when hazardous conditions (such as snow, ice, sleet, fog, mist, rain, dust or smoke) adversely affect visibility or traction, and speed must be reduced. If conditions become sufficiently dangerous, operation must stop until the CMV can be safely operated; when stopping would increase the hazard to passengers, the CMV may be operated to the nearest point at which their safety is assured.",
+          "text": "Extreme caution is required when hazardous conditions (such as snow, ice, sleet, fog, mist, rain, dust or smoke) adversely affect visibility or traction, and speed must be reduced. If conditions become sufficiently dangerous, operation must stop until the CMV can be safely operated; whenever complying with these provisions increases the hazard to passengers, the CMV may be operated to the nearest point at which their safety is assured.",
           "quote": "Extreme caution in the operation of a commercial motor vehicle shall be exercised when hazardous conditions, such as those caused by snow, ice, sleet, fog, mist, rain, dust, or smoke, adversely affect visibility or traction. Speed shall be reduced when such conditions exist. If conditions become sufficiently dangerous, the operation of the commercial motor vehicle shall be discontinued and shall not be resumed until the commercial motor vehicle can be safely operated. Whenever compliance with the foregoing provisions of this rule increases hazard to passengers, the commercial motor vehicle may be operated to the nearest point at which the safety of passengers is assured.",
           "source": {
             "title": "eCFR: 49 CFR 392.14, Hazardous conditions; extreme caution (as of Nov 3, 2026)",
@@ -141,8 +141,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A motor carrier must not require or permit a driver to be on duty or drive if, by general appearance, conduct or other substantiating evidence, the driver appears to have used alcohol within the preceding four hours.",
-          "quote": "Be on duty or operate a commercial motor vehicle if, by the driver's general appearance or conduct or by other substantiating evidence, the driver appears to have used alcohol within the preceding four hours.",
+          "text": "A motor carrier must not require or permit a driver to violate the driver rules in 392.5(a), or to be on duty or drive if, by general appearance, conduct or other substantiating evidence, the driver appears to have used alcohol within the preceding four hours.",
+          "quote": "No motor carrier shall require or permit a driver to— (1) Violate any provision of paragraph (a) of this section; or (2) Be on duty or operate a commercial motor vehicle if, by the driver's general appearance or conduct or by other substantiating evidence, the driver appears to have used alcohol within the preceding four hours.",
           "source": {
             "title": "eCFR: 49 CFR 392.5, Alcohol prohibition (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/subpart-A/section-392.5"
@@ -177,7 +177,7 @@
           "checked": "2026-11-05"
         }
       ],
-      "notCovered": "Section 392.5 itself does not set a 0.04 level: it bars any measured alcohol concentration or detected presence of alcohol while on duty. The 0.04 alcohol concentration rules for CDL drivers are in Part 382 (drug and alcohol testing), covered in its own study guide."
+      "notCovered": "Section 392.5 itself does not set a 0.04 level: it bars any measured alcohol concentration or detected presence of alcohol while on duty. The alcohol concentration levels used in drug and alcohol testing (such as 0.04 and 0.02) are in Part 382, covered in its own study guide."
     },
     {
       "id": "equipment-cargo",
@@ -211,8 +211,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The driver of a truck or truck tractor must inspect the cargo and its securement devices within the first 50 miles after beginning a trip and make any needed adjustments, including adding more securement devices.",
-          "quote": "Inspect the cargo and the devices used to secure the cargo within the first 50 miles after beginning a trip and cause any adjustments to be made to the cargo or load securement devices as necessary, including adding more securement devices, to ensure that cargo cannot shift on or within, or fall from the commercial motor vehicle;",
+          "text": "Except as provided in 392.9(b)(4), the driver of a truck or truck tractor must make sure the 392.9(a) cargo and equipment conditions are met before driving, and must inspect the cargo and its securement devices within the first 50 miles after beginning a trip and make any needed adjustments, including adding more securement devices.",
+          "quote": "Except as provided in paragraph (b)(4) of this section, the driver of a truck or truck tractor must— (1) Assure himself/herself that the provisions of paragraph (a) of this section have been complied with before he/she drives that commercial motor vehicle; (2) Inspect the cargo and the devices used to secure the cargo within the first 50 miles after beginning a trip and cause any adjustments to be made to the cargo or load securement devices as necessary, including adding more securement devices, to ensure that cargo cannot shift on or within, or fall from the commercial motor vehicle;",
           "source": {
             "title": "eCFR: 49 CFR 392.9, Inspection of cargo, cargo securement devices and systems (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/subpart-A/section-392.9"
@@ -220,8 +220,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The cargo and securement devices must be reexamined, and adjusted as needed, whenever the driver changes duty status, or the CMV has been driven for 3 hours, or for 150 miles, whichever occurs first.",
-          "quote": "Reexamination and any necessary adjustments must be made whenever— (i) The driver makes a change of his/her duty status; or (ii) The commercial motor vehicle has been driven for 3 hours; or (iii) The commercial motor vehicle has been driven for 150 miles, whichever occurs first.",
+          "text": "During transportation, the cargo and securement devices must be reexamined, and adjusted as needed, whenever the driver changes duty status, or the CMV has been driven for 3 hours, or for 150 miles, whichever occurs first.",
+          "quote": "Reexamine the commercial motor vehicle's cargo and its load securement devices during the course of transportation and make any necessary adjustment to the cargo or load securement devices, including adding more securement devices, to ensure that cargo cannot shift on or within, or fall from, the commercial motor vehicle. Reexamination and any necessary adjustments must be made whenever— (i) The driver makes a change of his/her duty status; or (ii) The commercial motor vehicle has been driven for 3 hours; or (iii) The commercial motor vehicle has been driven for 150 miles, whichever occurs first.",
           "source": {
             "title": "eCFR: 49 CFR 392.9, Inspection of cargo, cargo securement devices and systems (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/subpart-A/section-392.9"
@@ -254,8 +254,8 @@
       "name": "Railroad-highway grade crossings",
       "points": [
         {
-          "text": "The drivers of the CMVs listed in 392.10(a) must not cross railroad tracks at grade unless they first stop within 50 feet of, and not closer than 15 feet to, the tracks, then listen and look in each direction for an approaching train, and make sure no train is approaching.",
-          "quote": "Stops the commercial motor vehicle within 50 feet of, and not closer than 15 feet to, the tracks; thereafter listens and looks in each direction along the tracks for an approaching train; and ascertains that no train is approaching.",
+          "text": "Except as provided in 392.10(b), the driver of a CMV listed in 392.10(a)(1) to (6) must not cross railroad tracks at grade unless the driver first stops within 50 feet of, and not closer than 15 feet to, the tracks, then listens and looks in each direction along the tracks for an approaching train, and makes sure no train is approaching.",
+          "quote": "Except as provided in paragraph (b) of this section, the driver of a commercial motor vehicle specified in paragraphs (a) (1) through (6) of this section shall not cross a railroad track or tracks at grade unless he/ she first: Stops the commercial motor vehicle within 50 feet of, and not closer than 15 feet to, the tracks; thereafter listens and looks in each direction along the tracks for an approaching train; and ascertains that no train is approaching.",
           "source": {
             "title": "eCFR: 49 CFR 392.10, Railroad grade crossings; stopping required (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/subpart-B/section-392.10"
@@ -299,7 +299,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A stop is not needed at a streetcar crossing or industrial switching tracks within a business district; when a police officer or crossing flagman directs traffic to proceed; at a functioning highway traffic signal showing green that, under local law, permits crossing without slowing or stopping; at an abandoned crossing marked with a sign; or at an industrial or spur line crossing marked \"Exempt\" (erected only by or with the consent of the State or local authority).",
+          "text": "A stop is not needed at a streetcar crossing, or railroad tracks used exclusively for industrial switching, within a business district; when a police officer or crossing flagman directs traffic to proceed; at a functioning highway traffic signal showing green that, under local law, permits crossing without slowing or stopping; at an abandoned crossing marked with a sign; or at an industrial or spur line crossing marked \"Exempt\" (erected only by or with the consent of the State or local authority).",
           "quote": "(b) A stop need not be made at: (1) A streetcar crossing, or railroad tracks used exclusively for industrial switching purposes, within a business district, as defined in § 390.5 of this chapter. (2) A railroad grade crossing when a police officer or crossing flagman directs traffic to proceed. (3) A railroad grade crossing controlled by a functioning highway traffic signal transmitting a green indication which, under local law, permits the commercial motor vehicle to proceed across the railroad tracks without slowing or stopping. (4) An abandoned railroad grade crossing which is marked with a sign indicating that the rail line is abandoned. (5) An industrial or spur line railroad grade crossing marked with a sign reading “Exempt.” Such “Exempt” signs shall be erected only by or with the consent of the appropriate State or local authority.",
           "source": {
             "title": "eCFR: 49 CFR 392.10, Railroad grade crossings; stopping required (as of Nov 3, 2026)",
@@ -351,8 +351,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Under the general rule, the driver must place the warning devices required by 393.95 as soon as possible, but in any event within 10 minutes.",
-          "quote": "whenever a commercial motor vehicle is stopped upon the traveled portion or the shoulder of a highway for any cause other than necessary traffic stops, the driver shall, as soon as possible, but in any event within 10 minutes, place the warning devices required by § 393.95 of this subchapter",
+          "text": "Under the general rule (except as provided in the special rules of 392.22(b)(2)), whenever a CMV is stopped on the traveled portion or the shoulder of a highway for any cause other than necessary traffic stops, the driver must place the warning devices required by 393.95 as soon as possible, but in any event within 10 minutes.",
+          "quote": "Except as provided in paragraph (b)(2) of this section, whenever a commercial motor vehicle is stopped upon the traveled portion or the shoulder of a highway for any cause other than necessary traffic stops, the driver shall, as soon as possible, but in any event within 10 minutes, place the warning devices required by § 393.95 of this subchapter",
           "source": {
             "title": "eCFR: 49 CFR 392.22, Emergency signals; stopped commercial motor vehicles (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/subpart-C/section-392.22"
@@ -369,8 +369,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A CMV equipped with only fusees must have a lighted fusee at each location for as long as it is stopped; the driver must extinguish and remove each fusee before moving.",
-          "quote": "There shall be at least one lighted fusee at each of the prescribed locations, as long as the commercial motor vehicle is stopped. Before the stopped commercial motor vehicle is moved, the driver shall extinguish and remove each fusee.",
+          "text": "The driver of a CMV equipped with only fusees must place a lighted fusee at each of the general-rule locations, and there must be at least one lighted fusee at each location for as long as the CMV is stopped; the driver must extinguish and remove each fusee before moving.",
+          "quote": "The driver of a commercial motor vehicle equipped with only fusees shall place a lighted fusee at each of the locations specified in paragraph (b)(1) of this section. There shall be at least one lighted fusee at each of the prescribed locations, as long as the commercial motor vehicle is stopped. Before the stopped commercial motor vehicle is moved, the driver shall extinguish and remove each fusee.",
           "source": {
             "title": "eCFR: 49 CFR 392.22, Emergency signals; stopped commercial motor vehicles (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/subpart-C/section-392.22"
@@ -378,7 +378,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "During the period lighted lamps are not required, three bidirectional reflective triangles or three lighted fusees must be placed as in the general rule within 10 minutes (except in business or residential districts).",
+          "text": "Except as provided for business or residential districts, during the period lighted lamps are not required, three bidirectional reflective triangles or three lighted fusees must be placed as in the general rule within 10 minutes.",
           "quote": "Except as provided in paragraph (b)(2)(iii) of this section, during the period lighted lamps are not required, three bidirectional reflective triangles or three lighted fusees shall be placed as specified in paragraph (b)(1) of this section within a time of 10 minutes.",
           "source": {
             "title": "eCFR: 49 CFR 392.22, Emergency signals; stopped commercial motor vehicles (as of Nov 3, 2026)",
@@ -405,8 +405,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "On a divided or one-way highway, devices go at 200 feet and 100 feet toward approaching traffic in the center of the lane or shoulder the CMV occupies, plus one at the traffic side within 10 feet of the rear of the CMV.",
-          "quote": "one warning device at a distance of 200 feet and one warning device at a distance of 100 feet in a direction toward approaching traffic in the center of the lane or shoulder occupied by the commercial motor vehicle. He/she shall place one warning device at the traffic side of the commercial motor vehicle within 10 feet of the rear of the commercial motor vehicle.",
+          "text": "If a CMV is stopped on the traveled portion or shoulder of a divided or one-way highway, the driver must place one warning device at 200 feet and one at 100 feet toward approaching traffic in the center of the lane or shoulder the CMV occupies, plus one at the traffic side within 10 feet of the rear of the CMV.",
+          "quote": "If a commercial motor vehicle is stopped upon the traveled portion or the shoulder of a divided or one-way highway, the driver shall place the warning devices required by paragraph (b)(1) of this section, one warning device at a distance of 200 feet and one warning device at a distance of 100 feet in a direction toward approaching traffic in the center of the lane or shoulder occupied by the commercial motor vehicle. He/she shall place one warning device at the traffic side of the commercial motor vehicle within 10 feet of the rear of the commercial motor vehicle.",
           "source": {
             "title": "eCFR: 49 CFR 392.22, Emergency signals; stopped commercial motor vehicles (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/subpart-C/section-392.22"
@@ -432,7 +432,7 @@
           "checked": "2026-11-05"
         }
       ],
-      "notCovered": "The rule on leaking flammable liquid or gas (392.22(b)(2)(vi)) is not summarized here. Sections 392.20 and 392.21 are reserved in the current text, so Part 392 has no separate unattended-vehicle rule today. The required warning equipment itself is listed in 49 CFR 393.95."
+      "notCovered": "The rule on leaking flammable liquid or gas (392.22(b)(2)(vi)) is not summarized here. Sections 392.20 and 392.21 are reserved in the current text. The required warning equipment itself is listed in 49 CFR 393.95."
     },
     {
       "id": "belts-fueling-practices",
@@ -457,8 +457,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "No driver or motor carrier employee may fuel a CMV with the engine running, except when running the engine is necessary to fuel it, or smoke or expose any open flame near a CMV being fueled.",
-          "quote": "(a) Fuel a commercial motor vehicle with the engine running, except when it is necessary to run the engine to fuel the commercial motor vehicle; (b) Smoke or expose any open flame in the vicinity of a commercial motor vehicle being fueled;",
+          "text": "No driver or any employee of a motor carrier may: fuel a CMV with the engine running, except when running the engine is necessary to fuel it; smoke or expose any open flame near a CMV being fueled; fuel a CMV unless the fuel hose nozzle is continuously in contact with the intake pipe of the fuel tank; or permit, insofar as practicable, any other person to do things likely to cause fire or explosion.",
+          "quote": "No driver or any employee of a motor carrier shall: (a) Fuel a commercial motor vehicle with the engine running, except when it is necessary to run the engine to fuel the commercial motor vehicle; (b) Smoke or expose any open flame in the vicinity of a commercial motor vehicle being fueled; (c) Fuel a commercial motor vehicle unless the nozzle of the fuel hose is continuously in contact with the intake pipe of the fuel tank; (d) Permit, insofar as practicable, any other person to engage in such activities as would be likely to result in fire or explosion.",
           "source": {
             "title": "eCFR: 49 CFR 392.50, Ignition of fuel; prevention (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/subpart-F/section-392.50"
@@ -466,17 +466,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A CMV must not be fueled unless the fuel hose nozzle is continuously in contact with the intake pipe of the fuel tank, and no one may, insofar as practicable, permit others to do things likely to cause fire or explosion.",
-          "quote": "(c) Fuel a commercial motor vehicle unless the nozzle of the fuel hose is continuously in contact with the intake pipe of the fuel tank; (d) Permit, insofar as practicable, any other person to engage in such activities as would be likely to result in fire or explosion.",
-          "source": {
-            "title": "eCFR: 49 CFR 392.50, Ignition of fuel; prevention (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/subpart-F/section-392.50"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "Unless specifically authorized in writing by the motor carrier, no driver may transport any person on a CMV other than a bus. The authorization must state the person's name, where the transportation begins and ends, and the date it expires.",
-          "quote": "Unless specifically authorized in writing to do so by the motor carrier under whose authority the commercial motor vehicle is being operated, no driver shall transport any person or permit any person to be transported on any commercial motor vehicle other than a bus. When such authorization is issued, it shall state the name of the person to be transported, the points where the transportation is to begin and end, and the date upon which such authority expires.",
+          "text": "Unless specifically authorized in writing by the motor carrier, no driver may transport any person, or permit any person to be transported, on a CMV other than a bus. The authorization must state the person's name, where the transportation begins and ends, and the date it expires. No written authorization is needed for employees or other persons the motor carrier assigns to the CMV, anyone transported while aid is given in an accident or other emergency, or an attendant caring for livestock.",
+          "quote": "Unless specifically authorized in writing to do so by the motor carrier under whose authority the commercial motor vehicle is being operated, no driver shall transport any person or permit any person to be transported on any commercial motor vehicle other than a bus. When such authorization is issued, it shall state the name of the person to be transported, the points where the transportation is to begin and end, and the date upon which such authority expires. No written authorization, however, shall be necessary for the transportation of: (1) Employees or other persons assigned to a commercial motor vehicle by a motor carrier; (2) Any person transported when aid is being rendered in case of an accident or other emergency; (3) An attendant delegated to care for livestock.",
           "source": {
             "title": "eCFR: 49 CFR 392.60, Unauthorized persons not to be transported (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/subpart-G/section-392.60"
@@ -493,7 +484,7 @@
           "checked": "2026-11-05"
         }
       ],
-      "notCovered": "Not covered here: the reserve fuel and materials of trade limits in 392.51, the carbon monoxide rule in 392.66, the bus rules in 392.62 and 392.63, and the exceptions in 392.60 for persons who need no written authorization."
+      "notCovered": "Not covered here: the reserve fuel and materials of trade limits in 392.51, the bus rules in 392.62 and 392.63, closed-body exits in 392.64, the carbon monoxide rule in 392.66, open flame heaters in 392.67, and the 392.60(b) exclusion for farmers' vehicles carrying agricultural commodities or farm supplies."
     },
     {
       "id": "texting-phones",
@@ -554,7 +545,7 @@
           "checked": "2026-11-05"
         }
       ],
-      "notCovered": "The definitions of \"texting\", \"mobile telephone\" and \"use a hand-held mobile telephone\" are in 49 CFR 390.5, which this guide does not quote."
+      "notCovered": "Part 392 does not define \"texting\", \"mobile telephone\" or \"use a hand-held mobile telephone\"; those definitions are elsewhere in the FMCSA rules and are not quoted here."
     }
   ]
 }
