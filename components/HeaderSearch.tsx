@@ -126,7 +126,7 @@ export default function HeaderSearch() {
             <label htmlFor={`${id}-q`} className="text-[0.875rem] font-bold text-muted">
               Search goraedu
             </label>
-            <div className="mt-2 flex items-center gap-3 rounded-full border-2 border-low bg-panel py-1.5 pl-4 pr-1.5 focus-within:outline focus-within:outline-3 focus-within:outline-offset-2 focus-within:outline-hose">
+            <div className="mt-2 flex items-center gap-3 rounded-full border-2 border-low bg-panel py-1.5 pl-4 pr-1.5 focus-within:shadow-[0_0_0_4px_rgba(22,115,224,0.2)]">
               <svg
                 width="20"
                 height="20"
