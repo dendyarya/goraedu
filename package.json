@@ -4,9 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/write-headers.mjs",
-    "preview": "npm run build && wrangler dev",
-    "deploy": "wrangler deploy",
+    "build": "next build",
+    "preview": "npm run build && npx serve out",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -22,8 +21,7 @@
     "eslint-config-next": "16.4.3",
     "prettier": "3.9.10",
     "tailwindcss": "4.3.3",
-    "typescript": "^5.9.3",
-    "wrangler": "^4"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "next": "16.4.3",

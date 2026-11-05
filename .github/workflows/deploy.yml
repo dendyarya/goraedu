@@ -1,0 +1,115 @@
+# Check, build and deploy goraedu.com to the VPS (docs/deploy.md).
+#   pull request to "main"  -> all checks, no deploy
+#   push to "main"          -> checks, then live on https://goraedu.com
+# Actions are pinned to commit SHAs (same pins as cybercareerfinder).
+name: Deploy
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-${{ github.event_name }}-${{ github.ref_name }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  checks:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      NEXT_TELEMETRY_DISABLED: "1"
+      # Repository VARIABLES (Settings > Secrets and variables > Actions > Variables), not secrets.
+      # SITE_ENV=production makes the site indexable: set it only at launch (runbook).
+      SITE_ENV: ${{ vars.SITE_ENV }}
+      SITE_URL: ${{ vars.SITE_URL }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Security audit (fail on high or critical)
+        run: npm audit --audit-level=high
+
+      - name: Type check, lint, formatting
+        run: |
+          npm run typecheck
+          npm run lint
+          npm run format:check
+
+      - name: Build
+        run: npm run build
+
+      - name: Check the build
+        run: |
+          set -euo pipefail
+          test -f out/index.html && test -f out/404.html && test -f out/robots.txt && test -f out/sitemap.xml
+          if [ "$SITE_ENV" = production ]; then
+            ! grep -q 'noindex' out/index.html || { echo "production build carries noindex"; exit 1; }
+          else
+            grep -q 'noindex' out/index.html || { echo "non-production build must carry noindex"; exit 1; }
+          fi
+
+      - name: Assemble release with checksums
+        if: github.event_name != 'pull_request'
+        run: |
+          set -euo pipefail
+          cp -r out release
+          echo "$GITHUB_SHA" > release/RELEASE
+          (cd release && find . -type f ! -name MANIFEST.sha256 -print0 | sort -z | xargs -0 sha256sum > MANIFEST.sha256)
+          du -sh release
+          tar -czf release.tar.gz release
+
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: github.event_name != 'pull_request'
+        with:
+          name: release
+          path: release.tar.gz
+          retention-days: 3
+
+  deploy:
+    needs: checks
+    if: github.event_name != 'pull_request' && github.ref_name == 'main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: release
+
+      - name: Upload to the VPS and activate
+        env:
+          SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          HOST: ${{ secrets.VPS_HOST }}
+          PORT: ${{ secrets.VPS_PORT }}
+          USER: ${{ secrets.VPS_USER }}
+          KNOWN_HOSTS: ${{ secrets.VPS_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          if [ -z "$SSH_KEY" ] || [ -z "$HOST" ]; then
+            echo "::warning::VPS secrets are not set yet (docs/deploy.md, steps 3-4). Checks passed; nothing deployed."
+            exit 0
+          fi
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy && chmod 600 ~/.ssh/deploy
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          SSH="ssh -i $HOME/.ssh/deploy -p ${PORT:-22} -o StrictHostKeyChecking=yes -o IdentitiesOnly=yes"
+          # The deploy key can only rsync into /var/www/goraedu and run "activate" (deploy/server/gora-gate)
+          ID="$GITHUB_SHA-$GITHUB_RUN_ID"
+          tar -xzf release.tar.gz
+          (cd release && sha256sum --quiet --strict -c MANIFEST.sha256)
+          # public static files: readable by Nginx, writable only by the gora user
+          rsync -rlptz --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r -e "$SSH" release/ "$USER@$HOST:production/releases/$ID/"
+          $SSH "$USER@$HOST" "activate production $ID"
+          rm -f ~/.ssh/deploy

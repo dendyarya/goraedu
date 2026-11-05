@@ -1,0 +1,48 @@
+#!/bin/bash
+# Activate an uploaded static release: verify checksums, make it read-only, switch "current",
+# health-check through Nginx, and roll back automatically on failure.
+# Usage: gora-activate production <git sha>-<run id>
+# No app server: Nginx serves /var/www/goraedu/production/current directly.
+set -euo pipefail
+ENV="$1"; ID="$2"
+[ "$ENV" = production ] || { echo "unknown env" >&2; exit 2; }
+BASE=/var/www/goraedu/$ENV
+REL=$BASE/releases/$ID
+
+[ -f "$REL/MANIFEST.sha256" ] || { echo "release $ID not found" >&2; exit 1; }
+cd "$REL"
+sha256sum --quiet --strict -c MANIFEST.sha256 || { echo "checksum mismatch, not activating" >&2; exit 1; }
+[ -f "$REL/index.html" ] && [ -f "$REL/404.html" ] || { echo "release has no index.html or 404.html" >&2; exit 1; }
+chmod -R a-w "$REL"
+
+PREV=$(readlink -f "$BASE/current" 2>/dev/null || true)
+switch() { ln -sfn "$1" "$BASE/current.tmp" && mv -Tf "$BASE/current.tmp" "$BASE/current"; }
+healthy() {
+  # ask the local Nginx for the home page exactly as Cloudflare would
+  for _ in 1 2 3 4 5; do
+    code=$(curl -ks -o /dev/null -w '%{http_code}' --resolve goraedu.com:443:127.0.0.1 https://goraedu.com/ || true)
+    [ "$code" = 200 ] && return 0
+    sleep 1
+  done
+  return 1
+}
+
+switch "$REL"
+if healthy; then
+  echo "$(date -u +%FT%TZ) $ID" >> "$BASE/deploys.log"
+  echo "activated $ENV $ID"
+else
+  echo "health check failed" >&2
+  if [ -n "$PREV" ] && [ -d "$PREV" ]; then
+    switch "$PREV"
+    echo "rolled back to $(basename "$PREV")" >&2
+  fi
+  exit 1
+fi
+
+# keep the 5 newest releases (never the active one)
+cd "$BASE/releases"
+ls -1t | tail -n +6 | while read -r old; do
+  [ "$BASE/releases/$old" = "$(readlink -f "$BASE/current")" ] && continue
+  chmod -R u+w "$old" && rm -rf "$old"
+done

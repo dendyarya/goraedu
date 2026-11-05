@@ -23,4 +23,7 @@ cluster 2 is EPA 609. Content is in English; planning documents are in Indonesia
 
 ## Deploy
 
-Push to `main` deploys automatically (Cloudflare Workers Builds). Run `npm run check` before pushing.
+Push to `main` goes live: GitHub Actions checks, builds and deploys the static export to the shared VPS
+(docs/deploy.md). Run `npm run check` and `npm run format:check` before pushing. Secrets (SSH keys, origin
+key, API keys) never go in the repo, in chat or in the browser bundle. The server files in `deploy/` only touch
+goraedu's own user, folders and Nginx file; never edit the other sites on that VPS.
