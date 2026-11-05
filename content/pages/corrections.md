@@ -14,8 +14,10 @@ information. Our address is on the [contact page](/contact/). We review every re
 
 ## Corrections log
 
-| Date               | Page | What we corrected |
-| ------------------ | ---- | ----------------- |
-| No corrections yet |      |                   |
+| Date       | Page                                                                                                             | What we corrected                                                                                                                                                                                                                                                                                                                                  |
+| ---------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-11-05 | [EPA 608 Type II practice test](/epa-608/type-2/practice-test/)                                                  | Question t2-011 (oil change evacuation) offered "0 psig" as a wrong answer, but 40 CFR 82.156(a)(1) also allows it. The question now asks for the highest pressure the rule allows (5 psig). Found in our own audit.                                                                                                                               |
+| 2026-11-05 | EPA 608, EPA 609, OSHA construction and OSHA general industry practice tests                                     | A full re-check of all 695 questions found questions where a stricter value also met the rule (for example "within 30 days" when the rule says "within six months"), or where a condition from the rule was missing from the question. 72 questions were reworded to ask for the exact value or condition the rule sets. No marked answer changed. |
+| 2026-11-05 | [EPA 608 Type I study guide](/epa-608/type-1/study-guide/), [OSHA silica study guide](/osha/silica/study-guide/) | Two points read as if one option were the only one, or left out conditions from the same Table 1 row. Both now state all the conditions the rule gives.                                                                                                                                                                                            |
 
 Typos and wording changes that do not change the facts are not listed.
