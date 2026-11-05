@@ -122,7 +122,7 @@
     {
       "id": "or-007",
       "topic": "Remote pilot in command and crew",
-      "question": "What does 107.35 say about operating more than one unmanned aircraft?",
+      "question": "Without a certificate of waiver, what does 107.35 say about operating more than one unmanned aircraft?",
       "options": {
         "A": "A remote pilot in command may operate up to three aircraft at once if each has a visual observer",
         "B": "A person may operate two aircraft at once if both are in Class G airspace",
@@ -197,27 +197,27 @@
     },
     {
       "id": "or-011",
-      "topic": "Preflight and condition for safe operation",
-      "question": "What does 107.49(d) require prior to flight if the small unmanned aircraft is powered?",
+      "topic": "Reporting, inspection and waivers",
+      "question": "What deadline does 107.9 set for a remote pilot in command to report to the FAA an operation that meets its criteria?",
       "options": {
-        "A": "That the power source has been inspected by an FAA-certificated mechanic",
-        "B": "That there is enough available power for the small unmanned aircraft system to operate for the intended operational time",
-        "C": "That a spare battery is carried by the visual observer",
-        "D": "That power levels are reported to ATC"
+        "A": "No later than 30 calendar days after the operation",
+        "B": "No later than 10 calendar days after the operation",
+        "C": "No later than 6 months after the operation",
+        "D": "Only when the FAA asks for a report"
       },
       "answer": "B",
-      "explanation": "107.49(d): \"If the small unmanned aircraft is powered, ensure that there is enough available power for the small unmanned aircraft system to operate for the intended operational time\".",
+      "explanation": "107.9 sets the deadline as \"No later than 10 calendar days after an operation that meets the criteria of either paragraph (a) or (b) of this section\". Those criteria are \"Serious injury to any person or any loss of consciousness\" or qualifying damage to property other than the small unmanned aircraft.",
       "source": {
-        "title": "eCFR: 14 CFR 107.49, Preflight familiarization, inspection, and actions for aircraft operation (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49"
+        "title": "eCFR: 14 CFR 107.9, Safety event reporting (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.9"
       },
       "checked": "2026-11-05",
-      "evidence": "If the small unmanned aircraft is powered, ensure that there is enough available power for the small unmanned aircraft system to operate for the intended operational time"
+      "evidence": "No later than 10 calendar days after an operation that meets the criteria of either paragraph (a) or (b) of this section, a remote pilot in command must report to the FAA"
     },
     {
       "id": "or-012",
       "topic": "Visual line of sight and visual observers",
-      "question": "Under 107.31(a), what vision must the remote pilot in command, the visual observer (if one is used) and the person manipulating the flight controls use to see the aircraft?",
+      "question": "Without a certificate of waiver, what vision does 107.31(a) require the remote pilot in command, the visual observer (if one is used) and the person manipulating the flight controls to use to see the aircraft?",
       "options": {
         "A": "Vision aided by binoculars",
         "B": "Vision that is unaided by any device other than corrective lenses",
@@ -255,7 +255,7 @@
     {
       "id": "or-014",
       "topic": "Night and civil twilight",
-      "question": "What anti-collision lighting does 107.29 require for operations at night and during periods of civil twilight?",
+      "question": "Without a certificate of waiver, what anti-collision lighting does 107.29 require for operations at night and during periods of civil twilight?",
       "options": {
         "A": "Lighted anti-collision lighting visible for at least 3 statute miles that has a flash rate sufficient to avoid a collision",
         "B": "Steady white position lights only, visible for 1 statute mile",
@@ -293,7 +293,7 @@
     {
       "id": "or-016",
       "topic": "Hazardous operations and right of way",
-      "question": "Under 107.25(b), when may a person operate a small UAS from a moving land or water-borne vehicle?",
+      "question": "Without a certificate of waiver, when does 107.25(b) allow a person to operate a small UAS from a moving land or water-borne vehicle?",
       "options": {
         "A": "Whenever the vehicle moves at less than 30 miles per hour",
         "B": "Only when a visual observer rides in the vehicle",
@@ -331,7 +331,7 @@
     {
       "id": "or-018",
       "topic": "Airspace and operating limitations",
-      "question": "What does 107.41 require before a person operates a small unmanned aircraft in Class B, Class C or Class D airspace?",
+      "question": "Without a certificate of waiver, what does 107.41 require before a person operates a small unmanned aircraft in Class B, Class C or Class D airspace?",
       "options": {
         "A": "A Remote ID broadcast only",
         "B": "Prior authorization from Air Traffic Control (ATC)",
@@ -354,7 +354,7 @@
       "options": {
         "A": "87 knots (100 miles per hour)",
         "B": "100 knots (115 miles per hour)",
-        "C": "50 knots (58 miles per hour)",
+        "C": "120 knots (138 miles per hour)",
         "D": "150 knots (173 miles per hour)"
       },
       "answer": "A",
@@ -372,7 +372,7 @@
       "question": "What minimum distance from clouds does 107.51(d) set for a small unmanned aircraft?",
       "options": {
         "A": "250 feet below and 1,000 feet horizontally",
-        "B": "1,000 feet below and 1 statute mile horizontally",
+        "B": "200 feet below and 500 feet horizontally",
         "C": "No minimum, as long as the aircraft stays within visual line of sight",
         "D": "500 feet below the cloud and 2,000 feet horizontally from the cloud"
       },
