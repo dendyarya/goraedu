@@ -1,0 +1,389 @@
+{
+  "cluster": "water-operator",
+  "slug": "disinfection-byproducts",
+  "title": "Drinking water disinfectant residuals and byproducts practice questions",
+  "description": "Free practice questions on 40 CFR 141 Subpart L: disinfectant residuals, DBP monitoring, compliance and TOC removal, each linked to the rule.",
+  "href": "/water-operator/disinfection-byproducts/practice-test/",
+  "questions": [
+    {
+      "id": "db-001",
+      "topic": "Who Subpart L covers and when",
+      "question": "Under 141.130(a)(2), which transient noncommunity water systems must modify their practices to meet a Subpart L requirement?",
+      "options": {
+        "A": "Every transient noncommunity system that adds any chemical disinfectant",
+        "B": "Those that use chlorine dioxide as a disinfectant or oxidant",
+        "C": "Those that use ozone for disinfection",
+        "D": "Those that use chloramines to maintain a distribution system residual"
+      },
+      "answer": "B",
+      "explanation": "Subpart L covers \"transient NCWSs that use chlorine dioxide as a disinfectant or oxidant\", which \"must modify their practices to meet the MRDL for chlorine dioxide in § 141.65.\" The wider coverage in 141.130(a)(1) is for CWSs and NTNCWSs.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.130, General requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.130"
+      },
+      "checked": "2026-11-06",
+      "evidence": "transient NCWSs that use chlorine dioxide as a disinfectant or oxidant must modify their practices to meet the MRDL for chlorine dioxide in § 141.65."
+    },
+    {
+      "id": "db-002",
+      "topic": "Who Subpart L covers and when",
+      "question": "What does 141.130(c) require of the people who operate a CWS or NTNCWS regulated under Subpart L?",
+      "options": {
+        "A": "They must hold an operator certificate issued by EPA",
+        "B": "They must complete an EPA-approved disinfection course every three years",
+        "C": "They must be employees of a State-certified laboratory",
+        "D": "They must be qualified personnel who meet State requirements and are on a State register of qualified operators"
+      },
+      "answer": "D",
+      "explanation": "Each such system \"must be operated by qualified personnel who meet the requirements specified by the State and are included in a State register of qualified operators.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.130, General requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.130"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must be operated by qualified personnel who meet the requirements specified by the State and are included in a State register of qualified operators."
+    },
+    {
+      "id": "db-003",
+      "topic": "Who Subpart L covers and when",
+      "question": "According to 141.64(b)(1)(i), until when must systems comply with the Subpart L (running annual average) MCLs for TTHM and HAA5?",
+      "options": {
+        "A": "Until the date specified for subpart V compliance in 141.620(c)",
+        "B": "Until January 1, 2004",
+        "C": "Until the State approves the system's monitoring plan",
+        "D": "Until the system qualifies for reduced monitoring"
+      },
+      "answer": "A",
+      "explanation": "141.64(b)(1)(i) states: \"All systems must comply with these MCLs until the date specified for subpart V compliance in § 141.620(c).\" From that date the subpart V MCLs apply as a locational running annual average.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.64, Maximum contaminant levels for disinfection byproducts (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.64"
+      },
+      "checked": "2026-11-06",
+      "evidence": "All systems must comply with these MCLs until the date specified for subpart V compliance in § 141.620(c)."
+    },
+    {
+      "id": "db-004",
+      "topic": "Analytical methods and laboratories",
+      "question": "Under 141.131(b)(2), who must conduct the analyses for disinfection byproducts, apart from the exception in paragraph (b)(3)?",
+      "options": {
+        "A": "Any laboratory that uses an EPA method, certified or not",
+        "B": "The system's own certified operator",
+        "C": "Laboratories that have received certification by EPA or the State",
+        "D": "State drinking water program staff only"
+      },
+      "answer": "C",
+      "explanation": "DBP analyses \"must be conducted by laboratories that have received certification by EPA or the State, except as specified under paragraph (b)(3) of this section.\" Paragraph (b)(3) covers daily chlorite samples at the entrance to the distribution system.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.131, Analytical requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.131"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Analyses under this section for disinfection byproducts must be conducted by laboratories that have received certification by EPA or the State, except as specified under paragraph (b)(3) of this section."
+    },
+    {
+      "id": "db-005",
+      "topic": "Analytical methods and laboratories",
+      "question": "When individual trihalomethane results are added to calculate TTHM, what value does the 141.131(b)(2)(iv) table footnote use for a result below the MRL, unless the State specifies otherwise?",
+      "options": {
+        "A": "Zero",
+        "B": "The MRL value itself",
+        "C": "Half of the MRL value",
+        "D": "The highest result in the sample batch"
+      },
+      "answer": "A",
+      "explanation": "The footnote states that \"a zero is used for any analytical result that is less than the MRL concentration for that DBP, unless otherwise specified by the State.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.131, Analytical requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.131"
+      },
+      "checked": "2026-11-06",
+      "evidence": "a zero is used for any analytical result that is less than the MRL concentration for that DBP, unless otherwise specified by the State."
+    },
+    {
+      "id": "db-006",
+      "topic": "TTHM and HAA5 monitoring",
+      "question": "In the Subpart L routine monitoring table in 141.132(b)(1)(i), what minimum TTHM and HAA5 monitoring frequency is set for a Subpart H system serving at least 10,000 persons?",
+      "options": {
+        "A": "One water sample per quarter per treatment plant",
+        "B": "Four water samples per quarter per treatment plant",
+        "C": "One sample per year per treatment plant during the month of warmest water temperature",
+        "D": "One sample per three-year monitoring cycle"
+      },
+      "answer": "B",
+      "explanation": "The table row reads \"Subpart H system serving at least 10,000 persons Four water samples per quarter per treatment plant\". Under 141.64(b)(1)(i), the Subpart L TTHM and HAA5 MCLs apply only until the subpart V compliance date.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.132, Monitoring requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.132"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Subpart H system serving at least 10,000 persons Four water samples per quarter per treatment plant"
+    },
+    {
+      "id": "db-007",
+      "topic": "TTHM and HAA5 monitoring",
+      "question": "Under 141.132(a)(2), what may a system do with multiple wells drawing water from a single aquifer when determining the minimum number of TTHM and HAA5 samples?",
+      "options": {
+        "A": "Leave those wells out of TTHM and HAA5 monitoring",
+        "B": "Sample only the well with the highest flow, without State approval",
+        "C": "Composite one sample from all the wells each year",
+        "D": "Consider them as one treatment plant, with State approval under criteria developed under 142.16(h)(5)"
+      },
+      "answer": "D",
+      "explanation": "\"Systems may consider multiple wells drawing water from a single aquifer as one treatment plant for determining the minimum number of TTHM and HAA5 samples required, with State approval in accordance with criteria developed under § 142.16(h)(5) of this chapter.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.132, Monitoring requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.132"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Systems may consider multiple wells drawing water from a single aquifer as one treatment plant for determining the minimum number of TTHM and HAA5 samples required, with State approval"
+    },
+    {
+      "id": "db-008",
+      "topic": "TTHM and HAA5 monitoring",
+      "question": "What \"no more than\" levels does 141.132(b)(1)(iv) set for TTHMs and HAA5 for a system to remain on a reduced monitoring schedule?",
+      "options": {
+        "A": "0.080 mg/L TTHMs and 0.060 mg/L HAA5",
+        "B": "0.040 mg/L TTHMs and 0.030 mg/L HAA5",
+        "C": "0.060 mg/L TTHMs and 0.045 mg/L HAA5",
+        "D": "0.020 mg/L TTHMs and 0.015 mg/L HAA5"
+      },
+      "answer": "C",
+      "explanation": "A system may remain on reduced monitoring as long as its yearly average or single result \"is no more than 0.060 mg/L and 0.045 mg/L for TTHMs and HAA5, respectively.\" The 0.040 and 0.030 mg/L levels are the conditions for qualifying to reduce.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.132, Monitoring requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.132"
+      },
+      "checked": "2026-11-06",
+      "evidence": "is no more than 0.060 mg/L and 0.045 mg/L for TTHMs and HAA5, respectively."
+    },
+    {
+      "id": "db-009",
+      "topic": "Chlorite, bromate and residual monitoring",
+      "question": "Under 141.132(b)(2)(i)(A), what must a system do when a daily chlorite sample at the entrance to the distribution system exceeds the chlorite MCL?",
+      "options": {
+        "A": "Switch from daily to weekly entrance sampling",
+        "B": "Wait for the next monthly three-sample set before taking more samples",
+        "C": "Take one more entrance sample later the same week only",
+        "D": "Take additional distribution system samples the following day at the locations in (b)(2)(ii), in addition to the entrance sample"
+      },
+      "answer": "D",
+      "explanation": "\"For any daily sample that exceeds the chlorite MCL, the system must take additional samples in the distribution system the following day at the locations required by paragraph (b)(2)(ii) of this section, in addition to the sample required at the entrance to the distribution system.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.132, Monitoring requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.132"
+      },
+      "checked": "2026-11-06",
+      "evidence": "For any daily sample that exceeds the chlorite MCL, the system must take additional samples in the distribution system the following day at the locations required by paragraph (b)(2)(ii) of this section, in addition to the sample required at the entrance to the distribution system."
+    },
+    {
+      "id": "db-010",
+      "topic": "Chlorite, bromate and residual monitoring",
+      "question": "Under 141.132(b)(3)(i), which systems must take routine monthly bromate samples?",
+      "options": {
+        "A": "Community and nontransient noncommunity systems using ozone for disinfection or oxidation",
+        "B": "All systems using chlorine dioxide",
+        "C": "Transient noncommunity systems using ozone",
+        "D": "All systems using chloramines"
+      },
+      "answer": "A",
+      "explanation": "\"Community and nontransient noncommunity systems using ozone, for disinfection or oxidation, must take one sample per month for each treatment plant in the system using ozone.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.132, Monitoring requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.132"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Community and nontransient noncommunity systems using ozone, for disinfection or oxidation, must take one sample per month for each treatment plant in the system using ozone."
+    },
+    {
+      "id": "db-011",
+      "topic": "Chlorite, bromate and residual monitoring",
+      "question": "Beginning April 1, 2016, under 141.132(c)(1)(i), with which sampling must CWSs and NTNCWSs that use chlorine or chloramines match the point and time of their distribution system residual measurements?",
+      "options": {
+        "A": "The monthly chlorite three-sample set",
+        "B": "Total coliform sampling under 141.854 through 141.858",
+        "C": "Lead and copper tap sampling",
+        "D": "Quarterly TTHM sampling at maximum residence time locations"
+      },
+      "answer": "B",
+      "explanation": "They \"must measure the residual disinfectant level in the distribution system at the same point in the distribution system and at the same time as total coliforms are sampled, as specified in §§ 141.854 through 141.858.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.132, Monitoring requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.132"
+      },
+      "checked": "2026-11-06",
+      "evidence": "at the same point in the distribution system and at the same time as total coliforms are sampled, as specified in §§ 141.854 through 141.858."
+    },
+    {
+      "id": "db-012",
+      "topic": "TOC monitoring and monitoring plans",
+      "question": "On routine monitoring under 141.132(d)(1), what TOC and alkalinity sampling does a Subpart H system using conventional filtration take for each plant?",
+      "options": {
+        "A": "One paired sample and one source water alkalinity sample per quarter",
+        "B": "Four paired samples per quarter and no alkalinity sample",
+        "C": "One paired sample and one source water alkalinity sample per month",
+        "D": "One treated water TOC sample per year during the month of warmest water temperature"
+      },
+      "answer": "C",
+      "explanation": "\"Systems must take one paired sample and one source water alkalinity sample per month per plant at a time representative of normal operating conditions and influent water quality.\" Quarterly sampling is the reduced schedule in 141.132(d)(2).",
+      "source": {
+        "title": "eCFR: 40 CFR 141.132, Monitoring requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.132"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Systems must take one paired sample and one source water alkalinity sample per month per plant at a time representative of normal operating conditions and influent water quality."
+    },
+    {
+      "id": "db-013",
+      "topic": "TOC monitoring and monitoring plans",
+      "question": "Under 141.132(f), which systems must submit a copy of their monitoring plan to the State no later than the date of the first report required under 141.134?",
+      "options": {
+        "A": "All Subpart H systems serving more than 3300 people",
+        "B": "Only ground water systems serving fewer than 500 people",
+        "C": "Only transient noncommunity systems using chlorine dioxide",
+        "D": "Only systems that have already had an MCL violation"
+      },
+      "answer": "A",
+      "explanation": "\"All Subpart H systems serving more than 3300 people must submit a copy of the monitoring plan to the State no later than the date of the first report required under § 141.134.\" The State may also require any other system to submit its plan.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.132, Monitoring requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.132"
+      },
+      "checked": "2026-11-06",
+      "evidence": "All Subpart H systems serving more than 3300 people must submit a copy of the monitoring plan to the State no later than the date of the first report required under § 141.134."
+    },
+    {
+      "id": "db-014",
+      "topic": "Determining compliance",
+      "question": "Under 141.133(a)(2), which samples taken and analyzed under Subpart L must be included in determining compliance?",
+      "options": {
+        "A": "Only the minimum number of samples required",
+        "B": "Only samples taken at maximum residence time locations",
+        "C": "Only the samples the State selects",
+        "D": "All of them, even if that number is greater than the minimum required"
+      },
+      "answer": "D",
+      "explanation": "\"All samples taken and analyzed under the provisions of this subpart must be included in determining compliance, even if that number is greater than the minimum required.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.133, Compliance requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.133"
+      },
+      "checked": "2026-11-06",
+      "evidence": "All samples taken and analyzed under the provisions of this subpart must be included in determining compliance, even if that number is greater than the minimum required."
+    },
+    {
+      "id": "db-015",
+      "topic": "Determining compliance",
+      "question": "Under 141.133(b)(3), on what is compliance with the chlorite MCL based?",
+      "options": {
+        "A": "A running annual arithmetic average, computed quarterly, of monthly samples",
+        "B": "An arithmetic average of each three-sample set taken in the distribution system",
+        "C": "Each single daily sample at the entrance to the distribution system",
+        "D": "The highest single distribution system sample in a calendar year"
+      },
+      "answer": "B",
+      "explanation": "\"Compliance must be based on an arithmetic average of each three sample set taken in the distribution system\". A running annual average of monthly samples is the basis for bromate in 141.133(b)(2).",
+      "source": {
+        "title": "eCFR: 40 CFR 141.133, Compliance requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.133"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Compliance must be based on an arithmetic average of each three sample set taken in the distribution system"
+    },
+    {
+      "id": "db-016",
+      "topic": "Determining compliance",
+      "question": "Under 141.133(c)(2)(i), which set of chlorine dioxide results is an acute MRDL violation?",
+      "options": {
+        "A": "Two consecutive daily entrance samples exceed the MRDL while all distribution system samples are below it",
+        "B": "The running annual average of monthly averages exceeds the MRDL",
+        "C": "A daily entrance sample exceeds the MRDL and, on the following day, one or more of the three distribution system samples exceed it",
+        "D": "One monthly distribution system sample exceeds the MRDL"
+      },
+      "answer": "C",
+      "explanation": "\"If any daily sample taken at the entrance to the distribution system exceeds the MRDL, and on the following day one (or more) of the three samples taken in the distribution system exceed the MRDL, the system is in violation of the MRDL\" and must notify the public under the procedures for acute health risks. Two exceeding entrance samples with all distribution samples below is the nonacute case.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.133, Compliance requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.133"
+      },
+      "checked": "2026-11-06",
+      "evidence": "If any daily sample taken at the entrance to the distribution system exceeds the MRDL, and on the following day one (or more) of the three samples taken in the distribution system exceed the MRDL, the system is in violation of the MRDL"
+    },
+    {
+      "id": "db-017",
+      "topic": "Reporting to the State",
+      "question": "What reporting deadline does 141.134(a) set for a system required to sample quarterly or more frequently?",
+      "options": {
+        "A": "48 hours after each sample is collected",
+        "B": "10 days after the end of each quarter in which samples were collected",
+        "C": "30 days after the end of each calendar year",
+        "D": "July 1 of each year, with the Consumer Confidence Report"
+      },
+      "answer": "B",
+      "explanation": "These systems \"must report to the State within 10 days after the end of each quarter in which samples were collected, notwithstanding the provisions of § 141.31.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 141.134, Reporting and recordkeeping requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.134"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must report to the State within 10 days after the end of each quarter in which samples were collected, notwithstanding the provisions of § 141.31."
+    },
+    {
+      "id": "db-018",
+      "topic": "Enhanced coagulation and TOC removal",
+      "question": "Under 141.135(a)(1), which systems must operate with enhanced coagulation or enhanced softening to achieve the required TOC percent removals, unless they meet an alternative compliance criterion?",
+      "options": {
+        "A": "Subpart H systems using conventional filtration treatment",
+        "B": "All systems using only ground water that add a disinfectant",
+        "C": "Subpart H systems that do not filter",
+        "D": "Transient noncommunity systems using chlorine dioxide"
+      },
+      "answer": "A",
+      "explanation": "\"Subpart H systems using conventional filtration treatment (as defined in § 141.2) must operate with enhanced coagulation or enhanced softening\" to achieve the TOC removals in 141.135(b), \"unless the system meets at least one of the alternative compliance criteria\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.135, Treatment technique for control of disinfection byproduct (DBP) precursors (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.135"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Subpart H systems using conventional filtration treatment (as defined in § 141.2) must operate with enhanced coagulation or enhanced softening"
+    },
+    {
+      "id": "db-019",
+      "topic": "Enhanced coagulation and TOC removal",
+      "question": "In the Step 1 table in 141.135(b)(2), what TOC removal is required for source water TOC >4.0-8.0 mg/L with source water alkalinity >60-120 mg/L as CaCO3?",
+      "options": {
+        "A": "45.0 percent",
+        "B": "25.0 percent",
+        "C": "40.0 percent",
+        "D": "35.0 percent"
+      },
+      "answer": "D",
+      "explanation": "The table row reads \">4.0-8.0 45.0 35.0 25.0\" for the alkalinity columns 0-60, >60-120 and >120, so the >60-120 column is 35.0 percent.",
+      "source": {
+        "title": "eCFR: 40 CFR 141.135, Treatment technique for control of disinfection byproduct (DBP) precursors (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.135"
+      },
+      "checked": "2026-11-06",
+      "evidence": ">4.0-8.0 45.0 35.0 25.0"
+    },
+    {
+      "id": "db-020",
+      "topic": "Enhanced coagulation and TOC removal",
+      "question": "What application deadline does 141.135(b)(3) set for a Subpart H conventional treatment system that cannot achieve the Step 1 TOC removals and seeks alternative minimum (Step 2) removal requirements?",
+      "options": {
+        "A": "10 days after the end of the quarter",
+        "B": "One year after its first TOC sample",
+        "C": "Three months of failure to achieve the Step 1 TOC removals",
+        "D": "30 days following its compliance date in 141.130(b)"
+      },
+      "answer": "C",
+      "explanation": "Such systems \"must apply to the State, within three months of failure to achieve the TOC removals required by paragraph (b)(2) of this section\". Until the State approves, they \"must meet the Step 1 TOC removals\".",
+      "source": {
+        "title": "eCFR: 40 CFR 141.135, Treatment technique for control of disinfection byproduct (DBP) precursors (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.135"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must apply to the State, within three months of failure to achieve the TOC removals required by paragraph (b)(2) of this section"
+    }
+  ]
+}
