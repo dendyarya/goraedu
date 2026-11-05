@@ -2,7 +2,7 @@
   "cluster": "epa-608",
   "slug": "core",
   "title": "EPA 608 Core practice test",
-  "description": "Free EPA Section 608 Core practice questions. Every answer is explained and linked to the official EPA page it comes from.",
+  "description": "Free EPA Section 608 Core practice questions. Every answer is explained and linked to the EPA page or the section of 40 CFR Part 82 it comes from.",
   "href": "/epa-608/core/practice-test/",
   "questions": [
     {
@@ -214,7 +214,7 @@
         "D": "There is no limit"
       },
       "answer": "C",
-      "explanation": "EPA states that a person may only be an apprentice for two years from the date of first registering, and that apprentices must be closely and continually supervised by a certified technician.",
+      "explanation": "EPA states that a person may only be an apprentice for two years from the date of first registering.",
       "source": {
         "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
         "url": "https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
@@ -452,6 +452,456 @@
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-026",
+      "topic": "Definitions",
+      "question": "Under the Section 608 rules, a medium-pressure appliance uses a refrigerant with a liquid phase saturation pressure at 104 °F of:",
+      "options": {
+        "A": "Below 45 psia",
+        "B": "Between 45 psia and 170 psia",
+        "C": "Between 170 psia and 355 psia",
+        "D": "Above 355 psia"
+      },
+      "answer": "B",
+      "explanation": "The rule defines a medium-pressure appliance as one using a refrigerant with a liquid phase saturation pressure \"between 45 psia and 170 psia at 104 °F.\" Below 45 psia is the low-pressure range, and 170 to 355 psia is the high-pressure range.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-027",
+      "topic": "Definitions",
+      "question": "Which refrigerant does the rule list as an example for a low-pressure appliance?",
+      "options": {
+        "A": "R-410A",
+        "B": "R-134a",
+        "C": "R-123",
+        "D": "R-23"
+      },
+      "answer": "C",
+      "explanation": "The low-pressure appliance definition lists examples including \"R-11, R-123, R-113, and R-245fa.\" The rule lists R-410A as a high-pressure example, R-134a as a medium-pressure example and R-23 as a very high-pressure example.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-028",
+      "topic": "Definitions",
+      "question": "A very high-pressure appliance uses a refrigerant that has which property?",
+      "options": {
+        "A": "A liquid phase saturation pressure between 45 psia and 170 psia at 104 °F",
+        "B": "A liquid phase saturation pressure below 45 psia at 104 °F",
+        "C": "A boiling point above 104 °F at atmospheric pressure",
+        "D": "A critical temperature below 104 °F or a liquid phase saturation pressure above 355 psia at 104 °F"
+      },
+      "answer": "D",
+      "explanation": "The rule defines a very high-pressure appliance as one using a refrigerant \"with a critical temperature below 104 °F\" or with a liquid phase saturation pressure above 355 psia at 104 °F. The 45 to 170 psia range describes medium-pressure appliances, and below 45 psia describes low-pressure appliances.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-029",
+      "topic": "Definitions",
+      "question": "In the Section 608 rules, what does it mean to \"recover\" refrigerant?",
+      "options": {
+        "A": "To remove refrigerant in any condition from an appliance and store it in an external container",
+        "B": "To clean refrigerant for reuse in equipment of the same owner",
+        "C": "To reprocess refrigerant to the purity specifications in appendix A",
+        "D": "To return refrigerant to its manufacturer for destruction"
+      },
+      "answer": "A",
+      "explanation": "To recover means \"to remove refrigerant in any condition from an appliance\" and store it in an external container, without necessarily testing or processing it. Cleaning for reuse by the same owner is the definition of recycle, and reprocessing to appendix A specifications is reclaim.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-030",
+      "topic": "Definitions",
+      "question": "Which description matches the rule's definition of \"reclaim\"?",
+      "options": {
+        "A": "Removing refrigerant from an appliance and storing it without testing it",
+        "B": "Reprocessing recovered refrigerant to the appendix A specifications and verifying it meets them",
+        "C": "Cleaning refrigerant with filter-driers for reuse in the same owner's equipment",
+        "D": "Moving refrigerant from one appliance to another at the same site"
+      },
+      "answer": "B",
+      "explanation": "Reclaim means to reprocess recovered refrigerant to all of the appendix A specifications (based on AHRI Standard 700-2016) and to verify it meets them using the prescribed analytical method. Cleaning for reuse by the same owner without meeting all reclamation requirements is recycling, not reclaiming.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-031",
+      "topic": "Definitions",
+      "question": "An MVAC-like appliance, such as the air conditioning on a farm tractor, has a full charge of how much refrigerant?",
+      "options": {
+        "A": "5 pounds or less",
+        "B": "50 pounds or more",
+        "C": "20 pounds or less",
+        "D": "2 pounds or less"
+      },
+      "answer": "C",
+      "explanation": "The rule defines an MVAC-like appliance as an open-drive compressor appliance \"with a full charge of 20 pounds or less of refrigerant\" used to cool the compartment of off-road vehicles or equipment. It names agricultural and construction vehicles as examples.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-032",
+      "topic": "Definitions",
+      "question": "How does the definition of \"appliance\" treat a system that has multiple independent refrigerant circuits?",
+      "options": {
+        "A": "The whole system counts as one appliance",
+        "B": "Only the largest circuit counts as an appliance",
+        "C": "The system counts as an appliance only if all circuits share a compressor",
+        "D": "Each independent circuit is considered a separate appliance"
+      },
+      "answer": "D",
+      "explanation": "The appliance definition states: \"each independent circuit is considered a separate appliance.\" The rule does not treat the whole multi-circuit system as a single appliance.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-033",
+      "topic": "Definitions",
+      "question": "According to the definition of \"technician,\" which activity is reasonably expected to violate the integrity of the refrigerant circuit?",
+      "options": {
+        "A": "Cutting the refrigerant line",
+        "B": "Painting the appliance",
+        "C": "Rewiring an external electrical circuit",
+        "D": "Tightening nuts and bolts"
+      },
+      "answer": "A",
+      "explanation": "The technician definition lists \"cutting the refrigerant line\" among activities reasonably expected to violate the integrity of the refrigerant circuit. Painting the appliance, rewiring an external electrical circuit and tightening nuts and bolts are listed as activities not reasonably expected to do so.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-034",
+      "topic": "Definitions",
+      "question": "Under the rule's definition, connecting and disconnecting hoses and gauges to measure pressures is:",
+      "options": {
+        "A": "Considered opening an appliance in all cases",
+        "B": "Not considered \"opening an appliance\"",
+        "C": "Considered opening an appliance only on low-pressure appliances",
+        "D": "Considered opening an appliance if the hoses stay connected for more than 15 minutes"
+      },
+      "answer": "B",
+      "explanation": "\"Opening an appliance\" means any maintenance, service, repair or disposal that would release refrigerant to the atmosphere. The rule states that connecting and disconnecting hoses and gauges to measure pressures, add refrigerant, or recover refrigerant \"are not considered 'opening an appliance.'\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-035",
+      "topic": "Definitions",
+      "question": "Besides removing a compressor, condenser, evaporator or auxiliary heat exchange coil, which work counts as \"major\" maintenance, service or repair?",
+      "options": {
+        "A": "Uncovering any opening for more than 5 minutes",
+        "B": "Uncovering an opening of more than 1 square inch of flow area for more than 60 minutes",
+        "C": "Uncovering an opening of more than 4 square inches of flow area for more than 15 minutes",
+        "D": "Uncovering an opening of more than 10 square inches of flow area for any length of time"
+      },
+      "answer": "C",
+      "explanation": "Major maintenance, service or repair includes work that involves \"uncovering an opening of more than four (4) square inches\" of flow area for more than 15 minutes. The other size and time combinations do not appear in the definition.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-036",
+      "topic": "Venting prohibition",
+      "question": "A technician recovers a non-exempt refrigerant into a cylinder and later knowingly releases it outdoors. Under the rule, this release is:",
+      "options": {
+        "A": "Allowed, because the refrigerant was already removed from the appliance",
+        "B": "Allowed as a de minimis release",
+        "C": "Allowed if certified recovery equipment was used",
+        "D": "A violation of the venting prohibition"
+      },
+      "answer": "D",
+      "explanation": "The rule states that the knowing release of a class I, class II or non-exempt substitute refrigerant \"after its recovery from an appliance is a violation of the venting prohibition.\" Having already recovered the refrigerant does not make a later release acceptable.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-037",
+      "topic": "Venting prohibition",
+      "question": "Which kind of refrigerant release is not subject to the venting prohibition?",
+      "options": {
+        "A": "De minimis releases associated with good faith attempts to recycle or recover refrigerant",
+        "B": "Any release of refrigerant that took place after it was recovered",
+        "C": "Releases made to shorten a service call",
+        "D": "Any release from an appliance that is being disposed of"
+      },
+      "answer": "A",
+      "explanation": "The rule says \"de minimis releases associated with good faith attempts to recycle or recover refrigerants\" are not subject to the prohibition, provided the required practices are followed. A knowing release after recovery is specifically named as a violation, and the prohibition covers disposal as well as service.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-038",
+      "topic": "Refrigerants",
+      "question": "In which uses is ammonia an exempt substitute under the venting prohibition?",
+      "options": {
+        "A": "In any application",
+        "B": "In commercial or industrial process refrigeration or in absorption units",
+        "C": "Only in household refrigerators",
+        "D": "Only in motor vehicle air conditioners"
+      },
+      "answer": "B",
+      "explanation": "The list of exempt substitutes includes \"Ammonia in commercial or industrial process refrigeration or in absorption units.\" Unlike carbon dioxide, nitrogen and water, ammonia is not exempt \"in any application.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-039",
+      "topic": "Sales and reclamation",
+      "question": "A seller of non-exempt refrigerant must keep invoices showing the purchaser's name, date of sale and quantity. How long must these records be kept?",
+      "options": {
+        "A": "One year",
+        "B": "Two years",
+        "C": "Three years",
+        "D": "Five years"
+      },
+      "answer": "C",
+      "explanation": "Sellers must keep invoices that indicate the purchaser's name, the date of sale and the quantity purchased, and \"All records must be kept for three years.\" The rule does not set a one-, two- or five-year period for these invoices.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-040",
+      "topic": "Sales and reclamation",
+      "question": "In which case may used refrigerant be sold or transferred for use as a refrigerant without first being reclaimed by a certified reclaimer?",
+      "options": {
+        "A": "When it is sold to any business that owns appliances",
+        "B": "When it has passed once through a filter-drier",
+        "C": "When it is sold by a technician to a different customer",
+        "D": "When it is transferred between a parent company and one of its subsidiaries"
+      },
+      "answer": "D",
+      "explanation": "Among the exceptions to the rule on selling used refrigerant is refrigerant \"being transferred between or among a parent company\" and one or more of its subsidiaries. Selling to an unrelated buyer is not one of the listed exceptions, so that refrigerant would have to be reclaimed first.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-041",
+      "topic": "Sales and reclamation",
+      "question": "A certified reclaimer may release no more than what percent of the refrigerant during the reclamation process?",
+      "options": {
+        "A": "1.5 percent",
+        "B": "0.5 percent",
+        "C": "3 percent",
+        "D": "5 percent"
+      },
+      "answer": "A",
+      "explanation": "Persons reclaiming used refrigerant for sale to a new owner must \"Release no more than 1.5 percent of the refrigerant during the reclamation process.\" The other percentages do not appear in the reclaimer requirements.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.164, Reclaimer certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.164"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-042",
+      "topic": "Sales and reclamation",
+      "question": "By what date must reclaimers send EPA their annual report on the material they received and the refrigerant they reclaimed?",
+      "options": {
+        "A": "December 31 of the same calendar year",
+        "B": "February 1 of the next calendar year",
+        "C": "July 30 of the next calendar year",
+        "D": "April 15 of the next calendar year"
+      },
+      "answer": "B",
+      "explanation": "Reclaimers must report to EPA \"annually by February 1 of the next calendar year.\" The report covers the material sent to them by refrigerant type, the mass of each refrigerant reclaimed and the mass of waste products.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.164, Reclaimer certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.164"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-043",
+      "topic": "Sales and reclamation",
+      "question": "When a refrigerant reclamation business changes owners, what does the rule require of the new owner?",
+      "options": {
+        "A": "Nothing, because the old certificate transfers with the business",
+        "B": "To certify with EPA within one year",
+        "C": "To certify with EPA within 30 days of the change",
+        "D": "To certify with EPA within 90 days of the change"
+      },
+      "answer": "C",
+      "explanation": "The rule states \"Certificates are not transferable,\" and the new owner must certify with EPA within 30 days of the change in ownership. So the old owner's certificate does not carry over to the new owner.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.164, Reclaimer certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.164"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-044",
+      "topic": "Sales and reclamation",
+      "question": "For reclamation purposes, what does the rule mean by a \"batch\" of refrigerant?",
+      "options": {
+        "A": "All refrigerant a reclaimer receives in one calendar month",
+        "B": "All refrigerant recovered from one appliance",
+        "C": "One shipment of recovered refrigerant sent by a technician",
+        "D": "A single bulk cylinder of refrigerant after all reclamation is complete, before packaging or shipping"
+      },
+      "answer": "D",
+      "explanation": "A batch is defined as \"a single bulk cylinder of refrigerant after all reclamation has been completed\" prior to packaging or shipping to the market. It is not defined by time period, by appliance or by incoming shipment.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-045",
+      "topic": "Certification",
+      "question": "Which certification type is required to maintain, service, repair or dispose of low-pressure appliances?",
+      "options": {
+        "A": "Type III",
+        "B": "Type I",
+        "C": "Type II",
+        "D": "No certification is required"
+      },
+      "answer": "A",
+      "explanation": "The rule says persons who work on or dispose of low-pressure appliances \"must be certified as Type III technicians.\" Type I covers small appliances, and Type II covers medium-, high- and very high-pressure appliances.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-046",
+      "topic": "Certification",
+      "question": "Technicians who maintain, service or repair MVAC-like appliances must hold which certification?",
+      "options": {
+        "A": "Type I only",
+        "B": "Type II, or certification under 40 CFR part 82, subpart B",
+        "C": "Type III only",
+        "D": "No certification, because MVAC-like appliances are exempt"
+      },
+      "answer": "B",
+      "explanation": "The rule says technicians who service MVAC-like appliances \"must either be certified as Type II technicians\" or be certified under 40 CFR part 82, subpart B. Only the disposal of MVAC-like appliances is exempt from certification, not their service or repair.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-047",
+      "topic": "Certification",
+      "question": "Under what condition is a registered apprentice exempt from the technician certification requirement?",
+      "options": {
+        "A": "When the apprentice has passed the Core section only",
+        "B": "When the apprentice works only on weekends",
+        "C": "When the apprentice is closely and continually supervised by a certified technician",
+        "D": "When the apprentice's employer files a notice with EPA"
+      },
+      "answer": "C",
+      "explanation": "Apprentices are exempt provided the apprentice \"is closely and continually supervised by a certified technician\" during work that could release refrigerant. The rule also makes both the supervising technician and the apprentice responsible for the apprentice's compliance.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-048",
+      "topic": "Exam format",
+      "question": "A person wants to take the certification test orally. How must they request this?",
+      "options": {
+        "A": "By asking the proctor on the day of the test",
+        "B": "By phone at least 10 days before the test",
+        "C": "By writing to EPA at least 60 days before the test",
+        "D": "In writing to the program at least 30 days before the test, explaining why"
+      },
+      "answer": "D",
+      "explanation": "A test may be given orally to anyone who requests it \"in writing, to the program at least 30 days before\" the scheduled exam, and the request must explain why it is being made. The request goes to the certification program, not to EPA or the proctor on test day.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-049",
+      "topic": "Exam format",
+      "question": "How many questions from Group 1 (the Core group) does each Section 608 certification test include?",
+      "options": {
+        "A": "25",
+        "B": "10",
+        "C": "50",
+        "D": "100"
+      },
+      "answer": "A",
+      "explanation": "Appendix D states that \"Each test must include 25 questions drawn from Group 1\" plus 25 from each relevant technical group. The figure of 100 is the total length of a Universal test, not the number of Core questions.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+      },
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "core-050",
+      "topic": "Exam format",
+      "question": "What is the passing score for the closed-book Type I, Type II, Type III and Universal certification tests?",
+      "options": {
+        "A": "84 percent",
+        "B": "70 percent",
+        "C": "75 percent",
+        "D": "80 percent"
+      },
+      "answer": "B",
+      "explanation": "Appendix D sets the passing score for the closed-book tests at \"70 percent.\" The 84 percent score applies only to Type I tests taken in the mail-in format.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
       },
       "checked": "2026-11-05"
     }

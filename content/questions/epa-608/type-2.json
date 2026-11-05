@@ -98,7 +98,7 @@
     {
       "id": "t2-006",
       "topic": "Evacuation levels",
-      "question": "A high-pressure appliance has a full charge of less than 200 pounds. Using recovery equipment manufactured on or after November 15, 1993, to what level must it be evacuated before opening?",
+      "question": "A high-pressure appliance with no leaks has a full charge of less than 200 pounds. Before a major repair or disposal, using recovery equipment manufactured on or after November 15, 1993, to what level must it be evacuated?",
       "options": {
         "A": "4 inches of Hg vacuum",
         "B": "10 inches of Hg vacuum",
@@ -116,7 +116,7 @@
     {
       "id": "t2-007",
       "topic": "Evacuation levels",
-      "question": "A high-pressure appliance has a full charge of 200 pounds or more. Using recovery equipment manufactured on or after November 15, 1993, to what level must it be evacuated before opening?",
+      "question": "A high-pressure appliance with no leaks has a full charge of 200 pounds or more. Before a major repair or disposal, using recovery equipment manufactured on or after November 15, 1993, to what level must it be evacuated?",
       "options": {
         "A": "0 inches of Hg vacuum",
         "B": "4 inches of Hg vacuum",
@@ -124,7 +124,7 @@
         "D": "10 inches of Hg vacuum"
       },
       "answer": "D",
-      "explanation": "Table 1 sets 10 inches of Hg vacuum for a high-pressure appliance with a full charge of 200 pounds or more when the recovery equipment was made on or after November 15, 1993. The 4-inch level is for older equipment, and 25 mm Hg absolute is for low-pressure appliances.",
+      "explanation": "Table 1 sets 10 inches of Hg vacuum for a high-pressure appliance with a full charge of 200 pounds or more when the recovery equipment was made on or after November 15, 1993. The 4-inch level is for older equipment, and 25 mm Hg absolute is for low-pressure appliances. For a repair that is not major and is not followed by evacuation to the atmosphere, the requirement is no higher than 0 psig instead.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -134,7 +134,7 @@
     {
       "id": "t2-008",
       "topic": "Evacuation levels",
-      "question": "A high-pressure appliance has a full charge of 200 pounds or more. Using recovery equipment manufactured before November 15, 1993, to what level must it be evacuated before opening?",
+      "question": "A high-pressure appliance with no leaks has a full charge of 200 pounds or more. Before a major repair or disposal, using recovery equipment manufactured before November 15, 1993, to what level must it be evacuated?",
       "options": {
         "A": "4 inches of Hg vacuum",
         "B": "10 inches of Hg vacuum",
@@ -152,7 +152,7 @@
     {
       "id": "t2-009",
       "topic": "Evacuation levels",
-      "question": "A technician uses recovery equipment manufactured on or after November 15, 1993, on a very high-pressure appliance. To what level must the appliance be evacuated before opening?",
+      "question": "A very high-pressure appliance with no leaks is about to undergo a major repair. Using recovery equipment manufactured on or after November 15, 1993, to what level must it be evacuated?",
       "options": {
         "A": "10 inches of Hg vacuum",
         "B": "0 inches of Hg vacuum",

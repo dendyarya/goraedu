@@ -16,7 +16,7 @@
         "D": "2 pounds"
       },
       "answer": "B",
-      "explanation": "A small appliance is \"fully manufactured, charged, and hermetically sealed in a factory with five (5) pounds or less of refrigerant.\" The 15-pound figure is a different limit, used for system-dependent recovery equipment.",
+      "explanation": "A small appliance is \"fully manufactured, charged, and hermetically sealed in a factory with five (5) pounds or less of refrigerant.\" The 15-pound figure is a different limit: the largest charge on which system-dependent recovery equipment may be used.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -250,7 +250,7 @@
         "D": "A certified refrigerant reclaimer"
       },
       "answer": "B",
-      "explanation": "Equipment used on small appliances \"must be certified by an approved equipment testing organization\" to meet the required recovery levels. Technician certifying programs test people, not equipment.",
+      "explanation": "Equipment used on small appliances \"must be certified by an approved equipment testing organization\" to meet the required recovery levels.",
       "source": {
         "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
@@ -259,19 +259,19 @@
     },
     {
       "id": "t1-015",
-      "topic": "Equipment",
-      "question": "In EPA's test method for small appliance recovery devices, how is the test stand compressor handled?",
+      "topic": "Disposal",
+      "question": "Under the safe disposal rule, when has the refrigerant in an appliance \"leaked out\"?",
       "options": {
-        "A": "The compressor is always removed before testing",
-        "B": "Tests are run only with the compressor running",
-        "C": "Separate tests are run with the compressor running and without it running",
-        "D": "Tests are run only with the compressor not running"
+        "A": "When someone deliberately cut the refrigerant lines",
+        "B": "When a technician released it while removing the compressor",
+        "C": "When it escaped because of a system failure, an accident or another unavoidable occurrence not caused by negligence",
+        "D": "When the appliance sat unused for more than a year"
       },
       "answer": "C",
-      "explanation": "Appendix C says separate tests are conducted with the test stand compressor running and \"without the test stand compressor running\" to find recovery efficiency under either condition. Testing only one way would not cover both conditions.",
+      "explanation": "\"Leaked out\" means the refrigerant escaped \"because of system failures, accidents, or other unavoidable occurrences not caused by a person's negligence or deliberate acts such as cutting refrigerant lines.\" If all the refrigerant leaked out, the final processor must get a signed statement saying so and that recovery is not possible.",
       "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix C (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+        "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
       },
       "checked": "2026-11-05"
     },

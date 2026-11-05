@@ -47,10 +47,10 @@ const PROMISES: { icon: IconName; title: string; body: string }[] = [
 ];
 
 const FIRST_UP = [
-  "Core practice test, available now, with Type I, II, III and Universal to follow",
+  "Practice tests for Core, Type I, Type II and Type III, available now",
   "A study guide for every topic EPA lists for the exam",
   "Field tools such as a pressure-temperature chart",
-  "Every answer linked to 40 CFR Part 82 or EPA.gov",
+  "Every answer linked to the section of 40 CFR Part 82 or the EPA page it comes from",
 ];
 
 export default function Home() {
