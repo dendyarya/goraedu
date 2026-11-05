@@ -4,7 +4,7 @@
   "href": "/osha/excavations/study-guide/",
   "title": "OSHA construction excavations study guide",
   "description": "OSHA construction excavations study guide: utilities, egress, atmospheres, inspections, protective systems and soil types, linked to 29 CFR 1926 Subpart P.",
-  "intro": "Subpart P of OSHA's construction rules (29 CFR 1926.650 to 1926.652 and Appendices A to F) covers excavations and trenches. Caught-in or caught-between hazards, such as being buried in a cave-in, are one of OSHA's Focus Four construction hazards. This guide sets out what the rule text states on utilities, access and egress, atmospheres, water, inspections, protective systems and soil classification. Every point links to the rule text it comes from, with the exact words quoted. It is an independent study aid, not OSHA training.",
+  "intro": "Subpart P of OSHA's construction rules (29 CFR 1926.650 to 1926.652 and Appendices A to F) covers excavations and trenches. This guide sets out what the rule text states on utilities, access and egress, atmospheres, water, inspections, protective systems and soil classification. Every point links to the rule text it comes from, with the exact words quoted. It is an independent study aid, not OSHA training.",
   "topics": [
     {
       "id": "scope-definitions",
@@ -30,7 +30,7 @@
         },
         {
           "text": "A trench is a narrow excavation (in relation to its length) made below the surface of the ground. In general it is deeper than it is wide, and its width measured at the bottom is not greater than 15 feet.",
-          "quote": "In general, the depth is greater than the width, but the width of a trench (measured at the bottom) is not greater than 15 feet (4.6 m).",
+          "quote": "Trench (Trench excavation) means a narrow excavation (in relation to its length) made below the surface of the ground. In general, the depth is greater than the width, but the width of a trench (measured at the bottom) is not greater than 15 feet (4.6 m).",
           "source": {
             "title": "eCFR: 29 CFR 1926.650, Scope, application, and definitions applicable to this subpart (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.650"
@@ -116,8 +116,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "As the digging approaches the estimated location, the exact location must be determined by safe and acceptable means, and while the excavation is open, underground installations must be protected, supported or removed as necessary.",
+          "text": "As excavation operations approach the estimated location of underground installations, the exact location must be determined by safe and acceptable means.",
           "quote": "When excavation operations approach the estimated location of underground installations, the exact location of the installations shall be determined by safe and acceptable means.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.651, Specific excavation requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.651"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "While the excavation is open, underground installations must be protected, supported or removed as necessary to safeguard employees.",
+          "quote": "While the excavation is open, underground installations shall be protected, supported or removed as necessary to safeguard employees.",
           "source": {
             "title": "eCFR: 29 CFR 1926.651, Specific excavation requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.651"
@@ -173,8 +182,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "No employee may be under loads handled by lifting or digging equipment, and employees must stand away from vehicles being loaded or unloaded to avoid spillage or falling materials.",
-          "quote": "No employee shall be permitted underneath loads handled by lifting or digging equipment. Employees shall be required to stand away from any vehicle being loaded or unloaded to avoid being struck by any spillage or falling materials.",
+          "text": "No employee may be under loads handled by lifting or digging equipment, and employees must stand away from vehicles being loaded or unloaded to avoid spillage or falling materials. Operators may stay in the cab when the vehicle is equipped under 1926.601(b)(6) to protect the operator during loading and unloading.",
+          "quote": "No employee shall be permitted underneath loads handled by lifting or digging equipment. Employees shall be required to stand away from any vehicle being loaded or unloaded to avoid being struck by any spillage or falling materials. Operators may remain in the cabs of vehicles being loaded or unloaded when the vehicles are equipped, in accordance with § 1926.601(b)(6), to provide adequate protection for the operator during loading and unloading operations.",
           "source": {
             "title": "eCFR: 29 CFR 1926.651, Specific excavation requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.651"
@@ -215,8 +224,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Precautions such as ventilation must keep employees from exposure to a flammable gas concentration above 20 percent of the gas's lower flammable limit. When controls are used, testing must be done as often as necessary to keep the atmosphere safe.",
+          "text": "Adequate precautions, such as ventilation, must keep employees from exposure to a flammable gas concentration above 20 percent of the gas's lower flammable limit.",
           "quote": "Adequate precaution shall be taken such as providing ventilation, to prevent employee exposure to an atmosphere containing a concentration of a flammable gas in excess of 20 percent of the lower flammable limit of the gas.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.651, Specific excavation requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.651"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "When controls are used to reduce atmospheric contaminants to acceptable levels, testing must be done as often as necessary to make sure the atmosphere stays safe.",
+          "quote": "When controls are used that are intended to reduce the level of atmospheric contaminants to acceptable levels, testing shall be conducted as often as necessary to ensure that the atmosphere remains safe.",
           "source": {
             "title": "eCFR: 29 CFR 1926.651, Specific excavation requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.651"
@@ -248,7 +266,7 @@
       "name": "Water, adjacent structures and falling material",
       "points": [
         {
-          "text": "Employees may not work in excavations with accumulated or accumulating water unless adequate precautions protect them. The rule lists possible precautions: special support or shield systems, water removal, or a safety harness and lifeline.",
+          "text": "Employees may not work in excavations with accumulated or accumulating water unless adequate precautions have been taken to protect them against the hazards of water accumulation.",
           "quote": "Employees shall not work in excavations in which there is accumulated water, or in excavations in which water is accumulating, unless adequate precautions have been taken to protect employees against the hazards posed by water accumulation.",
           "source": {
             "title": "eCFR: 29 CFR 1926.651, Specific excavation requirements (as of Nov 3, 2026)",
@@ -257,8 +275,26 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "If water removal equipment is used to control water, a competent person must monitor the equipment and operations. Excavations subject to runoff from heavy rains require an inspection by a competent person.",
+          "text": "The precautions needed vary with each situation, but the rule says they could include special support or shield systems against cave-ins, water removal to control the water level, or a safety harness and lifeline.",
+          "quote": "The precautions necessary to protect employees adequately vary with each situation, but could include special support or shield systems to protect from cave-ins, water removal to control the level of accumulating water, or use of a safety harness and lifeline.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.651, Specific excavation requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.651"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "If water removal equipment is used to control or prevent water accumulation, a competent person must monitor the equipment and operations to ensure proper operation.",
           "quote": "If water is controlled or prevented from accumulating by the use of water removal equipment, the water removal equipment and operations shall be monitored by a competent person to ensure proper operation.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.651, Specific excavation requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.651"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Excavations subject to runoff from heavy rains require an inspection by a competent person and compliance with the water accumulation and water removal requirements in 1926.651(h)(1) and (h)(2).",
+          "quote": "Excavations subject to runoff from heavy rains will require an inspection by a competent person and compliance with paragraphs (h)(1) and (h)(2) of this section.",
           "source": {
             "title": "eCFR: 29 CFR 1926.651, Specific excavation requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.651"
@@ -275,8 +311,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Excavated or other materials and equipment must be kept at least 2 feet from the edge, or held back by retaining devices, or both if necessary.",
-          "quote": "Protection shall be provided by placing and keeping such materials or equipment at least 2 feet (.61 m) from the edge of excavations, or by the use of retaining devices that are sufficient to prevent materials or equipment from falling or rolling into excavations, or by a combination of both if necessary.",
+          "text": "Employees must be protected from excavated or other materials or equipment that could fall or roll into excavations: by keeping them at least 2 feet from the edge, by retaining devices that prevent them falling or rolling in, or by both if necessary.",
+          "quote": "Employees shall be protected from excavated or other materials or equipment that could pose a hazard by falling or rolling into excavations. Protection shall be provided by placing and keeping such materials or equipment at least 2 feet (.61 m) from the edge of excavations, or by the use of retaining devices that are sufficient to prevent materials or equipment from falling or rolling into excavations, or by a combination of both if necessary.",
           "source": {
             "title": "eCFR: 29 CFR 1926.651, Specific excavation requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.651"
@@ -291,7 +327,7 @@
       "points": [
         {
           "text": "A competent person must inspect excavations, adjacent areas and protective systems daily for possible cave-ins, failing protective systems, hazardous atmospheres or other hazardous conditions, before work starts and as needed during the shift.",
-          "quote": "An inspection shall be conducted by the competent person prior to the start of work and as needed throughout the shift.",
+          "quote": "Daily inspections of excavations, the adjacent areas, and protective systems shall be made by a competent person for evidence of a situation that could result in possible cave-ins, indications of failure of protective systems, hazardous atmospheres, or other hazardous conditions. An inspection shall be conducted by the competent person prior to the start of work and as needed throughout the shift.",
           "source": {
             "title": "eCFR: 29 CFR 1926.651, Specific excavation requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.651"
@@ -308,8 +344,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "If the competent person finds such evidence, exposed employees must be removed from the hazardous area until the necessary precautions have been taken.",
-          "quote": "exposed employees shall be removed from the hazardous area until the necessary precautions have been taken to ensure their safety.",
+          "text": "Where the competent person finds evidence of a situation that could result in a possible cave-in, signs of protective system failure, hazardous atmospheres or other hazardous conditions, exposed employees must be removed from the hazardous area until the necessary precautions have been taken.",
+          "quote": "Where the competent person finds evidence of a situation that could result in a possible cave-in, indications of failure of protective systems, hazardous atmospheres, or other hazardous conditions, exposed employees shall be removed from the hazardous area until the necessary precautions have been taken to ensure their safety.",
           "source": {
             "title": "eCFR: 29 CFR 1926.651, Specific excavation requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.651"
@@ -323,8 +359,17 @@
       "name": "Protective systems",
       "points": [
         {
-          "text": "Each employee in an excavation must be protected from cave-ins by an adequate protective system designed under 1926.652(b) or (c), with two exceptions: excavations made entirely in stable rock, and the case in the next point.",
+          "text": "Each employee in an excavation must be protected from cave-ins by an adequate protective system designed under 1926.652(b) or (c), except in the two cases in the next points.",
           "quote": "Each employee in an excavation shall be protected from cave-ins by an adequate protective system designed in accordance with paragraph (b) or (c) of this section except when:",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.652, Requirements for protective systems (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.652"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The first exception covers excavations made entirely in stable rock.",
+          "quote": "Excavations are made entirely in stable rock",
           "source": {
             "title": "eCFR: 29 CFR 1926.652, Requirements for protective systems (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.652"
@@ -350,7 +395,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Under sloping Option (1), excavations are sloped no steeper than 1.5 horizontal to 1 vertical (34 degrees from the horizontal), unless the employer uses another option, and the configurations follow the Type C soil slopes in Appendix B.",
+          "text": "Under sloping Option (1), excavations must be sloped no steeper than 1.5 horizontal to 1 vertical (34 degrees measured from the horizontal), unless the employer uses one of the other options in 1926.652(b).",
           "quote": "Excavations shall be sloped at an angle not steeper than one and one-half horizontal to one vertical (34 degrees measured from the horizontal), unless the employer uses one of the other options listed below.",
           "source": {
             "title": "eCFR: 29 CFR 1926.652, Requirements for protective systems (as of Nov 3, 2026)",
@@ -359,7 +404,25 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The other sloping and benching options are: Appendices A and B, other written tabulated data, or a design by a registered professional engineer. Systems not using Options (1), (2) or (3) must be approved by a registered professional engineer.",
+          "text": "Option (1) slopes must be excavated to form configurations that follow the slopes shown for Type C soil in Appendix B.",
+          "quote": "Slopes specified in paragraph (b)(1)(i) of this section, shall be excavated to form configurations that are in accordance with the slopes shown for Type C soil in appendix B to this subpart.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.652, Requirements for protective systems (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.652"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Under sloping Option (2), maximum allowable slopes and allowable configurations for sloping and benching systems are determined under the conditions and requirements in Appendices A and B.",
+          "quote": "Maximum allowable slopes, and allowable configurations for sloping and benching systems, shall be determined in accordance with the conditions and requirements set forth in appendices A and B to this subpart.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.652, Requirements for protective systems (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.652"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Sloping and benching systems that do not use Option (1), (2) or (3) of 1926.652(b) must be approved by a registered professional engineer.",
           "quote": "Sloping and benching systems not utilizing Option (1) or Option (2) or Option (3) under paragraph (b) of this section shall be approved by a registered professional engineer.",
           "source": {
             "title": "eCFR: 29 CFR 1926.652, Requirements for protective systems (as of Nov 3, 2026)",
@@ -368,7 +431,16 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Support systems, shield systems and other protective systems taken from manufacturer's tabulated data must follow all the manufacturer's specifications, recommendations and limitations. Deviation is allowed only after the manufacturer gives specific written approval.",
+          "text": "Support systems, shield systems or other protective systems drawn from manufacturer's tabulated data must follow all specifications, recommendations and limitations issued or made by the manufacturer.",
+          "quote": "Design of support systems, shield systems, or other protective systems that are drawn from manufacturer's tabulated data shall be in accordance with all specifications, recommendations, and limitations issued or made by the manufacturer.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.652, Requirements for protective systems (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.652"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Deviation from the manufacturer's specifications, recommendations and limitations is allowed only after the manufacturer issues specific written approval.",
           "quote": "Deviation from the specifications, recommendations, and limitations issued or made by the manufacturer shall only be allowed after the manufacturer issues specific written approval.",
           "source": {
             "title": "eCFR: 29 CFR 1926.652, Requirements for protective systems (as of Nov 3, 2026)",
@@ -377,8 +449,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Removal of a support system must begin at, and progress from, the bottom of the excavation, with members released slowly, and backfilling must progress together with the removal.",
-          "quote": "Removal shall begin at, and progress from, the bottom of the excavation.",
+          "text": "Removal of a support system must begin at, and progress from, the bottom of the excavation. Members must be released slowly so as to note any sign of possible failure of the remaining members or possible cave-in of the sides.",
+          "quote": "Removal shall begin at, and progress from, the bottom of the excavation. Members shall be released slowly so as to note any indication of possible failure of the remaining members of the structure or possible cave-in of the sides of the excavation.",
           "source": {
             "title": "eCFR: 29 CFR 1926.652, Requirements for protective systems (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.652"
@@ -386,8 +458,26 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Employees may not be in shields while the shields are being installed, removed or moved vertically, and must be protected from cave-ins when entering or exiting the area a shield protects.",
+          "text": "Backfilling must progress together with the removal of support systems from excavations.",
+          "quote": "Backfilling shall progress together with the removal of support systems from excavations.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.652, Requirements for protective systems (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.652"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Employees may not be in shields while the shields are being installed, removed or moved vertically.",
           "quote": "Employees shall not be allowed in shields when shields are being installed, removed, or moved vertically.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.652, Requirements for protective systems (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.652"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Employees must be protected from cave-ins when entering or exiting the areas protected by shields.",
+          "quote": "Employees shall be protected from the hazard of cave-ins when entering or exiting the areas protected by shields.",
           "source": {
             "title": "eCFR: 29 CFR 1926.652, Requirements for protective systems (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P/section-1926.652"
@@ -398,11 +488,20 @@
     },
     {
       "id": "soil-classification",
-      "name": "Soil classification (Appendix A)",
+      "name": "Soil classification and sloping (Appendices A and B)",
       "points": [
         {
-          "text": "Appendix A applies when a sloping or benching system is designed under 1926.652(b)(2), when timber shoring is designed under Appendix C, and when aluminum hydraulic shoring is designed under Appendix D.",
-          "quote": "This appendix applies when a sloping or benching system is designed in accordance with the requirements set forth in § 1926.652(b)(2) as a method of protection for employees from cave-ins.",
+          "text": "Appendix A states that it applies when a sloping or benching system is designed under 1926.652(b)(2), when timber shoring for excavations is designed under Appendix C, and when aluminum hydraulic shoring is designed under Appendix D.",
+          "quote": "This appendix applies when a sloping or benching system is designed in accordance with the requirements set forth in § 1926.652(b)(2) as a method of protection for employees from cave-ins. This appendix also applies when timber shoring for excavations is designed as a method of protection from cave-ins in accordance with appendix C to subpart P of part 1926, and when aluminum hydraulic shoring is designed in accordance with appendix D.",
+          "source": {
+            "title": "eCFR: 29 CFR Part 1926, Subpart P, Appendix A (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Appendix A also applies when other protective systems are designed and selected from data prepared under 1926.652(c), if use of that data is predicated on the Appendix A soil classification system.",
+          "quote": "This appendix also applies if other protective systems are designed and selected for use from data prepared in accordance with the requirements set forth in § 1926.652(c), and the use of the data is predicated on the use of the soil classification system set forth in this appendix.",
           "source": {
             "title": "eCFR: 29 CFR Part 1926, Subpart P, Appendix A (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P"
@@ -419,8 +518,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Each soil and rock deposit must be classified by a competent person, based on at least one visual and at least one manual analysis.",
-          "quote": "The classification of the deposits shall be made based on the results of at least one visual and at least one manual analysis.",
+          "text": "The classification of soil and rock deposits must be based on the results of at least one visual and at least one manual analysis, and these analyses must be conducted by a competent person.",
+          "quote": "The classification of the deposits shall be made based on the results of at least one visual and at least one manual analysis. Such analyses shall be conducted by a competent person",
           "source": {
             "title": "eCFR: 29 CFR Part 1926, Subpart P, Appendix A (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P"
@@ -428,7 +527,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Type A soils are cohesive soils with an unconfined compressive strength of 1.5 tons per square foot or greater, but no soil is Type A if it is fissured, subject to vibration from heavy traffic or pile driving, previously disturbed, or part of certain sloped layered systems.",
+          "text": "Type A soils are cohesive soils with an unconfined compressive strength of 1.5 tons per square foot (tsf) or greater.",
           "quote": "Type A means cohesive soils with an unconfined compressive strength of 1.5 ton per square foot (tsf) (144 kPa) or greater.",
           "source": {
             "title": "eCFR: 29 CFR Part 1926, Subpart P, Appendix A (as of Nov 3, 2026)",
@@ -437,7 +536,16 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Type C includes cohesive soil with an unconfined compressive strength of 0.5 tsf or less, granular soils such as gravel, sand and loamy sand, and submerged soil or soil from which water is freely seeping.",
+          "text": "No soil is Type A if it is fissured, subject to vibration from heavy traffic, pile driving or similar effects, previously disturbed, or part of a sloped, layered system whose layers dip into the excavation on a slope of 4H:1V or greater.",
+          "quote": "However, no soil is Type A if: (i) The soil is fissured; or (ii) The soil is subject to vibration from heavy traffic, pile driving, or similar effects; or (iii) The soil has been previously disturbed; or (iv) The soil is part of a sloped, layered system where the layers dip into the excavation on a slope of four horizontal to one vertical (4H:1V) or greater",
+          "source": {
+            "title": "eCFR: 29 CFR Part 1926, Subpart P, Appendix A (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Type C includes cohesive soil with an unconfined compressive strength of 0.5 tsf or less.",
           "quote": "Cohesive soil with an unconfined compressive strength of 0.5 tsf (48 kPa) or less; or",
           "source": {
             "title": "eCFR: 29 CFR Part 1926, Subpart P, Appendix A (as of Nov 3, 2026)",
@@ -446,8 +554,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A layered system is classified by its weakest layer, though each layer may be classified individually where a more stable layer lies under a less stable one.",
-          "quote": "In a layered system, the system shall be classified in accordance with its weakest layer.",
+          "text": "Type C also includes granular soils such as gravel, sand and loamy sand, and submerged soil or soil from which water is freely seeping.",
+          "quote": "Granular soils including gravel, sand, and loamy sand; or (iii) Submerged soil or soil from which water is freely seeping",
           "source": {
             "title": "eCFR: 29 CFR Part 1926, Subpart P, Appendix A (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P"
@@ -455,8 +563,35 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Under Appendix B, when there are signs of distress, the actual slope must be cut back to at least 1/2 horizontal to 1 vertical less steep than the maximum allowable slope. A competent person decides how much to reduce the slope for surcharge loads.",
+          "text": "A layered system is classified by its weakest layer, but each layer may be classified individually where a more stable layer lies under a less stable layer.",
+          "quote": "In a layered system, the system shall be classified in accordance with its weakest layer. However, each layer may be classified individually where a more stable layer lies under a less stable layer.",
+          "source": {
+            "title": "eCFR: 29 CFR Part 1926, Subpart P, Appendix A (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Appendix B's requirements apply when the design of sloping and benching protective systems is to be performed under 1926.652(b)(2).",
+          "quote": "The requirements of this appendix apply when the design of sloping and benching protective systems is to be performed in accordance with the requirements set forth in § 1926.652(b)(2).",
+          "source": {
+            "title": "eCFR: 29 CFR Part 1926, Subpart P, Appendix B (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Under Appendix B, the actual slope must be less steep than the maximum allowable slope when there are signs of distress.",
           "quote": "The actual slope shall be less steep than the maximum allowable slope, when there are signs of distress.",
+          "source": {
+            "title": "eCFR: 29 CFR Part 1926, Subpart P, Appendix B (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "Under Appendix B, when surcharge loads from stored material or equipment, operating equipment or traffic are present, a competent person must decide how far the actual slope must be reduced below the maximum allowable slope and make sure that reduction is achieved.",
+          "quote": "When surcharge loads from stored material or equipment, operating equipment, or traffic are present, a competent person shall determine the degree to which the actual slope must be reduced below the maximum allowable slope, and shall assure that such reduction is achieved.",
           "source": {
             "title": "eCFR: 29 CFR Part 1926, Subpart P, Appendix B (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-P"
@@ -464,7 +599,7 @@
           "checked": "2026-11-05"
         }
       ],
-      "notCovered": "We do not summarize Table B-1 and the slope figures in Appendix B, the timber and aluminum hydraulic shoring tables in Appendices C and D, or the figures in Appendices E and F, because the eCFR copy we checked shows them as images rather than text we can quote."
+      "notCovered": "We do not summarize Table B-1 and the slope drawings in Appendix B, the timber and aluminum hydraulic shoring tables in Appendices C and D, or the figures in Appendices E and F, because the eCFR copy we checked shows them as images rather than text we can quote. We also leave out the exact amount Appendix B says a slope must be cut back when there are signs of distress, because the fraction does not come through cleanly in that text copy."
     }
   ]
 }
