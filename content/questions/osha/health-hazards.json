@@ -8,15 +8,15 @@
     {
       "id": "hh-001",
       "topic": "Medical services and first aid",
-      "question": "There is no infirmary, clinic, hospital or physician that is reasonably accessible in terms of time and distance to the worksite and available for the treatment of injured employees. Who must be available at the worksite to render first aid?",
+      "question": "Under 1926.50(a), the employer must insure the availability of medical personnel for what purpose?",
       "options": {
-        "A": "A person with a valid first-aid training certificate from the U.S. Bureau of Mines, the American Red Cross, or verifiable equivalent training",
-        "B": "Any employee who volunteers, with no training needed",
-        "C": "The nearest OSHA compliance officer",
-        "D": "Any crew member who has a cell phone"
+        "A": "Advice and consultation on matters of occupational health",
+        "B": "Signing each employee's weekly timesheet",
+        "C": "Inspecting scaffolds before each shift",
+        "D": "Approving the project's budget"
       },
       "answer": "A",
-      "explanation": "In that case \"a person who has a valid certificate in first-aid training from the U.S. Bureau of Mines, the American Red Cross, or equivalent training that can be verified by documentary evidence, shall be available at the worksite to render first aid.\"",
+      "explanation": "\"The employer shall insure the availability of medical personnel for advice and consultation on matters of occupational health.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.50, Medical services and first aid (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-D/section-1926.50"
@@ -206,15 +206,15 @@
     {
       "id": "hh-012",
       "topic": "Noise",
-      "question": "Under 1926.52(a), how are sound levels measured when they are compared with Table D-2?",
+      "question": "Under 1926.52(d)(1), what must be administered in all cases where the sound levels exceed the values shown in Table D-2?",
       "options": {
-        "A": "On the C-scale of a sound level meter at fast response",
-        "B": "With a peak meter set to impulse response",
-        "C": "By the employee's own estimate of loudness",
-        "D": "On the A-scale of a standard sound level meter at slow response"
+        "A": "A one-time hearing test at hire only",
+        "B": "A written warning to each exposed employee",
+        "C": "A monthly noise survey by OSHA",
+        "D": "A continuing, effective hearing conservation program"
       },
       "answer": "D",
-      "explanation": "Protection is required when sound levels exceed Table D-2 \"when measured on the A-scale of a standard sound level meter at slow response.\"",
+      "explanation": "\"In all cases where the sound levels exceed the values shown herein, a continuing, effective hearing conservation program shall be administered.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.52, Occupational noise exposure (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-D/section-1926.52"
@@ -332,15 +332,15 @@
     {
       "id": "hh-019",
       "topic": "Lead",
-      "question": "An employee is exposed to lead for 10 hours in a work day. Using the 1926.62(c)(2) formula, what is the employee's allowable exposure (TWA) for that day?",
+      "question": "Respirators are used to limit employee exposure to lead, and all the requirements of 1926.62(e)(1) and (f) have been met. Under 1926.62(c)(3), how may employee exposure be considered for the periods the respirator is worn?",
       "options": {
-        "A": "50 µg/m3",
-        "B": "30 µg/m3",
-        "C": "40 µg/m3",
-        "D": "80 µg/m3"
+        "A": "As zero for the whole shift, whatever respirator is used",
+        "B": "At double the measured airborne level",
+        "C": "At the level provided by the protection factor of the respirator",
+        "D": "At half the PEL, whatever respirator is used"
       },
       "answer": "C",
-      "explanation": "For more than 8 hours in a work day, \"Allowable employee exposure (in µg/m3) = 400 divided by hours worked in the day.\" 400 divided by 10 hours is 40 µg/m3.",
+      "explanation": "In that case \"employee exposure may be considered to be at the level provided by the protection factor of the respirator for those periods the respirator is worn.\" Those periods \"may be averaged with exposure levels during periods when respirators are not worn to determine the employee's daily TWA exposure.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.62, Lead (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-D/section-1926.62"

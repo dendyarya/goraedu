@@ -206,15 +206,15 @@
     {
       "id": "so-012",
       "topic": "Medical condition, alcohol and drugs",
-      "question": "Under 107.17, what makes it prohibited for a person to act as remote pilot in command, visual observer or direct participant, or to manipulate the flight controls?",
+      "question": "Which persons does 107.17 cover when it bars someone who knows or has reason to know of a physical or mental condition that would interfere with safe operation of the small UAS?",
       "options": {
-        "A": "Having flown another small UAS earlier the same day",
-        "B": "Having taken any medication in the past 8 hours",
-        "C": "Knowing or having reason to know of a physical or mental condition that would interfere with the safe operation of the small UAS",
-        "D": "Wearing corrective lenses during the operation"
+        "A": "Only the remote pilot in command",
+        "B": "Only a person who holds a part 61 pilot certificate",
+        "C": "A person manipulating the flight controls, or acting as a remote pilot in command, visual observer, or direct participant in the operation",
+        "D": "Only the visual observer, if one is used"
       },
       "answer": "C",
-      "explanation": "107.17 applies to a person who \"knows or has reason to know that he or she has a physical or mental condition that would interfere with the safe operation of the small unmanned aircraft system.\"",
+      "explanation": "107.17: \"No person may manipulate the flight controls of a small unmanned aircraft system or act as a remote pilot in command, visual observer, or direct participant in the operation of the small unmanned aircraft\" if he or she knows or has reason to know of such a condition.",
       "source": {
         "title": "eCFR: 14 CFR 107.17, Medical condition (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.17"
@@ -242,15 +242,15 @@
     {
       "id": "so-014",
       "topic": "Medical condition, alcohol and drugs",
-      "question": "What waiting period after the first dose of any new medication does the Study Guide give before flying?",
+      "question": "Besides the medication questions of IMSAFE, which item does the Study Guide list for pilots to also consider?",
       "options": {
-        "A": "At least 48 hours",
-        "B": "At least 8 hours",
-        "C": "At least 12 hours",
-        "D": "At least 1 hour"
+        "A": "Ensure adequate sleep the night prior to the flight",
+        "B": "Skip meals on the day of the flight to stay alert",
+        "C": "Limit water so that fewer breaks are needed",
+        "D": "Take an elective medication the morning of the flight"
       },
       "answer": "A",
-      "explanation": "The Study Guide says that for any new medication, OTC or prescribed, \"you should wait at least 48 hours after the first dose before flying\" to determine there are no adverse side effects.",
+      "explanation": "The Study Guide: \"In addition to medication questions, pilots should also consider the following\", including \"Ensure adequate sleep the night prior to the flight\", \"Make sure you eat regular balanced meals\" and \"Do not take any unnecessary or elective medications.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -314,15 +314,15 @@
     {
       "id": "so-018",
       "topic": "Decision-making and risk management",
-      "question": "According to the Study Guide, what is the first step toward neutralizing hazardous thoughts?",
+      "question": "According to the Study Guide, why should antidotes be memorized for each of the hazardous attitudes?",
       "options": {
-        "A": "Continuing the flight until the thought passes",
-        "B": "Asking air traffic control for advice",
-        "C": "Switching off the control station",
-        "D": "Recognition of hazardous thoughts"
+        "A": "So they can be read back to air traffic control",
+        "B": "So the visual observer can check them before each flight",
+        "C": "So they replace the preflight assessment of the operating environment",
+        "D": "So they automatically come to mind when needed"
       },
       "answer": "D",
-      "explanation": "The Study Guide: \"Recognition of hazardous thoughts is the first step toward neutralizing them.\" The pilot should then \"label it as hazardous, then state the corresponding antidote.\"",
+      "explanation": "The Study Guide: after recognizing a thought as hazardous, \"the pilot should label it as hazardous, then state the corresponding antidote. Antidotes should be memorized for each of the hazardous attitudes so they automatically come to mind when needed.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"

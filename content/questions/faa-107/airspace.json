@@ -8,15 +8,15 @@
     {
       "id": "as-001",
       "topic": "Part 107 airspace rules",
-      "question": "Which airspace does 107.41 list as requiring prior authorization from Air Traffic Control (ATC) before a small unmanned aircraft is operated there?",
+      "question": "For Class E airspace, which portion does 107.41 include in its requirement for prior authorization from Air Traffic Control (ATC)?",
       "options": {
-        "A": "Class A and Class G airspace only",
-        "B": "Class B, Class C or Class D airspace, and the surface area of Class E airspace designated for an airport",
-        "C": "Any airspace above 400 feet AGL, whatever its class",
-        "D": "Federal Airways within Class E airspace only"
+        "A": "All Class E airspace that begins at 1,200 feet AGL",
+        "B": "The lateral boundaries of the surface area of Class E airspace designated for an airport",
+        "C": "Only Class E airspace above 14,500 feet MSL",
+        "D": "Only Class E airspace along Federal Airways"
       },
       "answer": "B",
-      "explanation": "107.41 covers \"Class B, Class C, or Class D airspace or within the lateral boundaries of the surface area of Class E airspace designated for an airport\" and requires \"prior authorization from Air Traffic Control (ATC).\"",
+      "explanation": "107.41: \"No person may operate a small unmanned aircraft in Class B, Class C, or Class D airspace or within the lateral boundaries of the surface area of Class E airspace designated for an airport unless that person has prior authorization from Air Traffic Control (ATC).\"",
       "source": {
         "title": "eCFR: 14 CFR 107.41, Operation in certain airspace (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.41"
@@ -98,7 +98,7 @@
     {
       "id": "as-006",
       "topic": "Part 107 airspace rules",
-      "question": "107.45 names two kinds of special use airspace in which no person may operate a small unmanned aircraft unless that person has permission from the using or controlling agency. Which two?",
+      "question": "107.45 names two kinds of areas in which no person may operate a small unmanned aircraft unless that person has permission from the using or controlling agency. Which two?",
       "options": {
         "A": "Warning areas and alert areas",
         "B": "Military operations areas and controlled firing areas",
@@ -134,15 +134,15 @@
     {
       "id": "as-008",
       "topic": "Airspace categories and controlled airspace",
-      "question": "What two categories of airspace does the FAA Remote Pilot Study Guide describe?",
+      "question": "According to the Study Guide, which factors dictate the categories and types of airspace?",
       "options": {
-        "A": "Domestic and international",
-        "B": "Visual and instrument",
-        "C": "Civil and military",
-        "D": "Regulatory and nonregulatory"
+        "A": "The weight and size of the aircraft that use the airspace only",
+        "B": "The number of airports in each state",
+        "C": "The type of radio each aircraft carries",
+        "D": "The complexity or density of aircraft movements, nature of the operations conducted, the level of safety required, and national and public interest"
       },
       "answer": "D",
-      "explanation": "The Study Guide: \"The two categories of airspace are: regulatory and nonregulatory.\"",
+      "explanation": "The Study Guide: \"The categories and types of airspace are dictated by the complexity or density of aircraft movements, nature of the operations conducted within the airspace, the level of safety required, and national and public interest.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"

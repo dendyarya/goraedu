@@ -26,15 +26,15 @@
     {
       "id": "or-002",
       "topic": "Applicability and definitions",
-      "question": "Which of these does 107.1(b) list as an operation to which Part 107 does not apply?",
+      "question": "Besides the registration, airman certification, and operation of civil small unmanned aircraft systems within the United States, what else does 107.1(a) say Part 107 applies to?",
       "options": {
-        "A": "Any commercial photography operation",
-        "B": "Air carrier operations",
-        "C": "Any flight at night",
-        "D": "Any flight in Class G airspace"
+        "A": "The manufacture of all aircraft engines sold in the United States",
+        "B": "The eligibility of civil small unmanned aircraft systems to operate over human beings in the United States",
+        "C": "Air carrier operations",
+        "D": "Aircraft subject to the provisions of 49 U.S.C. 44809"
       },
       "answer": "B",
-      "explanation": "107.1(b) states that \"This part does not apply to the following\" and lists first \"Air carrier operations\".",
+      "explanation": "107.1(a): \"This part also applies to the eligibility of civil small unmanned aircraft systems to operate over human beings in the United States.\" Under 107.1(b), the part does not apply to \"Air carrier operations\" or to \"Any aircraft subject to the provisions of 49 U.S.C. 44809\".",
       "source": {
         "title": "eCFR: 14 CFR 107.1, Applicability (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.1"
@@ -98,15 +98,15 @@
     {
       "id": "or-006",
       "topic": "Remote pilot in command and crew",
-      "question": "Under 107.21(b), what must a remote pilot in command who deviated from a rule in an in-flight emergency do upon request of the Administrator?",
+      "question": "Which condition does 107.21(a) attach to the remote pilot in command's authority to deviate from a rule of Part 107?",
       "options": {
-        "A": "Send a written report of that deviation to the Administrator",
-        "B": "Surrender the remote pilot certificate for cancellation",
-        "C": "Retake the initial aeronautical knowledge test",
-        "D": "Apply for a certificate of waiver covering the deviation"
+        "A": "An in-flight emergency requiring immediate action, with the deviation going only to the extent necessary to meet that emergency",
+        "B": "Air traffic control approving the deviation before it is made",
+        "C": "The visual observer agreeing that the deviation is needed",
+        "D": "The flight taking place in Class G airspace"
       },
       "answer": "A",
-      "explanation": "107.21(b): each remote pilot in command who deviates from a rule under paragraph (a) \"must, upon request of the Administrator, send a written report of that deviation to the Administrator.\"",
+      "explanation": "107.21(a): \"In an in-flight emergency requiring immediate action, the remote pilot in command may deviate from any rule of this part to the extent necessary to meet that emergency.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.21, In-flight emergency (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.21"
@@ -188,15 +188,15 @@
     {
       "id": "or-011",
       "topic": "Reporting, inspection and waivers",
-      "question": "Which of these does 107.9(a) list as a criterion that makes an operation reportable to the FAA?",
+      "question": "How does 107.9 say the remote pilot in command must report a safety event to the FAA?",
       "options": {
-        "A": "Damage to the small unmanned aircraft itself",
-        "B": "Serious injury to any person or any loss of consciousness",
-        "C": "Any loss of the control link, with no injury or damage",
-        "D": "Any flight that ends with a landing away from the launch point"
+        "A": "By telephone to the nearest air traffic control tower only",
+        "B": "In a manner acceptable to the Administrator",
+        "C": "By a letter mailed to the National Transportation Safety Board",
+        "D": "Through the aircraft's Remote ID broadcast"
       },
       "answer": "B",
-      "explanation": "107.9(a) covers an operation involving at least \"Serious injury to any person or any loss of consciousness\"; 107.9(b) covers damage to property \"other than the small unmanned aircraft\".",
+      "explanation": "107.9: \"a remote pilot in command must report to the FAA, in a manner acceptable to the Administrator, any operation of the small unmanned aircraft involving at least\" serious injury or loss of consciousness, or certain property damage.",
       "source": {
         "title": "eCFR: 14 CFR 107.9, Safety event reporting (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.9"
@@ -278,15 +278,15 @@
     {
       "id": "or-016",
       "topic": "Hazardous operations and right of way",
-      "question": "Without a certificate of waiver, what does 107.25(a) say about operating a small unmanned aircraft system from a moving aircraft?",
+      "question": "Besides flying over a sparsely populated area, what condition does 107.25(b) set for operating a small unmanned aircraft system from a moving land or water-borne vehicle?",
       "options": {
-        "A": "It is allowed over a sparsely populated area",
-        "B": "It is allowed when the moving aircraft flies below 400 feet AGL",
-        "C": "It is allowed when a visual observer rides in the moving aircraft",
-        "D": "No person may operate a small unmanned aircraft system from a moving aircraft"
+        "A": "The vehicle moves at less than 25 miles per hour",
+        "B": "A visual observer drives the vehicle",
+        "C": "The vehicle stays on a public road",
+        "D": "The small unmanned aircraft is not transporting another person's property for compensation or hire"
       },
       "answer": "D",
-      "explanation": "107.25: \"No person may operate a small unmanned aircraft system\" \"From a moving aircraft\". The sparsely populated area exception in 107.25(b) applies only to \"a moving land or water-borne vehicle\".",
+      "explanation": "107.25(b) bars operation \"From a moving land or water-borne vehicle unless the small unmanned aircraft is flown over a sparsely populated area and is not transporting another person's property for compensation or hire.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.25, Operation from a moving vehicle or aircraft (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.25"
