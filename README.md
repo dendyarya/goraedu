@@ -11,8 +11,8 @@ Stack: Next.js 16 (static export), served by Nginx on the shared VPS behind Clou
 Every push to `main` is checked, built and deployed to the VPS by GitHub Actions
 (`.github/workflows/deploy.yml`). Setup, server layout and rollback: [docs/deploy.md](docs/deploy.md).
 
-Until the repository variable `SITE_ENV=production` is set, every build is `noindex` and `robots.txt` blocks
-crawling, so the early site never gets indexed by accident.
+Builds are indexable since launch (Nov 5, 2026). Setting the repository variable `SITE_ENV` to anything other than
+`production` (e.g. `staging`) makes every build `noindex` and makes `robots.txt` block crawling.
 
 ## Local
 

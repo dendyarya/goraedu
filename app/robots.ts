@@ -6,7 +6,7 @@ export const dynamic = "force-static";
 export default function robots(): MetadataRoute.Robots {
   if (!SITE.indexable) return { rules: { userAgent: "*", disallow: "/" } };
   return {
-    rules: { userAgent: "*", allow: "/", disallow: ["/search/"] },
+    rules: { userAgent: "*", allow: "/", disallow: ["/search/", "/search-index.json"] },
     sitemap: [`${SITE.url}/sitemap.xml`, `${SITE.url}/news-sitemap.xml`],
   };
 }

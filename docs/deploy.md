@@ -50,11 +50,11 @@ Secrets never go into chat or screenshots: private keys, the origin key, passwor
    Then on the server: `rm -r /root/gora-deploy-key`.
 5. **First deploy.** Actions → Deploy → Run workflow on `main` (or push any commit). Open https://www.goraedu.com.
 
-## Launch (later)
+## Launch
 
-When the trust pages and P1 pages are published (runbook), add the repository **variables**
-`SITE_ENV=production` and `SITE_URL=https://www.goraedu.com`, then redeploy. Until then every build is `noindex`
-and `robots.txt` blocks crawling.
+The site launched on November 5, 2026: builds are indexable by default. To take it out of search engines again (for
+example while staging a redesign), set the repository **variable** `SITE_ENV` to `staging` and redeploy; every build
+is then `noindex` and `robots.txt` blocks crawling. `SITE_URL` defaults to https://www.goraedu.com.
 
 ## Rollback
 
