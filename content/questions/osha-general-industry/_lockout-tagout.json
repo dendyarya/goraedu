@@ -155,7 +155,7 @@
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
       },
       "checked": "2026-11-05",
-      "evidence": "When a tagout device is used on an energy isolating device which is capable of being locked out, the tagout device shall be attached at the same location that the lockout device would have been attached,"
+      "evidence": "When a tagout device is used on an energy isolating device which is capable of being locked out, the tagout device shall be attached at the same location that the lockout device would have been attached, and the employer shall demonstrate that the tagout program will provide a level of safety equivalent to that obtained by using a lockout program."
     },
     {
       "id": "lt-009",
@@ -301,7 +301,7 @@
         "D": "Only the location of the first-aid kit"
       },
       "answer": "B",
-      "explanation": "\"Each affected employee shall be instructed in the purpose and use of the energy control procedure.\" Lockout or tagout itself is performed only by authorized employees.",
+      "explanation": "\"Each affected employee shall be instructed in the purpose and use of the energy control procedure.\" Under 1910.147(c)(8), \"Lockout or tagout shall be performed only by the authorized employees who are performing the servicing or maintenance.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.147, The control of hazardous energy (lockout/tagout) (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
@@ -314,10 +314,10 @@
       "topic": "Training and retraining",
       "question": "Which event requires retraining for authorized and affected employees under 1910.147(c)(7)(iii)?",
       "options": {
-        "A": "Only an injury on the machine",
-        "B": "Only the employee's own request",
+        "A": "A new supervisor joining the department",
+        "B": "The start of a new calendar year",
         "C": "A change in their job assignments",
-        "D": "Only the passing of five years since the last training"
+        "D": "An employee's work anniversary"
       },
       "answer": "C",
       "explanation": "\"Retraining shall be provided for all authorized and affected employees whenever there is a change in their job assignments, a change in machines, equipment or processes that present a new hazard, or when there is a change in the energy control procedures.\"",
@@ -364,7 +364,7 @@
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
       },
       "checked": "2026-11-05",
-      "evidence": "Each lockout or tagout device shall be removed from each energy isolating device by the employee who applied the device."
+      "evidence": "Each lockout or tagout device shall be removed from each energy isolating device by the employee who applied the device. Exception to paragraph (e)(3): When the authorized employee who applied the lockout or tagout device is not available to remove it, that device may be removed under the direction of the employer, provided that specific procedures and training for such removal have been developed, documented and incorporated into the employer's energy control program."
     },
     {
       "id": "lt-020",

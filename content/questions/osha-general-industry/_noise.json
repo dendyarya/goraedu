@@ -46,7 +46,7 @@
     {
       "id": "nz-003",
       "topic": "Permissible exposures and controls",
-      "question": "According to the note to Table G-16, exposure to impulsive or impact noise should not exceed what level?",
+      "question": "Under 1910.95, exposure to impulsive or impact noise should not exceed what level?",
       "options": {
         "A": "150 dB peak sound pressure level",
         "B": "140 dB peak sound pressure level",
@@ -65,7 +65,7 @@
     {
       "id": "nz-004",
       "topic": "Hearing conservation program",
-      "question": "At what exposure must an employer administer a hearing conservation program under 1910.95(c)?",
+      "question": "Under 1910.95(c)(1), what is the lowest exposure at which the employer must administer a hearing conservation program?",
       "options": {
         "A": "An 8-hour TWA of 90 decibels or a dose of 100 percent",
         "B": "An 8-hour TWA of 95 decibels",
@@ -73,7 +73,7 @@
         "D": "An 8-hour TWA of 85 decibels or a dose of fifty percent"
       },
       "answer": "D",
-      "explanation": "The program is required \"whenever employee noise exposures equal or exceed an 8-hour time-weighted average sound level (TWA) of 85 decibels measured on the A scale (slow response) or, equivalently, a dose of fifty percent.\"",
+      "explanation": "The program is required \"whenever employee noise exposures equal or exceed an 8-hour time-weighted average sound level (TWA) of 85 decibels measured on the A scale (slow response) or, equivalently, a dose of fifty percent.\" The higher levels listed are also covered, but 85 decibels is where the requirement starts.",
       "source": {
         "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -155,7 +155,7 @@
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
       },
       "checked": "2026-11-05",
-      "evidence": "the employer shall use representative personal sampling to comply with the monitoring requirements of this paragraph unless the employer can show that area sampling produces equivalent results."
+      "evidence": "Where circumstances such as high worker mobility, significant variations in sound level, or a significant component of impulse noise make area monitoring generally inappropriate, the employer shall use representative personal sampling to comply with the monitoring requirements of this paragraph unless the employer can show that area sampling produces equivalent results."
     },
     {
       "id": "nz-009",
@@ -236,12 +236,12 @@
     {
       "id": "nz-013",
       "topic": "Audiometric testing",
-      "question": "Who pays for the audiometric testing program required by 1910.95(g)?",
+      "question": "What does 1910.95(g)(2) say about what the audiometric testing program costs employees?",
       "options": {
-        "A": "The employer: it is provided at no cost to employees",
-        "B": "The employee pays half of each test",
-        "C": "The employee pays for annual audiograms only",
-        "D": "The employee's health insurer"
+        "A": "It is provided at no cost to employees",
+        "B": "Employees pay half of each test",
+        "C": "Employees pay for annual audiograms only",
+        "D": "Employees pay for the baseline audiogram only"
       },
       "answer": "A",
       "explanation": "\"The program shall be provided at no cost to employees.\"",
@@ -326,7 +326,7 @@
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
       },
       "checked": "2026-11-05",
-      "evidence": "By any employee who is exposed to an 8-hour time-weighted average of 85 decibels or greater, and who:"
+      "evidence": "By any employee who is exposed to an 8-hour time-weighted average of 85 decibels or greater, and who: (A) Has not yet had a baseline audiogram established pursuant to paragraph (g)(5)(ii); or (B) Has experienced a standard threshold shift."
     },
     {
       "id": "nz-018",
@@ -339,7 +339,7 @@
         "D": "100 decibels"
       },
       "answer": "A",
-      "explanation": "\"For employees who have experienced a standard threshold shift, hearing protectors must attenuate employee exposure to an 8-hour time-weighted average of 85 decibels or below.\" For other employees the limit is at least to 90 decibels.",
+      "explanation": "\"For employees who have experienced a standard threshold shift, hearing protectors must attenuate employee exposure to an 8-hour time-weighted average of 85 decibels or below.\" For other employees, paragraph (j)(2) requires attenuation \"at least to an 8-hour time-weighted average of 90 decibels.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"

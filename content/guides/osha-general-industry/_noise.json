@@ -20,7 +20,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Table G-16 (Permissible noise exposures) pairs a duration per day with a sound level in dBA, slow response: 8 hours at 90, 6 hours at 92, 4 hours at 95, 3 hours at 97, 2 hours at 100, 1 1/2 hours at 102, 1 hour at 105, 1/2 hour at 110, and 1/4 hour or less at 115.",
+          "text": "Table G-16 (Permissible noise exposures) pairs a duration per day with a sound level in dBA, slow response: 8 hours at 90, 6 hours at 92, 4 hours at 95, 3 hours at 97 and 2 hours at 100.",
           "quote": "Duration per day, hours Sound level dBA slow response 8 90 6 92 4 95 3 97 2 100",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
@@ -29,8 +29,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "When the daily exposure is made up of two or more periods at different levels, the table's footnote says their combined effect should be considered: if the sum of the fractions C1/T1 + C2/T2 ... Cn/Tn exceeds unity, the mixed exposure should be considered to exceed the limit. C is the total time at a level and T is the total time permitted at that level.",
-          "quote": "If the sum of the following fractions: C1/T1 + C2/T2 C n/T n exceeds unity, then, the mixed exposure should be considered to exceed the limit value.",
+          "text": "Table G-16's footnote: if the sum of the fractions C1/T1 + C2/T2 ... Cn/Tn exceeds unity, the mixed exposure should be considered to exceed the limit value. Cn is the total time of exposure at a specified noise level and Tn the total time of exposure permitted at that level.",
+          "quote": "If the sum of the following fractions: C1/T1 + C2/T2 C n/T n exceeds unity, then, the mixed exposure should be considered to exceed the limit value. Cn indicates the total time of exposure at a specified noise level, and Tn indicates the total time of exposure permitted at that level.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -56,7 +56,7 @@
           "checked": "2026-11-05"
         }
       ],
-      "notCovered": "Reading octave band levels off Figure G-9 (the equivalent sound level contour graph). The graph is an image and is not in the text this guide is built from."
+      "notCovered": "Reading octave band levels off Figure G-9 (the equivalent sound level contour graph). The graph is an image and is not in the text this guide is built from. The Table G-16 rows below 2 hours (1 1/2 hours, 1/2 hour and 1/4 hour or less) are not listed here because their fractions do not come through cleanly in the text copy; read them in the linked table."
     },
     {
       "id": "conservation-program",
@@ -90,7 +90,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Paragraphs (c) through (n), the hearing conservation requirements, do not apply to employers engaged in oil and gas well drilling and servicing operations.",
+          "text": "Paragraphs (c) through (n) of the section do not apply to employers engaged in oil and gas well drilling and servicing operations.",
           "quote": "Paragraphs (c) through (n) of this section shall not apply to employers engaged in oil and gas well drilling and servicing operations.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
@@ -114,8 +114,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Where high worker mobility, significant variations in sound level, or a significant component of impulse noise make area monitoring generally inappropriate, the employer must use representative personal sampling, unless it can show that area sampling produces equivalent results.",
-          "quote": "the employer shall use representative personal sampling to comply with the monitoring requirements of this paragraph unless the employer can show that area sampling produces equivalent results.",
+          "text": "Where circumstances such as high worker mobility, significant variations in sound level, or a significant component of impulse noise make area monitoring generally inappropriate, the employer must use representative personal sampling, unless it can show that area sampling produces equivalent results.",
+          "quote": "Where circumstances such as high worker mobility, significant variations in sound level, or a significant component of impulse noise make area monitoring generally inappropriate, the employer shall use representative personal sampling to comply with the monitoring requirements of this paragraph unless the employer can show that area sampling produces equivalent results.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -123,7 +123,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "All continuous, intermittent and impulsive sound levels from 80 decibels to 130 decibels must be integrated into the noise measurements, and the measuring instruments must be calibrated.",
+          "text": "All continuous, intermittent and impulsive sound levels from 80 decibels to 130 decibels must be integrated into the noise measurements.",
           "quote": "All continuous, intermittent and impulsive sound levels from 80 decibels to 130 decibels shall be integrated into the noise measurements.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
@@ -132,8 +132,17 @@
           "checked": "2026-11-05"
         },
         {
+          "text": "Instruments used to measure employee noise exposure must be calibrated to ensure measurement accuracy.",
+          "quote": "Instruments used to measure employee noise exposure shall be calibrated to ensure measurement accuracy.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
+          },
+          "checked": "2026-11-05"
+        },
+        {
           "text": "Monitoring must be repeated whenever a change in production, process, equipment or controls increases noise exposures so that additional employees may be exposed at or above the action level, or the attenuation of the hearing protectors in use may become inadequate under paragraph (j).",
-          "quote": "Monitoring shall be repeated whenever a change in production, process, equipment or controls increases noise exposures to the extent that:",
+          "quote": "Monitoring shall be repeated whenever a change in production, process, equipment or controls increases noise exposures to the extent that: (i) Additional employees may be exposed at or above the action level; or (ii) The attenuation provided by hearing protectors being used by employees may be rendered inadequate to meet the requirements of paragraph (j) of this section.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -150,7 +159,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Appendix G (Monitoring Noise Levels), a non-mandatory informational appendix, explains that area monitoring can be used when noise levels are relatively constant and employees are not mobile.",
+          "text": "Appendix G (Monitoring Noise Levels), a non-mandatory informational appendix, says area monitoring can be used to estimate noise exposure when the noise levels are relatively constant and employees are not mobile.",
           "quote": "Area monitoring can be used to estimate noise exposure when the noise levels are relatively constant and employees are not mobile.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Appendix G (as of Nov 3, 2026)",
@@ -165,8 +174,8 @@
       "name": "Audiometric testing",
       "points": [
         {
-          "text": "The audiometric testing program must be provided at no cost to employees.",
-          "quote": "The program shall be provided at no cost to employees.",
+          "text": "The employer must make audiometric testing available to all employees whose exposures equal or exceed an 8-hour TWA of 85 decibels, and the program must be provided at no cost to employees.",
+          "quote": "The employer shall establish and maintain an audiometric testing program as provided in this paragraph by making audiometric testing available to all employees whose exposures equal or exceed an 8-hour time-weighted average of 85 decibels. (2) The program shall be provided at no cost to employees.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -174,7 +183,16 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Tests are performed by a licensed or certified audiologist, otolaryngologist or other physician, or by a technician who is certified by the Council of Accreditation in Occupational Hearing Conservation or has shown competence. A technician who operates microprocessor audiometers does not need to be certified, and every technician must be responsible to an audiologist, otolaryngologist or physician.",
+          "text": "Audiometric tests must be performed by a licensed or certified audiologist, otolaryngologist or other physician, or by a technician who is certified by the Council of Accreditation in Occupational Hearing Conservation or who has satisfactorily demonstrated competence in administering audiometric examinations, obtaining valid audiograms, and using, maintaining and checking the audiometers.",
+          "quote": "Audiometric tests shall be performed by a licensed or certified audiologist, otolaryngologist, or other physician, or by a technician who is certified by the Council of Accreditation in Occupational Hearing Conservation, or who has satisfactorily demonstrated competence in administering audiometric examinations, obtaining valid audiograms, and properly using, maintaining and checking calibration and proper functioning of the audiometers being used.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A technician who operates microprocessor audiometers does not need to be certified. A technician who performs audiometric tests must be responsible to an audiologist, otolaryngologist or physician.",
           "quote": "A technician who operates microprocessor audiometers does not need to be certified. A technician who performs audiometric tests must be responsible to an audiologist, otolaryngologist or physician.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
@@ -193,7 +211,7 @@
         },
         {
           "text": "Mobile test van exception: where mobile test vans are used, the baseline must be obtained within 1 year of first exposure at or above the action level. If the baseline comes more than 6 months after first exposure, the employee must wear hearing protectors for any period exceeding six months after first exposure until the baseline is obtained.",
-          "quote": "Where mobile test vans are used to meet the audiometric testing obligation, the employer shall obtain a valid baseline audiogram within 1 year of an employee's first exposure at or above the action level.",
+          "quote": "Where mobile test vans are used to meet the audiometric testing obligation, the employer shall obtain a valid baseline audiogram within 1 year of an employee's first exposure at or above the action level. Where baseline audiograms are obtained more than 6 months after the employee's first exposure at or above the action level, employees shall wearing hearing protectors for any period exceeding six months after first exposure until the baseline audiogram is obtained.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -201,8 +219,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Baseline testing must follow at least 14 hours without exposure to workplace noise; hearing protectors may be used as a substitute for that quiet period. The employer must tell employees to avoid high levels of non-occupational noise during the 14 hours before the test.",
+          "text": "Testing to establish a baseline audiogram must be preceded by at least 14 hours without exposure to workplace noise; hearing protectors may be used as a substitute for that requirement.",
           "quote": "Testing to establish a baseline audiogram shall be preceded by at least 14 hours without exposure to workplace noise. Hearing protectors may be used as a substitute for the requirement that baseline audiograms be preceded by 14 hours without exposure to workplace noise.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The employer must notify employees of the need to avoid high levels of non-occupational noise exposure during the 14-hour period immediately preceding the audiometric examination.",
+          "quote": "The employer shall notify employees of the need to avoid high levels of non-occupational noise exposure during the 14-hour period immediately preceding the audiometric examination.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -228,8 +255,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Calibration must be checked acoustically at least annually under Appendix E (deviations of 15 decibels or greater require an exhaustive calibration), and an exhaustive calibration must be done at least every two years.",
-          "quote": "An exhaustive calibration shall be performed at least every two years",
+          "text": "Audiometer calibration must be checked acoustically at least annually under Appendix E (test frequencies below 500 Hz and above 6000 Hz may be omitted); deviations of 15 decibels or greater require an exhaustive calibration.",
+          "quote": "Audiometer calibration shall be checked acoustically at least annually in accordance with appendix E: Acoustic Calibration of Audiometers. Test frequencies below 500 Hz and above 6000 Hz may be omitted from this check. Deviations of 15 decibels or greater require an exhaustive calibration.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An exhaustive calibration must be performed at least every two years, under listed sections of American National Standard S3.6-1969; test frequencies below 500 Hz and above 6000 Hz may be omitted from it.",
+          "quote": "An exhaustive calibration shall be performed at least every two years in accordance with sections 4.1.2; 4.1.3.; 4.1.4.3; 4.2; 4.4.1; 4.4.2; 4.4.3; and 4.5 of the American National Standard Specification for Audiometers, S3.6-1969. Test frequencies below 500 Hz and above 6000 Hz may be omitted from this calibration.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -271,8 +307,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Unless a physician determines the shift is not work related or aggravated by occupational noise, employees not using hearing protectors must be fitted with them, trained in their use and care, and required to use them; employees already using them must be refitted, retrained and given protectors with greater attenuation if necessary.",
-          "quote": "Employees not using hearing protectors shall be fitted with hearing protectors, trained in their use and care, and required to use them.",
+          "text": "Unless a physician determines that the standard threshold shift is not work related or aggravated by occupational noise exposure, employees not using hearing protectors must be fitted with them, trained in their use and care, and required to use them.",
+          "quote": "Unless a physician determines that the standard threshold shift is not work related or aggravated by occupational noise exposure, the employer shall ensure that the following steps are taken when a standard threshold shift occurs: (A) Employees not using hearing protectors shall be fitted with hearing protectors, trained in their use and care, and required to use them.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -280,8 +316,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The follow-up steps also include referral for a clinical audiological evaluation or an otological examination, as appropriate, if more testing is necessary or the employer suspects a medical pathology of the ear caused or aggravated by wearing hearing protectors.",
-          "quote": "The employee shall be referred for a clinical audiological evaluation or an otological examination, as appropriate, if additional testing is necessary or if the employer suspects that a medical pathology of the ear is caused or aggravated by the wearing of hearing protectors.",
+          "text": "The same follow-up steps: employees already using hearing protectors must be refitted and retrained and given protectors with greater attenuation if necessary, and the employee must be referred for a clinical audiological evaluation or an otological examination, as appropriate, if more testing is necessary or the employer suspects a medical pathology of the ear caused or aggravated by wearing hearing protectors.",
+          "quote": "Employees already using hearing protectors shall be refitted and retrained in the use of hearing protectors and provided with hearing protectors offering greater attenuation if necessary. (C) The employee shall be referred for a clinical audiological evaluation or an otological examination, as appropriate, if additional testing is necessary or if the employer suspects that a medical pathology of the ear is caused or aggravated by the wearing of hearing protectors.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -290,7 +326,7 @@
         },
         {
           "text": "If later testing of an employee whose exposure is less than an 8-hour TWA of 90 decibels shows the shift is not persistent, the employer must inform the employee of the new interpretation and may discontinue the required use of hearing protectors for that employee.",
-          "quote": "May discontinue the required use of hearing protectors for that employee.",
+          "quote": "If subsequent audiometric testing of an employee whose exposure to noise is less than an 8-hour TWA of 90 decibels indicates that a standard threshold shift is not persistent, the employer: (A) Shall inform the employee of the new audiometric interpretation; and (B) May discontinue the required use of hearing protectors for that employee.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -298,8 +334,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "An annual audiogram may replace the baseline when the evaluating audiologist, otolaryngologist or physician judges that the shift is persistent, or that the annual audiogram shows significant improvement over the baseline.",
-          "quote": "An annual audiogram may be substituted for the baseline audiogram when, in the judgment of the audiologist, otolaryngologist or physician who is evaluating the audiogram:",
+          "text": "An annual audiogram may be substituted for the baseline when, in the judgment of the evaluating audiologist, otolaryngologist or physician, the standard threshold shift is persistent, or the annual audiogram shows significant improvement over the baseline.",
+          "quote": "An annual audiogram may be substituted for the baseline audiogram when, in the judgment of the audiologist, otolaryngologist or physician who is evaluating the audiogram: (i) The standard threshold shift revealed by the audiogram is persistent; or (ii) The hearing threshold shown in the annual audiogram indicates significant improvement over the baseline audiogram.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -307,8 +343,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Allowance may be made for aging (presbycusis) by correcting the annual audiogram under Appendix F. Appendix F is labeled non-mandatory, but an employer that chooses to adjust the audiogram must follow its procedure.",
-          "quote": "If the employer chooses to adjust the audiogram, the employer shall follow the procedure described below.",
+          "text": "Appendix F (Calculations and Application of Age Corrections to Audiograms) is labeled non-mandatory. It says that, in determining whether a standard threshold shift has occurred, allowance may be made for aging by adjusting the most recent audiogram, and that an employer that chooses to adjust the audiogram must follow its procedure.",
+          "quote": "This appendix Is Non-Mandatory In determining whether a standard threshold shift has occurred, allowance may be made for the contribution of aging to the change in hearing level by adjusting the most recent audiogram. If the employer chooses to adjust the audiogram, the employer shall follow the procedure described below.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Appendix F (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -333,7 +369,7 @@
         },
         {
           "text": "Hearing protectors must be worn by an employee required by paragraph (b)(1) to wear PPE, and by any employee exposed to an 8-hour TWA of 85 decibels or greater who has not yet had a baseline audiogram under (g)(5)(ii) or has experienced a standard threshold shift.",
-          "quote": "By any employee who is exposed to an 8-hour time-weighted average of 85 decibels or greater, and who:",
+          "quote": "Employers shall ensure that hearing protectors are worn: (i) By an employee who is required by paragraph (b)(1) of this section to wear personal protective equipment; and (ii) By any employee who is exposed to an 8-hour time-weighted average of 85 decibels or greater, and who: (A) Has not yet had a baseline audiogram established pursuant to paragraph (g)(5)(ii); or (B) Has experienced a standard threshold shift.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -351,7 +387,7 @@
         },
         {
           "text": "The employer must train employees in the use and care of all hearing protectors provided, ensure proper initial fitting, and supervise correct use.",
-          "quote": "The employer shall ensure proper initial fitting and supervise the correct use of all hearing protectors.",
+          "quote": "The employer shall provide training in the use and care of all hearing protectors provided to employees. (5) The employer shall ensure proper initial fitting and supervise the correct use of all hearing protectors.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -359,8 +395,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Hearing protectors must attenuate employee exposure at least to an 8-hour TWA of 90 decibels. For employees who have experienced a standard threshold shift, they must attenuate exposure to an 8-hour TWA of 85 decibels or below.",
-          "quote": "For employees who have experienced a standard threshold shift, hearing protectors must attenuate employee exposure to an 8-hour time-weighted average of 85 decibels or below.",
+          "text": "Hearing protectors must attenuate employee exposure at least to an 8-hour TWA of 90 decibels, as required by paragraph (b). For employees who have experienced a standard threshold shift, they must attenuate exposure to an 8-hour TWA of 85 decibels or below.",
+          "quote": "Hearing protectors must attenuate employee exposure at least to an 8-hour time-weighted average of 90 decibels as required by paragraph (b) of this section. (3) For employees who have experienced a standard threshold shift, hearing protectors must attenuate employee exposure to an 8-hour time-weighted average of 85 decibels or below.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -368,8 +404,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Appendix B (mandatory) describes using the Noise Reduction Rating (NRR) shown on the protector package. For example, with a sound level meter set to the A-weighting network, subtract 7 dB from the NRR and subtract the remainder from the A-weighted TWA.",
-          "quote": "Subtract 7 dB from the NRR, and subtract the remainder from the A-weighted TWA to obtain the estimated A-weighted TWA under the ear protector.",
+          "text": "Appendix B (mandatory) gives methods that use the Noise Reduction Rating (NRR). When using a sound level meter set to the A-weighting network: obtain the employee's A-weighted TWA, subtract 7 dB from the NRR, and subtract the remainder from the A-weighted TWA to obtain the estimated A-weighted TWA under the ear protector.",
+          "quote": "When using a sound level meter set to the A-weighting network: (A) Obtain the employee's A-weighted TWA. (B) Subtract 7 dB from the NRR, and subtract the remainder from the A-weighted TWA to obtain the estimated A-weighted TWA under the ear protector.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Appendix B (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -384,7 +420,7 @@
       "points": [
         {
           "text": "Training must be repeated annually for each employee in the hearing conservation program, and its information updated to match changes in protective equipment and work processes.",
-          "quote": "The training program shall be repeated annually for each employee included in the hearing conservation program.",
+          "quote": "The training program shall be repeated annually for each employee included in the hearing conservation program. Information provided in the training program shall be updated to be consistent with changes in protective equipment and work processes.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -393,7 +429,7 @@
         },
         {
           "text": "Each employee must be informed of the effects of noise on hearing; the purpose, advantages, disadvantages and attenuation of various types of hearing protectors, with instructions on selection, fitting, use and care; and the purpose of audiometric testing with an explanation of the test procedures.",
-          "quote": "The purpose of hearing protectors, the advantages, disadvantages, and attenuation of various types, and instructions on selection, fitting, use, and care; and",
+          "quote": "The employer shall ensure that each employee is informed of the following: (i) The effects of noise on hearing; (ii) The purpose of hearing protectors, the advantages, disadvantages, and attenuation of various types, and instructions on selection, fitting, use, and care; and (iii) The purpose of audiometric testing, and an explanation of the test procedures.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -410,8 +446,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Audiometric test records must include the employee's name and job classification, the date of the audiogram, the examiner's name, the date of the last acoustic or exhaustive calibration of the audiometer, and the employee's most recent noise exposure assessment. Background sound pressure level measurements in test rooms must also be kept.",
-          "quote": "Date of the last acoustic or exhaustive calibration of the audiometer; and",
+          "text": "Audiometric test records must include the employee's name and job classification, the date of the audiogram, the examiner's name, the date of the last acoustic or exhaustive calibration of the audiometer, and the employee's most recent noise exposure assessment. The employer must also keep accurate records of the background sound pressure level measurements in audiometric test rooms.",
+          "quote": "This record shall include: (A) Name and job classification of the employee; (B) Date of the audiogram; (C) The examiner's name; (D) Date of the last acoustic or exhaustive calibration of the audiometer; and (E) Employee's most recent noise exposure assessment. (F) The employer shall maintain accurate records of the measurements of the background sound pressure levels in audiometric test rooms.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -420,7 +456,7 @@
         },
         {
           "text": "Records must be kept for at least these periods: noise exposure measurement records for two years, and audiometric test records for the duration of the affected employee's employment.",
-          "quote": "Noise exposure measurement records shall be retained for two years.",
+          "quote": "The employer shall retain records required in this paragraph (m) for at least the following periods. (i) Noise exposure measurement records shall be retained for two years. (ii) Audiometric test records shall be retained for the duration of the affected employee's employment.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -437,8 +473,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "If the employer ceases to do business, it must transfer the records to the successor employer, which keeps them for the rest of the required period.",
-          "quote": "If the employer ceases to do business, the employer shall transfer to the successor employer all records required to be maintained by this section",
+          "text": "If the employer ceases to do business, it must transfer all records required by the section to the successor employer, which must keep them for the remainder of the period prescribed in paragraph (m)(3).",
+          "quote": "If the employer ceases to do business, the employer shall transfer to the successor employer all records required to be maintained by this section, and the successor employer shall retain them for the remainder of the period prescribed in paragraph (m)(3) of this section.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -452,8 +488,8 @@
       "name": "Appendices",
       "points": [
         {
-          "text": "Appendices A, B, C, D and E are part of the section and their contents are mandatory. Appendices F and G are informational and create no added obligations.",
-          "quote": "Appendices A, B, C, D, and E to this section are incorporated as part of this section and the contents of these appendices are mandatory.",
+          "text": "Appendices A, B, C, D and E are incorporated as part of the section and their contents are mandatory. Appendices F and G are informational and are not intended to create additional obligations or to detract from existing ones.",
+          "quote": "Appendices A, B, C, D, and E to this section are incorporated as part of this section and the contents of these appendices are mandatory. (2) Appendices F and G to this section are informational and are not intended to create any additional obligations not otherwise imposed or to detract from any existing obligations.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Occupational noise exposure (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -461,8 +497,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Appendix A (Noise Exposure Computation, mandatory): when the sound level is constant over the whole shift, the dose in percent is D = 100 C/T, where C is the length of the work day in hours and T is the reference duration from Table G-16a.",
-          "quote": "When the sound level, L, is constant over the entire work shift, the noise dose, D, in percent, is given by: D = 100 C/T",
+          "text": "Appendix A (Noise Exposure Computation, mandatory): when the sound level is constant over the entire work shift, the dose in percent is D = 100 C/T, where C is the total length of the work day in hours and T is the reference duration for the measured sound level as given in Table G-16a.",
+          "quote": "When the sound level, L, is constant over the entire work shift, the noise dose, D, in percent, is given by: D = 100 C/T where C is the total length of the work day, in hours, and T is the reference duration corresponding to the measured sound level, L, as given in Table G-16a",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Appendix A (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -470,8 +506,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Appendix A converts dose to TWA with TWA = 16.61 log10 (D/100) + 90. For an eight-hour shift at a constant level, the TWA equals the measured sound level.",
-          "quote": "For an eight-hour workshift with the noise level constant over the entire shift, the TWA is equal to the measured sound level.",
+          "text": "Under Appendix A, the TWA may be computed from the dose with TWA = 16.61 log10 (D/100) + 90. For an eight-hour shift with the noise level constant over the entire shift, the TWA equals the measured sound level.",
+          "quote": "The eight-hour time-weighted average sound level (TWA), in decibels, may be computed from the dose, in percent, by means of the formula: TWA = 16.61 log10 (D/100) + 90. For an eight-hour workshift with the noise level constant over the entire shift, the TWA is equal to the measured sound level.",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Appendix A (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
@@ -488,8 +524,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Appendix D (Audiometric Test Rooms, mandatory): rooms used for audiometric testing must not have background sound pressure levels above Table D-1, which lists 40 dB at 500 Hz, 40 dB at 1000 Hz, 47 dB at 2000 Hz, 57 dB at 4000 Hz and 62 dB at 8000 Hz.",
-          "quote": "Rooms used for audiometric testing shall not have background sound pressure levels exceeding those in Table D-1",
+          "text": "Appendix D (Audiometric Test Rooms, mandatory): Table D-1 lists the maximum allowable octave-band sound pressure levels for audiometric test rooms: 40 dB at 500 Hz, 40 dB at 1000 Hz, 47 dB at 2000 Hz, 57 dB at 4000 Hz and 62 dB at 8000 Hz.",
+          "quote": "TABLE D-1—MAXIMUM ALLOWABLE OCTAVE-BAND SOUND PRESSURE LEVELS FOR AUDIOMETRIC TEST ROOMS Octave-band center frequency (Hz) 500 1000 2000 4000 8000 Sound pressure level (dB) 40 40 47 57 62",
           "source": {
             "title": "eCFR: 29 CFR 1910.95, Appendix D (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-G/section-1910.95"
