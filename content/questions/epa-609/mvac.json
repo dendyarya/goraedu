@@ -322,7 +322,7 @@
         "D": "At least one piece of approved recovery or recycling equipment"
       },
       "answer": "D",
-      "explanation": "\"All persons opening ... MVAC-like appliances must have at least one piece of approved recovery or recycling equipment available at their place of business.\" Certification does not replace this, and the rule sets no yearly count.",
+      "explanation": "Section 82.32(e)(5) says all persons opening (as defined in § 82.152) MVAC-like appliances \"must have at least one piece of approved recovery or recycling equipment available at their place of business.\" Certification does not replace this, and the rule sets no yearly count.",
       "source": {
         "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.32"
@@ -890,7 +890,7 @@
     {
       "id": "m-050",
       "topic": "Service procedures",
-      "question": "Under the R-12 recovery procedure in Appendix A, after the vehicle system has been reduced from a pressure to a vacuum, how long must the recovery unit be shut off before checking that no refrigerant remains?",
+      "question": "Under the R-12 recovery procedure in Appendix A, after the vehicle system has been reduced from a pressure to a vacuum, what minimum time does the procedure set for the recovery unit to be shut off before checking that no refrigerant remains?",
       "options": {
         "A": "No wait; disconnect the hoses right away",
         "B": "At least 30 seconds",
@@ -1124,7 +1124,7 @@
     {
       "id": "m-063",
       "topic": "Substitute refrigerants",
-      "question": "Under condition (2) for HFO-1234yf in Appendix B (as of June 3, 2022), who must conduct a Failure Mode and Effect Analysis (FMEA) as provided in SAE J1739, and how long must it be kept on file?",
+      "question": "Under condition (2) for HFO-1234yf in Appendix B (as of June 3, 2022), who must conduct a Failure Mode and Effect Analysis (FMEA) as provided in SAE J1739, and for what minimum period must it be kept on file?",
       "options": {
         "A": "Manufacturers, for at least three years from the date of creation",
         "B": "Service technicians, for at least three years after each repair",
@@ -1276,7 +1276,7 @@
         "D": "The system must be flushed with the substitute while the original refrigerant is still inside"
       },
       "answer": "A",
-      "explanation": "Appendix D says \"No substitute refrigerant may be used to 'top-off' a system that uses another refrigerant\" and \"The original refrigerant must be recovered in accordance with regulations issued under section 609 of the CAA prior to charging with a substitute.\" Topping off with the substitute is exactly what the condition bars.",
+      "explanation": "Appendix D says no substitute refrigerant may be used to \"top-off\" a system \"that uses another refrigerant\" and \"The original refrigerant must be recovered in accordance with regulations issued under section 609 of the CAA prior to charging with a substitute.\" Topping off with the substitute is exactly what the condition bars.",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart G, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-G"
