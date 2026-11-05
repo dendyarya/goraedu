@@ -4,7 +4,7 @@
   "href": "/epa-609/study-guide/",
   "title": "EPA 609 study guide",
   "description": "EPA 609 study guide: the MVAC servicing rules in 40 CFR Part 82 Subpart B, from technician and shop certification to small-can sales, each linked to the rule.",
-  "intro": "EPA Section 609 certification is about servicing motor vehicle air conditioners. There is no official EPA topic list for the 609 test, so this guide follows the rule itself (40 CFR Part 82, Subpart B): scope, definitions, required practices, equipment, technician and shop certification, records, small-can sales, disposal facilities and, briefly, the service procedures printed in its appendices. Every point links to the rule text it comes from, with the exact words quoted.",
+  "intro": "EPA Section 609 certification is about servicing motor vehicle air conditioners. Subpart B does not publish a test outline; it says only what approved certification tests must cover (40 CFR 82.40(a)(2)). This guide follows the rule itself (40 CFR Part 82, Subpart B): scope, definitions, required practices, equipment, technician and shop certification, records, small-can sales, disposal facilities and, briefly, the service procedures printed in its appendices. Every point links to the rule text it comes from, with the exact words quoted.",
   "topics": [
     {
       "id": "purpose-and-scope",
@@ -80,7 +80,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The term MVAC-like appliance is defined in 40 CFR 82.152 (Subpart F), not in Subpart B.",
+          "text": "Subpart B does not define the term MVAC-like appliance itself; it points to the definition in 40 CFR 82.152.",
           "quote": "MVACs and MVAC-like appliances (as that term is defined in 40 CFR 82.152)",
           "source": {
             "title": "eCFR: 40 CFR 82.30, Purpose and scope (as of Nov 3, 2026)",
@@ -140,7 +140,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A person repairing or servicing an MVAC must also be properly trained and certified by a technician certification program approved by EPA under 82.40.",
+          "text": "To perform service involving the refrigerant, a person repairing or servicing an MVAC for consideration must also be properly trained and certified by a technician certification program approved by EPA under 82.40.",
           "quote": "Unless any such person repairing or servicing an MVAC has been properly trained and certified by a technician certification program approved by the Administrator pursuant to § 82.40; and",
           "source": {
             "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
@@ -149,7 +149,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A person repairing or servicing an MVAC-like appliance must be properly trained and certified by a program approved by EPA under either 82.40 or 82.161(a)(5).",
+          "text": "To perform service involving the refrigerant, a person repairing or servicing an MVAC-like appliance (paid or not) must be properly trained and certified by a technician certification program approved by EPA under either 82.40 or 82.161(a)(5).",
           "quote": "Unless any such person repairing or servicing an MVAC-like appliance has been properly trained and certified by a technician certification program approved by the Administrator pursuant to either § 82.40 or § 82.161(a)(5).",
           "source": {
             "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
@@ -239,7 +239,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Facilities that only charge MVAC-like appliances do not have to purchase approved refrigerant recycling equipment, but must be properly trained and certified by a program approved under 82.40 or 82.161(a)(5).",
+          "text": "For facilities that only charge (top off) MVAC-like appliances, these requirements do not include buying approved refrigerant recycling equipment, but do include being properly trained and certified by a program approved under 82.40 or 82.161(a)(5).",
           "quote": "For facilities that only charge MVAC-like appliances, this does not include the requirement to purchase approved refrigerant recycling equipment, but does include the requirement to be properly trained and certified by a technician certification program approved by the Administrator pursuant to either § 82.40 or § 82.161(a)(5).",
           "source": {
             "title": "eCFR: 40 CFR 82.32, Definitions (as of Nov 3, 2026)",
@@ -438,7 +438,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Owners or lessees of the equipment send their certifications to the CAA section 609 Enforcement Contact at the EPA Regional office that 82.42(a)(1) lists for the states where they have their places of business; for example, Region I covers Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island and Vermont.",
+          "text": "Section 82.42(a)(1) lists, by state or territory, the EPA Regional office whose CAA section 609 Enforcement Contact receives the certifications of owners or lessees of recycling or recovery equipment. For example, those with places of business in Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island or Vermont send their certifications to EPA Region I.",
           "quote": "Owners or lessees of recycling or recovery equipment having their places of business in Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont must send their certifications to: CAA section 609 Enforcement Contact; EPA Region I",
           "source": {
             "title": "eCFR: 40 CFR 82.42, Certification, recordkeeping and public notification requirements (as of Nov 3, 2026)",
@@ -558,7 +558,7 @@
           "checked": "2026-11-05"
         }
       ],
-      "notCovered": "We do not cover sales restrictions on small containers of substitute refrigerants, because the Subpart B sales rule and sign text name only class I and class II substances."
+      "notCovered": "We do not cover sales rules for small containers of substitute refrigerants here, because the Subpart B sales restriction and sign text name only class I and class II substances. The federal sales restriction that also reaches non-exempt substitute refrigerants is in Subpart F (40 CFR 82.154(c))."
     },
     {
       "id": "disposal-facilities",
@@ -601,8 +601,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The other way: it is recovered with approved recycling equipment dedicated to MVACs and MVAC-like appliances, by a certified technician or by an employee, owner, operator or contractor of the disposal facility, and then recycled by the facility that charges it, properly using approved recycling equipment.",
-          "quote": "Recovered using approved refrigerant recycling equipment dedicated for use with MVACs and MVAC-like appliances, either by a technician certified under paragraph (a)(2) of this section, or by an employee, owner, or operator of, or contractor to, the disposal facility; and (B) Subsequently recycled by the facility that charges or recharges the refrigerant into an MVAC or MVAC-like appliance, properly using approved refrigerant recycling equipment",
+          "text": "The other way: it is recovered with approved recycling equipment dedicated to MVACs and MVAC-like appliances, by a certified technician or by an employee, owner, operator or contractor of the disposal facility, and then recycled by the facility that charges it, properly using approved recycling equipment and following any applicable recommended service procedures in the Subpart B appendices.",
+          "quote": "Recovered using approved refrigerant recycling equipment dedicated for use with MVACs and MVAC-like appliances, either by a technician certified under paragraph (a)(2) of this section, or by an employee, owner, or operator of, or contractor to, the disposal facility; and (B) Subsequently recycled by the facility that charges or recharges the refrigerant into an MVAC or MVAC-like appliance, properly using approved refrigerant recycling equipment in accordance with any applicable recommended service procedures set forth in the appendices to this subpart B.",
           "source": {
             "title": "eCFR: 40 CFR 82.34, Prohibitions and required practices (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
@@ -643,7 +643,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "In the recovery procedure printed in Appendix A, the recovery unit is run until the vehicle system goes from pressure to a vacuum. With the unit shut off for at least 5 minutes, the technician checks that no refrigerant remains.",
+          "text": "In the R-12 (CFC-12) recovery procedure printed in Appendix A, the recovery unit is run until the vehicle system goes from pressure to a vacuum. With the unit shut off for at least 5 minutes, the technician checks that no refrigerant remains.",
           "quote": "Operate the recovery unit until the vehicle system has been reduced from a pressure to a vacuum. With the recovery unit shut off for at least 5 min, determine that there is no refrigerant remaining in the vehicle AC system.",
           "source": {
             "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
@@ -661,7 +661,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "In the Appendix A procedure, manifold gage set hoses (high, low and center) must have shutoff valves within 12 in (30 cm) of the service ends, and the valves must be closed before the hoses are removed from the system.",
+          "text": "In the Appendix A R-12 (CFC-12) procedure, manifold gage set hoses (high, low and center) must have shutoff valves within 12 in (30 cm) of the service ends, and the valves must be closed before the hoses are removed from the system.",
           "quote": "Service hoses must have shutoff valves in the high, low, and center service hoses within 12 in (30 cm) of the service ends. Valves must be closed prior to hose removal from the air-conditioning system.",
           "source": {
             "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
@@ -670,8 +670,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Appendix A limits the contaminants in recycled refrigerant 12 to moisture (15 ppm), refrigerant oil (4000 ppm) and noncondensable gases, air (330 ppm), all by weight.",
-          "quote": "The contaminants in this recycled refrigerant 12 shall be limited to moisture, refrigerant oil, and noncondensable gases, which shall not exceed the following level: 3.1 Moisture: 15 ppm by weight. 3.2 Refrigerant Oil: 4000 ppm by weight. 3.3 Noncondensable Gases (air): 330 ppm by wright.",
+          "text": "Appendix A's purity specification covers refrigerant removed directly from, and meant to go back into, a mobile air-conditioning system. It limits the contaminants in this recycled refrigerant 12 to moisture (15 ppm by weight), refrigerant oil (4000 ppm by weight) and noncondensable gases, air (330 ppm).",
+          "quote": "The refrigerant in this document shall have been directly removed from, and intended to be returned to, a mobile air-conditioning system. The contaminants in this recycled refrigerant 12 shall be limited to moisture, refrigerant oil, and noncondensable gases, which shall not exceed the following level: 3.1 Moisture: 15 ppm by weight. 3.2 Refrigerant Oil: 4000 ppm by weight. 3.3 Noncondensable Gases (air): 330 ppm",
           "source": {
             "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B"
@@ -679,7 +679,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Recycled refrigerant should not be stored in disposable containers (the kind virgin refrigerant is sold in); only DOT (49 CFR) or UL approved storage containers should be used.",
+          "text": "The Appendix A R-12 (CFC-12) procedure says recycled refrigerant should not be stored in disposable containers (the kind virgin refrigerant is sold in); only DOT (49 CFR) or UL approved storage containers should be used.",
           "quote": "Recycled refrigerant should not be salvaged or stored in disposable refrigerant containers. This is the type of container in which virgin refrigerant is sold. Use only DOT CFR title 49 or UL approved storage containers for recycled refrigerant.",
           "source": {
             "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
@@ -688,7 +688,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "An external portable container must be evacuated to at least 27 in of vacuum (75 mm Hg absolute) before recycled refrigerant is transferred into it.",
+          "text": "In the same Appendix A procedure, an external portable container must be evacuated to at least 27 in of vacuum (75 mm Hg absolute) before recycled refrigerant is transferred into it.",
           "quote": "When external portable containers are used for transfer, the container must be evacuated at least 27 in of vacuum (75 mm Hg absolute pressure) prior to transfer of the recycled refrigerant.",
           "source": {
             "title": "eCFR: 40 CFR Part 82, Subpart B, Appendix A (as of Nov 3, 2026)",
@@ -697,7 +697,7 @@
           "checked": "2026-11-05"
         }
       ],
-      "notCovered": "We do not cover identifying refrigerants, service fitting sizes, container or label colors, or SNAP rules for substitute refrigerants, because the text of Subpart B and its appendices does not set them out."
+      "notCovered": "We do not cover refrigerant identification, service fittings, or the container colors and markings that some appendices set as equipment requirements (for example Appendix B, 6.3.1), and we do not cover the SNAP rules for substitute refrigerants, which are not part of Subpart B."
     }
   ]
 }
