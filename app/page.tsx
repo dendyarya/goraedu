@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { NewsThumb } from "@/components/NewsFigure";
 import QuickStart, { type QuickStartOption } from "@/components/QuickStart";
 import SampleQuestion, { type SampleQuestionData } from "@/components/SampleQuestion";
 import TradeIcon, { IconTile } from "@/components/TradeIcon";
@@ -343,19 +344,29 @@ export default function Home() {
           <div className="mt-7 flex flex-wrap gap-5">
             <div className="grid min-w-0 flex-[2_1_32rem] gap-5">
               {latest.map((p) => (
-                <article key={p.slug} className="flex flex-col rounded-[1.75rem] border border-line bg-panel p-7">
-                  <p className="flex flex-wrap items-center gap-2.5 text-[0.875rem]">
-                    <span className="rounded-full bg-low-soft px-3 font-bold leading-7 text-low">{p.topic}</span>
-                    <time dateTime={p.published} className="font-semibold text-muted">
-                      {formatDate(p.published)}
-                    </time>
-                  </p>
-                  <h3 className="mt-4 text-[1.5rem] sm:text-[1.875rem]">
-                    <Link href={`/news/${p.slug}/`} className="hover:text-low hover:underline">
-                      {p.title}
-                    </Link>
-                  </h3>
-                  <p className="mt-3 text-[1.0625rem] text-muted">{p.summary}</p>
+                <article
+                  key={p.slug}
+                  className="flex flex-wrap gap-6 rounded-[1.75rem] border border-line bg-panel p-7"
+                >
+                  {p.image ? (
+                    <div className="min-w-0 flex-[1_1_14rem]">
+                      <NewsThumb image={p.image} />
+                    </div>
+                  ) : null}
+                  <div className="flex min-w-0 flex-[2_1_20rem] flex-col">
+                    <p className="flex flex-wrap items-center gap-2.5 text-[0.875rem]">
+                      <span className="rounded-full bg-low-soft px-3 font-bold leading-7 text-low">{p.topic}</span>
+                      <time dateTime={p.published} className="font-semibold text-muted">
+                        {formatDate(p.published)}
+                      </time>
+                    </p>
+                    <h3 className="mt-4 text-[1.5rem] sm:text-[1.875rem]">
+                      <Link href={`/news/${p.slug}/`} className="hover:text-low hover:underline">
+                        {p.title}
+                      </Link>
+                    </h3>
+                    <p className="mt-3 text-[1.0625rem] text-muted">{p.summary}</p>
+                  </div>
                 </article>
               ))}
             </div>

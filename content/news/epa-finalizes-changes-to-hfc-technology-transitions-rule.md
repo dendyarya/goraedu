@@ -3,6 +3,11 @@ title: "EPA Finalizes Changes to the HFC Technology Transitions Rule"
 topic: "EPA 608"
 summary: "EPA published a final rule on May 26, 2026 that revises the 2023 Technology Transitions rule, and proposed a separate leak repair change for transport refrigeration units."
 published: 2026-11-05
+image:
+  src: /news/epa-hfc-technology-transitions-final-rule.png
+  alt: "Card reading EPA 608, Final rule: HFC Technology Transitions rule revised, Federal Register, May 26, 2026"
+  credit: goraedu
+  license: Own work
 sources:
   - title: "Federal Register: Phasedown of Hydrofluorocarbons: Reconsideration of Certain Technology Transitions Regulatory Requirements (final rule, May 26, 2026)"
     url: "https://www.federalregister.gov/documents/2026/05/26/2026-10387/phasedown-of-hydrofluorocarbons-reconsideration-of-certain-regulatory-requirements-promulgated-under"

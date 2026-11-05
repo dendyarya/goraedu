@@ -1,11 +1,35 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { imageSize } from "image-size";
 
 // News posts live in content/news/*.md (one file per post, edited on GitHub; a push publishes it).
 // Front matter is validated here so a bad post fails the build instead of shipping.
 
 export type NewsSource = { title: string; url: string; checked: string };
+
+/**
+ * A post's lead image. Only images we may use commercially: our own work, U.S. federal government works
+ * (public domain), or a license that allows commercial use. Credit and license are always shown under the image.
+ */
+export type NewsImage = {
+  src: string; // path under public/, e.g. /news/epa-hfc-rule.jpg
+  alt: string;
+  credit: string; // who made it, e.g. "goraedu" or "U.S. EPA"
+  license: (typeof IMAGE_LICENSES)[number];
+  url?: string; // page the image came from (required unless it is our own work)
+  width: number;
+  height: number;
+};
+
+export const IMAGE_LICENSES = [
+  "Own work",
+  "Public domain (U.S. government work)",
+  "CC0",
+  "CC BY 4.0",
+  "Unsplash License",
+  "Pexels License",
+] as const;
 export type NewsPost = {
   slug: string;
   title: string;
@@ -14,6 +38,7 @@ export type NewsPost = {
   summary: string;
   published: string; // ISO date or date-time of first publication on goraedu
   updated?: string;
+  image?: NewsImage;
   sources: NewsSource[];
   body: string;
 };
@@ -55,7 +80,32 @@ function load(file: string): NewsPost | null {
     if (!DATE.test(checked)) fail(file, `sources[${i}].checked must be YYYY-MM-DD`);
     return { title: t, url, checked };
   });
-  return { slug, title, topic, summary, published, updated, sources, body: content.trim() };
+  const image = data.image ? loadImage(file, data.image) : undefined;
+  return { slug, title, topic, summary, published, updated, image, sources, body: content.trim() };
+}
+
+function loadImage(file: string, raw: unknown): NewsImage {
+  const o = (raw ?? {}) as Record<string, unknown>;
+  const src = str(o.src) ?? fail(file, "image.src is required, e.g. /news/my-post.jpg");
+  if (!/^\/news\/[a-z0-9-]+\.(jpe?g|png|webp)$/.test(src)) {
+    fail(file, "image.src must be /news/<lowercase-name>.jpg, .png or .webp (the file goes in public/news/)");
+  }
+  const onDisk = path.join(process.cwd(), "public", src);
+  if (!fs.existsSync(onDisk)) fail(file, `image file public${src} not found`);
+  const alt = str(o.alt) ?? fail(file, "image.alt is required: describe the image for people who cannot see it");
+  const credit = str(o.credit) ?? fail(file, "image.credit is required: who made the image");
+  const license = str(o.license) as NewsImage["license"] | undefined;
+  if (!license || !IMAGE_LICENSES.includes(license)) {
+    fail(file, `image.license must be one of: ${IMAGE_LICENSES.join("; ")}`);
+  }
+  const url = str(o.url);
+  if (license !== "Own work" && !url) fail(file, "image.url is required: the page the image came from");
+  if (url && !/^https:\/\//.test(url)) fail(file, "image.url must start with https://");
+  const { width, height } = imageSize(fs.readFileSync(onDisk));
+  if (!width || !height) fail(file, "image could not be read");
+  // Google recommends large images (at least 1200 px wide) for news and Discover.
+  if (width < 1200) fail(file, `image is ${width}px wide; use one at least 1200px wide`);
+  return { src, alt, credit, license, url, width, height };
 }
 
 let cache: NewsPost[] | null = null;

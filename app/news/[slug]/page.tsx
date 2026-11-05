@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import NewsFigure from "@/components/NewsFigure";
 import PageShell from "@/components/PageShell";
 import { formatDate, getAllNews, getNews } from "@/lib/news";
 import { SITE } from "@/lib/site";
@@ -22,7 +23,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.title,
     description: post.summary,
     alternates: { canonical: `/news/${post.slug}/` },
-    openGraph: { type: "article", title: post.title, description: post.summary, publishedTime: post.published },
+    openGraph: {
+      type: "article",
+      title: post.title,
+      description: post.summary,
+      publishedTime: post.published,
+      images: post.image
+        ? [{ url: post.image.src, width: post.image.width, height: post.image.height, alt: post.image.alt }]
+        : undefined,
+    },
+    twitter: post.image ? { card: "summary_large_image" } : undefined,
   };
 }
 
@@ -41,6 +51,7 @@ export default async function NewsPostPage({ params }: Props) {
     datePublished: post.published,
     dateModified: post.updated ?? post.published,
     mainEntityOfPage: `${SITE.url}/news/${post.slug}/`,
+    ...(post.image ? { image: [`${SITE.url}${post.image.src}`] } : {}),
     author: { "@type": "Organization", name: SITE.name, url: SITE.url },
     publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
   };
@@ -75,10 +86,15 @@ export default async function NewsPostPage({ params }: Props) {
         // eslint-disable-next-line react/no-danger -- JSON-LD built from validated front matter, "<" escaped
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
+      {post.image ? (
+        <div className="mb-10">
+          <NewsFigure image={post.image} priority />
+        </div>
+      ) : null}
       <article className="prose-page">
         <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.body}</ReactMarkdown>
       </article>
-      <section className="mt-12 max-w-[68ch] rounded-lg border border-line bg-panel p-6">
+      <section className="mt-12 max-w-[68ch] rounded-[1.75rem] border border-line bg-panel p-6">
         <h2 className="text-[1.25rem] font-bold">Sources</h2>
         <ul className="mt-3 space-y-3 text-[0.9375rem]">
           {post.sources.map((s) => (

@@ -18,6 +18,7 @@ title: "EPA Proposes ..."
 topic: "EPA 608"
 summary: "One or two sentences: what happened, when, and whether it is proposed or final."
 published: 2026-11-05
+# image: optional, see "Images" below
 sources:
   - title: "Federal Register: <document title> (<proposed/final>, <date>)"
     url: "https://www.federalregister.gov/documents/..."
@@ -47,6 +48,39 @@ Say plainly if the sources do not mention the certification or its exam.
   `updated: YYYY-MM-DD`, and log the fix on /corrections/.
 - `draft: true` in the front matter keeps a post off the site.
 - A post missing a title, summary, date or source fails the build, so nothing broken goes live.
+
+## Images (optional)
+
+A post may have one lead image. It shows at the top of the post, as a thumbnail on the news list and home page,
+and as the preview picture when the link is shared or shown by Google.
+
+1. Upload the file to `public/news/` on GitHub (**Add file → Upload files**). Name it in lowercase words joined
+   by hyphens, ending in `.jpg`, `.png` or `.webp`. It must be at least **1200 px wide**; 1600 × 900 (16:9) is ideal.
+2. Add this to the post's front matter:
+
+```yaml
+image:
+  src: /news/my-image-name.jpg
+  alt: "What the image shows, for people who cannot see it"
+  credit: "Who made it, e.g. goraedu or U.S. EPA"
+  license: "Own work"
+  url: "https://page-the-image-came-from (not needed for Own work)"
+```
+
+`license` must be one of: `Own work`, `Public domain (U.S. government work)`, `CC0`, `CC BY 4.0`,
+`Unsplash License`, `Pexels License`. Credit and license are always shown under the image.
+
+Legal rules for images (the build checks the fields, you check the rights):
+
+- Best choice: our own graphics (a title card made in Canva from our own design is "Own work") or our own photos.
+- U.S. federal government photos are public domain, but check the page: some agency pages use photos from
+  contractors or stock sites that are not public domain. If the page names another photographer or agency, do not use it.
+- Never use agency or company logos or seals, screenshots of other news sites, or photos of identifiable people
+  without a model release (stock photos with people are fine only under the licenses above).
+- No images from Google Images, Facebook or other sites unless the page itself grants one of the licenses above.
+
+A missing file, a missing alt text, credit or license, or an image narrower than 1200 px fails the build, so nothing
+broken goes live.
 
 ## Sitemaps
 
