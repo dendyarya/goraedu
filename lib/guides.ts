@@ -26,9 +26,16 @@ export type Guide = {
   href: string;
 };
 
-const SNAPSHOTS: Record<string, string> = {
-  "epa-608": path.join(process.cwd(), "data", "sources", "ecfr", "40cfr82-subpartF-2026-11-03.txt"),
-  "epa-609": path.join(process.cwd(), "data", "sources", "ecfr", "40cfr82-subpartB-2026-11-03.txt"),
+const ECFR_DIR = path.join(process.cwd(), "data", "sources", "ecfr");
+// Dated rule text each cluster's quotes are checked against. Subpart G (SNAP) has wide tables, so it is kept twice:
+// as laid out on the page and in reading order (one table cell after another); a quote may match either copy.
+const SNAPSHOTS: Record<string, string[]> = {
+  "epa-608": ["40cfr82-subpartF-2026-11-03.txt"],
+  "epa-609": [
+    "40cfr82-subpartB-2026-11-03.txt",
+    "40cfr82-subpartG-2026-11-03.txt",
+    "40cfr82-subpartG-2026-11-03.reading-order.txt",
+  ],
 };
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -48,7 +55,12 @@ function stripPageChrome(text: string): string {
     .split("\n")
     .filter(
       (l) =>
-        !/^\s*(Recycling and Emissions Reduction|Servicing of Motor Vehicle Air Conditioners)\s*$/.test(l) &&
+        !/^\s*(Recycling and Emissions Reduction|Servicing of Motor Vehicle Air Conditioners|Significant New Alternatives Policy Program)\s*$/.test(
+          l,
+        ) &&
+        !/^\s*40 CFR 82\.[\d()a-z]+\s*$/.test(l) &&
+        !/^\s*page \d+ of \d+\s*$/.test(l) &&
+        !/\(enhanced display\)\s*$/.test(l) &&
         !/^\s*40 CFR Part 82 Subpart [A-Z] \(up to date/.test(l) &&
         !/^\s{20,}40 CFR \S.*$/.test(l) &&
         !/\(enhanced display\)\s+page \d+ of \d+\s*$/.test(l),
@@ -97,8 +109,10 @@ function validate(file: string, raw: unknown, snapshot: string | null, kind: "gu
 const snapCache: Record<string, string | null> = {};
 function snapshotFor(cluster: string): string | null {
   if (!(cluster in snapCache)) {
-    const file = SNAPSHOTS[cluster];
-    snapCache[cluster] = file && fs.existsSync(file) ? norm(stripPageChrome(fs.readFileSync(file, "utf8"))) : null;
+    const files = (SNAPSHOTS[cluster] ?? []).map((f) => path.join(ECFR_DIR, f)).filter((f) => fs.existsSync(f));
+    snapCache[cluster] = files.length
+      ? files.map((f) => norm(stripPageChrome(fs.readFileSync(f, "utf8")))).join("\n\u0000\n")
+      : null;
   }
   return snapCache[cluster]!;
 }
