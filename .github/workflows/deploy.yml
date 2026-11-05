@@ -1,6 +1,7 @@
 # Check, build and deploy goraedu.com to the VPS (docs/deploy.md).
 #   pull request to "main"  -> all checks, no deploy
 #   push to "main"          -> checks, then live on https://goraedu.com
+#   daily schedule          -> same as a push (refreshes the news sitemap)
 # Actions are pinned to commit SHAs (same pins as cybercareerfinder).
 name: Deploy
 
@@ -9,6 +10,9 @@ on:
     branches: [main]
   push:
     branches: [main]
+  # daily rebuild so /news-sitemap.xml drops posts older than two days (Google News rule)
+  schedule:
+    - cron: "17 21 * * *" # 04:17 WIB
   workflow_dispatch:
 
 permissions:

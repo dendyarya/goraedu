@@ -20,6 +20,8 @@ cluster 2 is EPA 609. Content is in English; planning documents are in Indonesia
 - Footer independence line: "Independent. Not affiliated with or endorsed by the U.S. EPA or any certifying
   organization."
 - Only builds with `SITE_ENV=production` are indexable.
+- News posts (`content/news/*.md`, guide in docs/news.md) cover EPA refrigerant rules and Section 608
+  certification only, from Federal Register, eCFR or EPA.gov. Always say whether a rule is proposed or final.
 
 ## Deploy
 

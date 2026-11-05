@@ -22,6 +22,52 @@ body {
     sans-serif;
 }
 
+/* Markdown body of news posts (react-markdown output) */
+.prose-news {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+.prose-news > * + * {
+  margin-top: 1rem;
+}
+.prose-news h2 {
+  margin-top: 2rem;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.prose-news h3 {
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.prose-news ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+.prose-news ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+}
+.prose-news li + li {
+  margin-top: 0.375rem;
+}
+.prose-news a {
+  color: var(--color-brand);
+  text-decoration: underline;
+}
+.prose-news table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+.prose-news th,
+.prose-news td {
+  border: 1px solid var(--color-line);
+  padding: 0.5rem;
+  text-align: left;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-brand: #7fc4d2;

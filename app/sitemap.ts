@@ -1,11 +1,17 @@
 import type { MetadataRoute } from "next";
+import { getAllNews } from "@/lib/news";
 import { SITE } from "@/lib/site";
 
 export const dynamic = "force-static";
 
-// Add every indexable page here as it is published (noindex pages never go in the sitemap).
-const PATHS = ["/"];
+// Every indexable page goes here as it is published (noindex pages never go in the sitemap).
+const PATHS = ["/", "/news/"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return PATHS.map((path) => ({ url: `${SITE.url}${path}` }));
+  const pages = PATHS.map((path) => ({ url: `${SITE.url}${path}` }));
+  const news = getAllNews().map((p) => ({
+    url: `${SITE.url}/news/${p.slug}/`,
+    lastModified: p.updated ?? p.published,
+  }));
+  return [...pages, ...news];
 }
