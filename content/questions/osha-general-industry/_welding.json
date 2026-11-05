@@ -8,9 +8,9 @@
     {
       "id": "wd-001",
       "topic": "Fire watch",
-      "question": "Under 1910.252(a)(2)(iii)(A)(1), fire watchers are required when appreciable combustible material is closer than what distance to the point of operation?",
+      "question": "What distance does 1910.252(a)(2)(iii)(A)(1) set for the fire watch condition based on appreciable combustible material, in building construction or contents, near the point of operation?",
       "options": {
-        "A": "5 feet",
+        "A": "10 feet",
         "B": "35 feet (10.7 m)",
         "C": "75 feet",
         "D": "100 feet"
@@ -45,7 +45,7 @@
     },
     {
       "id": "wd-003",
-      "topic": "Basic fire precautions",
+      "topic": "Fire precautions and used containers",
       "question": "The object to be cut cannot be moved, and not all the fire hazards can be removed. What does 1910.252(a)(1)(ii) require?",
       "options": {
         "A": "Guards must be used to confine the heat, sparks, and slag and to protect the immovable fire hazards",
@@ -64,7 +64,7 @@
     },
     {
       "id": "wd-004",
-      "topic": "Basic fire precautions",
+      "topic": "Fire precautions and used containers",
       "question": "If neither the removal of fire hazards nor the use of guards described in 1910.252(a)(1)(i) and (ii) can be followed, what does the rule require?",
       "options": {
         "A": "The work may proceed if a supervisor is present",
@@ -159,7 +159,7 @@
     },
     {
       "id": "wd-009",
-      "topic": "Basic fire precautions",
+      "topic": "Fire precautions and used containers",
       "question": "Under 1910.252(a)(3)(i), what must be done to a used drum before welding, cutting or other hot work is performed on it?",
       "options": {
         "A": "It must be painted with a fire-resistant coating",
@@ -217,7 +217,7 @@
     {
       "id": "wd-012",
       "topic": "Ventilation and confined spaces",
-      "question": "Under 1910.252(c)(2)(i)(B), mechanical ventilation is required for general welding or cutting in a room with a ceiling height of less than what?",
+      "question": "What ceiling height does 1910.252(c)(2)(i)(B) set as the threshold below which mechanical ventilation is required for general welding or cutting in a room?",
       "options": {
         "A": "6 feet",
         "B": "8 feet",
@@ -236,7 +236,7 @@
     {
       "id": "wd-013",
       "topic": "Ventilation and confined spaces",
-      "question": "What minimum rate does 1910.252(c)(2)(ii) set for that mechanical ventilation, where local exhaust hoods and booths or approved airline respirators are not provided?",
+      "question": "What minimum rate does 1910.252(c)(2)(ii) set for the mechanical ventilation required by 1910.252(c)(2)(i), where local exhaust hoods and booths or approved airline respirators are not provided?",
       "options": {
         "A": "2,000 cubic feet (57 m3) per minute per welder",
         "B": "200 cubic feet per minute per welder",
@@ -293,7 +293,7 @@
     {
       "id": "wd-016",
       "topic": "Oxygen-fuel gas cylinders",
-      "question": "1910.253(a)(2) bars generating, piping (except in approved cylinder manifolds) or using acetylene at a gauge pressure in excess of what value?",
+      "question": "What gauge pressure limit does 1910.253(a)(2) set for generating, piping (except in approved cylinder manifolds) or using acetylene?",
       "options": {
         "A": "25 psig",
         "B": "15 psig (103 kPa gauge pressure)",
@@ -358,13 +358,13 @@
         "D": "80 volts"
       },
       "answer": "D",
-      "explanation": "For alternating-current machines, the limit for \"Manual arc welding and cutting-80 volts\" shall not be exceeded.",
+      "explanation": "Under \"The following limits shall not be exceeded,\" alternating-current machines are listed with \"Manual arc welding and cutting-80 volts.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.254, Arc welding and cutting (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.254"
       },
       "checked": "2026-11-05",
-      "evidence": "Alternating-current machines (A) Manual arc welding and cutting-80 volts."
+      "evidence": "The following limits shall not be exceeded: (i) Alternating-current machines (A) Manual arc welding and cutting-80 volts."
     },
     {
       "id": "wd-020",

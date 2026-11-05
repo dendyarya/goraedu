@@ -11,8 +11,17 @@
       "name": "Scope and definitions",
       "points": [
         {
-          "text": "The section sets requirements for practices and procedures to protect employees in general industry from the hazards of entry into permit-required confined spaces. It does not apply to agriculture, construction or shipyard employment, which are covered by Parts 1928, 1926 and 1915.",
+          "text": "The section sets requirements for practices and procedures to protect employees in general industry from the hazards of entry into permit-required confined spaces. It does not apply to agriculture, to construction or to shipyard employment (Parts 1928, 1926 and 1915 of the chapter, respectively).",
           "quote": "This section contains requirements for practices and procedures to protect employees in general industry from the hazards of entry into permit-required confined spaces. This section does not apply to agriculture, to construction, or to shipyard employment (parts 1928, 1926, and 1915 of this chapter, respectively).",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "A note to the appendixes says Appendixes A through F provide information and non-mandatory guidelines to help employers and employees comply with the section.",
+          "quote": "Note: Appendixes A through F serve to provide information and non-mandatory guidelines to assist employers and employees in complying with the appropriate requirements of this section.",
           "source": {
             "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -73,7 +82,8 @@
           },
           "checked": "2026-11-05"
         }
-      ]
+      ],
+      "notCovered": "The content of the non-mandatory Appendixes A through F (decision flow chart, atmospheric testing procedures, example programs and permits, sewer system entry, and rescue team evaluation criteria)."
     },
     {
       "id": "hazardous-atmospheres",
@@ -89,17 +99,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Another listed cause is an atmospheric oxygen concentration below 19.5 percent or above 23.5 percent.",
-          "quote": "(3) Atmospheric oxygen concentration below 19.5 percent or above 23.5 percent;",
-          "source": {
-            "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "The list also covers an atmospheric concentration of any substance with a dose or permissible exposure limit published in Subpart G or Subpart Z of Part 1910 that could result in employee exposure above that dose or limit.",
-          "quote": "(4) Atmospheric concentration of any substance for which a dose or a permissible exposure limit is published in subpart G, Occupational Health and Environmental Control, or in subpart Z, Toxic and Hazardous Substances, of this part and which could result in employee exposure in excess of its dose or permissible exposure limit;",
+          "text": "Two further listed causes are an atmospheric oxygen concentration below 19.5 percent or above 23.5 percent, and an atmospheric concentration of any substance with a dose or permissible exposure limit published in Subpart G or Subpart Z of Part 1910 that could result in employee exposure above that dose or limit.",
+          "quote": "(3) Atmospheric oxygen concentration below 19.5 percent or above 23.5 percent; (4) Atmospheric concentration of any substance for which a dose or a permissible exposure limit is published in subpart G, Occupational Health and Environmental Control, or in subpart Z, Toxic and Hazardous Substances, of this part and which could result in employee exposure in excess of its dose or permissible exposure limit;",
           "source": {
             "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -218,7 +219,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Before an employee enters, the internal atmosphere must be tested with a calibrated direct-reading instrument for oxygen content, for flammable gases and vapors, and for potential toxic air contaminants, in that order. Any entrant, or that employee's authorized representative, must be given an opportunity to observe the pre-entry testing.",
+          "text": "For entry under the (c)(5) alternate procedures, before an employee enters, the internal atmosphere must be tested with a calibrated direct-reading instrument for oxygen content, for flammable gases and vapors, and for potential toxic air contaminants, in that order. Any entrant, or that employee's authorized representative, must be given an opportunity to observe the pre-entry testing.",
           "quote": "Before an employee enters the space, the internal atmosphere shall be tested, with a calibrated direct-reading instrument, for oxygen content, for flammable gases and vapors, and for potential toxic air contaminants, in that order. Any employee who enters the space, or that employee's authorized representative, shall be provided an opportunity to observe the pre-entry testing required by this paragraph.",
           "source": {
             "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
@@ -227,8 +228,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "There may be no hazardous atmosphere within the space whenever any employee is inside. Continuous forced air ventilation must be used: no employee may enter until it has eliminated any hazardous atmosphere; it must be directed to ventilate the immediate areas where an employee is or will be and continue until all employees have left; and its air supply must be from a clean source and may not increase the hazards in the space.",
-          "quote": "(D) There may be no hazardous atmosphere within the space whenever any employee is inside the space. (E) Continuous forced air ventilation shall be used, as follows: (1) An employee may not enter the space until the forced air ventilation has eliminated any hazardous atmosphere; (2) The forced air ventilation shall be so directed as to ventilate the immediate areas where an employee is or will be present within the space and shall continue until all employees have left the space; (3) The air supply for the forced air ventilation shall be from a clean source and may not increase the hazards in the space.",
+          "text": "There may be no hazardous atmosphere within the space whenever any employee is inside. Continuous forced air ventilation must be used: no employee may enter until it has eliminated any hazardous atmosphere; it must be directed to ventilate the immediate areas where an employee is or will be and continue until all employees have left; and its air supply must be from a clean source and may not increase the hazards in the space. The atmosphere must be periodically tested as necessary to ensure the ventilation is preventing the accumulation of a hazardous atmosphere.",
+          "quote": "(D) There may be no hazardous atmosphere within the space whenever any employee is inside the space. (E) Continuous forced air ventilation shall be used, as follows: (1) An employee may not enter the space until the forced air ventilation has eliminated any hazardous atmosphere; (2) The forced air ventilation shall be so directed as to ventilate the immediate areas where an employee is or will be present within the space and shall continue until all employees have left the space; (3) The air supply for the forced air ventilation shall be from a clean source and may not increase the hazards in the space. (F) The atmosphere within the space shall be periodically tested as necessary to ensure that the continuous forced air ventilation is preventing the accumulation of a hazardous atmosphere.",
           "source": {
             "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -245,8 +246,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The employer must verify that the space is safe for entry and that the pre-entry measures have been taken through a written certification containing the date, the location of the space and the signature of the person providing the certification, made before entry.",
-          "quote": "The employer shall verify that the space is safe for entry and that the pre-entry measures required by paragraph (c)(5)(ii) of this section have been taken, through a written certification that contains the date, the location of the space, and the signature of the person providing the certification. The certification shall be made before entry",
+          "text": "The employer must verify that the space is safe for entry and that the pre-entry measures have been taken through a written certification containing the date, the location of the space and the signature of the person providing the certification. The certification must be made before entry and made available to each employee entering the space or to that employee's authorized representative.",
+          "quote": "The employer shall verify that the space is safe for entry and that the pre-entry measures required by paragraph (c)(5)(ii) of this section have been taken, through a written certification that contains the date, the location of the space, and the signature of the person providing the certification. The certification shall be made before entry and shall be made available to each employee entering the space or to that employee's authorized representative",
           "source": {
             "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -263,7 +264,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "A note to the reclassification paragraph says control of atmospheric hazards through forced air ventilation does not constitute elimination of the hazards; paragraph (c)(5) covers entry where forced air ventilation alone will control all hazards.",
+          "text": "A note to the reclassification paragraph says control of atmospheric hazards through forced air ventilation does not constitute elimination of the hazards; paragraph (c)(5) covers permit space entry where the employer can demonstrate that forced air ventilation alone will control all hazards in the space.",
           "quote": "Note: Control of atmospheric hazards through forced air ventilation does not constitute elimination of the hazards. Paragraph (c)(5) covers permit space entry where the employer can demonstrate that forced air ventilation alone will control all hazards in the space.",
           "source": {
             "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
@@ -272,7 +273,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The employer must document the basis for determining that all hazards have been eliminated through a certification containing the date, the location of the space and the signature of the person making the determination. If hazards arise in a declassified space, each employee in it must exit, and the employer must then reevaluate whether it must be reclassified as a permit space.",
+          "text": "The employer must document the basis for determining that all hazards have been eliminated through a certification containing the date, the location of the space and the signature of the person making the determination, and make it available to each employee entering the space or to that employee's authorized representative. If hazards arise in a space declassified under (c)(7), each employee in it must exit, and the employer must then reevaluate the space and determine whether it must be reclassified as a permit space.",
           "quote": "(iii) The employer shall document the basis for determining that all hazards in a permit space have been eliminated, through a certification that contains the date, the location of the space, and the signature of the person making the determination. The certification shall be made available to each employee entering the space or to that employee's authorized representative. (iv) If hazards arise within a permit space that has been declassified to a non-permit space under paragraph (c)(7) of this section, each employee in the space shall exit the space. The employer shall then reevaluate the space and determine whether it must be reclassified as a permit space, in accordance with other applicable provisions of this section.",
           "source": {
             "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
@@ -401,8 +402,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The permit must identify the permit space to be entered, the purpose of the entry, the date and authorized duration, the authorized entrants (by name or by other means such as rosters or tracking systems that let the attendant determine quickly and accurately who is inside), the attendants by name, and the entry supervisor by name, with a space for the signature or initials of the entry supervisor who originally authorized entry.",
-          "quote": "(1) The permit space to be entered; (2) The purpose of the entry; (3) The date and the authorized duration of the entry permit; (4) The authorized entrants within the permit space, by name or by such other means (for example, through the use of rosters or tracking systems) as will enable the attendant to determine quickly and accurately, for the duration of the permit, which authorized entrants are inside the permit space; Note: This requirement may be met by inserting a reference on the entry permit as to the means used, such as a roster or tracking system, to keep track of the authorized entrants within the permit space. (5) The personnel, by name, currently serving as attendants; (6) The individual, by name, currently serving as entry supervisor, with a space for the signature or initials of the entry supervisor who originally authorized entry;",
+          "text": "The entry permit must identify, among other items, the permit space to be entered, the purpose of the entry, the date and authorized duration, the authorized entrants (by name or by other means such as rosters or tracking systems that let the attendant determine quickly and accurately who is inside), the attendants by name, and the entry supervisor by name, with a space for the signature or initials of the entry supervisor who originally authorized entry.",
+          "quote": "The entry permit that documents compliance with this section and authorizes entry to a permit space shall identify: (1) The permit space to be entered; (2) The purpose of the entry; (3) The date and the authorized duration of the entry permit; (4) The authorized entrants within the permit space, by name or by such other means (for example, through the use of rosters or tracking systems) as will enable the attendant to determine quickly and accurately, for the duration of the permit, which authorized entrants are inside the permit space; Note: This requirement may be met by inserting a reference on the entry permit as to the means used, such as a roster or tracking system, to keep track of the authorized entrants within the permit space. (5) The personnel, by name, currently serving as attendants; (6) The individual, by name, currently serving as entry supervisor, with a space for the signature or initials of the entry supervisor who originally authorized entry;",
           "source": {
             "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -461,8 +462,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The attendant must order entrants to evacuate immediately if the attendant detects a prohibited condition, detects the behavioral effects of hazard exposure in an entrant, detects a situation outside the space that could endanger entrants, or cannot effectively and safely perform all attendant duties; and must summon rescue and other emergency services as soon as the attendant determines that entrants may need assistance to escape from permit space hazards.",
-          "quote": "(i) If the attendant detects a prohibited condition; (ii) If the attendant detects the behavioral effects of hazard exposure in an authorized entrant; (iii) If the attendant detects a situation outside the space that could endanger the authorized entrants; or (iv) If the attendant cannot effectively and safely perform all the duties required under paragraph (i) of this section; (7) Summon rescue and other emergency services as soon as the attendant determines that authorized entrants may need assistance to escape from permit space hazards;",
+          "text": "The attendant must monitor activities inside and outside the space to determine if it is safe for entrants to remain, and order entrants to evacuate immediately if the attendant detects a prohibited condition, detects the behavioral effects of hazard exposure in an entrant, detects a situation outside the space that could endanger entrants, or cannot effectively and safely perform all attendant duties. The attendant must summon rescue and other emergency services as soon as the attendant determines that entrants may need assistance to escape from permit space hazards.",
+          "quote": "(6) Monitors activities inside and outside the space to determine if it is safe for entrants to remain in the space and orders the authorized entrants to evacuate the permit space immediately under any of the following conditions; (i) If the attendant detects a prohibited condition; (ii) If the attendant detects the behavioral effects of hazard exposure in an authorized entrant; (iii) If the attendant detects a situation outside the space that could endanger the authorized entrants; or (iv) If the attendant cannot effectively and safely perform all the duties required under paragraph (i) of this section; (7) Summon rescue and other emergency services as soon as the attendant determines that authorized entrants may need assistance to escape from permit space hazards;",
           "source": {
             "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -470,8 +471,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Each entry supervisor must verify, by checking the permit entries, that all specified tests have been conducted and all specified procedures and equipment are in place before endorsing the permit and allowing entry; terminate entry and cancel the permit as required; verify that rescue services are available and the means for summoning them are operable; and remove unauthorized individuals who enter or attempt to enter during entry operations.",
-          "quote": "(2) Verifies, by checking that the appropriate entries have been made on the permit, that all tests specified by the permit have been conducted and that all procedures and equipment specified by the permit are in place before endorsing the permit and allowing entry to begin; (3) Terminates the entry and cancels the permit as required by paragraph (e)(5) of this section; (4) Verifies that rescue services are available and that the means for summoning them are operable; (5) Removes unauthorized individuals who enter or who attempt to enter the permit space during entry operations; and",
+          "text": "Each entry supervisor must verify, by checking the permit entries, that all specified tests have been conducted and all specified procedures and equipment are in place before endorsing the permit and allowing entry; terminate entry and cancel the permit as required; verify that rescue services are available and the means for summoning them are operable; remove unauthorized individuals who enter or attempt to enter during entry operations; and determine, whenever responsibility for the entry is transferred and at intervals dictated by the hazards and operations, that entry operations remain consistent with the permit and acceptable entry conditions are maintained.",
+          "quote": "(2) Verifies, by checking that the appropriate entries have been made on the permit, that all tests specified by the permit have been conducted and that all procedures and equipment specified by the permit are in place before endorsing the permit and allowing entry to begin; (3) Terminates the entry and cancels the permit as required by paragraph (e)(5) of this section; (4) Verifies that rescue services are available and that the means for summoning them are operable; (5) Removes unauthorized individuals who enter or who attempt to enter the permit space during entry operations; and (6) Determines, whenever responsibility for a permit space entry operation is transferred and at intervals dictated by the hazards and operations performed within the space, that entry operations remain consistent with terms of the entry permit and that acceptable entry conditions are maintained.",
           "source": {
             "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -485,8 +486,8 @@
       "name": "Rescue, emergency services and employee participation",
       "points": [
         {
-          "text": "An employer that designates rescue and emergency services must select a rescue team or service that has the capability to reach the victims within a time frame appropriate for the hazards identified and is equipped for and proficient in the needed rescue services, inform it of the hazards it may confront, and give it access to all permit spaces from which rescue may be necessary so it can develop rescue plans and practice. A note says non-mandatory appendix F contains example criteria for evaluating prospective rescuers.",
-          "quote": "(iii) Select a rescue team or service from those evaluated that: (A) Has the capability to reach the victim(s) within a time frame that is appropriate for the permit space hazard(s) identified; (B) Is equipped for and proficient in performing the needed rescue services; (iv) Inform each rescue team or service of the hazards they may confront when called on to perform rescue at the site; and (v) Provide the rescue team or service selected with access to all permit spaces from which rescue may be necessary so that the rescue service can develop appropriate rescue plans and practice rescue operations. Note to paragraph (k)(1): Non-mandatory appendix F contains examples of criteria which employers can use in evaluating prospective rescuers as required by paragraph (k)(1) of this section.",
+          "text": "An employer who designates rescue and emergency services under paragraph (d)(9) must evaluate a prospective rescuer's ability to respond to a rescue summons in a timely manner, considering the hazards identified. A note says what is considered timely will vary according to the specific hazards involved in each entry.",
+          "quote": "An employer who designates rescue and emergency services, pursuant to paragraph (d)(9) of this section, shall: (i) Evaluate a prospective rescuer's ability to respond to a rescue summons in a timely manner, considering the hazard(s) identified; Note to paragraph (k)(1)(i): What will be considered timely will vary according to the specific hazards involved in each entry.",
           "source": {
             "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -494,8 +495,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "These rescuers must practice making permit space rescues at least once every 12 months, through simulated rescues removing dummies, manikins or actual persons from the actual permit spaces or from representative permit spaces that simulate the opening size, configuration and accessibility of the spaces from which rescue is to be performed.",
-          "quote": "Ensure that affected employees practice making permit space rescues at least once every 12 months, by means of simulated rescue operations in which they remove dummies, manikins, or actual persons from the actual permit spaces or from representative permit spaces. Representative permit spaces shall, with respect to opening size, configuration, and accessibility, simulate the types of permit spaces from which rescue is to be performed.",
+          "text": "The employer must also evaluate a prospective rescue service's proficiency with rescue-related tasks and equipment for the particular permit spaces identified, then select from those evaluated a rescue team or service that can reach the victims within a time frame appropriate for the hazards identified and is equipped for and proficient in the needed rescue services, inform it of the hazards it may confront, and give it access to all permit spaces from which rescue may be necessary so it can develop rescue plans and practice. A note says non-mandatory appendix F contains example criteria for evaluating prospective rescuers.",
+          "quote": "(ii) Evaluate a prospective rescue service's ability, in terms of proficiency with rescue-related tasks and equipment, to function appropriately while rescuing entrants from the particular permit space or types of permit spaces identified; (iii) Select a rescue team or service from those evaluated that: (A) Has the capability to reach the victim(s) within a time frame that is appropriate for the permit space hazard(s) identified; (B) Is equipped for and proficient in performing the needed rescue services; (iv) Inform each rescue team or service of the hazards they may confront when called on to perform rescue at the site; and (v) Provide the rescue team or service selected with access to all permit spaces from which rescue may be necessary so that the rescue service can develop appropriate rescue plans and practice rescue operations. Note to paragraph (k)(1): Non-mandatory appendix F contains examples of criteria which employers can use in evaluating prospective rescuers as required by paragraph (k)(1) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "An employer whose own employees are designated to provide permit space rescue must provide them, at no cost, the PPE needed for safe rescues and training in its use; train them in their rescue duties and ensure they complete the authorized entrant training; train them in basic first aid and CPR, with at least one rescue team member holding a current first aid and CPR certification available; and ensure they practice permit space rescues at least once every 12 months through simulated rescues removing dummies, manikins or actual persons from the actual permit spaces or from representative permit spaces that simulate the opening size, configuration and accessibility of the spaces from which rescue is to be performed.",
+          "quote": "An employer whose employees have been designated to provide permit space rescue and emergency services shall take the following measures: (i) Provide affected employees with the personal protective equipment (PPE) needed to conduct permit space rescues safely and train affected employees so they are proficient in the use of that PPE, at no cost to those employees; (ii) Train affected employees to perform assigned rescue duties. The employer must ensure that such employees successfully complete the training required to establish proficiency as an authorized entrant, as provided by paragraphs (g) and (h) of this section; (iii) Train affected employees in basic first-aid and cardiopulmonary resuscitation (CPR). The employer shall ensure that at least one member of the rescue team or service holding a current certification in first aid and CPR is available; and (iv) Ensure that affected employees practice making permit space rescues at least once every 12 months, by means of simulated rescue operations in which they remove dummies, manikins, or actual persons from the actual permit spaces or from representative permit spaces. Representative permit spaces shall, with respect to opening size, configuration, and accessibility, simulate the types of permit spaces from which rescue is to be performed.",
           "source": {
             "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
@@ -537,18 +547,8 @@
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
           },
           "checked": "2026-11-05"
-        },
-        {
-          "text": "A note to the appendixes says Appendixes A through F provide information and non-mandatory guidelines to help employers and employees comply with the section.",
-          "quote": "Note: Appendixes A through F serve to provide information and non-mandatory guidelines to assist employers and employees in complying with the appropriate requirements of this section.",
-          "source": {
-            "title": "eCFR: 29 CFR 1910.146, Permit-required confined spaces (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.146"
-          },
-          "checked": "2026-11-05"
         }
-      ],
-      "notCovered": "The content of the non-mandatory Appendixes A through F (decision flow chart, atmospheric testing procedures, example programs and permits, sewer system entry, and rescue team evaluation criteria)."
+      ]
     }
   ]
 }

@@ -8,7 +8,7 @@
   "topics": [
     {
       "id": "basic-precautions",
-      "name": "Basic fire precautions",
+      "name": "Fire precautions and used containers",
       "points": [
         {
           "text": "If the object to be welded or cut cannot readily be moved, all movable fire hazards nearby must be taken to a safe place.",
@@ -31,6 +31,15 @@
         {
           "text": "If neither of those two precautions can be followed, welding and cutting must not be performed.",
           "quote": "If the requirements stated in paragraphs (a)(1)(i) and (a)(1)(ii) of this section cannot be followed then welding and cutting shall not be performed.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The special precautions of paragraph (a)(2), which follow (floor openings, extinguishers, the fire watch, authorization, prohibited areas and more), are introduced as additional precautions that may be necessary when the work falls within the scope of paragraph (a)(1)(ii), the guards case above.",
+          "quote": "Special precautions. When the nature of the work to be performed falls within the scope of paragraph (a)(1)(ii) of this section certain additional precautions may be necessary:",
           "source": {
             "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
@@ -71,7 +80,7 @@
       "name": "Fire watch",
       "points": [
         {
-          "text": "Fire watchers are required whenever welding or cutting is done where more than a minor fire might develop, or when any of the listed conditions exists.",
+          "text": "Fire watchers are required whenever welding or cutting is done in locations where other than a minor fire might develop, or when any of the listed conditions exists.",
           "quote": "Fire watchers shall be required whenever welding or cutting is performed in locations where other than a minor fire might develop, or any of the following conditions exist:",
           "source": {
             "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
@@ -89,8 +98,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Other conditions: appreciable combustibles are more than 35 feet away but are easily ignited by sparks, or wall or floor openings within a 35-foot radius expose combustible material in adjacent areas, including concealed spaces in walls or floors.",
-          "quote": "Appreciable combustibles are more than 35 feet (10.7 m) away but are easily ignited by sparks. (3) Wall or floor openings within a 35-foot (10.7 m) radius expose combustible material in adjacent areas including concealed spaces in walls or floors.",
+          "text": "Other conditions: appreciable combustibles are more than 35 feet (10.7 m) away but are easily ignited by sparks; wall or floor openings within a 35-foot (10.7 m) radius expose combustible material in adjacent areas, including concealed spaces in walls or floors; or combustible materials are adjacent to the opposite side of metal partitions, walls, ceilings or roofs and are likely to be ignited by conduction or radiation.",
+          "quote": "Appreciable combustibles are more than 35 feet (10.7 m) away but are easily ignited by sparks. (3) Wall or floor openings within a 35-foot (10.7 m) radius expose combustible material in adjacent areas including concealed spaces in walls or floors. (4) Combustible materials are adjacent to the opposite side of metal partitions, walls, ceilings, or roofs and are likely to be ignited by conduction or radiation.",
           "source": {
             "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
@@ -98,8 +107,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Fire watchers must have fire extinguishing equipment readily available, be trained in its use, and know how to sound an alarm.",
-          "quote": "Fire watchers shall have fire extinguishing equipment readily available and be trained in its use. They shall be familiar with facilities for sounding an alarm in the event of a fire.",
+          "text": "Fire watchers must have fire extinguishing equipment readily available, be trained in its use, and be familiar with the facilities for sounding an alarm in case of fire. They watch for fires in all exposed areas, try to put them out only when obviously within the capacity of the available equipment, and otherwise sound the alarm.",
+          "quote": "Fire watchers shall have fire extinguishing equipment readily available and be trained in its use. They shall be familiar with facilities for sounding an alarm in the event of a fire. They shall watch for fires in all exposed areas, try to extinguish them only when obviously within the capacity of the equipment available, or otherwise sound the alarm.",
           "source": {
             "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
@@ -107,16 +116,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Fire watchers watch for fires in all exposed areas, try to put them out only when obviously within the capacity of the available equipment, and otherwise sound the alarm.",
-          "quote": "They shall watch for fires in all exposed areas, try to extinguish them only when obviously within the capacity of the equipment available, or otherwise sound the alarm.",
-          "source": {
-            "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "The fire watch must be kept for at least a half hour after welding or cutting is completed, to detect and put out possible smoldering fires.",
+          "text": "When welding on a metal wall, partition, ceiling or roof, precautions must prevent ignition of combustibles on the other side by conduction or radiation, preferably by relocating the combustibles. Where they are not relocated, a fire watch must be provided on the opposite side from the work.",
           "quote": "A fire watch shall be maintained for at least a half hour after completion of welding or cutting operations to detect and extinguish possible smoldering fires.",
           "source": {
             "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
@@ -209,8 +209,8 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Management must, based on the fire potential of plant facilities, establish areas for cutting and welding and procedures for cutting and welding in other areas.",
-          "quote": "Based on fire potentials of plant facilities, establish areas for cutting and welding, and establish procedures for cutting and welding, in other areas.",
+          "text": "Management must recognize its responsibility for the safe use of cutting and welding equipment on its property and, based on the fire potential of plant facilities, establish areas for cutting and welding and procedures for cutting and welding in other areas. It must also designate an individual responsible for authorizing cutting and welding in areas not specifically designed for those processes.",
+          "quote": "Management shall recognize its responsibility for the safe usage of cutting and welding equipment on its property and: (A) Based on fire potentials of plant facilities, establish areas for cutting and welding, and establish procedures for cutting and welding, in other areas. (B) Designate an individual responsible for authorizing cutting and welding operations in areas not specifically designed for such processes.",
           "source": {
             "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
@@ -218,16 +218,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Management must designate an individual responsible for authorizing cutting and welding in areas not specifically designed for those processes.",
-          "quote": "Designate an individual responsible for authorizing cutting and welding operations in areas not specifically designed for such processes.",
-          "source": {
-            "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
-            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
-          },
-          "checked": "2026-11-05"
-        },
-        {
-          "text": "Management must insist that cutters or welders and their supervisors are suitably trained, and must advise all contractors about flammable materials or hazardous conditions they may not be aware of.",
+          "text": "Management must also insist that cutters or welders and their supervisors are suitably trained in the safe operation of their equipment and the safe use of the process, and must advise all contractors about flammable materials or hazardous conditions they may not be aware of.",
           "quote": "Insist that cutters or welders and their supervisors are suitably trained in the safe operation of their equipment and the safe use of the process. (D) Advise all contractors about flammable materials or hazardous conditions of which they may not be aware.",
           "source": {
             "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
@@ -236,7 +227,16 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "The supervisor must determine that fire protection and extinguishing equipment are properly located at the site and, where fire watches are required, see that they are available at the site.",
+          "text": "The supervisor must secure authorization for the cutting or welding from the designated management representative, and must determine that the cutter or welder secures his approval that conditions are safe before going ahead.",
+          "quote": "Shall secure authorization for the cutting or welding operations from the designated management representative. (E) Shall determine that the cutter or welder secures his approval that conditions are safe before going ahead.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.252"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "The supervisor must also determine that fire protection and extinguishing equipment are properly located at the site and, where fire watches are required, see that they are available at the site.",
           "quote": "Shall determine that fire protection and extinguishing equipment are properly located at the site. (G) Where fire watches are required, he shall see that they are available at the site.",
           "source": {
             "title": "eCFR: 29 CFR 1910.252, General requirements (as of Nov 3, 2026)",
@@ -400,7 +400,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "That limit does not apply to acetylene dissolved in a suitable solvent in cylinders made and maintained to DOT requirements, or to acetylene for chemical use. Liquid acetylene is prohibited.",
+          "text": "That requirement is not intended to apply to the storage of acetylene dissolved in a suitable solvent in cylinders made and maintained to U.S. Department of Transportation requirements, or to acetylene for chemical use. The use of liquid acetylene is prohibited.",
           "quote": "This requirement is not intended to apply to storage of acetylene dissolved in a suitable solvent in cylinders manufactured and maintained according to U.S. Department of Transportation requirements, or to acetylene for chemical use. The use of liquid acetylene shall be prohibited.",
           "source": {
             "title": "eCFR: 29 CFR 1910.253, Oxygen-fuel gas welding and cutting (as of Nov 3, 2026)",
@@ -418,8 +418,17 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Inside a building, fuel-gas cylinders other than those in actual use or attached ready for use are limited to a total gas capacity of 2,000 cubic feet (56 m3) or 300 pounds (135.9 kg) of liquefied petroleum gas.",
+          "text": "Inside a building, fuel-gas cylinders, except those in actual use or attached ready for use, are limited to a total gas capacity of 2,000 cubic feet (56 m3) or 300 pounds (135.9 kg) of liquefied petroleum gas.",
           "quote": "Inside a building, cylinders, except those in actual use or attached ready for use, shall be limited to a total gas capacity of 2,000 cubic feet (56 m3) or 300 pounds (135.9 kg) of liquefied petroleum gas.",
+          "source": {
+            "title": "eCFR: 29 CFR 1910.253, Oxygen-fuel gas welding and cutting (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.253"
+          },
+          "checked": "2026-11-05"
+        },
+        {
+          "text": "For storage above that amount, a separate room or compartment meeting 1910.253(f)(6)(i)(H) and (I) must be provided, or the cylinders kept outside or in a special building. Special buildings, rooms or compartments must have no open flame for heating or lighting and must be well ventilated.",
+          "quote": "For storage in excess of 2,000 cubic feet (56 m3) total gas capacity of cylinders or 300 (135.9 kg) pounds of liquefied petroleum gas, a separate room or compartment conforming to the requirements specified in paragraphs (f)(6)(i)(H) and (f)(6)(i)(I) of this section shall be provided, or cylinders shall be kept outside or in a special building. Special buildings, rooms or compartments shall have no open flame for heating or lighting and shall be well ventilated.",
           "source": {
             "title": "eCFR: 29 CFR 1910.253, Oxygen-fuel gas welding and cutting (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.253"
@@ -436,7 +445,7 @@
           "checked": "2026-11-05"
         },
         {
-          "text": "Oxygen cylinders in storage must be separated from fuel-gas cylinders or combustible materials (especially oil or grease) by a minimum distance of 20 feet (6.1 m), or by a noncombustible barrier at least 5 feet (1.5 m) high with a fire-resistance rating of at least one-half hour. These are the two options.",
+          "text": "Oxygen cylinders in storage must be separated from fuel-gas cylinders or combustible materials (especially oil or grease) by a minimum distance of 20 feet (6.1 m), or by a noncombustible barrier at least 5 feet (1.5 m) high having a fire-resistance rating of at least one-half hour. These are the two options.",
           "quote": "Oxygen cylinders in storage shall be separated from fuel-gas cylinders or combustible materials (especially oil or grease), a minimum distance of 20 feet (6.1 m) or by a noncombustible barrier at least 5 feet (1.5 m) high having a fire-resistance rating of at least one-half hour.",
           "source": {
             "title": "eCFR: 29 CFR 1910.253, Oxygen-fuel gas welding and cutting (as of Nov 3, 2026)",
@@ -470,8 +479,8 @@
       "name": "Arc and resistance welding",
       "points": [
         {
-          "text": "For alternating-current arc welding machines, the limits that must not be exceeded are 80 volts for manual arc welding and cutting and 100 volts for automatic (machine or mechanized) arc welding and cutting.",
-          "quote": "Alternating-current machines (A) Manual arc welding and cutting-80 volts. (B) Automatic (machine or mechanized) arc welding and cutting-100 volts.",
+          "text": "The arc welding voltage limits that must not be exceeded are, for alternating-current machines, 80 volts for manual and 100 volts for automatic (machine or mechanized) arc welding and cutting, and for direct-current machines, 100 volts for both. Where special processes require higher open circuit voltages, means such as adequate insulation must be provided to prevent the operator from accidental contact with the high voltage.",
+          "quote": "The following limits shall not be exceeded: (i) Alternating-current machines (A) Manual arc welding and cutting-80 volts. (B) Automatic (machine or mechanized) arc welding and cutting-100 volts. (ii) Direct-current machines (A) Manual arc welding and cutting-100 volts. (B) Automatic (machine or mechanized) arc welding and cutting-100 volts. (iii) When special welding and cutting processes require values of open circuit voltages higher than the above, means shall be provided to prevent the operator from making accidental contact with the high voltage by adequate insulation or other means.",
           "source": {
             "title": "eCFR: 29 CFR 1910.254, Arc welding and cutting (as of Nov 3, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Q/section-1910.254"
