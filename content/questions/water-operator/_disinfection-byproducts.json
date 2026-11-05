@@ -122,7 +122,7 @@
     {
       "id": "db-007",
       "topic": "TTHM and HAA5 monitoring",
-      "question": "Under 141.132(a)(2), what may a system do with multiple wells drawing water from a single aquifer when determining the minimum number of TTHM and HAA5 samples?",
+      "question": "Under the Subpart L text in 141.132(a)(2), what may a system do with multiple wells drawing water from a single aquifer when determining the minimum number of TTHM and HAA5 samples?",
       "options": {
         "A": "Leave those wells out of TTHM and HAA5 monitoring",
         "B": "Sample only the well with the highest flow, without State approval",
@@ -130,7 +130,7 @@
         "D": "Consider them as one treatment plant, with State approval under criteria developed under 142.16(h)(5)"
       },
       "answer": "D",
-      "explanation": "\"Systems may consider multiple wells drawing water from a single aquifer as one treatment plant for determining the minimum number of TTHM and HAA5 samples required, with State approval in accordance with criteria developed under § 142.16(h)(5) of this chapter.\"",
+      "explanation": "\"Systems may consider multiple wells drawing water from a single aquifer as one treatment plant for determining the minimum number of TTHM and HAA5 samples required, with State approval in accordance with criteria developed under § 142.16(h)(5) of this chapter.\" This is the Subpart L text; under 141.64(b)(1)(i) the Subpart L TTHM and HAA5 MCLs apply only until the subpart V compliance date.",
       "source": {
         "title": "eCFR: 40 CFR 141.132, Monitoring requirements (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.132"
@@ -141,7 +141,7 @@
     {
       "id": "db-008",
       "topic": "TTHM and HAA5 monitoring",
-      "question": "What \"no more than\" levels does 141.132(b)(1)(iv) set for TTHMs and HAA5 for a system to remain on a reduced monitoring schedule?",
+      "question": "Under Subpart L, what \"no more than\" levels does 141.132(b)(1)(iv) set for TTHMs and HAA5 for a system to remain on a reduced monitoring schedule?",
       "options": {
         "A": "0.080 mg/L TTHMs and 0.060 mg/L HAA5",
         "B": "0.040 mg/L TTHMs and 0.030 mg/L HAA5",
@@ -149,7 +149,7 @@
         "D": "0.020 mg/L TTHMs and 0.015 mg/L HAA5"
       },
       "answer": "C",
-      "explanation": "A system may remain on reduced monitoring as long as its yearly average or single result \"is no more than 0.060 mg/L and 0.045 mg/L for TTHMs and HAA5, respectively.\" The 0.040 and 0.030 mg/L levels are the conditions for qualifying to reduce.",
+      "explanation": "A system may remain on reduced monitoring as long as its yearly average or single result \"is no more than 0.060 mg/L and 0.045 mg/L for TTHMs and HAA5, respectively.\" The 0.040 and 0.030 mg/L levels are the conditions for qualifying to reduce. Under 141.64(b)(1)(i), the Subpart L TTHM and HAA5 MCLs apply only until the subpart V compliance date.",
       "source": {
         "title": "eCFR: 40 CFR 141.132, Monitoring requirements (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-L/section-141.132"
@@ -373,7 +373,7 @@
       "options": {
         "A": "10 days after the end of the quarter",
         "B": "One year after its first TOC sample",
-        "C": "Three months of failure to achieve the Step 1 TOC removals",
+        "C": "Within three months of failure to achieve the Step 1 TOC removals",
         "D": "30 days following its compliance date in 141.130(b)"
       },
       "answer": "C",
