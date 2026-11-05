@@ -282,11 +282,11 @@
       "options": {
         "A": "As full verification, because the sticker says the refrigerant is gone",
         "B": "As full verification, if the sticker is dated",
-        "C": "As not acceptable verification; the recycler must still obtain a signed statement giving the name and address of the person who recovered the refrigerant and the date it was recovered",
+        "C": "As not acceptable verification; the recycler must still verify recovery, for example with a signed statement giving the name and address of the person who recovered the refrigerant and the date it was recovered",
         "D": "As full verification, if a certified technician applied it"
       },
       "answer": "C",
-      "explanation": "EPA's safe disposal page states that \"EPA does not mandate or accept a sticker as a form of verification\" that the refrigerant has been properly recovered prior to disposal. The final disposer must still obtain a signed statement that includes the name and address of the person who recovered the refrigerant and the date it was recovered; a date on the sticker or who applied it does not change this.",
+      "explanation": "EPA's safe disposal page states that \"EPA does not mandate or accept a sticker as a form of verification\" that the refrigerant has been properly recovered prior to disposal. The final disposer must still obtain a signed statement with the name and address of the person who recovered the refrigerant and the date it was recovered, or be covered by a contract with the supplier; a date on the sticker or who applied it does not change this.",
       "source": {
         "title": "EPA: Stationary Refrigeration Safe Disposal Requirements",
         "url": "https://www.epa.gov/section608/stationary-refrigeration-safe-disposal-requirements"
@@ -728,15 +728,15 @@
     {
       "id": "core-041",
       "topic": "Sales and reclamation",
-      "question": "What is the largest percentage of the refrigerant a certified reclaimer may release during the reclamation process?",
+      "question": "A certified reclaimer finishes reprocessing a bulk cylinder of used refrigerant that it will sell to a new owner. How must it confirm that this batch meets the appendix A specifications?",
       "options": {
-        "A": "1.5 percent",
-        "B": "0.5 percent",
-        "C": "3 percent",
-        "D": "5 percent"
+        "A": "By analyzing each batch with the analytical methodology prescribed in appendix A",
+        "B": "By testing one batch per calendar year",
+        "C": "By relying on the technician's statement that the refrigerant was recycled",
+        "D": "By checking that the cylinder is free of rust"
       },
       "answer": "A",
-      "explanation": "Persons reclaiming used refrigerant for sale to a new owner must \"Release no more than 1.5 percent of the refrigerant during the reclamation process.\" The other percentages do not appear in the reclaimer requirements.",
+      "explanation": "Reclaimers must \"Verify that each batch of such refrigerant reclaimed meets these specifications using the analytical methodology prescribed in appendix A of this subpart,\" and keep records, by batch, of the results of that analysis. A yearly sample, a technician's statement or the cylinder's condition does not verify each batch.",
       "source": {
         "title": "eCFR: 40 CFR 82.164, Reclaimer certification (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.164"

@@ -152,7 +152,7 @@
     {
       "id": "t3-009",
       "topic": "Pressurizing for repairs",
-      "question": "A low-pressure appliance It needs a repair that is not major (and not an oil change), and it will not be evacuated to the atmosphere afterward. While pressurizing it, the technician finds that the part cannot be isolated. What does the rule require?",
+      "question": "A low-pressure appliance needs a repair that is not major (and not an oil change), and it will not be evacuated to the atmosphere afterward. While pressurizing it, the technician finds that the part cannot be isolated. What does the rule require?",
       "options": {
         "A": "Cover openings",
         "B": "Add nitrogen to 5 psig",
@@ -188,18 +188,18 @@
     {
       "id": "t3-011",
       "topic": "Evacuation",
-      "question": "No exemption applies. Under 40 CFR 82.156(a), what kind of machine must a technician use to evacuate a low-pressure appliance to the Table 1 level?",
+      "question": "A manufacturer sells a new low-pressure chiller charged with a non-exempt refrigerant. Under the prohibitions in 40 CFR 82.154, what must the chiller be equipped with so that refrigerant can be removed at servicing and disposal?",
       "options": {
-        "A": "Any vacuum pump",
-        "B": "A recovery and/or recycling machine certified under 40 CFR 82.158",
-        "C": "The chiller's own purge unit",
-        "D": "Any machine approved by the chiller manufacturer"
+        "A": "A process stub",
+        "B": "A servicing aperture",
+        "C": "A self-sealing valve",
+        "D": "A one-time expansion device"
       },
       "answer": "B",
-      "explanation": "Technicians must evacuate to the Table 1 levels \"using a recovery and/or recycling machine certified pursuant to § 82.158.\" A plain vacuum pump, purge unit or manufacturer approval does not meet that requirement.",
+      "explanation": "No one may sell or distribute an appliance, other than small appliances and appliances containing only exempt refrigerants, \"unless it is equipped with a servicing aperture to facilitate the removal of refrigerant at servicing and disposal.\" The process stub requirement is for small appliances, and a self-sealing valve is a fitting on refrigerant containers.",
       "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
       },
       "checked": "2026-11-05"
     },
@@ -296,15 +296,15 @@
     {
       "id": "t3-017",
       "topic": "Leak repair",
-      "question": "As of April 10, 2020, which of these low-pressure chillers is covered by the federal leak repair rule in 40 CFR 82.157?",
+      "question": "The owner of a chiller (full charge of 50 or more pounds of a class I or class II refrigerant) is sending EPA a request for more time to complete leak repairs. The request contains no confidential business information. How must it be submitted?",
       "options": {
-        "A": "A chiller with a full charge of 60 pounds of a class II refrigerant",
-        "B": "A chiller with a full charge of 40 pounds of a class II refrigerant",
-        "C": "A chiller with a full charge of 300 pounds of a substitute refrigerant only",
-        "D": "A chiller with a full charge of 45 pounds of a class I refrigerant"
+        "A": "Electronically to 608reports@epa.gov",
+        "B": "Only by certified mail to the nearest EPA Regional Office",
+        "C": "By fax to the state environmental agency",
+        "D": "Through the technician's certifying program"
       },
       "answer": "A",
-      "explanation": "Since April 10, 2020, the section applies only to appliances with \"a full charge of 50 or more pounds\" of a class I or class II refrigerant or a blend containing one. It does not apply to appliances containing solely substitute refrigerants, and the 40- and 45-pound chillers are under 50 pounds.",
+      "explanation": "The rule says \"All notifications must be submitted electronically to 608reports@epa.gov unless the notification contains confidential business information.\" Notifications with confidential business information go by mail to the Section 608 Program Manager at EPA headquarters, not to a Regional Office, a state agency or a certifying program.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -332,15 +332,15 @@
     {
       "id": "t3-019",
       "topic": "Verification and records",
-      "question": "On an appliance covered by the leak repair rule (full charge of 50 or more pounds of a class I or class II refrigerant), a repair passed its initial verification test without the appliance being evacuated. When must the follow-up verification test be done?",
+      "question": "A building owner monitors a chiller (full charge of 50 or more pounds of a class I or class II refrigerant) with an automatic leak detection system instead of conducting annual leak inspections. Which records must the owner keep about the system?",
       "options": {
-        "A": "Within 30 days of the initial test",
-        "B": "Within one year of the repair",
-        "C": "Within 60 days of the initial test",
-        "D": "Within 10 days of the successful initial test"
+        "A": "Only the purchase receipt for the system",
+        "B": "A monthly printout countersigned by EPA",
+        "C": "None, because the system replaces leak inspections",
+        "D": "Records of its installation and annual audit and calibration, each date it identified a leak, and the location of the leak"
       },
       "answer": "D",
-      "explanation": "A follow-up verification test must be performed \"within 10 days of the successful initial verification test.\" If the appliance was evacuated, the 10 days instead run from when it reaches normal operating characteristics and conditions.",
+      "explanation": "If using an automatic leak detection system, the owner or operator \"must maintain records regarding the installation and the annual audit and calibration of the system, a record of each date the monitoring system identified a leak, and the location of the leak.\" Using the system in place of inspections does not remove this recordkeeping duty.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -350,15 +350,15 @@
     {
       "id": "t3-020",
       "topic": "Verification and records",
-      "question": "On an appliance covered by the leak repair rule (full charge of 50 or more pounds of a class I or class II refrigerant), a leak repair required evacuating part of the appliance. When must the initial verification test be performed?",
+      "question": "A contractor's technician adds refrigerant to a hospital's chiller (full charge of 50 or more pounds of a class I or class II refrigerant). Under the recordkeeping rule, which information must the record that the technician gives the hospital contain?",
       "options": {
-        "A": "Before adding any refrigerant to the appliance",
-        "B": "Only after the appliance returns to normal operating conditions",
-        "C": "Within 10 days after the appliance is recharged",
-        "D": "One year after the repair"
+        "A": "The date of the service, the parts serviced, the type of service, the technician's name, and the amount and type of refrigerant added",
+        "B": "The chiller's purchase price and warranty number",
+        "C": "The technician's home address and date of birth",
+        "D": "A photograph of the gauges at the end of the job"
       },
       "answer": "A",
-      "explanation": "For repairs that require evacuation, \"the test must be performed before adding any refrigerant to the appliance.\" Testing after the appliance returns to normal operation is the follow-up verification test, not the initial one.",
+      "explanation": "When the service is done by someone other than the owner or operator, \"that person must provide a record containing the following information,\" which includes the date, the parts serviced, the type of service, \"The name of the person performing the maintenance, service, repair, or disposal\" and \"The amount and type of refrigerant added to\" the appliance. Prices, personal details and photographs are not on the list.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -386,15 +386,15 @@
     {
       "id": "t3-022",
       "topic": "Leak repair",
-      "question": "The owner of a chiller with a full charge of 50 or more pounds of a class I or class II refrigerant chooses to retire it instead of repairing leaks. What is the longest schedule the retrofit or retirement plan may set for completing the work?",
+      "question": "The owner of a chiller (full charge of 50 or more pounds of a class I or class II refrigerant) writes a plan to retrofit it to a different refrigerant. Besides identifying the appliance and its location, which item must the plan contain?",
       "options": {
-        "A": "Six months",
-        "B": "One year",
-        "C": "Three years",
-        "D": "Two years"
+        "A": "The name of the wholesaler that will supply the new refrigerant",
+        "B": "An itemized procedure for converting the appliance, including changes required for compatibility with the new substitute",
+        "C": "Copies of the certification cards of the technicians who will do the work",
+        "D": "Written approval from the chiller manufacturer"
       },
       "answer": "B",
-      "explanation": "A retrofit or retirement plan must include \"A schedule, not to exceed one-year\" for completing the work. More time is possible only through the specific extensions the rule describes, not as a default plan schedule.",
+      "explanation": "A retrofit or retirement plan must contain, at a minimum, an \"Itemized procedure for converting the appliance to a different refrigerant, including changes required for compatibility with the new substitute, if retrofitted.\" The rule's list does not include a supplier's name, technicians' cards or manufacturer approval.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -404,15 +404,15 @@
     {
       "id": "t3-023",
       "topic": "Leak repair",
-      "question": "An appliance with a full charge of 50 or more pounds of a class I or class II refrigerant must be reported to EPA as chronically leaking if it leaks what share of its full charge in a calendar year?",
+      "question": "A federal agency owns a comfort cooling chiller (full charge of 50 or more pounds of a class I or class II refrigerant) that it must retire under a plan. Because of the agency's procurement process, the quoted delivery time for the replacement is more than 30 weeks from the start of official procurement. How much time beyond the one-year plan period may the agency request?",
       "options": {
-        "A": "35 percent or more",
-        "B": "50 percent or more",
-        "C": "100 percent or more",
-        "D": "125 percent or more"
+        "A": "Up to three additional years in a single request",
+        "B": "Up to five additional years in a single request",
+        "C": "Unlimited time, with no request needed",
+        "D": "An additional year"
       },
       "answer": "D",
-      "explanation": "Owners of appliances that \"leak 125 percent or more of the full charge in a calendar year\" must report to EPA. The report is due by March 1 of the following year and must describe efforts to find and repair the leaks.",
+      "explanation": "Owners or operators of federally owned commercial or comfort-cooling equipment \"may request an additional year beyond the one-year period in paragraph (h) of this section\" when a delivery time of more than 30 weeks \"from the beginning of the official procurement process is quoted.\" Any further time needs a new request made before the end of the ninth month of that one-year extension.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -458,18 +458,18 @@
     {
       "id": "t3-026",
       "topic": "Evacuation",
-      "question": "A technician needs to open only one part of a low-pressure chiller. When may the technician evacuate just that part instead of the entire appliance?",
+      "question": "A manufacturer builds a new recovery machine in 2025 for low-pressure chillers that use a non-flammable refrigerant. To be certified, the machine must be shown to reach the Table 2 evacuation level under the conditions of which appendix?",
       "options": {
-        "A": "When the opening is smaller than 4 square inches of flow area",
-        "B": "When the job will take less than 15 minutes",
-        "C": "When the refrigerant in the part can be isolated to a system receiver",
-        "D": "When the chiller holds less than 50 pounds of refrigerant"
+        "A": "Appendix B1, based on ARI Standard 740-1993",
+        "B": "Appendix B2, based on ARI Standard 740-1995",
+        "C": "Appendix B3, based on AHRI Standard 740-2016",
+        "D": "Appendix C, the test method for small appliances"
       },
       "answer": "C",
-      "explanation": "Technicians may evacuate \"either the entire appliance or the part to be serviced, if the refrigerant in the part can be isolated to a system receiver.\" The 4-square-inch and 15-minute figures come from the definition of a major repair, not from this permission.",
+      "explanation": "Equipment made or imported on or after January 1, 2017, must be certified as \"capable of achieving the level of evacuation specified in Table 2 of this section under the conditions of appendix B3 (for non-flammable refrigerants) based upon AHRI Standard 740-2016.\" Appendices B1 and B2 apply to older equipment, and appendix C is for small-appliance recovery devices.",
       "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
       },
       "checked": "2026-11-05"
     },
@@ -512,33 +512,33 @@
     {
       "id": "t3-029",
       "topic": "Recovery equipment",
-      "question": "Who is exempt from the requirement to use certified, self-contained recovery and/or recycling equipment?",
+      "question": "An approved equipment testing organization certifies a recovery machine for chillers under 40 CFR 82.158(d). Besides low-loss fittings on all hoses and the limit on noncondensables purging, what must be measured under the applicable test appendix?",
       "options": {
-        "A": "Any certified Type III technician working on chillers",
-        "B": "Persons who maintain, service, repair, or dispose of only appliances that they own and that contain pump-out units",
-        "C": "Contractors servicing appliances with a full charge of less than 200 pounds",
-        "D": "Anyone recovering R-123"
+        "A": "The machine's weight and noise level",
+        "B": "Its liquid recovery rate and its vapor recovery rate, unless it has no inherent liquid or vapor recovery rate",
+        "C": "The number of hours it can run before an oil change",
+        "D": "The purity of the refrigerant after reclamation to appendix A"
       },
       "answer": "B",
-      "explanation": "The exemption covers persons who work on \"only appliances that they own and that contain pump-out units.\" Being a Type III technician, the charge size, or the refrigerant used does not create an exemption.",
+      "explanation": "The rule states: \"The equipment must have its liquid recovery rate and its vapor recovery rate measured under the conditions of appendix B1, B2, B3, or B4 as applicable, unless the equipment has no inherent liquid or vapor recovery rate.\" Reprocessing to appendix A is a reclaimer's job, not a recovery-equipment test.",
       "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
       },
       "checked": "2026-11-05"
     },
     {
       "id": "t3-030",
       "topic": "Evacuation",
-      "question": "A low-pressure chiller must be evacuated to the Table 1 level before it is disposed of. Which activity does the definition of disposal include?",
+      "question": "Low-pressure chillers must be evacuated to the Table 1 level before disposal. Someone cuts the refrigerant lines on an abandoned low-pressure chiller to steal copper, releasing refrigerant. How does the definition of disposal treat this act?",
       "options": {
-        "A": "Disassembling the chiller for reuse of its component parts",
-        "B": "Replacing a filter on its purge unit",
-        "C": "Adding refrigerant to it",
-        "D": "Measuring its pressures with gauges"
+        "A": "As disposal, because the definition includes vandalism of any appliance such that the refrigerant is released into the environment",
+        "B": "As outside the disposal definition, because no technician was involved",
+        "C": "As a de minimis release",
+        "D": "As a seasonal variance"
       },
       "answer": "A",
-      "explanation": "Disposal means the process leading to and including several activities, one of which is \"The disassembly of any appliance for reuse of its component parts.\" Routine filter changes, charging or pressure readings are service work, not disposal.",
+      "explanation": "Disposal means the process leading to and including, among other things, \"The vandalism of any appliance such that the refrigerant is released into the environment or would be released into the environment if it had not been recovered prior to the destructive activity.\" A de minimis release is one tied to good faith attempts to recycle or recover refrigerant, and a seasonal variance is a removal and re-addition due to a change in season.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -584,15 +584,15 @@
     {
       "id": "t3-035",
       "topic": "Leak repair",
-      "question": "An industrial process refrigeration appliance with a full charge of 800 pounds of a class II refrigerant has exceeded its applicable leak rate. With no automatic leak detection system, how often must leak inspections be conducted?",
+      "question": "The owner of an industrial process refrigeration appliance with a full charge of 800 pounds of a class II refrigerant wants to replace its quarterly leak inspections with an automatic leak detection system that directly detects refrigerant in air. Which components may such a system be used to monitor?",
       "options": {
-        "A": "Once every three months, until the leak rate calculations show four quarters in a row without exceeding the leak rate",
-        "B": "Once per calendar year, until the leak rate calculations show one year without exceeding the leak rate",
-        "C": "Once every two years, until the leak rate calculations show one year without exceeding the leak rate",
-        "D": "Only once, right after the repair"
+        "A": "Only components located inside an enclosed building or structure",
+        "B": "Only components located outdoors",
+        "C": "Only components more than two meters above a support surface",
+        "D": "Any component, indoors or outdoors, as long as the sensors detect 1,000 parts per million"
       },
       "answer": "A",
-      "explanation": "For commercial and industrial process refrigeration appliances with \"a full charge of 500 or more pounds, leak inspections must be conducted once every three months\" until four quarters in a row stay within the leak rate. Once per calendar year applies to those of 50 to under 500 pounds and to comfort cooling.",
+      "explanation": "A system that directly detects refrigerant in air must \"Only be used to monitor components located inside an enclosed building or structure,\" must accurately detect 10 parts per million and must alert at 100 parts per million. Quarterly inspections are waived only for portions continuously monitored by a system that \"is audited or calibrated annually.\"",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -602,15 +602,15 @@
     {
       "id": "t3-036",
       "topic": "Low-pressure basics",
-      "question": "Under the federal definition, what does it mean to mothball an appliance?",
+      "question": "A new chiller uses R-245fa. How do the Section 608 definitions class this appliance?",
       "options": {
-        "A": "Convert it from one refrigerant to another",
-        "B": "Remove the refrigerant and disable the refrigerant circuit so no one can use it again",
-        "C": "Keep it running with a reduced refrigerant charge",
-        "D": "Evacuate the refrigerant to at least atmospheric pressure and temporarily shut it down"
+        "A": "As a medium-pressure appliance",
+        "B": "As a high-pressure appliance",
+        "C": "As a very high-pressure appliance",
+        "D": "As a low-pressure appliance, because the definition names appliances using R-245fa as an example"
       },
       "answer": "D",
-      "explanation": "Mothball means to evacuate refrigerant \"to at least atmospheric pressure, and to temporarily shut down that appliance.\" Making the appliance permanently unusable is the definition of retire, and converting refrigerants is retrofit.",
+      "explanation": "A low-pressure appliance uses a refrigerant \"with a liquid phase saturation pressure below 45 psia at 104 °F,\" and the definition adds: \"Examples include but are not limited to appliances using R-11, R-123, R-113, and R-245fa.\" None of the other pressure-class definitions names R-245fa.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -620,15 +620,15 @@
     {
       "id": "t3-037",
       "topic": "Leak repair",
-      "question": "The owner of a chiller with a full charge of 50 or more pounds of a class I or class II refrigerant mothballs it while a leak repair deadline is running. When does the repair time frame resume?",
+      "question": "After writing a retrofit or retirement plan, the owner of a chiller (full charge of 50 or more pounds of a class I or class II refrigerant) wants EPA to relieve it of the obligation to retrofit or retire the chiller. What must the owner establish and agree to?",
       "options": {
-        "A": "On the day EPA approves the mothballing",
-        "B": "On the day additional refrigerant is added to the appliance",
-        "C": "30 days after the appliance is mothballed",
-        "D": "On January 1 of the following year"
+        "A": "That the chiller has run for 30 days since the plan's date; no repair commitment is needed",
+        "B": "Within 180 days of the plan's date, that the chiller no longer exceeds the applicable leak rate, and agree in writing to repair all identified leaks within one year of the plan's date",
+        "C": "That the chiller's refrigerant has been reclaimed, at any time before the plan's schedule ends",
+        "D": "Nothing; relief is not available once a plan has been written"
       },
       "answer": "B",
-      "explanation": "The repair time frames \"are temporarily suspended when an appliance is mothballed\", and \"The time will resume on the day additional refrigerant is added to the appliance.\" The rule does not tie the restart to EPA approval or a fixed number of days.",
+      "explanation": "The owner or operator may request relief \"if the owner or operator can establish within 180 days of the plan's date that the appliance no longer exceeds the applicable leak rate and if the owner or operator agrees in writing to repair all identified leaks within one year of the plan's date.\" The request is considered approved unless EPA says otherwise within 60 days.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -638,15 +638,15 @@
     {
       "id": "t3-038",
       "topic": "Verification and records",
-      "question": "For an appliance with a full charge of 50 or more pounds of a class I or class II refrigerant, when must the owner or operator calculate the leak rate?",
+      "question": "The owner of a chiller (full charge of 50 or more pounds of a class I or class II refrigerant) leaves refrigerant added for a seasonal variance out of its leak rate calculation. What must the owner's records show?",
       "options": {
-        "A": "Once per calendar year",
-        "B": "Only during a leak inspection",
-        "C": "Every time refrigerant is added, unless the addition follows a retrofit or installation of a new appliance, or qualifies as a seasonal variance",
-        "D": "Only when the appliance is retired"
+        "A": "EPA's written approval for each seasonal addition",
+        "B": "Nothing, because seasonal additions are excluded from the calculation",
+        "C": "That the owner is using the seasonal variance flexibility, and the amounts added and removed",
+        "D": "The outdoor temperature on each day the chiller ran"
       },
       "answer": "C",
-      "explanation": "The owner or operator \"must calculate the leak rate every time refrigerant is added to an appliance\", except right after a retrofit, at installation of a new appliance, or for a seasonal variance. A yearly calculation would miss additions in between.",
+      "explanation": "Owners or operators that exclude seasonal variance additions \"must maintain records stating that they are using the seasonal variance flexibility and documenting the amount added and removed.\" Leaving the addition out of the calculation does not excuse these records.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -692,15 +692,15 @@
     {
       "id": "t3-041",
       "topic": "Leak repair",
-      "question": "On an appliance with a full charge of 50 or more pounds of a class I or class II refrigerant, leaks were repaired. Which situation lets the leaks be presumed repaired?",
+      "question": "An industrial process refrigeration appliance (full charge of 50 or more pounds of a class I or class II refrigerant) is being retrofitted under a plan. The custom-built replacement component has a quoted delivery time of more than 30 weeks, and the owner requests more time on that basis. After the parts arrive, how long does the owner have to install them?",
       "options": {
-        "A": "The owner signs a statement that the repair is complete",
-        "B": "No further refrigerant is added for 12 months after the repair",
-        "C": "The appliance runs for 30 days without shutting down",
-        "D": "A technician adds a full charge of refrigerant"
+        "A": "No set deadline; the parts may be installed whenever convenient",
+        "B": "120 days",
+        "C": "180 days",
+        "D": "18 months"
       },
       "answer": "B",
-      "explanation": "The leaks \"will be presumed to be repaired if there is no further refrigerant addition for 12 months after the repair\" or if the required leak inspections find no leaks. A signed statement or a period of operation is not named as a basis.",
+      "explanation": "The custom-built extension applies when the supplier \"has quoted a delivery time of more than 30 weeks from when the order is placed,\" and \"The appliance or appliance components must be installed within 120 days after receiving delivery of the necessary parts.\" The 180-day figure is an outer limit on leak repair time for unavailable components, and 18 months is the automatic retirement extension for exempt-substitute replacements.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -710,15 +710,15 @@
     {
       "id": "t3-042",
       "topic": "Leak repair",
-      "question": "On a comfort cooling chiller with a full charge of 50 or more pounds of a class I or class II refrigerant (no industrial process shutdown), replacement components are not available within 30 days. Under the extension for unavailable components, how much time is permitted?",
+      "question": "A comfort cooling chiller (full charge of 50 or more pounds of a class I or class II refrigerant) exceeds its leak rate. No industrial process shutdown is involved, and local regulations make a repair within 30 days impossible. By when must the owner request the extension from EPA?",
       "options": {
-        "A": "Up to 30 days after delivery, but not more than 270 days from the date the appliance exceeded the leak rate",
-        "B": "Up to one year after the components are ordered",
-        "C": "Up to 30 days after delivery, but not more than 180 days from the date the appliance exceeded the leak rate",
-        "D": "As long as needed, with no limit"
+        "A": "Within 180 days of the appliance exceeding the leak rate",
+        "B": "By March 1 of the following year",
+        "C": "Within 30 days of the appliance exceeding the applicable leak rate",
+        "D": "Within seven months of discovering the leak"
       },
       "answer": "C",
-      "explanation": "Additional time is permitted \"up to 30 days after receiving delivery of the necessary components, not to exceed 180 days\" from the date the appliance exceeded the leak rate. The 270-day limit applies only when an industrial process shutdown is required.",
+      "explanation": "The owner or operator \"must request an extension from EPA at the address specified in paragraph (m) of this section within 30 days (or 120 days if an industrial process shutdown is required) of the appliance exceeding the applicable leak rate.\" Seven months is the deadline for asking for more than one year to retrofit or retire, and 180 days is an outer limit on repair time for unavailable components.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -854,15 +854,15 @@
     {
       "id": "t3-050",
       "topic": "Low-pressure basics",
-      "question": "Before a closed-book Type III test, how must proctors verify the identity of the people taking it?",
+      "question": "A proctored Type III test session has just ended. What does Appendix D require the proctors to do with the test forms, answer sheets, scratch paper and notes?",
       "options": {
-        "A": "By asking for their Social Security number",
-        "B": "By checking a recent utility bill",
-        "C": "By examining photo identification",
-        "D": "No identity check is required"
+        "A": "Hand the scratch paper back to the applicants",
+        "B": "Leave the answer sheets with the applicants until results are issued",
+        "C": "Collect all of them and place them in a sealed envelope",
+        "D": "Shred them at the test site"
       },
       "answer": "C",
-      "explanation": "Appendix D states: \"Proctors are required to verify the identity of individuals taking the test by examining photo identification.\" Accepted forms include drivers' licenses, government identification cards, passports and military identification.",
+      "explanation": "Appendix D states: \"After the completion of a test, proctors must collect all test forms, answer sheets, scratch paper and notes. These items are to be placed in a sealed envelope.\" Returning or destroying the materials at the site does not meet this rule.",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
