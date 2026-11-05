@@ -162,12 +162,12 @@
       "topic": "Supported scaffolds",
       "question": "What must the poles, legs, posts, frames and uprights of a supported scaffold bear on?",
       "options": {
-        "A": "Base plates and mud sills or other adequate firm foundation",
-        "B": "Concrete blocks or bricks",
-        "C": "Any object at hand",
+        "A": "Concrete blocks or bricks",
+        "B": "Any object at hand",
+        "C": "Base plates and mud sills or other adequate firm foundation",
         "D": "Bare soil only"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "They \"shall bear on base plates and mud sills or other adequate firm foundation,\" and unstable objects may not be used to support scaffolds.",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -197,16 +197,16 @@
     },
     {
       "id": "sc-011",
-      "topic": "Access",
-      "question": "Under the general access rule, what may crossbraces be used for?",
+      "topic": "Fall protection",
+      "question": "When is crossbracing acceptable in place of a midrail?",
       "options": {
-        "A": "As a ladder on any scaffold",
-        "B": "As a means of access when no ladder is available",
-        "C": "As a midrail or toprail when the crossing point is within the heights the rule sets",
-        "D": "As a rest platform"
+        "A": "When the crossing point of two braces is between 20 and 30 inches above the work platform",
+        "B": "At any height, as long as the braces are steel",
+        "C": "When the crossing point is more than 48 inches above the work platform",
+        "D": "When the braces are also used as the means of access"
       },
-      "answer": "C",
-      "explanation": "\"Crossbraces shall not be used as a means of access.\" Crossbracing is allowed in place of a midrail when the braces cross \"between 20 inches (0.5 m) and 30 inches (0.8 m) above the work platform\" or as a toprail between 38 and 48 inches.",
+      "answer": "A",
+      "explanation": "Crossbracing may replace a midrail \"when the crossing point of two braces is between 20 inches (0.5 m) and 30 inches (0.8 m) above the work platform.\" Separately, \"Crossbraces shall not be used as a means of access.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
@@ -288,7 +288,7 @@
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-L/section-1926.451"
       },
       "checked": "2026-11-05",
-      "evidence": "Scaffolds shall not be erected, used, dismantled, altered, or moved such that they or any conductive material handled on them might come closer to exposed and energized power lines than as follows"
+      "evidence": "Uninsulated lines voltage Minimum distance Less than 50 kv 10 feet (3.1 m)"
     },
     {
       "id": "sc-016",

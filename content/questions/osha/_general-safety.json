@@ -1,0 +1,389 @@
+{
+  "cluster": "osha",
+  "slug": "general-safety",
+  "title": "OSHA construction general safety and health practice questions",
+  "description": "Free OSHA construction general safety and health practice questions (29 CFR 1926 Subpart C), each answer explained and linked to the rule.",
+  "href": "/osha/general-safety/practice-test/",
+  "questions": [
+    {
+      "id": "gs-001",
+      "topic": "Accident prevention",
+      "question": "Under 29 CFR 1926.20, who makes the frequent and regular inspections of job sites, materials and equipment that the employer's programs must provide for?",
+      "options": {
+        "A": "Competent persons designated by the employer",
+        "B": "An OSHA compliance officer on every visit",
+        "C": "The project owner's insurance company",
+        "D": "Any employee who volunteers"
+      },
+      "answer": "A",
+      "explanation": "The employer's programs \"shall provide for frequent and regular inspections of the job sites, materials, and equipment to be made by competent persons designated by the employers.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.20, General safety and health provisions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.20"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Such programs shall provide for frequent and regular inspections of the job sites, materials, and equipment to be made by competent persons designated by the employers."
+    },
+    {
+      "id": "gs-002",
+      "topic": "Accident prevention",
+      "question": "A tool on site does not comply with an applicable Part 1926 requirement. What does 29 CFR 1926.20 require?",
+      "options": {
+        "A": "Keep using it until the end of the shift",
+        "B": "Use it only under a supervisor's watch",
+        "C": "Tag it as unsafe or lock its controls so it cannot operate, or physically remove it",
+        "D": "Use it only after reporting it to OSHA"
+      },
+      "answer": "C",
+      "explanation": "Use of non-complying equipment \"is prohibited.\" It \"shall either be identified as unsafe by tagging or locking the controls to render them inoperable or shall be physically removed from its place of operation.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.20, General safety and health provisions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.20"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Such machine, tool, material, or equipment shall either be identified as unsafe by tagging or locking the controls to render them inoperable or shall be physically removed from its place of operation."
+    },
+    {
+      "id": "gs-003",
+      "topic": "Accident prevention",
+      "question": "Which employees may the employer permit to operate equipment and machinery under 29 CFR 1926.20?",
+      "options": {
+        "A": "Any employee on the crew",
+        "B": "Only employees qualified by training or experience",
+        "C": "Only employees who hold a state operator's license",
+        "D": "Only the competent person"
+      },
+      "answer": "B",
+      "explanation": "\"The employer shall permit only those employees qualified by training or experience to operate equipment and machinery.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.20, General safety and health provisions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.20"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The employer shall permit only those employees qualified by training or experience to operate equipment and machinery."
+    },
+    {
+      "id": "gs-004",
+      "topic": "Accident prevention",
+      "question": "A particular Part 1926 standard specifically applies to an operation, and a different general standard could also apply. Which one governs?",
+      "options": {
+        "A": "The general standard prevails",
+        "B": "The employer may choose either one",
+        "C": "Neither applies until OSHA decides",
+        "D": "The particular standard prevails"
+      },
+      "answer": "D",
+      "explanation": "A standard that is \"specifically applicable\" to a condition or operation \"shall prevail over any different general standard which might otherwise be applicable\" to it.",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.20, General safety and health provisions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.20"
+      },
+      "checked": "2026-11-05",
+      "evidence": "If a particular standard is specifically applicable to a condition, practice, means, method, operation, or process, it shall prevail over any different general standard which might otherwise be applicable"
+    },
+    {
+      "id": "gs-005",
+      "topic": "Accident prevention",
+      "question": "A standard requires PPE, and the employer fails to provide it to four employees who must use it. How does 29 CFR 1926.20(f) treat this?",
+      "options": {
+        "A": "It counts as one violation for the whole site",
+        "B": "Each failure to provide PPE to an employee may be considered a separate violation",
+        "C": "It is a violation only if an injury occurs",
+        "D": "It is a violation only after a written warning"
+      },
+      "answer": "B",
+      "explanation": "The employer \"must provide PPE to each employee required to use the PPE, and each failure to provide PPE to an employee may be considered a separate violation.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.20, General safety and health provisions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.20"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The employer must provide PPE to each employee required to use the PPE, and each failure to provide PPE to an employee may be considered a separate violation."
+    },
+    {
+      "id": "gs-006",
+      "topic": "Training",
+      "question": "Under 29 CFR 1926.21, what must the employer instruct each employee in?",
+      "options": {
+        "A": "The recognition and avoidance of unsafe conditions and the regulations applicable to the employee's work environment",
+        "B": "Only the company's internal policies",
+        "C": "Only first aid procedures",
+        "D": "Only how to file an OSHA complaint"
+      },
+      "answer": "A",
+      "explanation": "\"The employer shall instruct each employee in the recognition and avoidance of unsafe conditions and the regulations applicable to his work environment\" to control or eliminate hazards.",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.21, Safety training and education (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.21"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The employer shall instruct each employee in the recognition and avoidance of unsafe conditions and the regulations applicable to his work environment"
+    },
+    {
+      "id": "gs-007",
+      "topic": "Training",
+      "question": "Harmful plants or animals are present in a job site area. What must employees who may be exposed be instructed on?",
+      "options": {
+        "A": "Only how to identify the species",
+        "B": "Nothing, unless an injury has already happened",
+        "C": "Only how to report sightings to the owner",
+        "D": "The potential hazards, how to avoid injury, and the first aid procedures to use if injured"
+      },
+      "answer": "D",
+      "explanation": "Where harmful plants or animals are present, employees who may be exposed \"shall be instructed regarding the potential hazards, and how to avoid injury, and the first aid procedures to be used in the event of injury.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.21, Safety training and education (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.21"
+      },
+      "checked": "2026-11-05",
+      "evidence": "In job site areas where harmful plants or animals are present, employees who may be exposed shall be instructed regarding the potential hazards, and how to avoid injury, and the first aid procedures to be used in the event of injury."
+    },
+    {
+      "id": "gs-008",
+      "topic": "Definitions",
+      "question": "In the definitions of 29 CFR 1926.32, what does \"should\" mean?",
+      "options": {
+        "A": "Mandatory",
+        "B": "Prohibited",
+        "C": "Recommended",
+        "D": "Required only on federal contracts"
+      },
+      "answer": "C",
+      "explanation": "Under 1926.32, \"Should means recommended,\" while \"Shall means mandatory.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.32, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.32"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Should means recommended."
+    },
+    {
+      "id": "gs-009",
+      "topic": "Definitions",
+      "question": "Which description matches the definition of a competent person in 29 CFR 1926.32?",
+      "options": {
+        "A": "Any employee with more than one year on the job",
+        "B": "One who holds an engineering degree",
+        "C": "One who can identify existing and predictable hazards and has authorization to take prompt corrective measures to eliminate them",
+        "D": "One who has completed an OSHA course, whatever their authority"
+      },
+      "answer": "C",
+      "explanation": "A competent person is \"capable of identifying existing and predictable hazards\" and \"has authorization to take prompt corrective measures to eliminate them.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.32, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.32"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Competent person means one who is capable of identifying existing and predictable hazards in the surroundings or working conditions which are unsanitary, hazardous, or dangerous to employees, and who has authorization to take prompt corrective measures to eliminate them."
+    },
+    {
+      "id": "gs-010",
+      "topic": "Definitions",
+      "question": "Which description matches the definition of \"qualified\" in 29 CFR 1926.32?",
+      "options": {
+        "A": "One whom the employer has assigned to be at a specific location",
+        "B": "One who has authorization to take prompt corrective measures",
+        "C": "Any employee who has read the site safety plan",
+        "D": "One who, by a recognized degree, certificate or professional standing, or by extensive knowledge, training and experience, has successfully demonstrated the ability to solve problems relating to the work"
+      },
+      "answer": "D",
+      "explanation": "Qualified means one who has \"a recognized degree, certificate, or professional standing,\" or \"extensive knowledge, training, and experience,\" and \"has successfully demonstrated his ability to solve or resolve problems relating to the subject matter, the work, or the project.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.32, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.32"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Qualified means one who, by possession of a recognized degree, certificate, or professional standing, or who by extensive knowledge, training, and experience, has successfully demonstrated his ability to solve or resolve problems relating to the subject matter, the work, or the project."
+    },
+    {
+      "id": "gs-011",
+      "topic": "First aid and fire",
+      "question": "Under 29 CFR 1926.23, for whom must the employer make first aid services and provisions for medical care available?",
+      "options": {
+        "A": "Every employee covered by the regulations",
+        "B": "Only employees who work at heights",
+        "C": "Only employees who ask for them in writing",
+        "D": "Only crews of more than 50 employees"
+      },
+      "answer": "A",
+      "explanation": "\"First aid services and provisions for medical care shall be made available by the employer for every employee covered by these regulations.\" The specific requirements are in Subpart D.",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.23, First aid and medical attention (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.23"
+      },
+      "checked": "2026-11-05",
+      "evidence": "First aid services and provisions for medical care shall be made available by the employer for every employee covered by these regulations."
+    },
+    {
+      "id": "gs-012",
+      "topic": "First aid and fire",
+      "question": "Under 29 CFR 1926.24, during which phases of the work must the employer maintain an effective fire protection and prevention program at the job site?",
+      "options": {
+        "A": "Only during demolition",
+        "B": "Throughout all phases of the construction, repair, alteration or demolition work",
+        "C": "Only after the building is enclosed",
+        "D": "Only during hot work"
+      },
+      "answer": "B",
+      "explanation": "The employer is responsible for an effective fire protection and prevention program \"throughout all phases of the construction, repair, alteration, or demolition work.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.24, Fire protection and prevention (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.24"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The employer shall be responsible for the development and maintenance of an effective fire protection and prevention program at the job site throughout all phases of the construction, repair, alteration, or demolition work."
+    },
+    {
+      "id": "gs-013",
+      "topic": "Housekeeping, lighting and sanitation",
+      "question": "Under 29 CFR 1926.25, where must form and scrap lumber with protruding nails be kept cleared from during construction?",
+      "options": {
+        "A": "Only the public sidewalk",
+        "B": "Only the site office",
+        "C": "Only areas that inspectors will visit",
+        "D": "Work areas, passageways and stairs, in and around buildings or other structures"
+      },
+      "answer": "D",
+      "explanation": "Form and scrap lumber with protruding nails, and all other debris, \"shall be kept cleared from work areas, passageways, and stairs, in and around buildings or other structures.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.25, Housekeeping (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.25"
+      },
+      "checked": "2026-11-05",
+      "evidence": "form and scrap lumber with protruding nails, and all other debris, shall be kept cleared from work areas, passageways, and stairs, in and around buildings or other structures."
+    },
+    {
+      "id": "gs-014",
+      "topic": "Housekeeping, lighting and sanitation",
+      "question": "What does 29 CFR 1926.25 require of containers used for oily, flammable or hazardous wastes?",
+      "options": {
+        "A": "They must be painted red",
+        "B": "They must be equipped with covers",
+        "C": "They must be emptied only at the end of the project",
+        "D": "They must be kept inside the building"
+      },
+      "answer": "B",
+      "explanation": "\"Containers used for garbage and other oily, flammable, or hazardous wastes, such as caustics, acids, harmful dusts, etc. shall be equipped with covers.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.25, Housekeeping (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.25"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Containers used for garbage and other oily, flammable, or hazardous wastes, such as caustics, acids, harmful dusts, etc. shall be equipped with covers."
+    },
+    {
+      "id": "gs-015",
+      "topic": "Housekeeping, lighting and sanitation",
+      "question": "How often must combustible scrap and debris be removed under 29 CFR 1926.25?",
+      "options": {
+        "A": "Only once, when the project is finished",
+        "B": "Only when a fire inspector asks",
+        "C": "At regular intervals during the course of construction",
+        "D": "Only when the debris pile reaches a set height"
+      },
+      "answer": "C",
+      "explanation": "\"Combustible scrap and debris shall be removed at regular intervals during the course of construction,\" and safe means must be provided for the removal.",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.25, Housekeeping (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.25"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Combustible scrap and debris shall be removed at regular intervals during the course of construction."
+    },
+    {
+      "id": "gs-016",
+      "topic": "Housekeeping, lighting and sanitation",
+      "question": "29 CFR 1926.26 requires areas where work is in progress to be lighted. Where are the minimum illumination requirements for work areas found?",
+      "options": {
+        "A": "Subpart D of Part 1926",
+        "B": "Subpart E of Part 1926",
+        "C": "Subpart M of Part 1926",
+        "D": "Subpart P of Part 1926"
+      },
+      "answer": "A",
+      "explanation": "Work areas must be lighted with natural or artificial illumination, and \"The minimum illumination requirements for work areas are contained in subpart D of this part.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.26, Illumination (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.26"
+      },
+      "checked": "2026-11-05",
+      "evidence": "The minimum illumination requirements for work areas are contained in subpart D of this part."
+    },
+    {
+      "id": "gs-017",
+      "topic": "Means of egress",
+      "question": "Under 29 CFR 1926.34, in which places may a lock or fastening that prevents free escape from the inside of a building be installed?",
+      "options": {
+        "A": "Any building still under construction",
+        "B": "Mental, penal or corrective institutions where supervisory personnel are continually on duty and effective provisions are made to remove occupants in an emergency",
+        "C": "Any building after work hours",
+        "D": "Any storage area holding tools"
+      },
+      "answer": "B",
+      "explanation": "No such lock \"shall be installed except in mental, penal, or corrective institutions where supervisory personnel is continually on duty and effective provisions are made to remove occupants in case of fire or other emergency.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.34, Means of egress (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.34"
+      },
+      "checked": "2026-11-05",
+      "evidence": "No lock or fastening to prevent free escape from the inside of any building shall be installed except in mental, penal, or corrective institutions where supervisory personnel is continually on duty and effective provisions are made to remove occupants in case of fire or other emergency."
+    },
+    {
+      "id": "gs-018",
+      "topic": "Means of egress",
+      "question": "When must access to exits be marked by readily visible signs under 29 CFR 1926.34?",
+      "options": {
+        "A": "In all cases where the exit or the way to reach it is not immediately visible to the occupants",
+        "B": "Only in buildings over three stories",
+        "C": "Only when OSHA orders it",
+        "D": "Only at night"
+      },
+      "answer": "A",
+      "explanation": "\"Access to exits shall be marked by readily visible signs in all cases where the exit or way to reach it is not immediately visible to the occupants.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.34, Means of egress (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.34"
+      },
+      "checked": "2026-11-05",
+      "evidence": "Access to exits shall be marked by readily visible signs in all cases where the exit or way to reach it is not immediately visible to the occupants."
+    },
+    {
+      "id": "gs-019",
+      "topic": "Emergency action plans",
+      "question": "Under 29 CFR 1926.35, which employers may communicate their emergency action plan orally instead of maintaining a written plan?",
+      "options": {
+        "A": "Employers with 50 or fewer employees",
+        "B": "Employers on jobs shorter than 30 days",
+        "C": "Any employer whose employees have had OSHA training",
+        "D": "Employers with 10 or fewer employees"
+      },
+      "answer": "D",
+      "explanation": "\"For those employers with 10 or fewer employees the plan may be communicated orally to employees and the employer need not maintain a written plan.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.35, Employee emergency action plans (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.35"
+      },
+      "checked": "2026-11-05",
+      "evidence": "For those employers with 10 or fewer employees the plan may be communicated orally to employees and the employer need not maintain a written plan."
+    },
+    {
+      "id": "gs-020",
+      "topic": "Emergency action plans",
+      "question": "An employee alarm system is also used to alert fire brigade members. What does 29 CFR 1926.35 require?",
+      "options": {
+        "A": "One shared signal for all purposes",
+        "B": "A separate alarm panel in each building",
+        "C": "A distinctive signal for each purpose",
+        "D": "No signal for the fire brigade"
+      },
+      "answer": "C",
+      "explanation": "\"If the employee alarm system is used for alerting fire brigade members, or for other purposes, a distinctive signal for each purpose shall be used.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.35, Employee emergency action plans (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.35"
+      },
+      "checked": "2026-11-05",
+      "evidence": "If the employee alarm system is used for alerting fire brigade members, or for other purposes, a distinctive signal for each purpose shall be used."
+    }
+  ]
+}
