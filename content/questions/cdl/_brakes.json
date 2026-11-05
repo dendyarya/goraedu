@@ -182,11 +182,11 @@
       "question": "What does 393.45(b)(3) require about how brake tubing and hose are installed?",
       "options": {
         "A": "They must be painted a color that shows wear",
-        "B": "They must be replaced every 12 months",
+        "B": "They must be installed so they cannot contact the exhaust system or any other source of high temperatures",
         "C": "They must be routed inside the frame rails only",
-        "D": "They must be installed so they cannot contact the exhaust system or any other source of high temperatures"
+        "D": "They must be replaced every 12 months"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "Brake tubing and hose must \"Be installed in a manner that prevents it from contacting the vehicle's exhaust system or any other source of high temperatures.\"",
       "source": {
         "title": "eCFR: 49 CFR 393.45, Brake tubing and hoses; hose assemblies and end fittings (as of Nov 3, 2026)",
@@ -201,11 +201,11 @@
       "question": "For air-braked towing units, between what air pressures on the towing vehicle does 393.43(a) require the tractor protection valve or similar device to operate automatically?",
       "options": {
         "A": "Between 60 psi and 90 psi",
-        "B": "Between 20 psi and 45 psi",
+        "B": "Between 70 psi and 85 psi",
         "C": "Between 100 psi and 120 psi",
-        "D": "Between 70 psi and 85 psi"
+        "D": "Between 20 psi and 45 psi"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "The tractor protection valve or similar device \"shall operate automatically when the air pressure on the towing vehicle is between 138 kPa and 310 kPa (20 psi and 45 psi).\"",
       "source": {
         "title": "eCFR: 49 CFR 393.43, Breakaway and emergency braking (as of Nov 3, 2026)",
@@ -238,12 +238,12 @@
       "topic": "Automatic brake adjusters and ABS",
       "question": "Under 393.53(b), air-braked commercial motor vehicles manufactured on or after which date must meet the automatic brake adjustment requirements of FMVSS No. 121?",
       "options": {
-        "A": "October 20, 1994",
+        "A": "March 1, 2001",
         "B": "March 1, 1975",
         "C": "September 2, 1983",
-        "D": "March 1, 2001"
+        "D": "October 20, 1994"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "\"Each commercial motor vehicle manufactured on or after October 20, 1994, and equipped with an air brake system must meet the automatic brake adjustment system requirements\" of FMVSS No. 121.",
       "source": {
         "title": "eCFR: 49 CFR 393.53, Automatic brake adjusters and brake adjustment indicators (as of Nov 3, 2026)",
@@ -257,12 +257,12 @@
       "topic": "Reservoirs, gauges and warning signals",
       "question": "For air-braked vehicles not subject to FMVSS No. 121 when made, and all vacuum-braked vehicles, what level does 393.50(b) set that a full service brake application with the engine stopped must not deplete the air pressure or vacuum below?",
       "options": {
-        "A": "25 percent of the gauge reading just before the application",
+        "A": "70 percent of the gauge reading just before the application",
         "B": "40 percent of the gauge reading just before the application",
         "C": "50 percent of the gauge reading just before the application",
-        "D": "70 percent of the gauge reading just before the application"
+        "D": "25 percent of the gauge reading just before the application"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "The reserve or reservoir must allow a full service application \"without depleting the air pressure or vacuum below 70 percent of that indicated by the air or vacuum gauge immediately before the brake application is made.\"",
       "source": {
         "title": "eCFR: 49 CFR 393.50, Reservoirs required (as of Nov 3, 2026)",
@@ -295,12 +295,12 @@
       "topic": "Reservoirs, gauges and warning signals",
       "question": "For power units to which FMVSS No. 121 did not apply when made, at what service reservoir air pressure must the warning signal in 393.51(c)(2) give a continuous warning?",
       "options": {
-        "A": "Only when the pressure falls to 0 psi",
+        "A": "At 55 psi and below, or one-half of the compressor governor cutout pressure, whichever is less",
         "B": "At 20 psi and below",
-        "C": "At 55 psi and below, or one-half of the compressor governor cutout pressure, whichever is less",
+        "C": "Only when the pressure falls to 0 psi",
         "D": "At 30 psi and below, or one-quarter of the compressor governor cutout pressure, whichever is less"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "The signal must warn \"whenever the air pressure in the service reservoir system is at 379 kPa (55 psi) and below, or one-half of the compressor governor cutout pressure, whichever is less.\"",
       "source": {
         "title": "eCFR: 49 CFR 393.51, Warning signals, air pressure and vacuum gauges (as of Nov 3, 2026)",
@@ -314,12 +314,12 @@
       "topic": "Reservoirs, gauges and warning signals",
       "question": "On a vehicle with vacuum-activated service brakes, what vacuum level in the supply reservoir does 393.51(d)(2) set for the continuous warning signal?",
       "options": {
-        "A": "Less than 8 inches of mercury",
+        "A": "Less than 2 inches of mercury",
         "B": "Less than 4 inches of mercury",
-        "C": "Less than 2 inches of mercury",
+        "C": "Less than 8 inches of mercury",
         "D": "Less than 1 inch of mercury"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "The warning signal must give a continuous warning \"whenever the vacuum in the vehicle's supply reservoir is less than 203 mm (8 inches) of mercury.\"",
       "source": {
         "title": "eCFR: 49 CFR 393.51, Warning signals, air pressure and vacuum gauges (as of Nov 3, 2026)",
