@@ -52,7 +52,9 @@ export function practiceRoute(cluster: OshaClusterId) {
           ? `Drinking water ${lower(name)}`
           : cluster === "wastewater-operator"
             ? `Wastewater ${lower(name)}`
-            : `${cluster === "cdl" ? "CDL" : cluster === "faa-107" ? "Part 107" : "OSHA"} ${name}`;
+            : cluster === "lead-rrp"
+              ? `Lead RRP ${lower(name)}`
+              : `${cluster === "cdl" ? "CDL" : cluster === "faa-107" ? "Part 107" : "OSHA"} ${name}`;
 
       return (
         <PageShell

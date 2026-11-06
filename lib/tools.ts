@@ -106,4 +106,12 @@ export const TOOLS: Tool[] = [
     summary:
       "See which placards a highway load needs under 49 CFR 172.504 Tables 1 and 2, the 1,001 lb exception for Table 2 materials and the DANGEROUS placard option.",
   },
+  {
+    slug: "rrp-applicability-checker",
+    cluster: "lead-rrp",
+    name: "Lead RRP rule checker",
+    href: "/lead-rrp/tools/rrp-applicability-checker/",
+    summary:
+      "Check whether a job is a renovation covered by EPA's lead RRP rule or minor repair and maintenance, under 40 CFR 745.82 and 745.83.",
+  },
 ];

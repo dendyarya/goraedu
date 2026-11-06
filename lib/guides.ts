@@ -184,6 +184,14 @@ const SNAPSHOTS: Record<string, string[]> = {
     "40cfr503-2026-11-04.txt",
     "40cfr503-2026-11-04.reading-order.txt",
   ],
+  "lead-rrp": [
+    "40cfr745-subpartE-2026-11-04.txt",
+    "40cfr745-subpartE-2026-11-04.reading-order.txt",
+    "40cfr745-subpartL-2026-11-04.txt",
+    "40cfr745-subpartL-2026-11-04.reading-order.txt",
+    "40cfr745-subpartD-2026-11-04.txt",
+    "40cfr745-subpartD-2026-11-04.reading-order.txt",
+  ],
   "epa-609": [
     "40cfr82-subpartB-2026-11-03.txt",
     "40cfr82-subpartG-2026-11-03.txt",
@@ -270,6 +278,9 @@ const PAGE_TITLES = [
   "Hazardous material classes and index to hazard class definitions.",
   "Carriage by Public Highway",
   "Transportation of Hazardous Materials; Driving and Parking Rules",
+  "Lead-Based Paint Hazards",
+  "Residential Property Renovation",
+  "Lead-Based Paint Activities",
 ];
 
 function stripPageChrome(text: string): string {

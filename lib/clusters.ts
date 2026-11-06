@@ -144,6 +144,15 @@ export const FAMILIES: Family[] = [
     icon: "house",
     clusters: [
       {
+        id: "lead-rrp",
+        name: "EPA Lead-Safe Renovator (RRP)",
+        summary:
+          "The federal EPA lead-safe renovation, repair and painting rules for work on older homes and child-occupied facilities.",
+        source: "U.S. EPA, 40 CFR Part 745",
+        status: "available",
+        href: "/lead-rrp/",
+      },
+      {
         id: "plumbing",
         name: "Plumbing licensing",
         summary: "Journeyman and master plumber exam topics.",
