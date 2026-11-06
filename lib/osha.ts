@@ -12,7 +12,8 @@ export type OshaClusterId =
   | "lead-rrp"
   | "osha-crane"
   | "forklift"
-  | "faa-amt";
+  | "faa-amt"
+  | "asbestos";
 
 const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "intro-to-osha", name: "Introduction to OSHA", rule: "29 CFR Parts 1903 and 1904", focus: null },
@@ -324,6 +325,55 @@ const AMT_SETS: OshaSet[] = [
   },
 ];
 
+const ASBESTOS_SETS: OshaSet[] = [
+  {
+    slug: "asbestos-scope-classes",
+    name: "Scope, definitions, classes of work and exposure limits",
+    rule: "29 CFR 1926.1101(a) to (d)",
+    focus: null,
+  },
+  {
+    slug: "asbestos-regulated-areas-monitoring",
+    name: "Regulated areas and exposure monitoring",
+    rule: "29 CFR 1926.1101(e) and (f)",
+    focus: null,
+  },
+  { slug: "asbestos-methods-compliance", name: "Methods of compliance", rule: "29 CFR 1926.1101(g)", focus: null },
+  {
+    slug: "asbestos-respirators-hygiene",
+    name: "Respirators, protective clothing and hygiene facilities",
+    rule: "29 CFR 1926.1101(h) to (j)",
+    focus: null,
+  },
+  {
+    slug: "asbestos-hazard-communication-training",
+    name: "Communication of hazards, training and housekeeping",
+    rule: "29 CFR 1926.1101(k) and (l)",
+    focus: null,
+  },
+  {
+    slug: "asbestos-medical-records-competent-person",
+    name: "Medical surveillance, recordkeeping and the competent person",
+    rule: "29 CFR 1926.1101(m) to (o)",
+    focus: null,
+  },
+  {
+    slug: "asbestos-schools-inspections",
+    name: "Schools (AHERA): responsibilities, inspections, sampling and assessment",
+    rule: "40 CFR 763.80 to 763.88",
+    focus: null,
+  },
+  {
+    slug: "asbestos-schools-response-management",
+    name: "Schools (AHERA): response actions, O&M, management plans and records",
+    rule: "40 CFR 763.90 to 763.95 and 763.99",
+    focus: null,
+  },
+];
+
+export const ASBESTOS_INDEPENDENCE_TEXT =
+  "goraedu is not an accredited asbestos training provider and does not train, accredit or certify anyone; our questions are not a course or accreditation exam. Not affiliated with or endorsed by OSHA, the U.S. Department of Labor, the U.S. EPA or any State.";
+
 export const AMT_INDEPENDENCE_TEXT =
   "goraedu does not train, test or certificate aviation mechanics, and our questions are not an FAA knowledge, oral or practical test. Not affiliated with or endorsed by the FAA or the U.S. Department of Transportation.";
 
@@ -389,6 +439,15 @@ export const OSHA_CLUSTERS: Record<
     sets: WATER_SETS,
     independence: WATER_INDEPENDENCE_TEXT,
     notFrom: "any state operator certification exam, operator manual or prep course",
+  },
+  asbestos: {
+    id: "asbestos",
+    label: "Asbestos",
+    href: "/asbestos/",
+    part: "29 CFR 1926.1101 and 40 CFR Part 763 Subpart E",
+    sets: ASBESTOS_SETS,
+    independence: ASBESTOS_INDEPENDENCE_TEXT,
+    notFrom: "any accredited asbestos course, accreditation exam, training handout or prep material",
   },
   "faa-amt": {
     id: "faa-amt",

@@ -194,6 +194,12 @@ const SNAPSHOTS: Record<string, string[]> = {
     "40cfr745-103-2026-11-04.txt",
     "40cfr745-103-2026-11-04.reading-order.txt",
   ],
+  asbestos: [
+    "29cfr1926-1101-2026-11-04.txt",
+    "29cfr1926-1101-2026-11-04.reading-order.txt",
+    "40cfr763-subpartE-2026-11-04.txt",
+    "40cfr763-subpartE-2026-11-04.reading-order.txt",
+  ],
   "faa-amt": [
     "14cfr65-subpartD-2026-11-04.txt",
     "14cfr65-subpartD-2026-11-04.reading-order.txt",
@@ -325,6 +331,8 @@ const PAGE_TITLES = [
   "Signal person qualifications.",
   "Material handling equipment.",
   "Mechanics",
+  "Asbestos.",
+  "Asbestos-Containing Materials in Schools",
   "Maintenance, Preventive Maintenance, Rebuilding, and Alteration",
 ];
 
@@ -341,6 +349,7 @@ function stripPageChrome(text: string): string {
         /^\d+ CFR [\d.]+ \([A-Z][a-z]+\.? \d+, \d{4}\)$/.test(t) ||
         /^\d+ CFR Appendix-\S+( \S+)?$/.test(t) ||
         /^\d+ CFR [\d.]+ “[^”]+”$/.test(t) ||
+        /^\d+ CFR [\d.]+(\([^)]*\))+ “[^”]+”$/.test(t) ||
         /^\d+ CFR Part \d+( Subpart [A-Z])? \([A-Z][a-z]+\.? \d+, \d{4}\)$/.test(t) ||
         /^page \d+ of \d+$/.test(t) ||
         /\(enhanced display\)(\s+page \d+ of \d+)?$/.test(t) ||
