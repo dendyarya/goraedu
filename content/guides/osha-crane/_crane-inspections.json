@@ -4,11 +4,11 @@
   "href": "/osha-crane/crane-inspections/study-guide/",
   "title": "OSHA crane inspections study guide",
   "description": "OSHA crane inspection study guide, 29 CFR 1926.1412: what triggers each inspection, competent vs qualified person, deficiencies, records.",
-  "intro": "Section 1926.1412 of OSHA's construction crane and derrick standard (29 CFR 1926 Subpart CC) sets the inspections equipment must receive: after modifications, after repairs or adjustments, after assembly, each shift, each month, at least every 12 months, after severe service and after 3 months or more idle. This guide sets out what the regulation text states on what triggers each inspection, whether a competent person or a qualified person (both defined in 1926.1401) performs it, what happens when a deficiency is found, and what must be documented and for how long. goraedu is an independent study site and does not certify operators. Your State may run its own OSHA-approved plan with its own rules, so check them too. Every point links to the regulation and quotes its exact words.",
+  "intro": "Section 1926.1412 of OSHA's construction crane and derrick standard (29 CFR 1926 Subpart CC) sets the inspections equipment must receive: after modifications, after repairs or adjustments, after assembly, each shift, each month the equipment is in service, at least every 12 months, after severe service and after 3 months or more idle. This guide sets out what the regulation text states on what triggers each inspection, whether a competent person or a qualified person (both defined in 1926.1401) performs it, what happens when a deficiency is found, and what must be documented and for how long. goraedu is an independent study site and does not certify operators. Your State may run its own OSHA-approved plan with its own rules, so check them too. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "competent-qualified",
-      "name": "Competent and qualified persons",
+      "name": "Who inspects and key terms",
       "points": [
         {
           "text": "A competent person is one who is capable of identifying existing and predictable hazards in the surroundings or working conditions which are unsanitary, hazardous, or dangerous to employees, and who has authorization to take prompt corrective measures to eliminate them.",
@@ -65,7 +65,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "Other terms in 1926.1401 that 1926.1412 does not use, and the list of operational aids in § 1926.1416, are not covered here."
+      "notCovered": "Other definitions in 1926.1401 are not covered here."
     },
     {
       "id": "modified-repaired",
@@ -126,8 +126,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Where manufacturer equipment criteria are unavailable or inapplicable, the qualified person must determine if a registered professional engineer (RPE) is needed to develop criteria for the repair/adjustment.",
-          "quote": "Determine if a registered professional engineer (RPE) is needed to develop criteria for the repair/adjustment.",
+          "text": "Where manufacturer equipment criteria are unavailable or inapplicable, the qualified person must take the two steps that follow.",
+          "quote": "Where manufacturer equipment criteria are unavailable or inapplicable, the qualified person must:",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
@@ -135,8 +135,17 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "If an RPE is not needed, the employer must ensure that the qualified person develops the criteria; if an RPE is needed, the employer must ensure an RPE develops them. The qualified person then determines if the repair/adjustment meets those criteria.",
-          "quote": "If an RPE is not needed, the employer must ensure that the criteria are developed by the qualified person. If an RPE is needed, the employer must ensure that they are developed by an RPE. (B) Determine if the repair/adjustment meets the criteria developed in accordance with paragraph (b)(1)(ii)(A) of this section.",
+          "text": "First, determine if a registered professional engineer (RPE) is needed to develop criteria for the repair/adjustment. If an RPE is not needed, the employer must ensure that the criteria are developed by the qualified person; if an RPE is needed, the employer must ensure that they are developed by an RPE.",
+          "quote": "Determine if a registered professional engineer (RPE) is needed to develop criteria for the repair/adjustment. If an RPE is not needed, the employer must ensure that the criteria are developed by the qualified person. If an RPE is needed, the employer must ensure that they are developed by an RPE.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Second, determine if the repair/adjustment meets the criteria developed in that first step.",
+          "quote": "Determine if the repair/adjustment meets the criteria developed in accordance with paragraph (b)(1)(ii)(A) of this section.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
@@ -178,8 +187,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Where manufacturer equipment criteria are unavailable, the qualified person must determine if a registered professional engineer (RPE) familiar with the type of equipment involved is needed to develop criteria for the equipment configuration.",
-          "quote": "Determine if a registered professional engineer (RPE) familiar with the type of equipment involved is needed to develop criteria for the equipment configuration.",
+          "text": "Where manufacturer equipment criteria are unavailable, a qualified person must first determine if a registered professional engineer (RPE) familiar with the type of equipment involved is needed to develop criteria for the equipment configuration.",
+          "quote": "Where manufacturer equipment criteria are unavailable, a qualified person must: (i) Determine if a registered professional engineer (RPE) familiar with the type of equipment involved is needed to develop criteria for the equipment configuration.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
@@ -196,7 +205,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The qualified person must then determine if the equipment meets the criteria so developed.",
+          "text": "Second, determine if the equipment meets the criteria developed in that first step.",
           "quote": "Determine if the equipment meets the criteria developed in accordance with paragraph (c)(2)(i) of this section.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
@@ -256,8 +265,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "At a minimum, the shift inspection includes control mechanisms for maladjustments interfering with proper operation.",
-          "quote": "Control mechanisms for maladjustments interfering with proper operation.",
+          "text": "At a minimum, the shift inspection must include all of the listed items, starting with control mechanisms for maladjustments interfering with proper operation.",
+          "quote": "At a minimum the inspection must include all of the following: (i) Control mechanisms for maladjustments interfering with proper operation.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
@@ -265,7 +274,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "It includes ground conditions around the equipment for proper support, including ground settling under and around outriggers/stabilizers and supporting foundations, ground water accumulation, or similar conditions.",
+          "text": "The listed items include ground conditions around the equipment for proper support, including ground settling under and around outriggers/stabilizers and supporting foundations, ground water accumulation, or similar conditions.",
           "quote": "Ground conditions around the equipment for proper support, including ground settling under and around outriggers/stabilizers and supporting foundations, ground water accumulation, or similar conditions.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
@@ -283,7 +292,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The equipment is checked for level position within the manufacturer's recommended tolerances, both before each shift and after each move and setup.",
+          "text": "They include the equipment for level position within the tolerances specified by the equipment manufacturer's recommendations, both before each shift and after each move and setup.",
           "quote": "The equipment for level position within the tolerances specified by the equipment manufacturer's recommendations, both before each shift and after each move and setup.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
@@ -292,8 +301,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "If a deficiency in items (d)(1)(i) through (xiii) is identified, the competent person must make an immediate determination as to whether it constitutes a safety hazard.",
-          "quote": "is identified, an immediate determination must be made by the competent person as to whether the deficiency constitutes a safety hazard.",
+          "text": "If a deficiency in items (d)(1)(i) through (xiii) (or in additional inspection items required to be checked for specific types of equipment in accordance with other sections of the standard) is identified, the competent person must make an immediate determination as to whether it constitutes a safety hazard.",
+          "quote": "If any deficiency in paragraphs (d)(1)(i) through (xiii) of this section (or in additional inspection items required to be checked for specific types of equipment in accordance with other sections of this standard) is identified, an immediate determination must be made by the competent person as to whether the deficiency constitutes a safety hazard.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
@@ -310,8 +319,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "If a deficiency in safety devices/operational aids is identified, the action specified in §§ 1926.1415 and 1926.1416 must be taken prior to using the equipment.",
-          "quote": "the action specified in §§ 1926.1415 and 1926.1416 must be taken prior to using the equipment.",
+          "text": "If a deficiency in item (d)(1)(xiv), safety devices/operational aids, is identified, the action specified in §§ 1926.1415 and 1926.1416 must be taken prior to using the equipment.",
+          "quote": "If any deficiency in paragraph (d)(1)(xiv) of this section (safety devices/operational aids) is identified, the action specified in §§ 1926.1415 and 1926.1416 must be taken prior to using the equipment.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
@@ -372,7 +381,7 @@
         },
         {
           "text": "In addition, at least every 12 months a qualified person must inspect the equipment for the items listed in (f)(2); disassembly is required, as necessary, to complete the inspection.",
-          "quote": "In addition, at least every 12 months, the equipment must be inspected by a qualified person. Disassembly is required, as necessary, to complete the inspection.",
+          "quote": "In addition, at least every 12 months, the equipment must be inspected by a qualified person. Disassembly is required, as necessary, to complete the inspection. The equipment must be inspected for all of the following:",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
@@ -425,7 +434,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A deficiency that is a safety hazard means the equipment is taken out of service until it has been corrected, except when temporary alternative measures are implemented as specified in § 1926.1416(d) or § 1926.1435(e).",
+          "text": "If the qualified person determines that a deficiency is a safety hazard, the equipment must be taken out of service until it has been corrected, except when temporary alternative measures are implemented as specified in § 1926.1416(d) or § 1926.1435(e).",
           "quote": "If the qualified person determines that a deficiency is a safety hazard, the equipment must be taken out of service until it has been corrected, except when temporary alternative measures are implemented as specified in § 1926.1416(d) or § 1926.1435(e).",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
@@ -434,8 +443,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A deficiency that needs to be monitored must, by the employer, be checked in the monthly inspections.",
-          "quote": "the employer must ensure that the deficiency is checked in the monthly inspections.",
+          "text": "If the qualified person determines that, though not presently a safety hazard, the deficiency needs to be monitored, the employer must ensure that it is checked in the monthly inspections.",
+          "quote": "If the qualified person determines that, though not presently a safety hazard, the deficiency needs to be monitored, the employer must ensure that the deficiency is checked in the monthly inspections.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
@@ -468,7 +477,7 @@
       "name": "Severe service and idle equipment",
       "points": [
         {
-          "text": "Where the severity of use/conditions is such that there is a reasonable probability of damage or excessive wear (such as loading that may have exceeded rated capacity, shock loading that may have exceeded rated capacity, or prolonged exposure to a corrosive atmosphere), the employer must stop using the equipment and a qualified person must take the steps that follow.",
+          "text": "Where the severity of use/conditions is such that there is a reasonable probability of damage or excessive wear (such as loading that may have exceeded rated capacity, shock loading that may have exceeded rated capacity, prolonged exposure to a corrosive atmosphere), the employer must stop using the equipment and a qualified person must take the steps that follow.",
           "quote": "Where the severity of use/conditions is such that there is a reasonable probability of damage or excessive wear (such as loading that may have exceeded rated capacity, shock loading that may have exceeded rated capacity, prolonged exposure to a corrosive atmosphere), the employer must stop using the equipment and a qualified person must:",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
@@ -519,8 +528,8 @@
       "name": "Manufacturer procedures and documents",
       "points": [
         {
-          "text": "Any part of a manufacturer's procedures regarding inspections that relates to safe operation and is more comprehensive or has a more frequent schedule than 1926.1412 must be followed.",
-          "quote": "that is more comprehensive or has a more frequent schedule of inspection than the requirements of this section must be followed.",
+          "text": "Any part of a manufacturer's procedures regarding inspections that relate to safe operation (such as to a safety device or operational aid, critical part of a control system, power plant, braking system, load-sustaining structural components, load hook, or in-use operating mechanism) that is more comprehensive or has a more frequent schedule of inspection than 1926.1412 must be followed.",
+          "quote": "Any part of a manufacturer's procedures regarding inspections that relate to safe operation (such as to a safety device or operational aid, critical part of a control system, power plant, braking system, load-sustaining structural components, load hook, or in-use operating mechanism) that is more comprehensive or has a more frequent schedule of inspection than the requirements of this section must be followed.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
