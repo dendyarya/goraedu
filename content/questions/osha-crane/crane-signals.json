@@ -172,9 +172,9 @@
       "topic": "Suitability and keeping the signal link",
       "question": "Under 1926.1419(e), what must be appropriate for the site conditions?",
       "options": {
-        "A": "Only the signal person's high-visibility clothing",
-        "B": "Only the radio frequency used",
-        "C": "Only the hand-signal chart posted in the cab",
+        "A": "Only the means of transmitting the signals to the operator, such as radio",
+        "B": "Only the signals used, such as hand signals",
+        "C": "Only the position where the signal person stands",
         "D": "Both the signals used and the means of transmitting the signals to the operator"
       },
       "answer": "D",
@@ -224,29 +224,29 @@
     {
       "id": "ks-013",
       "topic": "Suitability and keeping the signal link",
-      "question": "Where the employer chooses a dedicated spotter as the measure under 1926.1408(b)(4)(ii), what equipment must the spotter use where necessary?",
+      "question": "1926.1419(e) introduces the list \"direct line of sight, video, radio, etc.\" with the words \"such as\". Under the definition of \"such as\" in 1926.1401, how is that list to be read?",
       "options": {
-        "A": "Equipment that enables the dedicated spotter to communicate directly with the operator",
-        "B": "A video camera mounted on the boom tip",
-        "C": "An air horn to warn other crews on the site",
-        "D": "A range control warning device set to stop movement"
+        "A": "As examples, because \"such as\" means \"such as, but not limited to\"",
+        "B": "As the complete list of the means that may be used",
+        "C": "As an order of preference, from most to least preferred",
+        "D": "As means that may be used only where a dedicated channel has been assigned"
       },
       "answer": "A",
-      "explanation": "The dedicated spotter must, \"Where necessary, use equipment that enables the dedicated spotter to communicate directly with the operator.\"",
+      "explanation": "1926.1401 states: \"Such as means “such as, but not limited to.”\" 1926.1419(e) refers to \"means of transmitting the signals to the operator (such as direct line of sight, video, radio, etc.)\".",
       "source": {
-        "title": "eCFR: 29 CFR 1926.1408, Power line safety (up to 350 kV)—equipment operations (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1408"
+        "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
       },
       "checked": "2026-11-06"
     },
     {
       "id": "ks-014",
       "topic": "Safety problems and stop signals",
-      "question": "Under 1926.1419(g), what must the operator do on becoming aware of a safety problem and needing to communicate with the signal person?",
+      "question": "1926.1419(g) covers an operator who becomes aware of a safety problem in one particular situation. When that situation arises, what must the operator do?",
       "options": {
-        "A": "Finish the current lift, then radio the signal person",
-        "B": "Report the problem to the competent person in writing",
-        "C": "Lower the load at full speed",
+        "A": "Finish the current lift, then stop",
+        "B": "Keep operating until a competent person orders a stop",
+        "C": "Lower the load at full speed, then stop",
         "D": "Safely stop operations"
       },
       "answer": "D",
@@ -264,7 +264,7 @@
       "options": {
         "A": "When the competent person signs a restart form",
         "B": "When the operator and signal person agree that the problem has been resolved",
-        "C": "When the lift director orders a restart",
+        "C": "When the signal person alone decides that the problem has been resolved",
         "D": "When the employer's safety manager arrives"
       },
       "answer": "B",
@@ -278,12 +278,12 @@
     {
       "id": "ks-016",
       "topic": "Safety problems and stop signals",
-      "question": "During a lift, the operator becomes aware of a safety problem. Under 1926.1419(g), what further circumstance makes the operator's duty to safely stop operations apply?",
+      "question": "An operator becomes aware of a safety problem during a lift. Under 1926.1419(g), which further circumstance brings in the operator's duty under that paragraph?",
       "options": {
         "A": "The load is more than half of the equipment's rated capacity",
-        "B": "The lift director has left the site",
+        "B": "The signal person is giving voice signals rather than hand signals",
         "C": "The operator needs to communicate with the signal person",
-        "D": "The signal person is using radio rather than hand signals"
+        "D": "The signal person works for a different employer than the operator"
       },
       "answer": "C",
       "explanation": "1926.1419(g) reads: \"If the operator becomes aware of a safety problem and needs to communicate with the signal person, the operator must safely stop operations.\"",
@@ -296,18 +296,18 @@
     {
       "id": "ks-017",
       "topic": "Who signals, direction and multiple cranes",
-      "question": "1926.1419(m) sets rules for a signal person in communication with more than one \"crane/derrick\". Which equipment does 1926.1401 say the term \"crane/derrick\" includes?",
+      "question": "1926.1419(m) requires a system for identifying which crane/derrick each signal is for. In which situation does that requirement apply?",
       "options": {
-        "A": "All equipment covered by subpart CC",
-        "B": "Only tower cranes and derricks",
-        "C": "Only mobile cranes with lattice booms",
-        "D": "Only equipment with a rated capacity over 2,000 pounds"
+        "A": "Where a signal person is in communication with more than one crane/derrick",
+        "B": "Wherever two or more cranes work on the same site",
+        "C": "Wherever the work zones of two cranes overlap",
+        "D": "Wherever more than one signal person works on the site"
       },
       "answer": "A",
-      "explanation": "1926.1401 states: \"Crane/derrick includes all equipment covered by this subpart.\" 1926.1419(m) uses the term where \"a signal person(s) is in communication with more than one crane/derrick\".",
+      "explanation": "1926.1419(m) applies \"Where a signal person(s) is in communication with more than one crane/derrick\"; in that case \"a system must be used for identifying the crane/derrick each signal is for\".",
       "source": {
-        "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
       },
       "checked": "2026-11-06"
     },
