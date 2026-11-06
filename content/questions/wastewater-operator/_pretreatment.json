@@ -1,0 +1,389 @@
+{
+  "cluster": "wastewater-operator",
+  "slug": "pretreatment",
+  "title": "Wastewater industrial pretreatment practice questions",
+  "description": "Free industrial pretreatment practice questions on 40 CFR Part 403. Every answer is explained and linked to the section it comes from.",
+  "href": "/wastewater-operator/pretreatment/practice-test/",
+  "questions": [
+    {
+      "id": "pt-001",
+      "topic": "Scope and key definitions",
+      "question": "Under 403.3(f), who is the Control Authority when a POTW's Pretreatment Program Submission has not been approved?",
+      "options": {
+        "A": "The POTW",
+        "B": "The Approval Authority",
+        "C": "The Industrial User with the largest discharge",
+        "D": "The State hazardous waste authority"
+      },
+      "answer": "B",
+      "explanation": "The Control Authority is \"The POTW if the POTW's Pretreatment Program Submission has been approved in accordance with the requirements of § 403.11\" or \"The Approval Authority if the Submission has not been approved.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.3, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The Approval Authority if the Submission has not been approved."
+    },
+    {
+      "id": "pt-002",
+      "topic": "Scope and key definitions",
+      "question": "Under 403.3(k), what must both be true of a Discharge for it to be Interference?",
+      "options": {
+        "A": "It exits the POTW into waters of the United States and contains any detectable pollutant",
+        "B": "It is discharged by a Significant Industrial User and exceeds 25,000 gallons per day",
+        "C": "It is trucked or hauled to the POTW and contains a hazardous waste",
+        "D": "It inhibits or disrupts the POTW (its treatment processes or operations, or its sludge processes, use or disposal) and therefore causes a violation of the POTW's NPDES permit or prevents sewage sludge use or disposal in compliance with the listed laws"
+      },
+      "answer": "D",
+      "explanation": "Interference is a Discharge that \"both: (1) Inhibits or disrupts the POTW, its treatment processes or operations, or its sludge processes, use or disposal; and (2) Therefore is a cause of a violation of any requirement of the POTW's NPDES permit\" or of the prevention of compliant sewage sludge use or disposal.",
+      "source": {
+        "title": "eCFR: 40 CFR 403.3, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Inhibits or disrupts the POTW, its treatment processes or operations, or its sludge processes, use or disposal; and"
+    },
+    {
+      "id": "pt-003",
+      "topic": "Scope and key definitions",
+      "question": "Besides the 25,000 gallons per day process wastewater criterion and designation by the Control Authority, which other criterion in 403.3(v)(1)(ii) makes an Industrial User a Significant Industrial User?",
+      "options": {
+        "A": "It contributes a process wastestream which makes up 5 percent or more of the average dry weather hydraulic or organic capacity of the POTW Treatment plant",
+        "B": "It discharges any amount of sanitary wastewater to the POTW",
+        "C": "It holds any environmental control permit for the facility",
+        "D": "It discharges by truck at a point designated by the POTW"
+      },
+      "answer": "A",
+      "explanation": "Any other Industrial User is significant if it \"contributes a process wastestream which makes up 5 percent or more of the average dry weather hydraulic or organic capacity of the POTW Treatment plant\", among the other listed options.",
+      "source": {
+        "title": "eCFR: 40 CFR 403.3, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "contributes a process wastestream which makes up 5 percent or more of the average dry weather hydraulic or organic capacity of the POTW Treatment plant"
+    },
+    {
+      "id": "pt-004",
+      "topic": "Prohibited discharges and local limits",
+      "question": "To whom do the general prohibitions in 403.5(a)(1) and the specific prohibitions in 403.5(b) apply?",
+      "options": {
+        "A": "Only Significant Industrial Users",
+        "B": "Only Industrial Users subject to categorical Pretreatment Standards",
+        "C": "Each User introducing pollutants into a POTW, whether or not the User is subject to other National Pretreatment Standards or any national, State, or local Pretreatment Requirements",
+        "D": "Only New Sources that began construction after proposed standards were published"
+      },
+      "answer": "C",
+      "explanation": "The prohibitions \"apply to each User introducing pollutants into a POTW whether or not the User is subject to other National Pretreatment Standards or any national, State, or local Pretreatment Requirements.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.5, National pretreatment standards: Prohibited discharges (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.5"
+      },
+      "checked": "2026-11-06",
+      "evidence": "apply to each User introducing pollutants into a POTW whether or not the User is subject to other National Pretreatment Standards or any national, State, or local Pretreatment Requirements."
+    },
+    {
+      "id": "pt-005",
+      "topic": "Prohibited discharges and local limits",
+      "question": "Under 403.5(b)(5), who may approve alternate temperature limits instead of the 40 °C (104 °F) limit at the POTW Treatment Plant, and on whose request?",
+      "options": {
+        "A": "The Industrial User, upon its own determination",
+        "B": "The POTW, upon request of the Industrial User",
+        "C": "The Approval Authority, upon request of the POTW",
+        "D": "Any member of the public, upon petition to the POTW"
+      },
+      "answer": "C",
+      "explanation": "Heat is prohibited so that the temperature at the POTW Treatment Plant does not exceed 40 °C (104 °F) \"unless the Approval Authority, upon request of the POTW, approves alternate temperature limits.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.5, National pretreatment standards: Prohibited discharges (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.5"
+      },
+      "checked": "2026-11-06",
+      "evidence": "unless the Approval Authority, upon request of the POTW, approves alternate temperature limits."
+    },
+    {
+      "id": "pt-006",
+      "topic": "Prohibited discharges and local limits",
+      "question": "Under 403.5(c)(2), when must a POTW that is not developing a POTW Pretreatment Program develop and enforce specific effluent limits?",
+      "options": {
+        "A": "In cases where pollutants contributed by User(s) result in Interference or Pass-Through, and such violation is likely to recur",
+        "B": "Whenever any new Industrial User connects to the sewer",
+        "C": "Only when an Industrial User asks the POTW to set limits",
+        "D": "Only when the POTW's design flow reaches 5 mgd"
+      },
+      "answer": "A",
+      "explanation": "\"All other POTW's shall, in cases where pollutants contributed by User(s) result in Interference or Pass-Through, and such violation is likely to recur, develop and enforce specific effluent limits\".",
+      "source": {
+        "title": "eCFR: 40 CFR 403.5, National pretreatment standards: Prohibited discharges (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.5"
+      },
+      "checked": "2026-11-06",
+      "evidence": "All other POTW's shall, in cases where pollutants contributed by User(s) result in Interference or Pass-Through, and such violation is likely to recur, develop and enforce specific effluent limits"
+    },
+    {
+      "id": "pt-007",
+      "topic": "Prohibited discharges and local limits",
+      "question": "How does 403.5(c)(4) treat Best Management Practices that a POTW develops to implement its specific limits?",
+      "options": {
+        "A": "They are voluntary guidance that cannot be enforced",
+        "B": "They replace the general prohibitions in 403.5(a)(1)",
+        "C": "They apply only to Users that are not subject to any categorical standard",
+        "D": "They are considered local limits and Pretreatment Standards for the purposes of Part 403 and section 307(d) of the Act"
+      },
+      "answer": "D",
+      "explanation": "\"Such BMPs shall be considered local limits and Pretreatment Standards for the purposes of this part and section 307(d) of the Act.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.5, National pretreatment standards: Prohibited discharges (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.5"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Such BMPs shall be considered local limits and Pretreatment Standards for the purposes of this part and section 307(d) of the Act."
+    },
+    {
+      "id": "pt-008",
+      "topic": "Categorical Pretreatment Standards",
+      "question": "What does 403.6(b) require New Sources to do with all pollution control equipment required to meet applicable Pretreatment Standards?",
+      "options": {
+        "A": "Install it within 3 years of the date the Standard is effective",
+        "B": "Install it, have it in operating condition, and \"start-up\" it before beginning to Discharge",
+        "C": "Install it only after the Control Authority finds a violation",
+        "D": "Install it within 180 days after beginning to Discharge"
+      },
+      "answer": "B",
+      "explanation": "\"New Sources shall install and have in operating condition, and shall “start-up” all pollution control equipment required to meet applicable Pretreatment Standards before beginning to Discharge.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.6, National pretreatment standards: Categorical standards (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.6"
+      },
+      "checked": "2026-11-06",
+      "evidence": "New Sources shall install and have in operating condition, and shall “start-up” all pollution control equipment required to meet applicable Pretreatment Standards before beginning to Discharge."
+    },
+    {
+      "id": "pt-009",
+      "topic": "Categorical Pretreatment Standards",
+      "question": "Under 403.6(d), what may no Industrial User ever do, except where expressly authorized by an applicable Pretreatment Standard or Requirement?",
+      "options": {
+        "A": "Increase the use of process water, or in any other way attempt to dilute a Discharge, as a partial or complete substitute for adequate treatment",
+        "B": "Monitor the combined wastestream instead of the segregated process wastestream",
+        "C": "Request a written category determination",
+        "D": "Ask the Control Authority to convert concentration limits to mass limits"
+      },
+      "answer": "A",
+      "explanation": "\"no Industrial User shall ever increase the use of process water, or in any other way attempt to dilute a Discharge as a partial or complete substitute for adequate treatment to achieve compliance with a Pretreatment Standard or Requirement.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.6, National pretreatment standards: Categorical standards (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.6"
+      },
+      "checked": "2026-11-06",
+      "evidence": "no Industrial User shall ever increase the use of process water, or in any other way attempt to dilute a Discharge as a partial or complete substitute for adequate treatment to achieve compliance with a Pretreatment Standard or Requirement."
+    },
+    {
+      "id": "pt-010",
+      "topic": "Categorical Pretreatment Standards",
+      "question": "Under 403.6(e)(4), when may an Industrial User change the monitoring points it uses to determine compliance?",
+      "options": {
+        "A": "At any time, as long as it notes the change in its next periodic report",
+        "B": "After giving the Regional Administrator 10 days' notice",
+        "C": "Only after receiving approval from the Control Authority",
+        "D": "At the start of each new control mechanism term without approval"
+      },
+      "answer": "C",
+      "explanation": "\"The Industrial User may change monitoring points only after receiving approval from the Control Authority.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.6, National pretreatment standards: Categorical standards (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.6"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The Industrial User may change monitoring points only after receiving approval from the Control Authority."
+    },
+    {
+      "id": "pt-011",
+      "topic": "POTW pretreatment programs",
+      "question": "Under 403.8(a), who may require a POTW with a design flow of 5 mgd or less to develop a POTW Pretreatment Program?",
+      "options": {
+        "A": "Any Significant Industrial User discharging to the POTW",
+        "B": "The POTW's largest Industrial User, by petition",
+        "C": "The State hazardous waste authority, on any finding",
+        "D": "The Regional Administrator or Director, if he or she finds that the nature or volume of the industrial influent, treatment process upsets, violations of POTW effluent limitations, contamination of municipal sludge, or other circumstances warrant"
+      },
+      "answer": "D",
+      "explanation": "\"The Regional Administrator or Director may require that a POTW with a design flow of 5 mgd or less develop a POTW Pretreatment Program if he or she finds that\" the listed circumstances \"warrant in order to prevent Interference with the POTW or Pass Through.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.8, Pretreatment Program Requirements: Development and Implementation by POTW (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The Regional Administrator or Director may require that a POTW with a design flow of 5 mgd or less develop a POTW Pretreatment Program if he or she finds that the nature or volume of the industrial influent, treatment process upsets, violations of POTW effluent limitations, contamination of municipal sludge, or other circumstances warrant in order to prevent Interference with the POTW or Pass Through."
+    },
+    {
+      "id": "pt-012",
+      "topic": "POTW pretreatment programs",
+      "question": "Under 403.8(f)(2)(vi), what are Significant Industrial Users required to do about changes at their facility affecting the potential for a Slug Discharge?",
+      "options": {
+        "A": "Mention them in the next June or December periodic report",
+        "B": "Notify the POTW immediately",
+        "C": "Wait for the POTW's next annual inspection",
+        "D": "Notify the Regional Administrator within 90 days"
+      },
+      "answer": "B",
+      "explanation": "\"Significant Industrial Users are required to notify the POTW immediately of any changes at its facility affecting potential for a Slug Discharge.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.8, Pretreatment Program Requirements: Development and Implementation by POTW (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Significant Industrial Users are required to notify the POTW immediately of any changes at its facility affecting potential for a Slug Discharge."
+    },
+    {
+      "id": "pt-013",
+      "topic": "POTW pretreatment programs",
+      "question": "What must a POTW's procedures include under 403.8(f)(2)(viii) about Industrial Users in significant noncompliance?",
+      "options": {
+        "A": "A confidential list sent only to the Industrial Users themselves",
+        "B": "A notice mailed to every sewer customer each month",
+        "C": "A notice posted at the POTW Treatment Plant gate only",
+        "D": "Provision for at least annual public notification in a newspaper(s) of general circulation of Industrial Users which, at any time during the previous 12 months, were in significant noncompliance"
+      },
+      "answer": "D",
+      "explanation": "The procedures \"shall include provision for at least annual public notification in a newspaper(s) of general circulation\" of Industrial Users \"which, at any time during the previous 12 months, were in significant noncompliance with applicable Pretreatment requirements.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.8, Pretreatment Program Requirements: Development and Implementation by POTW (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "These procedures shall include provision for at least annual public notification in a newspaper(s) of general circulation that provides meaningful public notice within the jurisdiction(s) served by the POTW of Industrial Users which, at any time during the previous 12 months, were in significant noncompliance with applicable Pretreatment requirements."
+    },
+    {
+      "id": "pt-014",
+      "topic": "Industrial User reports and notices",
+      "question": "Under 403.12(g)(2), if sampling performed by an Industrial User indicates a violation, what must the User do besides notifying the Control Authority within 24 hours of becoming aware of it (unless resampling is not required under (g)(2)(i) or (ii))?",
+      "options": {
+        "A": "Repeat the sampling and analysis and submit the results of the repeat analysis to the Control Authority within 30 days after becoming aware of the violation",
+        "B": "Stop all discharge to the POTW until the Control Authority inspects",
+        "C": "Publish a notice of the violation in a local newspaper",
+        "D": "Submit a bypass notice to the Approval Authority within 10 days"
+      },
+      "answer": "A",
+      "explanation": "\"The User shall also repeat the sampling and analysis and submit the results of the repeat analysis to the Control Authority within 30 days after becoming aware of the violation.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.12, Reporting requirements for POTW's and industrial users (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.12"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The User shall also repeat the sampling and analysis and submit the results of the repeat analysis to the Control Authority within 30 days after becoming aware of the violation."
+    },
+    {
+      "id": "pt-015",
+      "topic": "Industrial User reports and notices",
+      "question": "Under 403.12(f), which Industrial Users must notify the POTW immediately of all discharges that could cause problems to the POTW, including any slug loadings?",
+      "options": {
+        "A": "Only Significant Industrial Users",
+        "B": "Only Industrial Users subject to categorical Pretreatment Standards",
+        "C": "All categorical and non-categorical Industrial Users",
+        "D": "Only Industrial Users with a slug control plan"
+      },
+      "answer": "C",
+      "explanation": "\"All categorical and non-categorical Industrial Users shall notify the POTW immediately of all discharges that could cause problems to the POTW, including any slug loadings\".",
+      "source": {
+        "title": "eCFR: 40 CFR 403.12, Reporting requirements for POTW's and industrial users (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.12"
+      },
+      "checked": "2026-11-06",
+      "evidence": "All categorical and non-categorical Industrial Users shall notify the POTW immediately of all discharges that could cause problems to the POTW, including any slug loadings"
+    },
+    {
+      "id": "pt-016",
+      "topic": "Industrial User reports and notices",
+      "question": "Under 403.12(j), whom must all Industrial Users promptly notify in advance of any substantial change in the volume or character of pollutants in their Discharge?",
+      "options": {
+        "A": "Only the EPA Regional Administrator",
+        "B": "The Control Authority (and the POTW if the POTW is not the Control Authority)",
+        "C": "Only the State hazardous waste authorities",
+        "D": "The public, through a newspaper notice"
+      },
+      "answer": "B",
+      "explanation": "\"All Industrial Users shall promptly notify the Control Authority (and the POTW if the POTW is not the Control Authority) in advance of any substantial change in the volume or character of pollutants in their Discharge\".",
+      "source": {
+        "title": "eCFR: 40 CFR 403.12, Reporting requirements for POTW's and industrial users (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.12"
+      },
+      "checked": "2026-11-06",
+      "evidence": "All Industrial Users shall promptly notify the Control Authority (and the POTW if the POTW is not the Control Authority) in advance of any substantial change in the volume or character of pollutants in their Discharge"
+    },
+    {
+      "id": "pt-017",
+      "topic": "Industrial User reports and notices",
+      "question": "For which pollutants does 403.12(g)(3) require grab samples in the reports under 403.12(b), (d), (e) and (h)?",
+      "options": {
+        "A": "pH, cyanide, total phenols, oil and grease, sulfide, and volatile organic compounds",
+        "B": "All pollutants limited by the applicable Pretreatment Standard",
+        "C": "Only metals regulated by a categorical Pretreatment Standard",
+        "D": "Only BOD and total suspended solids"
+      },
+      "answer": "A",
+      "explanation": "\"Grab samples must be used for pH, cyanide, total phenols, oil and grease, sulfide, and volatile organic compounds.\" For all other pollutants, 24-hour flow-proportional composite samples are required unless the Control Authority authorizes otherwise.",
+      "source": {
+        "title": "eCFR: 40 CFR 403.12, Reporting requirements for POTW's and industrial users (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.12"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Grab samples must be used for pH, cyanide, total phenols, oil and grease, sulfide, and volatile organic compounds."
+    },
+    {
+      "id": "pt-018",
+      "topic": "Signatures, records and POTW reports",
+      "question": "When does 403.12(o)(2) say the record retention period for Industrial Users and POTWs shall be extended?",
+      "options": {
+        "A": "Whenever the Industrial User changes owners",
+        "B": "Whenever the POTW's NPDES permit expires",
+        "C": "Only when the Industrial User requests it",
+        "D": "During the course of any unresolved litigation regarding the Industrial User or POTW, or when requested by the Director or the Regional Administrator"
+      },
+      "answer": "D",
+      "explanation": "\"This period of retention shall be extended during the course of any unresolved litigation regarding the Industrial User or POTW or when requested by the Director or the Regional Administrator.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.12, Reporting requirements for POTW's and industrial users (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.12"
+      },
+      "checked": "2026-11-06",
+      "evidence": "This period of retention shall be extended during the course of any unresolved litigation regarding the Industrial User or POTW or when requested by the Director or the Regional Administrator."
+    },
+    {
+      "id": "pt-019",
+      "topic": "Upset and bypass",
+      "question": "Under 403.16(c)(3), to whom must an Industrial User that wishes to establish the affirmative defense of Upset have submitted the required information about the Upset?",
+      "options": {
+        "A": "Only the EPA Regional Administrator",
+        "B": "Only the State hazardous waste authorities",
+        "C": "The POTW and Control Authority",
+        "D": "The public, through a newspaper notice"
+      },
+      "answer": "C",
+      "explanation": "The Industrial User must show it \"has submitted the following information to the POTW and Control Authority within 24 hours of becoming aware of the Upset\", with a written submission within five days if given orally.",
+      "source": {
+        "title": "eCFR: 40 CFR 403.16, Upset provision (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.16"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The Industrial User has submitted the following information to the POTW and Control Authority within 24 hours of becoming aware of the Upset"
+    },
+    {
+      "id": "pt-020",
+      "topic": "Upset and bypass",
+      "question": "Under 403.17(b), when may an Industrial User allow a bypass that does not cause Pretreatment Standards or Requirements to be violated?",
+      "options": {
+        "A": "At any time, for any reason",
+        "B": "Only if it also is for essential maintenance to assure efficient operation",
+        "C": "Only during wet weather flows",
+        "D": "Only after the Approval Authority holds a public hearing"
+      },
+      "answer": "B",
+      "explanation": "\"An Industrial User may allow any bypass to occur which does not cause Pretreatment Standards or Requirements to be violated, but only if it also is for essential maintenance to assure efficient operation.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 403.17, Bypass (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.17"
+      },
+      "checked": "2026-11-06",
+      "evidence": "An Industrial User may allow any bypass to occur which does not cause Pretreatment Standards or Requirements to be violated, but only if it also is for essential maintenance to assure efficient operation."
+    }
+  ]
+}
