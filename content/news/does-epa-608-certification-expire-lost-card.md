@@ -6,7 +6,7 @@ summary: "EPA states that Section 608 technician certification does not expire. 
 published: 2026-11-07
 image:
   src: /news/does-epa-608-certification-expire-lost-card.png
-  alt: "Card reading EPA 608, Explainer: Does 608 certification expire? Lost your card? Source: eCFR and U.S. EPA, Nov 7, 2026"
+  alt: "Card reading EPA 608, Explainer: Does 608 certification expire? Lost your card? What EPA says. eCFR and U.S. EPA, Nov 7, 2026"
   credit: goraedu
   license: Own work
 sources:
@@ -104,6 +104,6 @@ technicians."
 
 ## Studying for the exam
 
-Certification requirements, including the record rules above, are part of the Core material. Our
-[EPA 608 Core study guide](/epa-608/core/study-guide/) links each topic to the regulation, and the
+If you are preparing for the exam rather than replacing a card, our
+[EPA 608 Core study guide](/epa-608/core/study-guide/) covers the Core topics with links to the regulation, and the
 [Core practice test](/epa-608/core/practice-test/) lets you check yourself with our own questions.
