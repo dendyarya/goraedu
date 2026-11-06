@@ -260,15 +260,15 @@
     {
       "id": "kp-015",
       "topic": "Voltage information and Table A",
-      "question": "Table A in 1926.1408 lists the voltages of power lines in what terms?",
+      "question": "Under Option (3), Table A clearance, in 1926.1408(a)(2)(iii), what does step (A) require?",
       "options": {
-        "A": "Peak kV, direct current",
-        "B": "Volts measured by the operator at the worksite",
-        "C": "Nominal kV, alternating current",
-        "D": "Kilowatts of load carried by the line"
+        "A": "Confirm that the line has been deenergized and visibly grounded at the worksite",
+        "B": "Measure the height of the line above the ground at the work zone",
+        "C": "Determine the line's voltage and the minimum approach distance permitted under Table A",
+        "D": "Have the operator estimate the line's voltage from the cab"
       },
       "answer": "C",
-      "explanation": "The voltage column of Table A is headed \"Voltage (nominal, kV, alternating current)\", and the table gives each minimum clearance distance in feet.",
+      "explanation": "Step (A) of Option (3) reads: \"Determine the line's voltage and the minimum approach distance permitted under Table A (see § 1926.1408).\" Deenergizing and grounding is a separate option, \"Option (1)—Deenergize and ground.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1408, Power line safety (up to 350 kV)—equipment operations (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1408"
