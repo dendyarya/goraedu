@@ -116,15 +116,15 @@
     {
       "id": "ks-007",
       "topic": "Non-standard hand signals and new signals",
-      "question": "Before an operation that uses non-standard hand signals, who must contact each other and agree on the signals?",
+      "question": "An operation uses an attachment whose use is not covered in the Standard Method, and there is no lift director. Under 1926.1419(c)(2), who must contact each other before the operation and agree on the non-standard hand signals?",
       "options": {
-        "A": "The operator and the competent person only",
-        "B": "The signal person and a qualified evaluator",
-        "C": "The employer and the crane manufacturer",
-        "D": "The signal person, operator, and lift director (where there is one)"
+        "A": "The operator and the employer's competent person",
+        "B": "The signal person and the crane manufacturer",
+        "C": "The signal person, the operator, and a lift director who must first be appointed for the operation",
+        "D": "The signal person and the operator"
       },
       "answer": "D",
-      "explanation": "\"the signal person, operator, and lift director (where there is one) must contact each other prior to the operation and agree on the non-standard hand signals that will be used.\"",
+      "explanation": "Under 1926.1419(c)(2), \"the signal person, operator, and lift director (where there is one) must contact each other prior to the operation and agree on the non-standard hand signals that will be used.\" With no lift director, the agreement is between the signal person and the operator.",
       "source": {
         "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
@@ -278,51 +278,51 @@
     {
       "id": "ks-016",
       "topic": "Safety problems and stop signals",
-      "question": "An employee is hoisted in pile driving operations with a telescopic boom crane. What does 1926.1431(p)(2) require to prevent two-blocking?",
+      "question": "During a lift, the operator becomes aware of a safety problem. Under 1926.1419(g), what further circumstance makes the operator's duty to safely stop operations apply?",
       "options": {
-        "A": "Only a clearly visible mark on the cable",
-        "B": "Either a mark on the cable or a spotter, at the employer's choice",
-        "C": "A clearly marked cable and a spotter in direct communication with the operator to inform the operator when the marked point is reached",
-        "D": "A horn signal from the employee before each hoist"
+        "A": "The load is more than half of the equipment's rated capacity",
+        "B": "The lift director has left the site",
+        "C": "The operator needs to communicate with the signal person",
+        "D": "The signal person is using radio rather than hand signals"
       },
       "answer": "C",
-      "explanation": "\"For telescopic boom cranes: Clearly mark the cable (so that it can be easily seen by the operator) at a point that will give the operator sufficient time to stop the hoist to prevent two-blocking, and use a spotter who is in direct communication with the operator to inform the operator when this point is reached.\" The \"or\" choice applies to lattice boom cranes.",
+      "explanation": "1926.1419(g) reads: \"If the operator becomes aware of a safety problem and needs to communicate with the signal person, the operator must safely stop operations.\"",
       "source": {
-        "title": "eCFR: 29 CFR 1926.1431, Hoisting personnel (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1431"
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
       },
       "checked": "2026-11-06"
     },
     {
       "id": "ks-017",
       "topic": "Who signals, direction and multiple cranes",
-      "question": "For equipment other than tower cranes, the operator's trainer and the operator-in-training must be in direct line of sight of each other. How does 1926.1427(b)(4)(iii) say they must also communicate?",
+      "question": "1926.1419(m) sets rules for a signal person in communication with more than one \"crane/derrick\". Which equipment does 1926.1401 say the term \"crane/derrick\" includes?",
       "options": {
-        "A": "Verbally or by hand signals",
-        "B": "Only by radio on a dedicated channel",
-        "C": "Only through a separate signal person",
-        "D": "Only by written notes passed to the cab"
+        "A": "All equipment covered by subpart CC",
+        "B": "Only tower cranes and derricks",
+        "C": "Only mobile cranes with lattice booms",
+        "D": "Only equipment with a rated capacity over 2,000 pounds"
       },
       "answer": "A",
-      "explanation": "\"For equipment other than tower cranes: The operator's trainer and the operator-in-training must be in direct line of sight of each other. In addition, they must communicate verbally or by hand signals.\"",
+      "explanation": "1926.1401 states: \"Crane/derrick includes all equipment covered by this subpart.\" 1926.1419(m) uses the term where \"a signal person(s) is in communication with more than one crane/derrick\".",
       "source": {
-        "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+        "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
       },
       "checked": "2026-11-06"
     },
     {
       "id": "ks-018",
       "topic": "Who signals, direction and multiple cranes",
-      "question": "Where a signal person is in communication with more than one crane/derrick, what does 1926.1419(m)(1) require the signal person to do for each signal, prior to giving the function/direction?",
+      "question": "A signal person is in communication with two cranes. 1926.1419(m)(1) has the signal person identify the crane before each signal. What other way does 1926.1419(m)(2) allow?",
       "options": {
-        "A": "Sound an audible warning",
-        "B": "Repeat the previous signal",
-        "C": "Obtain the lift director's approval",
-        "D": "Identify the crane/derrick the signal is for"
+        "A": "Giving each signal to both cranes at once and letting each operator decide whether it applies",
+        "B": "Skipping identification when both cranes are the same make and model",
+        "C": "Skipping identification when a lift director is present",
+        "D": "Using an equally effective method of identifying which crane/derrick the signal is for"
       },
       "answer": "D",
-      "explanation": "Under 1926.1419(m)(1), \"for each signal, prior to giving the function/direction, the signal person must identify the crane/ derrick the signal is for\". The other option, (m)(2), is to \"use an equally effective method of identifying which crane/derrick the signal is for.\"",
+      "explanation": "Where a signal person is in communication with more than one crane/derrick, \"a system must be used for identifying the crane/derrick each signal is for\". Besides naming the crane before each signal, the signal person \"must use an equally effective method of identifying which crane/derrick the signal is for.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
