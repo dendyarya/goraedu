@@ -35,7 +35,7 @@
         "D": "The radiographer, or the other individual present, as required by 34.41"
       },
       "answer": "D",
-      "explanation": "34.51 says \"the radiographer, or the other individual present, as required by § 34.41, shall maintain continuous direct visual surveillance of the operation.\"",
+      "explanation": "34.51 says \"the radiographer, or the other individual present, as required by § 34.41, shall maintain continuous direct visual surveillance of the operation\".",
       "source": {
         "title": "eCFR: 10 CFR 34.51, Surveillance (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.51"
@@ -92,7 +92,7 @@
         "D": "Whenever the licensee employs radiographers' assistants"
       },
       "answer": "A",
-      "explanation": "34.45(a)(12) lists a \"Source recovery procedure if licensee will perform source recovery.\"",
+      "explanation": "34.45(a)(12) lists a \"Source recovery procedure if licensee will perform source recovery\".",
       "source": {
         "title": "eCFR: 10 CFR 34.45, Operating and emergency procedures (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.45"
@@ -130,7 +130,7 @@
         "D": "Notifying proper persons and minimizing exposure of persons in the event of an accident"
       },
       "answer": "D",
-      "explanation": "34.45(a) lists \"The procedure for notifying proper persons in the event of an accident\" and \"Minimizing exposure of persons in the event of an accident.\"",
+      "explanation": "34.45(a) lists \"The procedure for notifying proper persons in the event of an accident\" and \"Minimizing exposure of persons in the event of an accident\".",
       "source": {
         "title": "eCFR: 10 CFR 34.45, Operating and emergency procedures (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.45"
@@ -160,15 +160,15 @@
     {
       "id": "ov-009",
       "topic": "Wearing and reading dosimeters",
-      "question": "A radiographer works in a permanent radiography installation where other appropriate alarming or warning devices are in routine use. Which item is not required to be worn there under 34.47(a)?",
+      "question": "34.47(a) lists three items each radiographer wears during radiographic operations. At a permanent radiography installation where other appropriate alarming or warning devices are in routine use, which item does the rule say the radiographer is exempt from wearing?",
       "options": {
         "A": "A direct reading dosimeter",
         "B": "A personnel dosimeter",
-        "C": "Both the direct reading dosimeter and the personnel dosimeter",
+        "C": "None of the three; the rule gives no exemption at any installation",
         "D": "An alarming ratemeter"
       },
       "answer": "D",
-      "explanation": "At such installations \"the wearing of an alarming ratemeter is not required.\"",
+      "explanation": "34.47(a) says that at such installations \"the wearing of an alarming ratemeter is not required.\"",
       "source": {
         "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
@@ -225,7 +225,7 @@
         "D": "Only when the dosimeter reads above its midpoint"
       },
       "answer": "B",
-      "explanation": "Direct reading dosimeters \"must be read and the exposures recorded at the beginning and end of each shift.\"",
+      "explanation": "Direct reading dosimeters \"must be read and the exposures recorded at the beginning and end of each shift\".",
       "source": {
         "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
@@ -282,7 +282,7 @@
         "D": "Continue working as long as the alarm ratemeter is operating"
       },
       "answer": "B",
-      "explanation": "The worker \"shall cease work immediately until a replacement personnel dosimeter meeting the requirements in paragraph (a) is provided and the exposure is calculated.\"",
+      "explanation": "The worker \"shall cease work immediately until a replacement personnel dosimeter meeting the requirements in paragraph (a) is provided and the exposure is calculated\".",
       "source": {
         "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
@@ -301,7 +301,7 @@
         "D": "50 mSv/hr (5,000 mrem/hr)"
       },
       "answer": "C",
-      "explanation": "Each alarm ratemeter must \"Be set to give an alarm signal at a preset dose rate of 5 mSv/hr (500 mrem/hr).\"",
+      "explanation": "Each alarm ratemeter must \"Be set to give an alarm signal at a preset dose rate of 5 mSv/hr (500 mrem/hr)\".",
       "source": {
         "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
@@ -317,7 +317,7 @@
         "A": "Exchanging films, repositioning the exposure head, or dismantling equipment",
         "B": "Writing the utilization log entry for the day",
         "C": "Reading the direct reading dosimeters at the end of the shift",
-        "D": "Leaving the temporary job site for the next location"
+        "D": "Recharging the pocket dosimeters for the next shift"
       },
       "answer": "A",
       "explanation": "The survey \"must determine that the sealed source has returned to its shielded position before exchanging films, repositioning the exposure head, or dismantling equipment.\"",
@@ -350,7 +350,7 @@
     {
       "id": "ov-019",
       "topic": "Records of procedures, monitoring and surveys",
-      "question": "Under 34.83(c), how long must the licensee keep personnel dosimeter results?",
+      "question": "What retention period does 34.83(c) set for personnel dosimeter results?",
       "options": {
         "A": "For 3 years after the record is made",
         "B": "For 1 year after the individual stops working for the licensee",

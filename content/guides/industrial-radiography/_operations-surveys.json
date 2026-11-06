@@ -4,7 +4,7 @@
   "href": "/industrial-radiography/operations-surveys/study-guide/",
   "title": "Industrial radiography operations, monitoring, surveys and posting study guide",
   "description": "Study guide on NRC 10 CFR Part 34 radiography operations: procedures, dosimeters, alarm ratemeters, surveys, surveillance, posting and records.",
-  "intro": "10 CFR Part 34 is the NRC rule for industrial radiography licenses and radiation safety requirements. This guide sets out what the rule text states on lay-barge, offshore platform and underwater radiography (34.41(c) and (d)), operating and emergency procedures (34.45), personnel monitoring with direct reading dosimeters, personnel dosimeters and alarm ratemeters (34.47), radiation surveys (34.49), surveillance (34.51), posting (34.53), and the matching records (34.81 to 34.85). goraedu does not train, test or certify radiographers, and this is not a certification exam. Agreement States license radiography under their own compatible rules, so check yours too. Every point links to the regulation and quotes its exact words.",
+  "intro": "10 CFR Part 34 is the NRC rule for industrial radiography licenses and radiation safety requirements. This guide sets out what the rule text states on lay-barge, offshore platform and underwater radiography (34.41(c)), operating and emergency procedures (34.45), personnel monitoring with direct reading dosimeters, personnel dosimeters and alarm ratemeters (34.47), radiation surveys (34.49), surveillance (34.51), posting (34.53), and the matching records (34.81 to 34.85). goraedu does not train, test or certify radiographers, and this is not a certification exam. Agreement States license radiography under their own compatible rules, so check yours too. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "special-operations",
@@ -13,15 +13,6 @@
         {
           "text": "Under 34.41(c), a licensee may conduct lay-barge, offshore platform, or underwater radiography only if procedures have been approved by the Commission or by an Agreement State.",
           "quote": "A licensee may conduct lay-barge, offshore platform, or underwater radiography only if procedures have been approved by the Commission or by an Agreement State.",
-          "source": {
-            "title": "eCFR: 10 CFR 34.41, Conducting industrial radiographic operations (as of Nov 4, 2026)",
-            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.41"
-          },
-          "checked": "2026-11-06"
-        },
-        {
-          "text": "34.41(d) gave licensees until June 27, 1998, to meet the requirement in 34.41(a) for having two qualified individuals present at locations other than a permanent radiographic installation.",
-          "quote": "Licensees will have until June 27, 1998, to meet the requirements for having two qualified individuals present at locations other than a permanent radiographic installation as specified in paragraph (a) of this section.",
           "source": {
             "title": "eCFR: 10 CFR 34.41, Conducting industrial radiographic operations (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.41"
@@ -180,7 +171,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A source recovery procedure is included if the licensee will perform source recovery, and the procedures must also cover maintenance of records.",
+          "text": "The procedures must include a source recovery procedure if the licensee will perform source recovery, and must also cover maintenance of records.",
           "quote": "(12) Source recovery procedure if licensee will perform source recovery; (13) Maintenance of records.",
           "source": {
             "title": "eCFR: 10 CFR 34.45, Operating and emergency procedures (as of Nov 4, 2026)",
@@ -379,8 +370,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The alarm setting must have an accuracy of plus or minus 20 percent of the true radiation dose rate.",
-          "quote": "with an accuracy of plus or minus 20 percent of the true radiation dose rate;",
+          "text": "The preset alarm dose rate of 5 mSv/hr (500 mrem/hr) carries an accuracy of plus or minus 20 percent of the true radiation dose rate.",
+          "quote": "Be set to give an alarm signal at a preset dose rate of 5 mSv/hr (500 mrem/hr); with an accuracy of plus or minus 20 percent of the true radiation dose rate;",
           "source": {
             "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
@@ -491,6 +482,24 @@
           "checked": "2026-11-06"
         },
         {
+          "text": "Dosimetry results must be retained in accordance with 34.83.",
+          "quote": "(f) Dosimetry results must be retained in accordance with § 34.83.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each licensee shall maintain the exposure records specified in 34.47 that 34.83 lists, as set out in the points below.",
+          "quote": "Each licensee shall maintain the following exposure records specified in § 34.47:",
+          "source": {
+            "title": "eCFR: 10 CFR 34.83, Records of personnel monitoring procedures (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.83"
+          },
+          "checked": "2026-11-06"
+        },
+        {
           "text": "Direct reading dosimeter readings and the yearly operability checks required by 34.47(b) and (c) are kept for 3 years after the record is made.",
           "quote": "Direct reading dosimeter readings and yearly operability checks required by § 34.47 (b) and (c) for 3 years after the record is made.",
           "source": {
@@ -536,7 +545,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The form of records (34.87) and where documents and records must be kept (34.89) are covered in the licensing and records guide."
+      "notCovered": "34.45(b) also points to 34.89 (location of documents and records); that section and 34.87 (form of records) are covered in the licensing and records guide."
     }
   ]
 }

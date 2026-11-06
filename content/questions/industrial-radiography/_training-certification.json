@@ -46,25 +46,25 @@
     {
       "id": "rg-003",
       "topic": "Key definitions",
-      "question": "Which description matches the 34.3 definition of a permanent radiographic installation?",
+      "question": "Under the 34.3 definition, to whom is a radiographer responsible for assuring compliance with the requirements of the Commission's regulations and the conditions of the license?",
       "options": {
-        "A": "An enclosed shielded room, cell, or vault, not located at a temporary jobsite, in which radiography is performed",
-        "B": "Any location of use listed on the license where licensed material is stored",
-        "C": "A roped-off restricted area at a temporary jobsite that is used for more than 6 months",
-        "D": "A locked vehicle used to store a radiographic exposure device between jobs"
+        "A": "The licensee",
+        "B": "The certifying entity that certified the radiographer",
+        "C": "The client who owns the jobsite",
+        "D": "The radiographer's assistant"
       },
       "answer": "A",
-      "explanation": "34.3: a permanent radiographic installation \"means an enclosed shielded room, cell, or vault, not located at a temporary jobsite, in which radiography is performed.\"",
+      "explanation": "34.3 defines a radiographer as an individual who performs or personally supervises industrial radiographic operations \"and who is responsible to the licensee for assuring compliance with the requirements of the Commission's regulations and the conditions of the license.\"",
       "source": {
         "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
       },
       "checked": "2026-11-06",
-      "evidence": "Permanent radiographic installation means an enclosed shielded room, cell, or vault, not located at a temporary jobsite, in which radiography is performed."
+      "evidence": "Radiographer means any individual who performs or who, in attendance at the site where the sealed source or sources are being used, personally supervises industrial radiographic operations and who is responsible to the licensee for assuring compliance with the requirements of the Commission's regulations and the conditions of the license."
     },
     {
       "id": "rg-004",
-      "topic": "Two qualified individuals",
+      "topic": "Two qualified individuals and locations",
       "question": "A radiographer is working at a refinery jobsite, away from any permanent radiographic installation, with a second qualified individual. What does 34.41(a) say this additional qualified individual shall do?",
       "options": {
         "A": "Operate the control drive mechanism while the radiographer performs surveys",
@@ -83,7 +83,7 @@
     },
     {
       "id": "rg-005",
-      "topic": "Two qualified individuals",
+      "topic": "Two qualified individuals and locations",
       "question": "Under 34.41(b), where must radiographic operations conducted at locations of use authorized on the license be conducted, unless specifically authorized by the Commission?",
       "options": {
         "A": "Inside a locked storage area at the field station",
@@ -312,7 +312,7 @@
     {
       "id": "rg-017",
       "topic": "Supervision of radiographers' assistants",
-      "question": "A radiographer supervising an assistant stays at the field station and keeps in touch by phone while the assistant uses the exposure device at a jobsite. Which element of personal supervision listed in 34.46(a) is this radiographer not meeting?",
+      "question": "A radiographer plans to supervise an assistant by phone from the field station while the assistant uses the exposure device at a jobsite. Under 34.46(a), what must personal supervision include?",
       "options": {
         "A": "The radiographer's physical presence at the site where the sealed sources are being used",
         "B": "The radiographer's review of the assistant's utilization log at the end of the day",
@@ -320,20 +320,20 @@
         "D": "The radiographer's signature on the assistant's dosimetry record"
       },
       "answer": "A",
-      "explanation": "34.46(a) lists \"The radiographer's physical presence at the site where the sealed sources are being used.\"",
+      "explanation": "34.46: \"The personal supervision must include: (a) The radiographer's physical presence at the site where the sealed sources are being used.\"",
       "source": {
         "title": "eCFR: 10 CFR 34.46, Supervision of radiographers' assistants (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.46"
       },
       "checked": "2026-11-06",
-      "evidence": "The radiographer's physical presence at the site where the sealed sources are being used;"
+      "evidence": "The personal supervision must include: (a) The radiographer's physical presence at the site where the sealed sources are being used;"
     },
     {
       "id": "rg-018",
       "topic": "Training and certification records",
-      "question": "Under 34.79, for how long must each licensee maintain its records of training and certification?",
+      "question": "What retention period does 34.79 set for each licensee's records of training and certification?",
       "options": {
-        "A": "Until the individual leaves the licensee's employment",
+        "A": "6 months after the record is made",
         "B": "1 year after the record is made",
         "C": "3 years after the record is made",
         "D": "Until the next annual refresher safety training"
