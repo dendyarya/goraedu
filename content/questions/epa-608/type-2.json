@@ -944,7 +944,7 @@
     {
       "id": "t2-056",
       "topic": "Leak repair",
-      "question": "The owner of a high-pressure appliance (full charge of 50 or more pounds of a class I or class II refrigerant) asks EPA for more than one year to retire it under 40 CFR 82.157(i). How must the owner keep the request?",
+      "question": "The owner of industrial process refrigeration equipment that is a high-pressure appliance (full charge of 50 or more pounds of a class I or class II refrigerant) asks EPA for more than one year to finish retiring it under 40 CFR 82.157(i). How must the owner keep the request?",
       "options": {
         "A": "A dated copy must be available on-site, in either electronic or paper copy",
         "B": "Only the technician who found the leak keeps a copy",
@@ -956,24 +956,6 @@
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t2-057",
-      "topic": "Recovery practices",
-      "question": "A technician evacuates refrigerant from rooftop units with a full charge of more than 5 and less than 50 pounds so they can be disposed of, then sends the recovered refrigerant to a reclaimer. Which transfer record must the technician keep?",
-      "options": {
-        "A": "The reclaimer's EPA approval letter",
-        "B": "A copy of the reclaimer's annual report to EPA",
-        "C": "The leak rate of each unit before disposal",
-        "D": "The quantity of refrigerant, by type, transferred for reclamation and/or destruction, the person to whom it was transferred, and the date of transfer"
-      },
-      "answer": "D",
-      "explanation": "Technicians evacuating these appliances for disposal must keep records for three years documenting \"The quantity of refrigerant, by type, transferred for reclamation and/or destruction, the person to whom it was transferred, and the date of transfer.\"",
-      "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
       },
       "checked": "2026-11-06"
     },
@@ -1016,12 +998,12 @@
     {
       "id": "t2-063",
       "topic": "Definitions",
-      "question": "An owner needs the full charge of a high-pressure appliance. Which of these is one of the four methods the definition of full charge allows?",
+      "question": "An owner needs the full charge of a high-pressure appliance (full charge of 50 or more pounds of a class I or class II refrigerant). Which of these is one of the four methods the definition of full charge allows?",
       "options": {
         "A": "Actual measurements of the amount of refrigerant added to or evacuated from the appliance, including for seasonal variances",
         "B": "The amount printed on the last refrigerant cylinder bought for the appliance",
-        "C": "The weight of the appliance's compressor",
-        "D": "A guess made without any data about the appliance"
+        "C": "The total refrigerant bought for the whole facility in the last calendar year",
+        "D": "The largest single refrigerant addition made in the past 12 months"
       },
       "answer": "A",
       "explanation": "Full charge is determined \"by using one or a combination of the following four methods\", one of which is \"Use of actual measurements of the amount of refrigerant added to or evacuated from the appliance, including for seasonal variances\". The other three are the manufacturer's determination, appropriate calculations, and an established range.",
@@ -1052,7 +1034,7 @@
     {
       "id": "t2-066",
       "topic": "Leak repair",
-      "question": "An owner uses the annualizing method to calculate the leak rate of a high-pressure appliance. In Step 2, which number of days is divided by 365 days?",
+      "question": "An owner uses the annualizing method to calculate the leak rate of a high-pressure appliance (full charge of 50 or more pounds of a class I or class II refrigerant). Which number of days does the method divide by 365 days?",
       "options": {
         "A": "Always 365 days",
         "B": "The number of days since the appliance was installed",
@@ -1064,42 +1046,6 @@
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t2-067",
-      "topic": "Leak repair",
-      "question": "Under the annualizing method in the leak rate definition, what does Step 1 calculate?",
-      "options": {
-        "A": "The pounds of refrigerant added to return the appliance to a full charge, whether in one addition or multiple additions related to the same leak, divided by the pounds it normally contains at full charge",
-        "B": "The pounds of refrigerant bought for the facility during the calendar year",
-        "C": "The pounds of refrigerant recovered at the appliance's last disposal",
-        "D": "The pounds removed for a seasonal variance, multiplied by 100"
-      },
-      "answer": "A",
-      "explanation": "Step 1 is to \"Take the number of pounds of refrigerant added to the appliance to return it to a full charge, whether in one addition or if multiple additions related to same leak, and divide it by the number of pounds of refrigerant the appliance normally contains at full charge\".",
-      "source": {
-        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t2-068",
-      "topic": "Leak repair",
-      "question": "Unless granted additional time, work under a retrofit or retirement plan for an appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant) must be finished within one year of the plan's date. What outer limit does 82.157(h)(5)(i) also set?",
-      "options": {
-        "A": "Not more than 6 months from when the plan was required",
-        "B": "Not more than 13 months from when the plan was required",
-        "C": "Not more than 24 months from when the plan was required",
-        "D": "Not more than 36 months from when the plan was required"
-      },
-      "answer": "B",
-      "explanation": "All work \"must be finished within one year of the plan's date (not to exceed 13 months from when the plan was required in paragraph (h)(1) of this section).\"",
-      "source": {
-        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
       },
       "checked": "2026-11-06"
     },
