@@ -194,6 +194,12 @@ const SNAPSHOTS: Record<string, string[]> = {
     "40cfr745-103-2026-11-04.txt",
     "40cfr745-103-2026-11-04.reading-order.txt",
   ],
+  "faa-amt": [
+    "14cfr65-subpartD-2026-11-04.txt",
+    "14cfr65-subpartD-2026-11-04.reading-order.txt",
+    "14cfr43-2026-11-04.txt",
+    "14cfr43-2026-11-04.reading-order.txt",
+  ],
   forklift: [
     "29cfr1910-178-2026-11-04.txt",
     "29cfr1910-178-2026-11-04.reading-order.txt",
@@ -318,6 +324,8 @@ const PAGE_TITLES = [
   "Hoisting personnel.",
   "Signal person qualifications.",
   "Material handling equipment.",
+  "Mechanics",
+  "Maintenance, Preventive Maintenance, Rebuilding, and Alteration",
 ];
 
 function stripPageChrome(text: string): string {

@@ -58,7 +58,9 @@ export function practiceRoute(cluster: OshaClusterId) {
                 ? `Crane ${lower(name)}`
                 : cluster === "forklift"
                   ? `Forklift ${lower(name)}`
-                  : `${cluster === "cdl" ? "CDL" : cluster === "faa-107" ? "Part 107" : "OSHA"} ${name}`;
+                  : cluster === "faa-amt"
+                    ? `Aviation mechanic ${lower(name)}`
+                    : `${cluster === "cdl" ? "CDL" : cluster === "faa-107" ? "Part 107" : "OSHA"} ${name}`;
 
       return (
         <PageShell

@@ -24,6 +24,7 @@ const PATHS = [
   "/lead-rrp/",
   "/osha-crane/",
   "/forklift/",
+  "/faa-amt/",
   "/epa-608/guide/passing-score/",
   "/epa-608/universal/practice-test/",
   "/news/",

@@ -11,7 +11,8 @@ export type OshaClusterId =
   | "wastewater-operator"
   | "lead-rrp"
   | "osha-crane"
-  | "forklift";
+  | "forklift"
+  | "faa-amt";
 
 const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "intro-to-osha", name: "Introduction to OSHA", rule: "29 CFR Parts 1903 and 1904", focus: null },
@@ -278,6 +279,54 @@ const FORKLIFT_SETS: OshaSet[] = [
   },
 ];
 
+const AMT_SETS: OshaSet[] = [
+  {
+    slug: "amt-eligibility-ratings",
+    name: "Eligibility, ratings, knowledge, experience and skill",
+    rule: "14 CFR 65.71 to 65.80",
+    focus: null,
+  },
+  {
+    slug: "amt-privileges",
+    name: "Privileges, recent experience and display",
+    rule: "14 CFR 65.81 to 65.89",
+    focus: null,
+  },
+  {
+    slug: "amt-inspection-authorization",
+    name: "Inspection authorization",
+    rule: "14 CFR 65.91 to 65.95",
+    focus: null,
+  },
+  {
+    slug: "amt-who-performs-approves",
+    name: "Who may perform maintenance and approve return to service",
+    rule: "14 CFR 43.1, 43.3, 43.5 and 43.7",
+    focus: null,
+  },
+  {
+    slug: "amt-maintenance-records",
+    name: "Maintenance and inspection records",
+    rule: "14 CFR 43.2, 43.9 to 43.11 and Appendix B",
+    focus: null,
+  },
+  {
+    slug: "amt-performance-rules",
+    name: "Performance and inspection rules",
+    rule: "14 CFR 43.13 to 43.17 and Appendix D",
+    focus: null,
+  },
+  {
+    slug: "amt-major-repairs-preventive",
+    name: "Major alterations, major repairs and preventive maintenance",
+    rule: "14 CFR Part 43, Appendix A",
+    focus: null,
+  },
+];
+
+export const AMT_INDEPENDENCE_TEXT =
+  "goraedu does not train, test or certificate aviation mechanics, and our questions are not an FAA knowledge, oral or practical test. Not affiliated with or endorsed by the FAA or the U.S. Department of Transportation.";
+
 export const FORKLIFT_INDEPENDENCE_TEXT =
   "goraedu does not train, evaluate or certify forklift operators, and our questions are not an operator evaluation. Under 29 CFR 1910.178(l) the employer must ensure each operator has completed the required training and evaluation, and certifies that this was done. Not affiliated with or endorsed by OSHA or the U.S. Department of Labor.";
 
@@ -340,6 +389,15 @@ export const OSHA_CLUSTERS: Record<
     sets: WATER_SETS,
     independence: WATER_INDEPENDENCE_TEXT,
     notFrom: "any state operator certification exam, operator manual or prep course",
+  },
+  "faa-amt": {
+    id: "faa-amt",
+    label: "FAA aviation mechanic",
+    href: "/faa-amt/",
+    part: "14 CFR Part 65 Subpart D and Part 43",
+    sets: AMT_SETS,
+    independence: AMT_INDEPENDENCE_TEXT,
+    notFrom: "the FAA mechanic knowledge tests, FAA sample questions, testing supplements or any prep course",
   },
   forklift: {
     id: "forklift",
