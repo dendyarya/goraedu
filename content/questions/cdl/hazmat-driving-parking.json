@@ -44,15 +44,15 @@
     {
       "id": "zd-003",
       "topic": "Attending vehicles",
-      "question": "A vehicle carrying Class 3 material, and no Division 1.1, 1.2 or 1.3 material, is stopped on the shoulder of a public highway. Under 397.5(c), when may its driver leave it unattended?",
+      "question": "A vehicle carries Class 8 material and no Division 1.1, 1.2 or 1.3 material. Under 397.5(c), in which location must it be attended by its driver?",
       "options": {
-        "A": "During a meal break of up to 30 minutes",
-        "B": "Whenever it is parked more than five feet from the traveled portion of the highway",
-        "C": "Whenever the cab doors are locked",
-        "D": "While performing duties which are incident and necessary to the driver's duties as the operator of the vehicle"
+        "A": "On the property of a shipper or consignee",
+        "B": "In a safe haven",
+        "C": "At the motor carrier's own terminal",
+        "D": "On a public street or highway, or the shoulder of a public highway"
       },
       "answer": "D",
-      "explanation": "Such a vehicle \"must be attended by its driver. However, the vehicle need not be attended while its driver is performing duties which are incident and necessary to the driver's duties as the operator of the vehicle.\"",
+      "explanation": "A motor vehicle with hazardous materials other than Division 1.1, 1.2 or 1.3 \"which is located on a public street or highway, or the shoulder of a public highway, must be attended by its driver.\" It \"need not be attended while its driver is performing duties which are incident and necessary to the driver's duties as the operator of the vehicle.\"",
       "source": {
         "title": "eCFR: 49 CFR 397.5, Attendance and surveillance of motor vehicles (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-397/subpart-A/section-397.5"
@@ -134,15 +134,15 @@
     {
       "id": "zd-008",
       "topic": "Parking, fires, smoking and fueling",
-      "question": "Which pair of conditions does 397.15 set while a motor vehicle that contains hazardous materials is being fueled?",
+      "question": "With the engine shut off, a driver fueling a vehicle that contains hazardous materials latches the fuel nozzle open and walks into the station to pay. Which requirement of 397.15 does this fail to meet?",
       "options": {
-        "A": "The engine may idle, and the driver must stay in the cab",
-        "B": "The engine must be off, and the cargo doors must be open",
-        "C": "Its engine must not be operating, and a person must be in control of the fueling process at the point where the fuel tank is filled",
-        "D": "The engine must be off, and the driver must be within 100 feet of the vehicle"
+        "A": "Its engine must not be operating",
+        "B": "The cargo doors must stay closed during fueling",
+        "C": "A person must be in control of the fueling process at the point where the fuel tank is filled",
+        "D": "The fuel must be dispensed by an attendant employed by the fueling facility"
       },
       "answer": "C",
-      "explanation": "\"When a motor vehicle which contains hazardous materials is being fueled— (a) Its engine must not be operating; and (b) A person must be in control of the fueling process at the point where the fuel tank is filled.\"",
+      "explanation": "When such a vehicle is being fueled, \"(a) Its engine must not be operating; and (b) A person must be in control of the fueling process at the point where the fuel tank is filled.\" With the engine off, (a) is met; no one is in control at the fill point, so (b) is not.",
       "source": {
         "title": "eCFR: 49 CFR 397.15, Fueling (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-397/subpart-A/section-397.15"

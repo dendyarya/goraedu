@@ -8,15 +8,15 @@
     {
       "id": "zp-001",
       "topic": "Who the placarding rules cover",
-      "question": "Which of these does 172.500(b) list among the materials the placarding subpart does not apply to?",
+      "question": "A delivery van carries only packages of Division 6.2 infectious substances and no other hazardous material. How does 172.500(b) treat placarding for this load?",
       "options": {
-        "A": "Combustible liquids in cargo tanks",
-        "B": "Division 2.3 gases in non-bulk cylinders",
-        "C": "Combustible liquids in non-bulk packagings",
-        "D": "Class 8 materials in bulk packagings"
+        "A": "Placards are needed once the packages reach 454 kg (1,001 pounds) aggregate gross weight",
+        "B": "A DANGEROUS placard is needed on each side and each end",
+        "C": "The placarding subpart does not apply to infectious substances",
+        "D": "Placards are needed on two opposite sides only"
       },
       "answer": "C",
-      "explanation": "172.500(b) states that the subpart does not apply to \"(5) Combustible liquids in non-bulk packagings.\" The exception is limited to non-bulk packagings.",
+      "explanation": "172.500(b) states that \"This subpart does not apply to— (1) Infectious substances;\". Table 2 of 172.504(e) likewise lists \"6.2 NONE\" as the placard for that division.",
       "source": {
         "title": "eCFR: 49 CFR 172.500, Applicability of placarding requirements (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-F/section-172.500"
@@ -188,15 +188,15 @@
     {
       "id": "zp-011",
       "topic": "DANGEROUS placard and other substitutions",
-      "question": "Under 172.504(b), which load may be placarded with a DANGEROUS placard instead of separate placards?",
+      "question": "A transport vehicle carries non-bulk packages of a Class 3 and a Class 8 material and is placarded DANGEROUS under 172.504(b). At one loading facility, 1,200 kg of the Class 8 material is loaded onto it. What does 172.504(b) require?",
       "options": {
-        "A": "A compartmented cargo tank carrying two different Table 2 materials",
-        "B": "A transport vehicle with two or more Table 1 materials",
-        "C": "A transport vehicle with non-bulk packages of two or more categories of hazardous materials that require different Table 2 placards",
-        "D": "A transport vehicle carrying a single Division 2.3 material"
+        "A": "Nothing more, because the DANGEROUS placard covers every Table 2 material on the vehicle",
+        "B": "The DANGEROUS placards must be moved to two opposite sides only",
+        "C": "The Table 2 placard for Class 8 (CORROSIVE) must be applied",
+        "D": "The Class 8 material must be moved into a bulk packaging"
       },
       "answer": "C",
-      "explanation": "A transport vehicle \"which contains non-bulk packages with two or more categories of hazardous materials that require different placards specified in table 2 of paragraph (e) of this section may be placarded with a DANGEROUS placard\".",
+      "explanation": "A DANGEROUS placard may replace separate Table 2 placards. \"However, when 1,000 kg (2,205 pounds) aggregate gross weight or more of one category of material is loaded therein at one loading facility on a freight container, unit load device, transport vehicle, or rail car, the placard specified in table 2 of paragraph (e) of this section for that category must be applied.\"",
       "source": {
         "title": "eCFR: 49 CFR 172.504, General placarding requirements (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-F/section-172.504"
