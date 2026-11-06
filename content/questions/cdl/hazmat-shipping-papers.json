@@ -8,15 +8,15 @@
     {
       "id": "zs-001",
       "topic": "Who must describe hazardous materials",
-      "question": "Under 172.200(a), who must describe a hazardous material on the shipping paper?",
+      "question": "A material that is not a hazardous substance, hazardous waste or marine pollutant is identified by the letter \"W\" in column 1 of the 172.101 table. It is offered for transportation by highway only. What does 172.200(b) say about Subpart C (shipping papers)?",
       "options": {
-        "A": "The driver who picks up the load at the shipper's dock",
-        "B": "Each person who offers the hazardous material for transportation",
-        "C": "The consignee who receives the shipment",
-        "D": "The operator of the facility where the material is stored"
+        "A": "Subpart C applies, because every material in the 172.101 table must be described on a shipping paper",
+        "B": "Subpart C does not apply to it, except when the material is offered or intended for transportation by water",
+        "C": "Subpart C applies only if the load is placarded",
+        "D": "Subpart C applies, but only the proper shipping name has to be entered"
       },
       "answer": "B",
-      "explanation": "Section 172.200(a) states that, \"Except as otherwise provided in this subpart, each person who offers a hazardous material for transportation shall describe the hazardous material on the shipping paper in the manner required by this subpart.\"",
+      "explanation": "Subpart C \"does not apply to any material, other than a hazardous substance, hazardous waste or marine pollutant, that is\" \"Identified by the letter “W” in column 1 of the § 172.101 table, except when the material is offered or intended for transportation by water\".",
       "source": {
         "title": "eCFR: 49 CFR 172.200, Applicability (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-C/section-172.200"
@@ -44,15 +44,15 @@
     {
       "id": "zs-003",
       "topic": "Preparing and keeping shipping papers",
-      "question": "A shipping paper lists a hazardous material and a material not subject to the hazardous materials regulations. Which is one of the ways 172.201(a)(1) allows the hazardous material entries to be shown?",
+      "question": "A shipper adds information about the material to a shipping paper, beyond the required description. Unless Subpart C otherwise permits or requires, where does 172.201(a)(4) say that additional information must be placed?",
       "options": {
-        "A": "Entered first on the shipping paper",
-        "B": "Entered last, after all other materials",
-        "C": "Written on the back of the shipping paper",
-        "D": "Entered in the same color as the other entries, with no other marking"
+        "A": "After the basic description required by 172.202(a)",
+        "B": "Before the identification number",
+        "C": "Between the parts of the basic description, wherever it fits",
+        "D": "Only on the back of the shipping paper"
       },
       "answer": "A",
-      "explanation": "Under 172.201(a)(1) the hazardous material entries \"Must be entered first,\" or \"Must be entered in a color that clearly contrasts with any description on the shipping paper of a material not subject to the requirements of this subchapter,\" or be identified by an X in a column captioned HM.",
+      "explanation": "Additional information is allowed \"provided the information is not inconsistent with the required description.\" \"Unless otherwise permitted or required by this subpart, additional information must be placed after the basic description required by § 172.202(a).\"",
       "source": {
         "title": "eCFR: 49 CFR 172.201, Preparation and retention of shipping papers (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-C/section-172.201"
@@ -98,15 +98,15 @@
     {
       "id": "zs-006",
       "topic": "The basic description and its sequence",
-      "question": "In which order does 172.202(b) require the parts of the basic description to be shown?",
+      "question": "The example basic description in 172.202(b) reads \"UN2744, Cyclobutyl chloroformate, 6.1, (8, 3), PG II.\" What do the numbers (8, 3) show?",
       "options": {
-        "A": "Proper shipping name, identification number, hazard class, packing group",
-        "B": "Hazard class, proper shipping name, identification number, packing group",
-        "C": "Identification number, proper shipping name, hazard class or division, packing group",
-        "D": "Packing group, hazard class, identification number, proper shipping name"
+        "A": "The packing groups of the material",
+        "B": "The number of packages and the number of shipping paper pages",
+        "C": "Subsidiary hazard classes, entered in parentheses immediately following the primary hazard class or division number",
+        "D": "The inhalation hazard zone"
       },
       "answer": "C",
-      "explanation": "The basic description in 172.202(a)(1) to (4) (identification number, proper shipping name, hazard class or division, packing group) \"must be shown in sequence with no additional information interspersed\", as in the rule's example \"UN2744, Cyclobutyl chloroformate, 6.1, (8, 3), PG II.\"",
+      "explanation": "Under 172.202(a)(3), \"Except for combustible liquids, the subsidiary hazard class(es) or subsidiary division number(s) must be entered in parentheses immediately following the primary hazard class or division number.\" Here 6.1 is the primary division and (8, 3) are the subsidiary classes.",
       "source": {
         "title": "eCFR: 49 CFR 172.202, Description of hazardous material on shipping papers (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-C/section-172.202"
@@ -296,15 +296,15 @@
     {
       "id": "zs-017",
       "topic": "Emergency response telephone number and carrier contact",
-      "question": "Which emergency response telephone number meets 172.604(a)?",
+      "question": "The emergency response telephone number on a shipping paper is that of an agency or organization that accepts responsibility for providing the emergency response information (an ERI provider). Under 172.604(b)(2), what must also be shown on the shipping paper?",
       "options": {
-        "A": "An answering service that takes a message and calls back",
-        "B": "A beeper number",
-        "C": "An answering machine that is checked once a day",
-        "D": "A number, monitored at all times the material is in transportation, of a person knowledgeable of the material who has comprehensive emergency response and incident mitigation information for it"
+        "A": "The agency's street address",
+        "B": "The driver's name and CDL number",
+        "C": "The consignee's account number with the agency",
+        "D": "The person registered with the ERI provider, identified by name, or contract number or other unique identifier assigned by the ERI provider"
       },
       "answer": "D",
-      "explanation": "The number must be that of a person \"knowledgeable of the hazardous material being shipped and has comprehensive emergency response and incident mitigation information for that material\" (or with immediate access to such a person). \"A telephone number that requires a call back (such as an answering service, answering machine, or beeper device) does not meet the requirements of paragraph (a) of this section\".",
+      "explanation": "\"The person who is registered with the ERI provider must be identified by name, or contract number or other unique identifier assigned by the ERI provider, on the shipping paper immediately before, after, above, or below the emergency response telephone number\", unless it is entered elsewhere in a prominent manner.",
       "source": {
         "title": "eCFR: 49 CFR 172.604, Emergency response telephone number (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-G/section-172.604"
