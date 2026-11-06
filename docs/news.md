@@ -40,8 +40,10 @@ Say plainly if the sources do not mention the certification or its exam.
 
 - `topic` is the certification the post is about, written as on the certifications page ("EPA 608", "CDL",
   "OSHA 10 and OSHA 30", "FAA Part 107").
-- Sources: Federal Register, eCFR, or the agency's own site (EPA.gov, FMCSA.dot.gov, OSHA.gov, FAA.gov). Trade
-  press only as background, never as the only source.
+- Sources: Federal Register, eCFR, govinfo.gov, the agency's own site (EPA.gov, FMCSA.dot.gov, OSHA.gov, FAA.gov),
+  a state licensing board's own .gov site, or the certifying body's own site for changes to its own program (for
+  example ASE, NABCEP, AWS, an EPA-approved 608 certifying organization). Trade press and news media only as
+  background, never as the only source; a news story is a lead to the official source, not the source itself.
 - Say "proposed" or "final" in the title or first paragraph. A proposal is never described as in effect.
 - No guesses about future dates, no opinions, no copying text from other news sites.
 - `published` is the date the post first goes live on goraedu. To correct a post later, fix it, add
@@ -72,6 +74,8 @@ image:
 
 Legal rules for images (the build checks the fields, you check the rights):
 
+- Easiest: `node scripts/news-card.mjs --out public/news/<slug>.png --topic "CDL" --tag "Final rule" --title "Line one|Line two|Line three" --source "Federal Register" --date "Nov 6, 2026"`
+  makes a 1600 × 900 title card in the site's style (license `Own work`, credit `goraedu`).
 - Best choice: our own graphics (a title card made in Canva from our own design is "Own work") or our own photos.
 - U.S. federal government photos are public domain, but check the page: some agency pages use photos from
   contractors or stock sites that are not public domain. If the page names another photographer or agency, do not use it.
