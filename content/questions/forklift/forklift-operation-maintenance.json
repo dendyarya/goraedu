@@ -8,12 +8,12 @@
     {
       "id": "qf-001",
       "topic": "Removing unsafe trucks from service",
-      "question": "Partway through a shift, an operator finds that a powered industrial truck is defective. What does 1910.178(p)(1) require?",
+      "question": "A powered industrial truck was taken out of service under 1910.178(p)(1) because it was found to be unsafe. What ends that out-of-service period?",
       "options": {
-        "A": "The truck may be used until the end of the shift and then reported",
-        "B": "The truck shall be taken out of service until it has been restored to safe operating condition",
-        "C": "The truck may stay in use if it is driven at reduced speed",
-        "D": "The truck may stay in use if a supervisor rides along"
+        "A": "One full shift has passed",
+        "B": "The truck has been restored to safe operating condition",
+        "C": "The operator has signed a written waiver",
+        "D": "A supervisor has noted the problem in a log"
       },
       "answer": "B",
       "explanation": "\"If at any time a powered industrial truck is found to be in need of repair, defective, or in any way unsafe, the truck shall be taken out of service until it has been restored to safe operating condition.\"",
@@ -62,15 +62,15 @@
     {
       "id": "qf-004",
       "topic": "Fueling, fuel leaks and open flames",
-      "question": "Under 1910.178(p)(2), in which situation shall fuel tanks not be filled?",
+      "question": "1910.178(p)(2) has two sentences on filling fuel tanks. Besides the rule about the engine, what does it say?",
       "options": {
-        "A": "When the tank is less than half full",
-        "B": "During the first hour of a shift",
-        "C": "While the engine is running",
-        "D": "When the operator wears gloves"
+        "A": "Tanks shall be filled only to 80 percent of capacity",
+        "B": "Tanks shall be filled only outdoors",
+        "C": "Spillage shall be avoided",
+        "D": "Tanks shall be filled only by a supervisor"
       },
       "answer": "C",
-      "explanation": "\"Fuel tanks shall not be filled while the engine is running. Spillage shall be avoided.\"",
+      "explanation": "1910.178(p)(2) reads: \"Fuel tanks shall not be filled while the engine is running. Spillage shall be avoided.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -80,12 +80,12 @@
     {
       "id": "qf-005",
       "topic": "Fueling, fuel leaks and open flames",
-      "question": "An operator notices a leak in a truck's fuel system. What does 1910.178(p)(4) say about operating that truck?",
+      "question": "A truck has a leak in its fuel system. Under 1910.178(p)(4), what must happen before it is operated?",
       "options": {
-        "A": "It may be operated if the leak is smaller than one drop per minute",
-        "B": "It may be operated until the end of the shift",
-        "C": "No truck shall be operated with a leak in the fuel system until the leak has been corrected",
-        "D": "It may be operated if a drip pan is placed under it when parked"
+        "A": "The fuel tank has been emptied",
+        "B": "The leak has been reported to a supervisor",
+        "C": "The leak has been corrected",
+        "D": "The truck has been moved outdoors"
       },
       "answer": "C",
       "explanation": "\"No truck shall be operated with a leak in the fuel system until the leak has been corrected.\"",
@@ -116,12 +116,12 @@
     {
       "id": "qf-007",
       "topic": "Repairs: who and where",
-      "question": "Under 1910.178(q)(1), who shall make all repairs to industrial trucks?",
+      "question": "Which two requirements does 1910.178(q)(1) set for a power-operated industrial truck that is not in safe operating condition?",
       "options": {
-        "A": "Whichever operator found the defect, whether or not authorized",
-        "B": "Only an OSHA compliance officer",
-        "C": "Any employee who happens to be on the shift",
-        "D": "Authorized personnel"
+        "A": "It shall be tagged, and it may be used until a repair is scheduled",
+        "B": "It shall be removed from service, and its usual operator shall repair it",
+        "C": "It shall be reported to OSHA, and anyone on the shift may repair it",
+        "D": "It shall be removed from service, and all repairs shall be made by authorized personnel"
       },
       "answer": "D",
       "explanation": "\"Any power-operated industrial truck not in safe operating condition shall be removed from service. All repairs shall be made by authorized personnel.\"",
@@ -188,15 +188,15 @@
     {
       "id": "qf-011",
       "topic": "Parts, alterations and LP conversion",
-      "question": "Under 1910.178(q)(6), additional counterweighting of fork trucks shall not be done unless approved by whom?",
+      "question": "Apart from what paragraph (q)(12) provides, what does 1910.178(q)(6) say about altering an industrial truck by the elimination of any parts?",
       "options": {
-        "A": "The operator's supervisor",
-        "B": "The truck's operator",
-        "C": "The truck manufacturer",
-        "D": "The company that leases the building"
+        "A": "It may be done if the operator agrees",
+        "B": "It may be done for parts that weigh under 10 pounds",
+        "C": "Trucks shall not be altered that way",
+        "D": "It may be done if the truck is used only outdoors"
       },
       "answer": "C",
-      "explanation": "\"Additional counterweighting of fork trucks shall not be done unless approved by the truck manufacturer.\"",
+      "explanation": "Industrial trucks shall not be altered so that the relative positions of the parts are different, \"nor shall they be altered either by the addition of extra parts not provided by the manufacturer or by the elimination of any parts, except as provided in paragraph (q)(12) of this section.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -260,12 +260,12 @@
     {
       "id": "qf-015",
       "topic": "Examination before service",
-      "question": "Industrial trucks at a plant are used on a round-the-clock basis. When does 1910.178(q)(7) say they shall be examined?",
+      "question": "Which industrial trucks does 1910.178(q)(7) say shall be examined after each shift?",
       "options": {
-        "A": "After each shift",
-        "B": "Once a week",
-        "C": "Only when an operator reports a defect",
-        "D": "Only at the yearly service visit"
+        "A": "Trucks used on a round-the-clock basis",
+        "B": "Trucks that run on liquefied petroleum gas",
+        "C": "Trucks used outdoors",
+        "D": "Trucks more than ten years old"
       },
       "answer": "A",
       "explanation": "\"Where industrial trucks are used on a round-the-clock basis, they shall be examined after each shift.\"",

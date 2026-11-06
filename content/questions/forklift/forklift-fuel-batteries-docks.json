@@ -62,15 +62,15 @@
     {
       "id": "qc-004",
       "topic": "Battery charging areas",
-      "question": "Under 1910.178(g)(2), facilities shall be provided for adequate ventilation for what purpose?",
+      "question": "Electrolyte spills on the floor of a battery charging installation. Which facility does 1910.178(g)(2) say shall be provided for that situation?",
       "options": {
-        "A": "To cool the battery charger",
-        "B": "To dry the floor after spilled electrolyte is flushed",
-        "C": "For dispersal of fumes from gassing batteries",
-        "D": "To keep the operator comfortable while waiting"
+        "A": "A floor drain leading to the storm sewer",
+        "B": "A fan to dry the floor",
+        "C": "Facilities for flushing and neutralizing spilled electrolyte",
+        "D": "An open bin of sawdust beside each charger"
       },
       "answer": "C",
-      "explanation": "1910.178(g)(2) requires facilities \"for adequate ventilation for dispersal of fumes from gassing batteries.\"",
+      "explanation": "1910.178(g)(2) says \"Facilities shall be provided for flushing and neutralizing spilled electrolyte\", along with the other facilities it lists.",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -98,15 +98,15 @@
     {
       "id": "qc-006",
       "topic": "Battery charging areas",
-      "question": "Under 1910.178(g)(10), what shall be prohibited in the charging area?",
+      "question": "1910.178(g)(2) lists facilities for flushing and neutralizing spilled electrolyte, for protecting charging apparatus from damage by trucks, and for adequate ventilation. Which other purpose does it list?",
       "options": {
-        "A": "Smoking",
-        "B": "Using an overhead hoist",
-        "C": "Positioning a truck to charge its battery",
-        "D": "Using a siphon"
+        "A": "Fire protection",
+        "B": "Storage of spare forks",
+        "C": "Operator rest breaks",
+        "D": "Truck washing"
       },
       "answer": "A",
-      "explanation": "1910.178(g)(10) says \"Smoking shall be prohibited in the charging area.\"",
+      "explanation": "1910.178(g)(2) says \"Facilities shall be provided for flushing and neutralizing spilled electrolyte, for fire protection, for protecting charging apparatus from damage by trucks, and for adequate ventilation for dispersal of fumes from gassing batteries.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -116,12 +116,12 @@
     {
       "id": "qc-007",
       "topic": "Battery charging areas",
-      "question": "Under 1910.178(g)(11), precautions shall be taken to prevent what in battery charging areas?",
+      "question": "1910.178(g)(11) requires precautions in battery charging areas against open flames, sparks, and which third item?",
       "options": {
-        "A": "Direct sunlight and rain",
-        "B": "Temperatures below freezing",
-        "C": "Loud noise from chargers",
-        "D": "Open flames, sparks, or electric arcs"
+        "A": "Direct sunlight",
+        "B": "Cold drafts",
+        "C": "Vibration from passing trucks",
+        "D": "Electric arcs"
       },
       "answer": "D",
       "explanation": "1910.178(g)(11) says \"Precautions shall be taken to prevent open flames, sparks, or electric arcs in battery charging areas.\"",
@@ -188,12 +188,12 @@
     {
       "id": "qc-011",
       "topic": "Changing, charging and handling batteries",
-      "question": "When charging batteries, how does 1910.178(g)(7) say acid and water are to be combined?",
+      "question": "1910.178(g)(7) sets the order in which acid and water are combined. During which activity does it apply?",
       "options": {
-        "A": "Water shall be poured into acid",
-        "B": "Acid shall be poured into water; water shall not be poured into acid",
-        "C": "Acid and water shall be poured into the battery at the same time",
-        "D": "Acid shall be heated before water is added"
+        "A": "When cleaning trucks",
+        "B": "When charging batteries",
+        "C": "When filling water mufflers",
+        "D": "When disposing of a used battery"
       },
       "answer": "B",
       "explanation": "1910.178(g)(7) says \"When charging batteries, acid shall be poured into water; water shall not be poured into acid.\"",
@@ -314,12 +314,12 @@
     {
       "id": "qc-018",
       "topic": "Highway trucks, semitrailers and railroad cars",
-      "question": "A powered industrial truck is about to board a highway truck at a dock. What does 1910.178(k)(1) require for the highway truck?",
+      "question": "At a dock, the brakes of a highway truck are set and wheel chocks are placed under its rear wheels. Under 1910.178(k)(1), while what is happening are these steps meant to keep the highway truck from rolling?",
       "options": {
-        "A": "Wheel chocks placed under the front wheels only",
-        "B": "Its engine left running in neutral",
-        "C": "A fixed jack placed under the rear axle",
-        "D": "Its brakes set and wheel chocks placed under the rear wheels"
+        "A": "While its driver rests in the cab",
+        "B": "While it is being fueled",
+        "C": "While it travels on public roads",
+        "D": "While it is boarded with powered industrial trucks"
       },
       "answer": "D",
       "explanation": "1910.178(k)(1) says \"The brakes of highway trucks shall be set and wheel chocks placed under the rear wheels to prevent the trucks from rolling while they are boarded with powered industrial trucks.\"",
@@ -332,12 +332,12 @@
     {
       "id": "qc-019",
       "topic": "Highway trucks, semitrailers and railroad cars",
-      "question": "What does 1910.178(k)(2) say shall be provided to prevent railroad cars from moving during loading or unloading operations?",
+      "question": "A railroad car is being loaded at a siding that has no wheel stops. Which alternative to wheel stops does 1910.178(k)(2) name for preventing the car from moving during the loading?",
       "options": {
-        "A": "A warning sign posted on the dock",
-        "B": "A spotter watching the car",
-        "C": "Wheel stops or other recognized positive protection",
-        "D": "An audible alarm at the dock edge"
+        "A": "A worker who watches the car",
+        "B": "A painted stop line on the rail",
+        "C": "Other recognized positive protection",
+        "D": "A warning sign on the car"
       },
       "answer": "C",
       "explanation": "1910.178(k)(2) says \"Wheel stops or other recognized positive protection shall be provided to prevent railroad cars from moving during loading or unloading operations.\"",
@@ -350,12 +350,12 @@
     {
       "id": "qc-020",
       "topic": "Highway trucks, semitrailers and railroad cars",
-      "question": "A semitrailer is being loaded while it is not coupled to a tractor. What does 1910.178(k)(3) say?",
+      "question": "1910.178(k)(3) says fixed jacks may be necessary to support a semitrailer. Which hazard does it name them as preventing?",
       "options": {
-        "A": "The trailer shall be coupled to a tractor before any loading",
-        "B": "Fixed jacks may be necessary to support the semitrailer and prevent upending",
-        "C": "Only hand trucks may enter the trailer",
-        "D": "The trailer's landing gear shall be removed"
+        "A": "The trailer's tires going flat",
+        "B": "Upending during the loading or unloading",
+        "C": "The dockboard sliding off the trailer",
+        "D": "Theft of the trailer"
       },
       "answer": "B",
       "explanation": "1910.178(k)(3) says \"Fixed jacks may be necessary to support a semitrailer and prevent upending during the loading or unloading when the trailer is not coupled to a tractor.\"",

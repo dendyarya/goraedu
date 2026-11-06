@@ -26,15 +26,15 @@
     {
       "id": "qg-002",
       "topic": "Scope and rated capacity",
-      "question": "Under 1926.602(c)(1)(i), how must the rated capacity of lift trucks, stackers, etc., be posted?",
+      "question": "On a construction site, a lift truck's rated capacity is printed on a plate mounted under the seat, where the operator cannot see it from the controls. Which wording of 1926.602(c)(1)(i) does this placement fail to meet?",
       "options": {
-        "A": "In the employer's equipment log kept at the site office",
-        "B": "On a card carried by the operator",
-        "C": "In the truck's owner manual only",
-        "D": "Clearly posted on the vehicle so as to be clearly visible to the operator"
+        "A": "\"firmly secured to the lifting carriage and/or forks\"",
+        "B": "\"the proportion of the total load carried by any one truck\"",
+        "C": "\"mounted within the periphery of the wheel\"",
+        "D": "\"so as to be clearly visible to the operator\""
       },
       "answer": "D",
-      "explanation": "Lift trucks, stackers, etc., \"shall have the rated capacity clearly posted on the vehicle so as to be clearly visible to the operator.\"",
+      "explanation": "Lift trucks, stackers, etc., \"shall have the rated capacity clearly posted on the vehicle so as to be clearly visible to the operator.\" A plate the operator cannot see does not meet that wording.",
       "source": {
         "title": "eCFR: 29 CFR 1926.602, Material handling equipment (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-O/section-1926.602"
@@ -62,15 +62,15 @@
     {
       "id": "qg-004",
       "topic": "Modifications and loads lifted in unison",
-      "question": "A contractor wants to add equipment to an industrial truck, and the addition affects the truck's capacity. Under 1926.602(c)(1)(ii), what is needed before the addition is made?",
+      "question": "Under 1926.602(c)(1)(ii), which modifications or additions to an industrial truck need the manufacturer's written approval?",
       "options": {
-        "A": "A verbal OK from the site superintendent",
-        "B": "A test lift witnessed by the operator",
-        "C": "The manufacturer's written approval",
-        "D": "A notice posted near the truck for 24 hours"
+        "A": "Only those that add more than 10 percent to the truck's weight",
+        "B": "Only those made by someone other than the manufacturer's dealer",
+        "C": "Those which affect the capacity or safe operation of the equipment",
+        "D": "Only those made to trucks bought after 1979"
       },
       "answer": "C",
-      "explanation": "\"No modifications or additions which affect the capacity or safe operation of the equipment shall be made without the manufacturer's written approval.\"",
+      "explanation": "\"No modifications or additions which affect the capacity or safe operation of the equipment shall be made without the manufacturer's written approval.\" A change affecting either one is covered.",
       "source": {
         "title": "eCFR: 29 CFR 1926.602, Material handling equipment (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-O/section-1926.602"
@@ -80,15 +80,15 @@
     {
       "id": "qg-005",
       "topic": "Modifications and loads lifted in unison",
-      "question": "After modifications or changes are made to an industrial truck, what does 1926.602(c)(1)(ii) say shall be changed accordingly?",
+      "question": "A construction contractor makes an approved change to an industrial truck and updates its plates, tags and decals. What does 1926.602(c)(1)(ii) say shall in no case happen?",
       "options": {
-        "A": "The capacity, operation, and maintenance instruction plates, tags, or decals",
-        "B": "The truck's paint color",
-        "C": "The operator's job title",
-        "D": "The site's emergency phone list"
+        "A": "The original safety factor of the equipment be reduced",
+        "B": "The truck be used by more than one operator",
+        "C": "The truck be moved to another job site",
+        "D": "The truck be rented to another contractor"
       },
       "answer": "A",
-      "explanation": "\"If such modifications or changes are made, the capacity, operation, and maintenance instruction plates, tags, or decals shall be changed accordingly. In no case shall the original safety factor of the equipment be reduced.\"",
+      "explanation": "If such modifications or changes are made, the plates, tags, or decals \"shall be changed accordingly. In no case shall the original safety factor of the equipment be reduced.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.602, Material handling equipment (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-O/section-1926.602"
@@ -100,10 +100,10 @@
       "topic": "Modifications and loads lifted in unison",
       "question": "Two industrial trucks work in unison to lift one load. What does 1926.602(c)(1)(iii) limit?",
       "options": {
-        "A": "The total load may not exceed the capacity of the smaller truck alone",
+        "A": "Only the lead truck's operator may control the lift",
         "B": "The proportion of the total load carried by any one truck shall not exceed its capacity",
         "C": "The trucks may travel only in reverse",
-        "D": "The load must be lifted no higher than the height of the shorter mast"
+        "D": "No more than two trucks may share one load"
       },
       "answer": "B",
       "explanation": "\"If a load is lifted by two or more trucks working in unison, the proportion of the total load carried by any one truck shall not exceed its capacity.\"",
