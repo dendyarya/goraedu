@@ -209,6 +209,8 @@ const SNAPSHOTS: Record<string, string[]> = {
     "29cfr1926-1424-2026-11-04.reading-order.txt",
     "29cfr1926-1427-2026-11-04.txt",
     "29cfr1926-1427-2026-11-04.reading-order.txt",
+    "29cfr1926-1428-2026-11-04.txt",
+    "29cfr1926-1428-2026-11-04.reading-order.txt",
     "29cfr1926-1431-2026-11-04.txt",
     "29cfr1926-1431-2026-11-04.reading-order.txt",
   ],
@@ -308,6 +310,7 @@ const PAGE_TITLES = [
   "Work area control.",
   "Operator training, certification, and evaluation.",
   "Hoisting personnel.",
+  "Signal person qualifications.",
 ];
 
 function stripPageChrome(text: string): string {

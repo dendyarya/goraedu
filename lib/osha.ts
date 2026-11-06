@@ -189,6 +189,12 @@ const CRANE_SETS: OshaSet[] = [
   },
   { slug: "crane-signals", name: "Signals", rule: "29 CFR 1926.1419", focus: null },
   {
+    slug: "crane-signal-person-qualification",
+    name: "Signal person qualifications",
+    rule: "29 CFR 1926.1428",
+    focus: null,
+  },
+  {
     slug: "crane-operator-qualification",
     name: "Operator training, certification and evaluation",
     rule: "29 CFR 1926.1427",
