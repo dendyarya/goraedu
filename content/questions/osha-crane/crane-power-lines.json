@@ -242,15 +242,15 @@
     {
       "id": "kp-014",
       "topic": "Voltage information and Table A",
-      "question": "What minimum clearance distance does Table A of 1926.1408 set for a nominal voltage over 50 to 200 kV?",
+      "question": "In Table A of 1926.1408, in what terms are the voltages in the first column stated?",
       "options": {
-        "A": "6 feet",
-        "B": "30 feet",
-        "C": "40 feet",
-        "D": "15 feet"
+        "A": "Peak kV, direct current",
+        "B": "Volts measured at the customer's meter",
+        "C": "Line-to-ground kV, direct current",
+        "D": "Nominal kV, alternating current"
       },
       "answer": "D",
-      "explanation": "Table A lists \"over 50 to 200\" kV with a minimum clearance distance of 15 feet.",
+      "explanation": "The voltage column of Table A is headed \"Voltage (nominal, kV, alternating current)\", and each row gives a \"Minimum clearance distance (feet)\".",
       "source": {
         "title": "eCFR: 29 CFR 1926.1408, Power line safety (up to 350 kV)—equipment operations (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1408"
