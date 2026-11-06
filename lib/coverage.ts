@@ -174,4 +174,16 @@ export const COVERAGE: Record<string, Coverage> = {
       },
     ],
   },
+  "industrial-radiography": {
+    official:
+      "To act as a radiographer under an NRC license, a person needs the training, on-the-job training and certification set out in 10 CFR 34.43, through a certifying entity that meets the rule's criteria.",
+    ours: "These pages cover the NRC rule text in 10 CFR Part 34. Certifying-entity exams and study material, radiation physics, other NRC rules and guidance, and Agreement State rules are not covered.",
+    links: [
+      {
+        title:
+          "eCFR: 10 CFR Part 34, Licenses for Industrial Radiography and Radiation Safety Requirements for Industrial Radiographic Operations",
+        url: "https://www.ecfr.gov/current/title-10/chapter-I/part-34",
+      },
+    ],
+  },
 };

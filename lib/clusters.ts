@@ -14,7 +14,7 @@ export type Cluster = {
   href?: string;
 };
 
-export type FamilyIcon = "hvac" | "truck" | "helmet" | "drop" | "house" | "leaf" | "drone";
+export type FamilyIcon = "hvac" | "truck" | "helmet" | "drop" | "house" | "leaf" | "scan" | "drone";
 export type Family = { name: string; icon: FamilyIcon; clusters: Cluster[] };
 
 export const FAMILIES: Family[] = [
@@ -151,6 +151,20 @@ export const FAMILIES: Family[] = [
         source: "U.S. EPA, 40 CFR Part 171",
         status: "available",
         href: "/pesticide-applicator/",
+      },
+    ],
+  },
+  {
+    name: "Inspection and testing",
+    icon: "scan",
+    clusters: [
+      {
+        id: "industrial-radiography",
+        name: "Industrial radiography (NRC rules)",
+        summary:
+          "The NRC rules for industrial radiography: radiographer training and certification, equipment, sealed sources, surveys and records.",
+        source: "U.S. NRC, 10 CFR Part 34",
+        status: "next",
       },
     ],
   },

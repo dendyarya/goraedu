@@ -14,7 +14,8 @@ export type OshaClusterId =
   | "forklift"
   | "faa-amt"
   | "asbestos"
-  | "pesticide-applicator";
+  | "pesticide-applicator"
+  | "industrial-radiography";
 
 const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "intro-to-osha", name: "Introduction to OSHA", rule: "29 CFR Parts 1903 and 1904", focus: null },
@@ -410,6 +411,36 @@ const PESTICIDE_SETS: OshaSet[] = [
   },
 ];
 
+const RADIOGRAPHY_SETS: OshaSet[] = [
+  {
+    slug: "training-certification",
+    name: "Training, certification and supervision",
+    rule: "10 CFR 34.41 to 34.46 and 34.79",
+    focus: null,
+  },
+  {
+    slug: "equipment-sources",
+    name: "Equipment, sealed sources and storage",
+    rule: "10 CFR 34.20 to 34.35",
+    focus: null,
+  },
+  {
+    slug: "operations-surveys",
+    name: "Operations, monitoring, surveys and posting",
+    rule: "10 CFR 34.41 to 34.53",
+    focus: null,
+  },
+  {
+    slug: "licensing-records",
+    name: "Licensing, records and notifications",
+    rule: "10 CFR 34.1 to 34.13, 34.61 to 34.101",
+    focus: null,
+  },
+];
+
+export const RADIOGRAPHY_INDEPENDENCE_TEXT =
+  "goraedu does not train, test or certify radiographers, and our questions are not a certification exam. Not affiliated with or endorsed by the U.S. Nuclear Regulatory Commission, any Agreement State or any certifying entity.";
+
 export const PESTICIDE_INDEPENDENCE_TEXT =
   "goraedu does not train, test or certify pesticide applicators, and our questions are not a State, Tribal or Federal certification exam. Not affiliated with or endorsed by the U.S. EPA or any State, Tribal or Federal certifying authority.";
 
@@ -487,6 +518,15 @@ export const OSHA_CLUSTERS: Record<
     sets: ASBESTOS_SETS,
     independence: ASBESTOS_INDEPENDENCE_TEXT,
     notFrom: "any accredited asbestos course, accreditation exam, training handout or prep material",
+  },
+  "industrial-radiography": {
+    id: "industrial-radiography",
+    label: "Industrial radiography",
+    href: "/industrial-radiography/",
+    part: "10 CFR Part 34",
+    sets: RADIOGRAPHY_SETS,
+    independence: RADIOGRAPHY_INDEPENDENCE_TEXT,
+    notFrom: "any radiographer certification exam, certifying-entity study guide, training course or prep material",
   },
   "pesticide-applicator": {
     id: "pesticide-applicator",

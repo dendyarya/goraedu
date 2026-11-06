@@ -26,6 +26,13 @@ const PATHS: Record<FamilyIcon | "source" | "free" | "refresh" | "check", React.
     </>
   ),
   drop: <path d="M12 3.2c3.2 4 5.8 7.4 5.8 10.5a5.8 5.8 0 0 1-11.6 0c0-3.1 2.6-6.5 5.8-10.5z" />,
+  scan: (
+    <>
+      <circle cx="12" cy="12" r="7.5" />
+      <circle cx="12" cy="12" r="3" />
+      <path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3" />
+    </>
+  ),
   leaf: (
     <>
       <path d="M5 19c0-8 5-13.5 14.5-14.5C19.5 14 14 19 6.5 19z" />
@@ -107,6 +114,7 @@ const TINT: Record<FamilyIcon, string> = {
   helmet: "bg-hose-soft text-hose-ink",
   drop: "bg-low-soft text-low",
   leaf: "bg-hose-soft text-hose-ink",
+  scan: "bg-high-soft text-high",
   house: "bg-low-soft text-low",
   drone: "bg-low-soft text-low",
 };

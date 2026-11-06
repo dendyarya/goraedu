@@ -154,4 +154,12 @@ export const TOOLS: Tool[] = [
     summary:
       "Find when a restricted use pesticide applicator certification expires under the five-year federal limit in 40 CFR 171.107(a).",
   },
+  {
+    slug: "due-dates",
+    cluster: "industrial-radiography",
+    name: "Industrial radiography due dates",
+    href: "/industrial-radiography/tools/due-dates/",
+    summary:
+      "Latest next dates for leak tests, survey instrument calibration, quarterly inspections, refresher training and job performance checks under 10 CFR Part 34.",
+  },
 ];

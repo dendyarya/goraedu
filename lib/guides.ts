@@ -88,8 +88,10 @@ const SNAPSHOTS: Record<string, string[]> = {
     "29cfr1926-1153-2026-11-03.reading-order.txt",
     "29cfr1910-1200-2026-11-03.txt",
     "29cfr1910-1200-2026-11-03.reading-order.txt",
+    "29cfr1926-subpartJ-2026-11-04.txt",
   ],
   "osha-general-industry": [
+    "29cfr1910-269-2026-11-04.txt",
     "29cfr1910-subpartD-2026-11-03.txt",
     "29cfr1910-subpartD-2026-11-03.reading-order.txt",
     "29cfr1910-subpartE-2026-11-03.txt",
@@ -224,6 +226,7 @@ const SNAPSHOTS: Record<string, string[]> = {
     "40cfr745-103-2026-11-04.reading-order.txt",
   ],
   "pesticide-applicator": ["40cfr171-2026-11-04.txt"],
+  "industrial-radiography": ["10cfr34-2026-11-04.txt"],
   asbestos: [
     "29cfr1926-1101-2026-11-04.txt",
     "29cfr1926-1101-2026-11-04.reading-order.txt",
