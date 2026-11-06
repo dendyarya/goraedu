@@ -8,15 +8,15 @@
     {
       "id": "vc-001",
       "topic": "Applying and eligibility",
-      "question": "Under 14 CFR 65.91(c)(1), what certificate must an applicant for an inspection authorization hold?",
+      "question": "An applicant shows that every requirement of 65.91 is met. What does 65.91(b) say about that applicant?",
       "options": {
-        "A": "A currently effective mechanic certificate with either an airframe rating or a powerplant rating",
-        "B": "A currently effective mechanic certificate with both an airframe rating and a powerplant rating, each currently effective and in effect for a total of at least 3 years",
-        "C": "A repairman certificate issued for the repair station where the applicant works",
-        "D": "A mechanic certificate with an airframe rating and at least a private pilot certificate"
+        "A": "The applicant may receive an inspection authorization only if the Flight Standards office decides one is needed in the area",
+        "B": "The applicant is entitled to an inspection authorization",
+        "C": "The applicant must first work for one year under the supervision of another inspection authorization holder",
+        "D": "The applicant must also hold at least a private pilot certificate"
       },
       "answer": "B",
-      "explanation": "The applicant must \"Hold a currently effective mechanic certificate with both an airframe rating and a powerplant rating, each of which is currently effective and has been in effect for a total of at least 3 years\".",
+      "explanation": "65.91(b) states: \"An applicant who meets the requirements of this section is entitled to an inspection authorization.\"",
       "source": {
         "title": "eCFR: 14 CFR 65.91, Inspection authorization (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.91"
@@ -80,15 +80,15 @@
     {
       "id": "vc-005",
       "topic": "Base, equipment and the written test",
-      "question": "An applicant fails the written test prescribed in 65.91(c)(5). What waiting period does 65.91 set before the applicant may apply for retesting?",
+      "question": "What does 65.91(c)(4) require an applicant for an inspection authorization to have available?",
       "options": {
-        "A": "At least 30 days after the date of the failed test",
-        "B": "At least 60 days after the date of the failed test",
-        "C": "At least 90 days after the date of the failed test",
-        "D": "At least 180 days after the date of the failed test"
+        "A": "A hangar owned by the applicant at the fixed base of operations",
+        "B": "A written approval from a certificated repair station",
+        "C": "The equipment, facilities, and inspection data necessary to properly inspect airframes, powerplants, propellers, or any related part or appliance",
+        "D": "An aircraft the applicant may use for test flights after inspections"
       },
       "answer": "C",
-      "explanation": "An applicant who fails the test \"may not apply for retesting until at least 90 days after the date he failed the test.\"",
+      "explanation": "The applicant must \"Have available to him the equipment, facilities, and inspection data necessary to properly inspect airframes, powerplants, propellers, or any related part or appliance\".",
       "source": {
         "title": "eCFR: 14 CFR 65.91, Inspection authorization (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.91"
@@ -98,15 +98,15 @@
     {
       "id": "vc-006",
       "topic": "Duration and when an IA stops being effective",
-      "question": "Under 65.92(a), when does each inspection authorization expire?",
+      "question": "Under 65.92(b), which of these events makes an inspection authorization cease to be effective?",
       "options": {
-        "A": "On March 31 of each odd-numbered year",
-        "B": "On December 31 of each even-numbered year",
-        "C": "On the last day of the 24th month after the month it was issued",
-        "D": "It does not expire while the holder's mechanic certificate is effective"
+        "A": "The authorization is surrendered, suspended, or revoked",
+        "B": "The holder's lost mechanic certificate is replaced",
+        "C": "The holder starts using a different telephone number at the fixed base",
+        "D": "The holder begins inspecting aircraft away from the fixed base"
       },
       "answer": "A",
-      "explanation": "65.92(a) states: \"Each inspection authorization expires on March 31 of each odd-numbered year.\"",
+      "explanation": "An inspection authorization \"ceases to be effective whenever any of the following occurs\", including \"The authorization is surrendered, suspended, or revoked.\"",
       "source": {
         "title": "eCFR: 14 CFR 65.92, Inspection authorization: Duration (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.92"
@@ -224,15 +224,15 @@
     {
       "id": "vc-013",
       "topic": "Renewal activities and exceptions",
-      "question": "Which of these is one of the activities listed in 65.93(a)(1) through (5)?",
+      "question": "An inspection authorization holder completed one of the activities in 65.93(a)(1) through (5) before March 31 of the first year. What does 65.93(a) require for the second year of the 2-year period?",
       "options": {
-        "A": "Performed or supervised and approved at least one progressive inspection in accordance with standards prescribed by the Administrator",
-        "B": "Logged flight time as pilot in command",
-        "C": "Supervised a student at an aviation maintenance school",
-        "D": "Overhauled at least one engine"
+        "A": "Completion of one of the five activities during the second year",
+        "B": "Nothing more, because the first-year activity covers both years",
+        "C": "Completion of two of the activities during the second year",
+        "D": "Passing the written test in 65.91(c)(5) again"
       },
       "answer": "A",
-      "explanation": "One listed activity is: \"Performed or supervised and approved at least one progressive inspection in accordance with standards prescribed by the Administrator\".",
+      "explanation": "The applicant must show completion of one activity \"by March 31 of the first year of the 2-year inspection authorization period, and completion of one of the five activities during the second year of the 2-year period\".",
       "source": {
         "title": "eCFR: 14 CFR 65.93, Inspection authorization: Renewal (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.93"
@@ -242,15 +242,15 @@
     {
       "id": "vc-014",
       "topic": "Renewal activities and exceptions",
-      "question": "Under 65.93(a)(4), how long must a refresher course acceptable to the Administrator be?",
+      "question": "An inspection authorization took effect 60 days before March 31 of an even-numbered year. What does 65.93(b)(2) say about the activities in paragraphs (a)(1) through (5)?",
       "options": {
-        "A": "Not less than 4 hours of instruction",
-        "B": "Not less than 16 hours of instruction",
-        "C": "Not less than 24 hours of instruction",
-        "D": "Not less than 8 hours of instruction"
+        "A": "The holder must complete two of the activities in the first year instead of one",
+        "B": "The holder must pass an oral test from an FAA inspector before exercising any privileges",
+        "C": "The holder must complete one activity within 60 days",
+        "D": "The holder need not comply with them for the first year of the 2-year inspection authorization period"
       },
       "answer": "D",
-      "explanation": "The activity is: \"Attended and successfully completed a refresher course, acceptable to the Administrator, of not less than 8 hours of instruction\".",
+      "explanation": "An inspection authorization in effect \"for less than 90 days before March 31 of an even-numbered year need not comply with paragraphs (a)(1) through (5) of this section for the first year of the 2-year inspection authorization period.\"",
       "source": {
         "title": "eCFR: 14 CFR 65.93, Inspection authorization: Renewal (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.93"
