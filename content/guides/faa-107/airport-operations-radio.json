@@ -1,0 +1,543 @@
+{
+  "cluster": "faa-107",
+  "slug": "airport-operations-radio",
+  "href": "/faa-107/airport-operations-radio/study-guide/",
+  "title": "FAA Part 107 airport operations, radio and emergencies study guide",
+  "description": "Part 107 study guide: in-flight emergencies and reporting, preflight briefings, radio use, non-towered airports, call signs, airport data and charts.",
+  "intro": "This guide covers the airport operations, radio communication and emergency procedures knowledge areas for the Remote Pilot knowledge test. The background points come from the FAA Remote Pilot Study Guide (FAA-G-8082-22). That guide dates from August 2016, before the 2021 Part 107 amendments, so it is used here only for non-regulatory knowledge such as radio practice, airport information and charts. Every rule (in-flight emergencies, safety event reporting, the condition for safe operation, preflight briefings, who may manipulate the flight controls, airports and right of way) is taken from the current 14 CFR Part 107 text. goraedu is an independent study site; these points are not the FAA test. Every point links to its source and quotes its exact words.",
+  "topics": [
+    {
+      "id": "emergencies",
+      "name": "In-flight emergencies and reporting",
+      "points": [
+        {
+          "text": "The Study Guide describes an inflight emergency as usually an unexpected and unforeseen event that can have serious consequences for an unprepared remote pilot.",
+          "quote": "An inflight emergency is usually an unexpected and unforeseen event that can have serious consequences for an unprepared remote pilot.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In an in-flight emergency requiring immediate action, the remote pilot in command may deviate from any rule of Part 107 to the extent necessary to meet that emergency.",
+          "quote": "In an in-flight emergency requiring immediate action, the remote pilot in command may deviate from any rule of this part to the extent necessary to meet that emergency.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.21, In-flight emergency (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.21"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A remote pilot in command who deviates from a rule because of an in-flight emergency must send a written report of that deviation to the Administrator upon the Administrator's request.",
+          "quote": "Each remote pilot in command who deviates from a rule under paragraph (a) of this section must, upon request of the Administrator, send a written report of that deviation to the Administrator.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.21, In-flight emergency (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.21"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Study Guide gives an example: if the small UA has a battery fire during a flight, the remote pilot may need to climb it above 400 feet AGL to maneuver to a safe landing area.",
+          "quote": "For example, if during a flight the small UA experiences as battery fire, the remote pilot may need to climb the small UA above 400' AGL to maneuver to a safe landing area.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The remote pilot in command must ensure that the small unmanned aircraft will pose no undue hazard to other people, other aircraft or other property if control of it is lost for any reason.",
+          "quote": "The remote pilot in command must ensure that the small unmanned aircraft will pose no undue hazard to other people, other aircraft, or other property in the event of a loss of control of the small unmanned aircraft for any reason.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.19, Remote pilot in command (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.19"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "No later than 10 calendar days after the operation, the remote pilot in command must report to the FAA, in a manner acceptable to the Administrator, any operation of the small unmanned aircraft involving at least serious injury to any person or any loss of consciousness.",
+          "quote": "No later than 10 calendar days after an operation that meets the criteria of either paragraph (a) or (b) of this section, a remote pilot in command must report to the FAA, in a manner acceptable to the Administrator, any operation of the small unmanned aircraft involving at least: (a) Serious injury to any person or any loss of consciousness; or",
+          "source": {
+            "title": "eCFR: 14 CFR 107.9, Safety event reporting (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.9"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The same report is required for damage to any property other than the small unmanned aircraft, unless the cost of repair (including materials and labor) does not exceed $500, or the fair market value of the property does not exceed $500 in the event of total loss.",
+          "quote": "(b) Damage to any property, other than the small unmanned aircraft, unless one of the following conditions is satisfied: (1) The cost of repair (including materials and labor) does not exceed $500; or (2) The fair market value of the property does not exceed $500 in the event of total loss.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.9, Safety event reporting (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.9"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The Study Guide's emergency chapter dates from 2016. The reporting duties here are taken from the current text of 14 CFR 107.9 and 107.21, not from the Study Guide. How to file a report with the FAA is not covered."
+    },
+    {
+      "id": "preflight-briefing",
+      "name": "Preflight inspection and crew briefing",
+      "points": [
+        {
+          "text": "The Study Guide says a remote pilot is responsible for the safe operation of the small UA at all times.",
+          "quote": "A remote pilot is responsible for the safe operation of the small UA at all times.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "No person may operate a civil small UAS unless it is in a condition for safe operation, and the remote pilot in command must check it before each flight to determine whether it is.",
+          "quote": "No person may operate a civil small unmanned aircraft system unless it is in a condition for safe operation. Prior to each flight, the remote pilot in command must check the small unmanned aircraft system to determine whether it is in a condition for safe operation.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.15, Condition for safe operation (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Some small UA manufacturers provide preflight inspection items. For a small UA without a manufacturer checklist, the Study Guide says the remote pilot should develop a checklist that gives enough information for the aircraft to be operated in a safe condition.",
+          "quote": "Some small UA manufacturers will provide the remote pilot with preflight inspection items. For those small UAs that do not have a manufacturer checklist, the remote should develop a checklist that will provide enough information that the aircraft will be operated in a safe condition.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Before flight, the remote pilot in command must ensure that all persons directly participating in the operation are informed about the operating conditions, emergency procedures, contingency procedures, roles and responsibilities, and potential hazards.",
+          "quote": "Ensure that all persons directly participating in the small unmanned aircraft operation are informed about the operating conditions, emergency procedures, contingency procedures, roles and responsibilities, and potential hazards;",
+          "source": {
+            "title": "eCFR: 14 CFR 107.49, Preflight familiarization, inspection, and actions for aircraft operation (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Study Guide says that when other crew members are used, all of them must be briefed on the flight and its planned emergency procedures, and that the briefing is given to any visual observers (VOs) used and to any non-certificated person allowed to manipulate the flight controls.",
+          "quote": "When other crew members are used during a flight, all of those crew members must be briefed on the flight and the planned emergency procedures for the flight. The briefing will be given to any visual observers (VO) that might be used and any non-certificated person who is allowed to manipulate the flight controls of the small UA.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Except as provided in 107.12(c), no person may manipulate the flight controls of a small UAS unless that person has a remote pilot certificate with a small UAS rating and satisfies 107.65, or is under the direct supervision of a remote pilot in command who has the ability to immediately take direct control of the flight.",
+          "quote": "(a) Except as provided in paragraph (c) of this section, no person may manipulate the flight controls of a small unmanned aircraft system unless: (1) That person has a remote pilot certificate with a small UAS rating issued pursuant to subpart C of this part and satisfies the requirements of § 107.65; or (2) That person is under the direct supervision of a remote pilot in command and the remote pilot in command has the ability to immediately take direct control of the flight of the small unmanned aircraft.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.12, Requirement for a remote pilot certificate with a small UAS rating (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.12"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The Study Guide's maintenance and preflight inspection chapter only refers to chapter 7 of Advisory Circular 107-2, which is not among this guide's sources, so maintenance practices are not summarized here."
+    },
+    {
+      "id": "radio-use",
+      "name": "Radio use by remote pilots",
+      "points": [
+        {
+          "text": "Through radio communications, pilots give and receive information before, during and at the conclusion of a flight.",
+          "quote": "It is through radio communications that pilots give and receive information before, during and at the conclusion of a flight.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Small UA pilots are not expected to communicate over radio frequencies, but the Study Guide says it is important for them to understand \"aviation language\" and the conversations they will hear if they use a radio for situational awareness.",
+          "quote": "Although small UA pilots are not expected to communicate over radio frequencies, it is important for the UA pilot to understand \"aviation language\" and the different conversations they will encounter if the UA pilot is using a radio to aid them in situational awareness when operating in the NAS.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Pilot/Controller Glossary in the Aeronautical Information Manual (AIM) helps a pilot understand standard radio terminology, and the AIM contains many examples of radio communications.",
+          "quote": "A review of the Pilot/Controller Glossary contained in the AIM assists a pilot in understanding standard radio terminology. The AIM also contains many examples of radio communications.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "ICAO has adopted a phonetic alphabet that should be used in radio communications; when communicating with ATC, pilots should use it to identify their aircraft.",
+          "quote": "ICAO has adopted a phonetic alphabet that should be used in radio communications. When communicating with ATC, pilots should use this alphabet to identify their aircraft.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Study Guide notes that Part 107 only requires the remote pilot to receive authorization to operate in certain airport areas, and that having a radio to monitor the appropriate frequencies in the area can be a good operating practice.",
+          "quote": "Although 14 CFR part 107 only requires the remote pilot to receive authorization to operate in certain airport areas, it can be a good operating practice to have a radio that will allow the remote pilot to monitor the appropriate frequencies in the area.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A remote pilot is not expected to communicate with other aircraft in the vicinity of an airport and should not do so unless there is an emergency situation.",
+          "quote": "To close, a remote pilot is not expected to communicate with other aircraft in the vicinity of an airport, and should not do so unless there is an emergency situation.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "non-towered",
+      "name": "Non-towered airports and traffic advisories",
+      "points": [
+        {
+          "text": "The Study Guide says there is no substitute for alertness near an airport. Looking for other traffic matters especially at an airport without an operating control tower, because other aircraft may not have communication capability, or their pilots may not communicate their presence or intentions.",
+          "quote": "There is no substitute for alertness while in the vicinity of an airport. It is essential that pilots be alert and look for other traffic a when operating at an airport without an operating control tower. This is of particular importance since other aircraft may not have communication capability or, in some cases, pilots may not communicate their presence or intentions when operating into or out of such airports.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Study Guide says that to achieve the greatest degree of safety, it is essential that all radio-equipped aircraft transmit and receive on a common frequency and that small UA pilots monitor other aircraft identified for airport advisories.",
+          "quote": "To achieve the greatest degree of safety, it is essential that all radio-equipped aircraft transmit/receive on a common frequency and small UA pilots monitor other aircraft identified for the purpose of airport advisories.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "At a non-towered airport, two-way radio communications are not required, although monitoring other aircraft on the specified frequency is a good operating practice.",
+          "quote": "A non-towered airport does not have an operating control tower. Two-way radio communications are not required, although it is a good operating practice for pilots to monitor other aircraft on the specified frequency for the benefit of other traffic in the area.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "UNICOM is a nongovernment air/ground radio communication station that may provide airport information at public use airports where there is no tower or FSS.",
+          "quote": "UNICOM is a nongovernment air/ground radio communication station that may provide airport information at public use airports where there is no tower or FSS.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The CTAF may be a UNICOM, MULTICOM, FSS or tower frequency and is identified in appropriate aeronautical publications.",
+          "quote": "The CTAF may be a UNICOM, MULTICOM, FSS, or tower frequency and is identified in appropriate aeronautical publications.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A remote pilot in command is not required to communicate with manned aircraft near a non-towered airport, but the Study Guide says safety in the National Airspace System requires remote pilots to be familiar with traffic patterns, radio procedures and radio phraseology.",
+          "quote": "Although a remote pilot-in-command is not required to communicate with manned aircraft when in the vicinity of a non-towered airport, safety in the National Airspace System requires that remote pilots are familiar with traffic patterns, radio procedures, and radio phraseology.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When planning to operate close to a non-towered airport, the first step in radio procedures is to identify the appropriate frequencies.",
+          "quote": "When a remote pilot plans to operate close to a non-towered airport, the first step in radio procedures is to identify the appropriate frequencies.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Non-towered airport traffic patterns are always entered at pattern altitude; how a pilot enters the pattern depends on the direction of arrival.",
+          "quote": "Non-towered airport traffic patterns are always entered at pattern altitude. How you enter the pattern depends upon the direction of arrival.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "No person may operate a small unmanned aircraft in a manner that interferes with operations and traffic patterns at any airport, heliport or seaplane base.",
+          "quote": "No person may operate a small unmanned aircraft in a manner that interferes with operations and traffic patterns at any airport, heliport, or seaplane base.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.43, Operation in the vicinity of airports (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each small unmanned aircraft must yield the right of way to all aircraft, airborne vehicles, and launch and reentry vehicles; yielding means giving way and not passing over, under or ahead of the aircraft or vehicle unless well clear.",
+          "quote": "Each small unmanned aircraft must yield the right of way to all aircraft, airborne vehicles, and launch and reentry vehicles. Yielding the right of way means that the small unmanned aircraft must give way to the aircraft or vehicle and may not pass over, under, or ahead of it unless well clear.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.37, Operation near aircraft; right-of-way rules (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.37"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "position-reports",
+      "name": "Position reports and call signs",
+      "points": [
+        {
+          "text": "When a manned aircraft is inbound to a non-towered airport, the standard operating practice is for the pilot to \"broadcast in the blind\" when 10 miles from the airport, and that first call includes the aircraft's position north, south, east or west of the airport.",
+          "quote": "When a manned aircraft is inbound to a non-towered airport, the standard operating practice is for the pilot to \"broadcast in the blind\" when 10 miles from the airport. This initial radio call will also include the position the aircraft is in relation to north, south, east or west from the airport.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A manned aircraft broadcasting at a non-towered airport should use the name of the airport of intended landing at the beginning and again at the end of the broadcast, so that others on the frequency can confirm where the aircraft is going.",
+          "quote": "When a manned aircraft is broadcasting at a non-towed airport, the aircraft should use the name of the airport of intended landing at the beginning of the broadcast, and again at the end of the broadcast. The reason for stating the name twice is to allow others who are on the frequency to confirm where the aircraft is going.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Instead of entering the typical rectangular traffic pattern, an aircraft could land straight-in; aircraft executing an instrument approach usually use this method.",
+          "quote": "Or, the aircraft could land straight-in without entering the typical rectangular traffic pattern. Usually aircraft that are executing an instrument approach will use this method.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Radio broadcasts by manned aircraft near a non-towered airport are good operating procedure but not mandatory by regulation, so a remote pilot must always look for other aircraft in the area and use a radio as an extra layer of situational awareness.",
+          "quote": "While it is good operating procedures for manned aircraft to make radio broadcasts in the vicinity of a non-towered airport, by regulation, it is not mandatory. For this reason, a remote pilot must always look for other aircraft in the area, and use a radio for an extra layer of situational awareness.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In most cases, \"November\" in a call sign is replaced with the aircraft manufacturer's name (make) or, in some cases, the type of aircraft (model); for a light general aviation (GA) aircraft, the manufacturer's name is usually used.",
+          "quote": "In most cases, \"November\" will be replaced with either the aircraft manufacturer's name (make) and in some cases, the type of aircraft (model). Usually, when the aircraft is a light general aviation (GA) aircraft, the manufacturer's name will be used.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For a heavier GA aircraft, such as a turbo-prop or turbo-jet, the aircraft's model is used in the call sign.",
+          "quote": "If the aircraft is a heavier GA aircraft, such as a turbo-prop, or turbo-jet, the aircraft's model will be used in the call sign.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Airliners typically use their company name and flight number as the call sign, although a few airlines, such as British Airways (\"Speedbird\"), do not use the company name.",
+          "quote": "Typically, airliners will use the name of their companies and their flight number in their call signs. For example, Southwest Airlines flight 711, would be said as, \"Southwest-Seven-One-One.\" There are a few airlines such as British Airways who will not use the company name in their call sign. For example, British Airways uses \"Speedbird.\"",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The Study Guide's sample radio calls are not reproduced here; read chapter 7 of the Study Guide for them."
+    },
+    {
+      "id": "airports",
+      "name": "Airport types and airport information",
+      "points": [
+        {
+          "text": "An airport is any area of land or water used or intended for landing or takeoff of aircraft, including seaplane bases, heliports and facilities for tilt rotor aircraft.",
+          "quote": "The definition for airports refers to any area of land or water used or intended for landing or takeoff of aircraft. This includes, within the five categories of airports listed below, special types of facilities including seaplane bases, heliports, and facilities to accommodate tilt rotor aircraft.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "There are two types of airports: towered and non-towered.",
+          "quote": "There are two types of airports—towered and non-towered.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Private airports are designated for private or restricted use only and are not open to the general public.",
+          "quote": "Private Airports—airports designated for private or restricted use only, not open to the general public.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A towered airport has an operating control tower; ATC is responsible for providing the safe, orderly and expeditious flow of air traffic at airports where the type of operations and/or volume of traffic requires such a service.",
+          "quote": "A towered airport has an operating control tower. Air traffic control (ATC) is responsible for providing the safe, orderly, and expeditious flow of air traffic at airports where the type of operations and/or volume of traffic requires such a service.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When operating near an airport, the Study Guide says it is important to review that airport's current data, such as communication frequencies, services available, closed runways or airport construction.",
+          "quote": "When a remote pilot operates in the vicinity of an airport, it is important to review the current data for that airport. This data provides the pilot with information, such as communication frequencies, services available, closed runways, or airport construction.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Chart Supplement U.S. (formerly Airport/Facility Directory) gives the most comprehensive information on a given airport and covers airports, heliports and seaplane bases that are open to the public.",
+          "quote": "The Chart Supplement U.S. (formerly Airport/Facility Directory) provides the most comprehensive information on a given airport. It contains information on airports, heliports, and seaplane bases that are open to the public.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Chart Supplement U.S. is published in seven books, organized by regions and revised every 56 days.",
+          "quote": "The Chart Supplement U.S. is published in seven books, which are organized by regions and are revised every 56 days.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "NOTAMs contain information such as taxiway and runway closures, construction, communications, changes in status of navigational aids, and other information essential to planned en route, terminal or landing operations; a remote pilot can use this information to help make an informed decision about where and when to operate the small UA.",
+          "quote": "Although NOTAMs contain information such as taxiway and runway closures, construction, communications, changes in status of navigational aids, and other information essential to planned en route, terminal, or landing operations, a remote pilot can use this information to help them make an informed decision about where and when to operate their small UA.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Important information broadcast on ATIS includes weather, runways in use, specific ATC procedures, and any airport construction activity that could affect taxi planning.",
+          "quote": "Important information is broadcast on ATIS including weather, runways in use, specific ATC procedures, and any airport construction activity that could affect taxi planning.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each ATIS recording is given a code that changes with every update, for example ATIS Alpha is replaced by ATIS Bravo.",
+          "quote": "When the ATIS is recorded, it is given a code. This code is changed with every ATIS update. For example, ATIS Alpha is replaced by ATIS Bravo.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The Chart Supplement figure and legend in the Study Guide are not described here. The 56-day cycle and seven-book format are as stated in the 2016 Study Guide."
+    },
+    {
+      "id": "charts-obstructions",
+      "name": "Charts, magnetic variation and obstructions",
+      "points": [
+        {
+          "text": "Sectional charts are the most common charts used by pilots. They have a scale of 1:500,000 (1 inch = 6.86 nautical miles, or approximately 8 statute miles).",
+          "quote": "Sectional charts are the most common charts used by pilots today. The charts have a scale of 1:500,000 (1 inch = 6.86 nautical miles (NM) or approximately 8 statute miles (SM)), which allows for more detailed information to be included on the chart.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Circles parallel to the equator are parallels of latitude, used to measure degrees of latitude north or south of the equator. The angular distance from the equator to the pole is 90°, and the 48 conterminous states lie between 25° and 49° N latitude.",
+          "quote": "Circles parallel to the equator (lines running east and west) are parallels of latitude. They are used to measure degrees of latitude north (N) or south (S) of the equator. The angular distance from the equator to the pole is one-fourth of a circle or 90°. The 48 conterminous states of the United States are located between 25° and 49° N latitude.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Meridians of longitude run from the North Pole to the South Pole at right angles to the Equator. The Prime Meridian through Greenwich, England, is the zero line from which degrees east and west are measured to 180°.",
+          "quote": "Meridians of longitude are drawn from the North Pole to the South Pole and are at right angles to the Equator. The \"Prime Meridian,\" which passes through Greenwich, England, is used as the zero line from which measurements are made in degrees east (E) and west (W) to 180°.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Variation is the angle between true north (TN) and magnetic north (MN), expressed as east or west variation depending on whether MN is east or west of TN.",
+          "quote": "Variation is the angle between true north (TN) and magnetic north (MN). It is expressed as east variation or west variation depending upon whether MN is to the east or west of TN.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The amount and direction of variation, which change slightly from time to time, are shown on most aeronautical charts as broken magenta isogonic lines connecting points of equal magnetic variation; the line where there is no variation is the agonic line.",
+          "quote": "The amount and the direction of variation, which change slightly from time to time, are shown on most aeronautical charts as broken magenta lines called isogonic lines that connect points of equal magnetic variation. (The line connecting points at which there is no variation between TN and MN is the agonic line.)",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Most skeletal structures are supported by guy wires, which are very difficult to see in good weather and can be invisible at dusk or in reduced visibility.",
+          "quote": "Most skeletal structures are supported by guy wires which are very difficult to see in good weather and can be invisible at dusk or during periods of reduced visibility.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Guy wires can extend about 1,500 feet horizontally from a structure, so the Study Guide says all skeletal structures should be avoided horizontally by at least 2,000 feet.",
+          "quote": "These wires can extend about 1,500 feet horizontally from a structure; therefore, all skeletal structures should be avoided horizontally by at least 2,000 feet.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "New towers may not be on the current chart, because the information was not received before the chart was printed.",
+          "quote": "Additionally, new towers may not be on your current chart because the information was not received prior to the printing of the chart.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Chart symbols, chart legends and reading a sectional excerpt are not covered; this guide is text only."
+    }
+  ]
+}

@@ -1,0 +1,574 @@
+{
+  "questions": [
+    {
+      "id": "t1-051",
+      "topic": "Disposal",
+      "question": "In 2026, a scrap yard is the final processor for household refrigerators charged with R-134a, a non-exempt substitute refrigerant. Does the safe disposal section, 40 CFR 82.155, apply to them?",
+      "options": {
+        "A": "No, because the section applies only to appliances containing class I and class II refrigerants",
+        "B": "Only if each refrigerator holds more than five pounds of refrigerant",
+        "C": "Yes, because starting on January 1, 2018, it applies to appliances containing any class I or class II refrigerant or any non-exempt substitute refrigerant",
+        "D": "Only if the refrigerators were manufactured before 2018"
+      },
+      "answer": "C",
+      "explanation": "\"Starting on January 1, 2018, this section applies to disposal of appliances containing any class I or class II refrigerant or any non-exempt substitute refrigerant.\" The class I and class II limit applied only until that date.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Starting on January 1, 2018, this section applies to disposal of appliances containing any class I or class II refrigerant or any non-exempt substitute refrigerant."
+    },
+    {
+      "id": "t1-052",
+      "topic": "Definitions",
+      "question": "An office break room has an under-the-counter ice maker that was factory-sealed with 2 pounds of refrigerant. How do the definitions classify it?",
+      "options": {
+        "A": "As a small appliance",
+        "B": "As industrial process refrigeration",
+        "C": "As an MVAC-like appliance",
+        "D": "As comfort cooling"
+      },
+      "answer": "A",
+      "explanation": "The small appliance definition names \"under-the-counter ice makers\" among its examples, for appliances factory-sealed \"with five (5) pounds or less of refrigerant.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-06",
+      "evidence": "room air conditioners (including window air conditioners, portable air conditioners, and packaged terminal air heat pumps), dehumidifiers, under-the-counter ice makers, vending machines, and drinking water coolers"
+    },
+    {
+      "id": "t1-053",
+      "topic": "Sales restriction",
+      "question": "A homeowner with no certification hires a service company to repair a household freezer. The company's certified technician charges refrigerant into the freezer during the repair and bills the homeowner for it. Which sales-restriction exception covers this refrigerant?",
+      "options": {
+        "A": "Refrigerant sold to an appliance manufacturer",
+        "B": "Refrigerant for MVACs in containers of two pounds or less with a self-sealing valve",
+        "C": "Refrigerant sold only for eventual resale to certified persons",
+        "D": "Refrigerant charged into an appliance by a certified technician or an apprentice during maintenance, service, or repair"
+      },
+      "answer": "D",
+      "explanation": "The sales restriction does not apply when \"the refrigerant is charged into an appliance by a certified technician or an apprentice during maintenance, service, or repair of the appliance.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The refrigerant is charged into an appliance by a certified technician or an apprentice during maintenance, service, or repair of the appliance;"
+    },
+    {
+      "id": "t1-054",
+      "topic": "Technician certification",
+      "question": "A Type I technician's wallet-sized card must name the certifying program. Which date must the card include with the program's name?",
+      "options": {
+        "A": "The date the technician's certificate expires",
+        "B": "The date the certifying program received EPA approval",
+        "C": "The date the technician first registered as an apprentice",
+        "D": "The date of the technician's next recertification"
+      },
+      "answer": "B",
+      "explanation": "Each card must include \"the name of the certifying program including the date the certifying program received EPA approval,\" along with the person's name, the type of certification and a unique number.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Each wallet-sized identification card must include, at a minimum, the name of the certifying program including the date the certifying program received EPA approval"
+    },
+    {
+      "id": "t1-055",
+      "topic": "Definitions",
+      "question": "Under the definitions, what does it mean to recover refrigerant?",
+      "options": {
+        "A": "To clean refrigerant for reuse in equipment of the same owner through oil separation and filter-driers",
+        "B": "To reprocess refrigerant to all of the specifications in appendix A",
+        "C": "To remove refrigerant in any condition from an appliance and store it in an external container without necessarily testing or processing it",
+        "D": "To release refrigerant from an appliance in a controlled way"
+      },
+      "answer": "C",
+      "explanation": "Recover means \"to remove refrigerant in any condition from an appliance and to store it in an external container without necessarily testing or processing it in any way.\" Cleaning for reuse is recycling, and reprocessing to appendix A is reclaiming.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Recover means to remove refrigerant in any condition from an appliance and to store it in an external container without necessarily testing or processing it in any way."
+    },
+    {
+      "id": "t1-056",
+      "topic": "Technician certification",
+      "question": "Every Type I test includes Group I questions. Which list matches the Group I subject areas in Appendix D?",
+      "options": {
+        "A": "Leak detection; recovery techniques; safety",
+        "B": "Environmental impact of CFCs, HCFCs, and substitute refrigerants; laws and regulations; changing industry outlook",
+        "C": "Shipping; disposal; recovery techniques",
+        "D": "Brazing; electrical controls; system charging"
+      },
+      "answer": "B",
+      "explanation": "Group I covers \"Environmental impact of CFCs, HCFCs, and substitute refrigerants,\" \"Laws and regulations\" and \"Changing industry outlook.\" Leak detection, recovery techniques, safety, shipping and disposal are Group II areas.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Environmental impact of CFCs, HCFCs, and substitute refrigerants 2. Laws and regulations 3. Changing industry outlook"
+    },
+    {
+      "id": "t1-057",
+      "topic": "Definitions",
+      "question": "A recovery device needs the small appliance's own compressor to help remove the refrigerant. Which defined term describes this device?",
+      "options": {
+        "A": "Self-contained recovery equipment",
+        "B": "Low-loss fitting",
+        "C": "System receiver",
+        "D": "System-dependent recovery equipment"
+      },
+      "answer": "D",
+      "explanation": "System-dependent recovery equipment is equipment \"that requires the assistance of components contained in an appliance to remove the refrigerant from the appliance.\" Self-contained equipment works \"without the assistance of components contained in the appliance.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+      },
+      "checked": "2026-11-06",
+      "evidence": "System-dependent recovery equipment means refrigerant recovery equipment that requires the assistance of components contained in an appliance to remove the refrigerant from the appliance."
+    },
+    {
+      "id": "t1-058",
+      "topic": "Equipment",
+      "question": "A vendor wants its capture equipment for small appliances certified under appendix C. What must it provide, and to whom?",
+      "options": {
+        "A": "A representative model of its capture system and its recommended recovery procedures, to an EPA approved third party laboratory",
+        "B": "Its sales records, to EPA's Administrator",
+        "C": "A sample of recovered refrigerant, to a certified reclaimer",
+        "D": "Its engineering drawings, to an approved technician certification program"
+      },
+      "answer": "A",
+      "explanation": "\"Each vendor of capture equipment for small appliances desiring certification will provide a representative model of its capture system and its recommended recovery procedures to an EPA approved third party laboratory for testing in accordance with this procedure.\"",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix C (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Each vendor of capture equipment for small appliances desiring certification will provide a representative model of its capture system and its recommended recovery procedures to an EPA approved third party laboratory for testing in accordance with this procedure."
+    },
+    {
+      "id": "t1-059",
+      "topic": "Disposal",
+      "question": "A recycling center disposes of old window air conditioners that contain a class II refrigerant. It does not service any appliances. Does Subpart F apply to it?",
+      "options": {
+        "A": "No, because Subpart F applies only to persons who maintain, service, or repair appliances",
+        "B": "Only if the center also sells refrigerant",
+        "C": "Yes, because Subpart F also applies to persons disposing of such appliances, including small appliances",
+        "D": "Only if the units each hold more than five pounds of refrigerant"
+      },
+      "answer": "C",
+      "explanation": "Subpart F \"also applies to persons disposing of such appliances (including small appliances and motor vehicle air conditioners).\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.150, Purpose and scope (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.150"
+      },
+      "checked": "2026-11-06",
+      "evidence": "This subpart also applies to persons disposing of such appliances (including small appliances and motor vehicle air conditioners)"
+    },
+    {
+      "id": "t1-060",
+      "topic": "Equipment",
+      "question": "Section 82.154(e)(1) bars selling an appliance unless it has a servicing aperture to facilitate the removal of refrigerant. Which appliances are excepted from that servicing aperture requirement?",
+      "options": {
+        "A": "MVACs and MVAC-like appliances only",
+        "B": "Small appliances and appliances containing only refrigerants exempted under 82.154(a)(1)",
+        "C": "Appliances with a full charge of less than 50 pounds",
+        "D": "Low-pressure appliances"
+      },
+      "answer": "B",
+      "explanation": "The servicing aperture rule covers \"any appliance (except small appliances and appliances containing only refrigerants that have been exempted under paragraph (a)(1) of this section).\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+      },
+      "checked": "2026-11-06",
+      "evidence": "any appliance (except small appliances and appliances containing only refrigerants that have been exempted under paragraph (a)(1) of this section) unless it is equipped with a servicing aperture to facilitate the removal of refrigerant at servicing and disposal"
+    },
+    {
+      "id": "t1-061",
+      "topic": "Equipment",
+      "question": "Under 82.154(f), when may a person manufacture or import a one-time expansion device?",
+      "options": {
+        "A": "Only if it contains two pounds or less of refrigerant",
+        "B": "Only if it has a self-sealing valve",
+        "C": "Only if it is sold to certified technicians",
+        "D": "Only if the only refrigerants it contains have been exempted under 82.154(a)(1)"
+      },
+      "answer": "D",
+      "explanation": "\"No person may manufacture or import a one-time expansion device unless the only refrigerants it contains have been exempted under paragraph (a)(1) of this section.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+      },
+      "checked": "2026-11-06",
+      "evidence": "No person may manufacture or import a one-time expansion device unless the only refrigerants it contains have been exempted under paragraph (a)(1) of this section."
+    },
+    {
+      "id": "t1-062",
+      "topic": "Recovery requirements",
+      "question": "A self-contained room air conditioner for residential air-conditioning uses R-441A. How does 82.154(a)(1) treat R-441A in this end-use?",
+      "options": {
+        "A": "It is exempt only when the unit holds less than five pounds",
+        "B": "It is exempt only from the sales restriction",
+        "C": "It is exempt from the venting prohibition and from the requirements of Subpart F",
+        "D": "It is exempt only in household refrigerators and freezers"
+      },
+      "answer": "C",
+      "explanation": "The listed exempt end-uses for R-441A include \"self-contained room air conditioners for residential and light commercial air-conditioning,\" and listed substitutes \"are exempt from this prohibition and from the requirements of this subpart.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+      },
+      "checked": "2026-11-06",
+      "evidence": "R-441A in retail food refrigerators and freezers (stand-alone units only); household refrigerators, freezers, and combination refrigerators and freezers; self-contained room air conditioners for residential and light commercial air-conditioning; heat pumps; and vending machines."
+    },
+    {
+      "id": "t1-063",
+      "topic": "Sales restriction",
+      "question": "A technician who holds only Type I certification wants to buy a cylinder of R-134a, a non-exempt substitute refrigerant. Under the sales restriction, may the seller sell it to this buyer?",
+      "options": {
+        "A": "Yes, because the buyer has been certified as a Type I, Type II, Type III, or Universal technician",
+        "B": "No, because only Universal technicians may buy refrigerant",
+        "C": "No, because Type I technicians may buy only containers of two pounds or less",
+        "D": "Only if the buyer is also certified under subpart B"
+      },
+      "answer": "A",
+      "explanation": "The sale is allowed when \"the buyer has been certified as a Type I, Type II, Type III, or Universal technician under § 82.161.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The buyer has been certified as a Type I, Type II, Type III, or Universal technician under § 82.161;"
+    },
+    {
+      "id": "t1-064",
+      "topic": "Sales restriction",
+      "question": "An appliance store sells a new, factory-charged household refrigerator to a customer who has no technician certification. Which sales-restriction exception covers the refrigerant inside it?",
+      "options": {
+        "A": "Refrigerant sold only for eventual resale to certified persons",
+        "B": "Refrigerant contained in an appliance with a fully assembled refrigerant circuit",
+        "C": "Refrigerant for MVACs in containers of two pounds or less",
+        "D": "Refrigerant sold to an appliance manufacturer"
+      },
+      "answer": "B",
+      "explanation": "The sales restriction does not apply when \"the refrigerant is contained in an appliance with a fully assembled refrigerant circuit or an appliance component.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The refrigerant is contained in an appliance with a fully assembled refrigerant circuit or an appliance component;"
+    },
+    {
+      "id": "t1-065",
+      "topic": "Equipment",
+      "question": "The appendix C recovery efficiency test uses a test stand refrigeration system. What is that test stand constructed with?",
+      "options": {
+        "A": "Equipment taken from motor vehicle air conditioners",
+        "B": "A low-pressure centrifugal chiller",
+        "C": "Components custom-built by EPA for each test",
+        "D": "Standard equipment utilized in currently produced household refrigerator and freezer products"
+      },
+      "answer": "D",
+      "explanation": "\"The test stand refrigeration system required for this procedure is constructed with standard equipment utilized in currently produced household refrigerator and freezer products.\"",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix C (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The test stand refrigeration system required for this procedure is constructed with standard equipment utilized in currently produced household refrigerator and freezer products."
+    },
+    {
+      "id": "t1-066",
+      "topic": "Disposal",
+      "question": "A scrap recycler, the final processor, receives a freezer whose refrigerant all escaped earlier because of a system failure. What must the recycler obtain?",
+      "options": {
+        "A": "A leak inspection report from a certified technician",
+        "B": "A receipt from a certified reclaimer",
+        "C": "A signed statement that all the refrigerant had leaked out prior to delivery and recovery is not possible",
+        "D": "A notice filed with EPA within 30 days"
+      },
+      "answer": "C",
+      "explanation": "\"If all the refrigerant has leaked out of the appliance, the final processor must obtain a signed statement that all the refrigerant in the appliance had leaked out prior to delivery to the final processor and recovery is not possible.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+      },
+      "checked": "2026-11-06",
+      "evidence": "If all the refrigerant has leaked out of the appliance, the final processor must obtain a signed statement that all the refrigerant in the appliance had leaked out prior to delivery to the final processor and recovery is not possible."
+    },
+    {
+      "id": "t1-067",
+      "topic": "Recovery requirements",
+      "question": "Before opening a household freezer, a technician uses a certified recovery machine manufactured in 1991. Which recovery percentage does 82.156(b)(1) set for equipment of that age?",
+      "options": {
+        "A": "90 percent of the refrigerant in the small appliance",
+        "B": "80 percent of the refrigerant in the small appliance",
+        "C": "95 percent of the refrigerant in the small appliance",
+        "D": "99 percent of the refrigerant in the small appliance"
+      },
+      "answer": "B",
+      "explanation": "\"When using recovery equipment manufactured before November 15, 1993, recover 80 percent of the refrigerant in the small appliance.\" The 90 percent level applies to equipment made on or after that date.",
+      "source": {
+        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+      },
+      "checked": "2026-11-06",
+      "evidence": "When using recovery equipment manufactured before November 15, 1993, recover 80 percent of the refrigerant in the small appliance"
+    },
+    {
+      "id": "t1-068",
+      "topic": "Equipment",
+      "question": "A company plans to import recovery machines to sell to technicians who service small appliances. What does 40 CFR 82.158(a) require of the equipment before the company may import it?",
+      "options": {
+        "A": "It must be certified in accordance with 82.158",
+        "B": "It must be sold only to Universal technicians",
+        "C": "It must first be inspected by a certified reclaimer",
+        "D": "It must be sold together with a pump-out unit"
+      },
+      "answer": "A",
+      "explanation": "\"No person may manufacture or import recovery and/or recycling equipment for use during the maintenance, service, repair, or disposal of appliances unless the equipment is certified in accordance with this section.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+      },
+      "checked": "2026-11-06",
+      "evidence": "No person may manufacture or import recovery and/or recycling equipment for use during the maintenance, service, repair, or disposal of appliances unless the equipment is certified in accordance with this section."
+    },
+    {
+      "id": "t1-069",
+      "topic": "Technician certification",
+      "question": "A technician will replace a component in the refrigerant circuit of a dehumidifier that is a small appliance. Which certification does 82.161(a)(1)(i) require for servicing small appliances?",
+      "options": {
+        "A": "Type II",
+        "B": "Type III",
+        "C": "Type I",
+        "D": "Certification under 40 CFR part 82, subpart B"
+      },
+      "answer": "C",
+      "explanation": "\"Persons who maintain, service, or repair small appliances must be certified as Type I technicians.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Persons who maintain, service, or repair small appliances must be certified as Type I technicians."
+    },
+    {
+      "id": "t1-070",
+      "topic": "Equipment",
+      "question": "Under 40 CFR 82.158(h)(2), how must the certification label be affixed to certified small-appliance recovery equipment?",
+      "options": {
+        "A": "On the inside of a service panel, so it is protected from wear",
+        "B": "As a removable tag that the owner keeps with the purchase records",
+        "C": "Anywhere on the equipment, provided the serial number is engraved separately",
+        "D": "In a readily visible or accessible location, in such a way that it cannot be removed from the equipment without damage to the label"
+      },
+      "answer": "D",
+      "explanation": "The label must \"be affixed in a readily visible or accessible location\" and \"be affixed in such a way that it cannot be removed from the equipment without damage to the label.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+      },
+      "checked": "2026-11-06",
+      "evidence": "be affixed in such a way that it cannot be removed from the equipment without damage to the label"
+    },
+    {
+      "id": "t1-071",
+      "topic": "Equipment",
+      "question": "A shop wants to check whether a small-appliance recovery machine model is certified. What must approved equipment testing organizations publish?",
+      "options": {
+        "A": "A printed catalog mailed to every certified technician",
+        "B": "An online list of all certified equipment, including the manufacturer's name and the model line's name and/or serial number, updated annually",
+        "C": "A list of every technician who bought certified equipment",
+        "D": "The test results of each individual machine sold"
+      },
+      "answer": "B",
+      "explanation": "The list \"must include the name of the manufacturer and the name and/or serial number of the model line,\" and organizations \"must publish online a list of all certified equipment that includes the information specified above and update the list annually.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.160, Approved equipment testing organizations (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.160"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Approved equipment testing organizations must publish online a list of all certified equipment that includes the information specified above and update the list annually."
+    },
+    {
+      "id": "t1-072",
+      "topic": "Technician certification",
+      "question": "Programs certifying technicians, other than Federally-run programs, must publish online a list of the technicians they have certified. What must those programs allow technicians to do?",
+      "options": {
+        "A": "Choose which of their test scores is shown",
+        "B": "List a business name in place of their own name",
+        "C": "Opt out of being included in such lists",
+        "D": "Have their entry removed after three years"
+      },
+      "answer": "C",
+      "explanation": "Programs \"must provide notice to technicians that such information will be published online\" and \"allow technicians to opt out of being included in such lists.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+      },
+      "checked": "2026-11-06",
+      "evidence": "allow technicians to opt out of being included in such lists"
+    },
+    {
+      "id": "t1-073",
+      "topic": "Technician certification",
+      "question": "Appendix D limits what proctors may know about the tests they proctor. Which rule does it set?",
+      "options": {
+        "A": "Proctors cannot know in advance which questions are on the tests they are proctoring",
+        "B": "Proctors must review the answer key before each session",
+        "C": "Proctors must hold Universal certification",
+        "D": "Proctors must grade the tests before leaving the site"
+      },
+      "answer": "A",
+      "explanation": "Appendix D states: \"Proctors cannot know in advance which questions are on the tests they are proctoring.\"",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Proctors cannot know in advance which questions are on the tests they are proctoring."
+    },
+    {
+      "id": "t1-074",
+      "topic": "Technician certification",
+      "question": "A certifying program also offers a review course to people preparing for its Type I test. How does Appendix D say that training must be treated?",
+      "options": {
+        "A": "As part of the test, so applicants must finish it before testing",
+        "B": "As something approved programs may not offer",
+        "C": "As requiring separate EPA approval for each course",
+        "D": "As completely separate from the administration of the certification test"
+      },
+      "answer": "D",
+      "explanation": "\"If the certifying programs offer training or provide review materials to the applicants, these endeavors are to be considered completely separate from the administration of the certification test.\"",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+      },
+      "checked": "2026-11-06",
+      "evidence": "If the certifying programs offer training or provide review materials to the applicants, these endeavors are to be considered completely separate from the administration of the certification test."
+    },
+    {
+      "id": "t1-075",
+      "topic": "Technician certification",
+      "question": "A technician passed a mail-in Type I test and later passes closed-book Type II and Type III tests. How does Appendix D treat the mail-in Type I test for Universal certification?",
+      "options": {
+        "A": "It counts if it was passed with a score of at least 84 percent",
+        "B": "Mail-in format Type I tests cannot be used toward a Universal certification",
+        "C": "It counts if it was taken within two years of the other tests",
+        "D": "It counts once the technician has kept the card for three years"
+      },
+      "answer": "B",
+      "explanation": "Appendix D states: \"Mail-in format Type I tests cannot be used toward a Universal certification.\"",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Mail-in format Type I tests cannot be used toward a Universal certification."
+    },
+    {
+      "id": "t1-076",
+      "topic": "Technician certification",
+      "question": "What is the passing score for a Type I certification test that uses the mail-in format?",
+      "options": {
+        "A": "70 percent",
+        "B": "75 percent",
+        "C": "84 percent",
+        "D": "90 percent"
+      },
+      "answer": "C",
+      "explanation": "\"The passing score for Type I certification tests using the mail-in format is 84 percent.\" The 70 percent score applies to the closed-book tests.",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The passing score for Type I certification tests using the mail-in format is 84 percent."
+    },
+    {
+      "id": "t1-077",
+      "topic": "Equipment",
+      "question": "In the appendix C recovery efficiency test for small-appliance equipment, what counts as captured refrigerant?",
+      "options": {
+        "A": "Only refrigerant that meets the appendix A specifications",
+        "B": "Only refrigerant left in the test stand after recovery",
+        "C": "All refrigerant charged into the test stand",
+        "D": "Refrigerant delivered to a container suitable for shipment to a refrigerant reclaimer, plus refrigerant remaining in the recovery system that will be transferred to a shipping container after additional recovery operations"
+      },
+      "answer": "D",
+      "explanation": "\"Captured refrigerant is that refrigerant delivered to a container suitable for shipment to a refrigerant reclaimer plus any refrigerant remaining in the recovery system in a manner that it will be transferred to a shipping container after additional recovery operations.\"",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix C (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Captured refrigerant is that refrigerant delivered to a container suitable for shipment to a refrigerant reclaimer plus any refrigerant remaining in the recovery system in a manner that it will be transferred to a shipping container after additional recovery operations."
+    },
+    {
+      "id": "t1-078",
+      "topic": "Equipment",
+      "question": "Section 82.158(e) requires small-appliance recovery equipment to be certified as capable of recovering 90 percent of the refrigerant in the test stand when the test stand's compressor is operational. Who must certify it, and under which test conditions?",
+      "options": {
+        "A": "The equipment manufacturer itself, under appendix B1",
+        "B": "An approved equipment testing organization, under the conditions of appendix C",
+        "C": "EPA's Administrator, under appendix E",
+        "D": "An approved technician certification program, under appendix D"
+      },
+      "answer": "B",
+      "explanation": "Small-appliance equipment \"must be certified by an approved equipment testing organization\" when used \"under the conditions of appendix C, Method for Testing Recovery Devices for Use with Small Appliances.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Equipment used during the maintenance, service, repair, or disposal of small appliances must be certified by an approved equipment testing organization"
+    },
+    {
+      "id": "t1-079",
+      "topic": "Equipment",
+      "question": "Recovery equipment made in 2022 for servicing small appliances that use a flammable refrigerant is to be certified by achieving a four-inch vacuum. Under 82.158(e)(4), which test conditions apply?",
+      "options": {
+        "A": "Appendix B4, based upon both AHRI Standard 740-2016 and UL 1963, Supplement SB",
+        "B": "Appendix E, the container leak test procedure",
+        "C": "Appendix B2, based upon ARI Standard 740-1995",
+        "D": "Appendix B3, based upon AHRI Standard 740-2016 alone"
+      },
+      "answer": "A",
+      "explanation": "Equipment made on or after January 1, 2017, may be certified under \"appendix B3 of this subpart (for non-flammable refrigerants)\" or \"appendix B4 of this subpart (for flammable refrigerants), based upon both AHRI Standard 740-2016 and UL 1963, Supplement SB.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+      },
+      "checked": "2026-11-06",
+      "evidence": "appendix B4 of this subpart (for flammable refrigerants), based upon both AHRI Standard 740-2016 and UL 1963, Supplement SB"
+    },
+    {
+      "id": "t1-080",
+      "topic": "Equipment",
+      "question": "Appendix C tests small-appliance recovery equipment under several compressor scenarios. Which description matches them?",
+      "options": {
+        "A": "Two: test stand compressor running and test stand compressor off",
+        "B": "One: a high side case rotary compressor in working condition",
+        "C": "Four: a high side case compressor and a low side case compressor, each in working and in nonworking condition",
+        "D": "Three: rotary, reciprocating and scroll compressors"
+      },
+      "answer": "C",
+      "explanation": "\"There are four (4) compressor scenarios to be tested. These are a high side case compressor in working condition; a high side case compressor in nonworking condition; a low side case compressor in working condition; and a low side case compressor in nonworking condition.\"",
+      "source": {
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix C (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+      },
+      "checked": "2026-11-06",
+      "evidence": "There are four (4) compressor scenarios to be tested. These are a high side case compressor in working condition; a high side case compressor in nonworking condition; a low side case compressor in working condition; and a low side case compressor in nonworking condition."
+    }
+  ]
+}

@@ -89,6 +89,19 @@ const FAA_SETS: OshaSet[] = [
     rule: "FAA-G-8082-22 and 14 CFR Part 107",
     focus: null,
   },
+  { slug: "loading-performance", name: "Loading and performance", rule: "FAA-G-8082-22", focus: null },
+  {
+    slug: "airport-operations-radio",
+    name: "Airport operations, radio and emergencies",
+    rule: "FAA-G-8082-22 and 14 CFR Part 107",
+    focus: null,
+  },
+  {
+    slug: "aeronautical-decision-making",
+    name: "Decision-making, crew resource management and physiology",
+    rule: "FAA-G-8082-22 and 14 CFR Part 107",
+    focus: null,
+  },
 ];
 
 const WATER_SETS: OshaSet[] = [

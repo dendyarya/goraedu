@@ -1,0 +1,555 @@
+{
+  "cluster": "faa-107",
+  "slug": "aeronautical-decision-making",
+  "href": "/faa-107/aeronautical-decision-making/study-guide/",
+  "title": "FAA Part 107 Decision-making, crew resource management and physiology study guide",
+  "description": "Part 107 study guide: fitness to fly, stress, fatigue, dehydration, ADM, risk assessment, PAVE, SRM and workload, from FAA sources.",
+  "intro": "This guide covers the human side of small UAS operations on the Remote Pilot knowledge test: fitness to fly, hyperventilation and stress, fatigue, dehydration and heatstroke, aeronautical decision-making (ADM) and risk management, risk assessment with the PAVE checklist, crew and single-pilot resource management, and situational awareness and workload. Those points come from the FAA Remote Pilot Study Guide (FAA-G-8082-22), chapters 9 and 10 (its chapter 6 on crew resource management refers readers to chapter 10). That guide dates from August 2016, before the 2021 Part 107 amendments, so it is used here only for background knowledge. The rules on medical condition and on the remote pilot in command's authority are taken from the current 14 CFR Part 107 text. goraedu is an independent study site; these points are not the FAA test. Every point links to its source and quotes its exact words.",
+  "topics": [
+    {
+      "id": "fitness-to-fly",
+      "name": "Fitness to fly and the medical condition rule",
+      "points": [
+        {
+          "text": "No person may manipulate the flight controls of a small UAS, or act as remote pilot in command, visual observer or direct participant in the operation, if he or she knows or has reason to know that he or she has a physical or mental condition that would interfere with the safe operation of the small UAS.",
+          "quote": "No person may manipulate the flight controls of a small unmanned aircraft system or act as a remote pilot in command, visual observer, or direct participant in the operation of the small unmanned aircraft if he or she knows or has reason to know that he or she has a physical or mental condition that would interfere with the safe operation of the small unmanned aircraft system.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.17, Medical condition (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.17"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Study Guide says certain medical conditions, such as epilepsy, may also create a risk to operations, and that it is the remote PIC's responsibility to determine that their medical condition is under control and that they can safely conduct a small UA operation.",
+          "quote": "There are certain medical conditions, such as epilepsy, may also create a risk to operations. It is the remote PIC’s responsibility to determine that their medical condition is under control and they can safely conduct a small UA operation.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Virtually all medications have the potential for adverse side effects in some people. Herbal and dietary supplements, sport and energy boosters, and some other \"natural\" products are derived from substances often found in medications that could also have adverse side effects.",
+          "quote": "Virtually all medications have the potential for adverse side effects in some people. Additionally, herbal and dietary supplements, sport and energy boosters, and some other “natural” products are derived from substances often found in medications that could also have adverse side effects.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The symptoms of common upper respiratory infections, including the common cold, often suppress a pilot's desire to fly, and treating them with a drug that causes adverse side effects only compounds the problem.",
+          "quote": "The symptoms associated with common upper respiratory infections, including the common cold, often suppress a pilot’s desire to fly, and treating symptoms with a drug that causes adverse side effects only compounds the problem.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "As little as one ounce of alcohol can decrease the speed and strength of muscular reflexes, lessen the efficiency of eye movements while reading, and increase the frequency at which errors are committed. Impairments in vision and hearing can occur from as little as one drink.",
+          "quote": "As little as one ounce of alcohol can decrease the speed and strength of muscular reflexes, lessen the efficiency of eye movements while reading, and increase the frequency at which errors are committed. Impairments in vision and hearing can occur from consuming as little as one drink.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "As little as one ounce of liquor, one bottle of beer, or four ounces of wine can impair flying skills, and alcohol also makes a pilot more susceptible to disorientation and hypoxia.",
+          "quote": "As little as one ounce of liquor, one bottle of beer, or four ounces of wine can impair flying skills. Alcohol also renders a pilot more susceptible to disorientation and hypoxia.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A pilot experiencing a hangover is still under the influence of alcohol. The pilot may think he or she is functioning normally, but motor and mental response impairment is still present.",
+          "quote": "While experiencing a hangover, a pilot is still under the influence of alcohol. Although a pilot may think he or she is functioning normally, motor and mental response impairment is still present.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The Study Guide also gives numeric alcohol limits (hours since drinking and a blood alcohol level). This guide quotes no current 14 CFR text that sets those limits, so they are not restated here; the current alcohol and drug rule for small UAS crew is 14 CFR 107.27, covered in the loading, performance and safe operations study guide."
+    },
+    {
+      "id": "hyperventilation-stress",
+      "name": "Hyperventilation and stress",
+      "points": [
+        {
+          "text": "Hyperventilation is the excessive rate and depth of respiration leading to abnormal loss of carbon dioxide from the blood.",
+          "quote": "Hyperventilation is the excessive rate and depth of respiration leading to abnormal loss of carbon dioxide from the blood.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Hyperventilation can lead to unconsciousness due to the respiratory system's overriding mechanism to regain control of breathing. Pilots who meet an unexpected stressful situation may subconsciously increase their breathing rate.",
+          "quote": "Hyperventilation can lead to unconsciousness due to the respiratory system’s overriding mechanism to regain control of breathing. Pilots encountering an unexpected stressful situation may subconsciously increase their breathing rate.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Treating hyperventilation involves restoring the proper carbon dioxide level in the body. Besides slowing the breathing rate, breathing into a paper bag or talking aloud helps; recovery is usually rapid once the breathing rate is back to normal.",
+          "quote": "The treatment for hyperventilation involves restoring the proper carbon dioxide level in the body. Breathing normally is both the best prevention and the best cure for hyperventilation. In addition to slowing the breathing rate, breathing into a paper bag or talking aloud helps to overcome hyperventilation. Recovery is usually rapid once the breathing rate is returned to normal.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Stress is the body's response to physical and psychological demands placed upon it. A \"stressor\" is an element that causes stress; examples are physical stress (noise or vibration), physiological stress (fatigue) and psychological stress (difficult work or personal situations).",
+          "quote": "Stress is the body’s response to physical and psychological demands placed upon it. The body’s reaction to stress includes releasing chemical hormones (such as adrenaline) into the blood and increasing metabolism to provide more energy to the muscles. Blood sugar, heart rate, respiration, blood pressure, and perspiration all increase. The term “stressor” is used to describe an element that causes an individual to experience stress. Examples of stressors include physical stress (noise or vibration), physiological stress (fatigue), and psychological stress (difficult work or personal situations).",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Acute stress involves an immediate threat that is perceived as danger and triggers a \"fight or flight\" response, whether the threat is real or imagined. A healthy person can normally cope with it, but ongoing acute stress can develop into chronic stress.",
+          "quote": "Acute stress involves an immediate threat that is perceived as danger. This is the type of stress that triggers a “fight or flight” response in an individual, whether the threat is real or imagined. Normally, a healthy person can cope with acute stress and prevent stress overload. However, ongoing acute stress can develop into chronic stress.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Chronic stress is a level of stress that presents an intolerable burden, exceeds the ability of an individual to cope, and causes individual performance to fall sharply.",
+          "quote": "Chronic stress can be defined as a level of stress that presents an intolerable burden, exceeds the ability of an individual to cope, and causes individual performance to fall sharply.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A certain amount of stress is good because it keeps a person alert and prevents complacency. Effects of stress are cumulative and, if the pilot does not cope with them appropriately, can eventually add up to an intolerable burden.",
+          "quote": "A certain amount of stress is good since it keeps a person alert and prevents complacency. Effects of stress are cumulative and, if the pilot does not cope with them in an appropriate way, they can eventually add up to an intolerable burden.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "fatigue",
+      "name": "Fatigue",
+      "points": [
+        {
+          "text": "Fatigue is frequently associated with pilot error. Physical fatigue results from sleep loss, exercise or physical work; stress and prolonged cognitive work result in mental fatigue.",
+          "quote": "Fatigue is frequently associated with pilot error. Some of the effects of fatigue include degradation of attention and concentration, impaired coordination, and decreased ability to communicate. These factors seriously influence the ability to make effective decisions. Physical fatigue results from sleep loss, exercise, or physical work. Factors such as stress and prolonged performance of cognitive work result in mental fatigue.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Acute fatigue is short term and a normal occurrence in everyday living: the tiredness felt after strenuous effort, excitement or lack of sleep. Rest after exertion and 8 hours of sound sleep ordinarily cures it.",
+          "quote": "Acute fatigue is short term and is a normal occurrence in everyday living. It is the kind of tiredness people feel after a period of strenuous effort, excitement, or lack of sleep. Rest after exertion and 8 hours of sound sleep ordinarily cures this condition.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Skill fatigue, a special type of acute fatigue, has two main effects on performance. The first is timing disruption: a task appears to be performed as usual, but the timing of each component is slightly off, so the operation is less smooth.",
+          "quote": "A special type of acute fatigue is skill fatigue. This type of fatigue has two main effects on performance: • Timing disruption—appearing to perform a task as usual, but the timing of each component is slightly off. This makes the pattern of the operation less smooth",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The second effect of skill fatigue is disruption of the perceptual field: attention is concentrated on movements or objects in the center of vision and those in the periphery are neglected, with loss of accuracy and smoothness in control movements.",
+          "quote": "Disruption of the perceptual field—concentrating attention upon movements or objects in the center of vision and neglecting those in the periphery. This is accompanied by loss of accuracy and smoothness in control movements.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Chronic fatigue extends over a long period and usually has psychological roots, although an underlying disease is sometimes responsible. It is not relieved by proper diet and adequate rest and sleep, and usually requires treatment by a physician.",
+          "quote": "Chronic fatigue, extending over a long period of time, usually has psychological roots, although an underlying disease is sometimes responsible. Continuous high-stress levels produce chronic fatigue. Chronic fatigue is not relieved by proper diet and adequate rest and sleep and usually requires treatment by a physician.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If fatigue occurs while operating a small UA, no amount of training or experience can overcome its detrimental effects; getting adequate rest is the only way to prevent fatigue.",
+          "quote": "If fatigue occurs during the operation of a small UA, no amount of training or experience can overcome the detrimental effects. Getting adequate rest is the only way to prevent fatigue from occurring.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Study Guide advises avoiding flying a small UA without a full night's rest, after working excessive hours, or after an especially exhausting or stressful day. Remote pilots who suspect chronic fatigue should consult a physician.",
+          "quote": "Avoid flying a small UA without a full night’s rest, after working excessive hours, or after an especially exhausting or stressful day. Remote pilots who suspect they are suffering from chronic fatigue should consult a physician.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "dehydration-heatstroke",
+      "name": "Dehydration and heatstroke",
+      "points": [
+        {
+          "text": "Flying a small UA for long periods in hot summer temperatures or at high altitudes increases susceptibility to dehydration, because these conditions tend to increase the rate of water loss from the body.",
+          "quote": "Flying a small UA for long periods in hot summer temperatures or at high altitudes increases the susceptibility to dehydration because these conditions tend to increase the rate of water loss from the body.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "To help prevent dehydration, the Study Guide says to drink two to four quarts of water every 24 hours; since each person is physiologically different, this is only a guide.",
+          "quote": "To help prevent dehydration, drink two to four quarts of water every 24 hours. Since each person is physiologically different, this is only a guide.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Most people become thirsty with a 1.5 quart deficit or a loss of 2 percent of total body weight; that level of dehydration triggers the \"thirst mechanism.\" The problem is that the thirst mechanism arrives too late.",
+          "quote": "Most people become thirsty with a 1.5 quart deficit or a loss of 2 percent of total body weight. This level of dehydration triggers the “thirst mechanism.” The problem is that the thirst mechanism arrives too late",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A small amount of fluid in the mouth turns the thirst mechanism off, and the replacement of needed body fluid is delayed.",
+          "quote": "A small amount of fluid in the mouth turns this mechanism off and the replacement of needed body fluid is delayed.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "To prevent heatstroke symptoms, the Study Guide recommends carrying an ample supply of water and using it at frequent intervals, whether thirsty or not.",
+          "quote": "Heatstroke is a condition caused by any inability of the body to control its temperature. Onset of this condition may be recognized by the symptoms of dehydration, but also has been known to be recognized only upon complete collapse. To prevent these symptoms, it is recommended that an ample supply of water be carried and used at frequent intervals, whether thirsty or not.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The body normally absorbs water at 1.2 to 1.5 quarts per hour. The Study Guide says individuals should drink one quart per hour for severe heat stress conditions or one pint per hour for moderate stress conditions.",
+          "quote": "The body normally absorbs water at a rate of 1.2 to 1.5 quarts per hour. Individuals should drink one quart per hour for severe heat stress conditions or one pint per hour for moderate stress conditions.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "adm-principles",
+      "name": "ADM and risk management principles",
+      "points": [
+        {
+          "text": "An estimated 80 percent of all aviation accidents are related to human factors, and the vast majority of these occur during landing (24.1 percent) and takeoff (23.4 percent).",
+          "quote": "It is estimated that approximately 80 percent of all aviation accidents are related to human factors and the vast majority of these accidents occur during landing (24.1 percent) and takeoff (23.4 percent).",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When tested, pilots who had received ADM training made fewer inflight errors than those who had not; the statistically significant differences ranged from about 10 to 50 percent fewer judgment errors.",
+          "quote": "When tested, the pilots who had received ADM-training made fewer inflight errors than those who had not received ADM training. The differences were statistically significant and ranged from about 10 to 50 percent fewer judgment errors.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Contrary to popular opinion, good judgment can be taught; tradition held that it was a natural by-product of experience.",
+          "quote": "Contrary to popular opinion, good judgment can be taught. Tradition held that good judgment was a natural by-product of experience",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Study Guide's steps for good decision-making are: identifying personal attitudes hazardous to safe flight, learning behavior modification techniques, learning how to recognize and cope with stress, developing risk assessment skills, using all resources, and evaluating the effectiveness of one's ADM skills.",
+          "quote": "Steps for good decision-making are: 1. Identifying personal attitudes hazardous to safe flight. 2. Learning behavior modification techniques. 3. Learning how to recognize and cope with stress. 4. Developing risk assessment skills. 5. Using all resources. 6. Evaluating the effectiveness of one’s ADM skills.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Three of the four fundamental principles of risk management are: accept no unnecessary risk (unnecessary risk comes without a corresponding return); make risk decisions at the appropriate level, meaning by the person who can develop and implement risk controls; and accept risk when benefits outweigh dangers (costs).",
+          "quote": "As you work through the ADM cycle, it is important to remember the four fundamental principles of risk management. 1. Accept no unnecessary risk. Flying is not possible without risk, but unnecessary risk comes without a corresponding return. 2. Make risk decisions at the appropriate level. Risk decisions should be made by the person who can develop and implement risk controls. 3. Accept risk when benefits outweigh dangers (costs).",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The fourth principle is to integrate risk management into planning at all levels: because risk is an unavoidable part of every flight, safety requires appropriate and effective risk management not just in preflight planning but in all stages of the flight.",
+          "quote": "Integrate risk management into planning at all levels. Because risk is an unavoidable part of every flight, safety requires the use of appropriate and effective risk management not just in the preflight planning stage, but in all stages of the flight.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Human conditions such as fatigue, complacency and stress are called human factors. They directly cause or contribute to many aviation accidents and have been documented as a primary contributor to more than 70 percent of aircraft accidents.",
+          "quote": "Why are human conditions, such as fatigue, complacency and stress, so important in aviation? These conditions, along with many others, are called human factors. Human factors directly cause or contribute to many aviation accidents and have been documented as a primary contributor to more than 70 percent of aircraft accidents.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "risk-pave",
+      "name": "Risk assessment, PAVE and external pressures",
+      "points": [
+        {
+          "text": "For the single pilot, assessing risk is not as simple as it sounds: the pilot acts as his or her own quality control in making decisions.",
+          "quote": "For the single pilot, assessing risk is not as simple as it sounds. For example, the pilot acts as his or her own quality control in making decisions.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The single pilot, with no other crew member to consult, must wrestle with the intangible factors that draw one into a hazardous position, and so has a greater vulnerability than a full crew.",
+          "quote": "The single pilot who has no other crew member for consultation must wrestle with the intangible factors that draw one into a hazardous position. Therefore, he or she has a greater vulnerability than a full crew.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Once the risks of a flight are identified, the pilot decides whether the risk, or combination of risks, can be managed safely and successfully; if not, the decision is to cancel the flight.",
+          "quote": "Once a pilot identifies the risks of a flight, he or she needs to decide whether the risk, or combination of risks, can be managed safely and successfully. If not, make the decision to cancel the flight.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A pilot who continues should develop strategies to mitigate the risks. One way is to set personal minimums for items in each risk category: limits unique to that pilot's current level of experience and proficiency.",
+          "quote": "If the pilot decides to continue with the flight, he or she should develop strategies to mitigate the risks. One way a pilot can control the risks is to set personal minimums for items in each risk category. These are limits unique to that individual pilot’s current level of experience and proficiency.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Evaluation of terrain is another important component of analyzing the flight environment, and the pilot checks the airspace and any temporary flight restrictions (TFRs).",
+          "quote": "Evaluation of terrain is another important component of analyzing the flight environment. Airspace Check the airspace and any temporary flight restriction (TFRs).",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "External pressures are influences external to the flight that create a sense of pressure to complete it, often at the expense of safety.",
+          "quote": "External pressures are influences external to the flight that create a sense of pressure to complete a flight—often at the expense of safety.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Personal standard operating procedures (SOPs) are one way to manage external pressures; their goal is to supply a release for the external pressures of a flight.",
+          "quote": "The use of personal standard operating procedures (SOPs) is one way to manage external pressures. The goal is to supply a release for the external pressures of a flight.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "models-crm",
+      "name": "Decision-making models and crew resource management",
+      "points": [
+        {
+          "text": "The goal of all flight crews is good ADM, and the use of CRM is one way to make good decisions.",
+          "quote": "The goal of all flight crews is good ADM and the use of CRM is one way to make good decisions.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "CRM focuses on pilots operating in crew environments, but many of its concepts apply to single-pilot operations and led to Single-Pilot Resource Management (SRM).",
+          "quote": "While CRM focuses on pilots operating in crew environments, many of the concepts apply to single-pilot operations. Many CRM principles have been successfully applied to single-pilot aircraft and led to the development of Single-Pilot Resource Management (SRM).",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "SRM is the art and science of managing all the resources available to a single pilot (before and during flight) to ensure the successful outcome of the flight. It includes ADM, risk management (RM), task management (TM), automation management (AM), controlled flight into terrain (CFIT) awareness and situational awareness (SA).",
+          "quote": "SRM is defined as the art and science of managing all the resources available to a single pilot (prior to and during flight) to ensure the successful outcome of the flight. SRM includes the concepts of ADM, risk management (RM), task management (TM), automation management (AM), controlled flight into terrain (CFIT) awareness, and situational awareness (SA).",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The remote pilot in command is directly responsible for, and is the final authority as to, the operation of the small UAS.",
+          "quote": "The remote pilot in command is directly responsible for and is the final authority as to the operation of the small unmanned aircraft system.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.19, Remote pilot in command (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.19"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Three structured models for problem-solving and decision-making are the 5P, the 3P (using PAVE, CARE and TEAM) and DECIDE; all have been identified as helpful to the single pilot.",
+          "quote": "Three models of a structured framework for problem-solving and decision-making are the 5P, the 3P using PAVE, CARE and TEAM, and the DECIDE models. They provide assistance in organizing the decision process. All these models have been identified as helpful to the single pilot in organizing critical decisions.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "There is no one right answer in ADM: each pilot is expected to analyze each situation in light of experience level, personal minimums and current physical and mental readiness, and make his or her own decision.",
+          "quote": "There is no one right answer in ADM, rather each pilot is expected to analyze each situation in light of experience level, personal minimums, and current physical and mental readiness level, and make his or her own decision.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Experts take the first workable option they can find; it may not be the best possible choice, but it often yields remarkably good results. The terms \"naturalistic\" and \"automatic decision-making\" describe this type of decision-making.",
+          "quote": "Experts take the first workable option they can find. While it may not be the best of all possible choices, it often yields remarkably good results. The terms “naturalistic” and “automatic decision-making” have been coined to describe this type of decision-making.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Automatic decision-making is reflexive, anchored in training and experience, and most often used in emergencies when there is no time for analytical decision-making. It improves with training and experience.",
+          "quote": "This is a reflexive type of decision-making anchored in training and experience and is most often used in times of emergencies when there is no time to practice analytical decision-making. Naturalistic or automatic decision-making improves with training and experience",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The DECIDE model steps, the operational pitfalls and the three risk management timeframes appear in the Study Guide only as figures, which this guide does not reproduce."
+    },
+    {
+      "id": "situational-awareness",
+      "name": "Situational awareness, workload and scanning",
+      "points": [
+        {
+          "text": "Situational awareness is the accurate perception and understanding of all the factors and conditions within the five fundamental risk elements (flight, pilot, aircraft, environment, and type of operation) that affect safety before, during and after the flight.",
+          "quote": "Situational awareness is the accurate perception and understanding of all the factors and conditions within the five fundamental risk elements (flight, pilot, aircraft, environment, and type of operation that comprise any given aviation situation) that affect safety before, during, and after the flight.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Fatigue, stress and work overload can make a pilot fixate on a single perceived important item and reduce overall situational awareness. A distraction that diverts the pilot's attention from monitoring the aircraft is a contributing factor in many accidents.",
+          "quote": "Fatigue, stress, and work overload can cause a pilot to fixate on a single perceived important item and reduce an overall situational awareness of the flight. A contributing factor in many accidents is a distraction that diverts the pilot’s attention from monitoring the aircraft.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Effective workload management ensures essential operations are accomplished by planning, prioritizing and sequencing tasks to avoid work overload. With experience, a pilot learns to prepare for high workload periods during times of low workload.",
+          "quote": "Effective workload management ensures essential operations are accomplished by planning, prioritizing, and sequencing tasks to avoid work overload. As experience is gained, a pilot learns to recognize future workload requirements and can prepare for high workload periods during times of low workload.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The first effect of high workload is that the pilot may be working harder but accomplishing less. A task-saturated pilot has no awareness of input from various sources, so decisions may be made on incomplete information and the possibility of error increases.",
+          "quote": "The first effect of high workload is that the pilot may be working harder but accomplishing less. As workload increases, attention cannot be devoted to several tasks at one time, and the pilot may begin to focus on one item. When a pilot becomes task saturated, there is no awareness of input from various sources, so decisions may be made on incomplete information and the possibility of error increases.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When a work overload situation exists, a pilot needs to stop, think, slow down, and prioritize.",
+          "quote": "When a work overload situation exists, a pilot needs to stop, think, slow down, and prioritize.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When moving from one viewing point to the next, pilots should overlap the previous field of view by 10°.",
+          "quote": "When moving from one viewing point to the next, pilots should overlap the previous field of view by 10°.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    }
+  ]
+}

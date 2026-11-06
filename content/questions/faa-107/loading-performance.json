@@ -1,0 +1,369 @@
+{
+  "cluster": "faa-107",
+  "slug": "loading-performance",
+  "title": "FAA Part 107 Loading and performance practice questions",
+  "description": "Free Part 107 practice questions on loading and performance: CG and lift, stability, load factor, overloading and performance data, with FAA sources.",
+  "href": "/faa-107/loading-performance/practice-test/",
+  "questions": [
+    {
+      "id": "lp-001",
+      "topic": "Loading before flight",
+      "question": "According to the FAA Remote Pilot Study Guide, whose weight and balance restrictions for an aircraft should be closely followed?",
+      "options": {
+        "A": "The local air traffic control facility's",
+        "B": "Those established by the manufacturer or the builder",
+        "C": "The visual observer's",
+        "D": "Those of the nearest airport operator"
+      },
+      "answer": "B",
+      "explanation": "The Study Guide says \"An aircraft's weight and balance restrictions established by the manufacturer or the builder should be closely followed.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-002",
+      "topic": "Loading before flight",
+      "question": "A manufacturer lists a maximum gross takeoff weight for a small UA. What does the Study Guide say about taking off with that load?",
+      "options": {
+        "A": "It is safe under all conditions because the manufacturer specified it",
+        "B": "It applies only to fixed-wing aircraft",
+        "C": "It may be exceeded at high elevations",
+        "D": "The aircraft may not always safely take off with this load under all conditions"
+      },
+      "answer": "D",
+      "explanation": "The Study Guide says \"Although a maximum gross takeoff weight may be specified, the aircraft may not always safely take off with this load under all conditions.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-003",
+      "topic": "Loading before flight",
+      "question": "According to the Study Guide, what is the most common weight change that takes place during flight?",
+      "options": {
+        "A": "Fuel burn",
+        "B": "Rain collecting on the airframe",
+        "C": "Battery drain at the control station",
+        "D": "Ice forming on the propellers"
+      },
+      "answer": "A",
+      "explanation": "The Study Guide says \"Fuel burn is the most common weight change that takes place during flight.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-004",
+      "topic": "Loading before flight",
+      "question": "What weight does the 107.3 definition of a small unmanned aircraft set?",
+      "options": {
+        "A": "Less than 55 pounds empty, not counting any payload",
+        "B": "55 pounds or more on takeoff",
+        "C": "Less than 55 pounds on takeoff, including everything that is on board or otherwise attached to the aircraft",
+        "D": "Less than 0.55 pounds on takeoff, not counting attached objects"
+      },
+      "answer": "C",
+      "explanation": "107.3 says \"Small unmanned aircraft means an unmanned aircraft weighing less than 55 pounds on takeoff, including everything that is on board or otherwise attached to the aircraft.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 107.3, Definitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.3"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-005",
+      "topic": "Center of gravity and lift",
+      "question": "According to the Study Guide, what would happen if an aircraft were supported at its exact center of gravity (CG)?",
+      "options": {
+        "A": "It would balance in any attitude",
+        "B": "It would pitch nose down",
+        "C": "It would pitch nose up",
+        "D": "It would roll toward the heavier wing"
+      },
+      "answer": "A",
+      "explanation": "The Study Guide says \"If the aircraft were supported at its exact CG, it would balance in any attitude.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-006",
+      "topic": "Center of gravity and lift",
+      "question": "An aircraft's CG is forward of its center of pressure (CP). According to the Study Guide, what tendency does this create?",
+      "options": {
+        "A": "A nose-up pitching moment",
+        "B": "A tendency to roll left",
+        "C": "A natural tendency to pitch nose down",
+        "D": "No pitching tendency at all"
+      },
+      "answer": "C",
+      "explanation": "The Study Guide says \"When the CG is forward of the CP, there is a natural tendency for the aircraft to want to pitch nose down.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-007",
+      "topic": "Center of gravity and lift",
+      "question": "According to the Study Guide, where do designers fix the aft limit of the CG in order to retain flight equilibrium?",
+      "options": {
+        "A": "Aft of the CP",
+        "B": "Forward of the CP for the corresponding flight speed",
+        "C": "Exactly at the CP at all flight speeds",
+        "D": "At the aircraft's geometric center"
+      },
+      "answer": "B",
+      "explanation": "The Study Guide says \"designers fix the aft limit of the CG forward of the CP for the corresponding flight speed in order to retain flight equilibrium.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-008",
+      "topic": "Center of gravity and lift",
+      "question": "A small UA in stabilized level flight starts producing less lift than its weight. What does the Study Guide say happens to the vertical speed?",
+      "options": {
+        "A": "It will increase",
+        "B": "It stays the same because the aircraft remains in equilibrium",
+        "C": "It increases until the aircraft accelerates upward",
+        "D": "It will decrease"
+      },
+      "answer": "D",
+      "explanation": "The Study Guide says \"If lift becomes less than weight, the vertical speed will decrease.\" Only when lift equals weight is the aircraft \"in a state of equilibrium.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-009",
+      "topic": "Stability and controllability",
+      "question": "How does the Study Guide characterize stability?",
+      "options": {
+        "A": "Primarily a matter of piloting technique",
+        "B": "Primarily an aircraft design characteristic",
+        "C": "A quality set by the weather on the day of flight",
+        "D": "A quality the remote pilot sets in the control station software"
+      },
+      "answer": "B",
+      "explanation": "The Study Guide says stability \"is primarily an aircraft design characteristic.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-010",
+      "topic": "Stability and controllability",
+      "question": "Which description does the Study Guide give for controllability?",
+      "options": {
+        "A": "The capability of an aircraft to respond to the pilot's control, especially with regard to flight path and attitude",
+        "B": "The inherent quality of an aircraft to return to its original flight path after a disturbance",
+        "C": "The quality that lets an aircraft withstand the stresses imposed by maneuvers",
+        "D": "The ability of an aircraft to carry its maximum payload"
+      },
+      "answer": "A",
+      "explanation": "The Study Guide defines controllability as \"the capability of an aircraft to respond to the pilot's control, especially with regard to flight path and attitude.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-011",
+      "topic": "Stability and controllability",
+      "question": "Which factors does the Study Guide say govern an aircraft's maneuverability?",
+      "options": {
+        "A": "Ambient temperature, humidity and pressure",
+        "B": "The pilot's experience and training only",
+        "C": "Weight, inertia, size and location of flight controls, structural strength, and powerplant",
+        "D": "The control link frequency and range"
+      },
+      "answer": "C",
+      "explanation": "The Study Guide says maneuverability \"is governed by the aircraft's weight, inertia, size and location of flight controls, structural strength, and powerplant.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-012",
+      "topic": "Load factor, turns and stalls",
+      "question": "For any given bank angle, how does the Study Guide say the rate of turn varies with airspeed?",
+      "options": {
+        "A": "The higher the speed, the faster the rate of turn",
+        "B": "The rate of turn does not depend on airspeed",
+        "C": "The rate of turn depends only on aircraft weight",
+        "D": "The higher the speed, the slower the rate of turn"
+      },
+      "answer": "D",
+      "explanation": "The Study Guide says \"For any given bank angle, the rate-of-turn varies with the airspeed—the higher the speed, the slower the rate-of-turn (ROT).\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-013",
+      "topic": "Load factor, turns and stalls",
+      "question": "An aircraft with a normal unaccelerated stalling speed of 45 knots is banked greater than 72° in a steep turn. Which airspeed does the Study Guide say it must be kept greater than to prevent inducing a stall?",
+      "options": {
+        "A": "75 knots",
+        "B": "45 knots",
+        "C": "54 knots",
+        "D": "60 knots"
+      },
+      "answer": "A",
+      "explanation": "The Study Guide says banking greater than 72° \"produces a load factor of 3\" and that with a 45-knot stalling speed \"the airspeed must be kept greater than 75 knots to prevent inducing a stall.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-014",
+      "topic": "Load factor, turns and stalls",
+      "question": "In the Study Guide's example, an aircraft has a normal unaccelerated stalling speed of 50 knots. If it could withstand a load factor of nine, at what speed does the guide say it could be stalled?",
+      "options": {
+        "A": "100 knots",
+        "B": "450 knots",
+        "C": "75 knots",
+        "D": "150 knots"
+      },
+      "answer": "D",
+      "explanation": "The Study Guide says \"If it were possible for this aircraft to withstand a load factor of nine, it could be stalled at a speed of 150 knots.\" An aircraft's stalling speed \"increases in proportion to the square root of the load factor.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-015",
+      "topic": "Weight control and overloading",
+      "question": "A remote pilot attaches a payload that leaves the CG outside the approved limits. What does the Study Guide say operating this way results in?",
+      "options": {
+        "A": "Improved maneuverability",
+        "B": "A lower stalling speed",
+        "C": "Control difficulty",
+        "D": "Longer range"
+      },
+      "answer": "C",
+      "explanation": "The Study Guide says \"Operation with the center of gravity (CG) outside the approved limits results in control difficulty.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-016",
+      "topic": "Weight control and overloading",
+      "question": "Which factors does the Study Guide name as limiting the amount of lift an airfoil produces?",
+      "options": {
+        "A": "Only the aircraft's weight",
+        "B": "The airfoil design, angle of attack, airspeed, and air density",
+        "C": "Only the battery's state of charge",
+        "D": "The distance between the aircraft and the control station"
+      },
+      "answer": "B",
+      "explanation": "The Study Guide says \"The amount of lift produced by an airfoil is limited by the airfoil design, AOA, airspeed, and air density.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-017",
+      "topic": "Weight control and overloading",
+      "question": "Which of these is one of the performance deficiencies of an overloaded aircraft listed in the Study Guide?",
+      "options": {
+        "A": "Shorter takeoff run",
+        "B": "Lower stalling speed",
+        "C": "Lower approach and landing speed",
+        "D": "Reduced rate and angle of climb"
+      },
+      "answer": "D",
+      "explanation": "Among \"the most important performance deficiencies of an overloaded aircraft\", the Study Guide lists \"Reduced rate and angle of climb\", along with a longer takeoff run, higher stalling speed and higher approach and landing speed.",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-018",
+      "topic": "Performance and performance data",
+      "question": "According to the Study Guide, what must an aircraft do to maintain a given altitude and speed when weight is added to it?",
+      "options": {
+        "A": "Fly at a higher angle of attack, which increases induced and parasite drag",
+        "B": "Fly at a lower angle of attack, which reduces drag",
+        "C": "Keep the same angle of attack and gain reserve thrust",
+        "D": "Fly at a lower angle of attack, which reduces parasite drag only"
+      },
+      "answer": "A",
+      "explanation": "The Study Guide says \"If weight is added to an aircraft, it must fly at a higher angle of attack (AOA) to maintain a given altitude and speed.\" This \"increases the induced drag of the wings, as well as the parasite drag of the aircraft.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-019",
+      "topic": "Performance and performance data",
+      "question": "Why does the Study Guide say the climb performance of an aircraft diminishes with altitude?",
+      "options": {
+        "A": "An increase in altitude decreases the power required and increases the power available",
+        "B": "Air density increases with altitude",
+        "C": "An increase in altitude increases the power required and decreases the power available",
+        "D": "The aircraft's weight increases with altitude"
+      },
+      "answer": "C",
+      "explanation": "The Study Guide says \"An increase in altitude also increases the power required and decreases the power available. Therefore, the climb performance of an aircraft diminishes with altitude.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "lp-020",
+      "topic": "Performance and performance data",
+      "question": "Which operational performance data does the Study Guide say a manufacturer may provide for an aircraft?",
+      "options": {
+        "A": "Airspace class boundaries and NOTAM codes",
+        "B": "Data pertaining to takeoff, climb, range, endurance, descent, and landing",
+        "C": "Remote pilot medical and certificate records",
+        "D": "METAR and TAF codes for the launch site"
+      },
+      "answer": "B",
+      "explanation": "The Study Guide says the manufacturer may provide \"operational performance data for the aircraft such as data pertaining to takeoff, climb, range, endurance, descent, and landing.\"",
+      "source": {
+        "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+      },
+      "checked": "2026-11-06"
+    }
+  ]
+}

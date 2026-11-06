@@ -1,0 +1,534 @@
+{
+  "cluster": "faa-107",
+  "slug": "loading-performance",
+  "href": "/faa-107/loading-performance/study-guide/",
+  "title": "FAA Part 107 Loading and performance study guide",
+  "description": "Part 107 study guide on loading and performance: CG and lift, stability, load factor and stalls, overloading and performance data, from FAA sources.",
+  "intro": "Loading and Performance is one of the knowledge areas named in the FAA Remote Pilot Airman Certification Standards (FAA-S-ACS-10B). This guide sets out what the FAA Remote Pilot Study Guide (FAA-G-8082-22) says about loading a small unmanned aircraft, the center of gravity and lift, stability, load factor in turns and its effect on stalling speed, the effects of excess weight, and the use of performance data. The Study Guide is dated August 2016, before later Part 107 amendments, so it is used here only for this background knowledge; the one rule quoted, the 107.3 weight limit in the definition of a small unmanned aircraft, comes from the current 14 CFR text. goraedu is an independent study site; these points are not the FAA test. Figures and charts are not reproduced. Every point links to its source and quotes its exact words.",
+  "topics": [
+    {
+      "id": "loading",
+      "name": "Loading before flight",
+      "points": [
+        {
+          "text": "The FAA Remote Pilot ACS has a Loading and Performance task. Its knowledge elements are general loading and performance, including the effects of loading changes and balance, stability and center of gravity.",
+          "quote": "Task A. Loading and Performance References AC 107-2; FAA-H-8083-25; FAA-G-8082-22 Objective To determine that the applicant is knowledgeable in the loading and performance of an sUAS. Knowledge The applicant demonstrates understanding of: UA.IV.A.K1 General loading and performance, including: UA.IV.A.K1a a. Effects of loading changes UA.IV.A.K1b b. Balance, stability, and center of gravity",
+          "source": {
+            "title": "FAA-S-ACS-10B, Remote Pilot – Small Unmanned Aircraft Systems Airman Certification Standards (April 2021)",
+            "url": "https://www.faa.gov/training_testing/testing/acs/uas_acs.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The same ACS task also names the importance and use of performance data to calculate the effect on the aircraft's performance of an sUAS.",
+          "quote": "Importance and use of performance data to calculate the effect on the aircraft’s performance of an sUAS.",
+          "source": {
+            "title": "FAA-S-ACS-10B, Remote Pilot – Small Unmanned Aircraft Systems Airman Certification Standards (April 2021)",
+            "url": "https://www.faa.gov/training_testing/testing/acs/uas_acs.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In the ACS table of the percentage of items on the knowledge test, Loading & Performance is given as 7–11%.",
+          "quote": "UAS Topics Percentage of Items on Test I. Regulations 15-25% II. Airspace & Requirements 15-25% III. Weather 11-16% IV. Loading & Performance 7-11%",
+          "source": {
+            "title": "FAA-S-ACS-10B, Remote Pilot – Small Unmanned Aircraft Systems Airman Certification Standards (April 2021)",
+            "url": "https://www.faa.gov/training_testing/testing/acs/uas_acs.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Under 14 CFR 107.3, a small unmanned aircraft is an unmanned aircraft weighing less than 55 pounds on takeoff, and that weight includes everything on board or otherwise attached to the aircraft.",
+          "quote": "Small unmanned aircraft means an unmanned aircraft weighing less than 55 pounds on takeoff, including everything that is on board or otherwise attached to the aircraft.",
+          "source": {
+            "title": "eCFR: 14 CFR 107.3, Definitions (as of Nov 3, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Study Guide says an aircraft's weight and balance restrictions established by the manufacturer or the builder should be closely followed, and that compliance with the manufacturer's weight and balance limits is critical to flight safety.",
+          "quote": "An aircraft’s weight and balance restrictions established by the manufacturer or the builder should be closely followed. Compliance with the manufacturer’s weight and balance limits is critical to flight safety.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The remote PIC must consider the consequences of an overweight aircraft if an emergency condition arises.",
+          "quote": "The remote PIC must consider the consequences of an overweight aircraft if an emergency condition arises.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A maximum gross takeoff weight may be specified, but the aircraft may not always safely take off with that load under all conditions.",
+          "quote": "Although a maximum gross takeoff weight may be specified, the aircraft may not always safely take off with this load under all conditions.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Weight changes during flight have a direct effect on aircraft performance, and fuel burn is the most common weight change in flight.",
+          "quote": "Weight changes during flight also have a direct effect on aircraft performance. Fuel burn is the most common weight change that takes place during flight.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Adverse balance conditions (weight distribution) may affect flight characteristics in much the same way as an excess weight condition. The manufacturer may establish limits for where the center of gravity (CG) is located.",
+          "quote": "Adverse balance conditions (i.e., weight distribution) may affect flight characteristics in much the same manner as those mentioned for an excess weight condition. Limits for the location of the center of gravity (CG) may be established by the manufacturer.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When variable load items are shifted or used up, the CG may shift. The remote PIC should determine how the CG will shift and what that does to the aircraft.",
+          "quote": "As variable load items are shifted or expended, there may be a resultant shift in CG location. The remote PIC should determine how the CG will shift and the resultant effects on the aircraft.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "cg-lift",
+      "name": "Center of gravity and lift",
+      "points": [
+        {
+          "text": "The CG may be considered the point at which all the weight of the aircraft is concentrated; an aircraft supported at its exact CG would balance in any attitude.",
+          "quote": "The CG may be considered as a point at which all the weight of the aircraft is concentrated. If the aircraft were supported at its exact CG, it would balance in any attitude.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The CG is of major importance in a small UA because its position has a great bearing on stability. The allowable CG location is determined by the general design of each aircraft.",
+          "quote": "It will be noted that CG is of major importance in a small UA, for its position has a great bearing upon stability. The allowable location of the CG is determined by the general design of each particular aircraft.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An aircraft's weight is concentrated at the CG, while the aerodynamic forces of lift occur at the center of pressure (CP).",
+          "quote": "It is important to understand that an aircraft’s weight is concentrated at the CG and the aerodynamic forces of lift occur at the CP.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "With the CG forward of the CP, the aircraft naturally tends to pitch nose down; with the CP forward of the CG, a nose-up pitching moment is created.",
+          "quote": "When the CG is forward of the CP, there is a natural tendency for the aircraft to want to pitch nose down. If the CP is forward of the CG, a nose up pitching moment is created.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "To keep flight equilibrium, designers fix the aft limit of the CG forward of the CP for the corresponding flight speed.",
+          "quote": "Therefore, designers fix the aft limit of the CG forward of the CP for the corresponding flight speed in order to retain flight equilibrium.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Lift is the upward force on the wing acting perpendicular to the relative wind and to the aircraft's lateral axis, and lift is required to counteract the aircraft's weight.",
+          "quote": "Lift is the upward force on the wing acting perpendicular to the relative wind and perpendicular to the aircraft’s lateral axis. Lift is required to counteract the aircraft’s weight.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When lift equals weight in stabilized level flight, the aircraft is in equilibrium and neither accelerates upward nor downward.",
+          "quote": "stabilized level flight, when the lift force is equal to the weight force, the aircraft is in a state of equilibrium and neither accelerates upward or downward.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If lift becomes less than weight, vertical speed decreases; if lift is greater than weight, vertical speed increases.",
+          "quote": "If lift becomes less than weight, the vertical speed will decrease. When lift is greater than weight, the vertical speed will increase.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "stability",
+      "name": "Stability and controllability",
+      "points": [
+        {
+          "text": "Stability is an aircraft's inherent quality to correct for conditions that may disturb its equilibrium and to return to or continue on the original flight path. It is primarily an aircraft design characteristic.",
+          "quote": "Stability is the inherent quality of an aircraft to correct for conditions that may disturb its equilibrium and to return to or to continue on the original flight path. It is primarily an aircraft design characteristic.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Maneuverability is the quality that lets an aircraft be maneuvered easily and withstand the stresses imposed by maneuvers.",
+          "quote": "Maneuverability—the quality of an aircraft that permits it to be maneuvered easily and to withstand the stresses imposed by maneuvers.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Maneuverability is governed by the aircraft's weight, inertia, size and location of flight controls, structural strength, and powerplant, and it too is a design characteristic.",
+          "quote": "It is governed by the aircraft’s weight, inertia, size and location of flight controls, structural strength, and powerplant. It too is an aircraft design characteristic.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Controllability is the capability of an aircraft to respond to the pilot's control, especially with regard to flight path and attitude.",
+          "quote": "Controllability—the capability of an aircraft to respond to the pilot’s control, especially with regard to flight path and attitude.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Controllability is the quality of the aircraft's response to the pilot's control application when maneuvering, regardless of its stability characteristics.",
+          "quote": "It is the quality of the aircraft’s response to the pilot’s control application when maneuvering the aircraft, regardless of its stability characteristics.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "load-factor",
+      "name": "Load factor, turns and stalls",
+      "notCovered": "The Study Guide's Figures 4-1, 4-2 and 4-3 on load factor and stalling speed are not reproduced here; only the values its text states are given.",
+      "points": [
+        {
+          "text": "The Study Guide describes the maximum load factor at a given bank angle as a proportion between lift and weight with a trigonometric relationship.",
+          "quote": "In aerodynamics, the maximum load factor (at given bank angle) is a proportion between lift and weight and has a trigonometric relationship.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Any force applied to an aircraft to deflect its flight from a straight line produces a stress on its structure; the amount of this force is the load factor.",
+          "quote": "Any force applied to an aircraft to deflect its flight from a straight line produces a stress on its structure. The amount of this force is the load factor.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Because aircraft structures are designed to withstand only a certain amount of overload, a knowledge of load factors has become essential for all pilots. One reason load factors are important is that a pilot can impose a dangerous overload on the aircraft structures.",
+          "quote": "With the structural design of aircraft planned to withstand only a certain amount of overload, a knowledge of load factors has become essential for all pilots. Load factors are important for two reasons: 1. It is possible for a pilot to impose a dangerous overload on the aircraft structures.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For any given bank angle, the rate of turn varies with airspeed: the higher the speed, the slower the rate of turn. This compensates for added centrifugal force, so the load factor stays the same.",
+          "quote": "For any given bank angle, the rate-of-turn varies with the airspeed—the higher the speed, the slower the rate-of-turn (ROT). This compensates for added centrifugal force, allowing the load factor to remain the same.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The load factor increases at a terrific rate after a bank has reached 45° or 50°.",
+          "quote": "the load factor increases at a terrific rate after a bank has reached 45° or 50°.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A 90° banked, constant-altitude turn is not mathematically possible, although an aircraft may be banked to 90° in a coordinated turn if it is not trying to hold altitude.",
+          "quote": "a 90° banked, constant altitude turn is not mathematically possible. An aircraft may be banked to 90° in a coordinated turn if not trying to hold altitude.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "At slightly more than 80° of bank, the load factor exceeds 6 Gs, the limit load factor of an acrobatic aircraft.",
+          "quote": "At slightly more than 80°, the load factor exceeds the limit of 6 Gs, the limit load factor of an acrobatic aircraft.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Any aircraft, within the limits of its structure, may be stalled at any airspeed.",
+          "quote": "Any aircraft, within the limits of its structure, may be stalled at any airspeed.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If an aircraft with a normal unaccelerated stalling speed of 50 knots could withstand a load factor of nine, it could be stalled at 150 knots. A pilot should be aware of the danger of inadvertently stalling the aircraft by increasing the load factor, as in a steep turn or spiral.",
+          "quote": "If it were possible for this aircraft to withstand a load factor of nine, it could be stalled at a speed of 150 knots. A pilot should be aware of the danger of inadvertently stalling the aircraft by increasing the load factor, as in a steep turn or spiral.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Banking more than 72° in a steep turn produces a load factor of 3; for an aircraft with a normal unaccelerated stalling speed of 45 knots, the airspeed must be kept greater than 75 knots to prevent a stall.",
+          "quote": "banking an aircraft greater than 72° in a steep turn produces a load factor of 3, and the stalling speed is increased significantly. If this turn is made in an aircraft with a normal unaccelerated stalling speed of 45 knots, the airspeed must be kept greater than 75 knots to prevent inducing a stall.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A quick pull-up or any maneuver producing load factors above 1 G has a similar effect. Sudden loss of control, particularly in a steep turn or with abrupt back elevator control near the ground, has caused many accidents.",
+          "quote": "A similar effect is experienced in a quick pull up or any maneuver producing load factors above 1 G. This sudden, unexpected loss of control, particularly in a steep turn or abrupt application of the back elevator control near the ground, has caused many accidents.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Because the load factor is squared as the stalling speed doubles, stalling an aircraft at relatively high airspeeds can impose tremendous loads on its structure.",
+          "quote": "Since the load factor is squared as the stalling speed doubles, tremendous loads may be imposed on structures by stalling an aircraft at relatively high airspeeds.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "weight-control",
+      "name": "Weight control and overloading",
+      "points": [
+        {
+          "text": "The aircraft's weight and balance data is important information for a pilot that must be frequently reevaluated.",
+          "quote": "The aircraft’s weight and balance data is important information for a pilot that must be frequently reevaluated.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Weight is the force with which gravity attracts a body toward the center of the Earth; it is a product of the mass of a body and the acceleration acting on it.",
+          "quote": "Weight is the force with which gravity attracts a body toward the center of the Earth. It is a product of the mass of a body and the acceleration acting on the body.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Lift is the only force that counteracts weight and sustains an aircraft in flight. The lift an airfoil produces is limited by the airfoil design, angle of attack (AOA), airspeed and air density.",
+          "quote": "The force of lift is the only force that counteracts weight and sustains an aircraft in flight. The amount of lift produced by an airfoil is limited by the airfoil design, AOA, airspeed, and air density.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "To make sure lift is enough to counteract weight, loading an aircraft beyond the manufacturer's recommended weight must be avoided; if weight is greater than the lift generated, the aircraft may be incapable of flight.",
+          "quote": "To assure that the lift generated is sufficient to counteract weight, loading an aircraft beyond the manufacturer’s recommended weight must be avoided. If the weight is greater than the lift generated, the aircraft may be incapable of flight.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Any item aboard that increases total weight is undesirable for performance; manufacturers try to make an aircraft as light as possible without sacrificing strength or safety.",
+          "quote": "Any item aboard an aircraft that increases the total weight is undesirable for performance. Manufacturers attempt to make an aircraft as light as possible without sacrificing strength or safety.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An overloaded aircraft may not be able to leave the ground, or if it does become airborne, it may show unexpected and unusually poor flight characteristics.",
+          "quote": "An overloaded aircraft may not be able to leave the ground, or if it does become airborne, it may exhibit unexpected and unusually poor flight characteristics.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Study Guide lists the most important performance deficiencies of an overloaded aircraft as a higher takeoff speed, a longer takeoff run, a reduced rate and angle of climb, a lower maximum altitude, a shorter range, reduced cruising speed, reduced maneuverability, a higher stalling speed, a higher approach and landing speed, and a longer landing roll.",
+          "quote": "For example, the most important performance deficiencies of an overloaded aircraft are: • Higher takeoff speed • Longer takeoff run • Reduced rate and angle of climb • Lower maximum altitude • Shorter range • Reduced cruising speed • Reduced maneuverability • Higher stalling speed • Higher approach and landing speed • Longer landing roll",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Excessive weight in itself reduces the safety margins available to the pilot, and it becomes even more hazardous when combined with other performance-reducing factors.",
+          "quote": "Excessive weight in itself reduces the safety margins available to the pilot and becomes even more hazardous when other performance-reducing factors are combined with excess weight.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "performance",
+      "name": "Performance and performance data",
+      "notCovered": "Density altitude and its causes are set out in the weather study guide. Weight and balance calculations are not covered: the Weight & Balance Handbook (FAA-H-8083-1) that the Study Guide lists is not among this guide's sources.",
+      "points": [
+        {
+          "text": "Performance describes an aircraft's ability to accomplish certain things that make it useful for certain purposes.",
+          "quote": "Performance is a term used to describe the ability of an aircraft to accomplish certain things that make it useful for certain purposes.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The primary factors most affected by performance are takeoff and landing distance, rate of climb, ceiling, payload, range, speed, maneuverability, stability and fuel economy.",
+          "quote": "The primary factors most affected by performance are the takeoff and landing distance, rate of climb, ceiling, payload, range, speed, maneuverability, stability, and fuel economy.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Weight, altitude and configuration changes affect excess thrust and power, so they also affect climb performance, which depends directly on the ability to produce either excess thrust or excess power.",
+          "quote": "Since weight, altitude and configuration changes affect excess thrust and power, they also affect climb performance. Climb performance is directly dependent upon the ability to produce either excess thrust or excess power.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If weight is added, the aircraft must fly at a higher angle of attack to maintain a given altitude and speed, which increases induced drag and parasite drag and leaves less reserve thrust for climbing.",
+          "quote": "If weight is added to an aircraft, it must fly at a higher angle of attack (AOA) to maintain a given altitude and speed. This increases the induced drag of the wings, as well as the parasite drag of the aircraft. Increased drag means that additional thrust is needed to overcome it, which in turn means that less reserve thrust is available for climbing.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An increase in altitude increases the power required and decreases the power available, so climb performance diminishes with altitude.",
+          "quote": "An increase in altitude also increases the power required and decreases the power available. Therefore, the climb performance of an aircraft diminishes with altitude.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The International Standard Atmosphere (ISA) was established to provide a common reference, and its standard conditions are the basis for most aircraft performance data: standard sea level pressure of 29.92 \"Hg and a standard temperature of 59 °F (15 °C).",
+          "quote": "To provide a common reference, the International Standard Atmosphere (ISA) has been established. These standard conditions are the basis for most aircraft performance data. Standard sea level pressure is defined as 29.92 \"Hg and a standard temperature of 59 °F (15 °C).",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A manufacturer may provide operational and performance information, such as data on takeoff, climb, range, endurance, descent and landing.",
+          "quote": "The manufacturer may provide operational and performance information that contains the operational performance data for the aircraft such as data pertaining to takeoff, climb, range, endurance, descent, and landing.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "To make practical use of the aircraft's capabilities and limitations, the Study Guide says it is essential to understand the significance of the operational data, and using this data in flying operations is essential for safe and efficient operation.",
+          "quote": "To be able to make practical use of the aircraft’s capabilities and limitations, it is essential to understand the significance of the operational data. The use of this data in flying operations is essential for safe and efficient operation.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Relative humidity is the amount of water vapor in the atmosphere, expressed as a percentage of the maximum the air can hold. That maximum varies with temperature: warm air holds more water vapor and cold air holds less.",
+          "quote": "Humidity, also called relative humidity, refers to the amount of water vapor contained in the atmosphere and is expressed as a percentage of the maximum amount of water vapor the air can hold. This amount varies with temperature. Warm air holds more water vapor, while cold air holds less.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Perfectly dry air has a relative humidity of zero percent; saturated air, which cannot hold any more water vapor, has a relative humidity of 100 percent.",
+          "quote": "Perfectly dry air that contains no water vapor has a relative humidity of zero percent, while saturated air, which cannot hold any more water vapor, has a relative humidity of 100 percent.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Humidity alone is usually not considered an important factor in calculating density altitude and aircraft performance, but it is a contributing factor.",
+          "quote": "Humidity alone is usually not considered an important factor in calculating density altitude and aircraft performance, but it is a contributing factor.",
+          "source": {
+            "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
+            "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    }
+  ]
+}
