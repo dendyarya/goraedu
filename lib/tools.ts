@@ -122,4 +122,12 @@ export const TOOLS: Tool[] = [
     summary:
       "Find the Table A minimum clearance for a power line up to 350 kV and whether the 20-foot rule in 29 CFR 1926.1408 applies.",
   },
+  {
+    slug: "forklift-refresher-evaluation",
+    cluster: "forklift",
+    name: "Forklift refresher and evaluation checker",
+    href: "/forklift/tools/forklift-refresher-evaluation/",
+    summary:
+      "See whether 29 CFR 1910.178(l)(4) requires refresher training for an operator, and when three years from the last evaluation falls.",
+  },
 ];
