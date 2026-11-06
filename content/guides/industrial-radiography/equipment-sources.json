@@ -11,7 +11,7 @@
       "name": "Equipment performance and labels",
       "points": [
         {
-          "text": "Each radiographic exposure device, source assembly or sealed source, and all associated equipment must meet the requirements of the standard the rule names, ANSI N432-1980.",
+          "text": "Each radiographic exposure device, source assembly or sealed source, and all associated equipment must meet the requirements specified in the standard that 34.20(a)(1) names, American National Standards Institute N432-1980.",
           "quote": "Each radiographic exposure device, source assembly or sealed source, and all associated equipment must meet the requirements specified in American National Standards Institute, N432-1980 “Radiological Safety for the Design and Construction of Apparatus for Gamma Radiography,” (published as NBS Handbook 136, issued January 1981).",
           "source": {
             "title": "eCFR: 10 CFR 34.20, Performance requirements for industrial radiography equipment (as of Nov 4, 2026)",
@@ -20,8 +20,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The licensee must ensure each radiographic exposure device has a durable, legible, clearly visible label. Among other items, it bears the chemical symbol and mass number of the radionuclide and the activity with the date it was last measured.",
-          "quote": "The licensee shall ensure that each radiographic exposure device has attached to it a durable, legible, clearly visible label bearing the— (i) Chemical symbol and mass number of the radionuclide in the device; (ii) Activity and the date on which this activity was last measured;",
+          "text": "An applicant or licensee may submit engineering analysis to show that testing already performed on similar individual radiography equipment components applies. Upon review, the Commission may find this an acceptable alternative to actual testing of the component under that standard.",
+          "quote": "Engineering analysis may be submitted by an applicant or licensee to demonstrate the applicability of previously performed testing on similar individual radiography equipment components. Upon review, the Commission may find this an acceptable alternative to actual testing of the component pursuant to the above referenced standard.",
           "source": {
             "title": "eCFR: 10 CFR 34.20, Performance requirements for industrial radiography equipment (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.20"
@@ -29,8 +29,17 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The device label also bears the model (or product code) and serial number of the sealed source, the manufacturer's identity of the sealed source, and the licensee's name, address, and telephone number.",
-          "quote": "(iii) Model (or product code) and serial number of the sealed source; (iv) Manufacturer's identity of the sealed source; and (v) Licensee's name, address, and telephone number.",
+          "text": "The licensee must ensure each radiographic exposure device has a durable, legible, clearly visible label bearing the chemical symbol and mass number of the radionuclide in the device; the activity and the date it was last measured; the model (or product code) and serial number of the sealed source; the manufacturer's identity of the sealed source; and the licensee's name, address, and telephone number.",
+          "quote": "The licensee shall ensure that each radiographic exposure device has attached to it a durable, legible, clearly visible label bearing the— (i) Chemical symbol and mass number of the radionuclide in the device; (ii) Activity and the date on which this activity was last measured; (iii) Model (or product code) and serial number of the sealed source; (iv) Manufacturer's identity of the sealed source; and (v) Licensee's name, address, and telephone number.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.20, Performance requirements for industrial radiography equipment (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.20"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Radiographic exposure devices intended for use as Type B transport containers must meet the applicable requirements of 10 CFR part 71.",
+          "quote": "Radiographic exposure devices intended for use as Type B transport containers must meet the applicable requirements of 10 CFR part 71.",
           "source": {
             "title": "eCFR: 10 CFR 34.20, Performance requirements for industrial radiography equipment (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.20"
@@ -47,8 +56,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Where the source can be moved out of the device, the coupling between the source assembly and the control cable must be designed so the source assembly will not become disconnected if cranked outside the guide tube, and so it cannot be unintentionally disconnected under normal and reasonably foreseeable abnormal conditions.",
-          "quote": "The coupling between the source assembly and the control cable must be designed in such a manner that the source assembly will not become disconnected if cranked outside the guide tube. The coupling must be such that it cannot be unintentionally disconnected under normal and reasonably foreseeable abnormal conditions.",
+          "text": "For radiographic exposure devices, source assemblies and associated equipment that allow the source to be moved out of the device for radiographic operations or to source changers, the coupling between the source assembly and the control cable must be designed so the source assembly will not become disconnected if cranked outside the guide tube, and so it cannot be unintentionally disconnected under normal and reasonably foreseeable abnormal conditions.",
+          "quote": "the following requirements apply to radiographic exposure devices, source assemblies, and associated equipment that allow the source to be moved out of the device for radiographic operations or to source changers. (1) The coupling between the source assembly and the control cable must be designed in such a manner that the source assembly will not become disconnected if cranked outside the guide tube. The coupling must be such that it cannot be unintentionally disconnected under normal and reasonably foreseeable abnormal conditions.",
           "source": {
             "title": "eCFR: 10 CFR 34.20, Performance requirements for industrial radiography equipment (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.20"
@@ -65,7 +74,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Outlet fittings, the lock box and drive cable fittings must have safety plugs or covers, installed during storage and transportation to protect the source assembly from water, mud, sand or other foreign matter.",
+          "text": "The outlet fittings, lock box and drive cable fittings on each radiographic exposure device must be equipped with safety plugs or covers, which must be installed during storage and transportation to protect the source assembly from water, mud, sand or other foreign matter.",
           "quote": "The outlet fittings, lock box, and drive cable fittings on each radiographic exposure device must be equipped with safety plugs or covers which must be installed during storage and transportation to protect the source assembly from water, mud, sand or other foreign matter.",
           "source": {
             "title": "eCFR: 10 CFR 34.20, Performance requirements for industrial radiography equipment (as of Nov 4, 2026)",
@@ -83,8 +92,26 @@
           "checked": "2026-11-06"
         },
         {
+          "text": "The guide tube must be able to withstand a crushing test that closely approximates the crushing forces likely to be encountered during use, and a kinking resistance test that closely approximates the kinking forces likely to be encountered during use.",
+          "quote": "The guide tube must be able to withstand a crushing test that closely approximates the crushing forces that are likely to be encountered during use, and be able to withstand a kinking resistance test that closely approximates the kinking forces that are likely to be encountered during use.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.20, Performance requirements for industrial radiography equipment (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.20"
+          },
+          "checked": "2026-11-06"
+        },
+        {
           "text": "Guide tubes must be used when moving the source out of the device, and an exposure head or similar device must be attached to the outermost end of the guide tube during industrial radiography operations.",
           "quote": "Guide tubes must be used when moving the source out of the device. (7) An exposure head or similar device designed to prevent the source assembly from passing out of the end of the guide tube must be attached to the outermost end of the guide tube during industrial radiography operations.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.20, Performance requirements for industrial radiography equipment (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.20"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The guide tube exposure head connection must be able to withstand the tensile test for control units specified in ANSI N432-1980.",
+          "quote": "The guide tube exposure head connection must be able to withstand the tensile test for control units specified in ANSI N432-1980.",
           "source": {
             "title": "eCFR: 10 CFR 34.20, Performance requirements for industrial radiography equipment (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.20"
@@ -101,14 +128,14 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The content of ANSI N432-1980 and of 10 CFR part 71 is not described here; only the passages of 34.20 that name them are quoted."
+      "notCovered": "The content of ANSI N432-1980 and of 10 CFR part 71 is not described here; only the passages of 34.20 that name them are quoted. The 34.20(e) Endurance Test exception and the 34.20(d) compliance date are not covered."
     },
     {
       "id": "limits-locking",
       "name": "Radiation limits and locking",
       "points": [
         {
-          "text": "Storage containers and source changers have maximum exposure rate limits of 2 millisieverts (200 millirem) per hour at any exterior surface and 0.1 millisieverts (10 millirem) per hour at 1 meter from any exterior surface, with the sealed source in the shielded position.",
+          "text": "The maximum exposure rate limits for storage containers and source changers are 2 millisieverts (200 millirem) per hour at any exterior surface, and 0.1 millisieverts (10 millirem) per hour at 1 meter from any exterior surface with the sealed source in the shielded position.",
           "quote": "The maximum exposure rate limits for storage containers and source changers are 2 millisieverts (200 millirem) per hour at any exterior surface, and 0.1 millisieverts (10 millirem) per hour at 1 meter from any exterior surface with the sealed source in the shielded position.",
           "source": {
             "title": "eCFR: 10 CFR 34.21, Limits on external radiation levels from storage containers and source changers (as of Nov 4, 2026)",
@@ -126,7 +153,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The exposure device and/or its container must be kept locked, with any key removed at all times, when not under the direct surveillance of a radiographer or a radiographer's assistant, except at permanent radiographic installations as stated in § 34.51.",
+          "text": "The exposure device and/or its container must be kept locked (if a keyed lock, with the key removed at all times) when not under the direct surveillance of a radiographer or a radiographer's assistant, except at permanent radiographic installations as stated in § 34.51.",
           "quote": "The exposure device and/or its container must be kept locked (and if a keyed-lock, with the key removed at all times) when not under the direct surveillance of a radiographer or a radiographer's assistant except at permanent radiographic installations as stated in § 34.51.",
           "source": {
             "title": "eCFR: 10 CFR 34.23, Locking of radiographic exposure devices, storage containers and source changers (as of Nov 4, 2026)",
@@ -144,8 +171,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Storage containers and source changers must be kept locked, with any key removed at all times, when containing sealed sources, except when under the direct surveillance of a radiographer or a radiographer's assistant.",
-          "quote": "Storage containers and source changers must be kept locked (and if a keyed-lock, with the key removed at all times) when containing sealed sources except when under the direct surveillance of a radiographer or a radiographer's assistant.",
+          "text": "Each sealed source storage container and source changer must have a lock or outer locked container designed to prevent unauthorized or accidental removal of the sealed source from its shielded position. They must be kept locked (if a keyed lock, with the key removed at all times) when containing sealed sources, except when under the direct surveillance of a radiographer or a radiographer's assistant.",
+          "quote": "Each sealed source storage container and source changer must have a lock or outer locked container designed to prevent unauthorized or accidental removal of the sealed source from its shielded position. Storage containers and source changers must be kept locked (and if a keyed-lock, with the key removed at all times) when containing sealed sources except when under the direct surveillance of a radiographer or a radiographer's assistant.",
           "source": {
             "title": "eCFR: 10 CFR 34.23, Locking of radiographic exposure devices, storage containers and source changers (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.23"
@@ -153,7 +180,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The permanent radiographic installation provisions of § 34.51 that 34.23(a) refers to are covered in the operations and surveys set."
+      "notCovered": "The § 34.51 provisions for permanent radiographic installations that 34.23(a) refers to are not described in this guide."
     },
     {
       "id": "survey-instruments",
@@ -187,8 +214,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Logarithmic scale instruments are calibrated at mid-range of each decade and at two points of at least one decade; digital instruments at 3 points between 0.02 and 10 millisieverts (2 and 1000 millirems) per hour.",
-          "quote": "for logarithmic scale instruments, at mid-range of each decade, and at two points of at least one decade; and for digital instruments, at 3 points between 0.02 and 10 millisieverts (2 and 1000 millirems) per hour;",
+          "text": "Calibration points depend on the instrument: for linear scale instruments, two points located approximately one-third and two-thirds of full-scale on each scale; for logarithmic scale instruments, mid-range of each decade and two points of at least one decade; for digital instruments, 3 points between 0.02 and 10 millisieverts (2 and 1000 millirems) per hour.",
+          "quote": "For linear scale instruments, at two points located approximately one-third and two-thirds of full-scale on each scale; for logarithmic scale instruments, at mid-range of each decade, and at two points of at least one decade; and for digital instruments, at 3 points between 0.02 and 10 millisieverts (2 and 1000 millirems) per hour;",
           "source": {
             "title": "eCFR: 10 CFR 34.25, Radiation survey instruments (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.25"
@@ -238,8 +265,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Unless a sealed source comes with a certificate from the transferor showing it was leak tested within 6 months before the transfer, the licensee may not use it until it is tested for leakage.",
-          "quote": "Unless a sealed source is accompanied by a certificate from the transferor that shows that it has been leak tested within 6 months before the transfer, it may not be used by the licensee until tested for leakage.",
+          "text": "The wipe sample should be taken from the nearest accessible point to the sealed source where contamination might accumulate, and must be analyzed for radioactive contamination. The analysis must be capable of detecting 185 Bq (0.005 microcurie) of radioactive material on the test sample and must be performed by a person specifically authorized by the Commission or an Agreement State.",
+          "quote": "The wipe sample should be taken from the nearest accessible point to the sealed source where contamination might accumulate. The wipe sample must be analyzed for radioactive contamination. The analysis must be capable of detecting the presence of 185 Bq (0.005 microcurie) of radioactive material on the test sample and must be performed by a person specifically authorized by the Commission or an Agreement State to perform the analysis.",
           "source": {
             "title": "eCFR: 10 CFR 34.27, Leak testing and replacement of sealed sources (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.27"
@@ -247,8 +274,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Sealed sources in storage and not in use do not require leak testing, but must be tested before use or transfer to another person if the interval of storage exceeds 6 months.",
-          "quote": "Sealed sources that are in storage and not in use do not require leak testing, but must be tested before use or transfer to another person if the interval of storage exceeds 6 months.",
+          "text": "Unless a sealed source comes with a certificate from the transferor showing it was leak tested within 6 months before the transfer, the licensee may not use it until it is tested for leakage. Sealed sources in storage and not in use do not require leak testing, but must be tested before use or transfer to another person if the interval of storage exceeds 6 months.",
+          "quote": "Unless a sealed source is accompanied by a certificate from the transferor that shows that it has been leak tested within 6 months before the transfer, it may not be used by the licensee until tested for leakage. Sealed sources that are in storage and not in use do not require leak testing, but must be tested before use or transfer to another person if the interval of storage exceeds 6 months.",
           "source": {
             "title": "eCFR: 10 CFR 34.27, Leak testing and replacement of sealed sources (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.27"
@@ -265,7 +292,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A report must be filed with the Director, Office of Nuclear Material Safety and Safeguards, within 5 days of any test with results above that threshold. It describes the equipment involved, the test results, and the corrective action taken.",
+          "text": "A report must be filed with the Director, Office of Nuclear Material Safety and Safeguards, within 5 days of any test with results that exceed that threshold. It describes the equipment involved, the test results, and the corrective action taken.",
           "quote": "A report must be filed with the Director, Office of Nuclear Material Safety and Safeguards , by an appropriate method listed in § 30.6(a) of this chapter, the report to be filed within 5 days of any test with results that exceed the threshold in this paragraph (d), and to describe the equipment involved, the test results, and the corrective action taken.",
           "source": {
             "title": "eCFR: 10 CFR 34.27, Leak testing and replacement of sealed sources (as of Nov 4, 2026)",
@@ -285,6 +312,15 @@
         {
           "text": "If DU testing reveals 185 Bq (0.005 microcuries) or more of removable DU contamination, the device must be removed from use until the wear on the S-tube is evaluated. If the S-tube is worn through, the device may not be used again.",
           "quote": "Should such testing reveal the presence of 185 Bq (0.005 microcuries) or more of removable DU contamination, the exposure device must be removed from use until an evaluation of the wear on the S-tube has been made. Should the evaluation reveal that the S-tube is worn through, the device may not be used again.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.27, Leak testing and replacement of sealed sources (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.27"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "DU shielded devices do not have to be tested for DU contamination while in storage and not in use. Before such a device is used or transferred, it must be tested for DU contamination if the interval of storage exceeded 12 months.",
+          "quote": "DU shielded devices do not have to be tested for DU contamination while in storage and not in use. Before using or transferring such a device however, the device must be tested for DU contamination if the interval of storage exceeded 12 months.",
           "source": {
             "title": "eCFR: 10 CFR 34.27, Leak testing and replacement of sealed sources (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.27"
@@ -325,8 +361,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Each licensee must have written procedures for inspection and routine maintenance of this equipment at intervals not to exceed 3 months or before the first use thereafter, to ensure the proper functioning of components important to safety.",
-          "quote": "Inspection and routine maintenance of radiographic exposure devices, source changers, associated equipment, transport and storage containers, and survey instruments at intervals not to exceed 3 months or before the first use thereafter to ensure the proper functioning of components important to safety.",
+          "text": "Each licensee must have written procedures for inspection and routine maintenance of radiographic exposure devices, source changers, associated equipment, transport and storage containers, and survey instruments at intervals not to exceed 3 months or before the first use thereafter, to ensure the proper functioning of components important to safety.",
+          "quote": "Each licensee shall have written procedures for: (1) Inspection and routine maintenance of radiographic exposure devices, source changers, associated equipment, transport and storage containers, and survey instruments at intervals not to exceed 3 months or before the first use thereafter to ensure the proper functioning of components important to safety.",
           "source": {
             "title": "eCFR: 10 CFR 34.31, Inspection and maintenance of radiographic exposure devices, transport and storage containers, associated equipment, source changers, and survey instruments (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.31"
@@ -334,7 +370,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Replacement components must meet design specifications, and equipment with problems found in these inspections must be removed from service until repaired.",
+          "text": "Replacement components must meet design specifications. If equipment problems are found, the equipment must be removed from service until repaired.",
           "quote": "Replacement components shall meet design specifications. If equipment problems are found, the equipment must be removed from service until repaired.",
           "source": {
             "title": "eCFR: 10 CFR 34.31, Inspection and maintenance of radiographic exposure devices, transport and storage containers, associated equipment, source changers, and survey instruments (as of Nov 4, 2026)",
@@ -343,8 +379,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Written procedures are also required for inspection and maintenance of the Type B packaging used to transport radioactive materials, including procedures to assure Type B packages are shipped and maintained in accordance with the certificate of compliance or other approval.",
-          "quote": "Inspection and maintenance necessary to maintain the Type B packaging used to transport radioactive materials. The inspection and maintenance program must include procedures to assure that Type B packages are shipped and maintained in accordance with the certificate of compliance or other approval.",
+          "text": "The written procedures must also cover inspection and maintenance necessary to maintain the Type B packaging used to transport radioactive materials, including procedures to assure that Type B packages are shipped and maintained in accordance with the certificate of compliance or other approval.",
+          "quote": "(2) Inspection and maintenance necessary to maintain the Type B packaging used to transport radioactive materials. The inspection and maintenance program must include procedures to assure that Type B packages are shipped and maintained in accordance with the certificate of compliance or other approval.",
           "source": {
             "title": "eCFR: 10 CFR 34.31, Inspection and maintenance of radiographic exposure devices, transport and storage containers, associated equipment, source changers, and survey instruments (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.31"
@@ -358,17 +394,8 @@
       "name": "Permanent radiographic installations",
       "points": [
         {
-          "text": "Each entrance used for personnel access to the high radiation area in a permanent radiographic installation must have one of two options. One option is an entrance control of the type described in § 20.1601(a)(1) that reduces the radiation level upon entry into the area.",
-          "quote": "Each entrance that is used for personnel access to the high radiation area in a permanent radiographic installation must have either: (1) An entrance control of the type described in § 20.1601(a)(1) of this chapter that reduces the radiation level upon entry into the area, or",
-          "source": {
-            "title": "eCFR: 10 CFR 34.33, Permanent radiographic installations (as of Nov 4, 2026)",
-            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.33"
-          },
-          "checked": "2026-11-06"
-        },
-        {
-          "text": "The other option is both conspicuous visible and audible warning signals. The visible signal must be actuated by radiation whenever the source is exposed; the audible signal must be actuated when someone attempts to enter while the source is exposed.",
-          "quote": "Both conspicuous visible and audible warning signals to warn of the presence of radiation. The visible signal must be actuated by radiation whenever the source is exposed. The audible signal must be actuated when an attempt is made to enter the installation while the source is exposed.",
+          "text": "Each entrance used for personnel access to the high radiation area in a permanent radiographic installation must have either an entrance control of the type described in § 20.1601(a)(1) that reduces the radiation level upon entry into the area, or both conspicuous visible and audible warning signals. The visible signal must be actuated by radiation whenever the source is exposed; the audible signal must be actuated when an attempt is made to enter the installation while the source is exposed.",
+          "quote": "Each entrance that is used for personnel access to the high radiation area in a permanent radiographic installation must have either: (1) An entrance control of the type described in § 20.1601(a)(1) of this chapter that reduces the radiation level upon entry into the area, or (2) Both conspicuous visible and audible warning signals to warn of the presence of radiation. The visible signal must be actuated by radiation whenever the source is exposed. The audible signal must be actuated when an attempt is made to enter the installation while the source is exposed.",
           "source": {
             "title": "eCFR: 10 CFR 34.33, Permanent radiographic installations (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.33"
@@ -394,32 +421,24 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "An entrance control device or alarm that operates improperly must be immediately labeled as defective and repaired within 7 calendar days.",
-          "quote": "If an entrance control device or an alarm is operating improperly, it must be immediately labeled as defective and repaired within 7 calendar days.",
-          "source": {
-            "title": "eCFR: 10 CFR 34.33, Permanent radiographic installations (as of Nov 4, 2026)",
-            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.33"
-          },
-          "checked": "2026-11-06"
-        },
-        {
-          "text": "The facility may continue to be used during this 7-day period, provided the licensee implements the continuous surveillance requirements of § 34.51 and uses an alarming ratemeter.",
-          "quote": "The facility may continue to be used during this 7-day period, provided the licensee implements the continuous surveillance requirements of § 34.51 and uses an alarming ratemeter.",
+          "text": "An entrance control device or alarm that is operating improperly must be immediately labeled as defective and repaired within 7 calendar days. The facility may continue to be used during this 7-day period, provided the licensee implements the continuous surveillance requirements of § 34.51 and uses an alarming ratemeter.",
+          "quote": "If an entrance control device or an alarm is operating improperly, it must be immediately labeled as defective and repaired within 7 calendar days. The facility may continue to be used during this 7-day period, provided the licensee implements the continuous surveillance requirements of § 34.51 and uses an alarming ratemeter.",
           "source": {
             "title": "eCFR: 10 CFR 34.33, Permanent radiographic installations (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.33"
           },
           "checked": "2026-11-06"
         }
-      ]
+      ],
+      "notCovered": "Neither § 20.1601(a)(1) nor the § 34.51 continuous surveillance requirements are described in this guide; only the passages of 34.33 that name them are quoted."
     },
     {
       "id": "labeling-storage-transport",
       "name": "Labeling, storage and transportation",
       "points": [
         {
-          "text": "The licensee may not use a source changer or container to store licensed material unless it has securely attached a durable, legible, clearly visible label bearing the standard trefoil radiation caution symbol in conventional colors (magenta, purple or black on a yellow background), with a minimum diameter of 25 mm.",
-          "quote": "The licensee may not use a source changer or a container to store licensed material unless the source changer or the storage container has securely attached to it a durable, legible, and clearly visible label bearing the standard trefoil radiation caution symbol conventional colors, i.e., magenta, purple or black on a yellow background, having a minimum diameter of 25 mm",
+          "text": "The licensee may not use a source changer or container to store licensed material unless it has securely attached a durable, legible, clearly visible label bearing the standard trefoil radiation caution symbol in conventional colors (magenta, purple or black on a yellow background), with a minimum diameter of 25 mm, and the wording that 34.35(a) sets out.",
+          "quote": "The licensee may not use a source changer or a container to store licensed material unless the source changer or the storage container has securely attached to it a durable, legible, and clearly visible label bearing the standard trefoil radiation caution symbol conventional colors, i.e., magenta, purple or black on a yellow background, having a minimum diameter of 25 mm, and the wording",
           "source": {
             "title": "eCFR: 10 CFR 34.35, Labeling, storage, and transportation (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-C/section-34.35"
@@ -463,7 +482,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The exact wording required on the storage label in 34.35(a) is not reproduced in the plain-text snapshot used for this guide, so it is not quoted here; see the linked section. Part 71 packaging rules are not described."
+      "notCovered": "The label wording that 34.35(a) sets out (beginning “CAUTION” or “DANGER” and “RADIOACTIVE MATERIAL”) is not reproduced in full here; see the linked section. Part 71 packaging rules are not described."
     },
     {
       "id": "equipment-records",
@@ -506,17 +525,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Utilization logs for each sealed source show a description of the exposure device or transport or storage container it is in (make, model and serial number) and the identity and signature of the radiographer to whom it is assigned.",
-          "quote": "A description, including the make, model, and serial number of the radiographic exposure device or transport or storage container in which the sealed source is located; (2) The identity and signature of the radiographer to whom assigned; and",
-          "source": {
-            "title": "eCFR: 10 CFR 34.71, Utilization logs (as of Nov 4, 2026)",
-            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.71"
-          },
-          "checked": "2026-11-06"
-        },
-        {
-          "text": "The logs also show the plant or site where used and the dates of use, including the dates removed and returned to storage. The licensee retains the logs for 3 years after the log is made.",
-          "quote": "The plant or site where used and dates of use, including the dates removed and returned to storage. (b) The licensee shall retain the logs required by paragraph (a) of this section for 3 years after the log is made.",
+          "text": "Each licensee must maintain utilization logs showing, for each sealed source, a description (including make, model and serial number) of the radiographic exposure device or transport or storage container it is in; the identity and signature of the radiographer to whom it is assigned; and the plant or site where used and the dates of use, including the dates removed and returned to storage. The logs are retained for 3 years after the log is made.",
+          "quote": "Each licensee shall maintain utilization logs showing for each sealed source the following information: (1) A description, including the make, model, and serial number of the radiographic exposure device or transport or storage container in which the sealed source is located; (2) The identity and signature of the radiographer to whom assigned; and (3) The plant or site where used and dates of use, including the dates removed and returned to storage. (b) The licensee shall retain the logs required by paragraph (a) of this section for 3 years after the log is made.",
           "source": {
             "title": "eCFR: 10 CFR 34.71, Utilization logs (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.71"
