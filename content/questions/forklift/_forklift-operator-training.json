@@ -1,0 +1,389 @@
+{
+  "cluster": "forklift",
+  "slug": "forklift-operator-training",
+  "title": "Forklift operator training and evaluation practice questions",
+  "description": "Practice questions on OSHA forklift operator training rules: who trains, training content, refresher training, certification and dates (29 CFR 1910.178(l)).",
+  "href": "/forklift/forklift-operator-training/practice-test/",
+  "questions": [
+    {
+      "id": "qa-001",
+      "topic": "Safe operation and who may operate",
+      "question": "Under 1910.178(l)(1)(i), how is an operator's competence to operate a powered industrial truck safely to be demonstrated?",
+      "options": {
+        "A": "By showing a valid state driver's license",
+        "B": "By the successful completion of the training and evaluation specified in paragraph (l)",
+        "C": "By a signed statement from the operator",
+        "D": "By five years of driving experience at any employer"
+      },
+      "answer": "B",
+      "explanation": "The employer must ensure each operator is competent to operate a truck safely, \"as demonstrated by the successful completion of the training and evaluation specified in this paragraph (l).\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "as demonstrated by the successful completion of the training and evaluation specified in this paragraph (l)"
+    },
+    {
+      "id": "qa-002",
+      "topic": "Safe operation and who may operate",
+      "question": "1910.178(l)(1)(ii) bars an employer from permitting an employee who has not completed the required training to operate a truck. For what purpose does that sentence allow operation anyway, apart from what (l)(5) permits?",
+      "options": {
+        "A": "Short trips of under 100 feet",
+        "B": "Overtime shifts",
+        "C": "Emergencies when no trained operator is present",
+        "D": "Training purposes"
+      },
+      "answer": "D",
+      "explanation": "The rule applies \"Prior to permitting an employee to operate a powered industrial truck (except for training purposes)\" and also notes \"except as permitted by paragraph (l)(5).\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Prior to permitting an employee to operate a powered industrial truck (except for training purposes), the employer shall ensure that each operator has successfully completed the training required by this paragraph (l), except as permitted by paragraph (l)(5)."
+    },
+    {
+      "id": "qa-003",
+      "topic": "Training program implementation",
+      "question": "A trainee is driving under the direct supervision of a qualified trainer. What other condition does 1910.178(l)(2)(i) set for the trainee's operation?",
+      "options": {
+        "A": "The operation does not endanger the trainee or other employees",
+        "B": "The truck carries no load at any time",
+        "C": "The trainee drives only outside working hours",
+        "D": "The trainee drives only on public roads"
+      },
+      "answer": "A",
+      "explanation": "Trainees may operate a truck only under direct supervision \"and\" only \"Where such operation does not endanger the trainee or other employees.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Where such operation does not endanger the trainee or other employees."
+    },
+    {
+      "id": "qa-004",
+      "topic": "Training program implementation",
+      "question": "Under 1910.178(l)(2)(ii), training shall consist of a combination of which elements?",
+      "options": {
+        "A": "A written test and a driver's license check",
+        "B": "Classroom lectures and a medical examination",
+        "C": "Formal instruction, practical training, and evaluation of the operator's performance in the workplace",
+        "D": "Video tape viewing and a signed acknowledgment form"
+      },
+      "answer": "C",
+      "explanation": "Training \"shall consist of a combination of formal instruction\" and \"practical training\" and \"evaluation of the operator's performance in the workplace.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Training shall consist of a combination of formal instruction"
+    },
+    {
+      "id": "qa-005",
+      "topic": "Training program implementation",
+      "question": "1910.178(l)(2)(ii) gives examples of each training element. Which of these does it list as an example of formal instruction?",
+      "options": {
+        "A": "Practical exercises performed by the trainee",
+        "B": "Interactive computer learning",
+        "C": "Demonstrations performed by the trainer",
+        "D": "Evaluation of the operator's performance in the workplace"
+      },
+      "answer": "B",
+      "explanation": "The rule lists \"formal instruction (e.g., lecture, discussion, interactive computer learning, video tape, written material)\"; demonstrations by the trainer and exercises by the trainee are \"practical training\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "formal instruction (e.g., lecture, discussion, interactive computer learning, video tape, written material)"
+    },
+    {
+      "id": "qa-006",
+      "topic": "Training program implementation",
+      "question": "An employer wants a warehouse supervisor to conduct its operator evaluations. What does 1910.178(l)(2)(iii) require of the person who conducts operator training and evaluation?",
+      "options": {
+        "A": "A license issued by OSHA",
+        "B": "Employment by the truck's manufacturer",
+        "C": "Registration as a professional engineer",
+        "D": "The knowledge, training, and experience to train powered industrial truck operators and evaluate their competence"
+      },
+      "answer": "D",
+      "explanation": "\"All operator training and evaluation shall be conducted by persons who have the knowledge, training, and experience to train powered industrial truck operators and evaluate their competence.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "All operator training and evaluation shall be conducted by persons who have the knowledge, training, and experience to train powered industrial truck operators and evaluate their competence."
+    },
+    {
+      "id": "qa-007",
+      "topic": "Initial training: truck-related topics",
+      "question": "Under 1910.178(l)(3), in which listed topics may initial training be left out?",
+      "options": {
+        "A": "Topics the operator says he or she already knows",
+        "B": "Topics that take more than one hour to teach",
+        "C": "Topics which the employer can demonstrate are not applicable to safe operation of the truck in the employer's workplace",
+        "D": "Topics the trainer has not taught before"
+      },
+      "answer": "C",
+      "explanation": "Operators \"shall receive initial training in the following topics, except in topics which the employer can demonstrate are not applicable to safe operation of the truck in the employer's workplace.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "except in topics which the employer can demonstrate are not applicable to safe operation of the truck in the employer's workplace"
+    },
+    {
+      "id": "qa-008",
+      "topic": "Initial training: truck-related topics",
+      "question": "Which of these is listed in 1910.178(l)(3)(i) as a truck-related training topic?",
+      "options": {
+        "A": "Differences between the truck and the automobile",
+        "B": "How to apply for a commercial driver's license",
+        "C": "The history of the truck's manufacturer",
+        "D": "Resale values of used trucks"
+      },
+      "answer": "A",
+      "explanation": "The truck-related topics include \"Differences between the truck and the automobile\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Differences between the truck and the automobile;"
+    },
+    {
+      "id": "qa-009",
+      "topic": "Initial training: truck-related topics",
+      "question": "Which vehicle inspection and maintenance does 1910.178(l)(3)(i)(J) list as a training topic?",
+      "options": {
+        "A": "Every procedure in the manufacturer's service manual",
+        "B": "Only maintenance done by outside mechanics",
+        "C": "Only the annual inspection done by the dealer",
+        "D": "Any vehicle inspection and maintenance that the operator will be required to perform"
+      },
+      "answer": "D",
+      "explanation": "The topic is \"Any vehicle inspection and maintenance that the operator will be required to perform\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Any vehicle inspection and maintenance that the operator will be required to perform;"
+    },
+    {
+      "id": "qa-010",
+      "topic": "Initial training: truck-related topics",
+      "question": "1910.178(l)(3)(i)(M) adds any other operating instructions, warnings, or precautions found where?",
+      "options": {
+        "A": "In the local fire code",
+        "B": "In the operator's manual for the types of vehicle that the employee is being trained to operate",
+        "C": "In the truck dealer's sales brochure",
+        "D": "In a highway driving handbook"
+      },
+      "answer": "B",
+      "explanation": "The topic covers \"Any other operating instructions, warnings, or precautions listed in the operator's manual for the types of vehicle that the employee is being trained to operate.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Any other operating instructions, warnings, or precautions listed in the operator's manual for the types of vehicle that the employee is being trained to operate."
+    },
+    {
+      "id": "qa-011",
+      "topic": "Initial training: workplace-related topics",
+      "question": "1910.178(l)(3)(ii)(G) lists ramps and other sloped surfaces as a workplace-related topic. What does it say such surfaces could affect?",
+      "options": {
+        "A": "The vehicle's stability",
+        "B": "The operator's hearing",
+        "C": "The building's insurance rating",
+        "D": "The truck's paint finish"
+      },
+      "answer": "A",
+      "explanation": "The topic is \"Ramps and other sloped surfaces that could affect the vehicle's stability\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Ramps and other sloped surfaces that could affect the vehicle's stability;"
+    },
+    {
+      "id": "qa-012",
+      "topic": "Initial training: workplace-related topics",
+      "question": "Besides the truck-related and workplace-related topics, what third item does 1910.178(l)(3) list for initial training?",
+      "options": {
+        "A": "The employer's attendance policy",
+        "B": "First aid and CPR",
+        "C": "The requirements of this section",
+        "D": "State traffic laws"
+      },
+      "answer": "C",
+      "explanation": "After the truck-related and workplace-related topics, (l)(3)(iii) lists \"The requirements of this section.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "(iii) The requirements of this section."
+    },
+    {
+      "id": "qa-013",
+      "topic": "Refresher training and evaluation",
+      "question": "Under 1910.178(l)(4)(i), what must refresher training include?",
+      "options": {
+        "A": "A new driver's license check",
+        "B": "A medical examination of the operator",
+        "C": "A written test from the truck manufacturer",
+        "D": "An evaluation of the effectiveness of that training"
+      },
+      "answer": "D",
+      "explanation": "\"Refresher training, including an evaluation of the effectiveness of that training, shall be conducted as required by paragraph (l)(4)(ii)\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Refresher training, including an evaluation of the effectiveness of that training, shall be conducted as required by paragraph (l)(4)(ii)"
+    },
+    {
+      "id": "qa-014",
+      "topic": "Refresher training and evaluation",
+      "question": "An operator was involved in a near-miss incident with a truck. What does 1910.178(l)(4)(ii) require?",
+      "options": {
+        "A": "Refresher training in relevant topics shall be provided to the operator",
+        "B": "Nothing, because no one was injured",
+        "C": "Nothing until the next three-year evaluation",
+        "D": "That the operator's certification be sent to OSHA"
+      },
+      "answer": "A",
+      "explanation": "\"Refresher training in relevant topics shall be provided to the operator when\" (among other situations) \"The operator has been involved in an accident or near-miss incident\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The operator has been involved in an accident or near-miss incident;"
+    },
+    {
+      "id": "qa-015",
+      "topic": "Refresher training and evaluation",
+      "question": "In which topics does 1910.178(l)(4)(ii) require refresher training to be provided?",
+      "options": {
+        "A": "Only the workplace-related topics",
+        "B": "Relevant topics",
+        "C": "Only topics the operator chooses",
+        "D": "Only topics covered in the operator's manual"
+      },
+      "answer": "B",
+      "explanation": "The rule states: \"Refresher training in relevant topics shall be provided to the operator when\" one of the listed situations occurs.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Refresher training in relevant topics shall be provided to the operator when:"
+    },
+    {
+      "id": "qa-016",
+      "topic": "Refresher training and evaluation",
+      "question": "An employer installs new racking that narrows the aisles where its trucks run. Under 1910.178(l)(4)(ii), what follows?",
+      "options": {
+        "A": "Nothing, because the trucks themselves did not change",
+        "B": "Only a new nameplate on each truck",
+        "C": "Refresher training in relevant topics, because a condition in the workplace changed in a manner that could affect safe operation of the truck",
+        "D": "Only a memo to operators"
+      },
+      "answer": "C",
+      "explanation": "Refresher training in relevant topics shall be provided when \"A condition in the workplace changes in a manner that could affect safe operation of the truck.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A condition in the workplace changes in a manner that could affect safe operation of the truck."
+    },
+    {
+      "id": "qa-017",
+      "topic": "Duplicative training, certification and dates",
+      "question": "Under 1910.178(l)(5), additional training in a topic is not required only when the operator was evaluated and found competent and the earlier training meets what condition?",
+      "options": {
+        "A": "It was given by the same employer",
+        "B": "It took place in the same state",
+        "C": "It lasted at least eight hours",
+        "D": "It is appropriate to the truck and working conditions encountered"
+      },
+      "answer": "D",
+      "explanation": "The previous training must be \"appropriate to the truck and working conditions encountered\", and the operator must have \"been evaluated and found competent to operate the truck safely.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "and such training is appropriate to the truck and working conditions encountered"
+    },
+    {
+      "id": "qa-018",
+      "topic": "Duplicative training, certification and dates",
+      "question": "Who shall certify that each operator has been trained and evaluated as required by 1910.178(l)?",
+      "options": {
+        "A": "The employer",
+        "B": "The OSHA area office",
+        "C": "The truck manufacturer",
+        "D": "The operator"
+      },
+      "answer": "A",
+      "explanation": "\"The employer shall certify that each operator has been trained and evaluated as required by this paragraph (l).\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The employer shall certify that each operator has been trained and evaluated as required by this paragraph (l)."
+    },
+    {
+      "id": "qa-019",
+      "topic": "Duplicative training, certification and dates",
+      "question": "For an employee hired before December 1, 1999, which completion date for initial training and evaluation does the table in 1910.178(l)(7) set?",
+      "options": {
+        "A": "By December 1, 2000",
+        "B": "By December 1, 2002",
+        "C": "By December 1, 1999",
+        "D": "By December 1, 2004"
+      },
+      "answer": "C",
+      "explanation": "The table row for an employee hired \"Before December 1, 1999\" says the initial training and evaluation must be completed \"By December 1, 1999.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Before December 1, 1999 By December 1, 1999."
+    },
+    {
+      "id": "qa-020",
+      "topic": "Initial training: truck-related topics",
+      "question": "Which restrictions does 1910.178(l)(3)(i)(F) name in its visibility training topic?",
+      "options": {
+        "A": "Restrictions due to building lighting",
+        "B": "Restrictions due to loading",
+        "C": "Restrictions due to tinted windows",
+        "D": "Restrictions due to the operator's eyesight"
+      },
+      "answer": "B",
+      "explanation": "The truck-related topic is \"Visibility (including restrictions due to loading)\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Visibility (including restrictions due to loading);"
+    }
+  ]
+}

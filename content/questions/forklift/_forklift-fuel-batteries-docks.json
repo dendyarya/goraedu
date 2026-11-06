@@ -1,0 +1,389 @@
+{
+  "cluster": "forklift",
+  "slug": "forklift-fuel-batteries-docks",
+  "title": "Forklift fuel, batteries, lighting and loading docks practice questions",
+  "description": "Practice questions on forklift fuel storage, battery charging, lighting, carbon monoxide, dockboards, trucks and railroad cars (29 CFR 1910.178(f)-(k)).",
+  "href": "/forklift/forklift-fuel-batteries-docks/practice-test/",
+  "questions": [
+    {
+      "id": "qc-001",
+      "topic": "Fuel handling and storage",
+      "question": "A plant stores diesel fuel for its trucks. Under 1910.178(f)(1), the storage and handling shall be in accordance with which code?",
+      "options": {
+        "A": "NFPA Storage and Handling of Liquefied Petroleum Gases (NFPA No. 58-1969)",
+        "B": "NFPA Flammable and Combustible Liquids Code (NFPA No. 30-1969)",
+        "C": "The levels specified in § 1910.1000",
+        "D": "Subpart D of this part"
+      },
+      "answer": "B",
+      "explanation": "1910.178(f)(1) says \"The storage and handling of liquid fuels such as gasoline and diesel fuel shall be in accordance with NFPA Flammable and Combustible Liquids Code (NFPA No. 30-1969)\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The storage and handling of liquid fuels such as gasoline and diesel fuel shall be in accordance with NFPA Flammable and Combustible Liquids Code (NFPA No. 30-1969)"
+    },
+    {
+      "id": "qc-002",
+      "topic": "Fuel handling and storage",
+      "question": "Under 1910.178(f)(2), the storage and handling of which fuel shall be in accordance with NFPA No. 58-1969?",
+      "options": {
+        "A": "Gasoline",
+        "B": "Diesel fuel",
+        "C": "Battery electrolyte",
+        "D": "Liquefied petroleum gas fuel"
+      },
+      "answer": "D",
+      "explanation": "1910.178(f)(2) says \"The storage and handling of liquefied petroleum gas fuel shall be in accordance with NFPA Storage and Handling of Liquefied Petroleum Gases (NFPA No. 58-1969)\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The storage and handling of liquefied petroleum gas fuel shall be in accordance with NFPA Storage and Handling of Liquefied Petroleum Gases (NFPA No. 58-1969)"
+    },
+    {
+      "id": "qc-003",
+      "topic": "Battery charging areas",
+      "question": "Where does 1910.178(g)(1) say battery charging installations shall be located?",
+      "options": {
+        "A": "In areas designated for that purpose",
+        "B": "Outdoors only",
+        "C": "Next to the liquid fuel storage area",
+        "D": "In the same room as the truck repair shop"
+      },
+      "answer": "A",
+      "explanation": "1910.178(g)(1) says \"Battery charging installations shall be located in areas designated for that purpose.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Battery charging installations shall be located in areas designated for that purpose."
+    },
+    {
+      "id": "qc-004",
+      "topic": "Battery charging areas",
+      "question": "Under 1910.178(g)(2), facilities shall be provided for adequate ventilation for what purpose?",
+      "options": {
+        "A": "To cool the battery charger",
+        "B": "To dry the floor after spilled electrolyte is flushed",
+        "C": "For dispersal of fumes from gassing batteries",
+        "D": "To keep the operator comfortable while waiting"
+      },
+      "answer": "C",
+      "explanation": "1910.178(g)(2) requires facilities \"for adequate ventilation for dispersal of fumes from gassing batteries.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "for adequate ventilation for dispersal of fumes from gassing batteries"
+    },
+    {
+      "id": "qc-005",
+      "topic": "Battery charging areas",
+      "question": "A battery charging area sits beside a busy truck aisle. Which facility listed in 1910.178(g)(2) deals with the trucks themselves?",
+      "options": {
+        "A": "A posted speed limit for the aisle",
+        "B": "Convex mirrors at each corner of the area",
+        "C": "Facilities for protecting charging apparatus from damage by trucks",
+        "D": "A traffic signal at the area's entrance"
+      },
+      "answer": "C",
+      "explanation": "1910.178(g)(2) says facilities shall be provided \"for protecting charging apparatus from damage by trucks\", along with the other facilities it lists.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "for protecting charging apparatus from damage by trucks"
+    },
+    {
+      "id": "qc-006",
+      "topic": "Battery charging areas",
+      "question": "Under 1910.178(g)(10), what shall be prohibited in the charging area?",
+      "options": {
+        "A": "Smoking",
+        "B": "Using an overhead hoist",
+        "C": "Positioning a truck to charge its battery",
+        "D": "Using a siphon"
+      },
+      "answer": "A",
+      "explanation": "1910.178(g)(10) says \"Smoking shall be prohibited in the charging area.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Smoking shall be prohibited in the charging area."
+    },
+    {
+      "id": "qc-007",
+      "topic": "Battery charging areas",
+      "question": "Under 1910.178(g)(11), precautions shall be taken to prevent what in battery charging areas?",
+      "options": {
+        "A": "Direct sunlight and rain",
+        "B": "Temperatures below freezing",
+        "C": "Loud noise from chargers",
+        "D": "Open flames, sparks, or electric arcs"
+      },
+      "answer": "D",
+      "explanation": "1910.178(g)(11) says \"Precautions shall be taken to prevent open flames, sparks, or electric arcs in battery charging areas.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Precautions shall be taken to prevent open flames, sparks, or electric arcs in battery charging areas."
+    },
+    {
+      "id": "qc-008",
+      "topic": "Battery charging areas",
+      "question": "A mechanic is working near a battery whose top is uncovered. What does 1910.178(g)(12) say about tools and other metallic objects?",
+      "options": {
+        "A": "They shall be wrapped in insulating tape",
+        "B": "They shall be kept away from the top of uncovered batteries",
+        "C": "They shall be grounded before use",
+        "D": "They shall be stored in a locked cabinet inside the charging area"
+      },
+      "answer": "B",
+      "explanation": "1910.178(g)(12) says \"Tools and other metallic objects shall be kept away from the top of uncovered batteries.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Tools and other metallic objects shall be kept away from the top of uncovered batteries."
+    },
+    {
+      "id": "qc-009",
+      "topic": "Changing batteries and handling electrolyte",
+      "question": "What does 1910.178(g)(4) say shall be provided for handling batteries?",
+      "options": {
+        "A": "A conveyor, overhead hoist, or equivalent material handling equipment",
+        "B": "A carboy tilter or siphon",
+        "C": "Two employees for every battery lift",
+        "D": "Lifting straps worn by the employee"
+      },
+      "answer": "A",
+      "explanation": "1910.178(g)(4) says \"A conveyor, overhead hoist, or equivalent material handling equipment shall be provided for handling batteries.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A conveyor, overhead hoist, or equivalent material handling equipment shall be provided for handling batteries."
+    },
+    {
+      "id": "qc-010",
+      "topic": "Changing batteries and handling electrolyte",
+      "question": "Which equipment does 1910.178(g)(6) say shall be provided for handling electrolyte?",
+      "options": {
+        "A": "An overhead hoist",
+        "B": "A pressurized spray nozzle",
+        "C": "A carboy tilter or siphon",
+        "D": "An open bucket and funnel"
+      },
+      "answer": "C",
+      "explanation": "1910.178(g)(6) says \"A carboy tilter or siphon shall be provided for handling electrolyte.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A carboy tilter or siphon shall be provided for handling electrolyte."
+    },
+    {
+      "id": "qc-011",
+      "topic": "Changing batteries and handling electrolyte",
+      "question": "When charging batteries, how does 1910.178(g)(7) say acid and water are to be combined?",
+      "options": {
+        "A": "Water shall be poured into acid",
+        "B": "Acid shall be poured into water; water shall not be poured into acid",
+        "C": "Acid and water shall be poured into the battery at the same time",
+        "D": "Acid shall be heated before water is added"
+      },
+      "answer": "B",
+      "explanation": "1910.178(g)(7) says \"When charging batteries, acid shall be poured into water; water shall not be poured into acid.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "When charging batteries, acid shall be poured into water; water shall not be poured into acid."
+    },
+    {
+      "id": "qc-012",
+      "topic": "Changing batteries and handling electrolyte",
+      "question": "A battery that was taken out is being put back into the truck. What does 1910.178(g)(5) require?",
+      "options": {
+        "A": "It shall be fully charged before it is reinstalled",
+        "B": "It shall be reinstalled with its cover closed and locked",
+        "C": "It shall be reinstalled only by a licensed electrician",
+        "D": "It shall be properly positioned and secured in the truck"
+      },
+      "answer": "D",
+      "explanation": "1910.178(g)(5) says \"Reinstalled batteries shall be properly positioned and secured in the truck.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Reinstalled batteries shall be properly positioned and secured in the truck."
+    },
+    {
+      "id": "qc-013",
+      "topic": "Changing batteries and handling electrolyte",
+      "question": "What does 1910.178(g)(9) say about the battery (or compartment) cover(s)?",
+      "options": {
+        "A": "They shall be closed to keep out sparks",
+        "B": "They shall be removed and stored outside the charging area",
+        "C": "They shall be locked during charging",
+        "D": "They shall be open to dissipate heat"
+      },
+      "answer": "D",
+      "explanation": "1910.178(g)(9) says \"The battery (or compartment) cover(s) shall be open to dissipate heat.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The battery (or compartment) cover(s) shall be open to dissipate heat."
+    },
+    {
+      "id": "qc-014",
+      "topic": "Changing batteries and handling electrolyte",
+      "question": "Under 1910.178(g)(9), care shall be taken to assure what about vent caps?",
+      "options": {
+        "A": "That they are functioning",
+        "B": "That they are removed before charging",
+        "C": "That they are sealed with tape",
+        "D": "That they are replaced at every battery change"
+      },
+      "answer": "A",
+      "explanation": "1910.178(g)(9) says \"Care shall be taken to assure that vent caps are functioning.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Care shall be taken to assure that vent caps are functioning."
+    },
+    {
+      "id": "qc-015",
+      "topic": "Lighting, gases and dockboards",
+      "question": "In an operating area, general lighting is less than 2 lumens per square foot. What does 1910.178(h)(2) require?",
+      "options": {
+        "A": "Truck operation shall stop until the lighting is improved",
+        "B": "The operator shall travel in reverse",
+        "C": "Auxiliary directional lighting shall be provided on the truck",
+        "D": "A second employee shall walk ahead with a flashlight"
+      },
+      "answer": "C",
+      "explanation": "1910.178(h)(2) says \"Where general lighting is less than 2 lumens per square foot, auxiliary directional lighting shall be provided on the truck.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Where general lighting is less than 2 lumens per square foot, auxiliary directional lighting shall be provided on the truck."
+    },
+    {
+      "id": "qc-016",
+      "topic": "Lighting, gases and dockboards",
+      "question": "Concentration levels of carbon monoxide gas created by powered industrial truck operations shall not exceed the levels specified where?",
+      "options": {
+        "A": "NFPA No. 30-1969",
+        "B": "§ 1910.1000",
+        "C": "NFPA No. 58-1969",
+        "D": "Subpart D of this part"
+      },
+      "answer": "B",
+      "explanation": "1910.178(i)(1) says these levels \"shall not exceed the levels specified in § 1910.1000.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Concentration levels of carbon monoxide gas created by powered industrial truck operations shall not exceed the levels specified in § 1910.1000."
+    },
+    {
+      "id": "qc-017",
+      "topic": "Lighting, gases and dockboards",
+      "question": "For dockboards (bridge plates), where does 1910.178(j) refer the reader?",
+      "options": {
+        "A": "Subpart D of this part",
+        "B": "§ 1910.1000",
+        "C": "NFPA No. 30-1969",
+        "D": "§ 1910.6"
+      },
+      "answer": "A",
+      "explanation": "1910.178(j) reads in full: \"Dockboards (bridge plates). See subpart D of this part.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Dockboards (bridge plates). See subpart D of this part."
+    },
+    {
+      "id": "qc-018",
+      "topic": "Highway trucks, semitrailers and railroad cars",
+      "question": "A powered industrial truck is about to board a highway truck at a dock. What does 1910.178(k)(1) require for the highway truck?",
+      "options": {
+        "A": "Wheel chocks placed under the front wheels only",
+        "B": "Its engine left running in neutral",
+        "C": "A fixed jack placed under the rear axle",
+        "D": "Its brakes set and wheel chocks placed under the rear wheels"
+      },
+      "answer": "D",
+      "explanation": "1910.178(k)(1) says \"The brakes of highway trucks shall be set and wheel chocks placed under the rear wheels to prevent the trucks from rolling while they are boarded with powered industrial trucks.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The brakes of highway trucks shall be set and wheel chocks placed under the rear wheels to prevent the trucks from rolling while they are boarded with powered industrial trucks."
+    },
+    {
+      "id": "qc-019",
+      "topic": "Highway trucks, semitrailers and railroad cars",
+      "question": "What does 1910.178(k)(2) say shall be provided to prevent railroad cars from moving during loading or unloading operations?",
+      "options": {
+        "A": "A warning sign posted on the dock",
+        "B": "A spotter watching the car",
+        "C": "Wheel stops or other recognized positive protection",
+        "D": "An audible alarm at the dock edge"
+      },
+      "answer": "C",
+      "explanation": "1910.178(k)(2) says \"Wheel stops or other recognized positive protection shall be provided to prevent railroad cars from moving during loading or unloading operations.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Wheel stops or other recognized positive protection shall be provided to prevent railroad cars from moving during loading or unloading operations."
+    },
+    {
+      "id": "qc-020",
+      "topic": "Highway trucks, semitrailers and railroad cars",
+      "question": "A semitrailer is being loaded while it is not coupled to a tractor. What does 1910.178(k)(3) say?",
+      "options": {
+        "A": "The trailer shall be coupled to a tractor before any loading",
+        "B": "Fixed jacks may be necessary to support the semitrailer and prevent upending",
+        "C": "Only hand trucks may enter the trailer",
+        "D": "The trailer's landing gear shall be removed"
+      },
+      "answer": "B",
+      "explanation": "1910.178(k)(3) says \"Fixed jacks may be necessary to support a semitrailer and prevent upending during the loading or unloading when the trailer is not coupled to a tractor.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Fixed jacks may be necessary to support a semitrailer and prevent upending during the loading or unloading when the trailer is not coupled to a tractor."
+    }
+  ]
+}

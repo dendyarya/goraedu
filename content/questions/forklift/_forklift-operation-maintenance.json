@@ -1,0 +1,389 @@
+{
+  "cluster": "forklift",
+  "slug": "forklift-operation-maintenance",
+  "title": "Forklift operating condition and maintenance practice questions",
+  "description": "Free forklift practice questions on 29 CFR 1910.178(p) and (q): unsafe trucks, fueling, repairs, parts, examination, mufflers and cleaning.",
+  "href": "/forklift/forklift-operation-maintenance/practice-test/",
+  "questions": [
+    {
+      "id": "qf-001",
+      "topic": "Removing unsafe trucks from service",
+      "question": "Partway through a shift, an operator finds that a powered industrial truck is defective. What does 1910.178(p)(1) require?",
+      "options": {
+        "A": "The truck may be used until the end of the shift and then reported",
+        "B": "The truck shall be taken out of service until it has been restored to safe operating condition",
+        "C": "The truck may stay in use if it is driven at reduced speed",
+        "D": "The truck may stay in use if a supervisor rides along"
+      },
+      "answer": "B",
+      "explanation": "\"If at any time a powered industrial truck is found to be in need of repair, defective, or in any way unsafe, the truck shall be taken out of service until it has been restored to safe operating condition.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the truck shall be taken out of service until it has been restored to safe operating condition"
+    },
+    {
+      "id": "qf-002",
+      "topic": "Removing unsafe trucks from service",
+      "question": "A truck's exhaust system emits hazardous sparks. Under 1910.178(q)(8), when may the truck be returned to service?",
+      "options": {
+        "A": "After the engine has cooled for 30 minutes",
+        "B": "At the next daily examination, whatever its result",
+        "C": "Right away, if it is used only outdoors",
+        "D": "When the cause for the emission of such sparks and flames has been eliminated"
+      },
+      "answer": "D",
+      "explanation": "A vehicle that emits hazardous sparks or flames from the exhaust system \"shall immediately be removed from service, and not returned to service until the cause for the emission of such sparks and flames has been eliminated.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "shall immediately be removed from service, and not returned to service until the cause for the emission of such sparks and flames has been eliminated"
+    },
+    {
+      "id": "qf-003",
+      "topic": "Removing unsafe trucks from service",
+      "question": "Which condition does 1910.178(q)(9) name as the reason to remove a vehicle from service for overheating?",
+      "options": {
+        "A": "The temperature of a part is found to be in excess of its normal operating temperature, thus creating a hazardous condition",
+        "B": "The outside air temperature rises above 90 °F",
+        "C": "The engine has run for more than one full shift",
+        "D": "The operator's cab feels warm to the touch"
+      },
+      "answer": "A",
+      "explanation": "\"When the temperature of any part of any truck is found to be in excess of its normal operating temperature, thus creating a hazardous condition, the vehicle shall be removed from service\" until the cause for such overheating has been eliminated.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "When the temperature of any part of any truck is found to be in excess of its normal operating temperature, thus creating a hazardous condition, the vehicle shall be removed from service"
+    },
+    {
+      "id": "qf-004",
+      "topic": "Fueling, fuel leaks and open flames",
+      "question": "Under 1910.178(p)(2), in which situation shall fuel tanks not be filled?",
+      "options": {
+        "A": "When the tank is less than half full",
+        "B": "During the first hour of a shift",
+        "C": "While the engine is running",
+        "D": "When the operator wears gloves"
+      },
+      "answer": "C",
+      "explanation": "\"Fuel tanks shall not be filled while the engine is running. Spillage shall be avoided.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Fuel tanks shall not be filled while the engine is running. Spillage shall be avoided."
+    },
+    {
+      "id": "qf-005",
+      "topic": "Fueling, fuel leaks and open flames",
+      "question": "An operator notices a leak in a truck's fuel system. What does 1910.178(p)(4) say about operating that truck?",
+      "options": {
+        "A": "It may be operated if the leak is smaller than one drop per minute",
+        "B": "It may be operated until the end of the shift",
+        "C": "No truck shall be operated with a leak in the fuel system until the leak has been corrected",
+        "D": "It may be operated if a drip pan is placed under it when parked"
+      },
+      "answer": "C",
+      "explanation": "\"No truck shall be operated with a leak in the fuel system until the leak has been corrected.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "No truck shall be operated with a leak in the fuel system until the leak has been corrected."
+    },
+    {
+      "id": "qf-006",
+      "topic": "Fueling, fuel leaks and open flames",
+      "question": "Under 1910.178(p)(5), what shall not be used for checking the electrolyte level in storage batteries or the gasoline level in fuel tanks?",
+      "options": {
+        "A": "Open flames",
+        "B": "A dipstick",
+        "C": "A sight gauge",
+        "D": "The truck's fuel gauge"
+      },
+      "answer": "A",
+      "explanation": "\"Open flames shall not be used for checking electrolyte level in storage batteries or gasoline level in fuel tanks.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Open flames shall not be used for checking electrolyte level in storage batteries or gasoline level in fuel tanks."
+    },
+    {
+      "id": "qf-007",
+      "topic": "Repairs: who and where",
+      "question": "Under 1910.178(q)(1), who shall make all repairs to industrial trucks?",
+      "options": {
+        "A": "Whichever operator found the defect",
+        "B": "Only an OSHA compliance officer",
+        "C": "Any employee who happens to be on the shift",
+        "D": "Authorized personnel"
+      },
+      "answer": "D",
+      "explanation": "\"Any power-operated industrial truck not in safe operating condition shall be removed from service. All repairs shall be made by authorized personnel.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "All repairs shall be made by authorized personnel."
+    },
+    {
+      "id": "qf-008",
+      "topic": "Repairs: who and where",
+      "question": "In which locations does 1910.178(q)(2) say no repairs shall be made?",
+      "options": {
+        "A": "Any building with a sprinkler system",
+        "B": "Class I, II, and III locations",
+        "C": "Any area within 10 feet of a loading dock",
+        "D": "Any location on the ground floor"
+      },
+      "answer": "B",
+      "explanation": "The rule states: \"No repairs shall be made in Class I, II, and III locations.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "No repairs shall be made in Class I, II, and III locations."
+    },
+    {
+      "id": "qf-009",
+      "topic": "Repairs: who and where",
+      "question": "A truck needs repairs to its fuel and ignition systems that involve fire hazards. Where does 1910.178(q)(3) say those repairs shall be conducted?",
+      "options": {
+        "A": "Only in locations designated for such repairs",
+        "B": "Anywhere, as long as a fire extinguisher is nearby",
+        "C": "Only outdoors at night",
+        "D": "At the spot where the truck broke down"
+      },
+      "answer": "A",
+      "explanation": "\"Those repairs to the fuel and ignition systems of industrial trucks which involve fire hazards shall be conducted only in locations designated for such repairs.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Those repairs to the fuel and ignition systems of industrial trucks which involve fire hazards shall be conducted only in locations designated for such repairs."
+    },
+    {
+      "id": "qf-010",
+      "topic": "Parts, alterations and LP conversion",
+      "question": "A part of an industrial truck needs replacement. What does 1910.178(q)(5) require of the replacement part?",
+      "options": {
+        "A": "It shall be the lowest-cost part available",
+        "B": "It shall be approved by the OSHA area office",
+        "C": "It shall be a used part taken from another truck of any make",
+        "D": "It shall be equivalent as to safety with those used in the original design"
+      },
+      "answer": "D",
+      "explanation": "\"All parts of any such industrial truck requiring replacement shall be replaced only by parts equivalent as to safety with those used in the original design.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "All parts of any such industrial truck requiring replacement shall be replaced only by parts equivalent as to safety with those used in the original design."
+    },
+    {
+      "id": "qf-011",
+      "topic": "Parts, alterations and LP conversion",
+      "question": "Under 1910.178(q)(6), additional counterweighting of fork trucks shall not be done unless approved by whom?",
+      "options": {
+        "A": "The operator's supervisor",
+        "B": "The truck's operator",
+        "C": "The truck manufacturer",
+        "D": "The company that leases the building"
+      },
+      "answer": "C",
+      "explanation": "\"Additional counterweighting of fork trucks shall not be done unless approved by the truck manufacturer.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Additional counterweighting of fork trucks shall not be done unless approved by the truck manufacturer."
+    },
+    {
+      "id": "qf-012",
+      "topic": "Parts, alterations and LP conversion",
+      "question": "Under 1910.178(q)(6), the relative positions of a truck's various parts shall not be altered from what?",
+      "options": {
+        "A": "What they were at the last daily examination",
+        "B": "What they were when originally received from the manufacturer",
+        "C": "What the operator finds most comfortable",
+        "D": "What they were after the most recent repair"
+      },
+      "answer": "B",
+      "explanation": "\"Industrial trucks shall not be altered so that the relative positions of the various parts are different from what they were when originally received from the manufacturer\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Industrial trucks shall not be altered so that the relative positions of the various parts are different from what they were when originally received from the manufacturer"
+    },
+    {
+      "id": "qf-013",
+      "topic": "Parts, alterations and LP conversion",
+      "question": "Paragraph (q)(6) makes an exception for paragraph (q)(12). What change to a truck does (q)(12) allow?",
+      "options": {
+        "A": "Converting any truck to diesel fuel without approval",
+        "B": "Converting a truck originally approved for gasoline to liquefied petroleum gas fuel, provided the complete conversion results in a truck which embodies the features specified for LP or LPS designated trucks",
+        "C": "Removing the overhead guard on trucks used indoors",
+        "D": "Adding counterweight without the manufacturer's approval"
+      },
+      "answer": "B",
+      "explanation": "Trucks \"originally approved for the use of gasoline for fuel may be converted to liquefied petroleum gas fuel provided the complete conversion results in a truck which embodies the features specified for LP or LPS designated trucks.\" \"Such conversion equipment shall be approved.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Industrial trucks originally approved for the use of gasoline for fuel may be converted to liquefied petroleum gas fuel provided the complete conversion results in a truck which embodies the features specified for LP or LPS designated trucks."
+    },
+    {
+      "id": "qf-014",
+      "topic": "Parts, alterations and LP conversion",
+      "question": "Where does 1910.178(q)(12) say the description of the conversion system's component parts and the recommended method of installation on specific trucks are contained?",
+      "options": {
+        "A": "In Appendix A to 1910.178",
+        "B": "In the operator certification records",
+        "C": "In the truck's daily examination log",
+        "D": "In the \"Listed by Report\""
+      },
+      "answer": "D",
+      "explanation": "\"Such conversion equipment shall be approved.\" The rule adds that \"The description of the component parts of this conversion system and the recommended method of installation on specific trucks are contained in the “Listed by Report.”\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The description of the component parts of this conversion system and the recommended method of installation on specific trucks are contained in the “Listed by Report.”"
+    },
+    {
+      "id": "qf-015",
+      "topic": "Examination before service",
+      "question": "Industrial trucks at a plant are used on a round-the-clock basis. When does 1910.178(q)(7) say they shall be examined?",
+      "options": {
+        "A": "After each shift",
+        "B": "Once a week",
+        "C": "Only when an operator reports a defect",
+        "D": "Only at the yearly service visit"
+      },
+      "answer": "A",
+      "explanation": "\"Where industrial trucks are used on a round-the-clock basis, they shall be examined after each shift.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Where industrial trucks are used on a round-the-clock basis, they shall be examined after each shift."
+    },
+    {
+      "id": "qf-016",
+      "topic": "Examination before service",
+      "question": "What does 1910.178(q)(7) require when defects are found?",
+      "options": {
+        "A": "They shall be noted and fixed at the next scheduled service",
+        "B": "They shall be reported only if the truck has stopped working",
+        "C": "They shall be immediately reported and corrected",
+        "D": "They shall be listed in a monthly summary"
+      },
+      "answer": "C",
+      "explanation": "\"Defects when found shall be immediately reported and corrected.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Defects when found shall be immediately reported and corrected."
+    },
+    {
+      "id": "qf-017",
+      "topic": "Mufflers, cleaning and solvents",
+      "question": "Under 1910.178(q)(8), water mufflers shall be filled daily or as frequently as is necessary to prevent the supply of water from dropping below what level?",
+      "options": {
+        "A": "25 percent of the filled capacity",
+        "B": "50 percent of the filled capacity",
+        "C": "10 percent of the filled capacity",
+        "D": "75 percent of the filled capacity"
+      },
+      "answer": "D",
+      "explanation": "\"Water mufflers shall be filled daily or as frequently as is necessary to prevent depletion of the supply of water below 75 percent of the filled capacity.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Water mufflers shall be filled daily or as frequently as is necessary to prevent depletion of the supply of water below 75 percent of the filled capacity."
+    },
+    {
+      "id": "qf-018",
+      "topic": "Mufflers, cleaning and solvents",
+      "question": "A vehicle's muffler has screens that may become clogged, and they are clogged now. What does 1910.178(q)(8) say?",
+      "options": {
+        "A": "The vehicle shall not be operated while such screens or parts are clogged",
+        "B": "The vehicle may be operated if the windows are open",
+        "C": "The vehicle may be operated until the end of the week",
+        "D": "The vehicle may be operated at idle speed only"
+      },
+      "answer": "A",
+      "explanation": "\"Vehicles with mufflers having screens or other parts that may become clogged shall not be operated while such screens or parts are clogged.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Vehicles with mufflers having screens or other parts that may become clogged shall not be operated while such screens or parts are clogged."
+    },
+    {
+      "id": "qf-019",
+      "topic": "Mufflers, cleaning and solvents",
+      "question": "What does 1910.178(q)(10) say about high flash point (at or above 100 °F.) solvents for cleaning trucks?",
+      "options": {
+        "A": "They shall never be used",
+        "B": "They may be used",
+        "C": "They are the only cleaning agents allowed",
+        "D": "They may be used only on electric trucks"
+      },
+      "answer": "B",
+      "explanation": "\"Noncombustible agents should be used for cleaning trucks. Low flash point (below 100 °F.) solvents shall not be used. High flash point (at or above 100 °F.) solvents may be used.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "High flash point (at or above 100 °F.) solvents may be used."
+    },
+    {
+      "id": "qf-020",
+      "topic": "Mufflers, cleaning and solvents",
+      "question": "Under 1910.178(q)(10), precautions regarding toxicity, ventilation, and fire hazard shall be consonant with what?",
+      "options": {
+        "A": "The size of the truck",
+        "B": "The operator's years of experience",
+        "C": "The agent or solvent used",
+        "D": "The time of day the cleaning is done"
+      },
+      "answer": "C",
+      "explanation": "\"Precautions regarding toxicity, ventilation, and fire hazard shall be consonant with the agent or solvent used.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Precautions regarding toxicity, ventilation, and fire hazard shall be consonant with the agent or solvent used."
+    }
+  ]
+}
