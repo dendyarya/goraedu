@@ -11,11 +11,11 @@
       "question": "A technician assembles a split air-conditioning system on site and charges it with 4 pounds of refrigerant. Does it fit EPA's description of a \"small appliance\"?",
       "options": {
         "A": "Yes, because its charge is under five pounds",
-        "B": "No, because a small appliance must be fully manufactured, charged and hermetically sealed in a factory",
-        "C": "Yes, because every air conditioner counts as a small appliance",
+        "B": "Yes, because every air conditioner counts as a small appliance",
+        "C": "No, because a small appliance must be fully manufactured, charged and hermetically sealed in a factory",
         "D": "No, because a small appliance must hold less than one pound of refrigerant"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "EPA describes a small appliance as one that is fully manufactured, charged and hermetically sealed in a factory with five pounds or less of refrigerant. A system assembled and charged on site fails the factory condition, whatever its charge size.",
       "source": {
         "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
@@ -46,12 +46,12 @@
       "topic": "Sales and reclamation",
       "question": "A technician recovers refrigerant from one customer's rooftop unit and wants to charge it into a unit owned by an unrelated company. According to EPA's service practice requirements, what must happen to the refrigerant first?",
       "options": {
-        "A": "It must be run through the filter-driers on the technician's recovery machine",
+        "A": "It must be reclaimed by an EPA-certified reclaimer",
         "B": "It must sit in a recovery cylinder for 30 days",
-        "C": "It must be reclaimed by an EPA-certified reclaimer",
+        "C": "It must be run through the filter-driers on the technician's recovery machine",
         "D": "The second company must sign a statement accepting it"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "EPA states that if recovered refrigerant changes ownership, it must be reclaimed by an EPA-certified refrigerant reclaimer. Moving it to an unrelated company is a change of ownership, so on-site cleaning or the new owner's consent is not enough.",
       "source": {
         "title": "EPA: Stationary Refrigeration Service Practice Requirements",
@@ -64,12 +64,12 @@
       "topic": "Sales and reclamation",
       "question": "A property management company owns two office buildings. A technician recovers refrigerant from a unit in the first building. According to EPA's service practice requirements, where may that refrigerant go without being reclaimed?",
       "options": {
-        "A": "Into a unit in the second building, because the same company owns it",
+        "A": "Into a cylinder sold to another contractor",
         "B": "Into a unit in a neighboring building owned by a different firm",
         "C": "Into any unit the same technician services that week",
-        "D": "Into a cylinder sold to another contractor"
+        "D": "Into a unit in the second building, because the same company owns it"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "EPA allows recovered refrigerant to go back into the same system, or into other systems owned by the same person, without restriction. Sending it to a different owner is a change of ownership, which requires reclamation first.",
       "source": {
         "title": "EPA: Stationary Refrigeration Service Practice Requirements",
@@ -82,12 +82,12 @@
       "topic": "Certification",
       "question": "An EPA inspector visits a refrigeration contractor's shop while one of its certified technicians is out on a service call with the original wallet card. Under 40 CFR 82.161, what must be kept at the technician's place of business?",
       "options": {
-        "A": "Nothing, because the wallet card travels with the technician",
+        "A": "A copy of the technician's certificate",
         "B": "A letter from EPA confirming the certification",
-        "C": "A copy of the technician's certificate",
+        "C": "Nothing, because the wallet card travels with the technician",
         "D": "The technician's graded test answer sheet"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "The rule states: \"Technicians certified under this section must keep a copy of their certificate at their place of business.\" Carrying the original card on a job does not replace that copy, and the rule asks for the certificate, not an EPA letter or a test answer sheet.",
       "source": {
         "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
@@ -100,12 +100,12 @@
       "topic": "Certification",
       "question": "How long must a technician keep a copy of their Section 608 certification?",
       "options": {
-        "A": "Until three years after they are no longer operating as a technician",
+        "A": "For five years after the test date",
         "B": "For one year after the test date",
-        "C": "For five years after the test date",
+        "C": "Until three years after they are no longer operating as a technician",
         "D": "Only until they receive the plastic card"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "EPA says to keep the copy until three years after you are no longer operating as a technician. The rule is tied to when you stop working as a technician, not to the test date.",
       "source": {
         "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
@@ -136,12 +136,12 @@
       "topic": "Certification",
       "question": "A technician has lost their Section 608 certification card. Who should they contact for a replacement?",
       "options": {
-        "A": "The EPA Regional Office",
-        "B": "The company that certified them, whose name is on the card",
+        "A": "The company that certified them, whose name is on the card",
+        "B": "The EPA Regional Office",
         "C": "The refrigerant wholesaler where they buy refrigerant",
         "D": "Their state environmental agency"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "EPA does not administer the tests or issue cards, and it does not keep a database of certified technicians. EPA tells technicians to contact the company that certified them, whose name appears on the card.",
       "source": {
         "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
@@ -192,10 +192,10 @@
       "options": {
         "A": "The U.S. EPA",
         "B": "The test proctor at the end of the exam",
-        "C": "The EPA-approved testing and certification organization that gave the test",
-        "D": "The technician's employer"
+        "C": "The technician's employer",
+        "D": "The EPA-approved testing and certification organization that gave the test"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "EPA states that it does not administer the tests and does not issue test results or certification cards, and that proctors may not issue certification cards. Results and cards come from the EPA-approved testing and certification organization.",
       "source": {
         "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
@@ -227,11 +227,11 @@
       "question": "Is Section 608 certification needed to add or remove refrigerant from a mini-split system as part of installation?",
       "options": {
         "A": "No, installation is exempt",
-        "B": "Only if the system holds more than 50 pounds",
+        "B": "Yes, Section 608 technician certification is required",
         "C": "Only for commercial buildings",
-        "D": "Yes, Section 608 technician certification is required"
+        "D": "Only if the system holds more than 50 pounds"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "EPA states that adding or removing refrigerant from a mini-split as part of installation requires Section 608 technician certification.",
       "source": {
         "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
@@ -244,12 +244,12 @@
       "topic": "Disposal",
       "question": "Section 608 technician certification is required to dispose of appliances, except for which type of appliance?",
       "options": {
-        "A": "Small appliances",
+        "A": "Low-pressure chillers",
         "B": "High-pressure appliances",
-        "C": "Low-pressure chillers",
+        "C": "Small appliances",
         "D": "Very high-pressure appliances"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "EPA states that technician certification is required to dispose of appliances, except for small appliances (and motor vehicle air conditioners or MVAC-like appliances). High-pressure, very high-pressure and low-pressure appliances need a certified technician.",
       "source": {
         "title": "EPA: Questions and Answers for Section 608 Certified Technicians",
@@ -281,11 +281,11 @@
       "question": "A scrap recycler receives a refrigerator carrying only an unsigned sticker that reads \"refrigerant removed.\" According to EPA's safe disposal page, how should the recycler treat the sticker?",
       "options": {
         "A": "As full verification, because the sticker says the refrigerant is gone",
-        "B": "As full verification, if the sticker is dated",
-        "C": "As not acceptable verification; the recycler must still verify recovery, for example with a signed statement giving the name and address of the person who recovered the refrigerant and the date it was recovered",
+        "B": "As not acceptable verification; the recycler must still verify recovery, for example with a signed statement giving the name and address of the person who recovered the refrigerant and the date it was recovered",
+        "C": "As full verification, if the sticker is dated",
         "D": "As full verification, if a certified technician applied it"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "EPA's safe disposal page states that \"EPA does not mandate or accept a sticker as a form of verification\" that the refrigerant has been properly recovered prior to disposal. The final disposer must still obtain a signed statement with the name and address of the person who recovered the refrigerant and the date it was recovered, or be covered by a contract with the supplier; a date on the sticker or who applied it does not change this.",
       "source": {
         "title": "EPA: Stationary Refrigeration Safe Disposal Requirements",
@@ -316,12 +316,12 @@
       "topic": "Recovery and evacuation",
       "question": "For an oil change, EPA's service practice page sets a pressure limit before the system is opened. Instead of bringing the whole appliance to that limit, what other option does EPA describe?",
       "options": {
-        "A": "Draining the oil into an open container while the system runs",
-        "B": "Draining the oil into a receiver that is evacuated or pressurized to no more than 5 psig",
+        "A": "Draining the oil into a receiver that is evacuated or pressurized to no more than 5 psig",
+        "B": "Draining the oil into an open container while the system runs",
         "C": "Changing the oil at full system pressure if the job takes under 15 minutes",
         "D": "Venting the vapor charge first so the oil drains freely"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "EPA says the appliance, or the receiver the oil drains into, must first be evacuated or pressurized to no more than 5 psig. Venting the charge or working at full pressure would break that rule.",
       "source": {
         "title": "EPA: Stationary Refrigeration Service Practice Requirements",
@@ -334,12 +334,12 @@
       "topic": "Recovery and evacuation",
       "question": "For leaking equipment, EPA says leaking components should be evacuated to the lowest level that can be reached without doing what?",
       "options": {
-        "A": "Substantially contaminating the refrigerant",
-        "B": "Running the recovery machine for more than one hour",
+        "A": "Running the recovery machine for more than one hour",
+        "B": "Substantially contaminating the refrigerant",
         "C": "Adding nitrogen to the system",
         "D": "Disconnecting the recovery hoses"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "For leaking equipment, EPA says to evacuate leaking components to the lowest level attainable without substantially contaminating the refrigerant, and that level cannot exceed 0 psig. Run time, nitrogen use or hose handling is not the test.",
       "source": {
         "title": "EPA: Stationary Refrigeration Service Practice Requirements",
@@ -352,12 +352,12 @@
       "topic": "Refrigerants",
       "question": "EPA's technician fact sheet gives carbon dioxide, nitrogen and water as examples of refrigerants exempt from the refrigerant management requirements. Where does it point technicians for the full list?",
       "options": {
-        "A": "40 CFR 82.161",
+        "A": "40 CFR 82.154(a)",
         "B": "40 CFR 82.157",
-        "C": "40 CFR 82.154(a)",
+        "C": "40 CFR 82.161",
         "D": "Appendix D to Subpart F"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "EPA's technician fact sheet gives carbon dioxide, nitrogen and water as examples of exempt refrigerants and points to 40 CFR 82.154(a) for the full list. Section 82.161 covers technician certification, 82.157 leak repair and Appendix D certifying programs.",
       "source": {
         "title": "EPA fact sheet: Refrigerant Management Requirements, What Technicians Need to Know",
@@ -372,10 +372,10 @@
       "options": {
         "A": "HFCs only",
         "B": "HFCs and HCFCs",
-        "C": "CFCs only",
-        "D": "CFCs and HCFCs"
+        "C": "CFCs and HCFCs",
+        "D": "CFCs only"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "EPA's Core test topics list the destruction of ozone by chlorine and the presence of chlorine in CFC and HCFC refrigerants. HFCs contain no chlorine, and limiting the list to CFCs leaves out HCFCs.",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
@@ -388,12 +388,12 @@
       "topic": "Environmental impact",
       "question": "In the ozone-depletion potential (ODP) comparison in EPA's test topics, which family has a higher ODP than HFCs but a lower ODP than CFCs?",
       "options": {
-        "A": "HCFCs",
-        "B": "CFCs",
+        "A": "CFCs",
+        "B": "HCFCs",
         "C": "HFCs",
         "D": "None; the three families have the same ODP"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "EPA's test topics state that CFCs have a higher ozone-depletion potential than HCFCs, which in turn have a higher ODP than HFCs. That places HCFCs between the other two families.",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
@@ -406,12 +406,12 @@
       "topic": "Safety",
       "question": "EPA's Core safety topics name two gases that should not be used for leak detection. Which pair is it?",
       "options": {
-        "A": "Oxygen and compressed air",
+        "A": "Nitrogen and oxygen",
         "B": "Nitrogen and helium",
-        "C": "Nitrogen and oxygen",
+        "C": "Oxygen and compressed air",
         "D": "Compressed air and nitrogen"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "EPA's Core safety topics include the use of nitrogen rather than oxygen or compressed air for leak detection. Any pair that includes nitrogen names the gas the topics recommend.",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
@@ -442,12 +442,12 @@
       "topic": "Safety",
       "question": "Besides the risks of overfilling refrigerant cylinders, EPA's Core safety topics cover the difference between which two kinds of cylinders?",
       "options": {
-        "A": "Steel cylinders and aluminum cylinders",
+        "A": "Reusable recovery cylinders and disposable cylinders",
         "B": "Nitrogen cylinders and oxygen cylinders",
-        "C": "Reusable recovery cylinders and disposable cylinders",
+        "C": "Steel cylinders and aluminum cylinders",
         "D": "Liquid-only cylinders and vapor-only cylinders"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "EPA's Core safety topics include the risks of filling cylinders more than 80 percent full and the difference between reusable recovery cylinders and disposable cylinders. Cylinder metal or gas type is not the distinction the topics draw.",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
@@ -460,12 +460,12 @@
       "topic": "Definitions",
       "question": "The Section 608 definitions sort appliances into low-, medium-, high- and very high-pressure classes by a refrigerant's liquid phase saturation pressure. At what temperature is that pressure taken?",
       "options": {
-        "A": "70 °F",
-        "B": "104 °F",
+        "A": "104 °F",
+        "B": "70 °F",
         "C": "85 °F",
         "D": "32 °F"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Each pressure-class definition uses the saturation pressure at the same temperature; for example, a medium-pressure appliance uses a refrigerant with a liquid phase saturation pressure \"between 45 psia and 170 psia at 104 °F.\" The 85 °F figure belongs to the boiling-point test for pressurizing low-pressure appliances in 82.156, not to these definitions.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
@@ -479,11 +479,11 @@
       "question": "The definition of an MVAC-like appliance says it is not intended to cover appliances that use which refrigerant?",
       "options": {
         "A": "R-134a",
-        "B": "R-12",
-        "C": "R-22",
+        "B": "R-22",
+        "C": "R-12",
         "D": "R-1234yf"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "After describing open-drive compressor appliances that cool the compartment of off-road vehicles, the definition states: \"This definition is not intended to cover appliances using R-22 refrigerant.\" No other refrigerant is named in that exclusion.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
@@ -533,11 +533,11 @@
       "question": "The definition of \"reclaim\" refers to the specifications in appendix A. Which industry standard are those specifications based on?",
       "options": {
         "A": "AHRI Standard 740-2016",
-        "B": "AHRI Standard 700-2016",
-        "C": "UL 1963",
+        "B": "UL 1963",
+        "C": "AHRI Standard 700-2016",
         "D": "ARI Standard 740-1993"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "Reclaim means to reprocess recovered refrigerant to all of the appendix A specifications \"(based on AHRI Standard 700-2016, Specifications for Refrigerants)\" that apply to that refrigerant. The 740 standards and UL 1963 are named in 82.158 for testing recovery and recycling equipment.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
@@ -605,11 +605,11 @@
       "question": "Under the rule's definition, connecting and disconnecting hoses and gauges to measure pressures is:",
       "options": {
         "A": "Considered opening an appliance in all cases",
-        "B": "Not considered \"opening an appliance\"",
-        "C": "Considered opening an appliance only on low-pressure appliances",
+        "B": "Considered opening an appliance only on low-pressure appliances",
+        "C": "Not considered \"opening an appliance\"",
         "D": "Considered opening an appliance if the hoses stay connected for more than 15 minutes"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "\"Opening an appliance\" means any maintenance, service, repair or disposal that would release refrigerant to the atmosphere. The rule states that connecting and disconnecting hoses and gauges to measure pressures, add refrigerant, or recover refrigerant \"are not considered\" opening an appliance.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
@@ -622,12 +622,12 @@
       "topic": "Definitions",
       "question": "Besides removing a compressor, condenser, evaporator or auxiliary heat exchange coil, which work counts as \"major\" maintenance, service or repair?",
       "options": {
-        "A": "Uncovering any opening for more than 5 minutes",
+        "A": "Uncovering an opening of more than 4 square inches of flow area for more than 15 minutes",
         "B": "Uncovering an opening of more than 1 square inch of flow area for more than 60 minutes",
-        "C": "Uncovering an opening of more than 4 square inches of flow area for more than 15 minutes",
+        "C": "Uncovering any opening for more than 5 minutes",
         "D": "Uncovering an opening of more than 10 square inches of flow area for any length of time"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "Major maintenance, service or repair includes work that involves \"uncovering an opening of more than four (4) square inches\" of flow area for more than 15 minutes. The other size and time combinations do not appear in the definition.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
@@ -658,12 +658,12 @@
       "topic": "Venting prohibition",
       "question": "For a release of a non-exempt refrigerant to count as de minimis under the venting prohibition, which situation can make it qualify?",
       "options": {
-        "A": "It happens while the required service practices, certified recovery machines, technician certification and reclamation requirements are all observed",
+        "A": "It happens outdoors",
         "B": "It is less than one pound of refrigerant",
         "C": "The technician reports it to EPA within 30 days",
-        "D": "It happens outdoors"
+        "D": "It happens while the required service practices, certified recovery machines, technician certification and reclamation requirements are all observed"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Except for exempt substitutes, releases are de minimis only if they occur when the applicable practices are observed and \"recovery and/or recycling machines that meet the requirements in § 82.158 are used whenever refrigerant is removed from an appliance,\" with the technician certification and reclamation provisions also observed (or when subpart B is followed). The rule sets no size, reporting or outdoor test.",
       "source": {
         "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
@@ -677,11 +677,11 @@
       "question": "In which uses is ammonia an exempt substitute under the venting prohibition?",
       "options": {
         "A": "In any application",
-        "B": "In commercial or industrial process refrigeration or in absorption units",
-        "C": "Only in household refrigerators",
+        "B": "Only in household refrigerators",
+        "C": "In commercial or industrial process refrigeration or in absorption units",
         "D": "Only in motor vehicle air conditioners"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "The list of exempt substitutes includes \"Ammonia in commercial or industrial process refrigeration or in absorption units.\" Unlike carbon dioxide, nitrogen and water, ammonia is not exempt \"in any application.\"",
       "source": {
         "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
@@ -696,10 +696,10 @@
       "options": {
         "A": "A copy of every employee's driver's license",
         "B": "The buyer's most recent tax return",
-        "C": "The documentation the buyer provided to show it employs a certified person",
-        "D": "A photograph of each cylinder sold"
+        "C": "A photograph of each cylinder sold",
+        "D": "The documentation the buyer provided to show it employs a certified person"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Where the buyer employs a certified person, \"the seller must keep the documentation provided by the buyer to demonstrate such employment.\" The rule does not ask for licenses, tax returns or photographs.",
       "source": {
         "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
@@ -713,11 +713,11 @@
       "question": "In which case may used refrigerant be sold or transferred for use as a refrigerant without first being reclaimed by a certified reclaimer?",
       "options": {
         "A": "When it is sold to any business that owns appliances",
-        "B": "When it has passed once through a filter-drier",
+        "B": "When it is transferred between a parent company and one of its subsidiaries",
         "C": "When it is sold by a technician to a different customer",
-        "D": "When it is transferred between a parent company and one of its subsidiaries"
+        "D": "When it has passed once through a filter-drier"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "Among the exceptions to the rule on selling used refrigerant is refrigerant \"being transferred between or among a parent company\" and one or more of its subsidiaries. Selling to an unrelated buyer is not one of the listed exceptions, so that refrigerant would have to be reclaimed first.",
       "source": {
         "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
@@ -730,12 +730,12 @@
       "topic": "Sales and reclamation",
       "question": "A certified reclaimer finishes reprocessing a bulk cylinder of used refrigerant that it will sell to a new owner. How must it confirm that this batch meets the appendix A specifications?",
       "options": {
-        "A": "By analyzing each batch with the analytical methodology prescribed in appendix A",
+        "A": "By relying on the technician's statement that the refrigerant was recycled",
         "B": "By testing one batch per calendar year",
-        "C": "By relying on the technician's statement that the refrigerant was recycled",
+        "C": "By analyzing each batch with the analytical methodology prescribed in appendix A",
         "D": "By checking that the cylinder is free of rust"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Reclaimers must \"Verify that each batch of such refrigerant reclaimed meets these specifications using the analytical methodology prescribed in appendix A of this subpart,\" and keep records, by batch, of the results of that analysis. A yearly sample, a technician's statement or the cylinder's condition does not verify each batch.",
       "source": {
         "title": "eCFR: 40 CFR 82.164, Reclaimer certification (as of Nov 3, 2026)",
@@ -748,12 +748,12 @@
       "topic": "Sales and reclamation",
       "question": "What deadline does the rule set for reclaimers to send EPA their annual report on the material they received and the refrigerant they reclaimed?",
       "options": {
-        "A": "December 31 of the same calendar year",
-        "B": "February 1 of the next calendar year",
+        "A": "February 1 of the next calendar year",
+        "B": "December 31 of the same calendar year",
         "C": "July 30 of the next calendar year",
         "D": "April 15 of the next calendar year"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "Reclaimers must report to EPA \"annually by February 1 of the next calendar year.\" The report covers the material sent to them by refrigerant type, the mass of each refrigerant reclaimed and the mass of waste products.",
       "source": {
         "title": "eCFR: 40 CFR 82.164, Reclaimer certification (as of Nov 3, 2026)",
@@ -784,12 +784,12 @@
       "topic": "Sales and reclamation",
       "question": "For reclamation purposes, what does the rule mean by a \"batch\" of refrigerant?",
       "options": {
-        "A": "All refrigerant a reclaimer receives in one calendar month",
+        "A": "A single bulk cylinder of refrigerant after all reclamation is complete, before packaging or shipping",
         "B": "All refrigerant recovered from one appliance",
         "C": "One shipment of recovered refrigerant sent by a technician",
-        "D": "A single bulk cylinder of refrigerant after all reclamation is complete, before packaging or shipping"
+        "D": "All refrigerant a reclaimer receives in one calendar month"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "A batch is defined as \"a single bulk cylinder of refrigerant after all reclamation has been completed\" prior to packaging or shipping to the market. It is not defined by time period, by appliance or by incoming shipment.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
@@ -802,12 +802,12 @@
       "topic": "Certification",
       "question": "Under the technician certification rule, what may EPA require a certified technician to demonstrate, and where?",
       "options": {
-        "A": "Their ability to perform proper procedures for recovering and/or recycling refrigerant, at their place of business",
-        "B": "Their knowledge of the EPA test bank, at an EPA Regional Office",
+        "A": "Their knowledge of the EPA test bank, at an EPA Regional Office",
+        "B": "Their ability to perform proper procedures for recovering and/or recycling refrigerant, at their place of business",
         "C": "Their brazing skills, at a trade school",
         "D": "Their refrigerant purchase records, at their supplier's store"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "The rule says the Administrator \"may require technicians to demonstrate at their place of business their ability to perform proper procedures for recovering and/or recycling refrigerant.\" Failure to demonstrate or to use the equipment properly may lead to revocation or suspension of the certificate.",
       "source": {
         "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
@@ -821,11 +821,11 @@
       "question": "Technicians who maintain, service or repair MVAC-like appliances must hold which certification?",
       "options": {
         "A": "Type I only",
-        "B": "Type II, or certification under 40 CFR part 82, subpart B",
+        "B": "No certification, because MVAC-like appliances are exempt",
         "C": "Type III only",
-        "D": "No certification, because MVAC-like appliances are exempt"
+        "D": "Type II, or certification under 40 CFR part 82, subpart B"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "The rule says technicians who service MVAC-like appliances \"must either be certified as Type II technicians\" or be certified under 40 CFR part 82, subpart B. Only the disposal of MVAC-like appliances is exempt from certification, not their service or repair.",
       "source": {
         "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
@@ -839,11 +839,11 @@
       "question": "Under what condition is a registered apprentice exempt from the technician certification requirement?",
       "options": {
         "A": "When the apprentice has passed the Core section only",
-        "B": "When the apprentice works only on weekends",
-        "C": "When the apprentice is closely and continually supervised by a certified technician",
+        "B": "When the apprentice is closely and continually supervised by a certified technician",
+        "C": "When the apprentice works only on weekends",
         "D": "When the apprentice's employer files a notice with EPA"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Apprentices are exempt provided the apprentice \"is closely and continually supervised by a certified technician\" during work that could release refrigerant. The rule also makes both the supervising technician and the apprentice responsible for the apprentice's compliance.",
       "source": {
         "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
@@ -858,10 +858,10 @@
       "options": {
         "A": "By asking the proctor on the day of the test",
         "B": "By phone at least 10 days before the test",
-        "C": "By writing to EPA at least 60 days before the test",
-        "D": "In writing to the program at least 30 days before the test, explaining why"
+        "C": "In writing to the program at least 30 days before the test, explaining why",
+        "D": "By writing to EPA at least 60 days before the test"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "A test may be given orally to anyone who requests it \"in writing, to the program at least 30 days before\" the scheduled exam, and the request must explain why it is being made. The request goes to the certification program, not to EPA or the proctor on test day.",
       "source": {
         "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
@@ -874,12 +874,12 @@
       "topic": "Exam format",
       "question": "After technicians finish a certification test, Appendix D requires the program to give them a paper hand-out or electronic message. Which item must it contain?",
       "options": {
-        "A": "When they should expect to receive their score and, if they passed, their certification card",
-        "B": "Their score on each individual question",
+        "A": "Their score on each individual question",
+        "B": "When they should expect to receive their score and, if they passed, their certification card",
         "C": "A copy of the questions they were asked",
         "D": "The correct answers to the test"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "The hand-out must include the program, its contact information, the proctor's name and contact information, and \"When they should expect to receive their score and, if they passed, their certification card.\" Appendix D also requires programs to keep test questions and answer keys confidential.",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",

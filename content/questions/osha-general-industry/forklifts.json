@@ -10,12 +10,12 @@
       "topic": "Scope and approved trucks",
       "question": "Which of these vehicles is outside the scope of 29 CFR 1910.178?",
       "options": {
-        "A": "A platform lift truck",
+        "A": "A farm vehicle",
         "B": "A motorized hand truck",
-        "C": "A farm vehicle",
+        "C": "A platform lift truck",
         "D": "A fork truck powered by an internal combustion engine"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "The section covers fork trucks, platform lift trucks, motorized hand trucks and similar trucks, but it \"does not apply to compressed air or nonflammable compressed gas-operated industrial trucks, nor to farm vehicles\".",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
@@ -28,12 +28,12 @@
       "topic": "Scope and approved trucks",
       "question": "Under 1910.178, an \"approved truck\" is listed or approved for fire safety purposes for the intended use by whom?",
       "options": {
-        "A": "A nationally recognized testing laboratory",
-        "B": "The employer's safety committee",
+        "A": "The employer's safety committee",
+        "B": "A nationally recognized testing laboratory",
         "C": "The OSHA area office",
         "D": "The dealer that sold the truck"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "An approved truck is one \"listed or approved for fire safety purposes for the intended use by a nationally recognized testing laboratory, using nationally recognized testing standards.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
@@ -83,11 +83,11 @@
       "question": "A new hire was already trained in some topics listed in 1910.178(l)(3), and that training suits the truck and working conditions. When does 1910.178(l)(5) say additional training in those topics is not required?",
       "options": {
         "A": "When the operator shows a certificate from any driving school",
-        "B": "When the operator has been evaluated and found competent to operate the truck safely",
+        "B": "Never; every topic must be repeated for each new employer",
         "C": "When the earlier training took place within the last ten years",
-        "D": "Never; every topic must be repeated for each new employer"
+        "D": "When the operator has been evaluated and found competent to operate the truck safely"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Additional training in that topic \"is not required if the operator has been evaluated and found competent to operate the truck safely.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
@@ -137,11 +137,11 @@
       "question": "Under whose supervision may a trainee operate a powered industrial truck?",
       "options": {
         "A": "Any coworker who holds a state driver's license",
-        "B": "Another trainee who has finished formal instruction",
-        "C": "The direct supervision of persons with the knowledge, training and experience to train operators and evaluate their competence",
+        "B": "The direct supervision of persons with the knowledge, training and experience to train operators and evaluate their competence",
+        "C": "Another trainee who has finished formal instruction",
         "D": "Nobody, once the trainee passes a written test"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Trainees may operate a truck only \"Under the direct supervision of persons who have the knowledge, training, and experience to train operators and evaluate their competence\" and where the operation \"does not endanger the trainee or other employees.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
@@ -172,12 +172,12 @@
       "topic": "Fuel handling and battery charging",
       "question": "What must be done with a truck before anyone attempts to change or charge its batteries?",
       "options": {
-        "A": "The electrolyte is drained from the battery",
-        "B": "The truck is properly positioned and the brake applied",
+        "A": "The truck is properly positioned and the brake applied",
+        "B": "The electrolyte is drained from the battery",
         "C": "The battery compartment cover is closed and latched",
         "D": "The forks are raised to full height"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "\"Trucks shall be properly positioned and brake applied before attempting to change or charge batteries.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
@@ -192,10 +192,10 @@
       "options": {
         "A": "The truck is pushed at least 8 feet away from the spill",
         "B": "Sawdust is spread over the spill, then the engine may be restarted",
-        "C": "The operator reports the spill at the end of the shift",
-        "D": "The spillage is carefully washed away or completely evaporated and the fuel tank cap replaced"
+        "C": "The spillage is carefully washed away or completely evaporated and the fuel tank cap replaced",
+        "D": "The operator reports the spill at the end of the shift"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "\"Spillage of oil or fuel shall be carefully washed away or completely evaporated and the fuel tank cap replaced before restarting engine.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
@@ -226,12 +226,12 @@
       "topic": "Trucks, trailers and railroad cars",
       "question": "When must the flooring of trucks, trailers and railroad cars be checked for breaks and weakness?",
       "options": {
-        "A": "Before they are driven onto",
+        "A": "Only when the trailer is not coupled to a tractor",
         "B": "After the loading is finished",
         "C": "Once a month",
-        "D": "Only when the trailer is not coupled to a tractor"
+        "D": "Before they are driven onto"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "The flooring \"shall be checked for breaks and weakness before they are driven onto.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
@@ -245,11 +245,11 @@
       "question": "Which areas does 1910.178(m)(14) say shall be kept clear?",
       "options": {
         "A": "Only the battery charging area",
-        "B": "Only the edge of the loading dock",
+        "B": "Fire aisles, access to stairways, and fire equipment",
         "C": "Only the truck parking spaces",
-        "D": "Fire aisles, access to stairways, and fire equipment"
+        "D": "Only the edge of the loading dock"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "The rule states: \"Fire aisles, access to stairways, and fire equipment shall be kept clear.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
@@ -298,12 +298,12 @@
       "topic": "Traveling and loading",
       "question": "A truck is equipped with an attachment but is not handling a load. How does 1910.178(o)(4) say it is to be operated?",
       "options": {
-        "A": "As a partially loaded truck",
+        "A": "Only in reverse",
         "B": "As an empty truck, with no special care",
         "C": "Only with the attachment raised to full height",
-        "D": "Only in reverse"
+        "D": "As a partially loaded truck"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "\"Trucks equipped with attachments shall be operated as partially loaded trucks when not handling a load.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
@@ -316,12 +316,12 @@
       "topic": "Traveling and loading",
       "question": "How must a motorized hand truck enter an elevator or other confined area under 1910.178(n)(13)?",
       "options": {
-        "A": "With the load end trailing",
+        "A": "With the load end forward",
         "B": "Sideways, to save space",
         "C": "Only after the load has been removed",
-        "D": "With the load end forward"
+        "D": "With the load end trailing"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "The rule states: \"Motorized hand trucks must enter elevator or other confined areas with load end forward.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",
@@ -335,11 +335,11 @@
       "question": "What does 1910.178(q)(10) say about solvents used to clean industrial trucks?",
       "options": {
         "A": "Any solvent may be used if the truck is cleaned outdoors",
-        "B": "Low flash point (below 100 °F.) solvents shall not be used",
-        "C": "Only gasoline may be used, because it removes grease best",
+        "B": "Only gasoline may be used, because it removes grease best",
+        "C": "Low flash point (below 100 °F.) solvents shall not be used",
         "D": "Solvents must be used in place of noncombustible agents"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "\"Noncombustible agents should be used for cleaning trucks. Low flash point (below 100 °F.) solvents shall not be used. High flash point (at or above 100 °F.) solvents may be used.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 3, 2026)",

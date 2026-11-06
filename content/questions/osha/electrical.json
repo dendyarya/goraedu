@@ -10,12 +10,12 @@
       "topic": "Ground-fault protection",
       "question": "Where must the written description of an assured equipment grounding conductor program be available?",
       "options": {
-        "A": "At the jobsite, for inspection and copying by the Assistant Secretary and any affected employee",
+        "A": "Nowhere; the program does not need to be written",
         "B": "At the employer's head office only",
         "C": "On file with the local building department",
-        "D": "Nowhere; the program does not need to be written"
+        "D": "At the jobsite, for inspection and copying by the Assistant Secretary and any affected employee"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "\"A written description of the program, including the specific procedures adopted by the employer, shall be available at the jobsite for inspection and copying by the Assistant Secretary and any affected employee.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
@@ -101,11 +101,11 @@
       "question": "Under an assured equipment grounding conductor program, what is the longest interval the rule allows between tests of cord sets and receptacles that are fixed and not exposed to damage?",
       "options": {
         "A": "12 months",
-        "B": "6 months",
+        "B": "10 years",
         "C": "5 years",
-        "D": "10 years"
+        "D": "6 months"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "The rule says \"cord sets and receptacles which are fixed and not exposed to damage shall be tested at intervals not exceeding 6 months.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
@@ -118,12 +118,12 @@
       "topic": "Ground-fault protection",
       "question": "To protect employees on construction sites against ground faults, which choice does 1926.404(b)(1) give the employer?",
       "options": {
-        "A": "Using double-insulated tools in place of any other protection",
+        "A": "Ground-fault circuit interrupters as specified, or an assured equipment grounding conductor program",
         "B": "Placing rubber mats at each work station",
-        "C": "Ground-fault circuit interrupters as specified, or an assured equipment grounding conductor program",
+        "C": "Using double-insulated tools in place of any other protection",
         "D": "Any grounding method the electrician prefers"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "\"The employer shall use either ground fault circuit interrupters as specified in paragraph (b)(1)(ii) of this section or an assured equipment grounding conductor program as specified in paragraph (b)(1)(iii) of this section to protect employees on construction sites.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.404, Wiring design and protection (as of Nov 3, 2026)",
@@ -136,12 +136,12 @@
       "topic": "Temporary wiring",
       "question": "A crew needs portable lights inside a steel tank, a conductive location, and wants to use 120-volt lights. Under what condition does Subpart K allow it?",
       "options": {
-        "A": "If the tank is dry at the time",
+        "A": "If the lights are protected by a ground-fault circuit interrupter",
         "B": "If the lights are suspended by their cords",
         "C": "If a worker stands watch outside the tank",
-        "D": "If the lights are protected by a ground-fault circuit interrupter"
+        "D": "If the tank is dry at the time"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "Portable lighting in conductive locations such as tanks \"shall be operated at 12 volts or less. However, 120-volt lights may be used if protected by a ground-fault circuit interrupter.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
@@ -154,12 +154,12 @@
       "topic": "Temporary wiring",
       "question": "When may temporary lights be suspended by their electric cords?",
       "options": {
-        "A": "Only when the cords and lights are designed for this means of suspension",
+        "A": "Whenever the lights are used indoors",
         "B": "Whenever the light weighs less than 5 pounds",
         "C": "Whenever the cord is wrapped in tape",
-        "D": "Whenever the lights are used indoors"
+        "D": "Only when the cords and lights are designed for this means of suspension"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "\"Temporary lights shall not be suspended by their electric cords unless cords and lights are designed for this means of suspension.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
@@ -173,11 +173,11 @@
       "question": "When must temporary wiring be removed?",
       "options": {
         "A": "Within one year of installation",
-        "B": "Immediately upon completion of construction or the purpose for which it was installed",
-        "C": "Only when the building owner asks",
+        "B": "Only when the building owner asks",
+        "C": "Immediately upon completion of construction or the purpose for which it was installed",
         "D": "At the end of each work week"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "\"Temporary wiring shall be removed immediately upon completion of construction or the purpose for which the wiring was installed.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
@@ -209,11 +209,11 @@
       "question": "When may flexible cords and cables pass through doorways or other pinch points?",
       "options": {
         "A": "Never, under any condition",
-        "B": "Only when the cord is unplugged",
+        "B": "If protection is provided to avoid damage",
         "C": "Only if the cord is designed for extra-hard usage",
-        "D": "If protection is provided to avoid damage"
+        "D": "Only when the cord is unplugged"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "\"Flexible cords and cables may pass through doorways or other pinch points, if protection is provided to avoid damage.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.405, Wiring methods, components, and equipment for general use (as of Nov 3, 2026)",
@@ -280,12 +280,12 @@
       "topic": "Live parts and working space",
       "question": "A contractor wants to stack boxes of fittings in the required working space in front of a panelboard. What does Subpart K say?",
       "options": {
-        "A": "Storage is allowed if the boxes are less than 30 inches high",
+        "A": "Working space required by the subpart shall not be used for storage",
         "B": "Storage is allowed if the panel is deenergized at night",
         "C": "Storage is allowed if a warning sign is posted",
-        "D": "Working space required by the subpart shall not be used for storage"
+        "D": "Storage is allowed if the boxes are less than 30 inches high"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "\"Working space required by this subpart shall not be used for storage.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.403, General requirements (as of Nov 3, 2026)",
@@ -298,12 +298,12 @@
       "topic": "Work practices",
       "question": "Where the exact location of underground electric powerlines is unknown, what must employees using jack-hammers, bars or other hand tools that may contact a line be provided with?",
       "options": {
-        "A": "Insulated protective gloves",
+        "A": "High-visibility vests",
         "B": "Hearing protection",
-        "C": "High-visibility vests",
+        "C": "Insulated protective gloves",
         "D": "Steel-toe boots"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Those employees \"shall be provided with insulated protective gloves.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.416, General requirements (as of Nov 3, 2026)",
@@ -336,10 +336,10 @@
       "options": {
         "A": "The date of the last OSHA inspection",
         "B": "The employer's mailing address",
-        "C": "Plainly, the equipment or circuits being worked on",
-        "D": "The brand of the circuit breaker"
+        "C": "The brand of the circuit breaker",
+        "D": "Plainly, the equipment or circuits being worked on"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "\"Tags shall be placed to identify plainly the equipment or circuits being worked on.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.417, Lockout and tagging of circuits (as of Nov 3, 2026)",
@@ -353,11 +353,11 @@
       "question": "As Subpart K applies the term to live parts, what does \"exposed\" mean?",
       "options": {
         "A": "Visible from a distance",
-        "B": "Operating at more than 600 volts",
+        "B": "Capable of being inadvertently touched or approached nearer than a safe distance by a person",
         "C": "Located outdoors",
-        "D": "Capable of being inadvertently touched or approached nearer than a safe distance by a person"
+        "D": "Operating at more than 600 volts"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "Exposed (as applied to live parts) means \"Capable of being inadvertently touched or approached nearer than a safe distance by a person. It is applied to parts not suitably guarded, isolated, or insulated.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.449, Definitions applicable to this subpart (as of Nov 3, 2026)",

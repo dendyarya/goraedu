@@ -11,11 +11,11 @@
       "question": "Under 107.12(c), whom may the Administrator, consistent with international standards, authorize to operate without an FAA-issued remote pilot certificate with a small UAS rating?",
       "options": {
         "A": "Any person under 16 years of age flying for practice",
-        "B": "Any person flying over a closed- or restricted-access site",
-        "C": "An airman operating a civil foreign-registered small unmanned aircraft",
+        "B": "An airman operating a civil foreign-registered small unmanned aircraft",
+        "C": "Any person flying over a closed- or restricted-access site",
         "D": "Any visual observer who has watched ten flights"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "107.12(c): \"The Administrator may, consistent with international standards, authorize an airman to operate a civil foreign-registered small unmanned aircraft without an FAA-issued remote pilot certificate with a small UAS rating.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.12, Requirement for a remote pilot certificate with a small UAS rating (as of Nov 3, 2026)",
@@ -28,12 +28,12 @@
       "topic": "Eligibility",
       "question": "Under 107.61(d)(1), what does an applicant pass to demonstrate aeronautical knowledge?",
       "options": {
-        "A": "An initial aeronautical knowledge test covering the areas of knowledge specified in 107.73",
+        "A": "A flight review under 61.56",
         "B": "A practical flight test given by an FAA inspector",
-        "C": "A flight review under 61.56",
+        "C": "An initial aeronautical knowledge test covering the areas of knowledge specified in 107.73",
         "D": "A recurrent training course covering the areas of knowledge in 107.74"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "107.61(d) requires the applicant to demonstrate aeronautical knowledge by satisfying one condition, (d)(1) being: \"Pass an initial aeronautical knowledge test covering the areas of knowledge specified in § 107.73\".",
       "source": {
         "title": "eCFR: 14 CFR 107.61, Eligibility (as of Nov 3, 2026)",
@@ -46,12 +46,12 @@
       "topic": "Eligibility",
       "question": "Under 107.61(b), what may the FAA do if an applicant is unable to meet one of the English language requirements due to medical reasons?",
       "options": {
-        "A": "Waive the aeronautical knowledge requirement",
+        "A": "Place such operating limitations on the applicant's certificate as are necessary for safe operation",
         "B": "Require the applicant to hold a part 61 pilot certificate",
         "C": "Issue only a temporary certificate for 120 calendar days",
-        "D": "Place such operating limitations on the applicant's certificate as are necessary for safe operation"
+        "D": "Waive the aeronautical knowledge requirement"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "107.61(b) says the FAA \"may place such operating limitations on that applicant's certificate as are necessary for the safe operation of the small unmanned aircraft\".",
       "source": {
         "title": "eCFR: 14 CFR 107.61, Eligibility (as of Nov 3, 2026)",
@@ -82,12 +82,12 @@
       "topic": "Eligibility",
       "question": "Under 107.61(d)(2), who may demonstrate aeronautical knowledge by completing training covering the areas of knowledge in 107.74?",
       "options": {
-        "A": "Any holder of a student pilot certificate issued under part 61",
-        "B": "A holder of a part 61 pilot certificate, other than a student pilot certificate, who meets the flight review requirements of 61.56",
+        "A": "A holder of a part 61 pilot certificate, other than a student pilot certificate, who meets the flight review requirements of 61.56",
+        "B": "Any holder of a student pilot certificate issued under part 61",
         "C": "Any person who has flown small unmanned aircraft for recreation for at least 2 years",
         "D": "Any person who is at least 18 years of age"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "107.61(d)(2) applies \"If a person holds a pilot certificate (other than a student pilot certificate) issued under part 61 of this chapter and meets the flight review requirements specified in § 61.56\".",
       "source": {
         "title": "eCFR: 14 CFR 107.61, Eligibility (as of Nov 3, 2026)",
@@ -101,11 +101,11 @@
       "question": "Under 107.57(b), committing an act prohibited by which sections is grounds for denial of an application, or for suspension or revocation of a remote pilot certificate?",
       "options": {
         "A": "§ 107.29 or § 107.31",
-        "B": "§ 48.15 or § 48.25",
+        "B": "§ 91.17(a) or § 91.19(a)",
         "C": "§ 89.110 or § 89.115",
-        "D": "§ 91.17(a) or § 91.19(a)"
+        "D": "§ 48.15 or § 48.25"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "107.57(b): \"Committing an act prohibited by § 91.17(a) or § 91.19(a) of this chapter is grounds for\" denial of an application, or suspension or revocation of a remote pilot certificate.",
       "source": {
         "title": "eCFR: 14 CFR 107.57, Offenses involving alcohol or drugs (as of Nov 3, 2026)",
@@ -118,12 +118,12 @@
       "topic": "Alcohol and drug offenses",
       "question": "Which refusal does 107.59 make grounds for denial of an application or suspension or revocation of a remote pilot certificate?",
       "options": {
-        "A": "A refusal to submit to a test to indicate the percentage by weight of alcohol in the blood when requested by a law enforcement officer in accordance with 91.17(c)",
+        "A": "A refusal to complete recurrent training more often than every 24 calendar months",
         "B": "A refusal to let a visual observer assist with a flight",
-        "C": "A refusal to complete recurrent training more often than every 24 calendar months",
+        "C": "A refusal to submit to a test to indicate the percentage by weight of alcohol in the blood when requested by a law enforcement officer in accordance with 91.17(c)",
         "D": "A refusal to register a small unmanned aircraft used only for recreation"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "107.59 covers \"A refusal to submit to a test to indicate the percentage by weight of alcohol in the blood, when requested by a law enforcement officer in accordance with § 91.17(c) of this chapter\".",
       "source": {
         "title": "eCFR: 14 CFR 107.59, Refusal to submit to an alcohol test or to furnish test results (as of Nov 3, 2026)",
@@ -138,10 +138,10 @@
       "options": {
         "A": "A logbook endorsement from a certificated flight instructor",
         "B": "A certificate of completion of an online training course",
-        "C": "An airman knowledge test report showing passage of the knowledge test",
-        "D": "A signed statement from the applicant"
+        "C": "A signed statement from the applicant",
+        "D": "An airman knowledge test report showing passage of the knowledge test"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "107.63(a)(1): \"If applying using a paper application, this evidence must be an airman knowledge test report showing passage of the knowledge test\".",
       "source": {
         "title": "eCFR: 14 CFR 107.63, Issuance of a remote pilot certificate with a small UAS rating (as of Nov 3, 2026)",
@@ -154,12 +154,12 @@
       "topic": "Applying for the certificate",
       "question": "For an application under 107.63(a)(2), how does 107.63(b)(3) say the person making the application shows that the applicant meets the 61.56 flight review requirements?",
       "options": {
-        "A": "By logbook endorsement or other manner acceptable to the Administrator",
+        "A": "By the small unmanned aircraft's registration certificate",
         "B": "By an airman knowledge test report",
         "C": "By a copy of a current FAA medical certificate",
-        "D": "By the small unmanned aircraft's registration certificate"
+        "D": "By logbook endorsement or other manner acceptable to the Administrator"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "107.63(b)(3) requires the person making the application to, \"by logbook endorsement or other manner acceptable to the Administrator, show the applicant meets the flight review requirements specified in § 61.56\".",
       "source": {
         "title": "eCFR: 14 CFR 107.63, Issuance of a remote pilot certificate with a small UAS rating (as of Nov 3, 2026)",
@@ -173,11 +173,11 @@
       "question": "Which event does 107.64(b) list as one upon which a temporary remote pilot certificate expires?",
       "options": {
         "A": "The holder's first flight at night",
-        "B": "Renewal of the aircraft's Certificate of Aircraft Registration",
+        "B": "Receipt of the permanent certificate",
         "C": "A change in the holder's permanent mailing address",
-        "D": "Receipt of the permanent certificate"
+        "D": "Renewal of the aircraft's Certificate of Aircraft Registration"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "107.64(b): a temporary certificate expires \"On the expiration date shown on the certificate\", \"Upon receipt of the permanent certificate\", or \"Upon receipt of a notice that the certificate sought is denied or revoked.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.64, Temporary certificate (as of Nov 3, 2026)",
@@ -192,10 +192,10 @@
       "options": {
         "A": "The privileges of registering a small unmanned aircraft",
         "B": "The privileges of acting as a visual observer",
-        "C": "The privileges of a remote pilot in command with small UAS rating",
-        "D": "The privileges of buying a small unmanned aircraft"
+        "C": "The privileges of buying a small unmanned aircraft",
+        "D": "The privileges of a remote pilot in command with small UAS rating"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "107.65: \"A person may not exercise the privileges of a remote pilot in command with small UAS rating unless that person has accomplished one of the following\".",
       "source": {
         "title": "eCFR: 14 CFR 107.65, Aeronautical knowledge recency (as of Nov 3, 2026)",
@@ -209,11 +209,11 @@
       "question": "Which of these does 107.65(b) list as a way to meet the aeronautical knowledge recency requirement?",
       "options": {
         "A": "Logging at least three flights in the previous 90 days",
-        "B": "Completed recurrent training covering the areas of knowledge specified in 107.73",
+        "B": "Completing a flight review under 61.56, with no small UAS training",
         "C": "Renewing the small unmanned aircraft's registration",
-        "D": "Completing a flight review under 61.56, with no small UAS training"
+        "D": "Completed recurrent training covering the areas of knowledge specified in 107.73"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "107.65(b) lists \"Completed recurrent training covering the areas of knowledge specified in § 107.73\".",
       "source": {
         "title": "eCFR: 14 CFR 107.65, Aeronautical knowledge recency (as of Nov 3, 2026)",
@@ -226,12 +226,12 @@
       "topic": "Knowledge tests and knowledge areas",
       "question": "Besides a photograph, signature and date of birth, what must an applicant's identification contain under 107.67(b)?",
       "options": {
-        "A": "A Social Security number",
+        "A": "A permanent mailing address",
         "B": "An e-mail address",
         "C": "A small unmanned aircraft registration number",
-        "D": "A permanent mailing address"
+        "D": "A Social Security number"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "107.67(b)(4) lists \"Permanent mailing address\"; if it is a post office box number, \"the applicant must also provide a current residential address.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.67, Knowledge tests: General procedures and passing grades (as of Nov 3, 2026)",
@@ -280,12 +280,12 @@
       "topic": "Carrying the certificate, changes and surrender",
       "question": "Under 107.77(a), what must accompany an application to change the name on a remote pilot certificate?",
       "options": {
-        "A": "A new photograph and the applicant's knowledge test report",
-        "B": "The remote pilot certificate with small UAS rating and a copy of the marriage license, court order, or other document verifying the name change",
+        "A": "The remote pilot certificate with small UAS rating and a copy of the marriage license, court order, or other document verifying the name change",
+        "B": "A new photograph and the applicant's knowledge test report",
         "C": "A new Certificate of Aircraft Registration",
         "D": "A letter from the applicant's employer"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "107.77(a): the application must be accompanied by the applicant's \"Remote pilot certificate with small UAS rating\" and \"A copy of the marriage license, court order, or other document verifying the name change.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.77, Change of name or address (as of Nov 3, 2026)",
@@ -300,10 +300,10 @@
       "options": {
         "A": "Fly the small unmanned aircraft on the operator's next job",
         "B": "Keep the small unmanned aircraft permanently",
-        "C": "Review the operator's personal bank records",
-        "D": "Make any test or inspection of the small unmanned aircraft system, the remote pilot in command, the person manipulating the flight controls, and, if applicable, the visual observer to determine compliance"
+        "C": "Make any test or inspection of the small unmanned aircraft system, the remote pilot in command, the person manipulating the flight controls, and, if applicable, the visual observer to determine compliance",
+        "D": "Review the operator's personal bank records"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "107.7(b): they must, upon request, \"allow the Administrator to make any test or inspection of the small unmanned aircraft system, the remote pilot in command, the person manipulating the flight controls of a small unmanned aircraft system, and, if applicable, the visual observer to determine compliance with this part.\"",
       "source": {
         "title": "eCFR: 14 CFR 107.7, Inspection, testing, and demonstration of compliance (as of Nov 3, 2026)",
@@ -316,12 +316,12 @@
       "topic": "Waivers",
       "question": "Under 107.200(d)(1), to what extent may a person who receives a certificate of waiver deviate from the regulations of Part 107?",
       "options": {
-        "A": "To the extent specified in the certificate of waiver",
+        "A": "From any regulation for 24 hours after the waiver is issued",
         "B": "From any regulation of Part 107, without limit",
         "C": "Only from 107.51, whatever the waiver says",
-        "D": "From any regulation for 24 hours after the waiver is issued"
+        "D": "To the extent specified in the certificate of waiver"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "107.200(d)(1): a person who receives a certificate of waiver \"May deviate from the regulations of this part to the extent specified in the certificate of waiver\" and, under (d)(2), must comply with its conditions or limitations.",
       "source": {
         "title": "eCFR: 14 CFR 107.200, Waiver policy and requirements (as of Nov 3, 2026)",

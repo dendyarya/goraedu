@@ -11,11 +11,11 @@
       "question": "What does 745.61(c) say Subpart D requires of the owner of a property subject to the lead-based paint hazard standards?",
       "options": {
         "A": "The owner must have a risk assessment done before selling or renting the property",
-        "B": "The owner must abate any identified hazard within a period the subpart sets",
-        "C": "Nothing in the subpart requires the owner to evaluate the property for hazards or to act to control any that are identified",
+        "B": "Nothing in the subpart requires the owner to evaluate the property for hazards or to act to control any that are identified",
+        "C": "The owner must abate any identified hazard within a period the subpart sets",
         "D": "The owner must have every friction surface tested once a year"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "745.61(c): \"Nothing in this subpart requires the owner of property(ies) subject to these standards to evaluate the property(ies) for the presence of lead-based paint hazards or take any action to control these conditions if one or more of them is identified.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.61, Scope and applicability (as of Nov 4, 2026)",
@@ -48,10 +48,10 @@
       "options": {
         "A": "Whenever the friction surface is also a chewable surface",
         "B": "Only when the friction surface is on the exterior of the building",
-        "C": "Whenever any lead-based paint is on the friction surface, whatever the dust levels nearby",
-        "D": "When lead dust levels on the nearest horizontal surface underneath it are equal to or greater than the dust-lead hazard levels in 745.65(b)"
+        "C": "When lead dust levels on the nearest horizontal surface underneath it are equal to or greater than the dust-lead hazard levels in 745.65(b)",
+        "D": "Whenever any lead-based paint is on the friction surface, whatever the dust levels nearby"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "745.65(a)(1) covers lead-based paint on a friction surface \"where the lead dust levels on the nearest horizontal surface underneath the friction surface (e.g., the window sill, or floor) are equal to or greater than the dust-lead hazard levels identified in paragraph (b) of this section.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.65, Lead-based paint hazards (as of Nov 4, 2026)",
@@ -82,12 +82,12 @@
       "topic": "Paint-lead hazards and lead-based paint",
       "question": "Besides surfaces tested and found at or above the lead-based paint threshold, on which other surfaces does 745.227(h)(1)(ii) say lead-based paint is present?",
       "options": {
-        "A": "Every painted surface in the building once any one surface tests positive",
-        "B": "Any surface like a surface tested in the same room equivalent that has a similar painting history and that is found to be lead-based paint",
+        "A": "Any surface like a surface tested in the same room equivalent that has a similar painting history and that is found to be lead-based paint",
+        "B": "Every painted surface in the building once any one surface tests positive",
         "C": "Any painted surface in a building constructed prior to 1978",
         "D": "Any surface the owner reports was painted before the building was sold"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "745.227(h)(1)(ii): lead-based paint is present \"On any surface like a surface tested in the same room equivalent that has a similar painting history and that is found to be lead-based paint.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
@@ -102,10 +102,10 @@
       "options": {
         "A": "Surface dust with 25 µg/ft2 or more of lead on floors or 200 µg/ft2 or more on interior window sills",
         "B": "Any visible dust on floors or interior window sills, whether or not it is sampled",
-        "C": "Surface dust with any reportable level of lead on window troughs only",
-        "D": "Surface dust with any reportable level of lead for floors or for interior window sills, based on wipe samples analyzed by an NLLAP-recognized laboratory"
+        "C": "Surface dust with any reportable level of lead for floors or for interior window sills, based on wipe samples analyzed by an NLLAP-recognized laboratory",
+        "D": "Surface dust with any reportable level of lead on window troughs only"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "745.65(b): \"On or after January 12, 2026, a dust-lead hazard is surface dust in a residential dwelling or child-occupied facility that contains a mass-per-area concentration of any reportable level of lead for floors or for interior window sills based on wipe samples analyzed by an NLLAP-recognized laboratory.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.65, Lead-based paint hazards (as of Nov 4, 2026)",
@@ -118,12 +118,12 @@
       "topic": "Dust-lead hazards and action levels",
       "question": "During post-abatement testing, a single-surface dust sample equals the applicable action level in 745.227(e)(8)(viii). What does 745.227(e)(8)(vii) require?",
       "options": {
-        "A": "The components represented by the failed sample shall be recleaned and retested",
+        "A": "The sample is combined with others into a composite sample and reanalyzed",
         "B": "Nothing more, because only a result above the action level fails",
         "C": "The result is recorded in the abatement report and the project is complete",
-        "D": "The sample is combined with others into a composite sample and reanalyzed"
+        "D": "The components represented by the failed sample shall be recleaned and retested"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "745.227(e)(8)(vii): \"If the residual lead level in a single surface dust sample equals or exceeds the applicable action level\" (or a composite sample fails its adjusted level), \"the components represented by the failed sample shall be recleaned and retested.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
@@ -136,12 +136,12 @@
       "topic": "Dust-lead hazards and action levels",
       "question": "Under the 745.223 definition of action levels, what must be achieved to complete abatement when dust sampling is required?",
       "options": {
-        "A": "Values at or above the action levels",
+        "A": "Values below the action levels",
         "B": "Values below the soil-lead hazard levels",
-        "C": "Values below the action levels",
+        "C": "Values at or above the action levels",
         "D": "No visible dust; sample results are not compared with any level"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "745.223: action levels \"are the values that indicate the amount of lead in dust on a surface following completion of an abatement activity. To complete abatement when dust sampling is required, values below these levels must be achieved.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.223, Definitions (as of Nov 4, 2026)",
@@ -155,11 +155,11 @@
       "question": "When soil is removed during a soil abatement, what does 745.227(e)(7)(i)(B) say about the soil that is removed?",
       "options": {
         "A": "It may be reused as top soil at another residential property if mixed with clean soil",
-        "B": "It may be used as top soil at another residential property if it is tested first",
+        "B": "It shall not be used as top soil at another residential property or child-occupied facility",
         "C": "It may be used as top soil at a child-occupied facility if covered with mulch",
-        "D": "It shall not be used as top soil at another residential property or child-occupied facility"
+        "D": "It may be used as top soil at another residential property if it is tested first"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "745.227(e)(7)(i)(B): \"The soil that is removed shall not be used as top soil at another residential property or child-occupied facility.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
@@ -191,11 +191,11 @@
       "question": "During a lead hazard screen that finds deteriorated paint, which surfaces does 745.227(c)(2)(iii) require to be tested for the presence of lead?",
       "options": {
         "A": "Every painted surface in the dwelling, deteriorated or not",
-        "B": "Each surface with deteriorated paint that is determined, using documented methodologies, to be in poor condition and to have a distinct painting history",
-        "C": "Only exterior painted surfaces",
+        "B": "Only exterior painted surfaces",
+        "C": "Each surface with deteriorated paint that is determined, using documented methodologies, to be in poor condition and to have a distinct painting history",
         "D": "Only friction and impact surfaces"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "745.227(c)(2)(iii): \"If deteriorated paint is present, each surface with deteriorated paint, which is determined, using documented methodologies, to be in poor condition and to have a distinct painting history, shall be tested for the presence of lead.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
@@ -226,12 +226,12 @@
       "topic": "Inspections, lead hazard screens and risk assessments",
       "question": "In a risk assessment of a residential dwelling, where does 745.227(d)(5) require dust samples to be collected?",
       "options": {
-        "A": "From the interior window sill(s) and floor in all living areas where one or more children under age 6 are most likely to come into contact with dust",
+        "A": "From exterior porches and stoops only",
         "B": "From window troughs only, in every room of the dwelling",
         "C": "From the floor of the one room with the most deteriorated paint",
-        "D": "From exterior porches and stoops only"
+        "D": "From the interior window sill(s) and floor in all living areas where one or more children under age 6 are most likely to come into contact with dust"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "745.227(d)(5): \"dust samples (either composite or single-surface samples) from the interior window sill(s) and floor shall be collected and analyzed for lead concentration in all living areas where one or more children, under age 6, are most likely to come into contact with dust.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
@@ -298,12 +298,12 @@
       "topic": "Post-abatement testing, reports and records",
       "question": "Under 745.227(e)(8)(i), what must happen if the post-abatement visual inspection finds visible amounts of dust, debris or residue?",
       "options": {
-        "A": "These conditions must be eliminated before the post-abatement testing procedures continue",
+        "A": "EPA must receive an updated notification before any cleanup",
         "B": "Dust samples are taken anyway and the findings are noted in the abatement report",
         "C": "The job is closed and the findings are given to the owner",
-        "D": "EPA must receive an updated notification before any cleanup"
+        "D": "These conditions must be eliminated before the post-abatement testing procedures continue"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "745.227(e)(8)(i): \"If deteriorated painted surfaces or visible amounts of dust, debris or residue are present, these conditions must be eliminated prior to the continuation of the post-abatement testing procedures.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
@@ -352,12 +352,12 @@
       "topic": "Post-abatement testing, reports and records",
       "question": "On or after January 12, 2026, what must the abatement report include when post-abatement dust-lead results are below the dust-lead action levels and at or above the dust-lead reportable levels?",
       "options": {
-        "A": "A new notification to EPA for a second abatement",
+        "A": "A dust-lead hazard statement with the language set out in 745.227(e)(10)(vii)",
         "B": "A recommendation for a follow-up lead hazard screen",
-        "C": "A dust-lead hazard statement with the language set out in 745.227(e)(10)(vii)",
+        "C": "A new notification to EPA for a second abatement",
         "D": "A statement that the abatement is not complete"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "745.227(e)(10)(vii): \"On or after January 12, 2026, when post-abatement dust-lead testing results are below the dust-lead action levels and at or above the dust-lead reportable levels, a dust-lead hazard statement with the following language must be included\". The required statement says the project \"achieved dust-lead below action levels\".",
       "source": {
         "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",

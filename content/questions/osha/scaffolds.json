@@ -10,12 +10,12 @@
       "topic": "Capacity",
       "question": "A scaffold's maximum intended load and its rated capacity are different figures. Which one sets the limit on how heavily it may be loaded?",
       "options": {
-        "A": "Whichever of the two is less",
+        "A": "The rated capacity, in every case",
         "B": "Whichever of the two is greater",
-        "C": "The rated capacity, in every case",
+        "C": "Whichever of the two is less",
         "D": "The maximum intended load plus 25 percent"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "\"Scaffolds and scaffold components shall not be loaded in excess of their maximum intended loads or rated capacities, whichever is less.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -28,12 +28,12 @@
       "topic": "Capacity",
       "question": "A scaffold hoist has a rated load of 1,000 pounds. Which of these stall loads is within the limit Subpart L sets for that hoist?",
       "options": {
-        "A": "4,000 pounds",
-        "B": "2,500 pounds",
+        "A": "2,500 pounds",
+        "B": "4,000 pounds",
         "C": "3,500 pounds",
         "D": "5,000 pounds"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "\"The stall load of any scaffold hoist shall not exceed 3 times its rated load.\" For a 1,000-pound rated load that caps the stall load at 3,000 pounds, so only 2,500 pounds is within the limit.",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -65,11 +65,11 @@
       "question": "Under Subpart L's definition, what does a scaffold's \"maximum intended load\" take in?",
       "options": {
         "A": "The weight of the workers only",
-        "B": "The weight of stored materials only",
+        "B": "The total of all persons, equipment, tools, materials, transmitted loads and other loads reasonably anticipated at any one time",
         "C": "The scaffold's own weight multiplied by four",
-        "D": "The total of all persons, equipment, tools, materials, transmitted loads and other loads reasonably anticipated at any one time"
+        "D": "The weight of stored materials only"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "Maximum intended load \"means the total load of all persons, equipment, tools, materials, transmitted loads, and other loads reasonably anticipated to be applied to a scaffold or scaffold component at any one time.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.450, Scope, application and definitions applicable to this subpart (as of Nov 3, 2026)",
@@ -82,12 +82,12 @@
       "topic": "Platform construction",
       "question": "On a fully planked scaffold platform, the space between adjacent platform units is wider than the rule's usual limit. When does the rule allow that?",
       "options": {
-        "A": "Where the employer can demonstrate that a wider space is necessary, such as to fit around uprights when side brackets extend the platform's width",
+        "A": "Whenever the employees on the platform wear personal fall arrest systems",
         "B": "Whenever the planks are thicker than 2 inches",
-        "C": "Whenever the employees on the platform wear personal fall arrest systems",
+        "C": "Where the employer can demonstrate that a wider space is necessary, such as to fit around uprights when side brackets extend the platform's width",
         "D": "Whenever the scaffold is less than 10 feet high"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Platform units must be installed so the space between adjacent units \"is no more than 1 inch (2.5 cm) wide, except where the employer can demonstrate that a wider space is necessary (for example, to fit around uprights when side brackets are used to extend the width of the platform).\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -101,11 +101,11 @@
       "question": "Platforms are overlapped to create a long scaffold platform. Where may the overlap occur?",
       "options": {
         "A": "Anywhere along the span",
-        "B": "Only over supports",
+        "B": "Only at the two ends of the scaffold",
         "C": "Only at midspan between supports",
-        "D": "Only at the two ends of the scaffold"
+        "D": "Only over supports"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "\"On scaffolds where platforms are overlapped to create a long platform, the overlap shall occur only over supports,\" with a minimum overlap unless the platforms are nailed together or otherwise restrained.",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -120,10 +120,10 @@
       "options": {
         "A": "Opaque paint is allowed on the whole surface if it is slip-resistant",
         "B": "Every wood platform must be painted with an opaque finish",
-        "C": "They shall not be covered with opaque finishes, except that platform edges may be covered or marked for identification",
-        "D": "Opaque finishes are allowed on the top surface only"
+        "C": "Opaque finishes are allowed on the top surface only",
+        "D": "They shall not be covered with opaque finishes, except that platform edges may be covered or marked for identification"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "\"Wood platforms shall not be covered with opaque finishes, except that platform edges may be covered or marked for identification.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -137,11 +137,11 @@
       "question": "When may a fork-lift be used to support a scaffold platform?",
       "options": {
         "A": "Whenever the fork-lift's wheels are chocked",
-        "B": "Whenever the platform simply rests on the forks and the ground is level",
+        "B": "Only when the entire platform is attached to the fork and the fork-lift is not moved horizontally while the platform is occupied",
         "C": "Whenever the employees on the platform wear harnesses",
-        "D": "Only when the entire platform is attached to the fork and the fork-lift is not moved horizontally while the platform is occupied"
+        "D": "Whenever the platform simply rests on the forks and the ground is level"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "\"Fork-lifts shall not be used to support scaffold platforms unless the entire platform is attached to the fork and the fork-lift is not moved horizontally while the platform is occupied.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -154,12 +154,12 @@
       "topic": "Supported scaffolds: footing and tipping",
       "question": "A supported scaffold's frames rest on base plates and mud sills. What else does Subpart L require of its poles, legs, posts, frames and uprights to prevent swaying and displacement?",
       "options": {
-        "A": "They must lean slightly toward the building wall",
+        "A": "They must be plumb and braced",
         "B": "They must be tied to the nearest utility pole",
-        "C": "They must be plumb and braced",
+        "C": "They must lean slightly toward the building wall",
         "D": "Nothing more; a firm foundation is enough"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "\"Supported scaffold poles, legs, posts, frames, and uprights shall be plumb and braced to prevent swaying and displacement.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -172,12 +172,12 @@
       "topic": "Access",
       "question": "A scaffold platform sits 12 inches horizontally and 30 inches vertically from an adjacent floor. May an employee use direct access, stepping between the floor and the scaffold?",
       "options": {
-        "A": "Yes, because the scaffold is within 14 inches horizontally",
-        "B": "No, because the scaffold is more than 24 inches vertically from the other surface",
+        "A": "No, because the scaffold is more than 24 inches vertically from the other surface",
+        "B": "Yes, because the scaffold is within 14 inches horizontally",
         "C": "Yes, if the employee holds the guardrail while stepping across",
         "D": "Yes, if a competent person watches the crossing"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "\"Direct access to or from another surface shall be used only when the scaffold is not more than 14 inches (36 cm) horizontally and not more than 24 inches (61 cm) vertically from the other surface.\" Both limits must be met, and 30 inches exceeds the vertical one.",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -190,12 +190,12 @@
       "topic": "Fall protection on scaffolds",
       "question": "On a scaffold, two crossbraces cross 42 inches above the work platform, and their end points at each upright are no more than 48 inches apart. What part of the guardrail system may that crossbracing serve as?",
       "options": {
-        "A": "The toprail",
+        "A": "No part of the guardrail system",
         "B": "The midrail",
         "C": "The means of access to the platform",
-        "D": "No part of the guardrail system"
+        "D": "The toprail"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Crossbracing is acceptable \"as a toprail when the crossing point of two braces is between 38 inches (0.97 m) and 48 inches (1.3 m) above the work platform,\" while a midrail needs a crossing point between 20 and 30 inches. \"Crossbraces shall not be used as a means of access.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -208,12 +208,12 @@
       "topic": "Access",
       "question": "A crew plans to use a hook-on ladder for access to a scaffold. What does Subpart L require of the ladder's design?",
       "options": {
-        "A": "Any portable ladder may be used if it is tied on with rope",
+        "A": "It must be specifically designed for use with the type of scaffold used",
         "B": "It must be made of wood",
         "C": "Its rungs must be spaced at least 18 inches apart",
-        "D": "It must be specifically designed for use with the type of scaffold used"
+        "D": "Any portable ladder may be used if it is tied on with rope"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "\"Hook-on and attachable ladders shall be specifically designed for use with the type of scaffold used.\" Their rungs must also be uniformly spaced, with a set maximum spacing between rungs.",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -226,12 +226,12 @@
       "topic": "Use of scaffolds",
       "question": "A scaffold part is found damaged so that its strength is below what the rule requires. What must happen to it?",
       "options": {
-        "A": "It must be immediately repaired or replaced, braced to meet the requirements, or removed from service until repaired",
-        "B": "It may stay in use until the job is finished",
+        "A": "It may stay in use until the job is finished",
+        "B": "It must be immediately repaired or replaced, braced to meet the requirements, or removed from service until repaired",
         "C": "It may stay in use if a warning sign is attached",
         "D": "It must be reported at the next monthly safety meeting"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "\"Any part of a scaffold damaged or weakened such that its strength is less than that required by paragraph (a) of this section shall be immediately repaired or replaced, braced to meet those provisions, or removed from service until repaired.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -264,10 +264,10 @@
       "options": {
         "A": "A competent person must watch the line during the work",
         "B": "Employees on the scaffold must wear rubber gloves",
-        "C": "The utility company or electrical system operator must be notified and must deenergize the lines, relocate them, or install protective coverings",
-        "D": "A warning sign must be posted at the scaffold base"
+        "C": "A warning sign must be posted at the scaffold base",
+        "D": "The utility company or electrical system operator must be notified and must deenergize the lines, relocate them, or install protective coverings"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Closer work is allowed \"only after the utility company, or electrical system operator, has been notified of the need to work closer and the utility company, or electrical system operator, has deenergized the lines, relocated the lines, or installed protective coverings to prevent accidental contact with the lines.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",
@@ -282,10 +282,10 @@
       "options": {
         "A": "A warning line system",
         "B": "A safety monitoring system",
-        "C": "A controlled access zone",
-        "D": "A three-fourth inch diameter grabline or equivalent handhold securely fastened beside each crawling board"
+        "C": "A three-fourth inch diameter grabline or equivalent handhold securely fastened beside each crawling board",
+        "D": "A controlled access zone"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "Each employee on a crawling board \"shall be protected by a personal fall arrest system, a guardrail system (with minimum 200 pound toprail capacity), or by a three-fourth inch (1.9 cm) diameter grabline or equivalent handhold securely fastened beside each crawling board.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.451, General requirements (as of Nov 3, 2026)",

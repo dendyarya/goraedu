@@ -10,12 +10,12 @@
       "topic": "Medical services and first aid",
       "question": "Under 1926.50(a), the employer must insure the availability of medical personnel for what purpose?",
       "options": {
-        "A": "Advice and consultation on matters of occupational health",
+        "A": "Inspecting scaffolds before each shift",
         "B": "Signing each employee's weekly timesheet",
-        "C": "Inspecting scaffolds before each shift",
+        "C": "Advice and consultation on matters of occupational health",
         "D": "Approving the project's budget"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "\"The employer shall insure the availability of medical personnel for advice and consultation on matters of occupational health.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.50, Medical services and first aid (as of Nov 3, 2026)",
@@ -29,11 +29,11 @@
       "question": "Under 1926.50(d)(2), how must the contents of the first aid kit be packaged?",
       "options": {
         "A": "In a locked metal cabinet in the site office",
-        "B": "In a weatherproof container with individual sealed packages for each type of item",
-        "C": "In any box marked with a red cross",
+        "B": "In any box marked with a red cross",
+        "C": "In a weatherproof container with individual sealed packages for each type of item",
         "D": "In the glove box of a supervisor's vehicle"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "\"The contents of the first aid kit shall be placed in a weatherproof container with individual sealed packages for each type of item\".",
       "source": {
         "title": "eCFR: 29 CFR 1926.50, Medical services and first aid (as of Nov 3, 2026)",
@@ -46,12 +46,12 @@
       "topic": "Medical services and first aid",
       "question": "When must provisions be made for prompt medical attention in case of serious injury?",
       "options": {
-        "A": "Within 24 hours after the first serious injury",
+        "A": "Prior to commencement of the project",
         "B": "When the project is half complete",
-        "C": "Prior to commencement of the project",
+        "C": "Within 24 hours after the first serious injury",
         "D": "Only if the project lasts longer than 90 days"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "\"Provisions shall be made prior to commencement of the project for prompt medical attention in case of serious injury.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.50, Medical services and first aid (as of Nov 3, 2026)",
@@ -82,12 +82,12 @@
       "topic": "Medical services and first aid",
       "question": "911 service is available, and the employer contacts emergency medical service with a communication system that does not automatically give the dispatcher the caller's latitude and longitude. What must be posted conspicuously at the worksite?",
       "options": {
-        "A": "The latitude and longitude of the worksite, or other location-identification information that communicates effectively to employees the location of the worksite",
+        "A": "The telephone number of the OSHA area office",
         "B": "The employer's federal tax identification number",
-        "C": "The telephone number of the OSHA area office",
+        "C": "The latitude and longitude of the worksite, or other location-identification information that communicates effectively to employees the location of the worksite",
         "D": "Nothing, because 911 is available"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "The employer must post in a conspicuous location at the worksite either \"The latitude and longitude of the worksite\" or \"Other location-identification information that communicates effectively to employees the location of the worksite.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.50, Medical services and first aid (as of Nov 3, 2026)",
@@ -100,12 +100,12 @@
       "topic": "Sanitation",
       "question": "To whom do the toilet requirements of 1926.51(c) not apply?",
       "options": {
-        "A": "Crews of 20 or fewer employees",
-        "B": "Mobile crews having transportation readily available to nearby toilet facilities",
+        "A": "Mobile crews having transportation readily available to nearby toilet facilities",
+        "B": "Crews of 20 or fewer employees",
         "C": "Projects shorter than 30 days",
         "D": "Crews that work outdoors"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "The requirements of paragraph (c) for sanitation facilities \"shall not apply to mobile crews having transportation readily available to nearby toilet facilities.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.51, Sanitation (as of Nov 3, 2026)",
@@ -120,10 +120,10 @@
       "options": {
         "A": "With blue paint on the pipe",
         "B": "With a padlock on the tap",
-        "C": "By signs that indicate clearly the water is unsafe and is not to be used for drinking, washing, or cooking",
-        "D": "With a red tap handle"
+        "C": "With a red tap handle",
+        "D": "By signs that indicate clearly the water is unsafe and is not to be used for drinking, washing, or cooking"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "Such outlets \"shall be identified by signs meeting the requirements of subpart G of this part, to indicate clearly that the water is unsafe and is not to be used for drinking, washing, or cooking purposes.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.51, Sanitation (as of Nov 3, 2026)",
@@ -136,12 +136,12 @@
       "topic": "Sanitation",
       "question": "Where showers are required by a particular standard, how many showers must be provided?",
       "options": {
-        "A": "One per jobsite",
+        "A": "One for each 10 employees of each sex, or numerical fraction thereof, who are required to shower during the same shift",
         "B": "One for each 40 employees",
         "C": "One for each 25 employees of each sex",
-        "D": "One for each 10 employees of each sex, or numerical fraction thereof, who are required to shower during the same shift"
+        "D": "One per jobsite"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "\"One shower shall be provided for each 10 employees of each sex, or numerical fraction thereof, who are required to shower during the same shift.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.51, Sanitation (as of Nov 3, 2026)",
@@ -154,12 +154,12 @@
       "topic": "Air contaminants and ventilation",
       "question": "Under 1926.57(b), local exhaust systems must be designed so that dusts, fumes, mists, vapors or gases are handled in what way?",
       "options": {
-        "A": "They are not drawn through the work area of employees",
-        "B": "They are blown toward the nearest open window",
+        "A": "They are blown toward the nearest open window",
+        "B": "They are not drawn through the work area of employees",
         "C": "They are drawn past the employees' breathing zone first",
         "D": "They are collected only at the end of each shift"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Local exhaust systems \"shall be so designed that dusts, fumes, mists, vapors, or gases are not drawn through the work area of employees.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.57, Ventilation (as of Nov 3, 2026)",
@@ -173,11 +173,11 @@
       "question": "Under 1926.52(c), how is noise treated when its variations in level involve maxima at intervals of 1 second or less?",
       "options": {
         "A": "As impact noise limited to 140 dB",
-        "B": "As continuous noise",
+        "B": "As noise measured on the C-scale",
         "C": "As noise that is not counted",
-        "D": "As noise measured on the C-scale"
+        "D": "As continuous noise"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "\"If the variations in noise level involve maxima at intervals of 1 second or less, it is to be considered continuous.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.52, Occupational noise exposure (as of Nov 3, 2026)",
@@ -191,11 +191,11 @@
       "question": "An employee's daily noise exposure is made up of periods at different levels, so the equivalent noise exposure factor Fe is computed. When does the exposure exceed permissible levels?",
       "options": {
         "A": "When Fe equals one half",
-        "B": "When Fe is less than 1",
-        "C": "When Fe exceeds unity (1)",
+        "B": "When Fe exceeds unity (1)",
+        "C": "When Fe is less than 1",
         "D": "Only when one period is above 115 dBA"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Fe is the sum of each period at a constant level divided by the permissible duration at that level, and \"If the value of Fe exceeds unity (1) the exposure exceeds permissible levels.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.52, Occupational noise exposure (as of Nov 3, 2026)",
@@ -209,11 +209,11 @@
       "question": "Under 1926.52(d)(1), what must be administered in all cases where the sound levels exceed the values shown in Table D-2?",
       "options": {
         "A": "A one-time hearing test at hire only",
-        "B": "A written warning to each exposed employee",
+        "B": "A continuing, effective hearing conservation program",
         "C": "A monthly noise survey by OSHA",
-        "D": "A continuing, effective hearing conservation program"
+        "D": "A written warning to each exposed employee"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "\"In all cases where the sound levels exceed the values shown herein, a continuing, effective hearing conservation program shall be administered.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.52, Occupational noise exposure (as of Nov 3, 2026)",
@@ -226,12 +226,12 @@
       "topic": "Hazard communication",
       "question": "Section 1926.59 makes 1910.1200 the hazard communication rule for construction. Which of these is on the 1910.1200(b)(6) list of things outside the standard's coverage?",
       "options": {
-        "A": "Tobacco or tobacco products",
+        "A": "Hazardous chemicals a subcontractor stores on site",
         "B": "Wood that may be sawed or cut later, generating dust",
         "C": "Chemicals contained in unlabeled pipes in work areas",
-        "D": "Hazardous chemicals a subcontractor stores on site"
+        "D": "Tobacco or tobacco products"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "The construction requirements \"are identical to those set forth at § 1910.1200 of this chapter\", and 1910.1200 does not apply to \"Tobacco or tobacco products\". Wood \"which may be subsequently sawed or cut, generating dust\" is expressly not exempted.",
       "source": {
         "title": "eCFR: 29 CFR 1910.1200, Hazard communication (as of Nov 3, 2026)",
@@ -264,10 +264,10 @@
       "options": {
         "A": "They may be run at higher power to cut through the weather",
         "B": "Only the beam shutter needs to be closed between uses",
-        "C": "Their operation is prohibited where practicable, and employees are kept out of range of the area of source and target",
-        "D": "Nothing, because weather does not affect lasers"
+        "C": "Nothing, because weather does not affect lasers",
+        "D": "Their operation is prohibited where practicable, and employees are kept out of range of the area of source and target"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "In those conditions \"the operation of laser systems shall be prohibited where practicable; in any event, employees shall be kept out of range of the area of source and target during such weather conditions.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.54, Nonionizing radiation (as of Nov 3, 2026)",
@@ -282,10 +282,10 @@
       "options": {
         "A": "Point it at the ground",
         "B": "Cover it with a tarp",
-        "C": "Post a second warning placard",
-        "D": "Turn the laser off"
+        "C": "Turn the laser off",
+        "D": "Post a second warning placard"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "\"When the laser is left unattended for a substantial period of time, such as during lunch hour, overnight, or at change of shifts, the laser shall be turned off.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.54, Nonionizing radiation (as of Nov 3, 2026)",
@@ -298,12 +298,12 @@
       "topic": "Air contaminants and ventilation",
       "question": "Under 1926.55(b), equipment and technical measures used to keep exposure to air contaminants within the limits must first be approved for each particular use by whom?",
       "options": {
-        "A": "A competent industrial hygienist or other technically qualified person",
-        "B": "The equipment's sales representative",
+        "A": "The equipment's sales representative",
+        "B": "A competent industrial hygienist or other technically qualified person",
         "C": "Any employee on the crew",
         "D": "The local fire marshal"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "\"Any equipment and technical measures used for this purpose must first be approved for each particular use by a competent industrial hygienist or other technically qualified person.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.55, Gases, vapors, fumes, dusts, and mists (as of Nov 3, 2026)",
@@ -316,12 +316,12 @@
       "topic": "Illumination",
       "question": "For areas or operations not covered by Table D-3, where does 1926.56(b) refer the employer for recommended illumination values?",
       "options": {
-        "A": "ANSI/ISEA Z87.1-2010",
-        "B": "American National Standard A11.1-1965, R1970, Practice for Industrial Lighting",
+        "A": "American National Standard A11.1-1965, R1970, Practice for Industrial Lighting",
+        "B": "ANSI/ISEA Z87.1-2010",
         "C": "ANSI Z89.1-2009",
         "D": "ANSI Z41.1-1967"
       },
-      "answer": "B",
+      "answer": "A",
       "explanation": "For areas or operations not covered above, \"refer to the American National Standard A11.1-1965, R1970, Practice for Industrial Lighting, for recommended values of illumination.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.56, Illumination (as of Nov 3, 2026)",
@@ -352,12 +352,12 @@
       "topic": "Lead",
       "question": "An employee wears a respirator while working with lead. When the employer judges whether that employee's exposure is at or above the 1926.62 action level, how is the respirator treated?",
       "options": {
-        "A": "The respirator brings the exposure under the action level, whatever the airborne level",
+        "A": "The exposure is judged without regard to the use of respirators",
         "B": "The action level is raised to 50 µg/m3 for respirator wearers",
         "C": "The action level applies only to employees who do not wear respirators",
-        "D": "The exposure is judged without regard to the use of respirators"
+        "D": "The respirator brings the exposure under the action level, whatever the airborne level"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "Action level means employee exposure, \"without regard to the use of respirators, to an airborne concentration of lead of 30 micrograms per cubic meter of air (30 µg/m3) calculated as an 8-hour time-weighted average (TWA).\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.62, Lead (as of Nov 3, 2026)",
