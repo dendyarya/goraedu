@@ -116,15 +116,15 @@
     {
       "id": "rh-007",
       "topic": "Dust-lead hazards and action levels",
-      "question": "What action level does 745.227(e)(8)(viii) set for lead in dust on window troughs on or after January 12, 2026?",
+      "question": "During post-abatement testing, a single-surface dust sample equals the applicable action level in 745.227(e)(8)(viii). What does 745.227(e)(8)(vii) require?",
       "options": {
-        "A": "100 µg/ft2",
-        "B": "50 µg/ft2",
-        "C": "200 µg/ft2",
-        "D": "250 µg/ft2"
+        "A": "The components represented by the failed sample shall be recleaned and retested",
+        "B": "Nothing more, because only a result above the action level fails",
+        "C": "The result is recorded in the abatement report and the project is complete",
+        "D": "The sample is combined with others into a composite sample and reanalyzed"
       },
       "answer": "A",
-      "explanation": "745.227(e)(8)(viii): \"On or after January 12, 2026, the action levels for lead in dust are 5 µg/ft2 for floors, 40 µg/ft2 for interior window sills, and 100 µg/ft2 for window troughs.\"",
+      "explanation": "745.227(e)(8)(vii): \"If the residual lead level in a single surface dust sample equals or exceeds the applicable action level\" (or a composite sample fails its adjusted level), \"the components represented by the failed sample shall be recleaned and retested.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
@@ -170,33 +170,33 @@
     {
       "id": "rh-010",
       "topic": "Soil-lead hazards and soil abatement",
-      "question": "If soil is not removed in a soil abatement, 745.227(e)(7)(ii) requires it to be permanently covered as defined in 745.223. What kind of barrier does that definition describe?",
+      "question": "In a soil abatement where the soil is not removed, what does 745.227(e)(7)(ii) require?",
       "options": {
-        "A": "Solid, relatively impermeable materials, such as pavement or concrete",
-        "B": "A layer of new grass sod",
-        "C": "A thick layer of mulch",
-        "D": "Landscaping materials such as wood chips"
+        "A": "The soil shall be permanently covered, as defined in 745.223",
+        "B": "The soil shall be retested once a year for as long as children under age 6 live there",
+        "C": "The soil shall be mixed with clean soil until it tests below 400 ppm",
+        "D": "The soil shall be fenced off from the residents"
       },
       "answer": "A",
-      "explanation": "745.223: permanently covered soil is separated from human contact \"by the placement of a barrier consisting of solid, relatively impermeable materials, such as pavement or concrete. Grass, mulch, and other landscaping materials are not considered permanent covering.\"",
+      "explanation": "745.227(e)(7)(ii): \"If soil is not removed, the soil shall be permanently covered, as defined in § 745.223.\" The 400 ppm limit in 745.227(e)(7)(i)(A) applies to replacement soil when the soil is removed.",
       "source": {
-        "title": "eCFR: 40 CFR 745.223, Definitions (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.223"
+        "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
       },
       "checked": "2026-11-06"
     },
     {
       "id": "rh-011",
       "topic": "Inspections, lead hazard screens and risk assessments",
-      "question": "Under 745.227(c)(1), who may conduct a lead hazard screen?",
+      "question": "During a lead hazard screen that finds deteriorated paint, which surfaces does 745.227(c)(2)(iii) require to be tested for the presence of lead?",
       "options": {
-        "A": "A certified renovator",
-        "B": "A person certified by EPA as a risk assessor",
-        "C": "A certified abatement worker",
-        "D": "A certified project designer"
+        "A": "Every painted surface in the dwelling, deteriorated or not",
+        "B": "Each surface with deteriorated paint that is determined, using documented methodologies, to be in poor condition and to have a distinct painting history",
+        "C": "Only exterior painted surfaces",
+        "D": "Only friction and impact surfaces"
       },
       "answer": "B",
-      "explanation": "745.227(c)(1): \"A lead hazard screen shall be conducted only by a person certified by EPA as a risk assessor.\"",
+      "explanation": "745.227(c)(2)(iii): \"If deteriorated paint is present, each surface with deteriorated paint, which is determined, using documented methodologies, to be in poor condition and to have a distinct painting history, shall be tested for the presence of lead.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
@@ -278,15 +278,15 @@
     {
       "id": "rh-016",
       "topic": "Abatement requirements",
-      "question": "Who does 745.227(e)(5)(ii) say shall prepare the occupant protection plan for an abatement?",
+      "question": "What does 745.227(e)(5)(i) say the written occupant protection plan for an abatement shall describe?",
       "options": {
-        "A": "The certified inspector who will do the post-abatement testing",
-        "B": "The building owner who contracted for the work",
-        "C": "A certified supervisor or project designer",
-        "D": "Any certified abatement worker on the project"
+        "A": "The locations where post-abatement dust samples will be collected",
+        "B": "The results of the lead-based paint inspection of the dwelling",
+        "C": "The measures and management procedures that will be taken during the abatement to protect the building occupants from exposure to any lead-based paint hazards",
+        "D": "The dates on which updated notifications will be sent to EPA"
       },
       "answer": "C",
-      "explanation": "745.227(e)(5)(ii): \"A certified supervisor or project designer shall prepare the occupant protection plan.\"",
+      "explanation": "745.227(e)(5)(i): the plan \"shall be unique to each residential dwelling or child-occupied facility and be developed prior to the abatement. The occupant protection plan shall describe the measures and management procedures that will be taken during the abatement to protect the building occupants from exposure to any lead-based paint hazards.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
