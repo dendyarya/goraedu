@@ -130,4 +130,12 @@ export const TOOLS: Tool[] = [
     summary:
       "See whether 29 CFR 1910.178(l)(4) requires refresher training for an operator, and when three years from the last evaluation falls.",
   },
+  {
+    slug: "mechanic-recent-experience",
+    cluster: "faa-amt",
+    name: "Mechanic recent experience and IA expiration",
+    href: "/faa-amt/tools/mechanic-recent-experience/",
+    summary:
+      "Check the 24-month recent experience condition in 14 CFR 65.83 and when an inspection authorization expires under 65.92(a).",
+  },
 ];
