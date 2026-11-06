@@ -1,0 +1,517 @@
+{
+  "cluster": "faa-amt",
+  "slug": "amt-who-performs-approves",
+  "href": "/faa-amt/amt-who-performs-approves/study-guide/",
+  "title": "Aviation mechanic who may perform maintenance and approve return to service study guide",
+  "description": "Study guide on 14 CFR 43.1, 43.3, 43.5 and 43.7: where Part 43 applies, who may perform maintenance and who may approve return to service.",
+  "intro": "14 CFR 43.1, 43.3, 43.5 and 43.7 set out where Part 43 applies, who may perform maintenance, preventive maintenance, rebuilding and alterations, the conditions that must be met before anything is approved for return to service, and who may give that approval. This guide sets out what the federal rule text states on the aircraft and parts Part 43 covers and excludes, mechanics, repairmen, supervised persons, repair stations and air carriers, pilots doing preventive maintenance (including the part 135 remote-rotorcraft and cabin-equipment approvals), avionics database updates, manufacturers, and the return-to-service conditions and approvers. goraedu does not train, test or certificate mechanics, and this is not an FAA test. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "applicability",
+      "name": "Where Part 43 applies",
+      "points": [
+        {
+          "text": "Except as provided in 43.1(b) and (d), Part 43 prescribes rules governing the maintenance, preventive maintenance, rebuilding, and alteration of any aircraft having a U.S. airworthiness certificate.",
+          "quote": "Except as provided in paragraphs (b) and (d) of this section, this part prescribes rules governing the maintenance, preventive maintenance, rebuilding, and alteration of any— (1) Aircraft having a U.S. airworthiness certificate;",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "It also covers foreign-registered civil aircraft used in common carriage or carriage of mail under the provisions of Part 121 or 135.",
+          "quote": "Foreign-registered civil aircraft used in common carriage or carriage of mail under the provisions of Part 121 or 135 of this chapter; and",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "It also covers the airframe, aircraft engines, propellers, appliances, and component parts of such aircraft.",
+          "quote": "Airframe, aircraft engines, propellers, appliances, and component parts of such aircraft.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Part 43 does not apply to an aircraft for which the FAA has issued an experimental airworthiness certificate, unless the FAA has previously issued a different kind of airworthiness certificate for that aircraft.",
+          "quote": "This part does not apply to— (1) Any aircraft for which the FAA has issued an experimental airworthiness certificate, unless the FAA has previously issued a different kind of airworthiness certificate for that aircraft;",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "It also does not apply to an aircraft issued an experimental airworthiness certificate under § 21.191(i)(3) or (l) that was previously issued a special airworthiness certificate in the light-sport category under § 21.190.",
+          "quote": "Any aircraft for which the FAA has issued an experimental airworthiness certificate under the provisions of § 21.191(i)(3) or (l) of this chapter, and the aircraft was previously issued a special airworthiness certificate in the light-sport category under the provisions of § 21.190 of this chapter;",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "It does not apply to any aircraft operated under part 107, except as described in § 107.140(d).",
+          "quote": "Any aircraft that is operated under part 107 of this chapter, except as described in § 107.140(d).",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Part 43 applies to all life-limited parts that are removed from a type certificated product, segregated, or controlled as provided in § 43.10.",
+          "quote": "This part applies to all life-limited parts that are removed from a type certificated product, segregated, or controlled as provided in § 43.10.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Part 43 applies to any aircraft issued a special airworthiness certificate in the light-sport category, with exceptions. One exception: the repair or alteration form specified in §§ 43.5(b) and 43.9(d) is not required to be completed for products not produced under an FAA approval.",
+          "quote": "This part applies to any aircraft issued a special airworthiness certificate in the light-sport category except: (1) The repair or alteration form specified in §§ 43.5(b) and 43.9(d) is not required to be completed for products not produced under an FAA approval;",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Another exception: major repairs and major alterations for products not produced under an FAA approval are not required to be recorded in accordance with appendix B.",
+          "quote": "Major repairs and major alterations for products not produced under an FAA approval are not required to be recorded in accordance with appendix B of this part; and",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A third exception: the listing of major alterations and major repairs in paragraphs (a) and (b) of appendix A is not applicable to products not produced under an FAA approval.",
+          "quote": "The listing of major alterations and major repairs specified in paragraphs (a) and (b) of appendix A of this part is not applicable to products not produced under an FAA approval.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Additional applicability of maintenance provisions for powered-lift is set forth in part 194.",
+          "quote": "Additional applicability of maintenance provisions for powered-lift is set forth in part 194 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": [
+        "Parts 21, 107 and 194, which 43.1 cross-references, are outside the sections this guide covers and their content is not set out here."
+      ]
+    },
+    {
+      "id": "who-performs",
+      "name": "Who may perform maintenance",
+      "points": [
+        {
+          "text": "Except as provided in 43.3 and § 43.17, no person may maintain, rebuild, alter, or perform preventive maintenance on an aircraft, airframe, aircraft engine, propeller, appliance, or component part to which Part 43 applies.",
+          "quote": "Except as provided in this section and § 43.17, no person may maintain, rebuild, alter, or perform preventive maintenance on an aircraft, airframe, aircraft engine, propeller, appliance, or component part to which this part applies.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The items whose performance is a major alteration, a major repair, or preventive maintenance are listed in appendix A.",
+          "quote": "Those items, the performance of which is a major alteration, a major repair, or preventive maintenance, are listed in appendix A.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The holder of a mechanic certificate may perform maintenance, preventive maintenance, and alterations as provided in Part 65.",
+          "quote": "The holder of a mechanic certificate may perform maintenance, preventive maintenance, and alterations as provided in Part 65 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The holder of a repairman certificate may perform maintenance, preventive maintenance, and alterations as provided in part 65.",
+          "quote": "The holder of a repairman certificate may perform maintenance, preventive maintenance, and alterations as provided in part 65 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A person working under the supervision of a holder of a mechanic or repairman certificate may perform the maintenance, preventive maintenance, and alterations that the supervisor is authorized to perform, if the supervisor personally observes the work being done to the extent necessary to ensure that it is being done properly.",
+          "quote": "A person working under the supervision of a holder of a mechanic or repairman certificate may perform the maintenance, preventive maintenance, and alterations that his supervisor is authorized to perform, if the supervisor personally observes the work being done to the extent necessary to ensure that it is being done properly",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The supervisor must also be readily available, in person, for consultation.",
+          "quote": "and if the supervisor is readily available, in person, for consultation.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "43.3(d) does not authorize the performance of any inspection required by Part 91 or Part 125, or any inspection performed after a major repair or alteration.",
+          "quote": "However, this paragraph does not authorize the performance of any inspection required by Part 91 or Part 125 of this chapter or any inspection performed after a major repair or alteration.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The holder of a repair station certificate may perform maintenance, preventive maintenance, and alterations as provided in Part 145.",
+          "quote": "The holder of a repair station certificate may perform maintenance, preventive maintenance, and alterations as provided in Part 145 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The holder of an air carrier operating certificate or an operating certificate issued under Part 121 or 135 may perform maintenance, preventive maintenance, and alterations as provided in Part 121 or 135.",
+          "quote": "The holder of an air carrier operating certificate or an operating certificate issued under Part 121 or 135, may perform maintenance, preventive maintenance, and alterations as provided in Part 121 or 135.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": [
+        "The privileges and limitations in Part 65 (mechanics and repairmen), Part 145 (repair stations) and Parts 121 and 135, which 43.3 refers to, are not set out in this guide. § 43.17 is covered elsewhere."
+      ]
+    },
+    {
+      "id": "pilots-pm",
+      "name": "Pilots and preventive maintenance",
+      "points": [
+        {
+          "text": "Except for holders of a sport pilot certificate, the holder of a pilot certificate issued under part 61 may perform preventive maintenance on any aircraft owned or operated by that pilot which is not used under part 121, 129, or 135.",
+          "quote": "Except for holders of a sport pilot certificate, the holder of a pilot certificate issued under part 61 may perform preventive maintenance on any aircraft owned or operated by that pilot which is not used under part 121, 129, or 135 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The holder of a sport pilot certificate may perform preventive maintenance on an aircraft owned or operated by that pilot and issued a special airworthiness certificate in the light-sport category.",
+          "quote": "The holder of a sport pilot certificate may perform preventive maintenance on an aircraft owned or operated by that pilot and issued a special airworthiness certificate in the light-sport category.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Notwithstanding 43.3(g), the Administrator may approve a Part 135 certificate holder operating rotorcraft in a remote area to allow a pilot to perform specific preventive maintenance items, provided each of the conditions in 43.3(h)(1) through (5) is met.",
+          "quote": "Notwithstanding the provisions of paragraph (g) of this section, the Administrator may approve a certificate holder under Part 135 of this chapter, operating rotorcraft in a remote area, to allow a pilot to perform specific preventive maintenance items provided—",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The items must be a result of a known or suspected mechanical difficulty or malfunction that occurred en route to or in a remote area.",
+          "quote": "The items of preventive maintenance are a result of a known or suspected mechanical difficulty or malfunction that occurred en route to or in a remote area;",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The pilot must have satisfactorily completed an approved training program and be authorized in writing by the certificate holder for each item of preventive maintenance the pilot is authorized to perform.",
+          "quote": "The pilot has satisfactorily completed an approved training program and is authorized in writing by the certificate holder for each item of preventive maintenance that the pilot is authorized to perform;",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "There must be no certificated mechanic available to perform preventive maintenance.",
+          "quote": "There is no certificated mechanic available to perform preventive maintenance;",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The certificate holder must have procedures to evaluate the accomplishment of a preventive maintenance item that requires a decision concerning the airworthiness of the rotorcraft.",
+          "quote": "The certificate holder has procedures to evaluate the accomplishment of a preventive maintenance item that requires a decision concerning the airworthiness of the rotorcraft; and",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The items authorized under 43.3(h) are those listed in paragraph (c) of appendix A.",
+          "quote": "The items of preventive maintenance authorized by this section are those listed in paragraph (c) of appendix A of this part.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Notwithstanding 43.3(g), in accordance with an approval issued to a part 135 certificate holder, a pilot of an aircraft type-certificated for 9 or fewer passenger seats, excluding any pilot seat, may remove and reinstall approved aircraft cabin seats, approved cabin-mounted stretchers, and, when no tools are required, approved cabin-mounted medical oxygen bottles.",
+          "quote": "Notwithstanding the provisions of paragraph (g) of this section, in accordance with an approval issued to the holder of a certificate issued under part 135 of this chapter, a pilot of an aircraft type-certificated for 9 or fewer passenger seats, excluding any pilot seat, may perform the removal and reinstallation of approved aircraft cabin seats, approved cabin-mounted stretchers, and when no tools are required, approved cabin-mounted medical oxygen bottles, provided—",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For those 43.3(i) tasks, the pilot must have satisfactorily completed an approved training program and be authorized in writing by the certificate holder to perform each task.",
+          "quote": "The pilot has satisfactorily completed an approved training program and is authorized in writing by the certificate holder to perform each task; and",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The certificate holder must also have written procedures available to the pilot to evaluate the accomplishment of the task.",
+          "quote": "The certificate holder has written procedures available to the pilot to evaluate the accomplishment of the task.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": [
+        "The preventive maintenance items themselves are listed in appendix A, paragraph (c), and are not reproduced here."
+      ]
+    },
+    {
+      "id": "database-updates",
+      "name": "Avionics database updates",
+      "points": [
+        {
+          "text": "Updates of databases in installed avionics that meet the conditions of 43.3(k) are not considered maintenance and may be performed by pilots.",
+          "quote": "Updates of databases in installed avionics meeting the conditions of this paragraph are not considered maintenance and may be performed by pilots provided:",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The database upload must be initiated from the flight deck, performed without disassembling the avionics unit, and performed without the use of tools and/or special equipment.",
+          "quote": "The database upload is: (i) Initiated from the flight deck; (ii) Performed without disassembling the avionics unit; and (iii) Performed without the use of tools and/or special equipment.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The pilot must comply with the certificate holder's procedures or the manufacturer's instructions (one of the options).",
+          "quote": "The pilot must comply with the certificate holder's procedures or the manufacturer's instructions.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The holder of operating certificates must make available to the pilot written procedures, consistent with manufacturer's instructions, that describe how to perform the database update and how to determine the status of the data upload.",
+          "quote": "The holder of operating certificates must make available written procedures consistent with manufacturer's instructions to the pilot that describe how to: (i) Perform the database update; and (ii) Determine the status of the data upload.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "manufacturers",
+      "name": "Manufacturers",
+      "points": [
+        {
+          "text": "A manufacturer may rebuild or alter any aircraft, aircraft engine, propeller, or appliance manufactured by it under a type or production certificate.",
+          "quote": "A manufacturer may— (1) Rebuild or alter any aircraft, aircraft engine, propeller, or appliance manufactured by him under a type or production certificate;",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A manufacturer may rebuild or alter any appliance or part of aircraft, aircraft engines, propellers, or appliances manufactured by it under a Technical Standard Order Authorization, an FAA-Parts Manufacturer Approval, or Product and Process Specification issued by the Administrator.",
+          "quote": "Rebuild or alter any appliance or part of aircraft, aircraft engines, propellers, or appliances manufactured by him under a Technical Standard Order Authorization, an FAA-Parts Manufacturer Approval, or Product and Process Specification issued by the Administrator; and",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A manufacturer may perform any inspection required by part 91 or part 125 on aircraft it manufactured under a type certificate, or currently manufactures under a production certificate.",
+          "quote": "Perform any inspection required by part 91 or part 125 of this chapter on aircraft it manufactured under a type certificate, or currently manufactures under a production certificate.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A manufacturer may approve for return to service any aircraft, airframe, aircraft engine, propeller, appliance, or component part which that manufacturer has worked on under § 43.3(j).",
+          "quote": "A manufacturer may approve for return to service any aircraft, airframe, aircraft engine, propeller, appliance, or component part which that manufacturer has worked on under § 43.3(j).",
+          "source": {
+            "title": "eCFR: 14 CFR 43.7, Persons authorized to approve aircraft, airframes, aircraft engines, propellers, appliances, or component parts for return to service after maintenance, preventive maintenance, rebuilding, or alteration (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.7"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Except for minor alterations, that work must have been done in accordance with technical data approved by the Administrator.",
+          "quote": "However, except for minor alterations, the work must have been done in accordance with technical data approved by the Administrator.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.7, Persons authorized to approve aircraft, airframes, aircraft engines, propellers, appliances, or component parts for return to service after maintenance, preventive maintenance, rebuilding, or alteration (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.7"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "rts-conditions",
+      "name": "Conditions for return to service",
+      "points": [
+        {
+          "text": "No person may approve for return to service any aircraft, airframe, aircraft engine, propeller, or appliance that has undergone maintenance, preventive maintenance, rebuilding, or alteration unless the maintenance record entry required by § 43.9 or § 43.11, as appropriate, has been made.",
+          "quote": "No person may approve for return to service any aircraft, airframe, aircraft engine, propeller, or appliance, that has undergone maintenance, preventive maintenance, rebuilding, or alteration unless— (a) The maintenance record entry required by § 43.9 or § 43.11, as appropriate, has been made;",
+          "source": {
+            "title": "eCFR: 14 CFR 43.5, Approval for return to service after maintenance, preventive maintenance, rebuilding, or alteration (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.5"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The repair or alteration form authorized by or furnished by the Administrator must also have been executed in a manner prescribed by the Administrator.",
+          "quote": "The repair or alteration form authorized by or furnished by the Administrator has been executed in a manner prescribed by the Administrator; and",
+          "source": {
+            "title": "eCFR: 14 CFR 43.5, Approval for return to service after maintenance, preventive maintenance, rebuilding, or alteration (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.5"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If a repair or an alteration results in any change in the aircraft operating limitations or flight data contained in the approved aircraft flight manual, those operating limitations or flight data must be appropriately revised and set forth as prescribed in § 91.9.",
+          "quote": "If a repair or an alteration results in any change in the aircraft operating limitations or flight data contained in the approved aircraft flight manual, those operating limitations or flight data are appropriately revised and set forth as prescribed in § 91.9 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.5, Approval for return to service after maintenance, preventive maintenance, rebuilding, or alteration (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.5"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": [
+        "The content of the record entries in §§ 43.9 and 43.11 and the form in appendix B are covered in other goraedu sets; § 91.9 is outside the sections this guide covers."
+      ]
+    },
+    {
+      "id": "who-approves",
+      "name": "Who may approve return to service",
+      "points": [
+        {
+          "text": "Except as provided in 43.7 and § 43.17, no person other than the Administrator may approve an aircraft, airframe, aircraft engine, propeller, appliance, or component part for return to service after it has undergone maintenance, preventive maintenance, rebuilding, or alteration.",
+          "quote": "Except as provided in this section and § 43.17, no person, other than the Administrator, may approve an aircraft, airframe, aircraft engine, propeller, appliance, or component part for return to service after it has undergone maintenance, preventive maintenance, rebuilding, or alteration.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.7, Persons authorized to approve aircraft, airframes, aircraft engines, propellers, appliances, or component parts for return to service after maintenance, preventive maintenance, rebuilding, or alteration (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.7"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The holder of a mechanic certificate or an inspection authorization may approve for return to service as provided in Part 65.",
+          "quote": "The holder of a mechanic certificate or an inspection authorization may approve an aircraft, airframe, aircraft engine, propeller, appliance, or component part for return to service as provided in Part 65 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.7, Persons authorized to approve aircraft, airframes, aircraft engines, propellers, appliances, or component parts for return to service after maintenance, preventive maintenance, rebuilding, or alteration (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.7"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The holder of a repair station certificate may approve for return to service as provided in Part 145.",
+          "quote": "The holder of a repair station certificate may approve an aircraft, airframe, aircraft engine, propeller, appliance, or component part for return to service as provided in Part 145 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.7, Persons authorized to approve aircraft, airframes, aircraft engines, propellers, appliances, or component parts for return to service after maintenance, preventive maintenance, rebuilding, or alteration (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.7"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The holder of an air carrier operating certificate or an operating certificate issued under Part 121 or 135 may approve for return to service as provided in Part 121 or 135, as applicable.",
+          "quote": "The holder of an air carrier operating certificate or an operating certificate issued under Part 121 or 135, may approve an aircraft, airframe, aircraft engine, propeller, appliance, or component part for return to service as provided in Part 121 or 135 of this chapter, as applicable.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.7, Persons authorized to approve aircraft, airframes, aircraft engines, propellers, appliances, or component parts for return to service after maintenance, preventive maintenance, rebuilding, or alteration (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.7"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A person holding at least a private pilot certificate may approve an aircraft for return to service after performing preventive maintenance under § 43.3(g).",
+          "quote": "A person holding at least a private pilot certificate may approve an aircraft for return to service after performing preventive maintenance under the provisions of § 43.3(g).",
+          "source": {
+            "title": "eCFR: 14 CFR 43.7, Persons authorized to approve aircraft, airframes, aircraft engines, propellers, appliances, or component parts for return to service after maintenance, preventive maintenance, rebuilding, or alteration (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.7"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The holder of a repairman certificate (light-sport aircraft) with a maintenance rating may approve an aircraft issued a special airworthiness certificate in the light-sport category for return to service, as provided in part 65.",
+          "quote": "The holder of a repairman certificate (light-sport aircraft) with a maintenance rating may approve an aircraft issued a special airworthiness certificate in light-sport category for return to service, as provided in part 65 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.7, Persons authorized to approve aircraft, airframes, aircraft engines, propellers, appliances, or component parts for return to service after maintenance, preventive maintenance, rebuilding, or alteration (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.7"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The holder of at least a sport pilot certificate may approve an aircraft owned or operated by that pilot and issued a special airworthiness certificate in the light-sport category for return to service after performing preventive maintenance under § 43.3(g).",
+          "quote": "The holder of at least a sport pilot certificate may approve an aircraft owned or operated by that pilot and issued a special airworthiness certificate in the light-sport category for return to service after performing preventive maintenance under the provisions of § 43.3(g).",
+          "source": {
+            "title": "eCFR: 14 CFR 43.7, Persons authorized to approve aircraft, airframes, aircraft engines, propellers, appliances, or component parts for return to service after maintenance, preventive maintenance, rebuilding, or alteration (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.7"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": [
+        "What a mechanic, inspection authorization holder or repairman may approve under Part 65, and what repair stations and air carriers may approve under Parts 145, 121 and 135, is not set out here."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "cluster": "faa-amt",
+  "slug": "amt-privileges",
+  "title": "Aviation mechanic privileges, recent experience and display practice questions",
+  "description": "Practice questions on mechanic privileges and exclusions, recent experience, airframe and powerplant ratings, and certificate display (14 CFR 65.81–65.89).",
+  "href": "/faa-amt/amt-privileges/practice-test/",
+  "questions": [
+    {
+      "id": "vb-001",
+      "topic": "General privileges and exclusions",
+      "question": "Under 14 CFR 65.81(a), what propeller work is excluded from a certificated mechanic's general privileges?",
+      "options": {
+        "A": "All maintenance of propellers",
+        "B": "Major repairs to, and major alterations of, propellers",
+        "C": "Preventive maintenance of propellers",
+        "D": "Any work on propellers of light-sport aircraft"
+      },
+      "answer": "B",
+      "explanation": "A certificated mechanic may perform or supervise maintenance, preventive maintenance or alteration for which that person is rated, \"but excluding major repairs to, and major alterations of, propellers\".",
+      "source": {
+        "title": "eCFR: 14 CFR 65.81, General privileges and limitations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.81"
+      },
+      "checked": "2026-11-06",
+      "evidence": "but excluding major repairs to, and major alterations of, propellers"
+    },
+    {
+      "id": "vb-002",
+      "topic": "General privileges and exclusions",
+      "question": "Under 14 CFR 65.81(a), what instrument work is excluded from a certificated mechanic's general privileges?",
+      "options": {
+        "A": "Only major repairs to instruments",
+        "B": "Only major alterations of instruments",
+        "C": "Only instrument work on aircraft used in air carrier service",
+        "D": "Any repair to, or alteration of, instruments"
+      },
+      "answer": "D",
+      "explanation": "The exclusion in 65.81(a) covers \"any repair to, or alteration of, instruments\", not only major ones.",
+      "source": {
+        "title": "eCFR: 14 CFR 65.81, General privileges and limitations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.81"
+      },
+      "checked": "2026-11-06",
+      "evidence": "and any repair to, or alteration of, instruments"
+    },
+    {
+      "id": "vb-003",
+      "topic": "General privileges and exclusions",
+      "question": "Under 14 CFR 65.81(a), on which aircraft or appliances may a certificated mechanic perform or supervise maintenance, preventive maintenance or alteration?",
+      "options": {
+        "A": "Those for which that person is rated, subject to the stated exclusions",
+        "B": "Any aircraft or appliance, whatever the rating held",
+        "C": "Only aircraft the mechanic owns",
+        "D": "Only aircraft with a special airworthiness certificate"
+      },
+      "answer": "A",
+      "explanation": "The rule says a certificated mechanic may perform or supervise that work on \"an aircraft or appliance, or a part thereof, for which that person is rated\".",
+      "source": {
+        "title": "eCFR: 14 CFR 65.81, General privileges and limitations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.81"
+      },
+      "checked": "2026-11-06",
+      "evidence": "of an aircraft or appliance, or a part thereof, for which that person is rated"
+    },
+    {
+      "id": "vb-004",
+      "topic": "Work not done before and manufacturer instructions",
+      "question": "Under 14 CFR 65.81(a), what must a certificated mechanic have done before supervising work on, or approving for return to service, an aircraft for which that person is rated?",
+      "options": {
+        "A": "Held the mechanic certificate for at least 30 months",
+        "B": "Obtained an inspection authorization",
+        "C": "Satisfactorily performed the work concerned at an earlier date",
+        "D": "Obtained the aircraft owner's written consent"
+      },
+      "answer": "C",
+      "explanation": "A mechanic may not supervise that work or approve for return to service \"unless that person has satisfactorily performed the work concerned at an earlier date.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 65.81, General privileges and limitations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.81"
+      },
+      "checked": "2026-11-06",
+      "evidence": "unless that person has satisfactorily performed the work concerned at an earlier date"
+    },
+    {
+      "id": "vb-005",
+      "topic": "Work not done before and manufacturer instructions",
+      "question": "A certificated mechanic has never performed a specific operation on an aircraft for which the mechanic is rated. Under 14 CFR 65.81(a), which is one way the mechanic may show the ability to do it?",
+      "options": {
+        "A": "Perform it under the direct supervision of a certificated and appropriately rated mechanic, or a certificated repairman, who has had previous experience in the specific operation concerned",
+        "B": "Sign a statement that the mechanic has read about the operation",
+        "C": "Perform it under the supervision of any pilot holding at least a private pilot certificate",
+        "D": "Retake the written test for the rating"
+      },
+      "answer": "A",
+      "explanation": "The mechanic \"may show the ability to do it by performing it to the satisfaction of the Administrator or under the direct supervision of a certificated and appropriately rated mechanic, or a certificated repairman, who has had previous experience in the specific operation concerned.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 65.81, General privileges and limitations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.81"
+      },
+      "checked": "2026-11-06",
+      "evidence": "that person may show the ability to do it by performing it to the satisfaction of the Administrator or under the direct supervision of a certificated and appropriately rated mechanic, or a certificated repairman, who has had previous experience in the specific operation concerned"
+    },
+    {
+      "id": "vb-006",
+      "topic": "Work not done before and manufacturer instructions",
+      "question": "Under 14 CFR 65.81(b), what must a certificated mechanic understand before exercising the privileges of the certificate and rating?",
+      "options": {
+        "A": "Only the aircraft flight manual",
+        "B": "The current instructions of the manufacturer, and the maintenance manuals, for the specific operation concerned",
+        "C": "The manufacturer's instructions as they stood when the aircraft was built",
+        "D": "General textbooks for the type of work, in place of the manufacturer's instructions"
+      },
+      "answer": "B",
+      "explanation": "A mechanic may not exercise the privileges \"unless that person understands the current instructions of the manufacturer, and the maintenance manuals, for the specific operation concerned.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 65.81, General privileges and limitations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.81"
+      },
+      "checked": "2026-11-06",
+      "evidence": "unless that person understands the current instructions of the manufacturer, and the maintenance manuals, for the specific operation concerned"
+    },
+    {
+      "id": "vb-007",
+      "topic": "Recent experience",
+      "question": "14 CFR 65.83 measures a mechanic's recent experience over what period?",
+      "options": {
+        "A": "The preceding 90 days",
+        "B": "The preceding 12 months",
+        "C": "The preceding 5 years",
+        "D": "The preceding 24 months"
+      },
+      "answer": "D",
+      "explanation": "A certificated mechanic may not exercise the privileges of his certificate and rating \"unless, within the preceding 24 months\" one of the conditions in 65.83(a) or (b) is met.",
+      "source": {
+        "title": "eCFR: 14 CFR 65.83, Recent experience requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.83"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A certificated mechanic may not exercise the privileges of his certificate and rating unless, within the preceding 24 months"
+    },
+    {
+      "id": "vb-008",
+      "topic": "Recent experience",
+      "question": "What period of activity does 14 CFR 65.83(b) set within the 24-month look-back?",
+      "options": {
+        "A": "30 days",
+        "B": "60 days",
+        "C": "6 months",
+        "D": "90 days"
+      },
+      "answer": "C",
+      "explanation": "Under 65.83(b), the mechanic must have, \"for at least 6 months\", been engaged in one of the listed activities or a combination of them.",
+      "source": {
+        "title": "eCFR: 14 CFR 65.83, Recent experience requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.83"
+      },
+      "checked": "2026-11-06",
+      "evidence": "He has, for at least 6 months"
+    },
+    {
+      "id": "vb-009",
+      "topic": "Recent experience",
+      "question": "A certificated mechanic has done none of the activities listed in 14 CFR 65.83(b) in the preceding 24 months. What other condition in 65.83 lets the mechanic exercise the certificate's privileges?",
+      "options": {
+        "A": "The mechanic has renewed the certificate by mail",
+        "B": "The mechanic holds at least a private pilot certificate",
+        "C": "An employer has signed a statement of the mechanic's ability",
+        "D": "Within the preceding 24 months, the Administrator has found that he is able to do that work"
+      },
+      "answer": "D",
+      "explanation": "Paragraph (a) is an alternative to (b): within the preceding 24 months, \"The Administrator has found that he is able to do that work; or\" the mechanic meets (b).",
+      "source": {
+        "title": "eCFR: 14 CFR 65.83, Recent experience requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.83"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The Administrator has found that he is able to do that work; or"
+    },
+    {
+      "id": "vb-010",
+      "topic": "Recent experience",
+      "question": "Which of these activities is listed in 14 CFR 65.83(b) as recent experience?",
+      "options": {
+        "A": "Technically supervising other mechanics",
+        "B": "Flying as pilot in command",
+        "C": "Holding a repairman certificate",
+        "D": "Working as a flight instructor"
+      },
+      "answer": "A",
+      "explanation": "65.83(b)(2) lists having \"Technically supervised other mechanics\".",
+      "source": {
+        "title": "eCFR: 14 CFR 65.83, Recent experience requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.83"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Technically supervised other mechanics"
+    },
+    {
+      "id": "vb-011",
+      "topic": "Recent experience",
+      "question": "Under 14 CFR 65.83(b)(3), in what capacity may a mechanic have supervised the maintenance or alteration of aircraft for it to count as recent experience?",
+      "options": {
+        "A": "Only as an FAA inspector",
+        "B": "In an executive capacity",
+        "C": "Only while holding an inspection authorization",
+        "D": "Only as an instructor at a part 147 school"
+      },
+      "answer": "B",
+      "explanation": "65.83(b)(3) lists having \"Supervised, in an executive capacity, the maintenance or alteration of aircraft\".",
+      "source": {
+        "title": "eCFR: 14 CFR 65.83, Recent experience requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.83"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Supervised, in an executive capacity, the maintenance or alteration of aircraft"
+    },
+    {
+      "id": "vb-012",
+      "topic": "Recent experience",
+      "question": "Within the preceding 24 months, a mechanic served as a mechanic under the certificate and rating for part of the time and technically supervised other mechanics for the rest. How does 14 CFR 65.83(b) treat a mix like this?",
+      "options": {
+        "A": "Only one activity, done without a break, counts",
+        "B": "Only service as a mechanic under the certificate and rating counts",
+        "C": "Being engaged in any combination of the activities in (b)(1), (2) or (3) counts",
+        "D": "Only work on aircraft operated under part 121 counts"
+      },
+      "answer": "C",
+      "explanation": "65.83(b)(4) counts having \"Been engaged in any combination of paragraph (b) (1), (2), or (3) of this section.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 65.83, Recent experience requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.83"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Been engaged in any combination of paragraph (b) (1), (2), or (3) of this section"
+    },
+    {
+      "id": "vb-013",
+      "topic": "Airframe rating privileges",
+      "question": "Under 14 CFR 65.85(a), after which actions may a mechanic with an airframe rating approve an airframe, or any related part or appliance, for return to service?",
+      "options": {
+        "A": "Only after that person has personally performed the work",
+        "B": "Only after a holder of an inspection authorization has inspected it",
+        "C": "After that person has performed, supervised, or inspected its maintenance or alteration (excluding major repairs and major alterations)",
+        "D": "After reviewing the owner's own logbook entry"
+      },
+      "answer": "C",
+      "explanation": "The airframe-rated mechanic may approve for return to service \"after that person has performed, supervised, or inspected its maintenance or alteration (excluding major repairs and major alterations).\"",
+      "source": {
+        "title": "eCFR: 14 CFR 65.85, Airframe rating; additional privileges (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.85"
+      },
+      "checked": "2026-11-06",
+      "evidence": "after that person has performed, supervised, or inspected its maintenance or alteration (excluding major repairs and major alterations)"
+    },
+    {
+      "id": "vb-014",
+      "topic": "Airframe rating privileges",
+      "question": "Apart from the light-sport case in 14 CFR 65.85(b), which work does 65.85(a) exclude from an airframe-rated mechanic's approval for return to service?",
+      "options": {
+        "A": "Major repairs and major alterations",
+        "B": "Preventive maintenance",
+        "C": "100-hour inspections",
+        "D": "All alterations, major or not"
+      },
+      "answer": "A",
+      "explanation": "65.85(a) allows approval after maintenance or alteration \"(excluding major repairs and major alterations)\", and it applies \"Except as provided in paragraph (b) of this section\".",
+      "source": {
+        "title": "eCFR: 14 CFR 65.85, Airframe rating; additional privileges (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.85"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Except as provided in paragraph (b) of this section, a certificated mechanic with an airframe rating may"
+    },
+    {
+      "id": "vb-015",
+      "topic": "Airframe rating privileges",
+      "question": "Under 14 CFR 65.85(a), after performing the 100-hour inspection required by part 91 on an airframe, what may an airframe-rated mechanic do?",
+      "options": {
+        "A": "Only recommend it to a holder of an inspection authorization for approval",
+        "B": "Only record the work, leaving approval to a repair station",
+        "C": "Approve it only after the Administrator reviews the inspection",
+        "D": "Approve it for return to service"
+      },
+      "answer": "D",
+      "explanation": "An airframe-rated mechanic \"may perform the 100-hour inspection required by part 91 of this chapter on an airframe, or any related part or appliance, and approve for return to service.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 65.85, Airframe rating; additional privileges (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.85"
+      },
+      "checked": "2026-11-06",
+      "evidence": "may perform the 100-hour inspection required by part 91 of this chapter on an airframe, or any related part or appliance, and approve for return to service"
+    },
+    {
+      "id": "vb-016",
+      "topic": "Airframe rating privileges",
+      "question": "14 CFR 65.85(b) lets an airframe-rated mechanic approve for return to service after performing and inspecting a major repair or major alteration. To which aircraft does this apply?",
+      "options": {
+        "A": "Any aircraft with a standard airworthiness certificate",
+        "B": "An aircraft with a special airworthiness certificate in the light-sport category, for products that are not produced under an FAA approval",
+        "C": "Any aircraft operated under part 135",
+        "D": "Any aircraft the mechanic owns"
+      },
+      "answer": "B",
+      "explanation": "65.85(b) covers \"an aircraft with a special airworthiness certificate in the light-sport category\" and major repairs or alterations \"for products that are not produced under an FAA approval\".",
+      "source": {
+        "title": "eCFR: 14 CFR 65.85, Airframe rating; additional privileges (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.85"
+      },
+      "checked": "2026-11-06",
+      "evidence": "of an aircraft with a special airworthiness certificate in the light-sport category after performing and inspecting a major repair or major alteration for products that are not produced under an FAA approval"
+    },
+    {
+      "id": "vb-017",
+      "topic": "Powerplant rating privileges",
+      "question": "A mechanic holds only a powerplant rating. Under 14 CFR 65.87(a), what may the mechanic approve for return to service after performing, supervising, or inspecting its maintenance or alteration (excluding major repairs and major alterations)?",
+      "options": {
+        "A": "A powerplant or propeller or any related part or appliance",
+        "B": "An airframe, or any related part or appliance",
+        "C": "Only engine accessories, not propellers",
+        "D": "Instruments, after repairing them"
+      },
+      "answer": "A",
+      "explanation": "A powerplant-rated mechanic \"may approve for return to service a powerplant or propeller or any related part or appliance\" after that work.",
+      "source": {
+        "title": "eCFR: 14 CFR 65.87, Powerplant rating; additional privileges (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.87"
+      },
+      "checked": "2026-11-06",
+      "evidence": "a certificated mechanic with a powerplant rating may approve for return to service a powerplant or propeller or any related part or appliance"
+    },
+    {
+      "id": "vb-018",
+      "topic": "Powerplant rating privileges",
+      "question": "Under 14 CFR 65.87(b), a powerplant-rated mechanic may approve a light-sport powerplant or propeller for return to service after a major repair or major alteration provided the work met which condition?",
+      "options": {
+        "A": "It was approved in advance by the aircraft owner",
+        "B": "It was performed by a student of a part 147 school",
+        "C": "It was recorded on a form signed by the pilot",
+        "D": "It was authorized by, and performed in accordance with instructions developed by, the manufacturer or a person acceptable to the FAA"
+      },
+      "answer": "D",
+      "explanation": "The approval is allowed \"provided the major repair or major alteration was authorized by, and performed in accordance with instructions developed by, the manufacturer or a person acceptable to the FAA.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 65.87, Powerplant rating; additional privileges (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.87"
+      },
+      "checked": "2026-11-06",
+      "evidence": "provided the major repair or major alteration was authorized by, and performed in accordance with instructions developed by, the manufacturer or a person acceptable to the"
+    },
+    {
+      "id": "vb-019",
+      "topic": "Display of certificate",
+      "question": "Under 14 CFR 65.89, where must each person who holds a mechanic certificate keep it?",
+      "options": {
+        "A": "On file with the FAA",
+        "B": "At home, in a safe place",
+        "C": "Within the immediate area where he normally exercises the privileges of the certificate",
+        "D": "In the aircraft's maintenance records"
+      },
+      "answer": "C",
+      "explanation": "Each holder \"shall keep it within the immediate area where he normally exercises the privileges of the certificate\".",
+      "source": {
+        "title": "eCFR: 14 CFR 65.89, Display of certificate (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.89"
+      },
+      "checked": "2026-11-06",
+      "evidence": "shall keep it within the immediate area where he normally exercises the privileges of the certificate"
+    },
+    {
+      "id": "vb-020",
+      "topic": "Display of certificate",
+      "question": "Under 14 CFR 65.89, who may request that a mechanic present the certificate for inspection?",
+      "options": {
+        "A": "The owner of an aircraft the mechanic worked on",
+        "B": "An authorized representative of the National Transportation Safety Board",
+        "C": "Any pilot holding at least a private pilot certificate",
+        "D": "The mechanic's customers"
+      },
+      "answer": "B",
+      "explanation": "The holder \"shall present it for inspection upon the request of the Administrator or an authorized representative of the National Transportation Safety Board, or of any Federal, State, or local law enforcement officer.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 65.89, Display of certificate (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.89"
+      },
+      "checked": "2026-11-06",
+      "evidence": "shall present it for inspection upon the request of the Administrator or an authorized representative of the National Transportation Safety Board, or of any Federal, State, or local law enforcement officer"
+    }
+  ]
+}
