@@ -39,7 +39,13 @@ export default function UniversalPracticeTestPage() {
     >
       <div className="grid gap-10 lg:grid-cols-[1fr_18rem]">
         <div className="min-w-0">
-          <PracticeTest title="EPA 608 Universal" questions={pool.questions} drawPerTopic={PER_SECTION} />
+          <PracticeTest
+            title="EPA 608 Universal"
+            questions={pool.questions}
+            drawPerTopic={PER_SECTION}
+            passPct={70}
+            passNote="The passing score the EPA rule sets for closed-book tests (40 CFR Part 82, Subpart F, Appendix D)."
+          />
         </div>
         <aside className="space-y-6 text-[0.9375rem]">
           <div className="rounded-3xl border border-line bg-panel p-5">

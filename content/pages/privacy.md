@@ -1,10 +1,10 @@
 ---
 title: Privacy policy
 description: What information goraedu collects when you use the site, and what we do with it.
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
-**Effective date: November 5, 2026** (updated to add Google Analytics)
+**Effective date: November 6, 2026** (updated to describe practice progress saved in your browser)
 
 goraedu is built to work without collecting personal information. You do not need an account, and no question or
 tool asks for your name or email address.
@@ -31,6 +31,12 @@ Google's use of this data is described in
 You can opt out at any time: if your browser sends the **Global Privacy Control** signal, analytics does not load
 at all; you can also block cookies in your browser or install Google's
 [Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout).
+
+**Practice progress on your device.** When you answer practice questions, your browser remembers which questions
+you answered and whether your last answer was right, so the site can show your weak topics and let you review missed
+questions. This is stored only in your browser's local storage on that device. It is not sent to us or to anyone
+else, and it contains no name, email or other personal details. You can delete it with the "Clear my progress"
+button on any practice page or by clearing your browser's site data.
 
 **Email you send us.** If you email us, we receive your email address and message and use them only to reply.
 

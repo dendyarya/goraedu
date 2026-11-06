@@ -6,7 +6,7 @@ import TradeIcon from "@/components/TradeIcon";
 import { getAllGuides, getAllTopicPages } from "@/lib/guides";
 import { TOOLS } from "@/lib/tools";
 import { formatDate } from "@/lib/news";
-import { getAllSets, SECTION_NAME, universalPool } from "@/lib/questions";
+import { getAllSets, SECTION_NAME, typeExamPool, universalPool } from "@/lib/questions";
 
 export const metadata: Metadata = {
   title: "EPA 608 Certification: Types, Requirements and Free Practice Tests",
@@ -74,6 +74,10 @@ export default function Epa608Page() {
   const guides = getAllGuides().filter((x) => x.cluster === "epa-608");
   const topicPages = getAllTopicPages().filter((x) => x.cluster === "epa-608");
   const universal = universalPool();
+  for (const slug of ["type-1", "type-2", "type-3"]) {
+    const exam = typeExamPool(slug);
+    if (exam) tests.push({ name: `${SECTION_NAME[slug]} exam`, href: exam.href, count: exam.sections.length * 25 });
+  }
   tests.push({ name: "Universal exam", href: universal.href, count: universal.sections.length * 25 });
 
   return (

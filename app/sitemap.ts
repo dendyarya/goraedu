@@ -28,6 +28,10 @@ const PATHS = [
   "/asbestos/",
   "/epa-608/guide/passing-score/",
   "/epa-608/universal/practice-test/",
+  "/epa-608/type-1/practice-exam/",
+  "/epa-608/type-2/practice-exam/",
+  "/epa-608/type-3/practice-exam/",
+  "/faa-107/practice-exam/",
   "/news/",
   "/tools/",
 ];

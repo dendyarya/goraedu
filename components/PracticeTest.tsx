@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Choice, Question } from "@/lib/questions";
+import { clearIds, recordAnswer, statsFor, type QuestionStat } from "@/lib/progress";
 
 const CHOICES: Choice[] = ["A", "B", "C", "D"];
 
@@ -33,18 +34,29 @@ export default function PracticeTest({
   title,
   questions,
   drawPerTopic,
+  drawTotal,
+  passPct,
+  passNote,
 }: {
   title: string;
   questions: Question[];
   /** Exam mode: each start draws this many random questions from every topic, and there is no topic filter. */
   drawPerTopic?: number;
+  /** Exam mode: each start draws this many random questions from the whole bank. */
+  drawTotal?: number;
+  /** Exam mode: the passing score (percent) set by the official source, shown next to the practice score. */
+  passPct?: number;
+  /** Exam mode: where the passing score comes from, shown with it. */
+  passNote?: string;
 }) {
+  const exam = Boolean(drawPerTopic || drawTotal);
   const topics = useMemo(() => [...new Set(questions.map((q) => q.topic))], [questions]);
   const [phase, setPhase] = useState<Phase>("start");
   const [topic, setTopic] = useState<string>("all");
   const [order, setOrder] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, Choice>>({});
+  const [stats, setStats] = useState<Record<string, QuestionStat> | null>(null);
   const feedbackRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
 
@@ -62,7 +74,15 @@ export default function PracticeTest({
   function pick(c: Choice) {
     if (!current || answered) return;
     setAnswers((a) => ({ ...a, [current.id]: c }));
+    recordAnswer(current.id, c === current.answer);
   }
+
+  // Progress saved on this device; read after mount so server and client markup match.
+  useEffect(() => {
+    if (phase === "quiz") return;
+    const id = window.requestAnimationFrame(() => setStats(statsFor(questions.map((q) => q.id))));
+    return () => window.cancelAnimationFrame(id);
+  }, [phase, questions]);
 
   function next() {
     if (index + 1 < order.length) setIndex(index + 1);
@@ -95,19 +115,30 @@ export default function PracticeTest({
   const pool = topic === "all" ? questions : questions.filter((q) => q.topic === topic);
 
   function draw() {
+    if (drawTotal) return shuffle(questions).slice(0, drawTotal);
     return topics.flatMap((t) => shuffle(questions.filter((q) => q.topic === t)).slice(0, drawPerTopic));
   }
 
-  if (phase === "start" && drawPerTopic) {
-    const size = topics.reduce((n, t) => n + Math.min(drawPerTopic, questions.filter((q) => q.topic === t).length), 0);
+  if (phase === "start" && exam) {
+    const size = drawTotal
+      ? Math.min(drawTotal, questions.length)
+      : topics.reduce((n, t) => n + Math.min(drawPerTopic!, questions.filter((q) => q.topic === t).length), 0);
     return (
       <div className="rounded-3xl border border-line bg-panel p-6 sm:p-8">
         <h2 className="text-[1.5rem] font-bold">{title}</h2>
         <p className="mt-2 text-muted">
-          Each exam draws {drawPerTopic} random questions from each of {new Intl.ListFormat("en-US").format(topics)},{" "}
-          {size} questions in all, from our bank of {questions.length}. Start again for a new draw. After each answer
-          you see why it is right, with a link to the official source, and your results are shown by section.
+          {drawTotal
+            ? `Each exam draws ${size} random questions from our bank of ${questions.length}.`
+            : `Each exam draws ${drawPerTopic} random questions from each of ${new Intl.ListFormat("en-US").format(topics)}, ${size} questions in all, from our bank of ${questions.length}.`}{" "}
+          Start again for a new draw. After each answer you see why it is right, with a link to the official source, and
+          your results are shown by {drawTotal ? "topic" : "section"}.
         </p>
+        {passPct ? (
+          <p className="mt-3 text-[0.9375rem]">
+            Passing score: <strong>{passPct}%</strong> ({Math.ceil((size * passPct) / 100)} of {size}).{" "}
+            {passNote ? <span className="text-muted">{passNote}</span> : null}
+          </p>
+        ) : null}
         <div className="mt-6">
           <button
             type="button"
@@ -157,6 +188,15 @@ export default function PracticeTest({
             Start practice ({pool.length} questions)
           </button>
         </div>
+        <Progress
+          questions={questions}
+          stats={stats}
+          onStart={start}
+          onClear={() => {
+            clearIds(questions.map((q) => q.id));
+            setStats({});
+          }}
+        />
         <p className="mt-4 text-[0.875rem] text-muted">
           Tip: press A, B, C or D to answer and Enter for the next question. Nothing you answer leaves your browser.
         </p>
@@ -182,6 +222,12 @@ export default function PracticeTest({
         <div className="mt-4 h-3 overflow-hidden rounded-full bg-line" aria-hidden="true">
           <div className="h-full rounded-full bg-low" style={{ width: `${pct}%` }} />
         </div>
+        {passPct ? (
+          <p className="mt-3 font-semibold">
+            Passing score: {passPct}% ({Math.ceil((order.length * passPct) / 100)} of {order.length}). Your practice
+            score {pct >= passPct ? "reaches" : "is below"} it.
+          </p>
+        ) : null}
         <p className="mt-3 text-[0.9375rem] text-muted">
           This is a practice score, not a prediction of your result on the official exam.
         </p>
@@ -350,5 +396,93 @@ export default function PracticeTest({
         </div>
       </div>
     </div>
+  );
+}
+
+/** What this device remembers about the set: questions tried, last-answer accuracy, weakest topics, quick reviews. */
+function Progress({
+  questions,
+  stats,
+  onStart,
+  onClear,
+}: {
+  questions: Question[];
+  stats: Record<string, QuestionStat> | null;
+  onStart: (list: Question[]) => void;
+  onClear: () => void;
+}) {
+  if (!stats) return null;
+  const tried = questions.filter((q) => stats[q.id]);
+  if (tried.length === 0) {
+    return (
+      <p className="mt-6 text-[0.875rem] text-muted">
+        Your answers are remembered on this device only, so you can come back to the ones you missed.
+      </p>
+    );
+  }
+  const missed = tried.filter((q) => stats[q.id]!.last === "w");
+  const fresh = questions.filter((q) => !stats[q.id]);
+  const right = tried.length - missed.length;
+  const weak = [...new Set(questions.map((q) => q.topic))]
+    .map((t) => {
+      const qs = tried.filter((q) => q.topic === t);
+      const w = qs.filter((q) => stats[q.id]!.last === "w").length;
+      return { t, tried: qs.length, w };
+    })
+    .filter((x) => x.w > 0)
+    .sort((a, b) => b.w / b.tried - a.w / a.tried || b.w - a.w)
+    .slice(0, 3);
+
+  return (
+    <section aria-labelledby="progress-h" className="mt-8 rounded-2xl border border-line bg-paper p-5">
+      <h3 id="progress-h" className="text-[1.0625rem] font-bold">
+        Your progress on this device
+      </h3>
+      <p className="mt-2 text-[0.9375rem]">
+        You have tried {tried.length} of {questions.length} questions. Your last answer was right on {right} of them.
+      </p>
+      {weak.length ? (
+        <>
+          <p className="mt-3 text-[0.9375rem] font-semibold">Topics to review</p>
+          <ul className="mt-1 space-y-1 text-[0.9375rem]">
+            {weak.map((x) => (
+              <li key={x.t}>
+                {x.t}: {x.w} of {x.tried} missed last time
+              </li>
+            ))}
+          </ul>
+        </>
+      ) : null}
+      <div className="mt-4 flex flex-wrap gap-2.5">
+        {missed.length ? (
+          <button
+            type="button"
+            onClick={() => onStart(missed)}
+            className="rounded-full bg-low px-4 py-2.5 text-[0.9375rem] font-semibold text-white hover:brightness-110"
+          >
+            Practice the {missed.length} you missed last time
+          </button>
+        ) : null}
+        {fresh.length ? (
+          <button
+            type="button"
+            onClick={() => onStart(fresh)}
+            className="rounded-full border border-line px-4 py-2.5 text-[0.9375rem] font-semibold hover:border-low hover:text-low"
+          >
+            Practice the {fresh.length} you have not tried
+          </button>
+        ) : null}
+        <button
+          type="button"
+          onClick={onClear}
+          className="rounded-full px-4 py-2.5 text-[0.9375rem] font-semibold text-muted underline hover:text-low"
+        >
+          Clear my progress for this set
+        </button>
+      </div>
+      <p className="mt-3 text-[0.8125rem] text-muted">
+        Saved only in this browser on this device. It is never sent to us.
+      </p>
+    </section>
   );
 }

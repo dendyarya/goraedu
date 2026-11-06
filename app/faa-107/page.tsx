@@ -157,6 +157,15 @@ export default function Faa107Page() {
         </div>
 
         <aside className="space-y-6">
+          <div className="rounded-3xl border border-low/40 bg-low-soft p-6">
+            <h2 className="text-[1.25rem] font-bold">Practice exam</h2>
+            <p className="mt-2 text-[0.9375rem] text-muted">
+              60 random questions scored against the 70 percent passing score the FAA lists for the knowledge test.
+            </p>
+            <Link href="/faa-107/practice-exam/" className="mt-3 inline-block font-semibold text-low underline">
+              Take the practice exam
+            </Link>
+          </div>
           <div className="rounded-3xl border border-line bg-panel p-6">
             <h2 className="text-[1.25rem] font-bold">Topics</h2>
             <ul className="mt-4 space-y-3">

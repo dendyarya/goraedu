@@ -6,7 +6,7 @@ import PracticeTest from "@/components/PracticeTest";
 import QuestionReview from "@/components/QuestionReview";
 import { getAllGuides } from "@/lib/guides";
 import { formatDate } from "@/lib/news";
-import { getAllSets, lastChecked, SECTION_NAME, topicsOf } from "@/lib/questions";
+import { getAllSets, lastChecked, SECTION_NAME, topicsOf, typeExamPool } from "@/lib/questions";
 
 export const dynamicParams = false;
 
@@ -84,6 +84,17 @@ export default async function SectionPracticeTestPage({ params }: Props) {
               ))}
             </ul>
           </div>
+          {typeExamPool(set.slug) ? (
+            <div className="rounded-3xl border border-low/40 bg-low-soft p-5">
+              <h2 className="text-[1.125rem] font-bold">Exam format</h2>
+              <p className="mt-2 text-muted">
+                25 Core and 25 {name} questions, scored against the 70 percent passing score.
+              </p>
+              <Link href={typeExamPool(set.slug)!.href} className="mt-3 inline-block font-semibold text-low underline">
+                {name} practice exam
+              </Link>
+            </div>
+          ) : null}
           {others.length > 0 ? (
             <div className="rounded-3xl border border-line bg-panel p-5">
               <h2 className="text-[1.125rem] font-bold">Other EPA 608 sections</h2>
