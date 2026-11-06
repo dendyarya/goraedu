@@ -27,7 +27,7 @@
     {
       "id": "zp-002",
       "topic": "Who the placarding rules cover",
-      "question": "Under 172.500(b)(2), when are hazardous materials authorized to be offered as a limited quantity outside the placarding subpart?",
+      "question": "Under 172.500(b)(2), which condition takes hazardous materials authorized to be offered as a limited quantity outside the placarding subpart?",
       "options": {
         "A": "When identified as such on a shipping paper in accordance with 172.203(b) or when marked as such in accordance with 172.315",
         "B": "Only when the vehicle carries less than 454 kg (1,001 pounds) of them",
@@ -130,7 +130,7 @@
         "D": "Material other than material poisonous by inhalation"
       },
       "answer": "A",
-      "explanation": "Table 1 lists \"6.1 (material poisonous by inhalation\" (see 171.8), while Table 2 lists \"6.1 (other than material poisonous by inhalation)\".",
+      "explanation": "Table 1 lists \"6.1 (material poisonous by inhalation (see § 171.8 of this subchapter))\", while Table 2 lists \"6.1 (other than material poisonous by inhalation)\".",
       "source": {
         "title": "eCFR: 49 CFR 172.504, General placarding requirements (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-F/section-172.504"
@@ -315,11 +315,11 @@
       "question": "Under 172.514(c)(1), how may a portable tank having a capacity of less than 3,785 L (1,000 gallons) be placarded?",
       "options": {
         "A": "It needs neither placards nor labels",
-        "B": "On only two opposite sides or, alternatively, labeled instead of placarded in accordance with Subpart E",
+        "B": "Only with a DANGEROUS placard",
         "C": "On the front end only",
-        "D": "Only with a DANGEROUS placard"
+        "D": "On only two opposite sides or, alternatively, labeled instead of placarded in accordance with Subpart E"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "\"The following packagings may be placarded on only two opposite sides or, alternatively, may be labeled instead of placarded in accordance with subpart E of this part: (1) A portable tank having a capacity of less than 3,785 L (1,000 gallons).\"",
       "source": {
         "title": "eCFR: 49 CFR 172.514, Bulk packagings (as of Nov 4, 2026)",
@@ -334,11 +334,11 @@
       "question": "Under 172.516(b), where may the required placarding of the front of a motor vehicle be displayed?",
       "options": {
         "A": "Only on the front of the cargo body",
-        "B": "On the roof of the cab",
+        "B": "On the front of the truck-tractor, instead of or in addition to the front of the cargo body",
         "C": "Inside the windshield",
-        "D": "On the front of the truck-tractor, instead of or in addition to the front of the cargo body"
+        "D": "On the roof of the cab"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "\"The required placarding of the front of a motor vehicle may be on the front of a truck-tractor instead of or in addition to the placarding on the front of the cargo body to which a truck-tractor is attached.\"",
       "source": {
         "title": "eCFR: 49 CFR 172.516, Visibility and display of placards (as of Nov 4, 2026)",
