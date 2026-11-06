@@ -8,15 +8,15 @@
     {
       "id": "st-001",
       "topic": "Purpose and definitions",
-      "question": "How does 133.101(b) define the 30-day average?",
+      "question": "Under 133.101(f)(2), how is the 7-day average value for effluent concentrations consistently achievable through proper operation and maintenance derived?",
       "options": {
-        "A": "The geometric mean of pollutant parameter values for samples collected in one calendar month",
-        "B": "The arithmetic mean of pollutant parameter values of samples collected in a period of 30 consecutive days",
-        "C": "The highest single daily value recorded in a period of 30 consecutive days",
-        "D": "The median of pollutant parameter values for samples collected in a period of 7 consecutive days"
+        "A": "It is the highest 7-day average the treatment works recorded during the last year",
+        "B": "It is equal to 1.5 times the 95th percentile 30-day average value derived under 133.101(f)(1)",
+        "C": "It is the 7-day average level set for BOD5 in 133.102(a)(2)",
+        "D": "It is the arithmetic mean of all 7-day averages recorded over a period of two years"
       },
       "answer": "B",
-      "explanation": "133.101(b) defines the 30-day average as \"The arithmetic mean of pollutant parameter values of samples collected in a period of 30 consecutive days.\"",
+      "explanation": "133.101(f)(2) sets \"a 7-day average value equal to 1.5 times the value derived under paragraph (f)(1) of this section.\" The (f)(1) value is \"the 95th percentile value for the 30-day average effluent quality achieved by a treatment works in a period of at least two years\".",
       "source": {
         "title": "eCFR: 40 CFR 133.101, Definitions (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.101"
