@@ -1,0 +1,568 @@
+{
+  "cluster": "wastewater-operator",
+  "slug": "pathogens-vector-attraction",
+  "href": "/wastewater-operator/pathogens-vector-attraction/study-guide/",
+  "title": "Wastewater pathogen and vector attraction reduction study guide",
+  "description": "Sewage sludge pathogen and vector attraction study guide: Class A and B alternatives, site restrictions, domestic septage, VAR options, 40 CFR 503 Subpart D.",
+  "intro": "Subpart D of 40 CFR Part 503 (sections 503.30 to 503.33) sets the requirements for sewage sludge to be classified Class A or Class B with respect to pathogens, the site restrictions for land where Class B sewage sludge is applied, the pathogen requirements for domestic septage, and the vector attraction reduction options for sewage sludge applied to the land or placed on a surface disposal site. Appendix B describes the Processes to Significantly Reduce Pathogens and the Processes to Further Reduce Pathogens. Most of these requirements are sets of alternatives, so a sludge meets one of the options rather than all of them, and several carry \"unless otherwise specified by the permitting authority\" or \"as determined by the permitting authority\". Your State program and your facility's permit may have their own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "scope-definitions",
+      "name": "Scope and definitions",
+      "points": [
+        {
+          "text": "Subpart D contains the requirements for a sewage sludge to be classified Class A or Class B with respect to pathogens.",
+          "quote": "This subpart contains the requirements for a sewage sludge to be classified either Class A or Class B with respect to pathogens.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.30, Scope (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.30"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Subpart D contains the pathogen requirements for domestic septage applied to agricultural land, forest, or a reclamation site.",
+          "quote": "This subpart contains the pathogen requirements for domestic septage applied to agricultural land, forest, or a reclamation site.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.30, Scope (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.30"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Subpart D contains alternative vector attraction reduction requirements for sewage sludge that is applied to the land or placed on a surface disposal site.",
+          "quote": "This subpart contains alternative vector attraction reduction requirements for sewage sludge that is applied to the land or placed on a surface disposal site.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.30, Scope (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.30"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Density of microorganisms is counted per unit mass of total solids (dry weight) in the sewage sludge.",
+          "quote": "Density of microorganisms is the number of microorganisms per unit mass of total solids (dry weight) in the sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.31, Special definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.31"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Land with a high potential for public exposure is land the public uses frequently; the definition includes, but is not limited to, a public contact site and a reclamation site located in a populated area.",
+          "quote": "Land with a high potential for public exposure is land that the public uses frequently. This includes, but is not limited to, a public contact site and a reclamation site located in a populated area",
+          "source": {
+            "title": "eCFR: 40 CFR 503.31, Special definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.31"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Land with a low potential for public exposure is land the public uses infrequently; the definition includes, but is not limited to, agricultural land, forest, and a reclamation site located in an unpopulated area.",
+          "quote": "Land with a low potential for public exposure is land that the public uses infrequently. This includes, but is not limited to, agricultural land, forest, and a reclamation site located in an unpopulated area",
+          "source": {
+            "title": "eCFR: 40 CFR 503.31, Special definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.31"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Unstabilized solids are organic materials in sewage sludge that have not been treated in either an aerobic or anaerobic treatment process.",
+          "quote": "Unstabilized solids are organic materials in sewage sludge that have not been treated in either an aerobic or anaerobic treatment process.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.31, Special definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.31"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Vector attraction is the characteristic of sewage sludge that attracts rodents, flies, mosquitos, or other organisms capable of transporting infectious agents.",
+          "quote": "Vector attraction is the characteristic of sewage sludge that attracts rodents, flies, mosquitos, or other organisms capable of transporting infectious agents.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.31, Special definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.31"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Volatile solids are the amount of the total solids lost when the sewage sludge is combusted at 550 degrees Celsius in the presence of excess air.",
+          "quote": "Volatile solids is the amount of the total solids in sewage sludge lost when the sewage sludge is combusted at 550 degrees Celsius in the presence of excess air.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.31, Special definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.31"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The definitions of aerobic and anaerobic digestion, pathogenic organisms, pH, specific oxygen uptake rate and total solids in 503.31 are not all set out point by point."
+    },
+    {
+      "id": "class-a-general",
+      "name": "Class A: general rule and Alternatives 1 and 2",
+      "points": [
+        {
+          "text": "To be classified Class A with respect to pathogens, sewage sludge must meet the requirement in 503.32(a)(2) and one of the options in 503.32(a)(3) through (a)(8).",
+          "quote": "The requirement in § 503.32(a)(2) and the requirements in either § 503.32(a)(3), (a)(4), (a)(5), (a)(6), (a)(7), or (a)(8) shall be met for a sewage sludge to be classified Class A with respect to pathogens.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Class A pathogen requirements must be met either before or at the same time as the vector attraction reduction requirements, except the vector attraction reduction requirements in 503.33(b)(6) through (b)(8).",
+          "quote": "The Class A pathogen requirements in § 503.32 (a)(3) through (a)(8) shall be met either prior to meeting or at the same time the vector attraction reduction requirements in § 503.33, except the vector attraction reduction requirements in § 503.33 (b)(6) through (b)(8), are met.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each Class A alternative includes a density requirement with two options: fecal coliform less than 1000 Most Probable Number per gram of total solids (dry weight basis), or Salmonella sp. bacteria less than three Most Probable Number per four grams of total solids (dry weight basis), at one of the times the rule lists.",
+          "quote": "Either the density of fecal coliform in the sewage sludge shall be less than 1000 Most Probable Number per gram of total solids (dry weight basis), or the density of Salmonella sp. bacteria in the sewage sludge shall be less than three Most Probable Number per four grams of total solids (dry weight basis) at the time the sewage sludge is used or disposed",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Alternative 1: when the sludge is seven percent solids or higher, the temperature must be 50 degrees Celsius or higher for 20 minutes or longer, determined using equation (2), except when small particles are heated by warmed gases or an immiscible liquid.",
+          "quote": "When the percent solids of the sewage sludge is seven percent or higher, the temperature of the sewage sludge shall be 50 degrees Celsius or higher; the time period shall be 20 minutes or longer; and the temperature and time period shall be determined using equation (2), except when small particles of sewage sludge are heated by either warmed gases or an immiscible liquid.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Alternative 1: when the sludge is seven percent solids or higher and small particles are heated by warmed gases or an immiscible liquid, the temperature must be 50 degrees Celsius or higher and the time period 15 seconds or longer, determined using equation (2).",
+          "quote": "When the percent solids of the sewage sludge is seven percent or higher and small particles of sewage sludge are heated by either warmed gases or an immiscible liquid, the temperature of the sewage sludge shall be 50 degrees Celsius or higher; the time period shall be 15 seconds or longer; and the temperature and time period shall be determined using equation (2).",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Alternative 2: the pH must be raised to above 12 and remain above 12 for 72 hours, and the temperature must be above 52 degrees Celsius for 12 hours or longer while the pH is above 12.",
+          "quote": "The pH of the sewage sludge that is used or disposed shall be raised to above 12 and shall remain above 12 for 72 hours. (B) The temperature of the sewage sludge shall be above 52 degrees Celsius for 12 hours or longer during the period that the pH of the sewage sludge is above 12.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Alternative 2: at the end of the 72 hour period, the sludge must be air dried to more than 50 percent solids.",
+          "quote": "At the end of the 72 hour period during which the pH of the sewage sludge is above 12, the sewage sludge shall be air dried to achieve a percent solids in the sewage sludge greater than 50 percent.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Equations (2) and (3) and the less-than-seven-percent-solids cases in 503.32(a)(3)(ii)(C) and (D) are not reproduced here; read them in the rule."
+    },
+    {
+      "id": "class-a-alternatives",
+      "name": "Class A: Alternatives 3 to 6",
+      "points": [
+        {
+          "text": "Alternative 3: the sludge must be analyzed before pathogen treatment to determine whether it contains enteric viruses.",
+          "quote": "The sewage sludge shall be analyzed prior to pathogen treatment to determine whether the sewage sludge contains enteric viruses.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Alternative 3: when enteric virus density before treatment is less than one Plaque-forming Unit per four grams of total solids (dry weight basis), the sludge is Class A with respect to enteric viruses until the next monitoring episode.",
+          "quote": "When the density of enteric viruses in the sewage sludge prior to pathogen treatment is less than one Plaque-forming Unit per four grams of total solids (dry weight basis), the sewage sludge is Class A with respect to enteric viruses until the next monitoring episode for the sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Alternative 3: after the enteric virus reduction is demonstrated, the sludge stays Class A with respect to enteric viruses when the treatment process operating parameters are consistent with the documented values or ranges.",
+          "quote": "the sewage sludge continues to be Class A with respect to enteric viruses when the values for the pathogen treatment process operating parameters are consistent with the values or ranges of values documented",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Alternative 4: viable helminth ova must be less than one per four grams of total solids (dry weight basis) at one of the times the rule lists, unless otherwise specified by the permitting authority.",
+          "quote": "The density of viable helminth ova in the sewage sludge shall be less than one per four grams of total solids (dry weight basis) at the time the sewage sludge is used or disposed; at the time the sewage sludge is prepared for sale or give away in a bag or other container for application to the land; or at the time the sewage sludge or material derived from sewage sludge is prepared to meet the requirements in § 503.10 (b), (c), (e), or (f), unless otherwise specified by the permitting authority.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Alternative 5: the sludge must be treated in one of the Processes to Further Reduce Pathogens described in appendix B.",
+          "quote": "Sewage sludge that is used or disposed shall be treated in one of the Processes to Further Reduce Pathogens described in appendix B of this part.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Alternative 6: the sludge must be treated in a process equivalent to a Process to Further Reduce Pathogens, as determined by the permitting authority.",
+          "quote": "Sewage sludge that is used or disposed shall be treated in a process that is equivalent to a Process to Further Reduce Pathogens, as determined by the permitting authority.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The parallel helminth ova steps in Alternative 3 (503.32(a)(5)(iii)) and the full enteric virus text in Alternative 4 are summarized only in passing."
+    },
+    {
+      "id": "class-b",
+      "name": "Class B pathogen requirements and site restrictions",
+      "points": [
+        {
+          "text": "To be classified Class B with respect to pathogens, sewage sludge must meet one of the options in 503.32(b)(2), (b)(3), or (b)(4).",
+          "quote": "The requirements in either § 503.32(b)(2), (b)(3), or (b)(4) shall be met for a sewage sludge to be classified Class B with respect to pathogens.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The site restrictions in 503.32(b)(5) must be met when sewage sludge that meets the Class B pathogen requirements is applied to the land.",
+          "quote": "The site restrictions in § 503.32(b)(5) shall be met when sewage sludge that meets the Class B pathogen requirements in § 503.32(b)(2), (b)(3), or (b)(4) is applied to the land.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Class B Alternative 1: seven representative samples of the sewage sludge that is used or disposed must be collected.",
+          "quote": "Seven representative samples of the sewage sludge that is used or disposed shall be collected.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Class B Alternative 1: the geometric mean of fecal coliform density in those samples must be less than either 2,000,000 Most Probable Number or 2,000,000 Colony Forming Units per gram of total solids (dry weight basis).",
+          "quote": "The geometric mean of the density of fecal coliform in the samples collected in paragraph (b)(2)(i) of this section shall be less than either 2,000,000 Most Probable Number per gram of total solids (dry weight basis) or 2,000,000 Colony Forming Units per gram of total solids (dry weight basis).",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Class B Alternative 2: the sludge must be treated in one of the Processes to Significantly Reduce Pathogens described in appendix B.",
+          "quote": "Class B—Alternative 2. Sewage sludge that is used or disposed shall be treated in one of the Processes to Significantly Reduce Pathogens described in appendix B of this part.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Site restriction: food crops with harvested parts that touch the sewage sludge/soil mixture and are totally above the land surface must not be harvested for 14 months after application.",
+          "quote": "Food crops with harvested parts that touch the sewage sludge/soil mixture and are totally above the land surface shall not be harvested for 14 months after application of sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Site restriction: food crops with harvested parts below the land surface must not be harvested for 20 months after application when the sludge remains on the land surface for four months or longer before incorporation into the soil.",
+          "quote": "Food crops with harvested parts below the surface of the land shall not be harvested for 20 months after application of sewage sludge when the sewage sludge remains on the land surface for four months or longer prior to incorporation into the soil.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Site restriction: food crops with harvested parts below the land surface must not be harvested for 38 months after application when the sludge remains on the land surface for less than four months before incorporation into the soil.",
+          "quote": "Food crops with harvested parts below the surface of the land shall not be harvested for 38 months after application of sewage sludge when the sewage sludge remains on the land surface for less than four months prior to incorporation into the soil.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Site restriction: food crops, feed crops, and fiber crops must not be harvested for 30 days after application.",
+          "quote": "Food crops, feed crops, and fiber crops shall not be harvested for 30 days after application of sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Site restriction: animals must not be grazed on the land for 30 days after application.",
+          "quote": "Animals shall not be grazed on the land for 30 days after application of sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Site restriction: turf grown where sludge is applied must not be harvested for one year after application when the harvested turf is placed on land with a high potential for public exposure or a lawn, unless otherwise specified by the permitting authority.",
+          "quote": "Turf grown on land where sewage sludge is applied shall not be harvested for one year after application of the sewage sludge when the harvested turf is placed on either land with a high potential for public exposure or a lawn, unless otherwise specified by the permitting authority.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Site restriction: public access to land with a high potential for public exposure must be restricted for one year after application.",
+          "quote": "Public access to land with a high potential for public exposure shall be restricted for one year after application of sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Site restriction: public access to land with a low potential for public exposure must be restricted for 30 days after application.",
+          "quote": "Public access to land with a low potential for public exposure shall be restricted for 30 days after application of sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Class B Alternative 3 (a process equivalent to a Process to Significantly Reduce Pathogens, as determined by the permitting authority, 503.32(b)(4)) is not set out as its own point."
+    },
+    {
+      "id": "domestic-septage",
+      "name": "Domestic septage",
+      "points": [
+        {
+          "text": "One pathogen option for domestic septage applied to agricultural land, forest, or a reclamation site is to meet the site restrictions in 503.32(b)(5).",
+          "quote": "The site restrictions in § 503.32(b)(5) shall be met when domestic septage is applied to agricultural land, forest, or a reclamation site; or",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The other option: raise the pH of the domestic septage to 12 or higher by alkali addition, keep it at 12 or higher for 30 minutes without adding more alkali, and meet the site restrictions in 503.32(b)(5)(i) through (b)(5)(iv).",
+          "quote": "The pH of domestic septage applied to agricultural land, forest, or a reclamation site shall be raised to 12 or higher by alkali addition and, without the addition of more alkali, shall remain at 12 or higher for 30 minutes and the site restrictions in § 503.32 (b)(5)(i) through (b)(5)(iv) shall be met.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Vector attraction reduction for domestic septage: one of the options in 503.33(b)(9), (b)(10), or (b)(12) on agricultural land, forest, or a reclamation site, and one of the options in (b)(9) through (b)(12) on an active sewage sludge unit.",
+          "quote": "One of the vector attraction reduction requirements in § 503.33 (b)(9), (b)(10), or (b)(12) shall be met when domestic septage is applied to agricultural land, forest, or a reclamation site and one of the vector attraction reduction requirements in § 503.33 (b)(9) through (b)(12) shall be met when domestic septage is placed on an active sewage sludge unit.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "var-where",
+      "name": "Where each vector attraction reduction option applies",
+      "points": [
+        {
+          "text": "Bulk sewage sludge applied to agricultural land, forest, a public contact site, or a reclamation site must meet one of the options in 503.33(b)(1) through (b)(10).",
+          "quote": "One of the vector attraction reduction requirements in § 503.33 (b)(1) through (b)(10) shall be met when bulk sewage sludge is applied to agricultural land, forest, a public contact site, or a reclamation site.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Bulk sewage sludge applied to a lawn or a home garden must meet one of the options in 503.33(b)(1) through (b)(8).",
+          "quote": "One of the vector attraction reduction requirements in § 503.33 (b)(1) through (b)(8) shall be met when bulk sewage sludge is applied to a lawn or a home garden.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Sewage sludge sold or given away in a bag or other container for application to the land must meet one of the options in 503.33(b)(1) through (b)(8).",
+          "quote": "One of the vector attraction reduction requirements in § 503.33 (b)(1) through (b)(8) shall be met when sewage sludge is sold or given away in a bag or other container for application to the land.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Sewage sludge (other than domestic septage) placed on an active sewage sludge unit must meet one of the options in 503.33(b)(1) through (b)(11).",
+          "quote": "One of the vector attraction reduction requirements in § 503.33 (b)(1) through (b)(11) shall be met when sewage sludge (other than domestic septage) is placed on an active sewage sludge unit.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "var-options",
+      "name": "Vector attraction reduction options",
+      "points": [
+        {
+          "text": "Option (b)(1): the mass of volatile solids must be reduced by a minimum of 38 percent.",
+          "quote": "The mass of volatile solids in the sewage sludge shall be reduced by a minimum of 38 percent",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Option (b)(2): when the 38 percent reduction cannot be met for anaerobically digested sludge, a portion may be digested anaerobically in a bench-scale unit for 40 additional days at 30 to 37 degrees Celsius; vector attraction reduction is achieved when volatile solids are reduced by less than 17 percent.",
+          "quote": "digesting a portion of the previously digested sewage sludge anaerobically in the laboratory in a bench-scale unit for 40 additional days at a temperature between 30 and 37 degrees Celsius. When at the end of the 40 days, the volatile solids in the sewage sludge at the beginning of that period is reduced by less than 17 percent, vector attraction reduction is achieved.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Option (b)(3): when the 38 percent reduction cannot be met for aerobically digested sludge, a portion with two percent solids or less may be digested aerobically in a bench-scale unit for 30 additional days at 20 degrees Celsius; vector attraction reduction is achieved when volatile solids are reduced by less than 15 percent.",
+          "quote": "digesting a portion of the previously digested sewage sludge that has a percent solids of two percent or less aerobically in the laboratory in a bench-scale unit for 30 additional days at 20 degrees Celsius. When at the end of the 30 days, the volatile solids in the sewage sludge at the beginning of that period is reduced by less than 15 percent, vector attraction reduction is achieved.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Option (b)(4): the specific oxygen uptake rate for sludge treated in an aerobic process must be equal to or less than 1.5 milligrams of oxygen per hour per gram of total solids (dry weight basis) at 20 degrees Celsius.",
+          "quote": "The specific oxygen uptake rate (SOUR) for sewage sludge treated in an aerobic process shall be equal to or less than 1.5 milligrams of oxygen per hour per gram of total solids (dry weight basis) at a temperature of 20 degrees Celsius.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Option (b)(6): the pH must be raised to 12 or higher by alkali addition and, without more alkali, stay at 12 or higher for two hours and then at 11.5 or higher for an additional 22 hours.",
+          "quote": "The pH of sewage sludge shall be raised to 12 or higher by alkali addition and, without the addition of more alkali, shall remain at 12 or higher for two hours and then at 11.5 or higher for an additional 22 hours.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Options (b)(7) and (b)(8): percent solids must be 75 percent or more for sludge that does not contain unstabilized solids generated in a primary wastewater treatment process, and 90 percent or more for sludge that does, based on moisture content and total solids before mixing with other materials.",
+          "quote": "The percent solids of sewage sludge that does not contain unstabilized solids generated in a primary wastewater treatment process shall be equal to or greater than 75 percent based on the moisture content and total solids prior to mixing with other materials. (8) The percent solids of sewage sludge that contains unstabilized solids generated in a primary wastewater treatment process shall be equal to or greater than 90 percent",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Option (b)(9): when injected sludge is Class A with respect to pathogens, it must be injected below the land surface within eight hours after being discharged from the pathogen treatment process.",
+          "quote": "When the sewage sludge that is injected below the surface of the land is Class A with respect to pathogens, the sewage sludge shall be injected below the land surface within eight hours after being discharged from the pathogen treatment process.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Option (b)(10): sludge applied to the land surface or placed on an active sewage sludge unit must be incorporated into the soil within six hours after application or placement, unless otherwise specified by the permitting authority.",
+          "quote": "Sewage sludge applied to the land surface or placed on an active sewage sludge unit shall be incorporated into the soil within six hours after application to or placement on the land, unless otherwise specified by the permitting authority.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Option (b)(11): sludge placed on an active sewage sludge unit must be covered with soil or other material at the end of each operating day.",
+          "quote": "Sewage sludge placed on an active sewage sludge unit shall be covered with soil or other material at the end of each operating day.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Option (b)(12): the pH of domestic septage must be raised to 12 or higher by alkali addition and, without more alkali, stay at 12 or higher for 30 minutes.",
+          "quote": "The pH of domestic septage shall be raised to 12 or higher by alkali addition and, without the addition of more alkali, shall remain at 12 or higher for 30 minutes.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Option (b)(5) (aerobic treatment for 14 days or longer with temperature conditions), the rest of the injection option in (b)(9)(i)–(ii) and the Class A timing in (b)(10)(ii) are not set out point by point; the calculation document cited in (b)(1) is not covered."
+    },
+    {
+      "id": "appendix-b",
+      "name": "Appendix B pathogen treatment processes",
+      "points": [
+        {
+          "text": "PSRP air drying: sludge is dried on sand beds or on paved or unpaved basins for a minimum of three months, with the ambient average daily temperature above zero degrees Celsius during two of the three months.",
+          "quote": "Air drying—Sewage sludge is dried on sand beds or on paved or unpaved basins. The sewage sludge dries for a minimum of three months. During two of the three months, the ambient average daily temperature is above zero degrees Celsius.",
+          "source": {
+            "title": "eCFR: 40 CFR Part 503, Appendix B (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "PSRP lime stabilization: sufficient lime is added to raise the pH of the sludge to 12 after two hours of contact.",
+          "quote": "Lime stabilization—Sufficient lime is added to the sewage sludge to raise the pH of the sewage sludge to 12 after two hours of contact.",
+          "source": {
+            "title": "eCFR: 40 CFR Part 503, Appendix B (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "PFRP heat drying: sludge is dried by direct or indirect contact with hot gases to 10 percent moisture or lower, and either the sludge particle temperature or the wet bulb temperature of the gas leaving the dryer exceeds 80 degrees Celsius.",
+          "quote": "Heat drying—Sewage sludge is dried by direct or indirect contact with hot gases to reduce the moisture content of the sewage sludge to 10 percent or lower. Either the temperature of the sewage sludge particles exceeds 80 degrees Celsius or the wet bulb temperature of the gas in contact with the sewage sludge as the sewage sludge leaves the dryer exceeds 80 degrees Celsius.",
+          "source": {
+            "title": "eCFR: 40 CFR Part 503, Appendix B (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "PFRP pasteurization: the sludge temperature is maintained at 70 degrees Celsius or higher for 30 minutes or longer.",
+          "quote": "Pasteurization—The temperature of the sewage sludge is maintained at 70 degrees Celsius or higher for 30 minutes or longer.",
+          "source": {
+            "title": "eCFR: 40 CFR Part 503, Appendix B (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The other PSRP descriptions (aerobic digestion, anaerobic digestion, composting) and PFRP descriptions (composting, heat treatment, thermophilic aerobic digestion, beta and gamma ray irradiation) in Appendix B are not set out point by point."
+    }
+  ]
+}

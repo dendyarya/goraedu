@@ -1,0 +1,545 @@
+{
+  "cluster": "wastewater-operator",
+  "slug": "permit-limits-monitoring",
+  "href": "/wastewater-operator/permit-limits-monitoring/study-guide/",
+  "title": "Wastewater permit limits and monitoring study guide",
+  "description": "NPDES permit limits and monitoring study guide: POTW notices, monitoring and reporting, averaging periods, mass limits, schedules, 40 CFR 122.42–122.50.",
+  "intro": "Sections 122.42 to 122.50 of 40 CFR Part 122 Subpart C set out how NPDES permit conditions are established and calculated. This guide covers what the federal rule text states on the extra conditions for specified permit categories (including the POTW notice of new introductions of pollutants), how the Director establishes limitations, monitoring and reporting requirements, POTW pretreatment and best management practices, how limits are calculated (outfalls, design flow, metals, averaging periods for continuous discharges, mass limits), permit duration and schedules of compliance, and disposal into wells, POTWs or by land application. Many duties apply only to certain dischargers (POTWs or others) or carry \"except\", \"unless\" or \"the Director may\" conditions. The conditions that apply to all permits (122.41) are in a separate guide. Your State program and your facility's permit may have their own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "categories",
+      "name": "Additional conditions for specified permit categories",
+      "points": [
+        {
+          "text": "The conditions in 122.42 apply in addition to the conditions in 122.41, to all NPDES permits within the categories that 122.42 specifies.",
+          "quote": "The following conditions, in addition to those set forth in § 122.41, apply to all NPDES permits within the categories specified below:",
+          "source": {
+            "title": "eCFR: 40 CFR 122.42, Additional conditions applicable to specified categories of NPDES permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "All existing manufacturing, commercial, mining, and silvicultural dischargers must notify the Director as soon as they know or have reason to believe that one of the events in 122.42(a) has happened or will happen.",
+          "quote": "all existing manufacturing, commercial, mining, and silvicultural dischargers must notify the Director as soon as they know or have reason to believe:",
+          "source": {
+            "title": "eCFR: 40 CFR 122.42, Additional conditions applicable to specified categories of NPDES permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "One such event is any activity resulting in the routine or frequent discharge of a toxic pollutant that is not limited in the permit, if the discharge will exceed the highest of the listed notification levels.",
+          "quote": "That any activity has occurred or will occur which would result in the discharge, on a routine or frequent basis, of any toxic pollutant which is not limited in the permit, if that discharge will exceed the highest of the following “notification levels”:",
+          "source": {
+            "title": "eCFR: 40 CFR 122.42, Additional conditions applicable to specified categories of NPDES permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Another is any activity resulting in a non-routine or infrequent discharge of a toxic pollutant that is not limited in the permit, if the discharge will exceed the highest of a separate list of notification levels.",
+          "quote": "That any activity has occurred or will occur which would result in any discharge, on a non-routine or infrequent basis, of a toxic pollutant which is not limited in the permit, if that discharge will exceed the highest of the following “notification levels”:",
+          "source": {
+            "title": "eCFR: 40 CFR 122.42, Additional conditions applicable to specified categories of NPDES permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "All POTWs must give the Director adequate notice of any new introduction of pollutants into the POTW from an indirect discharger that would be subject to section 301 or 306 of the CWA if it were discharging those pollutants directly.",
+          "quote": "All POTWs must provide adequate notice to the Director of the following: (1) Any new introduction of pollutants into the POTW from an indirect discharger which would be subject to section 301 or 306 of CWA if it were directly discharging those pollutants; and",
+          "source": {
+            "title": "eCFR: 40 CFR 122.42, Additional conditions applicable to specified categories of NPDES permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "POTWs must also give adequate notice of any substantial change in the volume or character of pollutants introduced by a source that was already introducing pollutants into the POTW when the permit was issued.",
+          "quote": "Any substantial change in the volume or character of pollutants being introduced into that POTW by a source introducing pollutants into the POTW at the time of issuance of the permit.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.42, Additional conditions applicable to specified categories of NPDES permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Adequate notice includes information on the quality and quantity of effluent introduced into the POTW and any anticipated impact of the change on the quantity or quality of effluent the POTW discharges.",
+          "quote": "For purposes of this paragraph, adequate notice shall include information on (i) the quality and quantity of effluent introduced into the POTW, and (ii) any anticipated impact of the change on the quantity or quality of effluent to be discharged from the POTW.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.42, Additional conditions applicable to specified categories of NPDES permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The operator of a large or medium municipal separate storm sewer system, or of one designated by the Director under 122.26(a)(1)(v), must submit an annual report by the anniversary of the date the permit for that system was issued.",
+          "quote": "The operator of a large or medium municipal separate storm sewer system or a municipal separate storm sewer that has been designated by the Director under § 122.26(a)(1)(v) must submit an annual report by the anniversary of the date of the issuance of the permit for such system.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.42, Additional conditions applicable to specified categories of NPDES permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.42"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The notification level values in 122.42(a)(1)(i)–(iv) and (a)(2)(i)–(iv), the contents of the storm sewer annual report (122.42(c)(1)–(7)), initial storm water permits (122.42(d)), the CAFO permit conditions in 122.42(e) and the Great Lakes CSO notification conditions in 122.42(f) are not set out point by point. The conditions in 122.41 are covered in a separate study guide."
+    },
+    {
+      "id": "establishing",
+      "name": "Establishing permit conditions and limitations",
+      "points": [
+        {
+          "text": "Beyond the conditions required in all permits, the Director establishes conditions case by case to provide for and ensure compliance with all applicable requirements of the CWA and regulations.",
+          "quote": "In addition to conditions required in all permits (§§ 122.41 and 122.42), the Director shall establish conditions, as required on a case-by-case basis, to provide for and ensure compliance with all applicable requirements of CWA and regulations.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.43, Establishing permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Permit conditions are incorporated either expressly or by reference; a condition incorporated by reference must give a specific citation to the applicable regulations or requirements in the permit.",
+          "quote": "All permit conditions shall be incorporated either expressly or by reference. If incorporated by reference, a specific citation to the applicable regulations or requirements must be given in the permit.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.43, Establishing permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Director may authorize a discharger subject to technology-based effluent limitations guidelines and standards to forego sampling of a guideline-listed pollutant if the discharger has shown through sampling and other technical factors that the pollutant is not present, or is present only at background levels from intake water with no increase due to the discharger's activities.",
+          "quote": "The Director may authorize a discharger subject to technology-based effluent limitations guidelines and standards in an NPDES permit to forego sampling of a pollutant found at 40 CFR Subchapter N of this chapter if the discharger has demonstrated through sampling and other technical factors that the pollutant is not present in the discharge or is present only at background levels from intake water and without any increase in the pollutant due to activities of the discharger.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "This monitoring waiver is good only for the term of the permit and is not available during the term of the first permit issued to a discharger.",
+          "quote": "This waiver is good only for the term of the permit and is not available during the term of the first permit issued to a discharger.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Any permit issued to a treatment works treating domestic sewage (including sludge-only facilities) must include a reopener clause to incorporate any applicable standard for sewage sludge use or disposal promulgated under section 405(d) of the CWA.",
+          "quote": "For any permit issued to a treatment works treating domestic sewage (including “sludge-only facilities”), the Director shall include a reopener clause to incorporate any applicable standard for sewage sludge use or disposal promulgated under section 405(d) of the CWA.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Water quality-based limitations must control all pollutants or pollutant parameters (conventional, nonconventional or toxic) that the Director determines are or may be discharged at a level that will cause, has the reasonable potential to cause, or contributes to an excursion above any State water quality standard, including State narrative criteria.",
+          "quote": "Limitations must control all pollutants or pollutant parameters (either conventional, nonconventional, or toxic pollutants) which the Director determines are or may be discharged at a level which will cause, have the reasonable potential to cause, or contribute to an excursion above any State water quality standard, including State narrative criteria for water quality.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A notification level higher than the levels in 122.42(a)(1)(i), (ii) or (iii) may be set on a petition from the permittee or on the Director's initiative, but it may not exceed the level achievable by the technology-based treatment requirements appropriate to the permittee under 125.3(c).",
+          "quote": "A “notification level” which exceeds the notification level of § 122.42(a)(1)(i), (ii) or (iii), upon a petition from the permittee or on the Director's initiative. This new notification level may not exceed the level which can be achieved by the technology-based treatment requirements appropriate to the permittee under § 125.3(c)",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Pollutants subject to 24-hour reporting must be listed in the permit, and the list includes any toxic pollutant or hazardous substance, or any pollutant specifically identified as the method to control a toxic pollutant or hazardous substance.",
+          "quote": "(24-hour reporting) shall be listed in the permit. This list shall include any toxic pollutant or hazardous substance, or any pollutant specifically identified as the method to control a toxic pollutant or hazardous substance.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Technology-based limits under 122.44(a)(1), the other standards in 122.44(b), the procedures and options for water quality-based limits in 122.44(d)(1)(ii)–(vii) and (d)(2)–(9), technology-based controls for toxic pollutants (122.44(e)), and the conditions in 122.44(m)–(s) (privately owned treatment works, grants, Coast Guard, navigation, Great Lakes, qualifying erosion control programs) are not set out point by point."
+    },
+    {
+      "id": "monitoring",
+      "name": "Monitoring and reporting requirements",
+      "points": [
+        {
+          "text": "To assure compliance with permit limitations, permits require monitoring of the mass (or other measurement specified in the permit) of each pollutant limited in the permit, and the volume of effluent discharged from each outfall.",
+          "quote": "To assure compliance with permit limitations, requirements to monitor: (i) The mass (or other measurement specified in the permit) for each pollutant limited in the permit; (ii) The volume of effluent discharged from each outfall;",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Monitoring must be done according to sufficiently sensitive test procedures (methods) approved under 40 CFR part 136, or required under 40 CFR chapter I, subchapter N or O.",
+          "quote": "According to sufficiently sensitive test procedures (i.e., methods) approved under 40 CFR part 136 for the analysis of pollutants or pollutant parameters or required under 40 CFR chapter I, subchapter N or O.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A method is sufficiently sensitive when one of two options is met: its minimum level (ML) is at or below the effluent limit in the permit for that pollutant, or it has the lowest ML of the approved or required methods for that pollutant.",
+          "quote": "The method minimum level (ML) is at or below the level of the effluent limit established in the permit for the measured pollutant or pollutant parameter; or (2) The method has the lowest ML of the analytical methods approved under 40 CFR part 136 or required under 40 CFR chapter I, subchapter N or O for the measured pollutant or pollutant parameter.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Where there is no approved method under Part 136 and no method otherwise required under subchapter N or O, monitoring follows a test procedure specified in the permit.",
+          "quote": "In the case of pollutants or pollutant parameters for which there are no approved methods under 40 CFR part 136 or methods are not otherwise required under 40 CFR chapter I, subchapter N or O, monitoring shall be conducted according to a test procedure specified in the permit for such pollutants or pollutant parameters.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Except as provided in 122.44(i)(4) and (5), reporting frequency for monitoring results is set case by case based on the nature and effect of the discharge, but in no case less than once a year.",
+          "quote": "Except as provided in paragraphs (i)(4) and (5) of this section, requirements to report monitoring results shall be established on a case-by-case basis with a frequency dependent on the nature and effect of the discharge, but in no case less than once a year.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For sewage sludge use or disposal practices, monitoring and reporting frequency is set case by case based on the nature and effect of the practice; minimally as specified in 40 CFR part 503 where applicable, but in no case less than once a year.",
+          "quote": "For sewage sludge use or disposal practices, requirements to monitor and report results shall be established on a case-by-case basis with a frequency dependent on the nature and effect of the sewage sludge use or disposal practice; minimally this shall be as specified in 40 CFR part 503 (where applicable), but in no case less than once a year.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Permits that do not require monitoring result reports at least annually must require the permittee to report, at least annually, all instances of noncompliance not reported under 122.41(l)(1), (4), (5) and (6).",
+          "quote": "Permits which do not require the submittal of monitoring result reports at least annually shall require that the permittee report all instances of noncompliance not reported under § 122.41(l) (1), (4), (5), and (6) at least annually.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "All permits must specify requirements for the proper use, maintenance, and installation (when appropriate) of monitoring equipment or methods, including biological monitoring methods when appropriate.",
+          "quote": "All permits shall specify: (a) Requirements concerning the proper use, maintenance, and installation, when appropriate, of monitoring equipment or methods (including biological monitoring methods when appropriate);",
+          "source": {
+            "title": "eCFR: 40 CFR 122.48, Requirements for recording and reporting of monitoring results (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.48"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Required monitoring (type, intervals and frequency) must be sufficient to yield data representative of the monitored activity, including continuous monitoring when appropriate.",
+          "quote": "Required monitoring including type, intervals, and frequency sufficient to yield data which are representative of the monitored activity including, when appropriate, continuous monitoring;",
+          "source": {
+            "title": "eCFR: 40 CFR 122.48, Requirements for recording and reporting of monitoring results (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.48"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The other monitoring items in 122.44(i)(1)(iii), the note on matrix-specific minimum levels and methods that do not perform adequately, the storm water reporting rules in 122.44(i)(3)–(4), and the electronic reporting details in 122.44(i)(2) and 122.48(c) are not set out point by point."
+    },
+    {
+      "id": "pretreatment-bmps",
+      "name": "POTW pretreatment, BMPs and reissued permits",
+      "points": [
+        {
+          "text": "Permits for POTWs include requirements to identify, by character and volume of pollutants, any Significant Industrial Users discharging into the POTW that are subject to Pretreatment Standards under section 307(b) of the CWA and 40 CFR part 403.",
+          "quote": "Requirements for POTWs to: (1) Identify, in terms of character and volume of pollutants, any Significant Industrial Users discharging into the POTW subject to Pretreatment Standards under section 307(b) of CWA and 40 CFR part 403.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "POTWs must submit a local program when required by 40 CFR part 403; the program is incorporated into the permit and must require all indirect dischargers to the POTW to comply with the Part 403 reporting requirements.",
+          "quote": "Submit a local program when required by and in accordance with 40 CFR part 403 to assure compliance with pretreatment standards to the extent applicable under section 307(b). The local program shall be incorporated into the permit as described in 40 CFR part 403. The program must require all indirect dischargers to the POTW to comply with the reporting requirements of 40 CFR part 403.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "POTWs must provide a written technical evaluation of the need to revise local limits under 40 CFR 403.5(c)(1), following permit issuance or reissuance.",
+          "quote": "Provide a written technical evaluation of the need to revise local limits under 40 CFR 403.5(c)(1), following permit issuance or reissuance.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A POTW that is a sludge-only facility must develop a pretreatment program under Part 403 when the Director determines one is necessary to assure compliance with section 405(d) of the CWA.",
+          "quote": "For POTWs which are “sludge-only facilities,” a requirement to develop a pretreatment program under 40 CFR part 403 when the Director determines that a pretreatment program is necessary to assure compliance with Section 405(d) of the CWA.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Permits include best management practices (BMPs) to control or abate the discharge of pollutants in any one of the listed situations, including when numeric effluent limitations are infeasible.",
+          "quote": "Best management practices (BMPs) to control or abate the discharge of pollutants when: (1) Authorized under section 304(e) of the CWA for the control of toxic pollutants and hazardous substances from ancillary industrial activities; (2) Authorized under section 402(p) of the CWA for the control of storm water discharges; (3) Numeric effluent limitations are infeasible; or (4) The practices are reasonably necessary to achieve effluent limitations and standards or to carry out the purposes and intent of the CWA.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Except as provided in 122.44(l)(2), when a permit is renewed or reissued, interim limitations, standards or conditions must be at least as stringent as the final ones in the previous permit, unless the circumstances behind the previous permit have materially and substantially changed and would be cause for modification or revocation and reissuance under 122.62.",
+          "quote": "Except as provided in paragraph (l)(2) of this section when a permit is renewed or reissued, interim effluent limitations, standards or conditions must be at least as stringent as the final effluent limitations, standards, or conditions in the previous permit (unless the circumstances on which the previous permit was based have materially and substantially changed since the time the permit was issued and would constitute cause for permit modification or revocation and reissuance under § 122.62.)",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For a permit covered by 122.44(l)(2), a less stringent effluent limitation may never be included if implementing it would result in a violation of a water quality standard under section 303 applicable to those waters.",
+          "quote": "In no event may such a permit to discharge into waters be renewed, issued, or modified to contain a less stringent effluent limitation if the implementation of such limitation would result in a violation of a water quality standard under section 303 applicable to such waters.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Permit conditions include, when applicable, requirements under section 405 of the CWA governing the disposal of sewage sludge from POTWs or any other treatment works treating domestic sewage, for any use for which regulations have been established.",
+          "quote": "Sewage sludge. Requirements under section 405 of CWA governing the disposal of sewage sludge from publicly owned treatment works or any other treatment works treating domestic sewage for any use for which regulations have been established, in accordance with any applicable regulations.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.44, Establishing limitations, standards, and other permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.44"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The exceptions in 122.44(l)(2)(i)(A)–(E) that allow a less stringent limitation, and the guidance documents listed in the note to 122.44(k)(4), are not set out point by point. The Part 403 pretreatment rules themselves are covered in a separate study guide."
+    },
+    {
+      "id": "calculating",
+      "name": "Calculating permit conditions",
+      "points": [
+        {
+          "text": "All permit effluent limitations, standards and prohibitions are established for each outfall or discharge point, except as otherwise provided for BMPs where limitations are infeasible and for limitations on internal waste streams.",
+          "quote": "All permit effluent limitations, standards and prohibitions shall be established for each outfall or discharge point of the permitted facility, except as otherwise provided under § 122.44(k) (BMPs where limitations are infeasible) and paragraph (i) of this section (limitations on internal waste streams).",
+          "source": {
+            "title": "eCFR: 40 CFR 122.45, Calculating NPDES permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.45"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For POTWs, permit effluent limitations, standards, or prohibitions are calculated based on design flow.",
+          "quote": "In the case of POTWs, permit effluent limitations, standards, or prohibitions shall be calculated based on design flow.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.45, Calculating NPDES permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.45"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Except for POTWs or as provided in 122.45(b)(2)(ii), production-based limitations are calculated not on designed production capacity but on a reasonable measure of the facility's actual production.",
+          "quote": "Except in the case of POTWs or as provided in paragraph (b)(2)(ii) of this section, calculation of any permit limitations, standards, or prohibitions which are based on production (or other measure of operation) shall be based not upon the designed production capacity but rather upon a reasonable measure of actual production of the facility.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.45, Calculating NPDES permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.45"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Limitations for a metal are expressed as total recoverable metal, as defined in 40 CFR part 136, unless one of the listed exceptions applies.",
+          "quote": "All permit effluent limitations, standards, or prohibitions for a metal shall be expressed in terms of “total recoverable metal” as defined in 40 CFR part 136 unless:",
+          "source": {
+            "title": "eCFR: 40 CFR 122.45, Calculating NPDES permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.45"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For continuous discharges, limitations (including those needed to meet water quality standards) are stated, unless impracticable, as maximum daily and average monthly limitations for dischargers other than POTWs, and as average weekly and average monthly limitations for POTWs.",
+          "quote": "For continuous discharges all permit effluent limitations, standards, and prohibitions, including those necessary to achieve water quality standards, shall unless impracticable be stated as: (1) Maximum daily and average monthly discharge limitations for all dischargers other than publicly owned treatment works; and (2) Average weekly and average monthly discharge limitations for POTWs.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.45, Calculating NPDES permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.45"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "All pollutants limited in permits have limitations expressed in terms of mass, except in the listed cases; one exception is pH, temperature, radiation, or other pollutants that cannot appropriately be expressed by mass.",
+          "quote": "All pollutants limited in permits shall have limitations, standards or prohibitions expressed in terms of mass except: (i) For pH, temperature, radiation, or other pollutants which cannot appropriately be expressed by mass;",
+          "source": {
+            "title": "eCFR: 40 CFR 122.45, Calculating NPDES permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.45"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Credit for pollutants in intake water is granted only if the discharger shows the intake water is drawn from the same body of water the discharge goes into; the Director may waive this if he finds that no environmental degradation will result.",
+          "quote": "Credit shall be granted only if the discharger demonstrates that the intake water is drawn from the same body of water into which the discharge is made. The Director may waive this requirement if he finds that no environmental degradation will result.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.45, Calculating NPDES permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.45"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When limits at the point of discharge are impractical or infeasible, limits may be imposed on internal waste streams before mixing with other waste streams or cooling water, and the 122.48 monitoring then also applies to those internal waste streams.",
+          "quote": "When permit effluent limitations or standards imposed at the point of discharge are impractical or infeasible, effluent limitations or standards for discharges of pollutants may be imposed on internal waste streams before mixing with other waste streams or cooling water streams. In those instances, the monitoring required by § 122.48 shall also be applied to the internal waste streams.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.45, Calculating NPDES permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.45"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Alternate production-based limits (122.45(b)(2)(ii)), the metal exceptions in 122.45(c)(1)–(3), the factors for non-continuous discharges in 122.45(e), the other mass exceptions in 122.45(f)(1)(ii)–(iii), the other intake water credit conditions in 122.45(g), and the fact sheet requirement for internal waste stream limits in 122.45(h)(2) are not set out point by point."
+    },
+    {
+      "id": "duration-schedules",
+      "name": "Permit duration and schedules of compliance",
+      "points": [
+        {
+          "text": "NPDES permits are effective for a fixed term not to exceed 5 years.",
+          "quote": "NPDES permits shall be effective for a fixed term not to exceed 5 years.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.46, Duration of permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.46"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Director may issue any permit for a duration shorter than the full allowable term.",
+          "quote": "The Director may issue any permit for a duration that is less than the full allowable term under this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.46, Duration of permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.46"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The permit may, when appropriate, specify a schedule of compliance leading to compliance with the CWA and regulations.",
+          "quote": "The permit may, when appropriate, specify a schedule of compliance leading to compliance with CWA and regulations.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.47, Schedules of compliance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.47"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Any schedule of compliance must require compliance as soon as possible, but not later than the applicable statutory deadline under the CWA.",
+          "quote": "Any schedules of compliance under this section shall require compliance as soon as possible, but not later than the applicable statutory deadline under the CWA.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.47, Schedules of compliance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.47"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Except as provided in 122.47(b)(1)(ii), a schedule of compliance that runs more than 1 year from permit issuance must set out interim requirements and the dates for achieving them.",
+          "quote": "Except as provided in paragraph (b)(1)(ii) of this section, if a permit establishes a schedule of compliance which exceeds 1 year from the date of permit issuance, the schedule shall set forth interim requirements and the dates for their achievement.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.47, Schedules of compliance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.47"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The time between interim dates may not exceed 1 year, except that for a schedule for compliance with standards for sewage sludge use and disposal it may not exceed six months.",
+          "quote": "The time between interim dates shall not exceed 1 year, except that in the case of a schedule for compliance with standards for sewage sludge use and disposal, the time between interim dates shall not exceed six months.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.47, Schedules of compliance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.47"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "No later than 14 days after each interim date and the final compliance date, the permittee must notify the Director in writing of its compliance or noncompliance, or submit progress reports where 122.47(a)(3)(ii) applies.",
+          "quote": "The permit shall be written to require that no later than 14 days following each interim date and the final date of compliance, the permittee shall notify the Director in writing of its compliance or noncompliance with the interim or final requirements, or submit progress reports if paragraph (a)(3)(ii) is applicable.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.47, Schedules of compliance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.47"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A decision to cease conducting regulated activities must be evidenced by a firm public commitment satisfactory to the Director, such as a resolution of a corporation's board of directors.",
+          "quote": "The applicant's or permittee's decision to cease conducting regulated activities shall be evidenced by a firm public commitment satisfactory to the Director, such as a resolution of the board of directors of a corporation.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.47, Schedules of compliance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.47"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Permit term extensions (122.46(b)), expiration dates tied to statutory deadlines (122.46(d)–(e)), schedules for new sources, new dischargers and recommencing dischargers (122.47(a)(2)), progress reports for interim requirements that cannot be divided into stages (122.47(a)(3)(ii)) and the alternative schedules in 122.47(b)(1)–(3) are not set out point by point."
+    },
+    {
+      "id": "federal-disposal",
+      "name": "Federal laws and disposal into wells, POTWs or land",
+      "points": [
+        {
+          "text": "Section 122.43(a) lists conditions under 122.47(b) (alternative schedules of compliance) and 122.49 (considerations under Federal law) for EPA permits only.",
+          "quote": "and, for EPA permits only, §§ 122.47(b) (alternatives schedule of compliance) and 122.49 (considerations under Federal law).",
+          "source": {
+            "title": "eCFR: 40 CFR 122.43, Establishing permit conditions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Section 122.49 lists Federal laws that may apply to permit issuance; when one applies, its procedures must be followed, and any requirement it sets for permit conditions or for denying a permit must also be followed.",
+          "quote": "The following is a list of Federal laws that may apply to the issuance of permits under these rules. When any of these laws is applicable, its procedures must be followed. When the applicable law requires consideration or adoption of particular permit conditions or requires the denial of a permit, those requirements also must be followed.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.49, Considerations under Federal law (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.49"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When part of a discharger's process wastewater goes into a well, into a POTW or to land application instead of to waters of the United States, the permit's effluent standards and limitations are adjusted to reflect the reduced raw waste resulting from that disposal.",
+          "quote": "When part of a discharger's process wastewater is not being discharged into waters of the United States or contiguous zone because it is disposed into a well, into a POTW, or by land application thereby reducing the flow or level of pollutants being discharged into waters of the United States, applicable effluent standards and limitations for the discharge in an NPDES permit shall be adjusted to reflect the reduced raw waste resulting from such disposal.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.50, Disposal of pollutants into wells, into publicly owned treatment works or by land application (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.50"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In cases other than 122.50(a)(1), the limitation derived from effluent limitation guidelines for the total waste stream is multiplied by the wastewater flow to be treated and discharged to waters of the United States, then divided by the total wastewater flow.",
+          "quote": "In all cases other than those described in paragraph (a)(1) of this section, effluent limitations shall be adjusted by multiplying the effluent limitation derived by applying effluent limitation guidelines to the total waste stream by the amount of wastewater flow to be treated and discharged into waters of the United States, and dividing the result by the total wastewater flow.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.50, Disposal of pollutants into wells, into publicly owned treatment works or by land application (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.50"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "This adjustment does not change a discharger's obligation to meet any more stringent requirements established under 122.41, 122.42, 122.43, and 122.44.",
+          "quote": "Paragraph (a) of this section does not alter a discharger's obligation to meet any more stringent requirements established under §§ 122.41, 122.42, 122.43, and 122.44.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.50, Disposal of pollutants into wells, into publicly owned treatment works or by land application (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.50"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The individual Federal laws in 122.49(a)–(g), the rule for processes with no discharge (122.50(a)(1)), further adjustment under part 125 subpart D, and the cases where 122.50(a) does not apply (122.50(b)) are not set out point by point."
+    }
+  ]
+}

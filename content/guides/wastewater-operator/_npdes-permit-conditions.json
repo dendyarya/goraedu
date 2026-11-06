@@ -1,0 +1,541 @@
+{
+  "cluster": "wastewater-operator",
+  "slug": "npdes-permit-conditions",
+  "href": "/wastewater-operator/npdes-permit-conditions/study-guide/",
+  "title": "Wastewater NPDES permit conditions study guide",
+  "description": "NPDES permit conditions study guide: 40 CFR 122.2 definitions and 122.41 duty to comply, O&M, records, 24-hour reporting, bypass and upset.",
+  "intro": "Section 122.41 of 40 CFR Part 122 lists the conditions that apply to all NPDES permits, and section 122.2 defines the terms those permits use. This guide sets out what the federal rule text states on the definitions of daily discharge, averaging limitations, effluent limitation, sewage sludge and related terms, and on the permittee's duty to comply, duty to mitigate, proper operation and maintenance, inspection and entry, monitoring records and their retention, signatures, reporting (including 24-hour reporting), bypass and upset. Most duties fall on the permittee, and many carry \"except\", \"unless\" or \"the Director may\" conditions. Your State program and your facility's permit may have their own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "definitions-discharges-limits",
+      "name": "Definitions: discharges and limitations",
+      "points": [
+        {
+          "text": "Daily discharge is the discharge of a pollutant measured during a calendar day, or during any 24-hour period that reasonably represents the calendar day for purposes of sampling.",
+          "quote": "Daily discharge means the \"discharge of a pollutant\" measured during a calendar day or any 24-hour period that reasonably represents the calendar day for purposes of sampling.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For a pollutant whose limitation is expressed in units of mass, the daily discharge is the total mass discharged over the day. For limitations in other units, it is the average measurement of the pollutant over the day.",
+          "quote": "For pollutants with limitations expressed in units of mass, the \"daily discharge\" is calculated as the total mass of the pollutant discharged over the day. For pollutants with limitations expressed in other units of measurement, the \"daily discharge\" is calculated as the average measurement of the pollutant over the day.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An average monthly discharge limitation is the highest allowable average of daily discharges over a calendar month: the sum of the daily discharges measured during that calendar month divided by the number of daily discharges measured that month.",
+          "quote": "Average monthly discharge limitation means the highest allowable average of \"daily discharges\" over a calendar month, calculated as the sum of all \"daily discharges\" measured during a calendar month divided by the number of \"daily discharges\" measured during that month.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An average weekly discharge limitation works the same way over a calendar week: the sum of the daily discharges measured during that calendar week divided by the number of daily discharges measured that week.",
+          "quote": "Average weekly discharge limitation means the highest allowable average of \"daily discharges\" over a calendar week, calculated as the sum of all \"daily discharges\" measured during a calendar week divided by the number of \"daily discharges\" measured during that week.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A maximum daily discharge limitation is the highest allowable daily discharge.",
+          "quote": "Maximum daily discharge limitation means the highest allowable \"daily discharge.\"",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An effluent limitation is any restriction the Director imposes on quantities, discharge rates and concentrations of pollutants discharged from point sources into waters of the United States, the waters of the contiguous zone, or the ocean.",
+          "quote": "Effluent limitation means any restriction imposed by the Director on quantities, discharge rates, and concentrations of \"pollutants\" which are \"discharged\" from \"point sources\" into \"waters of the United States,\" the waters of the \"contiguous zone,\" or the ocean.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The definition of discharge of a pollutant does not include an addition of pollutants by any indirect discharger.",
+          "quote": "This term does not include an addition of pollutants by any \"indirect discharger.\"",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An indirect discharger is a nondomestic discharger introducing pollutants to a publicly owned treatment works.",
+          "quote": "Indirect discharger means a nondomestic discharger introducing \"pollutants\" to a \"publicly owned treatment works.\"",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The full definitions of point source, pollutant, waters of the United States and the other 122.2 terms are not all set out here; read 122.2 for the exact wording."
+    },
+    {
+      "id": "definitions-facilities-sludge",
+      "name": "Definitions: facilities, sludge and program terms",
+      "points": [
+        {
+          "text": "\"Director\" means the Regional Administrator or the State Director, as the context requires, or an authorized representative.",
+          "quote": "Director means the Regional Administrator or the State Director, as the context requires, or an authorized representative.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When there is no approved State program and there is an EPA administered program, \"Director\" means the Regional Administrator. When there is an approved State program, \"Director\" normally means the State Director, but in some circumstances EPA keeps the authority to take certain actions.",
+          "quote": "When there is no \"approved State program,\" and there is an EPA administered program, \"Director\" means the Regional Administrator. When there is an approved State program, \"Director\" normally means the State Director. In some circumstances, however, EPA retains the authority to take certain actions even when there is an approved State program.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "122.2 does not define POTW itself; it points to the definition in 40 CFR 403.3.",
+          "quote": "POTW is defined at § 403.3 of this chapter.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Sewage sludge is any solid, semi-solid, or liquid residue removed during the treatment of municipal waste water or domestic sewage.",
+          "quote": "Sewage Sludge means any solid, semi-solid, or liquid residue removed during the treatment of municipal waste water or domestic sewage.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Sewage sludge includes, but is not limited to, solids removed during primary, secondary, or advanced waste water treatment, scum, septage, portable toilet pumpings, type III marine sanitation device pumpings, and sewage sludge products. It does not include grit or screenings, or ash generated during the incineration of sewage sludge.",
+          "quote": "Sewage sludge includes, but is not limited to, solids removed during primary, secondary, or advanced waste water treatment, scum, septage, portable toilet pumpings, type III marine sanitation device pumpings (33 CFR part 159), and sewage sludge products. Sewage sludge does not include grit or screenings, or ash generated during the incineration of sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Septage is the liquid and solid material pumped from a septic tank, cesspool, or similar domestic sewage treatment system, or a holding tank, when the system is cleaned or maintained.",
+          "quote": "Septage means the liquid and solid material pumped from a septic tank, cesspool, or similar domestic sewage treatment system, or a holding tank when the system is cleaned or maintained.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A treatment works treating domestic sewage (TWTDS) is a POTW or any other sewage sludge or waste water treatment devices or systems, regardless of ownership (including federal facilities), used for municipal or domestic sewage, including land dedicated for the disposal of sewage sludge. The definition does not include septic tanks or similar devices.",
+          "quote": "Treatment works treating domestic sewage means a POTW or any other sewage sludge or waste water treatment devices or systems, regardless of ownership (including federal facilities), used in the storage, treatment, recycling, and reclamation of municipal or domestic sewage, including land dedicated for the disposal of sewage sludge. This definition does not include septic tanks or similar devices.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.2, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-A/section-122.2"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "duty-to-comply",
+      "name": "Duty to comply and general conditions",
+      "points": [
+        {
+          "text": "The permittee must comply with all permit conditions. Any permit noncompliance is a violation of the Clean Water Act and is grounds for enforcement action; for permit termination, revocation and reissuance, or modification; or for denial of a permit renewal application.",
+          "quote": "The permittee must comply with all conditions of this permit. Any permit noncompliance constitutes a violation of the Clean Water Act and is grounds for enforcement action; for permit termination, revocation and reissuance, or modification; or denial of a permit renewal application.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The permittee must comply with section 307(a) toxic pollutant effluent standards or prohibitions and with section 405(d) standards for sewage sludge use or disposal within the time the establishing regulations provide, even if the permit has not yet been modified to incorporate the requirement.",
+          "quote": "The permittee shall comply with effluent standards or prohibitions established under section 307(a) of the Clean Water Act for toxic pollutants and with standards for sewage sludge use or disposal established under section 405(d) of the CWA within the time provided in the regulations that establish these standards or prohibitions or standards for sewage sludge use or disposal, even if the permit has not yet been modified to incorporate the requirement.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In an enforcement action, it is not a defense for a permittee that it would have been necessary to halt or reduce the permitted activity to maintain compliance.",
+          "quote": "It shall not be a defense for a permittee in an enforcement action that it would have been necessary to halt or reduce the permitted activity in order to maintain compliance with the conditions of this permit.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Duty to mitigate: the permittee must take all reasonable steps to minimize or prevent any discharge or sludge use or disposal in violation of the permit that has a reasonable likelihood of adversely affecting human health or the environment.",
+          "quote": "The permittee shall take all reasonable steps to minimize or prevent any discharge or sludge use or disposal in violation of this permit which has a reasonable likelihood of adversely affecting human health or the environment.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The permittee must at all times properly operate and maintain all facilities and systems of treatment and control (and related appurtenances) it installs or uses to achieve compliance. Proper operation and maintenance also includes adequate laboratory controls and appropriate quality assurance procedures.",
+          "quote": "The permittee shall at all times properly operate and maintain all facilities and systems of treatment and control (and related appurtenances) which are installed or used by the permittee to achieve compliance with the conditions of this permit. Proper operation and maintenance also includes adequate laboratory controls and appropriate quality assurance procedures.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "This provision requires the permittee to operate installed back-up or auxiliary facilities or similar systems only when the operation is necessary to achieve compliance with the permit conditions.",
+          "quote": "This provision requires the operation of back-up or auxiliary facilities or similar systems which are installed by a permittee only when the operation is necessary to achieve compliance with the conditions of the permit.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A permit may be modified, revoked and reissued, or terminated for cause. A permittee's request for such an action, or a notification of planned changes or anticipated noncompliance, does not stay any permit condition.",
+          "quote": "This permit may be modified, revoked and reissued, or terminated for cause. The filing of a request by the permittee for a permit modification, revocation and reissuance, or termination, or a notification of planned changes or anticipated noncompliance does not stay any permit condition.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The civil, criminal and administrative penalty provisions in 122.41(a)(2) to (a)(4), (j)(5) and (k)(2) are not set out here."
+    },
+    {
+      "id": "inspection-monitoring-records",
+      "name": "Inspection, monitoring and records",
+      "points": [
+        {
+          "text": "The permittee must allow the Director, or an authorized representative (including an authorized contractor acting as a representative of the Administrator), on presentation of credentials and other documents as may be required by law, to enter, inspect, copy records and sample.",
+          "quote": "The permittee shall allow the Director, or an authorized representative (including an authorized contractor acting as a representative of the Administrator), upon presentation of credentials and other documents as may be required by law, to:",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "They may sample or monitor at reasonable times, to assure permit compliance or as otherwise authorized by the Clean Water Act, any substances or parameters at any location.",
+          "quote": "Sample or monitor at reasonable times, for the purposes of assuring permit compliance or as otherwise authorized by the Clean Water Act, any substances or parameters at any location.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Samples and measurements taken for monitoring must be representative of the monitored activity.",
+          "quote": "Samples and measurements taken for the purpose of monitoring shall be representative of the monitored activity.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The permittee must keep records of all monitoring information, including calibration and maintenance records and original strip chart recordings for continuous monitoring instrumentation, copies of all required reports, and the data used to complete the permit application, for at least 3 years from the date of the sample, measurement, report or application.",
+          "quote": "the permittee shall retain records of all monitoring information, including all calibration and maintenance records and all original strip chart recordings for continuous monitoring instrumentation, copies of all reports required by this permit, and records of all data used to complete the application for this permit, for a period of at least 3 years from the date of the sample, measurement, report or application.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The exception: monitoring records required by the permit that relate to the permittee's sewage sludge use and disposal activities must be kept for at least five years (or longer as required by 40 CFR part 503).",
+          "quote": "Except for records of monitoring information required by this permit related to the permittee's sewage sludge use and disposal activities, which shall be retained for a period of at least five years (or longer as required by 40 CFR part 503),",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Director may extend the retention period by request at any time.",
+          "quote": "This period may be extended by request of the Director at any time.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Records of monitoring information must include the date, exact place, and time of sampling or measurements.",
+          "quote": "Records of monitoring information shall include: (i) The date, exact place, and time of sampling or measurements;",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "They must also include who performed the sampling or measurements, the date(s) of analysis, who performed the analyses, the analytical techniques or methods used, and the results.",
+          "quote": "The individual(s) who performed the sampling or measurements; (iii) The date(s) analyses were performed; (iv) The individual(s) who performed the analyses; (v) The analytical techniques or methods used; and (vi) The results of such analyses.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "All applications, reports, or information submitted to the Director must be signed and certified (see 122.22).",
+          "quote": "All applications, reports, or information submitted to the Director shall be signed and certified. (See § 122.22)",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "reporting",
+      "name": "Reporting requirements",
+      "points": [
+        {
+          "text": "The permittee must give the Director notice as soon as possible of planned physical alterations or additions to the permitted facility. Notice is required only in the cases 122.41(l)(1) lists, such as when the change could significantly change the nature or increase the quantity of pollutants discharged.",
+          "quote": "The permittee shall give notice to the Director as soon as possible of any planned physical alterations or additions to the permitted facility. Notice is required only when:",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Monitoring results are reported at the intervals the permit specifies, on a Discharge Monitoring Report (DMR) or on forms the Director provides or specifies for sludge use or disposal monitoring.",
+          "quote": "Monitoring results shall be reported at the intervals specified elsewhere in this permit. (i) Monitoring results must be reported on a Discharge Monitoring Report (DMR) or forms provided or specified by the Director for reporting results of monitoring of sludge use or disposal practices.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Calculations for limitations that require averaging use an arithmetic mean, unless the Director specifies otherwise in the permit.",
+          "quote": "Calculations for all limitations which require averaging of measurements shall utilize an arithmetic mean unless otherwise specified by the Director in the permit.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Reports on interim and final requirements in a compliance schedule must be submitted no later than 14 days following each schedule date.",
+          "quote": "Reports of compliance or noncompliance with, or any progress reports on, interim and final requirements contained in any compliance schedule of this permit shall be submitted no later than 14 days following each schedule date.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The permittee must report any noncompliance that may endanger health or the environment: orally within 24 hours from the time it becomes aware of the circumstances, and in a report within 5 days of that time.",
+          "quote": "The permittee shall report any noncompliance which may endanger health or the environment. Any information shall be provided orally within 24 hours from the time the permittee becomes aware of the circumstances. A report shall also be provided within 5 days of the time the permittee becomes aware of the circumstances.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The report must describe the noncompliance and its cause; the period of noncompliance with exact dates and times; if it has not been corrected, the anticipated time it is expected to continue; and the steps taken or planned to reduce, eliminate, and prevent reoccurrence.",
+          "quote": "The report shall contain a description of the noncompliance and its cause; the period of noncompliance, including exact dates and times), and if the noncompliance has not been corrected, the anticipated time it is expected to continue; and steps taken or planned to reduce, eliminate, and prevent reoccurrence of the noncompliance.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The 24-hour reporting list includes any unanticipated bypass that exceeds any permit effluent limitation, any upset that exceeds any permit effluent limitation, and violation of a maximum daily discharge limitation for any pollutant the Director lists in the permit for 24-hour reporting.",
+          "quote": "The following shall be included as information which must be reported within 24 hours under this paragraph. (A) Any unanticipated bypass which exceeds any effluent limitation in the permit. (See § 122.41(g). (B) Any upset which exceeds any effluent limitation in the permit. (C) Violation of a maximum daily discharge limitation for any of the pollutants listed by the Director in the permit to be reported within 24 hours.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For reports under 122.41(l)(6)(ii), the Director may waive the written report on a case-by-case basis if the oral report has been received within 24 hours.",
+          "quote": "The Director may waive the written report on a case-by-case basis for reports under paragraph (l)(6)(ii) of this section if the oral report has been received within 24 hours.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The added data items and electronic reporting dates for combined sewer overflow, sanitary sewer overflow and bypass reports in 122.41(l)(6) and (l)(7), and the 40 CFR part 127 electronic reporting rules, are not set out here."
+    },
+    {
+      "id": "bypass",
+      "name": "Bypass",
+      "points": [
+        {
+          "text": "A bypass is the intentional diversion of waste streams from any portion of a treatment facility.",
+          "quote": "Bypass means the intentional diversion of waste streams from any portion of a treatment facility.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Severe property damage means substantial physical damage to property, damage to the treatment facilities that makes them inoperable, or substantial and permanent loss of natural resources reasonably expected without a bypass. It does not mean economic loss caused by delays in production.",
+          "quote": "Severe property damage means substantial physical damage to property, damage to the treatment facilities which causes them to become inoperable, or substantial and permanent loss of natural resources which can reasonably be expected to occur in the absence of a bypass. Severe property damage does not mean economic loss caused by delays in production.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The permittee may allow a bypass that does not cause effluent limitations to be exceeded, but only if it is also for essential maintenance to assure efficient operation. Those bypasses are not subject to the notice and prohibition provisions in (m)(3) and (m)(4).",
+          "quote": "The permittee may allow any bypass to occur which does not cause effluent limitations to be exceeded, but only if it also is for essential maintenance to assure efficient operation. These bypasses are not subject to the provisions of paragraphs (m)(3) and (m)(4) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If the permittee knows in advance of the need for a bypass, it must submit prior notice, if possible, at least ten days before the date of the bypass.",
+          "quote": "If the permittee knows in advance of the need for a bypass, it shall submit prior notice, if possible, at least ten days before the date of the bypass.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Bypass is prohibited, and the Director may take enforcement action for it, unless the conditions in (m)(4)(i) are met. The first: the bypass was unavoidable to prevent loss of life, personal injury, or severe property damage.",
+          "quote": "Bypass is prohibited, and the Director may take enforcement action against a permittee for bypass, unless: (A) Bypass was unavoidable to prevent loss of life, personal injury, or severe property damage;",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The second: there were no feasible alternatives to the bypass, such as auxiliary treatment facilities, retention of untreated wastes, or maintenance during normal periods of equipment downtime. This condition is not met if adequate back-up equipment should have been installed, in the exercise of reasonable engineering judgment, to prevent a bypass during normal equipment downtime or preventive maintenance.",
+          "quote": "There were no feasible alternatives to the bypass, such as the use of auxiliary treatment facilities, retention of untreated wastes, or maintenance during normal periods of equipment downtime. This condition is not satisfied if adequate back-up equipment should have been installed in the exercise of reasonable engineering judgment to prevent a bypass which occurred during normal periods of equipment downtime or preventive maintenance;",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The third, joined to the others by \"and\": the permittee submitted the notices required under (m)(3).",
+          "quote": "preventive maintenance; and (C) The permittee submitted notices as required under paragraph (m)(3) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Director may approve an anticipated bypass, after considering its adverse effects, if the Director determines that it will meet the three conditions in (m)(4)(i).",
+          "quote": "The Director may approve an anticipated bypass, after considering its adverse effects, if the Director determines that it will meet the three conditions listed above in paragraph (m)(4)(i) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "upset",
+      "name": "Upset",
+      "points": [
+        {
+          "text": "An upset is an exceptional incident of unintentional and temporary noncompliance with technology based permit effluent limitations because of factors beyond the reasonable control of the permittee.",
+          "quote": "Upset means an exceptional incident in which there is unintentional and temporary noncompliance with technology based permit effluent limitations because of factors beyond the reasonable control of the permittee.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An upset does not include noncompliance to the extent caused by operational error, improperly designed or inadequate treatment facilities, lack of preventive maintenance, or careless or improper operation.",
+          "quote": "An upset does not include noncompliance to the extent caused by operational error, improperly designed treatment facilities, inadequate treatment facilities, lack of preventive maintenance, or careless or improper operation.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An upset is an affirmative defense to an action for noncompliance with those technology based permit effluent limitations if the (n)(3) requirements are met.",
+          "quote": "An upset constitutes an affirmative defense to an action brought for noncompliance with such technology based permit effluent limitations if the requirements of paragraph (n)(3) of this section are met.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A permittee claiming the upset defense must demonstrate its case through properly signed, contemporaneous operating logs, or other relevant evidence.",
+          "quote": "A permittee who wishes to establish the affirmative defense of upset shall demonstrate, through properly signed, contemporaneous operating logs, or other relevant evidence that:",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "It must show that an upset occurred and that it can identify the cause(s), and that the permitted facility was at the time being properly operated.",
+          "quote": "An upset occurred and that the permittee can identify the cause(s) of the upset; (ii) The permitted facility was at the time being properly operated; and",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "It must also show that it submitted notice of the upset under (l)(6)(ii)(B) (24 hour notice) and complied with any remedial measures required under the duty to mitigate in paragraph (d).",
+          "quote": "The permittee submitted notice of the upset as required in paragraph (l)(6)(ii)(B) of this section (24 hour notice). (iv) The permittee complied with any remedial measures required under paragraph (d) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In any enforcement proceeding, the permittee seeking to establish that an upset occurred has the burden of proof.",
+          "quote": "In any enforcement proceeding the permittee seeking to establish the occurrence of an upset has the burden of proof.",
+          "source": {
+            "title": "eCFR: 40 CFR 122.41, Conditions applicable to all permits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    }
+  ]
+}
