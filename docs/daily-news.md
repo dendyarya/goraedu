@@ -15,6 +15,8 @@ publish nothing for that post (or `draft: true`) and say why in the log. Quality
   `node_modules` is missing). `git checkout main && git pull --ff-only`.
 - Today's date is the U.S. Eastern date of the run. Use it as `published: YYYY-MM-DD` and as `checked` on sources.
 - Read `docs/news-log.md` (last run, what was covered, what was skipped) and list `content/news/`.
+- If `docs/news-log.md` already has an entry for today's date, this run publishes rule changes only (no new
+  explainers), so a day never gets more than two explainers.
 
 ## 1. Rule changes
 
