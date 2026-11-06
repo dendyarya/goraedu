@@ -149,7 +149,8 @@ export const FAMILIES: Family[] = [
         summary:
           "The federal EPA standards for certifying private and commercial applicators of restricted use pesticides.",
         source: "U.S. EPA, 40 CFR Part 171",
-        status: "next",
+        status: "available",
+        href: "/pesticide-applicator/",
       },
     ],
   },
