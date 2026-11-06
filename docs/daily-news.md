@@ -18,6 +18,10 @@ publish nothing for that post (or `draft: true`) and say why in the log. Quality
 - If `docs/news-log.md` already has an entry for today's date, this run publishes rule changes only (no new
   explainers), so a day never gets more than two explainers.
 
+Network (as of 2026-11-07): www.ecfr.gov, www.federalregister.gov, www.epa.gov, www.osha.gov, www.faa.gov and
+www.nrc.gov are reachable from the shell. www.fmcsa.dot.gov refuses automated requests (its own "Access Denied"),
+so CDL posts use eCFR (49 CFR) and the Federal Register only.
+
 ## 1. Rule changes
 
 Search the Federal Register API for documents published since the last run's date (inclusive) of type
