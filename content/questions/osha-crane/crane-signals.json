@@ -62,18 +62,18 @@
     {
       "id": "ks-004",
       "topic": "Types of signals and hand signals",
-      "question": "Which list matches the types of signals to operators named in 1926.1419(b)?",
+      "question": "How does 1926.1401 define the \"Standard Method\" that 1926.1419(c)(1) requires when hand signals are used?",
       "options": {
-        "A": "Hand and voice signals only",
-        "B": "Flag, light and horn signals",
-        "C": "Hand, voice, audible, or new signals",
-        "D": "Radio and video signals only"
+        "A": "The signals printed in the equipment manufacturer's operating manual",
+        "B": "Any set of hand signals that the operator and signal person agree on before the lift",
+        "C": "The protocol in appendix A of this subpart for hand signals",
+        "D": "A national consensus standard for radio signals"
       },
       "answer": "C",
-      "explanation": "1926.1419(b) states: \"Signals to operators must be by hand, voice, audible, or new signals.\"",
+      "explanation": "\"Standard Method means the protocol in appendix A of this subpart for hand signals.\" Under 1926.1419(c)(1), \"When using hand signals, the Standard Method must be used\".",
       "source": {
-        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+        "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
       },
       "checked": "2026-11-06"
     },
@@ -188,18 +188,18 @@
     {
       "id": "ks-011",
       "topic": "Suitability and keeping the signal link",
-      "question": "During operations requiring signals, what must the operator do if the ability to transmit signals between the operator and signal person is interrupted?",
+      "question": "Under 1926.1431(k)(9), with whom must employees being hoisted on a personnel platform remain in direct communication?",
       "options": {
-        "A": "Safely stop operations requiring signals until it is reestablished and a proper signal is given and understood",
-        "B": "Continue the lift at reduced speed until the load is placed",
-        "C": "Switch to the crane horn and keep operating",
-        "D": "Leave the controls and go find the signal person"
+        "A": "The signal person (where used), or the operator",
+        "B": "The competent person on the ground only",
+        "C": "The lift director only",
+        "D": "The employer's site safety office"
       },
       "answer": "A",
-      "explanation": "\"If that ability is interrupted at any time, the operator must safely stop operations requiring signals until it is reestablished and a proper signal is given and understood.\"",
+      "explanation": "\"Employees being hoisted must remain in direct communication with the signal person (where used), or the operator.\"",
       "source": {
-        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+        "title": "eCFR: 29 CFR 1926.1431, Hoisting personnel (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1431"
       },
       "checked": "2026-11-06"
     },
@@ -224,18 +224,18 @@
     {
       "id": "ks-013",
       "topic": "Suitability and keeping the signal link",
-      "question": "1926.1417(d) bars attention-diverting activities while actually operating the equipment. What use of cellular phones does it except?",
+      "question": "Where the employer chooses a dedicated spotter as the measure under 1926.1408(b)(4)(ii), what equipment must the spotter use where necessary?",
       "options": {
-        "A": "Use for signal communications",
-        "B": "Calls to the site supervisor",
-        "C": "Use while the crane is traveling",
-        "D": "Text messages under one minute"
+        "A": "Equipment that enables the dedicated spotter to communicate directly with the operator",
+        "B": "A video camera mounted on the boom tip",
+        "C": "An air horn to warn other crews on the site",
+        "D": "A range control warning device set to stop movement"
       },
       "answer": "A",
-      "explanation": "The operator must not engage in attention-diverting activities, \"such as the use of cellular phones (other than when used for signal communications).\"",
+      "explanation": "The dedicated spotter must, \"Where necessary, use equipment that enables the dedicated spotter to communicate directly with the operator.\"",
       "source": {
-        "title": "eCFR: 29 CFR 1926.1417, Operation (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1417"
+        "title": "eCFR: 29 CFR 1926.1408, Power line safety (up to 350 kV)—equipment operations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1408"
       },
       "checked": "2026-11-06"
     },
@@ -278,36 +278,36 @@
     {
       "id": "ks-016",
       "topic": "Safety problems and stop signals",
-      "question": "Under 1926.1419(j), how must anyone who becomes aware of a safety problem alert the operator or signal person?",
+      "question": "An employee is hoisted in pile driving operations with a telescopic boom crane. What does 1926.1431(p)(2) require to prevent two-blocking?",
       "options": {
-        "A": "By filing a written hazard report",
-        "B": "By calling the site supervisor",
-        "C": "By giving the stop or emergency stop signal",
-        "D": "By sounding the crane's horn from the cab"
+        "A": "Only a clearly visible mark on the cable",
+        "B": "Either a mark on the cable or a spotter, at the employer's choice",
+        "C": "A clearly marked cable and a spotter in direct communication with the operator to inform the operator when the marked point is reached",
+        "D": "A horn signal from the employee before each hoist"
       },
       "answer": "C",
-      "explanation": "\"Anyone who becomes aware of a safety problem must alert the operator or signal person by giving the stop or emergency stop signal.\" 1926.1417(y) requires the operator to obey it \"irrespective of who gives it.\"",
+      "explanation": "\"For telescopic boom cranes: Clearly mark the cable (so that it can be easily seen by the operator) at a point that will give the operator sufficient time to stop the hoist to prevent two-blocking, and use a spotter who is in direct communication with the operator to inform the operator when this point is reached.\" The \"or\" choice applies to lattice boom cranes.",
       "source": {
-        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+        "title": "eCFR: 29 CFR 1926.1431, Hoisting personnel (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1431"
       },
       "checked": "2026-11-06"
     },
     {
       "id": "ks-017",
       "topic": "Who signals, direction and multiple cranes",
-      "question": "Under 1926.1419(k), from whose direction perspective must the signal person give directions to the operator?",
+      "question": "Which description matches the 1926.1401 definition of a \"qualified evaluator (third party)\" for signal persons?",
       "options": {
-        "A": "The operator's",
-        "B": "The signal person's",
-        "C": "The lift director's",
-        "D": "The person handling the load's"
+        "A": "An entity that, due to its independence and expertise, has demonstrated that it is competent in accurately assessing whether individuals meet the Qualification Requirements in this subpart for a signal person",
+        "B": "A signal person who has worked on the same site for at least one year",
+        "C": "The crane operator assigned to the lift",
+        "D": "The lift director named in the lift plan"
       },
       "answer": "A",
-      "explanation": "\"All directions given to the operator by the signal person must be given from the operator's direction perspective.\"",
+      "explanation": "\"Qualified evaluator (third party) means an entity that, due to its independence and expertise, has demonstrated that it is competent in accurately assessing whether individuals meet the Qualification Requirements in this subpart for a signal person.\"",
       "source": {
-        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+        "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
       },
       "checked": "2026-11-06"
     },
@@ -350,18 +350,18 @@
     {
       "id": "ks-020",
       "topic": "Related definitions and work area communication",
-      "question": "Under 1926.1424(a)(3)(ii), where the operator knows that an employee went to a location covered by paragraph (a)(1) of that section, what must happen before the operator rotates the superstructure?",
+      "question": "How does 1926.1401 define a \"tender\"?",
       "options": {
-        "A": "The employee must leave the site",
-        "B": "The employer must erect a second barrier",
-        "C": "The operator must be informed in accordance with a pre-arranged system of communication that the employee is in a safe position",
-        "D": "The operator must sound the horn and wait one minute"
+        "A": "A barge that carries the crane to the work location",
+        "B": "The person who holds the tag line on a lifted load",
+        "C": "An individual responsible for monitoring and communicating with a diver",
+        "D": "A crew member who relays signals between two cranes"
       },
       "answer": "C",
-      "explanation": "\"the operator must not rotate the superstructure until the operator is informed in accordance with a pre-arranged system of communication that the employee is in a safe position.\"",
+      "explanation": "\"Tender means an individual responsible for monitoring and communicating with a diver.\"",
       "source": {
-        "title": "eCFR: 29 CFR 1926.1424, Work area control (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1424"
+        "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
       },
       "checked": "2026-11-06"
     }
