@@ -1,0 +1,541 @@
+{
+  "cluster": "osha-crane",
+  "slug": "crane-operator-qualification",
+  "href": "/osha-crane/crane-operator-qualification/study-guide/",
+  "title": "OSHA crane operator training, certification and evaluation study guide",
+  "description": "Crane operator rules in 29 CFR 1926.1427: exceptions, operator-in-training limits, licensing, certification options, employer evaluation and dates.",
+  "intro": "29 CFR 1926.1427 sets the employer's duties to make sure each operator of equipment covered by subpart CC is trained, certified or licensed, and evaluated before operating, with exceptions for derricks, sideboom cranes and equipment rated 2,000 pounds or less. This guide sets out what the federal rule text states on operators-in-training and their supervision, State and local licensing, certification by an accredited crane operator testing organization or through an audited employer program, the employer's own evaluation and its documentation, retraining, language and certification criteria, and the effective dates. Certification and licensing are done by testing organizations, audited employer programs and government licensing offices; goraedu does not certify anyone, and these notes are not a certification exam. Your State may run its own OSHA-approved plan with its own rules, so check them too. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "scope",
+      "name": "Scope, exceptions and definitions",
+      "points": [
+        {
+          "text": "Before an operator runs any equipment covered by subpart CC, the employer must make sure the operator is trained, certified/licensed and evaluated under § 1926.1427, except for the equipment listed in paragraph (a)(2).",
+          "quote": "evaluated in accordance with this section before operating any equipment covered under subpart CC, except for the equipment listed in paragraph (a)(2) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Operators of derricks, sideboom cranes, and equipment with a maximum manufacturer-rated hoisting/lifting capacity of 2,000 pounds or less do not have to comply with § 1926.1427.",
+          "quote": "Operators of derricks (see § 1926.1436), sideboom cranes (see § 1926.1440), or equipment with a maximum manufacturer-rated hoisting/lifting capacity of 2,000 pounds or less (see § 1926.1441) are not required to comply with § 1926.1427.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For those excepted operators, the training requirements in the other sections still apply; for sideboom crane operators the note points to section 1926.1430(c).",
+          "quote": "Note: The training requirements in those other sections continue to apply (for the training requirement for operators of sideboom cranes, follow section 1926.1430(c)).",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A U.S. military employee meets § 1926.1427 if he or she has a current operator qualification issued by the U.S. military for operating the equipment.",
+          "quote": "an operator who is an employee of the U.S. military meets the requirements of this section if he/she has a current operator qualification issued by the U.S. military for operation of the equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An employee of the U.S. military means a Federal employee of the Department of Defense or Armed Forces; employees of private contractors are not included.",
+          "quote": "An employee of the U.S. military is a Federal employee of the Department of Defense or Armed Forces and does not include employees of private contractors.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A military qualification is not portable: it counts only where the operator is employed by, and operating for, the employer that issued it. It is valid for the period the issuing entity stipulates.",
+          "quote": "Not portable: Such a qualification meets the requirements of paragraph (a) of this section only where the operator is employed by (and operating the equipment for) the employer that issued the qualification. (B) Valid for the period of time stipulated by the issuing entity.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Subpart CC defines an operator as a person who is operating the equipment.",
+          "quote": "Operator means a person who is operating the equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A sideboom crane is a track-type or wheel-type tractor with a boom mounted on its side; the boom or hook can be lifted or lowered in a vertical direction only.",
+          "quote": "Sideboom crane means a track-type or wheel-type tractor having a boom mounted on the side of the tractor, used for lifting, lowering or transporting a load suspended on the load hook. The boom or hook can be lifted or lowered in a vertical direction only.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Mobile cranes configured with a luffing jib and/or tower attachments are not tower cranes under the definition.",
+          "quote": "Mobile cranes that are configured with luffing jib and/or tower attachments are not considered tower cranes under this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In subpart CC, \"up to\" means \"up to and including\" (this matters for the 350 kV power line condition below).",
+          "quote": "Up to means “up to and including.”",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The training rules for derricks, sideboom cranes and equipment of 2,000 pounds or less sit in §§ 1926.1436, 1926.1440, 1926.1441 and 1926.1430(c), which this guide does not cover."
+    },
+    {
+      "id": "training",
+      "name": "Operator-in-training conditions and supervision",
+      "points": [
+        {
+          "text": "The employer must give each operator-in-training enough formal and practical instruction to develop the skills, knowledge and ability to recognize and avert risk needed to operate the equipment safely for assigned work.",
+          "quote": "The employer must provide each operator-in-training with sufficient training, through a combination of formal and practical instruction, to ensure that the operator-in-training develops the skills, knowledge, and ability to recognize and avert risk necessary to operate the equipment safely for assigned work.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An employee who is not yet certified/licensed and evaluated may operate the assigned equipment only as an operator-in-training under supervision under paragraph (b).",
+          "quote": "may only operate the equipment as an operator-in-training under supervision in accordance with the requirements of paragraph (b) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Unless certified under paragraph (c), an operator-in-training may not operate where any part of the equipment, load line or load (including rigging and lifting accessories), operated up to the maximum working radius in the work zone, could get within 20 feet of a power line up to 350 kV or within 50 feet of a power line over 350 kV.",
+          "quote": "If any part of the equipment, load line, or load (including rigging and lifting accessories), if operated up to the equipment's maximum working radius in the work zone (see § 1926.1408(a)(1)), could get within 20 feet of a power line that is up to 350 kV, or within 50 feet of a power line that is over 350 kV.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Also unless certified, an operator-in-training may not operate when the equipment hoists personnel, in multiple-equipment lifts, or over a shaft, cofferdam or in a tank farm.",
+          "quote": "(ii) If the equipment is used to hoist personnel. (iii) In multiple-equipment lifts. (iv) If the equipment is used over a shaft, cofferdam, or in a tank farm.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Multiple-lift rigging operations are also barred, except where the operator's trainer decides the operator-in-training's skills are sufficient for this high-skill work.",
+          "quote": "In multiple-lift rigging operations, except where the operator's trainer determines that the operator-in-training's skills are sufficient for this high-skill work.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "While operating, the operator-in-training must be continuously monitored by an operator's trainer who is an employee or agent of the operator-in-training's employer.",
+          "quote": "The operator's trainer is an employee or agent of the operator-in-training's employer.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The operator's trainer must have the knowledge, training and experience needed to direct the operator-in-training on the equipment in use.",
+          "quote": "The operator's trainer has the knowledge, training, and experience necessary to direct the operator-in-training on the equipment in use.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "While monitoring, the trainer may perform no tasks that take away from the ability to monitor the operator-in-training.",
+          "quote": "While monitoring the operator-in-training, the operator's trainer performs no tasks that detract from the trainer's ability to monitor the operator-in-training.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For equipment other than tower cranes, trainer and operator-in-training must be in direct line of sight and communicate verbally or by hand signals; for tower cranes they must be in direct communication.",
+          "quote": "For equipment other than tower cranes: The operator's trainer and the operator-in-training must be in direct line of sight of each other. In addition, they must communicate verbally or by hand signals. For tower cranes: The operator's trainer and the operator-in-training must be in direct communication with each other.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Monitoring must be continuous except for short breaks that meet all conditions, one of which is that the break lasts no longer than 15 minutes with no more than one break per hour.",
+          "quote": "The break lasts no longer than 15 minutes and there is no more than one break per hour.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Immediately before the break the trainer must tell the operator-in-training the specific tasks to perform and the limits to follow, and those tasks must be within the operator-in-training's abilities.",
+          "quote": "Immediately prior to the break the operator's trainer informs the operator-in-training of the specific tasks that the operator-in-training is to perform and limitations to which he/she must adhere during the operator trainer's break. (C) The specific tasks that the operator-in-training will perform during the operator trainer's break are within the operator-in-training's abilities.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The work zone itself is described in § 1926.1408(a)(1), which is not set out here."
+    },
+    {
+      "id": "licensing",
+      "name": "Licensing and certification options",
+      "points": [
+        {
+          "text": "Where a state or local government issues operator licenses for subpart CC equipment, the operator must hold that license to operate within its jurisdiction, if the licensing program meets the requirements of paragraph (c)(1).",
+          "quote": "When a state or local government issues operator licenses for equipment covered under subpart CC, the equipment operator must be licensed by that government entity for operation of equipment within that entity's jurisdiction if that government licensing program meets the following requirements:",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "One requirement is that getting the license includes written and practical tests that assess at least the knowledge and skills in paragraphs (j)(1) and (2).",
+          "quote": "The requirements for obtaining the license include an assessment, by written and practical tests, of the operator applicant regarding, at a minimum, the knowledge and skills listed in paragraphs (j)(1) and (2) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For compliance with § 1926.1427, a license is valid for the period the licensing office stipulates, but no longer than 5 years.",
+          "quote": "a license is valid for the period of time stipulated by the licensing department/office, but no longer than 5 years.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When an operator is not required to be licensed under (c)(1), the operator must be certified under one of the options in paragraph (d) or (e).",
+          "quote": "When an operator is not required to be licensed under paragraph (c)(1) of this section, the operator must be certified in accordance with paragraph (d) or (e) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When certification/licensure is required, the employer must provide it at no cost to employees.",
+          "quote": "Whenever operator certification/licensure is required under this section, the employer must provide the certification/licensure at no cost to employees.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "accredited",
+      "name": "Accredited testing organization certification",
+      "points": [
+        {
+          "text": "The crane operator testing organization must be accredited by a nationally recognized accrediting agency, based on that agency's finding that industry-recognized criteria for testing materials, examinations, administration, grading, facilities/equipment and personnel are met.",
+          "quote": "Be accredited by a nationally recognized accrediting agency based on that agency's determination that industry-recognized criteria for written testing materials, practical examinations, test administration, grading, facilities/equipment, and personnel have been met.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Its written and practical tests must provide certification based on equipment type, or type and capacity.",
+          "quote": "Provide certification based on equipment type, or type and capacity.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The organization must have its accreditation reviewed by the nationally recognized accrediting agency at least every 3 years.",
+          "quote": "Have its accreditation reviewed by the nationally recognized accrediting agency at least every 3 years.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If no accredited testing agency offers an exam for a particular type of equipment, an operator certified for the most similar type with an available exam is deemed to comply; the certificate must state the type certified.",
+          "quote": "an operator will be deemed to have complied with the certification requirements of this section for that equipment if the operator has been certified for the type that is most similar to that equipment and for which a certification examination is available. The operator's certificate must state the type of equipment for which the operator is certified.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A certification under this option is portable among employers required to have operators certified under this option.",
+          "quote": "A certification issued under this option is portable among employers who are required to have operators certified under this option.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A certification issued under paragraph (d) is valid for 5 years.",
+          "quote": "A certification issued under this paragraph is valid for 5 years.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "audited",
+      "name": "Audited employer program",
+      "points": [
+        {
+          "text": "In an audited employer program, the written and practical tests must be either developed by an accredited crane operator testing organization or approved by an auditor who meets paragraph (e)(1)(ii) (one of the options).",
+          "quote": "The written and practical tests must be either: (i) Developed by an accredited crane operator testing organization (see paragraph (d) of this section); or (ii) Approved by an auditor in accordance with the following requirements:",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An approving auditor must be certified to evaluate such tests by an accredited crane operator testing organization and must not be an employee of the employer.",
+          "quote": "The auditor is certified to evaluate such tests by an accredited crane operator testing organization (see paragraph (d) of this section). (B) The auditor is not an employee of the employer.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The program must be audited within 3 months of its beginning and at least every 3 years after that.",
+          "quote": "The employer program must be audited within 3 months of the beginning of the program and at least every 3 years thereafter.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If the auditor finds a significant deficiency, the employer must ensure no operator is qualified until the auditor confirms it has been corrected, and that the program is audited again within 180 days of that confirmation.",
+          "quote": "No operator is qualified until the auditor confirms that the deficiency has been corrected. (ii) The program is audited again within 180 days of the confirmation that the deficiency was corrected.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The employer must also ensure that the auditor files a documented report of the deficiency with the appropriate OSHA Regional Office within 15 days of the auditor's determination.",
+          "quote": "The auditor files a documented report of the deficiency to the appropriate Regional Office of the Occupational Safety and Health Administration within 15 days of the auditor's determination that there is a deficiency.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The auditor keeps records of the audits for 3 years and makes them available to the Secretary of Labor or the Secretary's designated representative on request.",
+          "quote": "Records of the audits of the employer's program are maintained by the auditor for 3 years and are made available by the auditor to the Secretary of Labor or the Secretary's designated representative upon request.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An audited-program certification is not portable: it counts only where the operator is employed by, and operating for, the employer that issued it. It is valid for 5 years.",
+          "quote": "Not portable: Such a certification meets the requirements of paragraph (c) of this section only where the operator is employed by (and operating the equipment for) the employer that issued the certification. (ii) Valid for 5 years.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "name": "Employer evaluation, documentation and retraining",
+      "points": [
+        {
+          "text": "Through an evaluation, the employer must ensure each operator demonstrates the skills, knowledge and ability to recognize and avert risk needed to operate the equipment safely, including those specific to the safety devices, operational aids, software, and the size and configuration of the equipment.",
+          "quote": "The skills and knowledge, as well as the ability to recognize and avert risk, necessary to operate the equipment safely, including those specific to the safety devices, operational aids, software, and the size and configuration of the equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Size and configuration includes, but is not limited to, lifting capacity, boom length, attachments, luffing jib and counterweight set-up.",
+          "quote": "Size and configuration includes, but is not limited to, lifting capacity, boom length, attachments, luffing jib, and counterweight set-up.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The operator must also demonstrate the ability to perform the hoisting activities required for assigned work, including, if applicable, blind lifts, personnel hoisting and multi-crane lifts.",
+          "quote": "The ability to perform the hoisting activities required for assigned work, including, if applicable, blind lifts, personnel hoisting, and multi-crane lifts.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For operators employed prior to December 10, 2018, the employer may rely on its previous assessments instead of a new evaluation of the operator's existing knowledge and skills.",
+          "quote": "For operators employed prior to December 10, 2018, the employer may rely on its previous assessments of the operator in lieu of conducting a new evaluation of that operator's existing knowledge and skills.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Possession of a certificate or degree cannot, by itself, make a person qualified for the evaluation in paragraph (f)(1).",
+          "quote": "Possession of a certificate or degree cannot, by itself, cause a person to be qualified for purposes of paragraph (f)(1).",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The evaluator must have the knowledge, training and experience needed to assess equipment operators, and must be an employee or agent of the employer; an employer that assigns evaluations to an agent keeps the duty to meet paragraph (f).",
+          "quote": "The evaluator must be an employee or agent of the employer. Employers that assign evaluations to an agent retain the duty to ensure that the requirements in paragraph (f) are satisfied.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "After a successful evaluation, the employer may let the operator run other equipment that the employer can demonstrate does not require substantially different skills, knowledge, or ability to recognize and avert risk.",
+          "quote": "Once the evaluation is completed successfully, the employer may allow the operator to operate other equipment that the employer can demonstrate does not require substantially different skills, knowledge, or ability to recognize and avert risk to operate.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The employer must document the evaluation with the operator's name, the evaluator's name and signature, the date, and the make, model and configuration of the equipment used, and make the document available at the worksite while the operator is employed by the employer.",
+          "quote": "The operator's name; the evaluator's name and signature; the date; and the make, model, and configuration of equipment used in the evaluation. The employer must make the document available at the worksite while the operator is employed by the employer.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The employer must retrain an operator in relevant topics when the operator's performance or an evaluation of the operator's knowledge indicates retraining is necessary, and must then re-evaluate the operator on the subject of the retraining.",
+          "quote": "When an employer is required to provide an operator with retraining under paragraph (b)(5) of this section, the employer must re-evaluate the operator with respect to the subject of the retraining.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "criteria",
+      "name": "Language, certification criteria and effective dates",
+      "points": [
+        {
+          "text": "Tests may be given in any language the candidate understands, and the certification documentation must note the language of the test.",
+          "quote": "Tests under this section may be administered in any language the operator candidate understands, and the operator's certification documentation must note the language in which the test was given.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The operator may operate only equipment furnished with the materials the subpart requires, such as operations manuals and load charts, written in the language of the certification.",
+          "quote": "The operator is only permitted to operate equipment that is furnished with materials required by this subpart, such as operations manuals and load charts, that are written in the language of the certification.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The written test must show the individual knows the controls and operational/performance characteristics, and can use and calculate (manually or with a calculator) load/capacity information on a variety of configurations.",
+          "quote": "The controls and operational/performance characteristics. (B) Use of, and the ability to calculate (manually or with a calculator), load/capacity information on a variety of configurations of the equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The written test must also cover technical knowledge of the suitability of the supporting ground and surface to handle expected loads, site hazards and site access.",
+          "quote": "Technical knowledge applicable to the suitability of the supporting ground and surface to handle expected loads, site hazards, and site access.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The practical test must show the skills for safe operation, including operational and maneuvering skills, application of load chart information, and application of safe shut-down and securing procedures.",
+          "quote": "(ii) Operational and maneuvering skills. (iii) Application of load chart information. (iv) Application of safe shut-down and securing procedures.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Apart from the evaluation and documentation requirements in paragraphs (a) and (f), § 1926.1427 is effective on December 10, 2018; those evaluation and documentation requirements are effective on February 7, 2019.",
+          "quote": "Apart from the evaluation and documentation requirements in paragraphs (a) and (f), this section is effective on December 10, 2018. (2) The evaluation and documentation requirements in paragraphs (a) and (f) are effective on February 7, 2019.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1427, Operator training, certification, and evaluation (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1427"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The appendix C subject matter criteria named in (j)(1)(i)(D) and the shift inspection items in § 1926.1412(d) named in (j)(2)(i) are not set out here."
+    }
+  ]
+}
