@@ -1,0 +1,389 @@
+{
+  "cluster": "forklift",
+  "slug": "forklift-traveling-loading",
+  "title": "Forklift truck operations, traveling and loading practice questions",
+  "description": "Practice questions on OSHA forklift truck operations, traveling and loading: unattended trucks, docks, grades, elevators, tilting loads (29 CFR 1910.178).",
+  "href": "/forklift/forklift-traveling-loading/practice-test/",
+  "questions": [
+    {
+      "id": "qe-001",
+      "topic": "People around the truck",
+      "question": "An employee is standing in front of a workbench. What does 1910.178(m)(1) say about driving a truck toward that employee?",
+      "options": {
+        "A": "The truck may approach if the horn is sounded first",
+        "B": "Trucks shall not be driven up to anyone standing in front of a bench or other fixed object",
+        "C": "The truck may approach at walking speed",
+        "D": "The truck may approach if the forks are fully lowered"
+      },
+      "answer": "B",
+      "explanation": "Paragraph (m)(1) states: \"Trucks shall not be driven up to anyone standing in front of a bench or other fixed object.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Trucks shall not be driven up to anyone standing in front of a bench or other fixed object."
+    },
+    {
+      "id": "qe-002",
+      "topic": "People around the truck",
+      "question": "A truck's forks are raised but carry no load. What does 1910.178(m)(2) say about a worker walking under the elevated forks?",
+      "options": {
+        "A": "It is allowed because the truck is empty",
+        "B": "It is allowed if the worker passes without stopping",
+        "C": "It is allowed once the operator has neutralized the controls",
+        "D": "No person shall be allowed to pass under the elevated portion of the truck, whether loaded or empty"
+      },
+      "answer": "D",
+      "explanation": "\"No person shall be allowed to stand or pass under the elevated portion of any truck, whether loaded or empty.\" The rule covers both standing and passing, and an empty truck is included.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "No person shall be allowed to stand or pass under the elevated portion of any truck, whether loaded or empty."
+    },
+    {
+      "id": "qe-003",
+      "topic": "Handling and tilting loads",
+      "question": "When a load is picked up, how far does 1910.178(o)(5) say the load engaging means shall be placed under the load?",
+      "options": {
+        "A": "As far as possible",
+        "B": "Halfway under the load",
+        "C": "Only far enough to lift the load clear of the floor",
+        "D": "Exactly to the load's center"
+      },
+      "answer": "A",
+      "explanation": "\"A load engaging means shall be placed under the load as far as possible; the mast shall be carefully tilted backward to stabilize the load.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A load engaging means shall be placed under the load as far as possible; the mast shall be carefully tilted backward to stabilize the load."
+    },
+    {
+      "id": "qe-004",
+      "topic": "People around the truck",
+      "question": "Under 1910.178(m)(4), where shall the employer prohibit arms or legs from being placed?",
+      "options": {
+        "A": "Over the load backrest extension",
+        "B": "Above the overhead guard",
+        "C": "Between the uprights of the mast or outside the running lines of the truck",
+        "D": "Against the steering wheel while traveling"
+      },
+      "answer": "C",
+      "explanation": "\"The employer shall prohibit arms or legs from being placed between the uprights of the mast or outside the running lines of the truck.\" The duty falls on the employer.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The employer shall prohibit arms or legs from being placed between the uprights of the mast or outside the running lines of the truck."
+    },
+    {
+      "id": "qe-005",
+      "topic": "Unattended trucks",
+      "question": "An operator gets off the truck and walks behind a rack, so the truck is no longer in his view, though it is only about 10 ft. away. How does 1910.178(m)(5)(ii) classify the truck?",
+      "options": {
+        "A": "As unattended, because the operator left the vehicle and it is not in his view",
+        "B": "As attended, because the operator is less than 25 ft. away",
+        "C": "As attended until the operator is 25 ft. or more away",
+        "D": "As unattended only if the engine is still running"
+      },
+      "answer": "A",
+      "explanation": "A truck is unattended \"when the operator is 25 ft. or more away from the vehicle which remains in his view, or whenever the operator leaves the vehicle and it is not in his view.\" Once it is out of view, distance does not matter.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A powered industrial truck is unattended when the operator is 25 ft. or more away from the vehicle which remains in his view, or whenever the operator leaves the vehicle and it is not in his view."
+    },
+    {
+      "id": "qe-006",
+      "topic": "Unattended trucks",
+      "question": "A truck will be left unattended on an incline. Besides fully lowering the load engaging means, neutralizing the controls, shutting off power and setting the brakes, what does 1910.178(m)(5)(i) require?",
+      "options": {
+        "A": "Turning the steering wheel fully to one side",
+        "B": "Blocking the wheels",
+        "C": "Raising the load engaging means slightly off the floor",
+        "D": "Leaving the warning lights on"
+      },
+      "answer": "B",
+      "explanation": "After the steps for any unattended truck, the rule adds: \"Wheels shall be blocked if the truck is parked on an incline.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Wheels shall be blocked if the truck is parked on an incline."
+    },
+    {
+      "id": "qe-007",
+      "topic": "Docks, trailers and railroad cars",
+      "question": "Besides keeping a safe distance from the edge of ramps or platforms, what does 1910.178(m)(6) say trucks shall not be used for?",
+      "options": {
+        "A": "Driving onto a semitrailer",
+        "B": "Moving loads into freight cars",
+        "C": "Crossing railroad tracks",
+        "D": "Opening or closing freight doors"
+      },
+      "answer": "D",
+      "explanation": "Paragraph (m)(6) states: \"Trucks shall not be used for opening or closing freight doors.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Trucks shall not be used for opening or closing freight doors."
+    },
+    {
+      "id": "qe-008",
+      "topic": "Docks, trailers and railroad cars",
+      "question": "When does 1910.178(m)(7) say fixed jacks may be necessary to support a semitrailer during loading or unloading?",
+      "options": {
+        "A": "When the trailer is coupled to a tractor",
+        "B": "Whenever the trailer flooring has been checked",
+        "C": "When the trailer is not coupled to a tractor",
+        "D": "Only when the trailer is parked on a grade"
+      },
+      "answer": "C",
+      "explanation": "\"Fixed jacks may be necessary to support a semitrailer during loading or unloading when the trailer is not coupled to a tractor.\" The rule says \"may be necessary\", not \"shall\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Fixed jacks may be necessary to support a semitrailer during loading or unloading when the trailer is not coupled to a tractor."
+    },
+    {
+      "id": "qe-009",
+      "topic": "Clearance, guards and hazardous locations",
+      "question": "According to 1910.178(m)(9), what is an overhead guard not intended to withstand?",
+      "options": {
+        "A": "The impact of small packages",
+        "B": "The impact of boxes",
+        "C": "The impact of bagged material",
+        "D": "The impact of a falling capacity load"
+      },
+      "answer": "D",
+      "explanation": "An overhead guard \"is intended to offer protection from the impact of small packages, boxes, bagged material, etc., representative of the job application, but not to withstand the impact of a falling capacity load.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "an overhead guard is intended to offer protection from the impact of small packages, boxes, bagged material, etc., representative of the job application, but not to withstand the impact of a falling capacity load."
+    },
+    {
+      "id": "qe-010",
+      "topic": "Clearance, guards and hazardous locations",
+      "question": "Under 1910.178(m)(10), a load backrest extension shall be used whenever necessary to minimize the possibility of what?",
+      "options": {
+        "A": "The load or part of it falling rearward",
+        "B": "The truck tipping sideways in a turn",
+        "C": "Objects from above striking the operator",
+        "D": "The truck rolling while parked"
+      },
+      "answer": "A",
+      "explanation": "\"A load backrest extension shall be used whenever necessary to minimize the possibility of the load or part of it from falling rearward.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A load backrest extension shall be used whenever necessary to minimize the possibility of the load or part of it from falling rearward."
+    },
+    {
+      "id": "qe-011",
+      "topic": "Traffic and travel control",
+      "question": "What following distance from the truck ahead does 1910.178(n)(1) set?",
+      "options": {
+        "A": "Approximately one truck length",
+        "B": "Approximately two truck lengths",
+        "C": "Approximately three truck lengths",
+        "D": "Approximately six truck lengths"
+      },
+      "answer": "C",
+      "explanation": "\"A safe distance shall be maintained approximately three truck lengths from the truck ahead, and the truck shall be kept under control at all times.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A safe distance shall be maintained approximately three truck lengths from the truck ahead"
+    },
+    {
+      "id": "qe-012",
+      "topic": "Traffic and travel control",
+      "question": "A truck operator meets an ambulance responding to an emergency in the plant. What does 1910.178(n)(2) require?",
+      "options": {
+        "A": "Continuing at the authorized plant speed limit",
+        "B": "Yielding the right of way to the ambulance",
+        "C": "Sounding the horn and passing the ambulance",
+        "D": "Following the ambulance at three truck lengths"
+      },
+      "answer": "B",
+      "explanation": "\"The right of way shall be yielded to ambulances, fire trucks, or other vehicles in emergency situations.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The right of way shall be yielded to ambulances, fire trucks, or other vehicles in emergency situations."
+    },
+    {
+      "id": "qe-013",
+      "topic": "Traffic and travel control",
+      "question": "Another truck ahead is traveling in the same direction through a blind spot. What does 1910.178(n)(3) say about passing it?",
+      "options": {
+        "A": "It shall not be passed",
+        "B": "It may be passed if the horn is sounded",
+        "C": "It may be passed at a reduced speed",
+        "D": "It may be passed if the other driver waves the truck by"
+      },
+      "answer": "A",
+      "explanation": "\"Other trucks traveling in the same direction at intersections, blind spots, or other dangerous locations shall not be passed.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Other trucks traveling in the same direction at intersections, blind spots, or other dangerous locations shall not be passed."
+    },
+    {
+      "id": "qe-014",
+      "topic": "Crossings, grades, floors and turns",
+      "question": "1910.178(n)(5) prohibits parking a truck closer than 8 feet from what?",
+      "options": {
+        "A": "The nearest rail",
+        "B": "The edge of the railroad crossing",
+        "C": "The nearest railroad car",
+        "D": "The center of railroad tracks"
+      },
+      "answer": "D",
+      "explanation": "\"Parking closer than 8 feet from the center of railroad tracks is prohibited.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Parking closer than 8 feet from the center of railroad tracks is prohibited."
+    },
+    {
+      "id": "qe-015",
+      "topic": "Crossings, grades, floors and turns",
+      "question": "A loaded truck has to go down a grade in excess of 10 percent. Under 1910.178(n)(7)(i), how shall it be driven?",
+      "options": {
+        "A": "With the load downgrade",
+        "B": "With the load upgrade",
+        "C": "With the load raised high enough to see under it",
+        "D": "Diagonally across the grade"
+      },
+      "answer": "B",
+      "explanation": "\"When ascending or descending grades in excess of 10 percent, loaded trucks shall be driven with the load upgrade.\" This applies to loaded trucks going either up or down such grades.",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "When ascending or descending grades in excess of 10 percent, loaded trucks shall be driven with the load upgrade."
+    },
+    {
+      "id": "qe-016",
+      "topic": "Dockboards and elevators",
+      "question": "Before a truck is driven over a dockboard or bridgeplate, what does 1910.178(n)(11) require?",
+      "options": {
+        "A": "That the truck be unloaded",
+        "B": "That the operator sound the horn twice",
+        "C": "That the dockboard or bridgeplate be properly secured",
+        "D": "That the truck travel with the load trailing"
+      },
+      "answer": "C",
+      "explanation": "\"Dockboard or bridgeplates, shall be properly secured before they are driven over.\" They are then driven over \"carefully and slowly and their rated capacity never exceeded.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Dockboard or bridgeplates, shall be properly secured before they are driven over."
+    },
+    {
+      "id": "qe-017",
+      "topic": "Dockboards and elevators",
+      "question": "A truck has just entered an elevator. What does 1910.178(n)(12) require once it is on the elevator?",
+      "options": {
+        "A": "The load raised to clear the elevator door",
+        "B": "The truck turned to face the door",
+        "C": "The controls neutralized, power shut off, and the brakes set",
+        "D": "The operator dismounted and off the elevator"
+      },
+      "answer": "C",
+      "explanation": "\"Once on the elevator, the controls shall be neutralized, power shut off, and the brakes set.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Once on the elevator, the controls shall be neutralized, power shut off, and the brakes set."
+    },
+    {
+      "id": "qe-018",
+      "topic": "Crossings, grades, floors and turns",
+      "question": "1910.178(n)(15) says the hand steering wheel shall be turned at a moderate, even rate, except in what case?",
+      "options": {
+        "A": "When maneuvering at a very low speed",
+        "B": "When the truck is not carrying a load",
+        "C": "When traveling with the load trailing",
+        "D": "When the turn is at a cross aisle"
+      },
+      "answer": "A",
+      "explanation": "\"Except when maneuvering at a very low speed, the hand steering wheel shall be turned at a moderate, even rate.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Except when maneuvering at a very low speed, the hand steering wheel shall be turned at a moderate, even rate."
+    },
+    {
+      "id": "qe-019",
+      "topic": "Handling and tilting loads",
+      "question": "A load is off-center and cannot be centered. What does 1910.178(o)(1) say about handling it?",
+      "options": {
+        "A": "It shall not be handled",
+        "B": "It may be handled only with a vertical load backrest extension",
+        "C": "It may be handled only on level floors",
+        "D": "Caution shall be exercised when handling it"
+      },
+      "answer": "D",
+      "explanation": "\"Only stable or safely arranged loads shall be handled. Caution shall be exercised when handling off-center loads which cannot be centered.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Caution shall be exercised when handling off-center loads which cannot be centered."
+    },
+    {
+      "id": "qe-020",
+      "topic": "Handling and tilting loads",
+      "question": "An operator is holding an elevated load. Under 1910.178(o)(6), when may that load be tilted forward?",
+      "options": {
+        "A": "Whenever the mast was first tilted fully back",
+        "B": "When the load is in a deposit position over a rack or stack",
+        "C": "When the truck is traveling down a grade",
+        "D": "Whenever a load backrest extension is in place"
+      },
+      "answer": "B",
+      "explanation": "\"An elevated load shall not be tilted forward except when the load is in a deposit position over a rack or stack.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+      },
+      "checked": "2026-11-06",
+      "evidence": "An elevated load shall not be tilted forward except when the load is in a deposit position over a rack or stack."
+    }
+  ]
+}
