@@ -170,12 +170,12 @@
     {
       "id": "kp-010",
       "topic": "Encroachment precautions",
-      "question": "How does 1926.1401 define encroachment?",
+      "question": "During a lift the boom stays outside the minimum clearance distance, but a sling in the rigging breaches it. Does that meet the 1926.1401 definition of encroachment?",
       "options": {
-        "A": "Any part of the crane, load line or load (including rigging and lifting accessories) breaching a minimum clearance distance the subpart requires to be maintained from a power line",
-        "B": "Any contact between the load and a structure in the work zone",
-        "C": "The crane's counterweight swinging outside the work zone boundaries",
-        "D": "Any worker entering the swing radius of the equipment"
+        "A": "Yes; the definition covers any part of the crane, load line or load, including rigging and lifting accessories",
+        "B": "No; only the boom and jib are counted",
+        "C": "No; encroachment means actual contact with the power line",
+        "D": "Only if the operator can see the power line from the cab"
       },
       "answer": "A",
       "explanation": "\"Encroachment is where any part of the crane, load line or load (including rigging and lifting accessories) breaches a minimum clearance distance that this subpart requires to be maintained from a power line.\"",
@@ -206,18 +206,18 @@
     {
       "id": "kp-012",
       "topic": "Encroachment prevention measures",
-      "question": "Under the 1926.1401 definition, what is a dedicated spotter's sole responsibility?",
+      "question": "Where a dedicated spotter is the measure selected under 1926.1408(b)(4)(ii), what must the spotter be equipped with?",
       "options": {
-        "A": "To give all hand signals for every lift on the site",
-        "B": "To watch the separation between the power line and the equipment, load line and load, and ensure through communication with the operator that the minimum approach distance is not breached",
-        "C": "To inspect the equipment each shift before work begins",
-        "D": "To keep unauthorized workers out of the swing radius"
+        "A": "A proximity alarm mounted on the boom tip",
+        "B": "A visual aid to assist in identifying the minimum clearance distance",
+        "C": "A copy of the utility owner/operator's voltage records",
+        "D": "A non-conductive tag line attached to the load"
       },
       "answer": "B",
-      "explanation": "A dedicated spotter's \"sole responsibility is to watch the separation between the power line and the equipment, load line and load (including rigging and lifting accessories), and ensure through communication with the operator that the applicable minimum approach distance is not breached.\"",
+      "explanation": "The dedicated spotter must \"Be equipped with a visual aid to assist in identifying the minimum clearance distance.\" One example the rule gives is \"A clearly visible line painted on the ground\".",
       "source": {
-        "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+        "title": "eCFR: 29 CFR 1926.1408, Power line safety (up to 350 kV)—equipment operations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1408"
       },
       "checked": "2026-11-06"
     },
@@ -242,15 +242,15 @@
     {
       "id": "kp-014",
       "topic": "Voltage information and Table A",
-      "question": "In Table A of 1926.1408, in what terms are the voltages in the first column stated?",
+      "question": "An employer using Option (3) must erect and maintain an elevated warning line, barricade, or line of signs in view of the operator under 1926.1408(b)(3). Where must it be placed?",
       "options": {
-        "A": "Peak kV, direct current",
-        "B": "Volts measured at the customer's meter",
-        "C": "Line-to-ground kV, direct current",
-        "D": "Nominal kV, alternating current"
+        "A": "Directly beneath the power line",
+        "B": "At the edge of the equipment's maximum working radius",
+        "C": "At a distance the operator picks from the cab",
+        "D": "At the minimum approach distance under Table A"
       },
       "answer": "D",
-      "explanation": "The voltage column of Table A is headed \"Voltage (nominal, kV, alternating current)\", and each row gives a \"Minimum clearance distance (feet)\".",
+      "explanation": "Paragraph (b)(3) places it \"at 20 feet from the power line (if using Option (2) of this section) or at the minimum approach distance under Table A (see § 1926.1408) (if using Option (3) of this section).\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1408, Power line safety (up to 350 kV)—equipment operations (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1408"
@@ -332,15 +332,15 @@
     {
       "id": "kp-019",
       "topic": "Training",
-      "question": "Under 1926.1408(g)(1)(i)(B), training must cover the importance of the operator remaining inside the cab except in what situation?",
+      "question": "Under 1926.1408(g)(1)(i), the training on procedures in the event of electrical contact with a power line must include what need for crew in the area?",
       "options": {
-        "A": "Where the load has already touched the ground",
-        "B": "Where the power line voltage is up to 50 kV",
-        "C": "Where a dedicated spotter tells the operator to step down",
-        "D": "Where there is an imminent danger of fire, explosion, or other emergency that necessitates leaving the cab"
+        "A": "The need to approach the equipment and help the operator climb down",
+        "B": "The need to touch the load to check whether it is energized",
+        "C": "The need to take over the controls from the operator",
+        "D": "The need to avoid approaching or touching the equipment and the load"
       },
       "answer": "D",
-      "explanation": "Training must include \"The importance to the operator's safety of remaining inside the cab except where there is an imminent danger of fire, explosion, or other emergency that necessitates leaving the cab.\"",
+      "explanation": "The training must include \"The need for crew in the area to avoid approaching or touching the equipment and the load.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1408, Power line safety (up to 350 kV)—equipment operations (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1408"
