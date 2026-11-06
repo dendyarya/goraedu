@@ -29,11 +29,40 @@ export type Guide = {
 const SOURCES_DIR = path.join(process.cwd(), "data", "sources");
 const ECFR_DIR = path.join(SOURCES_DIR, "ecfr");
 // Official sources whose quotes are checked: eCFR rule text and, for FAA Part 107, FAA's own publications.
-const CHECKED_HOSTS = ["ecfr.gov", "faa.gov"];
+const CHECKED_HOSTS = ["ecfr.gov", "faa.gov", "epa.gov"];
 // Dated rule text each cluster's quotes are checked against. Subpart G (SNAP) has wide tables, so it is kept twice:
 // as laid out on the page and in reading order (one table cell after another); a quote may match either copy.
 const SNAPSHOTS: Record<string, string[]> = {
-  "epa-608": ["40cfr82-subpartF-2026-11-03.txt"],
+  "epa-608": [
+    "40cfr82-subpartF-2026-11-03.txt",
+    "epa/608_fact_sheet_technicians_0-2026-11-06.reading-order.txt",
+    "epa/608_fact_sheet_technicians_0-2026-11-06.txt",
+    "epa/basic-ozone-layer-science-2026-11-06.txt",
+    "epa/definitions-section-608-terms-2026-11-06.txt",
+    "epa/epas-refrigerant-management-program-questions-and-answers-section-608-certified-2026-11-06.txt",
+    "epa/health-and-environmental-effects-ozone-layer-depletion-2026-11-06.txt",
+    "epa/information-ozone-and-ozone-depletion-2026-11-06.txt",
+    "epa/international-treaties-and-cooperation-about-protection-stratospheric-ozone-2026-11-06.txt",
+    "epa/ods-phaseout-2026-11-06.txt",
+    "epa/phaseout-ods-under-clean-air-act-2026-11-06.txt",
+    "epa/questions-and-answers-about-refrigerant-sales-restriction-2026-11-06.txt",
+    "epa/recordkeeping-and-reporting-requirements-stationary-refrigeration-2026-11-06.txt",
+    "epa/refrigerant-recovery-and-recycling-equipment-certification-2026-11-06.txt",
+    "epa/refrigerant-sales-restriction-2026-11-06.txt",
+    "epa/required-level-evacuation-appliances-2026-11-06.txt",
+    "epa/residential_air_conditioning_and_the_phaseout_of_hcfc-22_what_you_need_to_know_final_508-2026-11-06.reading-order.txt",
+    "epa/residential_air_conditioning_and_the_phaseout_of_hcfc-22_what_you_need_to_know_final_508-2026-11-06.txt",
+    "epa/safe-disposal-procedures-household-appliances-use-refrigerants-2026-11-06.txt",
+    "epa/section-608-and-section-609-overlap-2026-11-06.txt",
+    "epa/section-608-technician-certification-requirements-2026-11-06.txt",
+    "epa/stationary-refrigeration-leak-repair-requirements-2026-11-06.txt",
+    "epa/stationary-refrigeration-prohibition-venting-refrigerants-2026-11-06.txt",
+    "epa/stationary-refrigeration-refrigerant-reclamation-requirements-2026-11-06.txt",
+    "epa/stationary-refrigeration-safe-disposal-requirements-2026-11-06.txt",
+    "epa/stationary-refrigeration-service-practice-requirements-2026-11-06.txt",
+    "epa/steps-replacing-lost-section-608-technician-certification-card-2026-11-06.txt",
+    "epa/test-topics-2026-11-06.txt",
+  ],
   osha: [
     "29cfr1926-subpartC-2026-11-03.txt",
     "29cfr1926-subpartE-2026-11-03.txt",
