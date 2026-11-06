@@ -195,7 +195,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "Quantity rules for transportation by aircraft (172.202(a)(6)) are not covered here."
+      "notCovered": "Quantity rules for transportation by aircraft (172.202(a)(6)) are not covered here, and neither are the extra quantity provisions for Class 1 materials and salvage packaging in 172.202(a)(5)(i) and (ii)."
     },
     {
       "id": "additional",
@@ -299,7 +299,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Except for a hazardous waste, no certification is required for a hazardous material offered for transportation by motor vehicle and transported in a cargo tank supplied by the carrier, or by the shipper as a private carrier, except for material that is to be reshipped or transferred from one carrier to another.",
+          "text": "Except for a hazardous waste, no certification is required for a hazardous material offered for transportation by motor vehicle and transported in one of two ways: in a cargo tank supplied by the carrier, or by the shipper as a private carrier. The private carrier case does not apply to a hazardous material that is to be reshipped or transferred from one carrier to another.",
           "quote": "Except for a hazardous waste, no certification is required for a hazardous material offered for transportation by motor vehicle and transported: (i) In a cargo tank supplied by the carrier, or (ii) By the shipper as a private carrier except for a hazardous material that is to be reshipped or transferred from one carrier to another.",
           "source": {
             "title": "eCFR: 49 CFR 172.204, Shipper's certification (as of Nov 4, 2026)",
@@ -412,8 +412,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "As a minimum, emergency response information must contain the basic description and technical name of the material, immediate hazards to health, risks of fire or explosion, immediate precautions in an accident or incident, immediate methods for handling fires, initial methods for handling spills or leaks in the absence of fire, and preliminary first aid measures.",
-          "quote": "(1) The basic description and technical name of the hazardous material as required by §§ 172.202 and 172.203(k), the ICAO Technical Instructions, the IMDG Code, or the TDG Regulations, as appropriate (IBR, see § 171.7 of this subchapter); (2) Immediate hazards to health; (3) Risks of fire or explosion; (4) Immediate precautions to be taken in the event of an accident or incident; (5) Immediate methods for handling fires; (6) Initial methods for handling spills or leaks in the absence of fire; and (7) Preliminary first aid measures.",
+          "text": "Emergency response information is information that can be used in the mitigation of an incident involving hazardous materials. As a minimum, it must contain the basic description and technical name of the material, immediate hazards to health, risks of fire or explosion, immediate precautions in an accident or incident, immediate methods for handling fires, initial methods for handling spills or leaks in the absence of fire, and preliminary first aid measures.",
+          "quote": "the term “emergency response information” means information that can be used in the mitigation of an incident involving hazardous materials and, as a minimum, must contain the following information: (1) The basic description and technical name of the hazardous material as required by §§ 172.202 and 172.203(k), the ICAO Technical Instructions, the IMDG Code, or the TDG Regulations, as appropriate (IBR, see § 171.7 of this subchapter); (2) Immediate hazards to health; (3) Risks of fire or explosion; (4) Immediate precautions to be taken in the event of an accident or incident; (5) Immediate methods for handling fires; (6) Initial methods for handling spills or leaks in the absence of fire; and (7) Preliminary first aid measures.",
           "source": {
             "title": "eCFR: 49 CFR 172.602, Emergency response information (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-G/section-172.602"
@@ -422,7 +422,7 @@
         },
         {
           "text": "The information must be printed legibly in English (on paper or in electronic format) and be available for use away from the package containing the hazardous material.",
-          "quote": "(1) Printed legibly in English (either in hard copy printed on paper or in electronic format); (2) Available for use away from the package containing the hazardous material; and",
+          "quote": "The information required for a hazardous material by paragraph (a) of this section must be: (1) Printed legibly in English (either in hard copy printed on paper or in electronic format); (2) Available for use away from the package containing the hazardous material; and",
           "source": {
             "title": "eCFR: 49 CFR 172.602, Emergency response information (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-G/section-172.602"
@@ -431,7 +431,7 @@
         },
         {
           "text": "It must be presented in one of the options: on a shipping paper; in another document that includes both the basic description and technical name and the emergency response information (e.g., a material safety data sheet); or in a separate document, such as an emergency response guidance document, that cross-references the description on the shipping paper.",
-          "quote": "On a shipping paper; (ii) In a document, other than a shipping paper, that includes both the basic description and technical name of the hazardous material as required by §§ 172.202 and 172.203(k), the ICAO Technical Instructions, the IMDG Code, or the TDG Regulations, as appropriate, and the emergency response information required by this subpart (e.g., a material safety data sheet); or (iii) Related to the information on a shipping paper, a written notification to pilot-in-command, or a dangerous cargo manifest, in a separate document (e.g., an emergency response guidance document), in a manner that cross-references the description of the hazardous material on the shipping paper with the emergency response information contained in the document.",
+          "quote": "(3) Presented— (i) On a shipping paper; (ii) In a document, other than a shipping paper, that includes both the basic description and technical name of the hazardous material as required by §§ 172.202 and 172.203(k), the ICAO Technical Instructions, the IMDG Code, or the TDG Regulations, as appropriate, and the emergency response information required by this subpart (e.g., a material safety data sheet); or (iii) Related to the information on a shipping paper, a written notification to pilot-in-command, or a dangerous cargo manifest, in a separate document (e.g., an emergency response guidance document), in a manner that cross-references the description of the hazardous material on the shipping paper with the emergency response information contained in the document.",
           "source": {
             "title": "eCFR: 49 CFR 172.602, Emergency response information (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-G/section-172.602"
@@ -474,7 +474,7 @@
         },
         {
           "text": "The number must be monitored at all times the hazardous material is in transportation, including storage incidental to transportation.",
-          "quote": "Monitored at all times the hazardous material is in transportation, including storage incidental to transportation;",
+          "quote": "The telephone number must be— (1) Monitored at all times the hazardous material is in transportation, including storage incidental to transportation;",
           "source": {
             "title": "eCFR: 49 CFR 172.604, Emergency response telephone number (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-G/section-172.604"
@@ -491,7 +491,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The number is entered on the shipping paper in one of the options: immediately after the hazardous material description, or once in a prominent, readily identifiable and clearly visible manner. The offeror may use the second option only if the number applies to each hazardous material on the shipping paper and it is indicated that the number is for emergency response information (for example \"EMERGENCY CONTACT:\").",
+          "text": "The number is entered on the shipping paper in one of two ways: immediately after the hazardous material description, or once, in a prominent, readily identifiable and clearly visible manner (for example by highlighting or a larger or different-color font). The rule allows the offeror to use one of the methods in that second option only if the number applies to each hazardous material on the shipping paper and it is indicated that the number is for emergency response information (for example \"EMERGENCY CONTACT:\").",
           "quote": "Entered on a shipping paper, as follows: (i) Immediately following the description of the hazardous material required by subpart C of this part; or (ii) Entered once on the shipping paper in the manner prescribed in paragraph (b) of this section in a prominent, readily identifiable, and clearly visible manner that allows the information to be easily and quickly found, such as by highlighting, use of a larger font or a font that is a different color from other text and information, or otherwise setting the information apart to provide for quick and easy recognition. The offeror may use one of the methods prescribed in this paragraph only if the telephone number applies to each hazardous material entered on the shipping paper, and if it is indicated that the telephone number is for emergency response information (for example: “EMERGENCY CONTACT: * * *”).",
           "source": {
             "title": "eCFR: 49 CFR 172.604, Emergency response telephone number (as of Nov 4, 2026)",
