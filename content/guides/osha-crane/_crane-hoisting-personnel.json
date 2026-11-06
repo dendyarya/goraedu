@@ -47,7 +47,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Exception: a personnel platform is not required for hoisting employees into and out of drill shafts up to and including 8 feet in diameter (paragraph (o) sets their requirements).",
+          "text": "One of the listed exceptions: a personnel platform is not required for hoisting employees into and out of drill shafts up to and including 8 feet in diameter (paragraph (o) sets their requirements).",
           "quote": "Exceptions: A personnel platform is not required for hoisting employees: (i) Into and out of drill shafts that are up to and including 8 feet in diameter (see paragraph (o) of this section for requirements for hoisting these employees).",
           "source": {
             "title": "eCFR: 29 CFR 1926.1431, Hoisting personnel (as of Nov 4, 2026)",
@@ -99,7 +99,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "When personnel are hoisted without a platform under the (b)(2) exceptions, the same 50 percent limit applies to the total load, which includes any other equipment that imposes a load.",
+          "text": "When personnel are hoisted without a platform under the (b)(2) exceptions, the total load (including the hook, load line, rigging and any other equipment that imposes a load) must not exceed 50 percent of the rated capacity for the radius and configuration, except during proof testing.",
           "quote": "When hoisting personnel without a personnel platform pursuant to paragraph (b)(2) of this section, the total load (including the hook, load line, rigging and any other equipment that imposes a load) must not exceed 50 percent of the rated capacity for the radius and configuration of the equipment, except during proof testing.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1431, Hoisting personnel (as of Nov 4, 2026)",
@@ -214,8 +214,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Platforms are only for employees, their tools and the materials needed for their work, and must not hoist materials or tools when not hoisting personnel.",
-          "quote": "Personnel platforms must be used only for employees, their tools, and the materials necessary to do their work. Platforms must not be used to hoist materials or tools when not hoisting personnel.",
+          "text": "Platforms are only for employees, their tools and the materials needed for their work, and must not hoist materials or tools when not hoisting personnel; as an exception, materials and tools to be used during the lift may be in the platform for trial lifts if secured and distributed as paragraph (f)(3) requires.",
+          "quote": "Personnel platforms must be used only for employees, their tools, and the materials necessary to do their work. Platforms must not be used to hoist materials or tools when not hoisting personnel. (ii) Exception: Materials and tools to be used during the lift, if secured and distributed in accordance with paragraph (f)(3) of this section may be in the platform for trial lifts.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1431, Hoisting personnel (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1431"
@@ -318,7 +318,7 @@
         },
         {
           "text": "Immediately after the trial lift, the competent person must visually inspect the equipment, base support or ground, and platform to see whether the trial lift exposed any defect or problem or produced any adverse effect.",
-          "quote": "Conduct a visual inspection of the equipment, base support or ground, and personnel platform, to determine whether the trial lift has exposed any defect or problem or produced any adverse effect.",
+          "quote": "Immediately after the trial lift, the competent person must: (i) Conduct a visual inspection of the equipment, base support or ground, and personnel platform, to determine whether the trial lift has exposed any defect or problem or produced any adverse effect.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1431, Hoisting personnel (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1431"
@@ -327,7 +327,7 @@
         },
         {
           "text": "Immediately before each lift, the platform must be hoisted a few inches with personnel and materials/tools aboard and inspected by a competent person to ensure it is secure and properly balanced.",
-          "quote": "The platform must be hoisted a few inches with the personnel and materials/tools on board and inspected by a competent person to ensure that it is secure and properly balanced.",
+          "quote": "Immediately prior to each lift: (i) The platform must be hoisted a few inches with the personnel and materials/tools on board and inspected by a competent person to ensure that it is secure and properly balanced.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1431, Hoisting personnel (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1431"
@@ -433,7 +433,7 @@
         },
         {
           "text": "For equipment other than derricks, hoisting employees while the equipment is traveling is prohibited, except in the cases the rule then lists.",
-          "quote": "Hoisting of employees while the equipment is traveling is prohibited, except for:",
+          "quote": "Traveling—equipment other than derricks. (i) Hoisting of employees while the equipment is traveling is prohibited, except for:",
           "source": {
             "title": "eCFR: 29 CFR 1926.1431, Hoisting personnel (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1431"
@@ -441,8 +441,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A pre-lift meeting must be attended by the operator, the signal person (if used), the employees to be hoisted and the person responsible for the task.",
-          "quote": "Attended by the equipment operator, signal person (if used for the lift), employees to be hoisted, and the person responsible for the task to be performed.",
+          "text": "A pre-lift meeting must be held to review the applicable requirements of the section and the procedures that will be followed, and must be attended by the operator, the signal person (if used for the lift), the employees to be hoisted and the person responsible for the task.",
+          "quote": "Pre-lift meeting. A pre-lift meeting must be: (1) Held to review the applicable requirements of this section and the procedures that will be followed. (2) Attended by the equipment operator, signal person (if used for the lift), employees to be hoisted, and the person responsible for the task to be performed.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1431, Hoisting personnel (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1431"
@@ -495,6 +495,15 @@
         {
           "text": "For pile driving on a boatswain's chair, paragraph (p)(4)(iii) says the employee must use personal fall protection, including a full body harness, independently attached to the lower load block or overhaul ball.",
           "quote": "The employee must use personal fall protection equipment, including a full body harness, independently attached to the lower load block or overhaul ball.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1431, Hoisting personnel (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1431"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For pile driving with lattice boom cranes, paragraph (p)(2) gives two options to prevent two-blocking: clearly mark the cable at a point that gives the operator sufficient time to stop the hoist, or use a spotter in direct communication with the operator to say when this point is reached.",
+          "quote": "For lattice boom cranes: Clearly mark the cable (so that it can easily be seen by the operator) at a point that will give the operator sufficient time to stop the hoist to prevent two-blocking, or use a spotter who is in direct communication with the operator to inform the operator when this point is reached.",
           "source": {
             "title": "eCFR: 29 CFR 1926.1431, Hoisting personnel (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1431"
