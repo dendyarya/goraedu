@@ -50,7 +50,6 @@ export default function Home() {
   const topicPages = getAllTopicPages();
   const latest = getAllNews().slice(0, 8);
   const live = WITH_FAMILY.filter((c) => c.status === "available" && c.href);
-  const next = WITH_FAMILY.filter((c) => c.status === "next");
   const totalQuestions = sets.reduce((n, s) => n + s.questions.length, 0);
 
   const universal = universalPool();
@@ -209,13 +208,13 @@ export default function Home() {
           Ready to <span className="text-low">practice</span>
         </h2>
         <div className="mt-7 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {live.map((c) => {
+          {live.slice(0, 6).map((c) => {
             const st = stats(c.id);
             const chips = [
               `${st.questions} questions`,
               st.guides ? `${st.guides} study ${st.guides === 1 ? "guide" : "guides"}` : null,
               st.rules ? `${st.rules} rule pages` : null,
-              st.tools ? `${st.tools} tools` : null,
+              st.tools ? `${st.tools} ${st.tools === 1 ? "tool" : "tools"}` : null,
             ].filter(Boolean) as string[];
             return (
               <article key={c.id} className="flex flex-col rounded-[1.75rem] border border-line bg-panel p-7">
@@ -257,22 +256,14 @@ export default function Home() {
               </article>
             );
           })}
-          {next.length ? (
-            <article className="flex flex-col rounded-[1.75rem] border-2 border-dashed border-line p-7">
-              <span className="self-start rounded-full bg-hose-soft px-3 text-[0.8125rem] font-bold leading-7 text-hose-ink">
-                Coming next
-              </span>
-              <h3 className="mt-5 text-[1.375rem]">{next.map((c) => c.name.replace(/ \(.*\)$/, "")).join(" and ")}</h3>
-              <ul className="mt-2 space-y-1.5 text-muted">
-                {next.map((c) => (
-                  <li key={c.id}>{c.summary}</li>
-                ))}
-              </ul>
-              <Link href="/certifications/" className="mt-auto pt-6 font-bold text-low underline">
-                See the full roadmap
-              </Link>
-            </article>
-          ) : null}
+        </div>
+        <div className="mt-8 flex justify-center">
+          <Link
+            href="/practice-tests/"
+            className="inline-flex min-h-12 items-center gap-2 rounded-full bg-low px-7 font-bold text-white hover:brightness-110"
+          >
+            All practice tests
+          </Link>
         </div>
       </section>
 
@@ -310,16 +301,11 @@ export default function Home() {
 
       {/* Tools */}
       <section className="mx-auto max-w-6xl px-4 pt-16 sm:px-6">
-        <div className="flex flex-wrap items-end justify-between gap-4">
-          <h2 className={H2}>
-            Free <span className="text-low">tools</span>
-          </h2>
-          <Link href="/tools/" className="font-bold text-low underline">
-            All tools
-          </Link>
-        </div>
+        <h2 className={H2}>
+          Free <span className="text-low">tools</span>
+        </h2>
         <ul className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {TOOLS.map((t) => (
+          {TOOLS.slice(0, 8).map((t) => (
             <li key={t.slug}>
               <Link
                 href={t.href}
@@ -334,6 +320,14 @@ export default function Home() {
             </li>
           ))}
         </ul>
+        <div className="mt-8 flex justify-center">
+          <Link
+            href="/tools/"
+            className="inline-flex min-h-12 items-center gap-2 rounded-full bg-low px-7 font-bold text-white hover:brightness-110"
+          >
+            All {TOOLS.length} tools
+          </Link>
+        </div>
       </section>
 
       {/* News */}
