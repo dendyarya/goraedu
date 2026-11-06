@@ -62,15 +62,15 @@
     {
       "id": "qf-004",
       "topic": "Fueling, fuel leaks and open flames",
-      "question": "1910.178(p)(2) has two sentences on filling fuel tanks. Besides the rule about the engine, what does it say?",
+      "question": "With the engine shut off, a refueling attendant routinely fills truck fuel tanks until they overflow onto the floor. Under 1910.178(p)(2), what is wrong with this practice?",
       "options": {
-        "A": "Tanks shall be filled only to 80 percent of capacity",
-        "B": "Tanks shall be filled only outdoors",
-        "C": "Spillage shall be avoided",
-        "D": "Tanks shall be filled only by a supervisor"
+        "A": "Nothing; (p)(2) covers only filling while the engine is running",
+        "B": "Nothing, as long as the floor is mopped by the end of the shift",
+        "C": "Spillage shall be avoided, and letting the tank overflow does not avoid it",
+        "D": "Fuel tanks may be filled only by a supervisor"
       },
       "answer": "C",
-      "explanation": "1910.178(p)(2) reads: \"Fuel tanks shall not be filled while the engine is running. Spillage shall be avoided.\"",
+      "explanation": "1910.178(p)(2) reads: \"Fuel tanks shall not be filled while the engine is running. Spillage shall be avoided.\" The second sentence applies even when the engine is off.",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -188,15 +188,15 @@
     {
       "id": "qf-011",
       "topic": "Parts, alterations and LP conversion",
-      "question": "Apart from what paragraph (q)(12) provides, what does 1910.178(q)(6) say about altering an industrial truck by the elimination of any parts?",
+      "question": "To save weight, a maintenance shop proposes removing a part the manufacturer installed on a fork truck. The change is not part of a conversion under paragraph (q)(12). What does 1910.178(q)(6) say?",
       "options": {
         "A": "It may be done if the operator agrees",
         "B": "It may be done for parts that weigh under 10 pounds",
-        "C": "Trucks shall not be altered that way",
+        "C": "Trucks shall not be altered by the elimination of any parts",
         "D": "It may be done if the truck is used only outdoors"
       },
       "answer": "C",
-      "explanation": "Industrial trucks shall not be altered so that the relative positions of the parts are different, \"nor shall they be altered either by the addition of extra parts not provided by the manufacturer or by the elimination of any parts, except as provided in paragraph (q)(12) of this section.\"",
+      "explanation": "Industrial trucks shall not be altered \"either by the addition of extra parts not provided by the manufacturer or by the elimination of any parts, except as provided in paragraph (q)(12) of this section.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -232,7 +232,7 @@
         "D": "Adding counterweight without the manufacturer's approval"
       },
       "answer": "B",
-      "explanation": "Trucks \"originally approved for the use of gasoline for fuel may be converted to liquefied petroleum gas fuel provided the complete conversion results in a truck which embodies the features specified for LP or LPS designated trucks.\" \"Such conversion equipment shall be approved.\"",
+      "explanation": "Trucks \"originally approved for the use of gasoline for fuel may be converted to liquefied petroleum gas fuel provided the complete conversion results in a truck which embodies the features specified for LP or LPS designated trucks.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -242,15 +242,15 @@
     {
       "id": "qf-014",
       "topic": "Parts, alterations and LP conversion",
-      "question": "Where does 1910.178(q)(12) say the description of the conversion system's component parts and the recommended method of installation on specific trucks are contained?",
+      "question": "A shop converts a truck originally approved for gasoline to liquefied petroleum gas fuel, using a conversion kit it built itself that has not been approved. Does this meet 1910.178(q)(12)?",
       "options": {
-        "A": "In Appendix A to 1910.178",
-        "B": "In the operator certification records",
-        "C": "In the truck's daily examination log",
-        "D": "In the \"Listed by Report\""
+        "A": "Yes, because (q)(12) allows any gasoline truck to be converted to LP gas",
+        "B": "Yes, if the shop has done similar conversions before",
+        "C": "Yes, if the operator has been trained on LP-gas trucks",
+        "D": "No, because such conversion equipment shall be approved"
       },
       "answer": "D",
-      "explanation": "\"Such conversion equipment shall be approved.\" The rule adds that \"The description of the component parts of this conversion system and the recommended method of installation on specific trucks are contained in the “Listed by Report.”\"",
+      "explanation": "1910.178(q)(12) allows the conversion and then says \"Such conversion equipment shall be approved.\" A kit that has not been approved does not meet that requirement.",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -350,15 +350,15 @@
     {
       "id": "qf-020",
       "topic": "Mufflers, cleaning and solvents",
-      "question": "Under 1910.178(q)(10), precautions regarding toxicity, ventilation, and fire hazard shall be consonant with what?",
+      "question": "A plant switches to a new high flash point cleaning solvent that is more toxic than the one it used before. Under 1910.178(q)(10), what must the precautions regarding toxicity, ventilation, and fire hazard match?",
       "options": {
         "A": "The size of the truck",
-        "B": "The operator's years of experience",
+        "B": "The precautions used for the old solvent",
         "C": "The agent or solvent used",
         "D": "The time of day the cleaning is done"
       },
       "answer": "C",
-      "explanation": "\"Precautions regarding toxicity, ventilation, and fire hazard shall be consonant with the agent or solvent used.\"",
+      "explanation": "1910.178(q)(10) says \"High flash point (at or above 100 °F.) solvents may be used. Precautions regarding toxicity, ventilation, and fire hazard shall be consonant with the agent or solvent used.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"

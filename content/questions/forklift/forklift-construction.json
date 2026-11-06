@@ -8,7 +8,7 @@
     {
       "id": "qg-001",
       "topic": "Scope and rated capacity",
-      "question": "Paragraph (c) of 29 CFR 1926.602 covers lifting and hauling equipment in construction. Which equipment does its heading leave out?",
+      "question": "A contractor is checking whether 29 CFR 1926.602(c), Lifting and hauling equipment, applies to a piece of equipment on a construction site. Which equipment does paragraph (c) exclude?",
       "options": {
         "A": "Trucks used only on paved surfaces",
         "B": "Equipment covered under subpart N of this part",
@@ -26,15 +26,15 @@
     {
       "id": "qg-002",
       "topic": "Scope and rated capacity",
-      "question": "On a construction site, a lift truck's rated capacity is printed on a plate mounted under the seat, where the operator cannot see it from the controls. Which wording of 1926.602(c)(1)(i) does this placement fail to meet?",
+      "question": "On a construction site, a lift truck's rated capacity is printed on a plate mounted under the seat, where the operator cannot see it from the controls. Does this meet 1926.602(c)(1)(i)?",
       "options": {
-        "A": "\"firmly secured to the lifting carriage and/or forks\"",
-        "B": "\"the proportion of the total load carried by any one truck\"",
-        "C": "\"mounted within the periphery of the wheel\"",
-        "D": "\"so as to be clearly visible to the operator\""
+        "A": "Yes, because the capacity is posted somewhere on the vehicle",
+        "B": "Yes, if the operator has been told the capacity at the start of the shift",
+        "C": "No, because the capacity must be posted at the site office instead of on the vehicle",
+        "D": "No, because the capacity must be posted on the vehicle so as to be clearly visible to the operator"
       },
       "answer": "D",
-      "explanation": "Lift trucks, stackers, etc., \"shall have the rated capacity clearly posted on the vehicle so as to be clearly visible to the operator.\" A plate the operator cannot see does not meet that wording.",
+      "explanation": "Lift trucks, stackers, etc., \"shall have the rated capacity clearly posted on the vehicle so as to be clearly visible to the operator.\" A plate the operator cannot see from the controls does not meet that requirement.",
       "source": {
         "title": "eCFR: 29 CFR 1926.602, Material handling equipment (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-O/section-1926.602"
@@ -98,15 +98,15 @@
     {
       "id": "qg-006",
       "topic": "Modifications and loads lifted in unison",
-      "question": "Two industrial trucks work in unison to lift one load. What does 1926.602(c)(1)(iii) limit?",
+      "question": "Two industrial trucks working in unison lift one 5,000-lb load on a construction site. Truck 1, rated at 4,000 lb, carries 3,500 lb of it; truck 2, rated at 3,000 lb, carries 1,500 lb. Does this meet the limit in 1926.602(c)(1)(iii)?",
       "options": {
-        "A": "Only the lead truck's operator may control the lift",
-        "B": "The proportion of the total load carried by any one truck shall not exceed its capacity",
-        "C": "The trucks may travel only in reverse",
-        "D": "No more than two trucks may share one load"
+        "A": "No, because the total load is more than either truck could lift alone",
+        "B": "Yes, because neither truck's share of the load exceeds its capacity",
+        "C": "No, because two trucks may not lift one load together",
+        "D": "Yes, but only if a third truck stands by"
       },
       "answer": "B",
-      "explanation": "\"If a load is lifted by two or more trucks working in unison, the proportion of the total load carried by any one truck shall not exceed its capacity.\"",
+      "explanation": "\"If a load is lifted by two or more trucks working in unison, the proportion of the total load carried by any one truck shall not exceed its capacity.\" Here 3,500 lb is within 4,000 lb and 1,500 lb is within 3,000 lb.",
       "source": {
         "title": "eCFR: 29 CFR 1926.602, Material handling equipment (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-O/section-1926.602"

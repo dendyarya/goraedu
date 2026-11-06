@@ -26,15 +26,15 @@
     {
       "id": "qe-002",
       "topic": "People around the truck",
-      "question": "A truck's forks are raised but carry no load. What does 1910.178(m)(2) say about a worker walking under the elevated forks?",
+      "question": "A platform lift truck has its platform raised to a top shelf. A coworker wants to sweep the floor directly beneath the raised platform. What does 1910.178(m)(2) say?",
       "options": {
-        "A": "It is allowed because the truck is empty",
-        "B": "It is allowed if the worker passes without stopping",
-        "C": "It is allowed once the operator has neutralized the controls",
-        "D": "No person shall be allowed to pass under the elevated portion of the truck, whether loaded or empty"
+        "A": "Sweeping there is allowed because the truck has no raised forks",
+        "B": "Sweeping there is allowed if the person on the platform agrees",
+        "C": "Sweeping there is allowed if the coworker wears a hard hat",
+        "D": "No person shall be allowed to stand or pass under the elevated portion of any truck"
       },
       "answer": "D",
-      "explanation": "\"No person shall be allowed to stand or pass under the elevated portion of any truck, whether loaded or empty.\" The rule covers both standing and passing, and an empty truck is included.",
+      "explanation": "\"No person shall be allowed to stand or pass under the elevated portion of any truck, whether loaded or empty.\" The rule covers the elevated portion of any truck, not only forks.",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -44,15 +44,15 @@
     {
       "id": "qe-003",
       "topic": "Handling and tilting loads",
-      "question": "When a load is picked up, how far does 1910.178(o)(5) say the load engaging means shall be placed under the load?",
+      "question": "A truck is about to carry a high, multiple-tiered load that may affect the truck's capacity. What does 1910.178(o)(3) require?",
       "options": {
-        "A": "As far as possible",
-        "B": "Halfway under the load",
-        "C": "Only far enough to lift the load clear of the floor",
-        "D": "Exactly to the load's center"
+        "A": "The load shall be adjusted",
+        "B": "The load may be carried as it is if it is below the truck's rated capacity",
+        "C": "The load may be carried only on grades under 10 percent",
+        "D": "The load shall be carried by two trucks working together"
       },
       "answer": "A",
-      "explanation": "\"A load engaging means shall be placed under the load as far as possible; the mast shall be carefully tilted backward to stabilize the load.\"",
+      "explanation": "\"The long or high (including multiple-tiered) loads which may affect capacity shall be adjusted.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -80,15 +80,15 @@
     {
       "id": "qe-005",
       "topic": "Unattended trucks",
-      "question": "An operator gets off the truck and walks behind a rack, so the truck is no longer in his view, though it is only about 10 ft. away. How does 1910.178(m)(5)(ii) classify the truck?",
+      "question": "Paragraph (m)(5)(i) lists steps for an unattended truck, and (m)(5)(iii) lists steps for an operator who is dismounted within 25 ft. with the truck still in view. Which of these steps appears only in (m)(5)(i)?",
       "options": {
-        "A": "As unattended, because the operator left the vehicle and it is not in his view",
-        "B": "As attended, because the operator is less than 25 ft. away",
-        "C": "As attended until the operator is 25 ft. or more away",
-        "D": "As unattended only if the engine is still running"
+        "A": "Power shall be shut off",
+        "B": "The load engaging means shall be fully lowered",
+        "C": "The controls shall be neutralized",
+        "D": "The brakes shall be set"
       },
       "answer": "A",
-      "explanation": "A truck is unattended \"when the operator is 25 ft. or more away from the vehicle which remains in his view, or whenever the operator leaves the vehicle and it is not in his view.\" Once it is out of view, distance does not matter.",
+      "explanation": "For an unattended truck, \"load engaging means shall be fully lowered, controls shall be neutralized, power shall be shut off, and brakes set.\" For a dismounted operator within 25 ft., (iii) lists only that \"the load engaging means shall be fully lowered, controls neutralized, and the brakes set to prevent movement.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -98,15 +98,15 @@
     {
       "id": "qe-006",
       "topic": "Unattended trucks",
-      "question": "A truck is parked on an incline and left unattended. Besides fully lowering the load engaging means, neutralizing the controls, shutting off power and setting the brakes, what does 1910.178(m)(5)(i) require?",
+      "question": "Under 1910.178(m)(5)(i), in which situation shall a truck's wheels be blocked?",
       "options": {
-        "A": "Turning the steering wheel fully to one side",
-        "B": "Blocking the wheels",
-        "C": "Raising the load engaging means slightly off the floor",
-        "D": "Leaving the warning lights on"
+        "A": "Whenever the truck's load is raised",
+        "B": "When the truck is left unattended and parked on an incline",
+        "C": "When the operator is dismounted within 25 ft. of the truck still in his view",
+        "D": "Whenever the truck stands on a dockboard"
       },
       "answer": "B",
-      "explanation": "After the steps for any unattended truck, the rule adds: \"Wheels shall be blocked if the truck is parked on an incline.\"",
+      "explanation": "The paragraph on unattended trucks ends: \"Wheels shall be blocked if the truck is parked on an incline.\" Paragraph (m)(5)(iii), for a dismounted operator within 25 ft., does not list wheel blocking.",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -152,15 +152,15 @@
     {
       "id": "qe-009",
       "topic": "Clearance, guards and hazardous locations",
-      "question": "According to 1910.178(m)(9), what is an overhead guard not intended to withstand?",
+      "question": "A new sprinkler pipe is being run across an aisle where trucks travel. What does 1910.178(m)(8) require?",
       "options": {
-        "A": "The impact of small packages",
-        "B": "The impact of boxes",
-        "C": "The impact of bagged material",
-        "D": "The impact of a falling capacity load"
+        "A": "Trucks in that aisle shall be fitted with a load backrest extension",
+        "B": "The pipe shall be painted a warning color",
+        "C": "Trucks in that aisle shall travel with the load trailing",
+        "D": "There shall be sufficient headroom under the overhead installation"
       },
       "answer": "D",
-      "explanation": "An overhead guard \"is intended to offer protection from the impact of small packages, boxes, bagged material, etc., representative of the job application, but not to withstand the impact of a falling capacity load.\"",
+      "explanation": "\"There shall be sufficient headroom under overhead installations, lights, pipes, sprinkler system, etc.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -188,15 +188,15 @@
     {
       "id": "qe-011",
       "topic": "Traffic and travel control",
-      "question": "What following distance from the truck ahead does 1910.178(n)(1) set?",
+      "question": "A plant has set a speed limit for trucks in its main aisle. What does 1910.178(n)(1) say about it?",
       "options": {
-        "A": "Approximately one truck length",
-        "B": "Approximately two truck lengths",
-        "C": "Approximately three truck lengths",
-        "D": "Approximately six truck lengths"
+        "A": "Plant speed limits apply only to over-the-road vehicles",
+        "B": "Operators may exceed it when the truck is empty",
+        "C": "All traffic regulations shall be observed, including authorized plant speed limits",
+        "D": "Only OSHA may set a speed limit for trucks"
       },
       "answer": "C",
-      "explanation": "\"A safe distance shall be maintained approximately three truck lengths from the truck ahead, and the truck shall be kept under control at all times.\"",
+      "explanation": "\"All traffic regulations shall be observed, including authorized plant speed limits.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -242,15 +242,15 @@
     {
       "id": "qe-014",
       "topic": "Crossings, grades, floors and turns",
-      "question": "1910.178(n)(5) prohibits parking a truck closer than 8 feet from what?",
+      "question": "Pieces of a broken pallet are lying in a truck's travel path. What does 1910.178(n)(14) say?",
       "options": {
-        "A": "The nearest rail",
-        "B": "The edge of the railroad crossing",
-        "C": "The nearest railroad car",
-        "D": "The center of railroad tracks"
+        "A": "They may be run over at a very low speed",
+        "B": "They may be run over if the truck is not carrying a load",
+        "C": "They may be run over if the horn is sounded first",
+        "D": "Running over loose objects on the roadway surface shall be avoided"
       },
       "answer": "D",
-      "explanation": "\"Parking closer than 8 feet from the center of railroad tracks is prohibited.\"",
+      "explanation": "\"Running over loose objects on the roadway surface shall be avoided.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -260,15 +260,15 @@
     {
       "id": "qe-015",
       "topic": "Crossings, grades, floors and turns",
-      "question": "A loaded truck has to go down a grade in excess of 10 percent. Under 1910.178(n)(7)(i), how shall it be driven?",
+      "question": "A spill has just been mopped up and the aisle floor is still wet when an operator reaches it. What does 1910.178(n)(10) require?",
       "options": {
-        "A": "With the load downgrade",
-        "B": "With the load upgrade",
-        "C": "With the load raised high enough to see under it",
-        "D": "Diagonally across the grade"
+        "A": "Travel through the aisle with the load trailing",
+        "B": "The driver shall be required to slow down for wet and slippery floors",
+        "C": "Sound the horn and continue at normal speed",
+        "D": "Raise the load so the floor can be seen"
       },
       "answer": "B",
-      "explanation": "\"When ascending or descending grades in excess of 10 percent, loaded trucks shall be driven with the load upgrade.\" This applies to loaded trucks going either up or down such grades.",
+      "explanation": "\"The driver shall be required to slow down for wet and slippery floors.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -278,15 +278,15 @@
     {
       "id": "qe-016",
       "topic": "Dockboards and elevators",
-      "question": "Before a truck is driven over a dockboard or bridgeplate, what does 1910.178(n)(11) require?",
+      "question": "An operator reaches a freight elevator whose car has stopped a few inches above the floor level. What does 1910.178(n)(12) require before the truck enters?",
       "options": {
-        "A": "That the truck be unloaded",
-        "B": "That the operator sound the horn twice",
-        "C": "That the dockboard or bridgeplate be properly secured",
-        "D": "That the operator walk across it before driving over"
+        "A": "Enter at an angle to bridge the gap",
+        "B": "Enter quickly to spend less time on the threshold",
+        "C": "Wait until the elevator car is properly leveled, then enter squarely",
+        "D": "Enter with the load raised above the gap"
       },
       "answer": "C",
-      "explanation": "\"Dockboard or bridgeplates, shall be properly secured before they are driven over.\" They are then driven over \"carefully and slowly and their rated capacity never exceeded.\"",
+      "explanation": "\"Elevators shall be approached slowly, and then entered squarely after the elevator car is properly leveled.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"

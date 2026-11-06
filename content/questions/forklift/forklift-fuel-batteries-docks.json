@@ -98,15 +98,15 @@
     {
       "id": "qc-006",
       "topic": "Battery charging areas",
-      "question": "1910.178(g)(2) lists facilities for flushing and neutralizing spilled electrolyte, for protecting charging apparatus from damage by trucks, and for adequate ventilation. Which other purpose does it list?",
+      "question": "A plant sets up a battery charging installation with facilities for flushing and neutralizing spilled electrolyte, barriers that protect the chargers from trucks, and ventilation for battery fumes. It decides fire protection is unnecessary because no fuel is stored nearby. What does 1910.178(g)(2) say?",
       "options": {
-        "A": "Fire protection",
-        "B": "Storage of spare forks",
-        "C": "Operator rest breaks",
-        "D": "Truck washing"
+        "A": "Facilities for fire protection shall be provided too; (g)(2) makes no exception for areas without fuel",
+        "B": "The plant is right; fire protection is needed only where fuel is stored",
+        "C": "Fire protection is needed only if batteries are charged overnight",
+        "D": "Fire protection is needed only if more than one charger is installed"
       },
       "answer": "A",
-      "explanation": "1910.178(g)(2) says \"Facilities shall be provided for flushing and neutralizing spilled electrolyte, for fire protection, for protecting charging apparatus from damage by trucks, and for adequate ventilation for dispersal of fumes from gassing batteries.\"",
+      "explanation": "1910.178(g)(2) says \"Facilities shall be provided for flushing and neutralizing spilled electrolyte, for fire protection, for protecting charging apparatus from damage by trucks, and for adequate ventilation for dispersal of fumes from gassing batteries.\" It sets no condition on the fire protection facilities.",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -116,15 +116,15 @@
     {
       "id": "qc-007",
       "topic": "Battery charging areas",
-      "question": "1910.178(g)(11) requires precautions in battery charging areas against open flames, sparks, and which third item?",
+      "question": "A maintenance worker plans to cut a steel bracket with an angle grinder, which throws sparks, inside a battery charging area. What does 1910.178(g)(11) require?",
       "options": {
-        "A": "Direct sunlight",
-        "B": "Cold drafts",
-        "C": "Vibration from passing trucks",
-        "D": "Electric arcs"
+        "A": "Nothing, because the rule covers only smoking",
+        "B": "Nothing, as long as the battery covers are closed",
+        "C": "Nothing, once the area's ventilation is switched on",
+        "D": "Precautions shall be taken to prevent sparks in the battery charging area"
       },
       "answer": "D",
-      "explanation": "1910.178(g)(11) says \"Precautions shall be taken to prevent open flames, sparks, or electric arcs in battery charging areas.\"",
+      "explanation": "1910.178(g)(11) says \"Precautions shall be taken to prevent open flames, sparks, or electric arcs in battery charging areas.\" Sparks from a grinder fall under that requirement.",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -278,15 +278,15 @@
     {
       "id": "qc-016",
       "topic": "Lighting, gases and dockboards",
-      "question": "Under 1910.178(i)(1), concentration levels of carbon monoxide gas created by powered industrial truck operations shall not exceed the levels specified where?",
+      "question": "Gasoline trucks work inside a closed warehouse and carbon monoxide builds up in the air. Under 1910.178(i)(1), what sets the limit for the carbon monoxide concentration created by the truck operations?",
       "options": {
-        "A": "NFPA No. 30-1969",
-        "B": "§ 1910.1000",
-        "C": "NFPA No. 58-1969",
-        "D": "Subpart D of this part"
+        "A": "A level chosen by the truck manufacturer",
+        "B": "The levels specified in § 1910.1000",
+        "C": "No limit applies as long as one door is kept open",
+        "D": "Whatever level the operators report they can tolerate"
       },
       "answer": "B",
-      "explanation": "1910.178(i)(1) says these levels \"shall not exceed the levels specified in § 1910.1000.\"",
+      "explanation": "1910.178(i)(1) says \"Concentration levels of carbon monoxide gas created by powered industrial truck operations shall not exceed the levels specified in § 1910.1000.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -296,15 +296,15 @@
     {
       "id": "qc-017",
       "topic": "Lighting, gases and dockboards",
-      "question": "For dockboards (bridge plates), where does 1910.178(j) refer the reader?",
+      "question": "Trucks operate in an area where general lighting measures 4 lumens per square foot. What does 1910.178(h)(2) require about auxiliary directional lighting on the trucks there?",
       "options": {
-        "A": "Subpart D of this part",
-        "B": "§ 1910.1000",
-        "C": "NFPA No. 30-1969",
-        "D": "§ 1910.6"
+        "A": "(h)(2) does not require it there, because general lighting is not less than 2 lumens per square foot",
+        "B": "Auxiliary directional lighting shall be provided on each truck",
+        "C": "General lighting shall be raised to at least 10 lumens per square foot",
+        "D": "Trucks shall operate there only in daylight hours"
       },
       "answer": "A",
-      "explanation": "1910.178(j) reads in full: \"Dockboards (bridge plates). See subpart D of this part.\"",
+      "explanation": "1910.178(h)(2) applies \"Where general lighting is less than 2 lumens per square foot\"; then \"auxiliary directional lighting shall be provided on the truck.\" At 4 lumens per square foot that condition is not met.",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
@@ -314,7 +314,7 @@
     {
       "id": "qc-018",
       "topic": "Highway trucks, semitrailers and railroad cars",
-      "question": "At a dock, the brakes of a highway truck are set and wheel chocks are placed under its rear wheels. Under 1910.178(k)(1), while what is happening are these steps meant to keep the highway truck from rolling?",
+      "question": "Under 1910.178(k)(1), a highway truck's brakes are set and wheel chocks are placed under its rear wheels to keep it from rolling during which activity?",
       "options": {
         "A": "While its driver rests in the cab",
         "B": "While it is being fueled",
