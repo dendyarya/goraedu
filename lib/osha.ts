@@ -28,6 +28,7 @@ const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "health-hazards", name: "Health hazards", rule: "29 CFR 1926 Subpart D", focus: null },
   { slug: "hazard-communication", name: "Hazard communication", rule: "29 CFR 1926.59 and 1910.1200", focus: null },
   { slug: "silica", name: "Respirable crystalline silica", rule: "29 CFR 1926.1153", focus: null },
+  { slug: "welding-cutting", name: "Welding and cutting", rule: "29 CFR 1926 Subpart J", focus: null },
   { slug: "general-safety", name: "General safety and health", rule: "29 CFR 1926 Subpart C", focus: null },
 ];
 
@@ -232,6 +233,12 @@ const GENERAL_INDUSTRY_SETS: OshaSet[] = [
   { slug: "lockout-tagout", name: "Lockout/tagout", rule: "29 CFR 1910.147", focus: null },
   { slug: "machine-guarding", name: "Machine guarding", rule: "29 CFR 1910 Subpart O", focus: null },
   { slug: "welding", name: "Welding, cutting and brazing", rule: "29 CFR 1910 Subpart Q", focus: null },
+  {
+    slug: "power-generation-distribution",
+    name: "Electric power generation, transmission and distribution",
+    rule: "29 CFR 1910.269",
+    focus: null,
+  },
   { slug: "forklifts", name: "Powered industrial trucks (forklifts)", rule: "29 CFR 1910.178", focus: null },
   { slug: "materials-handling", name: "Materials handling and storage", rule: "29 CFR 1910 Subpart N", focus: null },
   { slug: "bloodborne-pathogens", name: "Bloodborne pathogens", rule: "29 CFR 1910.1030", focus: null },
