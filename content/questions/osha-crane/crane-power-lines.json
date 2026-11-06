@@ -242,7 +242,7 @@
     {
       "id": "kp-014",
       "topic": "Voltage information and Table A",
-      "question": "An employer using Option (3) must erect and maintain an elevated warning line, barricade, or line of signs in view of the operator under 1926.1408(b)(3). Where must it be placed?",
+      "question": "Where encroachment precautions are required under Option (3), 1926.1408(b)(3) requires an elevated warning line, barricade, or line of signs in view of the operator. Where must it be placed?",
       "options": {
         "A": "Directly beneath the power line",
         "B": "At the edge of the equipment's maximum working radius",
@@ -260,15 +260,15 @@
     {
       "id": "kp-015",
       "topic": "Voltage information and Table A",
-      "question": "Using the note to Table A, a power line of exactly 200 kV falls in which voltage row?",
+      "question": "Table A in 1926.1408 lists the voltages of power lines in what terms?",
       "options": {
-        "A": "Over 200 to 350",
-        "B": "Up to 50",
-        "C": "Over 50 to 200",
-        "D": "Over 350 to 500"
+        "A": "Peak kV, direct current",
+        "B": "Volts measured by the operator at the worksite",
+        "C": "Nominal kV, alternating current",
+        "D": "Kilowatts of load carried by the line"
       },
       "answer": "C",
-      "explanation": "The note says: \"The value that follows “to” is up to and includes that value. For example, over 50 to 200 means up to and including 200kV.\"",
+      "explanation": "The voltage column of Table A is headed \"Voltage (nominal, kV, alternating current)\", and the table gives each minimum clearance distance in feet.",
       "source": {
         "title": "eCFR: 29 CFR 1926.1408, Power line safety (up to 350 kV)—equipment operations (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1408"
