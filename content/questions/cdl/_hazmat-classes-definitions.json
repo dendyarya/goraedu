@@ -1,0 +1,389 @@
+{
+  "cluster": "cdl",
+  "slug": "hazmat-classes-definitions",
+  "title": "CDL Hazmat classes and definitions practice questions",
+  "description": "Free CDL Hazmat practice questions on hazard classes and key definitions in 49 CFR 171.8 and 173.2, each answer explained and linked to the rule.",
+  "href": "/cdl/hazmat-classes-definitions/practice-test/",
+  "questions": [
+    {
+      "id": "zc-001",
+      "topic": "Hazard classes and divisions",
+      "question": "Under 173.2, how is the hazard class of a hazardous material indicated?",
+      "options": {
+        "A": "By its packing group alone",
+        "B": "By either the class or division number or the class name",
+        "C": "By the four-digit identification number alone",
+        "D": "By the type of packaging it is shipped in"
+      },
+      "answer": "B",
+      "explanation": "173.2 states: \"The hazard class of a hazardous material is indicated by either the class or division number or the class name.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 173.2, Hazardous material classes and index to hazard class definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173/subpart-A/section-173.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The hazard class of a hazardous material is indicated by either the class or division number or the class name."
+    },
+    {
+      "id": "zc-002",
+      "topic": "Hazard classes and divisions",
+      "question": "A material meets the defining criteria for more than one hazard class. Under the 171.8 definition of hazard class, how many hazard classes is it assigned to?",
+      "options": {
+        "A": "Every class whose criteria it meets",
+        "B": "Two, a primary and a secondary class",
+        "C": "None until the shipper obtains an approval",
+        "D": "Only one"
+      },
+      "answer": "D",
+      "explanation": "Under 171.8, \"A material may meet the defining criteria for more than one hazard class but is assigned to only one hazard class.\" Its other hazards are subsidiary hazards: \"a hazard of a material other than the primary hazard.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A material may meet the defining criteria for more than one hazard class but is assigned to only one hazard class."
+    },
+    {
+      "id": "zc-003",
+      "topic": "Where each class is defined",
+      "question": "A shipper needs the criteria for classifying a Division 5.1 oxidizer. Which section does the 173.2 table give for its definitions?",
+      "options": {
+        "A": "173.127",
+        "B": "173.115",
+        "C": "173.136",
+        "D": "173.140"
+      },
+      "answer": "A",
+      "explanation": "The 173.2 table lists \"5.1 OXIDIZER\" with 173.127, and 171.8 says: \"Oxidizer. See § 173.127 of this subchapter.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Oxidizer. See § 173.127 of this subchapter."
+    },
+    {
+      "id": "zc-004",
+      "topic": "Where each class is defined",
+      "question": "In the 173.2 table, what does the Class 3 entry cover?",
+      "options": {
+        "A": "Flammable liquids only, with combustible liquids in Class 9",
+        "B": "Liquids that are poisonous by inhalation",
+        "C": "Flammable and combustible liquid",
+        "D": "Corrosive liquids"
+      },
+      "answer": "C",
+      "explanation": "The Class 3 row of the 173.2 table reads \"FLAMMABLE AND COMBUSTIBLE LIQUID\", with its definitions in 173.120.",
+      "source": {
+        "title": "eCFR: 49 CFR 173.2, Hazardous material classes and index to hazard class definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173/subpart-A/section-173.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "3 FLAMMABLE AND COMBUSTIBLE LIQUID 173.120"
+    },
+    {
+      "id": "zc-005",
+      "topic": "Where each class is defined",
+      "question": "Which section does 171.8 point to for definitions relating to radioactive materials?",
+      "options": {
+        "A": "173.134",
+        "B": "173.50",
+        "C": "173.403",
+        "D": "173.21"
+      },
+      "answer": "C",
+      "explanation": "171.8 states: \"Radioactive materials. See § 173.403 of this subchapter for definitions relating to radioactive materials.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Radioactive materials. See § 173.403 of this subchapter for definitions relating to radioactive materials."
+    },
+    {
+      "id": "zc-006",
+      "topic": "What counts as a hazardous material",
+      "question": "Which of these does the 171.8 definition of hazardous material expressly include?",
+      "options": {
+        "A": "Elevated temperature materials",
+        "B": "Hazardous substances, but not hazardous wastes",
+        "C": "Only materials listed by name in the Hazardous Materials Table",
+        "D": "Only materials shipped in bulk packagings"
+      },
+      "answer": "A",
+      "explanation": "171.8 says the term \"includes hazardous substances, hazardous wastes, marine pollutants, elevated temperature materials\", materials designated in the Hazardous Materials Table, and materials meeting the class and division criteria in part 173.",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The term includes hazardous substances, hazardous wastes, marine pollutants, elevated temperature materials, materials designated as hazardous in the Hazardous Materials Table (see 49 CFR 172.101), and materials that meet the defining criteria for hazard classes and divisions in part 173 of this subchapter."
+    },
+    {
+      "id": "zc-007",
+      "topic": "What counts as a hazardous material",
+      "question": "A material is listed in appendix A to 172.101. For it to be a hazardous substance under 171.8, what quantity condition must it meet?",
+      "options": {
+        "A": "The total on the vehicle must exceed 454 kg (1,001 pounds)",
+        "B": "The shipment must contain at least ten packages",
+        "C": "Any amount in any package is enough",
+        "D": "Its quantity in one package must equal or exceed the reportable quantity (RQ) listed in appendix A"
+      },
+      "answer": "D",
+      "explanation": "A hazardous substance must be \"in a quantity, in one package, which equals or exceeds the reportable quantity (RQ) listed in the appendix A to § 172.101 of this subchapter\".",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Is in a quantity, in one package, which equals or exceeds the reportable quantity (RQ) listed in the appendix A to § 172.101 of this subchapter"
+    },
+    {
+      "id": "zc-008",
+      "topic": "What counts as a hazardous material",
+      "question": "A solution contains a material identified in appendix B to 172.101 as a severe marine pollutant. What concentration threshold by weight does the 171.8 marine pollutant definition set for it?",
+      "options": {
+        "A": "Twenty-five percent",
+        "B": "One percent",
+        "C": "Fifty percent",
+        "D": "Five percent"
+      },
+      "answer": "B",
+      "explanation": "The threshold is \"One percent by weight of the solution or mixture for materials that are identified as severe marine pollutants in the appendix.\" Ten percent applies to other listed materials.",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "One percent by weight of the solution or mixture for materials that are identified as severe marine pollutants in the appendix."
+    },
+    {
+      "id": "zc-009",
+      "topic": "What counts as a hazardous material",
+      "question": "A liquid with a flash point of 50 °C (122 °F) is intentionally heated and offered for transportation in a bulk packaging at 60 °C (140 °F). How does the 171.8 elevated temperature material definition apply?",
+      "options": {
+        "A": "It meets the definition, because it is a liquid with a flash point at or above 38 °C (100 °F) that is intentionally heated and offered at or above its flash point",
+        "B": "It does not meet the definition, because a liquid must be at or above 100 °C (212 °F) in every case",
+        "C": "It does not meet the definition, because only solids can be elevated temperature materials",
+        "D": "It does not meet the definition, because the definition covers only non-bulk packagings"
+      },
+      "answer": "A",
+      "explanation": "An elevated temperature material, in a bulk packaging, includes one that \"Is in a liquid phase with a flash point at or above 38 °C (100 °F) that is intentionally heated and offered for transportation or transported at or above its flash point\".",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Is in a liquid phase with a flash point at or above 38 °C (100 °F) that is intentionally heated and offered for transportation or transported at or above its flash point"
+    },
+    {
+      "id": "zc-010",
+      "topic": "What counts as a hazardous material",
+      "question": "Under 171.8, which kind of hazardous material is left out of the definition of material of trade?",
+      "options": {
+        "A": "Material carried to support the operation or maintenance of the motor vehicle",
+        "B": "Material carried to protect the health and safety of the operator or passengers",
+        "C": "Material carried by a private motor carrier in direct support of a principal business other than transportation by motor vehicle",
+        "D": "Hazardous waste"
+      },
+      "answer": "D",
+      "explanation": "171.8 defines material of trade as \"a hazardous material, other than a hazardous waste, that is carried on a motor vehicle\" for one of three listed purposes, and the other three options are those purposes.",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Material of trade means a hazardous material, other than a hazardous waste, that is carried on a motor vehicle"
+    },
+    {
+      "id": "zc-011",
+      "topic": "Bulk and non-bulk packaging",
+      "question": "Under the 171.8 definition, which of these can be a bulk packaging?",
+      "options": {
+        "A": "A barge",
+        "B": "A transport vehicle or freight container in which hazardous materials are loaded with no intermediate form of containment",
+        "C": "A vessel",
+        "D": "Packages stacked on a pallet and stretch-wrapped by one consignor"
+      },
+      "answer": "B",
+      "explanation": "Bulk packaging is \"a packaging, other than a vessel or a barge, including a transport vehicle or freight container, in which hazardous materials are loaded with no intermediate form of containment.\" Stretch-wrapped packages on a pallet are an overpack example.",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Bulk packaging means a packaging, other than a vessel or a barge, including a transport vehicle or freight container, in which hazardous materials are loaded with no intermediate form of containment."
+    },
+    {
+      "id": "zc-012",
+      "topic": "Bulk and non-bulk packaging",
+      "question": "As a receptacle for a solid, what does 171.8 require for a packaging to be a bulk packaging?",
+      "options": {
+        "A": "A water capacity greater than 454 kg (1000 pounds)",
+        "B": "Either a maximum net mass greater than 400 kg (882 pounds) or any capacity",
+        "C": "A maximum net mass greater than 400 kg (882 pounds) and a maximum capacity greater than 450 L (119 gallons)",
+        "D": "A maximum capacity greater than 450 L (119 gallons), whatever its net mass"
+      },
+      "answer": "C",
+      "explanation": "For a solid, a bulk packaging has \"A maximum net mass greater than 400 kg (882 pounds) and a maximum capacity greater than 450 L (119 gallons) as a receptacle for a solid\". The water capacity test is for a gas.",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A maximum net mass greater than 400 kg (882 pounds) and a maximum capacity greater than 450 L (119 gallons) as a receptacle for a solid"
+    },
+    {
+      "id": "zc-013",
+      "topic": "Bulk and non-bulk packaging",
+      "question": "Which of these is an overpack under 171.8?",
+      "options": {
+        "A": "Packages placed in a protective outer packaging such as a box or crate by a single consignor",
+        "B": "A freight container holding several packages",
+        "C": "A transport vehicle loaded with packages",
+        "D": "An aircraft unit load device"
+      },
+      "answer": "A",
+      "explanation": "An overpack is \"used by a single consignor to provide protection or convenience in handling of a package or to consolidate two or more packages\", and examples include packages \"Placed in a protective outer packaging such as a box or crate.\" It \"does not include a transport vehicle, freight container, or aircraft unit load device.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Overpack does not include a transport vehicle, freight container, or aircraft unit load device."
+    },
+    {
+      "id": "zc-014",
+      "topic": "Vehicles, containers and tanks",
+      "question": "How does the 171.8 definition of transport vehicle treat each cargo-carrying body, such as each trailer in a combination?",
+      "options": {
+        "A": "As one part of a single transport vehicle with the power unit",
+        "B": "As a freight container",
+        "C": "As a separate transport vehicle",
+        "D": "As a cargo tank, whatever its design"
+      },
+      "answer": "C",
+      "explanation": "171.8 states: \"Each cargo-carrying body (trailer, rail car, etc.) is a separate transport vehicle.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Each cargo-carrying body (trailer, rail car, etc.) is a separate transport vehicle."
+    },
+    {
+      "id": "zc-015",
+      "topic": "Vehicles, containers and tanks",
+      "question": "Which tank can meet the attachment condition in the 171.8 cargo tank definition?",
+      "options": {
+        "A": "Only a tank welded to the frame of a motor vehicle",
+        "B": "Only a tank that is lifted off the motor vehicle for loading and unloading",
+        "C": "Any tank fabricated under a specification for portable tanks",
+        "D": "A tank not permanently attached to a motor vehicle that, by reason of its size, construction or attachment, is loaded or unloaded without being removed from the motor vehicle"
+      },
+      "answer": "D",
+      "explanation": "Paragraph (2) covers a tank that \"Is permanently attached to or forms a part of a motor vehicle, or is not permanently attached to a motor vehicle but which, by reason of its size, construction or attachment to a motor vehicle is loaded or unloaded without being removed from the motor vehicle\". Paragraph (3) excludes tanks fabricated under a specification for portable tanks.",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Is permanently attached to or forms a part of a motor vehicle, or is not permanently attached to a motor vehicle but which, by reason of its size, construction or attachment to a motor vehicle is loaded or unloaded without being removed from the motor vehicle"
+    },
+    {
+      "id": "zc-016",
+      "topic": "Offerors, carriers and hazmat employees",
+      "question": "As a condition of accepting a hazardous material, a carrier reviews the shipping papers and examines the packages. Under 171.8, does that make the carrier an offeror?",
+      "options": {
+        "A": "Yes. Reviewing a shipping paper is a pre-transportation function, so the carrier always becomes an offeror",
+        "B": "No. A carrier is not an offeror when it performs a function required as a condition of acceptance",
+        "C": "Yes, but only if the load is placarded",
+        "D": "Yes, but only for bulk packagings"
+      },
+      "answer": "B",
+      "explanation": "171.8 states: \"A carrier is not an offeror when it performs a function required by this subchapter as a condition of acceptance of a hazardous material for transportation in commerce (e.g., reviewing shipping papers, examining packages\".",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A carrier is not an offeror when it performs a function required by this subchapter as a condition of acceptance of a hazardous material for transportation in commerce (e.g., reviewing shipping papers, examining packages"
+    },
+    {
+      "id": "zc-017",
+      "topic": "Offerors, carriers and hazmat employees",
+      "question": "Which self-employed person does the 171.8 definition of hazmat employee include?",
+      "options": {
+        "A": "No one. Only persons employed by a hazmat employer are hazmat employees",
+        "B": "Only a self-employed person who holds a hazardous materials endorsement",
+        "C": "Only a self-employed person who employs at least one other worker",
+        "D": "An owner-operator of a motor vehicle transporting hazardous materials in commerce who in the course of self-employment directly affects hazardous materials transportation safety"
+      },
+      "answer": "D",
+      "explanation": "A hazmat employee includes a person who is \"Self-employed (including an owner-operator of a motor vehicle, vessel, or aircraft) transporting hazardous materials in commerce who in the course of such self-employment directly affects hazardous materials transportation safety\".",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Self-employed (including an owner-operator of a motor vehicle, vessel, or aircraft) transporting hazardous materials in commerce who in the course of such self-employment directly affects hazardous materials transportation safety"
+    },
+    {
+      "id": "zc-018",
+      "topic": "Offerors, carriers and hazmat employees",
+      "question": "A State highway authority transports hazardous materials in commerce using its own employees. Under 171.8, can it be a hazmat employer?",
+      "options": {
+        "A": "Yes. The definition includes an authority of a State that transports hazardous materials in commerce",
+        "B": "No. Only federal agencies are named in the definition",
+        "C": "Only if it holds a special permit",
+        "D": "No. Only private companies can be hazmat employers"
+      },
+      "answer": "A",
+      "explanation": "Paragraph (3) of the hazmat employer definition covers \"A department, agency, or instrumentality of the United States Government, or an authority of a State, political subdivision of a State, or an Indian tribe\" that, among other things, \"Transports hazardous materials in commerce\".",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A department, agency, or instrumentality of the United States Government, or an authority of a State, political subdivision of a State, or an Indian tribe; and who: (i) Transports hazardous materials in commerce;"
+    },
+    {
+      "id": "zc-019",
+      "topic": "Transportation and related functions",
+      "question": "Which of these is listed as a pre-transportation function in 171.8?",
+      "options": {
+        "A": "Collecting freight charges from the consignee",
+        "B": "Fueling the transport vehicle before a trip",
+        "C": "Selecting, providing, or affixing placards for a freight container or transport vehicle",
+        "D": "Choosing the driver for the trip"
+      },
+      "answer": "C",
+      "explanation": "The list of pre-transportation functions includes \"Selecting, providing, or affixing placards for a freight container or transport vehicle to indicate that it contains a hazardous material.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Selecting, providing, or affixing placards for a freight container or transport vehicle to indicate that it contains a hazardous material."
+    },
+    {
+      "id": "zc-020",
+      "topic": "Transportation and related functions",
+      "question": "How does 171.8 treat storage of a hazardous material at its final destination as shown on a shipping document?",
+      "options": {
+        "A": "It counts as storage incidental to movement until the carrier leaves",
+        "B": "It is not storage incidental to movement",
+        "C": "It counts as loading incidental to movement",
+        "D": "It counts as storage incidental to movement only for cargo tanks"
+      },
+      "answer": "B",
+      "explanation": "171.8 states: \"Storage incidental to movement does not include storage of a hazardous material at its final destination as shown on a shipping document.\"",
+      "source": {
+        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Storage incidental to movement does not include storage of a hazardous material at its final destination as shown on a shipping document."
+    }
+  ]
+}
