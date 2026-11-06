@@ -1,0 +1,560 @@
+{
+  "cluster": "lead-rrp",
+  "slug": "lead-hazard-standards",
+  "href": "/lead-rrp/lead-hazard-standards/study-guide/",
+  "title": "Lead RRP lead hazard standards and abatement basics study guide",
+  "description": "Lead hazard standards study guide: paint-, dust- and soil-lead hazards, 2026 dust-lead values, action levels, inspections, risk assessments and abatement.",
+  "intro": "Subpart D of 40 CFR Part 745 (sections 745.61 to 745.67) identifies lead-based paint hazards: paint-lead, dust-lead and soil-lead hazards in target housing and child-occupied facilities. Subpart L (the definitions in 745.223 and the work practice standards in 745.227) sets how certified individuals and firms conduct inspections, lead hazard screens, risk assessments, abatement and post-abatement testing. Rules revised in 2024 changed the dust-lead values: many values apply \"before\" or \"on or after January 12, 2026\", and on or after January 13, 2025 the post-abatement levels are called action levels instead of clearance levels, so always check which date a value belongs to. This guide is not the Certified Renovator course or any EPA-accredited training, and goraedu does not certify anyone. Your State or Tribe may run its own authorized program, so check its rules too. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "scope",
+      "name": "Scope of the hazard standards",
+      "points": [
+        {
+          "text": "Subpart D identifies lead-based paint hazards.",
+          "quote": "This subpart identifies lead-based paint hazards.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.61, Scope and applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The lead-based paint hazard standards apply to target housing and child-occupied facilities.",
+          "quote": "The standards for lead-based paint hazards apply to target housing and child-occupied facilities.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.61, Scope and applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Subpart D does not require a property owner to evaluate the property for lead-based paint hazards, or to take any action to control them if one or more is identified.",
+          "quote": "Nothing in this subpart requires the owner of property(ies) subject to these standards to evaluate the property(ies) for the presence of lead-based paint hazards or take any action to control these conditions if one or more of them is identified.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.61, Scope and applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The levels in 745.227(e)(8)(viii) were called clearance levels before January 13, 2025. On or after January 13, 2025, they are called action levels.",
+          "quote": "Before January 13, 2025, the levels identified in 40 CFR 745.227(e)(8)(viii) were referred to as clearance levels. On or after January 13, 2025, the levels identified in § 745.227(e)(8)(viii) are referred to as action levels.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.61, Scope and applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.61"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For Subpart L, target housing means housing constructed prior to 1978, except housing for the elderly or persons with disabilities or any 0-bedroom dwelling, unless a child under 6 resides or is expected to reside there.",
+          "quote": "Target housing means any housing constructed prior to 1978, except housing for the elderly or persons with disabilities or any 0-bedroom dwelling (unless any child who is less than 6 years of age resides or is expected to reside in such housing).",
+          "source": {
+            "title": "eCFR: 40 CFR 745.223, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.223"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A child-occupied facility is a building, or part of one, constructed prior to 1978 and visited regularly by the same child under 6 on at least two different days in a week (Sunday to Saturday), with each visit at least 3 hours, at least 6 hours combined per week and at least 60 hours combined per year. Examples include day-care centers, preschools and kindergarten classrooms.",
+          "quote": "Child-occupied facility means a building, or portion of a building, constructed prior to 1978, visited regularly by the same child, under 6 years of age, on at least two different days within any week (Sunday through Saturday period), provided that each day's visit lasts at least 3 hours and the combined weekly visit lasts at least 6 hours, and the combined annual visits last at least 60 hours. Child-occupied facilities may include, but are not limited to, day-care centers, preschools and kindergarten classrooms.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.223, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.223"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Who Subpart L applies to (745.220), including the exception for some owners working in their own dwellings and States or Indian Country with an authorized program, is not covered here. The incorporation by reference in 745.67 is not covered."
+    },
+    {
+      "id": "definitions",
+      "name": "Subpart D definitions",
+      "points": [
+        {
+          "text": "In Subpart D, a lead-based paint hazard means hazardous lead-based paint, a dust-lead hazard or a soil-lead hazard as identified in 745.65.",
+          "quote": "Lead-based paint hazard means hazardous lead-based paint, dust-lead hazard or soil-lead hazard as identified in § 745.65.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.63, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A chewable surface is an interior or exterior surface painted with lead-based paint that a young child can mouth or chew; it is the same as an \"accessible surface\" under 42 U.S.C. 4851b(2). Hard metal substrates and other materials that a young child's bite cannot dent are not considered chewable.",
+          "quote": "Chewable surface means an interior or exterior surface painted with lead-based paint that a young child can mouth or chew. A chewable surface is the same as an “accessible surface” as defined in 42 U.S.C. 4851b(2)). Hard metal substrates and other materials that cannot be dented by the bite of a young child are not considered chewable.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.63, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Deteriorated paint (745.63) covers any interior or exterior paint or coating that is peeling, chipping, chalking or cracking, and any paint or coating on an interior or exterior surface or fixture that is otherwise damaged or separated from the substrate.",
+          "quote": "Deteriorated paint means any interior or exterior paint or other coating that is peeling, chipping, chalking or cracking, or any paint or coating located on an interior or exterior surface or fixture that is otherwise damaged or separated from the substrate.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.63, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A friction surface is an interior or exterior surface subject to abrasion or friction, including (but not limited to) certain window, floor and stair surfaces.",
+          "quote": "Friction surface means an interior or exterior surface that is subject to abrasion or friction, including, but not limited to, certain window, floor, and stair surfaces.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.63, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An impact surface is an interior or exterior surface subject to damage by repeated sudden force, such as certain parts of door frames.",
+          "quote": "Impact surface means an interior or exterior surface that is subject to damage by repeated sudden force such as certain parts of door frames.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.63, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A play area is an area of frequent soil contact by children under 6, indicated by factors such as play equipment, toys or other children's possessions, observed play patterns, or information from parents, residents, care givers or property owners.",
+          "quote": "Play area means an area of frequent soil contact by children of less than 6 years of age as indicated by, but not limited to, such factors including the following: the presence of play equipment (e.g., sandboxes, swing sets, and sliding boards), toys, or other children's possessions, observations of play patterns, or information provided by parents, residents, care givers, or property owners.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.63, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.63"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The reportable level is the lowest analyte concentration (or amount) without a \"less than\" qualifier that a laboratory recognized by EPA under TSCA section 405(b) reports with confidence for a specific method.",
+          "quote": "Reportable level means the lowest analyte concentration (or amount) that does not contain a “less than” qualifier and that is reported with confidence for a specific method by a laboratory recognized by EPA under TSCA section 405(b).",
+          "source": {
+            "title": "eCFR: 40 CFR 745.63, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.63"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Other 745.63 definitions (arithmetic mean, common area group, concentration, dripline, interior window sill, loading, mid-yard, residential building, room, soil sample, weighted arithmetic mean, window trough, wipe sample) are not set out point by point."
+    },
+    {
+      "id": "paint-lead",
+      "name": "Paint-lead hazards and lead-based paint",
+      "points": [
+        {
+          "text": "A paint-lead hazard includes lead-based paint on a friction surface subject to abrasion where the lead dust levels on the nearest horizontal surface underneath (for example the window sill or floor) are equal to or greater than the dust-lead hazard levels in 745.65(b).",
+          "quote": "Any lead-based paint on a friction surface that is subject to abrasion and where the lead dust levels on the nearest horizontal surface underneath the friction surface (e.g., the window sill, or floor) are equal to or greater than the dust-lead hazard levels identified in paragraph (b) of this section.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.65, Lead-based paint hazards (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.65"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A paint-lead hazard includes damaged or otherwise deteriorated lead-based paint on an impact surface caused by impact from a related building component, such as a door knob knocking into a wall or a door knocking against its frame.",
+          "quote": "Any damaged or otherwise deteriorated lead-based paint on an impact surface that is caused by impact from a related building component (such as a door knob that knocks into a wall or a door that knocks against its door frame.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.65, Lead-based paint hazards (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.65"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A paint-lead hazard includes any chewable lead-based painted surface with evidence of teeth marks.",
+          "quote": "Any chewable lead-based painted surface on which there is evidence of teeth marks.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.65, Lead-based paint hazards (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.65"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A paint-lead hazard also includes any other deteriorated lead-based paint in any residential building or child-occupied facility, or on the exterior of one.",
+          "quote": "Any other deteriorated lead-based paint in any residential building or child-occupied facility or on the exterior of any residential building or child-occupied facility.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.65, Lead-based paint hazards (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.65"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The applicable certification, occupant protection and clearance requirements and work practice standards are in EPA's 40 CFR part 745 subpart L and HUD's 24 CFR part 35 subpart R. Those work practice standards do not apply when treating paint-lead hazards below one of these amounts: two square feet of deteriorated lead-based paint per room or equivalent, twenty square feet of deteriorated paint on the exterior building, or ten percent of the total surface area of deteriorated paint on an interior or exterior type of component with a small surface area.",
+          "quote": "Applicable certification, occupant protection, and clearance requirements and work practice standards are found in regulations issued by EPA at 40 CFR part 745, subpart L and in regulations issued by the Department of Housing and Urban Development (HUD) at 24 CFR part 35, subpart R. The work practice standards in those regulations do not apply when treating paint-lead hazards of less than: (1) Two square feet of deteriorated lead-based paint per room or equivalent, (2) Twenty square feet of deteriorated paint on the exterior building, or (3) Ten percent of the total surface area of deteriorated paint on an interior or exterior type of component with a small surface area.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.65, Lead-based paint hazards (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.65"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Lead-based paint means paint or other surface coatings containing lead equal to or in excess of 1.0 milligrams per square centimeter or more than 0.5 percent by weight.",
+          "quote": "Lead-based paint means paint or other surface coatings that contain lead equal to or in excess of 1.0 milligrams per square centimeter or more than 0.5 percent by weight.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.223, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.223"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Under the 745.227 determinations, lead-based paint is present on any tested surface found at or above 1.0 mg/cm2 or 0.5% by weight, and on any surface like a tested surface in the same room equivalent that has a similar painting history and that is found to be lead-based paint.",
+          "quote": "Lead-based paint is present: (i) On any surface that is tested and found to contain lead equal to or in excess of 1.0 milligrams per square centimeter or equal to or in excess of 0.5% by weight; and (ii) On any surface like a surface tested in the same room equivalent that has a similar painting history and that is found to be lead-based paint.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The paint-lead hazard determinations in 745.227(h)(2) repeat the four 745.65(a) categories and are not set out separately."
+    },
+    {
+      "id": "dust-lead",
+      "name": "Dust-lead hazards and action levels",
+      "points": [
+        {
+          "text": "Before January 12, 2026: a dust-lead hazard is surface dust in a residential dwelling or child-occupied facility with lead equal to or exceeding 10 µg/ft2 for floors or 100 µg/ft2 for interior window sills, based on wipe samples.",
+          "quote": "Before January 12, 2026, a dust-lead hazard is surface dust in a residential dwelling or child-occupied facility that contains a mass-per-area concentration of lead equal to or exceeding 10 µg/ft2 for floors or 100 µg/ft2 for interior window sills based on wipe samples.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.65, Lead-based paint hazards (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.65"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "On or after January 12, 2026: a dust-lead hazard is surface dust in a residential dwelling or child-occupied facility with any reportable level of lead for floors or for interior window sills, based on wipe samples analyzed by an NLLAP-recognized laboratory.",
+          "quote": "On or after January 12, 2026, a dust-lead hazard is surface dust in a residential dwelling or child-occupied facility that contains a mass-per-area concentration of any reportable level of lead for floors or for interior window sills based on wipe samples analyzed by an NLLAP-recognized laboratory.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.65, Lead-based paint hazards (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.65"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Action levels are the values that indicate the amount of lead in dust on a surface after an abatement activity is completed. To complete abatement when dust sampling is required, values below these levels must be achieved. EPA previously called them \"clearance levels\".",
+          "quote": "Action levels are the values that indicate the amount of lead in dust on a surface following completion of an abatement activity. To complete abatement when dust sampling is required, values below these levels must be achieved. EPA previously used the term “clearance levels” to refer to these levels.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.223, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.223"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Action levels for lead in dust: before January 12, 2026, 10 µg/ft2 for floors, 100 µg/ft2 for interior window sills and 400 µg/ft2 for window troughs; on or after January 12, 2026, 5 µg/ft2 for floors, 40 µg/ft2 for interior window sills and 100 µg/ft2 for window troughs.",
+          "quote": "Before January 12, 2026, the action levels for lead in dust are 10 µg/ft2 for floors, 100 µg/ft2 for interior window sills, and 400 µg/ft2 for window troughs. On or after January 12, 2026, the action levels for lead in dust are 5 µg/ft2 for floors, 40 µg/ft2 for interior window sills, and 100 µg/ft2 for window troughs.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Under the 745.227(h)(3)(i) determinations, on or after January 12, 2026, a dust-lead hazard is present on floors and interior window sills when the lead loading for any single surface or composite sample is equal to or greater than any reportable level of dust-lead; where post-abatement dust-lead testing is required or otherwise performed, lead in dust must be below 5 µg/ft2 for floors, 40 µg/ft2 for interior window sills and 100 µg/ft2 for window troughs to clear the action level.",
+          "quote": "on or after January 12, 2026, a dust lead-hazard is present in a residential dwelling or child-occupied facility on floors and interior window sills when the lead loading for any single surface or composite sample of floors and interior window sills is equal to or greater than any reportable level of dust-lead for floors and for interior window sills; for projects where post-abatement dust-lead testing is required or otherwise performed, levels of lead in dust must be below 5 µg/ft2 for floors, 40 µg/ft2 for interior window sills, and 100 µg/ft2 for window troughs for purposes of clearing the action level;",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In a multi-family dwelling, a dust-lead hazard is present on floors or interior window sills in an unsampled residential dwelling if one is present on floors or interior window sills, respectively, in at least one sampled residential unit on the property.",
+          "quote": "A dust lead-hazard is present on floors or interior window sills in an unsampled residential dwelling in a multi-family dwelling, if a dust-lead hazard is present on floors or interior window sills, respectively, in at least one sampled residential unit on the property",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The before-January 12, 2026 wording of 745.227(h)(3)(i), which uses the weighted arithmetic mean of samples, and the unsampled common area rule in 745.227(h)(3)(iii) are not quoted in full."
+    },
+    {
+      "id": "soil-lead",
+      "name": "Soil-lead hazards and soil abatement",
+      "points": [
+        {
+          "text": "A soil-lead hazard is bare soil on residential real property or on the property of a child-occupied facility with total lead equal to or exceeding 400 parts per million in a play area, or an average of 1,200 parts per million of bare soil in the rest of the yard, based on soil samples.",
+          "quote": "Soil-lead hazard. A soil-lead hazard is bare soil on residential real property or on the property of a child-occupied facility that contains total lead equal to or exceeding 400 parts per million (µg/g) in a play area or average of 1,200 parts per million of bare soil in the rest of the yard based on soil samples.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.65, Lead-based paint hazards (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-D/section-745.65"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In a risk assessment, soil samples are collected and analyzed in exterior play areas, the rest of the yard (non-play areas) and dripline/foundation areas, in each case where bare soil is present.",
+          "quote": "Soil samples shall be collected and analyzed for lead concentrations in the following locations: (i) Exterior play areas where bare soil is present; and (ii) The rest of the yard (i.e., non-play areas) where bare soil is present. (iii) Dripline/foundation areas where bare soil is present.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Under the determinations, a soil-lead hazard is present in a play area when a composite play area sample of bare soil is at or above 400 parts per million, or in the rest of the yard when the arithmetic mean from the rest of the yard for each residential building is at or above 1,200 parts per million.",
+          "quote": "A soil-lead hazard is present: (i) In a play area when the soil-lead concentration from a composite play area sample of bare soil is equal to or greater than 400 parts per million; or (ii) In the rest of the yard when the arithmetic mean lead concentration from a composite sample (or arithmetic mean of composite samples) of bare soil from the rest of the yard (i.e., non-play areas) for each residential building on a property is equal to or greater than 1,200 parts per million.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If soil abatement is conducted and soil is removed, it is replaced by soil with lead as close to local background as practicable but no greater than 400 ppm, and the removed soil must not be used as top soil at another residential property or child-occupied facility.",
+          "quote": "The soil shall be replaced by soil with a lead concentration as close to local background as practicable, but no greater than 400 ppm. (B) The soil that is removed shall not be used as top soil at another residential property or child-occupied facility.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If soil is not removed, it must be permanently covered as defined in 745.223.",
+          "quote": "If soil is not removed, the soil shall be permanently covered, as defined in § 745.223.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Permanently covered soil is soil separated from human contact by a barrier of solid, relatively impermeable materials, such as pavement or concrete. Grass, mulch and other landscaping materials are not permanent covering.",
+          "quote": "Permanently covered soil means soil which has been separated from human contact by the placement of a barrier consisting of solid, relatively impermeable materials, such as pavement or concrete. Grass, mulch, and other landscaping materials are not considered permanent covering.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.223, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.223"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "name": "Inspections, lead hazard screens and risk assessments",
+      "points": [
+        {
+          "text": "An inspection is a surface-by-surface investigation to determine the presence of lead-based paint, plus a report explaining the results.",
+          "quote": "Inspection means a surface-by-surface investigation to determine the presence of lead-based paint and the provision of a report explaining the results of the investigation.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.223, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.223"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A risk assessment is an on-site investigation to determine the existence, nature, severity and location of lead-based paint hazards, plus a report by the individual or firm that did it explaining the results and options for reducing the hazards.",
+          "quote": "Risk assessment means (1) an on-site investigation to determine the existence, nature, severity, and location of lead-based paint hazards, and (2) the provision of a report by the individual or the firm conducting the risk assessment, explaining the results of the investigation and options for reducing lead-based paint hazards.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.223, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.223"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A lead-hazard screen is a limited risk assessment activity involving limited paint and dust sampling as described in 745.227(c).",
+          "quote": "Lead-hazard screen is a limited risk assessment activity that involves limited paint and dust sampling as described in § 745.227(c).",
+          "source": {
+            "title": "eCFR: 40 CFR 745.223, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.223"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An inspection may be conducted only by a person certified by EPA as an inspector or risk assessor and, if conducted, must follow the procedures in 745.227(b).",
+          "quote": "An inspection shall be conducted only by a person certified by EPA as an inspector or risk assessor and, if conducted, must be conducted according to the procedures in this paragraph.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "During an inspection of a residential dwelling and child-occupied facility, each component and each exterior component with a distinct painting history is tested for lead-based paint, except components the inspector or risk assessor determines were replaced after 1978 or do not contain lead-based paint.",
+          "quote": "In a residential dwelling and child-occupied facility, each component with a distinct painting history and each exterior component with a distinct painting history shall be tested for lead-based paint, except those components that the inspector or risk assessor determines to have been replaced after 1978, or to not contain lead-based paint; and",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A lead hazard screen may be conducted only by a person certified by EPA as a risk assessor.",
+          "quote": "A lead hazard screen shall be conducted only by a person certified by EPA as a risk assessor.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A risk assessment may be conducted only by a person certified by EPA as a risk assessor and, if conducted, must follow the procedures in 745.227(d).",
+          "quote": "A risk assessment shall be conducted only by a person certified by EPA as a risk assessor and, if conducted, must be conducted according to the procedures in this paragraph.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In a risk assessment of a residential dwelling, dust samples (composite or single-surface) from the interior window sill(s) and floor are collected and analyzed in all living areas where one or more children under 6 are most likely to come into contact with dust.",
+          "quote": "In residential dwellings, dust samples (either composite or single-surface samples) from the interior window sill(s) and floor shall be collected and analyzed for lead concentration in all living areas where one or more children, under age 6, are most likely to come into contact with dust.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Paint chip, dust or soil samples collected under the 745.227 work practice standards must be collected by persons certified by EPA as an inspector or risk assessor, and analyzed by a laboratory recognized by EPA under TSCA section 405(b).",
+          "quote": "Any paint chip, dust, or soil samples collected pursuant to the work practice standards contained in this section shall be: (1) Collected by persons certified by EPA as an inspector or risk assessor; and (2) Analyzed by a laboratory recognized by EPA pursuant to section 405(b) of TSCA as being capable of performing analyses for lead compounds in paint chip, dust, and soil samples.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The documented methodologies in 745.227(a)(3), the full report contents in 745.227(b)(4), (c)(5) and (d)(11), and the multi-family and child-occupied facility sampling locations in 745.227(c)(2)(v) and (d)(6)–(7) are not set out point by point."
+    },
+    {
+      "id": "abatement",
+      "name": "Abatement requirements",
+      "points": [
+        {
+          "text": "Abatement means any measure or set of measures designed to permanently eliminate lead-based paint hazards; for dust-lead hazards, to below the action levels.",
+          "quote": "Abatement means any measure or set of measures designed to permanently eliminate lead-based paint hazards, in the case of dust-lead hazards to below the action levels.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.223, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.223"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Abatement does not include renovation, remodeling, landscaping or other activities designed to repair, restore or remodel rather than to permanently eliminate lead-based paint hazards, even if they incidentally reduce or eliminate hazards. It also does not include interim controls, operations and maintenance activities, or other measures designed to reduce hazards only temporarily.",
+          "quote": "Abatement does not include renovation, remodeling, landscaping or other activities, when such activities are not designed to permanently eliminate lead-based paint hazards, in the case of dust-lead hazards to below the action levels, but, instead, are designed to repair, restore, or remodel a given structure or dwelling, even though these activities may incidentally result in a reduction or elimination of lead-based paint hazards. Furthermore, abatement does not include interim controls, operations and maintenance activities, or other measures and activities designed to temporarily, but not permanently, reduce lead-based paint hazards, in the case of dust-lead hazards to below the action levels.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.223, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.223"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An abatement may be conducted only by an individual certified by EPA and, if conducted, must follow the procedures in 745.227(e).",
+          "quote": "An abatement shall be conducted only by an individual certified by EPA, and if conducted, shall be conducted according to the procedures in this paragraph.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each abatement project requires a certified supervisor, who must be onsite during all work site preparation and the post-abatement cleanup of work areas. At other times during abatement, the supervisor must be onsite or available by telephone, pager or answering service and able to be at the work site in no more than 2 hours.",
+          "quote": "A certified supervisor is required for each abatement project and shall be onsite during all work site preparation and during the post-abatement cleanup of work areas. At all other times when abatement activities are being conducted, the certified supervisor shall be onsite or available by telephone, pager or answering service, and able to be present at the work site in no more than 2 hours.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Except for the EBL and emergency abatement order cases in 745.227(e)(4)(ii), a certified firm must notify EPA before abatement, and EPA must receive the original notification at least 5 business days before the start date.",
+          "quote": "Except as provided in paragraph (e)(4)(ii) of this section, EPA must be notified prior to conducting lead-based paint abatement activities. The original notification must be received by EPA at least 5 business days before the start date of any lead-based paint abatement activities.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For abatement required in response to an elevated blood lead level (EBL) determination or a Federal, State, Tribal or local emergency abatement order, the notification should be received by EPA as early as possible before, but must be received no later than, the start date.",
+          "quote": "Notification for lead-based paint abatement activities required in response to an elevated blood lead level (EBL) determination, or Federal, State, Tribal, or local emergency abatement order should be received by EPA as early as possible before, but must be received no later than, the start date of the lead-based paint abatement activities.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A written occupant protection plan, unique to each residential dwelling or child-occupied facility, must be developed before the abatement and describe the measures and management procedures to protect occupants from lead-based paint hazards during the abatement. A certified supervisor or project designer prepares it.",
+          "quote": "The occupant protection plan shall be unique to each residential dwelling or child-occupied facility and be developed prior to the abatement. The occupant protection plan shall describe the measures and management procedures that will be taken during the abatement to protect the building occupants from exposure to any lead-based paint hazards. (ii) A certified supervisor or project designer shall prepare the occupant protection plan.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The project examples in the abatement definition, updated and cancellation notices and notification contents (745.227(e)(4)(iii)–(ix)) and the restricted work practices in 745.227(e)(6) are not set out point by point."
+    },
+    {
+      "id": "post-abatement",
+      "name": "Post-abatement testing, reports and records",
+      "points": [
+        {
+          "text": "Post-abatement procedures may be performed only by a certified inspector or risk assessor. They start with a visual inspection for deteriorated painted surfaces and visible dust, debris or residue, which must be eliminated before post-abatement testing continues.",
+          "quote": "The following post-abatement procedures shall be performed only by a certified inspector or risk assessor: (i) Following an abatement, a visual inspection shall be performed to determine if deteriorated painted surfaces and/or visible amounts of dust, debris or residue are still present. If deteriorated painted surfaces or visible amounts of dust, debris or residue are present, these conditions must be eliminated prior to the continuation of the post-abatement testing procedures.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Dust samples for post-abatement testing are taken a minimum of 1 hour after final post-abatement cleanup activities are completed.",
+          "quote": "Dust samples for post-abatement testing purposes shall be taken a minimum of 1 hour after completion of final post-abatement cleanup activities.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A single-surface dust sample fails when it equals or exceeds the applicable action level; a composite sample fails when it equals or exceeds the action level divided by half the number of subsamples. Components represented by a failed sample must be recleaned and retested.",
+          "quote": "If the residual lead level in a single surface dust sample equals or exceeds the applicable action level or if the residual lead level in a composite dust sample equals or exceeds the applicable action level divided by half the number of subsamples in the composite sample, the components represented by the failed sample shall be recleaned and retested.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Composite dust sampling may only be done in the situations in 745.227(c) through (e). Composite samples need at least two subsamples, must include every component being tested, and may not mix subsamples from more than one type of component.",
+          "quote": "Composite dust sampling may only be conducted in the situations specified in paragraphs (c) through (e) of this section. If such sampling is conducted, the following conditions shall apply: (1) Composite dust samples shall consist of at least two subsamples; (2) Every component that is being tested shall be included in the sampling; and (3) Composite dust samples shall not consist of subsamples from more than one type of component.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A certified supervisor or project designer prepares the abatement report.",
+          "quote": "An abatement report shall be prepared by a certified supervisor or project designer.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "On or after January 12, 2026, when post-abatement dust-lead results are below the action levels but at or above the reportable levels, the abatement report must include a dust-lead hazard statement in the language the rule sets out.",
+          "quote": "On or after January 12, 2026, when post-abatement dust-lead testing results are below the dust-lead action levels and at or above the dust-lead reportable levels, a dust-lead hazard statement with the following language must be included:",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The certified firm or individual that prepared any report or plan required by 745.227 must keep it for no fewer than 3 years and give copies to the building owner who contracted for its services.",
+          "quote": "All reports or plans required in this section shall be maintained by the certified firm or individual who prepared the report for no fewer than 3 years. The certified firm or individual also shall provide copies of these reports to the building owner who contracted for its services.",
+          "source": {
+            "title": "eCFR: 40 CFR 745.227, Work practice standards for conducting lead-based paint activities: target housing and child-occupied facilities (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-L/section-745.227"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The number and placement of post-abatement dust samples with and without containment and after exterior abatement (745.227(e)(8)(v)), random sampling in multi-family dwellings (745.227(e)(9)), the full abatement report contents (745.227(e)(10)(i)–(vi)) and the full text of the required dust-lead hazard statement are not set out point by point."
+    }
+  ]
+}
