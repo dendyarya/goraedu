@@ -26,15 +26,15 @@
     {
       "id": "ov-002",
       "topic": "Special operations, surveillance and posting",
-      "question": "At a temporary job site, who does 34.51 name as the person who shall maintain continuous direct visual surveillance of the radiographic operation?",
+      "question": "Under 34.51, the radiographer or the other individual present maintains continuous direct visual surveillance of each radiographic operation. What is this surveillance to protect against?",
       "options": {
-        "A": "The Radiation Safety Officer only",
-        "B": "A security guard posted at each entrance to the area",
-        "C": "The licensee's site manager or client representative",
-        "D": "The radiographer, or the other individual present, as required by 34.41"
+        "A": "Theft of the film after it is exposed",
+        "B": "Damage to the guide tube from vehicle traffic",
+        "C": "Weather damage to the equipment",
+        "D": "Unauthorized entry into a high radiation area"
       },
       "answer": "D",
-      "explanation": "34.51 says \"the radiographer, or the other individual present, as required by § 34.41, shall maintain continuous direct visual surveillance of the operation\".",
+      "explanation": "34.51: the surveillance is maintained \"to protect against unauthorized entry into a high radiation area, as defined in 10 CFR part 20 of this chapter\".",
       "source": {
         "title": "eCFR: 10 CFR 34.51, Surveillance (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.51"
@@ -134,15 +134,15 @@
     {
       "id": "ov-008",
       "topic": "Wearing and reading dosimeters",
-      "question": "Under 34.47(a), where must a radiographer wear the direct reading dosimeter, alarm ratemeter and personnel dosimeter?",
+      "question": "Two radiographers who work different shifts suggest sharing one personnel dosimeter. What does 34.47(a)(2) require?",
       "options": {
-        "A": "On the wrist of the hand nearest the source",
-        "B": "On the trunk of the body",
-        "C": "On the outside of the collar",
-        "D": "Anywhere within the individual's reach"
+        "A": "Sharing is allowed if the shifts do not overlap",
+        "B": "Each personnel dosimeter must be assigned to and worn only by one individual",
+        "C": "Sharing is allowed if the RSO records who wore it each day",
+        "D": "Sharing is allowed for film badges only"
       },
       "answer": "B",
-      "explanation": "Each individual must wear these items \"on the trunk of the body\" at all times during radiographic operations.",
+      "explanation": "34.47(a)(2): \"Each personnel dosimeter must be assigned to and worn only by one individual.\"",
       "source": {
         "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
@@ -206,15 +206,15 @@
     {
       "id": "ov-012",
       "topic": "Wearing and reading dosimeters",
-      "question": "Under 34.47(b), when must direct reading dosimeters be read and the exposures recorded?",
+      "question": "Under 34.47(c), what must pocket dosimeters or electronic personal dosimeters be checked for at periods not to exceed 12 months?",
       "options": {
-        "A": "At the end of each work week",
-        "B": "At the beginning and end of each shift",
-        "C": "Once for each job site",
-        "D": "Only when the dosimeter reads above its midpoint"
+        "A": "Remaining battery life",
+        "B": "Correct response to radiation",
+        "C": "Leakage of radioactive material",
+        "D": "Wear on the pocket clip"
       },
       "answer": "B",
-      "explanation": "Direct reading dosimeters \"must be read and the exposures recorded at the beginning and end of each shift\".",
+      "explanation": "34.47(c): these dosimeters \"must be checked at periods not to exceed 12 months for correct response to radiation\", and \"Acceptable dosimeters must read within plus or minus 20 percent of the true radiation exposure.\"",
       "source": {
         "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
@@ -224,15 +224,15 @@
     {
       "id": "ov-013",
       "topic": "Off-scale, lost or damaged dosimeters",
-      "question": "A radiographer's pocket chamber is found off-scale and radiation exposure cannot be ruled out as the cause. What time period does 34.47(d) set for sending the personnel dosimeter that requires processing for processing and evaluation?",
+      "question": "A worker's lost personnel dosimeter has been replaced and the worker's exposure has been calculated. Under 34.47(e), what must be included in the records maintained under 34.83?",
       "options": {
-        "A": "Within 24 hours",
-        "B": "Within 30 days",
-        "C": "By the end of the calendar quarter",
-        "D": "Within 6 months"
+        "A": "The results of the calculated exposure and the time period for which the personnel dosimeter was lost or damaged",
+        "B": "Only the serial number of the replacement dosimeter",
+        "C": "A signed statement from the worker's co-worker",
+        "D": "The dosimetry processor's invoice"
       },
       "answer": "A",
-      "explanation": "The personnel dosimeter that requires processing \"must be sent for processing and evaluation within 24 hours.\"",
+      "explanation": "34.47(e): \"The results of the calculated exposure and the time period for which the personnel dosimeter was lost or damaged must be included in the records maintained in accordance with § 34.83.\"",
       "source": {
         "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
@@ -278,15 +278,15 @@
     {
       "id": "ov-016",
       "topic": "Alarm ratemeters",
-      "question": "Under 34.47(g)(2), at what preset dose rate must each alarm ratemeter be set to give an alarm signal?",
+      "question": "A radiographer asks for an alarm ratemeter whose alarm setting can be changed with an ordinary button on the front. What does 34.47(g)(3) require of each alarm ratemeter?",
       "options": {
-        "A": "0.5 mSv/hr (50 mrem/hr)",
-        "B": "20 mSv/hr (2,000 mrem/hr)",
-        "C": "5 mSv/hr (500 mrem/hr)",
-        "D": "50 mSv/hr (5,000 mrem/hr)"
+        "A": "The setting may be changed by any radiographer at the start of a shift",
+        "B": "The setting may be changed only by the manufacturer",
+        "C": "It must require special means to change the preset alarm function",
+        "D": "The setting must be changed for each new jobsite"
       },
       "answer": "C",
-      "explanation": "Each alarm ratemeter must \"Be set to give an alarm signal at a preset dose rate of 5 mSv/hr (500 mrem/hr)\".",
+      "explanation": "34.47(g)(3): each alarm ratemeter must \"Require special means to change the preset alarm function\".",
       "source": {
         "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
@@ -296,15 +296,15 @@
     {
       "id": "ov-017",
       "topic": "Radiation surveys",
-      "question": "Under 34.49(b), the survey after each exposure must determine that the sealed source has returned to its shielded position before which actions?",
+      "question": "After an exposure, a radiographer approaches the equipment. Under 34.49(b), what must the survey made at this point cover?",
       "options": {
-        "A": "Exchanging films, repositioning the exposure head, or dismantling equipment",
-        "B": "Writing the utilization log entry for the day",
-        "C": "Reading the direct reading dosimeters at the end of the shift",
-        "D": "Recharging the pocket dosimeters for the next shift"
+        "A": "The radiographic exposure device and the guide tube",
+        "B": "Only the restricted area boundary",
+        "C": "Only the film cassette",
+        "D": "The transport vehicle"
       },
       "answer": "A",
-      "explanation": "The survey \"must determine that the sealed source has returned to its shielded position before exchanging films, repositioning the exposure head, or dismantling equipment.\"",
+      "explanation": "34.49(b) requires \"a survey of the radiographic exposure device and the guide tube after each exposure when approaching the device or the guide tube.\"",
       "source": {
         "title": "eCFR: 10 CFR 34.49, Radiation surveys (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.49"

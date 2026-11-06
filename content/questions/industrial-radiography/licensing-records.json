@@ -26,12 +26,12 @@
     {
       "id": "lr-002",
       "topic": "Places and types of radiography",
-      "question": "How does 34.3 define a permanent radiographic installation?",
+      "question": "A licensee builds an enclosed shielded vault at its own shop, not at a temporary jobsite, and performs radiography inside it. The vault is not used to store sources or dispatch equipment. Which 34.3 term describes this vault?",
       "options": {
-        "A": "An enclosed shielded room, cell, or vault, not located at a temporary jobsite, in which radiography is performed",
-        "B": "A facility where licensed material may be stored or used and from which equipment is dispatched",
-        "C": "Any vehicle that is locked and used to secure a radiographic exposure device when it is not in use",
-        "D": "A location where radiographic operations are conducted other than the locations of use authorized on the license"
+        "A": "A permanent radiographic installation",
+        "B": "A field station",
+        "C": "A storage area",
+        "D": "A temporary jobsite"
       },
       "answer": "A",
       "explanation": "34.3: \"Permanent radiographic installation means an enclosed shielded room, cell, or vault, not located at a temporary jobsite, in which radiography is performed.\"",
@@ -116,15 +116,15 @@
     {
       "id": "lr-007",
       "topic": "Units and ALARA",
-      "question": "Which unit does 34.3 define as the SI unit of absorbed dose, equal to 100 rads?",
+      "question": "Under the 34.3 definition of the sievert, how is the dose equivalent in sieverts obtained?",
       "options": {
-        "A": "The sievert",
-        "B": "The gray",
-        "C": "The becquerel",
-        "D": "The roentgen"
+        "A": "The activity in becquerels divided by the distance in meters",
+        "B": "The absorbed dose in grays multiplied by the quality factor",
+        "C": "The exposure time in hours multiplied by 100",
+        "D": "The absorbed dose in rads divided by the number of disintegrations per second"
       },
       "answer": "B",
-      "explanation": "34.3: \"Gray means the SI unit of absorbed dose.\" It adds: \"It is also equal to 100 rads.\"",
+      "explanation": "34.3: \"The dose equivalent in sieverts is equal to the absorbed dose in grays multiplied by the quality factor (1 Sv = 100 rems).\"",
       "source": {
         "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
@@ -134,15 +134,15 @@
     {
       "id": "lr-008",
       "topic": "Units and ALARA",
-      "question": "How does 34.3 define ALARA?",
+      "question": "Under the 34.3 ALARA definition, which considerations are taken into account in making every reasonable effort to keep exposures as far below the dose limits as is practical?",
       "options": {
-        "A": "Making every reasonable effort to maintain exposures to radiation as far below the dose limits specified in 10 CFR part 20 as is practical consistent with the purpose for which the licensed activity is undertaken",
-        "B": "Keeping every exposure exactly at the dose limits specified in 10 CFR part 20",
-        "C": "Keeping exposures below the dose limits only inside permanent radiographic installations",
-        "D": "Recording every exposure to radiation in the utilization log"
+        "A": "The state of technology, the economics of improvements in relation to benefits to the public health and safety, and other societal and socioeconomic considerations",
+        "B": "Only the findings of the licensee's last NRC inspection",
+        "C": "Only the wishes of the customer at the jobsite",
+        "D": "Only the time available to finish the job"
       },
       "answer": "A",
-      "explanation": "34.3: ALARA \"means making every reasonable effort to maintain exposures to radiation as far below the dose limits specified in 10 CFR part 20 as is practical consistent with the purpose for which the licensed activity is undertaken\".",
+      "explanation": "34.3: ALARA is applied \"taking into account the state of technology, the economics of improvements in relation to state of technology, the economics of improvements in relation to benefits to the public health and safety, and other societal and socioeconomic considerations\".",
       "source": {
         "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
@@ -350,15 +350,15 @@
     {
       "id": "lr-020",
       "topic": "Notifications",
-      "question": "A licensee is storing radioactive material at a location not listed on its license. Under 34.101(c), the licensee notifies the appropriate NRC regional office before its time at that location exceeds what period?",
+      "question": "A licensee plans radiographic operations at a location not listed on its license for more than 180 days in a calendar year. Under 34.101(c), whom must it notify, and when?",
       "options": {
-        "A": "30 days in a calendar year",
-        "B": "90 days in a calendar year",
-        "C": "180 days in a calendar year",
-        "D": "365 days in a calendar year"
+        "A": "The certifying entity, within 30 days after the work ends",
+        "B": "The customer, before work starts",
+        "C": "The appropriate NRC regional office listed in 30.6(b)(2), prior to exceeding the 180 days",
+        "D": "The Office of Nuclear Material Safety and Safeguards, within 30 days after the 180 days are exceeded"
       },
       "answer": "C",
-      "explanation": "34.101(c) applies to a licensee at an unlisted location \"for a period in excess of 180 days in a calendar year\" and requires notice to the appropriate NRC regional office \"prior to exceeding the 180 days.\"",
+      "explanation": "34.101(c): such a licensee \"shall notify the appropriate NRC regional office listed in § 30.6(b)(2) of this chapter prior to exceeding the 180 days.\"",
       "source": {
         "title": "eCFR: 10 CFR 34.101, Notifications (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-F/section-34.101"
