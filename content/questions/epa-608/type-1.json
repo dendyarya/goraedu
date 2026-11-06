@@ -890,15 +890,15 @@
     {
       "id": "t1-052",
       "topic": "Definitions",
-      "question": "An office break room has an under-the-counter ice maker that was factory-sealed with 2 pounds of refrigerant. How do the definitions classify it?",
+      "question": "A dehumidifier uses a blend in which a class II ozone-depleting substance is only one part of the mixture, and the blend is used for heat transfer and provides a cooling effect. How does the Subpart F definition of refrigerant treat the blend?",
       "options": {
-        "A": "As a small appliance",
-        "B": "As industrial process refrigeration",
-        "C": "As an MVAC-like appliance",
-        "D": "As comfort cooling"
+        "A": "It is a refrigerant, because the definition includes blends and mixtures consisting in part or whole of a class I or class II substance or substitute",
+        "B": "It is not a refrigerant, because only pure class I or class II substances count",
+        "C": "It is a refrigerant only if more than half of the blend is the class II substance",
+        "D": "It is a refrigerant only when used in a motor vehicle air conditioner"
       },
       "answer": "A",
-      "explanation": "The small appliance definition names \"under-the-counter ice makers\" among its examples, for appliances factory-sealed \"with five (5) pounds or less of refrigerant.\"",
+      "explanation": "Refrigerant means \"any substance, including blends and mixtures, consisting in part or whole of a class I or class II ozone-depleting substance or substitute that is used for heat transfer purposes and provides a cooling effect.\"",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -962,33 +962,33 @@
     {
       "id": "t1-056",
       "topic": "Technician certification",
-      "question": "Every Type I test includes Group I questions. Which list matches the Group I subject areas in Appendix D?",
+      "question": "A technician who holds only Type I certification wants to buy a cylinder of a class II refrigerant from a distributor. Under the sales restriction in 40 CFR 82.154(c)(1), does the Type I certification qualify the technician as a buyer?",
       "options": {
-        "A": "Leak detection; recovery techniques; safety",
-        "B": "Environmental impact of CFCs, HCFCs, and substitute refrigerants; laws and regulations; changing industry outlook",
-        "C": "Shipping; disposal; recovery techniques",
-        "D": "Brazing; electrical controls; system charging"
+        "A": "No, because only Type II, Type III, or Universal technicians may buy refrigerant",
+        "B": "Yes, because the buyer may be certified as a Type I, Type II, Type III, or Universal technician under 82.161",
+        "C": "No, because buyers must be certified under 40 CFR part 82, subpart B",
+        "D": "Only if the cylinder holds two pounds or less"
       },
       "answer": "B",
-      "explanation": "Group I covers \"Environmental impact of CFCs, HCFCs, and substitute refrigerants,\" \"Laws and regulations\" and \"Changing industry outlook.\" Leak detection, recovery techniques, safety, shipping and disposal are Group II areas.",
+      "explanation": "A sale is allowed when \"The buyer has been certified as a Type I, Type II, Type III, or Universal technician under § 82.161.\" The two-pound container provision concerns non-exempt substitute refrigerant \"intended for use in an MVAC.\"",
       "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
       },
       "checked": "2026-11-06"
     },
     {
       "id": "t1-057",
       "topic": "Definitions",
-      "question": "A recovery device needs the small appliance's own compressor to help remove the refrigerant. Which defined term describes this device?",
+      "question": "During service, a person attaches hoses and gauges to a drinking water cooler that is a small appliance. How does the technician definition classify attaching hoses and gauges to an appliance?",
       "options": {
-        "A": "Self-contained recovery equipment",
-        "B": "Low-loss fitting",
-        "C": "System receiver",
-        "D": "System-dependent recovery equipment"
+        "A": "As an activity, like painting the appliance, that is not reasonably expected to violate the integrity of the refrigerant circuit",
+        "B": "As disposal of the appliance",
+        "C": "As opening the appliance",
+        "D": "As an activity reasonably expected to violate the integrity of the refrigerant circuit"
       },
       "answer": "D",
-      "explanation": "System-dependent recovery equipment is equipment \"that requires the assistance of components contained in an appliance to remove the refrigerant from the appliance.\" Self-contained equipment works \"without the assistance of components contained in the appliance.\"",
+      "explanation": "Activities reasonably expected to violate the integrity of the refrigerant circuit include \"Attaching or detaching hoses and gauges to and from the appliance; adding or removing refrigerant; adding or removing components; and cutting the refrigerant line.\" Under the separate definition of opening an appliance, connecting and disconnecting hoses and gauges \"are not considered\" opening an appliance.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -1032,38 +1032,20 @@
       "checked": "2026-11-06"
     },
     {
-      "id": "t1-060",
-      "topic": "Technician certification",
-      "question": "An approved Type I certifying program decides to stop offering the certification test. Under Appendix D, what must it do with the records it holds on certified technicians?",
-      "options": {
-        "A": "Destroy them 30 days after the last test",
-        "B": "Forward them to another program currently approved by EPA",
-        "C": "Mail each record to the technician it covers",
-        "D": "Keep them for three years and then destroy them"
-      },
-      "answer": "B",
-      "explanation": "Programs that voluntarily plan to stop testing \"must forward all records required by this appendix and § 82.161 to another program currently approved by EPA.\" If no approved program willing to accept the records can be located, the records go to EPA.",
-      "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
-      },
-      "checked": "2026-11-06"
-    },
-    {
       "id": "t1-061",
       "topic": "Equipment",
-      "question": "A technician's recovery hoses have connectors designed to close automatically or to be closed manually when disconnected, minimizing the release of refrigerant. Which defined term describes these connectors?",
+      "question": "A technician checks the certification label on a recovery machine certified for use with small appliances. Under 82.158(h)(2), how must the label be affixed?",
       "options": {
-        "A": "Self-sealing valve",
-        "B": "Process stub",
-        "C": "System receiver",
-        "D": "Low-loss fitting"
+        "A": "As a removable tag, so it can be moved to replacement equipment",
+        "B": "In the equipment's instruction manual rather than on the machine",
+        "C": "On the shipping carton rather than on the machine",
+        "D": "In such a way that it cannot be removed from the equipment without damage to the label"
       },
       "answer": "D",
-      "explanation": "A low-loss fitting is a device that connects \"hoses, appliances, or recovery and/or recycling machines\" and \"is designed to close automatically or to be closed manually when disconnected.\" A self-sealing valve is \"a valve affixed to a container of refrigerant.\"",
+      "explanation": "The label must \"be affixed in a readily visible or accessible location\" and \"be affixed in such a way that it cannot be removed from the equipment without damage to the label.\"",
       "source": {
-        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
+        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
       },
       "checked": "2026-11-06"
     },
@@ -1088,15 +1070,15 @@
     {
       "id": "t1-063",
       "topic": "Technician certification",
-      "question": "A Type I technician stops working as a technician in 2026. Under 82.161(a)(4), how long must the technician keep a copy of the certificate?",
+      "question": "In 2026, a technician repairs only small appliances charged with a non-exempt substitute refrigerant (no class I or class II refrigerant). Under 40 CFR 82.161, which certification must the technician hold?",
       "options": {
-        "A": "Until three years after no longer operating as a technician",
-        "B": "Until the wallet-sized card expires",
-        "C": "One year after the last service job",
-        "D": "Five years from the date of certification"
+        "A": "Type I, because starting on January 1, 2018, the section covers technicians who service appliances containing any non-exempt substitute refrigerant",
+        "B": "None, because the section covers only class I and class II refrigerants",
+        "C": "Type II, because substitute refrigerants fall under Type II",
+        "D": "Certification under 40 CFR part 82, subpart B"
       },
       "answer": "A",
-      "explanation": "\"Technicians must maintain a copy of their certificate until three years after no longer operating as a technician.\" While working, they \"must keep a copy of their certificate at their place of business.\"",
+      "explanation": "\"Starting on January 1, 2018, this section applies to technicians and organizations certifying technicians that maintain, service, or repair appliances containing any class I or class II refrigerant or any non-exempt substitute refrigerant.\" \"Persons who maintain, service, or repair small appliances must be certified as Type I technicians.\"",
       "source": {
         "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
@@ -1106,15 +1088,15 @@
     {
       "id": "t1-064",
       "topic": "Disposal",
-      "question": "A household refrigerator goes from its owner to a hauler and then to a scrap recycler that shreds it. Under 82.155(b), which of them is the final processor?",
+      "question": "Old household refrigerators are picked up by a hauler and delivered to a landfill, where the landfill operator buries them. Under 82.155(b), who must either recover any remaining refrigerant or verify its recovery with a signed statement or contract?",
       "options": {
-        "A": "The owner, who first discarded it",
-        "B": "The scrap recycler, because the final processor is the person who takes the final step in the disposal process",
-        "C": "The hauler, who delivered it",
-        "D": "Whoever last serviced the refrigerator"
+        "A": "The hauler, because it moved the refrigerators last before delivery",
+        "B": "The landfill operator, as the final processor",
+        "C": "The original manufacturer of the refrigerators",
+        "D": "The last technician who serviced each refrigerator"
       },
       "answer": "B",
-      "explanation": "The final processor means \"persons who take the final step in the disposal process (including but not limited to scrap recyclers and landfill operators) of a small appliance, MVAC, or MVAC-like appliance.\"",
+      "explanation": "The final processor, \"i.e., persons who take the final step in the disposal process (including but not limited to scrap recyclers and landfill operators)\" of a small appliance, must either \"Recover any remaining refrigerant from the appliance\" or \"Verify using a signed statement or a contract\" that the refrigerant was recovered.",
       "source": {
         "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
@@ -1140,38 +1122,20 @@
       "checked": "2026-11-06"
     },
     {
-      "id": "t1-066",
-      "topic": "Technician certification",
-      "question": "Several technicians sit for an in-person Type I test at the same testing event. What does Appendix D require about the versions of the test?",
-      "options": {
-        "A": "Every applicant must take one identical version",
-        "B": "Each applicant may choose which questions to answer",
-        "C": "Multiple versions of the test must be used during each testing event",
-        "D": "The proctor must write a new version on site"
-      },
-      "answer": "C",
-      "explanation": "\"Each certifying program must show a method of randomly choosing which questions will be on the tests. Multiple versions of the test must be used during each testing event.\"",
-      "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
-      },
-      "checked": "2026-11-06"
-    },
-    {
       "id": "t1-067",
       "topic": "Recovery requirements",
-      "question": "Before opening a household freezer, a technician uses a certified recovery machine manufactured in 1991. Which recovery percentage does 82.156(b)(1) set for equipment of that age?",
+      "question": "A technician services a small appliance that uses carbon dioxide as its refrigerant. How does 40 CFR 82.154(a)(1) treat carbon dioxide?",
       "options": {
-        "A": "90 percent of the refrigerant in the small appliance",
-        "B": "80 percent of the refrigerant in the small appliance",
-        "C": "95 percent of the refrigerant in the small appliance",
-        "D": "99 percent of the refrigerant in the small appliance"
+        "A": "As exempt only in industrial process refrigeration",
+        "B": "As exempt from the venting prohibition and from the requirements of Subpart F in any application",
+        "C": "As exempt only in commercial or industrial process refrigeration or in absorption units",
+        "D": "As exempt only in very low temperature refrigeration equipment"
       },
       "answer": "B",
-      "explanation": "\"When using recovery equipment manufactured before November 15, 1993, recover 80 percent of the refrigerant in the small appliance.\" The 90 percent level applies to equipment made on or after that date.",
+      "explanation": "The exempt list includes \"Carbon dioxide in any application\", and listed substitutes \"are exempt from this prohibition and from the requirements of this subpart.\" The limit to \"commercial or industrial process refrigeration or in absorption units\" applies to ammonia.",
       "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
+        "title": "eCFR: 40 CFR 82.154, Prohibitions (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.154"
       },
       "checked": "2026-11-06"
     },
@@ -1196,18 +1160,18 @@
     {
       "id": "t1-069",
       "topic": "Technician certification",
-      "question": "A technician will replace a component in the refrigerant circuit of a dehumidifier that is a small appliance. Which certification does 82.161(a)(1)(i) require for servicing small appliances?",
+      "question": "A technician takes the Type I test as part of a Universal certification and brings a binder of study notes into the test room. What does Appendix D require the proctors to ensure?",
       "options": {
-        "A": "Type II",
-        "B": "Type III",
-        "C": "Type I",
-        "D": "Certification under 40 CFR part 82, subpart B"
+        "A": "That notes are limited to excerpts from the regulation",
+        "B": "That the proctor reviews the notes before the applicant uses them",
+        "C": "That applicants for certification do not use any notes or training materials during testing",
+        "D": "That notes are used only during the Type I part of the test"
       },
       "answer": "C",
-      "explanation": "\"Persons who maintain, service, or repair small appliances must be certified as Type I technicians.\"",
+      "explanation": "The test for \"Type I (if taken as part of a Universal certification), Type II, Type III, and Universal technicians is a closed-book exam. The proctors must ensure that the applicants for certification do not use any notes or training materials during testing.\"",
       "source": {
-        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
+        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
       },
       "checked": "2026-11-06"
     },
@@ -1226,78 +1190,6 @@
       "source": {
         "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t1-071",
-      "topic": "Technician certification",
-      "question": "A technician fills in the answer sheet for a Type I test. Which information does Appendix D require test answer sheets to include?",
-      "options": {
-        "A": "Only the applicant's certification number",
-        "B": "The name and address of the applicant, the name and address of the certifying program, and the date and location at which the test was administered",
-        "C": "The applicant's employer and job title",
-        "D": "The model of recovery equipment the applicant uses"
-      },
-      "answer": "B",
-      "explanation": "\"Test answer sheets must include the name and address of the applicant, the name and address of the certifying program, and the date and location at which the test was administered.\"",
-      "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t1-072",
-      "topic": "Technician certification",
-      "question": "EPA inspects a site where a program gives Type I tests and finds discrepancies, which the program does not correct within the specified time period. What does Appendix D say EPA may do?",
-      "options": {
-        "A": "Cancel every certificate the program has ever issued",
-        "B": "Take over the testing site",
-        "C": "Suspend or revoke the certifying program's approval",
-        "D": "Require each technician tested there to work as an apprentice"
-      },
-      "answer": "C",
-      "explanation": "\"EPA may periodically inspect testing sites to ensure compliance with EPA regulations. If testing center discrepancies are found, they must be corrected within a specified time period. If discrepancies are not corrected, EPA may suspend or revoke the certifying program's approval.\"",
-      "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t1-073",
-      "topic": "Technician certification",
-      "question": "Appendix D limits what proctors may know about the tests they proctor. Which rule does it set?",
-      "options": {
-        "A": "Proctors cannot know in advance which questions are on the tests they are proctoring",
-        "B": "Proctors must review the answer key before each session",
-        "C": "Proctors must hold Universal certification",
-        "D": "Proctors must grade the tests before leaving the site"
-      },
-      "answer": "A",
-      "explanation": "Appendix D states: \"Proctors cannot know in advance which questions are on the tests they are proctoring.\"",
-      "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t1-074",
-      "topic": "Technician certification",
-      "question": "A certifying program also offers a review course to people preparing for its Type I test. How does Appendix D say that training must be treated?",
-      "options": {
-        "A": "As part of the test, so applicants must finish it before testing",
-        "B": "As something approved programs may not offer",
-        "C": "As requiring separate EPA approval for each course",
-        "D": "As completely separate from the administration of the certification test"
-      },
-      "answer": "D",
-      "explanation": "\"If the certifying programs offer training or provide review materials to the applicants, these endeavors are to be considered completely separate from the administration of the certification test.\"",
-      "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
       },
       "checked": "2026-11-06"
     },
@@ -1322,87 +1214,15 @@
     {
       "id": "t1-076",
       "topic": "Technician certification",
-      "question": "What is the passing score for a Type I certification test that uses the mail-in format?",
+      "question": "A technician takes a closed-book, proctored Type I certification test and scores 76 percent. Under Appendix D, did the technician reach the passing score?",
       "options": {
-        "A": "70 percent",
-        "B": "75 percent",
-        "C": "84 percent",
-        "D": "90 percent"
+        "A": "No, because the passing score for every Type I test is 84 percent",
+        "B": "No, because the passing score is 80 percent",
+        "C": "Yes, because the passing score for the closed-book Type I test is 70 percent",
+        "D": "No, because the passing score is 90 percent"
       },
       "answer": "C",
-      "explanation": "\"The passing score for Type I certification tests using the mail-in format is 84 percent.\" The 70 percent score applies to the closed-book tests.",
-      "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t1-077",
-      "topic": "Technician certification",
-      "question": "A technician arrives at a testing center to take an in-person Type I test from an approved certifying program. What does Appendix D require each testing center to display at its place of business?",
-      "options": {
-        "A": "The pass/fail rate from the program's last activity report",
-        "B": "A sample of the test questions",
-        "C": "The proctor's own technician certificate",
-        "D": "A copy of EPA's letter of approval for the certifying program"
-      },
-      "answer": "D",
-      "explanation": "\"Approved certifying programs will receive a letter of approval from EPA. Each testing center must display a copy of that letter at their place of business.\"",
-      "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t1-078",
-      "topic": "Technician certification",
-      "question": "Years after passing a Type I test, a technician asks the certifying program to confirm the score. How long does Appendix D require programs to keep records of test scores?",
-      "options": {
-        "A": "Three years",
-        "B": "Indefinitely, unless transferred to another certifying program or EPA",
-        "C": "Until the technician's card is reissued",
-        "D": "Five years"
-      },
-      "answer": "B",
-      "explanation": "Programs must keep records of names and addresses, \"the scores of all certification tests administered,\" and test dates and locations, and \"These records must be maintained indefinitely, unless transferred to another certifying program or EPA.\"",
-      "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t1-079",
-      "topic": "Technician certification",
-      "question": "A certifying program charges an applicant for giving a Type I test. What does Appendix D allow programs to charge?",
-      "options": {
-        "A": "Reasonable fees for the administration of the tests",
-        "B": "No fees of any kind",
-        "C": "Fees only for mail-in tests",
-        "D": "Only a fee set by EPA for every program"
-      },
-      "answer": "A",
-      "explanation": "\"Certifying programs may charge individuals reasonable fees for the administration of the tests.\"",
-      "source": {
-        "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t1-080",
-      "topic": "Technician certification",
-      "question": "A technician wants to confirm that a program offering Type I tests is EPA-approved. Which list does Appendix D say EPA will publish?",
-      "options": {
-        "A": "A list of every technician's test scores",
-        "B": "A list of the questions in the test bank",
-        "C": "A list of all approved certifying programs",
-        "D": "A list of programs that use only the mail-in format"
-      },
-      "answer": "C",
-      "explanation": "Appendix D states: \"EPA will publish a list of all approved certifying programs.\"",
+      "explanation": "\"The passing score for the closed-book Type I, Type II, Type III and Universal certification test is 70 percent.\" The 84 percent score applies to \"Type I certification tests using the mail-in format.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"

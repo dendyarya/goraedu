@@ -1,22 +1,22 @@
 {
   "cluster": "faa-107",
   "slug": "loading-performance",
-  "title": "FAA Part 107 Loading and performance practice questions",
+  "title": "FAA Part 107 loading and performance practice questions",
   "description": "Free Part 107 practice questions on loading and performance: CG and lift, stability, load factor, overloading and performance data, with FAA sources.",
   "href": "/faa-107/loading-performance/practice-test/",
   "questions": [
     {
       "id": "lp-001",
       "topic": "Loading before flight",
-      "question": "According to the FAA Remote Pilot Study Guide, whose weight and balance restrictions for an aircraft should be closely followed?",
+      "question": "A remote pilot's small UA will release a jettisonable load partway through the flight. According to the Study Guide, what should the remote PIC determine?",
       "options": {
-        "A": "The local air traffic control facility's",
-        "B": "Those established by the manufacturer or the builder",
-        "C": "The visual observer's",
-        "D": "Those of the nearest airport operator"
+        "A": "Nothing, because the CG is a fixed point marked on the aircraft",
+        "B": "How the CG will shift and the resultant effects on the aircraft",
+        "C": "Only whether the takeoff weight is under the maximum gross takeoff weight",
+        "D": "Which air traffic facility must approve the release"
       },
       "answer": "B",
-      "explanation": "The Study Guide says \"An aircraft's weight and balance restrictions established by the manufacturer or the builder should be closely followed.\"",
+      "explanation": "The Study Guide says weight change during flight \"may occur when expendable items are used on board (e.g., a jettisonable load).\" It adds: \"As variable load items are shifted or expended, there may be a resultant shift in CG location. The remote PIC should determine how the CG will shift and the resultant effects on the aircraft.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -170,15 +170,15 @@
     {
       "id": "lp-010",
       "topic": "Stability and controllability",
-      "question": "Which description does the Study Guide give for controllability?",
+      "question": "A remote pilot flies two small UAs with very different stability characteristics and compares how each one responds when she applies the controls to maneuver it. According to the Study Guide, which quality is she comparing?",
       "options": {
-        "A": "The capability of an aircraft to respond to the pilot's control, especially with regard to flight path and attitude",
-        "B": "The inherent quality of an aircraft to return to its original flight path after a disturbance",
-        "C": "The quality that lets an aircraft withstand the stresses imposed by maneuvers",
-        "D": "The ability of an aircraft to carry its maximum payload"
+        "A": "Controllability",
+        "B": "Stability",
+        "C": "Maneuverability",
+        "D": "Equilibrium"
       },
       "answer": "A",
-      "explanation": "The Study Guide defines controllability as \"the capability of an aircraft to respond to the pilot's control, especially with regard to flight path and attitude.\"",
+      "explanation": "Controllability is \"the capability of an aircraft to respond to the pilot's control, especially with regard to flight path and attitude.\" The Study Guide adds: \"It is the quality of the aircraft's response to the pilot's control application when maneuvering the aircraft, regardless of its stability characteristics.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -242,15 +242,15 @@
     {
       "id": "lp-014",
       "topic": "Load factor, turns and stalls",
-      "question": "According to the Study Guide, in which maneuvers should a pilot be aware of the danger of inadvertently stalling the aircraft by increasing the load factor?",
+      "question": "According to the Study Guide, why can stalling an aircraft at a relatively high airspeed impose tremendous loads on its structure?",
       "options": {
-        "A": "Straight-and-level flight at a constant airspeed",
-        "B": "A shallow, straight descent at a constant airspeed",
-        "C": "Holding a steady heading at cruise speed",
-        "D": "A steep turn or spiral"
+        "A": "Because the load factor is halved as the stalling speed doubles",
+        "B": "Because the aircraft's weight increases with airspeed",
+        "C": "Because stalls at relatively high airspeeds can occur only in straight-and-level flight",
+        "D": "Because the load factor is squared as the stalling speed doubles"
       },
       "answer": "D",
-      "explanation": "\"A pilot should be aware of the danger of inadvertently stalling the aircraft by increasing the load factor, as in a steep turn or spiral.\"",
+      "explanation": "The Study Guide says \"Since the load factor is squared as the stalling speed doubles, tremendous loads may be imposed on structures by stalling an aircraft at relatively high airspeeds.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"

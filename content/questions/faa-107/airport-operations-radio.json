@@ -44,12 +44,12 @@
     {
       "id": "ar-003",
       "topic": "Preflight inspection and crew briefing",
-      "question": "Before flight, which topics does 107.49(b) require the remote pilot in command to ensure that all persons directly participating in the operation are informed about?",
+      "question": "Before flight, a remote pilot in command briefs everyone directly participating in the operation on the emergency and contingency procedures, and on nothing else. Has the remote pilot in command met 107.49(b)?",
       "options": {
-        "A": "The operating conditions, emergency procedures, contingency procedures, roles and responsibilities, and potential hazards",
-        "B": "The aircraft's purchase price, warranty terms and resale value",
-        "C": "Each participant's medical history and total flight hours",
-        "D": "The names and addresses of the property owners below the flight"
+        "A": "No; they must also be informed about the operating conditions, roles and responsibilities, and potential hazards",
+        "B": "Yes; emergency and contingency procedures are the only topics 107.49(b) lists",
+        "C": "Yes; 107.49(b) applies only to operations at night",
+        "D": "Yes; 107.49(b) applies only when a visual observer is used"
       },
       "answer": "A",
       "explanation": "107.49(b) requires the remote pilot in command to \"Ensure that all persons directly participating in the small unmanned aircraft operation are informed about the operating conditions, emergency procedures, contingency procedures, roles and responsibilities, and potential hazards\".",
@@ -188,15 +188,15 @@
     {
       "id": "ar-011",
       "topic": "Non-towered airports and traffic advisories",
-      "question": "Most non-towered airports have a UNICOM frequency, but a remote pilot is planning a flight in an area with many non-towered airports. According to the Study Guide, why should the pilot check the chart or the Chart Supplements for the correct frequency instead of assuming the usual one?",
+      "question": "A remote pilot plans to fly close to a non-towered airport and asks why she should learn radio phraseology when she is not required to talk to manned aircraft there. What reason does the Study Guide give?",
       "options": {
-        "A": "The remote pilot assigns the UNICOM frequency for each flight",
-        "B": "The frequency can vary when there are a large number of non-towered airports in the area",
-        "C": "Sectional charts show frequencies only for towered airports",
-        "D": "UNICOM frequencies change every time the ATIS is updated"
+        "A": "Part 107 requires every remote pilot to make position reports near non-towered airports",
+        "B": "Safety in the National Airspace System requires remote pilots to be familiar with traffic patterns, radio procedures, and radio phraseology",
+        "C": "Manned aircraft at non-towered airports must ask the remote pilot for permission to land",
+        "D": "Air traffic control calls each remote pilot on the CTAF before the flight"
       },
       "answer": "B",
-      "explanation": "The Study Guide says \"This frequency can vary when there are a large number of non-towered airports in the area.\" It adds that \"These frequencies can be found on a sectional chart by the airport or in the Chart Supplements publication from the FAA.\"",
+      "explanation": "The Study Guide says \"Although a remote pilot-in-command is not required to communicate with manned aircraft when in the vicinity of a non-towered airport, safety in the National Airspace System requires that remote pilots are familiar with traffic patterns, radio procedures, and radio phraseology.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
