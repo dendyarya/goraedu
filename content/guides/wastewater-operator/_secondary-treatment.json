@@ -81,6 +81,15 @@
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.101"
           },
           "checked": "2026-11-06"
+        },
+        {
+          "text": "Significantly more stringent limitation means BOD5 and SS limitations, necessary to meet the percent removal requirements, of at least 5 mg/l more stringent than the otherwise applicable concentration-based limitations (for example, less than 25 mg/l for the secondary treatment limits for BOD5 and SS), or the percent removal limitations in 133.102 and 133.105, if such limits would, by themselves, force significant construction or other significant capital expenditure.",
+          "quote": "Significantly more stringent limitation means BOD5 and SS limitations necessary to meet the percent removal requirements of at least 5 mg/l more stringent than the otherwise applicable concentration-based limitations (e.g., less than 25 mg/l in the case of the secondary treatment limits for BOD5 and SS), or the percent removal limitations in §§ 133.102 and 133.105, if such limits would, by themselves, force significant construction or other significant capital expenditure.",
+          "source": {
+            "title": "eCFR: 40 CFR 133.101, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.101"
+          },
+          "checked": "2026-11-06"
         }
       ],
       "notCovered": "The definitions of Act, mg/l and NPDES in 133.101(c), (h) and (i) are not set out here."
@@ -90,7 +99,7 @@
       "name": "Consistently achievable levels and eligibility",
       "points": [
         {
-          "text": "For a pollutant parameter, the concentration consistently achievable through proper operation and maintenance starts from the 95th percentile of the treatment works' 30-day average effluent quality over a period of at least two years. Values caused by upsets, bypasses, operational errors or other unusual conditions are left out.",
+          "text": "The first part of the definition of effluent concentrations consistently achievable through proper operation and maintenance: for a given pollutant parameter, the 95th percentile value for the 30-day average effluent quality the treatment works achieved over a period of at least two years, excluding values attributable to upsets, bypasses, operational errors or other unusual conditions.",
           "quote": "For a given pollutant parameter, the 95th percentile value for the 30-day average effluent quality achieved by a treatment works in a period of at least two years, excluding values attributable to upsets, bypasses, operational errors, or other unusual conditions, and",
           "source": {
             "title": "eCFR: 40 CFR 133.101, Definitions (as of Nov 4, 2026)",
@@ -99,7 +108,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The matching 7-day average value is 1.5 times the value derived under 133.101(f)(1).",
+          "text": "The second part is a 7-day average value equal to 1.5 times the value derived under 133.101(f)(1).",
           "quote": "a 7-day average value equal to 1.5 times the value derived under paragraph (f)(1) of this section.",
           "source": {
             "title": "eCFR: 40 CFR 133.101, Definitions (as of Nov 4, 2026)",
@@ -108,7 +117,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A treatment works is eligible for consideration for the treatment-equivalent-to-secondary limits in 133.105 only if it meets the conditions listed in 133.101(g).",
+          "text": "A treatment works is eligible for consideration for the treatment-equivalent-to-secondary limits in 133.105 if it meets the conditions listed in 133.101(g).",
           "quote": "Treatment works shall be eligible for consideration for effluent limitations described for treatment equivalent to secondary treatment (§ 133.105), if:",
           "source": {
             "title": "eCFR: 40 CFR 133.101, Definitions (as of Nov 4, 2026)",
@@ -128,15 +137,6 @@
         {
           "text": "Significant biological treatment means using an aerobic or anaerobic biological process to consistently achieve a 30-day average of at least 65 percent BOD5 removal.",
           "quote": "Significant biological treatment. The use of an aerobic or anaerobic biological treatment process in a treatment works to consistently achieve a 30-day average of a least 65 percent removal of BOD5.",
-          "source": {
-            "title": "eCFR: 40 CFR 133.101, Definitions (as of Nov 4, 2026)",
-            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.101"
-          },
-          "checked": "2026-11-06"
-        },
-        {
-          "text": "A significantly more stringent limitation means BOD5 and SS limits, needed to meet percent removal, that are at least 5 mg/l more stringent than the otherwise applicable concentration limits, or the percent removal limits themselves, if those limits alone would force significant construction or other significant capital expenditure.",
-          "quote": "Significantly more stringent limitation means BOD5 and SS limitations necessary to meet the percent removal requirements of at least 5 mg/l more stringent than the otherwise applicable concentration-based limitations (e.g., less than 25 mg/l in the case of the secondary treatment limits for BOD5 and SS), or the percent removal limitations in §§ 133.102 and 133.105, if such limits would, by themselves, force significant construction or other significant capital expenditure.",
           "source": {
             "title": "eCFR: 40 CFR 133.101, Definitions (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.101"
@@ -169,7 +169,7 @@
         },
         {
           "text": "For BOD5, the 7-day average may not exceed 45 mg/l and the 30-day average percent removal may not be less than 85 percent.",
-          "quote": "(2) The 7-day average shall not exceed 45 mg/l. (3) The 30-day average percent removal shall not be less than 85 percent. (4) At the option of the NPDES permitting authority, in lieu of the parameter BOD5",
+          "quote": "(2) The 7-day average shall not exceed 45 mg/l. (3) The 30-day average percent removal shall not be less than 85 percent.",
           "source": {
             "title": "eCFR: 40 CFR 133.102, Secondary treatment (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.102"
@@ -237,7 +237,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The SS levels under 133.105 are the same numbers, except where SS values have been adjusted under 133.103(c) (waste stabilization ponds).",
+          "text": "Under 133.105 the SS levels are the same: a 30-day average not over 45 mg/l, a 7-day average not over 65 mg/l, and a 30-day average percent removal of not less than 65 percent, except where SS values have been adjusted under 133.103(c).",
           "quote": "(b) SS. Except where SS values have been adjusted in accordance with § 133.103(c): (1) The 30-day average shall not exceed 45 mg/l. (2) The 7-day average shall not exceed 65 mg/l. (3) The 30-day average percent removal shall not be less than 65 percent.",
           "source": {
             "title": "eCFR: 40 CFR 133.105, Treatment equivalent to secondary treatment (as of Nov 4, 2026)",
@@ -436,8 +436,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "For separate sewers with less concentrated influent, the Regional Administrator or, if appropriate, the State Director may substitute one of two options for the percent removal requirements: a lower percent removal requirement or a mass loading limit. The permittee must satisfactorily demonstrate the listed conditions.",
-          "quote": "The Regional Administrator or, if appropriate, State Director is authorized to substitute either a lower percent removal requirement or a mass loading limit for the percent removal requirements",
+          "text": "For separate sewers with less concentrated influent, the Regional Administrator or, if appropriate, the State Director is authorized to substitute one of two options for the percent removal requirements: a lower percent removal requirement or a mass loading limit. This is provided that the permittee satisfactorily demonstrates the listed conditions.",
+          "quote": "Less concentrated influent wastewater for separate sewers. The Regional Administrator or, if appropriate, State Director is authorized to substitute either a lower percent removal requirement or a mass loading limit for the percent removal requirements set forth in §§ 133.102(a)(3), 133.102(a)(4)(iii), 133.102(b)(3), 102.105(a)(3), 133.105(b)(3) and 133.105(e)(1)(iii) provided that the permittee satisfactorily demonstrates that:",
           "source": {
             "title": "eCFR: 40 CFR 133.103, Special considerations (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.103"
@@ -463,8 +463,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "For combined sewers during dry weather, the Regional Administrator or, if appropriate, the State Director may likewise substitute one of the two options (a lower percent removal requirement or a mass loading limit), on the permittee's satisfactory demonstration.",
-          "quote": "Less concentrated influent wastewater for combined sewers during dry weather. The Regional Administrator or, if appropriate, the State Director is authorized to substitute either a lower percent removal requirement or a mass loading limit for the percent removal requirements",
+          "text": "For combined sewers during dry weather, the Regional Administrator or, if appropriate, the State Director is likewise authorized to substitute one of the two options (a lower percent removal requirement or a mass loading limit), provided that the permittee satisfactorily demonstrates the listed conditions.",
+          "quote": "Less concentrated influent wastewater for combined sewers during dry weather. The Regional Administrator or, if appropriate, the State Director is authorized to substitute either a lower percent removal requirement or a mass loading limit for the percent removal requirements set forth in §§ 133.102(a)(3), 133.102(a)(4)(iii), 133.102(b)(3), 133.105(a)(3), 133.105(b)(3) and 133.105(e)(1)(iii) provided that the permittee satisfactorily demonstrates that:",
           "source": {
             "title": "eCFR: 40 CFR 133.103, Special considerations (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.103"
