@@ -46,7 +46,7 @@
     {
       "id": "vg-003",
       "topic": "Airframe and powerplant major alterations",
-      "question": "An owner plans a change to the aircraft's empty weight and empty balance. Under Appendix A (a)(1)(xi), such changes are airframe major alterations when they result in what?",
+      "question": "An owner plans a change to the aircraft's empty weight and empty balance. Appendix A (a)(1)(xi) lists changes to the empty weight or empty balance that result in what?",
       "options": {
         "A": "An increase in the maximum certificated weight or center of gravity limits of the aircraft",
         "B": "Any change of the empty weight, however small",
@@ -87,9 +87,9 @@
       "question": "Appendix A (a)(2)(i) lists the conversion of an aircraft engine from one approved model to another as a powerplant major alteration when the conversion involves what?",
       "options": {
         "A": "Any changes in compression ratio, propeller reduction gear, impeller gear ratios or the substitution of major engine parts which requires extensive rework and testing of the engine",
-        "B": "Any change of the engine's data plate, even with no change to its parts",
-        "C": "Only a change of the engine's paint or finish",
-        "D": "Only a change made by a person other than the engine manufacturer"
+        "B": "Only a change of the model designation on the engine's data plate, with no change to the engine's parts",
+        "C": "Only changes that increase the engine's rated power",
+        "D": "Only changes made by a person other than the engine manufacturer"
       },
       "answer": "A",
       "explanation": "Item (a)(2)(i) covers a conversion \"involving any changes in compression ratio, propeller reduction gear, impeller gear ratios or the substitution of major engine parts which requires extensive rework and testing of the engine.\"",
@@ -160,7 +160,7 @@
     {
       "id": "vg-009",
       "topic": "Propeller and appliance major alterations",
-      "question": "Appendix A (a)(4) also covers radio communication and navigation equipment approved under type certification or a Technical Standard Order. Which changes in the basic design of that equipment are also major alterations?",
+      "question": "Appendix A (a)(4) also covers communication and navigation equipment approved under type certification or a Technical Standard Order. Which changes to that equipment does it say are also major alterations?",
       "options": {
         "A": "Only changes that replace the equipment's display",
         "B": "Only changes made outside the equipment manufacturer's facility",
@@ -198,12 +198,12 @@
     {
       "id": "vg-011",
       "topic": "Airframe major repairs",
-      "question": "Under Appendix A (b)(1)(xxvi), a repair of fabric covering is an airframe major repair when it involves what area?",
+      "question": "Appendix A (b)(1)(xxvi) names repair of fabric covering involving what area?",
       "options": {
         "A": "Any area at all",
         "B": "An area greater than that required to repair two adjacent ribs",
         "C": "An area greater than that required to repair one rib",
-        "D": "An area greater than the whole wing"
+        "D": "An area no larger than that required to repair one rib"
       },
       "answer": "B",
       "explanation": "Item (b)(1)(xxvi) reads: \"Repair of fabric covering involving an area greater than that required to repair two adjacent ribs.\"",
@@ -235,22 +235,22 @@
     },
     {
       "id": "vg-013",
-      "topic": "Powerplant, propeller and appliance major repairs",
-      "question": "Under Appendix A (b)(3)(i), which work on steel propeller blades is a propeller major repair?",
+      "topic": "Preventive maintenance: the limit and item conditions",
+      "question": "Under Appendix A (c)(15), replacing seats or seat parts is in the preventive maintenance list with which replacement parts?",
       "options": {
-        "A": "Only straightening done with heat",
-        "B": "Only repairs at the blade tip",
-        "C": "Only repairs done by the propeller manufacturer",
-        "D": "Any repairs to, or straightening of steel blades"
+        "A": "Any parts of equal or greater strength than the originals",
+        "B": "Parts taken from any aircraft of the same category",
+        "C": "Parts chosen by the aircraft owner",
+        "D": "Replacement parts approved for the aircraft"
       },
       "answer": "D",
-      "explanation": "Item (b)(3)(i) reads: \"Any repairs to, or straightening of steel blades.\"",
+      "explanation": "Item (c)(15) reads: \"Replacing seats or seat parts with replacement parts approved for the aircraft, not involving disassembly of any primary structure or operating system.\"",
       "source": {
         "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
       },
       "checked": "2026-11-06",
-      "evidence": "Any repairs to, or straightening of steel blades."
+      "evidence": "Replacing seats or seat parts with replacement parts approved for the aircraft, not involving disassembly of any primary structure or operating system."
     },
     {
       "id": "vg-014",
@@ -278,7 +278,7 @@
       "options": {
         "A": "It must be done within 30 days of the last annual inspection",
         "B": "It must not involve complex assembly operations",
-        "C": "It must be done on an aircraft that is not used for hire",
+        "C": "It must be done at an airport that has a repair station",
         "D": "It must take less than one hour"
       },
       "answer": "B",
@@ -369,21 +369,21 @@
     {
       "id": "vg-020",
       "topic": "Preventive maintenance: balloons, primary category and avionics",
-      "question": "Under Appendix A (c)(31), after a self-contained, front instrument panel-mounted navigation or communication unit with a tray-mounted connector is removed and replaced, what must be done prior to the unit's intended use?",
+      "question": "Appendix A (c)(31) covers removing and replacing self-contained, front instrument panel-mounted navigation and communication devices that employ tray-mounted connectors. What does it require of the approved unit?",
       "options": {
-        "A": "A new weight and balance computation",
-        "B": "An operational check performed in accordance with the applicable sections of part 91",
-        "C": "A flight test with an FAA inspector on board",
-        "D": "A return to service signed by an inspection authorization holder"
+        "A": "It must be installed by the unit's manufacturer",
+        "B": "It must be designed to be readily and repeatedly removed and replaced, and pertinent instructions must be provided",
+        "C": "It must be connected by individually soldered wires",
+        "D": "It must be less than five years old"
       },
       "answer": "B",
-      "explanation": "Item (c)(31) states: \"Prior to the unit's intended use, and operational check must be performed in accordance with the applicable sections of part 91 of this chapter.\"",
+      "explanation": "Item (c)(31) states: \"The approved unit must be designed to be readily and repeatedly removed and replaced, and pertinent instructions must be provided.\"",
       "source": {
         "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
       },
       "checked": "2026-11-06",
-      "evidence": "Prior to the unit's intended use, and operational check must be performed in accordance with the applicable sections of part 91 of this chapter."
+      "evidence": "The approved unit must be designed to be readily and repeatedly removed and replaced, and pertinent instructions must be provided."
     }
   ]
 }

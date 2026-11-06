@@ -4,7 +4,7 @@
   "href": "/faa-amt/amt-major-repairs-preventive/study-guide/",
   "title": "Aviation mechanic major alterations, major repairs and preventive maintenance study guide",
   "description": "Study guide to 14 CFR Part 43 Appendix A: when alterations and repairs are major, and the limits and conditions on preventive maintenance work.",
-  "intro": "Appendix A to 14 CFR Part 43 sets out major alterations, major repairs and preventive maintenance. 43.3(a) says the items whose performance is a major alteration, a major repair, or preventive maintenance are listed in appendix A. This guide sets out the conditions the appendix attaches to each list (for example \"when not listed in the aircraft specifications issued by the FAA\" and \"provided it does not involve complex assembly operations\") and the qualifiers in individual items. It does not reproduce the full lists. For context it also quotes 43.1(d) on light-sport aircraft and the preventive maintenance permissions for pilots in 43.3(g) and (h). goraedu does not train, test or certificate mechanics, and this is not an FAA test. Every point links to the regulation and quotes its exact words.",
+  "intro": "Appendix A to 14 CFR Part 43 sets out major alterations, major repairs and preventive maintenance. 43.3(a) says the items whose performance is a major alteration, a major repair, or preventive maintenance are listed in appendix A. This guide sets out the conditions the appendix attaches to each list (for example \"when not listed in the aircraft specifications issued by the FAA\" and \"provided it does not involve complex assembly operations\") and the qualifiers in individual items. It does not reproduce the full lists. For context it also quotes 43.1(d) on light-sport aircraft, 43.3(g) on pilots who may perform preventive maintenance, and 43.3(h)(5). goraedu does not train, test or certificate mechanics, and this is not an FAA test. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "how-used",
@@ -29,7 +29,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Part 43 applies to aircraft issued a special airworthiness certificate in the light-sport category, with exceptions listed in 43.1(d).",
+          "text": "Part 43 applies to any aircraft issued a special airworthiness certificate in the light-sport category, with exceptions listed in 43.1(d).",
           "quote": "This part applies to any aircraft issued a special airworthiness certificate in the light-sport category except:",
           "source": {
             "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
@@ -65,7 +65,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "43.3(h) says the items of preventive maintenance authorized by that section are those listed in paragraph (c) of appendix A.",
+          "text": "43.3(h)(5), one of the conditions in 43.3(h), says the items of preventive maintenance authorized by this section are those listed in paragraph (c) of appendix A.",
           "quote": "The items of preventive maintenance authorized by this section are those listed in paragraph (c) of appendix A of this part.",
           "source": {
             "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
@@ -162,7 +162,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The full lists of parts in (a)(1) are not reproduced here; read them in the appendix."
+      "notCovered": "The full lists in (a)(1) and (a)(2) are not reproduced here; read them in the appendix."
     },
     {
       "id": "propeller-appliance-alterations",
@@ -196,7 +196,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "For radio communication and navigation equipment approved under type certification or a Technical Standard Order, design changes that have an effect on frequency stability, noise level, sensitivity, selectivity, distortion, spurious radiation, AVC characteristics, or ability to meet environmental test conditions, and other changes that have an effect on the performance of the equipment, are also major alterations.",
+          "text": "For communication and navigation equipment approved under type certification or a Technical Standard Order, (a)(4) says changes that have an effect on frequency stability, noise level, sensitivity, selectivity, distortion, spurious radiation, AVC characteristics, or ability to meet environmental test conditions, and other changes that have an effect on the performance of the equipment, are also major alterations.",
           "quote": "communication and navigation equipment approved under type certification or a Technical Standard Order that have an effect on frequency stability, noise level, sensitivity, selectivity, distortion, spurious radiation, AVC characteristics, or ability to meet environmental test conditions and other changes that have an effect on the performance of the equipment are also major alterations.",
           "source": {
             "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
@@ -397,7 +397,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Replacing seats or seat parts is listed with replacement parts approved for the aircraft, not involving disassembly of any primary structure or operating system.",
+          "text": "Replacing seats or seat parts is listed with replacement parts approved for the aircraft, when it does not involve disassembly of any primary structure or operating system.",
           "quote": "Replacing seats or seat parts with replacement parts approved for the aircraft, not involving disassembly of any primary structure or operating system.",
           "source": {
             "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
@@ -433,7 +433,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Installing anti-misfueling devices to reduce the diameter of fuel tank filler openings is listed only if the specific device has been made part of the aircraft type certificate data by the aircraft manufacturer, the manufacturer has provided FAA-approved instructions for installing it, and installation does not involve disassembly of the existing tank filler opening. (The eCFR text spells it \"certificiate\".)",
+          "text": "Installing anti-misfueling devices to reduce the diameter of fuel tank filler openings is listed subject to the conditions in the item on the specific device; among them, the aircraft manufacturer has provided FAA-approved instructions for installation of the specific device, and installation does not involve the disassembly of the existing tank filler opening.",
           "quote": "The installations of anti-misfueling devices to reduce the diameter of fuel tank filler openings provided the specific device has been made a part of the aircraft type certificiate data by the aircraft manufacturer, the aircraft manufacturer has provided FAA-approved instructions for installation of the specific device, and installation does not involve the disassembly of the existing tank filler opening.",
           "source": {
             "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
@@ -512,7 +512,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Item (c)(31) covers removing and replacing self-contained, front instrument panel-mounted navigation and communication devices that employ tray-mounted connectors that connect the unit when it is installed, excluding automatic flight control systems, transponders, and microwave frequency distance measuring equipment (DME).",
+          "text": "Item (c)(31) covers removing and replacing self-contained, front instrument panel-mounted navigation and communication devices that employ tray-mounted connectors that connect the unit when the unit is installed into the instrument panel, excluding automatic flight control systems, transponders, and microwave frequency distance measuring equipment (DME).",
           "quote": "Removing and replacing self-contained, front instrument panel-mounted navigation and communication devices that employ tray-mounted connectors that connect the unit when the unit is installed into the instrument panel, (excluding automatic flight control systems, transponders, and microwave frequency distance measuring equipment (DME)).",
           "source": {
             "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
@@ -528,18 +528,9 @@
             "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
           },
           "checked": "2026-11-06"
-        },
-        {
-          "text": "Prior to the unit's intended use, an operational check must be performed in accordance with the applicable sections of part 91. (The eCFR text reads \"and operational check\".)",
-          "quote": "Prior to the unit's intended use, and operational check must be performed in accordance with the applicable sections of part 91 of this chapter.",
-          "source": {
-            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
-            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
-          },
-          "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The approval rules in § 21.24 and the operational check requirements in part 91 are named by the appendix but are not set out here."
+      "notCovered": "The approval rules in § 21.24 named in (c)(30), and the part 91 sections named at the end of (c)(31), are not set out here."
     }
   ]
 }
