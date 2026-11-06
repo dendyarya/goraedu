@@ -40,6 +40,7 @@ export default function PracticeTest({
   passEachSection,
   timeLimitMin,
   timeNote,
+  areas,
 }: {
   title: string;
   questions: Question[];
@@ -57,6 +58,11 @@ export default function PracticeTest({
   timeLimitMin?: number;
   /** Exam mode: where the time limit comes from. */
   timeNote?: string;
+  /**
+   * Exam mode with drawTotal: draw `count` questions from each named area (ids listed), filling any shortfall
+   * from the rest of the bank; results are then shown by area.
+   */
+  areas?: { name: string; count: number; ids: string[] }[];
 }) {
   const exam = Boolean(drawPerTopic || drawTotal);
   const topics = useMemo(() => [...new Set(questions.map((q) => q.topic))], [questions]);
@@ -146,6 +152,18 @@ export default function PracticeTest({
   const pool = topic === "all" ? questions : questions.filter((q) => q.topic === topic);
 
   function draw() {
+    if (drawTotal && areas?.length) {
+      const picked: Question[] = [];
+      for (const a of areas) {
+        const ids = new Set(a.ids);
+        picked.push(...shuffle(questions.filter((q) => ids.has(q.id))).slice(0, a.count));
+      }
+      const used = new Set(picked.map((q) => q.id));
+      picked.push(
+        ...shuffle(questions.filter((q) => !used.has(q.id))).slice(0, Math.max(0, drawTotal - picked.length)),
+      );
+      return picked.slice(0, drawTotal);
+    }
     if (drawTotal) return shuffle(questions).slice(0, drawTotal);
     return topics.flatMap((t) => shuffle(questions.filter((q) => q.topic === t)).slice(0, drawPerTopic));
   }
@@ -158,11 +176,13 @@ export default function PracticeTest({
       <div className="rounded-3xl border border-line bg-panel p-6 sm:p-8">
         <h2 className="text-[1.5rem] font-bold">{title}</h2>
         <p className="mt-2 text-muted">
-          {drawTotal
-            ? `Each exam draws ${size} random questions from our bank of ${questions.length}.`
-            : `Each exam draws ${drawPerTopic} random questions from each of ${new Intl.ListFormat("en-US").format(topics)}, ${size} questions in all, from our bank of ${questions.length}.`}{" "}
+          {drawTotal && areas?.length
+            ? `Each exam draws ${size} random questions from our bank of ${questions.length}: ${new Intl.ListFormat("en-US").format(areas.map((a) => `${a.count} from ${a.name}`))}.`
+            : drawTotal
+              ? `Each exam draws ${size} random questions from our bank of ${questions.length}.`
+              : `Each exam draws ${drawPerTopic} random questions from each of ${new Intl.ListFormat("en-US").format(topics)}, ${size} questions in all, from our bank of ${questions.length}.`}{" "}
           Start again for a new draw. After each answer you see why it is right, with a link to the official source, and
-          your results are shown by {drawTotal ? "topic" : "section"}.
+          your results are shown by {drawPerTopic ? "section" : areas?.length ? "test area" : "topic"}.
         </p>
         {passPct ? (
           <p className="mt-3 text-[0.9375rem]">
@@ -254,10 +274,14 @@ export default function PracticeTest({
     const correct = order.filter((q) => answers[q.id] === q.answer);
     const missed = order.filter((q) => answers[q.id] !== q.answer);
     const pct = Math.round((correct.length / order.length) * 100);
-    const byTopic = topics
-      .filter((t) => order.some((q) => q.topic === t))
+    const areaOf = new Map<string, string>();
+    for (const a of areas ?? []) for (const id of a.ids) areaOf.set(id, a.name);
+    const groupOf = (q: Question) => (areas?.length ? (areaOf.get(q.id) ?? "Other") : q.topic);
+    const groups = areas?.length ? [...areas.map((a) => a.name), "Other"] : topics;
+    const byTopic = groups
+      .filter((t) => order.some((q) => groupOf(q) === t))
       .map((t) => {
-        const qs = order.filter((q) => q.topic === t);
+        const qs = order.filter((q) => groupOf(q) === t);
         return { t, total: qs.length, right: qs.filter((q) => answers[q.id] === q.answer).length };
       });
     return (
@@ -291,12 +315,14 @@ export default function PracticeTest({
           This is a practice score, not a prediction of your result on the official exam.
         </p>
 
-        <h3 className="mt-8 text-[1.1875rem] font-bold">{drawPerTopic ? "By section" : "By topic"}</h3>
+        <h3 className="mt-8 text-[1.1875rem] font-bold">
+          {drawPerTopic ? "By section" : areas?.length ? "By test area" : "By topic"}
+        </h3>
         <table className="mt-3 w-full max-w-xl border-collapse text-left text-[0.9375rem]">
           <thead>
             <tr className="border-b-2 border-ink">
               <th scope="col" className="py-2 pr-4 font-semibold">
-                Topic
+                {drawPerTopic ? "Section" : areas?.length ? "Area" : "Topic"}
               </th>
               <th scope="col" className="py-2 font-semibold">
                 Correct
