@@ -168,7 +168,8 @@ export const FAMILIES: Family[] = [
         name: "Asbestos (OSHA construction and EPA schools)",
         summary: "OSHA's construction asbestos standard and EPA's asbestos rules for schools (AHERA).",
         source: "OSHA 29 CFR 1926.1101; EPA 40 CFR Part 763 Subpart E",
-        status: "planned",
+        status: "available",
+        href: "/asbestos/",
       },
       {
         id: "plumbing",
