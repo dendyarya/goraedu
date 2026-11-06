@@ -28,6 +28,32 @@ const CDL_SETS: OshaSet[] = [
   { slug: "brakes", name: "Brakes", rule: "49 CFR Part 393 Subpart C", focus: null },
   { slug: "cargo-securement", name: "Cargo securement", rule: "49 CFR Part 393 Subpart I", focus: null },
   { slug: "drug-alcohol-testing", name: "Drug and alcohol testing", rule: "49 CFR Part 382", focus: null },
+  {
+    slug: "hazmat-classes-definitions",
+    name: "Hazmat classes and definitions",
+    rule: "49 CFR 171.8 and 173.2",
+    focus: null,
+  },
+  {
+    slug: "hazmat-shipping-papers",
+    name: "Hazmat shipping papers and emergency information",
+    rule: "49 CFR Part 172 Subparts C and G",
+    focus: null,
+  },
+  { slug: "hazmat-marking", name: "Hazmat marking", rule: "49 CFR Part 172 Subpart D", focus: null },
+  { slug: "hazmat-placarding", name: "Hazmat placarding", rule: "49 CFR Part 172 Subpart F", focus: null },
+  {
+    slug: "hazmat-loading-segregation",
+    name: "Hazmat highway carriage, loading and segregation",
+    rule: "49 CFR Part 177",
+    focus: null,
+  },
+  {
+    slug: "hazmat-driving-parking",
+    name: "Hazmat driving, parking and training",
+    rule: "49 CFR Part 397 and Part 172 Subpart H",
+    focus: null,
+  },
 ];
 
 const FAA_SETS: OshaSet[] = [
@@ -182,7 +208,7 @@ export const OSHA_CLUSTERS: Record<
     id: "cdl",
     label: "CDL",
     href: "/cdl/",
-    part: "49 CFR Parts 382 to 396",
+    part: "49 CFR Parts 171 to 177 and 382 to 397",
     sets: CDL_SETS,
     independence: CDL_INDEPENDENCE_TEXT,
     notFrom: "any state CDL knowledge test, driver manual or prep course",

@@ -98,4 +98,12 @@ export const TOOLS: Tool[] = [
     summary:
       "Compare 30-day and 7-day effluent averages and percent removal for BOD5, CBOD5 or SS with the levels in 40 CFR 133.102.",
   },
+  {
+    slug: "hazmat-placard-finder",
+    cluster: "cdl",
+    name: "Hazmat placard finder",
+    href: "/cdl/tools/hazmat-placard-finder/",
+    summary:
+      "See which placards a highway load needs under 49 CFR 172.504 Tables 1 and 2, the 1,001 lb exception for Table 2 materials and the DANGEROUS placard option.",
+  },
 ];

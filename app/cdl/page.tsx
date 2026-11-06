@@ -74,6 +74,27 @@ const SOURCES: Source[] = [
     ["part-395", "49 CFR Part 395, Hours of Service of Drivers"],
     ["part-396", "49 CFR Part 396, Inspection, Repair, and Maintenance"],
   ].map(([p, t]) => ({ title: `eCFR: ${t} (as of Nov 3, 2026)`, url: `${BASE}/${p}`, checked: CHECKED })),
+  ...[
+    ["chapter-I/subchapter-C/part-171/subpart-A/section-171.8", "49 CFR 171.8, Definitions and abbreviations"],
+    [
+      "chapter-I/subchapter-C/part-173/subpart-A/section-173.2",
+      "49 CFR 173.2, Hazardous material classes and index to hazard class definitions",
+    ],
+    ["chapter-I/subchapter-C/part-172/subpart-C", "49 CFR Part 172, Subpart C, Shipping Papers"],
+    ["chapter-I/subchapter-C/part-172/subpart-D", "49 CFR Part 172, Subpart D, Marking"],
+    ["chapter-I/subchapter-C/part-172/subpart-F", "49 CFR Part 172, Subpart F, Placarding"],
+    ["chapter-I/subchapter-C/part-172/subpart-G", "49 CFR Part 172, Subpart G, Emergency Response Information"],
+    ["chapter-I/subchapter-C/part-172/subpart-H", "49 CFR Part 172, Subpart H, Training"],
+    ["chapter-I/subchapter-C/part-177", "49 CFR Part 177, Carriage by Public Highway"],
+    [
+      "chapter-III/subchapter-B/part-397",
+      "49 CFR Part 397, Transportation of Hazardous Materials; Driving and Parking Rules",
+    ],
+  ].map(([p, t]) => ({
+    title: `eCFR: ${t} (as of Nov 4, 2026)`,
+    url: `https://www.ecfr.gov/current/title-49/subtitle-B/${p}`,
+    checked: "2026-11-06",
+  })),
 ];
 
 export default function CdlPage() {
@@ -89,7 +110,7 @@ export default function CdlPage() {
     <PageShell
       crumbs={[{ label: "Home", href: "/" }, { label: "Certifications", href: "/certifications/" }, { label: "CDL" }]}
       title="CDL federal rules"
-      lead="Practice questions and study guides on the federal motor carrier safety rules in 49 CFR that apply to commercial driver's license holders: license standards, driver qualifications, hours of service, inspections, brakes, cargo securement and drug and alcohol testing."
+      lead="Practice questions and study guides on the federal motor carrier safety rules in 49 CFR that apply to commercial driver's license holders: license standards, driver qualifications, hours of service, inspections, brakes, cargo securement, drug and alcohol testing, and the hazardous materials rules behind the H endorsement."
       meta={
         <>
           Fact-checked against official sources · Last checked <time dateTime={CHECKED}>{formatDate(CHECKED)}</time>
@@ -104,7 +125,8 @@ export default function CdlPage() {
               CDL knowledge tests are given by each state, from that state&apos;s commercial driver manual. Much of a
               state test is about driving skills and vehicle systems that are not written in federal rules. These pages
               cover only the federal rules in 49 CFR, quoted word for word, so use them alongside your state&apos;s
-              official CDL manual. {c.independence}
+              official CDL manual. The hazmat (H) endorsement also requires a TSA security threat assessment and a state
+              knowledge test, which we do not handle. {c.independence}
             </p>
           </div>
 
