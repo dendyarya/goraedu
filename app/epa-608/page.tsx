@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import CoverageBox from "@/components/CoverageBox";
 import Link from "next/link";
 import PageShell from "@/components/PageShell";
 import SourceList, { type Source } from "@/components/SourceList";
@@ -95,6 +96,7 @@ export default function Epa608Page() {
         </>
       }
     >
+      <CoverageBox cluster="epa-608" />
       <div className="grid gap-12 lg:grid-cols-[1fr_20rem]">
         <div className="max-w-[68ch]">
           <section>

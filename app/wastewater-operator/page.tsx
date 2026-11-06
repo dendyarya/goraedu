@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import CoverageBox from "@/components/CoverageBox";
 import Link from "next/link";
 import PageShell from "@/components/PageShell";
 import SourceList, { type Source } from "@/components/SourceList";
@@ -97,6 +98,7 @@ export default function WastewaterOperatorPage() {
         </>
       }
     >
+      <CoverageBox cluster="wastewater-operator" />
       <div className="grid gap-12 lg:grid-cols-[1fr_20rem]">
         <div className="max-w-[68ch]">
           <div className="rounded-3xl border border-[#f3dca0] bg-hose-soft p-6">
