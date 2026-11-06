@@ -62,9 +62,10 @@ export const FAMILIES: Family[] = [
       {
         id: "forklift",
         name: "Forklift operator",
-        summary: "Training topics for powered industrial truck operators.",
-        source: "OSHA, 29 CFR 1910.178",
-        status: "planned",
+        summary: "OSHA's powered industrial truck rules: operator training, truck types, batteries, traveling, loading.",
+        source: "OSHA, 29 CFR 1910.178 and 1926.602",
+        status: "available",
+        href: "/forklift/",
       },
     ],
   },

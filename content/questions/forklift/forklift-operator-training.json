@@ -134,12 +134,12 @@
     {
       "id": "qa-008",
       "topic": "Initial training: truck-related topics",
-      "question": "Which of these is listed in 1910.178(l)(3)(i) as a truck-related training topic?",
+      "question": "A trainer plans a session on how driving a truck differs from driving a car. Which truck-related topic in 1910.178(l)(3)(i) does that session cover?",
       "options": {
         "A": "Differences between the truck and the automobile",
-        "B": "How to apply for a commercial driver's license",
-        "C": "The history of the truck's manufacturer",
-        "D": "Resale values of used trucks"
+        "B": "Highway traffic laws for commercial vehicles",
+        "C": "Resale values of used trucks",
+        "D": "The history of the truck's manufacturer"
       },
       "answer": "A",
       "explanation": "The truck-related topics include \"Differences between the truck and the automobile\".",
@@ -314,15 +314,15 @@
     {
       "id": "qa-018",
       "topic": "Duplicative training, certification and dates",
-      "question": "An operator who moved from another employer was trained there in vehicle stability. The new employer finds that this training is not appropriate to the truck and working conditions at its plant. Does 1910.178(l)(5) excuse additional training in that topic?",
+      "question": "An operator was trained in vehicle stability by a previous employer. Under 1910.178(l)(5), which two conditions must both be met for additional training in that topic not to be required?",
       "options": {
-        "A": "No; (l)(5) applies only where the earlier training is appropriate to the truck and working conditions encountered",
-        "B": "Yes, because any earlier training in a listed topic counts",
-        "C": "Yes, if the earlier training took place within the past three years",
-        "D": "Yes, if the operator signs a statement that the earlier training covered the topic"
+        "A": "The earlier training is appropriate to the truck and working conditions encountered, and the operator has been evaluated and found competent to operate the truck safely",
+        "B": "The earlier training took place within the past three years, and the operator holds a certificate from the previous employer",
+        "C": "The operator signs a statement that the topic was covered, and a coworker confirms it",
+        "D": "The earlier training was given by the truck's manufacturer, and the operator has driven the same model before"
       },
       "answer": "A",
-      "explanation": "Paragraph (l)(5) applies only where the operator \"has previously received training in a topic specified in paragraph (l)(3) of this section, and such training is appropriate to the truck and working conditions encountered\", and then only \"if the operator has been evaluated and found competent to operate the truck safely.\"",
+      "explanation": "Under (l)(5), if an operator \"has previously received training in a topic specified in paragraph (l)(3) of this section, and such training is appropriate to the truck and working conditions encountered, additional training in that topic is not required if the operator has been evaluated and found competent to operate the truck safely.\"",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
