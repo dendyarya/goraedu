@@ -1,0 +1,590 @@
+{
+  "cluster": "wastewater-operator",
+  "slug": "biosolids-use-disposal",
+  "href": "/wastewater-operator/biosolids-use-disposal/study-guide/",
+  "title": "Wastewater biosolids use and disposal study guide",
+  "description": "Biosolids study guide on 40 CFR Part 503: land application limits and practices, monitoring, records, reports, surface disposal and incineration.",
+  "intro": "40 CFR Part 503 sets federal standards for the final use or disposal of sewage sludge generated during the treatment of domestic sewage in a treatment works. This guide covers Subpart A (general provisions and definitions), Subpart B (land application), Subpart C (surface disposal) and Subpart E (incineration): who each duty falls on, pollutant limits, management practices, monitoring frequency, recordkeeping and annual reports. Pathogen and vector attraction reduction requirements (Subpart D) are covered in a separate study guide and are only mentioned here where another section refers to them. Section 503.5 lets the permitting authority impose additional or more stringent requirements case by case, and lets States, their political subdivisions and interstate agencies do the same. Your State program and your facility's permit may have their own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "general",
+      "name": "General provisions",
+      "points": [
+        {
+          "text": "Part 503 sets standards (general requirements, pollutant limits, management practices and operational standards) for the final use or disposal of sewage sludge generated during the treatment of domestic sewage in a treatment works.",
+          "quote": "This part establishes standards, which consist of general requirements, pollutant limits, management practices, and operational standards, for the final use or disposal of sewage sludge generated during the treatment of domestic sewage in a treatment works.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.1, Purpose and applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Part 503 applies to anyone who prepares sewage sludge, applies it to the land or fires it in a sewage sludge incinerator, and to the owner/operator of a surface disposal site.",
+          "quote": "This part applies to any person who prepares sewage sludge, applies sewage sludge to the land, or fires sewage sludge in a sewage sludge incinerator and to the owner/operator of a surface disposal site.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.1, Purpose and applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Part 503 is directly enforceable: no one may use or dispose of sewage sludge through a practice covered by Part 503 except in accordance with its requirements.",
+          "quote": "No person shall use or dispose of sewage sludge through any practice for which requirements are established in this part except in accordance with such requirements.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.3, Permits and direct enforceability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "On a case-by-case basis, the permitting authority may impose requirements in addition to, or more stringent than, Part 503 when necessary to protect public health and the environment from any adverse effect of a pollutant in the sewage sludge.",
+          "quote": "On a case-by-case basis, the permitting authority may impose requirements for the use or disposal of sewage sludge in addition to or more stringent than the requirements in this part when necessary to protect public health and the environment from any adverse effect of a pollutant in the sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.5, Additional or more stringent requirements (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.5"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Part 503 does not stop a State, a political subdivision of a State or an interstate agency from imposing more stringent or additional requirements for sewage sludge use or disposal.",
+          "quote": "Nothing in this part precludes a State or political subdivision thereof or interstate agency from imposing requirements for the use or disposal of sewage sludge more stringent than the requirements in this part or from imposing additional requirements for the use or disposal of sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.5, Additional or more stringent requirements (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.5"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Part 503 does not require any particular use or disposal practice; how sewage sludge is used or disposed is a local determination.",
+          "quote": "This part does not require the selection of a sewage sludge use or disposal practice. The determination of the manner in which sewage sludge is used or disposed is a local determination.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.6, Exclusions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.6"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Part 503 does not set requirements for sewage sludge with a PCB concentration equal to or greater than 50 milligrams per kilogram of total solids (dry weight basis).",
+          "quote": "This part does not establish requirements for the use or disposal of sewage sludge with a concentration of polychlorinated biphenyls (PCBs) equal to or greater than 50 milligrams per kilogram of total solids (dry weight basis).",
+          "source": {
+            "title": "eCFR: 40 CFR 503.6, Exclusions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.6"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Any person who prepares sewage sludge must ensure that the applicable Part 503 requirements are met when the sludge is applied to the land, placed on a surface disposal site or fired in a sewage sludge incinerator.",
+          "quote": "Any person who prepares sewage sludge shall ensure that the applicable requirements in this part are met when the sewage sludge is applied to the land, placed on a surface disposal site, or fired in a sewage sludge incinerator.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.7, Requirement for a person who prepares sewage sludge (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.7"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Representative samples of sewage sludge that is land applied, placed on a surface disposal site or fired in a sewage sludge incinerator must be collected and analyzed.",
+          "quote": "Representative samples of sewage sludge that is applied to the land, placed on a surface disposal site, or fired in a sewage sludge incinerator shall be collected and analyzed.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.8, Sampling and analysis (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.8"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The compliance dates in 503.2, permit routes in 503.3(a), the other exclusions in 503.6 (treatment processes, co-firing, industrial sludge, hazardous sludge, incinerator ash, grit and screenings, drinking water sludge, commercial and industrial septage) and the analytical methods listed in 503.8(b) are not set out point by point."
+    },
+    {
+      "id": "definitions",
+      "name": "Definitions",
+      "points": [
+        {
+          "text": "A person who prepares sewage sludge is either the person who generates it during treatment of domestic sewage in a treatment works or the person who derives a material from sewage sludge.",
+          "quote": "Person who prepares sewage sludge is either the person who generates sewage sludge during the treatment of domestic sewage in a treatment works or the person who derives a material from sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.9, General definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.9"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Domestic septage is liquid or solid material removed from a septic tank, cesspool, portable toilet, Type III marine sanitation device or similar treatment works that receives only domestic sewage.",
+          "quote": "Domestic septage is either liquid or solid material removed from a septic tank, cesspool, portable toilet, Type III marine sanitation device, or similar treatment works that receives only domestic sewage.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.9, General definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.9"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Sewage sludge does not include incinerator ash or grit and screenings from preliminary treatment.",
+          "quote": "Sewage sludge does not include ash generated during the firing of sewage sludge in a sewage sludge incinerator or grit and screenings generated during preliminary treatment of domestic sewage in a treatment works.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.9, General definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.9"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Storage means placing sewage sludge on land where it remains for two years or less; placing it on land for treatment is not storage.",
+          "quote": "Store or storage of sewage sludge is the placement of sewage sludge on land on which the sewage sludge remains for two years or less. This does not include the placement of sewage sludge on land for treatment.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.9, General definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.9"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Dry weight basis means calculated after drying at 105 degrees Celsius until reaching a constant mass.",
+          "quote": "Dry weight basis means calculated on the basis of having been dried at 105 degrees Celsius until reaching a constant mass (i.e., essentially 100 percent solids content).",
+          "source": {
+            "title": "eCFR: 40 CFR 503.9, General definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.9"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For land application, bulk sewage sludge is sewage sludge that is not sold or given away in a bag or other container for application to the land.",
+          "quote": "Bulk sewage sludge is sewage sludge that is not sold or given away in a bag or other container for application to the land.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.11, Special definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.11"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A public contact site is land with a high potential for contact by the public, including public parks, ball fields, cemeteries, plant nurseries, turf farms and golf courses.",
+          "quote": "Public contact site is land with a high potential for contact by the public. This includes, but is not limited to, public parks, ball fields, cemeteries, plant nurseries, turf farms, and golf courses.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.11, Special definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.11"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The other definitions in 503.9 and 503.11 (for example agronomic rate, Class I sludge management facility, cumulative and annual pollutant loading rates) are not all set out here."
+    },
+    {
+      "id": "land-general",
+      "name": "Land application: applicability and general requirements",
+      "points": [
+        {
+          "text": "Subpart B covers anyone who prepares sewage sludge that is land applied, anyone who applies it, the sludge itself and the land it is applied to.",
+          "quote": "This subpart applies to any person who prepares sewage sludge that is applied to the land, to any person who applies sewage sludge to the land, to sewage sludge applied to the land, and to the land on which sewage sludge is applied.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.10, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.10"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The general requirements (503.12) and management practices (503.14) do not apply to land-applied bulk sewage sludge that meets the Table 1 ceiling concentrations, the Table 3 pollutant concentrations, the Class A pathogen requirements in 503.32(a) and one of the vector attraction reduction options in 503.33(b)(1) through (b)(8).",
+          "quote": "The general requirements in § 503.12 and the management practices in § 503.14 do not apply when bulk sewage sludge is applied to the land if the bulk sewage sludge meets the ceiling concentrations in Table 1 of § 503.13 and the pollutant concentrations in Table 3 of § 503.13; the Class A pathogen requirements in § 503.32(a); and one of the vector attraction reduction requirements in § 503.33(b)(1) through (b)(8).",
+          "source": {
+            "title": "eCFR: 40 CFR 503.10, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.10"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Even for that bulk sewage sludge, the EPA Regional Administrator or, in a State with an approved sludge management program, the State Director may apply any or all of the general requirements and management practices on a case-by-case basis.",
+          "quote": "The Regional Administrator of EPA or, in the case of a State with an approved sludge management program, the State Director, may apply any or all of the general requirements in § 503.12 and the management practices in § 503.14 to the bulk sewage sludge in § 503.10(b)(1) on a case-by-case basis",
+          "source": {
+            "title": "eCFR: 40 CFR 503.10, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.10"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Bulk sewage sludge subject to the cumulative pollutant loading rates may not be applied to agricultural land, forest, a public contact site or a reclamation site once any of those cumulative rates has been reached.",
+          "quote": "No person shall apply bulk sewage sludge subject to the cumulative pollutant loading rates in § 503.13(b)(2) to agricultural land, forest, a public contact site, or a reclamation site if any of the cumulative pollutant loading rates in § 503.13(b)(2) has been reached.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.12, General requirements (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.12"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The person who prepares bulk sewage sludge applied to agricultural land, forest, a public contact site or a reclamation site must give the applier written notification of the total nitrogen concentration (as N, dry weight basis).",
+          "quote": "The person who prepares bulk sewage sludge that is applied to agricultural land, forest, a public contact site, or a reclamation site shall provide the person who applies the bulk sewage sludge written notification of the concentration of total nitrogen (as N on a dry weight basis) in the bulk sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.12, General requirements (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.12"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If such sludge has been applied to a site since July 20, 1993 and the cumulative amount of each pollutant applied since then is not known, no additional amount of each pollutant may be applied under the cumulative loading rate option.",
+          "quote": "If bulk sewage sludge subject to the cumulative pollutant loading rates in § 503.13(b)(2) has been applied to the site since July 20, 1993, and the cumulative amount of each pollutant applied to the site in the bulk sewage sludge since that date is not known, an additional amount of each pollutant shall not be applied to the site in accordance with § 503.13(a)(2)(i).",
+          "source": {
+            "title": "eCFR: 40 CFR 503.12, General requirements (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.12"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The applier of bulk sewage sludge must give the owner or lease holder of the land notice and necessary information to comply with Subpart B.",
+          "quote": "The person who applies bulk sewage sludge to the land shall provide the owner or lease holder of the land on which the bulk sewage sludge is applied notice and necessary information to comply with the requirements in this subpart.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.12, General requirements (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.12"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A person who prepares bulk sewage sludge applied in another State must give written notice, before the applier's initial application to the site, to the permitting authority for the State where the sludge is proposed to be applied.",
+          "quote": "Any person who prepares bulk sewage sludge that is applied to land in a State other than the State in which the bulk sewage sludge is prepared shall provide written notice, prior to the initial application of bulk sewage sludge to the land application site by the applier, to the permitting authority for the State in which the bulk sewage sludge is proposed to be applied.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.12, General requirements (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.12"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The parallel exemptions for derived bulk material and for sludge sold or given away in a bag or other container (503.10(c)–(g)), the domestic septage annual rate rule in 503.12(c), and the contents of the notices in 503.12(i) and (j) are not covered point by point."
+    },
+    {
+      "id": "land-limits",
+      "name": "Land application: pollutant limits and management practices",
+      "points": [
+        {
+          "text": "Bulk sewage sludge, or sludge sold or given away in a bag or other container, may not be applied to the land if any pollutant exceeds its ceiling concentration in Table 1 of 503.13.",
+          "quote": "Bulk sewage sludge or sewage sludge sold or given away in a bag or other container shall not be applied to the land if the concentration of any pollutant in the sewage sludge exceeds the ceiling concentration for the pollutant in Table 1 of § 503.13.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.13, Pollutant limits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.13"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Bulk sewage sludge applied to agricultural land, forest, a public contact site or a reclamation site must meet one of two options: the Table 2 cumulative pollutant loading rates or the Table 3 pollutant concentrations.",
+          "quote": "If bulk sewage sludge is applied to agricultural land, forest, a public contact site, or a reclamation site, either:",
+          "source": {
+            "title": "eCFR: 40 CFR 503.13, Pollutant limits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.13"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Bulk sewage sludge applied to a lawn or a home garden must meet the Table 3 pollutant concentrations.",
+          "quote": "If bulk sewage sludge is applied to a lawn or a home garden, the concentration of each pollutant in the sewage sludge shall not exceed the concentration for the pollutant in Table 3 of § 503.13.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.13, Pollutant limits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.13"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Domestic septage applied to agricultural land, forest or a reclamation site may not exceed the annual application rate calculated with equation (1) of 503.13(c).",
+          "quote": "The annual application rate for domestic septage applied to agricultural land, forest, or a reclamation site shall not exceed the annual application rate calculated using equation (1).",
+          "source": {
+            "title": "eCFR: 40 CFR 503.13, Pollutant limits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.13"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Bulk sewage sludge may not be applied to agricultural land, forest, a public contact site or a reclamation site that is flooded, frozen or snow-covered so that the sludge enters a wetland or other waters of the United States, except as provided in a CWA section 402 or 404 permit.",
+          "quote": "Bulk sewage sludge shall not be applied to agricultural land, forest, a public contact site, or a reclamation site that is flooded, frozen, or snow-covered so that the bulk sewage sludge enters a wetland or other waters of the United States, as defined in 40 CFR 122.2, except as provided in a permit issued pursuant to section 402 or 404 of the CWA.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.14, Management practices (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.14"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Bulk sewage sludge may not be applied to agricultural land, forest or a reclamation site 10 meters or less from waters of the United States, unless the permitting authority specifies otherwise.",
+          "quote": "Bulk sewage sludge shall not be applied to agricultural land, forest, or a reclamation site that is 10 meters or less from waters of the United States, as defined in 40 CFR 122.2, unless otherwise specified by the permitting authority.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.14, Management practices (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.14"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Bulk sewage sludge must be applied at a whole sludge application rate equal to or less than the agronomic rate, unless, for a reclamation site, the permitting authority specifies otherwise.",
+          "quote": "Bulk sewage sludge shall be applied to agricultural land, forest, a public contact site, or a reclamation site at a whole sludge application rate that is equal to or less than the agronomic rate for the bulk sewage sludge, unless, in the case of a reclamation site, otherwise specified by the permitting authority.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.14, Management practices (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.14"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Sludge sold or given away for application to the land needs either a label on the bag or other container or an information sheet given to the person who receives it.",
+          "quote": "Either a label shall be affixed to the bag or other container in which sewage sludge that is sold or given away for application to the land, or an information sheet shall be provided to the person who receives sewage sludge sold or given away in an other container for application to the land.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.14, Management practices (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.14"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The numeric values in Tables 1–4 of 503.13 are not reproduced here; read them in the regulation. The bag or container option using Table 4 and appendix A (503.13(a)(4)), equation (1) itself, the endangered species practice (503.14(a)) and the label contents (503.14(e)(1)–(3)) are not covered point by point. Pathogen and vector attraction reduction requirements (503.15 and Subpart D) are in a separate study guide."
+    },
+    {
+      "id": "land-records",
+      "name": "Land application: monitoring, records and reports",
+      "points": [
+        {
+          "text": "The Table 1 monitoring frequency for land application is based on either the amount of bulk sewage sludge applied to the land or the amount prepared for sale or give-away in a bag or other container, on a dry weight basis.",
+          "quote": "Either the amount of bulk sewage sludge applied to the land or the amount of sewage sludge prepared for sale or give-away in a bag or other container for application to the land (dry weight basis).",
+          "source": {
+            "title": "eCFR: 40 CFR 503.16, Frequency of monitoring (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.16"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "After two years of monitoring at the Table 1 frequency, the permitting authority may reduce the frequency for pollutant concentrations and for the pathogen density requirements in 503.32(a)(5)(ii) and (a)(5)(iii).",
+          "quote": "After the sewage sludge has been monitored for two years at the frequency in Table 1 of § 503.16, the permitting authority may reduce the frequency of monitoring for pollutant concentrations and for the pathogen density requirements in § 503.32(a)(5)(ii) and (a)(5)(iii).",
+          "source": {
+            "title": "eCFR: 40 CFR 503.16, Frequency of monitoring (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.16"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If domestic septage applied to agricultural land, forest or a reclamation site meets the pathogen requirements in 503.32(c)(2) or the vector attraction reduction requirements in 503.33(b)(12), each container must be monitored for compliance with them.",
+          "quote": "If either the pathogen requirements in § 503.32(c)(2) or the vector attraction reduction requirements in § 503.33(b)(12) are met when domestic septage is applied to agricultural land, forest, or a reclamation site, each container of domestic septage applied to the land shall be monitored for compliance with those requirements.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.16, Frequency of monitoring (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.16"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Where bulk sewage sludge is applied under the cumulative pollutant loading rates, the applier keeps the site information in 503.17(a)(5)(ii)(A) through (G) indefinitely and the information in (H) through (M) for five years.",
+          "quote": "The person who applies the bulk sewage sludge shall develop the following information, retain the information in § 503.17 (a)(5)(ii)(A) through (a)(5)(ii)(G) indefinitely, and retain the information in § 503.17 (a)(5)(ii)(H) through (a)(5)(ii)(M) for five years.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.17, Recordkeeping (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.17"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "When domestic septage is applied to agricultural land, forest or a reclamation site, the person who applies it develops the listed records and keeps them for five years.",
+          "quote": "When domestic septage is applied to agricultural land, forest, or a reclamation site, the person who applies the domestic septage shall develop the following information and shall retain the information for five years:",
+          "source": {
+            "title": "eCFR: 40 CFR 503.17, Recordkeeping (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.17"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Class I sludge management facilities, POTWs with a design flow rate of one million gallons per day or more, and POTWs serving 10,000 people or more must submit a report on February 19 of each year.",
+          "quote": "Class I sludge management facilities, POTWs (as defined in § 501.2 of this chapter) with a design flow rate equal to or greater than one million gallons per day, and POTWs that serve 10,000 people or more shall submit a report on February 19 of each year.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.18, Reporting (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.18"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The applier's site information in 503.17(a)(5)(ii)(A) through (G) must also be reported on February 19 each year when 90 percent or more of any cumulative pollutant loading rate in Table 2 is reached at a land application site.",
+          "quote": "The information in § 503.17(a)(5)(ii)(A) through (G) on February 19th of each year when 90 percent or more of any of the cumulative pollutant loading rates in Table 2 of § 503.13 is reached at a land application site.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.18, Reporting (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.18"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The monitoring frequency rows in Table 1 of 503.16, the certification statements in 503.17, and the electronic reporting dates in 503.18 are not set out point by point."
+    },
+    {
+      "id": "surface",
+      "name": "Surface disposal",
+      "points": [
+        {
+          "text": "Subpart C does not apply to sewage sludge stored on the land or to the land where it is stored.",
+          "quote": "This subpart does not apply to sewage sludge stored on the land or to the land on which sewage sludge is stored.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.20, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-C/section-503.20"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The owner/operator of an active sewage sludge unit must submit a written closure and post closure plan to the permitting authority 180 days before the unit closes.",
+          "quote": "The owner/operator of an active sewage sludge unit shall submit a written closure and post closure plan to the permitting authority 180 days prior to the date that the active sewage sludge unit closes.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.22, General requirements (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-C/section-503.22"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The owner of a surface disposal site must notify the next owner in writing that sewage sludge was placed on the land.",
+          "quote": "The owner of a surface disposal site shall provide written notification to the subsequent owner of the site that sewage sludge was placed on the land.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.22, General requirements (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-C/section-503.22"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Where site-specific limits apply to an unlined unit, each Table 1 pollutant may not exceed the site-specific concentration or the existing concentration in the sludge, whichever is lower.",
+          "quote": "The concentration of each pollutant listed in Table 1 of § 503.23 in sewage sludge placed on an active sewage sludge unit without a liner and leachate collection system shall not exceed either the concentration for the pollutant determined during a site-specific assessment, as specified by the permitting authority, or the existing concentration of the pollutant in the sewage sludge, whichever is lower.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.23, Pollutant limits (other than domestic septage) (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-C/section-503.23"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An active sewage sludge unit must be 60 meters or more from a fault with displacement in Holocene time, unless the permitting authority specifies otherwise.",
+          "quote": "An active sewage sludge unit shall be located 60 meters or more from a fault that has displacement in Holocene time, unless otherwise specified by the permitting authority.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.24, Management practices (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-C/section-503.24"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The run-off collection system for an active sewage sludge unit must be able to handle run-off from a 24-hour, 25-year storm event.",
+          "quote": "The run-off collection system for an active sewage sludge unit shall have the capacity to handle runoff from a 24-hour, 25-year storm event.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.24, Management practices (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-C/section-503.24"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "While a covered unit is active, methane in air in any structure on the site may not exceed 25 percent of the lower explosive limit, and methane at the property line may not exceed the lower explosive limit.",
+          "quote": "When a cover is placed on an active sewage sludge unit, the concentration of methane gas in air in any structure within the surface disposal site shall not exceed 25 percent of the lower explosive limit for methane gas during the period that the sewage sludge unit is active and the concentration of methane gas in air at the property line of the surface disposal site shall not exceed the lower explosive limit for methane gas during the period that the sewage sludge unit is active.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.24, Management practices (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-C/section-503.24"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Public access to a surface disposal site must be restricted while it contains an active unit and for three years after the last active unit closes.",
+          "quote": "Public access to a surface disposal site shall be restricted for the period that the surface disposal site contains an active sewage sludge unit and for three years after the last active sewage sludge unit in the surface disposal site closes.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.24, Management practices (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-C/section-503.24"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Air in structures on the site and at the property line must be monitored continuously for methane while the site has a covered active unit and for three years after a unit closes with a final cover.",
+          "quote": "Air in structures within a surface disposal site and at the property line of the surface disposal site shall be monitored continuously for methane gas during the period that the surface disposal site contains an active sewage sludge unit on which the sewage sludge is covered and for three years after a sewage sludge unit closes when a final cover is placed on the sewage sludge.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.26, Frequency of monitoring (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-C/section-503.26"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The same three kinds of facilities (Class I sludge management facilities, POTWs of one million gallons per day or more, and POTWs serving 10,000 people or more) report on February 19 of each year for surface disposal.",
+          "quote": "Class I sludge management facilities, POTWs (as defined in 40 CFR 501.2) with a design flow rate equal to or greater than one million gallons per day, and POTWs that serve 10,000 people or more shall submit a report on February 19 of each year.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.28, Reporting (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-C/section-503.28"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The concentration tables in 503.23, the other management practices in 503.24 (base flood, seismic impact zone, unstable area, wetland, leachate, crops, grazing, aquifer protection), the monitoring frequency table in 503.26 and the records in 503.27 are not covered point by point."
+    },
+    {
+      "id": "incineration",
+      "name": "Incineration",
+      "points": [
+        {
+          "text": "One condition for skipping the total hydrocarbons instrument practice and its monitoring and records is that the monthly average carbon monoxide in the stack exit gas, corrected for zero percent moisture and to seven percent oxygen, does not exceed 100 parts per million by volume.",
+          "quote": "The monthly average concentration of carbon monoxide in the exit gas from a sewage sludge incinerator stack, corrected for zero percent moisture and to seven percent oxygen, does not exceed 100 parts per million on a volumetric basis.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.40, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-E/section-503.40"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A sewage sludge incinerator is an enclosed device in which only sewage sludge and auxiliary fuel are fired.",
+          "quote": "Sewage sludge incinerator is an enclosed device in which only sewage sludge and auxiliary fuel are fired.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.41, Special definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-E/section-503.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Hazardous wastes are not auxiliary fuel.",
+          "quote": "Hazardous wastes are not auxiliary fuel.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.41, Special definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-E/section-503.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The monthly average total hydrocarbons concentration in the stack exit gas, corrected for zero percent moisture and to seven percent oxygen, may not exceed 100 parts per million by volume when measured with the instrument required by 503.45(a).",
+          "quote": "The monthly average concentration for total hydrocarbons in the exit gas from a sewage sludge incinerator stack, corrected for zero percent moisture using the correction factor from equation (7) and to seven percent oxygen using the correction factor from equation (8), shall not exceed 100 parts per million on a volumetric basis when measured using the instrument required by § 503.45(a).",
+          "source": {
+            "title": "eCFR: 40 CFR 503.44, Operational standard—total hydrocarbons (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-E/section-503.44"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The total hydrocarbons instrument must use a flame ionization detector, have a heated sampling line kept at 150 degrees Celsius or higher at all times, and be calibrated at least once every 24-hour operating period using propane.",
+          "quote": "The total hydrocarbons instrument shall employ a flame ionization detector; shall have a heated sampling line maintained at a temperature of 150 degrees Celsius or higher at all times; and shall be calibrated at least once every 24-hour operating period using propane.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.45, Management practices (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-E/section-503.45"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Operating an incinerator may not make the operating combustion temperature exceed the performance test combustion temperature by more than 20 percent.",
+          "quote": "Operation of a sewage sludge incinerator shall not cause the operating combustion temperature for the sewage sludge incinerator to exceed the performance test combustion temperature by more than 20 percent.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.45, Management practices (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-E/section-503.45"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The permitting authority must be notified at least 30 days before any performance test, with a test protocol and list of test methods.",
+          "quote": "The permitting authority shall be notified at least 30 days prior to any performance test so the permitting authority may have the opportunity to observe the test. The notice shall include a test protocol with incinerator operating conditions and a list of test methods to be used.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.43, Pollutant limits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-E/section-503.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each performance test consists of three separate runs, and the control efficiency is the arithmetic mean of the three runs.",
+          "quote": "Each performance test shall consist of three separate runs using the applicable test method. The control efficiency for a pollutant shall be the arithmetic mean of the control efficiencies for the pollutant from the three runs.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.43, Pollutant limits (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-E/section-503.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Total hydrocarbons, oxygen, the information used to measure moisture content, and combustion temperatures must be monitored continuously.",
+          "quote": "The total hydrocarbons concentration and oxygen concentration in the exit gas from a sewage sludge incinerator stack, the information used to measure moisture content in the exit gas, and the combustion temperatures for the sewage sludge incinerator shall be monitored continuously.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.46, Frequency of monitoring (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-E/section-503.46"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The person who fires sewage sludge in an incinerator develops the records in 503.47(b) through (n) and keeps them for five years.",
+          "quote": "The person who fires sewage sludge in a sewage sludge incinerator shall develop the information in § 503.47(b) through § 503.47(n) and shall retain that information for five years.",
+          "source": {
+            "title": "eCFR: 40 CFR 503.47, Recordkeeping (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-E/section-503.47"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The lead and arsenic, cadmium, chromium and nickel limit equations (503.43(c)–(d)), the risk specific concentration tables, the correction-factor equations in 503.44, air pollution control device rules (503.45(f), 503.46(c)), the metals monitoring table in 503.46 and the annual reports in 503.48 are not covered point by point. The beryllium and mercury standards are in 40 CFR part 61, as 503.43(a)–(b) state."
+    }
+  ]
+}

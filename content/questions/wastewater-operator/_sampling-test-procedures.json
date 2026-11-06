@@ -1,0 +1,389 @@
+{
+  "cluster": "wastewater-operator",
+  "slug": "sampling-test-procedures",
+  "title": "Wastewater sampling and test procedures practice questions",
+  "description": "Free practice questions on 40 CFR 136.1-136.3: approved test procedures, Table II preservation and holding times. Answers linked to the rule.",
+  "href": "/wastewater-operator/sampling-test-procedures/practice-test/",
+  "questions": [
+    {
+      "id": "tp-001",
+      "topic": "Applicability and definitions",
+      "question": "Under 40 CFR 136.1(a)(3), the Part 136 procedures must be used for measurements required for which of these?",
+      "options": {
+        "A": "Laboratory proficiency tests a lab runs for its own customers",
+        "B": "Certifications issued by States pursuant to section 401 of the Clean Water Act",
+        "C": "Air emission permits issued under the Clean Air Act",
+        "D": "Monitoring of drinking water at the consumer's tap"
+      },
+      "answer": "B",
+      "explanation": "Section 136.1(a)(3) lists \"Certifications issued by States pursuant to section 401 of the Clean Water Act (CWA), as amended.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.1, Applicability (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.1"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Certifications issued by States pursuant to section 401 of the Clean Water Act (CWA), as amended."
+    },
+    {
+      "id": "tp-002",
+      "topic": "Applicability and definitions",
+      "question": "Besides Part 136 itself, which part of title 40 does 136.1(b) name for performing the measurements required for a sewage sludge permit application under section 405(f) of the Clean Water Act?",
+      "options": {
+        "A": "Part 141",
+        "B": "Part 261",
+        "C": "Part 60",
+        "D": "Part 503"
+      },
+      "answer": "D",
+      "explanation": "\"The procedure prescribed herein and in part 503 of title 40 shall be used to perform the measurements required for an application submitted to the Administrator or to a State for a sewage sludge permit under section 405(f) of the Clean Water Act\".",
+      "source": {
+        "title": "eCFR: 40 CFR 136.1, Applicability (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.1"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The procedure prescribed herein and in part 503 of title 40 shall be used to perform the measurements required for an application submitted to the Administrator or to a State for a sewage sludge permit under section 405(f) of the Clean Water Act"
+    },
+    {
+      "id": "tp-003",
+      "topic": "Applicability and definitions",
+      "question": "For the purposes of the NPDES program, what does 136.1(c) require when more than one test procedure is approved under Part 136 for a pollutant?",
+      "options": {
+        "A": "The test procedure must be sufficiently sensitive as defined at 40 CFR 122.21(e)(3) and 122.44(i)(1)(iv)",
+        "B": "The permittee may use whichever approved procedure costs the least",
+        "C": "The laboratory must run every approved procedure and report the average",
+        "D": "The oldest approved procedure must be used"
+      },
+      "answer": "A",
+      "explanation": "\"When more than one test procedure is approved under this part for the analysis of a pollutant or pollutant parameter, the test procedure must be sufficiently sensitive as defined at 40 CFR 122.21(e)(3) and 122.44(i)(1)(iv).\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.1, Applicability (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.1"
+      },
+      "checked": "2026-11-06",
+      "evidence": "when more than one test procedure is approved under this part for the analysis of a pollutant or pollutant parameter, the test procedure must be sufficiently sensitive as defined at 40 CFR 122.21(e)(3) and 122.44(i)(1)(iv)."
+    },
+    {
+      "id": "tp-004",
+      "topic": "Applicability and definitions",
+      "question": "Under the definition of detection limit in 136.2(f), the analyte concentration must be distinguishable from what?",
+      "options": {
+        "A": "The permit limit for the pollutant",
+        "B": "The highest calibration standard",
+        "C": "The method blank results",
+        "D": "The concentration in the upstream receiving water"
+      },
+      "answer": "C",
+      "explanation": "Detection limit is \"the minimum concentration of an analyte (substance) that can be measured and reported with a 99% confidence that the analyte concentration is distinguishable from the method blank results\".",
+      "source": {
+        "title": "eCFR: 40 CFR 136.2, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the minimum concentration of an analyte (substance) that can be measured and reported with a 99% confidence that the analyte concentration is distinguishable from the method blank results"
+    },
+    {
+      "id": "tp-005",
+      "topic": "Approved test procedures and alternatives",
+      "question": "Under 136.3(a), what controls when the reporting requirements of 40 CFR parts 122 and 125 conflict with reporting requirements associated with a listed method?",
+      "options": {
+        "A": "The method's own reporting requirements",
+        "B": "Whichever requirement the laboratory selects",
+        "C": "The stricter of the two, as chosen by the analyst",
+        "D": "The provisions of 40 CFR parts 122 and 125"
+      },
+      "answer": "D",
+      "explanation": "In that event, \"the provisions of 40 CFR parts 122 and 125 are controlling and will determine a permittee's reporting requirements.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the provisions of 40 CFR parts 122 and 125 are controlling and will determine a permittee's reporting requirements."
+    },
+    {
+      "id": "tp-006",
+      "topic": "Approved test procedures and alternatives",
+      "question": "Under 136.3(c), when the Director establishes limitations on the discharge of a parameter for which there is no test procedure in Part 136 or in 40 CFR parts 405 through 499, who specifies the test procedure?",
+      "options": {
+        "A": "The Director",
+        "B": "The permittee's contract laboratory",
+        "C": "The manufacturer of the sampling equipment",
+        "D": "The Alternate Test Procedure Program Coordinator"
+      },
+      "answer": "A",
+      "explanation": "\"In these instances the test procedure shall be specified by the Director.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "In these instances the test procedure shall be specified by the Director."
+    },
+    {
+      "id": "tp-007",
+      "topic": "Approved test procedures and alternatives",
+      "question": "Under 136.3(d), upon whose recommendation may the Administrator approve additional alternate test procedures for nationwide use?",
+      "options": {
+        "A": "The State drinking water administrator",
+        "B": "The permittee's laboratory director",
+        "C": "The Regional Administrator of the Region where the discharge occurs",
+        "D": "The Alternate Test Procedure Program Coordinator, Washington, DC"
+      },
+      "answer": "D",
+      "explanation": "\"The Administrator may approve additional alternate test procedures for nationwide use, upon recommendation by the Alternate Test Procedure Program Coordinator, Washington, DC.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the Administrator may approve additional alternate test procedures for nationwide use, upon recommendation by the Alternate Test Procedure Program Coordinator, Washington, DC."
+    },
+    {
+      "id": "tp-008",
+      "topic": "Table II and limited use changes",
+      "question": "Under 136.3(e), how does the information in Table II rank against information in specific methods?",
+      "options": {
+        "A": "Specific methods always take precedence over Table II",
+        "B": "Information in the table takes precedence over information in specific methods or elsewhere",
+        "C": "Table II applies only when a method gives no holding time",
+        "D": "The analyst chooses between them for each sample"
+      },
+      "answer": "B",
+      "explanation": "\"Information in the table takes precedence over information in specific methods or elsewhere.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Information in the table takes precedence over information in specific methods or elsewhere."
+    },
+    {
+      "id": "tp-009",
+      "topic": "Table II and limited use changes",
+      "question": "Under 136.3(e), how may applications for limited use changes in preservation, containers or holding times for samples from a specific discharge be made?",
+      "options": {
+        "A": "By letters to the Regional Alternative Test Procedure (ATP) Program Coordinator or the permitting authority in the Region in which the discharge will occur",
+        "B": "By a note in the laboratory's bench sheet, with no application needed",
+        "C": "By publishing a notice in the Federal Register",
+        "D": "By a phone call to the sampling equipment vendor"
+      },
+      "answer": "A",
+      "explanation": "\"Applications for such limited use changes may be made by letters to the Regional Alternative Test Procedure (ATP) Program Coordinator or the permitting authority in the Region in which the discharge will occur.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Applications for such limited use changes may be made by letters to the Regional Alternative Test Procedure (ATP) Program Coordinator or the permitting authority in the Region in which the discharge will occur."
+    },
+    {
+      "id": "tp-010",
+      "topic": "Table II and limited use changes",
+      "question": "What time frame does 136.3(e) set for the decision on a request to deviate from the prescribed Table II requirements?",
+      "options": {
+        "A": "Within 10 days of receipt",
+        "B": "Within 1 year of receipt",
+        "C": "Within 30 days of the first sample",
+        "D": "Within 90 days of receipt of the application by the Regional Administrator"
+      },
+      "answer": "D",
+      "explanation": "A decision on such a request \"will be made within 90 days of receipt of the application by the Regional Administrator.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "requirements will be made within 90 days of receipt of the application by the Regional Administrator."
+    },
+    {
+      "id": "tp-011",
+      "topic": "Containers and preservation",
+      "question": "In footnote 1 to Table II, what does the container code \"PA\" mean?",
+      "options": {
+        "A": "Polyethylene only",
+        "B": "Plain amber glass",
+        "C": "Any plastic that is made of a sterilizable material (polypropylene or other autoclavable plastic)",
+        "D": "Low density polyethylene"
+      },
+      "answer": "C",
+      "explanation": "Footnote 1 says \"PA\" is \"any plastic that is made of a sterilizable material (polypropylene or other autoclavable plastic)\", while \"LDPE\" is \"low density polyethylene.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "\"PA\" is any plastic that is made of a sterilizable material (polypropylene or other autoclavable plastic)"
+    },
+    {
+      "id": "tp-012",
+      "topic": "Containers and preservation",
+      "question": "Under footnote 2 to Table II, for a composite sample collected with an automated sampler, when must the sample be refrigerated at ≤6 °C, unless Table II or the method specifies otherwise?",
+      "options": {
+        "A": "Only after it arrives at the laboratory",
+        "B": "During collection",
+        "C": "Only if the holding time will exceed 48 hours",
+        "D": "Only after the last aliquot is analyzed"
+      },
+      "answer": "B",
+      "explanation": "For such a composite sample, \"refrigerate the sample at ≤6 °C during collection unless specified otherwise in this Table II or in the method(s).\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "refrigerate the sample at ≤6 °C during collection unless specified otherwise in this Table II or in the method(s)."
+    },
+    {
+      "id": "tp-013",
+      "topic": "Containers and preservation",
+      "question": "Under footnote 2 to Table II, if a composite measurement is required but a composite sample would compromise sample integrity, how are the individual grab samples collected at prescribed time intervals to be analyzed?",
+      "options": {
+        "A": "Only the last grab sample is analyzed",
+        "B": "Only the grab sample with the highest reading is reported",
+        "C": "They are poured together in the field without any check",
+        "D": "Separately, with the concentrations averaged"
+      },
+      "answer": "D",
+      "explanation": "\"Grab samples must be analyzed separately and the concentrations averaged.\" They may also be composited in the laboratory only \"if the compositing procedure produces results equivalent to results produced by arithmetic averaging of results of analysis of individual grab samples.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Grab samples must be analyzed separately and the concentrations averaged."
+    },
+    {
+      "id": "tp-014",
+      "topic": "Containers and preservation",
+      "question": "Under footnote 3 to Table II, when a sample is to be shipped by common carrier or sent via the U.S. Postal Service, who is responsible for ensuring compliance with the Department of Transportation Hazardous Materials Regulations?",
+      "options": {
+        "A": "The person offering such material for transportation",
+        "B": "The receiving laboratory only",
+        "C": "The Regional ATP Coordinator",
+        "D": "The permitting authority"
+      },
+      "answer": "A",
+      "explanation": "\"The person offering such material for transportation is responsible for ensuring such compliance.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The person offering such material for transportation is responsible for ensuring such compliance."
+    },
+    {
+      "id": "tp-015",
+      "topic": "Containers and preservation",
+      "question": "Under footnote 18 to Table II, to which samples does the preservation temperature not apply?",
+      "options": {
+        "A": "Samples shipped overnight",
+        "B": "Samples collected in winter",
+        "C": "Samples that are analyzed immediately (less than 15 minutes)",
+        "D": "Samples held in glass containers"
+      },
+      "answer": "C",
+      "explanation": "\"The preservation temperature does not apply to samples that are analyzed immediately (less than 15 minutes).\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The preservation temperature does not apply to samples that are analyzed immediately (less than 15 minutes)."
+    },
+    {
+      "id": "tp-016",
+      "topic": "Containers and preservation",
+      "question": "What preservation does Table II list in the row for \"47. Winkler\" (dissolved oxygen)?",
+      "options": {
+        "A": "Cool and add sulfuric acid",
+        "B": "None required",
+        "C": "Fix on site and store in dark",
+        "D": "Freeze at the laboratory"
+      },
+      "answer": "C",
+      "explanation": "The Winkler row lists containers \"G, Bottle and top\" and the preservation \"Fix on site and store in dark\"; the probe method row above it says \"None required\".",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "47. Winkler G, Bottle and top Fix on site and store in dark"
+    },
+    {
+      "id": "tp-017",
+      "topic": "Holding times",
+      "question": "Under footnote 4 to Table II, when does the holding time begin for a composite sample collected with an automated sampler?",
+      "options": {
+        "A": "At the time of the first aliquot",
+        "B": "When the sample arrives at the laboratory",
+        "C": "At the time of the end of collection of the composite sample",
+        "D": "When the preservative is added"
+      },
+      "answer": "C",
+      "explanation": "For such a sample, \"the holding time begins at the time of the end of collection of the composite sample.\" For a grab sample, \"the holding time begins at the time of collection.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the holding time begins at the time of the end of collection of the composite sample."
+    },
+    {
+      "id": "tp-018",
+      "topic": "Holding times",
+      "question": "Under footnote 4 to Table II, when does the holding time begin for a set of grab samples composited in the field or laboratory?",
+      "options": {
+        "A": "At the time of collection of the last grab sample in the set",
+        "B": "At the time of collection of the first grab sample in the set",
+        "C": "When compositing in the laboratory is finished",
+        "D": "At midnight on the day of collection"
+      },
+      "answer": "A",
+      "explanation": "\"For a set of grab samples composited in the field or laboratory, the holding time begins at the time of collection of the last grab sample in the set.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "For a set of grab samples composited in the field or laboratory, the holding time begins at the time of collection of the last grab sample in the set."
+    },
+    {
+      "id": "tp-019",
+      "topic": "Holding times",
+      "question": "Under footnote 4 to Table II, what two things are needed before samples may be held for longer periods than the times listed?",
+      "options": {
+        "A": "A signed chain-of-custody form and a cooler with ice",
+        "B": "Data on file showing the analytes are stable for the longer time for the specific types of samples, and a variance from the Regional ATP Coordinator under 136.3(e)",
+        "C": "Approval from the sampling equipment manufacturer and a second analyst",
+        "D": "A written note from the plant operator and a duplicate sample"
+      },
+      "answer": "B",
+      "explanation": "Samples may be held longer \"only if the permittee or monitoring laboratory have data on file to show that, for the specific types of samples under study, the analytes are stable for the longer time, and has received a variance from the Regional ATP Coordinator under § 136.3(e).\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Samples may be held for longer periods only if the permittee or monitoring laboratory have data on file to show that, for the specific types of samples under study, the analytes are stable for the longer time, and has received a variance from the Regional ATP Coordinator under § 136.3(e)."
+    },
+    {
+      "id": "tp-020",
+      "topic": "Footnotes for specific tests",
+      "question": "Footnote 23 to Table II extends the fecal coliform holding time for sewage sludge (biosolids) only, using EPA Method 1680 or 1681. Which sample types does it list?",
+      "options": {
+        "A": "All sewage sludge samples regardless of treatment",
+        "B": "Class A composted, Class B aerobically digested, and Class B anaerobically digested",
+        "C": "Raw influent and primary effluent",
+        "D": "Final effluent samples from lagoons"
+      },
+      "answer": "B",
+      "explanation": "The extension covers \"the following sample types using either EPA Method 1680 (LTB-EC) or 1681 (A-1): Class A composted, Class B aerobically digested, and Class B anaerobically digested.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the following sample types using either EPA Method 1680 (LTB-EC) or 1681 (A-1): Class A composted, Class B aerobically digested, and Class B anaerobically digested."
+    }
+  ]
+}

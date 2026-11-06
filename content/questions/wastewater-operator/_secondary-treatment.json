@@ -1,0 +1,389 @@
+{
+  "cluster": "wastewater-operator",
+  "slug": "secondary-treatment",
+  "title": "Wastewater secondary treatment standards practice questions",
+  "description": "Free practice questions on 40 CFR Part 133 secondary treatment standards. Every answer is explained and linked to the section it comes from.",
+  "href": "/wastewater-operator/secondary-treatment/practice-test/",
+  "questions": [
+    {
+      "id": "st-001",
+      "topic": "Purpose and definitions",
+      "question": "How does 133.101(b) define the 30-day average?",
+      "options": {
+        "A": "The geometric mean of pollutant parameter values for samples collected in one calendar month",
+        "B": "The arithmetic mean of pollutant parameter values of samples collected in a period of 30 consecutive days",
+        "C": "The highest single daily value recorded in a period of 30 consecutive days",
+        "D": "The median of pollutant parameter values for samples collected in a period of 7 consecutive days"
+      },
+      "answer": "B",
+      "explanation": "133.101(b) defines the 30-day average as \"The arithmetic mean of pollutant parameter values of samples collected in a period of 30 consecutive days.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 133.101, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "30-day average. The arithmetic mean of pollutant parameter values of samples collected in a period of 30 consecutive days."
+    },
+    {
+      "id": "st-002",
+      "topic": "Purpose and definitions",
+      "question": "According to the definition in 133.101(j), percent removal is determined from which values?",
+      "options": {
+        "A": "The daily maximum influent and daily maximum effluent concentrations",
+        "B": "The 7-day average effluent concentrations compared with the design loading of the plant",
+        "C": "The influent BOD5 load divided by the design flow",
+        "D": "The 30-day average values of the raw wastewater influent pollutant concentrations and the 30-day average values of the effluent pollutant concentrations"
+      },
+      "answer": "D",
+      "explanation": "Percent removal is \"a percentage expression of the removal efficiency across a treatment plant for a given pollutant parameter, as determined from the 30-day average values of the raw wastewater influent pollutant concentrations to the facility and the 30-day average values of the effluent pollutant concentrations for a given time period.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 133.101, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "as determined from the 30-day average values of the raw wastewater influent pollutant concentrations to the facility and the 30-day average values of the effluent pollutant concentrations for a given time period."
+    },
+    {
+      "id": "st-003",
+      "topic": "Purpose and definitions",
+      "question": "How does 133.101(n) define the State Director?",
+      "options": {
+        "A": "The chief administrative officer of any State or interstate agency operating an approved program, or the delegated representative of the State Director",
+        "B": "The EPA Regional Administrator for the region in which the State lies",
+        "C": "The operator in responsible charge of a publicly owned treatment works",
+        "D": "The governor of the State, who may not delegate the role"
+      },
+      "answer": "A",
+      "explanation": "\"State Director means the chief administrative officer of any State or interstate agency operating an “approved program,” or the delegated representative of the State Director.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 133.101, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "State Director means the chief administrative officer of any State or interstate agency operating an “approved program,” or the delegated representative of the State Director."
+    },
+    {
+      "id": "st-004",
+      "topic": "Consistently achievable levels and eligibility",
+      "question": "When the 95th percentile value is derived under 133.101(f)(1) (effluent concentrations consistently achievable through proper operation and maintenance), which values are excluded?",
+      "options": {
+        "A": "Values from the coldest month of each year",
+        "B": "Values from samples analyzed by a contract laboratory",
+        "C": "Values attributable to upsets, bypasses, operational errors, or other unusual conditions",
+        "D": "Values that exceed the 7-day average permit limit"
+      },
+      "answer": "C",
+      "explanation": "The value is \"the 95th percentile value for the 30-day average effluent quality achieved by a treatment works in a period of at least two years, excluding values attributable to upsets, bypasses, operational errors, or other unusual conditions\".",
+      "source": {
+        "title": "eCFR: 40 CFR 133.101, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the 95th percentile value for the 30-day average effluent quality achieved by a treatment works in a period of at least two years, excluding values attributable to upsets, bypasses, operational errors, or other unusual conditions"
+    },
+    {
+      "id": "st-005",
+      "topic": "Consistently achievable levels and eligibility",
+      "question": "Under 133.101(g)(2), what must be used as the principal process for a treatment works to be eligible for consideration for treatment equivalent to secondary treatment?",
+      "options": {
+        "A": "A trickling filter or waste stabilization pond",
+        "B": "An activated sludge process with nitrification",
+        "C": "Chemical precipitation followed by filtration",
+        "D": "Any process, as long as the plant's 30-day average BOD5 stays at or below 30 mg/l"
+      },
+      "answer": "A",
+      "explanation": "Condition (2) is that \"A trickling filter or waste stabilization pond is used as the principal process\". The conditions in 133.101(g)(1) and (g)(3) must also be met.",
+      "source": {
+        "title": "eCFR: 40 CFR 133.101, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A trickling filter or waste stabilization pond is used as the principal process, and"
+    },
+    {
+      "id": "st-006",
+      "topic": "Secondary treatment limits",
+      "question": "Under 133.102(a)(4), at whose option may the parameter CBOD5 be substituted for BOD5 in the secondary treatment levels?",
+      "options": {
+        "A": "The POTW's operator in responsible charge",
+        "B": "The laboratory that analyzes the samples",
+        "C": "The NPDES permitting authority",
+        "D": "Any Industrial User discharging to the POTW"
+      },
+      "answer": "C",
+      "explanation": "\"At the option of the NPDES permitting authority, in lieu of the parameter BOD5 and the levels of the effluent quality specified in paragraphs (a)(1), (a)(2) and (a)(3), the parameter CBOD5 may be substituted\" with its own levels.",
+      "source": {
+        "title": "eCFR: 40 CFR 133.102, Secondary treatment (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.102"
+      },
+      "checked": "2026-11-06",
+      "evidence": "At the option of the NPDES permitting authority, in lieu of the parameter BOD5 and the levels of the effluent quality specified in paragraphs (a)(1), (a)(2) and (a)(3), the parameter CBOD5 may be substituted"
+    },
+    {
+      "id": "st-007",
+      "topic": "Secondary treatment limits",
+      "question": "What 7-day average does 133.102(a)(4)(ii) set for CBOD5 when CBOD5 is substituted for BOD5 in the secondary treatment levels?",
+      "options": {
+        "A": "45 mg/l",
+        "B": "35 mg/l",
+        "C": "50 mg/l",
+        "D": "40 mg/l"
+      },
+      "answer": "D",
+      "explanation": "For the CBOD5 option, 133.102(a)(4)(ii) states: \"The 7-day average shall not exceed 40 mg/l.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 133.102, Secondary treatment (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.102"
+      },
+      "checked": "2026-11-06",
+      "evidence": "(ii) The 7-day average shall not exceed 40 mg/l."
+    },
+    {
+      "id": "st-008",
+      "topic": "Secondary treatment limits",
+      "question": "133.102(c) requires effluent pH to be kept within 6.0 to 9.0 unless the publicly owned treatment works demonstrates what?",
+      "options": {
+        "A": "That its effluent pH stayed within the limits for 12 consecutive months",
+        "B": "That inorganic chemicals are not added to the waste stream as part of the treatment process, and that contributions from industrial sources do not cause the effluent pH to be less than 6.0 or greater than 9.0",
+        "C": "That inorganic chemicals are not added to the waste stream as part of the treatment process, whatever the effect of industrial contributions",
+        "D": "That the natural pH of the receiving water is outside 6.0 to 9.0"
+      },
+      "answer": "B",
+      "explanation": "The POTW must demonstrate both: \"Inorganic chemicals are not added to the waste stream as part of the treatment process; and\" \"contributions from industrial sources do not cause the pH of the effluent to be less than 6.0 or greater than 9.0.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 133.102, Secondary treatment (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.102"
+      },
+      "checked": "2026-11-06",
+      "evidence": "(1) Inorganic chemicals are not added to the waste stream as part of the treatment process; and (2) contributions from industrial sources do not cause the pH of the effluent to be less than 6.0 or greater than 9.0."
+    },
+    {
+      "id": "st-009",
+      "topic": "Treatment equivalent to secondary treatment",
+      "question": "Under 133.105(b), the SS levels for treatment equivalent to secondary treatment apply except where what has happened?",
+      "options": {
+        "A": "The plant has operated for less than one year",
+        "B": "SS values have been adjusted in accordance with 133.103(c)",
+        "C": "The POTW serves fewer than 10,000 people",
+        "D": "An Industrial User has asked for a waiver"
+      },
+      "answer": "B",
+      "explanation": "133.105(b) opens: \"SS. Except where SS values have been adjusted in accordance with § 133.103(c):\" 133.103(c) is the waste stabilization pond provision.",
+      "source": {
+        "title": "eCFR: 40 CFR 133.105, Treatment equivalent to secondary treatment (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.105"
+      },
+      "checked": "2026-11-06",
+      "evidence": "SS. Except where SS values have been adjusted in accordance with § 133.103(c):"
+    },
+    {
+      "id": "st-010",
+      "topic": "Treatment equivalent to secondary treatment",
+      "question": "Under 133.105(e)(1), on what basis may the NPDES permitting authority substitute CBOD5 for BOD5 for a treatment works subject to 133.105?",
+      "options": {
+        "A": "Where data are available to establish CBOD5 limitations, on a case-by-case basis, with CBOD5 levels not less stringent than those listed in 133.105(e)(1)",
+        "B": "Automatically for every waste stabilization pond, with no CBOD5 levels set",
+        "C": "Only when the operator asks in writing, with levels chosen by the operator",
+        "D": "Only for treatment works that already meet the secondary treatment levels of 133.102"
+      },
+      "answer": "A",
+      "explanation": "\"Where data are available to establish CBOD5 limitations for a treatment works subject to this section, the NPDES permitting authority may substitute the parameter CBOD5\" \"on a case-by-case basis provided that the levels of CBOD5 effluent quality are not less stringent than the following\".",
+      "source": {
+        "title": "eCFR: 40 CFR 133.105, Treatment equivalent to secondary treatment (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.105"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Where data are available to establish CBOD5 limitations for a treatment works subject to this section, the NPDES permitting authority may substitute the parameter CBOD5 for the parameter BOD5"
+    },
+    {
+      "id": "st-011",
+      "topic": "Treatment equivalent to secondary treatment",
+      "question": "Under 133.105(e)(2), when CBOD5 is used for limits set under the alternative State requirements of 133.105(d) and concurrent BOD effluent data are available, what is required?",
+      "options": {
+        "A": "The BOD data must be discarded after 30 days",
+        "B": "The BOD data may be submitted instead of the CBOD data",
+        "C": "The BOD data must be sent to the POTW's Industrial Users",
+        "D": "The BOD data must be submitted with the CBOD data as a part of the approval process outlined in 133.105(d)"
+      },
+      "answer": "D",
+      "explanation": "\"Where concurrent BOD effluent data are available, they must be submitted with the CBOD data as a part of the approval process outlined in paragraph (d) of this section.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 133.105, Treatment equivalent to secondary treatment (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.105"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Where concurrent BOD effluent data are available, they must be submitted with the CBOD data as a part of the approval process outlined in paragraph (d) of this section."
+    },
+    {
+      "id": "st-012",
+      "topic": "Alternative State requirements and permit adjustments",
+      "question": "Under 133.105(d) (alternative State requirements), who is authorized to adjust the minimum levels of effluent quality, and after what step?",
+      "options": {
+        "A": "The POTW, after notifying its Industrial Users",
+        "B": "The State Director without EPA approval, with no public comment needed",
+        "C": "The Regional Administrator, or, if appropriate, State Director subject to EPA approval, after notice and opportunity for public comment",
+        "D": "The operator in responsible charge, after a 30-day test period"
+      },
+      "answer": "C",
+      "explanation": "\"Except as limited by paragraph (f) of this section, and after notice and opportunity for public comment, the Regional Administrator, or, if appropriate, State Director subject to EPA approval, is authorized to adjust the minimum levels of effluent quality\".",
+      "source": {
+        "title": "eCFR: 40 CFR 133.105, Treatment equivalent to secondary treatment (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.105"
+      },
+      "checked": "2026-11-06",
+      "evidence": "after notice and opportunity for public comment, the Regional Administrator, or, if appropriate, State Director subject to EPA approval, is authorized to adjust the minimum levels of effluent quality"
+    },
+    {
+      "id": "st-013",
+      "topic": "Alternative State requirements and permit adjustments",
+      "question": "Under 133.105(d), which minimum levels may be adjusted for waste stabilization pond facilities?",
+      "options": {
+        "A": "The levels in paragraphs (a)(1) and (a)(2) of 133.105 (the BOD5 30-day and 7-day averages)",
+        "B": "The percent removal levels in paragraphs (a)(3) and (b)(3) of 133.105",
+        "C": "The pH requirement in paragraph (c) of 133.105",
+        "D": "Only the CBOD5 percent removal level in paragraph (e)(1)(iii) of 133.105"
+      },
+      "answer": "A",
+      "explanation": "133.105(d) allows adjustment of the levels \"in paragraphs (a)(1) and (a)(2) of this section for waste stabilization pond facilities\". For trickling filter facilities it names (a)(1), (a)(2), (b)(1) and (b)(2).",
+      "source": {
+        "title": "eCFR: 40 CFR 133.105, Treatment equivalent to secondary treatment (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.105"
+      },
+      "checked": "2026-11-06",
+      "evidence": "in paragraphs (a)(1) and (a)(2) of this section for waste stabilization pond facilities"
+    },
+    {
+      "id": "st-014",
+      "topic": "Alternative State requirements and permit adjustments",
+      "question": "Under 133.105(f)(1), when must the permitting authority require more stringent limitations when adjusting the permit of an existing facility?",
+      "options": {
+        "A": "Whenever a member of the public asks for them during the comment period",
+        "B": "When it determines, based on an analysis of the past performance of the treatment works, that the 30-day and 7-day average BOD5 and SS values achievable through proper operation and maintenance would enable more stringent limitations",
+        "C": "When the facility adds a new treatment unit",
+        "D": "Only when the facility had a bypass in the past year"
+      },
+      "answer": "B",
+      "explanation": "\"Permitting authorities shall require more stringent limitations when adjusting permits if\" for existing facilities the values achievable through proper operation and maintenance, \"based on an analysis of the past performance of the treatment works, would enable the treatment works to achieve more stringent limitations\".",
+      "source": {
+        "title": "eCFR: 40 CFR 133.105, Treatment equivalent to secondary treatment (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.105"
+      },
+      "checked": "2026-11-06",
+      "evidence": "based on an analysis of the past performance of the treatment works, would enable the treatment works to achieve more stringent limitations, or"
+    },
+    {
+      "id": "st-015",
+      "topic": "Combined sewers and industrial wastes",
+      "question": "133.103(a) recognizes that treatment works receiving flows from combined sewers may not meet percent removal requirements during wet weather. How must the percent removal level for such treatment works be decided?",
+      "options": {
+        "A": "The percent removal requirements are waived in all weather",
+        "B": "The percent removal requirement applies unchanged during wet weather",
+        "C": "The operator picks a level after each wet weather event",
+        "D": "On a case-by-case basis, as to whether any attainable percentage removal level can be defined, and if so, what the level should be"
+      },
+      "answer": "D",
+      "explanation": "\"For such treatment works, the decision must be made on a case-by-case basis as to whether any attainable percentage removal level can be defined, and if so, what the level should be.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 133.103, Special considerations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.103"
+      },
+      "checked": "2026-11-06",
+      "evidence": "For such treatment works, the decision must be made on a case-by-case basis as to whether any attainable percentage removal level can be defined, and if so, what the level should be."
+    },
+    {
+      "id": "st-016",
+      "topic": "Combined sewers and industrial wastes",
+      "question": "What share of the POTW's design flow or loading does 133.103(b)(2) set as the level that the industrial category's flow or loading of pollutants must exceed for BOD5 and SS values to be adjusted upwards?",
+      "options": {
+        "A": "5 percent",
+        "B": "25 percent",
+        "C": "10 percent",
+        "D": "50 percent"
+      },
+      "answer": "C",
+      "explanation": "The condition is that \"the flow or loading of such pollutants introduced by the industrial category exceeds 10 percent of the design flow or loading of the publicly owned treatment works.\" The condition in 133.103(b)(1) must also be met.",
+      "source": {
+        "title": "eCFR: 40 CFR 133.103, Special considerations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.103"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the flow or loading of such pollutants introduced by the industrial category exceeds 10 percent of the design flow or loading of the publicly owned treatment works."
+    },
+    {
+      "id": "st-017",
+      "topic": "Waste stabilization ponds and less concentrated influent",
+      "question": "Under 133.103(c), the SS levels of 133.105(b) may be adjusted to conform to the SS concentrations achievable with waste stabilization ponds, provided what?",
+      "options": {
+        "A": "The ponds have been in service for at least ten years",
+        "B": "The ponds discharge only during summer months",
+        "C": "Ponds are one of several processes and the operator has approved the adjustment",
+        "D": "Waste stabilization ponds are the principal process used for secondary treatment, and operation and maintenance data indicate the SS values in 133.105(b)(1), (b)(2) and (b)(3) cannot be achieved"
+      },
+      "answer": "D",
+      "explanation": "Both conditions apply: the ponds \"are the principal process used for secondary treatment; and\" \"operation and maintenance data indicate that the SS values specified in § 133.105 (b)(1), (b)(2), and (b)(3) cannot be achieved.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 133.103, Special considerations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.103"
+      },
+      "checked": "2026-11-06",
+      "evidence": "operation and maintenance data indicate that the SS values specified in § 133.105 (b)(1), (b)(2), and (b)(3) cannot be achieved."
+    },
+    {
+      "id": "st-018",
+      "topic": "Waste stabilization ponds and less concentrated influent",
+      "question": "For less concentrated influent wastewater in separate sewers, what may the Regional Administrator or, if appropriate, State Director substitute for the percent removal requirements under 133.103(d)?",
+      "options": {
+        "A": "Either a lower percent removal requirement or a mass loading limit",
+        "B": "A higher effluent concentration limit only",
+        "C": "A pH limit",
+        "D": "No limit at all for BOD5 and SS"
+      },
+      "answer": "A",
+      "explanation": "The Regional Administrator or, if appropriate, State Director \"is authorized to substitute either a lower percent removal requirement or a mass loading limit for the percent removal requirements\", provided the permittee satisfactorily demonstrates the listed conditions.",
+      "source": {
+        "title": "eCFR: 40 CFR 133.103, Special considerations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.103"
+      },
+      "checked": "2026-11-06",
+      "evidence": "State Director is authorized to substitute either a lower percent removal requirement or a mass loading limit for the percent removal requirements"
+    },
+    {
+      "id": "st-019",
+      "topic": "Waste stabilization ponds and less concentrated influent",
+      "question": "Under 133.103(d), who must satisfactorily demonstrate the listed conditions (for example, that the less concentrated influent is not the result of excessive I/I) before a substitute for the percent removal requirements is allowed?",
+      "options": {
+        "A": "The Regional Administrator",
+        "B": "Each Industrial User",
+        "C": "The permittee",
+        "D": "The State laboratory"
+      },
+      "answer": "C",
+      "explanation": "The substitution is allowed \"provided that the permittee satisfactorily demonstrates that\" the conditions in 133.103(d)(1) to (d)(3) are met.",
+      "source": {
+        "title": "eCFR: 40 CFR 133.103, Special considerations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.103"
+      },
+      "checked": "2026-11-06",
+      "evidence": "provided that the permittee satisfactorily demonstrates that:"
+    },
+    {
+      "id": "st-020",
+      "topic": "Sampling and test procedures",
+      "question": "Under 133.104(b), when may chemical oxygen demand (COD) or total organic carbon (TOC) be substituted for BOD5?",
+      "options": {
+        "A": "Whenever a BOD5 test fails quality control",
+        "B": "When a long-term BOD:COD or BOD:TOC correlation has been demonstrated",
+        "C": "Only for waste stabilization ponds",
+        "D": "When the plant's laboratory has no incubator"
+      },
+      "answer": "B",
+      "explanation": "\"Chemical oxygen demand (COD) or total organic carbon (TOC) may be substituted for BOD5 when a long-term BOD:COD or BOD:TOC correlation has been demonstrated.\"",
+      "source": {
+        "title": "eCFR: 40 CFR 133.104, Sampling and test procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-133/section-133.104"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Chemical oxygen demand (COD) or total organic carbon (TOC) may be substituted for BOD5 when a long-term BOD:COD or BOD:TOC correlation has been demonstrated."
+    }
+  ]
+}
