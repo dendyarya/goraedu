@@ -26,15 +26,15 @@
     {
       "id": "ve-002",
       "topic": "Overhauled and rebuilt descriptions",
-      "question": "A shop wants to describe an engine as \"rebuilt\" in a required maintenance entry. To what does 43.2(b) say the engine must have been tested?",
+      "question": "An engine has been disassembled, cleaned, inspected, repaired as necessary, and reassembled. Under 43.2(a)(2), how must it have been tested before an entry may describe it as overhauled?",
       "options": {
-        "A": "The service limits in the current maintenance manual",
-        "B": "Limits agreed between the shop and the aircraft owner",
-        "C": "The limits in the most recent airworthiness directive",
-        "D": "The same tolerances and limits as a new item"
+        "A": "Only to test standards the overhaul shop writes for itself",
+        "B": "Only to specifications the aircraft owner supplies",
+        "C": "Only to the limits in the most recent airworthiness directive",
+        "D": "In accordance with approved standards and technical data, or current standards and technical data acceptable to the Administrator developed and documented by the holder of the type certificate, supplemental type certificate, or a part 21 material, part, process, or appliance approval"
       },
       "answer": "D",
-      "explanation": "An item may be described as rebuilt only if it has been \"disassembled, cleaned, inspected, repaired as necessary, reassembled, and tested to the same tolerances and limits as a new item\".",
+      "explanation": "43.2(a)(2) requires that \"It has been tested in accordance with approved standards and technical data, or in accordance with current standards and technical data acceptable to the Administrator, which have been developed and documented by the holder of the type certificate, supplemental type certificate, or a material, part, process, or appliance approval under part 21 of this chapter.\"",
       "source": {
         "title": "eCFR: 14 CFR 43.2, Records of overhaul and rebuilding (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.2"
@@ -134,15 +134,15 @@
     {
       "id": "ve-008",
       "topic": "Life-limited parts",
-      "question": "How does 43.10(a) define a life-limited part?",
+      "question": "A shop removes a life-limited part and controls it with a tag attached to the part under 43.10(c)(2). What must the tag or record include?",
       "options": {
-        "A": "Any part that has been installed for more than half of its expected service life",
-        "B": "Any part for which a mandatory replacement limit is specified in the type design, the Instructions for Continued Airworthiness, or the maintenance manual",
-        "C": "Any part listed in an airworthiness directive",
-        "D": "Any part that the owner chooses to track by hours or cycles"
+        "A": "Only the date the part was removed",
+        "B": "The part number, serial number, and current life status of the part",
+        "C": "Only the name of the person who removed the part",
+        "D": "The total time in service of the aircraft it came from"
       },
       "answer": "B",
-      "explanation": "\"Life-limited part means any part for which a mandatory replacement limit is specified in the type design, the Instructions for Continued Airworthiness, or the maintenance manual.\"",
+      "explanation": "Under 43.10(c)(2), \"The tag or record must include the part number, serial number, and current life status of the part.\"",
       "source": {
         "title": "eCFR: 14 CFR 43.10, Disposition of life-limited aircraft parts (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.10"
@@ -206,15 +206,15 @@
     {
       "id": "ve-012",
       "topic": "Inspection record entries",
-      "question": "Besides the type of inspection and a brief description of its extent, what does 43.11(a)(2) require an inspection entry to contain?",
+      "question": "A mechanic records a progressive inspection under 43.11(a)(6). Which inspections does the entry's statement say were performed?",
       "options": {
-        "A": "The date of the inspection and the time remaining until the next inspection",
-        "B": "The names of everyone who assisted with the inspection",
-        "C": "The date of the inspection and aircraft total time in service",
-        "D": "The engine time since its last overhaul"
+        "A": "An annual inspection of the whole aircraft",
+        "B": "A 100-hour inspection of the engines",
+        "C": "A routine inspection of the aircraft or components and a detailed inspection of the identified components",
+        "D": "A conformity inspection of the type design"
       },
       "answer": "C",
-      "explanation": "43.11(a)(2) requires \"The date of the inspection and aircraft total time in service.\"",
+      "explanation": "The 43.11(a)(6) statement reads: \"I certify that in accordance with a progressive inspection program, a routine inspection of (identify whether aircraft or components) and a detailed inspection of (identify components) were performed\".",
       "source": {
         "title": "eCFR: 14 CFR 43.11, Content, form, and disposition of records for inspections conducted under parts 91 and 125 and §§ 135.411(a)(1) and 135.419 of this chapter (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.11"
@@ -260,15 +260,15 @@
     {
       "id": "ve-015",
       "topic": "Discrepancy lists and placards",
-      "question": "During an inspection required by part 91, the person performing it finds the aircraft unairworthy. Under 43.11(b), what must that person give the owner or lessee?",
+      "question": "During an inspection required by part 91, which finding makes 43.11(b) require a signed and dated list of discrepancies for the owner or lessee?",
       "options": {
-        "A": "A completed FAA Form 337",
-        "B": "A signed and dated list of those discrepancies",
-        "C": "A maintenance release",
-        "D": "A copy of the aircraft's type certificate data sheet"
+        "A": "The aircraft's paint and upholstery are worn",
+        "B": "The aircraft is unairworthy or does not meet the applicable type certificate data, airworthiness directives, or other approved data upon which its airworthiness depends",
+        "C": "The aircraft has flown fewer hours than the previous year",
+        "D": "The aircraft's registration is due for renewal"
       },
       "answer": "B",
-      "explanation": "The person \"must give the owner or lessee a signed and dated list of those discrepancies.\"",
+      "explanation": "Under 43.11(b), if the person performing the inspection \"finds that the aircraft is unairworthy or does not meet the applicable type certificate data, airworthiness directives, or other approved data upon which its airworthiness depends,\" that person \"must give the owner or lessee a signed and dated list of those discrepancies.\"",
       "source": {
         "title": "eCFR: 14 CFR 43.11, Content, form, and disposition of records for inspections conducted under parts 91 and 125 and §§ 135.411(a)(1) and 135.419 of this chapter (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.11"
@@ -296,15 +296,15 @@
     {
       "id": "ve-017",
       "topic": "FAA Form 337 and Appendix B",
-      "question": "Under Appendix B(a)(3) to Part 43, where is a copy of the FAA Form 337 forwarded, and by when?",
+      "question": "A certificated repair station records a major repair on the customer's work order under Appendix B(b). For an aircraft, what does the maintenance release it gives the owner identify besides the make, model, serial number, and nationality and registration marks?",
       "options": {
-        "A": "To the FAA Aircraft Registration Branch in Oklahoma City, Oklahoma, within 48 hours after the item is approved for return to service",
-        "B": "To the aircraft manufacturer, within 48 hours after the work begins",
-        "C": "To the nearest FAA office, before the next flight",
-        "D": "To the aircraft's insurer, within 30 days after the work is completed"
+        "A": "The location of the repaired area",
+        "B": "The price charged for the repair",
+        "C": "The name of each employee who worked on the repair",
+        "D": "The aircraft's total time in service"
       },
       "answer": "A",
-      "explanation": "The person shall \"Forward a copy of that form to the FAA Aircraft Registration Branch in Oklahoma City, Oklahoma, within 48 hours after the aircraft, airframe, aircraft engine, propeller, or appliance is approved for return to service.\"",
+      "explanation": "Under Appendix B(b)(3)(ii), the maintenance release incorporates, \"If an aircraft, the make, model, serial number, nationality and registration marks, and location of the repaired area.\"",
       "source": {
         "title": "eCFR: 14 CFR Part 43, Appendix B—Recording of Major Repairs and Major Alterations (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
@@ -350,15 +350,15 @@
     {
       "id": "ve-020",
       "topic": "FAA Form 337 and Appendix B",
-      "question": "For an extended-range fuel tank installed within the passenger compartment, Appendix B(d) requires FAA Form 337 in at least triplicate. Besides giving a copy to the owner and forwarding one to the FAA, what is done with a completed copy?",
+      "question": "Appendix B(d) to Part 43 sets its own FAA Form 337 requirements for which installation?",
       "options": {
-        "A": "It is kept by the person who performed the work for two years",
-        "B": "It is placed on board the aircraft as specified in § 91.417",
-        "C": "It is sent to the fuel tank manufacturer",
-        "D": "It is posted in the cockpit next to the fuel selector"
+        "A": "Fuel tanks installed in the wings",
+        "B": "Extended-range fuel tanks installed within the passenger compartment or a baggage compartment",
+        "C": "Any fuel tank replaced with an identical tank",
+        "D": "Cabin-mounted medical oxygen bottles"
       },
       "answer": "B",
-      "explanation": "A completed copy shall be \"Placed on board the aircraft as specified in § 91.417 of this chapter\", given to the owner, and forwarded to the FAA Aircraft Registration Branch.",
+      "explanation": "Appendix B(d) applies \"For extended-range fuel tanks installed within the passenger compartment or a baggage compartment\", and requires FAA Form 337 \"in at least triplicate.\"",
       "source": {
         "title": "eCFR: 14 CFR Part 43, Appendix B—Recording of Major Repairs and Major Alterations (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"

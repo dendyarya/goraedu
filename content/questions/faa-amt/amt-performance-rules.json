@@ -8,15 +8,15 @@
     {
       "id": "vf-001",
       "topic": "General performance rules",
-      "question": "Under 43.13(a), which methods, techniques, and practices must a person performing maintenance, alteration, or preventive maintenance on an aircraft use?",
+      "question": "Under 43.13(a), which tools, equipment, and test apparatus must a person performing maintenance, alteration, or preventive maintenance use?",
       "options": {
-        "A": "Only those the person has learned through field experience, as long as the owner agrees",
-        "B": "Those prescribed in the current manufacturer's maintenance manual or Instructions for Continued Airworthiness prepared by its manufacturer, or other methods, techniques, and practices acceptable to the Administrator",
-        "C": "Only those written in the pilot's operating handbook carried in the aircraft",
-        "D": "Any methods the aircraft owner selects and records in the aircraft records"
+        "A": "Only tools the aircraft owner supplies",
+        "B": "Those necessary to assure completion of the work in accordance with accepted industry practices",
+        "C": "Only tools the FAA has calibrated",
+        "D": "Only the tools listed in the pilot's operating handbook"
       },
       "answer": "B",
-      "explanation": "43.13(a) requires \"the methods, techniques, and practices prescribed in the current manufacturer's maintenance manual or Instructions for Continued Airworthiness prepared by its manufacturer, or other methods, techniques, and practices acceptable to the Administrator, except as noted in § 43.16.\"",
+      "explanation": "43.13(a) says: \"That person shall use the tools, equipment, and test apparatus necessary to assure completion of the work in accordance with accepted industry practices.\"",
       "source": {
         "title": "eCFR: 14 CFR 43.13, Performance rules (general) (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.13"
@@ -44,15 +44,15 @@
     {
       "id": "vf-003",
       "topic": "General performance rules",
-      "question": "Under 43.13(b), what condition must the aircraft, airframe, engine, propeller, or appliance worked on be left in?",
+      "question": "43.13(b) requires work and materials that leave the item at least equal to its original or properly altered condition. With regard to which qualities?",
       "options": {
-        "A": "At least equal to its original or properly altered condition",
-        "B": "Equal to its condition at the last annual inspection",
-        "C": "Acceptable to the owner for the next flight",
-        "D": "Equal to the condition of other aircraft of the same model in the owner's fleet"
+        "A": "Aerodynamic function, structural strength, resistance to vibration and deterioration, and other qualities affecting airworthiness",
+        "B": "Paint finish, interior trim, and overall appearance",
+        "C": "Resale value and the owner's preferences",
+        "D": "Fuel economy and cabin noise only"
       },
       "answer": "A",
-      "explanation": "The work and materials must be such \"that the condition of the aircraft, airframe, aircraft engine, propeller, or appliance worked on will be at least equal to its original or properly altered condition\" with regard to \"aerodynamic function, structural strength, resistance to vibration and deterioration, and other qualities affecting airworthiness\".",
+      "explanation": "43.13(b) measures the condition \"(with regard to aerodynamic function, structural strength, resistance to vibration and deterioration, and other qualities affecting airworthiness).\"",
       "source": {
         "title": "eCFR: 14 CFR 43.13, Performance rules (general) (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.13"
@@ -134,15 +134,15 @@
     {
       "id": "vf-008",
       "topic": "Annual and 100-hour inspections",
-      "question": "A mechanic wants to use a checklist of the mechanic's own design during a 100-hour inspection. What does 43.15(c)(1) say?",
+      "question": "Before approving a reciprocating-engine-powered aircraft for return to service after a 100-hour inspection, the person runs the engine under 43.15(c)(2). Which pressures does that run check against the manufacturer's recommendations?",
       "options": {
-        "A": "Only a checklist provided by the manufacturer may be used",
-        "B": "No checklist is needed when the mechanic holds both airframe and powerplant ratings",
-        "C": "It may be used, and the checklist must include the scope and detail of the items contained in appendix D to part 43 and paragraph (b) of 43.15",
-        "D": "It may be used only after the aircraft owner signs it"
+        "A": "Hydraulic and brake pressure",
+        "B": "Tire and landing gear strut pressure",
+        "C": "Fuel and oil pressure",
+        "D": "Cabin and pitot-static pressure"
       },
       "answer": "C",
-      "explanation": "\"The checklist may be of the person's own design, one provided by the manufacturer of the equipment being inspected or one obtained from another source. This checklist must include the scope and detail of the items contained in appendix D to this part and paragraph (b) of this section.\"",
+      "explanation": "The person must \"run the aircraft engine or engines to determine satisfactory performance in accordance with the manufacturer's recommendations of\" items that include \"Fuel and oil pressure\".",
       "source": {
         "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
