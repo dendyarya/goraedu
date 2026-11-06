@@ -1,0 +1,545 @@
+{
+  "cluster": "faa-amt",
+  "slug": "amt-major-repairs-preventive",
+  "href": "/faa-amt/amt-major-repairs-preventive/study-guide/",
+  "title": "Aviation mechanic major alterations, major repairs and preventive maintenance study guide",
+  "description": "Study guide to 14 CFR Part 43 Appendix A: when alterations and repairs are major, and the limits and conditions on preventive maintenance work.",
+  "intro": "Appendix A to 14 CFR Part 43 sets out major alterations, major repairs and preventive maintenance. 43.3(a) says the items whose performance is a major alteration, a major repair, or preventive maintenance are listed in appendix A. This guide sets out the conditions the appendix attaches to each list (for example \"when not listed in the aircraft specifications issued by the FAA\" and \"provided it does not involve complex assembly operations\") and the qualifiers in individual items. It does not reproduce the full lists. For context it also quotes 43.1(d) on light-sport aircraft and the preventive maintenance permissions for pilots in 43.3(g) and (h). goraedu does not train, test or certificate mechanics, and this is not an FAA test. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "how-used",
+      "name": "How Part 43 uses Appendix A",
+      "points": [
+        {
+          "text": "43.3(a) says the items whose performance is a major alteration, a major repair, or preventive maintenance are listed in appendix A.",
+          "quote": "Those items, the performance of which is a major alteration, a major repair, or preventive maintenance, are listed in appendix A.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Appendix A to Part 43 is titled Major Alterations, Major Repairs, and Preventive Maintenance.",
+          "quote": "Appendix A to Part 43—Major Alterations, Major Repairs, and Preventive Maintenance",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Part 43 applies to aircraft issued a special airworthiness certificate in the light-sport category, with exceptions listed in 43.1(d).",
+          "quote": "This part applies to any aircraft issued a special airworthiness certificate in the light-sport category except:",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "One of those exceptions: the listing of major alterations and major repairs in paragraphs (a) and (b) of appendix A does not apply to products not produced under an FAA approval.",
+          "quote": "The listing of major alterations and major repairs specified in paragraphs (a) and (b) of appendix A of this part is not applicable to products not produced under an FAA approval.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.1, Applicability (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.1"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For context on who may do preventive maintenance: except for holders of a sport pilot certificate, the holder of a pilot certificate issued under part 61 may perform preventive maintenance on any aircraft owned or operated by that pilot which is not used under part 121, 129, or 135.",
+          "quote": "Except for holders of a sport pilot certificate, the holder of a pilot certificate issued under part 61 may perform preventive maintenance on any aircraft owned or operated by that pilot which is not used under part 121, 129, or 135 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The holder of a sport pilot certificate may perform preventive maintenance on an aircraft owned or operated by that pilot and issued a special airworthiness certificate in the light-sport category.",
+          "quote": "The holder of a sport pilot certificate may perform preventive maintenance on an aircraft owned or operated by that pilot and issued a special airworthiness certificate in the light-sport category.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "43.3(h) says the items of preventive maintenance authorized by that section are those listed in paragraph (c) of appendix A.",
+          "quote": "The items of preventive maintenance authorized by this section are those listed in paragraph (c) of appendix A of this part.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The other rules in 43.3 on who may perform maintenance, and how work is approved for return to service and recorded, are covered in other goraedu study guides, not here."
+    },
+    {
+      "id": "airframe-powerplant-alterations",
+      "name": "Airframe and powerplant major alterations",
+      "points": [
+        {
+          "text": "Alterations of the parts and types listed in (a)(1) are airframe major alterations when they are not listed in the aircraft specifications issued by the FAA.",
+          "quote": "Alterations of the following parts and alterations of the following types, when not listed in the aircraft specifications issued by the FAA, are airframe major alterations:",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Changes to the empty weight or empty balance are listed when they result in an increase in the maximum certificated weight or center of gravity limits of the aircraft.",
+          "quote": "Changes to the empty weight or empty balance which result in an increase in the maximum certificated weight or center of gravity limits of the aircraft.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Changes to the basic design of the fuel, oil, cooling, heating, cabin pressurization, electrical, hydraulic, de-icing, or exhaust systems are listed.",
+          "quote": "Changes to the basic design of the fuel, oil, cooling, heating, cabin pressurization, electrical, hydraulic, de-icing, or exhaust systems.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Changes to the wing or to fixed or movable control surfaces are listed when they affect flutter and vibration characteristics.",
+          "quote": "Changes to the wing or to fixed or movable control surfaces which affect flutter and vibration characteristics.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The alterations of a powerplant listed in (a)(2) are powerplant major alterations when not listed in the engine specifications issued by the FAA.",
+          "quote": "The following alterations of a powerplant when not listed in the engine specifications issued by the FAA, are powerplant major alterations.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Converting an engine from one approved model to another is listed when it involves any changes in compression ratio, propeller reduction gear, impeller gear ratios or the substitution of major engine parts which requires extensive rework and testing of the engine.",
+          "quote": "Conversion of an aircraft engine from one approved model to another, involving any changes in compression ratio, propeller reduction gear, impeller gear ratios or the substitution of major engine parts which requires extensive rework and testing of the engine.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Replacing engine structural parts is listed when the parts are not supplied by the original manufacturer or not specifically approved by the Administrator.",
+          "quote": "Changes to the engine by replacing aircraft engine structural parts with parts not supplied by the original manufacturer or parts not specifically approved by the Administrator.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Removing accessories is listed when they are listed as required equipment on the aircraft or engine specification.",
+          "quote": "Removal of accessories that are listed as required equipment on the aircraft or engine specification.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Conversions of any sort for the purpose of using fuel of a rating or grade other than that listed in the engine specifications are listed.",
+          "quote": "Conversions of any sort for the purpose of using fuel of a rating or grade other than that listed in the engine specifications.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The full lists of parts in (a)(1) are not reproduced here; read them in the appendix."
+    },
+    {
+      "id": "propeller-appliance-alterations",
+      "name": "Propeller and appliance major alterations",
+      "points": [
+        {
+          "text": "The alterations of a propeller listed in (a)(3) are propeller major alterations when not authorized in the propeller specifications issued by the FAA.",
+          "quote": "The following alterations of a propeller when not authorized in the propeller specifications issued by the FAA are propeller major alterations:",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The list includes the installation of parts not approved for the propeller.",
+          "quote": "Installation of parts not approved for the propeller.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Alterations of an appliance's basic design are appliance major alterations when not made in accordance with recommendations of the appliance manufacturer or in accordance with an FAA Airworthiness Directive.",
+          "quote": "Alterations of the basic design not made in accordance with recommendations of the appliance manufacturer or in accordance with an FAA Airworthiness Directive are appliance major alterations.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For radio communication and navigation equipment approved under type certification or a Technical Standard Order, design changes that have an effect on frequency stability, noise level, sensitivity, selectivity, distortion, spurious radiation, AVC characteristics, or ability to meet environmental test conditions, and other changes that have an effect on the performance of the equipment, are also major alterations.",
+          "quote": "communication and navigation equipment approved under type certification or a Technical Standard Order that have an effect on frequency stability, noise level, sensitivity, selectivity, distortion, spurious radiation, AVC characteristics, or ability to meet environmental test conditions and other changes that have an effect on the performance of the equipment are also major alterations.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The full list of propeller major alterations in (a)(3) is not reproduced here."
+    },
+    {
+      "id": "airframe-major-repairs",
+      "name": "Airframe major repairs",
+      "points": [
+        {
+          "text": "Repairs to the parts and of the types listed in (b)(1) are airframe major repairs when they involve the strengthening, reinforcing, splicing, and manufacturing of primary structural members or their replacement, when replacement is by fabrication such as riveting or welding.",
+          "quote": "Repairs to the following parts of an airframe and repairs of the following types, involving the strengthening, reinforcing, splicing, and manufacturing of primary structural members or their replacement, when replacement is by fabrication such as riveting or welding, are airframe major repairs.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The repair of damaged areas in metal or plywood stressed covering is listed when the area exceeds six inches in any direction.",
+          "quote": "The repair of damaged areas in metal or plywood stressed covering exceeding six inches in any direction.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The repair of three or more adjacent wing or control surface ribs, or of the leading edge of wings and control surfaces between such adjacent ribs, is listed.",
+          "quote": "The repair of three or more adjacent wing or control surface ribs or the leading edge of wings and control surfaces, between such adjacent ribs.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Repair of fabric covering is listed when it involves an area greater than that required to repair two adjacent ribs.",
+          "quote": "Repair of fabric covering involving an area greater than that required to repair two adjacent ribs.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Repairing, including rebottoming, of removable or integral fuel tanks and oil tanks is listed.",
+          "quote": "Repairing, including rebottoming, of removable or integral fuel tanks and oil tanks.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The full list of airframe parts in (b)(1) is not reproduced here."
+    },
+    {
+      "id": "other-major-repairs",
+      "name": "Powerplant, propeller and appliance major repairs",
+      "points": [
+        {
+          "text": "Repairs of the parts of an engine and of the types listed in (b)(2) are powerplant major repairs.",
+          "quote": "Repairs of the following parts of an engine and repairs of the following types, are powerplant major repairs:",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Separation or disassembly of a crankcase or crankshaft is listed for a reciprocating engine equipped with an integral supercharger.",
+          "quote": "Separation or disassembly of a crankcase or crankshaft of a reciprocating engine equipped with an integral supercharger.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The same work is listed for a reciprocating engine equipped with other than spur-type propeller reduction gearing.",
+          "quote": "Separation or disassembly of a crankcase or crankshaft of a reciprocating engine equipped with other than spur-type propeller reduction gearing.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Repairs of the types listed in (b)(3) to a propeller are propeller major repairs.",
+          "quote": "Repairs of the following types to a propeller are propeller major repairs:",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For steel blades, any repairs to, or straightening of, the blades are listed.",
+          "quote": "Any repairs to, or straightening of steel blades.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Repairs of the types listed in (b)(4) to appliances are appliance major repairs.",
+          "quote": "Repairs of the following types to appliances are appliance major repairs:",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For complex hydraulic power valves, the listed work is complete disassembly.",
+          "quote": "Complete disassembly of complex hydraulic power valves.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Overhaul of pressure type carburetors, and pressure type fuel, oil and hydraulic pumps is listed.",
+          "quote": "Overhaul of pressure type carburetors, and pressure type fuel, oil and hydraulic pumps.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The full lists in (b)(2) to (b)(4) are not reproduced here."
+    },
+    {
+      "id": "pm-limits",
+      "name": "Preventive maintenance: the limit and item conditions",
+      "points": [
+        {
+          "text": "Preventive maintenance is limited to the work listed in paragraph (c), provided it does not involve complex assembly operations.",
+          "quote": "Preventive maintenance is limited to the following work, provided it does not involve complex assembly operations:",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Lubrication is listed when it does not require disassembly other than removal of nonstructural items such as cover plates, cowlings, and fairings.",
+          "quote": "Lubrication not requiring disassembly other than removal of nonstructural items such as cover plates, cowlings, and fairings.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Making simple fabric patches is listed when it does not require rib stitching or the removal of structural parts or control surfaces.",
+          "quote": "Making simple fabric patches not requiring rib stitching or the removal of structural parts or control surfaces.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Refinishing decorative coating is listed for the surfaces the item names, excluding balanced control surfaces, when removal or disassembly of any primary structure or operating system is not required.",
+          "quote": "Refinishing decorative coating of fuselage, balloon baskets, wings tail group surfaces (excluding balanced control surfaces), fairings, cowlings, landing gear, cabin, or cockpit interior when removal or disassembly of any primary structure or operating system is not required.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Applying preservative or protective material to components is listed where no disassembly of any primary structure or operating system is involved and where such coating is not prohibited or is not contrary to good practices.",
+          "quote": "Applying preservative or protective material to components where no disassembly of any primary structure or operating system is involved and where such coating is not prohibited or is not contrary to good practices.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Replacing side windows is listed where that work does not interfere with the structure or any operating system such as controls, electrical equipment, etc.",
+          "quote": "Replacing side windows where that work does not interfere with the structure or any operating system such as controls, electrical equipment, etc.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Replacing seats or seat parts is listed with replacement parts approved for the aircraft, not involving disassembly of any primary structure or operating system.",
+          "quote": "Replacing seats or seat parts with replacement parts approved for the aircraft, not involving disassembly of any primary structure or operating system.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Replacing wheels and skis is listed where no weight and balance computation is involved.",
+          "quote": "Replacing wheels and skis where no weight and balance computation is involved.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Replacing any cowling is listed when it does not require removal of the propeller or disconnection of flight controls.",
+          "quote": "Replacing any cowling not requiring removal of the propeller or disconnection of flight controls.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Replacing any hose connection is listed, except hydraulic connections.",
+          "quote": "Replacing any hose connection except hydraulic connections.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Installing anti-misfueling devices to reduce the diameter of fuel tank filler openings is listed only if the specific device has been made part of the aircraft type certificate data by the aircraft manufacturer, the manufacturer has provided FAA-approved instructions for installing it, and installation does not involve disassembly of the existing tank filler opening. (The eCFR text spells it \"certificiate\".)",
+          "quote": "The installations of anti-misfueling devices to reduce the diameter of fuel tank filler openings provided the specific device has been made a part of the aircraft type certificiate data by the aircraft manufacturer, the aircraft manufacturer has provided FAA-approved instructions for installation of the specific device, and installation does not involve the disassembly of the existing tank filler opening.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The complete preventive maintenance list in paragraph (c) is not reproduced here; only items with conditions are summarized."
+    },
+    {
+      "id": "pm-special",
+      "name": "Preventive maintenance: balloons, primary category and avionics",
+      "points": [
+        {
+          "text": "For balloons, small fabric repairs to envelopes are listed (as defined in, and in accordance with, the balloon manufacturers' instructions) when they do not require load tape repair or replacement.",
+          "quote": "In the case of balloons, the making of small fabric repairs to envelopes (as defined in, and in accordance with, the balloon manufacturers' instructions) not requiring load tape repair or replacement.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Cleaning of balloon burner pilot and main nozzles is listed when done in accordance with the balloon manufacturer's instructions.",
+          "quote": "Cleaning of balloon burner pilot and main nozzles in accordance with the balloon manufacturer's instructions.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Interchanging balloon baskets and burners on envelopes is listed when the basket or burner is designated as interchangeable in the balloon type certificate data and the baskets and burners are specifically designed for quick removal and installation.",
+          "quote": "The interchange of balloon baskets and burners on envelopes when the basket or burner is designated as interchangeable in the balloon type certificate data and the baskets and burners are specifically designed for quick removal and installation.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Item (c)(30) covers inspection and maintenance tasks prescribed and specifically identified as preventive maintenance in a primary category aircraft type certificate or supplemental type certificate holder's approved special inspection and preventive maintenance program, when accomplished on a primary category aircraft, under the conditions that follow.",
+          "quote": "The inspection and maintenance tasks prescribed and specifically identified as preventive maintenance in a primary category aircraft type certificate or supplemental type certificate holder's approved special inspection and preventive maintenance program when accomplished on a primary category aircraft provided:",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "They must be performed by the holder of at least a private pilot certificate issued under part 61 who is the registered owner (including co-owners) of the affected aircraft and who holds a certificate of competency for the affected aircraft.",
+          "quote": "They are performed by the holder of at least a private pilot certificate issued under part 61 of this chapter who is the registered owner (including co-owners) of the affected aircraft and who holds a certificate of competency for the affected aircraft",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "That certificate of competency is issued by one of the options: the production certificate holder for that primary category aircraft that has a special training program approved under § 21.24, or another entity that has a course approved by the Administrator.",
+          "quote": "issued by the holder of the production certificate for that primary category aircraft that has a special training program approved under § 21.24 of this subchapter; or (2) issued by another entity that has a course approved by the Administrator; and",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The tasks must be performed in accordance with instructions contained by the special inspection and preventive maintenance program approved as part of the aircraft's type design or supplemental type design.",
+          "quote": "The inspections and maintenance tasks are performed in accordance with instructions contained by the special inspection and preventive maintenance program approved as part of the aircraft's type design or supplemental type design.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Item (c)(31) covers removing and replacing self-contained, front instrument panel-mounted navigation and communication devices that employ tray-mounted connectors that connect the unit when it is installed, excluding automatic flight control systems, transponders, and microwave frequency distance measuring equipment (DME).",
+          "quote": "Removing and replacing self-contained, front instrument panel-mounted navigation and communication devices that employ tray-mounted connectors that connect the unit when the unit is installed into the instrument panel, (excluding automatic flight control systems, transponders, and microwave frequency distance measuring equipment (DME)).",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The approved unit must be designed to be readily and repeatedly removed and replaced, and pertinent instructions must be provided.",
+          "quote": "The approved unit must be designed to be readily and repeatedly removed and replaced, and pertinent instructions must be provided.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Prior to the unit's intended use, an operational check must be performed in accordance with the applicable sections of part 91. (The eCFR text reads \"and operational check\".)",
+          "quote": "Prior to the unit's intended use, and operational check must be performed in accordance with the applicable sections of part 91 of this chapter.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix A—Major Alterations, Major Repairs, and Preventive Maintenance (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The approval rules in § 21.24 and the operational check requirements in part 91 are named by the appendix but are not set out here."
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "cluster": "faa-amt",
+  "slug": "amt-maintenance-records",
+  "title": "Aviation mechanic maintenance and inspection records practice questions",
+  "description": "Practice questions on 14 CFR Part 43 records: overhauled and rebuilt, 43.9 and 43.11 entries, life-limited parts and FAA Form 337.",
+  "href": "/faa-amt/amt-maintenance-records/practice-test/",
+  "questions": [
+    {
+      "id": "ve-001",
+      "topic": "Overhauled and rebuilt descriptions",
+      "question": "Under 43.2(a)(1), what must have been done to a component part, using methods, techniques, and practices acceptable to the Administrator, before a required maintenance entry may describe it as overhauled?",
+      "options": {
+        "A": "It has been inspected and functionally checked while installed",
+        "B": "It has been disassembled, cleaned, inspected, repaired as necessary, and reassembled",
+        "C": "It has been fitted with new parts only and run for a set break-in period",
+        "D": "It has been cleaned and visually inspected for damage"
+      },
+      "answer": "B",
+      "explanation": "43.2(a)(1) requires that \"Using methods, techniques, and practices acceptable to the Administrator, it has been disassembled, cleaned, inspected, repaired as necessary, and reassembled\"; it must also have been tested under 43.2(a)(2).",
+      "source": {
+        "title": "eCFR: 14 CFR 43.2, Records of overhaul and rebuilding (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Using methods, techniques, and practices acceptable to the Administrator, it has been disassembled, cleaned, inspected, repaired as necessary, and reassembled"
+    },
+    {
+      "id": "ve-002",
+      "topic": "Overhauled and rebuilt descriptions",
+      "question": "A shop wants to describe an engine as \"rebuilt\" in a required maintenance entry. To what does 43.2(b) say the engine must have been tested?",
+      "options": {
+        "A": "The service limits in the current maintenance manual",
+        "B": "Limits agreed between the shop and the aircraft owner",
+        "C": "The limits in the most recent airworthiness directive",
+        "D": "The same tolerances and limits as a new item"
+      },
+      "answer": "D",
+      "explanation": "An item may be described as rebuilt only if it has been \"disassembled, cleaned, inspected, repaired as necessary, reassembled, and tested to the same tolerances and limits as a new item\".",
+      "source": {
+        "title": "eCFR: 14 CFR 43.2, Records of overhaul and rebuilding (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "reassembled, and tested to the same tolerances and limits as a new item"
+    },
+    {
+      "id": "ve-003",
+      "topic": "Overhauled and rebuilt descriptions",
+      "question": "Which parts does 43.2(b) allow in an item described as rebuilt?",
+      "options": {
+        "A": "New parts, or used parts that conform to new part tolerances and limits or to approved oversized or undersized dimensions",
+        "B": "New parts only",
+        "C": "Used parts that are within the manufacturer's service limits",
+        "D": "Any parts the person approving the work considers serviceable"
+      },
+      "answer": "A",
+      "explanation": "43.2(b) requires the work to be done \"using either new parts or used parts that either conform to new part tolerances and limits or to approved oversized or undersized dimensions.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 43.2, Records of overhaul and rebuilding (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.2"
+      },
+      "checked": "2026-11-06",
+      "evidence": "using either new parts or used parts that either conform to new part tolerances and limits or to approved oversized or undersized dimensions."
+    },
+    {
+      "id": "ve-004",
+      "topic": "Maintenance record entries",
+      "question": "Under 43.9(a)(1), the maintenance record entry describes the work performed. What does the rule accept in place of that description?",
+      "options": {
+        "A": "A reference to the aircraft's total time in service",
+        "B": "A copy of the owner's purchase order",
+        "C": "A reference to data acceptable to the Administrator",
+        "D": "The phrase \"work completed per owner request\""
+      },
+      "answer": "C",
+      "explanation": "43.9(a)(1) calls for \"A description (or reference to data acceptable to the Administrator) of work performed.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 43.9, Content, form, and disposition of maintenance, preventive maintenance, rebuilding, and alteration records (except inspections performed in accordance with part 91, part 125, § 135.411(a)(1), and § 135.419 of this chapter) (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.9"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A description (or reference to data acceptable to the Administrator) of work performed."
+    },
+    {
+      "id": "ve-005",
+      "topic": "Maintenance record entries",
+      "question": "A mechanic approves work that another person performed under the mechanic's supervision. Under 43.9(a)(3), whose name must the entry include besides the approving person's signature?",
+      "options": {
+        "A": "The name of the person who performed the work",
+        "B": "The name of the aircraft owner",
+        "C": "The name of the FAA inspector for the area",
+        "D": "The name of the parts supplier"
+      },
+      "answer": "A",
+      "explanation": "43.9(a)(3) requires \"The name of the person performing the work if other than the person specified in paragraph (a)(4) of this section\", which is the person approving the work.",
+      "source": {
+        "title": "eCFR: 14 CFR 43.9, Content, form, and disposition of maintenance, preventive maintenance, rebuilding, and alteration records (except inspections performed in accordance with part 91, part 125, § 135.411(a)(1), and § 135.419 of this chapter) (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.9"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The name of the person performing the work if other than the person specified in paragraph (a)(4) of this section."
+    },
+    {
+      "id": "ve-006",
+      "topic": "Maintenance record entries",
+      "question": "Under 43.9(a)(4), what does the signature of the person approving the work constitute?",
+      "options": {
+        "A": "Approval for return to service of the whole aircraft",
+        "B": "A certification that the aircraft is in airworthy condition",
+        "C": "The approval for return to service only for the work performed",
+        "D": "Acceptance of the work by the aircraft owner"
+      },
+      "answer": "C",
+      "explanation": "43.9(a)(4) states: \"The signature constitutes the approval for return to service only for the work performed.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 43.9, Content, form, and disposition of maintenance, preventive maintenance, rebuilding, and alteration records (except inspections performed in accordance with part 91, part 125, § 135.411(a)(1), and § 135.419 of this chapter) (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.9"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The signature constitutes the approval for return to service only for the work performed."
+    },
+    {
+      "id": "ve-007",
+      "topic": "Maintenance record entries",
+      "question": "Under 43.9(d), in addition to the 43.9(a) entry, who enters a major repair or major alteration on a form and disposes of the form in the manner prescribed in appendix B?",
+      "options": {
+        "A": "The aircraft owner",
+        "B": "The operator's chief pilot",
+        "C": "The FAA Aircraft Registration Branch",
+        "D": "The person performing the work"
+      },
+      "answer": "D",
+      "explanation": "43.9(d) says \"major repairs and major alterations shall be entered on a form, and the form disposed of, in the manner prescribed in appendix B, by the person performing the work.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 43.9, Content, form, and disposition of maintenance, preventive maintenance, rebuilding, and alteration records (except inspections performed in accordance with part 91, part 125, § 135.411(a)(1), and § 135.419 of this chapter) (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.9"
+      },
+      "checked": "2026-11-06",
+      "evidence": "major repairs and major alterations shall be entered on a form, and the form disposed of, in the manner prescribed in appendix B, by the person performing the work."
+    },
+    {
+      "id": "ve-008",
+      "topic": "Life-limited parts",
+      "question": "How does 43.10(a) define a life-limited part?",
+      "options": {
+        "A": "Any part that has been installed for more than half of its expected service life",
+        "B": "Any part for which a mandatory replacement limit is specified in the type design, the Instructions for Continued Airworthiness, or the maintenance manual",
+        "C": "Any part listed in an airworthiness directive",
+        "D": "Any part that the owner chooses to track by hours or cycles"
+      },
+      "answer": "B",
+      "explanation": "\"Life-limited part means any part for which a mandatory replacement limit is specified in the type design, the Instructions for Continued Airworthiness, or the maintenance manual.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 43.10, Disposition of life-limited aircraft parts (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.10"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Life-limited part means any part for which a mandatory replacement limit is specified in the type design, the Instructions for Continued Airworthiness, or the maintenance manual."
+    },
+    {
+      "id": "ve-009",
+      "topic": "Life-limited parts",
+      "question": "A life-limited part is temporarily removed and reinstalled to perform maintenance. Its life status has not changed, and the product does not accumulate time in service while it is removed. Under 43.10(b), what further condition must be met for no 43.10(c) disposition to be required?",
+      "options": {
+        "A": "The part is reinstalled by the same person who removed it",
+        "B": "The removal and reinstallation is performed on the same serial numbered product",
+        "C": "The part is reinstalled on the same calendar day",
+        "D": "The removal is reported on FAA Form 337"
+      },
+      "answer": "B",
+      "explanation": "No disposition is required if the life status has not changed, \"The removal and reinstallation is performed on the same serial numbered product\", and the product \"does not accumulate time in service while the part is removed.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 43.10, Disposition of life-limited aircraft parts (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.10"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The removal and reinstallation is performed on the same serial numbered product; and"
+    },
+    {
+      "id": "ve-010",
+      "topic": "Life-limited parts",
+      "question": "If a removed life-limited part is controlled by mutilation under 43.10(c)(6), what must the mutilation do?",
+      "options": {
+        "A": "Render the part beyond repair and incapable of being reworked to appear to be airworthy",
+        "B": "Remove the part number so it cannot be traced",
+        "C": "Mark the part with its current life status",
+        "D": "Reduce the part to a size that fits a scrap bin"
+      },
+      "answer": "A",
+      "explanation": "43.10(c)(6) states: \"The mutilation must render the part beyond repair and incapable of being reworked to appear to be airworthy.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 43.10, Disposition of life-limited aircraft parts (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.10"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The mutilation must render the part beyond repair and incapable of being reworked to appear to be airworthy."
+    },
+    {
+      "id": "ve-011",
+      "topic": "Life-limited parts",
+      "question": "A person removes a life-limited part from a type certificated product and later sells it without mutilating it. What does 43.10(d) require to go with the part?",
+      "options": {
+        "A": "A new FAA Form 337",
+        "B": "A copy of the selling person's mechanic certificate",
+        "C": "Only the sales invoice",
+        "D": "The mark, tag, or other record used to comply with 43.10"
+      },
+      "answer": "D",
+      "explanation": "The person \"must transfer with the part the mark, tag, or other record used to comply with this section, unless the part is mutilated before it is sold or transferred.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 43.10, Disposition of life-limited aircraft parts (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.10"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must transfer with the part the mark, tag, or other record used to comply with this section, unless the part is mutilated before it is sold or transferred."
+    },
+    {
+      "id": "ve-012",
+      "topic": "Inspection record entries",
+      "question": "Besides the type of inspection and a brief description of its extent, what does 43.11(a)(2) require an inspection entry to contain?",
+      "options": {
+        "A": "The date of the inspection and the time remaining until the next inspection",
+        "B": "The names of everyone who assisted with the inspection",
+        "C": "The date of the inspection and aircraft total time in service",
+        "D": "The engine time since its last overhaul"
+      },
+      "answer": "C",
+      "explanation": "43.11(a)(2) requires \"The date of the inspection and aircraft total time in service.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 43.11, Content, form, and disposition of records for inspections conducted under parts 91 and 125 and §§ 135.411(a)(1) and 135.419 of this chapter (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.11"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The date of the inspection and aircraft total time in service."
+    },
+    {
+      "id": "ve-013",
+      "topic": "Inspection record entries",
+      "question": "After an inspection that is not a progressive inspection, an aircraft is not approved for return to service because of needed maintenance. Under 43.11(a)(5), the entry's statement says a dated list of discrepancies and unairworthy items has been provided for whom?",
+      "options": {
+        "A": "The local FAA office",
+        "B": "The next mechanic who works on the aircraft",
+        "C": "The aircraft owner or operator",
+        "D": "The aircraft manufacturer"
+      },
+      "answer": "C",
+      "explanation": "The statement ends: \"a list of discrepancies and unairworthy items dated (date) has been provided for the aircraft owner or operator.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 43.11, Content, form, and disposition of records for inspections conducted under parts 91 and 125 and §§ 135.411(a)(1) and 135.419 of this chapter (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.11"
+      },
+      "checked": "2026-11-06",
+      "evidence": "a list of discrepancies and unairworthy items dated (date) has been provided for the aircraft owner or operator."
+    },
+    {
+      "id": "ve-014",
+      "topic": "Inspection record entries",
+      "question": "If an inspection is conducted under an inspection program provided for in part 91, 125, or § 135.411(a)(1), what must the 43.11(a)(7) entry identify?",
+      "options": {
+        "A": "The inspection program and that part of the inspection program accomplished",
+        "B": "The inspector's employer and the hourly rate charged",
+        "C": "Only the date the program was first approved",
+        "D": "The aircraft's next scheduled annual inspection date"
+      },
+      "answer": "A",
+      "explanation": "The entry \"must identify the inspection program, that part of the inspection program accomplished, and contain a statement that the inspection was performed in accordance with the inspections and procedures for that particular program.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 43.11, Content, form, and disposition of records for inspections conducted under parts 91 and 125 and §§ 135.411(a)(1) and 135.419 of this chapter (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.11"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the entry must identify the inspection program, that part of the inspection program accomplished, and contain a statement that the inspection was performed in accordance with the inspections and procedures for that particular program."
+    },
+    {
+      "id": "ve-015",
+      "topic": "Discrepancy lists and placards",
+      "question": "During an inspection required by part 91, the person performing it finds the aircraft unairworthy. Under 43.11(b), what must that person give the owner or lessee?",
+      "options": {
+        "A": "A completed FAA Form 337",
+        "B": "A signed and dated list of those discrepancies",
+        "C": "A maintenance release",
+        "D": "A copy of the aircraft's type certificate data sheet"
+      },
+      "answer": "B",
+      "explanation": "The person \"must give the owner or lessee a signed and dated list of those discrepancies.\"",
+      "source": {
+        "title": "eCFR: 14 CFR 43.11, Content, form, and disposition of records for inspections conducted under parts 91 and 125 and §§ 135.411(a)(1) and 135.419 of this chapter (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.11"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must give the owner or lessee a signed and dated list of those discrepancies."
+    },
+    {
+      "id": "ve-016",
+      "topic": "Discrepancy lists and placards",
+      "question": "For items permitted to be inoperative under § 91.213(d)(2), where does 43.11(b) say the person performing the inspection places a placard marking it \"Inoperative\"?",
+      "options": {
+        "A": "Only on the aircraft's entry door",
+        "B": "On the cover of the aircraft maintenance record",
+        "C": "Next to the aircraft's airworthiness certificate",
+        "D": "On each inoperative instrument and the cockpit control of each item of inoperative equipment"
+      },
+      "answer": "D",
+      "explanation": "That person \"shall place a placard, that meets the aircraft's airworthiness certification regulations, on each inoperative instrument and the cockpit control of each item of inoperative equipment\".",
+      "source": {
+        "title": "eCFR: 14 CFR 43.11, Content, form, and disposition of records for inspections conducted under parts 91 and 125 and §§ 135.411(a)(1) and 135.419 of this chapter (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.11"
+      },
+      "checked": "2026-11-06",
+      "evidence": "on each inoperative instrument and the cockpit control of each item of inoperative equipment"
+    },
+    {
+      "id": "ve-017",
+      "topic": "FAA Form 337 and Appendix B",
+      "question": "Under Appendix B(a)(3) to Part 43, where is a copy of the FAA Form 337 forwarded, and by when?",
+      "options": {
+        "A": "To the FAA Aircraft Registration Branch in Oklahoma City, Oklahoma, within 48 hours after the item is approved for return to service",
+        "B": "To the aircraft manufacturer, within 48 hours after the work begins",
+        "C": "To the nearest FAA office, before the next flight",
+        "D": "To the aircraft's insurer, within 30 days after the work is completed"
+      },
+      "answer": "A",
+      "explanation": "The person shall \"Forward a copy of that form to the FAA Aircraft Registration Branch in Oklahoma City, Oklahoma, within 48 hours after the aircraft, airframe, aircraft engine, propeller, or appliance is approved for return to service.\"",
+      "source": {
+        "title": "eCFR: 14 CFR Part 43, Appendix B—Recording of Major Repairs and Major Alterations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Forward a copy of that form to the FAA Aircraft Registration Branch in Oklahoma City, Oklahoma, within 48 hours after the aircraft, airframe, aircraft engine, propeller, or appliance is approved for return to service."
+    },
+    {
+      "id": "ve-018",
+      "topic": "FAA Form 337 and Appendix B",
+      "question": "A certificated repair station uses the customer's work order for a major repair under Appendix B(b). What retention period does Appendix B(b)(2) set for its duplicate copy of the work order?",
+      "options": {
+        "A": "30 days from the date of the repair",
+        "B": "90 days from the date of approval for return to service",
+        "C": "One year from the date of approval for return to service",
+        "D": "At least two years from the date of approval for return to service"
+      },
+      "answer": "D",
+      "explanation": "The repair station must \"retain a duplicate copy for at least two years from the date of approval for return to service\".",
+      "source": {
+        "title": "eCFR: 14 CFR Part 43, Appendix B—Recording of Major Repairs and Major Alterations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+      },
+      "checked": "2026-11-06",
+      "evidence": "retain a duplicate copy for at least two years from the date of approval for return to service"
+    },
+    {
+      "id": "ve-019",
+      "topic": "FAA Form 337 and Appendix B",
+      "question": "Under Appendix B(c), for a major repair or major alteration made by a person authorized in § 43.17, who executes the FAA Form 337?",
+      "options": {
+        "A": "Only the aircraft owner",
+        "B": "Only a certificated repair station",
+        "C": "The person who performs the work and the person authorized by § 43.17 to approve that work",
+        "D": "The FAA Aircraft Registration Branch"
+      },
+      "answer": "C",
+      "explanation": "\"the person who performs the major repair or major alteration and the person authorized by § 43.17 to approve that work shall execute an FAA Form 337 at least in duplicate.\"",
+      "source": {
+        "title": "eCFR: 14 CFR Part 43, Appendix B—Recording of Major Repairs and Major Alterations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the person who performs the major repair or major alteration and the person authorized by § 43.17 to approve that work shall execute an FAA Form 337 at least in duplicate."
+    },
+    {
+      "id": "ve-020",
+      "topic": "FAA Form 337 and Appendix B",
+      "question": "For an extended-range fuel tank installed within the passenger compartment, Appendix B(d) requires FAA Form 337 in at least triplicate. Besides giving a copy to the owner and forwarding one to the FAA, what is done with a completed copy?",
+      "options": {
+        "A": "It is kept by the person who performed the work for two years",
+        "B": "It is placed on board the aircraft as specified in § 91.417",
+        "C": "It is sent to the fuel tank manufacturer",
+        "D": "It is posted in the cockpit next to the fuel selector"
+      },
+      "answer": "B",
+      "explanation": "A completed copy shall be \"Placed on board the aircraft as specified in § 91.417 of this chapter\", given to the owner, and forwarded to the FAA Aircraft Registration Branch.",
+      "source": {
+        "title": "eCFR: 14 CFR Part 43, Appendix B—Recording of Major Repairs and Major Alterations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Placed on board the aircraft as specified in § 91.417 of this chapter;"
+    }
+  ]
+}

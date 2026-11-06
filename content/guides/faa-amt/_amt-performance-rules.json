@@ -1,0 +1,544 @@
+{
+  "cluster": "faa-amt",
+  "slug": "amt-performance-rules",
+  "href": "/faa-amt/amt-performance-rules/study-guide/",
+  "title": "Aviation mechanic performance and inspection rules study guide",
+  "description": "Study guide on 14 CFR 43.13–43.17 and Appendix D: performance rules, inspection checklists, engine runs, progressive inspections, Canadian persons.",
+  "intro": "14 CFR 43.13 through 43.17 set the FAA's performance rules for maintenance, preventive maintenance and alteration, the additional rules for inspections, the rule on Airworthiness Limitations sections and the rule for work on U.S. aeronautical products by certain Canadian persons. Appendix D to Part 43 sets the scope and detail of items to be included in annual and 100-hour inspections. This guide sets out what the federal rule text states on the methods, tools and materials to use, what an inspection must determine, the rotorcraft systems, the inspection checklist, the engine run before return to service, progressive inspections, and a selection of Appendix D items. Appendices E and F are not covered. goraedu does not train, test or certificate mechanics, and this is not an FAA test. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "general",
+      "name": "General performance rules",
+      "points": [
+        {
+          "text": "Each person performing maintenance, alteration, or preventive maintenance on an aircraft, engine, propeller, or appliance must use one of the options: the methods, techniques, and practices in the current manufacturer's maintenance manual or Instructions for Continued Airworthiness prepared by its manufacturer, or other methods, techniques, and practices acceptable to the Administrator. The rule adds \"except as noted in § 43.16\".",
+          "quote": "Each person performing maintenance, alteration, or preventive maintenance on an aircraft, engine, propeller, or appliance shall use the methods, techniques, and practices prescribed in the current manufacturer's maintenance manual or Instructions for Continued Airworthiness prepared by its manufacturer, or other methods, techniques, and practices acceptable to the Administrator, except as noted in § 43.16.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.13, Performance rules (general) (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.13"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "That person must use the tools, equipment, and test apparatus necessary to assure completion of the work in accordance with accepted industry practices.",
+          "quote": "That person shall use the tools, equipment, and test apparatus necessary to assure completion of the work in accordance with accepted industry practices.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.13, Performance rules (general) (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.13"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If the manufacturer involved recommends special equipment or test apparatus, the person must use that equipment or apparatus or its equivalent acceptable to the Administrator.",
+          "quote": "If special equipment or test apparatus is recommended by the manufacturer involved, that person must use that equipment or apparatus or its equivalent acceptable to the Administrator.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.13, Performance rules (general) (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.13"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each person maintaining, altering, or performing preventive maintenance must do the work in such a manner, and use materials of such a quality, that the condition of what was worked on will be at least equal to its original or properly altered condition.",
+          "quote": "Each person maintaining or altering, or performing preventive maintenance, shall do that work in such a manner and use materials of such a quality, that the condition of the aircraft, airframe, aircraft engine, propeller, or appliance worked on will be at least equal to its original or properly altered condition",
+          "source": {
+            "title": "eCFR: 14 CFR 43.13, Performance rules (general) (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.13"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The qualities named for that comparison are aerodynamic function, structural strength, resistance to vibration and deterioration, and other qualities affecting airworthiness.",
+          "quote": "(with regard to aerodynamic function, structural strength, resistance to vibration and deterioration, and other qualities affecting airworthiness)",
+          "source": {
+            "title": "eCFR: 14 CFR 43.13, Performance rules (general) (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.13"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Unless otherwise notified by the Administrator, the methods, techniques, and practices in the maintenance manual (or the maintenance part of the manual) of the holder of an air carrier operating certificate or an operating certificate under part 121 or 135, and of part 129 operators holding operations specifications as described, constitute acceptable means of compliance with 43.13.",
+          "quote": "Unless otherwise notified by the Administrator, the methods, techniques, and practices contained in the maintenance manual or the maintenance part of the manual of the holder of an air carrier operating certificate or an operating certificate under part 121 or 135 of this chapter and operators under part 129 of this chapter holding operations specifications (that is required by its operating specifications to provide a continuous airworthiness maintenance and inspection program) constitute acceptable means of compliance with this section.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.13, Performance rules (general) (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.13"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": [
+        "The contents of manufacturers' maintenance manuals, Instructions for Continued Airworthiness and accepted industry practices that 43.13 refers to are not described here."
+      ]
+    },
+    {
+      "id": "inspection-rules",
+      "name": "Inspection rules and rotorcraft",
+      "points": [
+        {
+          "text": "Each person performing an inspection required by part 91, 125, or 135 must perform it so as to determine whether the aircraft, or the portion(s) under inspection, meets all applicable airworthiness requirements.",
+          "quote": "Each person performing an inspection required by part 91, 125, or 135 of this chapter, shall—(1) Perform the inspection so as to determine whether the aircraft, or portion(s) thereof under inspection, meets all applicable airworthiness requirements; and",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If the inspection is one provided for in part 125, 135, or § 91.409(e), the person must also perform it in accordance with the instructions and procedures set forth in the inspection program for the aircraft being inspected.",
+          "quote": "If the inspection is one provided for in part 125, 135, or § 91.409(e) of this chapter, perform the inspection in accordance with the instructions and procedures set forth in the inspection program for the aircraft being inspected.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each person performing an inspection required by Part 91 on a rotorcraft must inspect the systems listed in 43.15(b) in accordance with the maintenance manual or Instructions for Continued Airworthiness of the manufacturer concerned.",
+          "quote": "Each person performing an inspection required by Part 91 on a rotorcraft shall inspect the following systems in accordance with the maintenance manual or Instructions for Continued Airworthiness of the manufacturer concerned:",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "One listed rotorcraft system is the drive shafts or similar systems.",
+          "quote": "The drive shafts or similar systems.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The main rotor transmission gear box is listed, to be inspected for obvious defects.",
+          "quote": "The main rotor transmission gear box for obvious defects.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The main rotor and center section (or the equivalent area) is listed.",
+          "quote": "The main rotor and center section (or the equivalent area).",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The auxiliary rotor is listed for helicopters.",
+          "quote": "The auxiliary rotor on helicopters.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "annual-100-hour",
+      "name": "Annual and 100-hour inspections",
+      "points": [
+        {
+          "text": "Each person performing an annual or 100-hour inspection must use a checklist while performing the inspection.",
+          "quote": "Each person performing an annual or 100-hour inspection shall use a checklist while performing the inspection.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The checklist may be one of the options: of the person's own design, one provided by the manufacturer of the equipment being inspected, or one obtained from another source.",
+          "quote": "The checklist may be of the person's own design, one provided by the manufacturer of the equipment being inspected or one obtained from another source.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Whatever its origin, the checklist must include the scope and detail of the items in appendix D to part 43 and in 43.15(b) (the rotorcraft systems).",
+          "quote": "This checklist must include the scope and detail of the items contained in appendix D to this part and paragraph (b) of this section.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each person approving a reciprocating-engine-powered aircraft for return to service after an annual or 100-hour inspection must, before that approval, run the engine or engines to determine satisfactory performance in accordance with the manufacturer's recommendations of the items listed in 43.15(c)(2).",
+          "quote": "Each person approving a reciprocating-engine-powered aircraft for return to service after an annual or 100-hour inspection shall, before that approval, run the aircraft engine or engines to determine satisfactory performance in accordance with the manufacturer's recommendations of—",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The listed items are power output (static and idle r.p.m.), magnetos, fuel and oil pressure, and cylinder and oil temperature.",
+          "quote": "Power output (static and idle r.p.m.); (ii) Magnetos; (iii) Fuel and oil pressure; and (iv) Cylinder and oil temperature.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each person approving a turbine-engine-powered aircraft for return to service after an annual, 100-hour, or progressive inspection must, before that approval, run the engine or engines to determine satisfactory performance in accordance with the manufacturer's recommendations.",
+          "quote": "Each person approving a turbine-engine-powered aircraft for return to service after an annual, 100-hour, or progressive inspection shall, before that approval, run the aircraft engine or engines to determine satisfactory performance in accordance with the manufacturer's recommendations.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": [
+        "The rule refers to the manufacturer's recommendations for the engine run; those values are not in the rule text and are not set out here."
+      ]
+    },
+    {
+      "id": "progressive",
+      "name": "Progressive inspections",
+      "points": [
+        {
+          "text": "Each person performing a progressive inspection must, at the start of a progressive inspection system, inspect the aircraft completely.",
+          "quote": "Each person performing a progressive inspection shall, at the start of a progressive inspection system, inspect the aircraft completely.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "After this initial inspection, routine and detailed inspections must be conducted as prescribed in the progressive inspection schedule.",
+          "quote": "After this initial inspection, routine and detailed inspections must be conducted as prescribed in the progressive inspection schedule.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Detailed inspections consist of a thorough examination of the appliances, the aircraft, and its components and systems, with such disassembly as is necessary.",
+          "quote": "Detailed inspections consist of a thorough examination of the appliances, the aircraft, and its components and systems, with such disassembly as is necessary.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For the purposes of 43.15(d)(1), the overhaul of a component or system is considered to be a detailed inspection.",
+          "quote": "For the purposes of this subparagraph, the overhaul of a component or system is considered to be a detailed inspection.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If the aircraft is away from the station where inspections are normally conducted, one of the options (an appropriately rated mechanic, a certificated repair station, or the manufacturer of the aircraft) may perform inspections in accordance with the procedures and using the forms of the person who would otherwise perform the inspection.",
+          "quote": "If the aircraft is away from the station where inspections are normally conducted, an appropriately rated mechanic, a certificated repair station, or the manufacturer of the aircraft may perform inspections in accordance with the procedures and using the forms of the person who would otherwise perform the inspection.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.15, Additional performance rules for inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.15"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": [
+        "The definition of routine inspections in 43.15(d)(1) is not quoted here; read it in the linked section."
+      ]
+    },
+    {
+      "id": "airworthiness-limitations",
+      "name": "Airworthiness limitations",
+      "points": [
+        {
+          "text": "Each person performing an inspection or other maintenance specified in an Airworthiness Limitations section of a manufacturer's maintenance manual or Instructions for Continued Airworthiness must perform it in accordance with one of the options: that section, operations specifications approved by the Administrator under part 121 or 135, or an inspection program approved under § 91.409(e).",
+          "quote": "Each person performing an inspection or other maintenance specified in an Airworthiness Limitations section of a manufacturer's maintenance manual or Instructions for Continued Airworthiness shall perform the inspection or other maintenance in accordance with that section, or in accordance with operations specifications approved by the Administrator under part 121 or 135, or an inspection program approved under § 91.409(e).",
+          "source": {
+            "title": "eCFR: 14 CFR 43.16, Airworthiness limitations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.16"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The general methods rule in 43.13(a) applies \"except as noted in § 43.16\".",
+          "quote": "or other methods, techniques, and practices acceptable to the Administrator, except as noted in § 43.16.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.13, Performance rules (general) (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.13"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "appendix-d-cabin",
+      "name": "Appendix D: preparation, fuselage and cabin",
+      "points": [
+        {
+          "text": "Appendix D sets the scope and detail of items, as applicable to the particular aircraft, to be included in annual and 100-hour inspections.",
+          "quote": "Appendix D to Part 43—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Before an annual or 100-hour inspection, each person performing it must remove or open all necessary inspection plates, access doors, fairing, and cowling.",
+          "quote": "Each person performing an annual or 100-hour inspection shall, before that inspection, remove or open all necessary inspection plates, access doors, fairing, and cowling.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The person must also thoroughly clean the aircraft and aircraft engine.",
+          "quote": "He shall thoroughly clean the aircraft and aircraft engine.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each person performing an annual or 100-hour inspection must inspect (where applicable) the listed components of the fuselage and hull group.",
+          "quote": "Each person performing an annual or 100-hour inspection shall inspect (where applicable) the following components of the fuselage and hull group:",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In that group, fabric and skin are inspected for deterioration, distortion, other evidence of failure, and defective or insecure attachment of fittings.",
+          "quote": "Fabric and skin—for deterioration, distortion, other evidence of failure, and defective or insecure attachment of fittings.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In the cabin and cockpit group, the cabin and cockpit generally are inspected for uncleanliness and loose equipment that might foul the controls.",
+          "quote": "Generally—for uncleanliness and loose equipment that might foul the controls.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Instruments are inspected for poor condition, mounting, marking, and (where practicable) improper operation.",
+          "quote": "Instruments—for poor condition, mounting, marking, and (where practicable) improper operation.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Batteries are inspected for improper installation and improper charge.",
+          "quote": "Batteries—for improper installation and improper charge.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": [
+        "Not every item of Appendix D is restated here; the checklist must include the scope and detail of all its items, so read the full appendix."
+      ]
+    },
+    {
+      "id": "appendix-d-groups",
+      "name": "Appendix D: engine, landing gear and other groups",
+      "points": [
+        {
+          "text": "In the engine and nacelle group, the engine section is inspected for visual evidence of excessive oil, fuel, or hydraulic leaks, and sources of such leaks.",
+          "quote": "Engine section—for visual evidence of excessive oil, fuel, or hydraulic leaks, and sources of such leaks.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The internal engine is inspected for cylinder compression and for metal particles or foreign matter on screens and sump drain plugs.",
+          "quote": "Internal engine—for cylinder compression and for metal particles or foreign matter on screens and sump drain plugs.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If there is weak cylinder compression, the internal engine is inspected for improper internal condition and improper internal tolerances.",
+          "quote": "If there is weak cylinder compression, for improper internal condition and improper internal tolerances.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The engine mount is inspected for cracks, looseness of mounting, and looseness of engine to mount.",
+          "quote": "Engine mount—for cracks, looseness of mounting, and looseness of engine to mount.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In the landing gear group, shock absorbing devices are inspected for improper oleo fluid level.",
+          "quote": "Shock absorbing devices—for improper oleo fluid level.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "All components of the wing and center section assembly are inspected (where applicable) for poor general condition, fabric or skin deterioration, distortion, evidence of failure, and insecurity of attachment.",
+          "quote": "Each person performing an annual or 100-hour inspection shall inspect (where applicable) all components of the wing and center section assembly for poor general condition, fabric or skin deterioration, distortion, evidence of failure, and insecurity of attachment.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "All components and systems that make up the complete empennage assembly are inspected (where applicable) for poor general condition, fabric or skin deterioration, distortion, evidence of failure, insecure attachment, improper component installation, and improper component operation.",
+          "quote": "Each person performing an annual or 100-hour inspection shall inspect (where applicable) all components and systems that make up the complete empennage assembly for poor general condition, fabric or skin deterioration, distortion, evidence of failure, insecure attachment, improper component installation, and improper component operation.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In the propeller group, the propeller assembly is inspected for cracks, nicks, binds, and oil leakage.",
+          "quote": "Propeller assembly—for cracks, nicks, binds, and oil leakage.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each installed miscellaneous item that is not otherwise covered by the listing is inspected (where applicable) for improper installation and improper operation.",
+          "quote": "Each person performing an annual or 100-hour inspection shall inspect (where applicable) each installed miscellaneous item that is not otherwise covered by this listing for improper installation and improper operation.",
+          "source": {
+            "title": "eCFR: 14 CFR Part 43, Appendix D—Scope and Detail of Items (as Applicable to the Particular Aircraft) To Be Included in Annual and 100-Hour Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": [
+        "The radio group and the remaining engine, landing gear and propeller items of Appendix D are not all restated here; read the full appendix."
+      ]
+    },
+    {
+      "id": "canadian-persons",
+      "name": "Canadian persons (43.17)",
+      "points": [
+        {
+          "text": "43.17 does not apply to any U.S. aeronautical products maintained or altered under any bilateral agreement made between Canada and any country other than the United States.",
+          "quote": "This section does not apply to any U.S. aeronautical products maintained or altered under any bilateral agreement made between Canada and any country other than the United States.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.17, Maintenance, preventive maintenance, and alterations performed on U.S. aeronautical products by certain Canadian persons (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.17"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A person holding a valid Transport Canada Civil Aviation Maintenance Engineer license and appropriate ratings may, with respect to a U.S.-registered aircraft located in Canada, perform maintenance, preventive maintenance, and alterations under the conditions of the section.",
+          "quote": "A person holding a valid Transport Canada Civil Aviation Maintenance Engineer license and appropriate ratings may, with respect to a U.S.-registered aircraft located in Canada, perform maintenance, preventive maintenance, and alterations",
+          "source": {
+            "title": "eCFR: 14 CFR 43.17, Maintenance, preventive maintenance, and alterations performed on U.S. aeronautical products by certain Canadian persons (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.17"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A Transport Canada Civil Aviation Approved Maintenance Organization (AMO) holding appropriate ratings may, with respect to a U.S.-registered aircraft or other U.S. aeronautical products located in Canada, perform maintenance, preventive maintenance, and alterations under the conditions of the section.",
+          "quote": "A Transport Canada Civil Aviation Approved Maintenance Organization (AMO) holding appropriate ratings may, with respect to a U.S.-registered aircraft or other U.S. aeronautical products located in Canada, perform maintenance, preventive maintenance, and alterations",
+          "source": {
+            "title": "eCFR: 14 CFR 43.17, Maintenance, preventive maintenance, and alterations performed on U.S. aeronautical products by certain Canadian persons (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.17"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A person authorized in 43.17(c) may perform maintenance, including any inspection required by § 91.409 except an annual inspection, plus preventive maintenance and alterations, provided the listed conditions are met.",
+          "quote": "A person authorized in paragraph (c) of this section may perform maintenance (including any inspection required by Sec. 91.409 of this chapter, except an annual inspection), preventive maintenance, and alterations, provided—",
+          "source": {
+            "title": "eCFR: 14 CFR 43.17, Maintenance, preventive maintenance, and alterations performed on U.S. aeronautical products by certain Canadian persons (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.17"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "One condition is that the person performing the work is authorized by Transport Canada Civil Aviation to perform the same type of work with respect to Canadian aeronautical products.",
+          "quote": "The person performing the work is authorized by Transport Canada Civil Aviation to perform the same type of work with respect to Canadian aeronautical products;",
+          "source": {
+            "title": "eCFR: 14 CFR 43.17, Maintenance, preventive maintenance, and alterations performed on U.S. aeronautical products by certain Canadian persons (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.17"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Another condition is that the work is performed such that the affected product complies with the applicable requirements of part 36.",
+          "quote": "The maintenance, preventive maintenance, or alteration is performed such that the affected product complies with the applicable requirements of part 36 of this chapter; and",
+          "source": {
+            "title": "eCFR: 14 CFR 43.17, Maintenance, preventive maintenance, and alterations performed on U.S. aeronautical products by certain Canadian persons (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.17"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "To return an affected product to service, a person authorized in 43.17(c) must approve (certify) the work performed under the section, except that an Aircraft Maintenance Engineer may not approve a major repair or major alteration.",
+          "quote": "To return an affected product to service, a person authorized in paragraph (c) of this section must approve (certify) maintenance, preventive maintenance, and alterations performed under this section, except that an Aircraft Maintenance Engineer may not approve a major repair or major alteration.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.17, Maintenance, preventive maintenance, and alterations performed on U.S. aeronautical products by certain Canadian persons (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.17"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An AMO whose system of quality control has been approved by Transport Canada Civil Aviation, or an authorized employee performing work for such an AMO, may approve (certify) a major repair or major alteration performed under the section if the work was performed in accordance with technical data approved by the FAA.",
+          "quote": "An AMO whose system of quality control for the maintenance, preventive maintenance, alteration, and inspection of aeronautical products has been approved by Transport Canada Civil Aviation, or an authorized employee performing work for such an AMO, may approve (certify) a major repair or major alteration performed under this section if the work was performed in accordance with technical data approved by the FAA.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.17, Maintenance, preventive maintenance, and alterations performed on U.S. aeronautical products by certain Canadian persons (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.17"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "No person may operate in air commerce an aircraft, airframe, aircraft engine, propeller, or appliance worked on under 43.17 unless it has been approved for return to service by a person authorized in the section.",
+          "quote": "No person may operate in air commerce an aircraft, airframe, aircraft engine, propeller, or appliance on which maintenance, preventive maintenance, or alteration has been performed under this section unless it has been approved for return to service by a person authorized in this section.",
+          "source": {
+            "title": "eCFR: 14 CFR 43.17, Maintenance, preventive maintenance, and alterations performed on U.S. aeronautical products by certain Canadian persons (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.17"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": [
+        "The conditions on performing and recording work under the Bilateral Aviation Safety Agreement and its Maintenance Implementation Procedures (43.17(d)(2) and (d)(4)) are not restated here; read them in the linked section."
+      ]
+    }
+  ]
+}
