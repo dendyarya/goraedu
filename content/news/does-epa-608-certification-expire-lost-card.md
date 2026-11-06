@@ -24,8 +24,8 @@ sources:
     checked: 2026-11-07
 ---
 
-Two questions come up often once you hold a Section 608 card: does the certification run out, and what happens if
-the card goes missing? This explainer answers both from the technician certification rule, 40 CFR 82.161, and
+This explainer covers two questions about a Section 608 card: does the certification run out, and what happens if
+the card goes missing? It answers both from the technician certification rule, 40 CFR 82.161, and
 EPA's own Section 608 pages. Nothing here describes a rule change.
 
 ## Does Section 608 certification expire?
@@ -33,7 +33,7 @@ EPA's own Section 608 pages. Nothing here describes a rule change.
 No. EPA's Section 608 Technician Certification Requirements page states: "Section 608 Technician Certification
 credentials do not expire."
 
-The rule itself has no renewal date or continuing-education cycle. It does keep two doors open:
+40 CFR 82.161 sets no renewal date or continuing-education cycle. It does keep two doors open:
 
 - **Future recertification.** Under 40 CFR 82.161(a)(5), EPA "reserves the right to specify a requirement for
   technician recertification at some future date," and would do so by a notice in the Federal Register. This
@@ -44,7 +44,7 @@ The rule itself has no renewal date or continuing-education cycle. It does keep 
   subpart may also result in revocation or suspension of the certificate." If a certificate is revoked, "the
   technician would need to recertify before maintaining, servicing, repairing, or disposing of any appliances."
 
-So a certificate does not run out with time, but the rule does not promise it can never be taken away.
+So a certificate does not run out with time, but under the rule it can be revoked or suspended.
 
 ## What records do you have to keep?
 
@@ -72,8 +72,8 @@ EPA's lost-card page sets out the steps in this order:
    you passed, or you or a current or former employer have a copy of your lost card, send a copy to one of the
    organizations EPA lists as willing to replace cards. EPA says that organization "will issue you a new card and
    maintain a record of your certification."
-3. **Your organization has gone out of business.** EPA's page points you to its list of closed certifying
-   organizations and, if yours is on it, says to contact EPA.
+3. **No such proof, and your organization has gone out of business.** EPA's page points you to its list of closed
+   certifying organizations and, if yours is on it, says to contact EPA.
 4. **None of the above.** EPA states that "neither EPA nor a certified testing organization will be able to issue
    a replacement card. You will need to retake the Section 608 certification test."
 
@@ -94,7 +94,7 @@ technicians."
 
 - **Which organizations replace cards.** EPA's two pages do not match. The lost-card page names ESCO Institute and
   Ferris State University. The Q&A names "ESCO Institute, Ferris State University, and Refrigeration Environmental
-  Protection Association (REPA)." Check with the organization before you send documents.
+  Protection Association (REPA)."
 - **Fees and turnaround.** Neither 40 CFR 82.161 nor these EPA pages say what a replacement card costs or how long
   it takes.
 - **Working while you wait.** The sources we checked do not say anything specific about doing refrigerant work
