@@ -14,7 +14,7 @@ export type Cluster = {
   href?: string;
 };
 
-export type FamilyIcon = "hvac" | "truck" | "helmet" | "car" | "bolt" | "house" | "drone";
+export type FamilyIcon = "hvac" | "truck" | "helmet" | "drop" | "house" | "leaf" | "drone";
 export type Family = { name: string; icon: FamilyIcon; clusters: Cluster[] };
 
 export const FAMILIES: Family[] = [
@@ -37,13 +37,6 @@ export const FAMILIES: Family[] = [
         source: "U.S. EPA, 40 CFR Part 82, Subpart B",
         status: "available",
         href: "/epa-609/",
-      },
-      {
-        id: "hvac",
-        name: "HVAC certifications",
-        summary: "Exams that HVAC technicians take after EPA 608 as their careers grow.",
-        source: "Official exam outlines",
-        status: "planned",
       },
     ],
   },
@@ -102,36 +95,9 @@ export const FAMILIES: Family[] = [
     ],
   },
   {
-    name: "Automotive",
-    icon: "car",
+    name: "Water and wastewater",
+    icon: "drop",
     clusters: [
-      {
-        id: "ase",
-        name: "ASE automotive tests",
-        summary: "Certification tests for automotive service technicians.",
-        source: "Official test outlines",
-        status: "planned",
-      },
-    ],
-  },
-  {
-    name: "Electrical, energy and water",
-    icon: "bolt",
-    clusters: [
-      {
-        id: "electrician",
-        name: "Electrician licensing",
-        summary: "Journeyman and master electrician exam topics.",
-        source: "State licensing boards",
-        status: "planned",
-      },
-      {
-        id: "solar",
-        name: "Solar PV",
-        summary: "Entry-level solar photovoltaic credential topics.",
-        source: "Official exam outlines",
-        status: "planned",
-      },
       {
         id: "water-operator",
         name: "Drinking water operator (federal rules)",
@@ -171,26 +137,19 @@ export const FAMILIES: Family[] = [
         status: "available",
         href: "/asbestos/",
       },
+    ],
+  },
+  {
+    name: "Pest control",
+    icon: "leaf",
+    clusters: [
       {
-        id: "plumbing",
-        name: "Plumbing licensing",
-        summary: "Journeyman and master plumber exam topics.",
-        source: "State licensing boards",
-        status: "planned",
-      },
-      {
-        id: "welding",
-        name: "Welding",
-        summary: "Written exam topics for welders and welding inspectors.",
-        source: "Official exam outlines",
-        status: "planned",
-      },
-      {
-        id: "home-inspector",
-        name: "Home inspector",
-        summary: "National home inspector exam topics.",
-        source: "Official exam outlines",
-        status: "planned",
+        id: "pesticide-applicator",
+        name: "Pesticide applicator (federal standards)",
+        summary:
+          "The federal EPA standards for certifying private and commercial applicators of restricted use pesticides.",
+        source: "U.S. EPA, 40 CFR Part 171",
+        status: "next",
       },
     ],
   },

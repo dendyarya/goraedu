@@ -25,15 +25,13 @@ const PATHS: Record<FamilyIcon | "source" | "free" | "refresh" | "check", React.
       <path d="M12 9.5v3" />
     </>
   ),
-  car: (
+  drop: <path d="M12 3.2c3.2 4 5.8 7.4 5.8 10.5a5.8 5.8 0 0 1-11.6 0c0-3.1 2.6-6.5 5.8-10.5z" />,
+  leaf: (
     <>
-      <path d="M3.5 15.5v-3l2-4.5h13l2 4.5v3z" />
-      <path d="M3.5 12.5h17" />
-      <circle cx="7.5" cy="16.5" r="1.7" />
-      <circle cx="16.5" cy="16.5" r="1.7" />
+      <path d="M5 19c0-8 5-13.5 14.5-14.5C19.5 14 14 19 6.5 19z" />
+      <path d="M5 19c3-4 6-7 10-10" />
     </>
   ),
-  bolt: <path d="M13.5 2.8 5.5 13.5h6l-1 7.7 8-10.7h-6z" />,
   house: (
     <>
       <path d="M3.5 11 12 4l8.5 7" />
@@ -107,8 +105,8 @@ const TINT: Record<FamilyIcon, string> = {
   hvac: "bg-low-soft text-low",
   truck: "bg-hose-soft text-hose-ink",
   helmet: "bg-hose-soft text-hose-ink",
-  car: "bg-high-soft text-high",
-  bolt: "bg-hose-soft text-hose-ink",
+  drop: "bg-low-soft text-low",
+  leaf: "bg-hose-soft text-hose-ink",
   house: "bg-low-soft text-low",
   drone: "bg-low-soft text-low",
 };
