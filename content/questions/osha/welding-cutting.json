@@ -242,15 +242,15 @@
     {
       "id": "wg-014",
       "topic": "Fire prevention",
-      "question": "A torch and hose are used inside a confined space. What does 1926.352(g) require at the change of shifts?",
+      "question": "Open-end fuel gas and oxygen hoses inside an enclosed space have just been disconnected from the torch. What does 1926.352(g) require?",
       "options": {
-        "A": "Close the torch valves and leave the torch inside",
-        "B": "Coil the hose near the opening of the space",
-        "C": "Leave them inside if an attendant stays outside",
-        "D": "Remove the torch and hose from the confined space"
+        "A": "Cap the hose ends and leave them in the space for the next shift",
+        "B": "Coil the hoses inside the space next to its opening",
+        "C": "Leave them in the space if the cylinder valves are closed",
+        "D": "Remove them immediately from the enclosed space"
       },
       "answer": "D",
-      "explanation": "\"Overnight and at the change of shifts, the torch and hose shall be removed from the confined space.\"",
+      "explanation": "\"Open end fuel gas and oxygen hoses shall be immediately removed from enclosed spaces when they are disconnected from the torch or other gas-consuming device.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.352, Fire prevention (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-J/section-1926.352"
@@ -296,15 +296,15 @@
     {
       "id": "wg-017",
       "topic": "Toxic metals and inert-gas metal-arc welding",
-      "question": "Welding involves beryllium-containing base metal in an enclosed space. What protection does 1926.353(c)(2)(iv) require?",
+      "question": "Employees weld beryllium-containing filler metal in the open air. What protection does 1926.353(c)(3) require for them?",
       "options": {
-        "A": "General mechanical ventilation only",
-        "B": "Either local exhaust ventilation or air line respirators",
-        "C": "Both local exhaust ventilation and air line respirators",
-        "D": "A filter-type respirator only"
+        "A": "Filter-type respirators",
+        "B": "No respiratory protection, because the work is in the open air",
+        "C": "Air line respirators",
+        "D": "General mechanical ventilation only"
       },
       "answer": "C",
-      "explanation": "\"Because of its high toxicity, work involving beryllium shall be done with both local exhaust ventilation and air line respirators.\"",
+      "explanation": "Open-air work on these metals generally calls for filter-type respirators, \"except that employees performing such operations on beryllium-containing base or filler metals shall be protected by air line respirators in accordance with the requirements of subpart E of this part.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.353, Ventilation and protection in welding, cutting, and heating (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-J/section-1926.353"
@@ -332,15 +332,15 @@
     {
       "id": "wg-019",
       "topic": "Preservative coatings",
-      "question": "According to 1926.354(a), when are preservative coatings considered to be highly flammable?",
+      "question": "A competent person's test shows that a hardened preservative coating on steel is highly flammable. What does 1926.354(b) require before the steel is heated?",
       "options": {
-        "A": "When they are more than one coat thick",
-        "B": "When they are less than a year old",
-        "C": "When they are any color other than gray",
-        "D": "When scrapings burn with extreme rapidity"
+        "A": "Wet the coating down so it will not ignite",
+        "B": "Keep a fire extinguisher at hand and heat the steel as usual",
+        "C": "Cover the coating with heat-resistant tape",
+        "D": "Strip the coating from the area to be heated"
       },
       "answer": "D",
-      "explanation": "\"Preservative coatings shall be considered to be highly flammable when scrapings burn with extreme rapidity.\" A competent person tests a coating whose flammability is not known before work begins.",
+      "explanation": "\"When coatings are determined to be highly flammable, they shall be stripped from the area to be heated to prevent ignition.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.354, Welding, cutting, and heating in way of preservative coatings (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-J/section-1926.354"
