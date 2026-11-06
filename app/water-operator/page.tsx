@@ -106,7 +106,7 @@ export default function WaterOperatorPage() {
       <div className="grid gap-12 lg:grid-cols-[1fr_20rem]">
         <div className="max-w-[68ch]">
           <div className="rounded-3xl border border-[#f3dca0] bg-hose-soft p-6">
-            <h2 className="text-[1.25rem] font-bold">What these pages cover</h2>
+            <h2 className="text-[1.25rem] font-bold">Scope and sources</h2>
             <p className="mt-2">
               Everything here comes from the current eCFR text of 40 CFR Part 141 (National Primary Drinking Water
               Regulations) and Part 143 (secondary standards and lead free plumbing). Operator certification exams are

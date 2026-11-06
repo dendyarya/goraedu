@@ -90,7 +90,7 @@ export default function OshaCranePage() {
       <div className="grid gap-12 lg:grid-cols-[1fr_20rem]">
         <div className="max-w-[68ch]">
           <div className="rounded-3xl border border-[#f3dca0] bg-hose-soft p-6">
-            <h2 className="text-[1.25rem] font-bold">What these pages cover</h2>
+            <h2 className="text-[1.25rem] font-bold">Scope and sources</h2>
             <p className="mt-2">
               Everything here comes from the current eCFR text of nine sections of 29 CFR 1926 Subpart CC (1926.1401,
               1408, 1412, 1417, 1419, 1424, 1427, 1428 and 1431). Other sections of Subpart CC, such as assembly, ground

@@ -122,7 +122,7 @@ export default function CdlPage() {
       <div className="grid gap-12 lg:grid-cols-[1fr_20rem]">
         <div className="max-w-[68ch]">
           <div className="rounded-3xl border border-[#f3dca0] bg-hose-soft p-6">
-            <h2 className="text-[1.25rem] font-bold">What these pages cover</h2>
+            <h2 className="text-[1.25rem] font-bold">Scope and sources</h2>
             <p className="mt-2">
               CDL knowledge tests are given by each state, from that state&apos;s commercial driver manual. Much of a
               state test is about driving skills and vehicle systems that are not written in federal rules. These pages

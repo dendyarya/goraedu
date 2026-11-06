@@ -44,7 +44,8 @@ export default function UniversalPracticeTestPage() {
             questions={pool.questions}
             drawPerTopic={PER_SECTION}
             passPct={70}
-            passNote="The passing score the EPA rule sets for closed-book tests (40 CFR Part 82, Subpart F, Appendix D)."
+            passEachSection
+            passNote="70 percent is the passing score in 40 CFR Part 82, Subpart F, Appendix D, and EPA's Section 608 Q&A says Universal certification requires passing the examinations at all levels, so each section is scored on its own."
           />
         </div>
         <aside className="space-y-6 text-[0.9375rem]">
@@ -56,6 +57,15 @@ export default function UniversalPracticeTestPage() {
               scores on separate Type I, II and III tests. Mail-in Type I tests cannot count toward Universal.
             </p>
             <p className="mt-3">
+              <a
+                href="https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified"
+                className="text-low underline"
+                rel="noopener"
+              >
+                EPA: Questions and Answers for Section 608 Certified Technicians
+              </a>
+            </p>
+            <p className="mt-2">
               <Link href="/epa-608/guide/passing-score/" className="text-low underline">
                 Exam format and passing score
               </Link>

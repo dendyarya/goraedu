@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import PageShell from "@/components/PageShell";
 import PracticeTest from "@/components/PracticeTest";
+import { assertQuotes } from "@/lib/guides";
 import { formatDate } from "@/lib/news";
 import { FAA_INDEPENDENCE_TEXT } from "@/lib/osha";
 import { getAllSets } from "@/lib/questions";
@@ -10,6 +11,9 @@ const COUNT = 60;
 const PASS = 70;
 const MATRIX = "https://www.faa.gov/training_testing/testing/testing_matrix";
 const MATRIX_CHECKED = "2026-11-06";
+const ACS = "https://www.faa.gov/training_testing/testing/acs/uas_acs.pdf";
+const TIME_QUOTE = "The knowledge test applicant has up to two hours to complete the test.";
+assertQuotes("faa-107", [TIME_QUOTE]);
 
 export const metadata: Metadata = {
   title: "FAA Part 107 Practice Exam (60 Questions, Free, with Official Sources)",
@@ -45,6 +49,8 @@ export default function Part107PracticeExamPage() {
             drawTotal={COUNT}
             passPct={PASS}
             passNote="The passing score the FAA Airman Knowledge Testing Matrix lists for the UAG test."
+            timeLimitMin={120}
+            timeNote="The FAA Remote Pilot Airman Certification Standards (FAA-S-ACS-10B) say the applicant has up to two hours."
           />
         </div>
         <aside className="space-y-6 text-[0.9375rem]">
@@ -59,6 +65,12 @@ export default function Part107PracticeExamPage() {
                 FAA Airman Knowledge Testing Matrix
               </a>{" "}
               <span className="text-muted">(revised 9/25/26, checked {formatDate(MATRIX_CHECKED)})</span>
+            </p>
+            <blockquote className="mt-3 text-muted">&ldquo;{TIME_QUOTE}&rdquo;</blockquote>
+            <p className="mt-1">
+              <a href={ACS} className="text-low underline" rel="noopener">
+                FAA-S-ACS-10B, Remote Pilot Airman Certification Standards
+              </a>
             </p>
           </div>
           <div className="rounded-3xl border border-line bg-panel p-5 text-muted">

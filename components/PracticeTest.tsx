@@ -37,6 +37,9 @@ export default function PracticeTest({
   drawTotal,
   passPct,
   passNote,
+  passEachSection,
+  timeLimitMin,
+  timeNote,
 }: {
   title: string;
   questions: Question[];
@@ -48,6 +51,12 @@ export default function PracticeTest({
   passPct?: number;
   /** Exam mode: where the passing score comes from, shown with it. */
   passNote?: string;
+  /** Exam mode: every section must reach the passing score on its own (e.g. EPA 608 Universal). */
+  passEachSection?: boolean;
+  /** Exam mode: optional time limit in minutes from the official source; the user chooses whether to use it. */
+  timeLimitMin?: number;
+  /** Exam mode: where the time limit comes from. */
+  timeNote?: string;
 }) {
   const exam = Boolean(drawPerTopic || drawTotal);
   const topics = useMemo(() => [...new Set(questions.map((q) => q.topic))], [questions]);
@@ -57,6 +66,10 @@ export default function PracticeTest({
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, Choice>>({});
   const [stats, setStats] = useState<Record<string, QuestionStat> | null>(null);
+  const [useTimer, setUseTimer] = useState(false);
+  const [deadline, setDeadline] = useState<number | null>(null);
+  const [now, setNow] = useState(0);
+  const [timedOut, setTimedOut] = useState(false);
   const feedbackRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
 
@@ -64,12 +77,30 @@ export default function PracticeTest({
   const picked = current ? answers[current.id] : undefined;
   const answered = picked !== undefined;
 
-  function start(list: Question[]) {
+  function start(list: Question[], timed = false) {
     setOrder(shuffle(list));
     setIndex(0);
     setAnswers({});
+    setTimedOut(false);
+    const t = Date.now();
+    setNow(t);
+    setDeadline(timed && timeLimitMin ? t + timeLimitMin * 60_000 : null);
     setPhase("quiz");
   }
+
+  // Exam timer: tick once a second; when time runs out the exam ends and unanswered questions count as wrong.
+  useEffect(() => {
+    if (phase !== "quiz" || deadline === null) return;
+    const id = window.setInterval(() => {
+      const t = Date.now();
+      setNow(t);
+      if (t >= deadline) {
+        setTimedOut(true);
+        setPhase("done");
+      }
+    }, 1000);
+    return () => window.clearInterval(id);
+  }, [phase, deadline]);
 
   function pick(c: Choice) {
     if (!current || answered) return;
@@ -135,14 +166,29 @@ export default function PracticeTest({
         </p>
         {passPct ? (
           <p className="mt-3 text-[0.9375rem]">
-            Passing score: <strong>{passPct}%</strong> ({Math.ceil((size * passPct) / 100)} of {size}).{" "}
+            Passing score: <strong>{passPct}%</strong>
+            {passEachSection ? " in every section" : ` (${Math.ceil((size * passPct) / 100)} of ${size})`}.{" "}
             {passNote ? <span className="text-muted">{passNote}</span> : null}
           </p>
+        ) : null}
+        {timeLimitMin ? (
+          <label className="mt-4 flex items-start gap-3 text-[0.9375rem]">
+            <input
+              type="checkbox"
+              checked={useTimer}
+              onChange={(e) => setUseTimer(e.target.checked)}
+              className="mt-1 h-4 w-4 shrink-0"
+            />
+            <span>
+              Use the time limit ({timeLimitMin >= 60 ? `${timeLimitMin / 60} hours` : `${timeLimitMin} minutes`}).{" "}
+              {timeNote ? <span className="text-muted">{timeNote}</span> : null}
+            </span>
+          </label>
         ) : null}
         <div className="mt-6">
           <button
             type="button"
-            onClick={() => start(draw())}
+            onClick={() => start(draw(), useTimer)}
             className="rounded-full bg-low px-5 py-3 font-semibold text-white hover:brightness-110"
           >
             Start the exam ({size} questions)
@@ -222,7 +268,20 @@ export default function PracticeTest({
         <div className="mt-4 h-3 overflow-hidden rounded-full bg-line" aria-hidden="true">
           <div className="h-full rounded-full bg-low" style={{ width: `${pct}%` }} />
         </div>
-        {passPct ? (
+        {timedOut ? (
+          <p className="mt-3 font-semibold text-high">Time ran out. Unanswered questions are counted as wrong.</p>
+        ) : null}
+        {passPct && passEachSection ? (
+          <p className="mt-3 font-semibold">
+            Each section needs {passPct}%.{" "}
+            {byTopic.every((r) => r.right * 100 >= r.total * passPct)
+              ? "Your practice score reaches it in every section."
+              : `Below ${passPct}% in: ${byTopic
+                  .filter((r) => r.right * 100 < r.total * passPct)
+                  .map((r) => r.t)
+                  .join(", ")}.`}
+          </p>
+        ) : passPct ? (
           <p className="mt-3 font-semibold">
             Passing score: {passPct}% ({Math.ceil((order.length * passPct) / 100)} of {order.length}). Your practice
             score {pct >= passPct ? "reaches" : "is below"} it.
@@ -283,7 +342,9 @@ export default function PracticeTest({
                 <li key={q.id} className="rounded-2xl border border-line p-5">
                   <p className="font-semibold">{q.question}</p>
                   <p className="mt-2 text-[0.9375rem]">
-                    <span className="text-high">Your answer: {q.options[answers[q.id]!]}</span>
+                    <span className="text-high">
+                      Your answer: {answers[q.id] ? q.options[answers[q.id]!] : "(not answered)"}
+                    </span>
                     <br />
                     <span className="text-low">Correct answer: {q.options[q.answer]}</span>
                   </p>
@@ -315,6 +376,15 @@ export default function PracticeTest({
         <div className="flex flex-wrap items-center justify-between gap-2 text-[0.875rem] text-muted">
           <span>
             Question {index + 1} of {order.length}
+            {deadline !== null ? (
+              <span className="ml-3 font-semibold text-ink" aria-label="Time left">
+                {(() => {
+                  const s = Math.max(0, Math.round((deadline - now) / 1000));
+                  return `${Math.floor(s / 3600)}:${String(Math.floor((s % 3600) / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
+                })()}{" "}
+                left
+              </span>
+            ) : null}
           </span>
           <span className="rounded-full border border-low/40 bg-low-soft px-2.5 font-medium leading-6 text-low">
             {q.topic}

@@ -81,7 +81,7 @@ export default function FaaAmtPage() {
       <div className="grid gap-12 lg:grid-cols-[1fr_20rem]">
         <div className="max-w-[68ch]">
           <div className="rounded-3xl border border-[#f3dca0] bg-hose-soft p-6">
-            <h2 className="text-[1.25rem] font-bold">What these pages cover</h2>
+            <h2 className="text-[1.25rem] font-bold">Scope and sources</h2>
             <p className="mt-2">
               Everything here comes from the current eCFR text of 14 CFR Part 65 Subpart D (mechanics) and 14 CFR Part
               43 (maintenance, preventive maintenance, rebuilding and alteration). The FAA knowledge, oral and practical
