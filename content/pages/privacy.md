@@ -1,10 +1,10 @@
 ---
 title: Privacy policy
 description: What information goraedu collects when you use the site, and what we do with it.
-updated: 2026-11-06
+updated: 2026-11-07
 ---
 
-**Effective date: November 6, 2026** (updated to describe practice progress saved in your browser)
+**Effective date: November 7, 2026** (updated to describe advertising by Google AdSense)
 
 goraedu is built to work without collecting personal information. You do not need an account, and no question or
 tool asks for your name or email address.
@@ -32,6 +32,26 @@ You can opt out at any time: if your browser sends the **Global Privacy Control*
 at all; you can also block cookies in your browser or install Google's
 [Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout).
 
+**Advertising (Google AdSense).** To keep the site free, we show ads served by Google AdSense. Google and its
+partners use cookies and similar technologies to serve ads, measure them, limit how often you see the same ad and
+prevent fraud. Depending on your choices and where you live, the ads may be personalized based on your visits to this
+and other websites. Google's use of this data is described in
+[How Google uses information from sites that use its services](https://policies.google.com/technologies/partner-sites)
+and in Google's [advertising policies](https://policies.google.com/technologies/ads).
+
+Your choices:
+
+- **Global Privacy Control.** If your browser sends the Global Privacy Control signal, we ask Google to show you
+  non-personalized ads only. Non-personalized ads may still use cookies for frequency capping, measurement and fraud
+  prevention.
+- **Ad personalization.** You can turn off personalized ads from Google at
+  [My Ad Center](https://myadcenter.google.com/), and opt out of personalized ads from many companies at
+  [aboutads.info](https://optout.aboutads.info/).
+- **Visitors in the EEA, the UK and Switzerland** are asked for consent through Google's consent message before
+  personalized ads are shown.
+
+We do not send Google your practice answers, tool inputs or search words.
+
 **Practice progress on your device.** When you answer practice questions, your browser remembers which questions
 you answered and whether your last answer was right, so the site can show your weak topics and let you review missed
 questions. This is stored only in your browser's local storage on that device. It is not sent to us or to anyone
@@ -42,12 +62,12 @@ button on any practice page or by clearing your browser's site data.
 
 ## What we do not do
 
-- We do not use advertising cookies at this time, and we do not show ads.
-- We do not sell or share personal information for targeted advertising.
+- We do not sell personal information. Advertising is limited to Google AdSense as described above, and if your
+  browser sends Global Privacy Control we ask Google for non-personalized ads only.
 - Practice answers and tool inputs are processed in your browser and are not sent to us.
 
-If we add advertising or an email newsletter in the future, we will update this policy before doing so, describe
-the change here, and provide any choices required by law.
+If we add an email newsletter or another advertising partner in the future, we will update this policy before doing
+so, describe the change here, and provide any choices required by law.
 
 ## Children
 

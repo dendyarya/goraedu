@@ -14,6 +14,8 @@ export const SITE = {
    * Loaded only on production builds, and never for visitors who send the Global Privacy Control signal.
    */
   gtmId: "GTM-K2T7WGS4" as string,
+  // Google AdSense publisher ID (public by design: it appears in every page and in /ads.txt).
+  adsenseClient: "ca-pub-4200874706118535" as string,
   contactEmail: "contact@goraedu.com",
   independence:
     "Independent. Not affiliated with or endorsed by any government agency or certifying organization. Certification names are used only to identify each exam.",

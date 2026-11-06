@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
+import AdSense from "@/components/AdSense";
 import Analytics from "@/components/Analytics";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
@@ -32,6 +33,8 @@ export const metadata: Metadata = {
   openGraph: { type: "website", siteName: SITE.name, locale: "en_US" },
   // Only the production build may be indexed.
   robots: SITE.indexable ? { index: true, follow: true } : { index: false, follow: false },
+  // AdSense site verification (the publisher ID is public).
+  other: { "google-adsense-account": SITE.adsenseClient },
 };
 
 export const viewport: Viewport = {
@@ -54,6 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="flex-1">{children}</div>
         <SiteFooter />
         <Analytics />
+        <AdSense />
       </body>
     </html>
   );
