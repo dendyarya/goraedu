@@ -367,6 +367,12 @@ function validate(file: string, raw: unknown, snapshot: string | null, kind: "gu
     ids.add(t.id);
     if (!t.name) fail(`topic ${t.id}: name is required`);
     if (!Array.isArray(t.points)) fail(`topic ${t.id}: points must be a list`);
+    // A notCovered note may be written as one string or a list of sentences; pages show it as one paragraph.
+    const nc: unknown = t.notCovered;
+    if (Array.isArray(nc)) {
+      if (!nc.every((s) => typeof s === "string" && s)) fail(`topic ${t.id}: notCovered must be text`);
+      t.notCovered = (nc as string[]).join(" ");
+    } else if (nc !== undefined && typeof nc !== "string") fail(`topic ${t.id}: notCovered must be text`);
     if (t.points.length === 0 && !t.notCovered) fail(`topic ${t.id}: needs points or a notCovered note`);
     t.points.forEach((p, i) => {
       const at = `topic ${t.id} point ${i + 1}`;

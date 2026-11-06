@@ -84,11 +84,11 @@
     {
       "id": "vd-005",
       "topic": "Who may perform maintenance",
-      "question": "Which work does 43.3(d) state it does not authorize a person working under a mechanic's supervision to perform?",
+      "question": "43.3(d) lets a supervised person perform the work the supervisor is authorized to perform. Which work does the paragraph's last sentence then exclude from that authorization?",
       "options": {
         "A": "Preventive maintenance the supervisor is authorized to perform",
         "B": "Alterations the supervisor is authorized to perform",
-        "C": "Any inspection performed after a major repair or alteration",
+        "C": "Any inspection required by Part 91 or Part 125, or any inspection performed after a major repair or alteration",
         "D": "Maintenance the supervisor is authorized to perform"
       },
       "answer": "C",
@@ -103,9 +103,9 @@
     {
       "id": "vd-006",
       "topic": "Who may perform maintenance",
-      "question": "Under 43.3(a), who may maintain, rebuild, alter, or perform preventive maintenance on an aircraft to which Part 43 applies?",
+      "question": "Under 43.3(a), what is the only basis on which a person may maintain, rebuild, alter, or perform preventive maintenance on an aircraft to which Part 43 applies?",
       "options": {
-        "A": "Only persons as provided in 43.3 and § 43.17",
+        "A": "As provided in 43.3 and § 43.17",
         "B": "Any person who owns the aircraft",
         "C": "Any person who has the manufacturer's maintenance manual",
         "D": "Only FAA employees"
@@ -121,7 +121,7 @@
     },
     {
       "id": "vd-007",
-      "topic": "Pilots and preventive maintenance",
+      "topic": "Pilots: preventive maintenance and part 135 approvals",
       "question": "A private pilot owns an airplane that is not used under part 121, 129, or 135. What does 43.3(g) allow the pilot to perform on it?",
       "options": {
         "A": "Major repairs",
@@ -140,31 +140,31 @@
     },
     {
       "id": "vd-008",
-      "topic": "Pilots and preventive maintenance",
-      "question": "Under 43.3(g), a part 61 pilot (other than a sport pilot) may perform preventive maintenance on an aircraft owned or operated by that pilot unless the aircraft is used under which parts?",
+      "topic": "Pilots: preventive maintenance and part 135 approvals",
+      "question": "Under an approval issued to a part 135 certificate holder (43.3(i)), a pilot may remove and reinstall approved aircraft cabin seats. For what aircraft does 43.3(i) allow this?",
       "options": {
-        "A": "Part 91 or 125",
-        "B": "Part 121, 129, or 135",
-        "C": "Part 107 or 194",
-        "D": "Part 43 or 65"
+        "A": "An aircraft type-certificated for 10 to 19 passenger seats",
+        "B": "An aircraft type-certificated for 9 or fewer passenger seats, excluding any pilot seat",
+        "C": "An aircraft type-certificated for 20 to 30 passenger seats",
+        "D": "An aircraft type-certificated for 31 or more passenger seats"
       },
       "answer": "B",
-      "explanation": "The rule covers \"any aircraft owned or operated by that pilot which is not used under part 121, 129, or 135 of this chapter.\"",
+      "explanation": "43.3(i) applies to \"a pilot of an aircraft type-certificated for 9 or fewer passenger seats, excluding any pilot seat,\" who may perform \"the removal and reinstallation of approved aircraft cabin seats.\"",
       "source": {
         "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
       },
       "checked": "2026-11-06",
-      "evidence": "any aircraft owned or operated by that pilot which is not used under part 121, 129, or 135 of this chapter"
+      "evidence": "a pilot of an aircraft type-certificated for 9 or fewer passenger seats, excluding any pilot seat, may perform the removal and reinstallation of approved aircraft cabin seats"
     },
     {
       "id": "vd-009",
-      "topic": "Pilots and preventive maintenance",
+      "topic": "Pilots: preventive maintenance and part 135 approvals",
       "question": "Under an approval for a part 135 rotorcraft operator in a remote area (43.3(h)), which condition must be met before a pilot performs the preventive maintenance items?",
       "options": {
         "A": "There is no certificated mechanic available to perform preventive maintenance",
         "B": "The pilot also holds a repairman certificate",
-        "C": "The rotorcraft has fewer than 9 passenger seats",
+        "C": "The pilot holds an inspection authorization",
         "D": "The work is reported to the FAA by telephone"
       },
       "answer": "A",
@@ -178,7 +178,7 @@
     },
     {
       "id": "vd-010",
-      "topic": "Pilots and preventive maintenance",
+      "topic": "Pilots: preventive maintenance and part 135 approvals",
       "question": "Under 43.3(h)(1), the preventive maintenance items a part 135 remote-area rotorcraft pilot is allowed to perform must be a result of what?",
       "options": {
         "A": "A scheduled inspection interval coming due",
@@ -197,7 +197,7 @@
     },
     {
       "id": "vd-011",
-      "topic": "Pilots and preventive maintenance",
+      "topic": "Pilots: preventive maintenance and part 135 approvals",
       "question": "Under 43.3(i), when may an approved part 135 pilot remove and reinstall approved cabin-mounted medical oxygen bottles?",
       "options": {
         "A": "When a mechanic is on site",
@@ -334,7 +334,7 @@
       "question": "Under 43.7(b), which holders may approve an aircraft or part for return to service as provided in Part 65?",
       "options": {
         "A": "The holder of a pilot certificate or a medical certificate",
-        "B": "The holder of a repair station certificate or an operating certificate",
+        "B": "The holder of a flight instructor certificate or a ground instructor certificate",
         "C": "The holder of a type certificate or a production certificate",
         "D": "The holder of a mechanic certificate or an inspection authorization"
       },

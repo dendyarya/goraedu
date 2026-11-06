@@ -255,21 +255,21 @@
     {
       "id": "vb-014",
       "topic": "Airframe rating privileges",
-      "question": "Apart from the light-sport case in 14 CFR 65.85(b), which work does 65.85(a) exclude from an airframe-rated mechanic's approval for return to service?",
+      "question": "Under 14 CFR 65.85(b), what must an airframe-rated mechanic have done with a major repair or major alteration on a light-sport category aircraft before approving the airframe for return to service?",
       "options": {
-        "A": "Major repairs and major alterations",
-        "B": "Preventive maintenance",
-        "C": "100-hour inspections",
-        "D": "All alterations, major or not"
+        "A": "Both performed and inspected it",
+        "B": "Only supervised it",
+        "C": "Only inspected it after another person performed it",
+        "D": "Only recorded it after the owner performed it"
       },
       "answer": "A",
-      "explanation": "65.85(a) allows approval after maintenance or alteration \"(excluding major repairs and major alterations)\", and it applies \"Except as provided in paragraph (b) of this section\".",
+      "explanation": "65.85(b) allows that approval \"after performing and inspecting a major repair or major alteration\", so the mechanic must have done both.",
       "source": {
         "title": "eCFR: 14 CFR 65.85, Airframe rating; additional privileges (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.85"
       },
       "checked": "2026-11-06",
-      "evidence": "Except as provided in paragraph (b) of this section, a certificated mechanic with an airframe rating may"
+      "evidence": "after performing and inspecting a major repair or major alteration"
     },
     {
       "id": "vb-015",
@@ -293,7 +293,7 @@
     {
       "id": "vb-016",
       "topic": "Airframe rating privileges",
-      "question": "14 CFR 65.85(b) lets an airframe-rated mechanic approve for return to service after performing and inspecting a major repair or major alteration. To which aircraft does this apply?",
+      "question": "14 CFR 65.85(b) lets an airframe-rated mechanic approve an airframe for return to service after a major repair or major alteration in one stated case. To which aircraft and products does it apply?",
       "options": {
         "A": "Any aircraft with a standard airworthiness certificate",
         "B": "An aircraft with a special airworthiness certificate in the light-sport category, for products that are not produced under an FAA approval",
@@ -331,7 +331,7 @@
     {
       "id": "vb-018",
       "topic": "Powerplant rating privileges",
-      "question": "Under 14 CFR 65.87(b), a powerplant-rated mechanic may approve a light-sport powerplant or propeller for return to service after a major repair or major alteration provided the work met which condition?",
+      "question": "Under 14 CFR 65.87(b), a powerplant-rated mechanic may approve a powerplant or propeller of an aircraft with a special airworthiness certificate in the light-sport category for return to service after a major repair or major alteration for products not produced under an FAA approval, provided the work met which condition?",
       "options": {
         "A": "It was approved in advance by the aircraft owner",
         "B": "It was performed by a student of a part 147 school",
@@ -345,7 +345,7 @@
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-65/subpart-D/section-65.87"
       },
       "checked": "2026-11-06",
-      "evidence": "provided the major repair or major alteration was authorized by, and performed in accordance with instructions developed by, the manufacturer or a person acceptable to the"
+      "evidence": "provided the major repair or major alteration was authorized by, and performed in accordance with instructions developed by, the manufacturer or a person acceptable to the FAA"
     },
     {
       "id": "vb-019",
