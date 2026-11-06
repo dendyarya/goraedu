@@ -4,7 +4,7 @@
   "href": "/lead-rrp/rrp-scope-definitions/study-guide/",
   "title": "Lead RRP scope and definitions study guide",
   "description": "Lead RRP scope study guide: who and what 40 CFR 745 Subpart E covers, the exceptions, emergency renovations, key definitions and recognized test kits.",
-  "intro": "Subpart E of 40 CFR Part 745 (the Renovation, Repair and Painting rule) applies to renovations performed for compensation in target housing and child-occupied facilities. This guide sets out what the federal rule text states in 745.80 to 745.83 and 745.88: the purpose and effective dates, the exceptions based on a written determination, an EPA recognized test kit or a paint chip sample, the emergency renovation rules, the definitions of child-occupied facility, renovation, minor repair and maintenance activities, firm, renovator and other terms, and how EPA recognizes test kits. Many provisions carry \"unless\", \"except\" or \"where\" conditions, and the dates matter. goraedu is not a training provider and does not certify renovators or firms. Your State or Tribe may run its own authorized program, so check its rules too. Every point links to the regulation and quotes its exact words.",
+  "intro": "Subpart E of 40 CFR Part 745 (the Renovation, Repair and Painting rule) applies to renovations performed for compensation in target housing and child-occupied facilities. This guide sets out what the federal rule text states in 745.80 to 745.83 and 745.88: the purpose and effective dates, the exceptions based on a written determination, an EPA recognized test kit or a paint chip sample, the emergency renovation rules, the definitions of target housing (from 745.103), child-occupied facility, renovation, minor repair and maintenance activities, firm, renovator and other terms, and how EPA recognizes test kits. Many provisions carry \"unless\", \"except\" or \"where\" conditions, and the dates matter. goraedu is not a training provider and does not certify renovators or firms. Your State or Tribe may run its own authorized program, so check its rules too. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "purpose-dates",
@@ -198,8 +198,17 @@
     },
     {
       "id": "child-occupied",
-      "name": "Child-occupied facilities",
+      "name": "Target housing and child-occupied facilities",
       "points": [
+        {
+          "text": "Target housing is any housing built before 1978, except housing for the elderly or persons with disabilities or any 0-bedroom dwelling. Those exceptions do not apply if any child less than 6 years of age lives or is expected to live in the housing.",
+          "quote": "Target housing means any housing constructed prior to 1978, except housing for the elderly or persons with disabilities or any 0-bedroom dwelling (unless any child who is less than 6 years of age resides or is expected to reside in such housing).",
+          "source": {
+            "title": "eCFR: 40 CFR 745.103, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.103"
+          },
+          "checked": "2026-11-06"
+        },
         {
           "text": "A child-occupied facility is a building, or portion of a building, constructed prior to 1978, visited regularly by the same child under 6 years of age on at least two different days within any week (Sunday through Saturday), where each day's visit lasts at least 3 hours, the combined weekly visits last at least 6 hours, and the combined annual visits last at least 60 hours.",
           "quote": "Child-occupied facility means a building, or portion of a building, constructed prior to 1978, visited regularly by the same child, under 6 years of age, on at least two different days within any week (Sunday through Saturday period), provided that each day's visit lasts at least 3 hours and the combined weekly visits last at least 6 hours, and the combined annual visits last at least 60 hours.",
@@ -255,7 +264,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "745.83 says the definitions in 745.103 also apply to Part 745. The term \"target housing\" is defined in 40 CFR 745.103, which is not quoted in this guide."
+      "notCovered": "745.83 says the definitions in 745.103 also apply to Part 745; the target housing point above quotes 745.103 (Subpart F). The 745.103 definitions of housing for the elderly and 0-bedroom dwelling are not set out point by point."
     },
     {
       "id": "renovation-minor",
@@ -334,7 +343,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "When jobs in the same room within the same 30 days are added together to decide whether work is minor repair and maintenance, emergency renovations are left out.",
+          "text": "Jobs, other than emergency renovations, done in the same room within the same 30 days must be treated as the same job when deciding whether the work is a minor repair and maintenance activity.",
           "quote": "Jobs, other than emergency renovations, performed in the same room within the same 30 days must be considered the same job for the purpose of determining whether the job is a minor repair and maintenance activity.",
           "source": {
             "title": "eCFR: 40 CFR 745.83, Definitions (as of Nov 4, 2026)",
