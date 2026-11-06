@@ -26,15 +26,15 @@
     {
       "id": "pt-002",
       "topic": "Scope and key definitions",
-      "question": "Under 403.3(k), what must both be true of a Discharge for it to be Interference?",
+      "question": "Under 403.3(v)(3), on what finding may the Control Authority determine that an Industrial User meeting the criteria in 403.3(v)(1)(ii) is not a Significant Industrial User?",
       "options": {
-        "A": "It exits the POTW into waters of the United States and contains any detectable pollutant",
-        "B": "It is discharged by a Significant Industrial User and exceeds 25,000 gallons per day",
-        "C": "It is trucked or hauled to the POTW and contains a hazardous waste",
-        "D": "It inhibits or disrupts the POTW (its treatment processes or operations, or its sludge processes, use or disposal) and therefore causes a violation of the POTW's NPDES permit or prevents sewage sludge use or disposal in compliance with the listed laws"
+        "A": "A finding that the User has paid all of its sewer use charges",
+        "B": "A finding that the User has installed a flow meter at its sampling point",
+        "C": "A finding that the POTW has a design flow of 5 mgd or less",
+        "D": "A finding that the User has no reasonable potential for adversely affecting the POTW's operation or for violating any Pretreatment Standards or requirement"
       },
       "answer": "D",
-      "explanation": "Interference is a Discharge that \"both: (1) Inhibits or disrupts the POTW, its treatment processes or operations, or its sludge processes, use or disposal; and (2) Therefore is a cause of a violation of any requirement of the POTW's NPDES permit\" or of the prevention of compliant sewage sludge use or disposal.",
+      "explanation": "\"Upon a finding that an Industrial User meeting the criteria in paragraph (v)(1)(ii) of this section has no reasonable potential for adversely affecting the POTW's operation or for violating any Pretreatment Standards or requirement, the Control Authority may at any time, on its own initiative or in response to a petition received from an Industrial User or POTW\", make that determination.",
       "source": {
         "title": "eCFR: 40 CFR 403.3, Definitions (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.3"
@@ -44,15 +44,15 @@
     {
       "id": "pt-003",
       "topic": "Scope and key definitions",
-      "question": "Besides the 25,000 gallons per day process wastewater criterion and designation by the Control Authority, which other criterion in 403.3(v)(1)(ii) makes an Industrial User a Significant Industrial User?",
+      "question": "Under 403.3(v)(2), which of these is one of the conditions for the Control Authority to find that an Industrial User subject to categorical Pretreatment Standards is a Non-Significant Categorical Industrial User?",
       "options": {
-        "A": "It contributes a process wastestream which makes up 5 percent or more of the average dry weather hydraulic or organic capacity of the POTW Treatment plant",
-        "B": "It discharges any amount of sanitary wastewater to the POTW",
-        "C": "It holds any environmental control permit for the facility",
-        "D": "It discharges by truck at a point designated by the POTW"
+        "A": "The Industrial User never discharges any untreated concentrated wastewater",
+        "B": "The Industrial User discharges only to a POTW with a design flow of 5 mgd or less",
+        "C": "The Industrial User has a slug control plan approved by the Approval Authority",
+        "D": "The Industrial User samples its Discharge every operating day"
       },
       "answer": "A",
-      "explanation": "Any other Industrial User is significant if it \"contributes a process wastestream which makes up 5 percent or more of the average dry weather hydraulic or organic capacity of the POTW Treatment plant\", among the other listed options.",
+      "explanation": "The finding requires that the User \"never discharges more than 100 gallons per day (gpd) of total categorical wastewater\" and meets the listed conditions: it \"has consistently complied with all applicable categorical Pretreatment Standards and Requirements\", \"annually submits the certification statement required in § 403.12(q)\", and \"never discharges any untreated concentrated wastewater.\"",
       "source": {
         "title": "eCFR: 40 CFR 403.3, Definitions (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.3"
@@ -296,15 +296,15 @@
     {
       "id": "pt-017",
       "topic": "Industrial User reports and notices",
-      "question": "For which pollutants does 403.12(g)(3) require grab samples in the reports under 403.12(b), (d), (e) and (h)?",
+      "question": "Under 403.12(g)(3), where may multiple grab samples for volatile organics and oil & grease, collected during a 24-hour period, be composited prior to the analysis?",
       "options": {
-        "A": "pH, cyanide, total phenols, oil and grease, sulfide, and volatile organic compounds",
-        "B": "All pollutants limited by the applicable Pretreatment Standard",
-        "C": "Only metals regulated by a categorical Pretreatment Standard",
-        "D": "Only BOD and total suspended solids"
+        "A": "In the laboratory",
+        "B": "In the field only",
+        "C": "In the field or in the laboratory, at the User's choice",
+        "D": "Nowhere; each grab sample must be analyzed separately"
       },
       "answer": "A",
-      "explanation": "\"Grab samples must be used for pH, cyanide, total phenols, oil and grease, sulfide, and volatile organic compounds.\" For all other pollutants, 24-hour flow-proportional composite samples are required unless the Control Authority authorizes otherwise.",
+      "explanation": "Multiple grab samples may be composited prior to the analysis as follows: \"For cyanide, total phenols, and sulfides the samples may be composited in the laboratory or in the field; for volatile organics and oil & grease the samples may be composited in the laboratory.\"",
       "source": {
         "title": "eCFR: 40 CFR 403.12, Reporting requirements for POTW's and industrial users (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.12"
@@ -350,15 +350,15 @@
     {
       "id": "pt-020",
       "topic": "Upset and bypass",
-      "question": "Under 403.17(b), when may an Industrial User allow a bypass that does not cause Pretreatment Standards or Requirements to be violated?",
+      "question": "Under 403.17(d)(2), after considering its adverse effects, what must the Control Authority determine before it may approve an anticipated bypass by an Industrial User?",
       "options": {
-        "A": "At any time, for any reason",
-        "B": "Only if it also is for essential maintenance to assure efficient operation",
-        "C": "Only during wet weather flows",
-        "D": "Only after the Approval Authority holds a public hearing"
+        "A": "That the bypass will last less than 24 hours",
+        "B": "That the bypass will meet the three conditions listed in 403.17(d)(1)",
+        "C": "That the POTW Treatment Plant has spare treatment capacity",
+        "D": "That the Industrial User has published notice of the bypass in a newspaper"
       },
       "answer": "B",
-      "explanation": "\"An Industrial User may allow any bypass to occur which does not cause Pretreatment Standards or Requirements to be violated, but only if it also is for essential maintenance to assure efficient operation.\"",
+      "explanation": "\"The Control Authority may approve an anticipated bypass, after considering its adverse effects, if the Control Authority determines that it will meet the three conditions listed in paragraph (d)(1) of this section.\" The first condition is that the \"Bypass was unavoidable to prevent loss of life, personal injury, or severe property damage\"; the others are no feasible alternatives and the required notices.",
       "source": {
         "title": "eCFR: 40 CFR 403.17, Bypass (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-N/part-403/section-403.17"

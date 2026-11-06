@@ -26,15 +26,15 @@
     {
       "id": "pv-002",
       "topic": "Scope and definitions",
-      "question": "How does 503.31(k) define vector attraction?",
+      "question": "Under 503.31(j), what term names organic materials in sewage sludge that have not been treated in either an aerobic or anaerobic treatment process?",
       "options": {
-        "A": "The characteristic of sewage sludge that attracts rodents, flies, mosquitos, or other organisms capable of transporting infectious agents",
-        "B": "The number of microorganisms per unit mass of total solids (dry weight) in the sewage sludge",
-        "C": "The mass of oxygen consumed per unit time per unit mass of total solids in the sewage sludge",
-        "D": "The disease-causing organisms in sewage sludge"
+        "A": "Unstabilized solids",
+        "B": "Volatile solids",
+        "C": "Total solids",
+        "D": "Pathogenic organisms"
       },
       "answer": "A",
-      "explanation": "\"Vector attraction is the characteristic of sewage sludge that attracts rodents, flies, mosquitos, or other organisms capable of transporting infectious agents.\" The other options describe density of microorganisms, specific oxygen uptake rate and pathogenic organisms.",
+      "explanation": "\"Unstabilized solids are organic materials in sewage sludge that have not been treated in either an aerobic or anaerobic treatment process.\" Volatile solids, by contrast, \"is the amount of the total solids in sewage sludge lost when the sewage sludge is combusted at 550 degrees Celsius in the presence of excess air.\"",
       "source": {
         "title": "eCFR: 40 CFR 503.31, Special definitions (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.31"
@@ -80,15 +80,15 @@
     {
       "id": "pv-005",
       "topic": "Class A: general rule and Alternatives 1 and 2",
-      "question": "In the Class A density requirement, what is the alternative to the fecal coliform density?",
+      "question": "Under Class A Alternative 2, what must be done with the sewage sludge at the end of the 72 hour period during which its pH is above 12?",
       "options": {
-        "A": "An enteric virus density of less than one Plaque-forming Unit per four grams of total solids",
-        "B": "A Salmonella sp. bacteria density of less than three Most Probable Number per four grams of total solids (dry weight basis)",
-        "C": "A geometric mean fecal coliform density from seven samples",
-        "D": "A viable helminth ova density of less than one per four grams of total solids"
+        "A": "Add more alkali so the pH stays at 11.5 or higher for an additional 22 hours",
+        "B": "Air dry it to achieve a percent solids in the sewage sludge greater than 50 percent",
+        "C": "Heat it to 70 degrees Celsius or higher for 30 minutes or longer",
+        "D": "Inject it below the land surface within one hour"
       },
       "answer": "B",
-      "explanation": "Alternative 1 reads: \"Either the density of fecal coliform in the sewage sludge shall be less than 1000 Most Probable Number per gram of total solids (dry weight basis), or the density of Salmonella sp. bacteria in the sewage sludge shall be less than three Most Probable Number per four grams of total solids (dry weight basis)\". Enteric viruses and helminth ova are separate steps in Alternatives 3 and 4, and the seven-sample geometric mean is Class B Alternative 1.",
+      "explanation": "\"At the end of the 72 hour period during which the pH of the sewage sludge is above 12, the sewage sludge shall be air dried to achieve a percent solids in the sewage sludge greater than 50 percent.\" During that period the temperature must also be \"above 52 degrees Celsius for 12 hours or longer\".",
       "source": {
         "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
@@ -170,15 +170,15 @@
     {
       "id": "pv-010",
       "topic": "Class B pathogen requirements and site restrictions",
-      "question": "Under Class B Alternative 1, which value of the fecal coliform densities in the seven samples is compared with the limit?",
+      "question": "Under 503.32(b)(1)(ii), when must the site restrictions in 503.32(b)(5) be met?",
       "options": {
-        "A": "The arithmetic mean",
-        "B": "The highest single sample",
-        "C": "The median",
-        "D": "The geometric mean"
+        "A": "Only when the sewage sludge is placed on an active sewage sludge unit",
+        "B": "Only when the sewage sludge is sold or given away in a bag or other container",
+        "C": "Only when Class B Alternative 1 is the requirement used",
+        "D": "When sewage sludge that meets the Class B pathogen requirements in 503.32(b)(2), (b)(3), or (b)(4) is applied to the land"
       },
       "answer": "D",
-      "explanation": "\"The geometric mean of the density of fecal coliform in the samples collected in paragraph (b)(2)(i) of this section shall be less than\" the stated values.",
+      "explanation": "\"The site restrictions in § 503.32(b)(5) shall be met when sewage sludge that meets the Class B pathogen requirements in § 503.32(b)(2), (b)(3), or (b)(4) is applied to the land.\"",
       "source": {
         "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
@@ -242,18 +242,18 @@
     {
       "id": "pv-014",
       "topic": "Domestic septage",
-      "question": "What does vector attraction reduction option 503.33(b)(12) require?",
+      "question": "Domestic septage is applied to a forest without its pH being raised. Which pathogen requirement in 503.32(c) must then be met?",
       "options": {
-        "A": "The pH of domestic septage raised to 12 or higher by alkali addition and, without more alkali, kept at 12 or higher for 30 minutes",
-        "B": "The pH raised to 12 or higher and kept there for two hours, then at 11.5 or higher for an additional 22 hours",
-        "C": "The pH raised to above 12 and kept above 12 for 72 hours",
-        "D": "Enough lime added to raise the pH to 12 after two hours of contact"
+        "A": "The site restrictions in 503.32(b)(5)",
+        "B": "Incorporation of the septage into the soil within six hours after application",
+        "C": "Covering the septage with soil or other material at the end of each operating day",
+        "D": "None; domestic septage applied to a forest has no pathogen requirement"
       },
       "answer": "A",
-      "explanation": "\"The pH of domestic septage shall be raised to 12 or higher by alkali addition and, without the addition of more alkali, shall remain at 12 or higher for 30 minutes.\" The other options describe 503.33(b)(6), Class A Alternative 2 and the lime stabilization PSRP.",
+      "explanation": "Under 503.32(c)(1), \"The site restrictions in § 503.32(b)(5) shall be met when domestic septage is applied to agricultural land, forest, or a reclamation site\"; the other option, (c)(2), requires the pH to be raised \"to 12 or higher by alkali addition\".",
       "source": {
-        "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
+        "title": "eCFR: 40 CFR 503.32, Pathogens (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.32"
       },
       "checked": "2026-11-06"
     },
@@ -296,15 +296,15 @@
     {
       "id": "pv-017",
       "topic": "Vector attraction reduction options",
-      "question": "In the anaerobic bench-scale option in 503.33(b)(2), what result at the end of the 40 additional days shows that vector attraction reduction is achieved?",
+      "question": "For the aerobic bench-scale option in 503.33(b)(3), what percent solids must the portion of previously digested sewage sludge have?",
       "options": {
-        "A": "The volatile solids are reduced by less than 17 percent",
-        "B": "The volatile solids are reduced by more than 17 percent",
-        "C": "The volatile solids are reduced by less than 15 percent",
-        "D": "The volatile solids are reduced by at least 38 percent"
+        "A": "Two percent or less",
+        "B": "Seven percent or higher",
+        "C": "75 percent or more",
+        "D": "Greater than 50 percent"
       },
       "answer": "A",
-      "explanation": "\"When at the end of the 40 days, the volatile solids in the sewage sludge at the beginning of that period is reduced by less than 17 percent, vector attraction reduction is achieved.\"",
+      "explanation": "The option digests \"a portion of the previously digested sewage sludge that has a percent solids of two percent or less aerobically in the laboratory in a bench-scale unit for 30 additional days at 20 degrees Celsius.\"",
       "source": {
         "title": "eCFR: 40 CFR 503.33, Vector attraction reduction (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-D/section-503.33"
@@ -350,15 +350,15 @@
     {
       "id": "pv-020",
       "topic": "Appendix B pathogen treatment processes",
-      "question": "Which of these processes does Appendix B list as a Process to Further Reduce Pathogens (PFRP)?",
+      "question": "Appendix B describes air drying as a Process to Significantly Reduce Pathogens. What condition must hold during two of the three months the sewage sludge dries?",
       "options": {
-        "A": "Air drying",
-        "B": "Lime stabilization",
-        "C": "Pasteurization",
-        "D": "Anaerobic digestion"
+        "A": "The sewage sludge is turned at least five times",
+        "B": "The pH of the sewage sludge stays at 12 or higher",
+        "C": "The ambient average daily temperature is above zero degrees Celsius",
+        "D": "The sewage sludge is covered with soil at the end of each operating day"
       },
       "answer": "C",
-      "explanation": "Appendix B lists \"Pasteurization—The temperature of the sewage sludge is maintained at 70 degrees Celsius or higher for 30 minutes or longer\" under the Processes to Further Reduce Pathogens. Air drying, lime stabilization and anaerobic digestion are listed as Processes To Significantly Reduce Pathogens.",
+      "explanation": "\"Air drying—Sewage sludge is dried on sand beds or on paved or unpaved basins. The sewage sludge dries for a minimum of three months. During two of the three months, the ambient average daily temperature is above zero degrees Celsius.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 503, Appendix B (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503"

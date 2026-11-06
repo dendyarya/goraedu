@@ -44,33 +44,33 @@
     {
       "id": "bu-003",
       "topic": "General provisions",
-      "question": "Under 503.7, who shall ensure that the applicable Part 503 requirements are met when sewage sludge is applied to the land, placed on a surface disposal site or fired in a sewage sludge incinerator?",
+      "question": "Under 503.4, what must any person who prepares sewage sludge that is disposed in a municipal solid waste landfill unit ensure?",
       "options": {
-        "A": "Any person who prepares sewage sludge",
-        "B": "The EPA Regional Administrator",
-        "C": "The owner of the land on which the sludge is applied, and no one else",
-        "D": "The State permitting authority"
+        "A": "That the sewage sludge meets the requirements in 40 CFR part 258 concerning the quality of materials disposed in a municipal solid waste landfill unit",
+        "B": "That the sewage sludge meets the Class A pathogen requirements in 503.32(a)",
+        "C": "That the sewage sludge meets the pollutant concentrations in Table 3 of 503.13",
+        "D": "That the sewage sludge is covered with soil at the end of each operating day under 503.33(b)(11)"
       },
       "answer": "A",
-      "explanation": "\"Any person who prepares sewage sludge shall ensure that the applicable requirements in this part are met when the sewage sludge is applied to the land, placed on a surface disposal site, or fired in a sewage sludge incinerator.\"",
+      "explanation": "Disposal in a municipal solid waste landfill unit \"that complies with the requirements in 40 CFR part 258 constitutes compliance with section 405(d) of the CWA.\" The preparer \"shall ensure that the sewage sludge meets the requirements in 40 CFR part 258 concerning the quality of materials disposed in a municipal solid waste landfill unit.\"",
       "source": {
-        "title": "eCFR: 40 CFR 503.7, Requirement for a person who prepares sewage sludge (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.7"
+        "title": "eCFR: 40 CFR 503.4, Relationship to other regulations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.4"
       },
       "checked": "2026-11-06"
     },
     {
       "id": "bu-004",
       "topic": "Definitions",
-      "question": "Which placement of sewage sludge does the definition of storage in 503.9(y) exclude?",
+      "question": "Under 503.9(r), which of these is a person who prepares sewage sludge?",
       "options": {
-        "A": "Placement on land where the sludge remains for six months",
-        "B": "Placement on land where the sludge remains for 18 months",
-        "C": "Placement of sewage sludge on land for treatment",
-        "D": "Placement on land where the sludge remains for two years"
+        "A": "A person who only hauls sewage sludge from the treatment works to a farm",
+        "B": "The owner of the land on which sewage sludge is applied",
+        "C": "The person who derives a material from sewage sludge",
+        "D": "The permitting authority that issues the sludge permit"
       },
       "answer": "C",
-      "explanation": "Storage \"is the placement of sewage sludge on land on which the sewage sludge remains for two years or less. This does not include the placement of sewage sludge on land for treatment.\"",
+      "explanation": "\"Person who prepares sewage sludge is either the person who generates sewage sludge during the treatment of domestic sewage in a treatment works or the person who derives a material from sewage sludge.\"",
       "source": {
         "title": "eCFR: 40 CFR 503.9, General definitions (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.9"
@@ -80,15 +80,15 @@
     {
       "id": "bu-005",
       "topic": "Definitions",
-      "question": "Which material fits the definition of domestic septage in 503.9(f)?",
+      "question": "Which activities does the 503.9(z) definition of treatment of sewage sludge name as included?",
       "options": {
-        "A": "Material removed from a portable toilet that receives only domestic sewage",
-        "B": "Grease removed from a grease trap at a restaurant",
-        "C": "Material removed from a septic tank that receives commercial wastewater",
-        "D": "Material removed from a cesspool that receives industrial wastewater"
+        "A": "Thickening, stabilization, and dewatering of sewage sludge",
+        "B": "Storage of sewage sludge on land for two years or less",
+        "C": "Placement of sewage sludge on a surface disposal site",
+        "D": "Application of bulk sewage sludge to agricultural land"
       },
       "answer": "A",
-      "explanation": "Domestic septage is material \"removed from a septic tank, cesspool, portable toilet, Type III marine sanitation device, or similar treatment works that receives only domestic sewage.\" It \"does not include grease removed from a grease trap at a restaurant\" or material from works that receive \"either commercial wastewater or industrial wastewater.\"",
+      "explanation": "\"Treat or treatment of sewage sludge is the preparation of sewage sludge for final use or disposal. This includes, but is not limited to, thickening, stabilization, and dewatering of sewage sludge. This does not include storage of sewage sludge.\"",
       "source": {
         "title": "eCFR: 40 CFR 503.9, General definitions (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-A/section-503.9"
@@ -170,15 +170,15 @@
     {
       "id": "bu-010",
       "topic": "Land application: pollutant limits and management practices",
-      "question": "What distance from waters of the United States does 503.14(c) set for the ban on applying bulk sewage sludge to agricultural land, forest or a reclamation site, unless the permitting authority specifies otherwise?",
+      "question": "Under 503.14(e), which item must the label or information sheet for sewage sludge sold or given away in a bag or other container for application to the land contain?",
       "options": {
-        "A": "60 meters or less",
-        "B": "150 meters or less",
-        "C": "10 meters or less",
-        "D": "25 meters or less"
+        "A": "The name of the person who will apply the sewage sludge",
+        "B": "The fecal coliform density measured in the sewage sludge",
+        "C": "The annual whole sludge application rate that does not cause any of the annual pollutant loading rates in Table 4 of 503.13 to be exceeded",
+        "D": "The date on which the sewage sludge was put in the bag"
       },
       "answer": "C",
-      "explanation": "Bulk sewage sludge \"shall not be applied to agricultural land, forest, or a reclamation site that is 10 meters or less from waters of the United States, as defined in 40 CFR 122.2, unless otherwise specified by the permitting authority.\"",
+      "explanation": "The label or information sheet must contain the name and address of the person who prepared the sewage sludge, a statement that application \"is prohibited except in accordance with the instructions on the label or information sheet\", and \"The annual whole sludge application rate for the sewage sludge that does not cause any of the annual pollutant loading rates in Table 4 of § 503.13 to be exceeded.\"",
       "source": {
         "title": "eCFR: 40 CFR 503.14, Management practices (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.14"
@@ -206,15 +206,15 @@
     {
       "id": "bu-012",
       "topic": "Land application: monitoring, records and reports",
-      "question": "In Table 1 of 503.16 (land application), what monitoring frequency is set for an amount of sewage sludge equal to or greater than 1,500 but less than 15,000 metric tons per 365 day period?",
+      "question": "Under 503.16(b), when domestic septage applied to agricultural land, forest, or a reclamation site meets the pathogen requirements in 503.32(c)(2) or the vector attraction reduction requirements in 503.33(b)(12), what must be monitored for compliance with those requirements?",
       "options": {
-        "A": "Once per year",
-        "B": "Once per quarter (four times per year)",
-        "C": "Once per month (12 times per year)",
-        "D": "Once per 60 days (six times per year)"
+        "A": "One composite sample per 365 day period",
+        "B": "One container out of every ten applied",
+        "C": "Only the first container applied each month",
+        "D": "Each container of domestic septage applied to the land"
       },
       "answer": "D",
-      "explanation": "The Table 1 row \"Equal to or greater than 1,500 but less than 15,000\" sets \"Once per 60 days (six times per year).\" The amount is either the bulk sewage sludge applied to the land or the sludge prepared for sale or give-away in a bag or other container, \"(dry weight basis).\"",
+      "explanation": "In that case \"each container of domestic septage applied to the land shall be monitored for compliance with those requirements.\"",
       "source": {
         "title": "eCFR: 40 CFR 503.16, Frequency of monitoring (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-B/section-503.16"
@@ -278,15 +278,15 @@
     {
       "id": "bu-016",
       "topic": "Surface disposal",
-      "question": "What limit does 503.24(j)(1) set for methane gas in air at the property line of the surface disposal site while a covered sewage sludge unit is active?",
+      "question": "Under 503.24(l), on what condition may animals be grazed on an active sewage sludge unit?",
       "options": {
-        "A": "It shall not exceed 10 percent of the lower explosive limit",
-        "B": "It shall not exceed the lower explosive limit for methane gas",
-        "C": "It shall not exceed 50 percent of the lower explosive limit",
-        "D": "It shall not exceed 25 percent of the lower explosive limit"
+        "A": "When the sewage sludge placed on the unit meets one of the Class B pathogen requirements",
+        "B": "When the owner/operator demonstrates to the permitting authority that, through management practices, public health and the environment are protected from reasonably anticipated adverse effects of pollutants in the sludge",
+        "C": "When the active sewage sludge unit has a liner and a leachate collection system",
+        "D": "When 30 days have passed since sewage sludge was last placed on the active sewage sludge unit"
       },
       "answer": "B",
-      "explanation": "Methane \"at the property line of the surface disposal site shall not exceed the lower explosive limit for methane gas during the period that the sewage sludge unit is active.\" The 25 percent limit is for air \"in any structure within the surface disposal site.\"",
+      "explanation": "\"Animals shall not be grazed on an active sewage sludge unit, unless the owner/operator of the surface disposal site demonstrates to the permitting authority that through management practices public health and the environment are protected from any reasonably anticipated adverse effects of pollutants in sewage sludge when animals are grazed.\"",
       "source": {
         "title": "eCFR: 40 CFR 503.24, Management practices (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-C/section-503.24"
