@@ -11,11 +11,11 @@
       "question": "Under 1926.1101(h)(1), during Class II asbestos work, respirators must be used when which condition applies?",
       "options": {
         "A": "The work is performed in a building occupied by the public",
-        "B": "The ACM is not removed in a substantially intact state",
-        "C": "The work lasts longer than one workshift",
+        "B": "The work lasts longer than one workshift",
+        "C": "The ACM is not removed in a substantially intact state",
         "D": "The ACM is resilient floor covering"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "Paragraph (h)(1)(ii) lists \"Class II asbestos work when ACM is not removed in a substantially intact state.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -28,12 +28,12 @@
       "topic": "When respirators must be used",
       "question": "Class II and III asbestos work not performed using wet methods requires respirators under (h)(1)(iii). Which work does the rule except?",
       "options": {
-        "A": "Removal of TSI from pipes in a crawl space after a HEPA vacuum is used",
+        "A": "Removal of ACM from sloped roofs when a negative-exposure assessment has been conducted and ACM is removed in an intact state",
         "B": "Removal of vinyl floor tile when the room is ventilated",
         "C": "Class III repair of surfacing material in a single room",
-        "D": "Removal of ACM from sloped roofs when a negative-exposure assessment has been conducted and ACM is removed in an intact state"
+        "D": "Removal of TSI from pipes in a crawl space after a HEPA vacuum is used"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "The rule excepts \"removal of ACM from sloped roofs when a negative-exposure assessment has been conducted and ACM is removed in an intact state.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -46,12 +46,12 @@
       "topic": "When respirators must be used",
       "question": "A worker is doing Class IV asbestos work inside a regulated area. Under (h)(1)(vi), when must this worker use a respirator?",
       "options": {
-        "A": "When employees who are performing other work in that regulated area are required to use respirators",
-        "B": "Only when the Class IV work lasts longer than 30 minutes",
+        "A": "Only when the Class IV work lasts longer than 30 minutes",
+        "B": "When employees who are performing other work in that regulated area are required to use respirators",
         "C": "Only when the worker asks for one",
         "D": "Only when the work is performed outdoors"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Respirators must be used during \"Class IV asbestos work performed within regulated areas where employees who are performing other work are required to use respirators.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -66,10 +66,10 @@
       "options": {
         "A": "The employee may do the work if they sign a statement accepting the risk",
         "B": "The employee may do the work only with a filtering facepiece respirator",
-        "C": "The employee shall not be assigned to asbestos work that requires respirator use",
-        "D": "The employee may do the work only under the direct supervision of the competent person"
+        "C": "The employee may do the work only under the direct supervision of the competent person",
+        "D": "The employee shall not be assigned to asbestos work that requires respirator use"
       },
-      "answer": "C",
+      "answer": "D",
       "explanation": "\"No employee shall be assigned to asbestos work that requires respirator use if, based on their most recent medical examination, the examining physician determines that the employee will be unable to function normally while using a respirator.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -82,12 +82,12 @@
       "topic": "Respirator program and medical fitness",
       "question": "An employee who cannot use a respirator is offered an available transfer position under (h)(2)(ii). What must that position be?",
       "options": {
-        "A": "With the same employer, in the same geographical area, and with the same seniority, status, rate of pay, and other job benefits",
+        "A": "With the same employer, at a rate of pay set by the examining physician",
         "B": "With any employer in the same State, at the same rate of pay",
         "C": "With the same employer at any location, with seniority starting over",
-        "D": "With the same employer, at a rate of pay set by the examining physician"
+        "D": "With the same employer, in the same geographical area, and with the same seniority, status, rate of pay, and other job benefits"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "The rule says the transfer position \"must be with the same employer, in the same geographical area, and with the same seniority, status, rate of pay, and other job benefits the employee had just prior to such transfer.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -101,11 +101,11 @@
       "question": "A supervisor wants to issue disposable filtering facepiece respirators to an asbestos crew, choosing them from the respirators listed in 29 CFR 1910.134(d)(3)(i)(A). What does 1926.1101(h)(3)(i)(A) set?",
       "options": {
         "A": "Filtering facepiece respirators may be used for Class III asbestos work",
-        "B": "Filtering facepiece respirators may be used once each employee is fit-tested",
+        "B": "Employers must not select or use filtering facepiece respirators for use against asbestos fibers",
         "C": "Filtering facepiece respirators may be used when the work is performed outdoors",
-        "D": "Employers must not select or use filtering facepiece respirators for use against asbestos fibers"
+        "D": "Filtering facepiece respirators may be used once each employee is fit-tested"
       },
-      "answer": "D",
+      "answer": "B",
       "explanation": "Employers select respirators from 29 CFR 1910.134(d)(3)(i)(A); \"however, employers must not select or use filtering facepiece respirators for use against asbestos fibers.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -119,11 +119,11 @@
       "question": "An employee who would be given a negative pressure respirator chooses to use a tight-fitting PAPR, and the PAPR provides adequate protection. What does (h)(3)(ii) require of the employer?",
       "options": {
         "A": "To refuse, because the respirator was already selected",
-        "B": "To provide the PAPR instead of the negative pressure respirator",
-        "C": "To allow the PAPR only if the employee buys it",
+        "B": "To allow the PAPR only if the employee buys it",
+        "C": "To provide the PAPR instead of the negative pressure respirator",
         "D": "To provide a supplied-air respirator instead"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "Employers \"must provide an employee with tight-fitting, powered air-purifying respirator (PAPR) instead of a negative pressure respirator ... when the employee chooses to use a PAPR and it provides adequate protection to the employee.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -136,12 +136,12 @@
       "topic": "Respirator selection",
       "question": "Under (h)(3)(iii)(B), employers must provide an air-purifying half mask respirator, other than a filtering facepiece respirator, whenever employees perform which Class III asbestos work?",
       "options": {
-        "A": "Class III asbestos work performed outdoors",
+        "A": "Class III asbestos work involving disturbance of TSI or surfacing ACM or PACM",
         "B": "Class III asbestos work lasting more than one workshift",
-        "C": "Class III asbestos work involving disturbance of TSI or surfacing ACM or PACM",
+        "C": "Class III asbestos work performed outdoors",
         "D": "Class III asbestos work done by a crew of more than two employees"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "Employers must provide \"an air-purifying half mask respirator, other than a filtering facepiece respirator,\" whenever employees perform \"Class III asbestos work involving disturbance of TSI or surfacing ACM or PACM.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -191,11 +191,11 @@
       "question": "An employer gives contaminated clothing to an outside laundry. What does (i)(2)(ii) require the employer to do?",
       "options": {
         "A": "Obtain a written laundering certificate from the competent person",
-        "B": "Inform the laundry of the requirement to effectively prevent the release of airborne asbestos in excess of the TWA and excursion limit",
-        "C": "Have the clothing washed twice before it leaves the site",
+        "B": "Have the clothing washed twice before it leaves the site",
+        "C": "Inform the laundry of the requirement to effectively prevent the release of airborne asbestos in excess of the TWA and excursion limit",
         "D": "Send the clothing only in open bins so the laundry can inspect it"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "The employer \"shall inform such person of the requirement in paragraph (i)(2)(i) of this section to effectively prevent the release of airborne asbestos in excess of the TWA and excursion limit.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -209,11 +209,11 @@
       "question": "How does (i)(3) say contaminated clothing must be transported?",
       "options": {
         "A": "In cloth laundry bags tied at the top",
-        "B": "In an open hamper lined with plastic",
-        "C": "In sealed impermeable bags, or other closed, impermeable containers, labeled in accordance with paragraph (k)",
+        "B": "In sealed impermeable bags, or other closed, impermeable containers, labeled in accordance with paragraph (k)",
+        "C": "In an open hamper lined with plastic",
         "D": "Folded inside out in the cab of a work vehicle"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "\"Contaminated clothing shall be transported in sealed impermeable bags, or other closed, impermeable containers, and be labeled in accordance with paragraph (k) of this section.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -226,12 +226,12 @@
       "topic": "Protective clothing",
       "question": "Under (i)(4)(i), who must examine the worksuits worn by employees for rips or tears?",
       "options": {
-        "A": "The competent person",
-        "B": "The examining physician",
+        "A": "The examining physician",
+        "B": "The competent person",
         "C": "Each employee's coworker on the same crew",
         "D": "The laundry that cleans the worksuits"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "\"The competent person shall examine worksuits worn by employees at least once per workshift for rips or tears that may occur during performance of work.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -246,10 +246,10 @@
       "options": {
         "A": "A locker for each employee's street clothing",
         "B": "Shower facilities that comply with 29 CFR 1910.141(d)(3)",
-        "C": "A lunch area with filtered air",
-        "D": "Impermeable, labeled bags and containers for the containment and disposal of contaminated protective equipment"
+        "C": "Impermeable, labeled bags and containers for the containment and disposal of contaminated protective equipment",
+        "D": "A lunch area with filtered air"
       },
-      "answer": "D",
+      "answer": "C",
       "explanation": "\"The equipment room shall be supplied with impermeable, labeled bags and containers for the containment and disposal of contaminated protective equipment.\" Lockers belong in the clean room under (j)(1)(i)(C).",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -263,11 +263,11 @@
       "question": "On a large Class I job, the employer demonstrates that the shower cannot feasibly be located between the equipment room and the clean room. Which is one of the options (j)(1)(i)(B) gives for what employees must do?",
       "options": {
         "A": "Skip the shower if they change into street clothes outdoors",
-        "B": "Remove asbestos contamination from their worksuits in the equipment room using a HEPA vacuum before proceeding to a shower that is not adjacent to the work area",
+        "B": "Wear their worksuits to the nearest public restroom to wash",
         "C": "Blow off their worksuits with compressed air and shower at home",
-        "D": "Wear their worksuits to the nearest public restroom to wash"
+        "D": "Remove asbestos contamination from their worksuits in the equipment room using a HEPA vacuum before proceeding to a shower that is not adjacent to the work area"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "Employees must \"Remove asbestos contamination from their worksuits in the equipment room using a HEPA vacuum before proceeding to a shower that is not adjacent to the work area; or\" remove their contaminated worksuits and don clean ones first.",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -280,12 +280,12 @@
       "topic": "Decontamination area entry and exit, and lunch areas",
       "question": "Under the decontamination area entry procedures in (j)(1)(ii), what must employees do before leaving the clean room?",
       "options": {
-        "A": "Shower",
+        "A": "Put on protective clothing and respiratory protection",
         "B": "HEPA vacuum their street clothing",
-        "C": "Put on protective clothing and respiratory protection",
+        "C": "Shower",
         "D": "Remove gross contamination from their equipment"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "The employer shall ensure that employees \"Put on protective clothing and respiratory protection before leaving the clean room.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -331,15 +331,15 @@
     },
     {
       "id": "xd-019",
-      "topic": "Hygiene for smaller jobs, Class II, III and IV work, and smoking",
+      "topic": "Hygiene for smaller Class I jobs, Class II, III and IV work, and smoking",
       "question": "Class II asbestos work is done with no negative exposure assessment produced before the operation. Under (j)(2)(i), what does the equipment room or area consist of?",
       "options": {
         "A": "An equipment room, shower area, and clean room in series",
-        "B": "An area covered by an impermeable drop cloth on the floor or horizontal working surface",
-        "C": "A lunch area with filtered air",
+        "B": "A lunch area with filtered air",
+        "C": "An area covered by an impermeable drop cloth on the floor or horizontal working surface",
         "D": "A locker room at least 50 feet from the regulated area"
       },
-      "answer": "B",
+      "answer": "C",
       "explanation": "The equipment room or area \"shall consist of an area covered by an impermeable drop cloth on the floor or horizontal working surface.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
@@ -349,15 +349,15 @@
     },
     {
       "id": "xd-020",
-      "topic": "Hygiene for smaller jobs, Class II, III and IV work, and smoking",
+      "topic": "Hygiene for smaller Class I jobs, Class II, III and IV work, and smoking",
       "question": "Employees perform Class IV work within a regulated area where Class I work is also under way. What hygiene practice does (j)(3) require them to follow?",
       "options": {
         "A": "Only the no-smoking rule in (j)(4)",
-        "B": "Their own hygiene plan, chosen by each employee",
-        "C": "The hygiene practice required of employees performing work which has a higher classification within that regulated area",
+        "B": "The hygiene practice required of employees performing work which has a higher classification within that regulated area",
+        "C": "Their own hygiene plan, chosen by each employee",
         "D": "No hygiene practice, as long as the Class IV work lasts less than one hour"
       },
-      "answer": "C",
+      "answer": "B",
       "explanation": "Employers \"shall ensure that employees performing Class IV work within a regulated area comply with the hygiene practice required of employees performing work which has a higher classification within that regulated area.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
