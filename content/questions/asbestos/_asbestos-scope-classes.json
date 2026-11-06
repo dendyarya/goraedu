@@ -1,0 +1,389 @@
+{
+  "cluster": "asbestos",
+  "slug": "asbestos-scope-classes",
+  "title": "Asbestos scope, definitions, classes of work and exposure limits practice questions",
+  "description": "Practice questions on OSHA's construction asbestos rule: scope, ACM and PACM, Class I-IV work, key terms, exposure and multi-employer duties.",
+  "href": "/asbestos/asbestos-scope-classes/practice-test/",
+  "questions": [
+    {
+      "id": "xa-001",
+      "topic": "Scope and application",
+      "question": "A crew on a construction site is applying an asbestos-containing asphalt roof coating. What does 1926.1101(a)(8) say about this material?",
+      "options": {
+        "A": "It is Class II asbestos work",
+        "B": "The section does not apply to asbestos-containing asphalt roof coatings",
+        "C": "It must be treated as PACM",
+        "D": "It is covered only if the coating is friable"
+      },
+      "answer": "B",
+      "explanation": "Paragraph (a)(8) states: \"This section does not apply to asbestos-containing asphalt roof coatings, cements and mastics.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "This section does not apply to asbestos-containing asphalt roof coatings, cements and mastics."
+    },
+    {
+      "id": "xa-002",
+      "topic": "Scope and application",
+      "question": "Under 1926.1101(a)(7), what is coverage under the asbestos standard based on?",
+      "options": {
+        "A": "The employer's industry classification code",
+        "B": "The number of employees on the site",
+        "C": "The dollar value of the construction contract",
+        "D": "The nature of the work operation involving asbestos exposure"
+      },
+      "answer": "D",
+      "explanation": "Paragraph (a)(7) states: \"Coverage under this standard shall be based on the nature of the work operation involving asbestos exposure.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Coverage under this standard shall be based on the nature of the work operation involving asbestos exposure."
+    },
+    {
+      "id": "xa-003",
+      "topic": "ACM, PACM and material categories",
+      "question": "How does 1926.1101(b) define presumed asbestos containing material (PACM)?",
+      "options": {
+        "A": "Thermal system insulation and surfacing material found in buildings constructed no later than 1980",
+        "B": "Any building material installed before 1980 that has not been sampled",
+        "C": "Any material containing more than one percent asbestos",
+        "D": "Floor tile and roofing found in buildings constructed no later than 1980"
+      },
+      "answer": "A",
+      "explanation": "The rule defines it as \"thermal system insulation and surfacing material found in buildings constructed no later than 1980.\" Any material containing more than one percent asbestos is the definition of ACM, not PACM.",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Presumed Asbestos Containing Material means thermal system insulation and surfacing material found in buildings constructed no later than 1980."
+    },
+    {
+      "id": "xa-004",
+      "topic": "ACM, PACM and material categories",
+      "question": "Under 1926.1101(b), what makes a material asbestos-containing material (ACM)?",
+      "options": {
+        "A": "It contains any detectable amount of asbestos",
+        "B": "It contains more than 0.1 percent asbestos",
+        "C": "It contains more than one percent asbestos",
+        "D": "It contains more than 5 percent asbestos"
+      },
+      "answer": "C",
+      "explanation": "The rule states: \"Asbestos-containing material (ACM), means any material containing more than one percent asbestos.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Asbestos-containing material (ACM), means any material containing more than one percent asbestos."
+    },
+    {
+      "id": "xa-005",
+      "topic": "ACM, PACM and material categories",
+      "question": "Which description matches \"surfacing material\" as defined in 1926.1101(b)?",
+      "options": {
+        "A": "Material bonded into a matrix that cannot be crumbled by hand",
+        "B": "Material that is sprayed, troweled-on or otherwise applied to surfaces",
+        "C": "ACM applied to pipes, boilers and ducts to prevent heat loss or gain",
+        "D": "Any material attached to a load-supporting structural member"
+      },
+      "answer": "B",
+      "explanation": "Surfacing material \"means material that is sprayed, troweled-on or otherwise applied to surfaces,\" such as acoustical plaster on ceilings and fireproofing on structural members. ACM on pipes, boilers and ducts to prevent heat loss or gain is thermal system insulation.",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Surfacing material means material that is sprayed, troweled-on or otherwise applied to surfaces"
+    },
+    {
+      "id": "xa-006",
+      "topic": "Classes of asbestos work",
+      "question": "A contractor is removing asbestos-containing floor tile from a corridor. Under 1926.1101(b), which class of asbestos work is this?",
+      "options": {
+        "A": "Class I",
+        "B": "Class III",
+        "C": "Class IV",
+        "D": "Class II"
+      },
+      "answer": "D",
+      "explanation": "Class II work is \"the removal of ACM which is not thermal system insulation or surfacing material,\" and the rule says this includes \"the removal of asbestos-containing wallboard, floor tile and sheeting.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "This includes, but is not limited to, the removal of asbestos-containing wallboard, floor tile and sheeting, roofing and siding shingles, and construction mastics."
+    },
+    {
+      "id": "xa-007",
+      "topic": "Classes of asbestos work",
+      "question": "A custodial employee cleans up dust and debris left from a completed Class I job. Under 1926.1101(b), which class of asbestos work is this cleanup?",
+      "options": {
+        "A": "Class I",
+        "B": "Class II",
+        "C": "Class IV",
+        "D": "Class III"
+      },
+      "answer": "C",
+      "explanation": "Class IV work includes \"activities to clean up dust, waste and debris resulting from Class I, II, and III activities.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "activities to clean up dust, waste and debris resulting from Class I, II, and III activities."
+    },
+    {
+      "id": "xa-008",
+      "topic": "Classes of asbestos work",
+      "question": "A maintenance worker is repairing a valve, without removing any insulation, in a spot where thermal system insulation ACM is likely to be disturbed. Under 1926.1101(b), which class of asbestos work is this?",
+      "options": {
+        "A": "Class III",
+        "B": "Class I",
+        "C": "Class II",
+        "D": "Class IV"
+      },
+      "answer": "A",
+      "explanation": "Class III work \"means repair and maintenance operations, where “ACM”, including TSI and surfacing ACM and PACM, is likely to be disturbed.\" Class I is the removal of TSI and surfacing ACM and PACM.",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Class III asbestos work means repair and maintenance operations, where “ACM”, including TSI and surfacing ACM and PACM, is likely to be disturbed."
+    },
+    {
+      "id": "xa-009",
+      "topic": "Work terms: disturbance, removal and repair",
+      "question": "Under the 1926.1101(b) definition of disturbance, what limit is placed on the amount of ACM or PACM disturbed?",
+      "options": {
+        "A": "No more than one 55-gallon drum of waste per shift",
+        "B": "No more than 10 square feet per work area per day",
+        "C": "No more than the competent person approves in writing",
+        "D": "No more than can be contained in one glove bag or waste bag not exceeding 60 inches in length and width"
+      },
+      "answer": "D",
+      "explanation": "The definition states: \"In no event shall the amount of ACM or PACM so disturbed exceed that which can be contained in one glove bag or waste bag which shall not exceed 60 inches in length and width.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "In no event shall the amount of ACM or PACM so disturbed exceed that which can be contained in one glove bag or waste bag which shall not exceed 60 inches in length and width."
+    },
+    {
+      "id": "xa-010",
+      "topic": "Work terms: disturbance, removal and repair",
+      "question": "Under 1926.1101(b), encapsulation of ACM attached to a structure falls within which defined term?",
+      "options": {
+        "A": "Repair",
+        "B": "Removal",
+        "C": "Demolition",
+        "D": "Aggressive method"
+      },
+      "answer": "A",
+      "explanation": "Repair means overhauling, rebuilding, reconstructing, or reconditioning of structures or substrates, \"including encapsulation or other repair of ACM or PACM attached to structures or substrates.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "including encapsulation or other repair of ACM or PACM attached to structures or substrates."
+    },
+    {
+      "id": "xa-011",
+      "topic": "Regulated areas, barriers and decontamination",
+      "question": "Under 1926.1101(b), a regulated area covers the area where Class I, II, and III asbestos work is conducted and what other area?",
+      "options": {
+        "A": "Every room on the same floor of the building",
+        "B": "Any area within 25 feet of the work",
+        "C": "Any adjoining area where debris and waste from such asbestos work accumulate",
+        "D": "Any area where Class IV work is conducted"
+      },
+      "answer": "C",
+      "explanation": "A regulated area is established \"to demarcate areas where Class I, II, and III asbestos work is conducted, and any adjoining area where debris and waste from such asbestos work accumulate.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "an area established by the employer to demarcate areas where Class I, II, and III asbestos work is conducted, and any adjoining area where debris and waste from such asbestos work accumulate"
+    },
+    {
+      "id": "xa-012",
+      "topic": "Regulated areas, barriers and decontamination",
+      "question": "In the decontamination area defined in 1926.1101(b), which room has facilities for the storage of employees' street clothing?",
+      "options": {
+        "A": "The equipment room",
+        "B": "The clean room",
+        "C": "The shower area",
+        "D": "The regulated area"
+      },
+      "answer": "B",
+      "explanation": "\"Clean room means an uncontaminated room having facilities for the storage of employees' street clothing and uncontaminated materials and equipment.\" The equipment room is a contaminated room for disposal of contaminated protective clothing and equipment.",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Clean room means an uncontaminated room having facilities for the storage of employees' street clothing and uncontaminated materials and equipment."
+    },
+    {
+      "id": "xa-013",
+      "topic": "Competent person and other roles",
+      "question": "For Class III and Class IV work, how does 1926.1101(b) say the competent person is trained?",
+      "options": {
+        "A": "In a course meeting EPA's Model Accreditation Plan criteria for supervisor",
+        "B": "By certification from the American Board of Industrial Hygiene",
+        "C": "By completing the training for an abatement project designer",
+        "D": "In a manner consistent with EPA requirements for training of local education agency maintenance and custodial staff"
+      },
+      "answer": "D",
+      "explanation": "For Class III and Class IV work the competent person is one \"who is trained in a manner consistent with EPA requirements for training of local education agency maintenance and custodial staff as set forth at 40 CFR 763.92 (a)(2).\" The Model Accreditation Plan supervisor course applies to Class I and Class II work.",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "for Class III and Class IV work, who is trained in a manner consistent with EPA requirements for training of local education agency maintenance and custodial staff as set forth at 40 CFR 763.92 (a)(2)."
+    },
+    {
+      "id": "xa-014",
+      "topic": "Competent person and other roles",
+      "question": "A company leases a building and controls its management and record keeping functions. Which description of \"building/facility owner\" in 1926.1101(b) fits this company?",
+      "options": {
+        "A": "The legal entity, including a lessee, which exercises control over management and record keeping functions",
+        "B": "Only the holder of the recorded deed to the property",
+        "C": "The general contractor on any project in the building",
+        "D": "The competent person assigned to the building"
+      },
+      "answer": "A",
+      "explanation": "The rule says the \"Building/facility owner is the legal entity, including a lessee, which exercises control over management and record keeping functions relating to a building and/or facility.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Building/facility owner is the legal entity, including a lessee, which exercises control over management and record keeping functions relating to a building and/or facility"
+    },
+    {
+      "id": "xa-015",
+      "topic": "Exposure limits and exposure terms",
+      "question": "An employee wears a respirator during asbestos work. Under 1926.1101(b), what does \"employee exposure\" mean?",
+      "options": {
+        "A": "The concentration measured inside the respirator facepiece",
+        "B": "The exposure to airborne asbestos that would occur if the employee were not using respiratory protective equipment",
+        "C": "The exposure reduced by the respirator's protection factor",
+        "D": "The average concentration in the clean room"
+      },
+      "answer": "B",
+      "explanation": "\"Employee exposure means that exposure to airborne asbestos that would occur if the employee were not using respiratory protective equipment.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Employee exposure means that exposure to airborne asbestos that would occur if the employee were not using respiratory protective equipment."
+    },
+    {
+      "id": "xa-016",
+      "topic": "Exposure limits and exposure terms",
+      "question": "Under 1926.1101(b), what does a negative initial exposure assessment demonstrate?",
+      "options": {
+        "A": "That no asbestos is present in the building",
+        "B": "That one past air sample was below the PELs",
+        "C": "That employee exposure during an operation is expected to be consistently below the PELs",
+        "D": "That all employees in the area wear respirators"
+      },
+      "answer": "C",
+      "explanation": "It is \"a demonstration by the employer, which complies with the criteria in paragraph (f)(2)(iii) of this section, that employee exposure during an operation is expected to be consistently below the PELs.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "that employee exposure during an operation is expected to be consistently below the PELs."
+    },
+    {
+      "id": "xa-017",
+      "topic": "Multi-employer worksites",
+      "question": "On a multi-employer worksite, who does 1926.1101(d)(2) say shall abate asbestos hazards?",
+      "options": {
+        "A": "The building/facility owner",
+        "B": "The general contractor in every case",
+        "C": "Each employer whose employees are nearby",
+        "D": "The contractor who created or controls the source of asbestos contamination"
+      },
+      "answer": "D",
+      "explanation": "\"Asbestos hazards at a multi-employer work site shall be abated by the contractor who created or controls the source of asbestos contamination.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Asbestos hazards at a multi-employer work site shall be abated by the contractor who created or controls the source of asbestos contamination."
+    },
+    {
+      "id": "xa-018",
+      "topic": "Multi-employer worksites",
+      "question": "Employees working immediately adjacent to a Class I job are exposed to asbestos because the job's containment is inadequate. Under the example in 1926.1101(d)(3), which is one of the options their employer shall take?",
+      "options": {
+        "A": "Remove the employees from the area until the enclosure breach is repaired",
+        "B": "Have its own employees repair the other contractor's enclosure",
+        "C": "Keep working until the next daily check of the enclosure",
+        "D": "Leave all action to the primary asbestos contractor"
+      },
+      "answer": "A",
+      "explanation": "Their employer \"shall either remove the employees from the area until the enclosure breach is repaired; or perform an initial exposure assessment pursuant to (f) of this section.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "their employer shall either remove the employees from the area until the enclosure breach is repaired; or perform an initial exposure assessment pursuant to (f) of this section."
+    },
+    {
+      "id": "xa-019",
+      "topic": "Multi-employer worksites",
+      "question": "Under 1926.1101(d)(4), what must employers of employees working adjacent to another employer's regulated area take steps on a daily basis to ascertain?",
+      "options": {
+        "A": "The asbestos content of every material in the regulated area",
+        "B": "The integrity of the enclosure and/or the effectiveness of the control method relied on by the primary asbestos contractor",
+        "C": "The training records of the primary asbestos contractor's workers",
+        "D": "The air monitoring results inside the regulated area"
+      },
+      "answer": "B",
+      "explanation": "They \"shall take steps on a daily basis to ascertain the integrity of the enclosure and/or the effectiveness of the control method relied on by the primary asbestos contractor to assure that asbestos fibers do not migrate to such adjacent areas.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "shall take steps on a daily basis to ascertain the integrity of the enclosure and/or the effectiveness of the control method relied on by the primary asbestos contractor to assure that asbestos fibers do not migrate to such adjacent areas."
+    },
+    {
+      "id": "xa-020",
+      "topic": "Multi-employer worksites",
+      "question": "The general contractor on a project that includes asbestos work is not qualified to serve as the asbestos competent person. Under 1926.1101(d)(5), what shall it do as supervisor of the entire project?",
+      "options": {
+        "A": "Serve as the competent person for all Class I work",
+        "B": "Repair every enclosure breach on the site itself",
+        "C": "Ascertain whether the asbestos contractor is in compliance and require it to come into compliance when necessary",
+        "D": "Perform all air monitoring for the asbestos contractor"
+      },
+      "answer": "C",
+      "explanation": "\"As supervisor of the entire project, the general contractor shall ascertain whether the asbestos contractor is in compliance with this standard, and shall require such contractor to come into compliance with this standard when necessary.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "As supervisor of the entire project, the general contractor shall ascertain whether the asbestos contractor is in compliance with this standard, and shall require such contractor to come into compliance with this standard when necessary."
+    }
+  ]
+}
