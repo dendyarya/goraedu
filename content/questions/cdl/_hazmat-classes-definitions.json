@@ -54,13 +54,13 @@
         "D": "173.140"
       },
       "answer": "A",
-      "explanation": "The 173.2 table lists \"5.1 OXIDIZER\" with 173.127, and 171.8 says: \"Oxidizer. See § 173.127 of this subchapter.\"",
+      "explanation": "In the 173.2 table, the Division 5.1 row reads \"5.1 OXIDIZER\" with \"173.127\" as the 49 CFR reference for definitions.",
       "source": {
-        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+        "title": "eCFR: 49 CFR 173.2, Hazardous material classes and index to hazard class definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173/subpart-A/section-173.2"
       },
       "checked": "2026-11-06",
-      "evidence": "Oxidizer. See § 173.127 of this subchapter."
+      "evidence": "5.1 OXIDIZER 173.127"
     },
     {
       "id": "zc-004",
@@ -203,10 +203,10 @@
         "A": "A barge",
         "B": "A transport vehicle or freight container in which hazardous materials are loaded with no intermediate form of containment",
         "C": "A vessel",
-        "D": "Packages stacked on a pallet and stretch-wrapped by one consignor"
+        "D": "A packaging with a maximum capacity of 200 L (53 gallons) as a receptacle for a liquid"
       },
       "answer": "B",
-      "explanation": "Bulk packaging is \"a packaging, other than a vessel or a barge, including a transport vehicle or freight container, in which hazardous materials are loaded with no intermediate form of containment.\" Stretch-wrapped packages on a pallet are an overpack example.",
+      "explanation": "Bulk packaging is \"a packaging, other than a vessel or a barge, including a transport vehicle or freight container, in which hazardous materials are loaded with no intermediate form of containment.\" A liquid receptacle of \"450 L (119 gallons) or less\" is a non-bulk packaging.",
       "source": {
         "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
@@ -217,7 +217,7 @@
     {
       "id": "zc-012",
       "topic": "Bulk and non-bulk packaging",
-      "question": "As a receptacle for a solid, what does 171.8 require for a packaging to be a bulk packaging?",
+      "question": "For a receptacle for a solid, what size condition does the 171.8 definition of bulk packaging set?",
       "options": {
         "A": "A water capacity greater than 454 kg (1000 pounds)",
         "B": "Either a maximum net mass greater than 400 kg (882 pounds) or any capacity",
@@ -274,15 +274,15 @@
     {
       "id": "zc-015",
       "topic": "Vehicles, containers and tanks",
-      "question": "Which tank can meet the attachment condition in the 171.8 cargo tank definition?",
+      "question": "Which description matches the attachment condition in paragraph (2) of the 171.8 cargo tank definition?",
       "options": {
-        "A": "Only a tank welded to the frame of a motor vehicle",
-        "B": "Only a tank that is lifted off the motor vehicle for loading and unloading",
-        "C": "Any tank fabricated under a specification for portable tanks",
-        "D": "A tank not permanently attached to a motor vehicle that, by reason of its size, construction or attachment, is loaded or unloaded without being removed from the motor vehicle"
+        "A": "The tank must be welded to the frame of a motor vehicle, with no other arrangement allowed",
+        "B": "The tank must be lifted off the motor vehicle for loading and unloading",
+        "C": "The tank must be fabricated under a specification for portable tanks",
+        "D": "The tank is permanently attached to or forms part of a motor vehicle, or is not permanently attached but, by reason of its size, construction or attachment, is loaded or unloaded without being removed from the motor vehicle"
       },
       "answer": "D",
-      "explanation": "Paragraph (2) covers a tank that \"Is permanently attached to or forms a part of a motor vehicle, or is not permanently attached to a motor vehicle but which, by reason of its size, construction or attachment to a motor vehicle is loaded or unloaded without being removed from the motor vehicle\". Paragraph (3) excludes tanks fabricated under a specification for portable tanks.",
+      "explanation": "Paragraph (2) covers a tank that \"Is permanently attached to or forms a part of a motor vehicle, or is not permanently attached to a motor vehicle but which, by reason of its size, construction or attachment to a motor vehicle is loaded or unloaded without being removed from the motor vehicle\". Paragraph (3) excludes tanks \"fabricated under a specification for\" portable tanks, among others.",
       "source": {
         "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"

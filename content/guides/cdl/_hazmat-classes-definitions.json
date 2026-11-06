@@ -4,7 +4,7 @@
   "href": "/cdl/hazmat-classes-definitions/study-guide/",
   "title": "CDL Hazmat classes and definitions study guide",
   "description": "CDL Hazmat study guide to hazard classes and the 171.8 definitions drivers meet: hazardous material, bulk packaging, cargo tank, offeror, hazmat employee.",
-  "intro": "The Hazardous Materials Regulations (49 CFR Parts 171 to 180) use defined terms throughout, and many duties depend on them: whether a packaging is bulk or non-bulk, whether a tank is a cargo tank, or whether a person is an offeror, a carrier or a hazmat employee. This guide sets out what the rule text states in the 173.2 index of hazard classes and divisions, which points to the section that defines each class, and in the 171.8 definitions most relevant to drivers and motor carriers. The detailed classification criteria in the sections 173.2 lists are not covered. A hazardous materials (H) endorsement also requires a TSA security threat assessment and a State knowledge test, which this guide does not cover. Your State may have its own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
+  "intro": "The Hazardous Materials Regulations (49 CFR Parts 171 to 180) use defined terms throughout, and many duties depend on them: whether a packaging is bulk or non-bulk, whether a tank is a cargo tank, or whether a person is an offeror, a carrier or a hazmat employee. This guide sets out what the rule text states in the 173.2 index of hazard classes and divisions, which points to the section that defines each class, and in the 171.8 definitions most relevant to drivers and motor carriers. The detailed classification criteria in the sections 173.2 lists are not covered. A hazardous materials (H) endorsement also requires a TSA security threat assessment and a State knowledge test, which this guide does not cover. An amendment to 171.8 was published at 91 FR 49310 on Aug. 4, 2026; this guide follows the eCFR text as of Nov 4, 2026, so check the current text. Your State may have its own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "hazard-classes",
@@ -78,7 +78,7 @@
     {
       "id": "where-defined",
       "name": "Where each class is defined",
-      "notCovered": "The classification criteria themselves (flash points, toxicity values, test methods and so on) are in the sections listed and are not covered here.",
+      "notCovered": "The classification criteria themselves (flash points, toxicity values, test methods and so on) are in the sections listed and are not covered here. The two sections word the Class 5 cross-references differently: the 171.8 entry reads \"Class 5. See § 173.128 of this subchapter.\" while the 173.2 table lists 5.1 OXIDIZER at 173.127 and 5.2 ORGANIC PEROXIDE at 173.128; this guide quotes each text as written and does not resolve the difference.",
       "points": [
         {
           "text": "In the 173.2 table, forbidden materials have no class number, and their definitions are in 173.21.",
@@ -178,7 +178,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A hazardous substance is a material, including its mixtures and solutions, that is listed in appendix A to 172.101 and is in a quantity, in one package, that equals or exceeds the reportable quantity (RQ) listed there; a mixture or solution must also meet a concentration condition.",
+          "text": "A hazardous substance is a material, including its mixtures and solutions, that is listed in appendix A to 172.101 and is in a quantity, in one package, that equals or exceeds the reportable quantity (RQ) listed there; paragraph (3) of the definition adds a further condition when it is in a mixture or solution.",
           "quote": "Hazardous substance for the purposes of this subchapter, means a material, including its mixtures and solutions, that— (1) Is listed in the appendix A to § 172.101 of this subchapter; (2) Is in a quantity, in one package, which equals or exceeds the reportable quantity (RQ) listed in the appendix A to § 172.101 of this subchapter; and (3) When in a mixture or solution—",
           "source": {
             "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
@@ -187,7 +187,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The term hazardous substance does not include petroleum, including crude oil or any fraction of it, that is not otherwise specifically listed or designated as a hazardous substance in appendix A to 172.101. It also does not include natural gas, natural gas liquids, liquefied natural gas, or synthetic gas usable for fuel.",
+          "text": "The term hazardous substance does not include petroleum, including crude oil or any fraction of it, that is not otherwise specifically listed or designated as a hazardous substance in appendix A to 172.101. It also does not include natural gas, natural gas liquids, liquefied natural gas, or synthetic gas usable for fuel (or mixtures of natural gas and such synthetic gas).",
           "quote": "The term does not include petroleum, including crude oil or any fraction thereof which is not otherwise specifically listed or designated as a hazardous substance in appendix A to § 172.101 of this subchapter, and the term does not include natural gas, natural gas liquids, liquefied natural gas, or synthetic gas usable for fuel (or mixtures of natural gas and such synthetic gas).",
           "source": {
             "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
@@ -274,7 +274,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A non-bulk packaging has one of the following: a maximum capacity of 450 L (119 gallons) or less as a receptacle for a liquid; a maximum net mass of 400 kg (882 pounds) or less and a maximum capacity of 450 L (119 gallons) or less as a receptacle for a solid; or a water capacity of 454 kg (1000 pounds) or less as a receptacle for a gas.",
+          "text": "A non-bulk packaging has one of the following: a maximum capacity of 450 L (119 gallons) or less as a receptacle for a liquid; a maximum net mass of 400 kg (882 pounds) or less and a maximum capacity of 450 L (119 gallons) or less as a receptacle for a solid; or a water capacity of 454 kg (1000 pounds) or less as a receptacle for a gas. A fourth option, for certain bags and boxes, is in the next point.",
           "quote": "Non-bulk packaging means a packaging which has: (1) A maximum capacity of 450 L (119 gallons) or less as a receptacle for a liquid; (2) A maximum net mass of 400 kg (882 pounds) or less and a maximum capacity of 450 L (119 gallons) or less as a receptacle for a solid; (3) A water capacity of 454 kg (1000 pounds) or less as a receptacle for a gas as defined in § 173.115 of this subchapter; or",
           "source": {
             "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
@@ -301,7 +301,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "An overpack is an enclosure used by a single consignor to protect a package, make it easier to handle, or consolidate two or more packages. A transport vehicle, freight container, or aircraft unit load device is not an overpack.",
+          "text": "Except as provided in subpart K of part 178, an overpack is an enclosure used by a single consignor to protect a package, make it easier to handle, or consolidate two or more packages. A transport vehicle, freight container, or aircraft unit load device is not an overpack.",
           "quote": "Overpack, except as provided in subpart K of part 178 of this subchapter, means an enclosure that is used by a single consignor to provide protection or convenience in handling of a package or to consolidate two or more packages. Overpack does not include a transport vehicle, freight container, or aircraft unit load device.",
           "source": {
             "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
@@ -334,8 +334,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A motor vehicle includes a vehicle, machine, tractor, trailer, or semitrailer, or any combination of them, propelled or drawn by mechanical power and used upon the highways to transport passengers or property.",
-          "quote": "Motor vehicle includes a vehicle, machine, tractor, trailer, or semitrailer, or any combination thereof, propelled or drawn by mechanical power and used upon the highways in the transportation of passengers or property.",
+          "text": "A motor vehicle includes a vehicle, machine, tractor, trailer, or semitrailer, or any combination of them, propelled or drawn by mechanical power and used upon the highways to transport passengers or property. It does not include a vehicle, locomotive, or car operated exclusively on rails, or a trolley bus powered from a fixed overhead wire that furnishes local passenger transportation similar to street-railway service.",
+          "quote": "Motor vehicle includes a vehicle, machine, tractor, trailer, or semitrailer, or any combination thereof, propelled or drawn by mechanical power and used upon the highways in the transportation of passengers or property. It does not include a vehicle, locomotive, or car operated exclusively on a rail or rails, or a trolley bus operated by electric power derived from a fixed overhead wire, furnishing local passenger transportation similar to street-railway service.",
           "source": {
             "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
