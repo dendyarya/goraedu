@@ -2,11 +2,11 @@
 title: "After CDL Entry-Level Driver Training: How Completion Is Reported Before Your Test"
 kind: explainer
 topic: "CDL"
-summary: "Under 49 CFR Part 380, your training provider must report your entry-level driver training through FMCSA's Training Provider Registry by midnight of the second business day, and under Part 383 the State checks that training before the test."
+summary: "Under 49 CFR Part 380, a provider on FMCSA's Training Provider Registry must transmit your entry-level driver training certification by midnight of the second business day after you complete it, and under Part 383, beginning February 7, 2022, the State may not give the covered skills test, or the H knowledge test for an upgrade, until the training is done."
 published: 2026-11-07
 image:
   src: /news/how-cdl-entry-level-driver-training-is-reported-before-skills-test.png
-  alt: "Card reading CDL, Explainer: Entry-level driver training, how completion reaches the State, eCFR, Nov 7, 2026"
+  alt: "Card reading CDL, Explainer: Entry-level driver training, reporting and State checks, eCFR, Nov 7, 2026"
   credit: goraedu
   license: Own work
 sources:
@@ -26,10 +26,10 @@ sources:
 
 Entry-level driver training (ELDT) has to be finished before certain CDL tests. But finishing the course is only
 half of it: the federal rules also say who reports the training, how fast, and what the State checks before it
-tests you. This explainer answers one question from the federal text: **after you finish ELDT, how does your
-completion get to the State before your test?** It does not cover State-specific procedures.
+tests you. This explainer answers one question from the federal text: **after you finish ELDT, who reports it, and
+what must the State confirm before your test?** It does not cover State-specific procedures.
 
-## Who the reporting rules apply to
+## Who must train with a registered provider
 
 Under 49 CFR 380.609, an individual who applies "for the first time, for a Class A or Class B CDL, or who upgrades
 to a Class A or B CDL" must complete training from a provider listed on the Training Provider Registry (TPR), and an
@@ -47,12 +47,12 @@ Section 380.603 lists who is outside the subpart:
 - individuals who obtained a CLP before February 7, 2022, "if they obtain a CDL before the CLP or renewed CLP
   expires." Individuals who obtain a CLP on or after February 7, 2022, "are required to comply with this subpart."
 
-## What has to be done before the training counts as complete
+## Training rules in Part 380, Subparts F and G
 
 - **Theory score.** Providers must use written assessments for the theory portion, and under 380.715(a) "The
   driver-trainee must receive an overall minimum score of 80 percent on the theory assessment."
 - **Behind-the-wheel (BTW) skills.** Under 380.715(b), instructors "must evaluate and document a driver-trainee's
-  proficiency in BTW skills" according to the curricula in the appendices to Part 380.
+  proficiency in BTW skills" in accordance with the curricula in appendices A through D of Part 380, as applicable.
 - **One-year window.** Under 380.603(c)(3), "Except for individuals seeking the H endorsement, individuals must
   complete the theory and BTW (range and public road) portions of entry-level driver training within one year of
   completing the first portion."
@@ -66,7 +66,7 @@ Section 380.717 puts the reporting duty on the training provider. After an indiv
 provider must, "by midnight of the second business day after the driver-trainee completes the training, electronically
 transmit training certification information through the TPR website." The record includes:
 
-- the driver-trainee's name, license, CLP or CDL number, and State of licensure;
+- the driver-trainee's name, driver's license, CLP or CDL number (as applicable), and State of licensure;
 - the CDL class and/or endorsement, and the type of training completed (theory and/or BTW);
 - the total clock hours spent to complete BTW training, as applicable;
 - the provider's name and its unique TPR identification number; and
@@ -76,22 +76,23 @@ transmit training certification information through the TPR website." The record
 
 Part 383 tells States what to do with that training before testing:
 
-- **Initial CDL.** Under 383.73(b)(11), the State must "not conduct a skills test of an applicant for a Class A or
+- **Initial CDL.** Under 383.73(b)(11), "Beginning on February 7, 2022," the State must "not conduct a skills test of an applicant for a Class A or
   Class B CDL, or a passenger (P) or school bus (S) endorsement until the State verifies electronically that the
   applicant completed the training prescribed in subpart F of part 380 of this subchapter."
-- **Upgrades.** Under 383.73(e)(9), the State must not conduct a skills test for an upgrade to a Class A or Class B
+- **Upgrades.** Under 383.73(e)(9), beginning on February 7, 2022, the State must not conduct a skills test for an upgrade to a Class A or Class B
   CDL, or a P or S endorsement, "or administer the knowledge test to an applicant for the hazardous materials (H)
   endorsement, unless the applicant has completed the training required by subpart F of part 380 of this
   subchapter."
 
-On the applicant's side, 383.71 says the training "must be administered by a provider listed on the Training
+On the applicant's side, 383.71 says that beginning on February 7, 2022, a person must complete the Subpart F
+training before taking those tests for the first time, and that it "must be administered by a provider listed on the Training
 Provider Registry."
 
 ## When training stops counting
 
 The provider's listing matters. Under 380.721, "If FMCSA removes a provider from the TPR, any training conducted
-after the removal date will be considered invalid." In cases of fraud or other criminal behavior in which
-driver-trainees "have knowingly participated," FMCSA "reserves the right, on a case-by-case basis, to retroactively
+after the removal date will be considered invalid." In instances of fraud or other criminal behavior by a training provider in
+which driver-trainees "have knowingly participated," FMCSA "reserves the right, on a case-by-case basis, to retroactively
 invalidate training conducted under this subpart."
 
 If FMCSA issues a notice of proposed removal, 380.723(b) says the provider "must notify current driver-trainees and
