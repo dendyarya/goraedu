@@ -944,15 +944,15 @@
     {
       "id": "core-053",
       "topic": "Definitions",
-      "question": "A technician replaces the receiver in a commercial refrigeration system. How do the definitions classify the receiver?",
+      "question": "A walk-in cooler uses R-134a. Under the definitions, which pressure class of appliance is it?",
       "options": {
-        "A": "As an accessory that is not part of the refrigerant circuit",
-        "B": "As a component only if it holds more than 50 pounds of refrigerant",
-        "C": "As a component, because the definition lists receivers among the parts of the refrigerant circuit",
-        "D": "As system-dependent recovery equipment"
+        "A": "Low-pressure appliance",
+        "B": "High-pressure appliance",
+        "C": "Medium-pressure appliance",
+        "D": "Very high-pressure appliance"
       },
       "answer": "C",
-      "explanation": "Component means \"a part of the refrigerant circuit within an appliance including, but not limited to, compressors, condensers, evaporators, receivers, and all of its connections and subassemblies.\"",
+      "explanation": "A medium-pressure appliance \"uses a refrigerant with a liquid phase saturation pressure between 45 psia and 170 psia at 104 °F. Examples include but are not limited to appliances using R-114, R-124, R-12, R-134a, and R-500.\" R-134a is not among the listed examples for the other classes.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -998,7 +998,7 @@
     {
       "id": "core-056",
       "topic": "Recovery and evacuation",
-      "question": "A new equipment testing organization has applied to EPA for approval to certify recovery and/or recycling equipment. When may it start certifying equipment?",
+      "question": "An equipment testing organization's application for EPA approval is still under review. When may the organization begin certifying recovery and/or recycling equipment?",
       "options": {
         "A": "As soon as it sends its application",
         "B": "Thirty days after applying, unless EPA objects",
@@ -1070,18 +1070,18 @@
     {
       "id": "core-060",
       "topic": "Recovery and evacuation",
-      "question": "A shop's recovery machine for high-pressure appliances was manufactured in 2010. Under the conditions of which appendix must an approved equipment testing organization have certified it?",
+      "question": "An approved equipment testing organization conducts certification tests in a way not consistent with the representations made in its application. What may the Administrator do?",
       "options": {
-        "A": "Appendix B1, based on ARI Standard 740-1993",
-        "B": "Appendix B2, based on ARI Standard 740-1995",
-        "C": "Appendix B4, which covers flammable refrigerants",
-        "D": "Appendix C, the test method for small-appliance recovery devices"
+        "A": "Nothing, because approval is permanent once granted",
+        "B": "Revoke its approval in accordance with § 82.169, giving the organization notice setting forth the basis for the determination",
+        "C": "Transfer its approval to the equipment manufacturer",
+        "D": "Require the organization to become a certified reclaimer"
       },
       "answer": "B",
-      "explanation": "Equipment \"manufactured or imported on or after September 22, 2003, and before January 1, 2017\" for appliances other than small appliances, MVACs and MVAC-like appliances must be certified as achieving the Table 2 level \"under the conditions of appendix B2 of this subpart (based upon the ARI Standard 740-1995\". Appendix B1 covers equipment from November 15, 1993 to before September 22, 2003.",
+      "explanation": "The rule says \"If an approved testing organization conducts certification tests in a way not consistent with the representations made in its application or with the provisions of this subpart, the Administrator may revoke approval in accordance with § 82.169.\" In such cases, \"the Administrator must give notice to the organization setting forth the basis for the determination.\"",
       "source": {
-        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
+        "title": "eCFR: 40 CFR 82.160, Approved equipment testing organizations (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.160"
       },
       "checked": "2026-11-06"
     },
@@ -1142,18 +1142,18 @@
     {
       "id": "core-064",
       "topic": "Disposal",
-      "question": "Section 82.155(b) sets duties for the final processor of a small appliance, MVAC, or MVAC-like appliance. Which businesses does it name as examples of final processors?",
+      "question": "Before a scrap yard crushes a junked car, someone recovers the refrigerant from its motor vehicle air conditioner (MVAC) for disposal. Which requirement does 40 CFR 82.156(d) set?",
       "options": {
-        "A": "Appliance retailers that take back old units",
-        "B": "Certified refrigerant reclaimers",
-        "C": "Scrap recyclers and landfill operators",
-        "D": "Technician certification programs"
+        "A": "Evacuate it to the Table 1 level for high-pressure appliances",
+        "B": "Recover 80 percent of the refrigerant, whatever the condition of the compressor",
+        "C": "Evacuate it in accordance with 40 CFR part 82, subpart B, or reduce the system pressure to or below 102 mm of mercury vacuum",
+        "D": "Evacuate it to no higher than 0 psig"
       },
       "answer": "C",
-      "explanation": "The final processor means \"persons who take the final step in the disposal process (including but not limited to scrap recyclers and landfill operators)\" of a small appliance, MVAC, or MVAC-like appliance.",
+      "explanation": "The rule says \"All persons recovering refrigerant from MVACs for purposes of disposal of these appliances must evacuate the appliance in accordance with 40 CFR part 82, subpart B or reduce the system pressure to or below 102 mm of mercury vacuum.\" Table 1 does not cover MVACs, and the 80 percent level is for small appliances.",
       "source": {
-        "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
+        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
       },
       "checked": "2026-11-06"
     },
@@ -1268,15 +1268,15 @@
     {
       "id": "core-071",
       "topic": "Exam format",
-      "question": "How long must an approved certifying program keep the names and addresses of everyone who took its tests, the test scores, and the dates and locations of the tests?",
+      "question": "A certifying program sets up a room for a closed-book, proctored certification test. Which rule does Appendix D set for the testing room?",
       "options": {
-        "A": "Indefinitely, unless the records are transferred to another certifying program or EPA",
-        "B": "Three years from the date of each test",
-        "C": "Until each technician's card is issued",
-        "D": "Five years from the date of each test"
+        "A": "Desks or work space must be placed in a way that discourages cheating",
+        "B": "Applicants may keep their training manuals at their desks",
+        "C": "Proctors may leave once the test has started",
+        "D": "Each applicant must test in a separate building"
       },
       "answer": "A",
-      "explanation": "Certifying programs must keep \"the names and addresses of all individuals taking the tests, the scores of all certification tests administered, and the dates and locations of all tests administered.\" Appendix D says \"These records must be maintained indefinitely, unless transferred to another certifying program or EPA.\"",
+      "explanation": "Appendix D says \"Desks or work space must be placed in a way that discourages cheating. The space and physical facilities are to be conducive to continuous surveillance by the proctors and monitors during testing.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
@@ -1304,15 +1304,15 @@
     {
       "id": "core-073",
       "topic": "Exam format",
-      "question": "An approved certifying program has received EPA's letter of approval. What does Appendix D require each of its testing centers to do with that letter?",
+      "question": "By which dates must EPA receive an activity report from each approved technician certifying program?",
       "options": {
-        "A": "Mail a copy to every technician who passes",
-        "B": "Seal it in the envelope with the answer sheets",
-        "C": "Display a copy of it at their place of business",
-        "D": "Return it to EPA after the first test session"
+        "A": "Every February 1, covering the previous calendar year",
+        "B": "Every March 1, covering the previous calendar year",
+        "C": "Every January 30 and July 30, covering the previous six months of certifications",
+        "D": "Only once, at the end of the program's first year"
       },
       "answer": "C",
-      "explanation": "Appendix D says \"Approved certifying programs will receive a letter of approval from EPA. Each testing center must display a copy of that letter at their place of business.\"",
+      "explanation": "Appendix D says \"EPA must receive an activity report from all approved certifying programs by every January 30 and July 30, which covers the previous six months of certifications.\" The report \"includes the pass/fail rate.\"",
       "source": {
         "title": "eCFR: 40 CFR Part 82, Subpart F, Appendix D (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F"
@@ -1358,15 +1358,15 @@
     {
       "id": "core-076",
       "topic": "Definitions",
-      "question": "The rule uses the terms “exempt substitutes” and “non-exempt substitutes.” Under the definition of substitute, what does “non-exempt substitutes” refer to?",
+      "question": "Under the definitions, what is a class I substance?",
       "options": {
-        "A": "All substitutes and end-uses not specified in § 82.154(a)(1) as exempt",
-        "B": "Only hydrofluorocarbons",
-        "C": "Only substitutes used in MVACs",
-        "D": "Only substitutes that contain chlorine"
+        "A": "An ozone-depleting substance listed in 40 CFR part 82 subpart A, appendix A",
+        "B": "An ozone-depleting substance listed in 40 CFR part 82 subpart A, appendix B",
+        "C": "Any hydrofluorocarbon used as a refrigerant",
+        "D": "Any refrigerant with a liquid phase saturation pressure above 170 psia at 104 °F"
       },
       "answer": "A",
-      "explanation": "Exempt substitutes are substitutes in end-uses \"specified in § 82.154(a)(1) as exempt from the venting prohibition and the requirements of this subpart\", while non-exempt substitutes refers to \"all other substitutes and end-uses not so specified in § 82.154(a)(1).\"",
+      "explanation": "The definitions say \"Class I refers to an ozone-depleting substance that is listed in 40 CFR part 82 subpart A, appendix A.\" Class II refers to one \"listed in 40 CFR part 82 subpart A, appendix B.\"",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
