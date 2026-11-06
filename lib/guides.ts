@@ -194,6 +194,7 @@ const SNAPSHOTS: Record<string, string[]> = {
     "40cfr745-103-2026-11-04.txt",
     "40cfr745-103-2026-11-04.reading-order.txt",
   ],
+  "pesticide-applicator": ["40cfr171-2026-11-04.txt"],
   asbestos: [
     "29cfr1926-1101-2026-11-04.txt",
     "29cfr1926-1101-2026-11-04.reading-order.txt",

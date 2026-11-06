@@ -13,7 +13,8 @@ export type OshaClusterId =
   | "osha-crane"
   | "forklift"
   | "faa-amt"
-  | "asbestos";
+  | "asbestos"
+  | "pesticide-applicator";
 
 const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "intro-to-osha", name: "Introduction to OSHA", rule: "29 CFR Parts 1903 and 1904", focus: null },
@@ -387,6 +388,31 @@ const ASBESTOS_SETS: OshaSet[] = [
 export const ASBESTOS_INDEPENDENCE_TEXT =
   "goraedu is not an accredited asbestos training provider and does not train, accredit or certify anyone; our questions are not a course or accreditation exam. Not affiliated with or endorsed by OSHA, the U.S. Department of Labor, the U.S. EPA or any State.";
 
+const PESTICIDE_SETS: OshaSet[] = [
+  {
+    slug: "scope-definitions",
+    name: "Scope, definitions and effective dates",
+    rule: "40 CFR 171.1 to 171.5",
+    focus: null,
+  },
+  {
+    slug: "commercial-certification",
+    name: "Commercial applicator categories and certification",
+    rule: "40 CFR 171.101 and 171.103",
+    focus: null,
+  },
+  { slug: "private-certification", name: "Private applicator certification", rule: "40 CFR 171.105", focus: null },
+  {
+    slug: "recertification-supervision",
+    name: "Recertification and supervising noncertified applicators",
+    rule: "40 CFR 171.107, 171.201 and Subpart D",
+    focus: null,
+  },
+];
+
+export const PESTICIDE_INDEPENDENCE_TEXT =
+  "goraedu does not train, test or certify pesticide applicators, and our questions are not a State, Tribal or Federal certification exam. Not affiliated with or endorsed by the U.S. EPA or any State, Tribal or Federal certifying authority.";
+
 export const AMT_INDEPENDENCE_TEXT =
   "goraedu does not train, test or certificate aviation mechanics, and our questions are not an FAA knowledge, oral or practical test. Not affiliated with or endorsed by the FAA or the U.S. Department of Transportation.";
 
@@ -461,6 +487,15 @@ export const OSHA_CLUSTERS: Record<
     sets: ASBESTOS_SETS,
     independence: ASBESTOS_INDEPENDENCE_TEXT,
     notFrom: "any accredited asbestos course, accreditation exam, training handout or prep material",
+  },
+  "pesticide-applicator": {
+    id: "pesticide-applicator",
+    label: "Pesticide applicator",
+    href: "/pesticide-applicator/",
+    part: "40 CFR Part 171",
+    sets: PESTICIDE_SETS,
+    independence: PESTICIDE_INDEPENDENCE_TEXT,
+    notFrom: "any State applicator exam, certification manual, training course or prep material",
   },
   "faa-amt": {
     id: "faa-amt",

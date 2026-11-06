@@ -62,7 +62,9 @@ export function practiceRoute(cluster: OshaClusterId) {
                     ? `Aviation mechanic ${lower(name)}`
                     : cluster === "asbestos"
                       ? `Asbestos ${lower(name)}`
-                      : `${cluster === "cdl" ? "CDL" : cluster === "faa-107" ? "Part 107" : "OSHA"} ${name}`;
+                      : cluster === "pesticide-applicator"
+                        ? `Pesticide applicator ${lower(name)}`
+                        : `${cluster === "cdl" ? "CDL" : cluster === "faa-107" ? "Part 107" : "OSHA"} ${name}`;
 
       return (
         <PageShell

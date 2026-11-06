@@ -26,6 +26,7 @@ const PATHS = [
   "/forklift/",
   "/faa-amt/",
   "/asbestos/",
+  "/pesticide-applicator/",
   "/epa-608/guide/passing-score/",
   "/epa-608/universal/practice-test/",
   "/epa-608/type-1/practice-exam/",

@@ -146,4 +146,12 @@ export const TOOLS: Tool[] = [
     summary:
       "Find the latest dates for a school building's next asbestos reinspection and periodic surveillance under 40 CFR 763.85(b) and 763.92(b).",
   },
+  {
+    slug: "certification-expiry",
+    cluster: "pesticide-applicator",
+    name: "Pesticide applicator certification expiry",
+    href: "/pesticide-applicator/tools/certification-expiry/",
+    summary:
+      "Find when a restricted use pesticide applicator certification expires under the five-year federal limit in 40 CFR 171.107(a).",
+  },
 ];

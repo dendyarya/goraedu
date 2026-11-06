@@ -163,4 +163,15 @@ export const COVERAGE: Record<string, Coverage> = {
       },
     ],
   },
+  "pesticide-applicator": {
+    official:
+      "Applicators of restricted use pesticides are certified by a certifying authority (EPA, or a State, Tribal or Federal agency with an EPA-approved plan) once they show competency; commercial applicators pass a written exam. A certification expires unless the applicator is recertified.",
+    ours: "These pages cover the federal standards in 40 CFR Part 171. The exams, manuals and category training your certifying authority uses, and its own added rules, are not covered.",
+    links: [
+      {
+        title: "eCFR: 40 CFR Part 171, Certification of Pesticide Applicators",
+        url: "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-171",
+      },
+    ],
+  },
 };
