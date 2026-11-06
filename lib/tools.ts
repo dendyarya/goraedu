@@ -138,4 +138,12 @@ export const TOOLS: Tool[] = [
     summary:
       "Check the 24-month recent experience condition in 14 CFR 65.83 and when an inspection authorization expires under 65.92(a).",
   },
+  {
+    slug: "ahera-reinspection-surveillance",
+    cluster: "asbestos",
+    name: "AHERA reinspection and surveillance dates",
+    href: "/asbestos/tools/ahera-reinspection-surveillance/",
+    summary:
+      "Find the latest dates for a school building's next asbestos reinspection and periodic surveillance under 40 CFR 763.85(b) and 763.92(b).",
+  },
 ];
