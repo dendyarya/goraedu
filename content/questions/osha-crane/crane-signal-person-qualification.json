@@ -8,15 +8,15 @@
     {
       "id": "ky-001",
       "topic": "Who must make sure, and when",
-      "question": "Under 1926.1428(a), whose duty is it to ensure that each signal person meets the Qualification Requirements?",
+      "question": "1926.1428(a) requires the employer to ensure that each signal person meets the \"Qualification Requirements\". Where in the rule are those requirements set out?",
       "options": {
-        "A": "The crane operator who receives the signals",
-        "B": "The employer of the signal person",
-        "C": "The owner of the crane",
-        "D": "The third party qualified evaluator"
+        "A": "Paragraph (b) of § 1926.1428",
+        "B": "Paragraph (c) of § 1926.1428",
+        "C": "The definitions in § 1926.1401",
+        "D": "The operator rules in § 1926.1427"
       },
       "answer": "B",
-      "explanation": "Paragraph (a) states: \"The employer of the signal person must ensure that each signal person meets the Qualification Requirements (paragraph (c) of this section) prior to giving any signals.\"",
+      "explanation": "Paragraph (a) refers to \"the Qualification Requirements (paragraph (c) of this section)\", and paragraph (c) is headed \"Qualification Requirements. Each signal person must:\".",
       "source": {
         "title": "eCFR: 29 CFR 1926.1428, Signal person qualifications (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1428"
@@ -26,15 +26,15 @@
     {
       "id": "ky-002",
       "topic": "Who must make sure, and when",
-      "question": "By what point does 1926.1428(a) require a signal person to meet the Qualification Requirements?",
+      "question": "A contractor assigns a newly hired laborer to signal a crane on the first morning and plans to have the laborer assessed at the end of the week. How does 1926.1428(a) treat that plan?",
       "options": {
-        "A": "Within 30 days of starting work as a signal person",
-        "B": "Before the end of the first project",
-        "C": "Prior to giving any signals",
-        "D": "Before the equipment's next annual inspection"
+        "A": "It complies, because the assessment comes within the first 30 days",
+        "B": "It complies, if the crane operator agrees to accept the laborer's signals in the meantime",
+        "C": "It falls short, because the employer must ensure the signal person meets the Qualification Requirements prior to giving any signals",
+        "D": "It complies, if a second signal person stands next to the laborer"
       },
       "answer": "C",
-      "explanation": "The employer must ensure each signal person meets the Qualification Requirements \"prior to giving any signals.\"",
+      "explanation": "\"The employer of the signal person must ensure that each signal person meets the Qualification Requirements (paragraph (c) of this section) prior to giving any signals.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1428, Signal person qualifications (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1428"
@@ -44,15 +44,15 @@
     {
       "id": "ky-003",
       "topic": "Option (1) and Option (2)",
-      "question": "1926.1428(a) says the requirement must be met \"using either Option (1) or Option (2)\". Which pair names those two options?",
+      "question": "Option (1) and Option (2) in 1926.1428(a) each point to § 1926.1401 for a definition. Which defined terms do they point to?",
       "options": {
-        "A": "Documentation from a third party qualified evaluator, or an assessment by the employer's qualified evaluator",
-        "B": "A State signal person license, or a union apprenticeship card",
-        "C": "A sign-off by the crane operator, or a sign-off by the lift director",
-        "D": "Training from the crane manufacturer, or a pre-lift meeting"
+        "A": "Qualified Evaluator (third party) and Qualified Evaluator (not a third party)",
+        "B": "Competent person and qualified person",
+        "C": "Lift director and controlling entity",
+        "D": "Operator's trainer and operator-in-training"
       },
       "answer": "A",
-      "explanation": "The options are \"Option (1)—Third party qualified evaluator\" and \"Option (2)—Employer's qualified evaluator.\"",
+      "explanation": "Option (1) says \"see Qualified Evaluator (third party), § 1926.1401 for definition\", and Option (2) says \"see Qualified Evaluator (not a third party), § 1926.1401 for definition\".",
       "source": {
         "title": "eCFR: 29 CFR 1926.1428, Signal person qualifications (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1428"
@@ -80,15 +80,15 @@
     {
       "id": "ky-005",
       "topic": "Option (1) and Option (2)",
-      "question": "Under Option (2) in 1926.1428(a)(2), what does the employer's qualified evaluator do?",
+      "question": "Under Option (2) in 1926.1428(a)(2), what must the employer's qualified evaluator provide once it determines that the individual meets the Qualification Requirements?",
       "options": {
-        "A": "Sends the assessment results to the OSHA area office for approval",
-        "B": "Assesses the individual, determines that the individual meets the Qualification Requirements and provides documentation of that determination",
-        "C": "Registers the signal person with an accredited testing organization",
-        "D": "Watches the signal person for one shift and gives a verbal approval"
+        "A": "A wallet card issued by OSHA",
+        "B": "Documentation of that determination",
+        "C": "A report to the crane's manufacturer",
+        "D": "A copy of the crane operator's certification"
       },
       "answer": "B",
-      "explanation": "Under Option (2), the employer's qualified evaluator \"assesses the individual and determines that the individual meets the Qualification Requirements (see paragraph (c) of this section) and provides documentation of that determination.\"",
+      "explanation": "The employer's qualified evaluator \"assesses the individual and determines that the individual meets the Qualification Requirements (see paragraph (c) of this section) and provides documentation of that determination.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1428, Signal person qualifications (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1428"
@@ -98,12 +98,12 @@
     {
       "id": "ky-006",
       "topic": "Option (1) and Option (2)",
-      "question": "A signal person was assessed by Employer A's own qualified evaluator under Option (2) and then goes to work for Employer B. Under 1926.1428(a)(2), may Employer B use that assessment to meet the section's requirements?",
+      "question": "1926.1428(a)(2) ends with a sentence that limits who may rely on an assessment. Which assessment does that sentence cover?",
       "options": {
-        "A": "Yes, if Employer B keeps a copy at the site",
-        "B": "Yes, for up to one year after the assessment",
-        "C": "No, because an assessment by an employer's qualified evaluator under Option (2) is not portable",
-        "D": "Yes, if Employer B uses the same type of signals"
+        "A": "Documentation from a third party qualified evaluator under Option (1)",
+        "B": "A test given by the crane's manufacturer",
+        "C": "An assessment by an employer's qualified evaluator under Option (2)",
+        "D": "An assessment by the crane operator during the lift"
       },
       "answer": "C",
       "explanation": "\"An assessment by an employer's qualified evaluator under this option is not portable—other employers are not permitted to use it to meet the requirements of this section.\"",
@@ -116,15 +116,15 @@
     {
       "id": "ky-007",
       "topic": "Documentation",
-      "question": "Under 1926.1428(a)(3), where must the employer make the signal person's qualification documentation available?",
+      "question": "For what period does 1926.1428(a)(3) require the employer to make the signal person's qualification documentation available at the site?",
       "options": {
-        "A": "At the site while the signal person is employed by the employer",
-        "B": "At the employer's head office only",
-        "C": "With the OSHA area office before work begins",
-        "D": "With the crane's manufacturer"
+        "A": "While the signal person is employed by the employer",
+        "B": "For three years after the signal person's last lift",
+        "C": "Only until the crane's next annual inspection",
+        "D": "Only on the first day the signal person works at the site"
       },
       "answer": "A",
-      "explanation": "Paragraph (a)(3): \"The employer must make the documentation for whichever option is used available at the site while the signal person is employed by the employer.\"",
+      "explanation": "\"The employer must make the documentation for whichever option is used available at the site while the signal person is employed by the employer.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1428, Signal person qualifications (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1428"
@@ -134,12 +134,12 @@
     {
       "id": "ky-008",
       "topic": "Documentation",
-      "question": "What must the qualification documentation specify under 1926.1428(a)(3)?",
+      "question": "1926.1428(a)(3) says the documentation must specify each type of signaling the signal person is qualified for. Which examples of types of signaling does the rule give?",
       "options": {
-        "A": "The signal person's years of construction experience",
-        "B": "The cranes on site and their rated capacities",
-        "C": "The name of every operator the signal person has worked with",
-        "D": "Each type of signaling for which the signal person meets the requirements of paragraph (c)"
+        "A": "Flag signals and light signals",
+        "B": "Voice signals and whistle signals",
+        "C": "Lift plans and load charts",
+        "D": "Hand signals and radio signals"
       },
       "answer": "D",
       "explanation": "\"The documentation must specify each type of signaling (e.g. hand signals, radio signals, etc.) for which the signal person meets the requirements of paragraph (c) of this section.\"",
@@ -188,15 +188,15 @@
     {
       "id": "ky-011",
       "topic": "When a signal person falls short",
-      "question": "Once 1926.1428(b) applies, what must happen before the employer may allow the individual to continue working as a signal person?",
+      "question": "Under 1926.1428(b), the re-assessment that must follow re-training has to be made in accordance with which paragraph?",
       "options": {
-        "A": "A second signal person is assigned to watch the first one",
-        "B": "The individual signs a written warning",
-        "C": "Re-training is provided and a re-assessment in accordance with paragraph (a) confirms that the individual meets the Qualification Requirements",
-        "D": "The current project is completed"
+        "A": "§ 1926.1419, Signals—general requirements",
+        "B": "§ 1926.1427, Operator training, certification, and evaluation",
+        "C": "Paragraph (a) of § 1926.1428",
+        "D": "The crane manufacturer's procedures"
       },
       "answer": "C",
-      "explanation": "The employer \"must not allow the individual to continue working as a signal person until re-training is provided and a re-assessment is made in accordance with paragraph (a) of this section that confirms that the individual meets the Qualification Requirements.\"",
+      "explanation": "The employer must not allow the individual to continue \"until re-training is provided and a re-assessment is made in accordance with paragraph (a) of this section that confirms that the individual meets the Qualification Requirements.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1428, Signal person qualifications (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1428"
@@ -206,15 +206,15 @@
     {
       "id": "ky-012",
       "topic": "Qualification Requirements",
-      "question": "Under 1926.1428(c)(1), if hand signals are used, what must the signal person know and understand?",
+      "question": "On a job where a signal person gives only radio signals, what does 1926.1428(c)(1) require the signal person to know and understand?",
       "options": {
-        "A": "The hand signals printed in the crane's load chart",
-        "B": "Only the emergency stop signal",
-        "C": "Hand signals chosen by the controlling entity",
-        "D": "The Standard Method for hand signals"
+        "A": "The crane's load chart",
+        "B": "The voltage of nearby power lines",
+        "C": "Only the emergency stop signal",
+        "D": "The type of signals used"
       },
       "answer": "D",
-      "explanation": "\"If hand signals are used, the signal person must know and understand the Standard Method for hand signals.\"",
+      "explanation": "Each signal person must \"Know and understand the type of signals used.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1428, Signal person qualifications (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1428"
@@ -242,15 +242,15 @@
     {
       "id": "ky-014",
       "topic": "Qualification Requirements",
-      "question": "1926.1428(c)(3) requires a basic understanding of equipment operation and limitations. What does it say that understanding includes?",
+      "question": "1926.1428(c)(3) lists boom deflection among the crane dynamics a signal person must have a basic understanding of. What does the rule name as the cause of that boom deflection?",
       "options": {
-        "A": "Calculating ground bearing pressure under the outriggers",
-        "B": "The crane dynamics involved in swinging and stopping loads and boom deflection from hoisting loads",
-        "C": "Repairing the crane's hydraulic system",
-        "D": "Reading the utility's line-switching orders"
+        "A": "Wind acting on the boom",
+        "B": "Hoisting loads",
+        "C": "Traveling over uneven ground",
+        "D": "Settling of the outrigger pads"
       },
       "answer": "B",
-      "explanation": "Each signal person must \"Have a basic understanding of equipment operation and limitations, including the crane dynamics involved in swinging and stopping loads and boom deflection from hoisting loads.\"",
+      "explanation": "Each signal person must have a basic understanding of equipment operation and limitations, \"including the crane dynamics involved in swinging and stopping loads and boom deflection from hoisting loads.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1428, Signal person qualifications (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1428"
@@ -278,12 +278,12 @@
     {
       "id": "ky-016",
       "topic": "Qualification Requirements",
-      "question": "How does 1926.1428(c)(5) say a signal person must demonstrate that the requirements in (c)(1) through (4) are met?",
+      "question": "1926.1428(c)(5) requires a signal person to pass an oral or written test and a practical test. What must those tests show?",
       "options": {
-        "A": "Through a written test only",
-        "B": "Through a practical test only",
-        "C": "Through an oral or written test, and through a practical test",
-        "D": "Through a signed statement from the crane operator"
+        "A": "That the signal person meets the operator requirements of § 1926.1427",
+        "B": "That the signal person can inspect the crane's rigging",
+        "C": "That he/she meets the requirements in paragraphs (c)(1) through (4)",
+        "D": "That the crane's rated capacity is not exceeded"
       },
       "answer": "C",
       "explanation": "Each signal person must \"Demonstrate that he/she meets the requirements in paragraphs (c)(1) through (4) of this section through an oral or written test, and through a practical test.\"",
