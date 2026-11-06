@@ -20,6 +20,7 @@ const PATHS = [
   "/cdl/",
   "/faa-107/",
   "/water-operator/",
+  "/wastewater-operator/",
   "/epa-608/guide/passing-score/",
   "/epa-608/universal/practice-test/",
   "/news/",

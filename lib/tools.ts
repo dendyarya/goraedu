@@ -90,4 +90,12 @@ export const TOOLS: Tool[] = [
     summary:
       "Find the 90th percentile of lead or copper tap results the way 40 CFR 141.80(c)(3) describes it and compare it with the 2024-revised action levels.",
   },
+  {
+    slug: "secondary-treatment-check",
+    cluster: "wastewater-operator",
+    name: "Secondary treatment check",
+    href: "/wastewater-operator/tools/secondary-treatment-check/",
+    summary:
+      "Compare 30-day and 7-day effluent averages and percent removal for BOD5, CBOD5 or SS with the levels in 40 CFR 133.102.",
+  },
 ];

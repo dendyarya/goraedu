@@ -146,6 +146,26 @@ const SNAPSHOTS: Record<string, string[]> = {
     "40cfr143-2026-11-04.txt",
     "40cfr143-2026-11-04.reading-order.txt",
   ],
+  "wastewater-operator": [
+    "40cfr133-2026-11-04.txt",
+    "40cfr133-2026-11-04.reading-order.txt",
+    "40cfr122-2-2026-11-04.txt",
+    "40cfr122-2-2026-11-04.reading-order.txt",
+    "40cfr122-41-2026-11-04.txt",
+    "40cfr122-41-2026-11-04.reading-order.txt",
+    "40cfr122-subpartC-2026-11-04.txt",
+    "40cfr122-subpartC-2026-11-04.reading-order.txt",
+    "40cfr136-1-2026-11-04.txt",
+    "40cfr136-1-2026-11-04.reading-order.txt",
+    "40cfr136-2-2026-11-04.txt",
+    "40cfr136-2-2026-11-04.reading-order.txt",
+    "40cfr136-3-2026-11-04.txt",
+    "40cfr136-3-2026-11-04.reading-order.txt",
+    "40cfr403-2026-11-04.txt",
+    "40cfr403-2026-11-04.reading-order.txt",
+    "40cfr503-2026-11-04.txt",
+    "40cfr503-2026-11-04.reading-order.txt",
+  ],
   "epa-609": [
     "40cfr82-subpartB-2026-11-03.txt",
     "40cfr82-subpartG-2026-11-03.txt",
@@ -215,6 +235,14 @@ const PAGE_TITLES = [
   "Public Notification of Drinking Water Violations",
   "Revised Total Coliform Rule",
   "Other Safe Drinking Water Act Regulations",
+  "Definitions.",
+  "Conditions applicable to all permits (applicable to State programs, see...",
+  "Permit Conditions",
+  "Secondary Treatment Regulation",
+  "Applicability.",
+  "Identification of test procedures.",
+  "General Pretreatment Regulations for Existing and New Sources of Pollution",
+  "Standards for the Use or Disposal of Sewage Sludge",
 ];
 
 function stripPageChrome(text: string): string {
@@ -227,7 +255,8 @@ function stripPageChrome(text: string): string {
         /^\d+ CFR (Part \d+( Subpart [A-Z])?|[\d.]+) \(up to date/.test(t) ||
         /^\d+ CFR [\d.]+[\d()a-zA-Z]*$/.test(t) ||
         /^\d+ CFR [\d.]+-[\d.]+$/.test(t) ||
-        /^\d+ CFR Appendix-\S+( \d+\.)?$/.test(t) ||
+        /^\d+ CFR Appendix-\S+( \S+)?$/.test(t) ||
+        /^\d+ CFR [\d.]+ “[^”]+”$/.test(t) ||
         /^\d+ CFR Part \d+( Subpart [A-Z])? \([A-Z][a-z]+\.? \d+, \d{4}\)$/.test(t) ||
         /^page \d+ of \d+$/.test(t) ||
         /\(enhanced display\)(\s+page \d+ of \d+)?$/.test(t) ||

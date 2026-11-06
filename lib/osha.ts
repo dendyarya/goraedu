@@ -2,7 +2,8 @@
 // the OSHA Outreach Training Program course topics for each industry.
 
 export type OshaSet = { slug: string; name: string; rule: string; focus: string | null };
-export type OshaClusterId = "osha" | "osha-general-industry" | "cdl" | "faa-107" | "water-operator";
+export type OshaClusterId =
+  "osha" | "osha-general-industry" | "cdl" | "faa-107" | "water-operator" | "wastewater-operator";
 
 const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "intro-to-osha", name: "Introduction to OSHA", rule: "29 CFR Parts 1903 and 1904", focus: null },
@@ -80,6 +81,41 @@ const WATER_SETS: OshaSet[] = [
   },
 ];
 
+const WASTEWATER_SETS: OshaSet[] = [
+  { slug: "secondary-treatment", name: "Secondary treatment standards", rule: "40 CFR Part 133", focus: null },
+  {
+    slug: "npdes-permit-conditions",
+    name: "NPDES permit conditions",
+    rule: "40 CFR 122.2 and 122.41",
+    focus: null,
+  },
+  {
+    slug: "permit-limits-monitoring",
+    name: "Permit limits and monitoring",
+    rule: "40 CFR Part 122 Subpart C",
+    focus: null,
+  },
+  {
+    slug: "sampling-test-procedures",
+    name: "Sampling and test procedures",
+    rule: "40 CFR 136.1 to 136.3",
+    focus: null,
+  },
+  { slug: "pretreatment", name: "Industrial pretreatment", rule: "40 CFR Part 403", focus: null },
+  {
+    slug: "biosolids-use-disposal",
+    name: "Biosolids use and disposal",
+    rule: "40 CFR Part 503 Subparts A, B, C and E",
+    focus: null,
+  },
+  {
+    slug: "pathogens-vector-attraction",
+    name: "Pathogen and vector attraction reduction",
+    rule: "40 CFR Part 503 Subpart D",
+    focus: null,
+  },
+];
+
 const GENERAL_INDUSTRY_SETS: OshaSet[] = [
   { slug: "walking-working-surfaces", name: "Walking-working surfaces", rule: "29 CFR 1910 Subpart D", focus: null },
   { slug: "exit-routes", name: "Exit routes and emergency planning", rule: "29 CFR 1910 Subpart E", focus: null },
@@ -108,6 +144,9 @@ export const FAA_INDEPENDENCE_TEXT =
 
 export const WATER_INDEPENDENCE_TEXT =
   "goraedu does not certify water operators, and our questions are not a state operator certification exam. Not affiliated with or endorsed by the U.S. EPA, any state drinking water program or any operator certification body.";
+
+export const WASTEWATER_INDEPENDENCE_TEXT =
+  "goraedu does not certify wastewater operators, and our questions are not a state operator certification exam. Not affiliated with or endorsed by the U.S. EPA, any state water program or any operator certification body.";
 
 export const OSHA_CLUSTERS: Record<
   OshaClusterId,
@@ -164,6 +203,15 @@ export const OSHA_CLUSTERS: Record<
     part: "40 CFR Parts 141 and 143",
     sets: WATER_SETS,
     independence: WATER_INDEPENDENCE_TEXT,
+    notFrom: "any state operator certification exam, operator manual or prep course",
+  },
+  "wastewater-operator": {
+    id: "wastewater-operator",
+    label: "Wastewater operator",
+    href: "/wastewater-operator/",
+    part: "40 CFR Parts 122, 133, 136, 403 and 503",
+    sets: WASTEWATER_SETS,
+    independence: WASTEWATER_INDEPENDENCE_TEXT,
     notFrom: "any state operator certification exam, operator manual or prep course",
   },
 };
