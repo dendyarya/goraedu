@@ -191,6 +191,8 @@ const SNAPSHOTS: Record<string, string[]> = {
     "40cfr745-subpartL-2026-11-04.reading-order.txt",
     "40cfr745-subpartD-2026-11-04.txt",
     "40cfr745-subpartD-2026-11-04.reading-order.txt",
+    "40cfr745-103-2026-11-04.txt",
+    "40cfr745-103-2026-11-04.reading-order.txt",
   ],
   "epa-609": [
     "40cfr82-subpartB-2026-11-03.txt",

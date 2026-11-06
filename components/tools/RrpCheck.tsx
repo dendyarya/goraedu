@@ -118,7 +118,7 @@ export default function RrpCheck() {
           value={bldg}
           onChange={setBldg}
           options={[
-            { value: "th", label: "Target housing", hint: "As defined in 40 CFR 745.103" },
+            { value: "th", label: "Target housing", hint: "Definition shown on the right" },
             { value: "cof", label: "A child-occupied facility", hint: "Definition shown on the right" },
             { value: "neither", label: "Neither" },
           ]}
@@ -171,12 +171,13 @@ export default function RrpCheck() {
           ) : null}
         </div>
         <div className="rounded-3xl border border-line bg-panel p-6 text-[0.9375rem]">
+          <RuleQuote source={RRRP.targetHousing} />
           <RuleQuote source={RRRP.cof} />
           <RuleQuote source={RRRP.sameJob} />
           <p className="mt-4 text-muted">
-            A study aid, not a compliance determination. It does not apply the definition of target housing (40 CFR
-            745.103) for you, and does not cover HUD rules or other federal, State or local requirements. Your State or
-            Tribe may run its own authorized program, so check its rules too.
+            A study aid, not a compliance determination. You decide whether the building meets the definitions above. It
+            does not cover HUD rules or other federal, State or local requirements. Your State or Tribe may run its own
+            authorized program, so check its rules too.
           </p>
         </div>
       </div>

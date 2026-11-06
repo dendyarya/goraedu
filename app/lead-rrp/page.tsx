@@ -30,6 +30,13 @@ const FACTS: { text: string; quote: string; cite: string; url: string }[] = [
     url: `${B}/subpart-E/section-745.82`,
   },
   {
+    text: "Target housing is housing built before 1978, except housing for the elderly or persons with disabilities and 0-bedroom dwellings, unless a child under 6 lives or is expected to live there.",
+    quote:
+      "Target housing means any housing constructed prior to 1978, except housing for the elderly or persons with disabilities or any 0-bedroom dwelling (unless any child who is less than 6 years of age resides or is expected to reside in such housing).",
+    cite: "40 CFR 745.103",
+    url: `${B}/subpart-F/section-745.103`,
+  },
+  {
     text: "Firms that perform renovations for compensation must apply to EPA for certification.",
     quote:
       "Firms that perform renovations for compensation must electronically apply to EPA for certification to perform renovations or dust sampling.",
@@ -61,6 +68,7 @@ const SOURCES: Source[] = [
     ["subpart-E", "40 CFR Part 745, Subpart E, Residential Property Renovation"],
     ["subpart-L", "40 CFR Part 745, Subpart L, Lead-Based Paint Activities"],
     ["subpart-D", "40 CFR Part 745, Subpart D, Lead-Based Paint Hazards"],
+    ["subpart-F/section-745.103", "40 CFR 745.103, Definitions"],
   ].map(([p, t]) => ({ title: `eCFR: ${t} (as of Nov 4, 2026)`, url: `${B}/${p}`, checked: CHECKED })),
 ];
 
@@ -93,11 +101,12 @@ export default function LeadRrpPage() {
           <div className="rounded-3xl border border-[#f3dca0] bg-hose-soft p-6">
             <h2 className="text-[1.25rem] font-bold">What these pages cover</h2>
             <p className="mt-2">
-              Everything here comes from the current eCFR text of 40 CFR Part 745 Subparts D, E and L. The Certified
-              Renovator credential is earned only by completing an accredited renovator course, and firms apply to EPA
-              (or to an authorized State or Tribe) for certification. These pages help you study the rule; they are not
-              a course and do not count toward certification. HUD and other rules that may also apply are not covered.
-              Your State or Tribe may run its own authorized program, so check its rules too. {c.independence}
+              Everything here comes from the current eCFR text of 40 CFR Part 745 Subparts D, E and L and § 745.103. The
+              Certified Renovator credential is earned only by completing an accredited renovator course, and firms
+              apply to EPA (or to an authorized State or Tribe) for certification. These pages help you study the rule;
+              they are not a course and do not count toward certification. HUD and other rules that may also apply are
+              not covered. Your State or Tribe may run its own authorized program, so check its rules too.{" "}
+              {c.independence}
             </p>
           </div>
 

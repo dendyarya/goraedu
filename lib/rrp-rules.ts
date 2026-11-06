@@ -36,6 +36,12 @@ export const RRRP = {
     quote:
       "Emergency renovations other than interim controls are also exempt from the warning sign, containment, waste handling, training, and certification requirements in §§ 745.85, 745.89, and 745.90 to the extent necessary to respond to the emergency.",
   },
+  targetHousing: {
+    title: "40 CFR 745.103, Target housing",
+    url: "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.103",
+    quote:
+      "Target housing means any housing constructed prior to 1978, except housing for the elderly or persons with disabilities or any 0-bedroom dwelling (unless any child who is less than 6 years of age resides or is expected to reside in such housing).",
+  },
   cof: {
     title: "40 CFR 745.83, Child-occupied facility",
     url: `${E}/section-745.83`,
