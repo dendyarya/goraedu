@@ -62,15 +62,15 @@
     {
       "id": "lp-004",
       "topic": "Loading before flight",
-      "question": "What weight does the 107.3 definition of a small unmanned aircraft set?",
+      "question": "A small UA weighs 49 pounds with its battery, and the operator attaches a 7-pound camera before takeoff. Under the 107.3 definition, is it a small unmanned aircraft?",
       "options": {
-        "A": "Less than 55 pounds empty, not counting any payload",
-        "B": "55 pounds or more on takeoff",
-        "C": "Less than 55 pounds on takeoff, including everything that is on board or otherwise attached to the aircraft",
-        "D": "Less than 0.55 pounds on takeoff, not counting attached objects"
+        "A": "Yes, because a camera payload is not counted",
+        "B": "Yes, because only the empty weight counts",
+        "C": "No, because its takeoff weight with everything on board or attached is 56 pounds, which is not less than 55 pounds",
+        "D": "Yes, because the weight limit applies only after takeoff"
       },
       "answer": "C",
-      "explanation": "107.3 says \"Small unmanned aircraft means an unmanned aircraft weighing less than 55 pounds on takeoff, including everything that is on board or otherwise attached to the aircraft.\"",
+      "explanation": "107.3: \"Small unmanned aircraft means an unmanned aircraft weighing less than 55 pounds on takeoff, including everything that is on board or otherwise attached to the aircraft.\" Here 49 + 7 = 56 pounds.",
       "source": {
         "title": "eCFR: 14 CFR 107.3, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.3"
@@ -242,15 +242,15 @@
     {
       "id": "lp-014",
       "topic": "Load factor, turns and stalls",
-      "question": "In the Study Guide's example, an aircraft has a normal unaccelerated stalling speed of 50 knots. If it could withstand a load factor of nine, at what speed does the guide say it could be stalled?",
+      "question": "According to the Study Guide, in which maneuvers should a pilot be aware of the danger of inadvertently stalling the aircraft by increasing the load factor?",
       "options": {
-        "A": "100 knots",
-        "B": "450 knots",
-        "C": "75 knots",
-        "D": "150 knots"
+        "A": "Straight-and-level flight at a constant airspeed",
+        "B": "A shallow, straight descent at a constant airspeed",
+        "C": "Holding a steady heading at cruise speed",
+        "D": "A steep turn or spiral"
       },
       "answer": "D",
-      "explanation": "The Study Guide says \"If it were possible for this aircraft to withstand a load factor of nine, it could be stalled at a speed of 150 knots.\" An aircraft's stalling speed \"increases in proportion to the square root of the load factor.\"",
+      "explanation": "\"A pilot should be aware of the danger of inadvertently stalling the aircraft by increasing the load factor, as in a steep turn or spiral.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -296,15 +296,15 @@
     {
       "id": "lp-017",
       "topic": "Weight control and overloading",
-      "question": "Which of these is one of the performance deficiencies of an overloaded aircraft listed in the Study Guide?",
+      "question": "A remote pilot did not load the aircraft properly. According to the Study Guide, when does the initial indication of poor performance usually take place?",
       "options": {
-        "A": "Shorter takeoff run",
-        "B": "Lower stalling speed",
-        "C": "Lower approach and landing speed",
-        "D": "Reduced rate and angle of climb"
+        "A": "During landing",
+        "B": "Only after the battery is half drained",
+        "C": "During cruise at maximum altitude",
+        "D": "During takeoff"
       },
       "answer": "D",
-      "explanation": "Among \"the most important performance deficiencies of an overloaded aircraft\", the Study Guide lists \"Reduced rate and angle of climb\", along with a longer takeoff run, higher stalling speed and higher approach and landing speed.",
+      "explanation": "The Study Guide says \"If not properly loaded, the initial indication of poor performance usually takes place during takeoff.\" An overloaded aircraft \"may not be able to leave the ground\".",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"

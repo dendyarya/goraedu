@@ -188,15 +188,15 @@
     {
       "id": "ar-011",
       "topic": "Non-towered airports and traffic advisories",
-      "question": "How does the Study Guide describe UNICOM?",
+      "question": "Most non-towered airports have a UNICOM frequency, but a remote pilot is planning a flight in an area with many non-towered airports. According to the Study Guide, why should the pilot check the chart or the Chart Supplements for the correct frequency instead of assuming the usual one?",
       "options": {
-        "A": "A government radar facility that separates traffic around towered airports",
-        "B": "A nongovernment air/ground radio communication station that may provide airport information at public use airports where there is no tower or FSS",
-        "C": "A recorded weather broadcast updated once per hour",
-        "D": "A military frequency used only for training routes"
+        "A": "The remote pilot assigns the UNICOM frequency for each flight",
+        "B": "The frequency can vary when there are a large number of non-towered airports in the area",
+        "C": "Sectional charts show frequencies only for towered airports",
+        "D": "UNICOM frequencies change every time the ATIS is updated"
       },
       "answer": "B",
-      "explanation": "\"UNICOM is a nongovernment air/ground radio communication station that may provide airport information at public use airports where there is no tower or FSS.\"",
+      "explanation": "The Study Guide says \"This frequency can vary when there are a large number of non-towered airports in the area.\" It adds that \"These frequencies can be found on a sectional chart by the airport or in the Chart Supplements publication from the FAA.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
@@ -314,12 +314,12 @@
     {
       "id": "ar-018",
       "topic": "Charts, magnetic variation and obstructions",
-      "question": "How does the Study Guide define magnetic variation?",
+      "question": "At a remote pilot's planned location, magnetic north (MN) lies to the east of true north (TN). According to the Study Guide, how is the variation at that location expressed?",
       "options": {
-        "A": "The angle between true north and magnetic north",
-        "B": "The difference between indicated altitude and true altitude",
-        "C": "The change in wind direction with height",
-        "D": "The distance between two lines of latitude"
+        "A": "As east variation",
+        "B": "As west variation",
+        "C": "As zero variation, as on the agonic line",
+        "D": "As compass deviation"
       },
       "answer": "A",
       "explanation": "\"Variation is the angle between true north (TN) and magnetic north (MN). It is expressed as east variation or west variation depending upon whether MN is to the east or west of TN.\"",
@@ -332,15 +332,15 @@
     {
       "id": "ar-019",
       "topic": "Charts, magnetic variation and obstructions",
-      "question": "According to the Study Guide, by what horizontal distance should all skeletal structures, such as antenna towers, be avoided?",
+      "question": "A remote pilot plans a flight near a radio antenna tower. According to the Study Guide, why should all skeletal structures be avoided horizontally by at least 2,000 feet?",
       "options": {
-        "A": "At least 100 feet",
-        "B": "At least 400 feet",
-        "C": "At least 500 feet",
-        "D": "At least 2,000 feet"
+        "A": "Antenna towers are never taller than 2,000 feet AGL",
+        "B": "Towers are always charted 2,000 feet from their actual position",
+        "C": "Tower lighting blinds a remote pilot at closer range",
+        "D": "Their supporting guy wires can extend about 1,500 feet horizontally and are very difficult to see"
       },
       "answer": "D",
-      "explanation": "Guy wires \"can extend about 1,500 feet horizontally from a structure; therefore, all skeletal structures should be avoided horizontally by at least 2,000 feet.\"",
+      "explanation": "Most skeletal structures are supported by guy wires \"which are very difficult to see in good weather and can be invisible at dusk or during periods of reduced visibility.\" These wires \"can extend about 1,500 feet horizontally from a structure; therefore, all skeletal structures should be avoided horizontally by at least 2,000 feet.\"",
       "source": {
         "title": "FAA-G-8082-22, Remote Pilot – Small Unmanned Aircraft Systems Study Guide (August 2016)",
         "url": "https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf"
