@@ -100,7 +100,9 @@ export default function IndustrialRadiographyPage() {
               Everything here comes from the current eCFR text of 10 CFR Part 34. Certifying-entity exams and study
               material, radiation physics and shielding, other parts of 10 CFR, NRC guidance documents, and violation
               and penalty provisions are not covered. These pages help you study the rule; they are not a course or
-              exam. Agreement States license radiography under their own compatible rules, so check yours too.{" "}
+              exam. Agreement States license radiography under their own compatible rules, so check yours too. These
+              pages are not radiation safety training and have not been reviewed by a radiation safety professional:
+              your licensee&apos;s training program and Radiation Safety Officer decide how the work is done safely.{" "}
               {c.independence}
             </p>
           </div>

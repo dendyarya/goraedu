@@ -41,7 +41,8 @@ export default function RadiographyDueDatesPage() {
     >
       <RadiographyDueDates />
       <p className="mt-12 max-w-[68ch] text-[0.9375rem] text-muted">
-        A study aid, not legal or compliance advice. {RADIOGRAPHY_INDEPENDENCE_TEXT} Spot an error?{" "}
+        A study aid, not legal or compliance advice and not radiation safety training. {RADIOGRAPHY_INDEPENDENCE_TEXT}{" "}
+        Spot an error?{" "}
         <Link href="/contact/" className="text-low underline">
           Tell us
         </Link>

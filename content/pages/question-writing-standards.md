@@ -1,12 +1,13 @@
 ---
 title: Question writing standards
 description: The rules every goraedu practice question has to meet before it is published, for every certification.
-updated: 2026-11-05
+updated: 2026-11-07
 ---
 
 ## Our own questions only
 
-Every practice question on goraedu is written by us. We never copy, adapt or paraphrase real exam questions from
+Every practice question on goraedu is written by us, with AI tools (Anthropic's Claude), as explained on our
+[methodology](/methodology/) page. We never copy, adapt or paraphrase real exam questions from
 testing organizations, certifying bodies, publishers, other prep sites or shared question banks. Our questions are
 built from the official rules and from the topics the agency or certifying body publishes for its exam.
 
@@ -28,8 +29,9 @@ experience, opinion or a particular company's practice, because those cannot be 
 
 ## Checking before publishing
 
-Each question is checked twice against its source before it goes live. Numbers and dates from the regulations are
-compared with the current official text each time.
+Before a question goes live it passes a fact check against the dated official text and three separate originality
+checks, each run by an AI reviewer that did not write it. Every quoted phrase in the explanation is matched word for
+word against the official text. No licensed professional or subject-matter expert reviews the questions at present.
 
 ## After publishing
 

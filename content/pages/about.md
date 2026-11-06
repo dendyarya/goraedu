@@ -1,7 +1,7 @@
 ---
 title: About goraedu
 description: An independent website with free practice for U.S. skilled trades certifications, built from official government sources.
-updated: 2026-11-05
+updated: 2026-11-07
 ---
 
 goraedu helps people prepare for the certification exams that U.S. skilled trades require, from refrigerant
@@ -13,8 +13,11 @@ We write practice questions, study guides and simple tools for each certificatio
 fact links to the official source it comes from, usually the regulation itself in the Code of Federal Regulations,
 the agency that writes the rule, or the Federal Register. Next to each source we show the date we last checked it.
 
-We cover one certification at a time and finish it before starting the next. EPA Section 608 comes first. The full
-list, and what is planned, is on the [certifications page](/certifications/).
+We cover a certification only when the rules behind it are published by a U.S. government agency (in the Code of
+Federal Regulations or on the agency's own site), because then every answer can be checked against the official text.
+Exams built on copyrighted codes or a private organization's own question bank, such as electrician, plumbing or
+automotive (ASE) exams, are not covered. Each certification page has a "Scope and sources" box that says what it
+covers and what it leaves out. The full list is on the [certifications page](/certifications/).
 
 ## Who we are
 
@@ -29,6 +32,8 @@ or agency that gives it.
 ## How we keep it accurate
 
 - We only write questions whose answers are stated clearly in an official document.
+- We use AI tools (Anthropic's Claude) to draft and check our pages, and say so openly. How that works, and its
+  limits, is on our [methodology](/methodology/) page.
 - We check every page against its sources at least once a year, and sooner when a rule changes.
 - We review error reports within 7 days and log every fix on our [corrections page](/corrections/).
 

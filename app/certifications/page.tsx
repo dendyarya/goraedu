@@ -14,7 +14,7 @@ export default function CertificationsPage() {
     <PageShell
       crumbs={[{ label: "Home", href: "/" }, { label: "Certifications" }]}
       title="Certifications"
-      lead="We add one certification at a time and finish its practice questions and study pages before starting the next. EPA Section 608 comes first."
+      lead="We cover certifications whose rules are published by a U.S. government agency, so every answer can be checked against the official text. Each one shows exactly what it covers and what it leaves out."
     >
       <ClusterGrid />
       <p className="mt-12 max-w-[68ch] text-[0.9375rem] text-muted">

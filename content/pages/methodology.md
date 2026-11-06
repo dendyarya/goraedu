@@ -1,25 +1,44 @@
 ---
 title: Methodology
 description: Where our information comes from, how we label it, and how we keep it current for every certification.
-updated: 2026-11-05
+updated: 2026-11-07
 ---
 
 ## Sources we use
 
-For each certification we go to the primary source: the regulation and the agency that writes it. Each
-certification's pages list their exact sources. These are the sources for the certifications we cover now:
+For each certification we go to the primary source: the regulation and the agency that writes it. This table is built
+automatically from our list of live certifications, so it always matches the site. Each certification's own pages
+list their exact sections and links in a "Scope and sources" box.
 
-| Certification      | Primary sources                                                                                                                                                                 |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EPA Section 608    | [eCFR: 40 CFR Part 82, Subpart F](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F) and [EPA's Section 608 pages](https://www.epa.gov/section608) |
-| All certifications | The [Federal Register](https://www.federalregister.gov/) for new and proposed rules                                                                                             |
+{{SOURCES_TABLE}}
 
-As we add a certification, we add its sources here, for example FMCSA rules for the CDL, OSHA standards for safety
-courses and FAA rules for drone pilots. Where a credential is defined by a state or a private certifying body
-rather than a federal rule, we use that body's official published requirements and say so on the page.
+For every certification we also watch the [Federal Register](https://www.federalregister.gov/) for new and proposed
+rules. We cover a certification only when its rules are published by a U.S. government agency, so every answer can be
+checked against the official text. Exams built on copyrighted codes (for example electrical and plumbing codes) or on
+a private organization's own question bank (for example ASE) are not covered.
 
 We do not use exam question banks, "dumps", other prep sites or forum posts as sources. Trade press can point us
 to a change, but we only publish what the official document says.
+
+## How our pages are made: AI tools and their limits
+
+We use AI tools (Anthropic's Claude) to draft and check practice questions, study guides and news posts. We say this
+plainly because you should know how a page was made before you rely on it.
+
+- **Drafting.** Each page is drafted from a dated copy of the official text (for example the eCFR text of a regulation
+  as of a stated date). The draft must quote that text word for word.
+- **Automatic checks.** Every quotation in a study guide or on a certification page is matched against the dated
+  copy when the site is built; if a quote is not found word for word, the build fails and the page does not go live.
+- **Separate AI review passes.** Each question set and study guide is then checked in several separate passes, each
+  run by an AI reviewer that did not write the draft: a fact check against the official text, three originality
+  checks (to keep wording away from known exam and prep-course items) and further study guide audits. When our
+  corrections log says "independent reviews", it means these separate AI review passes.
+- **What this does not include.** No licensed professional or subject-matter expert reviews our content at present.
+  The pages are a careful reading of the official rules, not professional training or advice. This matters most for
+  safety topics such as radiation safety, electrical work and confined spaces: use our pages to study the rules, and
+  rely on your employer's training and your licensing authority for how to do the work safely.
+
+If you find an error, [tell us](/contact/). Every fix is logged on the [corrections page](/corrections/).
 
 ## How we label information
 

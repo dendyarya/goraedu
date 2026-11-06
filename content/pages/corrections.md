@@ -1,11 +1,13 @@
 ---
 title: Corrections
 description: Every factual fix we make to a published page or practice question, with the date and what changed.
-updated: 2026-11-06
+updated: 2026-11-07
 ---
 
 We want every answer on goraedu to match the official rules. When we get something wrong, we fix it and record the
-fix here.
+fix here. Where this log says "independent reviews", it means separate AI review passes, each run by an AI reviewer
+that did not write the page, as described on our [methodology](/methodology/) page; no human expert reviewer was
+involved.
 
 ## How to report an error
 

@@ -56,7 +56,7 @@ function CertificationList() {
         ))}
       </div>
       <p className="mt-6 flex flex-wrap justify-between gap-3 border-t border-line pt-4">
-        <span className="text-muted">We finish one certification before starting the next.</span>
+        <span className="text-muted">Each certification page says what it covers and what it does not.</span>
         <Link href="/certifications/" className="font-bold text-low underline">
           See all certifications
         </Link>
