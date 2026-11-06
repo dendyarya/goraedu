@@ -194,6 +194,12 @@ const SNAPSHOTS: Record<string, string[]> = {
     "40cfr745-103-2026-11-04.txt",
     "40cfr745-103-2026-11-04.reading-order.txt",
   ],
+  forklift: [
+    "29cfr1910-178-2026-11-04.txt",
+    "29cfr1910-178-2026-11-04.reading-order.txt",
+    "29cfr1926-602-2026-11-04.txt",
+    "29cfr1926-602-2026-11-04.reading-order.txt",
+  ],
   "osha-crane": [
     "29cfr1926-1401-2026-11-04.txt",
     "29cfr1926-1401-2026-11-04.reading-order.txt",
@@ -311,6 +317,7 @@ const PAGE_TITLES = [
   "Operator training, certification, and evaluation.",
   "Hoisting personnel.",
   "Signal person qualifications.",
+  "Material handling equipment.",
 ];
 
 function stripPageChrome(text: string): string {

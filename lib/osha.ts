@@ -10,7 +10,8 @@ export type OshaClusterId =
   | "water-operator"
   | "wastewater-operator"
   | "lead-rrp"
-  | "osha-crane";
+  | "osha-crane"
+  | "forklift";
 
 const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "intro-to-osha", name: "Introduction to OSHA", rule: "29 CFR Parts 1903 and 1904", focus: null },
@@ -238,6 +239,48 @@ export const WASTEWATER_INDEPENDENCE_TEXT =
 export const RRP_INDEPENDENCE_TEXT =
   "goraedu is not an EPA-accredited training provider, does not certify renovators or firms, and our questions are not a course exam. Not affiliated with or endorsed by the U.S. EPA or any State or Tribal lead program.";
 
+const FORKLIFT_SETS: OshaSet[] = [
+  {
+    slug: "forklift-operator-training",
+    name: "Operator training and evaluation",
+    rule: "29 CFR 1910.178(l)",
+    focus: null,
+  },
+  {
+    slug: "forklift-truck-types-locations",
+    name: "Truck approval, types and designated locations",
+    rule: "29 CFR 1910.178(a) to (e)",
+    focus: null,
+  },
+  {
+    slug: "forklift-fuel-batteries-docks",
+    name: "Fuel, batteries, lighting and loading docks",
+    rule: "29 CFR 1910.178(f) to (k)",
+    focus: null,
+  },
+  {
+    slug: "forklift-traveling-loading",
+    name: "Truck operations, traveling and loading",
+    rule: "29 CFR 1910.178(m) to (o)",
+    focus: null,
+  },
+  {
+    slug: "forklift-operation-maintenance",
+    name: "Operating condition and maintenance",
+    rule: "29 CFR 1910.178(p) and (q)",
+    focus: null,
+  },
+  {
+    slug: "forklift-construction",
+    name: "Forklifts in construction",
+    rule: "29 CFR 1926.602(c) and (d)",
+    focus: null,
+  },
+];
+
+export const FORKLIFT_INDEPENDENCE_TEXT =
+  "goraedu does not train, evaluate or certify forklift operators, and our questions are not an operator evaluation. Under 29 CFR 1910.178(l) that is the employer's job. Not affiliated with or endorsed by OSHA or the U.S. Department of Labor.";
+
 export const CRANE_INDEPENDENCE_TEXT =
   "goraedu is not a crane operator testing organization, does not certify or qualify operators, and our questions are not a certification exam. Not affiliated with or endorsed by OSHA, the U.S. Department of Labor or any certification body.";
 
@@ -297,6 +340,15 @@ export const OSHA_CLUSTERS: Record<
     sets: WATER_SETS,
     independence: WATER_INDEPENDENCE_TEXT,
     notFrom: "any state operator certification exam, operator manual or prep course",
+  },
+  forklift: {
+    id: "forklift",
+    label: "Forklift operator",
+    href: "/forklift/",
+    part: "29 CFR 1910.178",
+    sets: FORKLIFT_SETS,
+    independence: FORKLIFT_INDEPENDENCE_TEXT,
+    notFrom: "any forklift training course, operator evaluation, quiz or prep material",
   },
   "osha-crane": {
     id: "osha-crane",

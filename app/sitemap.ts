@@ -23,6 +23,7 @@ const PATHS = [
   "/wastewater-operator/",
   "/lead-rrp/",
   "/osha-crane/",
+  "/forklift/",
   "/epa-608/guide/passing-score/",
   "/epa-608/universal/practice-test/",
   "/news/",
