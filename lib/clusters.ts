@@ -204,7 +204,8 @@ export const FAMILIES: Family[] = [
         summary:
           "FAA rules for mechanic certificates and ratings, privileges, inspection authorization and maintenance records.",
         source: "FAA, 14 CFR Part 65 Subpart D and Part 43",
-        status: "planned",
+        status: "available",
+        href: "/faa-amt/",
       },
     ],
   },
