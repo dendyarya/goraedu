@@ -44,15 +44,15 @@
     {
       "id": "xa-003",
       "topic": "ACM, PACM and material categories",
-      "question": "How does 1926.1101(b) define presumed asbestos containing material (PACM)?",
+      "question": "A product contains chrysotile that was chemically treated during manufacture. Under the 1926.1101(b) definition of asbestos, how is this mineral treated?",
       "options": {
-        "A": "Thermal system insulation and surfacing material found in buildings constructed no later than 1980",
-        "B": "Any building material installed before 1980 that has not been sampled",
-        "C": "Any material containing more than one percent asbestos",
-        "D": "Floor tile and roofing found in buildings constructed no later than 1980"
+        "A": "It is asbestos, because the definition includes any of the listed minerals that has been chemically treated and/or altered",
+        "B": "It is no longer asbestos once chemical treatment has changed it",
+        "C": "It is asbestos only while it remains friable",
+        "D": "It is asbestos only in buildings constructed no later than 1980"
       },
       "answer": "A",
-      "explanation": "The rule defines it as \"thermal system insulation and surfacing material found in buildings constructed no later than 1980.\" Any material containing more than one percent asbestos is the definition of ACM, not PACM.",
+      "explanation": "The definition lists chrysotile and the other minerals and adds \"any of these minerals that has been chemically treated and/or altered.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
@@ -62,15 +62,15 @@
     {
       "id": "xa-004",
       "topic": "ACM, PACM and material categories",
-      "question": "Under 1926.1101(b), what makes a material asbestos-containing material (ACM)?",
+      "question": "Employees will disturb PACM that has never been sampled. For purposes of 1926.1101, does the term \"asbestos\" cover this material?",
       "options": {
-        "A": "It contains any detectable amount of asbestos",
-        "B": "It contains more than 0.1 percent asbestos",
-        "C": "It contains more than one percent asbestos",
-        "D": "It contains more than 5 percent asbestos"
+        "A": "No, it is covered only after a laboratory confirms more than one percent asbestos",
+        "B": "Only if the PACM is friable",
+        "C": "Yes, because for purposes of the standard \"asbestos\" includes PACM",
+        "D": "No, PACM is covered only by EPA's school asbestos rule"
       },
       "answer": "C",
-      "explanation": "The rule states: \"Asbestos-containing material (ACM), means any material containing more than one percent asbestos.\"",
+      "explanation": "The definition of asbestos ends: \"For purposes of this standard, “asbestos” includes PACM, as defined below.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
@@ -80,15 +80,15 @@
     {
       "id": "xa-005",
       "topic": "ACM, PACM and material categories",
-      "question": "Which description matches \"surfacing material\" as defined in 1926.1101(b)?",
+      "question": "Sprayed-on acoustical plaster in a building constructed in 1972 is PACM under 1926.1101(b). What does the definition say about that designation?",
       "options": {
-        "A": "Material bonded into a matrix that cannot be crumbled by hand",
-        "B": "Material that is sprayed, troweled-on or otherwise applied to surfaces",
-        "C": "ACM applied to pipes, boilers and ducts to prevent heat loss or gain",
-        "D": "Any material attached to a load-supporting structural member"
+        "A": "It can never be removed for the life of the building",
+        "B": "It may be rebutted pursuant to paragraph (k)(5)",
+        "C": "It lapses automatically three years after the building's last inspection",
+        "D": "It applies only while the plaster is damaged"
       },
       "answer": "B",
-      "explanation": "Surfacing material \"means material that is sprayed, troweled-on or otherwise applied to surfaces\", such as acoustical plaster on ceilings and fireproofing materials on structural members. ACM applied to pipes, boilers and ducts to prevent heat loss or gain is thermal system insulation.",
+      "explanation": "PACM is thermal system insulation and surfacing material in buildings constructed no later than 1980, and \"The designation of a material as “PACM” may be rebutted pursuant to paragraph (k)(5) of this section.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
@@ -98,15 +98,15 @@
     {
       "id": "xa-006",
       "topic": "Classes of asbestos work",
-      "question": "A contractor is removing asbestos-containing floor tile from a corridor. Under 1926.1101(b), which class of asbestos work is this?",
+      "question": "Under the 1926.1101(b) definitions, what separates Class I asbestos work from Class II asbestos work?",
       "options": {
-        "A": "Class I",
-        "B": "Class III",
-        "C": "Class IV",
-        "D": "Class II"
+        "A": "Whether the material is friable or nonfriable",
+        "B": "The quantity of material removed in one day",
+        "C": "Whether the work is done indoors or outdoors",
+        "D": "Whether the material removed is thermal system insulation or surfacing material"
       },
       "answer": "D",
-      "explanation": "Class II work is \"the removal of ACM which is not thermal system insulation or surfacing material\", and the rule says \"This includes, but is not limited to, the removal of asbestos-containing wallboard, floor tile and sheeting\".",
+      "explanation": "Class I is \"the removal of TSI and surfacing ACM and PACM\", while Class II is \"the removal of ACM which is not thermal system insulation or surfacing material.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
@@ -116,15 +116,15 @@
     {
       "id": "xa-007",
       "topic": "Classes of asbestos work",
-      "question": "A custodial employee cleans up dust and debris left from a completed Class I job. Under 1926.1101(b), which class of asbestos work is this cleanup?",
+      "question": "Both Class III and Class IV work can involve maintenance. Under 1926.1101(b), what marks the maintenance and custodial activities that are Class IV work?",
       "options": {
-        "A": "Class I",
-        "B": "Class II",
-        "C": "Class IV",
-        "D": "Class III"
+        "A": "Only nonfriable material is present in the work area",
+        "B": "The task takes less than one hour",
+        "C": "Employees contact but do not disturb ACM or PACM",
+        "D": "No PACM is present anywhere in the building"
       },
       "answer": "C",
-      "explanation": "Class IV work includes \"activities to clean up dust, waste and debris resulting from Class I, II, and III activities.\"",
+      "explanation": "Class IV work \"means maintenance and custodial activities during which employees contact but do not disturb ACM or PACM\". Class III covers repair and maintenance operations where ACM \"is likely to be disturbed.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
@@ -134,15 +134,15 @@
     {
       "id": "xa-008",
       "topic": "Classes of asbestos work",
-      "question": "A maintenance worker is repairing a valve, without removing any insulation, in a spot where thermal system insulation ACM is likely to be disturbed. Under 1926.1101(b), which class of asbestos work is this?",
+      "question": "A crew will remove thermal system insulation in a 1975 building. The insulation is PACM and has never been sampled. How does the 1926.1101(b) definition of Class I work apply?",
       "options": {
-        "A": "Class III",
-        "B": "Class I",
-        "C": "Class II",
-        "D": "Class IV"
+        "A": "Class I covers the removal of TSI and surfacing ACM and PACM, so this removal is Class I work",
+        "B": "It becomes Class I work only after sampling shows more than one percent asbestos",
+        "C": "It is Class II work, because the material is presumed rather than confirmed",
+        "D": "It is Class IV work until the material is sampled"
       },
       "answer": "A",
-      "explanation": "Class III work \"means repair and maintenance operations, where “ACM”, including TSI and surfacing ACM and PACM, is likely to be disturbed.\" Class I is the removal of TSI and surfacing ACM and PACM.",
+      "explanation": "\"Class I asbestos work means activities involving the removal of TSI and surfacing ACM and PACM.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
@@ -152,15 +152,15 @@
     {
       "id": "xa-009",
       "topic": "Work terms: disturbance, removal and repair",
-      "question": "Under the 1926.1101(b) definition of disturbance, what limit is placed on the amount of ACM or PACM disturbed?",
+      "question": "A maintenance task on ACM does not crumble or pulverize it, but it does generate visible debris from the material. Under 1926.1101(b), is this a disturbance?",
       "options": {
-        "A": "No more than one 55-gallon drum of waste per shift",
-        "B": "No more than 10 square feet per work area per day",
-        "C": "No more than the competent person approves in writing",
-        "D": "No more than can be contained in one glove bag or waste bag not exceeding 60 inches in length and width"
+        "A": "No, a disturbance requires the matrix to be pulverized",
+        "B": "No, unless the debris fills more than one glove bag",
+        "C": "Only if the ACM is thermal system insulation",
+        "D": "Yes, disturbance includes activities that generate visible debris from ACM or PACM"
       },
       "answer": "D",
-      "explanation": "The definition states: \"In no event shall the amount of ACM or PACM so disturbed exceed that which can be contained in one glove bag or waste bag which shall not exceed 60 inches in length and width.\"",
+      "explanation": "\"Disturbance means activities that disrupt the matrix of ACM or PACM, crumble or pulverize ACM or PACM, or generate visible debris from ACM or PACM.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
@@ -206,15 +206,15 @@
     {
       "id": "xa-012",
       "topic": "Regulated areas, barriers and decontamination",
-      "question": "In the decontamination area defined in 1926.1101(b), which room has facilities for the storage of employees' street clothing?",
+      "question": "A contractor seals plastic over all openings into a work area as a critical barrier. Under 1926.1101(b), what must a critical barrier be sufficient to do?",
       "options": {
-        "A": "The equipment room",
-        "B": "The clean room",
-        "C": "The shower area",
-        "D": "The regulated area"
+        "A": "Keep the work area under negative pressure",
+        "B": "Prevent airborne asbestos in a work area from migrating to an adjacent area",
+        "C": "Hold all of the waste generated by the job",
+        "D": "Trap at least 99.97 percent of particles 0.3 micrometers in diameter"
       },
       "answer": "B",
-      "explanation": "\"Clean room means an uncontaminated room having facilities for the storage of employees' street clothing and uncontaminated materials and equipment.\" The equipment room is a contaminated room for disposal of contaminated protective clothing and equipment.",
+      "explanation": "\"Critical barrier means one or more layers of plastic sealed over all openings into a work area or any other similarly placed physical barrier sufficient to prevent airborne asbestos in a work area from migrating to an adjacent area.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
@@ -224,15 +224,15 @@
     {
       "id": "xa-013",
       "topic": "Competent person and other roles",
-      "question": "For Class III and Class IV work, how does 1926.1101(b) say the competent person is trained?",
+      "question": "Under 1926.1101(b), who is an \"authorized person\"?",
       "options": {
-        "A": "In a course meeting EPA's Model Accreditation Plan criteria for supervisor",
-        "B": "By certification from the American Board of Industrial Hygiene",
-        "C": "By completing the training for an abatement project designer",
-        "D": "In a manner consistent with EPA requirements for training of local education agency maintenance and custodial staff"
+        "A": "Any person who holds a State asbestos license",
+        "B": "Any employee of the building/facility owner",
+        "C": "Any person who has passed a respirator fit test",
+        "D": "Any person authorized by the employer and required by work duties to be present in regulated areas"
       },
       "answer": "D",
-      "explanation": "For Class III and Class IV work the competent person is one \"who is trained in a manner consistent with EPA requirements for training of local education agency maintenance and custodial staff as set forth at 40 CFR 763.92 (a)(2).\" The Model Accreditation Plan supervisor course applies to Class I and Class II work.",
+      "explanation": "\"Authorized person means any person authorized by the employer and required by work duties to be present in regulated areas.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"

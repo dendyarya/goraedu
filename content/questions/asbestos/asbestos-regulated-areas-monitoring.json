@@ -98,15 +98,15 @@
     {
       "id": "xb-006",
       "topic": "Demarcation, access and conduct in regulated areas",
-      "question": "Under 1926.1101(e)(5), which activities must the employer ensure employees do not do in the regulated area?",
+      "question": "A contractor has sealed critical barriers over all openings into the work area of a Class I job. Under 1926.1101(e)(2), what role may those barriers play?",
       "options": {
-        "A": "Smoke only; eating and drinking are allowed during breaks",
-        "B": "Eat, drink, smoke, chew tobacco or gum, or apply cosmetics",
-        "C": "Use portable electric tools or extension cords",
-        "D": "Use phones or two-way radios"
+        "A": "They replace the signs that would otherwise be required",
+        "B": "They may demarcate the regulated area",
+        "C": "They allow the work to proceed without competent person supervision",
+        "D": "They change the job from Class I to Class III work"
       },
       "answer": "B",
-      "explanation": "\"The employer shall ensure that employees do not eat, drink, smoke, chew tobacco or gum, or apply cosmetics in the regulated area.\"",
+      "explanation": "Paragraph (e)(2) states: \"Where critical barriers or negative pressure enclosures are used, they may demarcate the regulated area.\" It also says \"Signs shall be provided and displayed\" under paragraph (k)(7).",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
@@ -116,12 +116,12 @@
     {
       "id": "xb-007",
       "topic": "Demarcation, access and conduct in regulated areas",
-      "question": "Under 1926.1101(e)(6), who must supervise all asbestos work performed within regulated areas?",
+      "question": "Under 1926.1101(e)(6), which asbestos work performed within regulated areas must the employer ensure is supervised by a competent person?",
       "options": {
-        "A": "The building owner or the owner's representative",
-        "B": "A licensed physician",
-        "C": "An inspector from the State environmental agency",
-        "D": "A competent person, as defined in paragraph (b)"
+        "A": "Only Class I work",
+        "B": "Only work that lasts longer than one shift",
+        "C": "Only work where exposures are shown to exceed a PEL",
+        "D": "All asbestos work performed within regulated areas"
       },
       "answer": "D",
       "explanation": "\"The employer shall ensure that all asbestos work performed within regulated areas is supervised by a competent person, as defined in paragraph (b) of this section.\"",
@@ -134,15 +134,15 @@
     {
       "id": "xb-008",
       "topic": "General monitoring criteria",
-      "question": "Under 1926.1101(f)(1)(ii), what must determinations of employee exposure be made from?",
+      "question": "An employer has a work operation where exposure monitoring is required under 1926.1101. Under (f)(1)(i), what must its monitoring determine accurately?",
       "options": {
-        "A": "Bulk samples of the material being disturbed",
-        "B": "Area samples taken only at the edge of the regulated area",
-        "C": "Breathing zone air samples representative of the 8-hour TWA and 30-minute short-term exposures of each employee",
-        "D": "Samples taken only on the competent person"
+        "A": "The percentage of asbestos in each bulk material",
+        "B": "The amount of asbestos dust left on surfaces after cleanup",
+        "C": "The airborne concentrations of asbestos to which employees may be exposed",
+        "D": "The number of glove bags the job will need"
       },
       "answer": "C",
-      "explanation": "\"Determinations of employee exposure shall be made from breathing zone air samples that are representative of the 8-hour TWA and 30-minute short-term exposures of each employee.\"",
+      "explanation": "The employer \"shall perform monitoring to determine accurately the airborne concentrations of asbestos to which employees may be exposed.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
@@ -278,15 +278,15 @@
     {
       "id": "xb-016",
       "topic": "Periodic monitoring",
-      "question": "Employees are assigned to work within a regulated area doing Class II work. No negative exposure assessment has been made for the entire operation, and they do not all wear supplied-air respirators in a positive pressure mode. What monitoring does 1926.1101(f)(3)(i) require?",
+      "question": "For operations other than Class I and II work, 1926.1101(f)(3)(ii) requires periodic monitoring of all work where exposures are expected to exceed a PEL. What must the monitoring intervals be sufficient to do?",
       "options": {
-        "A": "Monitoring at intervals sufficient to document the validity of the exposure prediction",
-        "B": "Monitoring once at the start of the job and once at the end",
-        "C": "Daily monitoring that is representative of the exposure of each employee",
-        "D": "Monitoring of one employee per crew each week"
+        "A": "Identify which employees need medical surveillance",
+        "B": "Determine the asbestos content of the material being disturbed",
+        "C": "Document the validity of the exposure prediction",
+        "D": "Replace the need for an initial exposure assessment"
       },
       "answer": "C",
-      "explanation": "\"The employer shall conduct daily monitoring that is representative of the exposure of each employee who is assigned to work within a regulated area who is performing Class I or II work\". The \"intervals sufficient\" wording applies to operations other than Class I and II.",
+      "explanation": "\"The employer shall conduct periodic monitoring of all work where exposures are expected to exceed a PEL, at intervals sufficient to document the validity of the exposure prediction.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
@@ -332,15 +332,15 @@
     {
       "id": "xb-019",
       "topic": "Notifying employees and observing monitoring",
-      "question": "What deadline does 1926.1101(f)(5) set for notifying each affected employee of monitoring results?",
+      "question": "An employer has received exposure monitoring results and does not want to hand each affected employee a written notice. Which other way of notifying them does 1926.1101(f)(5) allow?",
       "options": {
-        "A": "No later than 15 working days after the receipt of the results",
-        "B": "No later than 30 calendar days after the job ends",
-        "C": "At the end of the project, together with the final report",
-        "D": "As soon as possible but no later than 5 working days after the receipt of the results"
+        "A": "Telling only the employees' supervisor",
+        "B": "Sending the results to the building/facility owner",
+        "C": "Keeping the results on file until an employee asks for them",
+        "D": "Posting the results in an appropriate location that is accessible to employees"
       },
       "answer": "D",
-      "explanation": "\"The employer must, as soon as possible but no later than 5 working days after the receipt of the results of any monitoring performed under this section, notify each affected employee of these results\".",
+      "explanation": "The employer must notify each affected employee of the results \"either individually in writing or by posting the results in an appropriate location that is accessible to employees.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.1101, Asbestos (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-Z/section-1926.1101"
