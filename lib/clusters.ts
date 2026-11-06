@@ -164,7 +164,8 @@ export const FAMILIES: Family[] = [
         summary:
           "The NRC rules for industrial radiography: radiographer training and certification, equipment, sealed sources, surveys and records.",
         source: "U.S. NRC, 10 CFR Part 34",
-        status: "next",
+        status: "available",
+        href: "/industrial-radiography/",
       },
     ],
   },
