@@ -23,9 +23,10 @@ footer, trust pages) specific to one cluster.
 - Footer independence line: "Independent. Not affiliated with or endorsed by any government agency or certifying
   organization." Cluster pages also name the agency, e.g. "Not affiliated with or endorsed by the U.S. EPA".
 - Only builds with `SITE_ENV=production` are indexable.
-- News posts (`content/news/*.md`, guide in docs/news.md) cover official rule changes for the certifications on
-  the roadmap, tagged with `topic` (cluster name), from the Federal Register, eCFR or the agency's own site.
-  Always say whether a rule is proposed or final.
+- News posts (`content/news/*.md`, guide in docs/news.md) are `kind: rule-change` (official proposed or final rule
+  changes; always say which) or `kind: explainer` (evergreen articles built only from official sources), tagged with
+  `topic` (cluster name), from the Federal Register, eCFR or the agency's own site. The daily schedule is in
+  docs/daily-news.md: all rule changes found plus 2 explainers a day, each fact-checked; never pad to a quota.
 - A cluster appears in menus and grids with its status until its overview page exists (no links to missing pages).
 
 ## Deploy

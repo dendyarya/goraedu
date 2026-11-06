@@ -7,6 +7,7 @@ export type NewsCard = {
   slug: string;
   title: string;
   topic: string;
+  kind: string;
   date: string; // ISO
   dateLabel: string; // "Nov 5, 2026"
   image?: { src: string; width: number; height: number };
@@ -72,7 +73,9 @@ export default function NewsGrid({ posts, filters = false }: { posts: NewsCard[]
           <li key={p.slug}>
             <article className="group relative">
               <Cover p={p} />
-              <p className="mt-4 text-[0.8125rem] font-bold tracking-wide text-low">{p.topic}</p>
+              <p className="mt-4 text-[0.8125rem] font-bold tracking-wide text-low">
+                {p.topic} · <span className="font-medium text-muted">{p.kind}</span>
+              </p>
               <h3 className="mt-1.5 text-[1.1875rem] leading-snug">
                 <Link href={`/news/${p.slug}/`} className="after:absolute after:inset-0 hover:text-low">
                   {p.title}

@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import NewsFigure from "@/components/NewsFigure";
 import PageShell from "@/components/PageShell";
-import { formatDate, getAllNews, getNews } from "@/lib/news";
+import { formatDate, getAllNews, getNews, KIND_LABEL } from "@/lib/news";
 import { SITE } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -45,7 +45,7 @@ export default async function NewsPostPage({ params }: Props) {
     .at(-1)!;
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "NewsArticle",
+    "@type": post.kind === "explainer" ? "Article" : "NewsArticle",
     headline: post.title,
     description: post.summary,
     datePublished: post.published,
@@ -67,6 +67,7 @@ export default async function NewsPostPage({ params }: Props) {
             <span className="mr-3 rounded-full border border-low/40 bg-low-soft px-2.5 text-[0.8125rem] font-medium leading-6 text-low">
               {post.topic}
             </span>
+            <span className="mr-3 text-[0.9375rem] font-semibold">{KIND_LABEL[post.kind]}</span>
             Published <time dateTime={post.published}>{formatDate(post.published)}</time>
             {post.updated ? (
               <>

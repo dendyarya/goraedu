@@ -1,5 +1,16 @@
 # Writing a news post
 
+There are two kinds of post (front matter `kind`):
+
+- `rule-change` (the default): an official proposed or final change. Say "proposed" or "final" in the title or first
+  paragraph.
+- `explainer`: an evergreen article that explains one rule, requirement or process for a certification on the
+  roadmap, built only from official sources (eCFR, the agency's own pages, the Federal Register). It never says a
+  rule changed, never predicts, and never repeats a page already on goraedu: it answers one practical question and
+  links to our practice tests or study guides where they cover it.
+
+The daily schedule is in `docs/daily-news.md`.
+
 News covers official changes that affect any certification on the roadmap
 (`lib/clusters.ts`): EPA 608 and 609, CDL, OSHA, FAA Part 107 and the rest as they launch. Every post follows the
 accuracy principles in `CLAUDE.md`: only what an official source states, with links and check dates.
@@ -15,6 +26,7 @@ accuracy principles in `CLAUDE.md`: only what an official source states, with li
 ```markdown
 ---
 title: "EPA Proposes ..."
+kind: rule-change   # or: explainer
 topic: "EPA 608"
 summary: "One or two sentences: what happened, when, and whether it is proposed or final."
 published: 2026-11-05

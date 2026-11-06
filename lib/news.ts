@@ -30,8 +30,14 @@ export const IMAGE_LICENSES = [
   "Unsplash License",
   "Pexels License",
 ] as const;
+/** "rule-change": an official proposed or final change. "explainer": an evergreen article built only from official sources. */
+export const NEWS_KINDS = ["rule-change", "explainer"] as const;
+export type NewsKind = (typeof NEWS_KINDS)[number];
+export const KIND_LABEL: Record<NewsKind, string> = { "rule-change": "Rule change", explainer: "Explainer" };
+
 export type NewsPost = {
   slug: string;
+  kind: NewsKind;
   title: string;
   /** Certification the post is about, e.g. "EPA 608" or "CDL" */
   topic: string;
@@ -62,6 +68,8 @@ function load(file: string): NewsPost | null {
   const slug = file.replace(/\.md$/, "");
   if (!SLUG.test(slug)) fail(file, "file name must be lowercase words joined by hyphens");
   const title = str(data.title) ?? fail(file, "title is required");
+  const kind = (str(data.kind) ?? "rule-change") as NewsKind;
+  if (!NEWS_KINDS.includes(kind)) fail(file, `kind must be one of: ${NEWS_KINDS.join(", ")}`);
   const topic = str(data.topic) ?? fail(file, "topic is required (the certification the post is about, e.g. EPA 608)");
   const summary = str(data.summary) ?? fail(file, "summary is required");
   const published = str(data.published) ?? fail(file, "published date is required");
@@ -81,7 +89,7 @@ function load(file: string): NewsPost | null {
     return { title: t, url, checked };
   });
   const image = data.image ? loadImage(file, data.image) : undefined;
-  return { slug, title, topic, summary, published, updated, image, sources, body: content.trim() };
+  return { slug, kind, title, topic, summary, published, updated, image, sources, body: content.trim() };
 }
 
 function loadImage(file: string, raw: unknown): NewsImage {
@@ -137,6 +145,7 @@ export function newsCards(posts: NewsPost[]) {
     slug: p.slug,
     title: p.title,
     topic: p.topic,
+    kind: KIND_LABEL[p.kind],
     date: p.published,
     dateLabel: new Date(p.published.length === 10 ? `${p.published}T12:00:00Z` : p.published).toLocaleDateString(
       "en-US",
