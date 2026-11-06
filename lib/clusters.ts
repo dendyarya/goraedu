@@ -88,6 +88,15 @@ export const FAMILIES: Family[] = [
         status: "available",
         href: "/osha-general-industry/",
       },
+      {
+        id: "osha-crane",
+        name: "OSHA crane operator (construction)",
+        summary:
+          "OSHA's construction crane rules on power lines, inspections, operation, signals, operator certification and hoisting personnel.",
+        source: "OSHA, 29 CFR 1926 Subpart CC",
+        status: "available",
+        href: "/osha-crane/",
+      },
     ],
   },
   {

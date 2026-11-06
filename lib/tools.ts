@@ -114,4 +114,12 @@ export const TOOLS: Tool[] = [
     summary:
       "Check whether a job is a renovation covered by EPA's lead RRP rule or minor repair and maintenance, under 40 CFR 745.82 and 745.83.",
   },
+  {
+    slug: "crane-power-line-clearance",
+    cluster: "osha-crane",
+    name: "Crane power line clearance",
+    href: "/osha-crane/tools/crane-power-line-clearance/",
+    summary:
+      "Find the Table A minimum clearance for a power line up to 350 kV and whether the 20-foot rule in 29 CFR 1926.1408 applies.",
+  },
 ];

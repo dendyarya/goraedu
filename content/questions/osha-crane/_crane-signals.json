@@ -1,0 +1,389 @@
+{
+  "cluster": "osha-crane",
+  "slug": "crane-signals",
+  "title": "OSHA crane signals practice questions",
+  "description": "Practice questions on OSHA crane signals: when a signal person is required, signal types, new signals, lost signals and stops (29 CFR 1926.1419).",
+  "href": "/osha-crane/crane-signals/practice-test/",
+  "questions": [
+    {
+      "id": "ks-001",
+      "topic": "When a signal person is required",
+      "question": "In 1926.1419(a)(1), what does \"point of operation\" mean?",
+      "options": {
+        "A": "The operator's cab and its operational controls",
+        "B": "The load travel or the area near or at load placement",
+        "C": "The area within the swing radius of the rotating superstructure",
+        "D": "The spot where the outriggers are set"
+      },
+      "answer": "B",
+      "explanation": "A signal person is required when \"The point of operation, meaning the load travel or the area near or at load placement, is not in full view of the operator.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The point of operation, meaning the load travel or the area near or at load placement, is not in full view of the operator."
+    },
+    {
+      "id": "ks-002",
+      "topic": "When a signal person is required",
+      "question": "Under 1926.1419(a)(2), what condition makes a signal person required while the equipment is traveling?",
+      "options": {
+        "A": "The equipment is traveling on a public road",
+        "B": "The equipment is traveling with the boom fully extended",
+        "C": "The equipment is traveling at night",
+        "D": "The view in the direction of travel is obstructed"
+      },
+      "answer": "D",
+      "explanation": "1926.1419(a)(2) applies \"When the equipment is traveling, the view in the direction of travel is obstructed.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "When the equipment is traveling, the view in the direction of travel is obstructed."
+    },
+    {
+      "id": "ks-003",
+      "topic": "When a signal person is required",
+      "question": "Under 1926.1419(a)(3), who may determine that site specific safety concerns make a signal person necessary?",
+      "options": {
+        "A": "Either the operator or the person handling the load",
+        "B": "Only the controlling entity",
+        "C": "Only a qualified evaluator (third party)",
+        "D": "Only the crane manufacturer"
+      },
+      "answer": "A",
+      "explanation": "A signal person must be provided when, \"Due to site specific safety concerns, either the operator or the person handling the load determines that it is necessary.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Due to site specific safety concerns, either the operator or the person handling the load determines that it is necessary."
+    },
+    {
+      "id": "ks-004",
+      "topic": "Types of signals and hand signals",
+      "question": "Which list matches the types of signals to operators named in 1926.1419(b)?",
+      "options": {
+        "A": "Hand and voice signals only",
+        "B": "Flag, light and horn signals",
+        "C": "Hand, voice, audible, or new signals",
+        "D": "Radio and video signals only"
+      },
+      "answer": "C",
+      "explanation": "1926.1419(b) states: \"Signals to operators must be by hand, voice, audible, or new signals.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Signals to operators must be by hand, voice, audible, or new signals."
+    },
+    {
+      "id": "ks-005",
+      "topic": "Types of signals and hand signals",
+      "question": "How does 1926.1401 define an \"audible signal\"?",
+      "options": {
+        "A": "A spoken instruction relayed by radio",
+        "B": "A flashing light visible from the cab",
+        "C": "A signal made by a distinct sound or series of sounds",
+        "D": "A signal that only the crane's own horn can make"
+      },
+      "answer": "C",
+      "explanation": "\"Audible signal means a signal made by a distinct sound or series of sounds.\" The definition adds that examples \"include, but are not limited to, sounds made by a bell, horn, or whistle.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Audible signal means a signal made by a distinct sound or series of sounds."
+    },
+    {
+      "id": "ks-006",
+      "topic": "Types of signals and hand signals",
+      "question": "Under the exception in 1926.1419(c)(1), when may non-standard hand signals be used?",
+      "options": {
+        "A": "Where use of the Standard Method is infeasible, or where an operation or use of an attachment is not covered in the Standard Method",
+        "B": "Whenever the operator and signal person prefer them",
+        "C": "Only when radio communication has failed",
+        "D": "Only on equipment that is traveling"
+      },
+      "answer": "A",
+      "explanation": "\"Where use of the Standard Method for hand signals is infeasible, or where an operation or use of an attachment is not covered in the Standard Method, non-standard hand signals may be used in accordance with paragraph (c)(2) of this section.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Where use of the Standard Method for hand signals is infeasible, or where an operation or use of an attachment is not covered in the Standard Method, non-standard hand signals may be used in accordance with paragraph (c)(2) of this section."
+    },
+    {
+      "id": "ks-007",
+      "topic": "Non-standard hand signals and new signals",
+      "question": "Before an operation that uses non-standard hand signals, who must contact each other and agree on the signals?",
+      "options": {
+        "A": "The operator and the competent person only",
+        "B": "The signal person and a qualified evaluator",
+        "C": "The employer and the crane manufacturer",
+        "D": "The signal person, operator, and lift director (where there is one)"
+      },
+      "answer": "D",
+      "explanation": "\"the signal person, operator, and lift director (where there is one) must contact each other prior to the operation and agree on the non-standard hand signals that will be used.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "When using non-standard hand signals, the signal person, operator, and lift director (where there is one) must contact each other prior to the operation and agree on the non-standard hand signals that will be used."
+    },
+    {
+      "id": "ks-008",
+      "topic": "Non-standard hand signals and new signals",
+      "question": "Under 1926.1419(d), who must demonstrate that new signals meet the rule's conditions before they may be used?",
+      "options": {
+        "A": "The operator",
+        "B": "The employer",
+        "C": "The signal person",
+        "D": "The crane manufacturer"
+      },
+      "answer": "B",
+      "explanation": "New signals \"may be used where the employer demonstrates that\" one of the conditions in 1926.1419(d)(1) or (d)(2) is met.",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Signals other than hand, voice, or audible signals may be used where the employer demonstrates that:"
+    },
+    {
+      "id": "ks-009",
+      "topic": "Non-standard hand signals and new signals",
+      "question": "Which of these is one of the options in 1926.1419(d) for using new signals?",
+      "options": {
+        "A": "The new signals are printed in the operator's manual",
+        "B": "The new signals comply with a national consensus standard that provides at least equally effective communication as voice, audible, or Standard Method hand signals",
+        "C": "The new signals are used only in daylight",
+        "D": "The new signals are approved by the lift director"
+      },
+      "answer": "B",
+      "explanation": "1926.1419(d)(2) allows new signals where \"The new signals comply with a national consensus standard that provides at least equally effective communication as voice, audible, or Standard Method hand signals.\" Option (d)(1) is that the new signals themselves \"provide at least equally effective communication\".",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The new signals comply with a national consensus standard that provides at least equally effective communication as voice, audible, or Standard Method hand signals."
+    },
+    {
+      "id": "ks-010",
+      "topic": "Suitability and keeping the signal link",
+      "question": "Under 1926.1419(e), what must be appropriate for the site conditions?",
+      "options": {
+        "A": "Only the signal person's high-visibility clothing",
+        "B": "Only the radio frequency used",
+        "C": "Only the hand-signal chart posted in the cab",
+        "D": "Both the signals used and the means of transmitting the signals to the operator"
+      },
+      "answer": "D",
+      "explanation": "\"The signals used (hand, voice, audible, or new), and means of transmitting the signals to the operator (such as direct line of sight, video, radio, etc.), must be appropriate for the site conditions.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The signals used (hand, voice, audible, or new), and means of transmitting the signals to the operator (such as direct line of sight, video, radio, etc.), must be appropriate for the site conditions."
+    },
+    {
+      "id": "ks-011",
+      "topic": "Suitability and keeping the signal link",
+      "question": "During operations requiring signals, what must the operator do if the ability to transmit signals between the operator and signal person is interrupted?",
+      "options": {
+        "A": "Safely stop operations requiring signals until it is reestablished and a proper signal is given and understood",
+        "B": "Continue the lift at reduced speed until the load is placed",
+        "C": "Switch to the crane horn and keep operating",
+        "D": "Leave the controls and go find the signal person"
+      },
+      "answer": "A",
+      "explanation": "\"If that ability is interrupted at any time, the operator must safely stop operations requiring signals until it is reestablished and a proper signal is given and understood.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "If that ability is interrupted at any time, the operator must safely stop operations requiring signals until it is reestablished and a proper signal is given and understood."
+    },
+    {
+      "id": "ks-012",
+      "topic": "Suitability and keeping the signal link",
+      "question": "How does 1926.1401 define a \"dedicated channel\"?",
+      "options": {
+        "A": "A radio channel shared by all trades on the site",
+        "B": "A channel assigned to the site by the crane rental company",
+        "C": "A line of communication assigned by the employer who controls the communication system to only one signal person and crane/derrick or to a coordinated group of cranes/derricks/signal person(s)",
+        "D": "A telephone line between the operator and the manufacturer"
+      },
+      "answer": "C",
+      "explanation": "\"Dedicated channel means a line of communication assigned by the employer who controls the communication system to only one signal person and crane/derrick or to a coordinated group of cranes/derricks/signal person(s).\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Dedicated channel means a line of communication assigned by the employer who controls the communication system to only one signal person and crane/derrick or to a coordinated group of cranes/derricks/signal person(s)."
+    },
+    {
+      "id": "ks-013",
+      "topic": "Suitability and keeping the signal link",
+      "question": "1926.1417(d) bars attention-diverting activities while actually operating the equipment. What use of cellular phones does it except?",
+      "options": {
+        "A": "Use for signal communications",
+        "B": "Calls to the site supervisor",
+        "C": "Use while the crane is traveling",
+        "D": "Text messages under one minute"
+      },
+      "answer": "A",
+      "explanation": "The operator must not engage in attention-diverting activities, \"such as the use of cellular phones (other than when used for signal communications).\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1417, Operation (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1417"
+      },
+      "checked": "2026-11-06",
+      "evidence": "such as the use of cellular phones (other than when used for signal communications)."
+    },
+    {
+      "id": "ks-014",
+      "topic": "Safety problems and stop signals",
+      "question": "Under 1926.1419(g), what must the operator do on becoming aware of a safety problem and needing to communicate with the signal person?",
+      "options": {
+        "A": "Finish the current lift, then radio the signal person",
+        "B": "Report the problem to the competent person in writing",
+        "C": "Lower the load at full speed",
+        "D": "Safely stop operations"
+      },
+      "answer": "D",
+      "explanation": "\"If the operator becomes aware of a safety problem and needs to communicate with the signal person, the operator must safely stop operations.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "If the operator becomes aware of a safety problem and needs to communicate with the signal person, the operator must safely stop operations."
+    },
+    {
+      "id": "ks-015",
+      "topic": "Safety problems and stop signals",
+      "question": "After the operator stops for a safety problem under 1926.1419(g), when may operations resume?",
+      "options": {
+        "A": "When the competent person signs a restart form",
+        "B": "When the operator and signal person agree that the problem has been resolved",
+        "C": "When the lift director orders a restart",
+        "D": "When the employer's safety manager arrives"
+      },
+      "answer": "B",
+      "explanation": "\"Operations must not resume until the operator and signal person agree that the problem has been resolved.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Operations must not resume until the operator and signal person agree that the problem has been resolved."
+    },
+    {
+      "id": "ks-016",
+      "topic": "Safety problems and stop signals",
+      "question": "Under 1926.1419(j), how must anyone who becomes aware of a safety problem alert the operator or signal person?",
+      "options": {
+        "A": "By filing a written hazard report",
+        "B": "By calling the site supervisor",
+        "C": "By giving the stop or emergency stop signal",
+        "D": "By sounding the crane's horn from the cab"
+      },
+      "answer": "C",
+      "explanation": "\"Anyone who becomes aware of a safety problem must alert the operator or signal person by giving the stop or emergency stop signal.\" 1926.1417(y) requires the operator to obey it \"irrespective of who gives it.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Anyone who becomes aware of a safety problem must alert the operator or signal person by giving the stop or emergency stop signal."
+    },
+    {
+      "id": "ks-017",
+      "topic": "Who signals, direction and multiple cranes",
+      "question": "Under 1926.1419(k), from whose direction perspective must the signal person give directions to the operator?",
+      "options": {
+        "A": "The operator's",
+        "B": "The signal person's",
+        "C": "The lift director's",
+        "D": "The person handling the load's"
+      },
+      "answer": "A",
+      "explanation": "\"All directions given to the operator by the signal person must be given from the operator's direction perspective.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "All directions given to the operator by the signal person must be given from the operator's direction perspective."
+    },
+    {
+      "id": "ks-018",
+      "topic": "Who signals, direction and multiple cranes",
+      "question": "A signal person is in communication with more than one crane/derrick. Which is one of the options in 1926.1419(m) for identifying which crane/derrick each signal is for?",
+      "options": {
+        "A": "Assign a separate radio to each operator",
+        "B": "Give every signal twice",
+        "C": "Use only hand signals",
+        "D": "For each signal, before giving the function/direction, the signal person identifies the crane/derrick the signal is for"
+      },
+      "answer": "D",
+      "explanation": "Under 1926.1419(m)(1), \"for each signal, prior to giving the function/direction, the signal person must identify the crane/ derrick the signal is for\". The other option, (m)(2), is that the signal person \"must use an equally effective method of identifying which crane/derrick the signal is for.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1419, Signals—general requirements (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1419"
+      },
+      "checked": "2026-11-06",
+      "evidence": "for each signal, prior to giving the function/direction, the signal person must identify the crane/ derrick the signal is for, or"
+    },
+    {
+      "id": "ks-019",
+      "topic": "Related definitions and work area communication",
+      "question": "How does 1926.1401 describe a \"qualified evaluator (not a third party)\" for signal persons?",
+      "options": {
+        "A": "An OSHA compliance officer assigned to the site",
+        "B": "A person employed by the signal person's employer who has demonstrated that he/she is competent in accurately assessing whether individuals meet the Qualification Requirements in this subpart for a signal person",
+        "C": "Any certified crane operator on the site",
+        "D": "An employee of the crane manufacturer"
+      },
+      "answer": "B",
+      "explanation": "\"Qualified evaluator (not a third party) means a person employed by the signal person's employer who has demonstrated that he/she is competent in accurately assessing whether individuals meet the Qualification Requirements in this subpart for a signal person.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Qualified evaluator (not a third party) means a person employed by the signal person's employer who has demonstrated that he/she is competent in accurately assessing whether individuals meet the Qualification Requirements in this subpart for a signal person."
+    },
+    {
+      "id": "ks-020",
+      "topic": "Related definitions and work area communication",
+      "question": "Under 1926.1424(a)(3)(ii), where the operator knows an employee went to a hazard-area location out of the operator's view, what must happen before the operator rotates the superstructure?",
+      "options": {
+        "A": "The employee must leave the site",
+        "B": "The employer must erect a second barrier",
+        "C": "The operator must be informed in accordance with a pre-arranged system of communication that the employee is in a safe position",
+        "D": "The operator must sound the horn and wait one minute"
+      },
+      "answer": "C",
+      "explanation": "\"the operator must not rotate the superstructure until the operator is informed in accordance with a pre-arranged system of communication that the employee is in a safe position.\"",
+      "source": {
+        "title": "eCFR: 29 CFR 1926.1424, Work area control (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1424"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the operator must not rotate the superstructure until the operator is informed in accordance with a pre-arranged system of communication that the employee is in a safe position."
+    }
+  ]
+}

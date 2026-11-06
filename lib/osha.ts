@@ -3,7 +3,14 @@
 
 export type OshaSet = { slug: string; name: string; rule: string; focus: string | null };
 export type OshaClusterId =
-  "osha" | "osha-general-industry" | "cdl" | "faa-107" | "water-operator" | "wastewater-operator" | "lead-rrp";
+  | "osha"
+  | "osha-general-industry"
+  | "cdl"
+  | "faa-107"
+  | "water-operator"
+  | "wastewater-operator"
+  | "lead-rrp"
+  | "osha-crane";
 
 const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "intro-to-osha", name: "Introduction to OSHA", rule: "29 CFR Parts 1903 and 1904", focus: null },
@@ -171,6 +178,25 @@ const RRP_SETS: OshaSet[] = [
   },
 ];
 
+const CRANE_SETS: OshaSet[] = [
+  { slug: "crane-power-lines", name: "Power line safety", rule: "29 CFR 1926.1408", focus: null },
+  { slug: "crane-inspections", name: "Inspections", rule: "29 CFR 1926.1412", focus: null },
+  {
+    slug: "crane-operation",
+    name: "Operation and work area control",
+    rule: "29 CFR 1926.1417 and 1926.1424",
+    focus: null,
+  },
+  { slug: "crane-signals", name: "Signals", rule: "29 CFR 1926.1419", focus: null },
+  {
+    slug: "crane-operator-qualification",
+    name: "Operator training, certification and evaluation",
+    rule: "29 CFR 1926.1427",
+    focus: null,
+  },
+  { slug: "crane-hoisting-personnel", name: "Hoisting personnel", rule: "29 CFR 1926.1431", focus: null },
+];
+
 const GENERAL_INDUSTRY_SETS: OshaSet[] = [
   { slug: "walking-working-surfaces", name: "Walking-working surfaces", rule: "29 CFR 1910 Subpart D", focus: null },
   { slug: "exit-routes", name: "Exit routes and emergency planning", rule: "29 CFR 1910 Subpart E", focus: null },
@@ -205,6 +231,9 @@ export const WASTEWATER_INDEPENDENCE_TEXT =
 
 export const RRP_INDEPENDENCE_TEXT =
   "goraedu is not an EPA-accredited training provider, does not certify renovators or firms, and our questions are not a course exam. Not affiliated with or endorsed by the U.S. EPA or any State or Tribal lead program.";
+
+export const CRANE_INDEPENDENCE_TEXT =
+  "goraedu is not a crane operator testing organization, does not certify or qualify operators, and our questions are not a certification exam. Not affiliated with or endorsed by OSHA, the U.S. Department of Labor or any certification body.";
 
 export const OSHA_CLUSTERS: Record<
   OshaClusterId,
@@ -262,6 +291,15 @@ export const OSHA_CLUSTERS: Record<
     sets: WATER_SETS,
     independence: WATER_INDEPENDENCE_TEXT,
     notFrom: "any state operator certification exam, operator manual or prep course",
+  },
+  "osha-crane": {
+    id: "osha-crane",
+    label: "OSHA crane operator",
+    href: "/osha-crane/",
+    part: "29 CFR 1926 Subpart CC",
+    sets: CRANE_SETS,
+    independence: CRANE_INDEPENDENCE_TEXT,
+    notFrom: "any crane operator certification exam, candidate handbook or prep course",
   },
   "lead-rrp": {
     id: "lead-rrp",

@@ -1,0 +1,542 @@
+{
+  "cluster": "osha-crane",
+  "slug": "crane-inspections",
+  "href": "/osha-crane/crane-inspections/study-guide/",
+  "title": "OSHA crane inspections study guide",
+  "description": "OSHA crane inspection study guide, 29 CFR 1926.1412: what triggers each inspection, competent vs qualified person, deficiencies, records.",
+  "intro": "Section 1926.1412 of OSHA's construction crane and derrick standard (29 CFR 1926 Subpart CC) sets the inspections equipment must receive: after modifications, after repairs or adjustments, after assembly, each shift, each month, at least every 12 months, after severe service and after 3 months or more idle. This guide sets out what the regulation text states on what triggers each inspection, whether a competent person or a qualified person (both defined in 1926.1401) performs it, what happens when a deficiency is found, and what must be documented and for how long. goraedu is an independent study site and does not certify operators. Your State may run its own OSHA-approved plan with its own rules, so check them too. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "competent-qualified",
+      "name": "Competent and qualified persons",
+      "points": [
+        {
+          "text": "A competent person is one who is capable of identifying existing and predictable hazards in the surroundings or working conditions which are unsanitary, hazardous, or dangerous to employees, and who has authorization to take prompt corrective measures to eliminate them.",
+          "quote": "Competent person means one who is capable of identifying existing and predictable hazards in the surroundings or working conditions which are unsanitary, hazardous, or dangerous to employees, and who has authorization to take prompt corrective measures to eliminate them.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A qualified person is one who, by possession of a recognized degree, certificate, or professional standing, or by extensive knowledge, training and experience, successfully demonstrated the ability to solve/resolve problems relating to the subject matter, the work, or the project.",
+          "quote": "Qualified person means a person who, by possession of a recognized degree, certificate, or professional standing, or who by extensive knowledge, training and experience, successfully demonstrated the ability to solve/resolve problems relating to the subject matter, the work, or the project.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Equipment criteria means instructions, recommendations, limitations and specifications.",
+          "quote": "Equipment criteria means instructions, recommendations, limitations and specifications.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Operational aids are devices that assist the operator in the safe operation of the crane by providing information or automatically taking control of a crane function.",
+          "quote": "Operational aids are devices that assist the operator in the safe operation of the crane by providing information or automatically taking control of a crane function.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Rated capacity means the maximum working load permitted by the manufacturer under specified working conditions.",
+          "quote": "Rated capacity means the maximum working load permitted by the manufacturer under specified working conditions.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1401, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1401"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The each-shift visual inspection is begun by a competent person.",
+          "quote": "A competent person must begin a visual inspection prior to each shift the equipment will be used",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Other terms in 1926.1401 that 1926.1412 does not use, and the list of operational aids in § 1926.1416, are not covered here."
+    },
+    {
+      "id": "modified-repaired",
+      "name": "Modified and repaired equipment",
+      "points": [
+        {
+          "text": "Equipment that has had modifications or additions which affect its safe operation (such as modifications or additions involving a safety device or operational aid, critical part of a control system, power plant, braking system, load-sustaining structural components, load hook, or in-use operating mechanism) or capacity must be inspected by a qualified person after the modifications/additions have been completed, prior to initial use.",
+          "quote": "Equipment that has had modifications or additions which affect the safe operation of the equipment (such as modifications or additions involving a safety device or operational aid, critical part of a control system, power plant, braking system, load-sustaining structural components, load hook, or in-use operating mechanism) or capacity must be inspected by a qualified person after such modifications/additions have been completed, prior to initial use.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The modification inspection must assure that the modifications or additions have been done in accordance with the approval obtained pursuant to § 1926.1434 (Equipment modifications).",
+          "quote": "The inspection must assure that the modifications or additions have been done in accordance with the approval obtained pursuant to § 1926.1434 (Equipment modifications).",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The modification inspection must include functional testing of the equipment.",
+          "quote": "The inspection must include functional testing of the equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Modified equipment must not be used until the inspection demonstrates that the work was done in accordance with that approval.",
+          "quote": "Equipment must not be used until an inspection under this paragraph demonstrates that the requirements of paragraph (a)(1)(i) of this section have been met.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Equipment that has had a repair or adjustment that relates to safe operation (such as a repair or adjustment to a safety device or operator aid, or to a critical part of a control system, power plant, braking system, load-sustaining structural components, load hook, or in-use operating mechanism) must be inspected by a qualified person after the repair or adjustment has been completed, prior to initial use.",
+          "quote": "Equipment that has had a repair or adjustment that relates to safe operation (such as: A repair or adjustment to a safety device or operator aid, or to a critical part of a control system, power plant, braking system, load-sustaining structural components, load hook, or in-use operating mechanism), must be inspected by a qualified person after such a repair or adjustment has been completed, prior to initial use.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The qualified person must determine if the repair/adjustment meets manufacturer equipment criteria, where applicable and available.",
+          "quote": "The qualified person must determine if the repair/adjustment meets manufacturer equipment criteria (where applicable and available).",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Where manufacturer equipment criteria are unavailable or inapplicable, the qualified person must determine if a registered professional engineer (RPE) is needed to develop criteria for the repair/adjustment.",
+          "quote": "Determine if a registered professional engineer (RPE) is needed to develop criteria for the repair/adjustment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If an RPE is not needed, the employer must ensure that the qualified person develops the criteria; if an RPE is needed, the employer must ensure an RPE develops them. The qualified person then determines if the repair/adjustment meets those criteria.",
+          "quote": "If an RPE is not needed, the employer must ensure that the criteria are developed by the qualified person. If an RPE is needed, the employer must ensure that they are developed by an RPE. (B) Determine if the repair/adjustment meets the criteria developed in accordance with paragraph (b)(1)(ii)(A) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The repair/adjustment inspection must include functional testing of the repaired/adjusted parts and other components that may be affected by the repair/adjustment.",
+          "quote": "The inspection must include functional testing of the repaired/adjusted parts and other components that may be affected by the repair/adjustment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Repaired or adjusted equipment must not be used until the inspection demonstrates that the repair/adjustment meets the applicable criteria.",
+          "quote": "Equipment must not be used until an inspection under this paragraph demonstrates that the repair/adjustment meets the requirements of paragraph (b)(1)(i) of this section (or, where applicable, paragraph (b)(1)(ii) of this section).",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The approval process for modifications in § 1926.1434 is not covered here."
+    },
+    {
+      "id": "post-assembly",
+      "name": "Post-assembly inspection",
+      "points": [
+        {
+          "text": "Upon completion of assembly, a qualified person must inspect the equipment to assure that it is configured in accordance with manufacturer equipment criteria.",
+          "quote": "Upon completion of assembly, the equipment must be inspected by a qualified person to assure that it is configured in accordance with manufacturer equipment criteria.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Where manufacturer equipment criteria are unavailable, the qualified person must determine if a registered professional engineer (RPE) familiar with the type of equipment involved is needed to develop criteria for the equipment configuration.",
+          "quote": "Determine if a registered professional engineer (RPE) familiar with the type of equipment involved is needed to develop criteria for the equipment configuration.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If an RPE is not needed, the employer must ensure the criteria are developed by the qualified person; if one is needed, the employer must ensure they are developed by an RPE.",
+          "quote": "If an RPE is not needed, the employer must ensure that the criteria are developed by the qualified person. If an RPE is needed, the employer must ensure that they are developed by an RPE.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The qualified person must then determine if the equipment meets the criteria so developed.",
+          "quote": "Determine if the equipment meets the criteria developed in accordance with paragraph (c)(2)(i) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Equipment must not be used until the post-assembly inspection demonstrates that it is configured in accordance with the applicable criteria.",
+          "quote": "Equipment must not be used until an inspection under this paragraph demonstrates that the equipment is configured in accordance with the applicable criteria.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "shift-monthly",
+      "name": "Shift and monthly inspections",
+      "points": [
+        {
+          "text": "A competent person must begin a visual inspection prior to each shift the equipment will be used, and it must be completed before or during that shift.",
+          "quote": "A competent person must begin a visual inspection prior to each shift the equipment will be used, which must be completed before or during that shift.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The shift inspection consists of observation for apparent deficiencies.",
+          "quote": "The inspection must consist of observation for apparent deficiencies.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Taking apart equipment components and booming down is not required unless the results of the visual inspection or trial operation indicate that further investigation needing it is required.",
+          "quote": "Taking apart equipment components and booming down is not required as part of this inspection unless the results of the visual inspection or trial operation indicate that further investigation necessitating taking apart equipment components or booming down is needed.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Determinations made in the shift inspection must be reassessed in light of observations made during operation.",
+          "quote": "Determinations made in conducting the inspection must be reassessed in light of observations made during operation.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "At a minimum, the shift inspection includes control mechanisms for maladjustments interfering with proper operation.",
+          "quote": "Control mechanisms for maladjustments interfering with proper operation.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "It includes ground conditions around the equipment for proper support, including ground settling under and around outriggers/stabilizers and supporting foundations, ground water accumulation, or similar conditions.",
+          "quote": "Ground conditions around the equipment for proper support, including ground settling under and around outriggers/stabilizers and supporting foundations, ground water accumulation, or similar conditions.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The ground conditions item does not apply to railroad tracks and their underlying support when the tracks are part of the general railroad system of transportation regulated by the Federal Railroad Administration under 49 CFR part 213.",
+          "quote": "This paragraph does not apply to the inspection of ground conditions for railroad tracks and their underlying support when the railroad tracks are part of the general railroad system of transportation that is regulated pursuant to the Federal Railroad Administration under 49 CFR part 213.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The equipment is checked for level position within the manufacturer's recommended tolerances, both before each shift and after each move and setup.",
+          "quote": "The equipment for level position within the tolerances specified by the equipment manufacturer's recommendations, both before each shift and after each move and setup.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If a deficiency in items (d)(1)(i) through (xiii) is identified, the competent person must make an immediate determination as to whether it constitutes a safety hazard.",
+          "quote": "is identified, an immediate determination must be made by the competent person as to whether the deficiency constitutes a safety hazard.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If the deficiency is determined to constitute a safety hazard, the equipment must be taken out of service until it has been corrected.",
+          "quote": "If the deficiency is determined to constitute a safety hazard, the equipment must be taken out of service until it has been corrected.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If a deficiency in safety devices/operational aids is identified, the action specified in §§ 1926.1415 and 1926.1416 must be taken prior to using the equipment.",
+          "quote": "the action specified in §§ 1926.1415 and 1926.1416 must be taken prior to using the equipment.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each month the equipment is in service, it must be inspected in accordance with the each-shift paragraph (d).",
+          "quote": "Each month the equipment is in service it must be inspected in accordance with paragraph (d) of this section (each shift).",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Equipment must not be used until the monthly inspection demonstrates that no corrective action under paragraphs (d)(2) and (3) is required.",
+          "quote": "Equipment must not be used until an inspection under this paragraph demonstrates that no corrective action under paragraphs (d)(2) and (3) of this section is required.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The employer that conducts the monthly inspection must document and maintain the items checked and the results, and the name and signature of the person who conducted it and the date.",
+          "quote": "The following information must be documented and maintained by the employer that conducts the inspection: (A) The items checked and the results of the inspection. (B) The name and signature of the person who conducted the inspection and the date.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The monthly inspection document must be retained for a minimum of three months.",
+          "quote": "This document must be retained for a minimum of three months.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The wire rope inspection in § 1926.1413(a), which (d)(1)(vii) cross-references, and the actions in §§ 1926.1415 and 1926.1416 are not covered here. Not every one of the 14 shift inspection items is listed."
+    },
+    {
+      "id": "annual",
+      "name": "Annual/comprehensive inspection",
+      "points": [
+        {
+          "text": "At least every 12 months, a qualified person must inspect the equipment in accordance with the each-shift paragraph (d), with the corrective action in (f)(4) to (f)(6) applying in place of that in (d)(2) and (d)(3).",
+          "quote": "At least every 12 months the equipment must be inspected by a qualified person in accordance with paragraph (d) of this section (each shift) except that the corrective action set forth in paragraphs (f)(4), (f)(5), and (f)(6) of this section must apply in place of the corrective action required by paragraphs (d)(2) and (d)(3) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In addition, at least every 12 months a qualified person must inspect the equipment for the items listed in (f)(2); disassembly is required, as necessary, to complete the inspection.",
+          "quote": "In addition, at least every 12 months, the equipment must be inspected by a qualified person. Disassembly is required, as necessary, to complete the inspection.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The listed items include equipment structure (including the boom and, if equipped, the jib): structural members that are deformed, cracked, or significantly corroded.",
+          "quote": "Equipment structure (including the boom and, if equipped, the jib): (A) Structural members: Deformed, cracked, or significantly corroded.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "They include safety devices and operational aids for proper operation, including significant inaccuracies.",
+          "quote": "Safety devices and operational aids for proper operation (including significant inaccuracies).",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "They include warning labels and decals originally supplied with the equipment by the manufacturer or otherwise required under the standard that are missing or unreadable.",
+          "quote": "Warning labels and decals originally supplied with the equipment by the manufacturer or otherwise required under this standard: Missing or unreadable.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The annual/comprehensive inspection must include functional testing to determine that the equipment as configured in the inspection is functioning properly.",
+          "quote": "This inspection must include functional testing to determine that the equipment as configured in the inspection is functioning properly.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If any deficiency is identified, the qualified person must immediately determine whether it is a safety hazard or, though not yet a safety hazard, needs to be monitored in the monthly inspections.",
+          "quote": "If any deficiency is identified, an immediate determination must be made by the qualified person as to whether the deficiency constitutes a safety hazard or, though not yet a safety hazard, needs to be monitored in the monthly inspections.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A deficiency that is a safety hazard means the equipment is taken out of service until it has been corrected, except when temporary alternative measures are implemented as specified in § 1926.1416(d) or § 1926.1435(e).",
+          "quote": "If the qualified person determines that a deficiency is a safety hazard, the equipment must be taken out of service until it has been corrected, except when temporary alternative measures are implemented as specified in § 1926.1416(d) or § 1926.1435(e).",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A deficiency that needs to be monitored must, by the employer, be checked in the monthly inspections.",
+          "quote": "the employer must ensure that the deficiency is checked in the monthly inspections.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The employer that conducts the annual/comprehensive inspection must document, maintain and retain for a minimum of 12 months the items checked and the results of the inspection.",
+          "quote": "The following information must be documented, maintained, and retained for a minimum of 12 months, by the employer that conducts the inspection: (i) The items checked and the results of the inspection.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The annual/comprehensive inspection documentation must also include the name and signature of the person who conducted the inspection and the date.",
+          "quote": "(ii) The name and signature of the person who conducted the inspection and the date.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "The full list of 21 items in (f)(2) is not reproduced, and the temporary alternative measures in §§ 1926.1416(d) and 1926.1435(e) are not covered."
+    },
+    {
+      "id": "severe-idle",
+      "name": "Severe service and idle equipment",
+      "points": [
+        {
+          "text": "Where the severity of use/conditions is such that there is a reasonable probability of damage or excessive wear (such as loading that may have exceeded rated capacity, shock loading that may have exceeded rated capacity, or prolonged exposure to a corrosive atmosphere), the employer must stop using the equipment and a qualified person must take the steps that follow.",
+          "quote": "Where the severity of use/conditions is such that there is a reasonable probability of damage or excessive wear (such as loading that may have exceeded rated capacity, shock loading that may have exceeded rated capacity, prolonged exposure to a corrosive atmosphere), the employer must stop using the equipment and a qualified person must:",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The qualified person must inspect the equipment for structural damage to determine if it can continue to be used safely.",
+          "quote": "Inspect the equipment for structural damage to determine if the equipment can continue to be used safely.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In light of the use/conditions, the qualified person must determine whether any items/conditions listed in the annual paragraph (f) need to be inspected, and if so inspect them.",
+          "quote": "In light of the use/conditions determine whether any items/conditions listed in paragraph (f) of this section need to be inspected; if so, the qualified person must inspect those items/conditions.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If a deficiency is found, the employer must follow the annual corrective action requirements in (f)(4) through (6).",
+          "quote": "If a deficiency is found, the employer must follow the requirements in paragraphs (f)(4) through (6) of this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Equipment that has been idle for 3 months or more must be inspected by a qualified person in accordance with the monthly paragraph (e) before initial use.",
+          "quote": "Equipment that has been idle for 3 months or more must be inspected by a qualified person in accordance with the requirements of paragraph (e) (Monthly) of this section before initial use.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "manufacturer-documents",
+      "name": "Manufacturer procedures and documents",
+      "points": [
+        {
+          "text": "Any part of a manufacturer's procedures regarding inspections that relates to safe operation and is more comprehensive or has a more frequent schedule than 1926.1412 must be followed.",
+          "quote": "that is more comprehensive or has a more frequent schedule of inspection than the requirements of this section must be followed.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "All documents produced under 1926.1412 must be available, during the applicable document retention period, to all persons who conduct inspections under the section.",
+          "quote": "All documents produced under this section must be available, during the applicable document retention period, to all persons who conduct inspections under this section.",
+          "source": {
+            "title": "eCFR: 29 CFR 1926.1412, Inspections (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-CC/section-1926.1412"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    }
+  ]
+}

@@ -194,6 +194,24 @@ const SNAPSHOTS: Record<string, string[]> = {
     "40cfr745-103-2026-11-04.txt",
     "40cfr745-103-2026-11-04.reading-order.txt",
   ],
+  "osha-crane": [
+    "29cfr1926-1401-2026-11-04.txt",
+    "29cfr1926-1401-2026-11-04.reading-order.txt",
+    "29cfr1926-1408-2026-11-04.txt",
+    "29cfr1926-1408-2026-11-04.reading-order.txt",
+    "29cfr1926-1412-2026-11-04.txt",
+    "29cfr1926-1412-2026-11-04.reading-order.txt",
+    "29cfr1926-1417-2026-11-04.txt",
+    "29cfr1926-1417-2026-11-04.reading-order.txt",
+    "29cfr1926-1419-2026-11-04.txt",
+    "29cfr1926-1419-2026-11-04.reading-order.txt",
+    "29cfr1926-1424-2026-11-04.txt",
+    "29cfr1926-1424-2026-11-04.reading-order.txt",
+    "29cfr1926-1427-2026-11-04.txt",
+    "29cfr1926-1427-2026-11-04.reading-order.txt",
+    "29cfr1926-1431-2026-11-04.txt",
+    "29cfr1926-1431-2026-11-04.reading-order.txt",
+  ],
   "epa-609": [
     "40cfr82-subpartB-2026-11-03.txt",
     "40cfr82-subpartG-2026-11-03.txt",
@@ -283,6 +301,13 @@ const PAGE_TITLES = [
   "Lead-Based Paint Hazards",
   "Residential Property Renovation",
   "Lead-Based Paint Activities",
+  "Power line safety (up to 350 kV)—equipment operations.",
+  "Inspections.",
+  "Operation.",
+  "Signals—general requirements.",
+  "Work area control.",
+  "Operator training, certification, and evaluation.",
+  "Hoisting personnel.",
 ];
 
 function stripPageChrome(text: string): string {
@@ -295,6 +320,7 @@ function stripPageChrome(text: string): string {
         /^\d+ CFR (Part \d+( Subpart [A-Z])?|[\d.]+) \(up to date/.test(t) ||
         /^\d+ CFR [\d.]+[\d()a-zA-Z]*$/.test(t) ||
         /^\d+ CFR [\d.]+-[\d.]+$/.test(t) ||
+        /^\d+ CFR [\d.]+ \([A-Z][a-z]+\.? \d+, \d{4}\)$/.test(t) ||
         /^\d+ CFR Appendix-\S+( \S+)?$/.test(t) ||
         /^\d+ CFR [\d.]+ “[^”]+”$/.test(t) ||
         /^\d+ CFR Part \d+( Subpart [A-Z])? \([A-Z][a-z]+\.? \d+, \d{4}\)$/.test(t) ||
