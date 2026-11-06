@@ -279,7 +279,7 @@ const FORKLIFT_SETS: OshaSet[] = [
 ];
 
 export const FORKLIFT_INDEPENDENCE_TEXT =
-  "goraedu does not train, evaluate or certify forklift operators, and our questions are not an operator evaluation. Under 29 CFR 1910.178(l) that is the employer's job. Not affiliated with or endorsed by OSHA or the U.S. Department of Labor.";
+  "goraedu does not train, evaluate or certify forklift operators, and our questions are not an operator evaluation. Under 29 CFR 1910.178(l) the employer must ensure each operator is trained and evaluated, and certifies that this was done. Not affiliated with or endorsed by OSHA or the U.S. Department of Labor.";
 
 export const CRANE_INDEPENDENCE_TEXT =
   "goraedu is not a crane operator testing organization, does not certify or qualify operators, and our questions are not a certification exam. Not affiliated with or endorsed by OSHA, the U.S. Department of Labor or any certification body.";

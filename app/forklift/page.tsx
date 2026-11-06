@@ -79,8 +79,9 @@ export default function ForkliftPage() {
             <h2 className="text-[1.25rem] font-bold">What these pages cover</h2>
             <p className="mt-2">
               Everything here comes from the current eCFR text of 29 CFR 1910.178 (general industry) and 29 CFR
-              1926.602(c) and (d) (construction). Under 1910.178(l) the employer trains, evaluates and certifies its own
-              operators; a score here is not an operator evaluation. The non-mandatory Appendix A to 1910.178 and the
+              1926.602(c) and (d) (construction). Under 1910.178(l) the employer must ensure each operator is trained
+              and evaluated by persons with the knowledge, training and experience to do so, and certifies that this was
+              done; a score here is not an operator evaluation. The non-mandatory Appendix A to 1910.178 and the
               consensus standards the rule refers to are not covered. These pages help you study the rule; they are not
               a course. Your State may run its own OSHA-approved plan with its own rules, so check them too.{" "}
               {c.independence}
