@@ -49,6 +49,9 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en-US" className={`${spaceGrotesk.variable} ${manrope.variable}`}>
+      <head>
+        <AdSense />
+      </head>
       <body className="flex min-h-screen flex-col">
         <a href="#main" className="skip-link">
           Skip to content
@@ -57,7 +60,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="flex-1">{children}</div>
         <SiteFooter />
         <Analytics />
-        <AdSense />
       </body>
     </html>
   );
