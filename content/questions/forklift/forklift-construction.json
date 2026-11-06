@@ -98,15 +98,15 @@
     {
       "id": "qg-006",
       "topic": "Modifications and loads lifted in unison",
-      "question": "Two industrial trucks working in unison lift one 5,000-lb load on a construction site. Truck 1, rated at 4,000 lb, carries 3,500 lb of it; truck 2, rated at 3,000 lb, carries 1,500 lb. Does this meet the limit in 1926.602(c)(1)(iii)?",
+      "question": "Two industrial trucks working in unison lift one load on a construction site. Under 1926.602(c)(1)(iii), what limit applies to each truck?",
       "options": {
-        "A": "No, because the total load is more than either truck could lift alone",
-        "B": "Yes, because neither truck's share of the load exceeds its capacity",
-        "C": "No, because two trucks may not lift one load together",
-        "D": "Yes, but only if a third truck stands by"
+        "A": "Each truck shall carry exactly half of the total load",
+        "B": "The proportion of the total load carried by that truck shall not exceed its capacity",
+        "C": "The total load shall not exceed the capacity of the smaller truck",
+        "D": "Each truck shall travel at no more than half its normal speed"
       },
       "answer": "B",
-      "explanation": "\"If a load is lifted by two or more trucks working in unison, the proportion of the total load carried by any one truck shall not exceed its capacity.\" Here 3,500 lb is within 4,000 lb and 1,500 lb is within 3,000 lb.",
+      "explanation": "1926.602(c)(1)(iii) says \"If a load is lifted by two or more trucks working in unison, the proportion of the total load carried by any one truck shall not exceed its capacity.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.602, Material handling equipment (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-O/section-1926.602"
@@ -170,15 +170,15 @@
     {
       "id": "qg-010",
       "topic": "Riding and elevating personnel",
-      "question": "Riding of trucks is authorized for a task on a construction site. Under 1926.602(c)(1)(vii), what shall be provided?",
+      "question": "A contractor elevates workers on a truck equipped with controls elevatable with the lifting carriage or forks for lifting personnel. Under 1926.602(c)(1)(viii)(C), what protection from falling objects shall be provided?",
       "options": {
-        "A": "A safe place to ride",
-        "B": "A second operator to watch the rider",
-        "C": "A written permit for each ride",
-        "D": "A speed governor set by the rider"
+        "A": "Such protection from falling objects as indicated necessary by the operating conditions",
+        "B": "None, as long as the platform is firmly secured to the forks",
+        "C": "None, if the workers stay on the platform for less than one hour",
+        "D": "Protection only when the platform is raised above the truck's overhead guard"
       },
       "answer": "A",
-      "explanation": "\"Unauthorized personnel shall not be permitted to ride on powered industrial trucks. A safe place to ride shall be provided where riding of trucks is authorized.\"",
+      "explanation": "Among the additional precautions for personnel being elevated, 1926.602(c)(1)(viii)(C) says \"Such protection from falling objects as indicated necessary by the operating conditions shall be provided.\"",
       "source": {
         "title": "eCFR: 29 CFR 1926.602, Material handling equipment (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-O/section-1926.602"

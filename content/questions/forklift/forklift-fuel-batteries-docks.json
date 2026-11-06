@@ -44,12 +44,12 @@
     {
       "id": "qc-003",
       "topic": "Battery charging areas",
-      "question": "Where does 1910.178(g)(1) say battery charging installations shall be located?",
+      "question": "A plant wants to put a new battery charger in a corner of its shipping floor that has not been set aside for charging. What does 1910.178(g)(1) say about battery charging installations?",
       "options": {
-        "A": "In areas designated for that purpose",
-        "B": "Outdoors only",
-        "C": "Next to the liquid fuel storage area",
-        "D": "In the same room as the truck repair shop"
+        "A": "They shall be located in areas designated for that purpose",
+        "B": "They may be located anywhere a fire extinguisher is nearby",
+        "C": "They shall be located outdoors only",
+        "D": "They shall be located next to the liquid fuel storage area"
       },
       "answer": "A",
       "explanation": "1910.178(g)(1) says \"Battery charging installations shall be located in areas designated for that purpose.\"",
@@ -100,7 +100,7 @@
       "topic": "Battery charging areas",
       "question": "A plant sets up a battery charging installation with facilities for flushing and neutralizing spilled electrolyte, barriers that protect the chargers from trucks, and ventilation for battery fumes. It decides fire protection is unnecessary because no fuel is stored nearby. What does 1910.178(g)(2) say?",
       "options": {
-        "A": "Facilities for fire protection shall be provided too; (g)(2) makes no exception for areas without fuel",
+        "A": "Facilities for fire protection shall be provided as well",
         "B": "The plant is right; fire protection is needed only where fuel is stored",
         "C": "Fire protection is needed only if batteries are charged overnight",
         "D": "Fire protection is needed only if more than one charger is installed"
@@ -296,15 +296,15 @@
     {
       "id": "qc-017",
       "topic": "Lighting, gases and dockboards",
-      "question": "Trucks operate in an area where general lighting measures 4 lumens per square foot. What does 1910.178(h)(2) require about auxiliary directional lighting on the trucks there?",
+      "question": "A warehouse runs propane and diesel trucks indoors. Which carbon monoxide does the limit in 1910.178(i)(1) cover?",
       "options": {
-        "A": "(h)(2) does not require it there, because general lighting is not less than 2 lumens per square foot",
-        "B": "Auxiliary directional lighting shall be provided on each truck",
-        "C": "General lighting shall be raised to at least 10 lumens per square foot",
-        "D": "Trucks shall operate there only in daylight hours"
+        "A": "Carbon monoxide gas created by powered industrial truck operations",
+        "B": "Only carbon monoxide from diesel-powered trucks",
+        "C": "Only carbon monoxide given off while trucks are being refueled",
+        "D": "Only carbon monoxide from the building's heating system"
       },
       "answer": "A",
-      "explanation": "1910.178(h)(2) applies \"Where general lighting is less than 2 lumens per square foot\"; then \"auxiliary directional lighting shall be provided on the truck.\" At 4 lumens per square foot that condition is not met.",
+      "explanation": "1910.178(i)(1) reads: \"Concentration levels of carbon monoxide gas created by powered industrial truck operations shall not exceed the levels specified in § 1910.1000.\" It covers carbon monoxide created by the truck operations, whatever the fuel.",
       "source": {
         "title": "eCFR: 29 CFR 1910.178, Powered industrial trucks (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
