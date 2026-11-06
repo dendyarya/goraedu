@@ -26,7 +26,7 @@ accuracy principles in `CLAUDE.md`: only what an official source states, with li
 ```markdown
 ---
 title: "EPA Proposes ..."
-kind: rule-change   # or: explainer
+kind: rule-change # or: explainer
 topic: "EPA 608"
 summary: "One or two sentences: what happened, when, and whether it is proposed or final."
 published: 2026-11-05

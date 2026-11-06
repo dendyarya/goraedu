@@ -21,22 +21,25 @@ publish nothing for that post (or `draft: true`) and say why in the log. Quality
 Search the Federal Register API for documents published since the last run's date (inclusive) of type
 `RULE` (final rule) or `PRORULE` (proposed rule) that amend these CFR parts:
 
-| topic | CFR |
-|---|---|
-| EPA 608 | 40 CFR 82 (subpart F), 40 CFR 84 (HFC rules that change what technicians handle) |
-| EPA 609 | 40 CFR 82 (subpart B) |
-| CDL | 49 CFR 380, 382, 383, 384, 391 |
-| OSHA 10 and OSHA 30 / OSHA general industry / Crane operator / Forklift operator | 29 CFR 1910, 1926 |
-| FAA Part 107 | 14 CFR 107, 89, 48 |
-| FAA A&P mechanic | 14 CFR 43, 65, 147 |
-| Drinking water operator / Wastewater operator | 40 CFR 141, 142, 133, 403, 503 |
-| Lead-safe renovator (RRP) / Asbestos | 40 CFR 745, 763 |
-| Pesticide applicator | 40 CFR 171 |
-| Industrial radiography | 10 CFR 34 |
+| topic                                                                            | CFR                                                                              |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| EPA 608                                                                          | 40 CFR 82 (subpart F), 40 CFR 84 (HFC rules that change what technicians handle) |
+| EPA 609                                                                          | 40 CFR 82 (subpart B)                                                            |
+| CDL                                                                              | 49 CFR 380, 382, 383, 384, 391                                                   |
+| OSHA 10 and OSHA 30 / OSHA general industry / Crane operator / Forklift operator | 29 CFR 1910, 1926                                                                |
+| FAA Part 107                                                                     | 14 CFR 107, 89, 48                                                               |
+| FAA A&P mechanic                                                                 | 14 CFR 43, 65, 147                                                               |
+| Drinking water operator / Wastewater operator                                    | 40 CFR 141, 142, 133, 403, 503                                                   |
+| Lead-safe renovator (RRP) / Asbestos                                             | 40 CFR 745, 763                                                                  |
+| Pesticide applicator                                                             | 40 CFR 171                                                                       |
+| Industrial radiography                                                           | 10 CFR 34                                                                        |
 
 Use the topic name exactly as `lib/clusters.ts` shows it. Example query:
 `https://www.federalregister.gov/api/v1/documents.json?conditions[cfr][title]=40&conditions[cfr][part]=82&conditions[type][]=RULE&conditions[type][]=PRORULE&conditions[publication_date][gte]=YYYY-MM-DD&fields[]=title&fields[]=type&fields[]=html_url&fields[]=publication_date&fields[]=document_number&fields[]=abstract&fields[]=effective_on&fields[]=comments_close_on`
 
+- Query each CFR part separately (`conditions[cfr][part]` takes one part). Use `curl -g` (or quote-safe code), since
+  the square brackets in the query break plain curl. Sanity check: the same query from 2026-05-01 for 40 CFR 84 must
+  return the two May 26, 2026 HFC documents.
 - Skip a document already covered (its `html_url` appears in any `content/news/*.md` source) and corrections or
   technical amendments that change nothing a test-taker or worker needs to know (log them as skipped).
 - If federalregister.gov cannot be reached, use eCFR (`https://www.ecfr.gov/api/versioner/v1/versions/title-N.json`
