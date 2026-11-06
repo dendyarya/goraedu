@@ -1,0 +1,556 @@
+{
+  "cluster": "industrial-radiography",
+  "slug": "training-certification",
+  "href": "/industrial-radiography/training-certification/study-guide/",
+  "title": "Industrial radiography training, certification and supervision study guide",
+  "description": "Radiographer and assistant training, certification, RSO qualifications, two qualified individuals, supervision and training records (10 CFR Part 34).",
+  "intro": "10 CFR Part 34 is the NRC rule for industrial radiography licenses and radiation safety requirements. This guide sets out what the federal rule text states on who may act as a radiographer or radiographer's assistant, the related definitions in § 34.3, when two qualified individuals must be present (§ 34.41(a)–(b)), the qualifications and duties of the Radiation Safety Officer (§ 34.42), training, certification, refresher training and job performance inspections (§ 34.43), personal supervision of radiographers' assistants (§ 34.46), and records of training and certification (§ 34.79). goraedu does not train, test or certify radiographers, and this is not a certification exam. Agreement States license radiography under their own compatible rules, so check yours too. Every point links to the regulation and quotes its exact words.",
+  "topics": [
+    {
+      "id": "definitions",
+      "name": "Key definitions",
+      "points": [
+        {
+          "text": "A radiographer is any individual who performs industrial radiographic operations, or who personally supervises them while in attendance at the site where the sealed source or sources are being used, and who is responsible to the licensee for assuring compliance with the Commission's regulations and the license conditions.",
+          "quote": "Radiographer means any individual who performs or who, in attendance at the site where the sealed source or sources are being used, personally supervises industrial radiographic operations and who is responsible to the licensee for assuring compliance with the requirements of the Commission's regulations and the conditions of the license.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A radiographer's assistant is any individual who, under the direct supervision of a radiographer, uses radiographic exposure devices, sealed sources or related handling tools, or radiation survey instruments in industrial radiography.",
+          "quote": "Radiographer's assistant means any individual who under the direct supervision of a radiographer, uses radiographic exposure devices, sealed sources or related handling tools, or radiation survey instruments in industrial radiography.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Radiation Safety Officer (RSO) for industrial radiography is the individual responsible for the overall radiation safety program on behalf of the licensee, and must meet the requirements of § 34.42.",
+          "quote": "Radiation Safety Officer for industrial radiography means an individual with the responsibility for the overall radiation safety program on behalf of the licensee and who meets the requirements of § 34.42.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A certifying entity is either an independent certifying organization meeting the requirements in appendix A of Part 34, or an Agreement State meeting the requirements in appendix A, parts II and III.",
+          "quote": "Certifying Entity means an independent certifying organization meeting the requirements in appendix A of this part or an Agreement State meeting the requirements in appendix A, parts II and III of this part.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An independent certifying organization is an independent organization that meets all of the criteria of appendix A to Part 34.",
+          "quote": "Independent certifying organization means an independent organization that meets all of the criteria of appendix A to this part.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Radiographer certification is written approval received from a certifying entity stating that the individual has satisfactorily met certain established radiation safety, testing, and experience criteria.",
+          "quote": "Radiographer certification means written approval received from a certifying entity stating that an individual has satisfactorily met certain established radiation safety, testing, and experience criteria.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A practical examination is a demonstration, through practical application, of the safety rules and principles in industrial radiography, including use of all appropriate equipment and procedures.",
+          "quote": "Practical Examination means a demonstration through practical application of the safety rules and principles in industrial radiography including use of all appropriate equipment and procedures.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Hands-on experience means experience in all of the areas considered to be directly involved in the radiography process.",
+          "quote": "Hands-on experience means experience in all of those areas considered to be directly involved in the radiography process.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Annual refresher safety training is a review, conducted or provided by the licensee for its employees, on the radiation safety aspects of industrial radiography. The review may include, as appropriate, internal inspection results, new procedures or equipment, new or revised regulations, and accidents or errors that have been observed, and should also give employees opportunities to ask safety questions.",
+          "quote": "Annual refresher safety training means a review conducted or provided by the licensee for its employees on radiation safety aspects of industrial radiography. The review may include, as appropriate, the results of internal inspections, new procedures or equipment, new or revised regulations, accidents or errors that have been observed, and should also provide opportunities for employees to ask safety questions.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "A permanent radiographic installation is an enclosed shielded room, cell, or vault, not located at a temporary jobsite, in which radiography is performed.",
+          "quote": "Permanent radiographic installation means an enclosed shielded room, cell, or vault, not located at a temporary jobsite, in which radiography is performed.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Definitions used mainly for equipment, operations and licensing (for example field station, temporary jobsite and radiographic operations) are in the other industrial radiography sets."
+    },
+    {
+      "id": "two-qualified-individuals",
+      "name": "Two qualified individuals",
+      "points": [
+        {
+          "text": "Whenever radiography is performed at a location other than a permanent radiographic installation, the radiographer must be accompanied by at least one other qualified radiographer or by an individual who has, at a minimum, met the requirements of § 34.43(c).",
+          "quote": "Whenever radiography is performed at a location other than a permanent radiographic installation, the radiographer must be accompanied by at least one other qualified radiographer or an individual who has at a minimum met the requirements of § 34.43(c).",
+          "source": {
+            "title": "eCFR: 10 CFR 34.41, Conducting industrial radiographic operations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The additional qualified individual shall observe the operations and be capable of providing immediate assistance to prevent unauthorized entry.",
+          "quote": "The additional qualified individual shall observe the operations and be capable of providing immediate assistance to prevent unauthorized entry.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.41, Conducting industrial radiographic operations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Radiography may not be performed if only one qualified individual is present.",
+          "quote": "Radiography may not be performed if only one qualified individual is present.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.41, Conducting industrial radiographic operations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "All radiographic operations conducted at locations of use authorized on the license must be conducted in a permanent radiographic installation, unless specifically authorized by the Commission.",
+          "quote": "All radiographic operations conducted at locations of use authorized on the license must be conducted in a permanent radiographic installation, unless specifically authorized by the Commission.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.41, Conducting industrial radiographic operations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.41"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Licensees had until June 27, 1998, to meet the requirement for two qualified individuals present at locations other than a permanent radiographic installation.",
+          "quote": "Licensees will have until June 27, 1998, to meet the requirements for having two qualified individuals present at locations other than a permanent radiographic installation as specified in paragraph (a) of this section.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.41, Conducting industrial radiographic operations (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.41"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Lay-barge, offshore platform and underwater radiography (§ 34.41(c)) and the other operating requirements are in the operations, monitoring, surveys and posting set."
+    },
+    {
+      "id": "rso",
+      "name": "Radiation Safety Officer",
+      "points": [
+        {
+          "text": "The RSO shall ensure that radiation safety activities are performed in accordance with approved procedures and regulatory requirements in the daily operation of the licensee's program.",
+          "quote": "The RSO shall ensure that radiation safety activities are being performed in accordance with approved procedures and regulatory requirements in the daily operation of the licensee's program.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.42, Radiation Safety Officer for industrial radiography (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "One of the minimum qualifications, training, and experience for an industrial radiography RSO is completion of the training and testing requirements of § 34.43(a).",
+          "quote": "The minimum qualifications, training, and experience for RSOs for industrial radiography are as follows: (1) Completion of the training and testing requirements of § 34.43(a);",
+          "source": {
+            "title": "eCFR: 10 CFR 34.42, Radiation Safety Officer for industrial radiography (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Another minimum qualification is 2000 hours of hands-on experience as a qualified radiographer in industrial radiographic operations.",
+          "quote": "2000 hours of hands-on experience as a qualified radiographer in industrial radiographic operations; and",
+          "source": {
+            "title": "eCFR: 10 CFR 34.42, Radiation Safety Officer for industrial radiography (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Another minimum qualification is formal training in the establishment and maintenance of a radiation protection program.",
+          "quote": "Formal training in the establishment and maintenance of a radiation protection program.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.42, Radiation Safety Officer for industrial radiography (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Commission will consider alternatives when the RSO has appropriate training and/or experience in the field of ionizing radiation and, in addition, has adequate formal training in the establishment and maintenance of a radiation safety protection program.",
+          "quote": "The Commission will consider alternatives when the RSO has appropriate training and/or experience in the field of ionizing radiation, and in addition, has adequate formal training with respect to the establishment and maintenance of a radiation safety protection program.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.42, Radiation Safety Officer for industrial radiography (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The RSO's specific duties and authorities include, but are not limited to, establishing and overseeing all operating, emergency, and ALARA procedures as required by 10 CFR part 20, and reviewing them regularly so that the procedures in use conform to current Part 20 procedures, other NRC regulations and the license conditions.",
+          "quote": "The specific duties and authorities of the RSO include, but are not limited to: (1) Establishing and overseeing all operating, emergency, and ALARA procedures as required by 10 CFR part 20 of this chapter, and reviewing them regularly to ensure that the procedures in use conform to current 10 CFR part 20 procedures, conform to other NRC regulations and to the license conditions.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.42, Radiation Safety Officer for industrial radiography (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The RSO's duties include overseeing and approving all phases of the training program for radiographic personnel, ensuring that appropriate and effective radiation protection practices are taught.",
+          "quote": "Overseeing and approving all phases of the training program for radiographic personnel, ensuring that appropriate and effective radiation protection practices are taught;",
+          "source": {
+            "title": "eCFR: 10 CFR 34.42, Radiation Safety Officer for industrial radiography (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The RSO's duties include ensuring that required radiation surveys and leak tests are performed and documented in accordance with the regulations, including any corrective measures when levels of radiation exceed established limits.",
+          "quote": "Ensuring that required radiation surveys and leak tests are performed and documented in accordance with the regulations, including any corrective measures when levels of radiation exceed established limits;",
+          "source": {
+            "title": "eCFR: 10 CFR 34.42, Radiation Safety Officer for industrial radiography (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The RSO's duties include ensuring that personnel monitoring devices are calibrated and used properly by occupationally-exposed personnel, that records are kept of the monitoring results, and that timely notifications are made as required by § 20.2203.",
+          "quote": "Ensuring that personnel monitoring devices are calibrated and used properly by occupationally-exposed personnel, that records are kept of the monitoring results, and that timely notifications are made as required by § 20.2203 of this chapter; and",
+          "source": {
+            "title": "eCFR: 10 CFR 34.42, Radiation Safety Officer for industrial radiography (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The RSO's duties include ensuring that operations are conducted safely and assuming control for instituting corrective actions, including stopping operations when necessary.",
+          "quote": "Ensuring that operations are conducted safely and to assume control for instituting corrective actions including stopping of operations when necessary.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.42, Radiation Safety Officer for industrial radiography (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.42"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Licensees had until June 27, 1999, to meet the RSO qualification requirements of paragraph (a) or (b) of § 34.42.",
+          "quote": "Licensees will have until June 27, 1999, to meet the requirements of paragraph (a) or (b) of this section.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.42, Radiation Safety Officer for industrial radiography (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.42"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "radiographer-training",
+      "name": "Radiographer training and certification",
+      "points": [
+        {
+          "text": "The licensee may not permit any individual to act as a radiographer until the individual has received training in the subjects in § 34.43(g), plus a minimum of 2 months of on-the-job training, and is certified through a radiographer certification program by a certifying entity in accordance with the criteria in appendix A of Part 34.",
+          "quote": "The licensee may not permit any individual to act as a radiographer until the individual— (1) Has received training in the subjects in paragraph (g) of this section, in addition to a minimum of 2 months of on-the-job training, and is certified through a radiographer certification program by a certifying entity in accordance with the criteria specified in appendix A of this part.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "An independent organization that would like to be recognized as a certifying entity shall submit its request to the Director, Office of Nuclear Material Safety and Safeguards, by an appropriate method listed in § 30.6(a).",
+          "quote": "(An independent organization that would like to be recognized as a certifying entity shall submit its request to the Director, Office of Nuclear Material Safety and Safeguards, by an appropriate method listed in § 30.6(a) of this chapter.)",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "As a transitional option, the licensee could, until June 27, 1999, allow an individual who had not met paragraph (a)(1) to act as a radiographer after receiving training in the paragraph (g) subjects and successfully completing a written examination previously submitted to and approved by the Commission.",
+          "quote": "The licensee may, until June 27, 1999, allow an individual who has not met the requirements of paragraph (a)(1) of this section, to act as a radiographer after the individual has received training in the subjects outlined in paragraph (g) of this section and demonstrated an understanding of these subjects by successful completion of a written examination that was previously submitted to and approved by the Commission.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "In addition, the licensee may not permit any individual to act as a radiographer until the individual has received copies of and instruction in the requirements of the NRC regulations in Part 34, among other listed requirements.",
+          "quote": "In addition, the licensee may not permit any individual to act as a radiographer until the individual— (1) Has received copies of and instruction in the requirements described in NRC regulations contained in this part;",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The copies and instruction a radiographer must receive also cover the NRC license(s) under which the radiographer will perform industrial radiography and the licensee's operating and emergency procedures.",
+          "quote": "in the NRC license(s) under which the radiographer will perform industrial radiography, and the licensee's operating and emergency procedures;",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The radiographer must have demonstrated understanding of the licensee's license and operating and emergency procedures by successfully completing a written or oral examination covering this material.",
+          "quote": "Has demonstrated understanding of the licensee's license and operating and emergency procedures by successful completion of a written or oral examination covering this material.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The radiographer must have received training in the use of the licensee's radiographic exposure devices and sealed sources, in the daily inspection of devices and associated equipment, and in the use of radiation survey instruments.",
+          "quote": "Has received training in the use of the licensee's radiographic exposure devices, sealed sources, in the daily inspection of devices and associated equipment, and in the use of radiation survey instruments.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The radiographer must have demonstrated understanding of the use of radiographic exposure devices, sources, survey instruments and associated equipment by successfully completing a practical examination covering this material.",
+          "quote": "Has demonstrated understanding of the use of radiographic exposure devices, sources, survey instruments and associated equipment described in paragraphs (b)(1) and (b)(3) of this section by successful completion of a practical examination covering this material.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The fundamentals of radiation safety in the required training subjects include methods of controlling radiation dose (time, distance, and shielding).",
+          "quote": "Methods of controlling radiation dose (time, distance, and shielding);",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Case histories of accidents in radiography are one of the subjects the licensee shall include in the training required by § 34.43(a).",
+          "quote": "(5) Case histories of accidents in radiography.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Licensees had until June 27, 1999, to comply with the certification requirements of paragraph (a)(1). Records of radiographer certification maintained under § 34.79(a) provide appropriate affirmation of those certification requirements.",
+          "quote": "Licensees will have until June 27, 1999 to comply with the certification requirements specified in paragraph (a)(1) of this section. Records of radiographer certification maintained in accordance with § 34.79(a) provide appropriate affirmation of certification requirements specified in paragraph (a)(1) of this section.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        }
+      ],
+      "notCovered": "Appendix A to Part 34 (the requirements for certifying entities) and the other regulations named in § 34.43(b)(1) are not covered here. The full list of training subjects in § 34.43(g) is not reproduced; read the section itself."
+    },
+    {
+      "id": "assistant-training",
+      "name": "Radiographer's assistant training",
+      "points": [
+        {
+          "text": "The licensee may not permit any individual to act as a radiographer's assistant until the individual has received copies of and instruction in the requirements of the NRC regulations in Part 34, among other listed requirements.",
+          "quote": "The licensee may not permit any individual to act as a radiographer's assistant until the individual— (1) Has received copies of and instruction in the requirements described in NRC regulations contained in this part,",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The assistant must have developed competence to use, under the personal supervision of the radiographer, the radiographic exposure devices, sealed sources, associated equipment, and radiation survey instruments that the assistant will use.",
+          "quote": "Has developed competence to use, under the personal supervision of the radiographer, the radiographic exposure devices, sealed sources, associated equipment, and radiation survey instruments that the assistant will use; and",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The assistant must have demonstrated understanding of the instructions by successfully completing a written test on the subjects covered, and demonstrated competence in the use of the hardware by successfully completing a practical examination on its use.",
+          "quote": "Has demonstrated understanding of the instructions provided under (c)(1) of this section by successfully completing a written test on the subjects covered and has demonstrated competence in the use of hardware described in (c)(2) of this section by successful completion of a practical examination on the use of such hardware.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "refresher-inspections",
+      "name": "Refresher training and job performance inspections",
+      "points": [
+        {
+          "text": "The licensee shall provide annual refresher safety training for each radiographer and radiographer's assistant at intervals not to exceed 12 months.",
+          "quote": "The licensee shall provide annual refresher safety training for each radiographer and radiographer's assistant at intervals not to exceed 12 months.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Except as provided in paragraph (e)(4), the RSO or designee shall conduct an inspection program of the job performance of each radiographer and radiographer's assistant, to ensure that the Commission's regulations, license requirements, and the applicant's operating and emergency procedures are followed.",
+          "quote": "Except as provided in paragraph (e)(4), the RSO or designee shall conduct an inspection program of the job performance of each radiographer and radiographer's assistant to ensure that the Commission's regulations, license requirements, and the applicant's operating and emergency procedures are followed.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The inspection program must include observation of the performance of each radiographer and radiographer's assistant during an actual industrial radiographic operation, at intervals not to exceed 6 months.",
+          "quote": "Include observation of the performance of each radiographer and radiographer's assistant during an actual industrial radiographic operation, at intervals not to exceed 6 months; and",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "If a radiographer or radiographer's assistant has not participated in an industrial radiographic operation for more than 6 months since the last inspection, then before they next participate the radiographer must demonstrate knowledge of the § 34.43(b)(3) training requirements, and the assistant must re-demonstrate knowledge of the § 34.43(c)(2) training requirements, by a practical examination.",
+          "quote": "Provide that, if a radiographer or a radiographer's assistant has not participated in an industrial radiographic operation for more than 6 months since the last inspection, the radiographer must demonstrate knowledge of the training requirements of § 34.43(b)(3) and the radiographer's assistant must re-demonstrate knowledge of the training requirements of § 34.43(c)(2) by a practical examination before these individuals can next participate in a radiographic operation.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The Commission may consider alternatives where the individual serves as both radiographer and RSO.",
+          "quote": "The Commission may consider alternatives in those situations where the individual serves as both radiographer and RSO.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Where a single individual serves as both radiographer and RSO and performs all radiography operations, an inspection program is not required.",
+          "quote": "In those operations where a single individual serves as both radiographer and RSO, and performs all radiography operations, an inspection program is not required.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "supervision",
+      "name": "Supervision of radiographers' assistants",
+      "points": [
+        {
+          "text": "Whenever a radiographer's assistant uses radiographic exposure devices, associated equipment or sealed sources, or conducts the radiation surveys required by § 34.49(b) to determine that the sealed source has returned to the shielded position after an exposure, the assistant shall be under the personal supervision of a radiographer.",
+          "quote": "Whenever a radiographer's assistant uses radiographic exposure devices, associated equipment or sealed sources or conducts radiation surveys required by § 34.49(b) to determine that the sealed source has returned to the shielded position after an exposure, the assistant shall be under the personal supervision of a radiographer.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.46, Supervision of radiographers' assistants (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.46"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Personal supervision must include the radiographer's physical presence at the site where the sealed sources are being used.",
+          "quote": "The personal supervision must include: (a) The radiographer's physical presence at the site where the sealed sources are being used;",
+          "source": {
+            "title": "eCFR: 10 CFR 34.46, Supervision of radiographers' assistants (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.46"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Personal supervision must include the availability of the radiographer to give immediate assistance if required.",
+          "quote": "The availability of the radiographer to give immediate assistance if required; and",
+          "source": {
+            "title": "eCFR: 10 CFR 34.46, Supervision of radiographers' assistants (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.46"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Personal supervision must include the radiographer's direct observation of the assistant's performance of the operations referred to in § 34.46.",
+          "quote": "The radiographer's direct observation of the assistant's performance of the operations referred to in this section.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.46, Supervision of radiographers' assistants (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.46"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "training-records",
+      "name": "Training and certification records",
+      "points": [
+        {
+          "text": "The licensee shall maintain records of the training, including certification documents, written and practical examinations, refresher safety training and inspections of job performance, in accordance with § 34.79.",
+          "quote": "The licensee shall maintain records of the above training to include certification documents, written and practical examinations, refresher safety training and inspections of job performance in accordance with § 34.79.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.43, Training (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.43"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "Each licensee shall maintain its records of training and certification for 3 years after the record is made.",
+          "quote": "Each licensee shall maintain the following records (of training and certification) for 3 years after the record is made:",
+          "source": {
+            "title": "eCFR: 10 CFR 34.79, Records of training and certification (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.79"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The licensee keeps records of training of each radiographer and each radiographer's assistant. The record must include radiographer certification documents and verification of certification status, copies of written tests, dates of oral and practical examinations, and names of the individuals conducting and receiving the oral and practical examinations.",
+          "quote": "Records of training of each radiographer and each radiographer's assistant. The record must include radiographer certification documents and verification of certification status, copies of written tests, dates of oral and practical examinations, and names of individuals conducting and receiving the oral and practical examinations; and",
+          "source": {
+            "title": "eCFR: 10 CFR 34.79, Records of training and certification (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.79"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "The licensee keeps records of annual refresher safety training and semi-annual inspections of job performance for each radiographer and radiographer's assistant. The records must list the topics discussed during the refresher training, the dates it was conducted, and the names of the instructors and attendees.",
+          "quote": "Records of annual refresher safety training and semi-annual inspections of job performance for each radiographer and each radiographer's assistant. The records must list the topics discussed during the refresher safety training, the dates the annual refresher safety training was conducted, and names of the instructors and attendees.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.79, Records of training and certification (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.79"
+          },
+          "checked": "2026-11-06"
+        },
+        {
+          "text": "For inspections of job performance, the records must also include a list showing the items checked and any non-compliances observed by the RSO.",
+          "quote": "For inspections of job performance, the records must also include a list showing the items checked and any non-compliances observed by the RSO.",
+          "source": {
+            "title": "eCFR: 10 CFR 34.79, Records of training and certification (as of Nov 4, 2026)",
+            "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.79"
+          },
+          "checked": "2026-11-06"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "cluster": "industrial-radiography",
+  "slug": "operations-surveys",
+  "title": "Industrial radiography operations, monitoring, surveys and posting practice questions",
+  "description": "Practice questions on NRC 10 CFR Part 34: operating procedures, dosimeters, alarm ratemeters, surveys, surveillance, posting and records.",
+  "href": "/industrial-radiography/operations-surveys/practice-test/",
+  "questions": [
+    {
+      "id": "ov-001",
+      "topic": "Special operations, surveillance and posting",
+      "question": "Under 34.41(c), a licensee may conduct lay-barge, offshore platform, or underwater radiography only if what condition is met?",
+      "options": {
+        "A": "The radiography is performed inside a permanent radiographic installation",
+        "B": "Procedures have been approved by the Commission or by an Agreement State",
+        "C": "The Radiation Safety Officer is personally present on the barge or platform",
+        "D": "Each exposure is limited to one sealed source per workday"
+      },
+      "answer": "B",
+      "explanation": "34.41(c) says a licensee may conduct this work \"only if procedures have been approved by the Commission or by an Agreement State.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.41, Conducting industrial radiographic operations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.41"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A licensee may conduct lay-barge, offshore platform, or underwater radiography only if procedures have been approved by the Commission or by an Agreement State."
+    },
+    {
+      "id": "ov-002",
+      "topic": "Special operations, surveillance and posting",
+      "question": "At a temporary job site, who does 34.51 name as the person who shall maintain continuous direct visual surveillance of the radiographic operation?",
+      "options": {
+        "A": "The Radiation Safety Officer only",
+        "B": "A security guard posted at each entrance to the area",
+        "C": "The licensee's site manager or client representative",
+        "D": "The radiographer, or the other individual present, as required by 34.41"
+      },
+      "answer": "D",
+      "explanation": "34.51 says \"the radiographer, or the other individual present, as required by § 34.41, shall maintain continuous direct visual surveillance of the operation.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.51, Surveillance (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.51"
+      },
+      "checked": "2026-11-06",
+      "evidence": "During each radiographic operation the radiographer, or the other individual present, as required by § 34.41, shall maintain continuous direct visual surveillance of the operation"
+    },
+    {
+      "id": "ov-003",
+      "topic": "Special operations, surveillance and posting",
+      "question": "34.51 makes an exception to the continuous direct visual surveillance requirement for which locations?",
+      "options": {
+        "A": "Permanent radiographic installations where all entryways are locked and the requirements of 34.33 are met",
+        "B": "Temporary job sites where the area boundary has been roped off and posted",
+        "C": "Field stations where two qualified individuals are present",
+        "D": "Any location where the operation lasts less than one hour"
+      },
+      "answer": "A",
+      "explanation": "The surveillance duty applies \"except at permanent radiographic installations where all entryways are locked and the requirements of § 34.33 are met.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.51, Surveillance (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.51"
+      },
+      "checked": "2026-11-06",
+      "evidence": "except at permanent radiographic installations where all entryways are locked and the requirements of § 34.33 are met."
+    },
+    {
+      "id": "ov-004",
+      "topic": "Special operations, surveillance and posting",
+      "question": "What does 34.53 say about the posting exceptions listed in 10 CFR 20.1903?",
+      "options": {
+        "A": "They apply only at permanent radiographic installations",
+        "B": "They apply when the area is under continuous direct visual surveillance",
+        "C": "They do not apply to industrial radiographic operations",
+        "D": "They apply if the Radiation Safety Officer approves them in writing"
+      },
+      "answer": "C",
+      "explanation": "34.53 says \"Exceptions listed in § 20.1903 of this chapter do not apply to industrial radiographic operations.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.53, Posting (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.53"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Exceptions listed in § 20.1903 of this chapter do not apply to industrial radiographic operations."
+    },
+    {
+      "id": "ov-005",
+      "topic": "Operating and emergency procedures",
+      "question": "Under 34.45(a)(12), when must operating and emergency procedures include a source recovery procedure?",
+      "options": {
+        "A": "If the licensee will perform source recovery",
+        "B": "Only when radiography is performed underwater",
+        "C": "Only at permanent radiographic installations",
+        "D": "Whenever the licensee employs radiographers' assistants"
+      },
+      "answer": "A",
+      "explanation": "34.45(a)(12) lists a \"Source recovery procedure if licensee will perform source recovery.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.45, Operating and emergency procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.45"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Source recovery procedure if licensee will perform source recovery;"
+    },
+    {
+      "id": "ov-006",
+      "topic": "Operating and emergency procedures",
+      "question": "A radiographer's alarm ratemeter alarms unexpectedly at a job site. Under 34.45(a)(8), what must the operating and emergency procedures contain for this event?",
+      "options": {
+        "A": "A form the RSO must sign within 30 days",
+        "B": "The name of the company that calibrates the ratemeter",
+        "C": "Steps that must be taken immediately by radiography personnel",
+        "D": "A schedule for replacing the ratemeter's battery"
+      },
+      "answer": "C",
+      "explanation": "The procedures must include \"Steps that must be taken immediately by radiography personnel in the event a pocket dosimeter is found to be off-scale or an alarm ratemeter alarms unexpectedly.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.45, Operating and emergency procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.45"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Steps that must be taken immediately by radiography personnel in the event a pocket dosimeter is found to be off-scale or an alarm ratemeter alarms unexpectedly."
+    },
+    {
+      "id": "ov-007",
+      "topic": "Operating and emergency procedures",
+      "question": "Which two accident-related instructions does 34.45(a) require in operating and emergency procedures?",
+      "options": {
+        "A": "Estimating property damage and filing an insurance claim",
+        "B": "Preparing a press release and notifying nearby residents",
+        "C": "Disciplining the personnel involved and retraining them",
+        "D": "Notifying proper persons and minimizing exposure of persons in the event of an accident"
+      },
+      "answer": "D",
+      "explanation": "34.45(a) lists \"The procedure for notifying proper persons in the event of an accident\" and \"Minimizing exposure of persons in the event of an accident.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.45, Operating and emergency procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.45"
+      },
+      "checked": "2026-11-06",
+      "evidence": "(10) The procedure for notifying proper persons in the event of an accident; (11) Minimizing exposure of persons in the event of an accident;"
+    },
+    {
+      "id": "ov-008",
+      "topic": "Wearing and reading dosimeters",
+      "question": "Under 34.47(a), where must a radiographer wear the direct reading dosimeter, alarm ratemeter and personnel dosimeter?",
+      "options": {
+        "A": "On the wrist of the hand nearest the source",
+        "B": "On the trunk of the body",
+        "C": "On the outside of the collar",
+        "D": "Anywhere within the individual's reach"
+      },
+      "answer": "B",
+      "explanation": "Each individual must wear these items \"on the trunk of the body\" at all times during radiographic operations.",
+      "source": {
+        "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
+      },
+      "checked": "2026-11-06",
+      "evidence": "each individual wears, on the trunk of the body, a direct reading dosimeter, an operating alarm ratemeter, and a personnel dosimeter."
+    },
+    {
+      "id": "ov-009",
+      "topic": "Wearing and reading dosimeters",
+      "question": "A radiographer works in a permanent radiography installation where other appropriate alarming or warning devices are in routine use. Which item is not required to be worn there under 34.47(a)?",
+      "options": {
+        "A": "A direct reading dosimeter",
+        "B": "A personnel dosimeter",
+        "C": "Both the direct reading dosimeter and the personnel dosimeter",
+        "D": "An alarming ratemeter"
+      },
+      "answer": "D",
+      "explanation": "At such installations \"the wearing of an alarming ratemeter is not required.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
+      },
+      "checked": "2026-11-06",
+      "evidence": "At permanent radiography installations where other appropriate alarming or warning devices are in routine use, the wearing of an alarming ratemeter is not required."
+    },
+    {
+      "id": "ov-010",
+      "topic": "Wearing and reading dosimeters",
+      "question": "Under 34.47(a)(1), electronic personal dosimeters may only be used in place of what?",
+      "options": {
+        "A": "Ion-chamber pocket dosimeters",
+        "B": "Alarm ratemeters",
+        "C": "Film badges",
+        "D": "Radiation survey instruments"
+      },
+      "answer": "A",
+      "explanation": "34.47(a)(1) says \"Electronic personal dosimeters may only be used in place of ion-chamber pocket dosimeters.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Electronic personal dosimeters may only be used in place of ion-chamber pocket dosimeters."
+    },
+    {
+      "id": "ov-011",
+      "topic": "Wearing and reading dosimeters",
+      "question": "34.47(a)(3) says all personnel dosimeters must be evaluated at least quarterly or promptly after replacement. Which of the two applies?",
+      "options": {
+        "A": "Whichever is less frequent",
+        "B": "Whichever the radiographer chooses",
+        "C": "Whichever is more frequent",
+        "D": "Quarterly only, unless the dosimeter is a film badge"
+      },
+      "answer": "C",
+      "explanation": "Personnel dosimeters must be evaluated \"at least quarterly or promptly after replacement, whichever is more frequent.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
+      },
+      "checked": "2026-11-06",
+      "evidence": "All personnel dosimeters must be evaluated at least quarterly or promptly after replacement, whichever is more frequent."
+    },
+    {
+      "id": "ov-012",
+      "topic": "Wearing and reading dosimeters",
+      "question": "Under 34.47(b), when must direct reading dosimeters be read and the exposures recorded?",
+      "options": {
+        "A": "At the end of each work week",
+        "B": "At the beginning and end of each shift",
+        "C": "Once for each job site",
+        "D": "Only when the dosimeter reads above its midpoint"
+      },
+      "answer": "B",
+      "explanation": "Direct reading dosimeters \"must be read and the exposures recorded at the beginning and end of each shift.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
+      },
+      "checked": "2026-11-06",
+      "evidence": "must be read and the exposures recorded at the beginning and end of each shift"
+    },
+    {
+      "id": "ov-013",
+      "topic": "Off-scale, lost or damaged dosimeters",
+      "question": "A radiographer's pocket chamber is found off-scale and radiation exposure cannot be ruled out as the cause. What time period does 34.47(d) set for sending the personnel dosimeter that requires processing for processing and evaluation?",
+      "options": {
+        "A": "Within 24 hours",
+        "B": "Within 30 days",
+        "C": "By the end of the calendar quarter",
+        "D": "Within 6 months"
+      },
+      "answer": "A",
+      "explanation": "The personnel dosimeter that requires processing \"must be sent for processing and evaluation within 24 hours.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the individual's personnel dosimeter that requires processing must be sent for processing and evaluation within 24 hours."
+    },
+    {
+      "id": "ov-014",
+      "topic": "Off-scale, lost or damaged dosimeters",
+      "question": "A radiographer's electronic personal dosimeter reads greater than 2 millisieverts (200 millirems), and exposure cannot be ruled out. Under 34.47(d), who must make the determination of the individual's radiation dose before the individual resumes work?",
+      "options": {
+        "A": "The radiographer trainer",
+        "B": "The dosimetry processor",
+        "C": "The individual's co-worker radiographer",
+        "D": "The RSO or the RSO's designee"
+      },
+      "answer": "D",
+      "explanation": "The individual may not resume work until a dose determination is made, and \"This determination must be made by the RSO or the RSO's designee.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
+      },
+      "checked": "2026-11-06",
+      "evidence": "This determination must be made by the RSO or the RSO's designee."
+    },
+    {
+      "id": "ov-015",
+      "topic": "Off-scale, lost or damaged dosimeters",
+      "question": "A radiographer's assistant finds that the personnel dosimeter required by 34.47(a) has been lost. What does 34.47(e) require of the worker?",
+      "options": {
+        "A": "Borrow a co-worker's personnel dosimeter and continue working",
+        "B": "Cease work immediately until a replacement is provided and the exposure is calculated",
+        "C": "Finish the shift and report the loss at the next quarterly evaluation",
+        "D": "Continue working as long as the alarm ratemeter is operating"
+      },
+      "answer": "B",
+      "explanation": "The worker \"shall cease work immediately until a replacement personnel dosimeter meeting the requirements in paragraph (a) is provided and the exposure is calculated.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
+      },
+      "checked": "2026-11-06",
+      "evidence": "the worker shall cease work immediately until a replacement personnel dosimeter meeting the requirements in paragraph (a) is provided and the exposure is calculated"
+    },
+    {
+      "id": "ov-016",
+      "topic": "Alarm ratemeters",
+      "question": "Under 34.47(g)(2), at what preset dose rate must each alarm ratemeter be set to give an alarm signal?",
+      "options": {
+        "A": "0.5 mSv/hr (50 mrem/hr)",
+        "B": "20 mSv/hr (2,000 mrem/hr)",
+        "C": "5 mSv/hr (500 mrem/hr)",
+        "D": "50 mSv/hr (5,000 mrem/hr)"
+      },
+      "answer": "C",
+      "explanation": "Each alarm ratemeter must \"Be set to give an alarm signal at a preset dose rate of 5 mSv/hr (500 mrem/hr).\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.47, Personnel monitoring (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.47"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Be set to give an alarm signal at a preset dose rate of 5 mSv/hr (500 mrem/hr);"
+    },
+    {
+      "id": "ov-017",
+      "topic": "Radiation surveys",
+      "question": "Under 34.49(b), the survey after each exposure must determine that the sealed source has returned to its shielded position before which actions?",
+      "options": {
+        "A": "Exchanging films, repositioning the exposure head, or dismantling equipment",
+        "B": "Writing the utilization log entry for the day",
+        "C": "Reading the direct reading dosimeters at the end of the shift",
+        "D": "Leaving the temporary job site for the next location"
+      },
+      "answer": "A",
+      "explanation": "The survey \"must determine that the sealed source has returned to its shielded position before exchanging films, repositioning the exposure head, or dismantling equipment.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.49, Radiation surveys (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.49"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The survey must determine that the sealed source has returned to its shielded position before exchanging films, repositioning the exposure head, or dismantling equipment."
+    },
+    {
+      "id": "ov-018",
+      "topic": "Radiation surveys",
+      "question": "Besides the survey after each exposure, when does 34.49(c) require a survey of the radiographic exposure device with a calibrated radiation survey instrument?",
+      "options": {
+        "A": "Only at the start of each calendar quarter",
+        "B": "Only when a new radiographer's assistant is assigned to the crew",
+        "C": "Only after the device has been transported on a public road",
+        "D": "Any time the source is exchanged and whenever the device is placed in a storage area"
+      },
+      "answer": "D",
+      "explanation": "34.49(c) requires a survey \"any time the source is exchanged and whenever a radiographic exposure device is placed in a storage area (as defined in § 34.3), to ensure that the sealed source is in its shielded position.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.49, Radiation surveys (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-D/section-34.49"
+      },
+      "checked": "2026-11-06",
+      "evidence": "any time the source is exchanged and whenever a radiographic exposure device is placed in a storage area (as defined in § 34.3), to ensure that the sealed source is in its shielded position."
+    },
+    {
+      "id": "ov-019",
+      "topic": "Records of procedures, monitoring and surveys",
+      "question": "Under 34.83(c), how long must the licensee keep personnel dosimeter results?",
+      "options": {
+        "A": "For 3 years after the record is made",
+        "B": "For 1 year after the individual stops working for the licensee",
+        "C": "Until the Commission terminates the license",
+        "D": "Until the next quarterly evaluation"
+      },
+      "answer": "C",
+      "explanation": "34.83(c) lists \"Personnel dosimeter results until the Commission terminates the license.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.83, Records of personnel monitoring procedures (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.83"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Personnel dosimeter results until the Commission terminates the license."
+    },
+    {
+      "id": "ov-020",
+      "topic": "Records of procedures, monitoring and surveys",
+      "question": "Under 34.85, which exposure device survey must the licensee keep a record of?",
+      "options": {
+        "A": "Only the first survey performed in each workday",
+        "B": "The survey before the device is placed in storage under 34.49(c), if it is the last one performed in the workday",
+        "C": "Only surveys performed at temporary job sites",
+        "D": "Only surveys performed by the Radiation Safety Officer"
+      },
+      "answer": "B",
+      "explanation": "34.85 requires \"a record of each exposure device survey conducted before the device is placed in storage as specified in § 34.49(c), if that survey is the last one performed in the workday.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.85, Records of radiation surveys (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.85"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Each licensee shall maintain a record of each exposure device survey conducted before the device is placed in storage as specified in § 34.49(c), if that survey is the last one performed in the workday."
+    }
+  ]
+}

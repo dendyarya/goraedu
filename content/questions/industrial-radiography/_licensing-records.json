@@ -1,0 +1,389 @@
+{
+  "cluster": "industrial-radiography",
+  "slug": "licensing-records",
+  "title": "Industrial radiography licensing, records and notifications practice questions",
+  "description": "Practice questions on NRC 10 CFR Part 34: scope, definitions, license applications, record form and location, and incident notifications.",
+  "href": "/industrial-radiography/licensing-records/practice-test/",
+  "questions": [
+    {
+      "id": "lr-001",
+      "topic": "Purpose, scope and interpretations",
+      "question": "Which use of byproduct material does 34.1 say Part 34 does not apply to?",
+      "options": {
+        "A": "Sealed sources used at temporary jobsites",
+        "B": "Medical uses of byproduct material",
+        "C": "Sealed sources used in offshore platform radiography",
+        "D": "Sealed sources stored at field stations"
+      },
+      "answer": "B",
+      "explanation": "34.1 states: \"This rule does not apply to medical uses of byproduct material.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.1, Purpose and scope (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.1"
+      },
+      "checked": "2026-11-06",
+      "evidence": "This rule does not apply to medical uses of byproduct material."
+    },
+    {
+      "id": "lr-002",
+      "topic": "Purpose, scope and interpretations",
+      "question": "Apart from what the Commission specifically authorizes in writing, whose written interpretation of Part 34 does 34.5 recognize as binding upon the Commission?",
+      "options": {
+        "A": "The licensee's Radiation Safety Officer for industrial radiography",
+        "B": "An independent certifying organization",
+        "C": "The radiographer in charge at the jobsite",
+        "D": "The General Counsel"
+      },
+      "answer": "D",
+      "explanation": "34.5 recognizes no interpretation by an NRC officer or employee as binding \"other than a written interpretation by the General Counsel.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.5, Interpretations (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.5"
+      },
+      "checked": "2026-11-06",
+      "evidence": "other than a written interpretation by the General Counsel, will be recognized to be binding upon the Commission"
+    },
+    {
+      "id": "lr-003",
+      "topic": "Places and types of radiography",
+      "question": "How does 34.3 define a permanent radiographic installation?",
+      "options": {
+        "A": "An enclosed shielded room, cell, or vault, not located at a temporary jobsite, in which radiography is performed",
+        "B": "A facility where licensed material may be stored or used and from which equipment is dispatched",
+        "C": "Any vehicle that is locked and used to secure a radiographic exposure device when it is not in use",
+        "D": "A location where radiographic operations are conducted other than the locations of use authorized on the license"
+      },
+      "answer": "A",
+      "explanation": "34.3: \"Permanent radiographic installation means an enclosed shielded room, cell, or vault, not located at a temporary jobsite, in which radiography is performed.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Permanent radiographic installation means an enclosed shielded room, cell, or vault, not located at a temporary jobsite, in which radiography is performed."
+    },
+    {
+      "id": "lr-004",
+      "topic": "Places and types of radiography",
+      "question": "A licensee's crew performs radiography at a customer's plant that is not one of the locations of use authorized on the license. What does 34.3 call this kind of location?",
+      "options": {
+        "A": "A field station",
+        "B": "A permanent radiographic installation",
+        "C": "A temporary jobsite",
+        "D": "A storage area"
+      },
+      "answer": "C",
+      "explanation": "34.3 defines a temporary jobsite as \"a location where radiographic operations are conducted and where licensed material may be stored other than those location(s) of use authorized on the license.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Temporary jobsite means a location where radiographic operations are conducted and where licensed material may be stored other than those location(s) of use authorized on the license."
+    },
+    {
+      "id": "lr-005",
+      "topic": "Places and types of radiography",
+      "question": "Which activity does the 34.3 definition of radiographic operations expressly include?",
+      "options": {
+        "A": "Transport of the device by a common or contract transport",
+        "B": "Filing the license application on NRC Form 313",
+        "C": "Surveys to confirm the adequacy of boundaries",
+        "D": "Medical uses of byproduct material"
+      },
+      "answer": "C",
+      "explanation": "Radiographic operations include activities during use or transport \"(except when being transported by a common or contract transport), to include surveys to confirm the adequacy of boundaries, setting up equipment and any activity inside restricted area boundaries.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "to include surveys to confirm the adequacy of boundaries, setting up equipment and any activity inside restricted area boundaries"
+    },
+    {
+      "id": "lr-006",
+      "topic": "Equipment and source terms",
+      "question": "What other names does 34.3 give for a radiographic exposure device?",
+      "options": {
+        "A": "A camera, or a projector",
+        "B": "A source changer, or a storage container",
+        "C": "A collimator, or an exposure head",
+        "D": "A source stop, or a guide tube"
+      },
+      "answer": "A",
+      "explanation": "34.3 defines the \"Radiographic exposure device (also called a camera, or a projector)\".",
+      "source": {
+        "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Radiographic exposure device (also called a camera, or a projector)"
+    },
+    {
+      "id": "lr-007",
+      "topic": "Equipment and source terms",
+      "question": "Under 34.3, which device is designed and used for replacement of sealed sources in radiographic exposure devices?",
+      "options": {
+        "A": "A storage container",
+        "B": "A collimator",
+        "C": "A control (drive) cable",
+        "D": "A source changer"
+      },
+      "answer": "D",
+      "explanation": "34.3: \"Source changer means a device designed and used for replacement of sealed sources in radiographic exposure devices, including those also used for transporting and storage of sealed sources.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Source changer means a device designed and used for replacement of sealed sources in radiographic exposure devices"
+    },
+    {
+      "id": "lr-008",
+      "topic": "Units and ALARA",
+      "question": "Which unit does 34.3 define as the SI unit of absorbed dose, equal to 100 rads?",
+      "options": {
+        "A": "The sievert",
+        "B": "The gray",
+        "C": "The becquerel",
+        "D": "The roentgen"
+      },
+      "answer": "B",
+      "explanation": "34.3: \"Gray means the SI unit of absorbed dose.\" It adds: \"It is also equal to 100 rads.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Gray means the SI unit of absorbed dose. One gray is equal to an absorbed dose of 1 Joule/kilogram. It is also equal to 100 rads."
+    },
+    {
+      "id": "lr-009",
+      "topic": "Units and ALARA",
+      "question": "According to 34.3, what does the acronym ALARA stand for?",
+      "options": {
+        "A": "As low as is reasonably achievable",
+        "B": "As low as radiologically allowable",
+        "C": "Always limit and record all activity",
+        "D": "Annual limit as recorded annually"
+      },
+      "answer": "A",
+      "explanation": "34.3 defines \"ALARA (acronym for “as low as is reasonably achievable”)\".",
+      "source": {
+        "title": "eCFR: 10 CFR 34.3, Definitions (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-A/section-34.3"
+      },
+      "checked": "2026-11-06",
+      "evidence": "ALARA (acronym for “as low as is reasonably achievable”)"
+    },
+    {
+      "id": "lr-010",
+      "topic": "Applying for a specific license",
+      "question": "On what does 34.11 say a person may file an application for a specific license for use of sealed sources in industrial radiography?",
+      "options": {
+        "A": "An application to an independent certifying organization",
+        "B": "A written report to the Office of Nuclear Material Safety and Safeguards",
+        "C": "A notice to the appropriate NRC regional office under 34.101(c)",
+        "D": "NRC Form 313, “Application for Material License”"
+      },
+      "answer": "D",
+      "explanation": "A person \"may file an application for specific license for use of sealed sources in industrial radiography on NRC Form 313, “Application for Material License,”\".",
+      "source": {
+        "title": "eCFR: 10 CFR 34.11, Application for a specific license (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-B/section-34.11"
+      },
+      "checked": "2026-11-06",
+      "evidence": "may file an application for specific license for use of sealed sources in industrial radiography on NRC Form 313, “Application for Material License,”"
+    },
+    {
+      "id": "lr-011",
+      "topic": "Applying for a specific license",
+      "question": "Under 34.13(j), the applicant identifies and describes the location(s) of which facilities?",
+      "options": {
+        "A": "All certifying entities its radiographers have used",
+        "B": "All manufacturers of its radiographic exposure devices",
+        "C": "All field stations and permanent radiographic installations",
+        "D": "All customers it has served in the past year"
+      },
+      "answer": "C",
+      "explanation": "34.13(j): \"The applicant identifies and describes the location(s) of all field stations and permanent radiographic installations.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.13, Specific license for industrial radiography (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-B/section-34.13"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The applicant identifies and describes the location(s) of all field stations and permanent radiographic installations."
+    },
+    {
+      "id": "lr-012",
+      "topic": "Applying for a specific license",
+      "question": "An applicant intends to analyze its own wipe samples. Under 34.13(h), what must the application include?",
+      "options": {
+        "A": "A letter of approval from the sealed source manufacturer",
+        "B": "A description of the procedures to be followed",
+        "C": "Wipe sample results from another licensee's laboratory",
+        "D": "A certification of the analyst issued by a certifying entity"
+      },
+      "answer": "B",
+      "explanation": "34.13(h): \"If the applicant intends to analyze its own wipe samples, the application must include a description of the procedures to be followed.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.13, Specific license for industrial radiography (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-B/section-34.13"
+      },
+      "checked": "2026-11-06",
+      "evidence": "If the applicant intends to analyze its own wipe samples, the application must include a description of the procedures to be followed."
+    },
+    {
+      "id": "lr-013",
+      "topic": "Applying for a specific license",
+      "question": "Under 34.13(g), whose qualifications does the applicant identify and list?",
+      "options": {
+        "A": "Each customer at its temporary jobsites",
+        "B": "The individual(s) designated as the RSO and potential designees",
+        "C": "The examiners of the certifying entity",
+        "D": "The drivers of any common or contract carrier it uses"
+      },
+      "answer": "B",
+      "explanation": "34.13(g): \"The applicant identifies and lists the qualifications of the individual(s) designated as the RSO (§ 34.42) and potential designees\".",
+      "source": {
+        "title": "eCFR: 10 CFR 34.13, Specific license for industrial radiography (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-B/section-34.13"
+      },
+      "checked": "2026-11-06",
+      "evidence": "The applicant identifies and lists the qualifications of the individual(s) designated as the RSO (§ 34.42) and potential designees"
+    },
+    {
+      "id": "lr-014",
+      "topic": "License copies and form of records",
+      "question": "Under 34.61, until when does a licensee keep a copy of its license, license conditions, documents incorporated by reference, and their amendments?",
+      "options": {
+        "A": "For 6 months after each document is issued",
+        "B": "Until the next NRC inspection of the licensee",
+        "C": "Until the Radiation Safety Officer leaves the licensee",
+        "D": "Until superseded by new documents approved by the Commission, or until the Commission terminates the license"
+      },
+      "answer": "D",
+      "explanation": "The licensee keeps these items \"until superseded by new documents approved by the Commission, or until the Commission terminates the license.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.61, Records of the specific license for industrial radiography (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.61"
+      },
+      "checked": "2026-11-06",
+      "evidence": "until superseded by new documents approved by the Commission, or until the Commission terminates the license"
+    },
+    {
+      "id": "lr-015",
+      "topic": "License copies and form of records",
+      "question": "Under 34.87, a record may be a reproduced copy or a microform provided what?",
+      "options": {
+        "A": "The copy or microform is authenticated by authorized personnel and the microform is capable of reproducing a clear copy throughout the required retention period",
+        "B": "The copy or microform is kept at a permanent radiographic installation",
+        "C": "The copy or microform is sent to the NRC regional office each year",
+        "D": "The copy or microform is signed by the radiographer's assistant"
+      },
+      "answer": "A",
+      "explanation": "34.87 allows a copy or microform \"provided that the copy or microform is authenticated by authorized personnel and that the microform is capable of reproducing a clear copy throughout the required retention period.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.87, Form of records (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.87"
+      },
+      "checked": "2026-11-06",
+      "evidence": "provided that the copy or microform is authenticated by authorized personnel and that the microform is capable of reproducing a clear copy throughout the required retention period"
+    },
+    {
+      "id": "lr-016",
+      "topic": "Where documents and records are kept",
+      "question": "A crew is working at a temporary jobsite. Which of these does 34.89(b) list among the documents the licensee keeps copies of there?",
+      "options": {
+        "A": "The licensee's original application on NRC Form 313",
+        "B": "Records of receipt and transfer of sealed sources under 34.63",
+        "C": "Training and certification records under 34.79",
+        "D": "A copy of 10 CFR parts 19, 20, and 34 of NRC regulations"
+      },
+      "answer": "D",
+      "explanation": "34.89(b) lists documents kept \"at each applicable field station and each temporary jobsite,\" including \"A copy of 10 CFR parts 19, 20, and 34 of NRC regulations\".",
+      "source": {
+        "title": "eCFR: 10 CFR 34.89, Location of documents and records (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.89"
+      },
+      "checked": "2026-11-06",
+      "evidence": "A copy of 10 CFR parts 19, 20, and 34 of NRC regulations;"
+    },
+    {
+      "id": "lr-017",
+      "topic": "Where documents and records are kept",
+      "question": "When a licensee operates under reciprocity pursuant to 150.20, what does 34.89(b) add to the documents kept at each applicable field station and temporary jobsite?",
+      "options": {
+        "A": "A copy of the Agreement State's own radiography regulations",
+        "B": "A letter from the NRC regional office approving the work",
+        "C": "A copy of the Agreement State license authorizing the use of licensed materials",
+        "D": "A list of the Agreement State's certifying entities"
+      },
+      "answer": "C",
+      "explanation": "34.89(b)(12): \"When operating under reciprocity pursuant to § 150.20 of this chapter, a copy of the Agreement State license authorizing the use of licensed materials.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.89, Location of documents and records (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-E/section-34.89"
+      },
+      "checked": "2026-11-06",
+      "evidence": "When operating under reciprocity pursuant to § 150.20 of this chapter, a copy of the Agreement State license authorizing the use of licensed materials."
+    },
+    {
+      "id": "lr-018",
+      "topic": "Notifications",
+      "question": "Which incident involving radiographic equipment does 34.101(a) list as one requiring a written report to the NRC's Office of Nuclear Material Safety and Safeguards?",
+      "options": {
+        "A": "A scheduled replacement of a sealed source using a source changer",
+        "B": "Unintentional disconnection of the source assembly from the control cable",
+        "C": "A routine calibration of a radiation survey instrument",
+        "D": "A transfer of an exposure device to another licensee"
+      },
+      "answer": "B",
+      "explanation": "One listed incident is \"Unintentional disconnection of the source assembly from the control cable\".",
+      "source": {
+        "title": "eCFR: 10 CFR 34.101, Notifications (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-F/section-34.101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Unintentional disconnection of the source assembly from the control cable;"
+    },
+    {
+      "id": "lr-019",
+      "topic": "Notifications",
+      "question": "Which item does 34.101(b) say the licensee shall include in each report submitted under 34.101(a)?",
+      "options": {
+        "A": "Qualifications of personnel involved in the incident",
+        "B": "Home addresses of the personnel involved",
+        "C": "Photographs of the jobsite",
+        "D": "A copy of the licensee's training program"
+      },
+      "answer": "A",
+      "explanation": "34.101(b) lists the information for each report, including \"Qualifications of personnel involved in the incident.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.101, Notifications (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-F/section-34.101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "Qualifications of personnel involved in the incident."
+    },
+    {
+      "id": "lr-020",
+      "topic": "Notifications",
+      "question": "A licensee is storing radioactive material at a location not listed on its license. Under 34.101(c), when must it notify the appropriate NRC regional office?",
+      "options": {
+        "A": "Within 30 days after exceeding 180 days in a calendar year",
+        "B": "Prior to exceeding 90 days in a calendar year at that location",
+        "C": "Prior to exceeding 180 days in a calendar year at that location",
+        "D": "Only when the license is renewed"
+      },
+      "answer": "C",
+      "explanation": "34.101(c) applies to a licensee at an unlisted location \"for a period in excess of 180 days in a calendar year\" and requires notice \"prior to exceeding the 180 days.\"",
+      "source": {
+        "title": "eCFR: 10 CFR 34.101, Notifications (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-34/subpart-F/section-34.101"
+      },
+      "checked": "2026-11-06",
+      "evidence": "shall notify the appropriate NRC regional office listed in § 30.6(b)(2) of this chapter prior to exceeding the 180 days"
+    }
+  ]
+}
