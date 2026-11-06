@@ -134,15 +134,15 @@
     {
       "id": "zp-008",
       "topic": "General requirements and the placard tables",
-      "question": "Which Class 7 entry appears in Table 1 of 172.504(e)?",
+      "question": "Besides packages bearing the Radioactive Yellow III label, which shipment does the footnote to the Class 7 row of Table 1 in 172.504(e) say also requires RADIOACTIVE placards?",
       "options": {
-        "A": "Class 7 (Radioactive White I label only)",
-        "B": "Class 7 (Radioactive Yellow II label only)",
-        "C": "Class 7 (Radioactive Yellow III label only)",
-        "D": "Class 7 (any radioactive material in any package)"
+        "A": "Every Class 7 package carried by a private carrier",
+        "B": "Every Class 7 package loaded together with Class 9 material",
+        "C": "All shipments of unpackaged LSA-I material or SCO-I",
+        "D": "Every Class 7 package loaded at a carrier's terminal"
       },
       "answer": "C",
-      "explanation": "The Class 7 row of Table 1 reads \"7 (Radioactive Yellow III label only)\"; a footnote adds certain other shipments that also require RADIOACTIVE placards.",
+      "explanation": "The footnote reads: \"RADIOACTIVE placards are also required for: All shipments of unpackaged LSA-I material or SCO-I;\" along with certain exclusive use shipments and closed vehicles used under 173.443(d).",
       "source": {
         "title": "eCFR: 49 CFR 172.504, General placarding requirements (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-F/section-172.504"
@@ -206,15 +206,15 @@
     {
       "id": "zp-012",
       "topic": "DANGEROUS placard and other substitutions",
-      "question": "A transport vehicle carrying mixed non-bulk Table 2 materials is placarded DANGEROUS. Under 172.504(b), what makes the Table 2 placard for one category of material required on it?",
+      "question": "Which transport vehicle may omit OXIDIZER placards for the Division 5.1 materials it carries under 172.504(f)(4)?",
       "options": {
-        "A": "1,000 kg (2,205 pounds) aggregate gross weight or more of that category loaded at one loading facility",
-        "B": "454 kg (1,001 pounds) of that category loaded anywhere during the trip",
-        "C": "Any quantity of that category",
-        "D": "That category making up more than half of the load's weight"
+        "A": "One that also contains Division 1.2 materials and is placarded with EXPLOSIVES 1.2 placards, as required",
+        "B": "One that also contains Class 3 materials and is placarded FLAMMABLE",
+        "C": "One that also contains Division 1.4 materials and is placarded EXPLOSIVES 1.4",
+        "D": "One that also contains Class 8 materials and is placarded CORROSIVE"
       },
       "answer": "A",
-      "explanation": "\"However, when 1,000 kg (2,205 pounds) aggregate gross weight or more of one category of material is loaded therein at one loading facility ... the placard specified in table 2 ... for that category must be applied.\"",
+      "explanation": "\"OXIDIZER placards are not required for Division 5.1 materials on freight containers, unit load devices, transport vehicles or rail cars which also contain Division 1.1 or 1.2 materials and which are placarded with EXPLOSIVES 1.1 or 1.2 placards, as required.\"",
       "source": {
         "title": "eCFR: 49 CFR 172.504, General placarding requirements (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-F/section-172.504"

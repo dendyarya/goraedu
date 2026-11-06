@@ -62,15 +62,15 @@
     {
       "id": "zd-004",
       "topic": "Attending vehicles",
-      "question": "Which situation meets the 397.5(d)(1) definition of an attended motor vehicle?",
+      "question": "Under 397.5(b)(1), which location counts toward the attendance exception only for a vehicle containing 50 pounds or less of Division 1.1, 1.2 or 1.3 material?",
       "options": {
-        "A": "The person in charge is asleep in the sleeper berth",
-        "B": "The person in charge is 80 feet from the vehicle and has it within an unobstructed field of view",
-        "C": "The person in charge is 50 feet away inside a building, with the vehicle out of sight",
-        "D": "The person in charge is 150 feet away with a clear view of the vehicle"
+        "A": "The property of a motor carrier",
+        "B": "A construction or survey site",
+        "C": "A safe haven",
+        "D": "The property of a shipper or consignee of the explosives"
       },
       "answer": "B",
-      "explanation": "\"A motor vehicle is attended when the person in charge of the vehicle is on the vehicle, awake, and not in a sleeper berth, or is within 100 feet of the vehicle and has it within his/her unobstructed field of view.\"",
+      "explanation": "The vehicle must be located \"on the property of a motor carrier, on the property of a shipper or consignee of the explosives, in a safe haven, or, in the case of a vehicle containing 50 pounds or less of a Division 1.1, 1.2, or 1.3 material, on a construction or survey site\". The other conditions in 397.5(b) must also exist.",
       "source": {
         "title": "eCFR: 49 CFR 397.5, Attendance and surveillance of motor vehicles (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-397/subpart-A/section-397.5"
@@ -116,15 +116,15 @@
     {
       "id": "zd-007",
       "topic": "Parking, fires, smoking and fueling",
-      "question": "A vehicle contains Class 8 material and no Division 1.1, 1.2 or 1.3 material. Under 397.7(b), when may it be parked on or within five feet of the traveled portion of a public street or highway?",
+      "question": "397.7(a) lists three parking prohibitions for a vehicle containing Division 1.1, 1.2 or 1.3 materials. Which one carries the exception for brief periods when the necessities of operation require the vehicle to be parked?",
       "options": {
-        "A": "For brief periods when the necessities of operation require it to be parked there and make it impracticable to park it in any other place",
-        "B": "Whenever the driver stays on the vehicle and awake",
-        "C": "Whenever warning devices have been placed around the vehicle",
-        "D": "Whenever it is at least 300 feet from a bridge or tunnel"
+        "A": "Parking within 300 feet of a bridge, tunnel, dwelling, or place where people work, congregate, or assemble",
+        "B": "Parking on or within 5 feet of the traveled portion of a public street or highway",
+        "C": "Parking on private property without the knowledge and consent of the person in charge of the property",
+        "D": "Parking at an eating facility with the consent of a person in charge who knows what the vehicle contains"
       },
       "answer": "A",
-      "explanation": "Such a vehicle must not be parked there \"except for brief periods when the necessities of operation require the vehicle to be parked and make it impracticable to park the vehicle in any other place.\"",
+      "explanation": "Paragraph (a)(3) reads \"Within 300 feet of a bridge, tunnel, dwelling, or place where people work, congregate, or assemble, except for brief periods when the necessities of operation require the vehicle to be parked and make it impracticable to park the vehicle in any other place.\" Paragraphs (a)(1) and (a)(2) carry no such exception.",
       "source": {
         "title": "eCFR: 49 CFR 397.7, Parking (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-397/subpart-A/section-397.7"
@@ -134,18 +134,18 @@
     {
       "id": "zd-008",
       "topic": "Parking, fires, smoking and fueling",
-      "question": "Under 397.11(a), what must a driver do before operating a vehicle containing hazardous materials near an open fire?",
+      "question": "Which pair of conditions does 397.15 set while a motor vehicle that contains hazardous materials is being fueled?",
       "options": {
-        "A": "Notify the local fire department",
-        "B": "Wait until the fire is at least 300 feet from the road",
-        "C": "Take precautions to ascertain that the vehicle can safely pass the fire without stopping",
-        "D": "Get permission from the motor carrier's dispatcher"
+        "A": "The engine may idle, and the driver must stay in the cab",
+        "B": "The engine must be off, and the cargo doors must be open",
+        "C": "Its engine must not be operating, and a person must be in control of the fueling process at the point where the fuel tank is filled",
+        "D": "The engine must be off, and the driver must be within 100 feet of the vehicle"
       },
       "answer": "C",
-      "explanation": "The vehicle \"must not be operated near an open fire unless its driver has first taken precautions to ascertain that the vehicle can safely pass the fire without stopping.\"",
+      "explanation": "\"When a motor vehicle which contains hazardous materials is being fueled— (a) Its engine must not be operating; and (b) A person must be in control of the fueling process at the point where the fuel tank is filled.\"",
       "source": {
-        "title": "eCFR: 49 CFR 397.11, Fires (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-397/subpart-A/section-397.11"
+        "title": "eCFR: 49 CFR 397.15, Fueling (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-397/subpart-A/section-397.15"
       },
       "checked": "2026-11-06"
     },
@@ -170,15 +170,15 @@
     {
       "id": "zd-010",
       "topic": "Tires, instructions and documents",
-      "question": "Under 397.17(a), when must a driver examine each tire on a motor vehicle?",
+      "question": "A driver stops to examine the tires as 397.17 requires. What does 397.17(d) say about the attendance and parking rules?",
       "options": {
-        "A": "At the beginning of each trip and each time the vehicle is parked",
-        "B": "Every 2 hours or 100 miles of driving, whichever comes first",
-        "C": "Only at the start of each duty day",
-        "D": "Once every 24 hours of operation"
+        "A": "Compliance with the tire rules does not relieve the driver from the duty to comply with the rules in 397.5 and 397.7",
+        "B": "The attendance rules are suspended while the tires are being examined",
+        "C": "The vehicle may be parked anywhere while the tires are being examined",
+        "D": "A tire examination counts as one of the brief periods that allow parking on the traveled portion of the highway"
       },
       "answer": "A",
-      "explanation": "\"A driver must examine each tire on a motor vehicle at the beginning of each trip and each time the vehicle is parked.\"",
+      "explanation": "\"Compliance with the rules in this section does not relieve a driver from the duty to comply with the rules in §§ 397.5 and 397.7.\"",
       "source": {
         "title": "eCFR: 49 CFR 397.17, Tires (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-397/subpart-A/section-397.17"
@@ -188,18 +188,18 @@
     {
       "id": "zd-011",
       "topic": "Tires, instructions and documents",
-      "question": "A driver finds that a tire is overheated. What does 397.17(c) require?",
+      "question": "A motor carrier hauling Division 1.1 materials furnishes the driver with instructions on procedures to be followed in the event of accident or delay. What does 397.19(a)(3) say those documents must include?",
       "options": {
-        "A": "Drive to the nearest safe place, then let the tire cool before continuing",
-        "B": "Immediately cause the tire to be removed and placed at a safe distance from the vehicle, and not operate the vehicle until the cause of the overheating is corrected",
-        "C": "Reduce speed and check the tire again at the next stop",
-        "D": "Report the tire to the motor carrier and continue to the destination"
+        "A": "The driver's medical certificate number",
+        "B": "The names and telephone numbers of persons to be contacted, the nature of the explosives being transported, and the precautions to be taken in emergencies such as fires, accidents, or leakages",
+        "C": "A list of every safe haven in the United States",
+        "D": "The shipper's insurance policy number"
       },
       "answer": "B",
-      "explanation": "\"The driver shall immediately cause the overheated tire to be removed and placed at a safe distance from the vehicle. The driver shall not operate the vehicle until the cause of the overheating is corrected.\" The drive to \"the nearest safe place\" in 397.17(b) is for flat, leaking or improperly inflated tires.",
+      "explanation": "\"The documents must include the names and telephone numbers of persons (including representatives of carriers or shippers) to be contacted, the nature of the explosives being transported, and the precautions to be taken in emergencies such as fires, accidents, or leakages.\"",
       "source": {
-        "title": "eCFR: 49 CFR 397.17, Tires (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-397/subpart-A/section-397.17"
+        "title": "eCFR: 49 CFR 397.19, Instructions and documents (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-397/subpart-A/section-397.19"
       },
       "checked": "2026-11-06"
     },
@@ -278,18 +278,18 @@
     {
       "id": "zd-016",
       "topic": "Who must be trained",
-      "question": "How does the 171.8 definition of hazmat employee treat a self-employed owner-operator of a motor vehicle?",
+      "question": "Under 172.702(c), who may provide the training that a hazmat employee needs under Subpart H?",
       "options": {
-        "A": "It excludes them; only persons employed by a hazmat employer are hazmat employees",
-        "B": "It includes them when they transport hazardous materials in commerce and, in the course of that self-employment, directly affect hazardous materials transportation safety",
-        "C": "It includes them only if they hold a hazardous materials endorsement",
-        "D": "It includes them only if they employ at least one other driver"
+        "A": "Only a training provider approved by PHMSA",
+        "B": "The hazmat employer or other public or private sources",
+        "C": "Only the State that issued the driver's CDL",
+        "D": "Only the hazmat employer itself"
       },
       "answer": "B",
-      "explanation": "A hazmat employee includes a person who is \"Self-employed (including an owner-operator of a motor vehicle, vessel, or aircraft) transporting hazardous materials in commerce who in the course of such self-employment directly affects hazardous materials transportation safety\".",
+      "explanation": "\"Training may be provided by the hazmat employer or other public or private sources.\" The employer must still ensure each hazmat employee \"is trained in accordance with the requirements prescribed in this subpart.\"",
       "source": {
-        "title": "eCFR: 49 CFR 171.8, Definitions and abbreviations (as of Nov 4, 2026)",
-        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-171/subpart-A/section-171.8"
+        "title": "eCFR: 49 CFR 172.702, Applicability and responsibility for training and testing (as of Nov 4, 2026)",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-H/section-172.702"
       },
       "checked": "2026-11-06"
     },
@@ -314,15 +314,15 @@
     {
       "id": "zd-018",
       "topic": "Training content, timing and records",
-      "question": "Under 172.704(c)(1), a new hazmat employee may perform hazmat functions before completing training if the training is completed within 90 days after employment and which other condition is met?",
+      "question": "A hazmat employer already gives its drivers hazard communication training required by OSHA under 29 CFR 1910.1200. Under 172.704(b), how may that training be used for the hazmat training requirements?",
       "options": {
-        "A": "The employee has read the carrier's safety manual",
-        "B": "The employee holds a hazardous materials endorsement",
-        "C": "The employer has notified FMCSA of the new hire",
-        "D": "The employee performs those functions under the direct supervision of a properly trained and knowledgeable hazmat employee"
+        "A": "It fully replaces all hazmat training",
+        "B": "It cannot be used at all",
+        "C": "Only if it was given within the past 12 months",
+        "D": "To satisfy the training requirements in 172.704(a) to the extent that it addresses the training components specified there"
       },
       "answer": "D",
-      "explanation": "The employee may perform those functions provided \"The employee performs those functions under the direct supervision of a properly trained and knowledgeable hazmat employee\" and \"The training is completed within 90 days after employment or a change in job function.\"",
+      "explanation": "Such OSHA training \"may be used to satisfy the training requirements in paragraph (a) of this section to the extent that such training addresses the training components specified in paragraph (a) of this section.\"",
       "source": {
         "title": "eCFR: 49 CFR 172.704, Training requirements (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-H/section-172.704"
