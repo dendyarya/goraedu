@@ -91,10 +91,11 @@ export default function OshaCranePage() {
             <p className="mt-2">
               Everything here comes from the current eCFR text of eight sections of 29 CFR 1926 Subpart CC (1926.1401,
               1408, 1412, 1417, 1419, 1424, 1427 and 1431). Other sections of Subpart CC, such as assembly, ground
-              conditions, signal person and rigger qualification, are not covered yet. Operator certification comes from
-              an accredited testing organization or an audited employer program under 1926.1427, and certification exams
-              use their own content, which we do not use. These pages help you study the rule; they are not a course.
-              Your State may run its own OSHA-approved plan with its own rules, so check them too. {c.independence}
+              conditions, signal person and rigger qualification, are not covered yet. Under 1926.1427, an operator is
+              licensed by a State or local government where that applies, or otherwise certified by an accredited crane
+              operator testing organization or through an audited employer program. Certification exams use their own
+              content, which we do not use. These pages help you study the rule; they are not a course. Your State may
+              run its own OSHA-approved plan with its own rules, so check them too. {c.independence}
             </p>
           </div>
 
