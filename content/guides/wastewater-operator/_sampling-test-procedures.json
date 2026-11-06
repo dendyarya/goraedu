@@ -4,7 +4,7 @@
   "href": "/wastewater-operator/sampling-test-procedures/study-guide/",
   "title": "Wastewater sampling and test procedures study guide",
   "description": "Study guide to 40 CFR 136.1-136.3: when Part 136 methods apply, alternate procedures, Table II containers, preservation and holding times.",
-  "intro": "40 CFR Part 136 sets the test procedures that must be used when pollutants are measured for NPDES applications and reports, State section 401 certifications, and sewage sludge permits and Part 503 records. This guide sets out what sections 136.1, 136.2 and 136.3 state on applicability and definitions, approved and alternate test procedures, Table II (required containers, preservation techniques and holding times) and its footnotes on grab and composite samples, when holding time begins, and requests for limited use changes. Many rules carry \"except\", \"unless specified otherwise\" or \"under certain circumstances\" conditions. Your State program and your facility's permit may have their own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
+  "intro": "40 CFR Part 136 sets the test procedures that, except as noted in sections 136.4, 136.5 and 136.6, must be used when the specified waste constituents are required to be measured for NPDES applications and reports, State section 401 certifications, and sewage sludge permits and Part 503 records. This guide sets out what sections 136.1, 136.2 and 136.3 state on applicability and definitions, approved and alternate test procedures, Table II (required containers, preservation techniques and holding times) and its footnotes on grab and composite samples, when holding time begins, and requests for limited use changes. Many rules carry \"except\", \"unless specified otherwise\" or \"under certain circumstances\" conditions. Your State program and your facility's permit may have their own requirements, so check them too. Every point links to the regulation and quotes its exact words.",
   "topics": [
     {
       "id": "applicability-definitions",
@@ -125,8 +125,8 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The date after a method number shows the latest editorial change of the method.",
-          "quote": "The date after the method number indicates the latest editorial change of the method.",
+          "text": "Discharge parameter values for which reports are required must be determined by one of the standard test procedures described in Tables IA to IH, or by an alternate test procedure approved by the Administrator under 136.3(d) and 136.4 and 136.5 (one of the options).",
+          "quote": "The discharge parameter values for which reports are required must be determined by one of the standard analytical test procedures incorporated by reference and described in Tables IA, IB, IC, ID, IE, IF, IG, and IH or by any alternate test",
           "source": {
             "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
             "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-136/section-136.3"
@@ -161,7 +161,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The method tables IA to IH, their notes, and the material incorporated by reference in 136.3(b) are not set out here. Sections 136.4 to 136.6 (alternate test procedure applications and method modifications) are outside this set. Your State program and your facility's permit may have their own requirements, so check them too."
+      "notCovered": "The method tables IA to IH, their notes, and the material incorporated by reference in 136.3(b) are not set out here. Sections 136.4, 136.5 and 136.6 are outside this set. Your State program and your facility's permit may have their own requirements, so check them too."
     },
     {
       "id": "table-ii-changes",
@@ -222,7 +222,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "A decision on a request to deviate from the Table II requirements will be made within 90 days of receipt of the application by the Regional Administrator.",
+          "text": "A decision to approve or deny a request on deviations from the prescribed Table II requirements will be made within 90 days of receipt of the application by the Regional Administrator.",
           "quote": "requirements will be made within 90 days of receipt of the application by the Regional Administrator.",
           "source": {
             "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
@@ -310,7 +310,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "As an alternative, grab samples may be collected in the field and composited in the laboratory if the result equals arithmetic averaging of the individual grab sample results.",
+          "text": "Alternatively, grab samples may be collected in the field and composited in the laboratory if the compositing procedure produces results equivalent to arithmetic averaging of the individual grab sample results.",
           "quote": "Alternatively, grab samples may be collected in the field and composited in the laboratory if the compositing procedure produces results equivalent to results produced by arithmetic averaging of results of analysis of individual grab samples.",
           "source": {
             "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
@@ -328,7 +328,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Aqueous samples must be preserved at ≤6 °C and should not be frozen unless data showing freezing does not harm sample integrity is kept on file and accepted as valid by the regulatory authority.",
+          "text": "Footnote 18 to Table II states that aqueous samples must be preserved at ≤6 °C and should not be frozen unless data showing freezing does not adversely impact sample integrity is maintained on file and accepted as valid by the regulatory authority.",
           "quote": "Aqueous samples must be preserved at ≤6 °C, and should not be frozen unless data demonstrating that sample freezing does not adversely impact sample integrity is maintained on file and accepted as valid by the regulatory authority.",
           "source": {
             "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
@@ -337,7 +337,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The preservation temperature does not apply to samples analyzed immediately (less than 15 minutes).",
+          "text": "Under footnote 18, the preservation temperature does not apply to samples analyzed immediately (less than 15 minutes).",
           "quote": "The preservation temperature does not apply to samples that are analyzed immediately (less than 15 minutes).",
           "source": {
             "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
@@ -346,7 +346,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "Table II lists the Winkler dissolved oxygen sample in glass (bottle and top), fixed on site and stored in the dark.",
+          "text": "The Table II row \"47. Winkler\" (listed after the dissolved oxygen probe row) gives a glass bottle and top as the container and \"Fix on site and store in dark\" as the preservation.",
           "quote": "47. Winkler G, Bottle and top Fix on site and store in dark",
           "source": {
             "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
@@ -485,7 +485,7 @@
           "checked": "2026-11-06"
         },
         {
-          "text": "The acid must then be added at least 24 hours before analysis, and immediately if the sample must be analyzed within 24 hours of collection.",
+          "text": "However, the acid must be added at least 24 hours before analysis, and if the sample must be analyzed within 24 hours of collection, the acid is added immediately.",
           "quote": "added at least 24 hours before analysis to dissolve any metals that adsorb to the container walls. If the sample must be analyzed within 24 hours of collection, add the acid immediately (see footnote 2).",
           "source": {
             "title": "eCFR: 40 CFR 136.3, Identification of test procedures (as of Nov 4, 2026)",
@@ -530,7 +530,7 @@
           "checked": "2026-11-06"
         }
       ],
-      "notCovered": "The footnotes for organic compounds (8 to 15), cyanide (5 and 6) and hexavalent chromium (20) are not covered point by point."
+      "notCovered": "The footnotes for organic compounds (8 to 15), oxidants and cyanide (5 and 6) and hexavalent chromium (20) are not covered point by point."
     }
   ]
 }
