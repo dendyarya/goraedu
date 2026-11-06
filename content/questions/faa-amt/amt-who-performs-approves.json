@@ -80,15 +80,15 @@
     {
       "id": "vd-005",
       "topic": "Who may perform maintenance",
-      "question": "An airline holding an operating certificate issued under Part 121 maintains its own aircraft. Under 43.3(f), as provided where may it perform maintenance, preventive maintenance, and alterations?",
+      "question": "A certificated mechanic lets an uncertificated helper do work the mechanic is authorized to perform. Under 43.3(d), how must the mechanic supervise that work?",
       "options": {
-        "A": "Only as provided in Part 61 for pilots",
-        "B": "Only under the supervision of an inspection authorization holder",
-        "C": "As provided in Part 121 or 135",
-        "D": "Only on aircraft it manufactured under a type certificate"
+        "A": "By checking the finished work and signing for it at the end of the day",
+        "B": "By being reachable by telephone while the helper works",
+        "C": "By personally observing the work to the extent necessary to ensure it is being done properly, and being readily available, in person, for consultation",
+        "D": "By giving the helper written instructions before the work starts"
       },
       "answer": "C",
-      "explanation": "43.3(f) says the holder of an air carrier operating certificate or an operating certificate issued under Part 121 or 135 \"may perform maintenance, preventive maintenance, and alterations as provided in Part 121 or 135.\"",
+      "explanation": "43.3(d) applies \"if the supervisor personally observes the work being done to the extent necessary to ensure that it is being done properly and if the supervisor is readily available, in person, for consultation.\"",
       "source": {
         "title": "eCFR: 14 CFR 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations (as of Nov 4, 2026)",
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/section-43.3"
@@ -98,12 +98,12 @@
     {
       "id": "vd-006",
       "topic": "Who may perform maintenance",
-      "question": "Under 43.3(a), what is the only basis on which a person may maintain, rebuild, alter, or perform preventive maintenance on an aircraft to which Part 43 applies?",
+      "question": "Under 43.3(a), on what basis may a person maintain, rebuild, alter, or perform preventive maintenance on an aircraft to which Part 43 applies?",
       "options": {
-        "A": "As provided in 43.3 and § 43.17",
-        "B": "Any person who owns the aircraft",
-        "C": "Any person who has the manufacturer's maintenance manual",
-        "D": "Only FAA employees"
+        "A": "Only as provided in 43.3 and § 43.17",
+        "B": "Ownership of the aircraft",
+        "C": "Possession of the manufacturer's maintenance manual",
+        "D": "Employment by the FAA"
       },
       "answer": "A",
       "explanation": "43.3(a) states: \"Except as provided in this section and § 43.17, no person may maintain, rebuild, alter, or perform preventive maintenance\" on such an aircraft.",
@@ -260,12 +260,12 @@
     {
       "id": "vd-015",
       "topic": "Conditions for return to service",
-      "question": "Under 43.5(a), which maintenance record entry must have been made before an aircraft that has undergone maintenance is approved for return to service?",
+      "question": "A mechanic has finished a repair on an engine. Under 43.5(a), what must already have been done before anyone approves the engine for return to service?",
       "options": {
-        "A": "The entry required by § 43.2 only",
-        "B": "The entry required by § 43.13 only",
-        "C": "An entry in the pilot's logbook",
-        "D": "The entry required by § 43.9 or § 43.11, as appropriate"
+        "A": "The aircraft owner has signed the work order",
+        "B": "The engine has been run for one hour of flight time",
+        "C": "The local FAA office has been notified",
+        "D": "The maintenance record entry required by § 43.9 or § 43.11, as appropriate, has been made"
       },
       "answer": "D",
       "explanation": "No person may approve for return to service unless \"The maintenance record entry required by § 43.9 or § 43.11, as appropriate, has been made.\"",
