@@ -65,11 +65,13 @@ Use the topic name exactly as `lib/clusters.ts` shows it. Example query:
 - Pick topics from the owner's keyword list in `docs/news-keywords.md` (mapped keywords only): take the keywords whose
   topic has the fewest explainers so far (count `kind: explainer` per `topic` in `content/news/`), never two posts on
   the same topic in one run and never more than two on one topic in a day. Use the keyword's topic, hub page and
-  official sources from that file; keywords marked "not on the roadmap" are never published. Choose one practical question per post that no existing post or page answers
+  official sources from that file, including its extra rules for planned clusters (state licenses, ASE, AWS,
+  NABCEP). Choose one practical question per post that no existing post or page answers
   (check `content/news/`, the cluster's study guides and tools). Good shapes: "Do I need X to do Y?", "What happens
   when...", "How long is X valid", "What records must I keep for X" — answered from the official text.
 - Sources: eCFR (fetch the section from the eCFR API), the agency's own pages (epa.gov, osha.gov, faa.gov, fmcsa.dot.gov,
-  nrc.gov), the Federal Register. Quote the key words exactly in quotation marks, with the section named, and list every
+  nrc.gov), the Federal Register; for planned clusters also a state licensing board's own .gov site or the certifying
+  body's own site for its own program (rules in `docs/news-keywords.md`). Quote the key words exactly in quotation marks, with the section named, and list every
   source in front matter. Link our matching practice test or study guide (internal links only to pages that exist).
 - 500–900 words, plain English, headings that answer questions. Never copy or paraphrase exam questions, prep courses,
   training manuals or other sites. Never claim expertise, endorsement or affiliation. No dollar penalty amounts.

@@ -20,13 +20,30 @@ paragraph when it fits the question; never stuff it.
 | Wastewater Operator Certification       | Wastewater operator          | `/wastewater-operator/`   | eCFR 40 CFR 133, 403, 503; epa.gov                    |
 | FAA Part 107 Remote Pilot Certification | FAA Part 107                 | `/faa-107/`               | eCFR 14 CFR 107, 89, 48; faa.gov                      |
 
+## Keywords for planned clusters (from 2026-11-07)
+
+These clusters are on the roadmap as `planned` (no hub page yet). Extra rules for their posts:
+
+- Internal links go only to `/certifications/` and to existing pages that the post really relates to (for example
+  `/osha/` or `/osha-general-industry/` for an OSHA electrical or welding rule). Never link to a hub that does not exist.
+- Licensing is set by each state (or city): a post about a license names the state in the title and first paragraph,
+  uses only that state's own licensing board or agency site (.gov), and never says the rule applies in other states.
+- ASE, AWS and NABCEP are private certifying bodies: use only their own pages, and only for facts about their own
+  program (eligibility, test or recertification rules, validity). Never their marketing (pass rates, pay, "most in
+  demand"), never their practice questions or study material, and say plainly that they are not government agencies.
+- Federal angles (OSHA electrical and welding subparts, EPA lead-free plumbing) use eCFR as usual.
+- www.ase.com, www.aws.org, www.nabcep.org and state board sites refuse the shell; read them with the web-fetch agent,
+  using a URL that came from a WebSearch result. If a page cannot be read, skip the post and log it.
+
+| keyword                      | post `topic`                 | links                                                     | official sources (only these)                                                 |
+| ---------------------------- | ---------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| ASE Automotive Certification | ASE automotive certification | `/certifications/`; `/epa-609/` if about MVAC             | ase.com (ASE's own program)                                                   |
+| Electrician Licensing        | Electrician licensing        | `/certifications/`; `/osha/`, `/osha-general-industry/`   | state electrical board (.gov); eCFR 29 CFR 1910 Subpart S, 1926 Subpart K     |
+| Plumbing Licensing           | Plumbing licensing           | `/certifications/`; `/water-operator/` if lead-free rules | state plumbing board (.gov); eCFR 40 CFR 143 Subpart B; epa.gov               |
+| Welding Certification        | Welding certification        | `/certifications/`; `/osha/`, `/osha-general-industry/`   | aws.org (AWS's own program); eCFR 29 CFR 1910 Subpart Q, 1926 Subpart J       |
+| Solar PV Certification       | Solar PV certification       | `/certifications/`; `/osha/`, `/osha-general-industry/`   | nabcep.org (NABCEP's own program); eCFR 29 CFR 1910 Subpart S, 1926 Subpart K |
+| Home Inspector Certification | Home inspector licensing     | `/certifications/`                                        | state home inspector board (.gov)                                             |
+
 Other roadmap clusters (Lead-safe renovator (RRP), Asbestos, Pesticide applicator, Industrial radiography, OSHA crane
 operator, FAA A&P mechanic) are not on the owner's list; use them only when every listed keyword already has an
 explainer that day.
-
-## Keywords not on the roadmap (do not publish yet)
-
-ASE Automotive Certification, Electrician Licensing, Solar PV Certification, Plumbing Licensing, Welding Certification,
-Home Inspector Certification. goraedu has no cluster, hub page or official-source plan for these (most are state
-licenses or private certifications), so a post would have nothing to link to and no agreed official source. They wait
-until the owner adds each one to `lib/clusters.ts` with its official source; then add a row above.

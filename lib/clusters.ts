@@ -61,6 +61,14 @@ export const FAMILIES: Family[] = [
         status: "available",
         href: "/forklift/",
       },
+      {
+        id: "ase",
+        name: "ASE automotive certification",
+        summary:
+          "Certification tests for automotive service professionals, run by ASE (a private, non-government body).",
+        source: "ASE's own certification program (ase.com)",
+        status: "planned",
+      },
     ],
   },
   {
@@ -136,6 +144,45 @@ export const FAMILIES: Family[] = [
         source: "OSHA 29 CFR 1926.1101; EPA 40 CFR Part 763 Subpart E",
         status: "available",
         href: "/asbestos/",
+      },
+      {
+        id: "electrician",
+        name: "Electrician licensing",
+        summary:
+          "Electrician licenses are issued at the state or local level; federal OSHA electrical rules apply on the job.",
+        source: "State electrical licensing boards (.gov); OSHA 29 CFR 1910 Subpart S and 1926 Subpart K",
+        status: "planned",
+      },
+      {
+        id: "plumbing",
+        name: "Plumbing licensing",
+        summary:
+          "Plumber licenses are issued at the state or local level; federal EPA lead-free rules cover drinking water plumbing.",
+        source: "State plumbing licensing boards (.gov); EPA 40 CFR Part 143 Subpart B",
+        status: "planned",
+      },
+      {
+        id: "welding",
+        name: "Welding certification",
+        summary:
+          "Welder certification from AWS (a private, non-government body); federal OSHA welding rules apply on the job.",
+        source: "AWS's own certification program (aws.org); OSHA 29 CFR 1910 Subpart Q and 1926 Subpart J",
+        status: "planned",
+      },
+      {
+        id: "solar-pv",
+        name: "Solar PV certification",
+        summary:
+          "Solar PV certifications from NABCEP (a private, non-government body); federal OSHA electrical rules apply on the job.",
+        source: "NABCEP's own certification program (nabcep.org); OSHA 29 CFR 1910 Subpart S and 1926 Subpart K",
+        status: "planned",
+      },
+      {
+        id: "home-inspector",
+        name: "Home inspector licensing",
+        summary: "Home inspector licenses and registrations are set by each state that regulates the work.",
+        source: "State home inspector licensing boards (.gov)",
+        status: "planned",
       },
     ],
   },
