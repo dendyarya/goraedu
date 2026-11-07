@@ -6,24 +6,6 @@
   "href": "/epa-608/type-3/practice-test/",
   "questions": [
     {
-      "id": "t3-001",
-      "topic": "Low-pressure basics",
-      "question": "The rule on pressurizing low-pressure appliances sorts refrigerants by whether they boil at or below 85 °F. At what pressure is that boiling point taken?",
-      "options": {
-        "A": "29.9 inches of mercury (standard atmospheric pressure)",
-        "B": "45 psia",
-        "C": "25 mm Hg absolute",
-        "D": "355 psia"
-      },
-      "answer": "A",
-      "explanation": "The rule refers to refrigerants \"with boiling points at or below 85 degrees Fahrenheit at 29.9 inches of mercury (standard atmospheric pressure).\" The 45 and 355 psia figures come from the pressure-class definitions, and 25 mm Hg absolute is the Table 1 level for low-pressure appliances.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
-      },
-      "checked": "2026-11-05"
-    },
-    {
       "id": "t3-002",
       "topic": "Low-pressure basics",
       "question": "A chiller uses a refrigerant with a liquid phase saturation pressure of 15 psia at 104 °F. Which technician certification type does 40 CFR 82.161 require to service it?",
@@ -56,42 +38,6 @@
       "source": {
         "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
-      },
-      "checked": "2026-11-05"
-    },
-    {
-      "id": "t3-004",
-      "topic": "Evacuation",
-      "question": "How is the low-pressure appliance row of Table 1 in 40 CFR 82.156 stated differently from the other rows?",
-      "options": {
-        "A": "It changes with charge size above 200 pounds",
-        "B": "It applies only to recovery equipment made before November 15, 1993",
-        "C": "It sets no required level at all",
-        "D": "Its level is given as an absolute pressure in mm Hg rather than in inches of Hg vacuum"
-      },
-      "answer": "D",
-      "explanation": "The other rows give inches of Hg vacuum, while the table lists \"Low-pressure appliance\" at \"25 mm Hg absolute\" in both equipment columns. The row has no charge-size split and applies to equipment of either age.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
-      },
-      "checked": "2026-11-05"
-    },
-    {
-      "id": "t3-005",
-      "topic": "Verification and records",
-      "question": "An owner suspends the leak repair deadlines on a chiller (full charge of 50 or more pounds of a class I or class II refrigerant) by mothballing it. What must the owner's records document?",
-      "options": {
-        "A": "Daily temperature readings while it is shut down",
-        "B": "The name of the EPA official who approved the mothballing",
-        "C": "When the appliance was mothballed and when additional refrigerant was added to it",
-        "D": "Only the date the appliance is finally retired"
-      },
-      "answer": "C",
-      "explanation": "Owners or operators who suspend deadlines by mothballing \"must keep records documenting when the appliance was mothballed and when additional refrigerant was added to the appliance (or isolated component).\" No EPA approval or daily readings are called for.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
       },
       "checked": "2026-11-05"
     },
@@ -134,7 +80,7 @@
     {
       "id": "t3-008",
       "topic": "Pressurizing for repairs",
-      "question": "A low-pressure appliance uses a refrigerant that boils above 85 °F at 29.9 inches of mercury. After heat has raised its internal pressure as much as possible, up to what pressure may nitrogen be used before the appliance is opened for a non-major repair?",
+      "question": "A low-pressure appliance uses a refrigerant that boils above 85 °F at 29.9 inches of mercury. Before it is opened for a non-major repair, up to what pressure may nitrogen be used to raise its internal pressure?",
       "options": {
         "A": "Atmospheric pressure",
         "B": "10 psig",
@@ -161,42 +107,6 @@
       },
       "answer": "C",
       "explanation": "In the paragraph on pressurizing low-pressure appliances, the rule states: \"Persons must cover openings when isolation is not possible.\" Nothing in that paragraph calls for adding nitrogen to 5 psig, notifying EPA, or replacing a receiver.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
-      },
-      "checked": "2026-11-05"
-    },
-    {
-      "id": "t3-010",
-      "topic": "Pressurizing for repairs",
-      "question": "The oil-change provision lets oil be drained into a system receiver. How does the rule define a system receiver?",
-      "options": {
-        "A": "A purge unit mounted on a chiller",
-        "B": "A recovery cylinder outside the appliance",
-        "C": "A container for used oil sent to a reclaimer",
-        "D": "The isolated portion of the appliance, or a specific vessel within it, used to hold the refrigerant charge during servicing or repair"
-      },
-      "answer": "D",
-      "explanation": "System receiver means \"the isolated portion of the appliance, or a specific vessel within the appliance, that is used to hold the refrigerant charge during the servicing or repair of that appliance.\" It is part of the appliance, not an external cylinder or oil container.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-      },
-      "checked": "2026-11-05"
-    },
-    {
-      "id": "t3-012",
-      "topic": "Evacuation",
-      "question": "Leaks in a chiller make the Table 1 level unattainable. What is the first step 40 CFR 82.156(a)(2) lists for the person opening or disposing of it?",
-      "options": {
-        "A": "Add nitrogen to the leaking components",
-        "B": "Evacuate the whole chiller to 0 psig only",
-        "C": "Isolate leaking from non-leaking components wherever possible",
-        "D": "Notify EPA before opening the chiller"
-      },
-      "answer": "C",
-      "explanation": "The first step is: \"Isolate leaking from non-leaking components wherever possible.\" Non-leaking components then go to the Table 1 levels, and leaking ones to the lowest level attainable without substantially contaminating the refrigerant.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -588,7 +498,7 @@
       "options": {
         "A": "Within 180 days of the appliance exceeding the leak rate",
         "B": "Within 30 days of the appliance exceeding the applicable leak rate",
-        "C": "By March 1 of the following year",
+        "C": "Within 60 days of the appliance exceeding the applicable leak rate",
         "D": "Within seven months of discovering the leak"
       },
       "answer": "B",
@@ -624,7 +534,7 @@
       "options": {
         "A": "Within one year of the leak",
         "B": "Within seven months of discovering the leak",
-        "C": "By March 1 of the following year",
+        "C": "Within 60 days of the appliance leaking above the applicable leak rate",
         "D": "Within 30 days of the appliance leaking above the applicable leak rate"
       },
       "answer": "D",
@@ -785,12 +695,12 @@
       "question": "A technician needs to raise the pressure in a low-pressure chiller to leak test it. Which order of preference for leak test pressurization methods does EPA's Type 3 test topics list give?",
       "options": {
         "A": "Nitrogen first, then the hot water method or a built-in system heating/pressurization device",
-        "B": "Compressed air first, then nitrogen",
+        "B": "Nitrogen only, with no heating method listed",
         "C": "The hot water method or a built-in system heating/pressurization device such as Prevac first, then nitrogen",
-        "D": "Oxygen first, then the hot water method"
+        "D": "Pure refrigerant first, then nitrogen"
       },
       "answer": "C",
-      "explanation": "Under \"Order of preference of leak test pressurization methods for low-pressure systems,\" EPA lists first the \"Hot water method or built-in system heating/pressurization device such Prevac\" and then \"Nitrogen.\" The Core topics call for the \"Use of nitrogen rather than oxygen or compressed air for leak detection.\"",
+      "explanation": "Under \"Order of preference of leak test pressurization methods for low-pressure systems,\" EPA lists first the \"Hot water method or built-in system heating/pressurization device such Prevac\" and then \"Nitrogen.\"",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
@@ -856,7 +766,7 @@
       "topic": "Recovery techniques",
       "question": "A technician is evacuating refrigerant from a water chiller. What does EPA's Type 3 test topics list say must be done with the water in the chiller during the evacuation?",
       "options": {
-        "A": "Leave it standing still in the tubes, to slow the recovery",
+        "A": "Leave it standing still in the tubes, to prevent freezing",
         "B": "Let it freeze in the tubes, to seal small leaks during the evacuation",
         "C": "Replace it with nitrogen, to pressurize the chiller",
         "D": "Circulate it or remove it, to prevent freezing"
@@ -874,7 +784,7 @@
       "topic": "Recharging",
       "question": "A technician starts recharging an evacuated low-pressure chiller and is about to let liquid refrigerant in right away. Which risk and which order of charging do EPA's Type 3 test topics give?",
       "options": {
-        "A": "Noncondensables may enter, so the chiller should be filled with nitrogen first",
+        "A": "Water in the tubes may freeze, so liquid should go in before vapor",
         "B": "The oil may be diluted, so liquid should go in only while the compressor runs",
         "C": "Charging may be slow, so liquid should always go in before any vapor",
         "D": "Water in the tubes may freeze, so vapor should go in before liquid"

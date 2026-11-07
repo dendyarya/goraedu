@@ -48,11 +48,11 @@
       "options": {
         "A": "It must be reclaimed by an EPA-certified reclaimer",
         "B": "It must sit in a recovery cylinder for 30 days",
-        "C": "It must be run through the filter-driers on the technician's recovery machine",
+        "C": "It must be checked with a refrigerant identifier by the technician",
         "D": "The second company must sign a statement accepting it"
       },
       "answer": "A",
-      "explanation": "EPA states that if recovered refrigerant changes ownership, it must be reclaimed by an EPA-certified refrigerant reclaimer. Moving it to an unrelated company is a change of ownership, so on-site cleaning or the new owner's consent is not enough.",
+      "explanation": "EPA states that if recovered refrigerant changes ownership, it must be reclaimed by an EPA-certified refrigerant reclaimer. Moving it to an unrelated company is a change of ownership, so an on-site check or the new owner's consent is not enough.",
       "source": {
         "title": "EPA: Stationary Refrigeration Service Practice Requirements",
         "url": "https://www.epa.gov/section608/stationary-refrigeration-service-practice-requirements"
@@ -245,12 +245,12 @@
       "question": "A shop still uses a recovery machine built in 1991. Under EPA's service practice requirements, which requirement does the machine's age excuse it from?",
       "options": {
         "A": "Certification by an EPA-approved equipment testing organization",
-        "B": "Use according to the manufacturer's directions",
+        "B": "Recovery of refrigerant before the appliance is opened",
         "C": "Use by a certified technician",
         "D": "The prohibition on venting refrigerant"
       },
       "answer": "A",
-      "explanation": "EPA states that, except for equipment manufactured before November 15, 1993, recovery or recycling equipment must have been certified by an EPA-approved equipment testing organization; all equipment must still be used according to the manufacturer's directions. A pre-1993 machine is excused only from the testing-organization certification, not from technician certification or the venting prohibition.",
+      "explanation": "EPA states that, except for equipment manufactured before November 15, 1993, recovery or recycling equipment must have been certified by an EPA-approved equipment testing organization A pre-1993 machine is excused only from the testing-organization certification, not from recovering refrigerant, technician certification or the venting prohibition.",
       "source": {
         "title": "EPA: Stationary Refrigeration Service Practice Requirements",
         "url": "https://www.epa.gov/section608/stationary-refrigeration-service-practice-requirements"
@@ -366,42 +366,6 @@
       "checked": "2026-11-05"
     },
     {
-      "id": "core-025",
-      "topic": "Safety",
-      "question": "Besides the risks of overfilling refrigerant cylinders, EPA's Core safety topics cover the difference between which two kinds of cylinders?",
-      "options": {
-        "A": "Reusable recovery cylinders and disposable cylinders",
-        "B": "Nitrogen cylinders and oxygen cylinders",
-        "C": "Steel cylinders and aluminum cylinders",
-        "D": "Liquid-only cylinders and vapor-only cylinders"
-      },
-      "answer": "A",
-      "explanation": "EPA's Core safety topics include the risks of filling cylinders more than 80 percent full and the difference between reusable recovery cylinders and disposable cylinders. Cylinder metal or gas type is not the distinction the topics draw.",
-      "source": {
-        "title": "EPA: Section 608 Technician Certification Test Topics",
-        "url": "https://www.epa.gov/section608/test-topics"
-      },
-      "checked": "2026-11-05"
-    },
-    {
-      "id": "core-026",
-      "topic": "Definitions",
-      "question": "The Section 608 definitions sort appliances into low-, medium-, high- and very high-pressure classes by a refrigerant's liquid phase saturation pressure. At what temperature is that pressure taken?",
-      "options": {
-        "A": "104 °F",
-        "B": "70 °F",
-        "C": "85 °F",
-        "D": "32 °F"
-      },
-      "answer": "A",
-      "explanation": "Each pressure-class definition uses the saturation pressure at the same temperature; for example, a medium-pressure appliance uses a refrigerant with a liquid phase saturation pressure \"between 45 psia and 170 psia at 104 °F.\" The 85 °F figure belongs to the boiling-point test for pressurizing low-pressure appliances in 82.156, not to these definitions.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-      },
-      "checked": "2026-11-05"
-    },
-    {
       "id": "core-028",
       "topic": "Definitions",
       "question": "Under the Section 608 definitions, which parts of an appliance make up its \"refrigerant circuit\"?",
@@ -478,12 +442,12 @@
       "topic": "Definitions",
       "question": "Under the rule's definition, connecting and disconnecting hoses and gauges to measure pressures is:",
       "options": {
-        "A": "Considered opening an appliance in all cases",
+        "A": "Not considered \"opening an appliance\"",
         "B": "Considered opening an appliance only on low-pressure appliances",
-        "C": "Not considered \"opening an appliance\"",
+        "C": "Considered opening an appliance in all cases",
         "D": "Considered opening an appliance if the hoses stay connected for more than 15 minutes"
       },
-      "answer": "C",
+      "answer": "A",
       "explanation": "\"Opening an appliance\" means any maintenance, service, repair or disposal that would release refrigerant to the atmosphere. The rule states that connecting and disconnecting hoses and gauges to measure pressures, add refrigerant, or recover refrigerant \"are not considered\" opening an appliance.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
@@ -821,7 +785,7 @@
       "question": "A job applicant's only refrigerant credential is an \"R-410A certification\" from a trade school class. According to EPA, does it take the place of Section 608 certification for servicing R-410A systems?",
       "options": {
         "A": "Yes, for R-410A systems only, because R-410A is not an ozone-depleting substance",
-        "B": "Yes, it counts as Type II certification for high-pressure appliances",
+        "B": "Yes, it counts as Universal certification",
         "C": "Yes, as long as the applicant also passes the Core section",
         "D": "No; such R-410A certifications are not equivalent to a section 608 certification, which EPA requires based on the type of appliance"
       },
@@ -964,7 +928,7 @@
       "topic": "Sales and reclamation",
       "question": "A contractor has recovered refrigerant that it will not return to systems owned by the same customer. According to EPA's reclamation page, where can the contractor return it?",
       "options": {
-        "A": "To another customer's system, after passing it through a filter-drier",
+        "A": "To another customer's system, if that customer agrees in writing",
         "B": "To a consolidator, such as a refrigerant manufacturer, supplier, wholesale distributor or refrigerant recovery company, or in some cases directly to an EPA reclaimer",
         "C": "To any certified technician who buys it through an online marketplace",
         "D": "To the nearest EPA Regional Office for disposal"
@@ -980,7 +944,7 @@
     {
       "id": "core-101",
       "topic": "Environmental impact",
-      "question": "A technician has three appliances to recover, with nameplates reading R-12, R-22 and R-134. Which grouping matches EPA's Core test topics on identifying refrigerant families?",
+      "question": "A technician has three appliances to recover, charged with R-12, R-22 and R-134. Which grouping matches EPA's Core test topics on identifying refrigerant families?",
       "options": {
         "A": "R-12 is an HCFC, R-22 is a CFC, R-134 is an HFC",
         "B": "R-12 is a CFC, R-22 is an HCFC, R-134 is an HFC",
@@ -1253,7 +1217,7 @@
       "question": "A technician's recovery cylinder already holds one refrigerant, and the next job uses a different refrigerant. Which point do EPA's Core recovery-technique topics make?",
       "options": {
         "A": "Mixing refrigerants is encouraged so that cylinders are used fully",
-        "B": "Mixing refrigerants is fine if the cylinder stays under 80 percent full",
+        "B": "Mixing refrigerants is fine if both are HFCs",
         "C": "Mixing refrigerants matters only for small appliances",
         "D": "Technicians need to avoid mixing refrigerants"
       },
@@ -1379,7 +1343,7 @@
       "question": "A disposable refrigerant cylinder is empty, and a technician wants to put recovered refrigerant in it. What do EPA's Core safety topics say about disposable cylinders?",
       "options": {
         "A": "Never refill them",
-        "B": "Refill them only to 80 percent",
+        "B": "Refill them only once",
         "C": "Refill them only with the refrigerant they first held",
         "D": "Refill them after painting them yellow and gray"
       },
@@ -1414,7 +1378,7 @@
       "topic": "Safety",
       "question": "EPA's Refrigerant Safety page says that high exposures to refrigerant can happen for brief periods during some service operations. Which example does it give?",
       "options": {
-        "A": "Reading the refrigerant type on the nameplate",
+        "A": "Checking the thermostat setting",
         "B": "Opening a compressor or removing a gasket that may have refrigerant trapped under it",
         "C": "Painting the appliance cabinet",
         "D": "Rewiring an external electrical circuit"

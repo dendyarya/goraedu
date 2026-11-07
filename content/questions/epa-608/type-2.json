@@ -11,11 +11,11 @@
       "question": "A refrigerant has a liquid phase saturation pressure of 250 psia at 104 °F. Under the definitions, an appliance using it is which kind of appliance?",
       "options": {
         "A": "Medium-pressure appliance",
-        "B": "High-pressure appliance",
+        "B": "Low-pressure appliance",
         "C": "Very high-pressure appliance",
-        "D": "Low-pressure appliance"
+        "D": "High-pressure appliance"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "A high-pressure appliance uses a refrigerant with a liquid phase saturation pressure \"between 170 psia and 355 psia at 104 °F,\" and 250 psia falls in that range. Medium-pressure stops at 170 psia, and very high-pressure starts above 355 psia.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
@@ -38,24 +38,6 @@
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
-      },
-      "checked": "2026-11-05"
-    },
-    {
-      "id": "t2-006",
-      "topic": "Evacuation levels",
-      "question": "The evacuation levels in Table 1 of 40 CFR 82.156 are given in inches of Hg vacuum measured relative to what?",
-      "options": {
-        "A": "Absolute zero pressure",
-        "B": "The appliance's saturation pressure at 104 °F",
-        "C": "The pressure inside the recovery cylinder",
-        "D": "Standard atmospheric pressure of 29.9 inches Hg"
-      },
-      "answer": "D",
-      "explanation": "The Table 1 column heading reads \"Inches of Hg vacuum\" \"(relative to standard atmospheric pressure of 29.9 inches Hg).\" Only the low-pressure row is stated differently, as an absolute pressure.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
       },
       "checked": "2026-11-05"
     },
@@ -96,42 +78,6 @@
       "checked": "2026-11-05"
     },
     {
-      "id": "t2-009",
-      "topic": "Evacuation levels",
-      "question": "Starting January 1, 2018, the evacuation requirements in 40 CFR 82.156 apply to appliances containing which refrigerants?",
-      "options": {
-        "A": "Only class I refrigerants",
-        "B": "Any refrigerant, including exempt substitutes such as carbon dioxide",
-        "C": "Only class I or class II refrigerants",
-        "D": "Any class I or class II refrigerant or any non-exempt substitute refrigerant"
-      },
-      "answer": "D",
-      "explanation": "The section states: \"Starting on January 1, 2018, this section applies to evacuation of refrigerant from appliances containing any class I or class II refrigerant or any non-exempt substitute refrigerant.\" Before that date it applied only to class I or class II refrigerants, and exempt substitutes such as carbon dioxide are outside the subpart's requirements.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
-      },
-      "checked": "2026-11-05"
-    },
-    {
-      "id": "t2-010",
-      "topic": "Recovery practices",
-      "question": "For a medium-, high- or very high-pressure appliance, the rule lets the technician evacuate to no higher than 0 psig instead of the Table 1 level when two conditions are both met. Which pair?",
-      "options": {
-        "A": "The appliance holds less than 200 pounds and has no leaks",
-        "B": "The job takes less than 15 minutes and uses certified equipment",
-        "C": "The work is not major, and the appliance will not be evacuated to the atmosphere afterward",
-        "D": "The technician is Universal certified and the owner agrees"
-      },
-      "answer": "C",
-      "explanation": "Paragraph (a)(1) applies \"If evacuation of the appliance to the atmosphere is not to be performed after completion of the maintenance, service, or repair, and if the maintenance, service, or repair is not major.\" Charge size, job length or certification level are not the conditions.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
-      },
-      "checked": "2026-11-05"
-    },
-    {
       "id": "t2-011",
       "topic": "Recovery practices",
       "question": "A technician evacuates refrigerant from appliances with a full charge of more than 5 and less than 50 pounds so they can be disposed of. Which item must the technician's records include for each appliance?",
@@ -143,24 +89,6 @@
       },
       "answer": "C",
       "explanation": "For these disposals, technicians must keep records for three years documenting \"The company name, location of the appliance, date of recovery, and type of refrigerant recovered for each appliance,\" plus monthly totals and transfers for reclamation or destruction. Serial numbers, prices, phone numbers and photographs are not listed.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
-      },
-      "checked": "2026-11-05"
-    },
-    {
-      "id": "t2-012",
-      "topic": "Recovery practices",
-      "question": "Besides leaks that make the Table 1 levels unattainable, which other situation lets a technician follow the leaking-appliance procedure in 40 CFR 82.156(a)(2)?",
-      "options": {
-        "A": "When the job is done in cold weather",
-        "B": "When the recovery machine was made before 1993",
-        "C": "When the owner asks for a faster job",
-        "D": "When evacuating to the Table 1 levels would substantially contaminate the refrigerant being recovered"
-      },
-      "answer": "D",
-      "explanation": "Paragraph (a)(2) applies \"If leaks in the appliance make evacuation to the levels in Table 1 unattainable or would substantially contaminate the refrigerant being recovered.\" Weather, equipment age or the owner's schedule do not trigger it.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -294,24 +222,6 @@
       "checked": "2026-11-05"
     },
     {
-      "id": "t2-021",
-      "topic": "Leak repair",
-      "question": "Leaks were repaired on an appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant). How must it be confirmed that the repair brought the leak rate below the applicable rate?",
-      "options": {
-        "A": "By a letter from the appliance manufacturer",
-        "B": "By an EPA site inspection",
-        "C": "By the leak rate calculation performed upon the next refrigerant addition",
-        "D": "By photographs of the repaired joints"
-      },
-      "answer": "C",
-      "explanation": "Leaks must be repaired so the leak rate is below the applicable rate, and \"This must be confirmed by the leak rate calculation performed upon the next refrigerant addition.\" The repair must also be documented by initial and follow-up verification tests.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
-      },
-      "checked": "2026-11-05"
-    },
-    {
       "id": "t2-022",
       "topic": "Verification and inspections",
       "question": "A leak was repaired without evacuating an appliance covered by 40 CFR 82.157 (full charge of 50 or more pounds of a class I or class II refrigerant). Within how many days of the successful initial verification test must the follow-up verification test be done?",
@@ -422,7 +332,7 @@
     {
       "id": "t2-029",
       "topic": "Evacuation levels",
-      "question": "A Type II technician recovers refrigerant from the air conditioner of a construction loader (an MVAC-like appliance) before the machine is scrapped. Besides following 40 CFR part 82, subpart B, which pressure level does 40 CFR 82.156(c) allow?",
+      "question": "A technician recovers refrigerant from the air conditioner of a construction loader (an MVAC-like appliance) before the machine is scrapped. To which pressure level does 40 CFR 82.156(c) allow the technician to reduce the system?",
       "options": {
         "A": "Reaching 0 psig",
         "B": "Reaching 10 inches of Hg vacuum",
@@ -431,24 +341,6 @@
       },
       "answer": "C",
       "explanation": "Persons recovering refrigerant from MVAC-like appliances for disposal must follow subpart B \"or reduce the system pressure to or below 102 mm of mercury vacuum.\" Table 1 levels do not apply to MVAC-like appliances.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
-      },
-      "checked": "2026-11-05"
-    },
-    {
-      "id": "t2-030",
-      "topic": "Evacuation levels",
-      "question": "Table 1 in 40 CFR 82.156 gives two columns of evacuation levels. Which date decides the column a technician uses?",
-      "options": {
-        "A": "The date the appliance was manufactured",
-        "B": "The date the recovery and/or recycling equipment was manufactured or imported",
-        "C": "The date the technician was certified",
-        "D": "The date the refrigerant was reclaimed"
-      },
-      "answer": "B",
-      "explanation": "The Table 1 columns cover recovery and/or recycling equipment \"manufactured or imported before November 15, 1993\" and equipment manufactured or \"imported on or after November 15, 1993.\" The date refers to the recovery equipment, not to the appliance being serviced.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -480,11 +372,11 @@
       "options": {
         "A": "Evacuating the appliances to the Table 1 levels",
         "B": "Having its technicians certified as Type II technicians",
-        "C": "Following the recovery equipment manufacturer's directions",
+        "C": "Recovering refrigerant before opening the appliances",
         "D": "Using certified, self-contained recovery and/or recycling equipment"
       },
       "answer": "D",
-      "explanation": "Persons who service \"only appliances that they own and that contain pump-out units are exempt from the requirement to use certified, self-contained recovery and/or recycling equipment.\" The exemption covers only that equipment requirement, not evacuation levels, technician certification or the manufacturer's directions.",
+      "explanation": "Persons who service \"only appliances that they own and that contain pump-out units are exempt from the requirement to use certified, self-contained recovery and/or recycling equipment.\" The exemption covers only that equipment requirement, not evacuation levels, recovery before opening, or technician certification.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
@@ -678,11 +570,11 @@
       "options": {
         "A": "When measurements indicate a loss of 50 pounds of refrigerant or 10 percent of the full charge, whichever is more",
         "B": "When measurements indicate a loss of 50 pounds of refrigerant or 10 percent of the full charge, whichever is less",
-        "C": "When refrigerant in air reaches 100 parts per million",
+        "C": "Only when a technician next inspects the appliance",
         "D": "When measurements indicate a loss of 20 percent of the full charge"
       },
       "answer": "B",
-      "explanation": "Such a system \"must automatically alert the owner or operator when measurements indicate a loss of 50 pounds of refrigerant or 10 percent of the full charge, whichever is less.\" The 100 parts per million alert is for systems that detect refrigerant in air.",
+      "explanation": "Such a system \"must automatically alert the owner or operator when measurements indicate a loss of 50 pounds of refrigerant or 10 percent of the full charge, whichever is less.\" The rule uses whichever of the two amounts is less, not whichever is more.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
@@ -782,7 +674,7 @@
     {
       "id": "t2-055",
       "topic": "Recovery practices",
-      "question": "A Type II technician will open the air-conditioning system of a farm tractor, an MVAC-like appliance. Which equipment does 40 CFR 82.156(c) require the technician to be properly using?",
+      "question": "A certified technician will open the air-conditioning system of a farm tractor, an MVAC-like appliance. Which equipment does 40 CFR 82.156(c) require the technician to be properly using?",
       "options": {
         "A": "Any recovery machine that reaches the Table 1 level for high-pressure appliances",
         "B": "Recovery and/or recycling equipment certified pursuant to § 82.158(f) or § 82.36, as applicable",
@@ -888,42 +780,6 @@
       "checked": "2026-11-06"
     },
     {
-      "id": "t2-076",
-      "topic": "Leak repair",
-      "question": "Unless 40 CFR 82.157 specifies otherwise, on whom do its requirements fall for a high-pressure appliance with a full charge of 50 or more pounds of a class I or class II refrigerant?",
-      "options": {
-        "A": "The owner or operator of the appliance",
-        "B": "The technician who last added refrigerant",
-        "C": "The refrigerant distributor",
-        "D": "The appliance manufacturer"
-      },
-      "answer": "A",
-      "explanation": "The section applies \"only to appliances with a full charge of 50 or more pounds of any class I or class II refrigerant or blend containing a class I or class II refrigerant\", and \"Unless otherwise specified, the requirements of this section apply to the owner or operator of the appliance.\"",
-      "source": {
-        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t2-079",
-      "topic": "Records and certification",
-      "question": "An outside contractor services a high-pressure appliance with a full charge of 50 or more pounds of a class I or class II refrigerant and must give the owner or operator a service record. Which two items of the owner's service record is the contractor's record excepted from containing?",
-      "options": {
-        "A": "The date of the service and the parts serviced",
-        "B": "The amount and type of refrigerant added and the name of the person performing the service",
-        "C": "The identity and location of the appliance and the type of service performed",
-        "D": "The full charge of the appliance and the leak rate with the method used to determine it"
-      },
-      "answer": "D",
-      "explanation": "A person other than the owner or operator \"must provide a record containing the following information, with the exception of (l)(2)(vii) and (viii) of this section, to the owner or operator\". Those two items are \"The full charge of the appliance\" and \"The leak rate and the method used to determine the leak rate\".",
-      "source": {
-        "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157"
-      },
-      "checked": "2026-11-06"
-    },
-    {
       "id": "t2-101",
       "topic": "Leak detection",
       "question": "A technician suspects that a high-pressure system with a hermetic compressor has been losing refrigerant. Which pair of signs of leakage do EPA's Type 2 test topics name for high-pressure systems?",
@@ -965,11 +821,11 @@
       "question": "A technician will pressurize a high-pressure system to find a leak. Which ranking of leak test gases, from most to least preferred, matches EPA's Type 2 test topics?",
       "options": {
         "A": "Pure refrigerant, then nitrogen with a trace quantity of R-22, then nitrogen alone",
-        "B": "Nitrogen alone, then nitrogen with a trace quantity of R-22, then pure refrigerant",
+        "B": "Nitrogen with a trace quantity of R-22, then pure refrigerant, then nitrogen alone",
         "C": "Nitrogen with a trace quantity of R-22, then nitrogen alone, then pure refrigerant",
-        "D": "Nitrogen with a trace quantity of R-22, then pure refrigerant, then nitrogen alone"
+        "D": "Nitrogen alone, then nitrogen with a trace quantity of R-22, then pure refrigerant"
       },
-      "answer": "B",
+      "answer": "D",
       "explanation": "EPA's Type 2 topics give the order of preference as \"nitrogen alone best, but nitrogen with trace quantity of hydrochlorofluorocarbon (HCFC)-22 (also called R-22) better than pure refrigerant\".",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",

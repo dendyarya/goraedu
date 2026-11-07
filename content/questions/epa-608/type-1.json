@@ -8,7 +8,7 @@
     {
       "id": "t1-001",
       "topic": "Definitions",
-      "question": "A university lab buys a factory-sealed research freezer that holds 3 pounds of refrigerant. How does the small appliance definition treat medical or industrial research refrigeration equipment?",
+      "question": "A university lab buys a research freezer that holds 3 pounds of refrigerant. How does the small appliance definition treat medical or industrial research refrigeration equipment?",
       "options": {
         "A": "It names it as an example of a small appliance",
         "B": "It excludes all research equipment from the small appliance category",
@@ -16,7 +16,7 @@
         "D": "It treats it as an MVAC-like appliance"
       },
       "answer": "A",
-      "explanation": "The small appliance definition lists examples that include \"medical or industrial research refrigeration equipment,\" provided the appliance is factory-sealed with five pounds or less of refrigerant. A 3-pound factory-sealed research freezer meets both conditions.",
+      "explanation": "The small appliance definition lists examples that include \"medical or industrial research refrigeration equipment,\" provided the appliance is factory-sealed with five pounds or less of refrigerant.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
@@ -296,7 +296,7 @@
     {
       "id": "t1-018",
       "topic": "Recovery requirements",
-      "question": "Recovered refrigerant may go back into the same appliance, or another appliance owned by the same person, without being recycled or reclaimed. Which appliances are left out of that allowance?",
+      "question": "Under 40 CFR 82.156(h), recovered refrigerant may in some cases be returned to an appliance without being recycled or reclaimed. Which appliances are left out of that allowance?",
       "options": {
         "A": "Window air conditioners",
         "B": "Small appliances",
@@ -332,7 +332,7 @@
     {
       "id": "t1-023",
       "topic": "Disposal",
-      "question": "A landfill operator is the final processor for a delivered, factory-sealed dehumidifier (a small appliance) that may still hold refrigerant. The operator chooses to recover the remaining refrigerant itself instead of relying on a signed statement. Which requirement must that recovery follow?",
+      "question": "A landfill operator is the final processor for a delivered dehumidifier (a small appliance) that may still hold refrigerant. The operator chooses to recover the remaining refrigerant itself instead of relying on a signed statement. Which requirement must that recovery follow?",
       "options": {
         "A": "The Table 1 evacuation levels in 40 CFR 82.156(a)",
         "B": "None, because a final processor is not a technician",
@@ -510,42 +510,6 @@
       "checked": "2026-11-05"
     },
     {
-      "id": "t1-043",
-      "topic": "Equipment",
-      "question": "Small-appliance recovery equipment made or imported before November 15, 1993, counts as certified if it can recover 80 percent of the refrigerant in the system under which test-stand condition?",
-      "options": {
-        "A": "Only with the test stand's compressor operational",
-        "B": "Whether or not the test stand's compressor is operational",
-        "C": "Only with the test stand's compressor not operational",
-        "D": "Only when tested by the appliance manufacturer"
-      },
-      "answer": "B",
-      "explanation": "Equipment made or imported before that date \"will be considered certified if it is capable of either recovering 80 percent of the refrigerant in the system, whether or not the compressor of the test stand is operational,\" or of achieving a four-inch vacuum. The split of 90 percent with the compressor operational and 80 percent when it is not is the general appendix C standard in 82.158(e).",
-      "source": {
-        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
-      },
-      "checked": "2026-11-05"
-    },
-    {
-      "id": "t1-044",
-      "topic": "Equipment",
-      "question": "Equipment used to evacuate a class I or class II refrigerant or a non-exempt substitute from small appliances before they are disposed of may also be certified if, tested with a properly calibrated pressure gauge, it can achieve what?",
-      "options": {
-        "A": "Recovery of 50 percent of the charge",
-        "B": "Zero psig",
-        "C": "A one-inch vacuum",
-        "D": "A four-inch vacuum"
-      },
-      "answer": "D",
-      "explanation": "Such equipment \"may also be certified if it is capable of achieving a four-inch vacuum when tested using a properly calibrated pressure gauge.\" The rule names a four-inch vacuum, not zero psig, a one-inch vacuum or a percentage of the charge.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
-      },
-      "checked": "2026-11-05"
-    },
-    {
       "id": "t1-045",
       "topic": "Equipment",
       "question": "Besides the certification statement, what must the label on certified small-appliance recovery equipment show?",
@@ -560,24 +524,6 @@
       "source": {
         "title": "eCFR: 40 CFR 82.158, Standards for recovery and/or recycling equipment (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.158"
-      },
-      "checked": "2026-11-05"
-    },
-    {
-      "id": "t1-047",
-      "topic": "Disposal",
-      "question": "Which of these does the regulation's definition of disposal include?",
-      "options": {
-        "A": "Moving an appliance to a new room",
-        "B": "Recycling an appliance for scrap",
-        "C": "Measuring an appliance's pressures with gauges",
-        "D": "Painting an appliance"
-      },
-      "answer": "B",
-      "explanation": "Disposal means the process leading to and including several listed activities, among them \"the disassembly of any appliance for reuse of its component parts\" and \"the recycling of any appliance for scrap.\" Painting and measuring pressures are not on that list.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
       },
       "checked": "2026-11-05"
     },
@@ -616,24 +562,6 @@
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
       },
       "checked": "2026-11-05"
-    },
-    {
-      "id": "t1-051",
-      "topic": "Disposal",
-      "question": "In 2026, a scrap yard is the final processor for household refrigerators charged with R-134a, a non-exempt substitute refrigerant. Does the safe disposal section, 40 CFR 82.155, apply to them?",
-      "options": {
-        "A": "No, because the section applies only to appliances containing class I and class II refrigerants",
-        "B": "Only if each refrigerator holds more than five pounds of refrigerant",
-        "C": "Yes, because starting on January 1, 2018, it applies to appliances containing any class I or class II refrigerant or any non-exempt substitute refrigerant",
-        "D": "Only if the refrigerators were manufactured before 2018"
-      },
-      "answer": "C",
-      "explanation": "\"Starting on January 1, 2018, this section applies to disposal of appliances containing any class I or class II refrigerant or any non-exempt substitute refrigerant.\" The class I and class II limit applied only until that date.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.155, Safe disposal of appliances (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.155"
-      },
-      "checked": "2026-11-06"
     },
     {
       "id": "t1-056",
@@ -694,7 +622,7 @@
       "topic": "Technician certification",
       "question": "In 2026, a technician repairs only small appliances charged with a non-exempt substitute refrigerant (no class I or class II refrigerant). Under 40 CFR 82.161, which certification must the technician hold?",
       "options": {
-        "A": "Type I, because starting on January 1, 2018, the section covers technicians who service appliances containing any non-exempt substitute refrigerant",
+        "A": "Type I",
         "B": "None, because the section covers only class I and class II refrigerants",
         "C": "Type II, because substitute refrigerants fall under Type II",
         "D": "Certification under 40 CFR part 82, subpart B"
@@ -737,24 +665,6 @@
       },
       "answer": "A",
       "explanation": "\"Failure to demonstrate or failure to properly use the equipment may result in revocation or suspension of the certificate.\"",
-      "source": {
-        "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t1-070",
-      "topic": "Technician certification",
-      "question": "A registered apprentice recovers refrigerant from a window air conditioner while closely and continually supervised by a certified Type I technician. Who has the responsibility to ensure that the apprentice complies with Subpart F?",
-      "options": {
-        "A": "Only the apprentice",
-        "B": "Only the owner of the air conditioner",
-        "C": "The U.S. Department of Labor's Office of Apprenticeship",
-        "D": "The supervising certified technician and the apprentice"
-      },
-      "answer": "D",
-      "explanation": "\"The supervising certified technician and the apprentice have the responsibility to ensure that the apprentice complies with this subpart.\"",
       "source": {
         "title": "eCFR: 40 CFR 82.161, Technician certification (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.161"
@@ -858,11 +768,11 @@
       "options": {
         "A": "A non-pressurized recovery container",
         "B": "A disposable cylinder that once held new refrigerant",
-        "C": "A recovery cylinder that is already more than 80 percent full",
+        "C": "A sealed cylinder pressurized with nitrogen",
         "D": "No container, because the vacuum pump exhausts the refrigerant to the air"
       },
       "answer": "A",
-      "explanation": "The topics list the method \"use a vacuum pump with non-pressurized recovery container.\" The Core safety topics say to \"never refill\" disposable cylinders and warn of the \"Risks of filling cylinders more than 80 percent full.\"",
+      "explanation": "The topics list the method \"use a vacuum pump with non-pressurized recovery container.\" The Core safety topics say to \"never refill\" disposable cylinders.",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
@@ -911,7 +821,7 @@
       "question": "A technician has finished recovering refrigerant from a window air conditioner and is wrapping up the service call. Which item do EPA's Type I test topics say should be removed at the conclusion of service?",
       "options": {
         "A": "The appliance's process stub",
-        "B": "The nameplate that identifies the refrigerant",
+        "B": "The appliance's door gasket",
         "C": "The solderless access fittings",
         "D": "The appliance's compressor oil"
       },
@@ -926,12 +836,12 @@
     {
       "id": "t1-109",
       "topic": "Recovery techniques",
-      "question": "An R-12 (CFC-12) household refrigerator is being replaced, and the owner asks which refrigerant has likely taken R-12's place. Which answer, with its refrigerant family, matches EPA's Type I test topics?",
+      "question": "An R-12 household refrigerator is being replaced, and the owner asks which refrigerant has likely taken R-12's place. Which answer matches EPA's Type I test topics?",
       "options": {
-        "A": "R-11, a CFC",
-        "B": "R-114, a CFC",
-        "C": "R-113, a CFC",
-        "D": "R-134a, an HFC"
+        "A": "R-11",
+        "B": "R-114",
+        "C": "R-113",
+        "D": "R-134a"
       },
       "answer": "D",
       "explanation": "The topics list \"Hydrofluorocarbon (HFC)-134a (also called R-134a) as likely substitute for chlorofluorocarbon (CFC)-12 (also called R-12).\" R-11, R-114 and R-113 are themselves CFCs: \"Commercial CFC production began with R-12 in early 1931, R-11 in 1932, R-114 in 1933, and R-113 in 1934.\"",
