@@ -980,15 +980,15 @@
     {
       "id": "core-101",
       "topic": "Environmental impact",
-      "question": "Before recovering refrigerant from an old appliance, a technician reads R-12 on its nameplate. In EPA's Core test topics, R-12 is the example given for which refrigerant family?",
+      "question": "A technician has three appliances to recover, with nameplates reading R-12, R-22 and R-134. Which grouping matches EPA's Core test topics on identifying refrigerant families?",
       "options": {
-        "A": "HCFC",
-        "B": "CFC",
-        "C": "HFC",
-        "D": "HFO"
+        "A": "R-12 is an HCFC, R-22 is a CFC, R-134 is an HFC",
+        "B": "R-12 is a CFC, R-22 is an HCFC, R-134 is an HFC",
+        "C": "R-12 is an HFC, R-22 is an HCFC, R-134 is a CFC",
+        "D": "R-12 is a CFC, R-22 is an HFC, R-134 is an HCFC"
       },
       "answer": "B",
-      "explanation": "EPA's Core test topics cover the \"idea that R-12 is a CFC, R-22 is an HCFC, R-134 is an HFC\". R-22 is the HCFC example and R-134 the HFC example.",
+      "explanation": "EPA's Core test topics cover the \"idea that R-12 is a CFC, R-22 is an HCFC, R-134 is an HFC\". Each of the other groupings swaps at least two of these families.",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
@@ -998,14 +998,14 @@
     {
       "id": "core-102",
       "topic": "Environmental impact",
-      "question": "A customer asks why a small refrigerant release matters. According to EPA, how many ozone molecules can one chlorine atom destroy before it is removed from the stratosphere?",
+      "question": "A customer asks why releasing even a little refrigerant matters to the ozone layer. Which statement about chlorine appears on EPA's ozone science page?",
       "options": {
-        "A": "Only one, because the chlorine atom is used up in the reaction",
-        "B": "About 100",
-        "C": "About 1,000",
-        "D": "Over 100,000"
+        "A": "One chlorine atom can destroy over 100,000 ozone molecules before it is removed from the stratosphere",
+        "B": "Each chlorine atom is used up after it destroys a single ozone molecule",
+        "C": "Chlorine destroys ozone only in the troposphere, where people live",
+        "D": "Ozone is always created faster than chlorine can destroy it"
       },
-      "answer": "D",
+      "answer": "A",
       "explanation": "EPA says \"One chlorine atom can destroy over 100,000 ozone molecules before it is removed from the stratosphere.\" It adds that \"Ozone can be destroyed more quickly than it is naturally created.\"",
       "source": {
         "title": "EPA: Basic Ozone Layer Science",
@@ -1038,11 +1038,11 @@
       "options": {
         "A": "They are the main source of chlorine in the stratosphere",
         "B": "They reach the stratosphere faster than CFCs do",
-        "C": "Their chlorine does not reach the stratosphere, while ODS are very stable and do not dissolve in rain",
+        "C": "Their chlorine does not reach the stratosphere",
         "D": "They destroy ozone only over Antarctica"
       },
       "answer": "C",
-      "explanation": "EPA says \"chlorine from swimming pools, industrial plants, sea salt, and volcanoes does not reach the stratosphere.\" In contrast, \"ODS are very stable and do not dissolve in rain,\" so \"there are no natural processes that remove the ODS from the lower atmosphere.\"",
+      "explanation": "EPA says \"Not all chlorine and bromine sources contribute to ozone layer depletion\" and that \"chlorine from swimming pools, industrial plants, sea salt, and volcanoes does not reach the stratosphere.\"",
       "source": {
         "title": "EPA: Basic Ozone Layer Science",
         "url": "https://www.epa.gov/ozone-layer-protection/basic-ozone-layer-science"
@@ -1070,15 +1070,15 @@
     {
       "id": "core-106",
       "topic": "Clean Air Act and Montreal Protocol",
-      "question": "What is the Montreal Protocol on Substances that Deplete the Ozone Layer?",
+      "question": "A customer asks why U.S. rules on ozone-depleting refrigerants exist when the ozone layer is a worldwide problem. How does EPA describe the link between the Montreal Protocol and U.S. law?",
       "options": {
-        "A": "An international treaty signed in 1987 that, with its amendments, provides for a complete phaseout of ozone-depleting substances",
-        "B": "The U.S. law passed in 1990 that empowered EPA to protect the stratospheric ozone layer",
-        "C": "The industry standard that sets the purity of reclaimed refrigerant",
-        "D": "A 2016 agreement that deals only with HFCs"
+        "A": "The Montreal Protocol, signed in 1987, provides with its amendments for a complete phaseout of ODS, and the United States passed Title VI of the Clean Air Act in 1990 to fulfill its international obligations",
+        "B": "The Montreal Protocol is a U.S. law that replaced the Clean Air Act in 1990",
+        "C": "The Clean Air Act came first, and the Montreal Protocol was written later to enforce it in other countries",
+        "D": "The Montreal Protocol is the industry standard that sets the purity of reclaimed refrigerant"
       },
       "answer": "A",
-      "explanation": "EPA says \"the Montreal Protocol on Substances that Deplete the Ozone Layer was signed in 1987\" and that \"The Montreal Protocol and its amendments provide for a complete phaseout of ODS.\" The 1990 U.S. law is Title VI of the Clean Air Act, which the United States passed \"To fulfill its international obligations\".",
+      "explanation": "EPA says \"the Montreal Protocol on Substances that Deplete the Ozone Layer was signed in 1987\" and \"The Montreal Protocol and its amendments provide for a complete phaseout of ODS.\" It adds: \"To fulfill its international obligations, the United States passed Title VI of the Clean Air Act in 1990, empowering EPA to protect the stratospheric ozone layer.\"",
       "source": {
         "title": "EPA: Information on Ozone and Ozone Depletion",
         "url": "https://www.epa.gov/ozone-layer-protection/information-ozone-and-ozone-depletion"
@@ -1106,7 +1106,7 @@
     {
       "id": "core-108",
       "topic": "Clean Air Act and Montreal Protocol",
-      "question": "A homeowner asks when the United States stopped producing and importing HCFC-22 (R-22). Which date does EPA's fact sheet give?",
+      "question": "A technician servicing older equipment wants to know when the United States stopped producing and importing HCFC-22 (R-22). Which date does EPA's fact sheet give?",
       "options": {
         "A": "January 1, 1987",
         "B": "January 1, 2020",
@@ -1114,7 +1114,7 @@
         "D": "January 1, 2035"
       },
       "answer": "B",
-      "explanation": "EPA's fact sheet says \"U.S. production and import of HCFC-22 ended on January 1, 2020\". It adds that recovered and reclaimed HCFC-22, \"along with HCFC-22 produced prior to 2020,\" helps meet the needs of owners of existing systems.",
+      "explanation": "EPA's fact sheet says \"U.S. production and import of HCFC-22 ended on January 1, 2020\".",
       "source": {
         "title": "EPA fact sheet: Residential Air Conditioning and the Phaseout of HCFC-22, What You Need to Know",
         "url": "https://www.epa.gov/sites/default/files/2020-03/documents/residential_air_conditioning_and_the_phaseout_of_hcfc-22_what_you_need_to_know_final_508.pdf"
@@ -1147,7 +1147,7 @@
         "A": "No, because they cover only CFCs",
         "B": "No, because they cover only refrigerants that contain ozone-depleting substances",
         "C": "Yes, because they cover non-exempt substitute refrigerants such as HFCs and blends of them",
-        "D": "Only if the system holds 50 pounds or more of refrigerant"
+        "D": "No, because HFC blends are exempt refrigerants, like carbon dioxide, nitrogen and water"
       },
       "answer": "C",
       "explanation": "EPA's fact sheet says Section 608 \"prohibits the knowing release of refrigerant during the maintenance, service, repair, or disposal\" of AC and refrigeration equipment. The requirements apply to refrigerants that contain ozone-depleting substances and to \"non-exempt substitute refrigerants, e.g., hydrofluorocarbons (HFCs), hydrofluoroolefins (HFOs) and blends thereof.\"",
@@ -1196,33 +1196,15 @@
     {
       "id": "core-113",
       "topic": "Refrigerants",
-      "question": "Which type of lubricant do EPA's Core test topics identify for R-134, an HFC?",
+      "question": "A technician is choosing compressor oil for two systems, one charged with R-134 and one with an HCFC. Which refrigerant and lubricant pairings do EPA's Core test topics give as examples?",
       "options": {
-        "A": "Alkylbenzenes",
-        "B": "No lubricant, because HFC refrigerants lubricate themselves",
-        "C": "Any lubricant used with CFC refrigerants",
-        "D": "Esters"
-      },
-      "answer": "D",
-      "explanation": "EPA's Core topics include the \"identification of lubricants for given refrigerants, such as esters with R-134; alkylbenzenes for HCFCs\". They also list the \"Incompatibility of substitute refrigerants with many lubricants used with CFC and HCFC refrigerants\".",
-      "source": {
-        "title": "EPA: Section 608 Technician Certification Test Topics",
-        "url": "https://www.epa.gov/section608/test-topics"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "core-114",
-      "topic": "Refrigerants",
-      "question": "Which type of lubricant do EPA's Core test topics identify for HCFC refrigerants?",
-      "options": {
-        "A": "Alkylbenzenes",
-        "B": "Glycol engine coolant",
-        "C": "No lubricant, because HCFC systems do not need one",
-        "D": "Any new lubricant, because CFC and HCFC refrigerants work with all of them"
+        "A": "Esters with R-134, and alkylbenzenes for HCFCs",
+        "B": "Alkylbenzenes with R-134, and esters for HCFCs",
+        "C": "Any lubricant with either refrigerant, because refrigerants and lubricants are always compatible",
+        "D": "Glycol engine coolant with R-134, and no lubricant for HCFCs"
       },
       "answer": "A",
-      "explanation": "EPA's Core topics pair \"alkylbenzenes for HCFCs\". They also warn of the \"incompatibility of CFC and HCFC refrigerants with many new lubricants\".",
+      "explanation": "EPA's Core topics include the \"identification of lubricants for given refrigerants, such as esters with R-134; alkylbenzenes for HCFCs\". They also list the \"Incompatibility of substitute refrigerants with many lubricants used with CFC and HCFC refrigerants\".",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
@@ -1250,33 +1232,15 @@
     {
       "id": "core-116",
       "topic": "Definitions",
-      "question": "A technician removes refrigerant from an appliance and stores it in an external container, without testing or processing it. Which of the three Rs is this?",
+      "question": "Before replacing a compressor, a technician pumps a rooftop unit's charge into a cylinder without filtering or testing it. How do EPA's definitions classify this step?",
       "options": {
-        "A": "Reclaim",
-        "B": "Recover",
-        "C": "Recycle",
-        "D": "Retrofit"
+        "A": "Reclaiming, because the refrigerant goes into a cylinder",
+        "B": "Recovering, because refrigerant in any condition is removed and stored in an external container without necessarily being tested or processed",
+        "C": "Recycling, because the refrigerant leaves the appliance",
+        "D": "None of the three Rs, until the refrigerant has been tested"
       },
       "answer": "B",
-      "explanation": "EPA defines recover as \"To remove refrigerant in any condition from an appliance and store it in an external container without necessarily testing or processing it in any way.\" Recycling cleans the refrigerant \"for reuse in equipment of the same owner\", and reclaiming reprocesses it to the AHRI Standard 700-2016 purity.",
-      "source": {
-        "title": "EPA: Definitions of Section 608 Terms",
-        "url": "https://www.epa.gov/section608/definitions-section-608-terms"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "core-117",
-      "topic": "Definitions",
-      "question": "A contractor wants recovered refrigerant reclaimed so it can go to a new owner. According to EPA's definitions page, where does reclamation take place?",
-      "options": {
-        "A": "Away from the job site, because it requires specialized machinery; the technician recovers the refrigerant and sends it to a reclaimer or the refrigerant manufacturer",
-        "B": "On the job site, using the technician's own recovery machine",
-        "C": "Inside the customer's appliance, by running it with new filter-driers",
-        "D": "At any auto repair shop that has a recycling machine"
-      },
-      "answer": "A",
-      "explanation": "EPA says \"Reclamation requires specialized machinery not available at a particular job site or auto repair shop. The technician will recover the refrigerant and then send it either to a general reclaimer or back to the refrigerant manufacturer.\"",
+      "explanation": "EPA defines recover as \"To remove refrigerant in any condition from an appliance and store it in an external container without necessarily testing or processing it in any way.\"",
       "source": {
         "title": "EPA: Definitions of Section 608 Terms",
         "url": "https://www.epa.gov/section608/definitions-section-608-terms"
@@ -1394,15 +1358,15 @@
     {
       "id": "core-124",
       "topic": "Safety",
-      "question": "A technician needs a cylinder for refrigerant recovered on a job. Which color code do EPA's Core safety topics give for reusable recovery cylinders?",
+      "question": "A technician picks up a cylinder to hold refrigerant recovered on a job. Which description matches what EPA's Core safety topics say about reusable (recovery) cylinders?",
       "options": {
-        "A": "Solid green",
-        "B": "Red with a white top",
-        "C": "Yellow and gray",
-        "D": "Solid blue"
+        "A": "Single-use cylinders that are thrown away once empty",
+        "B": "Any cylinder at all, as long as it is painted solid green",
+        "C": "Department of Transportation (DOT) approved, with a yellow and gray color code",
+        "D": "Unmarked cylinders, because recovered refrigerant needs no particular container"
       },
       "answer": "C",
-      "explanation": "EPA's Core safety topics compare \"Reusable (or \"recovery\") cylinders versus disposable cylinders\" and say to \"know former's yellow and gray color code\", meaning the reusable recovery cylinders.",
+      "explanation": "For \"Reusable (or \"recovery\") cylinders versus disposable cylinders\", EPA's Core safety topics say to \"ensure former Department of Transportation (DOT) approved\" and to \"know former's yellow and gray color code\". In that bullet, the former are the reusable recovery cylinders.",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
@@ -1439,24 +1403,6 @@
       },
       "answer": "D",
       "explanation": "EPA's Core safety topics list the \"Risks of filling cylinders more than 80 percent full\".",
-      "source": {
-        "title": "EPA: Section 608 Technician Certification Test Topics",
-        "url": "https://www.epa.gov/section608/test-topics"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "core-127",
-      "topic": "Safety",
-      "question": "Before using a reusable recovery cylinder, what do EPA's Core safety topics say a technician should ensure?",
-      "options": {
-        "A": "That it was bought within the last year",
-        "B": "That it is a disposable cylinder",
-        "C": "That it is Department of Transportation (DOT) approved",
-        "D": "That it has been painted green"
-      },
-      "answer": "C",
-      "explanation": "For \"Reusable (or \"recovery\") cylinders versus disposable cylinders\", EPA's Core safety topics say to \"ensure former Department of Transportation (DOT) approved\", meaning the reusable recovery cylinders.",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
@@ -1507,7 +1453,7 @@
         "A": "Their tendency to break down quickly in rain",
         "B": "Their high flammability",
         "C": "Their high stability",
-        "D": "Their low boiling point"
+        "D": "Their high toxicity"
       },
       "answer": "C",
       "explanation": "EPA says \"The high stability of CFCs enables them to deliver ozone-depleting chlorine to the stratosphere. The same stability prolongs their atmospheric lifetimes, and thus their persistence as greenhouse gases.\"",
