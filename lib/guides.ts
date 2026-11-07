@@ -50,6 +50,7 @@ const SNAPSHOTS: Record<string, string[]> = {
     "epa/refrigerant-recovery-and-recycling-equipment-certification-2026-11-06.txt",
     "epa/refrigerant-sales-restriction-2026-11-06.txt",
     "epa/required-level-evacuation-appliances-2026-11-06.txt",
+    "epa/refrigerant-safety-2026-11-07.txt",
     "epa/residential_air_conditioning_and_the_phaseout_of_hcfc-22_what_you_need_to_know_final_508-2026-11-06.reading-order.txt",
     "epa/residential_air_conditioning_and_the_phaseout_of_hcfc-22_what_you_need_to_know_final_508-2026-11-06.txt",
     "epa/safe-disposal-procedures-household-appliances-use-refrigerants-2026-11-06.txt",
