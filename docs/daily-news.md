@@ -1,4 +1,4 @@
-# Daily news run (scheduled three times a day: about 5:40 a.m., 11:40 a.m. and 5:40 p.m. U.S. Eastern)
+# Daily news run (scheduled three times a day: about 5:40 a.m., 12:40 p.m. and 6:40 p.m. U.S. Eastern)
 
 The day's target is **8 to 10 posts** in total across the three runs. Each run publishes, straight to `main` (a push to
 `main` goes live):
