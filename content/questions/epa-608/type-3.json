@@ -836,12 +836,12 @@
     {
       "id": "t3-104",
       "topic": "Recovery techniques",
-      "question": "Before draining oil from a low-pressure chiller, to what temperature does EPA's Type 3 test topics list say the oil should be heated, and why?",
+      "question": "A technician will drain the oil from a low-pressure chiller. What do EPA's Type 3 test topics say should happen to the oil first, and for what reason?",
       "options": {
-        "A": "32 °F, to keep water in the tubes from freezing",
-        "B": "130 °F, to minimize refrigerant release",
-        "C": "85 °F, so the refrigerant boils at standard atmospheric pressure",
-        "D": "212 °F, to drive moisture out of the oil"
+        "A": "Cool it to 32 °F, so the water in it freezes out",
+        "B": "Heat it to 130 °F, to minimize refrigerant release",
+        "C": "Pressurize it with nitrogen, to push it out faster",
+        "D": "Heat it to 212 °F, to drive moisture out of it"
       },
       "answer": "B",
       "explanation": "EPA lists the \"Need to heat oil to 130°F before removing it to minimize refrigerant release.\"",
@@ -872,12 +872,12 @@
     {
       "id": "t3-106",
       "topic": "Recharging",
-      "question": "A low-pressure chiller has been evacuated and is ready to be recharged. According to EPA's Type 3 test topics list, which should be introduced first, and why?",
+      "question": "A technician starts recharging an evacuated low-pressure chiller and is about to let liquid refrigerant in right away. Which risk and which order of charging do EPA's Type 3 test topics give?",
       "options": {
-        "A": "Liquid, to speed up the charge",
-        "B": "Liquid, to keep the purge unit from running",
-        "C": "Nitrogen, to dry the tubes before charging",
-        "D": "Vapor, to prevent freezing of water in the tubes"
+        "A": "Noncondensables may enter, so the chiller should be filled with nitrogen first",
+        "B": "The oil may be diluted, so liquid should go in only while the compressor runs",
+        "C": "Charging may be slow, so liquid should always go in before any vapor",
+        "D": "Water in the tubes may freeze, so vapor should go in before liquid"
       },
       "answer": "D",
       "explanation": "EPA's Type 3 recharging techniques include the \"Need to introduce vapor before liquid to prevent freezing of water in the tubes.\"",

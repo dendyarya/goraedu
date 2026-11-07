@@ -800,7 +800,7 @@
     {
       "id": "t1-101",
       "topic": "Recovery requirements",
-      "question": "A technician still uses a certified recovery machine manufactured in 1991 on a household freezer charged with HFC-134a whose compressor works. Unless the freezer is evacuated to four inches of mercury vacuum, how much of the refrigerant must be recovered under 40 CFR 82.156(b)?",
+      "question": "A recovery machine made in 1992 and certified under 40 CFR 82.158 is used on a household freezer charged with HFC-134a whose compressor works. The technician will recover a set share of the charge rather than evacuate the freezer to four inches of mercury vacuum. How much of the refrigerant must be recovered under 40 CFR 82.156(b)?",
       "options": {
         "A": "70 percent, because the compressor in the appliance is functioning",
         "B": "50 percent, because the machine was made before November 15, 1993",
@@ -836,7 +836,7 @@
     {
       "id": "t1-104",
       "topic": "Recovery techniques",
-      "question": "A dehumidifier charged with HFC-134a has a compressor that will not run, and the technician is recovering its refrigerant with a system-dependent (\"passive\") recovery device. Which method do EPA's Type I test topics give as an example for this situation?",
+      "question": "A dehumidifier charged with HFC-134a has an inoperative compressor, and the technician is recovering its refrigerant with a system-dependent (\"passive\") recovery device. Which method do EPA's Type I test topics give as an example for this situation?",
       "options": {
         "A": "Release the remaining refrigerant to the air once the device stops filling",
         "B": "Heat and sharply strike the compressor",
@@ -872,7 +872,7 @@
     {
       "id": "t1-106",
       "topic": "Recovery techniques",
-      "question": "A vending machine charged with HFC-134a has a compressor that will not start. The technician has fitted an access valve on the low side only and is about to begin recovering. According to EPA's Type I test topics, what is still needed?",
+      "question": "A vending machine charged with HFC-134a has a compressor that has failed. The technician has fitted an access valve on the low side only and is about to begin recovering. According to EPA's Type I test topics, what is still needed?",
       "options": {
         "A": "Nothing more, because one low side valve is enough when the compressor is inoperative",
         "B": "Removing the low side valve, because only a high side valve is used",
@@ -926,12 +926,12 @@
     {
       "id": "t1-109",
       "topic": "Recovery techniques",
-      "question": "An old household refrigerator's nameplate lists R-12 (CFC-12). Which refrigerant do EPA's Type I test topics name as the likely substitute for R-12?",
+      "question": "An R-12 (CFC-12) household refrigerator is being replaced, and the owner asks which refrigerant has likely taken R-12's place. Which answer, with its refrigerant family, matches EPA's Type I test topics?",
       "options": {
-        "A": "R-11",
-        "B": "R-114",
-        "C": "R-113",
-        "D": "R-134a (HFC-134a)"
+        "A": "R-11, a CFC",
+        "B": "R-114, a CFC",
+        "C": "R-113, a CFC",
+        "D": "R-134a, an HFC"
       },
       "answer": "D",
       "explanation": "The topics list \"Hydrofluorocarbon (HFC)-134a (also called R-134a) as likely substitute for chlorofluorocarbon (CFC)-12 (also called R-12).\" R-11, R-114 and R-113 are themselves CFCs: \"Commercial CFC production began with R-12 in early 1931, R-11 in 1932, R-114 in 1933, and R-113 in 1934.\"",
