@@ -1,10 +1,13 @@
-# Daily news run (scheduled, every morning at about 6:00 a.m. U.S. Eastern)
+# Daily news run (scheduled three times a day: about 5:40 a.m., 11:40 a.m. and 5:40 p.m. U.S. Eastern)
 
-Each run publishes, straight to `main` (a push to `main` goes live):
+The day's target is **8 to 10 posts** in total across the three runs. Each run publishes, straight to `main` (a push to
+`main` goes live):
 
 1. **Every official rule change** found since the last run for a certification on the roadmap (`kind: rule-change`).
    Most days that is 0 to 3. Never invent or stretch one to fill a quota; zero is a normal result.
-2. **Two explainers** (`kind: explainer`), each answering one practical question from official sources only.
+2. **Three or four explainers** (`kind: explainer`), each answering one practical question from official sources only,
+   so the day ends with 8 to 10 posts (rule changes plus explainers) and never more than 10 explainers. The target is a
+   ceiling, not a quota: a post that cannot be fully verified is not published, and a short day is logged, not padded.
 
 Everything in `CLAUDE.md` and `docs/news.md` applies. If any check below fails and cannot be fixed with certainty,
 publish nothing for that post (or `draft: true`) and say why in the log. Quality beats volume.
@@ -15,8 +18,9 @@ publish nothing for that post (or `draft: true`) and say why in the log. Quality
   `node_modules` is missing). `git checkout main && git pull --ff-only`.
 - Today's date is the U.S. Eastern date of the run. Use it as `published: YYYY-MM-DD` and as `checked` on sources.
 - Read `docs/news-log.md` (last run, what was covered, what was skipped) and list `content/news/`.
-- If `docs/news-log.md` already has an entry for today's date, this run publishes rule changes only (no new
-  explainers), so a day never gets more than two explainers.
+- Count today's posts: files in `content/news/` with `published:` today. This run's explainers =
+  `min(4, 10 - posts already published today)`, and at least 3 when that leaves room. If 10 posts are already out
+  today, this run publishes rule changes only.
 
 Network (as of 2026-11-07): www.ecfr.gov, www.federalregister.gov, www.epa.gov, www.osha.gov, www.faa.gov and
 www.nrc.gov are reachable from the shell. www.fmcsa.dot.gov refuses automated requests (its own "Access Denied"),
@@ -56,10 +60,12 @@ Use the topic name exactly as `lib/clusters.ts` shows it. Example query:
   holds only what the document states; "What this means for exam study" says plainly when the document does not
   mention the certification or its exam. No dollar penalty amounts, no predictions, no opinions.
 
-## 2. Two explainers
+## 2. Explainers (3 or 4 per run)
 
-- Pick two clusters with the fewest explainers so far (count `kind: explainer` per topic in `content/news/`); never two
-  on the same topic in one run. Choose one practical question per post that no existing post or page answers
+- Pick topics from the owner's keyword list in `docs/news-keywords.md` (mapped keywords only): take the keywords whose
+  topic has the fewest explainers so far (count `kind: explainer` per `topic` in `content/news/`), never two posts on
+  the same topic in one run and never more than two on one topic in a day. Use the keyword's topic, hub page and
+  official sources from that file; keywords marked "not on the roadmap" are never published. Choose one practical question per post that no existing post or page answers
   (check `content/news/`, the cluster's study guides and tools). Good shapes: "Do I need X to do Y?", "What happens
   when...", "How long is X valid", "What records must I keep for X" — answered from the official text.
 - Sources: eCFR (fetch the section from the eCFR API), the agency's own pages (epa.gov, osha.gov, faa.gov, fmcsa.dot.gov,

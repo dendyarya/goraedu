@@ -26,7 +26,8 @@ footer, trust pages) specific to one cluster.
 - News posts (`content/news/*.md`, guide in docs/news.md) are `kind: rule-change` (official proposed or final rule
   changes; always say which) or `kind: explainer` (evergreen articles built only from official sources), tagged with
   `topic` (cluster name), from the Federal Register, eCFR or the agency's own site. The daily schedule is in
-  docs/daily-news.md: all rule changes found plus 2 explainers a day, each fact-checked; never pad to a quota.
+  docs/daily-news.md: three runs a day, 8 to 10 posts in total (all rule changes found plus explainers on the keywords in
+  docs/news-keywords.md), each fact-checked; the target is a ceiling, never pad to a quota.
 - A cluster appears in menus and grids with its status until its overview page exists (no links to missing pages).
 
 ## Deploy
