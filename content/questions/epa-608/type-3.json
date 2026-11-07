@@ -172,12 +172,12 @@
       "topic": "Pressurizing for repairs",
       "question": "The oil-change provision lets oil be drained into a system receiver. How does the rule define a system receiver?",
       "options": {
-        "A": "The isolated portion of the appliance, or a specific vessel within it, used to hold the refrigerant charge during servicing or repair",
-        "B": "A purge unit mounted on a chiller",
-        "C": "A recovery cylinder outside the appliance",
-        "D": "A container for used oil sent to a reclaimer"
+        "A": "A purge unit mounted on a chiller",
+        "B": "A recovery cylinder outside the appliance",
+        "C": "A container for used oil sent to a reclaimer",
+        "D": "The isolated portion of the appliance, or a specific vessel within it, used to hold the refrigerant charge during servicing or repair"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "System receiver means \"the isolated portion of the appliance, or a specific vessel within the appliance, that is used to hold the refrigerant charge during the servicing or repair of that appliance.\" It is part of the appliance, not an external cylinder or oil container.",
       "source": {
         "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
@@ -802,12 +802,12 @@
       "topic": "Leak detection",
       "question": "A building engineer reports that the purge unit on a low-pressure chiller has been running far more than usual. What does EPA's Type 3 test topics list treat this as an example of?",
       "options": {
-        "A": "A sign of leakage into the low-pressure system",
-        "B": "Proof that all the liquid refrigerant has been recovered",
-        "C": "A sign that the oil has reached 130 °F",
-        "D": "Normal operation that needs no attention"
+        "A": "Proof that all the liquid refrigerant has been recovered",
+        "B": "A sign that the chiller is a high-pressure appliance",
+        "C": "Normal operation that needs no attention",
+        "D": "A sign of leakage into the low-pressure system"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "EPA's Type 3 leak detection topics include \"Signs of leakage into a low-pressure system (e.g., excessive purging).\"",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
@@ -856,12 +856,12 @@
       "topic": "Recovery techniques",
       "question": "A technician is evacuating refrigerant from a water chiller. What does EPA's Type 3 test topics list say must be done with the water in the chiller during the evacuation?",
       "options": {
-        "A": "Circulate it or remove it, to prevent freezing",
-        "B": "Leave it standing still in the tubes, to slow the recovery",
-        "C": "Heat it to 130 °F before the oil is drained",
-        "D": "Replace it with nitrogen, to pressurize the chiller"
+        "A": "Leave it standing still in the tubes, to slow the recovery",
+        "B": "Let it freeze in the tubes, to seal small leaks during the evacuation",
+        "C": "Replace it with nitrogen, to pressurize the chiller",
+        "D": "Circulate it or remove it, to prevent freezing"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "EPA lists the \"Need to circulate or remove water from chiller during refrigerant evacuation to prevent freezing.\"",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
@@ -890,7 +890,7 @@
     {
       "id": "t3-107",
       "topic": "Recharging",
-      "question": "Through which connection does EPA's Type 3 test topics list say a centrifugal chiller should be charged?",
+      "question": "A centrifugal chiller has been repaired and evacuated, and the technician is ready to put refrigerant back in. Through which connection do EPA's Type 3 test topics say centrifugals should be charged?",
       "options": {
         "A": "The purge unit vent",
         "B": "The evaporator charging valve",
@@ -908,15 +908,15 @@
     {
       "id": "t3-108",
       "topic": "Safety",
-      "question": "An equipment room houses an R-123 chiller. Which sensors does EPA's Type 3 test topics list name for this room under ASHRAE Standard 15?",
+      "question": "A low-pressure chiller charged with R-123 is housed in an equipment room. Under ASHRAE Standard 15, which sensor do EPA's Type 3 safety topics say the equipment room needs for R-123?",
       "options": {
-        "A": "No sensors, because R-123 systems run below atmospheric pressure",
-        "B": "Only a refrigerant sensor, because the oxygen deprivation sensor does not apply to R-123",
-        "C": "An oxygen deprivation sensor, which applies with all refrigerants, and an equipment room refrigerant sensor for R-123",
-        "D": "Only an oxygen deprivation sensor, because refrigerant sensors apply only to high-pressure refrigerants"
+        "A": "No sensor, because R-123 chillers run below atmospheric pressure",
+        "B": "An equipment room refrigerant sensor",
+        "C": "A carbon monoxide detector",
+        "D": "A water flow sensor on the chiller tubes"
       },
-      "answer": "C",
-      "explanation": "EPA lists \"Equipment room requirements under ASHRAE Standard 15 (oxygen deprivation sensor with all refrigerants)\" and, \"Under ASHRAE Standard 15, need to have equipment room refrigerant sensor for R-123.\"",
+      "answer": "B",
+      "explanation": "EPA's Type 3 safety topics state: \"Under ASHRAE Standard 15, need to have equipment room refrigerant sensor for R-123.\"",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
@@ -926,14 +926,14 @@
     {
       "id": "t3-109",
       "topic": "Leak repair",
-      "question": "A low-pressure chiller with a full charge of 50 or more pounds of a class I or class II refrigerant cools an industrial process, so it is industrial process refrigeration equipment. Above which leak rate must its owner repair it (or retrofit or retire it) under 40 CFR 82.157?",
+      "question": "A low-pressure chiller with a full charge of 50 or more pounds of a class I or class II refrigerant cools an industrial process, so it is industrial process refrigeration equipment. Which leak rate does 40 CFR 82.157(c)(2) set as the applicable leak rate for it?",
       "options": {
-        "A": "30 percent",
-        "B": "10 percent",
-        "C": "20 percent",
-        "D": "125 percent"
+        "A": "10 percent",
+        "B": "20 percent",
+        "C": "125 percent",
+        "D": "30 percent"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "40 CFR 82.157(c)(2) sets a \"30 percent leak rate for industrial process refrigeration equipment.\" The 20 percent rate is for commercial refrigeration equipment and the 10 percent rate for comfort cooling appliances or other appliances with a full charge of 50 or more pounds.",
       "source": {
         "title": "eCFR: 40 CFR 82.157, Appliance maintenance and leak repair (as of Nov 3, 2026)",

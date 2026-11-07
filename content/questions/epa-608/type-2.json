@@ -926,33 +926,15 @@
     {
       "id": "t2-101",
       "topic": "Leak detection",
-      "question": "A high-pressure system is not cooling as it should, and the technician takes readings. Which reading do EPA's Type 2 test topics list as a sign of leakage?",
+      "question": "A technician suspects that a high-pressure system with a hermetic compressor has been losing refrigerant. Which pair of signs of leakage do EPA's Type 2 test topics name for high-pressure systems?",
       "options": {
-        "A": "Higher-than-normal discharge pressure",
-        "B": "Lower-than-normal superheat",
-        "C": "Excessive superheat",
-        "D": "A rise in condenser airflow"
-      },
-      "answer": "C",
-      "explanation": "EPA's Type 2 leak detection topics list \"Signs of leakage in high-pressure systems (excessive superheat, traces of oil for hermetics)\". Excessive superheat is the reading named; none of the others is listed.",
-      "source": {
-        "title": "EPA: Section 608 Technician Certification Test Topics",
-        "url": "https://www.epa.gov/section608/test-topics"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t2-102",
-      "topic": "Leak detection",
-      "question": "A technician inspects the tubing and fittings of a high-pressure system with a hermetic compressor. Which visible sign of leakage do EPA's Type 2 test topics name for hermetics?",
-      "options": {
-        "A": "Traces of oil",
-        "B": "A clean, dry compressor shell and tubing",
-        "C": "Faded paint on the cabinet",
-        "D": "Dust on the condenser coil"
+        "A": "Excessive superheat, and traces of oil for hermetics",
+        "B": "Very low superheat, and frost on the compressor shell",
+        "C": "Higher-than-normal discharge pressure, and a clean, dry compressor shell",
+        "D": "A rise in condenser airflow, and faded paint on the cabinet"
       },
       "answer": "A",
-      "explanation": "EPA's Type 2 topics list \"Signs of leakage in high-pressure systems (excessive superheat, traces of oil for hermetics)\". For hermetic systems, the sign named is traces of oil.",
+      "explanation": "EPA's Type 2 leak detection topics list \"Signs of leakage in high-pressure systems (excessive superheat, traces of oil for hermetics)\". None of the other signs is listed.",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
@@ -962,15 +944,15 @@
     {
       "id": "t2-103",
       "topic": "Leak detection",
-      "question": "A technician has finished a repair on a high-pressure rooftop unit and is ready to put refrigerant back in. When do EPA's Type 2 test topics say the equipment must be leak tested?",
+      "question": "A technician has finished installing a new high-pressure split system and is about to put in its first refrigerant charge. According to EPA's Type 2 test topics, what comes before charging the equipment?",
       "options": {
-        "A": "Only after the full charge has been added",
-        "B": "Only when the unit is being disposed of",
-        "C": "Only after the unit has run for 24 hours on its new charge",
-        "D": "Before charging or recharging the equipment"
+        "A": "A leak test",
+        "B": "Running the system for 24 hours on a partial charge",
+        "C": "Releasing a small amount of refrigerant to purge the lines",
+        "D": "Nothing, because leak tests are needed only on equipment that has been repaired"
       },
-      "answer": "D",
-      "explanation": "EPA's Type 2 leak detection topics list the \"Need to leak test before charging or recharging equipment\". The leak test comes first, then the charge.",
+      "answer": "A",
+      "explanation": "EPA's Type 2 leak detection topics list the \"Need to leak test before charging or recharging equipment\". The point covers charging new equipment as well as recharging repaired equipment.",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
@@ -1016,15 +998,15 @@
     {
       "id": "t2-106",
       "topic": "Recovery practices",
-      "question": "Besides recovering liquid first, which methods for speeding recovery do EPA's Type 2 test topics name?",
+      "question": "A recovery from a high-pressure appliance is running slower than the technician would like. Which combination of temperature changes do EPA's Type 2 test topics list as methods for speeding recovery?",
       "options": {
-        "A": "Heating the recovery vessel and chilling the appliance",
-        "B": "Recovering vapor before liquid",
-        "C": "Using longer, narrower hoses between the appliance and the machine",
-        "D": "Chilling the recovery vessel, and heating the appliance or vessel the refrigerant is being recovered from"
+        "A": "Heat the recovery vessel, and chill the appliance the refrigerant is being recovered from",
+        "B": "Heat both the recovery vessel and the appliance",
+        "C": "Chill the recovery vessel, and heat the appliance the refrigerant is being recovered from",
+        "D": "Chill both the recovery vessel and the appliance"
       },
-      "answer": "D",
-      "explanation": "EPA's Type 2 topics list \"Other methods for speeding recovery (chilling recovery vessel, heating appliance or vessel from which refrigerant is being recovered)\". The vessel receiving refrigerant is chilled and the source is heated, not the other way around.",
+      "answer": "C",
+      "explanation": "EPA's Type 2 topics list \"Other methods for speeding recovery (chilling recovery vessel, heating appliance or vessel from which refrigerant is being recovered)\". The vessel that receives the refrigerant is chilled and the source is heated, not the other way around.",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
@@ -1082,24 +1064,6 @@
       "source": {
         "title": "EPA fact sheet: Residential Air Conditioning and the Phaseout of HCFC-22, What You Need to Know",
         "url": "https://www.epa.gov/sites/default/files/2020-03/documents/residential_air_conditioning_and_the_phaseout_of_hcfc-22_what_you_need_to_know_final_508.pdf"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t2-110",
-      "topic": "Refrigeration",
-      "question": "An owner asks a technician to convert an existing high-pressure system to a hydrocarbon refrigerant. Which idea do EPA's Type 2 test topics state?",
-      "options": {
-        "A": "Hydrocarbons are approved for retrofits once the oil is changed",
-        "B": "Hydrocarbons are not approved for retrofits",
-        "C": "Hydrocarbons are approved for retrofits of systems under 50 pounds",
-        "D": "Hydrocarbons are the preferred retrofit refrigerant for R-22 systems"
-      },
-      "answer": "B",
-      "explanation": "EPA's Type 2 refrigeration topics list \"The idea that hydrocarbons are not approved for retrofits\".",
-      "source": {
-        "title": "EPA: Section 608 Technician Certification Test Topics",
-        "url": "https://www.epa.gov/section608/test-topics"
       },
       "checked": "2026-11-06"
     },

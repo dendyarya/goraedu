@@ -800,36 +800,18 @@
     {
       "id": "t1-101",
       "topic": "Recovery requirements",
-      "question": "A technician still uses a recovery machine manufactured in 1991 on a household freezer charged with HFC-134a whose compressor works. Unless the freezer is evacuated to four inches of mercury vacuum, how much of the refrigerant must be recovered under 40 CFR 82.156(b)?",
+      "question": "A technician still uses a certified recovery machine manufactured in 1991 on a household freezer charged with HFC-134a whose compressor works. Unless the freezer is evacuated to four inches of mercury vacuum, how much of the refrigerant must be recovered under 40 CFR 82.156(b)?",
       "options": {
-        "A": "90 percent, because the compressor in the appliance is functioning",
-        "B": "100 percent, because older machines get no allowance",
+        "A": "70 percent, because the compressor in the appliance is functioning",
+        "B": "50 percent, because the machine was made before November 15, 1993",
         "C": "80 percent of the refrigerant in the small appliance",
         "D": "No set amount, because machines built before 1993 are exempt from the recovery requirement"
       },
       "answer": "C",
-      "explanation": "When using recovery equipment manufactured before November 15, 1993, the rule says to \"recover 80 percent of the refrigerant in the small appliance,\" with no condition about the compressor. The 90 percent level applies only \"When using recovery equipment manufactured on or after November 15, 1993\" and the compressor is functioning.",
+      "explanation": "When using recovery equipment manufactured before November 15, 1993, the rule says to \"recover 80 percent of the refrigerant in the small appliance,\" with no condition about the compressor. The only other choice it gives is to \"Evacuate the appliance to four inches of mercury vacuum\"; it sets no lower percentage and no exemption for older machines.",
       "source": {
         "title": "eCFR: 40 CFR 82.156, Proper evacuation of refrigerant from appliances (as of Nov 3, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156"
-      },
-      "checked": "2026-11-06"
-    },
-    {
-      "id": "t1-102",
-      "topic": "Definitions",
-      "question": "Under 40 CFR 82.152, what is system-dependent recovery equipment?",
-      "options": {
-        "A": "Refrigerant recovery equipment that requires the assistance of components contained in an appliance to remove the refrigerant from the appliance",
-        "B": "Recovery equipment capable of removing the refrigerant from an appliance without the assistance of components contained in the appliance",
-        "C": "Equipment that reprocesses recovered refrigerant to all of the specifications in appendix A",
-        "D": "A length of tubing that provides access to the refrigerant inside a small appliance"
-      },
-      "answer": "A",
-      "explanation": "System-dependent recovery equipment \"requires the assistance of components contained in an appliance to remove the refrigerant from the appliance.\" Equipment that works \"without the assistance of components contained in the appliance\" is self-contained recovery equipment.",
-      "source": {
-        "title": "eCFR: 40 CFR 82.152, Definitions (as of Nov 3, 2026)",
-        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152"
       },
       "checked": "2026-11-06"
     },
@@ -890,15 +872,15 @@
     {
       "id": "t1-106",
       "topic": "Recovery techniques",
-      "question": "A technician will recover refrigerant from a vending machine charged with HFC-134a whose compressor is inoperative. According to EPA's Type I test topics, which access valves need to be installed?",
+      "question": "A vending machine charged with HFC-134a has a compressor that will not start. The technician has fitted an access valve on the low side only and is about to begin recovering. According to EPA's Type I test topics, what is still needed?",
       "options": {
-        "A": "Only a low side access valve",
-        "B": "Only a high side access valve",
-        "C": "No access valve, because the refrigerant can be released through the process stub",
-        "D": "Both high and low side access valves"
+        "A": "Nothing more, because one low side valve is enough when the compressor is inoperative",
+        "B": "Removing the low side valve, because only a high side valve is used",
+        "C": "An access valve on the high side as well, so both sides have one",
+        "D": "Releasing the high side refrigerant to the air before recovery starts"
       },
-      "answer": "D",
-      "explanation": "EPA's Type I topics list the \"Need to install both high and low side access valves when recovering refrigerant from small appliances with inoperative compressors.\" Installing only one of them falls short of that.",
+      "answer": "C",
+      "explanation": "EPA's Type I topics list the \"Need to install both high and low side access valves when recovering refrigerant from small appliances with inoperative compressors.\" A low side valve alone falls short of that, and the Core topics list the \"Venting prohibition at servicing.\"",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
@@ -926,15 +908,15 @@
     {
       "id": "t1-108",
       "topic": "Recovery techniques",
-      "question": "To recover refrigerant from a window air conditioner, a technician attached a solderless access fitting to its tubing. The service is now finished. What do EPA's Type I test topics say about that fitting?",
+      "question": "A technician has finished recovering refrigerant from a window air conditioner and is wrapping up the service call. Which item do EPA's Type I test topics say should be removed at the conclusion of service?",
       "options": {
-        "A": "Leave it on as a permanent service port",
-        "B": "Remove it at the conclusion of service",
-        "C": "Leave it on until the next time the appliance is serviced",
-        "D": "Leave it on whenever the appliance holds five pounds or less of refrigerant"
+        "A": "The appliance's process stub",
+        "B": "The nameplate that identifies the refrigerant",
+        "C": "The solderless access fittings",
+        "D": "The appliance's compressor oil"
       },
-      "answer": "B",
-      "explanation": "EPA's Type I recovery-technique topics state that the technician \"Should remove solderless access fittings at conclusion of service.\" Leaving the fitting on is the opposite of that point.",
+      "answer": "C",
+      "explanation": "EPA's Type I recovery-technique topics state that the technician \"Should remove solderless access fittings at conclusion of service.\" A process stub, by contrast, is tubing \"that can be resealed at the conclusion of repair or service.\"",
       "source": {
         "title": "EPA: Section 608 Technician Certification Test Topics",
         "url": "https://www.epa.gov/section608/test-topics"
