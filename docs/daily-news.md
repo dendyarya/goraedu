@@ -22,9 +22,10 @@ publish nothing for that post (or `draft: true`) and say why in the log. Quality
   `min(4, 10 - posts already published today)`, and at least 3 when that leaves room. If 10 posts are already out
   today, this run publishes rule changes only.
 
-Network (as of 2026-11-07): www.ecfr.gov, www.federalregister.gov, www.epa.gov, www.osha.gov, www.faa.gov and
-www.nrc.gov are reachable from the shell. www.fmcsa.dot.gov refuses automated requests (its own "Access Denied"),
-so CDL posts use eCFR (49 CFR) and the Federal Register only.
+Network (as of 2026-11-08): www.ecfr.gov, www.federalregister.gov (API and full-text pages), www.govinfo.gov,
+www.epa.gov, www.faa.gov and www.nrc.gov are reachable from the shell. www.fmcsa.dot.gov refuses automated requests
+(its own "Access Denied"), so CDL posts use eCFR (49 CFR) and the Federal Register only. www.osha.gov also refuses
+the shell (its own CloudFront "Request blocked" 403, not the proxy), so OSHA posts use eCFR (29 CFR 1910, 1926).
 
 ## 1. Rule changes
 
