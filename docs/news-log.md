@@ -63,3 +63,27 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
   removals (fmcsa.dot.gov refuses the shell).
 - Federal Register full-text pages (federalregister.gov/documents/full_text/...) return a "Request Access" page to
   the shell; the API and govinfo.gov work.
+
+## 2026-11-08 (second scheduled run, started 12:39 p.m. ET, published about 5:30 p.m. ET)
+
+- No posts were published earlier today and no first-run entry exists for 2026-11-08 (the 5:40 a.m. run left no
+  log entry or commit), so this run took the full cap of 4 explainers.
+- Published (4 explainers; day total 4): `part-107-remote-pilot-certificate-or-trust-recreational-drone`
+  (explainer, FAA Part 107; faa.gov and eCFR 14 CFR 107.1, 107.12, 107.65);
+  `aws-certified-welder-certification-continuity-every-six-months` (explainer, Welding certification; aws.org program
+  page only); `nabcep-pv-installation-professional-recertification-every-three-years` (explainer, Solar PV
+  certification; nabcep.org pages only); `osha-qualified-person-electrical-work-vs-electrician-license` (explainer,
+  Electrician licensing; eCFR 29 CFR 1910.332, 1910.333, 1910.399, 1926.32, 1926.449; no state rules). Topics chosen
+  from keywords with zero explainers. Each checked by a separate agent against the official text; all findings fixed
+  before publishing (FAA: registration threshold is recreational-only, Part 91 "under waiver", 107.12 exceptions kept;
+  AWS: two quotes completed, opinions removed; NABCEP: industry-activity options and employer letter restated exactly;
+  OSHA: scope of 1910.332(a) and 1910.333(c)(1) added, construction definition kept separate, no claim about state
+  licensing law). Deploy workflow succeeded.
+- Rule changes: none. Federal Register search (RULE and PRORULE, published 2026-11-07 or later) for every CFR part in
+  docs/daily-news.md plus 40 CFR 143 returned no documents (weekend); sanity check (40 CFR 84 from 2026-05-01)
+  returned the two May 26, 2026 HFC documents. The backlog listed on 2026-11-07 (extra run) is still not covered.
+- Considered and dropped: wastewater operator (no epa.gov page on operator certification; the CFR study guides
+  already cover the 40 CFR 133/403/503 questions); forklift (1910.178 fully covered by study guides).
+- Note: the electrician post overlaps the OSHA electrical study guides in its quotes; its new angle is license versus
+  OSHA "qualified person". aws.org and nabcep.org were read through the web-fetch agent (they refuse the shell).
+- Unreachable: www.goraedu.com from the shell (proxy refuses it), so the live pages were not fetched after deploy.
