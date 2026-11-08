@@ -42,3 +42,24 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Unreachable: www.osha.gov (403 from the shell); Federal Register full-text pages
   (redirect to unblock.federalregister.gov, refused by the proxy; the API itself works); www.govinfo.gov (refused).
   The 1999 operator certification guidelines were therefore cited only through EPA's own pages.
+
+## 2026-11-07 (extra run, requested by the owner, about 8 p.m. ET)
+
+- The owner asked for a news search on the keyword list and for news posts. Leads came from a web search; every post
+  is built only from the Federal Register document (full text via govinfo.gov) and eCFR. These rules predate the
+  news section, so earlier runs ("since the last run") did not pick them up.
+- Published (4 rule changes; day total 10, the daily ceiling):
+  `fmcsa-final-rule-removes-cdl-self-reporting-out-of-state-convictions` (rule-change, final, CDL; FR 2026-12449);
+  `fmcsa-proposes-english-proficiency-out-of-service-rule` (rule-change, proposed, CDL; FR 2026-16288);
+  `faa-proposes-inspection-rating-to-replace-mechanic-inspection-authorization` (rule-change, proposed, FAA A&P
+  mechanic; FR 2026-13282); `osha-reopens-comment-on-respirator-medical-evaluation-proposal` (rule-change, proposed,
+  OSHA general industry safety; FR 2026-11093 and 2025-12235). Each checked by a separate agent; all findings fixed.
+- Not yet covered (for later runs, within the daily ceiling): OSHA proposed rules of July 22 and 28, 2026 on
+  substance-specific standards (lead, asbestos, benzene and others, 29 CFR 1910/1926); UCMR 6 proposal (July 1, 2026,
+  40 CFR 141); FAA fixed-site drone restriction comment extension (June 30, 2026); NRC radiation protection proposal
+  (July 15, 2026, 10 CFR 34); FMCSA non-domiciled CDL and military exception final rules (February 2026); EPA SNAP
+  supplemental proposal for MVAC (April 6, 2026, 40 CFR 82).
+- Leads with no official document yet: FAA Part 108 (BVLOS) final rule; OSHA heat standard; FMCSA ELDT provider
+  removals (fmcsa.dot.gov refuses the shell).
+- Federal Register full-text pages (federalregister.gov/documents/full_text/...) return a "Request Access" page to
+  the shell; the API and govinfo.gov work.
