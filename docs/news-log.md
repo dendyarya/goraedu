@@ -87,3 +87,28 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Note: the electrician post overlaps the OSHA electrical study guides in its quotes; its new angle is license versus
   OSHA "qualified person". aws.org and nabcep.org were read through the web-fetch agent (they refuse the shell).
 - Unreachable: www.goraedu.com from the shell (proxy refuses it), so the live pages were not fetched after deploy.
+
+## 2026-11-10 (second scheduled run, started 12:43 p.m. ET)
+
+- No posts were published earlier today and no first-run entry exists for 2026-11-10 (no runs logged on 2026-11-09
+  either), so this run had room for 4 explainers. It published 2.
+- Published (2 explainers; day total 2): `how-long-is-ase-certification-valid-recertification` (explainer, ASE
+  automotive certification; ase.com pages only, plus eCFR 40 CFR 82.34 for the EPA 609 contrast);
+  `texas-home-inspector-license-levels-apprentice-real-estate-professional` (explainer, Home inspector licensing; Texas
+  only, trec.texas.gov pages only). Topics chosen from keywords with zero explainers. Each checked by a separate agent
+  against the official pages; findings fixed (ASE: summary no longer calls every recertification test "shorter" and
+  keeps the Renewal App limited to A1 to A9; one quote completed. TREC: sponsorship quote scoped to active renewal,
+  "state by state" sentence aligned with lib/clusters.ts, CE timing added). Deploy workflow succeeded.
+- Rule changes: none. Federal Register search (RULE and PRORULE, published 2026-11-08 or later) for every CFR part in
+  docs/daily-news.md plus 40 CFR 143 returned no documents; the API itself returned other agencies' rules for
+  2026-11-09/10. Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents. The backlog
+  listed on 2026-11-07 (extra run) is still not covered.
+- Considered and dropped: Plumbing licensing (Texas homestead exemption, Occupations Code 1301.051): the official
+  statute (statutes.capitol.texas.gov) and tsbpe.texas.gov home page could not be read, so only the board's own
+  "UNOFFICIAL VERSION" PDF of September 2025 was available and the license requirement (1301.351) and the board's
+  current status could not be confirmed verbatim. Wastewater operator and Forklift operator: still no question not
+  already answered by the study guides. Candidate questions for CDL (CLP, 383.25), EPA 609 (small cans) and OSHA
+  construction (toilets, 1926.51) are already covered by guides and topic pages.
+- Unreachable from the shell: trec.texas.gov, tsbpe.texas.gov and statutes.capitol.texas.gov (read through the
+  web-fetch agent where possible; statutes.capitol.texas.gov and tsbpe.texas.gov failed there too); ase.com (read
+  through the web-fetch agent).
