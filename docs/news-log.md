@@ -112,3 +112,29 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Unreachable from the shell: trec.texas.gov, tsbpe.texas.gov and statutes.capitol.texas.gov (read through the
   web-fetch agent where possible; statutes.capitol.texas.gov and tsbpe.texas.gov failed there too); ase.com (read
   through the web-fetch agent).
+
+## 2026-11-10 (third scheduled run, started 6:40 p.m. ET)
+
+- 2 posts were already out today (second run), so this run had room for 4 explainers. It published 3.
+- Published (3 explainers; day total 5): `washington-plumber-trainee-certificate-supervision-hours` (explainer, Plumbing
+  licensing; Washington only, lni.wa.gov pages only); `washington-electrical-trainee-certificate-hours-that-count`
+  (explainer, Electrician licensing; Washington only, lni.wa.gov pages only);
+  `aws-certified-welding-inspector-cwi-renewal-nine-year-recertification` (explainer, Welding certification; aws.org
+  CWI page only; AWS's 2013 nine-year recertification PDF was read but not used because it predates the current page).
+  Plumbing licensing was the only mapped keyword with zero explainers that could be answered; Electrician and Welding
+  had one each and none today. Each checked by a separate agent against the official pages; findings fixed (plumbing:
+  page names corrected to "Plumber Certification" and "About the Plumber Program", "notarized" moved out of a quote,
+  one period moved outside a quote, summary says "typically"; electrical: "stricter" removed, the apprenticeship
+  exception to the 180-day affidavit deadline added; AWS: comma restored in the Part B quote, truncated PDH quote fixed,
+  fourth option (endorsement) named, OSHA links pointed to the welding study guides). Deploy workflow succeeded.
+- Rule changes: none. Federal Register search (RULE and PRORULE, published 2026-11-10 or later) for every CFR part in
+  docs/daily-news.md plus 40 CFR 143 returned no documents; the API returned 108 other documents for that window.
+  Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents. The backlog listed on
+  2026-11-07 (extra run) is still not covered.
+- Considered and dropped: Forklift operator and Wastewater operator (zero explainers, but 1910.178 and the
+  40 CFR 133/403/503 questions are fully covered by the study guides); CDL, OSHA construction (competent person,
+  1926.20) and OSHA general industry welding permits are already covered by guides. A fourth explainer was not written
+  so as not to publish a less-verified post; the day ends at 5 posts, below the 8 to 10 target (a ceiling, not a quota).
+- Unreachable from the shell: lni.wa.gov, app.leg.wa.gov (proxy refuses them) and aws.org; L&I and AWS pages were read
+  through the web-fetch agent, which returns only short verbatim quotes (each quote in the posts was confirmed by the
+  checking agents). The L&I trainee pages carry 2021 page-modified dates.
