@@ -15,6 +15,22 @@ News covers official changes that affect any certification on the roadmap
 (`lib/clusters.ts`): EPA 608 and 609, CDL, OSHA, FAA Part 107 and the rest as they launch. Every post follows the
 accuracy principles in `CLAUDE.md`: only what an official source states, with links and check dates.
 
+## Post from the CMS (https://www.goraedu.com/admin/)
+
+The CMS (Sveltia CMS, `public/admin/`) is a form for news posts. **Save** commits the post to `main` on GitHub; the
+normal checks and deploy run, and the post is live about 3 minutes later. A post that breaks a rule in `lib/news.ts`
+(missing source, image under 1200 px wide, bad date) fails the build and does not go live; GitHub e-mails the
+failure and the run shows the reason under **Actions**.
+
+- Sign in: **Sign In Using Access Token** with a GitHub fine-grained personal access token that only you hold:
+  github.com → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token;
+  Repository access: only `dendyarya/goraedu`; Permissions → Repository permissions → **Contents: Read and write**
+  (Metadata: Read-only is added automatically); expiry 90 days. The token stays in that browser only. Never put it in the
+  repo, in chat or anywhere else. Revoke it on GitHub if a device is lost.
+- Posts cannot be deleted from the CMS (URLs never change); tick **Draft** to take one off the site.
+- The page needs the `location /admin/` block of `deploy/nginx/goraedu.com.conf` on the server (its own CSP).
+- Everything below about what a post may say applies to CMS posts too.
+
 ## Add a post (on GitHub, no computer needed)
 
 1. Open https://github.com/dendyarya/goraedu/tree/main/content/news and choose **Add file → Create new file**.

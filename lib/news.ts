@@ -88,7 +88,9 @@ function load(file: string): NewsPost | null {
     if (!DATE.test(checked)) fail(file, `sources[${i}].checked must be YYYY-MM-DD`);
     return { title: t, url, checked };
   });
-  const image = data.image ? loadImage(file, data.image) : undefined;
+  // The CMS can leave an empty image block behind when no image was chosen: treat it as no image.
+  const rawImage = data.image as Record<string, unknown> | undefined;
+  const image = rawImage && str(rawImage.src) ? loadImage(file, rawImage) : undefined;
   return { slug, kind, title, topic, summary, published, updated, image, sources, body: content.trim() };
 }
 

@@ -1,0 +1,185 @@
+# Sveltia CMS for goraedu news posts (https://www.goraedu.com/admin/). Each save is a commit to main on GitHub, which
+# runs the same checks and deploy as any other push. lib/news.ts validates every post: a post with a missing or
+# wrong field fails the build and does not go live. Rules for what a post may say: docs/news.md and CLAUDE.md.
+backend:
+  name: github
+  repo: dendyarya/goraedu
+  branch: main
+  auth_methods: [token]
+  commit_messages:
+    create: "News: add {{slug}} (CMS)"
+    update: "News: update {{slug}} (CMS)"
+    delete: "News: delete {{slug}} (CMS)"
+    uploadMedia: "News image: {{path}} (CMS)"
+    deleteMedia: "News image: delete {{path}} (CMS)"
+
+app_title: goraedu CMS
+site_url: https://www.goraedu.com
+display_url: https://www.goraedu.com
+
+media_folder: public/news
+public_folder: /news
+media_libraries:
+  default:
+    config:
+      slugify_filename: true
+      max_file_size: 8000000
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 1600
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  maxlength: 80
+
+output:
+  omit_empty_optional_fields: true
+  yaml:
+    quote: double
+
+collections:
+  - name: news
+    label: News
+    label_singular: Post
+    description: >-
+      Official rule changes and explainers. Every fact must come from an official source (eCFR, Federal Register, the
+      agency's own site), with the source listed below. Never copy exam questions or other sites. No dollar penalty
+      amounts. A post goes live about 3 minutes after Save.
+    folder: content/news
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    delete: false
+    identifier_field: title
+    slug:
+      template: "{{title}}"
+      editable: [create]
+      pattern: ["^[a-z0-9]+(-[a-z0-9]+)*$", "Lowercase letters, numbers and single hyphens only"]
+      hint: The address of the post (www.goraedu.com/news/your-slug/). It can never change after publishing.
+    summary: "{{title}} ({{published}})"
+    sortable_fields: [published, title, topic]
+    fields:
+      - name: title
+        label: Title
+        widget: string
+        minlength: 20
+        maxlength: 110
+        hint: Plain and specific, e.g. "EPA Proposes ..." or a question the post answers. A rule change says "proposed" or "final".
+      - name: kind
+        label: Kind
+        widget: select
+        default: explainer
+        options:
+          - { label: "Explainer (evergreen, from official sources)", value: explainer }
+          - { label: "Rule change (an official proposed or final rule)", value: rule-change }
+      - name: topic
+        label: Certification
+        widget: select
+        options:
+          - EPA 608
+          - EPA 609
+          - CDL
+          - Forklift operator
+          - ASE automotive certification
+          - OSHA construction safety
+          - OSHA general industry safety
+          - OSHA crane operator
+          - Drinking water operator
+          - Wastewater operator
+          - Lead-safe renovator (RRP)
+          - Asbestos
+          - Electrician licensing
+          - Plumbing licensing
+          - Welding certification
+          - Solar PV certification
+          - Home inspector licensing
+          - Pesticide applicator
+          - Industrial radiography
+          - FAA Part 107
+          - FAA A&P mechanic
+      - name: summary
+        label: Summary (meta description)
+        widget: text
+        minlength: 70
+        maxlength: 160
+        hint: One or two sentences shown on Google and on the news list. 70 to 160 characters.
+      - name: published
+        label: Published
+        widget: datetime
+        type: date
+        format: YYYY-MM-DD
+        default: "{{now}}"
+        hint: The date the post first goes live. Leave it when correcting a post; use "Updated" instead.
+      - name: updated
+        label: Updated
+        widget: datetime
+        type: date
+        format: YYYY-MM-DD
+        required: false
+        hint: Only when you correct a published post. Also log the fix on /corrections/.
+      - name: draft
+        label: Draft (keep off the site)
+        widget: boolean
+        default: false
+        required: false
+      - name: image
+        label: Lead image
+        widget: object
+        required: false
+        collapsed: auto
+        hint: Optional. At least 1200 px wide (1600 x 900 is ideal); it is saved as WebP. Only our own work, U.S. government works or a license that allows commercial use.
+        fields:
+          - { name: src, label: Image, widget: image, choose_url: false }
+          - name: alt
+            label: Alt text
+            widget: string
+            minlength: 10
+            maxlength: 200
+            hint: What the image shows, for people who cannot see it.
+          - {
+              name: credit,
+              label: Credit,
+              widget: string,
+              default: goraedu,
+              hint: "Who made it, e.g. goraedu or U.S. EPA",
+            }
+          - name: license
+            label: License
+            widget: select
+            default: Own work
+            options:
+              - Own work
+              - Public domain (U.S. government work)
+              - CC0
+              - CC BY 4.0
+              - Unsplash License
+              - Pexels License
+          - name: url
+            label: Image source page
+            widget: string
+            type: url
+            required: false
+            pattern: ["^https://", "Must start with https://"]
+            hint: Required unless the license is "Own work".
+      - name: sources
+        label: Official sources
+        label_singular: source
+        widget: list
+        min: 1
+        hint: Every fact in the post must come from one of these. Federal Register, eCFR, govinfo.gov or the agency's own site.
+        fields:
+          - { name: title, label: Title, widget: string, hint: 'e.g. "eCFR: 40 CFR 82.161 (Technician certification)"' }
+          - name: url
+            label: URL
+            widget: string
+            type: url
+            pattern: ["^https://", "Must start with https://"]
+          - { name: checked, label: Checked on, widget: datetime, type: date, format: YYYY-MM-DD, default: "{{now}}" }
+      - name: body
+        label: Article
+        widget: markdown
+        editor_components: [table]
+        hint: 500 to 900 words. Headings that answer questions. Quote key words exactly, in quotation marks, with the section named.
