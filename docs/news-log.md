@@ -188,3 +188,34 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
   less-verified post; Forklift operator and Wastewater operator still fully covered by the study guides.
 - Unreachable: none needed this run (eCFR API, federalregister.gov API and epa.gov all reached from the shell; eCFR
   HTML pages redirect the shell to unblock.federalregister.gov, so the versioner API was used).
+
+## 2026-11-11 (third scheduled run, started 6:39 p.m. ET)
+
+- 6 posts were already out today (first and second runs), so this run had room for 4 explainers. It published 4; the
+  day ends at 10 posts, the ceiling.
+- Published (4 explainers; day total 10): `epa-disposable-refrigerant-cylinder-heel-rule-2028` (explainer, EPA 608;
+  eCFR 40 CFR 84.116, 84.102, 84.3 and FR 2024-21967 via govinfo; not covered by any EPA 608 guide or topic page);
+  `minnesota-journeyworker-plumber-license-experience-hours-exam` (explainer, Plumbing licensing; Minnesota only,
+  dli.mn.gov pages only); `nabcep-pv-installation-professional-exam-eligibility-requirements` (explainer, Solar PV
+  certification; NABCEP 2025 Certification Handbook and nabcep.org pages; nabcep.org links both the 2025 handbook
+  (for PVIP eligibility) and a 2023 handbook, whose PVIP eligibility rules agree; new angle on eligibility, the earlier
+  post covers recertification); `oregon-general-journeyman-electrician-license-experience-and-exam` (explainer,
+  Electrician licensing; Oregon only, oregon.gov/bcd page and the state License Directory on apps.oregon.gov).
+  Drafts for Minnesota, NABCEP and Oregon were written by separate agents; each of the four posts was checked by another
+  separate agent against the official text; findings fixed (EPA: summary tense "still contains", 84.116(d) limited to
+  the four (b) recipients, (c)(1) ignitability condition added, small-can exemption scoped to MVAC; Minnesota: the
+  basics page's differing restricted-license route (restricted master plus five years) now stated alongside the
+  experience page's two-year route, readers told to confirm with DLI; NABCEP: "private" removed (handbook says
+  "non-profit credentialing organization"), inspection rule attributed to Section 3.4.2 with its no-permit context;
+  Oregon: unsourced "set by each state (and city)" sentence removed, BCD application steps marked as general to
+  electrical individual licenses). Deploy workflow succeeded.
+- Rule changes: none. Federal Register search (RULE and PRORULE, published 2026-11-11 or later) for every CFR part in
+  docs/daily-news.md plus 40 CFR 143 returned no documents; the API returned 124 other documents for that window.
+  Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents (note: 2026-10388, the TRU
+  leak-repair exclusion, is a proposed rule). The backlog listed on 2026-11-07 (extra run) is still not covered.
+- Considered and dropped: FAA Part 107 and EPA 609 (one explainer each, but every candidate question, including
+  registration transfer, FRIAs, Remote ID and small cans, is covered by the study guides and topic pages); Forklift
+  operator and Wastewater operator still fully covered by the study guides.
+- Unreachable from the shell: dli.mn.gov, oregon.gov, apps.oregon.gov and nabcep.org (and every state board tried);
+  read through WebFetch, which returns quotes in pieces of about 125 characters; checking agents re-fetched and
+  confirmed each quote.
