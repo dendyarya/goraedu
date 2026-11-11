@@ -138,3 +138,29 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Unreachable from the shell: lni.wa.gov, app.leg.wa.gov (proxy refuses them) and aws.org; L&I and AWS pages were read
   through the web-fetch agent, which returns only short verbatim quotes (each quote in the posts was confirmed by the
   checking agents). The L&I trainee pages carry 2021 page-modified dates.
+
+## 2026-11-11 (first scheduled run, started 5:40 a.m. ET)
+
+- No posts were out today yet, so this run had room for 4 explainers. It published 3.
+- Published (3 explainers; day total 3): `does-osha-require-restrooms-drinking-water-at-work` (explainer, OSHA general
+  industry safety; eCFR 29 CFR 1910.141, not covered by any OSHA general industry study guide);
+  `new-york-home-inspector-license-140-hour-course-or-100-inspections` (explainer, Home inspector licensing; New York
+  only, dos.ny.gov pages only); `can-school-or-training-count-toward-ase-work-experience` (explainer, ASE automotive
+  certification; ase.com work experience page and workexp.ase.com form instructions only; new angle on training
+  substitutes, linked to the 2026-11-10 ASE post). Each checked by a separate agent against the official text; findings
+  fixed (OSHA: three periods moved outside quotes, mobile-crew exception limited to (c)(1)(i), "unless otherwise
+  specified" restored, unsourced Part 1926 sentence removed; NY: architect/engineer exemption attributed to the right
+  FAQ answer, renewal quote attributed to the Become page, new-construction exclusion added, four periods moved outside
+  quotes, "40 hours" wording softened; ASE: full "cannot be combined" sentence quoted, row and test-list text matched,
+  "private, non-government" claim cut to "not a government agency", experience-must-match note added). Deploy workflow
+  succeeded.
+- Rule changes: none. Federal Register search (RULE and PRORULE, published 2026-11-10 or later) for every CFR part in
+  docs/daily-news.md plus 40 CFR 143 returned no documents (November 11 is a federal holiday); the API returned 232
+  other documents for that window. Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC
+  documents. The backlog listed on 2026-11-07 (extra run) is still not covered.
+- Considered and dropped: Solar PV certification (NABCEP PV Associate eligibility and renewal): nabcep.org links two
+  Associate handbook versions (2.3.4 and 2.3.5); 2.3.5 could not be read (web-fetch permission timeout), so current
+  rules could not be confirmed. Forklift operator and Wastewater operator: still fully covered by the study guides.
+- Unreachable from the shell: dos.ny.gov, ase.com, workexp.ase.com, nabcep.org (read through the web-fetch agent,
+  which returns quotes of at most 125 characters; each quote was confirmed by the checking agents). eCFR full-text API
+  now needs an Accept-Encoding header (use curl --compressed).
