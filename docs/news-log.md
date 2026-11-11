@@ -164,3 +164,27 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Unreachable from the shell: dos.ny.gov, ase.com, workexp.ase.com, nabcep.org (read through the web-fetch agent,
   which returns quotes of at most 125 characters; each quote was confirmed by the checking agents). eCFR full-text API
   now needs an Accept-Encoding header (use curl --compressed).
+
+## 2026-11-11 (second scheduled run, started 12:40 p.m. ET)
+
+- 3 posts were already out today (first run), so this run had room for 4 explainers. It published 3.
+- Published (3 explainers; day total 6): `osha-construction-fire-extinguisher-requirements-1926-150` (explainer, OSHA
+  construction safety; eCFR 29 CFR 1926.150, Subpart F, which the construction general safety guide only points to);
+  `cdl-transfer-moving-to-another-state-30-days` (explainer, CDL; eCFR 49 CFR 383.71(c), 383.73(c), 383.5, 383.21;
+  domiciled drivers only, non-domiciled rules in 383.71(f)/383.73(f) left out);
+  `drinking-water-consumer-confidence-report-deadlines` (explainer, Drinking water operator; eCFR 40 CFR 141 Subpart O
+  current text and the 2024-01-01 point-in-time text of 141.155, epa.gov CCR pages). Each checked by a separate agent
+  against the official text; findings fixed (OSHA: summary now keeps the 5-gallon/5-pound "being used" condition; CDL:
+  eight periods/commas moved outside quotes where the source has ";" or continues, "Where to study" corrected because
+  the CDL standards guide does not cover transfers; CCR: five periods/commas moved outside quotes, the December 31 quote
+  ended where the source sentence continues). Deploy workflow succeeded.
+- Rule changes: none. Federal Register search (RULE and PRORULE, published 2026-11-11 or later) for every CFR part in
+  docs/daily-news.md plus 40 CFR 143 returned no documents; the API returned 124 other documents for that window.
+  Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents. The backlog listed on
+  2026-11-07 (extra run) is still not covered.
+- Considered and dropped: FAA Part 107 (accident reporting 107.9, night, moving vehicles, alcohol, right-of-way are all
+  covered by the study guides); EPA 608 (apprentice exemption, certificate copy, recovery equipment covered by guides
+  and topic pages); EPA 609 (equipment approval covered). A fourth explainer was not written so as not to publish a
+  less-verified post; Forklift operator and Wastewater operator still fully covered by the study guides.
+- Unreachable: none needed this run (eCFR API, federalregister.gov API and epa.gov all reached from the shell; eCFR
+  HTML pages redirect the shell to unblock.federalregister.gov, so the versioner API was used).
