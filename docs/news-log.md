@@ -248,3 +248,35 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
   or your spending limit needs to be increased" (billing, not the code). `npm run check` and `npm run format:check`
   passed locally. The posts are on main and will go live on the first Deploy run after billing is fixed.
 - Unreachable: none needed (eCFR API and federalregister.gov API reached from the shell).
+
+## 2026-11-12 (second scheduled run, started 12:40 p.m. ET)
+
+- 4 posts were already out today (first run), so this run had room for 4 explainers. It published 4 (day total 8).
+- Published (4 explainers): `epa-hfc-leak-repair-rule-which-appliances-40-cfr-84-106` (explainer, EPA 608; eCFR
+  40 CFR 84.106, 84.102, 84.3, 84.108, 82.157 and the FR API abstract of proposed rule 2026-10388 on TRUs; no guide or
+  topic page covers Part 84 leak repair); `welding-galvanized-lead-cadmium-coated-metal-osha-1910-252-ventilation`
+  (explainer, Welding certification; eCFR 29 CFR 1910.252(c)(5) to (c)(12), which the general industry welding guide
+  lists as not covered in detail); `texas-journeyman-plumber-license-apprentice-hours-exam` (explainer, Plumbing
+  licensing; Texas only, tsbpe.texas.gov pages and TSBPE's March 13, 2026 unofficial rules PDF, 22 TAC 363.2 and
+  363.5); `virginia-home-inspector-license-15-points-education-experience-exam` (explainer, Home inspector licensing;
+  Virginia only, DPOR board page and 18VAC15-40 Part II on law.lis.virginia.gov). Texas and Virginia drafts were
+  written by separate agents; each of the four posts was checked by another separate agent against the official text;
+  findings fixed (EPA: 82.157 scope now "class I or class II ... or a blend containing one", ODS-only sentence limited
+  to 50 lb and 82.157 added as a source, mothballing added to the (f) sentence; welding: "taken at the welding
+  location" restored, summary widened to metals containing lead or cadmium, unsourced opening sentence reworded;
+  Texas: 363.5(c) program types and 363.5(d) classroom-plus-on-the-job condition restored, Plumbing Inspector
+  exception added, summary lists the exact alternative credentials; Virginia: 18VAC15-40-32 quote completed, NRS CPE
+  attributed to 18VAC15-40-75, NRS applicants without a license must apply for one, teaching row not limited to
+  accredited institutions).
+- Topic choice: Forklift operator and Wastewater operator (0 explainers) and FAA Part 107 and EPA 609 (1 each) skipped
+  for the same reason as earlier runs (candidate sections all covered by study guides or topic pages). Picked four
+  topics with 2 explainers each that had no post today.
+- Rule changes: none. Federal Register search (RULE and PRORULE, published 2026-11-12 or later) for every CFR part in
+  docs/daily-news.md plus 40 CFR 143 returned no documents. Sanity check (40 CFR 84 from 2026-05-01) returned the two
+  May 26, 2026 HFC documents.
+- Deploy FAILED to start again: run 43274857365 was not started because "recent account payments have failed or your
+  spending limit needs to be increased" (GitHub billing). `npm run check` and `npm run format:check` passed locally
+  (the build needed `@next/swc-linux-x64-gnu` installed with --no-save in this container). The posts are on main and go
+  live on the first Deploy run after billing is fixed.
+- Unreachable: www.ecfr.gov intermittently answered "Your IP address has been blocked" (Support Code 02); retries a few
+  seconds later succeeded. tsbpe.texas.gov, dpor.virginia.gov and law.lis.virginia.gov were read through WebFetch.
