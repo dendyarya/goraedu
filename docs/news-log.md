@@ -280,3 +280,28 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
   live on the first Deploy run after billing is fixed.
 - Unreachable: www.ecfr.gov intermittently answered "Your IP address has been blocked" (Support Code 02); retries a few
   seconds later succeeded. tsbpe.texas.gov, dpor.virginia.gov and law.lis.virginia.gov were read through WebFetch.
+
+## 2026-11-12 (third scheduled run, started 6:39 p.m. ET)
+
+- 8 posts were already out today (first and second runs), so this run had room for 2 explainers. It published 2 (day
+  total 10, the ceiling).
+- Published (2 explainers): `forklift-stability-triangle-load-center-osha-1910-178-appendix-a` (explainer, Forklift
+  operator; eCFR 29 CFR 1910.178 non-mandatory Appendix A, which the forklift guides list as not covered, plus
+  (l)(3), (l)(8) and (o)(2)); `what-sewage-sludge-does-40-cfr-503-not-cover-503-6-exclusions` (explainer, Wastewater
+  operator; eCFR 40 CFR 503.6 with 503.1 and 503.9; the biosolids guide covers only 503.6(b) and lists the other
+  exclusions as not set out). These are the first explainers for both topics (fewest explainers). eCFR text fetched this
+  run (versioner API, as of 2026-11-10). Each post was checked by a separate agent; findings fixed (forklift: summary
+  now "3,000 pound capacity" and "almost all counterbalanced trucks", see-saw cited to A-3.1 with A-3.2's
+  "counterbalanced" scope, "rule of thumb" removed, (l)(3) "not applicable" exception added, unsourced State-plan
+  sentence and opening opinion removed; wastewater: summary keeps "generated at an industrial facility", "ten
+  exclusions, (a) through (j)", incinerator sentence now "applies to" with the 503.6(c) co-firing exception,
+  unsourced 503.32/503.33 and Subpart D descriptions removed, 503.9(f) paraphrase widened, general caution tied to
+  503.6(e)'s reference to part 261). All quotes re-verified by script against the fetched text.
+- Rule changes: none. Federal Register search (RULE and PRORULE, published 2026-11-12 or later) for every CFR part in
+  docs/daily-news.md plus 40 CFR 143 returned no documents (124 documents in the window overall). Sanity check (40 CFR
+  84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Deploy: run 43331724640 succeeded (GitHub billing problem from the earlier runs is resolved; a manual Deploy run
+  43331206978 had also succeeded just before).
+- Unreachable: www.ecfr.gov briefly answered "Your IP address has been blocked" (Support Code 02) and now requires
+  compressed responses (`curl --compressed`, otherwise HTTP 406); retries after about 30 seconds succeeded.
+  www.goraedu.com itself is not allowed by this session's egress proxy, so the live pages were not fetched.
