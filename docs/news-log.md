@@ -219,3 +219,32 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Unreachable from the shell: dli.mn.gov, oregon.gov, apps.oregon.gov and nabcep.org (and every state board tried);
   read through WebFetch, which returns quotes in pieces of about 125 characters; checking agents re-fetched and
   confirmed each quote.
+
+## 2026-11-12 (first scheduled run, started 5:39 a.m. ET)
+
+- No posts were out yet today, so this run had room for 4 explainers. It published 4 (day total 4).
+- Published (4 explainers): `osha-access-to-employee-exposure-and-medical-records-1910-1020` (explainer, OSHA general
+  industry safety; eCFR 29 CFR 1910.1020, which the bloodborne pathogens guide lists as notCovered);
+  `osha-construction-flaggers-traffic-control-signs-1926-subpart-g` (explainer, OSHA construction safety; eCFR
+  29 CFR 1926.200 and 1926.201, the whole of Subpart G, not covered by any guide; the MUTCD itself is not summarized);
+  `cdl-hazmat-endorsement-knowledge-test-tsa-security-threat-assessment` (explainer, CDL; eCFR 49 CFR 383.5, 383.71,
+  383.93, 383.121, 383.141, 383.153; the CDL guides list the TSA assessment and endorsement knowledge as not covered);
+  `how-long-must-public-water-systems-keep-records-141-33` (explainer, Drinking water operator; eCFR 40 CFR 141.33
+  and 141.155). Drafts were written by separate agents from eCFR text fetched this run (versioner API, as of
+  2026-11-09); each post was checked by another separate agent; findings fixed (1910.1020: ten dropped scope
+  conditions restored, e.g. (c)(6)(ii)(B) identifier condition, (e)(2)(ii)(D) wording, (h)(2) no-successor notice,
+  SDS footnote, and a link to the hazardous-materials guide removed because it covers only 1910.101/106; Subpart G:
+  "two of its sections" corrected, unsupported Part 1910 and MUTCD descriptions removed, tag heading reworded; CDL:
+  383.93 URL subpart F, H code sourced to 383.153, 383.71(a)(10) ELDT added, editorial quote removed, 383.5 definition
+  kept whole; 141.33: 141.155(a)(4) website rule marked as applying from Jan 1, 2027, "community" removed, State
+  sentence softened). All quotes re-verified by script against the fetched text.
+- Topic choice: Forklift operator and Wastewater operator (0 explainers) and FAA Part 107 and EPA 609 (1 each) skipped
+  again: candidate sections (503.17/503.18, 403.12, 82.42, 107.61/107.65/107.73/107.200/107.205, 1910.178(l)(4))
+  are all covered by study guides or topic pages. Picked four topics with 2 explainers each, using eCFR-only sources.
+- Rule changes: none. Federal Register search (RULE and PRORULE, published 2026-11-11 or later) for every CFR part in
+  docs/daily-news.md plus 40 CFR 143 returned no documents (124 other documents in the window, same as yesterday;
+  Nov 11 was a federal holiday). Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Deploy FAILED to start: GitHub Actions run 43203980997 was not started because "recent account payments have failed
+  or your spending limit needs to be increased" (billing, not the code). `npm run check` and `npm run format:check`
+  passed locally. The posts are on main and will go live on the first Deploy run after billing is fixed.
+- Unreachable: none needed (eCFR API and federalregister.gov API reached from the shell).
