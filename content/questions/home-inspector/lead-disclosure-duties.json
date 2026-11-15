@@ -16,7 +16,7 @@
         "D": "The seller must order a risk assessment if the purchaser asks for one"
       },
       "answer": "B",
-      "explanation": "745.107(a) says: \"Nothing in this section implies a positive obligation on the seller or lessor to conduct any evaluation or reduction activities.\" In 745.103, \"Evaluation means a risk assessment and/or inspection\" and reduction means \"measures designed to reduce or eliminate human exposure to lead-based paint hazards\".",
+      "explanation": "745.107(a) says: \"Nothing in this section implies a positive obligation on the seller or lessor to conduct any evaluation or reduction activities.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.107, Disclosure requirements for sellers and lessors (as of Nov 12, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.107"
@@ -52,7 +52,7 @@
         "D": "It is given only if the purchaser asks for it in writing"
       },
       "answer": "A",
-      "explanation": "745.107(a)(4) requires the seller or lessor to provide available records or reports, and \"This requirement includes records or reports regarding common areas.\" 745.103 defines common area as including \"hallways, stairways\".",
+      "explanation": "745.107(a)(4) requires the seller or lessor to provide available records or reports, and \"This requirement includes records or reports regarding common areas.\" Hallways and stairways are among the common areas listed in the 745.103 definition.",
       "source": {
         "title": "eCFR: 40 CFR 745.107, Disclosure requirements for sellers and lessors (as of Nov 12, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.107"
@@ -116,11 +116,11 @@
     {
       "id": "ld-007",
       "topic": "Agent duties",
-      "question": "An agent informed the seller of the seller's obligations. The seller knew of lead-based paint hazards, did not tell the agent, and did not disclose them to the purchaser. What does 745.115(b) say about the agent?",
+      "question": "An agent has complied with 745.115(a)(1). The seller knew of lead-based paint hazards, did not tell the agent, and did not disclose them to the purchaser. What does 745.115(b) say about the agent?",
       "options": {
         "A": "The agent is liable in the same way as the seller",
         "B": "The agent shall not be liable for the failure to disclose hazards known by the seller but not disclosed to the agent",
-        "C": "The agent is liable unless the purchaser waived the 10-day period",
+        "C": "The agent is liable unless EPA excuses the agent in writing",
         "D": "The agent is liable only if the agent signed the contract attachment"
       },
       "answer": "B",
@@ -142,7 +142,7 @@
         "D": "It is a 10-day period unless the parties mutually agree, in writing, upon a different period of time"
       },
       "answer": "D",
-      "explanation": "The seller \"shall permit the purchaser a 10-day period (unless the parties mutually agree, in writing, upon a different period of time)\" to conduct a risk assessment or inspection. EPA's page adds that parties \"may mutually agree, in writing, to lengthen or shorten the time period for inspection.\"",
+      "explanation": "The seller \"shall permit the purchaser a 10-day period (unless the parties mutually agree, in writing, upon a different period of time)\" to conduct a risk assessment or inspection.",
       "source": {
         "title": "eCFR: 40 CFR 745.110, Opportunity to conduct an evaluation (as of Nov 12, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.110"
@@ -152,15 +152,15 @@
     {
       "id": "ld-009",
       "topic": "The sales contract attachment",
-      "question": "One or more agents are involved on behalf of the seller in a sale of target housing. What statement does 745.113(a)(6) require in the sales attachment?",
+      "question": "A seller's agent is preparing the sales contract attachment for a house built in 1950. Which sentence is part of the Lead Warning Statement that 745.113(a)(1) requires?",
       "options": {
-        "A": "That the agent has conducted a risk assessment of the housing",
-        "B": "That the agent has filed the attachment with EPA",
-        "C": "That the agent has given the purchaser a copy of the agent's license",
-        "D": "That the agent has informed the seller of the seller's obligations under 42 U.S.C. 4852d and is aware of his/her duty to ensure compliance with the requirements of the subpart"
+        "A": "Lead poisoning poses a risk only to children under 6 years of age.",
+        "B": "Lead poisoning in young children is always temporary.",
+        "C": "Lead-based paint in good condition must be removed before closing.",
+        "D": "Lead poisoning also poses a particular risk to pregnant women."
       },
       "answer": "D",
-      "explanation": "745.113(a)(6) requires a statement that \"The agent has informed the seller of the seller's obligations under 42 U.S.C. 4852d\" and that \"The agent is aware of his/her duty to ensure compliance with the requirements of this subpart.\"",
+      "explanation": "745.113(a)(1) requires a Lead Warning Statement whose language includes: \"Lead poisoning in young children may produce permanent neurological damage, including learning disabilities, reduced intelligence quotient, behavioral problems, and impaired memory. Lead poisoning also poses a particular risk to pregnant women.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.113, Certification and acknowledgment of disclosure (as of Nov 12, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.113"
@@ -206,15 +206,15 @@
     {
       "id": "ld-012",
       "topic": "The sales contract attachment",
-      "question": "What does the purchaser's statement required by 745.113(a)(5) say?",
+      "question": "In the sales attachment, 745.113(a)(2) is the seller's disclosure statement and 745.113(a)(3) is the list of available records or reports. What does the purchaser's statement required by 745.113(a)(4) affirm?",
       "options": {
-        "A": "That he/she has completed a risk assessment of the housing",
-        "B": "That he/she has either received the opportunity to conduct the risk assessment or inspection required by 745.110(a), or waived the opportunity",
-        "C": "That he/she has hired a certified inspector",
-        "D": "That he/she has received a lead-based paint free certificate from the seller"
+        "A": "Completion of a lead-based paint inspection of the housing",
+        "B": "Receipt of the information set out in 745.113(a)(2) and (3) and the lead hazard information pamphlet",
+        "C": "Receipt of a lead-based paint free certificate from the seller",
+        "D": "Payment for a risk assessment ordered by the seller"
       },
       "answer": "B",
-      "explanation": "745.113(a)(5) requires \"A statement by the purchaser that he/she has either:\" received the opportunity to conduct the risk assessment or inspection, or \"Waived the opportunity.\"",
+      "explanation": "745.113(a)(4) requires \"A statement by the purchaser affirming receipt of the information set out in paragraphs (a)(2) and (3) of this section and the lead hazard information pamphlet required under 15 U.S.C. 2686.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.113, Certification and acknowledgment of disclosure (as of Nov 12, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.113"
