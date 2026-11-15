@@ -1,0 +1,554 @@
+{
+  "cluster": "home-inspector",
+  "slug": "radon-testing",
+  "href": "/home-inspector/radon-testing/study-guide/",
+  "title": "Home inspector radon testing in home sales study guide",
+  "description": "EPA radon testing guidance for home sales: who should test, test types and length, placement, closed-house conditions and reading results.",
+  "intro": "EPA's Home Buyer's and Seller's Guide to Radon, A Citizen's Guide to Radon and EPA's Health Risk of Radon page give EPA's guidance on testing a home for radon. This is guidance, not a regulation: EPA recommends, and nothing here is presented as a legal requirement. This guide sets out what those texts say about why EPA recommends testing, what EPA recommends for sellers and buyers, test devices and test length, where to place a test, closed-house conditions and test interference, testing yourself or hiring a qualified tester, and interpreting results. goraedu does not train, test, license or certify home inspectors, and this is not a licensing exam. Home inspector licensing is set by each State, and State and local rules may add their own requirements, so check yours too. Every point links to its official source and quotes its exact words.",
+  "topics": [
+    {
+      "id": "why-test",
+      "name": "Why EPA recommends testing",
+      "points": [
+        {
+          "text": "EPA's Home Buyer's and Seller's Guide opens with this recommendation: if you are buying or selling a home, have it tested for radon.",
+          "quote": "EPA RECOMMENDS: If you are buying or selling a home, have it tested for radon.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "The guide says testing is the only way to know if you and your family are at risk from radon, and EPA and the Surgeon General recommend testing all homes below the third floor for radon.",
+          "quote": "Testing is the only way to know if you and your family are at risk from radon. EPA and the Surgeon General recommend testing all homes below the third floor for radon.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "You cannot predict a home's radon level from state, local and neighborhood measurements. The guide says not to rely on test results from other homes in the neighborhood, because homes next to each other can have different indoor radon levels.",
+          "quote": "You cannot predict radon levels based on state, local, and neighborhood radon measurements. Do not rely on radon test results taken in other homes in the neighborhood to estimate the radon level in your home. Homes which are next to each other can have different indoor radon levels.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "The Citizen's Guide says radon can be a problem in homes of all types, including old and new, drafty and insulated homes, and homes with or without basements.",
+          "quote": "radon can be a problem in homes of all types: old homes, new homes, drafty homes, insulated homes, homes with basements, homes without basements.",
+          "source": {
+            "title": "EPA: A Citizen's Guide to Radon (EPA 402/K-12/002, 2025 edition)",
+            "url": "https://www.epa.gov/sites/default/files/2016-12/documents/2016_a_citizens_guide_to_radon.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "EPA's Health Risk of Radon page says radon is the number one cause of lung cancer among non-smokers, according to EPA estimates, and overall the second leading cause of lung cancer.",
+          "quote": "Radon is the number one cause of lung cancer among non-smokers, according to EPA estimates. Overall, radon is the second leading cause of lung cancer.",
+          "source": {
+            "title": "EPA: Health Risk of Radon (retrieved Nov 15, 2026)",
+            "url": "https://www.epa.gov/radon/health-risk-radon"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "EPA's Health Risk of Radon page says that on January 13, 2005, the U.S. Surgeon General issued a Health Advisory warning Americans about the health risk from exposure to radon in indoor air, and urged Americans to test their homes to find out how much radon they might be breathing.",
+          "quote": "U.S. Surgeon General, Richard H. Carmona, issues a Health Advisory warning Americans about the health risk from exposure to radon in indoor air. The Chief Physician urged Americans to test their homes to find out how much radon they might be breathing.",
+          "source": {
+            "title": "EPA: Health Risk of Radon (retrieved Nov 15, 2026)",
+            "url": "https://www.epa.gov/radon/health-risk-radon"
+          },
+          "checked": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "selling",
+      "name": "Selling a home: what EPA recommends",
+      "points": [
+        {
+          "text": "EPA recommends that sellers test the home before putting it on the market and, if necessary, lower the radon levels. The guide says to save the test results and information on steps taken to fix any problems, which could be a positive selling point.",
+          "quote": "EPA recommends that you test your home before putting it on the market and, if necessary, lower your radon levels. Save the test results and all information you have about steps that were taken to fix any problems. This could be a positive selling point.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "A seller who has already tested should review the Radon Testing Checklist to make sure the test was done correctly, and if so, provide the test results to the buyer.",
+          "quote": "If you are thinking of selling your home and you have already tested your home for radon, review the Radon Testing Checklist to make sure that the test was done correctly. If so, provide your test results to the buyer.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "One situation in which a buyer may ask for a new test is when the last test is not recent, e.g., within two years.",
+          "quote": "The last test is not recent, e.g., within two years;",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "A buyer may also ask for a new test when the buyer plans to use a lower level of the house than was tested, such as a basement the buyer could use regularly.",
+          "quote": "The buyer plans to use a lower level of the house than was tested, such as a basement that could be used regularly by the buyer.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "A buyer may also ask for a new test if the state or local government requires disclosure of radon information to buyers.",
+          "quote": "A buyer may also ask for a new test if your state or local government requires disclosure of radon information to buyers.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "If the home has not yet been tested, the guide tells the seller to have a test taken as soon as possible and, if possible, before putting the home on the market, in the lowest level of the home that could be used regularly, including a lower level a buyer might use as a family room or play area.",
+          "quote": "Have a test taken as soon as possible. If you can, test your home before putting it on the market. You should test in the lowest level of the home that could be used regularly. This means testing in the lowest level that you currently live in or a lower level not currently used, but which a buyer might use as a family room or play area, etc.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "buying",
+      "name": "Buying a home: what EPA recommends",
+      "points": [
+        {
+          "text": "EPA recommends that buyers know the indoor radon level in any home they consider buying: ask the seller for their radon test results, ask for information on any radon-reduction system, and have the house tested if it has not yet been tested.",
+          "quote": "EPA recommends that you know what the indoor radon level is in any home you consider buying. Ask the seller for their radon test results. If the home has a radon-reduction system, ask the seller for any information they have about the system. If the home has not yet been tested, you should have the house tested.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "If the home has already been tested, the buyer may decide on one of two options: accept an earlier test result from the seller, or ask the seller for a new test conducted by a qualified radon tester.",
+          "quote": "If you are thinking of buying a home, you may decide to accept an earlier test result from the seller or ask the seller for a new test to be conducted by a qualified radon tester.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "Before accepting the seller's test, the buyer should determine, among other things, who conducted the previous test: the homeowner, a radon professional, or some other person.",
+          "quote": "Who conducted the previous test: the homeowner, a radon professional, or some other person;",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "If the buyer accepts the seller's test, the guide says to make sure that the test followed the Radon Testing Checklist.",
+          "quote": "If you accept the seller's test, make sure that the test followed the Radon Testing Checklist.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "If the buyer decides a new test is needed, the guide says to discuss it with the seller as soon as possible. A buyer who decides to use a qualified radon tester can contact the state radon office for a copy of its approved list of radon testing companies.",
+          "quote": "If you decide that a new test is needed, discuss it with the seller as soon as possible. If you decide to use a qualified radon tester, contact your state radon office to obtain a copy of their approved list of radon testing companies.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "If the home has not yet been tested, the guide tells the buyer to make sure that a radon test is done as soon as possible and to consider including provisions in the contract about it.",
+          "quote": "Make sure that a radon test is done as soon as possible. Consider including provisions in the contract specifying:",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "One contract provision the guide suggests specifies how the seller and the buyer will share the test results and test costs (if necessary).",
+          "quote": "How the seller and the buyer will share the test results and test costs (if necessary); and",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "The Citizen's Guide notes that during home sales, buyers frequently want tests made by someone who is not involved in the home sale.",
+          "quote": "Buyers frequently want tests made by someone who is not involved in the home sale.",
+          "source": {
+            "title": "EPA: A Citizen's Guide to Radon (EPA 402/K-12/002, 2025 edition)",
+            "url": "https://www.epa.gov/sites/default/files/2016-12/documents/2016_a_citizens_guide_to_radon.pdf"
+          },
+          "checked": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "name": "Test devices and test length",
+      "points": [
+        {
+          "text": "Passive radon testing devices do not need power to function. They are exposed to the air in the home for a specified period of time and then sent to a laboratory for analysis.",
+          "quote": "Passive radon testing devices do not need power to function. These include charcoal canisters, alpha-track detectors, charcoal liquid scintillation devices, and electret ion chamber detectors, which are available in hardware, drug, and other stores; they can also be ordered by mail or phone. These devices are exposed to the air in the home for a specified period of time and then sent to a laboratory for analysis.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "Active radon testing devices require power to function. They include continuous radon monitors and continuous working level monitors, which continuously measure and record the amount of radon or its decay products in the air.",
+          "quote": "Active radon testing devices require power to function. These include continuous radon monitors and continuous working level monitors. They continuously measure and record the amount of radon or its decay products in the air.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "Because radon levels tend to vary from day to day and season to season, a short-term test is less likely than a long-term test to tell you the year-round average. If you need results quickly, a short-term test may be used to decide whether to fix the home.",
+          "quote": "Because radon levels tend to vary from day to day and season to season, a short-term test is less likely than a long-term test to tell you your year-round average radon level. However, if you need results quickly, a short-term test may be used to decide whether to fix the home.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "Whether you test yourself or hire a qualified tester, all radon tests should be taken for a minimum of 48 hours, and some devices require a longer minimum, e.g., a 7-day charcoal canister device.",
+          "quote": "Whether you test for radon yourself or hire a qualified tester, all radon tests should be taken for a minimum of 48 hours. Some devices require a longer (minimum) length of time, e.g., a 7-day charcoal canister device.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "A long-term test result is more likely than a short-term test to tell you the year-round average. If time permits (more than 90 days), long-term tests can confirm initial short-term results, and when long-term results are 4 pCi/L or higher, EPA recommends fixing the home.",
+          "quote": "A long-term test result is more likely to tell you your home's year-round average radon level than a short-term test. If time permits (more than 90 days), long-term tests can be used to confirm initial short-term results. When long-term test results are 4 pCi/L or higher, EPA recommends fixing the home.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "In a real estate transaction where results are needed quickly, any of the guide's three short-term options is acceptable in determining whether the home should be fixed, and any real estate test should include steps to prevent or detect interference with the test device.",
+          "quote": "If you are testing in a real estate transaction and you need results quickly, any of the following three options for short-term tests are acceptable in determining whether the home should be fixed. Any real estate test for radon should include steps to prevent or detect interference with the test device.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "One passive option is to take two short-term tests at the same time in the same location for at least 48 hours.",
+          "quote": "Passive: Take two short-term tests at the same time in the same location for at least 48 hours.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "Another option the guide lists is an initial short-term test for at least 48 hours, followed immediately upon its completion by a second test using an identical device in the same location as the first test.",
+          "quote": "Take an initial short-term test for at least 48 hours. Immediately upon completing the first test, do a second test using an identical device in the same location as the first test.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "The active option is to test the home with a continuous monitor for at least 48 hours.",
+          "quote": "Active: Test the home with a continuous monitor for at least 48 hours.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "On the trade-offs, the guide says simultaneous tests would improve the precision of the test, while sequential tests would most likely give a better representation of the seasonal average.",
+          "quote": "Two tests taken at the same time (simultaneous) would improve the precision of this radon test. One test followed by another test (sequential) would most likely give a better representation of the seasonal average.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "placement",
+      "name": "Where to place the test",
+      "points": [
+        {
+          "text": "EPA recommends testing in the lowest level that could be used regularly, since a buyer may choose to live in a lower area of the home than the seller used.",
+          "quote": "EPA also recommends testing a home in the lowest level that could be used regularly, since a buyer may choose to live in a lower area of the home than that used by the seller.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "EPA recommends placing the test device(s) in the lowest level of the home that could be used regularly, whether it is finished or unfinished, in any space the buyer could use as a bedroom, play area, family room, den, exercise room or workshop.",
+          "quote": "EPA recommends that the test device(s) be placed in the lowest level of the home that could be used regularly, whether it is finished or unfinished. Conduct the test in any space that could be used by the buyer as a bedroom, play area, family room, den, exercise room, or workshop.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "Based on the client's intended use of the space, the qualified testing professional should identify the appropriate test location and inform the client (buyer).",
+          "quote": "Based on their client's intended use of the space, the qualified testing professional should identify the appropriate test location and inform their client (buyer).",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "The guide says not to test in a closet, stairway, hallway, crawl space, or an enclosed area of high humidity or high air velocity, which may include a kitchen, bathroom, laundry room or furnace room.",
+          "quote": "Do not test in a closet, stairway, hallway, crawl space or in an enclosed area of high humidity or high air velocity. An enclosed area may include a kitchen, bathroom, laundry room or furnace room.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "For a do-it-yourself short-term test lasting less than four days, the guide says to place the device at least 20 inches above the floor where it will not be disturbed and away from drafts, high heat, high humidity and exterior walls.",
+          "quote": "Place the test device at least 20 inches above the floor in a location where it will not be disturbed and where it will be away from drafts, high heat, high humidity, and exterior walls;",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "conditions",
+      "name": "Test conditions and interference",
+      "points": [
+        {
+          "text": "When you do the test yourself, the guide says that for a short-term test you should close windows and doors to the outside and keep them closed, except for normal entry and exit, and for a short-term test lasting less than four days, close windows and outside doors at least 12 hours before beginning the test.",
+          "quote": "If You Do the Test Yourself When you are taking a short-term test, close windows and doors to the outside and keep them closed, except for normal entry and exit. If you are taking a short-term test lasting less than four days, be sure to: Close your windows and outside doors at least 12 hours before beginning the test;",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "The checklist defines closed-house conditions as keeping all windows closed, keeping doors closed except for normal entry and exit, and not operating fans or other machines that bring in outside air. Fans that are part of a radon-reduction system, or small exhaust fans operating only for short periods, may run during the test.",
+          "quote": "Closed-house conditions means keeping all windows closed, keeping doors closed except for normal entry and exit, and not operating fans or other machines which bring in air from outside. Fans that are part of a radon-reduction system or small exhaust fans operating for only short periods of time may run during the test.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "For a short-term test ranging from 2-4 days, closed-house conditions should be maintained for at least 12 hours before the beginning of the test and during the entire test period. For a short-term test ranging from 4-7 days, EPA recommends that closed-house conditions be maintained.",
+          "quote": "When doing a short-term test ranging from 2-4 days, it is important to maintain closed-house conditions for at least 12 hours before the beginning of the test and during the entire test period. When doing a short-term test ranging from 4-7 days, EPA recommends that closed-house conditions be maintained.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "If the house has an active radon-reduction system, make sure the vent fan is operating properly; if it is not, have it (or ask to have it) repaired and then test.",
+          "quote": "If the house has an active radon-reduction system, make sure the vent fan is operating properly. If the fan is not operating properly, have it (or ask to have it) repaired and then test.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "During a radon test, the checklist says to operate the home's heating and cooling systems normally, and for tests lasting less than one week, to operate only air-conditioning units which recirculate interior air.",
+          "quote": "Operate the home's heating and cooling systems normally during the test. For tests lasting less than one week, operate only air-conditioning units which recirculate interior air.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "The checklist says disturbing or interfering with the test device, or with closed-house conditions, may invalidate the test results and is illegal in some states. If the seller or qualified tester cannot confirm that all checklist items were completed, take another test.",
+          "quote": "Disturbing or interfering with the test device, or with closed‑house conditions*, may invalidate the test results and is illegal in some states. If the seller or qualified tester cannot confirm that all items have been completed, take another test.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "One of the ways the guide lists to prevent or detect test interference is to have the seller/occupant sign a non-interference agreement. Home buyers and sellers should consult a qualified radon test provider about using these precautions.",
+          "quote": "Have the seller/occupant sign a non-interference agreement. Home buyers and sellers should consult a qualified radon test provider about the use of these precautions.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "After a radon test, the checklist says to be sure that you or the radon tester can demonstrate or provide information to ensure that the testing conditions were not violated during the testing period.",
+          "quote": "Be sure that you or the radon tester can demonstrate or provide information to ensure that the testing conditions were not violated during the testing period.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "testers",
+      "name": "Testing yourself or hiring a qualified tester",
+      "points": [
+        {
+          "text": "Some states require radon measurement testers to follow a specific testing protocol. If you do the test yourself, the guide says you should carefully follow the testing protocol for your area or EPA's Radon Testing Checklist.",
+          "quote": "Some states require radon measurement testers to follow a specific testing protocol. If you do the test yourself, you should carefully follow the testing protocol for your area or EPA's Radon Testing Checklist.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "The guide says you can determine a service provider's qualifications to perform radon measurements or to mitigate your home in several ways. One is to check with your state radon office: many states require radon professionals to be licensed, certified or registered, and most states can provide a list of knowledgeable radon service providers doing business in the state. In states that don't regulate radon services, another is to ask the contractor if they hold a professional proficiency or certification credential.",
+          "quote": "You can determine a service provider's qualifications to perform radon measurements or to mitigate your home in several ways. Check with your state radon office. Many states require radon professionals to be licensed, certified, or registered. Most states can provide you with a list of knowledgeable radon service providers doing business in the state. In states that don't regulate radon services, ask the contractor if they hold a professional proficiency or certification credential.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "If you hire someone to do the test, hire only a qualified individual. Some states issue photo ID cards; ask to see it. The tester's ID number, if available, should be included or noted in the test report.",
+          "quote": "If you hire someone to do the test, hire only a qualified individual. Some states issue photo identification (ID) cards; ask to see it. The tester's ID number, if available, should be included or noted in the test report.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "When a do-it-yourself test is finished, record the stop time and date, reseal the package, and return it immediately to the lab specified on the package for analysis.",
+          "quote": "Once the test is finished, record the stop time and date, reseal the package, and return it immediately to the lab specified on the package for analysis.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "The Citizen's Guide says that if you prefer, or if you are buying or selling a home, you can hire a qualified tester, and you should first contact your state radon office about obtaining a list of qualified testers.",
+          "quote": "If you prefer, or if you are buying or selling a home, you can hire a qualified tester to do the testing for you. You should first contact your state radon office about obtaining a list of qualified testers.",
+          "source": {
+            "title": "EPA: A Citizen's Guide to Radon (EPA 402/K-12/002, 2025 edition)",
+            "url": "https://www.epa.gov/sites/default/files/2016-12/documents/2016_a_citizens_guide_to_radon.pdf"
+          },
+          "checked": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "results",
+      "name": "Interpreting results",
+      "points": [
+        {
+          "text": "The guide estimates the average indoor radon level at about 1.3 pCi/L, and says roughly 0.4 pCi/L is normally found in outside air.",
+          "quote": "The average indoor radon level is estimated to be about 1.3 pCi/L; roughly 0.4 pCi/L of radon is normally found in the outside air.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "A radon level below 4 pCi/L still poses a risk, and the guide says to consider fixing when the level is between 2 and 4 pCi/L.",
+          "quote": "A radon level below 4 pCi/L still poses a risk. Consider fixing when the radon level is between 2 and 4 pCi/L.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "The checklist says EPA recommends fixing the home when the radon level is 4 pCi/L or more.",
+          "quote": "EPA recommends that you fix the home when the radon level is 4 pCi/L or more.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "Short-term tests are sometimes less definitive about whether the level is at or above 4 pCi/L, particularly when results are close to 4 pCi/L. The guide's example: an average of 4.1 pCi/L from two short-term tests means about a 50 percent chance the year-round average is somewhat below, or above, 4 pCi/L.",
+          "quote": "Sometimes short-term tests are less definitive about whether the radon level in the home is at or above 4 pCi/L; particularly when the results are close to 4 pCi/L. For example, if the average of two short-term tests is 4.1 pCi/L, there is about a 50 percent chance that the year-round average is somewhat below, or above, 4 pCi/L.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "EPA believes that any radon exposure carries some risk and that no level of radon is safe; even levels below 4 pCi/L pose some risk, and lowering the radon level reduces your risk of lung cancer.",
+          "quote": "However, EPA believes that any radon exposure carries some risk; no level of radon is safe. Even radon levels below 4 pCi/L pose some risk. You can reduce your risk of lung cancer by lowering your radon level.",
+          "source": {
+            "title": "EPA: Home Buyer's and Seller's Guide to Radon (EPA 402/K-24/001, revised March 2024)",
+            "url": "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "The Citizen's Guide says the higher the initial short-term result, the more certain you can be that a short-term rather than a long-term follow-up is right, and if the first result is more than twice EPA's 4 pCi/L action level, you should take a second short-term test immediately.",
+          "quote": "The higher your initial short-term test result, the more certain you can be that you should take a short-term rather than a long-term follow up test. If your first short-term test result is more than twice EPA's 4 pCi/L action level, you should take a second short-term test immediately.",
+          "source": {
+            "title": "EPA: A Citizen's Guide to Radon (EPA 402/K-12/002, 2025 edition)",
+            "url": "https://www.epa.gov/sites/default/files/2016-12/documents/2016_a_citizens_guide_to_radon.pdf"
+          },
+          "checked": "2026-11-15"
+        },
+        {
+          "text": "If your living patterns change and you begin occupying a lower level of the home, such as a basement, you should retest on that level. Even if your result is below 4 pCi/L, you may want to test again sometime in the future.",
+          "quote": "If your living patterns change and you begin occupying a lower level of your home (such as a basement) you should retest your home on that level. Even if your test result is below 4 pCi/L, you may want to test again sometime in the future.",
+          "source": {
+            "title": "EPA: A Citizen's Guide to Radon (EPA 402/K-12/002, 2025 edition)",
+            "url": "https://www.epa.gov/sites/default/files/2016-12/documents/2016_a_citizens_guide_to_radon.pdf"
+          },
+          "checked": "2026-11-15"
+        }
+      ],
+      "notCovered": "What to do when the radon level is high (reduction systems, choosing a mitigation contractor, radon in water) and radon-resistant new homes are covered in the separate radon reduction set."
+    }
+  ]
+}

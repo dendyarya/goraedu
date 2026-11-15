@@ -162,4 +162,12 @@ export const TOOLS: Tool[] = [
     summary:
       "Latest next dates for leak tests, survey instrument calibration, quarterly inspections, refresher training and job performance checks under 10 CFR Part 34.",
   },
+  {
+    slug: "lead-disclosure-checker",
+    cluster: "home-inspector",
+    name: "Lead disclosure rule checker",
+    href: "/home-inspector/tools/lead-disclosure-checker/",
+    summary:
+      "See whether a sale or lease of pre-1978 housing falls under EPA's lead-based paint disclosure rule in 40 CFR 745 Subpart F, and the duties that apply.",
+  },
 ];

@@ -227,6 +227,15 @@ const SNAPSHOTS: Record<string, string[]> = {
     "40cfr745-103-2026-11-04.reading-order.txt",
   ],
   "pesticide-applicator": ["40cfr171-2026-11-04.txt"],
+  "home-inspector": [
+    "40cfr745-subpartF-2026-11-12.txt",
+    "epa/real-estate-disclosures-about-potential-lead-hazards-2026-11-15.txt",
+    "epa/lead-based-paint-disclosure-rule-section-1018-title-x-2026-11-15.txt",
+    "epa/hmbuygud-2026-11-15.txt",
+    "epa/2016_a_citizens_guide_to_radon-2026-11-15.txt",
+    "epa/2016_consumers_guide_to_radon_reduction-2026-11-15.txt",
+    "epa/health-risk-radon-2026-11-15.txt",
+  ],
   "industrial-radiography": ["10cfr34-2026-11-04.txt"],
   asbestos: [
     "29cfr1926-1101-2026-11-04.txt",

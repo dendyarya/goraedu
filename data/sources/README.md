@@ -15,6 +15,13 @@ against the same version. U.S. federal government works are not subject to copyr
 | `ecfr/29cfr1910-269-2026-11-04.txt`                             | eCFR, 29 CFR 1910.269 (electric power generation, transmission and distribution), from the eCFR API, one paragraph per line                                                                                                                       | Up to date as of November 4, 2026 |
 | `epa/refrigerant-safety-2026-11-07.txt`                         | EPA web page "Refrigerant Safety" (SNAP program), main article text, one block per line; first line is the source URL                                                                                                                             | Retrieved November 7, 2026        |
 
+| `ecfr/40cfr745-subpartF-2026-11-12.txt` | eCFR, 40 CFR Part 745 Subpart F (disclosure of known lead-based paint and hazards upon sale or lease of residential property), from the eCFR API, one paragraph per line | Up to date as of November 12, 2026 |
+| `epa/real-estate-disclosures-about-potential-lead-hazards-2026-11-15.txt` | EPA web page "Real Estate Disclosures about Potential Lead Hazards", main article text, one block per line; first line is the source URL | Retrieved November 15, 2026 |
+| `epa/lead-based-paint-disclosure-rule-section-1018-title-x-2026-11-15.txt` | EPA web page "Lead-Based Paint Disclosure Rule (Section 1018 of Title X)", main article text, one block per line; first line is the source URL | Retrieved November 15, 2026 |
+| `epa/hmbuygud-2026-11-15.txt` | EPA "Home Buyer's and Seller's Guide to Radon" (EPA 402/K-24/001, March 2024 revision), PDF text from pdftotext; first line is the source URL | Retrieved November 15, 2026 |
+| `epa/2016_a_citizens_guide_to_radon-2026-11-15.txt` | EPA "A Citizen's Guide to Radon" (EPA 402/K-12/002, 2025 edition), PDF text from pdftotext; first line is the source URL | Retrieved November 15, 2026 |
+| `epa/2016_consumers_guide_to_radon_reduction-2026-11-15.txt` | EPA "Consumer's Guide to Radon Reduction" (EPA 402/K-10/005, 2025 edition), PDF text from pdftotext; first line is the source URL | Retrieved November 15, 2026 |
+| `epa/health-risk-radon-2026-11-15.txt` | EPA web page "Health Risk of Radon", main article text, one block per line; first line is the source URL | Retrieved November 15, 2026 |
 When the regulation changes, add a new dated file (do not overwrite the old one), re-check every question that cites
 a changed section, and update its `checked` date.
 

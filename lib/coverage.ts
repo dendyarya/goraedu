@@ -186,4 +186,19 @@ export const COVERAGE: Record<string, Coverage> = {
       },
     ],
   },
+  "home-inspector": {
+    official:
+      "Home inspector licensing is set by each State that regulates the work. Federal rules and guidance touch two topics that come up in home sales: EPA's lead-based paint disclosure rule for pre-1978 housing and EPA's radon guidance.",
+    ours: "These pages cover 40 CFR 745 Subpart F and EPA's radon guides for home buyers, sellers and owners. State licensing rules, inspection standards of practice, building systems and any national or State exam are not covered.",
+    links: [
+      {
+        title: "EPA: Real Estate Disclosures about Potential Lead Hazards",
+        url: "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+      },
+      {
+        title: "EPA: Home Buyer's and Seller's Guide to Radon",
+        url: "https://www.epa.gov/sites/default/files/2015-05/documents/hmbuygud.pdf",
+      },
+    ],
+  },
 };

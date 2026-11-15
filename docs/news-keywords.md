@@ -35,14 +35,14 @@ These clusters are on the roadmap as `planned` (no hub page yet). Extra rules fo
 - www.ase.com, www.aws.org, www.nabcep.org and state board sites refuse the shell; read them with the web-fetch agent,
   using a URL that came from a WebSearch result. If a page cannot be read, skip the post and log it.
 
-| keyword                      | post `topic`                 | links                                                     | official sources (only these)                                                 |
-| ---------------------------- | ---------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| ASE Automotive Certification | ASE automotive certification | `/certifications/`; `/epa-609/` if about MVAC             | ase.com (ASE's own program)                                                   |
-| Electrician Licensing        | Electrician licensing        | `/certifications/`; `/osha/`, `/osha-general-industry/`   | state electrical board (.gov); eCFR 29 CFR 1910 Subpart S, 1926 Subpart K     |
-| Plumbing Licensing           | Plumbing licensing           | `/certifications/`; `/water-operator/` if lead-free rules | state plumbing board (.gov); eCFR 40 CFR 143 Subpart B; epa.gov               |
-| Welding Certification        | Welding certification        | `/certifications/`; `/osha/`, `/osha-general-industry/`   | aws.org (AWS's own program); eCFR 29 CFR 1910 Subpart Q, 1926 Subpart J       |
-| Solar PV Certification       | Solar PV certification       | `/certifications/`; `/osha/`, `/osha-general-industry/`   | nabcep.org (NABCEP's own program); eCFR 29 CFR 1910 Subpart S, 1926 Subpart K |
-| Home Inspector Certification | Home inspector licensing     | `/certifications/`                                        | state home inspector board (.gov)                                             |
+| keyword                      | post `topic`                              | links                                                   | official sources (only these)                                                     |
+| ---------------------------- | ----------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| ASE Automotive Certification | not on the roadmap (removed Nov 15, 2026) | none                                                    | none                                                                              |
+| Electrician Licensing        | Electrician licensing                     | `/electrician/`; `/osha/`, `/osha-general-industry/`    | state electrical board (.gov); eCFR 29 CFR 1910 Subpart S, 1926 Subpart K         |
+| Plumbing Licensing           | Plumbing licensing                        | `/plumbing/`; `/water-operator/` if lead-free rules     | state plumbing board (.gov); eCFR 40 CFR 143 Subpart B; epa.gov                   |
+| Welding Certification        | Welding certification                     | `/welding/`; `/osha/`, `/osha-general-industry/`        | aws.org (AWS's own program); eCFR 29 CFR 1910 Subpart Q, 1926 Subpart J           |
+| Solar PV Certification       | Solar PV certification                    | `/solar-pv/`; `/osha/`, `/osha-general-industry/`       | nabcep.org (NABCEP's own program); eCFR 29 CFR 1910 Subpart S, 1926 Subpart K     |
+| Home Inspector Certification | Home inspector licensing                  | `/certifications/` (`/home-inspector/` once it is live) | state home inspector board (.gov); eCFR 40 CFR 745 Subpart F; epa.gov radon pages |
 
 Other roadmap clusters (Lead-safe renovator (RRP), Asbestos, Pesticide applicator, Industrial radiography, OSHA crane
 operator, FAA A&P mechanic) are not on the owner's list; use them only when every listed keyword already has an

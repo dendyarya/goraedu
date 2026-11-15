@@ -15,7 +15,8 @@ export type OshaClusterId =
   | "faa-amt"
   | "asbestos"
   | "pesticide-applicator"
-  | "industrial-radiography";
+  | "industrial-radiography"
+  | "home-inspector";
 
 const CONSTRUCTION_SETS: OshaSet[] = [
   { slug: "intro-to-osha", name: "Introduction to OSHA", rule: "29 CFR Parts 1903 and 1904", focus: null },
@@ -445,6 +446,31 @@ const RADIOGRAPHY_SETS: OshaSet[] = [
   },
 ];
 
+const HOME_INSPECTOR_SETS: OshaSet[] = [
+  {
+    slug: "lead-disclosure-scope",
+    name: "Lead disclosure: which sales and leases it covers",
+    rule: "40 CFR 745.100 to 745.103",
+    focus: null,
+  },
+  {
+    slug: "lead-disclosure-duties",
+    name: "Lead disclosure: what sellers, landlords and agents must do",
+    rule: "40 CFR 745.107 to 745.119",
+    focus: null,
+  },
+  { slug: "radon-testing", name: "Radon testing in home sales", rule: "EPA radon guidance", focus: null },
+  {
+    slug: "radon-reduction",
+    name: "Radon reduction and radon-resistant features",
+    rule: "EPA radon guidance",
+    focus: null,
+  },
+];
+
+export const HOME_INSPECTOR_INDEPENDENCE_TEXT =
+  "goraedu does not train, test, license or certify home inspectors, and our questions are not a State licensing exam or any national home inspector exam. Not affiliated with or endorsed by the U.S. EPA, HUD, any State or any certification body.";
+
 export const RADIOGRAPHY_INDEPENDENCE_TEXT =
   "goraedu does not train, test or certify radiographers, and our questions are not a certification exam. Not affiliated with or endorsed by the U.S. Nuclear Regulatory Commission, any Agreement State or any certifying entity.";
 
@@ -579,6 +605,16 @@ export const OSHA_CLUSTERS: Record<
     sets: RRP_SETS,
     independence: RRP_INDEPENDENCE_TEXT,
     notFrom: "any accredited RRP course, training provider quiz or prep course",
+  },
+  "home-inspector": {
+    id: "home-inspector",
+    label: "Home inspector",
+    href: "/home-inspector/",
+    part: "40 CFR 745 Subpart F and EPA radon guidance",
+    sets: HOME_INSPECTOR_SETS,
+    independence: HOME_INSPECTOR_INDEPENDENCE_TEXT,
+    notFrom:
+      "any State home inspector exam, national home inspector exam, licensing course, radon proficiency exam or prep material",
   },
   "wastewater-operator": {
     id: "wastewater-operator",
