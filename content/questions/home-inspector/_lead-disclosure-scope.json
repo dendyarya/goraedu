@@ -65,15 +65,15 @@
     {
       "id": "ls-004",
       "topic": "Exempt sales and leases",
-      "question": "Which sale of target housing is listed in 745.101 as an exception to Subpart F?",
+      "question": "A lender enforces payment of a mortgage debt by having a three-bedroom 1958 house taken and sold at a foreclosure sale. How does 745.101 treat that sale?",
       "options": {
-        "A": "A sale by a corporation",
-        "B": "A sale of target housing at foreclosure",
-        "C": "A sale of shares in a cooperatively owned project",
-        "D": "A sale by a government housing agency"
+        "A": "It is covered, because the lender is a seller under 745.103",
+        "B": "It is one of the exceptions: 745.101(a) lists sales of target housing at foreclosure",
+        "C": "It is covered only if a child under 6 lives in the house",
+        "D": "It is covered, but the purchaser's evaluation period is shortened"
       },
       "answer": "B",
-      "explanation": "745.101(a) excepts \"Sales of target housing at foreclosure.\"",
+      "explanation": "Subpart F \"applies to all transactions to sell or lease target housing, including subleases, with the exception of the following:\" and 745.101(a) lists \"Sales of target housing at foreclosure.\"",
       "source": {
         "title": "eCFR: 40 CFR 745.101, Scope and applicability (as of Nov 12, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.101"
@@ -103,15 +103,15 @@
     {
       "id": "ls-006",
       "topic": "Exempt sales and leases",
-      "question": "Which lease of target housing is excepted under the short-term lease paragraph of 745.101?",
+      "question": "A landlord leases a two-bedroom beach cottage built in 1960 for 90 days, and the lease lets the tenant extend for another 90 days. Is the lease excepted under 745.101(c)?",
       "options": {
-        "A": "A lease of 100 days or less that the parties may extend",
-        "B": "Any lease of a furnished unit, whatever its length",
-        "C": "A lease of 100 days or less where no lease renewal or extension can occur",
-        "D": "Any month-to-month lease"
+        "A": "Yes, because the first term is 100 days or less",
+        "B": "Yes, because vacation rentals are always excepted",
+        "C": "No, because the short-term exception covers leases of 100 days or less only where no lease renewal or extension can occur",
+        "D": "No, because only leases longer than 100 days are excepted"
       },
       "answer": "C",
-      "explanation": "745.101(c) excepts \"Short-term leases of 100 days or less, where no lease renewal or extension can occur.\"",
+      "explanation": "745.101(c) excepts \"Short-term leases of 100 days or less, where no lease renewal or extension can occur.\" This lease can be extended, so that exception does not fit it.",
       "source": {
         "title": "eCFR: 40 CFR 745.101, Scope and applicability (as of Nov 12, 2026)",
         "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.101"
@@ -369,15 +369,15 @@
     {
       "id": "ls-020",
       "topic": "What the rule is and what it covers",
-      "question": "According to EPA's Title X page, why does the disclosure rule not cover post-1977 housing?",
+      "question": "A buyer is purchasing a house built in 1979. According to EPA's Title X page, why does the disclosure rule not cover it?",
       "options": {
-        "A": "Housing built after 1977 is covered by State rules only",
-        "B": "Post-1977 housing must be tested before every sale instead",
-        "C": "The Consumer Product Safety Commission banned residential lead-based paint in 1978",
-        "D": "Lead-based paint was banned in 1990"
+        "A": "Because only homes where a child under 6 lives are covered",
+        "B": "Because HUD, not EPA, handles disclosure for newer homes",
+        "C": "Because the Consumer Product Safety Commission banned residential lead-based paint in 1978",
+        "D": "Because newer homes must be tested for lead before every sale instead"
       },
       "answer": "C",
-      "explanation": "EPA says \"this rule does not cover post-1977 housing since the Consumer Product Safety Commission banned residential lead-based paint in 1978\".",
+      "explanation": "EPA's page says the rule does not apply to \"Housing built after 1977 (this rule does not cover post-1977 housing since the Consumer Product Safety Commission banned residential lead-based paint in 1978)\".",
       "source": {
         "title": "EPA: Lead-Based Paint Disclosure Rule (Section 1018 of Title X) (retrieved Nov 15, 2026)",
         "url": "https://www.epa.gov/lead/lead-based-paint-disclosure-rule-section-1018-title-x"
