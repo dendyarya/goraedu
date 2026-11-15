@@ -336,3 +336,32 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Deploy: run 43692119999 succeeded.
 - Unreachable: none needed (eCFR and federalregister.gov APIs reached from the shell; ase.com and nabcep.org read
   through WebFetch).
+
+## 2026-11-15 (second run, started by hand about 2:58 a.m. ET)
+
+- Catch-up run started manually through the scheduled task, not on its normal schedule. The trigger note says the
+  scheduled runs on 2026-11-13 and 2026-11-14 did not happen because GitHub write access to the repo was lost (now
+  restored). No posts were backdated; all use 2026-11-15.
+- 3 posts were already out today (first run), so this run had room for 4 explainers. It published 3 (day total 6).
+- Published (3 explainers): `ground-water-rule-triggered-source-water-monitoring-141-402` (explainer, Drinking water
+  operator; eCFR 40 CFR 141.400, 141.402, 141.403 and 141.2; the total coliform guide mentions 141.402 only in passing);
+  `cdl-skills-test-in-another-state-out-of-state-training-383-79` (explainer, CDL; eCFR 49 CFR 383.79 and 383.5; no
+  guide or post covers 383.79); `pretreatment-industrial-user-data-confidential-40-cfr-403-14` (explainer, Wastewater
+  operator, second today; eCFR 40 CFR 403.14, 403.3 and the title of 2.302; the pretreatment guide lists 403.14 as not
+  covered). eCFR text fetched this run (versioner API, as of 2026-11-10). Each post was checked by a separate agent;
+  findings fixed (water: "three things follow" replaced by the correct sequence, both 141.402(d)(1) invalidation
+  conditions quoted, 30/120-day clocks tied to the specific notices, full (a)(6) treatment alternative and "one or
+  more" quoted, wholesale five-sample duty added, "State" defined from 141.2, summary keeps "not invalidated" and
+  representative sources; CDL: unsourced generalisation and "home State issues the license" removed, knowledge-test
+  sentence limited to paragraph (a), link description to the ELDT post corrected; pretreatment: 2.302 URL corrected to
+  subchapter-A, unsourced intro and "most reports" removed, effluent heading limited to data provided to the Control
+  Authority, inferences ("claim made later", "cannot be shielded", "other business information") and the 403.4 sentence
+  removed, advice tone and "Why this matters" replaced by a quoted summary, note that 403.14 is not in the guide).
+  All quotes re-verified by script against the fetched text.
+- Topic choice: Forklift operator, FAA Part 107 and EPA 609 skipped again (all candidate sections covered, see the first
+  run). Wastewater operator had the fewest explainers after the first run (2) and one post today, so it got its second;
+  then CDL and Drinking water operator (3 each, none today). A fourth explainer was not attempted.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-15 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents (the first run covered 2026-11-12 onward).
+- Deploy: run 43692742342 succeeded.
+- Unreachable: none.
