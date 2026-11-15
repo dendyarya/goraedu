@@ -68,7 +68,7 @@ export function practiceRoute(cluster: OshaClusterId) {
                           ? `Industrial radiography ${lower(name)}`
                           : cluster === "home-inspector"
                             ? `Home inspector ${lower(name)}`
-                          : `${cluster === "cdl" ? "CDL" : cluster === "faa-107" ? "Part 107" : "OSHA"} ${name}`;
+                            : `${cluster === "cdl" ? "CDL" : cluster === "faa-107" ? "Part 107" : "OSHA"} ${name}`;
 
       return (
         <PageShell

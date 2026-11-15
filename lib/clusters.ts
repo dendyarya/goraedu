@@ -179,7 +179,8 @@ export const FAMILIES: Family[] = [
         summary:
           "Home inspector licenses are set by each State; these pages cover EPA's lead-based paint disclosure rule for pre-1978 housing and EPA's radon guidance.",
         source: "EPA 40 CFR 745 Subpart F; EPA radon guidance",
-        status: "planned",
+        status: "available",
+        href: "/home-inspector/",
       },
     ],
   },
