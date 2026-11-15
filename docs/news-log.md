@@ -365,3 +365,44 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
   in docs/daily-news.md plus 40 CFR 143 returned no documents (the first run covered 2026-11-12 onward).
 - Deploy: run 43692742342 succeeded.
 - Unreachable: none.
+
+## 2026-11-15 (third run, scheduled 5:40 a.m. ET, started 5:39 a.m. ET)
+
+- 6 posts were already out today (two earlier runs), so this run had room for 4 explainers. It published 4 (day total
+  10, the ceiling; later runs today publish rule changes only).
+- Published (4 explainers): `powder-actuated-tools-training-daily-test-osha-1926-302-e` (explainer, OSHA construction
+  safety; eCFR 29 CFR 1926.302(e), versioner API as of 2026-11-12; no page cited 1926.302);
+  `which-power-tools-need-constant-pressure-switch-osha-1910-243` (explainer, OSHA general industry safety; eCFR 29 CFR
+  1910.243(a)(2) and 1910.242; no page cited 1910.242 or 1910.243);
+  `texas-electrician-apprentice-license-supervision-hours` (explainer, Electrician licensing; four tdlr.texas.gov pages:
+  apprentice apply and renew, journeyman apply, electrical FAQ); `illinois-home-inspector-license-renewal-continuing-education`
+  (explainer, Home inspector licensing; IDFPR 2026 CE fact sheet and out-of-state CE form, 68 Ill. Adm. Code 1410.160 on
+  ilga.gov). The Texas and Illinois drafts were written by separate agents from pages read with WebFetch; every post was
+  checked by another separate agent (the state checkers re-read every source sentence by sentence). Findings fixed:
+  powder-actuated: unsourced "concrete or steel" intro and "often comes up on jobsites" removed, (e)(4) no longer says
+  whose PPE, Subpart E title attributed to the eCFR table of contents, (e)(5) table row completed, ANSI note added;
+  power tools: "smaller tools" replaced by "all other hand-held powered tools", saber/scroll/jig limit kept in the table,
+  "bring from home" heading and unsourced intro removed, rule terms used ("lock-on control", "positive on-off control"),
+  (a)(4)/(a)(5) paragraph cut to stay under 900 words; Texas: comma and period in two quotes corrected, exemptions and
+  the course alternative added to the summary, unsourced claim that apprentice hours count toward the journeyman exam
+  removed (heading renamed), "Submitting at least" kept, criminal-history scope completed, /electrician/ link text
+  corrected, unsourced "set by each state" opener removed; Illinois: period moved outside a quote, out-of-state sentence
+  now quotes "may review and recommend approval or disapproval", form requirements completed (fee named without amount),
+  IDFPR described as publishing the requirements (licence issuer not stated in the sources), summary keeps the
+  harassment training and the 11/30/2028 expiration, note that the exemption comes from the fact sheet, not the rule.
+  eCFR quotes re-verified by script against the fetched text.
+- Topic choice: EPA 609, FAA Part 107 and Forklift operator (1 explainer each) skipped again for the reasons in the first
+  run. EPA 608 (3) skipped: 82.162 is reserved, technician revocation is already covered, 82.169 applies only to
+  certifying programs, testing organizations and reclaimers, and 82.166 is a legacy section; every other Subpart F
+  section is covered by the study guides or posts. Then four topics with 3 explainers and none today: OSHA construction
+  safety, OSHA general industry safety, Electrician licensing, Home inspector licensing. North Carolina was tried first
+  for the home inspector post, but no board page could be found on ncdoi.gov, so Illinois was used.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-15 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents (some queries needed a retry after empty responses).
+  Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Deploy: run 43706741154 succeeded.
+- Unreachable: tdlr.texas.gov, idfpr.illinois.gov and www.ilga.gov are refused by the session's egress proxy from the
+  shell (read through WebFetch instead); the full Part 1410 page on ilga.gov (EntirePart) could not be read, so Subpart
+  F's mandatory topics are not listed. www.ecfr.gov HTML pages return 403 to the shell; the eCFR API works.
+- Note: docs/news-keywords.md now marks ASE "not on the roadmap (removed Nov 15, 2026)"; the ASE post published earlier
+  today (first run) predates that change and was left as is.
