@@ -406,3 +406,12 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
   F's mandatory topics are not listed. www.ecfr.gov HTML pages return 403 to the shell; the eCFR API works.
 - Note: docs/news-keywords.md now marks ASE "not on the roadmap (removed Nov 15, 2026)"; the ASE post published earlier
   today (first run) predates that change and was left as is.
+
+## 2026-11-15 (fourth run, scheduled 12:40 p.m. ET, started 12:39 p.m. ET)
+
+- 10 posts were already out today (three earlier runs), the daily ceiling, so this run checked rule changes only.
+- Published: none.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-15 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents (today is a Sunday). Sanity check (40 CFR 84 from
+  2026-05-01) returned the two May 26, 2026 HFC documents.
+- Unreachable: none.
