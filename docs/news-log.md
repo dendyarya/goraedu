@@ -305,3 +305,34 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Unreachable: www.ecfr.gov briefly answered "Your IP address has been blocked" (Support Code 02) and now requires
   compressed responses (`curl --compressed`, otherwise HTTP 406); retries after about 30 seconds succeeded.
   www.goraedu.com itself is not allowed by this session's egress proxy, so the live pages were not fetched.
+
+## 2026-11-15 (scheduled run, started 2:45 a.m. ET)
+
+- No posts were out yet today (no runs logged on 2026-11-13 or 2026-11-14), so this run had room for 4 explainers. It
+  published 3 (day total 3).
+- Published (3 explainers): `biosolids-land-application-notices-preparer-applier-land-owner-40-cfr-503-12` (explainer,
+  Wastewater operator; eCFR 40 CFR 503.12(d) to (j) with 503.5, 503.9, 503.10 and 503.11, versioner API as of
+  2026-11-10; the biosolids guide lists the 503.12(f) to (j) notices as not covered point by point);
+  `what-does-ase-master-technician-status-require` (explainer, ASE automotive certification; ase.com FAQ, Certification
+  Pathway and the A1-A9, T1-T8, B2-B5, H1-H8 and S1-S7 test pages); `nabcep-pv-associate-credential-who-can-take-the-exam`
+  (explainer, Solar PV certification; nabcep.org Associate Program page and Associate Candidate Handbook v.2.3.5). The
+  ASE and NABCEP drafts were written by separate agents from pages read with WebFetch; each of the three posts was
+  checked by another separate agent (the ASE and NABCEP checkers re-read every source themselves); findings fixed
+  (wastewater: summary now names who sends each State notice and limits the case-by-case override to bulk sludge and
+  bulk derived material, "State permitting authority" replaced by "the permitting authority for the State" with
+  503.9(p) quoted, State/permit caveat now sourced to 503.5, paragraph list now (d) to (j); ASE: "own expiration date"
+  and the unsourced Renewal App mention removed; NABCEP: unsourced PV Installation Professional clause cut, summary
+  credits the three-year validity to the handbook, Directory quotes attributed to the Associate Program page, handbook
+  date no longer asserted, conversion CE difference quoted, heading "Did the PVA exam change?" renamed). Wastewater
+  quotes re-verified by script against the fetched eCFR text.
+- Topic choice: Wastewater operator (1 explainer) picked first. Forklift operator (1) skipped: every paragraph of
+  1910.178 and its Appendix A is already covered by the forklift guides or the 2026-11-12 post. FAA Part 107 and EPA 609
+  (1 each) skipped for the same reason as earlier runs (every candidate section, including 107.7, 107.9, 107.25 to
+  107.74, 107.205 and Parts 48 and 89, is covered by study guides). Then ASE and Solar PV (2 each). A fourth explainer
+  was not attempted; later runs today have room for up to 7 more posts.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-12 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents. Sanity check (40 CFR 84 from 2026-05-01) returned the two
+  May 26, 2026 HFC documents.
+- Deploy: run 43692119999 succeeded.
+- Unreachable: none needed (eCFR and federalregister.gov APIs reached from the shell; ase.com and nabcep.org read
+  through WebFetch).
