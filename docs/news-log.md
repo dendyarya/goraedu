@@ -452,3 +452,33 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Deploy: run 43852392705 succeeded.
 - Unreachable: dpo.colorado.gov, www.aws.org and www.nabcep.org refuse the shell (read through WebFetch; the NABCEP
   handbook PDF could not be downloaded from the shell, so its quotes were confirmed through WebFetch only).
+
+## 2026-11-16 (second run, scheduled 12:40 p.m. ET, started 12:39 p.m. ET)
+
+- 4 posts were already out today (first run), so this run had room for 4 explainers. It published 4 (day total 8).
+- Published (4 explainers): `longer-combination-vehicle-lcv-training-doubles-triples-49-cfr-380` (explainer, CDL; eCFR
+  49 CFR 380 Subparts A, B and D; the CDL guides do not cover Part 380); `drinking-water-compliance-samples-certified-laboratory-141-28`
+  (explainer, Drinking water operator; eCFR 40 CFR 141.28, 141.89 and 142.10); `osha-safety-color-code-red-yellow-signs-tags-1910-144-145`
+  (explainer, OSHA general industry safety; eCFR 29 CFR 1910.144 and 1910.145 with Appendix A to 1910.145(f));
+  `osha-construction-debris-chutes-dropping-waste-1926-252` (explainer, OSHA construction safety; eCFR 29 CFR 1926.252).
+  All text read from the eCFR versioner API (current to 2026-11-12). Each post was checked by a separate agent against
+  the fetched text (quotes compared by script, then re-checked by script after fixes). Findings fixed: LCV: capital
+  "Allow" in the 380.113 quote, "clean record" replaced by "within the rule's limits", out-of-service bullet no longer
+  says "while operating a CMV", grandfathered drivers' continuing exemption added, opening sentence keeps the interstate
+  and 80,000 lb scope; 141.28: "same split" for 141.89 changed to "similar split" (four of the seven measurements),
+  unsourced example and "list comes from your state" removed, primacy sentence keeps the 142.10(b)(3) waiver, quote
+  punctuation fixed, table labels completed (Subparts E and Z); colors: tag colors described as recommended by Appendix
+  A (not "non-mandatory appendix"), "intended to cover" scope kept, ANSI incorporation credited to 1910.6, instruction
+  duty limited to danger and caution signs, "Warning" tags (f)(7) added; 1926.252: "inside the building" and "open
+  trough" inferences removed, barricade paraphrase matches "completely enclosed" and "debris handling ceases above",
+  burning sentence no longer infers, "more than 20 feet" kept.
+- Topic choice: EPA 609, FAA Part 107 and Forklift operator (1 explainer each) and EPA 608 (3) skipped again for the
+  reasons in earlier runs (candidate sections covered). Then four of the six topics with 4 explainers and none today
+  (CDL, Drinking water operator, OSHA general industry safety, OSHA construction safety; all eCFR-based). Electrician
+  licensing and Home inspector licensing are left for the evening run.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-16 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents; today's issue (104 documents) was already in the API.
+  Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Deploy: run 43922596864 succeeded.
+- Unreachable: none. The eCFR API answered "Your IP address has been blocked" to a burst of requests; it worked again
+  after a one-minute pause with slower requests.
