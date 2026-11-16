@@ -482,3 +482,34 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Deploy: run 43922596864 succeeded.
 - Unreachable: none. The eCFR API answered "Your IP address has been blocked" to a burst of requests; it worked again
   after a one-minute pause with slower requests.
+
+## 2026-11-16 (third run, scheduled 6:40 p.m. ET, started 6:39 p.m. ET)
+
+- 8 posts were already out today (first and second runs), so this run had room for 2 explainers (10-post ceiling). It
+  published 2 (day total 10).
+- Published (2 explainers): `minnesota-journeyworker-electrician-license-experience-hours` (explainer, Electrician
+  licensing; Minnesota DLI pages on electrical license experience, registered unlicensed electricians and electrical
+  continuing education, and Minn. Stat. 326B.33, 2026 version); `massachusetts-associate-home-inspector-to-home-inspector-license`
+  (explainer, Home inspector licensing; mass.gov associate home inspector how-to page, 266 CMR 3.00 and 4.00 (Mass.
+  Register #1567, 2/13/26) and M.G.L. c. 112, § 222). Both drafts were written by separate agents from pages read with
+  WebFetch; each was checked by another separate agent that re-read every source. Findings fixed: Minnesota: 2009 date
+  limit added to the registration rule in the summary, school-term experience described as "no credit" (not "limits"),
+  supervision quote recast as part of DLI's list of conditions with source punctuation, CE renewal sentence quoted in
+  full (including "or until ..."), "The statute matches" changed to "The statute states", unsourced "(and in some places
+  by a city)" removed, statute paraphrase widened to "wiring, apparatus and equipment", the 24-of-48 point labeled as
+  our arithmetic, unsourced forms-page sentence and "planned topic" line removed (the /electrician/ hub is available);
+  Massachusetts: wrong "does not explain indirect supervision" replaced by the 266 CMR 4.06(7) quote, one-year
+  computation sentence from 266 CMR 3.01 added, mock-inspection quote made verbatim through "266 CMR 5.05", "two
+  licenses" corrected (3.01(2) also has a reciprocity path), unsourced "part of the Division of Occupational
+  Licensure" removed, exam advice reworded.
+- Topic choice: the two remaining topics with 4 explainers and none today (Electrician licensing, Home inspector
+  licensing), as planned in the second run. States not yet covered were chosen (Minnesota, Massachusetts). Minn. R.
+  3800.3520 itself could not be read (WebFetch permission timed out); the age-17 and school-term limits are quoted
+  from DLI's page, which restates that rule. M.G.L. c. 112, § 223 and a mass.gov "apply for a home inspector license"
+  page could not be read; nothing in the post relies on them.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-16 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents. Sanity check (40 CFR 84 from 2026-05-01) returned the two
+  May 26, 2026 HFC documents.
+- Deploy: run 43983102539 succeeded.
+- Unreachable: www.mass.gov, www.dli.mn.gov, www.revisor.mn.gov and malegislature.gov refuse the shell (egress proxy);
+  read through WebFetch. One Federal Register API call (14 CFR 43) returned an empty body and succeeded on retry.
