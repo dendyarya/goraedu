@@ -424,3 +424,31 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
   in docs/daily-news.md plus 40 CFR 143 returned no documents (six queries needed a retry after empty responses).
   Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
 - Unreachable: none.
+
+## 2026-11-16 (first run, scheduled 5:40 a.m. ET, started 5:39 a.m. ET)
+
+- No posts were out today yet, so this run had room for 4 explainers. It published 4 (day total 4).
+- Published (4 explainers): `pretreatment-net-gross-intake-water-credit-40-cfr-403-15` (explainer, Wastewater operator;
+  eCFR 40 CFR 403.15 and 403.3, versioner API as of 2026-11-12; the pretreatment study guide lists 403.15 as not
+  covered); `colorado-plumbing-license-renewal-continuing-education` (explainer, Plumbing licensing; dpo.colorado.gov
+  Plumbing Applications and CE pages); `aws-cwi-exam-eligibility-education-experience` (explainer, Welding
+  certification; AWS CWI program page); `nabcep-pv-design-specialist-exam-eligibility-requirements` (explainer, Solar PV
+  certification; NABCEP Board Certifications page and Certification Handbook, 2025 Update). The Colorado, AWS and NABCEP
+  drafts were written by separate agents from pages read with WebFetch; every post was checked by another separate agent
+  (the eCFR checker compared every quote by script; the web checkers re-read every source and confirmed each joined
+  quote). Findings fixed: 403.15: summary-table row "Who decides?" changed to who applies to whom, "last amended"
+  changed to "source note"; Colorado: unsourced "(and in some places by a city)" removed, exemption lead-in matched to
+  the board's wording, "certificates" changed to "CE records"; AWS: table row 3 wording matched to the page, inference
+  about unfinished courses replaced by the page's "successfully completed courses", "before they start" removed,
+  confirmation-letter sentence limited to booking Parts A and C with Prometric; NABCEP: quote ending punctuation made
+  verbatim, nested quotes fixed, "2025 Update" attributed to the handbook cover.
+- Topic choice: EPA 609, FAA Part 107 and Forklift operator (1 explainer each) and EPA 608 (3) skipped again for the
+  reasons in earlier runs (candidate sections covered). Then the four topics with 3 explainers: Wastewater operator,
+  Plumbing licensing, Welding certification, Solar PV certification. Oregon was tried first for plumbing, but its
+  journeyman page did not list experience requirements and its CE hours table could not be read, so Colorado was used.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-15 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents (run before today's 8:45 a.m. ET publication). Sanity check
+  (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Deploy: run 43852392705 succeeded.
+- Unreachable: dpo.colorado.gov, www.aws.org and www.nabcep.org refuse the shell (read through WebFetch; the NABCEP
+  handbook PDF could not be downloaded from the shell, so its quotes were confirmed through WebFetch only).
