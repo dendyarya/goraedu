@@ -555,3 +555,39 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Unreachable: www.oregon.gov, aws.org and nabcep.org refuse the shell (egress proxy); read through WebFetch. The
   Federal Register API answered "Your IP address has been blocked" after a burst of requests and empty bodies for two
   calls (40 CFR 403, 763) that succeeded on retry.
+
+## 2026-11-17 (second run, scheduled 12:40 p.m. ET, started 12:39 p.m. ET)
+
+- 5 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 9).
+- Published (4 explainers): `osha-aerial-lift-rules-general-industry-1910-67` (explainer, OSHA general industry safety;
+  eCFR 29 CFR 1910.67); `osha-demolition-preparatory-operations-engineering-survey-1926-850` (explainer, OSHA
+  construction safety; eCFR 29 CFR 1926.850 and 1926.851); `cdl-masking-convictions-deferral-diversion-384-226`
+  (explainer, CDL; eCFR 49 CFR 384.226, 384.225, 384.105, 384.101 and 383.5);
+  `individual-filter-turbidity-exceedance-follow-up-141-175-141-563` (explainer, Drinking water operator; eCFR 40 CFR
+  141.170, 141.174, 141.175, 141.560 to 141.564, 141.570 and 141.571). All eCFR text read from the versioner API (as of
+  2026-11-13); quotes compared by script. Each post was checked by a separate agent. Findings fixed: aerial lift:
+  training rule and the other (c)(2) rules now scoped to extensible and articulating boom platforms (summary and body),
+  (c)(1) noted as the only ladder/tower truck rule, upper-controls quote made a full sentence, "two questions",
+  electrical guide described as covering parts of Subpart S, field-modification section cut for length; demolition:
+  summary keeps the "apparent or suspected" condition of (e), "Step N" headings removed and intro says which paragraphs
+  are tied to the start of work; CDL: "ticket" replaced by "conviction" (title, alt, card, bullets), 384.105(a) added so
+  the 383.5 definition applies to Part 384, "rebated, suspended, or probated" reading corrected, 3-year retention keeps
+  "or longer" under 384.231(d), 384.225(b) wording, authorized agents, study-guide link no longer claims 383.5
+  definitions, self-reporting link text narrowed (employer notice remains); water: summary allows CFE monitoring for
+  two-filter small systems and "at least every 15 minutes", 0.5 NTU row wording matches 141.175(b)(2), CFE note under
+  the table, lime-softening citation to both sections, study-guide description corrected (141.70 to 141.76).
+- Topic choice: EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in earlier runs. The four
+  topics already with an explainer today (Wastewater operator, Plumbing licensing, Welding certification, Solar PV
+  certification) were left for balance; CDL, Drinking water operator, OSHA construction safety and OSHA general industry
+  safety (5 each, none today) were picked as eCFR-based topics. Electrician licensing and Home inspector licensing (5
+  each, none today) remain for the third run, which has room for 1 post (10 minus 9).
+- Rule changes: none new. Federal Register API search (RULE and PRORULE, published 2026-11-17 or later) for every CFR
+  part in docs/daily-news.md plus 40 CFR 143 returned only FR Doc. 2026-23397 (14 CFR 65), already covered this
+  morning. Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: local `npm run check` stopped once with the Next.js "SecurityFatalError" upgrade reminder and passed on retry.
+- Deploy: run 44141638244 FAILED at the "Security audit (fail on high or critical)" step, not at the posts: a new high
+  advisory for picomatch (GHSA-fc5q-39xc-vjpf, every version affected, no fix available) reached through
+  eslint-config-next, fast-glob, micromatch and tinyglobby. The four posts are on main but not live until the owner
+  decides how to handle the audit gate. Dependencies were not changed (outside this run's scope).
+- Unreachable: the eCFR renderer API answered "Your IP address has been blocked" once; the versioner API worked.
