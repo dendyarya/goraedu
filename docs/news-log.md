@@ -591,3 +591,28 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
   eslint-config-next, fast-glob, micromatch and tinyglobby. The four posts are on main but not live until the owner
   decides how to handle the audit gate. Dependencies were not changed (outside this run's scope).
 - Unreachable: the eCFR renderer API answered "Your IP address has been blocked" once; the versioner API worked.
+
+## 2026-11-17 (third run, scheduled 6:40 p.m. ET, started 6:39 p.m. ET)
+
+- 9 posts were out today, so this run had room for 1 post. It published 0 rule changes and 1 explainer (day total 10).
+- Published (1 explainer): `osha-hazardous-classified-locations-electrical-equipment-1910-307` (explainer, Electrician
+  licensing; eCFR 29 CFR 1910.307 and 1910.399, read from the versioner API as of 2026-11-13). Quotes compared by
+  script. Checked by a separate agent; findings fixed: opening no longer says ordinary equipment "may not be used"
+  (1910.307(e) allows general-purpose equipment in Division 2 on the employer's showing), examples matched to the
+  regulation's wording (gasoline dispensing, grain handling), (c)(2)(ii) described as provisions that "modify" the
+  marking rule (not exceptions, since (E) adds a marking), Division 2 sentence keeps "or equipment in general-purpose
+  enclosures" and drops "only". Construction (1926 Subpart K) and 1910.302 applicability not covered.
+- Topic choice: EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in earlier runs. Electrician
+  licensing and Home inspector licensing (5 each, none today) were the candidates; Electrician licensing picked because
+  hazardous (classified) locations are explicitly listed as not covered in the OSHA construction electrical guide and
+  no page or post cites 1910.307. Home inspector licensing left for tomorrow.
+- Rule changes: none new. Federal Register API search (RULE and PRORULE, published 2026-11-17 or later) for every CFR
+  part in docs/daily-news.md plus 40 CFR 143 returned only FR Doc. 2026-23397 (14 CFR 65), already covered this
+  morning. Four empty replies (29 CFR 1926, 40 CFR 142, 403; 10 CFR 34) returned count 0 on retry. Sanity check (40 CFR
+  84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `node_modules` was missing; `npm ci` run. `npm run check` and `npm run format:check` passed.
+- Deploy: run 44202318116 FAILED at "Security audit (fail on high or critical)", the same picomatch advisory
+  (GHSA-fc5q-39xc-vjpf, no fix available) as the second run. Local `npm audit --audit-level=high` still reports 9 high.
+  The second and third runs' five posts are on main but not live until the owner handles the audit gate. Dependencies
+  not changed (outside this run's scope).
+- Unreachable: the eCFR versioner API answered "Your IP address has been blocked" for 1910.302 after two fetches.
