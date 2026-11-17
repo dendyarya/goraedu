@@ -513,3 +513,45 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Deploy: run 43983102539 succeeded.
 - Unreachable: www.mass.gov, www.dli.mn.gov, www.revisor.mn.gov and malegislature.gov refuse the shell (egress proxy);
   read through WebFetch. One Federal Register API call (14 CFR 43) returned an empty body and succeeded on retry.
+
+## 2026-11-17 (first run, scheduled 5:40 a.m. ET, started 5:39 a.m. ET)
+
+- 0 posts were out today, so this run had room for 4 explainers. It published 1 rule change and 4 explainers (day
+  total 5).
+- Published (1 rule change): `faa-proposes-electronic-payment-only-mechanic-replacement-certificate-65-16`
+  (rule-change, FAA A&P mechanic; FR Doc. 2026-23397, "Modernizing to Electronic Payments", proposed rule published
+  2026-11-17, comments due 2027-01-04, full text from govinfo; current 14 CFR 65.16 from the eCFR API). The post covers
+  only 65.16 and the 13.18 payment method; the parts 47, 49, 61, 63, 187 and 406 changes do not touch a roadmap
+  certification's rules a test-taker needs.
+- Published (4 explainers): `sewage-sludge-surface-disposal-site-location-crops-grazing-40-cfr-503-24` (explainer,
+  Wastewater operator; eCFR 40 CFR 503.21, 503.22 and 503.24, the 503.24 practices our biosolids guide lists as not
+  covered); `oregon-journeyman-plumber-license-exam-hours-classroom-training` (explainer, Plumbing licensing; Oregon
+  License Directory entry, BCD form 440-2571 and BCD journeyman plumber license page);
+  `aws-certified-associate-welding-inspector-cawi-path-to-cwi` (explainer, Welding certification; aws.org CAWI and CWI
+  pages); `nabcep-pv-installer-specialist-exam-eligibility-requirements` (explainer, Solar PV certification; NABCEP
+  Board Certifications page and 2025 Certification Handbook, Section 6 and 2.4). The three web-sourced drafts were
+  written by separate agents from pages read with WebFetch; every post was checked by another separate agent (eCFR and
+  FR quotes compared by script; web pages re-read by the checker). Findings fixed: FAA: "lags its own practice"
+  reworded to FAA's "diverges" sense; 503.24: "threatened" and critical habitat added to the summary, 503.22(b)
+  sentence no longer adds "when the rule took effect" or floodplains, "safe" paraphrase removed, sewage sludge unit
+  definition exclusion ("stored or treated") added, study-guide coverage stated precisely (storm capacity, active-unit
+  methane, public access), State exam sentence matched to the hub wording, trimmed to under 900 words; Oregon:
+  employer condition quoted in full ("out of business, deceased or otherwise unlocatable"), military "other reliable
+  documentation" alternative added, three split quotes merged, unsourced apprentice-form advice and "set by each state
+  (and in some places by a city)" replaced, straight apostrophes; AWS: summary comparison attributed to AWS's pages, not
+  to AWS; NABCEP: two quote punctuation fixes, "or government equivalent" kept in the provider quote, arithmetic limited
+  to 1 to 999 kW installations (under 1 kW does not count), two split quotes merged.
+- Topic choice: EPA 609, FAA Part 107 and Forklift operator (1 explainer each) and EPA 608 (3) skipped again for the
+  reasons in earlier runs. Then the four topics with 4 explainers (Wastewater operator, Plumbing licensing, Welding
+  certification, Solar PV certification). Oregon chosen as a state not yet covered for plumbing. The Oregon BCD
+  continuing-education page could not be read (WebFetch permission timed out) and OAR 918-695-0030 was found only on
+  non-.gov copies; nothing in the post relies on them.
+- Rule changes: Federal Register API search (RULE and PRORULE, published 2026-11-16 or later) for every CFR part in
+  docs/daily-news.md plus 40 CFR 143 returned only FR Doc. 2026-23397 (14 CFR 65). Sanity check (40 CFR 84 from
+  2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `next build` stopped twice with a "SecurityFatalError" upgrade reminder for Next.js 16.4.3 after all pages
+  were generated; the same command passed on retry. Not upgraded (outside this run's scope); flagged to the owner.
+- Deploy: run 44070083370 succeeded.
+- Unreachable: www.oregon.gov, aws.org and nabcep.org refuse the shell (egress proxy); read through WebFetch. The
+  Federal Register API answered "Your IP address has been blocked" after a burst of requests and empty bodies for two
+  calls (40 CFR 403, 763) that succeeded on retry.
