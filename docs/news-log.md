@@ -698,3 +698,38 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
   held back since the 2026-11-17 second run are live too.
 - Unreachable: the eCFR versioner API answered "Your IP address has been blocked" once (retry worked) and now requires
   `Accept-Encoding` compression (`curl --compressed`). nabcep.org read with the web-fetch agent.
+
+## 2026-11-18 (third run, scheduled 6:40 p.m. ET, started 6:39 p.m. ET)
+
+- 7 posts were out today, so this run had room for 3 explainers. It published 0 rule changes and 3 explainers (day
+  total 10, the daily ceiling).
+- Published (3 explainers):
+  - `osha-jack-inspection-rated-load-blocking-1910-244` (explainer, OSHA general industry safety; eCFR 29 CFR 1910.244,
+    version 2026-11-16; no guide or post covered it). Checked by a separate agent (all 17 quotes verified by script);
+    fixes: unsourced opening sentence about where jacks are used removed, "not meant to be the only support" and "does
+    not allow a delay" restated as what (a)(2)(iii) requires, "one locality" condition kept as "constant or intermittent
+    use at one locality" in summary and body.
+  - `uncovered-finished-water-storage-cover-or-treat-40-cfr-141-714` (explainer, Drinking water operator; eCFR 40 CFR
+    141.714, 141.700, 141.721(b), 141.2, version 2026-11-16; only a definition question covered it). Checked by a
+    separate agent (all 13 quotes verified by script); fixes: Subpart W named by its eCFR heading "Enhanced Treatment for
+    Cryptosporidium" (the "Long Term 2" name is not in the cited text), State notification and the State-approved schedule
+    alternative added to the summary and body, unsourced "once stored" opening removed, raw-water sentence marked as a
+    reading of the definition. A sentence saying an open facility can stay uncovered only with the treatment option was
+    removed before the check (it ignored the schedule alternative).
+  - `colorado-electrician-license-renewal-continuing-education-24-hours` (explainer, Electrician licensing; Colorado
+    State Electrical Board pages dpo.colorado.gov/Electrical/CE and /Electrical/Applications, read with the web-fetch
+    agent). Checked by a separate agent that re-read both pages (all quotes matched); fixes: first-renewal exception
+    worded as the board's "condition of issuance", unsourced "set at the state or local level" and "rules electricians
+    work under" removed, curly apostrophe restored in a quote. The Applications page still shows a September 30, 2023
+    expiration date, so the post gives no date and points to the online account. Card regenerated twice (title too close
+    to the date box). No fee amounts.
+- Topic choice: EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in earlier runs. The three
+  6-explainer topics with no post today were picked (Drinking water operator, Electrician licensing, OSHA general
+  industry safety).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-18 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents (14 CFR 147 gave an empty reply once and count 0 on
+  retry). Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `npm run check` stopped once with the Next.js security upgrade reminder and passed on retry (the upgrade was not
+  run: outside this run's scope). `npm run format:check` passed.
+- Deploy: run 44423717960 succeeded.
+- Unreachable: dpo.colorado.gov refuses the shell (read with the web-fetch agent).
