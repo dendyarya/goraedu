@@ -616,3 +616,42 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
   The second and third runs' five posts are on main but not live until the owner handles the audit gate. Dependencies
   not changed (outside this run's scope).
 - Unreachable: the eCFR versioner API answered "Your IP address has been blocked" for 1910.302 after two fetches.
+
+## 2026-11-18 (first run, scheduled 5:40 a.m. ET, started 5:40 a.m. ET)
+
+- 0 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 3 explainers (day
+  total 3).
+- Published (3 explainers):
+  - `utah-residential-journeyman-plumber-license-hours-education-exams` (explainer, Plumbing licensing; Utah DOPL
+    residential journeyman application page, exam information page and FAQ, read with the web-fetch agent). Checked
+    by a separate agent; findings fixed: the FAQ's remote written / in-person practical exam statements removed (the
+    FAQ says this for the Journeyman Plumber license, not the residential one), the "hours before the exam" FAQ answer
+    now named as an answer about the journeyman or master exam, "paper application form" removed (not on the page),
+    scheduling link reworded. The (non-residential) journeyman route was left out because DOPL's application page
+    (8,000 hours) and exam page (6,000 hours) disagree; the residential pages agree (6,000 / 12,000 hours).
+  - `north-carolina-home-inspector-license-200-hour-education-exam-insurance` (explainer, Home inspector licensing;
+    N.C.G.S. Chapter 143 Article 9F, the Board's rules booklet effective June 1, 2026 (11 NCAC 08), OSFM apply page).
+    Checked by a separate agent (all quotes confirmed under the cited sections); fix: insurance amounts now "set by the
+    statute and the Board (Rule .1006(b) sets the bond amount)". No dollar amounts in the post. CE rule .1300 not read
+    verbatim (booklet tail truncated), so the post gives only the statute's 12 to 20 hour range.
+  - `sewage-sludge-surface-disposal-pathogens-vector-attraction-daily-cover-40-cfr-503-25` (explainer, Wastewater
+    operator; eCFR 40 CFR 503.25, 503.33, 503.32, 503.21, 503.9, versioner API as of 2026-11-13). Quotes compared by
+    script. Checked by a separate agent; fixes: 503.9(f) septage exclusions added, turf harvesting added to the Class B
+    site restriction list, eCFR date wording clarified.
+- Not published: an AWS Certified Welding Supervisor (CWS) explainer (Welding certification). The web-fetch agent got
+  only navigation text from www.aws.org/certification/cws_faqs and a summary with conflicting experience figures, so
+  nothing could be quoted verbatim. Solar PV certification (5 explainers) not attempted: NABCEP's eligibility and
+  recertification pages are already covered. Fourth slot left empty rather than padded.
+- Topic choice: EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in earlier runs. Picked
+  from the five topics with 5 explainers (Home inspector licensing, Plumbing licensing, Wastewater operator, Welding
+  certification, Solar PV certification).
+- Rule changes: none new. Federal Register API search (RULE and PRORULE, published 2026-11-17 or later) for every CFR
+  part in docs/daily-news.md plus 40 CFR 143 returned only FR Doc. 2026-23397 (14 CFR 65), already covered. Sanity check
+  (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `node_modules` was missing; `npm ci` run. `npm run check` and `npm run format:check` passed.
+- Deploy: run 44289163024 FAILED at "Security audit (fail on high or critical)", the same picomatch advisory
+  (GHSA-fc5q-39xc-vjpf) as on 2026-11-17 (the 02:55 UTC scheduled Deploy failed the same way). Posts from the 2026-11-17
+  second and third runs and this run are on main but not live until the owner handles the audit gate. Dependencies
+  not changed (outside this run's scope).
+- Unreachable: commerce.utah.gov, ncleg.gov and ncosfm.gov refuse the shell (read with the web-fetch agent);
+  www.aws.org CWS page body unreadable through the web-fetch agent.
