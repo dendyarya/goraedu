@@ -655,3 +655,46 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
   not changed (outside this run's scope).
 - Unreachable: commerce.utah.gov, ncleg.gov and ncosfm.gov refuse the shell (read with the web-fetch agent);
   www.aws.org CWS page body unreadable through the web-fetch agent.
+
+## 2026-11-18 (second run, scheduled 12:40 p.m. ET, started 12:39 p.m. ET)
+
+- 3 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 7).
+- Published (4 explainers):
+  - `can-cdl-school-give-skills-test-third-party-tester-383-75` (explainer, CDL; eCFR 49 CFR 383.75, versioner API as of
+    2026-11-16; the CDL standards guide lists 383.75 as not covered). Checked by a separate agent; fixes: summary "if the
+    conditions ... are met", heading "the same test?" (no "easier"), school sentence limited to what (a)(7) bars plus
+    "Your State's rules may say more", study note now says same version/instructions/scoring sheets on a State-approved
+    route (advice removed), guide topics listed in full, bond wording "initiate and maintain", intro claims removed.
+  - `when-can-concrete-forms-shores-be-removed-osha-1926-703` (explainer, OSHA construction safety; eCFR 29 CFR 1926.703
+    and 1926.700, as of 2026-11-16; no guide covers Subpart Q). Checked by a separate agent; fixes: summary keeps the
+    "conditions followed" and "results show sufficient strength" conditions, slabs-on-grade/slip-forms exception tied
+    to (e)(1), (b)(8)(i) "whenever ... tiered" wording, full verb lists for (a)(1) and the appendix, subpart title
+    replaced by 1926.700(a) wording. Card regenerated after the title overlapped the date box.
+  - `resistance-spot-welding-machine-guarding-osha-1910-255` (explainer, Welding certification; eCFR 29 CFR 1910.255, as
+    of 2026-11-16; the general industry welding guide quotes only its installation, voltage and maintenance rules).
+    Checked by a separate agent; fixes: (b) rules scoped to nonportable spot and seam machines in summary and body,
+    (c) described as all portable guns with (c)(2) limited to suspended equipment, (b)(2) restated (insulation,
+    interlocks wired into the control circuit, "absolute discharge" quoted), intro no longer says certification covers
+    resistance welding, heading on doors and access panels, welding hub described as available (not planned).
+  - `nabcep-pv-system-inspector-pvsi-eligibility-exam-recertification` (explainer, Solar PV certification; NABCEP
+    Certification Handbook 2025 Update, read with the web-fetch agent: Sections 1, 10, 14.4, 14.6, 15, 17.2, 19.8,
+    20.1, 21.1.2, 21.1.4). Checked by a separate agent that re-read the handbook (all quotes confirmed); fixes: summary
+    lists the recertification application and fee and the exam alternative, sixth 10.1 bullet added, "passing score is
+    required" added, 17.2 named "What is Provided at the Exam", "immediately" restored for directory removal, solar
+    hub described as the OSHA installer hub, "Unlike NABCEP's installer..." comparison and the ambiguous LRP/CBT
+    exam-format table removed. No fee amounts.
+- Topic choice: EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in earlier runs. Solar PV
+  certification and Welding certification (5 each) first; then two 6-explainer topics with no post today (CDL, OSHA
+  construction safety). Plumbing licensing, Home inspector licensing and Wastewater operator already had a post today.
+  Welding used eCFR because 1910.252(c)(1)(iv) is already covered by the 2026-11-12 post.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-18 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents (14 CFR 48 and 40 CFR 763 gave empty replies once and
+  count 0 on retry). Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `node_modules` was missing; `npm ci` run. `npm run check` stopped once with the Next.js security upgrade
+  reminder and passed on retry (the suggested upgrade was not run: outside this run's scope). `npm run format:check`
+  passed.
+- Deploy: run 44363269580 succeeded (the audit step that failed on 2026-11-17 and this morning passed), so the posts
+  held back since the 2026-11-17 second run are live too.
+- Unreachable: the eCFR versioner API answered "Your IP address has been blocked" once (retry worked) and now requires
+  `Accept-Encoding` compression (`curl --compressed`). nabcep.org read with the web-fetch agent.
