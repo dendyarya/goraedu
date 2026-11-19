@@ -733,3 +733,43 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
   run: outside this run's scope). `npm run format:check` passed.
 - Deploy: run 44423717960 succeeded.
 - Unreachable: dpo.colorado.gov refuses the shell (read with the web-fetch agent).
+
+## 2026-11-19 (first run, scheduled 5:40 a.m. ET, started 5:39 a.m. ET)
+
+- No posts were out today, so this run had room for up to 4 explainers. It published 0 rule changes and 3 explainers
+  (day total 3).
+- Published (3 explainers):
+  - `massachusetts-journeyman-plumber-license-6800-hours-550-hours-theory` (explainer, Plumbing licensing; 248 CMR 11.00,
+    Mass. Register #1559, 10/24/2025, read from mass.gov with the web-fetch agent: 11.02(1), 11.02(2), 11.02(8), 11.03).
+    Checked by a separate agent that re-read the regulation (all 24 quotes reported exact); fixes: summary and heading say
+    11.02(1) sets eligibility for the journeyman examination (not the license itself), the 11.02(8) exception restated as
+    work under a "Public Comprehensive High School Career/Vocational Technical School Program" (no "approved"). The
+    fetch returned only part of the PDF; 11.06 (tier breakdown) was not read and the post does not describe it. No fee
+    amounts.
+  - `arizona-home-inspector-certification-84-hours-30-parallel-inspections` (explainer, Home inspector licensing; Arizona
+    State Board of Technical Registration rule R4-30-247 (Supp. 24-1, effective May 25, 2024), Home Inspections General
+    Information and Home Inspector Applicant FAQ, read with the web-fetch agent). Checked by a separate agent that
+    re-read all three pages (all quotes matched); fixes: "board's standards of professional practice" replaced by the
+    rule's "shall meet the standards in R4-30-301.01", (B)(9) report described with its R4-30-301.01 condition and "the
+    Report Checklist Supplement", comma restored in the accreditation sentence. The pages state no continuing education
+    requirement for renewal, and the post says so. Card regenerated once (title too close to the date box). No fee,
+    bond or insurance amounts.
+  - `aws-certified-welding-supervisor-cws-eligibility-validity-renewal` (explainer, Welding certification; AWS page
+    "Certified Welding Supervisor (CWS) Program", www.aws.org/certification/CWS_FAQs, read with the web-fetch agent).
+    Checked by a separate agent that re-read the page (all 13 quotes matched); fix: the nine-year recertification now
+    includes the listed documentation of continued welding-supervisor activity in summary and body, not only the
+    exam-or-80-PDH option. The page states no question count, time or passing score, and the post says so. No fees.
+- Skipped: Solar PV certification (6 explainers) was planned as a fourth post on NABCEP's PV Commissioning & Maintenance
+  Specialist, but the web-fetch agent could not read the NABCEP handbook PDF (Handbook-1-23-25-V2.pdf; permission
+  request not answered in time), so it was not written. Wastewater operator (6) skipped: every section of 40 CFR 133,
+  403 and 503 that a practical question would rest on is already in a study guide or post. Welding used AWS because 1910
+  Subpart Q and 1926 Subpart J are covered by the two OSHA welding guides and earlier posts. EPA 609, FAA Part 107,
+  Forklift operator and EPA 608 skipped for the reasons in earlier runs.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-18 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents. Sanity check (40 CFR 84 from 2026-05-01) returned the two
+  May 26, 2026 HFC documents.
+- Build: `node_modules` was missing; `npm ci` run. `npm run check` stopped once with the Next.js security upgrade
+  reminder and passed on retry (the upgrade was not run: outside this run's scope). `npm run format:check` passed.
+- Deploy: run 44509498984 succeeded.
+- Unreachable: www.nabcep.org handbook PDF (web-fetch permission not granted in time). mass.gov, btr.az.gov and aws.org
+  refuse the shell (read with the web-fetch agent).
