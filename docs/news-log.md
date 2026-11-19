@@ -813,3 +813,41 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Deploy: run 44581660908 succeeded.
 - Unreachable: www.nabcep.org refuses the shell (read with the web-fetch agent). www.ecfr.gov web pages redirect the
   shell to unblock.federalregister.gov; the eCFR API was used for all text.
+
+## 2026-11-19 (third run, scheduled 6:40 p.m. ET, started 6:40 p.m. ET)
+
+- 7 posts were out today, so this run had room for 3 explainers. It published 0 rule changes and 3 explainers (day
+  total 10).
+- Published (3 explainers):
+  - `does-a-lab-need-a-chemical-hygiene-plan-osha-1910-1450` (explainer, OSHA general industry safety; eCFR 29 CFR
+    1910.1450, as of 2026-11-17; no guide or post cited 1910.1450). Checked by a separate agent (all 36 quotes verbatim
+    by script); fixes: (a)(2) now lists all three exceptions with the "unless that particular standard states otherwise"
+    qualifier, monitoring notice cited as (d)(4) with the posting alternative, unsourced intro examples (school,
+    hospital, quality-control labs) removed, (g)(1)(ii) surveillance and (g)(2) physician wording added, three list
+    items worded closer to (e)(3) and (f)(4).
+  - `idaho-journeyman-electrician-license-apprenticeship-or-16000-hours` (explainer, Electrician licensing; Idaho Code
+    54-1007, DOPL Electrical Journeyman License Application (rev. Aug 2, 2024) and Active Registration Waiver form, read
+    with the web-fetch agent). Checked by a separate agent that re-read all three; fixes: waiver quote includes "and/or
+    military documentation showing relevant experience", "if required by the state" restored in the hours quote, NERA
+    and Oregon applicant sections named as not covered, the 8,000-hour line paraphrased (PDF layout made its heading
+    placement uncertain). IDAPA 24.39.10 could not be read (files.dfm.idaho.gov permission timed out); the post says it
+    does not quote the rule. DOPL proposed electrical rules dated 2026-08-13 were seen in search but not read: a lead
+    for a later check (state rule, not a federal one).
+  - `tennessee-home-inspector-license-90-hours-exam-32-hours-ce` (explainer, Home inspector licensing; four tn.gov Home
+    Inspector Licensing Program pages: license, exam info, renewal, education, read with the web-fetch agent). Checked
+    by a separate agent that re-read all four (all quotes verbatim; the writer's summary-only facts confirmed); fixes:
+    "valid and current" limited to E&O coverage, sworn statement added to the inactive-to-active requirements,
+    "commissioner-approved" and "certification of completion" matched to the page, general opening claim about other
+    states removed. Rule 0780-05-12 and T.C.A. 62-6-3 were found only on non-.gov sites and not used. No dollar amounts.
+- Topic choice: Wastewater operator (6) skipped again (all candidate sections covered, see the first run today). EPA
+  609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in earlier runs. Then the 7-explainer topics
+  with no post today (Electrician licensing, OSHA general industry safety) and Home inspector licensing (one today,
+  new state).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-19 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents. Sanity check (40 CFR 84 from 2026-05-01) returned the two
+  May 26, 2026 HFC documents.
+- Build: `node_modules` was missing; `npm ci` run. `npm run check` stopped once with the Next.js security upgrade
+  reminder and passed on retry (the upgrade was not run: outside this run's scope). `npm run format:check` passed.
+- Deploy: run 44641504836 succeeded.
+- Unreachable: files.dfm.idaho.gov (Idaho administrative rules PDF; web-fetch permission timed out). tn.gov, dopl.idaho.gov
+  and legislature.idaho.gov were read with the web-fetch agent.
