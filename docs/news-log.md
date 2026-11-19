@@ -773,3 +773,43 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Deploy: run 44509498984 succeeded.
 - Unreachable: www.nabcep.org handbook PDF (web-fetch permission not granted in time). mass.gov, btr.az.gov and aws.org
   refuse the shell (read with the web-fetch agent).
+
+## 2026-11-19 (second run, scheduled 12:40 p.m. ET, started 12:39 p.m. ET)
+
+- 3 posts were out today, so this run had room for up to 4 explainers. It published 0 rule changes and 4 explainers
+  (day total 7).
+- Published (4 explainers):
+  - `nabcep-pv-commissioning-maintenance-specialist-pvcms-eligibility-exam-recertification` (explainer, Solar PV
+    certification; NABCEP Certification Handbook 2025 Update (Handbook-1-23-25-V2.pdf, Sections 2.4, 7, 14.6, 15, 17.2,
+    19.8, 21.1.2, 21.1.4) and the Apply Now page, read with the web-fetch agent; the PDF that failed in the first run
+    was read this time). Checked by a separate agent that re-read both pages; fixes: "12 Project Credits of work on PV
+    systems" changed to "12 Project Credits" (7.2/7.3 say only "systems"), three quotes ended at the source's own
+    punctuation, CE exam alternative limited to before the period ends, renewal year stated as uncertified with a late
+    fee (no amount). The handbook (one year) and the Apply Now page (two years) disagree on the exam eligibility window;
+    the post states both and tells readers to check. No fees, no passing score (not captured).
+  - `cdl-insulin-treated-diabetes-dot-medical-card-391-46` (explainer, CDL; eCFR 49 CFR 391.46 and 391.45(e), as of
+    2026-11-17; the driver qualifications study guide says 391.46 is "not summarized here"). Checked by a separate
+    agent (all citations correct); fixes: the medical examiner quote now includes "free of complications" scope,
+    trailing punctuation moved outside eight quotes, 12-month quote completed with "allowed by § 391.45(e)".
+  - `can-workers-ride-material-hoist-osha-1926-552` (explainer, OSHA construction safety; eCFR 29 CFR 1926.552, as of
+    2026-11-17; no guide or post covered 1926 Subpart N hoists). Checked by a separate agent (26 quotes and all
+    citations correct); fixes: summary limits competent-person supervision to the pre-service inspection, unsourced
+    intro generalities removed, four quotes' end punctuation fixed.
+  - `can-water-system-use-bottled-water-point-of-entry-devices-141-101-141-100` (explainer, Drinking water operator;
+    eCFR 40 CFR 141.101, 141.100, 141.2, 142.57, 142.62, as of 2026-11-17). Checked by a separate agent (21 quotes
+    exact); fixes: unsourced primacy sentence replaced, "FDA rules" replaced by the 21 CFR sections the rule names,
+    142.62(f) added for variances, (h)(7) lead and copper scope restated with 141.83/141.84. The CFR's own
+    cross-reference error in 142.57(c) ("§ 141.62(h)") is not quoted.
+  - Cards: three regenerated once (title lines ran into the date box or wrapped).
+- Topic choice: Solar PV certification (6 explainers) first. Wastewater operator (6) skipped again (all candidate
+  sections covered, see the first run today). EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the
+  reasons in earlier runs. Then three 7-explainer topics with no post today: CDL, OSHA construction safety, Drinking
+  water operator.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-19 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents. Sanity check (40 CFR 84 from 2026-05-01) returned the two
+  May 26, 2026 HFC documents.
+- Build: `node_modules` was missing; `npm ci` run. `npm run check` stopped once with the Next.js security upgrade
+  reminder and passed on retry (the upgrade was not run: outside this run's scope). `npm run format:check` passed.
+- Deploy: run 44581660908 succeeded.
+- Unreachable: www.nabcep.org refuses the shell (read with the web-fetch agent). www.ecfr.gov web pages redirect the
+  shell to unblock.federalregister.gov; the eCFR API was used for all text.
