@@ -851,3 +851,41 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Deploy: run 44641504836 succeeded.
 - Unreachable: files.dfm.idaho.gov (Idaho administrative rules PDF; web-fetch permission timed out). tn.gov, dopl.idaho.gov
   and legislature.idaho.gov were read with the web-fetch agent.
+
+## 2026-11-20 (first run, scheduled 5:40 a.m. ET, started 5:39 a.m. ET)
+
+- 0 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 4).
+- Published (4 explainers, each written by a separate writer agent and checked by another agent that re-read the
+  official text itself):
+  - `wisconsin-journeyman-plumber-license-exam-apprenticeship-renewal` (explainer, Plumbing licensing; two Wisconsin
+    DSPS journeyman plumber pages, read with WebFetch). Fixes: out-of-state route paragraph now quotes the section's
+    summary and detailed list (it asks for an exam passed "in any other state") instead of judging the heading,
+    "substantially similar" state condition added, recognition condition added to the out-of-state apprenticeship,
+    "printed notes" added to the binder, exam-instructions sentence matched to the page, split CE quote joined. DSPS's
+    "licensure by examination" page and trades FAQ (permission timed out) and docs.legis.wisconsin.gov (refused) could
+    not be read; SPS 305.07 and 305.09 are named, not quoted. No fee amounts.
+  - `nabcep-pv-technical-sales-professional-pvts-eligibility-exam-recertification` (explainer, Solar PV certification;
+    NABCEP Certification Handbook, 2025 Update, read with WebFetch in pieces; the shell download was refused). Fixes:
+    four quotes' punctuation made verbatim (Category A joined into one continuous quote, 9.5.2 "Forty" sentence, 9.7.2
+    letter, 9.1 bullet). The 2022 PVTS announcement page was read but not used (its credit bands differ from the 2025
+    handbook).
+  - `aws-senior-certified-welding-inspector-scwi-eligibility-endorsements` (explainer, Welding certification; AWS SCWI
+    page, read in full with WebFetch). Fixes: role quote completed with "(CWI) and Certified Associate Welding
+    Inspectors (CAWI)", unsupported "visual acuity record" gloss of "VAR Form" removed. The page's own conflict on
+    education (no requirement vs. FAQ) is quoted both ways.
+  - `osha-rollover-protective-structures-rops-construction-equipment-1926-1000` (explainer, OSHA construction safety;
+    eCFR 29 CFR 1926.1000-1003 and 1926.602, version 2026-11-17; no guide or post cited Subpart W). Checker confirmed
+    all quotes verbatim; fixes: summary keeps the rubber-tired / wheel-type / crawler limits of 1926.1000(a), 1926.602
+    described as its paragraph (a) on earthmoving equipment.
+- Topic choice: Wastewater operator (6) skipped again (all candidate sections covered). EPA 609, FAA Part 107, Forklift
+  operator and EPA 608 skipped for the reasons in earlier runs. Then the three 7-explainer topics (Plumbing licensing,
+  Solar PV certification, Welding certification) and OSHA construction safety (8).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-19 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents (run before today's 8:45 a.m. ET publication). Sanity
+  check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `npm ci` run. `npm run check` stopped once with the Next.js security upgrade reminder and passed on retry (the
+  upgrade was not run: outside this run's scope). `npm run format:check` passed.
+- Deploy: run 44723395254 succeeded.
+- Unreachable: dsps.wi.gov (two pages: permission timed out), docs.legis.wisconsin.gov (refused), nabcep.org PDF from
+  the shell (403; read with WebFetch). aws.org and dsps.wi.gov were read with WebFetch.
