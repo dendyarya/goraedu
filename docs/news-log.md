@@ -889,3 +889,43 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Deploy: run 44723395254 succeeded.
 - Unreachable: dsps.wi.gov (two pages: permission timed out), docs.legis.wisconsin.gov (refused), nabcep.org PDF from
   the shell (403; read with WebFetch). aws.org and dsps.wi.gov were read with WebFetch.
+
+## 2026-11-20 (second run, scheduled 12:40 p.m. ET, started 12:39 p.m. ET)
+
+- 4 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 8).
+- Published (4 explainers, each written by a separate writer agent and checked by another agent that re-read the
+  official text itself):
+  - `who-needs-hazwoper-training-osha-1910-120-hours` (explainer, OSHA general industry safety; eCFR 29 CFR 1910.120,
+    fetched through the eCFR API; no guide or post covered HAZWOPER). Checker confirmed 31 quotes verbatim by script;
+    fixes: three (e)(1)(i)/(e)(4) quotes no longer end with a period the source lacks, (e)(1)(i) exposure condition
+    restored, (e)(6) certifier matched to the rule, (e)(9) supervised field experience added, Note (B) generator
+    exemption stated as the rule words it, "HAZWOPER" presented as our label (not in the eCFR text), Appendix E noted as
+    non-mandatory, trimmed under 900 words.
+  - `cdl-driver-self-admission-drug-alcohol-use-382-121` (explainer, CDL; eCFR 49 CFR 382.121, 382.107, 382.103,
+    382.605, 382.705; versioner API as of 2026-11-18). Checker confirmed 21 quotes and the subpart paths; fixes:
+    Clearinghouse conclusion narrowed to the 382.107 definition's own exception (subpart B scope quoted), six quotes'
+    end punctuation moved outside, summary now lists all four (a) conditions and "education or treatment", "drivers"
+    changed to the rule's "employees". Part 40 not fetched; only its cross-reference is named.
+  - `consecutive-water-system-monitoring-40-cfr-141-29` (explainer, Drinking water operator; eCFR 40 CFR 141.29, 141.2,
+    141.3, 141.201, 141.152, 141.402). Checker confirmed quotes by script; fixes: two quotes' punctuation, overstated
+    "monitors unless the State has modified" line reworded to what 141.29 says, 141.402(a)(4)(i) sample scope added,
+    unsourced "State rules can add" removed, CCR-post link text corrected.
+  - `new-hampshire-electrician-license-renewal-continuing-education-15-hours` (explainer, Electrician licensing; NH OPLC
+    continuing education, FAQ and apprenticeship pages and the Elec 100-400 rules on gc.nh.gov, read with WebFetch).
+    Checker re-read all four pages (exact-match checks through WebFetch; the shell could not fetch them); fixes: five
+    quotes' punctuation, delivery-method question matched to the page, apprentice 30-hour scope (fifth renewal,
+    schooling done, no journeyman license) added. Plc 308.04(d) is named from the board page, not read. The board's
+    1-year CE cycle vs. 2-year renewal is quoted both ways without reconciling. No fee amounts.
+- Topic choice: Wastewater operator (6) skipped again (all candidate sections covered). EPA 609, FAA Part 107, Forklift
+  operator and EPA 608 skipped for the reasons in earlier runs. Then four 8-explainer topics with no post today (OSHA
+  general industry safety, CDL, Drinking water operator, Electrician licensing). Utah (statute page shows a 2027
+  version; DOPL URL returned other content) and Maine (page failed to load) were tried before New Hampshire.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-20 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents. Sanity check (40 CFR 84 from 2026-05-01) returned the two
+  May 26, 2026 HFC documents.
+- Build: `npm ci` run. `npm run check` and `npm run format:check` passed (a writer saw the Next.js security upgrade
+  reminder once; not run, outside this run's scope).
+- Deploy: run 44787066860 succeeded.
+- Unreachable: www.ecfr.gov web pages redirect automated requests to unblock.federalregister.gov (the eCFR APIs worked;
+  source URLs confirmed with the structure API). oplc.nh.gov and gc.nh.gov from the shell (read with WebFetch).
