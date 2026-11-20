@@ -929,3 +929,33 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Deploy: run 44787066860 succeeded.
 - Unreachable: www.ecfr.gov web pages redirect automated requests to unblock.federalregister.gov (the eCFR APIs worked;
   source URLs confirmed with the structure API). oplc.nh.gov and gc.nh.gov from the shell (read with WebFetch).
+
+## 2026-11-20 (third run, scheduled 6:40 p.m. ET, started 6:39 p.m. ET)
+
+- 8 posts were out today, so this run had room for 2 explainers. It published 0 rule changes and 2 explainers (day
+  total 10).
+- Published (2 explainers, each written by a separate writer agent and checked by another agent that re-read the
+  official text itself with WebFetch exact-match checks):
+  - `south-carolina-home-inspector-license-120-hour-course-or-experience-two-part-exam` (explainer, Home inspector
+    licensing; SC LLR Residential Builders Commission home inspector, instructions, FAQ and exam pages and Reg. 106-4
+    on scstatehouse.gov). Checker fix: a Business Management and Law exam quote had been attached to the wrong FAQ
+    answer; replaced with the sentence that follows the NHIE answer (a question about applicants licensed in another
+    state), and "in place of" softened to the source's "as well as". The pages state no continuing education,
+    insurance or bond requirement; the post says so. No fee amounts. WebFetch shows at most ~125 characters per quote,
+    so the two longest quotes were confirmed by exact-match but not shown in full.
+  - `new-hampshire-journeyman-plumber-license-600-hours-8000-hours` (explainer, Plumbing licensing; NH administrative
+    rules Mec 300 on gc.nh.gov: Mec 302.02, 302.03, 304.04(a), 305.01(b), 306.01). Checker confirmed about 25 quotes by
+    exact match; fixes: two statements about other states removed, (b)(1) paraphrase matched to "any information
+    submitted pursuant to Mec 304.04(a)", the summary's (b)(4) wording matched to the rule, a vague "either reading"
+    line clarified. RSA 153:27, the Mec 102 supervision definitions and the OPLC application pages/PDFs could not be
+    read; the post names them as not covered and draws nothing from them.
+- Topic choice: Wastewater operator (6) skipped again (all candidate sections covered). EPA 609, FAA Part 107, Forklift
+  operator and EPA 608 skipped for the reasons in earlier runs. Home inspector licensing (8, none today) first, then
+  Plumbing licensing (8, one today). States already covered were excluded.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-20 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned no documents. Sanity check (40 CFR 84 from 2026-05-01) returned the two
+  May 26, 2026 HFC documents.
+- Build: `npm ci` run. `npm run check` and `npm run format:check` passed.
+- Deploy: run 44839612020 succeeded.
+- Unreachable: llr.sc.gov, scstatehouse.gov and gc.nh.gov from the shell (read with WebFetch); oplc.nh.gov plumbing
+  board page and PDFs failed in WebFetch too; RSA 153:27 (gc.nh.gov statute page) could not be fetched.
