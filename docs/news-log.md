@@ -999,3 +999,42 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Deploy: run 44897099163 succeeded.
 - Unreachable: www.federalregister.gov full-text pages (Request Access page; read the govinfo PDF instead); aws.org and
   nabcep.org from the shell (read with WebFetch); www.aws.org/CWI timed out in WebFetch for the checker.
+
+## 2026-11-21 (second run, scheduled 12:40 p.m. ET, started 12:40 p.m. ET)
+
+- 4 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 8).
+- Published (4 explainers, each written by a separate writer agent and checked by another agent that re-fetched the
+  official text itself):
+  - `drinking-water-reporting-results-violations-to-state-141-31` (explainer, Drinking water operator; eCFR 40 CFR
+    141.31, 141.2, 141.33, 141.80, 141.861). Checker confirmed 19 quotes by script and fetched the July 1, 2020 and July
+    1, 2024 versions of 141.31; fixes: the lead-notice timing note now quotes the July 1, 2024 141.31(d)(2) wording
+    ("any Tier 1 notice", "violation or exceedance") and says the 2020 141.31(d) covers the certification step;
+    "earlier one controls" matched to "shortest"; the summary's public-notice wording matched to the rule.
+  - `osha-rope-descent-system-rules-anchorage-300-feet-1910-27` (explainer, OSHA general industry safety; eCFR 29 CFR
+    1910.27, 1910.21, 1910.28, 1910.30). Checker confirmed 25 quotes by script; fixes: (b)(1)(ii) quote completed, the
+    summary's fall-arrest wording matched to "uses a separate, independent personal fall arrest system".
+  - `osha-tripped-circuit-breaker-reclosing-reenergizing-1910-334` (explainer, Electrician licensing; eCFR 29 CFR
+    1910.334, 1910.333, 1910.331, 1910.399). Checker confirmed 28 quotes by script; fixes: 1910.331(a) scope
+    ("working on, near, or with" the listed installations) restored, the (c)(2) "might expose an employee to injury"
+    condition restored, the heading answer matched to "determined that ... can be safely energized", an unsourced "has
+    its own rules" removed. Says plainly that OSHA rules are not a license and covers no state's rules.
+  - `kentucky-home-inspector-license-renewal-continuing-education` (explainer, Home inspector licensing; 831 KAR 2:040
+    and 2:020 on apps.legislature.ky.gov and the KBHI renewal checklist on bhi.ky.gov, read with WebFetch). Checker
+    confirmed about 35 quotes by exact-match questions; fixes: the 12-month scope added to the summary, the online
+    elective rule (2:040 Section 4(4)(b)) and the good-cause reinstatement rule (2:020 Section 5(2)(e)) added after
+    exact-match confirmation, the five-year inactive rule attributed to 2:020 Section 7, the board-service attendance
+    condition quoted, a checklist quote with altered quotation marks paraphrased. Version status: both regulations show
+    "Crt to Am 3-24-2026" (intent to amend at the 7-year review); no amendment appears in the LRC proposed-regulations
+    list through Nov 17, 2026, so the 2019 text is treated as current (checker's confidence moderate to high).
+- Topic choice: Wastewater operator (6), EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs. The four 9-explainer topics with no post today were picked (Drinking water operator, OSHA general
+  industry safety, Electrician licensing, Home inspector licensing); Plumbing licensing (9) left for a later run.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-21 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned only FAA 2026-23786 (technical amendment, skipped in the first run
+  today). Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `npm run check` stopped once on Next.js's security upgrade reminder and passed on retry; `npm run
+format:check` passed. The upgrade was not run (owner's decision).
+- Deploy: run 44933006705 succeeded.
+- Unreachable: apps.legislature.ky.gov and bhi.ky.gov from the shell (read with WebFetch); the LRC certifications page
+  (legislature.ky.gov) timed out in WebFetch.
