@@ -1038,3 +1038,33 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 44933006705 succeeded.
 - Unreachable: apps.legislature.ky.gov and bhi.ky.gov from the shell (read with WebFetch); the LRC certifications page
   (legislature.ky.gov) timed out in WebFetch.
+
+## 2026-11-21 (third run, scheduled 6:40 p.m. ET, started 6:39 p.m. ET)
+
+- 8 posts were out today, so this run had room for 2 explainers (min(4, 10 - 8)). It published 0 rule changes and 2
+  explainers (day total 10, the ceiling).
+- Published (each written by a separate writer agent and checked by another agent that re-fetched the official text):
+  - `virginia-journeyman-plumber-license-experience-education` (explainer, Plumbing licensing; Virginia Administrative
+    Code 18VAC50-30-10, -30, -39, -47, -48, -50 on law.lis.virginia.gov, read with WebFetch). Checker confirmed 22
+    quotes; fixes: regulation name corrected to "Individual License and Certification Regulations", DPOR's role limited
+    to the 18VAC50-30-10 definition of "Department", Journeyman definition quoted in full ("and according to plans and
+    specifications"), the 18VAC50-30-30 "where an exam is required" condition restored, a missing blank line before a
+    heading. DPOR's PDF (A501-27TRADEREGS.pdf, "Last Updated August 1, 2025") was dropped as a source: it names the
+    Department of Labor and Industry in 50 B and gives a different history note for 39 (eff. Aug 1, 2025) than the
+    code site (Department of Workforce Development and Advancement; eff. April 1, 2025); the post quotes only the code
+    site. No fee amounts.
+  - `aws-certified-robotic-arc-welding-craw-who-can-take-renewal` (explainer, Welding certification; AWS's own CRAW
+    program pages and ATC page, read with WebFetch). Checker confirmed 33 quotes; fixes: the Technician five-year
+    related-experience rule now quoted, the 20% exam weight marked as AWS's "Approximate %", the renewal training
+    option says "documented completion or instruction". No fees.
+- Topic choice: Wastewater operator (6), EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs. Plumbing licensing (9, none today) first; Welding certification (9, one today) second. Solar PV (9, one
+  today) left for a later day.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-21 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned only FAA 2026-23786 (technical amendment, skipped in the first run
+  today). Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `npm ci` run; `npm run check` stopped once on Next.js's security upgrade reminder and passed on retry; `npm run
+format:check` passed. The upgrade was not run (owner's decision).
+- Deploy: run 44964144411 succeeded.
+- Unreachable from the shell: law.lis.virginia.gov, www.dpor.virginia.gov and www.aws.org (read with WebFetch).
+  Direct per-section URLs for 18VAC50-30-30, -47 and -48 hit a permission prompt timeout; read from the Part II page.
