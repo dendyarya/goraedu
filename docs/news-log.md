@@ -959,3 +959,43 @@ One entry per run (newest last): date, posts published (slug, kind, topic), docu
 - Deploy: run 44839612020 succeeded.
 - Unreachable: llr.sc.gov, scstatehouse.gov and gc.nh.gov from the shell (read with WebFetch); oplc.nh.gov plumbing
   board page and PDFs failed in WebFetch too; RSA 153:27 (gc.nh.gov statute page) could not be fetched.
+
+## 2026-11-21 (first run, scheduled 5:40 a.m. ET, started 5:40 a.m. ET)
+
+- 0 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 4).
+- Published (4 explainers, each written by a separate writer agent and checked by another agent that re-fetched the
+  official text itself):
+  - `aws-certified-radiographic-interpreter-cri-validity-renewal` (explainer, Welding certification; AWS CRI program page
+    on aws.org, read with WebFetch). Checker confirmed 20 quotes by exact-match questions; fixes: the writer's own
+    inference that the first eye exam "cannot be reused" removed, the third renewal item (vision examination) added, a
+    CWS comparison from an unfetched page removed. The QC15:2008 vs QC15-AMD1 naming is shown both ways. The CWI-page
+    quote (from our Nov 10 post, not re-fetched) was removed by the orchestrator; the section now only links that post.
+  - `cdl-who-can-see-drug-alcohol-test-records-382-405` (explainer, CDL; eCFR 49 CFR 382.405, 382.409, 382.401,
+    382.103). Checker confirmed 19 quotes by script; fixes: unsupported "for many small carriers" removed, 382.405(g)
+    "including, but not limited to" and the adulterated/substituted examples restored, a Part 40 line reduced to naming
+    the cross-reference. Part 40 not fetched.
+  - `nabcep-board-certification-expired-what-happens` (explainer, Solar PV certification; NABCEP Certification Handbook
+    2025 Update PDF, read with WebFetch). Checker fixes: scope corrected (PVSI is a board certification with its own
+    21.1.4 paragraph; PV Associate has a separate handbook), "best-known" opinion removed, a paraphrase on the new
+    expiration date replaced by the full quote, a missing comma in a quote restored, an unsourced OSHA line removed. No
+    fee amounts.
+  - `osha-construction-flammable-liquids-indoor-storage-limits-1926-152` (explainer, OSHA construction safety; eCFR 29
+    CFR 1926.152, 1926.155). Checker confirmed 30 quotes by script; fixes: "approved" agencies made examples, not a
+    closed list; an unsourced "whatever the quantity" line removed.
+- Topic choice: Wastewater operator (6), EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs. Then the two 8-explainer topics (Welding certification, Solar PV certification), then two 9-explainer
+  topics (OSHA construction safety, CDL). AWS Certified Welding Educator was tried first and dropped (its page
+  contradicts itself on renewal and exam order).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-20 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned one document: FAA 2026-23786, "Miscellaneous Technical Amendments;
+  Technical Amendment" (final rule, technical amendment, to be published and effective Nov 23, 2026; touches 14 CFR
+  43, 48, 65 among ~60 parts). Skipped: its abstract and text (govinfo PDF) describe only non-substantive corrections
+  (typographical errors, outdated references, e.g. "telegram" in 65.16(d), an omitted word in 65.101(b)). Sanity check
+  (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `npm ci` run. `npm run check` stopped once on Next.js's "known security vulnerability" upgrade reminder
+  (installed 16.4.3) and passed on retry; `npm run format:check` passed. The upgrade (`next upgrade --agent=security`)
+  was not run: outside this run's scope, owner's decision.
+- Deploy: run 44897099163 succeeded.
+- Unreachable: www.federalregister.gov full-text pages (Request Access page; read the govinfo PDF instead); aws.org and
+  nabcep.org from the shell (read with WebFetch); www.aws.org/CWI timed out in WebFetch for the checker.
