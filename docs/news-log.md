@@ -1068,3 +1068,40 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 44964144411 succeeded.
 - Unreachable from the shell: law.lis.virginia.gov, www.dpor.virginia.gov and www.aws.org (read with WebFetch).
   Direct per-section URLs for 18VAC50-30-30, -47 and -48 hit a permission prompt timeout; read from the Part II page.
+
+## 2026-11-22 (first run, scheduled 5:40 a.m. ET, started 5:39 a.m. ET)
+
+- 0 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 4).
+- Published (each written by a separate writer agent and checked by another agent that re-fetched the official text):
+  - `nabcep-energy-storage-installation-professional-esip-eligibility-exam-recertification` (explainer, Solar PV
+    certification; NABCEP ESIP page and Certification Handbook 2025 Update, read with WebFetch). Checker confirmed all
+    quotes by exact-match questions; fixes: the Section 15 exam format (70 questions, four hours) now says Section 15
+    does not name ESIP, ESIP is missing from the Section 16 table and the format should be confirmed with NABCEP; the
+    18-hour credit conflict (ESIP page: active PVIP; handbook 8.5.2: active PVA) kept with both quoted and the PVA named;
+    the 8.2 quote joined into one; partners named; the handbook's English-only line (15.1) noted after the Spanish
+    sentence; OSHA paragraph softened to a pointer. No fees.
+  - `cdl-learners-permit-clp-passengers-p-s-n-endorsements-383-25` (explainer, CDL; eCFR 49 CFR 383.25, 383.93,
+    383.73, 383.5). Checker confirmed 20 quotes by script; fixes: eCFR date label (up to date as of Nov 19, 2026, not
+    the latest issue date), "class specific" (P only) separated from "group-specific", the unsourced "H" letter replaced
+    by the hazmat endorsement wording, "four groups" count dropped, "knowledge test only" narrowed, an unsourced claim
+    about what trainees ask removed.
+  - `osha-construction-sling-inspection-removal-from-service-1926-251` (explainer, OSHA construction safety; eCFR 29
+    CFR 1926.251). Checker confirmed 27 of 30 quotes by script and all numbers incl. Table H-1; fixes: three quotes
+    with punctuation inside the marks corrected, the (b)(6)(i)(A)-(D) inspection-interval factors restated in full, the
+    summary's heat rule limited to fiber core wire rope slings above 200 °F.
+  - `how-often-sanitary-survey-public-water-system-142-16` (explainer, Drinking water operator; eCFR 40 CFR 142.16,
+    141.401, 141.403, 141.21). Checker confirmed 19 quotes by script and every deadline; fixes: intervals worded as
+    minimums ("at least"), the five-year option for community systems made the State's choice ("The State may"), "as
+    applicable" added to the eight components.
+- Topic choice: Wastewater operator (6), EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs. Solar PV certification (9) first, then three 10-explainer topics (CDL, OSHA construction safety,
+  Drinking water operator).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-21 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned only FAA 2026-23786 (technical amendment, already skipped on
+  2026-11-21). Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `npm ci` run; `npm run check` stopped once on Next.js's security upgrade reminder and passed on retry; `npm run
+format:check` passed. The upgrade was not run (owner's decision).
+- Deploy: run 45014470793 succeeded.
+- Unreachable from the shell: www.nabcep.org (read with WebFetch). The eCFR renderer endpoint returned 404 for one
+  section; the versioner API (with `--compressed`) was used instead.
