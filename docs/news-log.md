@@ -1143,3 +1143,35 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45052270341 succeeded.
 - Unreachable from the shell: commerce.utah.gov, le.utah.gov, dol.wa.gov, lawfilesext.leg.wa.gov and www.aws.org (read
   with WebFetch).
+
+## 2026-11-22 (third run, scheduled 6:40 p.m. ET, started 6:39 p.m. ET)
+
+- 8 posts were out today, so this run had room for 2 explainers (10 minus 8). It published 0 rule changes and 2
+  explainers (day total 10).
+- Published (each written by a separate writer agent and checked by another agent that re-fetched the official text):
+  - `idaho-journeyman-plumber-license-hours-exam` (explainer, Plumbing licensing; Idaho DOPL journeyman licensing page,
+    Plumbing Journeyman Application (rev. Oct 3, 2024), DOPL Plumbing FAQs, Idaho Code 54-2614 and 54-2617, read with
+    WebFetch). Checker confirmed all other quotes; fixes: the 54-2617(2) renewal quote completed (it continues "by
+    providing proof of completion of the continuing education requirements as established by the board"), the summary
+    now puts the apprentice registration at the start of both pathways, "Yes, for hours worked in Idaho" replaced with
+    the DOPL page and 54-2614 (no in-state limit), the FAQ quote framed by its own question ("What happens if I choose
+    to work unlicensed?"), the CE inference removed: the statute's CE proof and the FAQ's "no Continuing Education
+    Requirements" are quoted side by side with a pointer to DOPL. The page's "4 years of approved schooling" vs the
+    application's "576 hours of instruction" are both quoted. No fees. IDAPA 24.39.20 could not be fetched (permission
+    prompt timeout) and was not used.
+  - `nabcep-exam-testing-accommodations-and-appeals` (explainer, Solar PV certification; NABCEP Certification Handbook
+    2025 Update, Sections 16.2, 18.6, 19.7, 19.8, 23.1-23.3, read with WebFetch). Checker confirmed all quotes by
+    exact-match questions; fixes: "no sooner than" (our wording) replaced by the handbook's "may do so fourteen (14)
+    days after their failed exam", the 23.3 grievance scope listed in full, the 19.7 lead-in now "After the hand-graded
+    score has been provided". Hand grading fee mentioned without an amount. The handbook resource page could not be
+    fetched (permission prompt timeout) and is not listed as a source.
+- Topic choice: Wastewater operator (6), EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs. Plumbing licensing (10, none today) first; then Solar PV certification (10, one today, so two in the day
+  is the limit). Every 11-explainer topic already had a post today.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-22 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned only FAA 2026-23786 (technical amendment, already skipped on
+  2026-11-21). Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `npm run check` stopped once on Next.js's security upgrade reminder and passed on retry; `npm run
+format:check` passed. The upgrade was not run (owner's decision).
+- Deploy: run 45085837630 succeeded.
+- Unreachable from the shell: dopl.idaho.gov, legislature.idaho.gov and www.nabcep.org (read with WebFetch).
