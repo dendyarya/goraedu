@@ -1105,3 +1105,41 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45014470793 succeeded.
 - Unreachable from the shell: www.nabcep.org (read with WebFetch). The eCFR renderer endpoint returned 404 for one
   section; the versioner API (with `--compressed`) was used instead.
+
+## 2026-11-22 (second run, scheduled 12:40 p.m. ET, started 12:39 p.m. ET)
+
+- 4 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 8).
+- Published (each written by a separate writer agent and checked by another agent that re-fetched the official text):
+  - `osha-grain-bin-entry-rules-1910-272` (explainer, OSHA general industry safety; eCFR 29 CFR 1910.272, version of
+    2026-11-19). Checker confirmed 36 quotes by script; fixes: (b)(1) scope reworded to "paragraphs (a) through (n)",
+    the (h) exception quote completed ("of this section"), the (g)(1)(iii)(A) "shall be continued" condition added,
+    (g)(2) "equip the employee with" wording, the note's "lifeline or alternative means may be disconnected or
+    removed", exam heading renamed "Key points for study".
+  - `utah-journeyman-electrician-license-hours-education-exam` (explainer, Electrician licensing; Utah DOPL
+    application, exam information and FAQ pages, read with WebFetch). Checker confirmed all quotes; DOPL's application
+    page gives 8,000 supervised hours for the school route while its exam page prints "6.000"; the post quotes both and
+    tells readers to ask DOPL. Fixes: a comma moved outside a Red Seal quote, the Red Seal one-year condition quoted in
+    full and the endorsement-pathway sentence added. Utah Code 58-55-302 not used (marked superseded 1/1/2027; it
+    states years, not hours); R156-55b not found on a Utah .gov site.
+  - `washington-home-inspector-license-training-field-hours-exam` (explainer, Home inspector licensing; DOL "Get your
+    license" page, RCW 18.280.070 and chapter PDF, WAC 308-408A-020 and -040, read with WebFetch). Checker confirmed all
+    quotes; fixes: DOL exams page dropped as a source (nothing quoted from it), three periods moved outside quotes, the
+    out-of-state documentation requirement added, "approval of the exam application" wording. RCW "up to forty hours"
+    vs DOL/WAC "40 hours" quoted side by side. WAC 308-408A-030/-050 could not be fetched (permission prompt) and were
+    not used.
+  - `aws-certified-welding-educator-cwe-eligibility-renewal` (explainer, Welding certification; AWS CWE program page and
+    CWE application portal page, read with WebFetch). Checker confirmed all quotes; fixes: the Part C sentence quoted in
+    full, the retake training rule quoted verbatim, the "What is a CWE?" sentence completed. QC5 and B5.5:2000 named
+    only (not read). No fees.
+- Topic choice: Wastewater operator (6), EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs. Then four 10-explainer topics with no post today: OSHA general industry safety, Electrician licensing,
+  Home inspector licensing, Welding certification. Plumbing licensing (10) left for a later run.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-21 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned only FAA 2026-23786 (technical amendment, already skipped on
+  2026-11-21). Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `npm ci` run; `npm run check` stopped once on Next.js's security upgrade reminder and passed on retry; `npm run
+format:check` passed. The upgrade was not run (owner's decision).
+- Deploy: run 45052270341 succeeded.
+- Unreachable from the shell: commerce.utah.gov, le.utah.gov, dol.wa.gov, lawfilesext.leg.wa.gov and www.aws.org (read
+  with WebFetch).
