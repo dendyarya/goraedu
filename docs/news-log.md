@@ -1246,3 +1246,31 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45232307319 succeeded.
 - Unreachable from the shell: www.maine.gov, www1.maine.gov, legislature.maine.gov, www.oregon.gov,
   secure.sos.state.or.us and www.aws.org (all read with WebFetch); Wisconsin DSPS (CAPTCHA) not used.
+
+## 2026-11-23 (third run, scheduled 6:40 p.m. ET, started 6:40 p.m. ET)
+
+- 8 posts were out today, so this run had room for 2 explainers. It published 0 rule changes and 2 explainers (day
+  total 10).
+- Published (written from eCFR text fetched this run, current to November 20, 2026, and checked by a separate agent per
+  post that re-fetched the eCFR text):
+  - `solar-pv-systems-osha-general-industry-electrical-rule-1910-308-f` (explainer, Solar PV certification; eCFR 29 CFR
+    1910.308(f), 1910.302, 1910.301, 1910.399, 1926 Subpart K). Checker confirmed all quotes, the 1910.302(b)(4)
+    August 13, 2007 date, and that "photovoltaic"/"solar" do not appear in 1926 Subpart K; fixes: the unsourced line
+    that installation work "is often construction work" removed, the Subpart K applicability now quotes 1926.402(a)
+    (jobsite installations, not existing permanent ones), the utility exclusion's "streets, roads, etc." quoted in full.
+  - `cdl-farm-vehicle-drivers-dot-medical-card-exceptions-391-2-390-39` (explainer, CDL; eCFR 49 CFR 391.2, 390.39,
+    390.5, 391.67, 391.11, 391.15). Checker confirmed all quotes and subpart URLs; fixes: the covered farm vehicle weight
+    test now names the greater of GVWR, GCWR, GVW or GCW, the 390.39(b) funding wording quoted and widened to other State
+    minimum standards, the crop share carve-out limited to vehicles meeting the first three conditions, the summary no
+    longer implies a 150 air-mile limit on every exception, an unsourced "common question" line removed.
+- Topic choice: Wastewater operator (6), EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs. Solar PV certification (11, none today) first, using the federal angle (1910 Subpart S) since every
+  NABCEP credential is already covered; then CDL (12, one today). Cards regenerated once (title lines touched the date
+  box).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-23 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned only FAA 2026-23786 (technical amendment, already skipped on
+  2026-11-21). Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `npm ci` run; `npm run check` stopped once on Next.js's security upgrade reminder and passed on retry; `npm run
+format:check` passed. The upgrade was not run (owner's decision).
+- Deploy: run 45291962338 succeeded.
+- Unreachable sources: none needed (both posts use eCFR only).
