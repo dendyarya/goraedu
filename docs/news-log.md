@@ -1207,3 +1207,42 @@ format:check` passed. The upgrade was not run (owner's decision).
 format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45159952154 succeeded.
 - Unreachable sources: none needed (all four posts use eCFR only).
+
+## 2026-11-23 (second run, scheduled 12:40 p.m. ET, started 12:40 p.m. ET)
+
+- 4 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 8).
+- Published (each written by a separate writer agent from official pages read with WebFetch this run, and checked by
+  another agent that re-fetched the official text with exact-match questions):
+  - `maine-journeyman-electrician-license-hours-course-exam` (explainer, Electrician licensing; Maine Electricians'
+    Examining Board journeyman page on www1.maine.gov, 32 MRSA §1202-B). Checker fixes: a period removed from inside a
+    quote that continues in the statute, the USDOL quote extended and "state apprenticeship agency recognized by the
+    Office of Apprenticeship" restored, the early-exam condition widened to either approved course plus 4,000 hours,
+    our own 7,000 = 8,000 − 1,000 arithmetic removed, the paragraph C paraphrase matched to the statute, "under the
+    supervision of a master or the equivalent" added, an unsourced opening line removed.
+  - `maine-journeyman-plumber-license-hours-training-exam` (explainer, Plumbing licensing; Maine Plumbers' Examining
+    Board individual-licenses page and two FAQ pages, 32 MRSA §3501). Checker confirmed every quote; fixes: experience
+    routes described as routes to the license (not to the exam), "submits a written application" matched to the
+    statute, the "or an employer of one" option restored, "the only requirement" softened (the page also lists fees),
+    the board-page vs statute course-length difference stated precisely.
+  - `oregon-certified-home-inspector-national-exam-20-points-ccb-license` (explainer, Home inspector licensing; Oregon
+    CCB specialty licenses page, OCHI certification application (06/2026), OAR 812-008-0030 and 812-008-0040). Checker
+    fixes: the session-only OAR 812-008-0030 link replaced with the stable Division 8 rules page
+    (displayDivisionRules.action?selectedDivision=3593), the section (3) exemptions and "Except as provided in section
+    (3)" added, "with a passing grade" restored in 0040(3)(d), a quote's ending punctuation corrected, fees "listed" not
+    "set", body trimmed to 895 words. Wisconsin was tried first (DSPS page returned a CAPTCHA), so Oregon was used.
+  - `aws-certified-welding-sales-representative-cwsr-eligibility-exam-renewal` (explainer, Welding certification; AWS
+    CWSR program page). Checker confirmed all 22 quotes and found nothing to fix; the page's renewal and recertification
+    sections have identical text and the post says the 3-year renewal steps are not spelled out separately. QC14 and
+    B5.14 were not read and are not cited. No fees.
+- Topic choice: Wastewater operator (6), EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs. The five 11-explainer topics with no post today were Electrician licensing, Home inspector licensing,
+  Plumbing licensing, Welding certification and Solar PV certification; Solar PV was left out (every NABCEP credential
+  is already covered), leaving room for 2 posts in the evening run.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-23 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned only FAA 2026-23786 (technical amendment, already skipped on
+  2026-11-21). Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `npm ci` run; `npm run check` and `npm run format:check` passed.
+- Deploy: run 45232307319 succeeded.
+- Unreachable from the shell: www.maine.gov, www1.maine.gov, legislature.maine.gov, www.oregon.gov,
+  secure.sos.state.or.us and www.aws.org (all read with WebFetch); Wisconsin DSPS (CAPTCHA) not used.
