@@ -1175,3 +1175,35 @@ format:check` passed. The upgrade was not run (owner's decision).
 format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45085837630 succeeded.
 - Unreachable from the shell: dopl.idaho.gov, legislature.idaho.gov and www.nabcep.org (read with WebFetch).
+
+## 2026-11-23 (first run, scheduled 5:40 a.m. ET, started 5:39 a.m. ET)
+
+- 0 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 4).
+- Published (each written by a separate writer agent from eCFR text fetched this run, current to November 19, 2026, and
+  checked by another agent that re-fetched the official text):
+  - `cdl-stand-down-waiver-before-mro-verification-382-119` (explainer, CDL; eCFR 49 CFR 382.119, 382.107, 40.21).
+    Checker confirmed all quotes; fixes: "before it becomes final" (not in the rule) replaced by the MRO completing
+    verification, the 40.21(d) condition "in the context of the employer's organization" added, "protect effectively"
+    restored in the 40.21(d)(2) paraphrase.
+  - `osha-concrete-rebar-impalement-concrete-buckets-1926-701` (explainer, OSHA construction safety; eCFR 29 CFR
+    1926.700, 1926.701, Subpart Q contents). Checker confirmed all quotes; fix: the opening now says 1926.701 follows
+    1926.700 (it said Subpart Q starts with 1926.701). The current 1926.701 has no lockout/tagout paragraph.
+  - `can-you-remove-dot-hazmat-labels-placards-osha-1910-1201` (explainer, OSHA general industry safety; eCFR 29 CFR
+    1910.1201 and 1910.1200(f)). Checker confirmed all quotes; fixes: a period moved outside a quote, the (f)(8)
+    pharmacy-drug exemption named. No general industry guide covers 1910.1200, so the post links the construction
+    hazard communication guide and says so.
+  - `disinfection-profile-benchmark-small-surface-water-systems-141-530` (explainer, Drinking water operator; eCFR 40
+    CFR 141.501, 141.530 to 141.536, 141.540 to 141.544). Checker confirmed all quotes; fixes: the "Long Term 1 Enhanced
+    Surface Water Treatment Rule" label (not in any cited text) replaced by the Subpart T heading, curly quotes on "T"
+    and "C", the summary's State determination wording tightened to "only if". LT2 (141.708–709) left out.
+- Topic choice: Wastewater operator (6), EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs. Four 11-explainer topics with eCFR sources and no post today: CDL, OSHA construction safety, OSHA general
+  industry safety, Drinking water operator. 1910.242 was considered and dropped (already covered in the 1910.243 post).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-22 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned only FAA 2026-23786 (technical amendment, already skipped on
+  2026-11-21). Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `npm ci` run; `npm run check` stopped once on Next.js's security upgrade reminder and passed on retry; `npm run
+format:check` passed. The upgrade was not run (owner's decision).
+- Deploy: run 45159952154 succeeded.
+- Unreachable sources: none needed (all four posts use eCFR only).
