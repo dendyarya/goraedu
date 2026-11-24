@@ -1352,3 +1352,34 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45453424890 succeeded.
 - Unreachable from the shell: www.mass.gov and www.in.gov (proxy refused; read with WebFetch). Not readable at all:
   in.gov journeyman plumber application page (client error) and iga.in.gov Indiana Code PDF (JavaScript shell).
+
+## 2026-11-24 (third run, scheduled 6:40 p.m. ET, started 6:39 p.m. ET)
+
+- 8 posts were out today, so this run had room for 2 explainers (day ceiling 10). It published 0 rule changes and 2
+  explainers (day total 10).
+- Published (checked by a separate agent per post that re-fetched the eCFR text for 2026-11-23):
+  - `ground-water-system-4-log-virus-treatment-compliance-monitoring-141-403-b` (explainer, Drinking water operator;
+    eCFR 40 CFR 141.400, 141.403(b) to (d), 141.404(c) and (d); the 141.402 post had read only 141.403(a)). Checker
+    confirmed all quotes, numbers and Tier labels; fixes: "before or at the first customer" restored in the summary and
+    intro, the (b)(3) scope tied to 141.403(a)(6)(iv) instead of an inference, the (b)(1)/(b)(2) headings carry the
+    4-log condition, "absolute" MWCO, the State's alternative grab-sample time, and an unsourced clause on State
+    certification programs removed.
+  - `osha-construction-abrasive-wheels-grinder-guards-ring-test-1926-303` (explainer, OSHA construction safety; eCFR 29
+    CFR 1926.303, no OSHA construction guide covers it). Checker confirmed all quotes, angles, the 1/8-inch rest and the
+    58 FR 35175 citation; fixes: the (b)(2) exceptions limited to exposing the spindle end, nut and outer flange, the
+    90° limit scoped to wheels used for external grinding, the 2-inch mandrel exemption scoped to portable wheels (guard
+    and flange rules). ANSI B7.1-1970 is named, not summarized.
+- Topic choice: Wastewater operator, EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs; Solar PV skipped as in the second run. State licensing posts were tried first and dropped: Wisconsin
+  journeyman electrician (docs.legis.wisconsin.gov refused WebFetch with ROBOTS_UNREACHABLE; dsps.wi.gov returned a
+  CAPTCHA page or only a model summary, so nothing could be quoted) and Louisiana home inspector (the statute PDF and
+  legis.la.gov loaded, but the pre-licensing training and exam rules are in the board's rules, which were not reached,
+  and the PDF's 37:1479 is older than the current law). eCFR-only topics with one post today were taken instead.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-24 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned nothing. Sanity check (40 CFR 84 from 2026-05-01) returned the two May
+  26, 2026 HFC documents.
+- Build: `npm ci` run; `npm run check` stopped on Next.js's security upgrade reminder and passed on retry; `npm run
+format:check` passed. The upgrade was not run (owner's decision).
+- Deploy: run 45512974980 succeeded.
+- Unreachable: docs.legis.wisconsin.gov (robots), dsps.wi.gov (CAPTCHA), and from the shell all .gov state sites tried
+  (proxy). The eCFR versioner `full` endpoint now requires `curl --compressed`.
