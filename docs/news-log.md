@@ -1309,3 +1309,46 @@ format:check` passed. The upgrade was not run (owner's decision).
 format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45378175308 succeeded.
 - Unreachable sources: none needed (eCFR and the Federal Register API only).
+
+## 2026-11-24 (second run, scheduled 12:40 p.m. ET, started 12:40 p.m. ET)
+
+- 4 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 8).
+- Published (checked by a separate agent per post that re-fetched the official text):
+  - `massachusetts-journeyman-electrician-license-8000-hours-600-hours-education` (explainer, Electrician licensing;
+    Mass.gov application page, 237 CMR 13.00 and 22.00, Electricians FAQs). Checker confirmed all quotes; fixes: the
+    vocational shop credit now names DESE approval and Board approval, "as an apprentice" and "journeyman electrician"
+    added to 13.03(1)(a), the master-license sentence limited to applicants already licensed as a master in another
+    state (other than NH), out-of-state education quoted from the FAQ. The regulation PDF prints no effective date (the
+    post says so).
+  - `indiana-journeyman-plumber-license-four-years-exam-renewal` (explainer, Plumbing licensing; Indiana PLA Plumbing
+    Licensing Information page only). Checker confirmed all 7 quotes; fixes: the employer affidavit applies to both
+    trade options, the out-of-state license route limited to non-residents as in the quoted IC 25-28.5-1-12, the board
+    steps and "appeal with a petition" wording, PROV named for exam registration, reinstatement fees and the apprentice
+    sponsor form made exact. The journeyman application page (client error) and the Indiana Code PDF (JavaScript shell)
+    could not be read, so the statute is described only as quoted on the PLA page. No fees in the post.
+  - `indiana-home-inspector-license-course-exam-insurance-32-hours-ce` (explainer, Home inspector licensing; Indiana PLA
+    licensing page, application instructions, HILB July 1, 2024 compilation of IC 25-20.2 and 878 IAC 1). Fixes: the
+    exemptions' "within the scope" conditions, 5-2(a) described as including (not limited to) the listed
+    qualifications, insurance "or other evidence of financial responsibility", the board-notice wording, other-state
+    verification attributed correctly, 6-2(b) expiry wording, first-renewal CE from 878 IAC 1-5-1(e), record retention,
+    Category I list, reinstatement section no longer limited to licenses expired over 3 years. The post notes that the
+    page and the instructions differ on submission method and originals vs copies.
+  - `cdl-military-drivers-knowledge-skills-test-waiver-383-77` (explainer, CDL; eCFR 49 CFR 383.77, 383.3, current to
+    November 20, 2026). Checker confirmed all quotes, the eight job codes and the subparts; fixes: summary no longer
+    applies the job list to every waiver, (b)(2)(i)(C) quoted in full, "any type of motor vehicle" and "military, State
+    or local" traffic law restored, certify vs certify-and-evidence split, State conditions are minimums, (c)(4)(i)
+    1-year period, 83 FR 48975 effective date (Nov 27, 2018), title softened to "Waived".
+- Topic choice: Wastewater operator (6), EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs. The four 12-explainer topics with no post today: Electrician, Plumbing and Home inspector licensing (new
+  states: Massachusetts, Indiana, Indiana); Solar PV skipped (every NABCEP credential covered, the federal angles are on
+  the /solar-pv/ hub), so CDL (13, none today) was taken with 383.77 (only mentioned in passing in two posts).
+  Indiana plumbing card regenerated twice (title line touched the source box).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-24 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned nothing. Sanity check (40 CFR 84 from 2026-05-01) returned the two May
+  26, 2026 HFC documents.
+- Build: `npm ci` run; `npm run check` stopped on Next.js's security upgrade reminder and passed on retry; `npm run
+format:check` passed. The upgrade was not run (owner's decision).
+- Deploy: run 45453424890 succeeded.
+- Unreachable from the shell: www.mass.gov and www.in.gov (proxy refused; read with WebFetch). Not readable at all:
+  in.gov journeyman plumber application page (client error) and iga.in.gov Indiana Code PDF (JavaScript shell).
