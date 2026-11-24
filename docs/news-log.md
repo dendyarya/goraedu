@@ -1274,3 +1274,38 @@ format:check` passed. The upgrade was not run (owner's decision).
 format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45291962338 succeeded.
 - Unreachable sources: none needed (both posts use eCFR only).
+
+## 2026-11-24 (first run, scheduled 5:40 a.m. ET, started 5:40 a.m. ET)
+
+- 0 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 4).
+- Published (written from eCFR text fetched this run, current to November 20, 2026, and checked by a separate agent per
+  post that re-fetched the official text):
+  - `osha-construction-material-storage-stacking-limits-1926-250` (explainer, OSHA construction safety; eCFR 29 CFR
+    1926.250). Checker found no issues (all quotes verbatim, Subpart H title and the 84 FR 21577 amendment confirmed; no
+    guide covers 1926.250).
+  - `does-osha-require-fire-brigade-training-1910-156` (explainer, OSHA general industry safety; eCFR 29 CFR 1910.156,
+    1910.155; Federal Register 2023-28203, proposed Emergency Response Standard, Feb 5, 2024, abstract only, described as
+    a proposal). Checker found no text issues (the fire protection guide lists 1910.156 as not covered); the card was
+    not yet made at check time and was then generated.
+  - `lt2-cryptosporidium-bin-classification-filtered-systems-141-710-141-711` (explainer, Drinking water operator; eCFR
+    40 CFR 141.700, 141.701, 141.710, 141.711). Fixes: the "Long Term 2" name removed (not in the cited eCFR text; Subpart
+    W is titled "Enhanced Treatment for Cryptosporidium"), the summary's 1-to-3-log range limited to the three named
+    filtration types, the small-system E. coli opt-out (141.701(a)(3)(ii)) added, the part-year condition restored, the
+    141.711 table cells made verbatim, Bin 1 for alternative filtration stated, 141.711(d) wording tightened, link text
+    set to the full post title.
+  - `arc-welding-machine-hookup-grounding-cable-checks-osha-1910-254` (explainer, Welding certification; eCFR 29 CFR
+    1910.254, 1910.252 headings). Fixes: "before starting" limited to the (d)(2) connections check, the conduit rule
+    narrowed to completing a work-lead circuit, the (c)(3)(iv) voltage wording made exact. The guide's three 1910.254
+    points (voltage limits, frame grounding, 10-foot splices) are only referenced.
+- Topic choice: Wastewater operator (6), EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs. Of the eight 12-explainer topics, four with eCFR-only angles were taken (OSHA construction, OSHA general
+  industry, Drinking water operator, Welding certification); Electrician, Plumbing, Home inspector and Solar PV remain for
+  later runs. LT2 card regenerated once (title line touched the date box).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-23 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned only FAA 2026-23786 (technical amendment, already skipped on
+  2026-11-21). Sanity check (40 CFR 84 from 2026-05-01) returned the two May 26, 2026 HFC documents.
+- Build: `npm ci` run; `npm run check` stopped once on Next.js's security upgrade reminder and passed on retry; `npm run
+format:check` passed. The upgrade was not run (owner's decision).
+- Deploy: run 45378175308 succeeded.
+- Unreachable sources: none needed (eCFR and the Federal Register API only).
