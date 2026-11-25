@@ -1421,3 +1421,36 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45600202454 succeeded.
 - Unreachable from the shell: admincode.legislature.state.al.us, dcm.alabama.gov, www.legis.iowa.gov and dial.iowa.gov
   (proxy 403; read with WebFetch). mca.legmt.gov not reached (WebFetch permission timed out).
+
+## 2026-11-25 (second run, scheduled 12:40 p.m. ET, started 12:39 p.m. ET)
+
+- 3 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 7).
+- Published (each checked by a separate agent that re-fetched the eCFR text; all quotes also re-verified by script):
+  - `does-welding-machine-need-own-disconnect-switch-osha-1910-306-1926-406` (explainer, Welding certification; eCFR 29
+    CFR 1910.306(d), 1910.302, 1910.254, 1926.406(c), 1926.351, 1926.402; the construction welding guide lists
+    1926.406(c) as not covered). Fixes: 1910.254 citation corrected to (c)(3)(i), short answer no longer blends the two
+    rule texts (construction motor-generator arc welders need a disconnect even with one built in), summary limits the
+    1926.406(c) rating to resistance welders, unsourced AWS sentence and "(spot, seam and similar machines)" removed.
+  - `osha-swimming-pool-fountain-wiring-receptacles-gfci-1910-306-j` (explainer, Electrician licensing; eCFR 29 CFR
+    1910.306(j) and 1910.302(b)). Fixes: 1910.302(b) called the extent-of-application paragraph (not scope), state
+    licensing sentences reworded so they claim nothing about any state's boards or exams.
+  - `cdl-driving-for-more-than-one-carrier-multiple-employer-driver-391-63-391-65` (explainer, CDL; eCFR 49 CFR 391.63,
+    391.65, 390.5, 391.1; only a passing mention of 391.63 elsewhere). Fixes: summary keeps the 391.23 scope, the
+    "before the driver drives" and "after employment ceases" conditions and the 391.65(a) not-our-single-employer-driver
+    condition; "lent" replaced by the rule's "furnished"; certificate item (iii) added; FMCSA naming replaced by the
+    regulations' own name; the "all requirements of this part" sentence now quoted. Card regenerated twice (title line
+    touched the date box).
+  - `osha-construction-temporary-heaters-salamanders-clearance-1926-154` (explainer, OSHA construction safety; eCFR 29
+    CFR 1926.154, 1926.153 named only; no guide or post covered 1926.154). Checker found no content issues.
+- Topic choice: Wastewater operator, EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs; Solar PV skipped as in the 2026-11-24 runs. Welding and Electrician (13 each, none published today) taken
+  through their federal eCFR angles (state board sites refuse the shell and failed in earlier runs), then CDL and OSHA
+  construction (14 each, none today). Drinking water operator (14, none today) left for the third run.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-24 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned nothing. Sanity check (40 CFR 84 from 2026-05-01) returned the two May
+  26, 2026 HFC documents.
+- Build: `npm ci` run; `npm run check` stopped on Next.js's security upgrade reminder and passed on retry; `npm run
+format:check` passed. The upgrade was not run (owner's decision).
+- Deploy: run 45668507019 succeeded.
+- Unreachable: none needed (eCFR and federalregister.gov APIs reached from the shell).
