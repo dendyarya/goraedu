@@ -1383,3 +1383,41 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45512974980 succeeded.
 - Unreachable: docs.legis.wisconsin.gov (robots), dsps.wi.gov (CAPTCHA), and from the shell all .gov state sites tried
   (proxy). The eCFR versioner `full` endpoint now requires `curl --compressed`.
+
+## 2026-11-25 (first run, scheduled 5:40 a.m. ET, started 5:39 a.m. ET)
+
+- No posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 3 explainers (day
+  total 3).
+- Published (each checked by a separate agent that re-read the official text):
+  - `osha-fixed-fire-extinguishing-systems-inspection-alarms-1910-160` (explainer, OSHA general industry safety; eCFR 29
+    CFR 1910.160, current as of November 23, 2026; the fire protection guide lists 1910.160 to 1910.163 as not
+    covered). Checker confirmed all quotes and both internal links; fixes: the (a)(2) limit to (b)(4) to (b)(7) and (c)
+    stated before the requirements, summary scoped (refillable vs nonrefillable containers, discharge-alarm exception,
+    (c)(2) exemption), (c)(2) placed before (c)(3), closing description of the study guide corrected (fire brigades are
+    not in it), intro examples replaced by the agent types of 1910.161 to 1910.163.
+  - `alabama-home-inspector-license-education-exams-insurance-15-hours-ce` (explainer, Home inspector licensing; Alabama
+    Administrative Code 355-17-1 via the Legislature's admincode API, DCM renewal form). Fixes: curly apostrophe and
+    period in two quotes, the renewal form no longer called "2026" (only the file name says so), the 2021-license-year
+    condition on 1.08(2), exam described as on the Standards of Practice and ethics. No dollar amounts (fees and
+    insurance minimums left out). The Code of Alabama 34-14B was found only on a non-.gov site, so it is not used.
+  - `iowa-journeyperson-plumber-license-apprenticeship-exam-renewal` (explainer, Plumbing licensing; Iowa Code 105.18 and
+    105.20 (2026), four DIAL plumbing licensure pages). Fixes: "at least" four years in the title, summary names the
+    master-license route, Exam Approval Letter quote credited to the Examination page, the DOL certificate condition
+    and the apprentice-candidate scope restored, the South Dakota reciprocity conditions, per-attempt exam fee (no
+    amount), 105.20(5)(a) quote split at its period. Dropped: the exam page's "36 months" option (conflicts with 48
+    months elsewhere) and the 105.18(4) waiver (only fragments read).
+- Held: Montana journeyman electrician (drafted from the Montana Electrical Board pages). Not published because the
+  statute was read only in the board's unofficial 2024 booklet (mca.legmt.gov not reached), the board home page, booklet
+  and FAQ give different continuing education hours, the checklist and booklet differ on the 8,000-hour route, and 2025
+  bills (HB 414, HB 246, HB 497) changed parts of the law. No other Electrician licensing post this run.
+- Topic choice: Wastewater operator, EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs; Solar PV skipped as in the 2026-11-24 runs. Topics with 13 explainers taken: Electrician (held), Plumbing,
+  Home inspector licensing, OSHA general industry safety.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-24 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned nothing. Sanity check (40 CFR 84 from 2026-05-01) returned the two May
+  26, 2026 HFC documents.
+- Build: `npm run check` stopped on Next.js's security upgrade reminder and passed on retry; `npm run format:check`
+  passed. The upgrade was not run (owner's decision). OSHA card regenerated once (line touched the date box).
+- Deploy: run 45600202454 succeeded.
+- Unreachable from the shell: admincode.legislature.state.al.us, dcm.alabama.gov, www.legis.iowa.gov and dial.iowa.gov
+  (proxy 403; read with WebFetch). mca.legmt.gov not reached (WebFetch permission timed out).
