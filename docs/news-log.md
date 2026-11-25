@@ -1454,3 +1454,38 @@ format:check` passed. The upgrade was not run (owner's decision).
 format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45668507019 succeeded.
 - Unreachable: none needed (eCFR and federalregister.gov APIs reached from the shell).
+
+## 2026-11-25 (third run, scheduled 6:40 p.m. ET, started 6:39 p.m. ET)
+
+- 7 posts were out today, so this run had room for 3 explainers. It published 0 rule changes and 3 explainers (day
+  total 10).
+- Published (each checked by a separate agent that re-fetched the eCFR text; all quotes also re-verified by script):
+  - `lt2-microbial-toolbox-cryptosporidium-treatment-credits-141-715` (explainer, Drinking water operator; eCFR 40 CFR
+    141.715; the toolbox was only mentioned in passing in the bin post). Fixes: bank filtration's "not eligible for
+    additional credit" sentence for wells sampled during source water monitoring added, summary keeps the slow sand
+    secondary/primary split, watershed credit marked filtered-only, bag/cartridge credit tied to challenge testing,
+    presedimentation's alternative State-approved criteria, State-approved protocol, CT table and UV dose table wording
+    restored in the table.
+  - `osha-manlift-inspection-every-30-days-limit-switches-1910-68` (explainer, OSHA general industry safety; eCFR 29 CFR
+    1910.68; no guide or post covered it). Fixes: unsourced list of places where manlifts are used removed, "No
+    materials of any kind" replaced by the rule's own list and heading no longer mentions tools, summary states the
+    trained-and-authorized wording as scope, limit switch now defined from (a)(4) with the up limit stops in (c)(5)(i),
+    "It is not intended that this section cover" quoted, sign wording cited to (c)(7)(i)(b). Card regenerated once
+    (question mark touched the date box).
+  - `osha-batteries-battery-charging-construction-1926-441` (explainer, Electrician licensing; eCFR 29 CFR 1926.441,
+    1910.305(j)(7), 1910.178(g)(1); 1926.441 was in no guide or post). Fixes: unsourced intro about electricians and
+    crews and the unsourced "licenses are issued by States and cities" sentence removed, floor condition ("unless
+    protected from acid accumulations") and "eyes and body ... of battery handling areas" kept in the summary, "eyewash"
+    replaced by the rule's "quick drenching" (slug renamed before publishing), unsealed-battery scope limited to (a)(1).
+- Topic choice: Wastewater operator, EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs; Solar PV skipped as in the 2026-11-24 runs. Drinking water operator (14, none today) first, then OSHA
+  general industry safety and Electrician licensing (14 each, one today) through uncovered eCFR sections. Plumbing (40
+  CFR 143 Subpart B) and Home inspector (40 CFR 745 Subpart F) not taken: their federal sections are already in study
+  guides.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-25 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned nothing. Sanity check (40 CFR 84 from 2026-05-01) returned the two May
+  26, 2026 HFC documents.
+- Build: `npm run check` stopped on Next.js's security upgrade reminder and passed on retry; `npm run format:check`
+  passed. The upgrade was not run (owner's decision).
+- Deploy: run 45724319168 succeeded.
+- Unreachable: none needed (eCFR and federalregister.gov APIs reached from the shell).
