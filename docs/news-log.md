@@ -1489,3 +1489,41 @@ format:check` passed. The upgrade was not run (owner's decision).
   passed. The upgrade was not run (owner's decision).
 - Deploy: run 45724319168 succeeded.
 - Unreachable: none needed (eCFR and federalregister.gov APIs reached from the shell).
+
+## 2026-11-26 (first run, scheduled 5:40 a.m. ET, started 5:40 a.m. ET)
+
+- No posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 4).
+- Published (each checked by a separate agent that re-fetched the official text):
+  - `connecticut-home-inspector-license-intern-permit-100-inspections-20-hours-ce` (explainer, Home inspector licensing;
+    Connecticut General Statutes chapter 400f (2025 edition, cga.ct.gov), DCP form HOI-01 Rev. 12/2023, DCP home
+    inspector CE page). Checker verified every quote verbatim; fixes: federal employees no longer tied to the "scope of
+    employment" condition (it applies only to state and local employees in 20-492(a)), exemption wording limited to
+    sections 20-490 to 20-495a, board cited to 20-490a, hardship exception quoted with its verification requirement,
+    summary names all three intern permit conditions. Dropped: training-program hours (only in Regs. Conn. State
+    Agencies 20-491-27, no .gov copy read), insurance, intern permit time limits, fees. Card regenerated once (title
+    touched the source box).
+  - `connecticut-journeyperson-plumber-license-p2-apprenticeship-exam-renewal` (explainer, Plumbing licensing; four DCP
+    pages, General Statutes chapter 393 (2025 edition and 2026 supplement, 20-333(b) as amended by P.A. 25-111)).
+    Checker verified every quote verbatim; fixes: title no longer drops the 576 classroom hours, "rather than on their
+    own" removed, P.A. 25-111 named, 30-day exam rule scoped to 20-334a apprentices, 20-334d(c) actor corrected to the
+    commissioner, CE page's "unlimited journeyperson" category marked as corresponding to P-2, "firm" removed. Card
+    regenerated once.
+  - `oxy-fuel-welding-hose-regulator-rules-use-no-oil-300-psi-osha-1910-253-e` (explainer, Welding certification; eCFR
+    29 CFR 1910.253(e); the welding guide does not cover (e)). Checker confirmed all 13 quotes; fixes: unsourced
+    opening sentence removed, (e)(1) no longer said to apply to the whole paragraph, portable outlet headers named,
+    study guide description completed.
+  - `cdl-limb-loss-impairment-skill-performance-evaluation-spe-certificate-391-49` (explainer, CDL; eCFR 49 CFR 391.49,
+    391.41; the driver qualifications guide lists 391.49 as not summarized). Checker confirmed all quotes; fixes:
+    "otherwise qualified" in summary and intro, unilateral application scope, (e)(1) filing scope and (e)(3) duty, the
+    pre-1986 waiver exception, unilateral employment application, renewal filing location, 391.41(a)(1)(ii) carry rule.
+- Topic choice: Wastewater operator, EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs; Solar PV skipped as in the 2026-11-24 runs. The three 14-explainer topics (Home inspector, Plumbing,
+  Welding) first, then CDL (15). Connecticut was not yet covered for either license.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-25 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned nothing. Sanity check (40 CFR 84 from 2026-05-01) returned the two May
+  26, 2026 HFC documents.
+- Build: `npm run check` and `npm run format:check` passed.
+- Deploy: run 45805933660 succeeded.
+- Unreachable: cga.ct.gov "current" statute pages refused WebFetch (robots.txt), so the 2025 edition and 2026
+  supplement were used; Regs. Conn. State Agencies found only on non-.gov copies (not used).
