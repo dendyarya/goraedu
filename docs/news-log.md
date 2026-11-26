@@ -1527,3 +1527,38 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45805933660 succeeded.
 - Unreachable: cga.ct.gov "current" statute pages refused WebFetch (robots.txt), so the 2025 edition and 2026
   supplement were used; Regs. Conn. State Agencies found only on non-.gov copies (not used).
+
+## 2026-11-26 (second run, scheduled 12:40 p.m. ET, started 12:40 p.m. ET)
+
+- 4 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 8).
+- Published (each checked by a separate agent that re-fetched the official text):
+  - `osha-air-receiver-drain-valve-safety-valve-pressure-gage-1910-169` (explainer, OSHA general industry safety; eCFR
+    29 CFR 1910.169, in no guide or post). Checker confirmed all 17 quotes and the scope limits; fixes: unsourced
+    opening sentence replaced, summary says the receiver is drained "completely".
+  - `osha-construction-woodworking-tools-circular-saw-guards-radial-saw-1926-304` (explainer, OSHA construction safety;
+    eCFR 29 CFR 1926.304, in no guide or post). Fixes: unsourced opening sentence and an interpretive sentence on lower
+    guards removed, (a) no longer implies portable tools are exempt, (g)(1) quote completed ("to give maximum protection
+    possible for the operation being performed").
+  - `drinking-water-sodium-monitoring-community-systems-141-41` (explainer, Drinking water operator; eCFR 40 CFR 141.41,
+    141.42, in no guide or post). Fixes: subpart corrected to Subpart E (Special Regulations, Including Monitoring) in
+    the text and source URLs, opening sentence and "does not extend" inference reworded to what the rule says, State
+    extra sampling keeps "in locations where the sodium content is variable", 141.42 "other materials" quote completed.
+  - `connecticut-e2-journeyperson-electrician-license-8000-hours-720-classroom` (explainer, Electrician licensing; four
+    DCP pages, General Statutes chapter 393 (2025) 20-334a, Public Act 25-111 section 6 amending 20-333(b)). Fixes:
+    "registered apprenticeship program (as set forth in section 31-22r)" restored, 30-day exam quote completed with "or
+    a person authorized by the department", summary CE wording clarified. Not stated: the renewal/expiration date (no
+    DCP page read gives it; 20-335 and 20-334d were not read verbatim) and the Electrical Work Examining Board's name.
+- Topic choice: Wastewater operator, EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs; Solar PV skipped as in the 2026-11-24 runs. The four 15-explainer topics with no post today (Drinking
+  water operator, Electrician licensing, OSHA construction safety, OSHA general industry safety) taken. Connecticut was
+  not yet covered for electricians. Considered and not taken: 40 CFR 141.43 (lead-free rules are in a water-operator
+  guide), 141.111 (kept for a later run).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-26 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned nothing. Sanity check (40 CFR 84 from 2026-05-01) returned the two May
+  26, 2026 HFC documents.
+- Build: `npm run check` stopped on Next.js's security upgrade reminder and passed on retry; `npm run format:check`
+  passed. The upgrade was not run (owner's decision).
+- Deploy: run 45872170118 succeeded.
+- Unreachable: cga.ct.gov and prdext3.cga.ct.gov refused by the shell's proxy; the 2025 chapter 393 page and Public
+  Act 25-111 were read with WebFetch from search-result URLs; the 2026 supplement was not read.
