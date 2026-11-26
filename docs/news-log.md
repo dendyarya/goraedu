@@ -1562,3 +1562,31 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45872170118 succeeded.
 - Unreachable: cga.ct.gov and prdext3.cga.ct.gov refused by the shell's proxy; the 2025 chapter 393 page and Public
   Act 25-111 were read with WebFetch from search-result URLs; the 2026 supplement was not read.
+
+## 2026-11-26 (third run, scheduled 6:40 p.m. ET, started 6:40 p.m. ET)
+
+- 8 posts were out today, so this run had room for 2 explainers (min(4, 10 - 8)). It published 0 rule changes and 2
+  explainers (day total 10).
+- Published (each checked by a separate agent that re-fetched the official text):
+  - `rhode-island-home-inspector-license-100-inspections-associate-50-12-hours-ce` (explainer, Home inspector licensing;
+    four CRLB pages (license, apply, FAQs, renew) and 440-RICR-10-00-5, amendment effective Feb 22, 2026). Rhode Island
+    was not yet covered. Fixes: apply-page insurance quote corrected to "are required to maintain", 5.24.3(C) quote
+    ends at "inspections" and keeps the delivered-only-to-the-client condition. No fees or insurance minimums.
+  - `michigan-journey-plumber-license-6000-hours-written-practical-exam` (explainer, Plumbing licensing; LARA's
+    journeyperson flowchart PDF and journey plumber application form BCC-329A 11/21, both read in full). Michigan was
+    not yet covered. Fixes: period moved outside the flowchart's 6,000-hours quote; the "Licensure without examination"
+    section now says it is the military examination waiver and needs both military/veteran/dependent status and a
+    license in another state. Not used: LARA's plumbing exam page and renewals page (WebFetch returned only the first
+    ~40,000 characters, so the renewal date, code-update course and exam-application validity could not be read
+    verbatim); the post says the flowchart and form give no renewal date or CE hours.
+- Topic choice: Wastewater operator, EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs; Solar PV skipped as in the 2026-11-24 runs. Home inspector and Plumbing licensing (15 each, one post
+  today) taken; Welding (15) not taken (only two slots; its eCFR sections are in the welding guides).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-26 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned nothing. Sanity check (40 CFR 84 from 2026-05-01) returned the two May
+  26, 2026 HFC documents.
+- Build: `npm ci` needed (node_modules missing); `npm run check` stopped on Next.js's security upgrade reminder and
+  passed on retry; `npm run format:check` passed. The upgrade was not run (owner's decision).
+- Deploy: run 45913126743 succeeded.
+- Unreachable: www.michigan.gov, crb.ri.gov and rules.sos.ri.gov refused by the shell's proxy (read with WebFetch from
+  search-result URLs); two michigan.gov HTML pages only partly readable (see above).
