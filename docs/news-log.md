@@ -1625,3 +1625,40 @@ format:check` passed. The upgrade was not run (owner's decision).
   `curl --compressed` (it returns an error without an Accept-Encoding header).
 - Deploy: run 45985533245 succeeded.
 - Unreachable: none needed (www.aws.org read with WebFetch, as in earlier runs).
+
+## 2026-11-27 (second run, scheduled 12:40 p.m. ET, started 12:40 p.m. ET)
+
+- 4 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 8).
+- Published (each checked by a separate agent that re-fetched the official text):
+  - `acrylamide-epichlorohydrin-treatment-technique-annual-certification-141-111` (explainer, Drinking water operator;
+    eCFR 40 CFR 141.111, 141.110, 141.50, Subpart Q (141.203, 141.205, Appendices A and B) and EPA's NPDWR table;
+    neither contaminant is in any guide or post). Fixes: opening no longer implies these are the only two
+    contaminants without an MCL; period moved outside the EPA "Sources" quote; possible primacy agency extension added
+    to the list of Tier 2 conditions not covered.
+  - `nebraska-journeyman-electrician-license-experience-exam-renewal` (explainer, Electrician licensing; Nebraska State
+    Electrical Board pages (journeyman, exam information, CE), State Electrical Act PDF (July 2026), statutes 81-2117.01
+    and 81-2118). Nebraska was not yet covered. Fixes: 81-2115 quote completed ("to insure his or her competence"),
+    contact-hour quote completed with "at an approved course under a qualified instructor approved by the board" and
+    cited as 81-2117.01(1)(c). 81-2118's "November 31" (source typo) not quoted; Policy 37 (retest wait) not read and
+    not described.
+  - `kentucky-journeyman-plumber-license-apprentice-years-exam-continuing-education` (explainer, Plumbing licensing;
+    815 KAR 20:030, 815 KAR 2:010, Form PLB-2 (April 2023)). Kentucky plumbing was not yet covered. Fixes: void-
+    application quote cited as Section 1(1)(b); practical-section lead-in reworded to the regulation's "demonstrate the
+    ability to properly install plumbing".
+  - `louisiana-home-inspector-license-130-hours-10-live-inspections-20-hours-ce` (explainer, Home inspector licensing;
+    La. R.S. 37:1477 and LAC 46:XL (October 2024 edition), both read in full with WebFetch). Louisiana was not yet
+    covered. The statute's "at least one hundred twenty hours" and the rule's 130 hours are both quoted as written.
+    Fix: comma moved outside the 115.E insurance-waiver quote. No insurance amounts.
+- Topic choice: Wastewater operator, EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs; Solar PV skipped as in the 2026-11-24 runs. The four 16-explainer topics with no post today (Drinking
+  water operator, Electrician, Plumbing, Home inspector licensing) taken; Welding (16, one today) left for later.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-27 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned nothing. Sanity check (40 CFR 84 from 2026-05-01) returned the two May
+  26, 2026 HFC documents.
+- Build: `npm ci` needed (node_modules missing); `npm run check` stopped on Next.js's security upgrade reminder and
+  passed on retry; `npm run format:check` passed. The upgrade was not run (owner's decision). Two cards regenerated once
+  (title lines touched the source box).
+- Deploy: run 46045260240 succeeded.
+- Unreachable from the shell: electrical.nebraska.gov, nebraskalegislature.gov, apps.legislature.ky.gov, dhbc.ky.gov,
+  legis.la.gov and doa.louisiana.gov (all read with WebFetch).
