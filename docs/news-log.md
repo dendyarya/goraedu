@@ -1590,3 +1590,38 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 45913126743 succeeded.
 - Unreachable: www.michigan.gov, crb.ri.gov and rules.sos.ri.gov refused by the shell's proxy (read with WebFetch from
   search-result URLs); two michigan.gov HTML pages only partly readable (see above).
+
+## 2026-11-27 (first run, scheduled 5:40 a.m. ET, started 5:39 a.m. ET)
+
+- 0 posts were out today, so this run had room for 4 explainers. It published 0 rule changes and 4 explainers (day
+  total 4).
+- Published (each checked by a separate agent that re-fetched the official text):
+  - `cdl-clearinghouse-petition-correct-wrong-information-382-717` (explainer, CDL; eCFR 49 CFR 382.717, 382.707,
+    382.709, in no guide or post). Checker confirmed all quotes and days (45, 14, 30). Fixes: opening sentence reworded
+    to what Subpart G states, three quote-final commas moved outside the quotes, "conviction" meaning (part 383) added.
+  - `osha-construction-confined-space-host-employer-controlling-contractor-1926-1203` (explainer, OSHA construction
+    safety; eCFR 29 CFR 1926.1201, 1926.1202, 1926.1203; Subpart AA is in no guide or post). Fixes: intro now says the
+    1201(a) note lists manholes, tanks and transformer vaults as confined spaces (not permit spaces); (b) keeps "of the
+    existence and location of, and the danger posed by, each permit space"; (c) keeps the identifies-or-receives-notice
+    condition; (d) keeps "implemented at the construction site" and availability; (h)(2)(ii)(C) includes the
+    controlling contractor's own precautions; (h)(3)(i) "all of" restored; (h)(5) quotes completed.
+  - `osha-silica-medical-exams-general-industry-30-days-action-level-1910-1053-i` (explainer, OSHA general industry
+    safety; eCFR 29 CFR 1910.1053, in no general industry guide or post). Fixes: PLHCP definition quote capitalized as
+    in (b); (a)(3) exception now lists both conditions; (a)(1) construction exception cites 1910.12(b).
+  - `aws-certified-welding-engineer-cweng-eligibility-exam-renewal` (explainer, Welding certification; AWS's CWEng
+    program page, read with the web-fetch agent from a search-result URL). Checker confirmed 15 quotes through WebFetch
+    (yes/no confirmation, the tool would not return the full page). Fixes: "My AWS Portal" spelling, B5.16:2006 edition
+    named. No fees or salary claims (the page has both). Not stated on the page: question count, time, passing score.
+- Topic choice: Wastewater operator, EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs; Solar PV skipped as in the 2026-11-24 runs. Welding certification (15) first; OSHA 1910 Subpart Q and
+  1926 Subpart J are covered by guides and posts, so AWS's CWEng (not yet covered) was used. Then three 16-explainer
+  topics with eCFR sources (CDL, OSHA construction, OSHA general industry), each picked from sections that no guide,
+  question set or post cites (checked by script against the eCFR structure).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-26 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned nothing. Sanity check (40 CFR 84 from 2026-05-01) returned the two May
+  26, 2026 HFC documents.
+- Build: `npm run check` stopped on Next.js's security upgrade reminder and passed on retry; `npm run format:check`
+  passed. The upgrade was not run (owner's decision). The eCFR versioner "full" endpoint now requires
+  `curl --compressed` (it returns an error without an Accept-Encoding header).
+- Deploy: run 45985533245 succeeded.
+- Unreachable: none needed (www.aws.org read with WebFetch, as in earlier runs).
