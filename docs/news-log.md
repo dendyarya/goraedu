@@ -1662,3 +1662,30 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Deploy: run 46045260240 succeeded.
 - Unreachable from the shell: electrical.nebraska.gov, nebraskalegislature.gov, apps.legislature.ky.gov, dhbc.ky.gov,
   legis.la.gov and doa.louisiana.gov (all read with WebFetch).
+
+## 2026-11-27 (third run, scheduled 6:40 p.m. ET, started 6:39 p.m. ET)
+
+- 8 posts were out today, so this run had room for 2 explainers. It published 0 rule changes and 2 explainers (day
+  total 10).
+- Published (each checked by a separate agent that re-fetched the official text):
+  - `who-can-teach-cdl-entry-level-driver-training-instructor-rules-380-713` (explainer, CDL; eCFR 49 CFR 380.713,
+    380.605, 380.703; 380.713 and the instructor definitions were cited by no guide or post). Fixes: opening now lists
+    every test that entry-level driver training must come before (380.605), "not something the knowledge test is built
+    around" removed, BTW paraphrase matched to "same or higher class", "vehicles" changed to "equipment" (380.711).
+  - `who-can-be-a-blaster-osha-construction-qualifications-1926-901` (explainer, OSHA construction safety; eCFR 29 CFR
+    1926.901, 1926.900, 1926.909 to 1926.911, 1926.914; Subpart U is in no guide or post). Fixes: space removed before
+    the dash in the 1926.914 "Blaster—" quote, summary names the employer's duty in 1926.900(a), underground scope of
+    1926.909(e) stated outside the quote, link text now says Subpart C instead of "every construction site".
+- Topic choice: Wastewater operator, EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs; Solar PV skipped as in the 2026-11-24 runs. Welding certification (16, one today) was tried first on
+  AWS's Accredited Test Facility (ATF) page and dropped: the web-fetch agent would only return short quotes, and the
+  page is mid-transition (it cites QC47:2016-AMD2, QC47:2016-AMD3 and QC4-89 for the same certificates, with legacy
+  resources "until Q1 of 2027"), so the post could not be fully verified. Then two 17-explainer topics with eCFR
+  sources (CDL, OSHA construction), each picked from sections that no guide, question set or post cites (checked by
+  script against the eCFR structure).
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-27 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned nothing. Sanity check (40 CFR 84 from 2026-05-01) returned the two May
+  26, 2026 HFC documents.
+- Build: `npm run check` and `npm run format:check` passed.
+- Deploy: run 46084492140 succeeded.
+- Unreachable: none needed (www.aws.org read with WebFetch for the dropped post).
