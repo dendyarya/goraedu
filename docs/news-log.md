@@ -1689,3 +1689,39 @@ format:check` passed. The upgrade was not run (owner's decision).
 - Build: `npm run check` and `npm run format:check` passed.
 - Deploy: run 46084492140 succeeded.
 - Unreachable: none needed (www.aws.org read with WebFetch for the dropped post).
+
+## 2026-11-28 (first run, scheduled 5:40 a.m. ET, started 5:39 a.m. ET)
+
+- 0 posts were out today, so this run had room for 3 or 4 explainers. It published 0 rule changes and 3 explainers (day
+  total 3).
+- Published (each checked by a separate agent that re-fetched the official text):
+  - `stage-2-dbp-operational-evaluation-level-tthm-haa5-141-626` (explainer, Drinking water operator; eCFR 40 CFR
+    141.626, 141.625, 141.629, 141.620, 141.64; operational evaluation levels are in no guide or post, and the DBP guide
+    covers Subpart L only). Fixes: summary "results" plural, MCL citation to 141.64(b)(2)(i), "earlier warning point"
+    and "not from the end of the quarter" removed (not in the text), study-guide link notes Subpart V is not covered.
+  - `osha-hexavalent-chromium-exposure-monitoring-general-industry-1910-1026-d` (explainer, OSHA general industry
+    safety; eCFR 29 CFR 1910.1026; the section is in no general industry guide, question set or post). Fixes: (d)(2)(ii)
+    bullet limited to initial monitoring, "affected employees" in (d)(6)(i), (d)(5) trigger condition kept, summary
+    names the notify-or-post choice, one quote boundary corrected after the script check. Card regenerated once (title
+    line touched the date box).
+  - `wisconsin-journeyman-electrician-license-8000-hours-exam-24-hours-ce` (explainer, Electrician licensing; Wis.
+    Admin. Code SPS 305.44 on docs.legis.wisconsin.gov and DSPS Form #3106 (Rev. 10/2021), both read with WebFetch).
+    Wisconsin electrician was not yet covered. The form's extra hour-counting methods and Iowa/New Hampshire route are
+    not in SPS 305.44, so the post only says the form describes them and to check with DSPS. No fees. Fixes: (6)(a)1.
+    and 2. cited separately, supervisor wording includes registration and residential master, editorial correction to
+    (4) noted, OSHA link text narrowed.
+- Skipped: Welding certification (16, the lowest topic) planned on AWS's Certified Resistance Welding Technician (CRWT)
+  page; the web-fetch agent only got navigation verbatim and a model summary of the program text (eligibility, exam,
+  five-year validity, recertification by re-exam), so nothing could be quoted or verified and the post was not written.
+  A fourth explainer was not attempted; later runs today have room for up to 7 more posts.
+- Topic choice: Wastewater operator, EPA 609, FAA Part 107, Forklift operator and EPA 608 skipped for the reasons in
+  earlier runs; Solar PV skipped as in the 2026-11-24 runs. Then three 17-explainer topics (Drinking water operator,
+  OSHA general industry safety, Electrician licensing), the eCFR ones picked from sections no guide, question set or
+  post cites.
+- Rule changes: none. Federal Register API search (RULE and PRORULE, published 2026-11-27 or later) for every CFR part
+  in docs/daily-news.md plus 40 CFR 143 returned nothing. Sanity check (40 CFR 84 from 2026-05-01) returned the two May
+  26, 2026 HFC documents.
+- Build: `npm ci` needed (node_modules missing); `npm run check` and `npm run format:check` passed.
+- Deploy: run 46136910933 succeeded.
+- Unreachable from the shell: docs.legis.wisconsin.gov, dsps.wi.gov and www.aws.org (read with WebFetch). The DSPS
+  journeyman electrician web page showed a captcha to WebFetch, so only the code and Form #3106 were used.
